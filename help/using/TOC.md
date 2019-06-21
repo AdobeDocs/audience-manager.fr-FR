@@ -278,7 +278,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [Présentation des transferts de données sortantes par lots](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [Fichier de données sortantes - nom : Syntaxe et exemples](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [Transfert de fichiers de contrôle pour les transferts de fichiers journaux](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
-         + [Macros de création de modèles sortants](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md) (en anglais)
+         + [Macros de création de modèles sortants](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [Exemples de macro sortante](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
          + [Utiliser les autorisations de compartiments inter-comptes Amazon S3 pour les fichiers de sortie](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
    + Sending Audience Data{#sending-audience-data}
