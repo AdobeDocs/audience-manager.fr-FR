@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Envoi de données batch à l'aperçu Audience Manager
 uuid: 472583 b 1-5057-4 add -8 e 3 c -5 e 50762 c 88 e 0
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -52,7 +52,6 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 Les noms et le contenu des fichiers suivent des directives strictes. You *must* name and organize data files according to these specifications in this guide. Voir :
 
 * [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Exigences en matière de nom FTP pour les fichiers de données entrants](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 * [Contenu du fichier de données entrant : Syntaxe, variables et exemples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Les données en ligne sont disponibles pour les actions marketing hors ligne
