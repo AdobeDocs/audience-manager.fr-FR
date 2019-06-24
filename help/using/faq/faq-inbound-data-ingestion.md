@@ -7,7 +7,7 @@ solution: Audience Manager
 title: FAQ sur l'assimilation des données client inbound
 uuid: 491 e 9 ec 1-4731-46 a 8-86 e 7-d 8 c 613 e 6 cedc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -194,7 +194,6 @@ Les cas d&#39;utilisation suivants montrent comment ces types de fichier affecte
 Pour plus d&#39;informations sur les types de fichiers incrémentiels et complets, voir :
 
 * [Exigences de taille et de fichier Amazon S 3 pour les données entrantes…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Exigences en matière de nom FTP et de taille de fichier pour les fichiers de données entrants…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br> 
 
@@ -209,7 +208,7 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 Les horodatages sont utilisés pour la journalisation et l&#39;enregistrement. Ils sont requis par la syntaxe utilisée pour un fichier entrant correctement formaté - nom. Voir :
 
 * [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Exigences en matière de nom FTP et de taille de fichier pour les fichiers de données entrants…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
@@ -231,7 +230,7 @@ Oui, voir:
 
 * [Compression de fichier pour les fichiers de transfert de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Exigences en matière de nom FTP pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
