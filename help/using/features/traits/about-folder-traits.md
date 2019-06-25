@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Caractéristiques du dossier à propos de
 uuid: e 561 ce 8 f -6 c 90-44 a 7-b 034-685533 f 29030
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -62,6 +62,6 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 | Élément | Description |
 |---|---|
 | Type de caractéristique | [!UICONTROL Onboarded traits] et [!UICONTROL algorithmic traits] contribuer au maximum 1 à la fréquence d&#39;une [!UICONTROL folder trait]fréquence. |
-| Déplacement de caractéristiques entre les dossiers | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Cela signifie que si vous supprimez ou déplacez une caractéristique du dossier, les utilisateurs de la population de la caractéristique ne sont pas segmentés des segments à l&#39;aide de la caractéristique de dossier comme expression de segment. |
+| Déplacement de caractéristiques entre les dossiers | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Cela signifie que si vous supprimez ou déplacez une caractéristique du dossier, les utilisateurs de la population de la caractéristique ne sont pas segmentés des segments à l&#39;aide de la caractéristique de dossier comme expression de segment. <br> Lors du mappage des segments ou des suites de rapports Adobe Analytics à votre organisation Experience Cloud, Audience Manager crée automatiquement des segments et caractéristiques en lecture seule correspondants. Vous ne pouvez pas modifier ni modifier l&#39;emplacement de stockage de ces caractéristiques depuis Audience Manager. Toutefois, toute modification que vous effectuez sur vos segments ou suites de rapports mappés est répercutée dans Audience Manager. |
 | Variables système | [!UICONTROL Folder traits] ne peut pas être réalisé dans les appels d&#39;événement à l&#39;aide du `d_sid` paramètre. |
 | Création de rapports   | [!UICONTROL Folder traits] sont des caractéristiques calculées automatiquement et n&#39;apparaissent **[!UICONTROL Overlap Reports]** pas dans. |
