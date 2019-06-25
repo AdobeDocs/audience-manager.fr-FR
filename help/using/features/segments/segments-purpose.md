@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Finalité des segments, composition et règles
 uuid: 886 d 4 abe-b 1 b 6-4983-b 4 fb-b 552 d 54 d 51 ba
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -26,6 +26,10 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 ## Composition de segment
 
 Un segment Audience Manager est une règle côté serveur qui consiste en une personne ou des groupes de caractéristiques. Les caractéristiques sont composées d&#39;éléments de données appelés paires clé-valeur. Outre les règles que vous définissez au niveau du segment, ces paires clé-valeur contiennent les critères qui qualifient les visiteurs pour l&#39;appartenance aux caractéristiques et aux segments.
+
+## Remarques sur le mappage des segments Adobe Analytics
+
+Lors du mappage des segments ou des suites de rapports Adobe Analytics à votre organisation Experience Cloud, Audience Manager crée automatiquement des segments et caractéristiques en lecture seule correspondants. Vous ne pouvez pas modifier ni modifier l&#39;emplacement de stockage de ces segments à partir d&#39;Audience Manager. Toutefois, toute modification que vous effectuez sur vos segments ou suites de rapports mappés est répercutée dans Audience Manager.
 
 >[!TIP]
 >
