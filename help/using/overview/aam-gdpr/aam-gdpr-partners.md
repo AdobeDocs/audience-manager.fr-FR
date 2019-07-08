@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Remarques concernant le GDPR pour les destinations
 uuid: e 8 a 40060-086 c -4 f 03-b 48 c -9 c 903 acb 7891
 translation-type: tm+mt
-source-git-commit: 0ddc86391cbc751dfd4d46946222d555cefbfe38
+source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
 
 ---
 
@@ -68,4 +68,4 @@ Toutefois, certains de nos partenaires d&#39;activation :
 1. Ne peut pas prendre en charge les demandes de unsegment d&#39;Adobe et/ou
 1. Nous ne pouvons pas recevoir plus de mises à jour qu&#39;une seule fois dans 30 jours.
 
-Dans ce cas, vous ne pouvez pas envoyer de demandes de suppression aux partenaires d&#39;activation de manière automatisée via Audience Manager. Download our [Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-March2019.xlsx) to see which Audience Manager activation partners support unsegment.
+Dans ce cas, vous ne pouvez pas envoyer de demandes de suppression aux partenaires d&#39;activation de manière automatisée via Audience Manager. Download our [Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) to see which Audience Manager activation partners support unsegment.
