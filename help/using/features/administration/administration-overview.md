@@ -8,7 +8,7 @@ title: Administration
 topic: API DIL
 uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
 translation-type: tm+mt
-source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
+source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 
 ---
 
@@ -84,11 +84,11 @@ Lisez la description ci-dessous pour obtenir une description de l&#39;autorisati
 
 **Caractéristique**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - doit être clarifié ?
-* `EDIT_ALL_TRAITS` - Les utilisateurs peuvent modifier toutes les caractéristiques appartenant à leur entreprise.
-* `VIEW_ALL_TRAITS` - Les utilisateurs peuvent afficher toutes les caractéristiques appartenant à leur entreprise.
+* `MAP_ALL_TRAITS_TO_MODELS` - Les utilisateurs peuvent sélectionner des caractéristiques comme ligne de base pour les modèles.
+* `EDIT_ALL_TRAITS` - Les utilisateurs peuvent modifier toutes les caractéristiques appartenant à leur entreprise (PID).
+* `VIEW_ALL_TRAITS` - Les utilisateurs peuvent afficher toutes les caractéristiques appartenant à leur entreprise (PID).
 * `DELETE_ALL_TRAITS` - Les utilisateurs peuvent supprimer toutes les caractéristiques appartenant à leur entreprise.
-* `CREATE_ALL_ALGO_TRAITS` - doit clarifier
+* `CREATE_ALL_ALGO_TRAITS` - Les utilisateurs peuvent créer des caractéristiques algorithmiques.
 * `MAP_ALL_TO_SEGMENTS` - Les utilisateurs peuvent ajouter n&#39;importe quelle caractéristique appartenant à leur entreprise aux segments.
 * `CREATE_ALL_TRAITS` - Les utilisateurs peuvent créer des caractéristiques.
 
@@ -128,7 +128,7 @@ Lisez la description ci-dessous pour obtenir une description de l&#39;autorisati
 * `DELETE_ALL_SEGMENTS` - Les utilisateurs peuvent supprimer tous les segments configurés dans leur compte de société.
 * `MAP_ALL_TO_DESTINATIONS` - Les utilisateurs peuvent mapper l&#39;un des segments appartenant à leur entreprise aux destinations.
 * `EDIT_ALL_SEGMENTS` - Les utilisateurs peuvent modifier tous les segments configurés dans leur compte de société.
-* `MAP_ALL_SEGMENTS_TO_MODELS` - doit être clarifié ?
+* `MAP_ALL_SEGMENTS_TO_MODELS` - Les utilisateurs peuvent sélectionner des segments comme ligne de base pour les modèles.
 * `VIEW_ALL_SEGMENTS` - Les utilisateurs peuvent afficher tous les segments configurés dans leur compte de société.
 
 **Signaux**
