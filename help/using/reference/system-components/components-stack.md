@@ -21,7 +21,7 @@ c_compstack.xml
 
  -->
 
-The following illustration shows the main components and the underlying technology (hardware and software) that power [!DNL Audience Manager]. Bien que certains processus exécutent des fonctions spécifiques et que d&#39;autres possèdent des rôles à plusieurs objets, tous les systèmes fonctionnent ensemble pour vous aider à gérer les balises, collecter des données, analyser les performances, synchroniser les informations avec d&#39;autres systèmes et agir sur ces informations.
+The following illustration shows the main components and the underlying technology (hardware and software) that power [!DNL Audience Manager]. Bien que certains processus exécutent des fonctions spécifiques et que d'autres possèdent des rôles à plusieurs objets, tous les systèmes fonctionnent ensemble pour vous aider à gérer les balises, collecter des données, analyser les performances, synchroniser les informations avec d'autres systèmes et agir sur ces informations.
 
 ![](assets/components.png)
 
