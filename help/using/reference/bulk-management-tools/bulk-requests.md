@@ -23,14 +23,14 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Cet outil est fourni à titre de commodité uniquement. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Les permissions de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans [!DNL Audience Manager] l&#39;interface utilisateur sont respectées dans l&#39; [!UICONTROL Bulk Management Tools]interface.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Cet outil est fourni à titre de commodité uniquement. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Les permissions de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans [!DNL Audience Manager] l'interface utilisateur sont respectées dans l' [!UICONTROL Bulk Management Tools]interface.
 
-The [!UICONTROL Request] worksheet does not have its own set of column headers and you don&#39;t need to copy IDs to any of the columns. Il renvoie plutôt des données sur la base du bouton d&#39;action que vous cliquez sur la barre d&#39;outils. De plus, une fonction de création de rapports facultative renvoie un nombre de fréquence pour les déclenchements de pixels et le nombre d&#39;utilisateurs uniques pendant plusieurs intervalles fixes.
+The [!UICONTROL Request] worksheet does not have its own set of column headers and you don't need to copy IDs to any of the columns. Il renvoie plutôt des données sur la base du bouton d'action que vous cliquez sur la barre d'outils. De plus, une fonction de création de rapports facultative renvoie un nombre de fréquence pour les déclenchements de pixels et le nombre d'utilisateurs uniques pendant plusieurs intervalles fixes.
 
 To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
 1. Click the **[!UICONTROL Request]** tab.
-2. Dans la barre d&#39;outils située en haut de la feuille de calcul, cliquez sur un bouton de demande correspondant aux données que vous souhaitez utiliser. Vous pouvez demander :
+2. Dans la barre d'outils située en haut de la feuille de calcul, cliquez sur un bouton de demande correspondant aux données que vous souhaitez utiliser. Vous pouvez demander :
 
    * ID des fournisseurs de données
    * Signaux dérivés
