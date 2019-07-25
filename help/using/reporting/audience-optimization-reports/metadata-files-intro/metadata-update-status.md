@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Status Updates for Metadata Files{#status-updates-for-metadata-files}
 
-The S3 status directory holds a `.info` file with success and failure information about your uploaded files. Le fichier contient des données au format JSON avec des résultats d&#39;état dans un tableau.
+The S3 status directory holds a `.info` file with success and failure information about your uploaded files. Le fichier contient des données au format JSON avec des résultats d'état dans un tableau.
 
 The contents of your `.info` file will look similar to this example.
 
@@ -105,7 +105,7 @@ The following tables list and define the keys in the `Files` and `Summary` secti
  </tbody> 
 </table>
 
-**Clés de l&#39;objet Résumé**
+**Clés de l'objet Résumé**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
