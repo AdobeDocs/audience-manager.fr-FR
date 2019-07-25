@@ -19,7 +19,7 @@ Définitions et liens pour une lecture plus poussée.
 
 **Modélisation algorithmique**
 
-Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you&#39;ve identified. Cette fonctionnalité vous permet de découvrir de nouvelles audiences uniques grâce à l&#39;analyse automatisée des données. Manage your [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
+Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you've identified. Cette fonctionnalité vous permet de découvrir de nouvelles audiences uniques grâce à l'analyse automatisée des données. Manage your [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
 
 See [Understanding Algorithmic Models](../features/algorithmic-models/understanding-models.md#understanding-models).
 
@@ -27,7 +27,7 @@ See [Understanding Algorithmic Models](../features/algorithmic-models/understand
 
 **BAAAM**
 
-[!UICONTROL Bulk Management Tools]. [!UICONTROL Bulk Management Tools] Dans un [!DNL Audience Manager] ensemble d&#39;outils Microsoft Excel, vous pouvez créer, modifier ou supprimer simultanément plusieurs objets en une seule opération. Vous pouvez utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques. The feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs.
+[!UICONTROL Bulk Management Tools]. [!UICONTROL Bulk Management Tools] Dans un [!DNL Audience Manager] ensemble d'outils Microsoft Excel, vous pouvez créer, modifier ou supprimer simultanément plusieurs objets en une seule opération. Vous pouvez utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques. The feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs.
 
 See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-intro.md).
 
@@ -35,7 +35,7 @@ See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-i
 
 **CDF**
 
-[!UICONTROL Customer Data Feed]. A [!UICONTROL CDF] file represents a bulk download of data collected by [!DNL Audience Manager] and enables you to work with [!DNL Audience Manager] data outside of the limits imposed by our user interface. A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. Cela inclut les données telles que l&#39;utilisateur - id, ID de caractéristique, ID de segment et tous les autres paramètres capturés par un appel d&#39;événement.
+[!UICONTROL Customer Data Feed]. A [!UICONTROL CDF] file represents a bulk download of data collected by [!DNL Audience Manager] and enables you to work with [!DNL Audience Manager] data outside of the limits imposed by our user interface. A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. Cela inclut les données telles que l'utilisateur - id, ID de caractéristique, ID de segment et tous les autres paramètres capturés par un appel d'événement.
 
 See [Customer Data Feeds](../features/cdf-files.md).
 
@@ -43,7 +43,7 @@ See [Customer Data Feeds](../features/cdf-files.md).
 
 **Identifiant de la gestion de la relation client**
 
-L&#39;identifiant CRM est l&#39;identifiant par lequel les clients identifient les utilisateurs dans leur propre système de gestion de la relation client. Au lieu de l&#39;identifiant CRM, nous utilisons le terme DPUUID dans Audience Manager.
+L'identifiant CRM est l'identifiant par lequel les clients identifient les utilisateurs dans leur propre système de gestion de la relation client. Au lieu de l'identifiant CRM, nous utilisons le terme DPUUID dans Audience Manager.
 
 See DPUUID in the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
@@ -78,7 +78,7 @@ In [Addressable Audience](/help/using/features/addressable-audiences.md), this m
 
 **demdex.net**
 
-Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]&#39;s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] acquise [!DNL Demdex] en 2011 et renommé la société sous [!DNL Audience Manager]la forme de. All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
+Demdex.net is a legacy domain controlled by [!DNL Adobe]. It reflects [!DNL Audience Manager]'s original, pre-acquisition name ( [!DNL Demdex]). [!DNL Adobe] acquise [!DNL Demdex] en 2011 et renommé la société sous [!DNL Audience Manager]la forme de. All HTTP calls to `demdex.net` domains are calls sent in to [!DNL Adobe].
 
 Voir [Signification des appels vers le domaine Demdex](../reference/demdex-calls.md) (Understanding Calls to the Demdex Domain).
 
@@ -112,7 +112,7 @@ The [!UICONTROL Data Integration Library] is an API library used by [!DNL Audien
 
 **Experience Cloud ID (ECID)**
 
-Previously named the [!DNL Marketing Cloud] ID (MID or MCID). [!DNL Experience Cloud] L&#39;ID est un point central du service d&#39;ID. Il s&#39;agit d&#39;un identifiant unique et persistant pour les visiteurs de votre site. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+Previously named the [!DNL Marketing Cloud] ID (MID or MCID). [!DNL Experience Cloud] L'ID est un point central du service d'ID. Il s'agit d'un identifiant unique et persistant pour les visiteurs de votre site. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
 
 <br> 
 
@@ -126,7 +126,7 @@ See [Folder Traits: About](../features/traits/about-folder-traits.md).
 
 **Plafonnement de fréquence**
 
-Nombre de fois qu&#39;un annonceur souhaite afficher un créatif donné à une fin - utilisateur. You can configure various frequency capping expressions in [!UICONTROL Segment Builder].
+Nombre de fois qu'un annonceur souhaite afficher un créatif donné à une fin - utilisateur. You can configure various frequency capping expressions in [!UICONTROL Segment Builder].
 
 See [Recency and Frequency](../features/segments/recency-and-frequency.md).
 
@@ -134,20 +134,20 @@ See [Recency and Frequency](../features/segments/recency-and-frequency.md).
 
 **GAID**
 
-ID de publication Google, ID de périphérique unique attribué par Google aux périphériques matériels exécutant le système d&#39;exploitation Android. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
+ID de publication Google, ID de périphérique unique attribué par Google aux périphériques matériels exécutant le système d'exploitation Android. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
 **GUID**
 
-Acronyme de Global - Identifiant unique. We don&#39;t use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID.
+Acronyme de Global - Identifiant unique. We don't use the term GUID in [!DNL Audience Manager]. In our case, the GUID is the [!DNL Audience Manager] UUID.
 See [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 ## I-J {#i-j}
 
 **IDFA**
 
-Identifiant for Advertisers, l&#39;ID unique d&#39;appareil Apple attribue à ses produits. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
+Identifiant for Advertisers, l'ID unique d'appareil Apple attribue à ses produits. See the [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -159,11 +159,11 @@ The process by which you can send audience data from other sources to [!DNL Audi
 
 **Code d’intégration**
 
-When working with the [!DNL Audience Manager] UI or API, you have the option of adding an integration code when creating traits, segments, or data sources. Dans ces cas, les codes d&#39;intégration sont différents :
+When working with the [!DNL Audience Manager] UI or API, you have the option of adding an integration code when creating traits, segments, or data sources. Dans ces cas, les codes d'intégration sont différents :
 
-* [!UICONTROL Traits]: un code d&#39;intégration est un champ pour un identifiant, un SKU ou une autre valeur utilisée par vos processus métier internes. Facultatif.
-* [!UICONTROL Segments]: un code d&#39;intégration est un champ pour un identifiant défini par l&#39;utilisateur ou d&#39;autres informations spécifiques à l&#39;entreprise. Facultatif.
-* [!UICONTROL Data Sources]: les codes d&#39;intégration sont nécessaires lorsque vous souhaitez créer des sources de données inter-périphériques, utiliser le service Experience Cloud ID ou travailler [!UICONTROL Profile Merge Rules]avec. See [Create a Data Source](../features/manage-datasources.md#create-data-source) for more information.
+* [!UICONTROL Traits]: un code d'intégration est un champ pour un identifiant, un SKU ou une autre valeur utilisée par vos processus métier internes. Facultatif.
+* [!UICONTROL Segments]: un code d'intégration est un champ pour un identifiant défini par l'utilisateur ou d'autres informations spécifiques à l'entreprise. Facultatif.
+* [!UICONTROL Data Sources]: les codes d'intégration sont nécessaires lorsque vous souhaitez créer des sources de données inter-périphériques, utiliser le service Experience Cloud ID ou travailler [!UICONTROL Profile Merge Rules]avec. See [Create a Data Source](../features/manage-datasources.md#create-data-source) for more information.
 
 ## K-L {#k-l}
 
@@ -181,7 +181,7 @@ See the [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. The [!UICONTROL PCS] is a large database, running on Apache Cassandra. It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] Les données sont constituées d&#39;ID de périphérique, d&#39;ID de profil authentifiés et de caractéristiques associées.
+[!UICONTROL Profile Cache Server]. The [!UICONTROL PCS] is a large database, running on Apache Cassandra. It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] Les données sont constituées d'ID de périphérique, d'ID de profil authentifiés et de caractéristiques associées.
 
 See [Data Collection Components](../reference/system-components/components-data-collection.md).
 
@@ -195,7 +195,7 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 **Règles de fusion de profils**
 
-[!UICONTROL Profile Merge Rules] vous permet de contrôler le type d&#39;utilisation des données [!DNL Audience Manager] pour la segmentation.
+[!UICONTROL Profile Merge Rules] vous permet de contrôler le type d'utilisation des données [!DNL Audience Manager] pour la segmentation.
 
 See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-rule-definitions.md).
 
@@ -209,7 +209,7 @@ Action par laquelle un visiteur de votre site se qualifie pour une caractéristi
 
 **Segment**
 
-Un segment (ou une audience) est un ensemble d&#39;utilisateurs qui partagent des attributs communs.
+Un segment (ou une audience) est un ensemble d'utilisateurs qui partagent des attributs communs.
 
 See [Segments: Purpose, Composition, and Rules](../features/segments/segments-purpose.md).
 
@@ -243,7 +243,7 @@ See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
 
 **Caractéristique**
 
-Une caractéristique est une combinaison d&#39;un ou de plusieurs signaux. See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
+Une caractéristique est une combinaison d'un ou de plusieurs signaux. See [Signals, Traits, and Segments](../reference/signal-trait-segment.md).
 
 <br> 
 
@@ -253,7 +253,7 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **TTL (Durée de vie)**
 
-TTL définit le nombre de jours pendant lesquels un visiteur qualifié reste dans une caractéristique. TTL est défini sur des caractéristiques et non sur des segments. Les visiteurs abandonnent un segment s&#39;ils ne voient pas de caractéristique qualifiant avant la fin de l&#39;intervalle TTL. Read more in [Segment and Trait Time-to-Live Explained](/help/using/features/traits/segment-ttl-explained.md).
+TTL définit le nombre de jours pendant lesquels un visiteur qualifié reste dans une caractéristique. TTL est défini sur des caractéristiques et non sur des segments. Les visiteurs abandonnent un segment s'ils ne voient pas de caractéristique qualifiant avant la fin de l'intervalle TTL. Read more in [Segment and Trait Time-to-Live Explained](/help/using/features/traits/segment-ttl-explained.md).
 
 <br> 
 
