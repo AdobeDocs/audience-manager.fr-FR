@@ -36,7 +36,7 @@ Les données du rapport sont mises à jour chaque dimanche. La mise à jour trai
 
 ## Shapes, Colors, and Sizes Used in Interactive Reports {#shapes-colors-sizes}
 
-La plupart des rapports interactifs affichent des résultats à l&#39;aide de formes de tailles et de couleurs différentes. Ce format d&#39;affichage est conçu pour vous aider à maîtriser visuellement les données sans avoir à parcourir les lignes et colonnes de nombres.
+La plupart des rapports interactifs affichent des résultats à l'aide de formes de tailles et de couleurs différentes. Ce format d'affichage est conçu pour vous aider à maîtriser visuellement les données sans avoir à parcourir les lignes et colonnes de nombres.
 
 <!-- 
 
@@ -81,7 +81,7 @@ Le tableau suivant définit les formes, tailles et couleurs utilisées dans les 
 
 ## Report Icons and Tools Explained {#icons-tools-explained}
 
-Décrit la recherche et l&#39;utilisation des différents outils d&#39;icône utilisés dans les rapports dynamiques.
+Décrit la recherche et l'utilisation des différents outils d'icône utilisés dans les rapports dynamiques.
 
 <!-- 
 
@@ -91,7 +91,7 @@ r_icons.xml
 
 ### Icônes et outils de données
 
-Les icônes ci-dessous sont disponibles au bas de chaque fenêtre de rapport dynamique. L&#39;illustration suivante fournit davantage d&#39;informations sur ces outils.
+Les icônes ci-dessous sont disponibles au bas de chaque fenêtre de rapport dynamique. L'illustration suivante fournit davantage d'informations sur ces outils.
 
 ![](assets/tools_icons90.png)
 
@@ -99,9 +99,9 @@ Les icônes ci-dessous sont disponibles au bas de chaque fenêtre de rapport dyn
 
 Grâce à ces outils, vous pouvez exporter des données du rapport dans 4 formats différents.
 
-| Option d&#39;exportation | Exporte les données |
+| Option d'exportation | Exporte les données |
 |---|---|
-| **[!UICONTROL Image]** | En tant qu&#39;image (. png). Utile lorsque vous souhaitez télécharger et partager des données de rapport dans son format graphique d&#39;origine. |
+| **[!UICONTROL Image]** | En tant qu'image (. png). Utile lorsque vous souhaitez télécharger et partager des données de rapport dans son format graphique d'origine. |
 | **[!UICONTROL PDF]** | Au format PDF. |
 | **[!UICONTROL Data]** | Dans une nouvelle fenêtre de navigateur sous forme de données numériques en colonnes et lignes. |
 | **[!UICONTROL Crosstab]** | Au format. csv. |
@@ -118,11 +118,11 @@ For example, say you want to select several advertisers in the [!UICONTROL Overl
 
 ### Actualiser les données
 
-Cliquez sur l&#39;icône d&#39;actualisation pour exécuter un rapport ou recharger votre jeu de données. Lorsque les mises à jour automatiques sont désactivées, cliquez sur Actualiser pour exécuter ou mettre à jour le rapport.
+Cliquez sur l'icône d'actualisation pour exécuter un rapport ou recharger votre jeu de données. Lorsque les mises à jour automatiques sont désactivées, cliquez sur Actualiser pour exécuter ou mettre à jour le rapport.
 
 ### Outil Rechercher
 
-La recherche est représentée par une loupe générique - icône en verre (pas affichée). Le champ de recherche est masqué jusqu&#39;à ce que vous cliquiez sur les étiquettes de sélection sur le côté gauche de l&#39;écran. Le tableau ci-dessous décrit l&#39;emplacement de l&#39;outil de recherche pour chaque rapport.
+La recherche est représentée par une loupe générique - icône en verre (pas affichée). Le champ de recherche est masqué jusqu'à ce que vous cliquiez sur les étiquettes de sélection sur le côté gauche de l'écran. Le tableau ci-dessous décrit l'emplacement de l'outil de recherche pour chaque rapport.
 
 | Rapport | Pour rechercher la recherche, passez la souris sur |
 |---|---|
