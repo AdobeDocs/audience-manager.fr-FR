@@ -13,11 +13,11 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 # Macros de création de modèles sortants{#outbound-template-macros} (en anglais)
 
-Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Ces fichiers incluent le fichier : nom macros, macros d&#39;en-tête et macros de contenu.
+Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Ces fichiers incluent le fichier : nom macros, macros d'en-tête et macros de contenu.
 
 ## File Name and File Header Macros {#file-name-header-macros}
 
-Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le fichier - nom et pour définir les champs d&#39;en-tête. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le fichier - nom et pour définir les champs d'en-tête. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -77,7 +77,7 @@ Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le fi
 
 ## Content Macros {#content-macros}
 
-Macros utilisées pour formater le contenu d&#39;un fichier de données. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Macros utilisées pour formater le contenu d'un fichier de données. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
