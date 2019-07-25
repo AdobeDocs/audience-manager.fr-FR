@@ -13,7 +13,7 @@ source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 # Pixel-based Data Transfers {#pixel-based-data-transfers}
 
-Les pixels simples (qui peuvent être utilisés pour qualifier les utilisateurs pour les caractéristiques) effectuent des transferts de données en temps réel. L&#39;interface Audience Manager permet aux clients de créer n&#39;importe quel nombre de pixels en libre-service. Les chaînes pixel sont constituées d&#39;identifiants simples ou de paires clé-valeur.
+Les pixels simples (qui peuvent être utilisés pour qualifier les utilisateurs pour les caractéristiques) effectuent des transferts de données en temps réel. L'interface Audience Manager permet aux clients de créer n'importe quel nombre de pixels en libre-service. Les chaînes pixel sont constituées d'identifiants simples ou de paires clé-valeur.
 
 <!-- c_rt_inbound_pixel_transfers.xml -->
 
@@ -31,7 +31,7 @@ This basic event call sends trait ID 1234 to [!DNL Audience Manager].
 https://something.demdex.net/event?d_sid=1234
 ```
 
-You can serialize trait IDs in an event call to help reduce `HTTP` traffic from the page. Ajoutez d&#39;autres ID de caractéristique à la chaîne URL comme indiqué dans l&#39;exemple suivant :
+You can serialize trait IDs in an event call to help reduce `HTTP` traffic from the page. Ajoutez d'autres ID de caractéristique à la chaîne URL comme indiqué dans l'exemple suivant :
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432
