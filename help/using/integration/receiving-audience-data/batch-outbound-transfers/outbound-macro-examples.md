@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Exemples de macro sortante {#outbound-macro-examples}
 
-Exemples d&#39;utilisation de certaines macros pour créer des modèles de fichiers sortants.
+Exemples d'utilisation de certaines macros pour créer des modèles de fichiers sortants.
 
 >[!NOTE]
 >
