@@ -12,7 +12,7 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 # Filter Search Results {#filter-search-results}
 
-Filtrez les résultats d&#39;une recherche de signal en fonction du type de signal.
+Filtrez les résultats d'une recherche de signal en fonction du type de signal.
 
 1. Go to [!UICONTROL Audience Data > Signals > Search] and run a [!UICONTROL Signals Search] with the desired key-value pairs, or a broader search, using the filters.
 1. Use the **[!UICONTROL Filter by Signal Type]** section to filter your results based on the following categories:
