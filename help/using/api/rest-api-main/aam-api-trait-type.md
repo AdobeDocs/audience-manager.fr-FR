@@ -13,7 +13,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 # Trait Type Methods {#trait-type-methods}
 
-Méthodes facultatives vous permettant d&#39;affecter des caractéristiques à un type ou une catégorie définis par l&#39;utilisateur, généralement selon la fonction ou pour vos propres processus de création de rapports internes.
+Méthodes facultatives vous permettant d'affecter des caractéristiques à un type ou une catégorie définis par l'utilisateur, généralement selon la fonction ou pour vos propres processus de création de rapports internes.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
