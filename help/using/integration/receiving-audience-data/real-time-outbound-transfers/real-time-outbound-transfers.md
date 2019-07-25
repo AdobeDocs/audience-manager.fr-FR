@@ -23,7 +23,7 @@ Pour utiliser cette méthode, nous recommandons à votre partenaire de données 
 
 * Accepts data in [!DNL JSON] format.
 * Provides a URL that can be used by the `POST` call to return data.
-* Accepts secure `HTTPS` data transfers. [!DNL Audience Manager] n&#39;envoie pas ce fichier avec `HTTP` le protocole non sécurisé.
+* Accepts secure `HTTPS` data transfers. [!DNL Audience Manager] n'envoie pas ce fichier avec `HTTP` le protocole non sécurisé.
 
 ## Fréquence
 
@@ -31,7 +31,7 @@ Cette méthode de transfert de données peut envoyer des données en temps quasi
 
 ## Réponses obligatoires
 
-By default, the recipient server must return the `200 OK` code to indicate successful receipt. D&#39;autres codes seront interprétés comme des échecs. Cette réponse est attendue sous 3 000 millisecondes. In response to a failure, [!DNL Audience Manager] will make 1 retry attempt only.
+By default, the recipient server must return the `200 OK` code to indicate successful receipt. D'autres codes seront interprétés comme des échecs. Cette réponse est attendue sous 3 000 millisecondes. In response to a failure, [!DNL Audience Manager] will make 1 retry attempt only.
 
 ## Paramètres
 
