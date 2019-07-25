@@ -13,15 +13,15 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 # Onboarding Status Report{#onboarding-status-report-about}
 
-Le rapport État d&#39;intégration vérifie les taux de réussite et d&#39;échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans Analytics &gt; Rapport d&#39;état. Ce rapport est également disponible lorsque vous créez une source de données entrantes.
+Le rapport État d'intégration vérifie les taux de réussite et d'échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans Analytics &gt; Rapport d'état. Ce rapport est également disponible lorsque vous créez une source de données entrantes.
 
 >[!NOTE]
 >
->Seuls les utilisateurs disposant des privilèges d&#39;administrateur peuvent afficher ce rapport dans l&#39;interface utilisateur d&#39;Audience Manager. Pour que les utilisateurs non administrateurs soient avertis de l&#39;état des fichiers entrants transférés, ajoutez leurs e-mails au rapport. See [Receive E-mail Notifications](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
+>Seuls les utilisateurs disposant des privilèges d'administrateur peuvent afficher ce rapport dans l'interface utilisateur d'Audience Manager. Pour que les utilisateurs non administrateurs soient avertis de l'état des fichiers entrants transférés, ajoutez leurs e-mails au rapport. See [Receive E-mail Notifications](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
 ## Onboarding Status Report: About {#onboarding-status-about}
 
-[!UICONTROL Onboarding Status Report] Le contrôle vérifie les taux de réussite et d&#39;échec pour le traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. You can find this report in **[!UICONTROL Analytics > Onboarding Status Report]**. Ce rapport est également disponible lorsque vous créez une source de données entrantes.
+[!UICONTROL Onboarding Status Report] Le contrôle vérifie les taux de réussite et d'échec pour le traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. You can find this report in **[!UICONTROL Analytics > Onboarding Status Report]**. Ce rapport est également disponible lorsque vous créez une source de données entrantes.
 
 ## Error Reporting and Error Sampling {#error-reporting-sampling}
 
@@ -48,17 +48,17 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
 
 ## Error Report Bar Chart {#error-report-bar-chart}
 
-Le rapport d&#39;erreur graphique les taux de réussite et d&#39;échec du traitement d&#39;enregistrement dans un graphique à barres empilées, comme illustré dans l&#39;exemple suivant. Le graphique est interactif. Un clic sur une barre affiche des mesures récapitulatives pour cette journée dans un tableau sous le graphique.
+Le rapport d'erreur graphique les taux de réussite et d'échec du traitement d'enregistrement dans un graphique à barres empilées, comme illustré dans l'exemple suivant. Le graphique est interactif. Un clic sur une barre affiche des mesures récapitulatives pour cette journée dans un tableau sous le graphique.
 
 ![](assets/stacked-graph.png)
 
 ## Error Report Tables {#error-report-tables}
 
-Le rapport d&#39;erreur affiche les données tabulaires sous le graphique à barres. Le tableau présente les taux de réussite et d&#39;échec ainsi que les totaux et les pourcentages.
+Le rapport d'erreur affiche les données tabulaires sous le graphique à barres. Le tableau présente les taux de réussite et d'échec ainsi que les totaux et les pourcentages.
 
 **Enregistrements réussis et échecs**
 
-Cette vue par défaut indique le nombre de fréquences du total des enregistrements dans votre rapport et inclut une ventilation des erreurs par type d&#39;erreur.
+Cette vue par défaut indique le nombre de fréquences du total des enregistrements dans votre rapport et inclut une ventilation des erreurs par type d'erreur.
 
 ![](assets/success-failure.png)
 
@@ -70,17 +70,17 @@ Click **[!UICONTROL Totals & Percentages]** to see what % of your files were pro
 
 ## Error Sampling Report for 14 Days {#error-reporting-14-days}
 
-Avec l&#39;échantillonnage d&#39;erreur actif, le rapport présente les 10 erreurs principales pour chaque type d&#39;erreur. Cliquez sur un bouton d&#39;erreur en haut du rapport pour afficher chaque jeu de données échantillonnées.
+Avec l'échantillonnage d'erreur actif, le rapport présente les 10 erreurs principales pour chaque type d'erreur. Cliquez sur un bouton d'erreur en haut du rapport pour afficher chaque jeu de données échantillonnées.
 
 >[!NOTE]
 >
->Le rapport ne met pas en évidence les erreurs d&#39;enregistrement avec cette version actuelle. To find and fix file errors, you should review the results and compare those to the specifications in the [Inbound Data File Contents](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) documentation.
+>Le rapport ne met pas en évidence les erreurs d'enregistrement avec cette version actuelle. To find and fix file errors, you should review the results and compare those to the specifications in the [Inbound Data File Contents](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) documentation.
 
 ![](assets/error-samples.png)
 
 ## Receive E-mail Notifications {#receive-email-notifications}
 
-Vous pouvez ajouter les adresses électroniques des destinataires qui doivent être avertis de l&#39;état des fichiers entrants transférés. Notez que vous pouvez sélectionner différents destinataires pour différentes sources de données.
+Vous pouvez ajouter les adresses électroniques des destinataires qui doivent être avertis de l'état des fichiers entrants transférés. Notez que vous pouvez sélectionner différents destinataires pour différentes sources de données.
 
 ![](assets/mail-notifications.png)
 
@@ -99,7 +99,7 @@ create-onboarding-status-report.xml
 
 2. Sélectionnez une plage de dates. Les options incluent :
 
-   * Ensemble d&#39;intervalles de rapport fixes.
+   * Ensemble d'intervalles de rapport fixes.
    * Widgets Calendrier vous permettant de créer une plage de dates personnalisée.
 
 3. Cliquez sur **[!UICONTROL OK]**.
