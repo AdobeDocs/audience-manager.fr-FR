@@ -34,7 +34,7 @@ A [!UICONTROL folder trait] contains all the traits in a parent folder and its a
 
 ## Folder Traits Realization - Recency and Frequency {#folder-traits-realization}
 
-Le nombre de fréquences d&#39;une caractéristique de dossier est la somme des réexécutions des caractéristiques dans son dossier et ses dossiers enfants. L&#39;illustration ci-dessous présente les caractéristiques A, B et C qui résident dans le dossier Automobile. Imaginons que chacune des caractéristiques comporte les réalizations suivantes :
+Le nombre de fréquences d'une caractéristique de dossier est la somme des réexécutions des caractéristiques dans son dossier et ses dossiers enfants. L'illustration ci-dessous présente les caractéristiques A, B et C qui résident dans le dossier Automobile. Imaginons que chacune des caractéristiques comporte les réalizations suivantes :
 
 * Caractéristique A : 5
 * Caractéristique B : 1
@@ -46,11 +46,11 @@ In this case, the [!DNL ]Automobile [!UICONTROL Folder Trait] has 7 realizations
 
 ## Folder Trait Reporting {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] capturer tous les utilisateurs des caractéristiques de la structure de dossiers sous-jacente. If you move a trait from a folder to another folder, the change propagates to our [data collection servers](../../reference/system-components/components-data-collection.md) just like a trait rule change. Les mises à jour des rapports lors de l&#39;exécution des rapports suivants sont répercutées pour refléter cette modification dans les plages de dates des rapports (1, 7, 14, 30, 60, 90, durée de vie). Les anciens numéros de rapport des jours précédents ne changent pas.
+[!UICONTROL Folder traits] capturer tous les utilisateurs des caractéristiques de la structure de dossiers sous-jacente. If you move a trait from a folder to another folder, the change propagates to our [data collection servers](../../reference/system-components/components-data-collection.md) just like a trait rule change. Les mises à jour des rapports lors de l'exécution des rapports suivants sont répercutées pour refléter cette modification dans les plages de dates des rapports (1, 7, 14, 30, 60, 90, durée de vie). Les anciens numéros de rapport des jours précédents ne changent pas.
 
 ## Role-Based Access Controls (RBAC) Permissions {#role-based-access-controls}
 
-For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. Un utilisateur doit appartenir à un groupe avec l&#39;un des éléments suivants :
+For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. Un utilisateur doit appartenir à un groupe avec l'un des éléments suivants :
 
 * `READ` et `WRITE` des autorisations de groupe à une source de données de caractéristiques.
 * `VIEW_ALL_TRAITS` et `EDIT_ALL_TRAITS` des autorisations génériques pour les sources de données de caractéristiques.
@@ -61,7 +61,7 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 
 | Élément | Description |
 |---|---|
-| Type de caractéristique | [!UICONTROL Onboarded traits] et [!UICONTROL algorithmic traits] contribuer au maximum 1 à la fréquence d&#39;une [!UICONTROL folder trait]fréquence. |
-| Déplacement de caractéristiques entre les dossiers | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Cela signifie que si vous supprimez ou déplacez une caractéristique du dossier, les utilisateurs de la population de la caractéristique ne sont pas segmentés des segments à l&#39;aide de la caractéristique de dossier comme expression de segment. <br> Lors du mappage des segments ou des suites de rapports Adobe Analytics à votre organisation Experience Cloud, Audience Manager crée automatiquement des segments et caractéristiques en lecture seule correspondants. Vous ne pouvez pas modifier ni modifier l&#39;emplacement de stockage de ces caractéristiques depuis Audience Manager. Toutefois, toute modification que vous effectuez sur vos segments ou suites de rapports mappés est répercutée dans Audience Manager. |
-| Variables système | [!UICONTROL Folder traits] ne peut pas être réalisé dans les appels d&#39;événement à l&#39;aide du `d_sid` paramètre. |
-| Création de rapports   | [!UICONTROL Folder traits] sont des caractéristiques calculées automatiquement et n&#39;apparaissent **[!UICONTROL Overlap Reports]** pas dans. |
+| Type de caractéristique | [!UICONTROL Onboarded traits] et [!UICONTROL algorithmic traits] contribuer au maximum 1 à la fréquence d'une [!UICONTROL folder trait]fréquence. |
+| Déplacement de caractéristiques entre les dossiers | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Cela signifie que si vous supprimez ou déplacez une caractéristique du dossier, les utilisateurs de la population de la caractéristique ne sont pas segmentés des segments à l'aide de la caractéristique de dossier comme expression de segment. <br> Lors du mappage des segments ou des suites de rapports Adobe Analytics à votre organisation Experience Cloud, Audience Manager crée automatiquement des segments et caractéristiques en lecture seule correspondants. Vous ne pouvez pas modifier ni modifier l'emplacement de stockage de ces caractéristiques depuis Audience Manager. Toutefois, toute modification que vous effectuez sur vos segments ou suites de rapports mappés est répercutée dans Audience Manager. |
+| Variables système | [!UICONTROL Folder traits] ne peut pas être réalisé dans les appels d'événement à l'aide du `d_sid` paramètre. |
+| Création de rapports   | [!UICONTROL Folder traits] sont des caractéristiques calculées automatiquement et n'apparaissent **[!UICONTROL Overlap Reports]** pas dans. |
