@@ -13,7 +13,7 @@ source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
 
 # Name Requirements for Key Variables {#name-requirements-for-key-variables}
 
-Cet article décrit les conventions d&#39;affectation de nom utilisées par la variable clé dans une paire clé-valeur.
+Cet article décrit les conventions d'affectation de nom utilisées par la variable clé dans une paire clé-valeur.
 
 ## Exigences de dénomination pour les clés
 
