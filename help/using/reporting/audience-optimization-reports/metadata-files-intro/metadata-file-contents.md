@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Content Format for Metadata Files{#content-format-for-metadata-files}
 
-Mettez en forme le contenu du fichier de métadonnées d&#39;optimisation d&#39;audience conformément à ces spécifications.
+Mettez en forme le contenu du fichier de métadonnées d'optimisation d'audience conformément à ces spécifications.
 
 ## du lien personnalisé{#syntax}
 
@@ -27,17 +27,17 @@ The third column **-1** is technically the Parent ID, which is a legacy field. T
 
 >[!NOTE]
 >
->Notez qu&#39;un fichier de métadonnées par dimension est nécessaire. De ce fait, plusieurs fichiers de métadonnées sont attendus dans le compartiment. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>Notez qu'un fichier de métadonnées par dimension est nécessaire. De ce fait, plusieurs fichiers de métadonnées sont attendus dans le compartiment. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Entrées de fichier distinctes avec ^ a (contrôle-A ou ASCII 001)**
 
-Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Comme il s&#39;agit de caractères non imprimables, l&#39;exemple de syntaxe ci-dessus montre une barre verticale « |à des fins d&#39;affichage uniquement.
+Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Comme il s'agit de caractères non imprimables, l'exemple de syntaxe ci-dessus montre une barre verticale « |à des fins d'affichage uniquement.
 
 If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). Décompressez-la et modifiez-la dans votre éditeur de choix et ajustez-la en fonction du contenu réel des métadonnées, car elle contient déjà le délimiteur requis.
 
 >[!IMPORTANT]
 >
->N&#39;ajoutez pas de rangées d&#39;en-tête aux fichiers de métadonnées.
+>N'ajoutez pas de rangées d'en-tête aux fichiers de métadonnées.
 
 ## Exemples {#examples}
 
