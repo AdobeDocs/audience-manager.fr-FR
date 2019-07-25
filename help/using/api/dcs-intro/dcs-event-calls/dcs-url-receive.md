@@ -51,13 +51,13 @@ The table below lists and defines the more common parameters you may see in a re
 | `cn` | The name or ID set in the cookie name field of a [cookie destination](../../../features/destinations/manage-destinations.md#create-cookie-destination). |
 | `cv` | Valeurs envoyées à la destination définie par le « cn » : « destinaton name ». |
 | `dcs_region` | The [server-to-server DCS calls](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
-| `dests` | Cet objet contient des informations pour toutes les destinations URL configurées dans l&#39;interface utilisateur. La liste de cet objet est dynamique en fonction des actions de l&#39;utilisateur. |
-| `dmn` | Il s&#39;agit du domaine spécifié dans le champ Domaine du cookie pour une destination de cookie. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#optional-settings-cookies).  For  Server to Server integrations we recommend using a domain like `aam-api.com`. |
-| `e` | URL sécurisée qui a été définie dans une destination d&#39;URL. |
-| `stuff` | Cet objet contient des informations pour toutes les destinations de cookie. La liste de cet objet est dynamique en fonction des actions de l&#39;utilisateur. |
+| `dests` | Cet objet contient des informations pour toutes les destinations URL configurées dans l'interface utilisateur. La liste de cet objet est dynamique en fonction des actions de l'utilisateur. |
+| `dmn` | Il s'agit du domaine spécifié dans le champ Domaine du cookie pour une destination de cookie. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#optional-settings-cookies).  For  Server to Server integrations we recommend using a domain like `aam-api.com`. |
+| `e` | URL sécurisée qui a été définie dans une destination d'URL. |
+| `stuff` | Cet objet contient des informations pour toutes les destinations de cookie. La liste de cet objet est dynamique en fonction des actions de l'utilisateur. |
 | `tid` | ID de transaction, identifiant de 12 caractères unique utilisé pour le débogage. Chaque /event appel au serveur de collecte de données reçoit un tid que vous pouvez référencer dans les demandes de support pour une réponse plus rapide et plus rapide. |
 | `ttl` | Valeur de durée de vie du cookie en jours. |
-| `u` et `uuid` | Utilisateur unique - id attribué par Audience Manager. This is required if you&#39;re making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` et `uuid` | Utilisateur unique - id attribué par Audience Manager. This is required if you're making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Destination type,  iFrame (`iframe`) or image (`img`). |
 
 >[!MORE_ LIKE_ THIS]
