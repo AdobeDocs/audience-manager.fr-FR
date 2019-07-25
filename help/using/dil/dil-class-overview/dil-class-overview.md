@@ -13,7 +13,7 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 # Class-level DIL Methods{#class-level-dil-methods}
 
-Les API DIL de niveau classe vous permettent de créer et d&#39;utiliser par programmation des objets Audience Manager. Les API de niveau classe fonctionnent avec les autres fonctions de niveau instance pour définir des valeurs ou renvoyer des données.
+Les API DIL de niveau classe vous permettent de créer et d'utiliser par programmation des objets Audience Manager. Les API de niveau classe fonctionnent avec les autres fonctions de niveau instance pour définir des valeurs ou renvoyer des données.
 
 <!-- 
 
