@@ -27,7 +27,7 @@ You can also manage data sources using [!DNL API] methods. For more information,
 
 [!UICONTROL Data Sources] Le tableau de bord (**[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**) contient des fonctionnalités et des outils qui vous aident à :
 
-* See all your existing data sources, including each data source&#39;s description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* See all your existing data sources, including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
 * Recherchez les sources de données par nom.
 * Créez, modifiez et supprimez des sources de données.
 
@@ -75,11 +75,11 @@ In addition to text fields, the [!UICONTROL Data Source Details] section contain
 
 ## Contrôles des exportations de données {#export-controls}
 
-[Les contrôles d&#39;exportation de données](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d&#39;envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d&#39;utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Les contrôles d'exportation de données](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d'envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d'utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >
->Les restrictions d&#39;exportation ne fonctionnent que si vous définissez un libellé d&#39;exportation correspondant sur une destination.
+>Les restrictions d'exportation ne fonctionnent que si vous définissez un libellé d'exportation correspondant sur une destination.
 
 Les options incluent :
 
