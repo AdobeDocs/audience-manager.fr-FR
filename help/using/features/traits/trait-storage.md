@@ -19,13 +19,13 @@ Dossiers de stockage de caractéristiques stockés et vous aident à organiser l
 
 ## Objectif des dossiers de stockage de caractéristiques
 
-In [!UICONTROL Trait Builder], trait storage folders are directories that hold and organize traits into logical groups that you create. Access the storage folders from the [!UICONTROL Traits] dashboard or when creating a new trait. N&#39;oubliez pas que vous ne pouvez pas créer une nouvelle caractéristique sans l&#39;affecter à un dossier de stockage.
+In [!UICONTROL Trait Builder], trait storage folders are directories that hold and organize traits into logical groups that you create. Access the storage folders from the [!UICONTROL Traits] dashboard or when creating a new trait. N'oubliez pas que vous ne pouvez pas créer une nouvelle caractéristique sans l'affecter à un dossier de stockage.
 
 ![](assets/tb_storage.png)
 
 ## Create a Trait Storage Folder {#create-trait-storage-folder}
 
-Cette procédure décrit la création d&#39;un dossier de stockage pour vos caractéristiques.
+Cette procédure décrit la création d'un dossier de stockage pour vos caractéristiques.
 
 <!-- t_tb_create_storage.xml -->
 
@@ -41,11 +41,11 @@ Pour créer un dossier de stockage :
 
 ## Rename or Delete a Trait Storage Folder {#rename-delete-trait-storage-folder}
 
-Cette procédure décrit le changement de nom ou la suppression d&#39;un dossier de stockage.
+Cette procédure décrit le changement de nom ou la suppression d'un dossier de stockage.
 
 <!-- t_tb_rename_delete_storage.xml -->
 
 You can rename or delete storage folders from the [!UICONTROL Trait Storage] section of the main [!UICONTROL Traits] list dashboard.
 
-* Renommez un dossier en le survolant et en cliquant sur l&#39;icône représentant un crayon.
+* Renommez un dossier en le survolant et en cliquant sur l'icône représentant un crayon.
 * Delete a folder by hovering over it and clicking the **X** icon.
