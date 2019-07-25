@@ -13,13 +13,13 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 # Derived Signals {#derived-signals}
 
-A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they&#39;ve already seen. En d&#39;autres termes, une qualification de caractéristique supplémentaire peut être dérivée d&#39;une caractéristique actuellement exposée, même si un utilisateur n&#39;a jamais vu la nouvelle caractéristique auparavant.
+A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. En d'autres termes, une qualification de caractéristique supplémentaire peut être dérivée d'une caractéristique actuellement exposée, même si un utilisateur n'a jamais vu la nouvelle caractéristique auparavant.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Objectif des signaux dérivés
 
-In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] le relie à d&#39;autres éléments créés avec l [!UICONTROL derived signals] &#39;outil. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal [!DNL "product = new car"] that user can also qualify for traits defined by the target key and value signals.
+In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] le relie à d'autres éléments créés avec l [!UICONTROL derived signals] 'outil. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal [!DNL "product = new car"] that user can also qualify for traits defined by the target key and value signals.
 
 ![](assets/derived_signal_example.png)
 
