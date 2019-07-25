@@ -23,13 +23,13 @@ Describes the required and optional steps that let you create an algorithmic mod
 
 ### Section Créateur de modèles
 
-[!UICONTROL Model Builder] se compose des sections [!UICONTROL Basic Information] et [!UICONTROL Configuration] des sections. Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour démarrer l&#39;algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois les premières données exécutées. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
+[!UICONTROL Model Builder] se compose des sections [!UICONTROL Basic Information] et [!UICONTROL Configuration] des sections. Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour démarrer l'algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois les premières données exécutées. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
 
 >[!NOTE]
 >
->* Le processus de modélisation ne s&#39;exécute qu&#39;une seule fois si vous créez un modèle et ne créez aucune caractéristique avec lui.
->* Créez des modèles à partir des sources de données qui contiennent une quantité significative d&#39;informations. Les modèles dont les données sont insuffisantes s&#39;exécuteront, mais ils ne retourneront aucun résultat.
->* *Ne* créez pas de modèles avec d&#39;autres caractéristiques ou segments algorithmiques.
+>* Le processus de modélisation ne s'exécute qu'une seule fois si vous créez un modèle et ne créez aucune caractéristique avec lui.
+>* Créez des modèles à partir des sources de données qui contiennent une quantité significative d'informations. Les modèles dont les données sont insuffisantes s'exécuteront, mais ils ne retourneront aucun résultat.
+>* *Ne* créez pas de modèles avec d'autres caractéristiques ou segments algorithmiques.
 >* La notification électronique automatisée est envoyée une seule fois (après la première exécution de données).
 
 
@@ -40,7 +40,7 @@ To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL 
 1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
-   * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Les modèles inactifs ne s&#39;exécuteront pas et ne produisent aucune donnée.
+   * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Les modèles inactifs ne s'exécuteront pas et ne produisent aucune donnée.
 1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne seront pas exécutés.
    * Choisissez une période de consultation de 30, 60 ou 90 jours. Cette opération définit une période pour le modèle.
