@@ -13,11 +13,11 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
 
 # Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
-Champs obligatoires, syntaxe et règles à suivre lors du formatage d&#39;un fichier de données de caractéristiques entrantes.
+Champs obligatoires, syntaxe et règles à suivre lors du formatage d'un fichier de données de caractéristiques entrantes.
 
 ## File Content Syntax {#file-content-syntax}
 
-Les champs du fichier de données entrantes doivent figurer dans l&#39;ordre indiqué ci-dessous. In this example, the `<` `>` symbols have been added to help separate each element visually. Vous n&#39;avez pas besoin de les inclure dans votre fichier de données.
+Les champs du fichier de données entrantes doivent figurer dans l'ordre indiqué ci-dessous. In this example, the `<` `>` symbols have been added to help separate each element visually. Vous n'avez pas besoin de les inclure dans votre fichier de données.
 
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
@@ -27,7 +27,7 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
 
 >[!NOTE]
 >
->Nous sommes limités à 200 lignes pour chaque utilisateur - ID envoyé dans le fichier de données entrantes. Par exemple, si vous envoyez 300 lignes à un utilisateur - id, les 200 premières lignes sont conservées et les 100 lignes supplémentaires sont ignorées. Dans l&#39;exemple ci-dessous, vous êtes bon car vous envoyez 3 lignes chacune pour user - id 1 et user - id 2. Nous n&#39;imposons pas de limite quant au nombre de caractéristiques ou de paires clé-valeur que vous incluez dans une ligne.
+>Nous sommes limités à 200 lignes pour chaque utilisateur - ID envoyé dans le fichier de données entrantes. Par exemple, si vous envoyez 300 lignes à un utilisateur - id, les 200 premières lignes sont conservées et les 100 lignes supplémentaires sont ignorées. Dans l'exemple ci-dessous, vous êtes bon car vous envoyez 3 lignes chacune pour user - id 1 et user - id 2. Nous n'imposons pas de limite quant au nombre de caractéristiques ou de paires clé-valeur que vous incluez dans une ligne.
 >
 >```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -151,7 +151,7 @@ Les ID de caractéristique se composent uniquement de caractères numériques. W
 
 ### Paires clé-valeur
 
-Les noms de valeurs mal formatés dans une paire clé-valeur provoquent également des problèmes. Suivez ces règles lorsque vous créez ou nommez la valeur d&#39;une paire clé-valeur :
+Les noms de valeurs mal formatés dans une paire clé-valeur provoquent également des problèmes. Suivez ces règles lorsque vous créez ou nommez la valeur d'une paire clé-valeur :
 
 <table id="table_41A4991090A64DEFA9AF704164B26DBB"> 
  <thead> 
@@ -221,7 +221,7 @@ Les noms de valeurs mal formatés dans une paire clé-valeur provoquent égaleme
  </tbody> 
 </table>
 
-[Téléchargez](assets/ftp_dpm_1234_1445374061.overwrite) le fichier de données d&#39;exemple si vous avez besoin d&#39;exemples supplémentaires. The download file has a `.overwrite` file extension. Vous pouvez l&#39;ouvrir à l&#39;aide d&#39;un simple éditeur de texte.
+[Téléchargez](assets/ftp_dpm_1234_1445374061.overwrite) le fichier de données d'exemple si vous avez besoin d'exemples supplémentaires. The download file has a `.overwrite` file extension. Vous pouvez l'ouvrir à l'aide d'un simple éditeur de texte.
 
 ## Examples Matrix {#examples-matrix}
 
@@ -271,7 +271,7 @@ The chart below shows examples of the correct way to format your Inbound files, 
 
 ### Example 1 {#example-1}
 
-Utilisez les ID de caractéristique pour envoyer des informations de qualification des caractéristiques pour les UUID d&#39;Audience Manager.
+Utilisez les ID de caractéristique pour envoyer des informations de qualification des caractéristiques pour les UUID d'Audience Manager.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -279,7 +279,7 @@ Utilisez les ID de caractéristique pour envoyer des informations de qualificati
 
 ### Example 2 {#example-2}
 
-Utilisez des ID de caractéristique pour envoyer des informations de disqualification de caractéristique pour les UUID d&#39;Audience Manager.
+Utilisez des ID de caractéristique pour envoyer des informations de disqualification de caractéristique pour les UUID d'Audience Manager.
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -299,7 +299,7 @@ ou
 
 ### Example 3 {#example-3}
 
-Envoyez des paires clé-valeur pour ajouter des informations de qualification des caractéristiques pour les UUID d&#39;Audience Manager.
+Envoyez des paires clé-valeur pour ajouter des informations de qualification des caractéristiques pour les UUID d'Audience Manager.
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -313,7 +313,7 @@ ou
 
 ### Example 4 {#example-4}
 
-Utilisez le préfixe ic pour envoyer des informations de qualification des caractéristiques pour les UUID d&#39;Audience Manager.
+Utilisez le préfixe ic pour envoyer des informations de qualification des caractéristiques pour les UUID d'Audience Manager.
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
