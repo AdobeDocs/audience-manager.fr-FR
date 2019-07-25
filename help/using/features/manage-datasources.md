@@ -16,7 +16,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## Create a Data Source {#create-data-source}
 
-To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Les autorisations d&#39;administrateur sont requises pour créer une source de données.
+To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Les autorisations d'administrateur sont requises pour créer une source de données.
 
 <!-- create-datasource.xml -->
 
@@ -30,13 +30,13 @@ To complete the [!UICONTROL Data Source Details] section:
 
 1. Nommez la source de données.
 1. *(Facultatif)* Décrivez la source de données. Une description concise permet de définir le rôle ou le rôle de la source de données.
-1. Fournissez un code d&#39;intégration. En règle générale, les codes d&#39;intégration sont facultatifs. Ils sont obligatoires lorsque vous voulez :
+1. Fournissez un code d'intégration. En règle générale, les codes d'intégration sont facultatifs. Ils sont obligatoires lorsque vous voulez :
 
    * [Créez une source de données sur plusieurs périphériques](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
    * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Choose an **[!UICONTROL ID Type]**. Les options Type d&#39;ID incluent :
+1. Choose an **[!UICONTROL ID Type]**. Les options Type d'ID incluent :
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -49,11 +49,11 @@ To complete the [!UICONTROL Data Source Details] section:
 
 ## Contrôles des exportations de données {#export-controls}
 
-[Les contrôles d&#39;exportation de données](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d&#39;envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d&#39;utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Les contrôles d'exportation de données](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d'envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d'utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
-Ces paramètres déterminent comment une source de données est identifiée, utilisée et partagée. Vous pouvez également activer la création de rapports d&#39;erreur pour les fichiers de données entrants. To complete the [!UICONTROL Data Source Settings] section:
+Ces paramètres déterminent comment une source de données est identifiée, utilisée et partagée. Vous pouvez également activer la création de rapports d'erreur pour les fichiers de données entrants. To complete the [!UICONTROL Data Source Settings] section:
 
 1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
 2. Cliquez sur **[!UICONTROL Save]**.
@@ -67,7 +67,7 @@ Ces paramètres déterminent comment une source de données est identifiée, uti
 
 <!-- t_datasource_delete.xml -->
 
-Supprimez une source de données dont vous n&#39;avez plus besoin.
+Supprimez une source de données dont vous n'avez plus besoin.
 
 >[!NOTE]
 >
@@ -78,6 +78,6 @@ Supprimez une source de données dont vous n&#39;avez plus besoin.
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
-1. Cochez la case en regard d&#39;une ou de plusieurs sources de données.
+1. Cochez la case en regard d'une ou de plusieurs sources de données.
 You can use the [!UICONTROL Search] box to locate the desired data sources if you have a long list.
 1. Click  ![](assets/icon_trash.png), then confirm the deletion.
