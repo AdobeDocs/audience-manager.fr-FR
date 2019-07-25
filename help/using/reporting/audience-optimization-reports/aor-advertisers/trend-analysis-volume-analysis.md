@@ -17,13 +17,13 @@ Ces rapports renvoient des données sur les impressions, les taux de clics publi
 
 ## Sample Trend Analysis Report {#sample-trend-analysis}
 
-The [!UICONTROL Trend Analysis] report returns data in a line graph for a 14-day interval only. Dans cet exemple, le rapport montre les tendances d&#39;impression, de clic publicitaire et de conversion pour un ensemble de segments mappés.
+The [!UICONTROL Trend Analysis] report returns data in a line graph for a 14-day interval only. Dans cet exemple, le rapport montre les tendances d'impression, de clic publicitaire et de conversion pour un ensemble de segments mappés.
 
 ![](assets/trend-analysis.png)
 
 ## Sample Volume Analysis Report {#sample-volume-analysis}
 
-The [!UICONTROL Volume Analysis] report returns data in a bar graph for your selected date range. Dans cet exemple, le rapport montre l&#39;impression, le clic publicitaire et les conversions par volume pour un ensemble de segments mappés.
+The [!UICONTROL Volume Analysis] report returns data in a bar graph for your selected date range. Dans cet exemple, le rapport montre l'impression, le clic publicitaire et les conversions par volume pour un ensemble de segments mappés.
 
 >[!NOTE]
 >
