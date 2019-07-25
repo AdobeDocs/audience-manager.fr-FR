@@ -19,7 +19,7 @@ To create [!UICONTROL Profile Merge Rules], review and complete the steps in eac
 
 ## Create a Cross-Device Data Source {#create-data-source}
 
-To create a cross-device data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Les autorisations d&#39;administrateur sont requises pour créer ou modifier une source de données sur plusieurs périphériques.
+To create a cross-device data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Les autorisations d'administrateur sont requises pour créer ou modifier une source de données sur plusieurs périphériques.
 
 <!-- create-cross-device-datasource.xml -->
 
@@ -33,7 +33,7 @@ To complete the [!UICONTROL Data Source Details] section:
 
 1. Nommez la source de données.
 1. *(Facultatif)* Décrivez la source de données. Une description concise permet de définir le rôle ou le rôle de la source de données.
-1. Fournissez un code d&#39;intégration. Un code d&#39;intégration est votre propre identifiant unique pour cette source de données.
+1. Fournissez un code d'intégration. Un code d'intégration est votre propre identifiant unique pour cette source de données.
 1. In the **[!UICONTROL ID Type]** list, select **[!UICONTROL Cross Device]**.
 1. In the **[!UICONTROL ID Definition]** list, select an option that defines the data source type. Les options incluent :
    * **[!UICONTROL Person]**: Identifiant qui définit une seule personne. This ID can be mapped to multiple [!DNL Audience Manager] IDs.
@@ -41,11 +41,11 @@ To complete the [!UICONTROL Data Source Details] section:
 
 ## Contrôles des exportations de données {#export-controls}
 
-[Les contrôles d&#39;exportation de données](../../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d&#39;envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d&#39;utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Les contrôles d'exportation de données](../../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d'envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d'utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
-[!UICONTROL Data Source Settings] fournit plusieurs options, mais ces deux éléments sont importants pour la création d&#39;une source de données sur plusieurs périphériques :
+[!UICONTROL Data Source Settings] fournit plusieurs options, mais ces deux éléments sont importants pour la création d'une source de données sur plusieurs périphériques :
 
 * **[!UICONTROL Use as Authenticated Profile]**: Sélectionné par défaut, ce paramètre vous permet de créer un [!UICONTROL Profile Merge Rule] rapport avec vos propres données authentifiées.
 
@@ -57,12 +57,12 @@ The text fields associated with these settings let you rename the [!UICONTROL Da
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Création d&#39;une source de données](../../features/manage-datasources.md#create-data-source)
+>* [Création d'une source de données](../../features/manage-datasources.md#create-data-source)
 
 
 ## Create a Profile Merge Rule {#create-profile-merge-rule}
 
-To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. Vous pouvez créer jusqu&#39;à trois règles de fusion après avoir défini la source de données sur plusieurs périphériques. Les autorisations d&#39;administrateur sont requises pour créer, modifier ou supprimer une règle. All users can view and use existing [!UICONTROL Profile Merge Rules].
+To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** and complete the steps for each section described here. Vous pouvez créer jusqu'à trois règles de fusion après avoir défini la source de données sur plusieurs périphériques. Les autorisations d'administrateur sont requises pour créer, modifier ou supprimer une règle. All users can view and use existing [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
@@ -77,12 +77,12 @@ To create a [!UICONTROL Profile Merge Rule], go to **[!UICONTROL Audience Data >
 To complete the [!UICONTROL Basic Information] section:
 
 1. Name the [!UICONTROL Profile Merge Rule].
-2. *(Facultatif)* Décrivez [!UICONTROL Profile Merge Rule]la variable. Une description concise permet de définir le rôle ou l&#39;objectif de la règle.
+2. *(Facultatif)* Décrivez [!UICONTROL Profile Merge Rule]la variable. Une description concise permet de définir le rôle ou l'objectif de la règle.
 3. *(Facultatif)* Sélectionnez **[!UICONTROL Set as default]** si vous souhaitez que cette valeur soit la valeur par défaut [!UICONTROL Profile Merge Rule]. Les nouveaux segments sont automatiquement associés à la règle par défaut.
 
 ## Contrôles des exportations de données {#data-export-controls}
 
-[Les contrôles d&#39;exportation de données](../../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à votre [!UICONTROL Profile Merge Rule]. Elles vous empêchent d&#39;envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d&#39;utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Les contrôles d'exportation de données](../../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à votre [!UICONTROL Profile Merge Rule]. Elles vous empêchent d'envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d'utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
 
 ## Profile Merge Rule Setup {#profile-merge-rule-setup}
 
@@ -112,11 +112,11 @@ You must set up a [cross-device data source](#create-data-source) and [profile m
 
 ## For Experience Cloud ID Service Customers {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don&#39;t have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you&#39;re just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. If you're just using [!UICONTROL DIL], see the [legacy DIL section](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) below.
 
-### Configuration de la fonction Définir l&#39;ID du client
+### Configuration de la fonction Définir l'ID du client
 
-When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you&#39;ve created a cross-device data source with the integration code `my_datasource_ic`. Pour transmettre un ID déclaré, vous ajoutez le code d&#39;intégration à la fonction d&#39;identification des visiteurs, comme indiqué dans l&#39;exemple de code modifié ci-dessous.
+When working with the [!UICONTROL Experience Cloud ID Service], the `setCustomerIDs` function passes declared IDs to [!DNL Audience Manager]. To use a profile merge rule, you must modify `setCustomerIDs` to use the integration code specified when you created a cross-device data source. For example, say you've created a cross-device data source with the integration code `my_datasource_ic`. Pour transmettre un ID déclaré, vous ajoutez le code d'intégration à la fonction d'identification des visiteurs, comme indiqué dans l'exemple de code modifié ci-dessous.
 
 #### Exemple de code générique
 
@@ -149,7 +149,7 @@ The latest versions of [!UICONTROL DIL] now automatically pick up the [!UICONTRO
  ;</code>
 </pre>
 
-In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don&#39;t have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. Vous devez disposer des autorisations d&#39;administrateur pour afficher ce tableau de bord. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In the namespace key-value pair, the `*`MCORG`*` variable is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. Vous devez disposer des autorisations d'administrateur pour afficher ce tableau de bord. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
 ### Configuration de SDK
 
@@ -157,7 +157,7 @@ See the [Configure SDKs](../../features/profile-merge-rules/merge-rules-start.md
 
 ## Legacy DIL {#legacy-dil}
 
-If you&#39;re not using [!DNL Experience Cloud ID Service] yet, you really ought to. Cependant, nous comprenons que le passage au nouveau code requiert des réflexions et des tests minutieux. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
+If you're not using [!DNL Experience Cloud ID Service] yet, you really ought to. Cependant, nous comprenons que le passage au nouveau code requiert des réflexions et des tests minutieux. In these cases, check your `DIL.create` function to make sure this is set up properly as shown in the code sample below.
 
 <pre class="js"><code>DIL. create ({partner
  : « nom du partenaire »,
@@ -174,7 +174,7 @@ For more information, see the legacy [!UICONTROL DIL] section in [Declared ID Va
 Check the methods in your [!DNL SDK] code that let you pass [!UICONTROL declared IDs] from [!DNL Android] and [!DNL iOS] mobile devices. The variable names for the [!DNL Android] and [!DNL iOS] code libraries are the same:
 
 * `dpid`: ID de source de données sur plusieurs périphériques.
-* `dpuuid`: Le [!UICONTROL declared ID] (c.-à-d. l&#39;utilisateur - id).
+* `dpuuid`: Le [!UICONTROL declared ID] (c.-à-d. l'utilisateur - id).
 
 <table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 
  <thead> 
