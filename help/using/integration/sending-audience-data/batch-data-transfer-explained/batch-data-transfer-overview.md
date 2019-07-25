@@ -14,23 +14,23 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 # Send Batch Data to Audience Manager Overview{#send-batch-data-to-audience-manager-overview}
 
-Présentation des clients techniques et non techniciens qui souhaitent importer des données d&#39;autres systèmes (hors ligne) dans Audience Manager.
+Présentation des clients techniques et non techniciens qui souhaitent importer des données d'autres systèmes (hors ligne) dans Audience Manager.
 
 ## Avantages
 
 <!-- c_offline_to_online.xml -->
 
-Vous pouvez rendre les données d&#39;autres systèmes disponibles dans Audience Manager. Notre système peut vous aider à déverrouiller la valeur et à exploiter les données utilisateur que vous avez collectées précédemment. This includes information about purchases, customer surveys, registration data, [!DNL CRM] databases, etc. Chaque intégration présente ses propres défis, mais tous partagent ces étapes courantes. Consultez ce document pour réduire l&#39;effort nécessaire pour importer vos données hors ligne en ligne.
+Vous pouvez rendre les données d'autres systèmes disponibles dans Audience Manager. Notre système peut vous aider à déverrouiller la valeur et à exploiter les données utilisateur que vous avez collectées précédemment. This includes information about purchases, customer surveys, registration data, [!DNL CRM] databases, etc. Chaque intégration présente ses propres défis, mais tous partagent ces étapes courantes. Consultez ce document pour réduire l'effort nécessaire pour importer vos données hors ligne en ligne.
 
-## Étape 1 : Synchroniser l&#39;utilisateur - Identifiants
+## Étape 1 : Synchroniser l'utilisateur - Identifiants
 
 Lors de la synchronisation, Audience Manager attribue des identifiants uniques aux clients et aux utilisateurs. These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. Lorsque cette étape est terminée, Audience Manager et votre référentiel hors ligne doivent contenir les identifiants correspondants pour chaque enregistrement utilisateur.
 
 Remarques importantes concernant cette étape :
 
-* **Placement d&#39;ID client :** Audience Manager doit savoir où figure votre ID client sur votre site Web (par exemple, il est stocké dans un cookie, une variable Analytics, dans le code de page, etc.).
-* **Exclure[!DNL PII]:** Utilisateur - les identifiants ne doivent pas contenir d&#39;informations personnelles identifiables ([!DNL PII]).
-* **Respect de la casse et du contenu :** Lors d&#39;une synchronisation de données en temps réel, l&#39;utilisateur - les identifiants capturés depuis votre site par Audience Manager doivent correspondre aux ID transmis depuis votre référentiel hors ligne. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. Par conséquent, les informations en ligne de ce visiteur ne peuvent pas être associées aux enregistrements correspondants dans votre base de données hors ligne. Les ID doivent correspondre exactement.
+* **Placement d'ID client :** Audience Manager doit savoir où figure votre ID client sur votre site Web (par exemple, il est stocké dans un cookie, une variable Analytics, dans le code de page, etc.).
+* **Exclure[!DNL PII]:** Utilisateur - les identifiants ne doivent pas contenir d'informations personnelles identifiables ([!DNL PII]).
+* **Respect de la casse et du contenu :** Lors d'une synchronisation de données en temps réel, l'utilisateur - les identifiants capturés depuis votre site par Audience Manager doivent correspondre aux ID transmis depuis votre référentiel hors ligne. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. Par conséquent, les informations en ligne de ce visiteur ne peuvent pas être associées aux enregistrements correspondants dans votre base de données hors ligne. Les ID doivent correspondre exactement.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
@@ -56,7 +56,7 @@ Les noms et le contenu des fichiers suivent des directives strictes. You *must* 
 
 ## Les données en ligne sont disponibles pour les actions marketing hors ligne
 
-Lorsque vous importez des données hors ligne en ligne, vous pouvez toujours utiliser ces informations pour les campagnes hors ligne. To do this, Audience Manager exports trait and segment information to an [!DNL FTP] or [!DNL Amazon S3] location of your choice. Contactez votre gestionnaire de solutions partenaires pour obtenir d&#39;autres informations ou d&#39;autres informations.
+Lorsque vous importez des données hors ligne en ligne, vous pouvez toujours utiliser ces informations pour les campagnes hors ligne. To do this, Audience Manager exports trait and segment information to an [!DNL FTP] or [!DNL Amazon S3] location of your choice. Contactez votre gestionnaire de solutions partenaires pour obtenir d'autres informations ou d'autres informations.
 
 ## Environnements
 
