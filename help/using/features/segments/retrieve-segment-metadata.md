@@ -17,29 +17,29 @@ Lorsque Audience Manager envoie des informations de segment à un partenaire de 
 
 ## Manual method {#manual-method}
 
-En tant que partenaire de données, vous avez probablement la possibilité d&#39;obtenir des métadonnées d&#39;audience auprès de vos clients par le biais de processus manuels. This could include files attached to emails or from customers adding that data through a [!DNL UI] you&#39;ve built and maintained for this purpose. Ces processus fonctionnent, mais ils sont souvent fastidieux, temps - consommer et peuvent exiger un travail manuel de saisie de données. Ces méthodes sont souvent utilisées pour aider à obtenir une intégration rapidement et rapidement, mais elles ne fournissent pas la meilleure expérience client à long terme. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
+En tant que partenaire de données, vous avez probablement la possibilité d'obtenir des métadonnées d'audience auprès de vos clients par le biais de processus manuels. This could include files attached to emails or from customers adding that data through a [!DNL UI] you've built and maintained for this purpose. Ces processus fonctionnent, mais ils sont souvent fastidieux, temps - consommer et peuvent exiger un travail manuel de saisie de données. Ces méthodes sont souvent utilisées pour aider à obtenir une intégration rapidement et rapidement, mais elles ne fournissent pas la meilleure expérience client à long terme. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
 
 ## Automated method {#automated-method}
 
-[!DNL Audience Manager] fournit un ensemble d&#39;API [REST](../../api/rest-api-main/rest-api-main.md) qui vous permettent de récupérer automatiquement les métadonnées de segment. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. Pour plus d&#39;informations, voir les étapes ci-dessous.
+[!DNL Audience Manager] fournit un ensemble d'API [REST](../../api/rest-api-main/rest-api-main.md) qui vous permettent de récupérer automatiquement les métadonnées de segment. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. Pour plus d'informations, voir les étapes ci-dessous.
 
 ### Étape 1 : Vérification des API Audience Manager
 
-The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven&#39;t worked with the [!DNL Audience Manager] [!DNL API] before.
+The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
 
-### Étape 2 : Demande d&#39;accès oauth 2
+### Étape 2 : Demande d'accès oauth 2
 
-You need a client ID and secret to make [!DNL API] calls. Vous pouvez obtenir un ID client et un secret de votre spécialiste d&#39;intégration lors du processus de configuration de l&#39;intégration. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at [!DNL amsupport@adobe.com].
+You need a client ID and secret to make [!DNL API] calls. Vous pouvez obtenir un ID client et un secret de votre spécialiste d'intégration lors du processus de configuration de l'intégration. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at [!DNL amsupport@adobe.com].
 
 ### Étape 3 : Recueillir des informations spécifiques aux clients de chaque client intégré
 
 Demandez ce qui suit à chaque client intégré :
 
-* Nom d&#39;utilisateur : Ceci s&#39;applique à un utilisateur restreint disposant d&#39;autorisations en lecture seule pour la destination associée à une intégration spécifique.
-* Mot de passe : Mot de passe de l&#39;utilisateur.
-* ID de destination : Il s&#39;agit de l&#39;identifiant (entier) associé à la destination créée pour l&#39;intégration de serveur à serveur spécifique.
+* Nom d'utilisateur : Ceci s'applique à un utilisateur restreint disposant d'autorisations en lecture seule pour la destination associée à une intégration spécifique.
+* Mot de passe : Mot de passe de l'utilisateur.
+* ID de destination : Il s'agit de l'identifiant (entier) associé à la destination créée pour l'intégration de serveur à serveur spécifique.
 
-### Étape 4 : Récupération des métadonnées de segment avec un appel d&#39;API
+### Étape 4 : Récupération des métadonnées de segment avec un appel d'API
 
 After completing the previous steps, you can use a `GET` method to retrieve segment metadata. For a sample request and response, see [Return Destination Mappings](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). This call returns segment data formatted as key-value pairs in a [!DNL JSON] object. Certains des attributs importants de segment renvoyés dans la réponse sont répertoriés dans le tableau suivant.
 
