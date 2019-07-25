@@ -16,12 +16,12 @@ Recherchez un ou plusieurs signaux, en fonction de leurs paires clé-valeur resp
 To search for more than one signal, click the ![Add](assets/icon_add.png) button. Entrez les paires clé-valeur à rechercher, puis utilisez les filtres suivants pour réduire vos résultats.
 
 * **État du signal**: rechercher des signaux inclus dans des caractéristiques, des signaux inutilisés ou les deux.
-* **Afficher les enregistrements pour**: sélectionnez l&#39;intervalle dans lequel rechercher les signaux reçus.
-* **Nombre minimum**: n&#39;affiche que les signaux avec le nombre total minimal spécifié dans l&#39;intervalle sélectionné.
+* **Afficher les enregistrements pour**: sélectionnez l'intervalle dans lequel rechercher les signaux reçus.
+* **Nombre minimum**: n'affiche que les signaux avec le nombre total minimal spécifié dans l'intervalle sélectionné.
 
 >[!IMPORTANT]
 >
->Pour une expérience utilisateur simplifiée, les résultats de recherche de paire clé-valeur sont basés sur l&#39;échantillonnage des données. See [Data Sampling and Error Rates](/help/using/reporting/report-sampling.md) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
+>Pour une expérience utilisateur simplifiée, les résultats de recherche de paire clé-valeur sont basés sur l'échantillonnage des données. See [Data Sampling and Error Rates](/help/using/reporting/report-sampling.md) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
 
 When searching for signals using multiple key-value pairs, [!DNL Audience Manager] links the pairs using the logical **AND** operator. Par exemple, supposons que vous réalisiez une recherche avec les paires clé-valeur suivantes :
 
@@ -39,7 +39,7 @@ Les champs de recherche de clé et de valeur ne sont pas sensibles à la casse. 
 
 ![](assets/signal-search-suggestions.png)
 
-Let&#39;s say [!DNL Audience Manager] received the following signals:
+Let's say [!DNL Audience Manager] received the following signals:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
