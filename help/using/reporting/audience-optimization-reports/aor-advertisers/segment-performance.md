@@ -13,17 +13,17 @@ source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 
 # Segment Performance Report{#segment-performance-report}
 
-The [!UICONTROL Segment Performance] report compares mapped and unmapped segments by impressions and conversion rates. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n&#39;avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports permet d&#39;optimiser les campagnes existantes et de rechercher des segments ignorés que vous souhaitez envoyer à une destination pour le ciblage.
+The [!UICONTROL Segment Performance] report compares mapped and unmapped segments by impressions and conversion rates. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n'avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports permet d'optimiser les campagnes existantes et de rechercher des segments ignorés que vous souhaitez envoyer à une destination pour le ciblage.
 
 ## How to Read Your Mapped Segment Results {#read-mapped-segment-results}
 
 The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments.
 
-Pour lire le rapport, il permet de diviser les résultats en 4 sections avec des lignes imaginaires (en rouge) et des catégories illustrées dans l&#39;exemple de rapport ci-dessous.
+Pour lire le rapport, il permet de diviser les résultats en 4 sections avec des lignes imaginaires (en rouge) et des catégories illustrées dans l'exemple de rapport ci-dessous.
 
 ![](assets/mapped-segment-performance.png)
 
-Les étiquettes dans l&#39;exemple et le tableau suivant peuvent vous aider à comprendre les performances des segments et comment réagir à ces résultats.
+Les étiquettes dans l'exemple et le tableau suivant peuvent vous aider à comprendre les performances des segments et comment réagir à ces résultats.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -54,16 +54,16 @@ Les étiquettes dans l&#39;exemple et le tableau suivant peuvent vous aider à c
 
 ## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven&#39;t considered for targeting. En fait, certains de ces segments peuvent dépasser les segments mappés. Ceci est dû au fait qu&#39;un segment non mappé doit respecter un jeu de critères de qualification à inclure dans ce rapport. Pour être inclus dans ce rapport, un segment non mappé doit :
+Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. En fait, certains de ces segments peuvent dépasser les segments mappés. Ceci est dû au fait qu'un segment non mappé doit respecter un jeu de critères de qualification à inclure dans ce rapport. Pour être inclus dans ce rapport, un segment non mappé doit :
 
 * Avec des conversions supérieures à la moyenne de tous les segments mappés.
 * Utilisez les 100 segments non mappés par taux de conversion.
 
-Pour lire ce rapport, il permet de diviser les résultats en 4 sections avec des lignes imaginaires (en rouge) et des catégories illustrées dans l&#39;exemple de rapport ci-dessous.
+Pour lire ce rapport, il permet de diviser les résultats en 4 sections avec des lignes imaginaires (en rouge) et des catégories illustrées dans l'exemple de rapport ci-dessous.
 
 ![](assets/unmapped-segment-performance.png)
 
-Dans ce rapport, vous souhaitez simplement vous concentrer sur ces segments non mappés dans la section supérieure gauche. Ces segments non mappés présentent des taux de conversion élevés pour un faible niveau d&#39;impressions comparé aux segments dans les trois autres sections.
+Dans ce rapport, vous souhaitez simplement vous concentrer sur ces segments non mappés dans la section supérieure gauche. Ces segments non mappés présentent des taux de conversion élevés pour un faible niveau d'impressions comparé aux segments dans les trois autres sections.
 
 >[!NOTE]
 >
