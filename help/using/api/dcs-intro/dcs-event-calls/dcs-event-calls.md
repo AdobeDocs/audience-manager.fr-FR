@@ -31,5 +31,5 @@ Pour commencer, reportez-vous aux sections ci-dessous. Start with [Send Data to 
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Référence de l&#39;API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [Référence de l'API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
