@@ -24,20 +24,20 @@ Hover over a segment name in the segments list to expose the **[!UICONTROL pause
 Segment suspendu (désactivé) :
 
 * Arrête la segmentation des nouveaux utilisateurs qualifiés.
-* Conserve l&#39;état/l&#39;appartenance à la segmentation d&#39;un utilisateur (ne supprime pas un utilisateur du segment).
+* Conserve l'état/l'appartenance à la segmentation d'un utilisateur (ne supprime pas un utilisateur du segment).
 * Reste dans la liste des segments et peut être réactivé.
-* N&#39;envoie pas de données aux destinations associées.
-* Renvoie les données dans les rapports disponibles (jusqu&#39;à la date de désactivation).
+* N'envoie pas de données aux destinations associées.
+* Renvoie les données dans les rapports disponibles (jusqu'à la date de désactivation).
 
 ## Fonctionnalité de segment supprimée
 
 Segment supprimé :
 
 * Arrête la segmentation des nouveaux utilisateurs qualifiés.
-* supprime les utilisateurs qualifiés de l&#39;appartenance aux segments.
+* supprime les utilisateurs qualifiés de l'appartenance aux segments.
 * Est supprimé de la liste de segments.
 * Ne peut pas être non supprimé.
-* N&#39;envoie pas de données aux destinations associées.
+* N'envoie pas de données aux destinations associées.
 * Ne renvoie pas de données dans les rapports disponibles.
 
 >[!NOTE]
