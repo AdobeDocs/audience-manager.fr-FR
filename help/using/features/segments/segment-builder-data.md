@@ -40,13 +40,13 @@ Le tableau suivant définit les mesures de population de caractéristiques
 
 ## Calculating Real and Estimated Segment Populations {#calculating-real-estimated-populations}
 
-Lorsque vous créez un segment ou modifiez un segment existant, Audience Manager prend jusqu&#39;à 24 heures pour afficher les résultats pour les populations de segments réelles et en temps réel.
+Lorsque vous créez un segment ou modifiez un segment existant, Audience Manager prend jusqu'à 24 heures pour afficher les résultats pour les populations de segments réelles et en temps réel.
 
-Cependant, Audience Manager peut immédiatement estimer la taille de population totale et totale de votre segment. Ces estimations reposent sur des données historiques échantillonnées et retournent des résultats à l&#39;intervalle de confiance de 95 %.
+Cependant, Audience Manager peut immédiatement estimer la taille de population totale et totale de votre segment. Ces estimations reposent sur des données historiques échantillonnées et retournent des résultats à l'intervalle de confiance de 95 %.
 
 ![](assets/confidence-interval.png)
 
-In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs indicates the possible upper and lower ranges for segment size. Bien que les performances antérieures ne garantissent pas les résultats futurs, les données estimées peuvent vous aider à comprendre la taille potentielle d&#39;un segment nouveau ou modifié.
+In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs indicates the possible upper and lower ranges for segment size. Bien que les performances antérieures ne garantissent pas les résultats futurs, les données estimées peuvent vous aider à comprendre la taille potentielle d'un segment nouveau ou modifié.
 
 ## Segment Population Data Overview {#segment-populations}
 
@@ -58,7 +58,7 @@ In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs i
 
 ![](assets/segment-data.png)
 
-Consultez les définitions ci-dessous pour plus d&#39;informations sur les données de population de segments estimées et réelles.
+Consultez les définitions ci-dessous pour plus d'informations sur les données de population de segments estimées et réelles.
 
 ## Estimated Segment Population Data Defined {#estimated-segment-population}
 
@@ -145,13 +145,13 @@ The following table defines the actual real-time and total population metrics wh
  </tbody>
 </table>
 
-### Limites en raison de la récence et des expressions de fréquence lors de l&#39;estimation des populations de segment
+### Limites en raison de la récence et des expressions de fréquence lors de l'estimation des populations de segment
 
-[!UICONTROL Segment Builder] prend en charge les estimations de taille de segment pour les règles de segmentation qui contiennent jusqu&#39;à 4 expressions de récence et de fréquence. Si vous choisissez plus de 4 expressions de récence et de fréquence lors de la création d&#39;une règle de segment, l&#39;estimateur de segment affiche une erreur lors de l&#39;estimation de la population.
+[!UICONTROL Segment Builder] prend en charge les estimations de taille de segment pour les règles de segmentation qui contiennent jusqu'à 4 expressions de récence et de fréquence. Si vous choisissez plus de 4 expressions de récence et de fréquence lors de la création d'une règle de segment, l'estimateur de segment affiche une erreur lors de l'estimation de la population.
 
-### Limites dues à la fusion des règles lors de l&#39;estimation des populations de segments
+### Limites dues à la fusion des règles lors de l'estimation des populations de segments
 
-Actuellement, il existe une limite connue car notre estimateur de taille de segment ne tient pas compte des règles de fusion de profils. For example, look at segments with the **No Authenticated Profile + Current Device Profile** [merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Du fait de la façon dont nous calculons actuellement les chiffres d&#39;estimation des segments, les populations estimées incluent les profils authentifiés. Toutefois, les populations de segments existantes ignorent correctement les profils authentifiés.
+Actuellement, il existe une limite connue car notre estimateur de taille de segment ne tient pas compte des règles de fusion de profils. For example, look at segments with the **No Authenticated Profile + Current Device Profile** [merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Du fait de la façon dont nous calculons actuellement les chiffres d'estimation des segments, les populations estimées incluent les profils authentifiés. Toutefois, les populations de segments existantes ignorent correctement les profils authentifiés.
 
 >[!MORE_ LIKE_ THIS]
 >
