@@ -15,14 +15,14 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 Informations sur Amazon Simple Storage Service (Amazon S 3).
 
-En règle générale, il est recommandé d&#39;utiliser Amazon S 3 plutôt que FTP comme méthode d&#39;obtention de fichiers et de fourniture de fichiers aux partenaires. Amazon S 3 fournit une interface de services Web simple qui permet de stocker et de récupérer n&#39;importe quelle quantité de données à tout moment, depuis n&#39;importe quel emplacement sur le Web.
+En règle générale, il est recommandé d'utiliser Amazon S 3 plutôt que FTP comme méthode d'obtention de fichiers et de fourniture de fichiers aux partenaires. Amazon S 3 fournit une interface de services Web simple qui permet de stocker et de récupérer n'importe quelle quantité de données à tout moment, depuis n'importe quel emplacement sur le Web.
 
-L&#39;utilisation d&#39;Amazon S 3 présente les avantages suivants :
+L'utilisation d'Amazon S 3 présente les avantages suivants :
 
 * **Évolutivité :** Amazon S 3 offre une évolutivité presque illimitée.
 * **Fiabilité et disponibilité :** Amazon S 3 offre des services de stockage haut de gamme et de haute disponibilité.
 * **Vitesse :** Amazon S 3 permet des transferts de données rapides.
-* **Facilité - de - utilisez :** Amazon S 3 est très facile à utiliser et à implémenter. Votre implémentation peut être opérationnelle dans environ une heure. La mise en œuvre d&#39;un répertoire FTP prend beaucoup plus de temps.
+* **Facilité - de - utilisez :** Amazon S 3 est très facile à utiliser et à implémenter. Votre implémentation peut être opérationnelle dans environ une heure. La mise en œuvre d'un répertoire FTP prend beaucoup plus de temps.
 * **Chargements multiparties :** Les fichiers volumineux peuvent être téléchargés rapidement et efficacement en tant que téléchargements de fichiers à parties multiples.
 * **Sécurité :** Amazon S 3 offre une sécurité renforcée.
 
@@ -32,7 +32,7 @@ L&#39;utilisation d&#39;Amazon S 3 présente les avantages suivants :
 
 * **Prise en charge de débogage et de sauvegarde :** Amazon S 3 [!DNL Audience Manager] permet de conserver des copies exactes des fichiers pour faciliter le débogage ou le retransfert.
 
-Pour plus d&#39;informations sur Amazon S 3, consultez les ressources suivantes :
+Pour plus d'informations sur Amazon S 3, consultez les ressources suivantes :
 
 [Amazon Simple Storage Service (Amazon S 3)](https://aws.amazon.com/s3/) sur le site web Amazon Web Services.
 
