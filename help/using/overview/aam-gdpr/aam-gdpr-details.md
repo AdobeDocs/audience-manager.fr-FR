@@ -17,7 +17,7 @@ Ce document décrit les technicônes relatives au GDPR (General Data Protection 
 
 ## GDPR Documentation in the Experience Cloud {#gdpr-documentation}
 
-Avant de lire les détails d&#39;Audience Manager, nous vous conseillons d&#39;utiliser le matériel Experience Cloud pour le GDPR (European General Data Protection Regulation), lié ci-dessous :
+Avant de lire les détails d'Audience Manager, nous vous conseillons d'utiliser le matériel Experience Cloud pour le GDPR (European General Data Protection Regulation), lié ci-dessous :
 
 * [GDPR et votre entreprise](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 * [Livre blanc GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md)
@@ -27,27 +27,27 @@ Les sections ci-dessous décrivent ce que signifie le GDPR pour Audience Manager
 
 ## Types of GDPR Requests and How to Make a GDPR Request {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). Pour toute question, contactez le service d&#39;assistance clientèle à l&#39;adresse gdprsupport@adobe.com.
+As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). Pour toute question, contactez le service d'assistance clientèle à l'adresse gdprsupport@adobe.com.
 
 ## Accéder aux données {#access-data}
 
-Nous comprenons votre engagement à respecter vos demandes de clients GDPR dans les 30 jours qui suivent leur réception. C&#39;est pourquoi nous tentons de traiter votre demande d&#39;accès aux données dès que possible.
+Nous comprenons votre engagement à respecter vos demandes de clients GDPR dans les 30 jours qui suivent leur réception. C'est pourquoi nous tentons de traiter votre demande d'accès aux données dès que possible.
 
 **Demande**
 
-You can log data access requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** (see `access` action). Dans tous les cas, vous devez télécharger un fichier JSON avec les identificateurs Audience Manager pour lesquels vous envoyez la demande d&#39;accès aux données. See what a well-formed JSON looks like in the **[Experience Cloud GDPR documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** (specifically, search in page for &quot;POST request format&quot;). Or, you can **[download a sample JSON](assets/access_request.json)**.
+You can log data access requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** (see `access` action). Dans tous les cas, vous devez télécharger un fichier JSON avec les identificateurs Audience Manager pour lesquels vous envoyez la demande d'accès aux données. See what a well-formed JSON looks like in the **[Experience Cloud GDPR documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** (specifically, search in page for "POST request format"). Or, you can **[download a sample JSON](assets/access_request.json)**.
 
 **Réponse**
 
-Les réponses à l&#39;accès aux requêtes de données contiennent un résumé du nombre total de caractéristiques et de segments, du type de caractéristique, des descriptions des caractéristiques et des segments ainsi que des noms de source de données correspondants. La réponse Accès comprend également des données tierces et tierces accessibles au contrôleur de données, ainsi que les données propriétaires. When [!UICONTROL declared IDs] such as cross device CRM IDs or customer cookie IDs are sent in GDPR requests, Audience Manager will include the Access response from all the linked devices (up to 100 devices per declared ID).
+Les réponses à l'accès aux requêtes de données contiennent un résumé du nombre total de caractéristiques et de segments, du type de caractéristique, des descriptions des caractéristiques et des segments ainsi que des noms de source de données correspondants. La réponse Accès comprend également des données tierces et tierces accessibles au contrôleur de données, ainsi que les données propriétaires. When [!UICONTROL declared IDs] such as cross device CRM IDs or customer cookie IDs are sent in GDPR requests, Audience Manager will include the Access response from all the linked devices (up to 100 devices per declared ID).
 
 **État de la réponse**
 
-S&#39;il existe des erreurs d&#39;Audience Manager dans la réponse, elles sont affichées comme des codes d&#39;erreur dans la réponse. We have a [list of error codes](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md), where you can find more information about the returned errors.
+S'il existe des erreurs d'Audience Manager dans la réponse, elles sont affichées comme des codes d'erreur dans la réponse. We have a [list of error codes](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md), where you can find more information about the returned errors.
 
 **Exemple de réponse**
 
-Une réponse d&#39;accès peut ressembler à celle ci-dessous. Dans cet exemple, l&#39;ID du sujet de données est un identifiant de cookie. Ils sont qualifiés pour plusieurs caractéristiques et appartiennent à quelques segments. L&#39;ID de cookie est lié à un ID mobile. L&#39;exemple contient également des métadonnées pour le smartphone qu&#39;elles utilisent.
+Une réponse d'accès peut ressembler à celle ci-dessous. Dans cet exemple, l'ID du sujet de données est un identifiant de cookie. Ils sont qualifiés pour plusieurs caractéristiques et appartiennent à quelques segments. L'ID de cookie est lié à un ID mobile. L'exemple contient également des métadonnées pour le smartphone qu'elles utilisent.
 
 ```
 {
@@ -130,7 +130,7 @@ Une réponse d&#39;accès peut ressembler à celle ci-dessous. Dans cet exemple,
 }
 ```
 
-Le tableau ci-dessous contient des descriptions pour tous les champs renvoyés dans la réponse d&#39;accès aux données, dans l&#39;ordre dans lequel ils apparaissent ci-dessus.
+Le tableau ci-dessous contient des descriptions pour tous les champs renvoyés dans la réponse d'accès aux données, dans l'ordre dans lequel ils apparaissent ci-dessus.
 
 <table id="table_DF08231257F64588B98BD71A088C50DC"> 
  <thead> 
@@ -303,15 +303,15 @@ Le tableau ci-dessous contient des descriptions pour tous les champs renvoyés d
 
 ## Supprimer des données {#delete-data}
 
-Nous comprenons votre engagement à respecter vos demandes de clients GDPR dans les 30 jours qui suivent leur réception. C&#39;est pourquoi nous tentons de traiter votre demande de suppression des données dès que possible.
+Nous comprenons votre engagement à respecter vos demandes de clients GDPR dans les 30 jours qui suivent leur réception. C'est pourquoi nous tentons de traiter votre demande de suppression des données dès que possible.
 
 **Demande**
 
-You can log data deletion requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** (see `delete` action). Dans tous les cas, vous devez télécharger un fichier JSON avec les identificateurs Audience Manager pour lesquels vous envoyez la demande d&#39;accès aux données. See what a well-formed JSON looks like in the [Experience Cloud GDPR documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) (specifically, search in page for &quot;POST request format&quot;). Or, you can **[download a sample JSON](assets/delete_request.json)**.
+You can log data deletion requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** (see `delete` action). Dans tous les cas, vous devez télécharger un fichier JSON avec les identificateurs Audience Manager pour lesquels vous envoyez la demande d'accès aux données. See what a well-formed JSON looks like in the [Experience Cloud GDPR documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) (specifically, search in page for "POST request format"). Or, you can **[download a sample JSON](assets/delete_request.json)**.
 
 **Réponse**
 
-En réponse aux demandes de suppression de données, nous supprimons des caractéristiques et des segments associés à l&#39;identifiant Audience Manager correspondant. En outre, les identifiants Audience Manager respectifs pour le sujet de données seront définitivement exclus d&#39;une collecte de données supplémentaire par Audience Manager et les mappages d&#39;ID correspondants seront supprimés. Lorsque des ID déclarés tels que des identifiants CRM ou des identifiants de cookie client sont envoyés dans des requêtes GDPR, Audience Manager effectue les actions de suppression nécessaires sur tous les périphériques liés (jusqu&#39;à 100 périphériques par ID déclarés).
+En réponse aux demandes de suppression de données, nous supprimons des caractéristiques et des segments associés à l'identifiant Audience Manager correspondant. En outre, les identifiants Audience Manager respectifs pour le sujet de données seront définitivement exclus d'une collecte de données supplémentaire par Audience Manager et les mappages d'ID correspondants seront supprimés. Lorsque des ID déclarés tels que des identifiants CRM ou des identifiants de cookie client sont envoyés dans des requêtes GDPR, Audience Manager effectue les actions de suppression nécessaires sur tous les périphériques liés (jusqu'à 100 périphériques par ID déclarés).
 
 ## Opt-out Request {#opt-out-request}
 
@@ -319,19 +319,19 @@ For opt-out requests, please refer to our documentation on [Opt-out Management](
 
 ## Audience Manager Identifiers (IDs) {#aam-ids}
 
-Lors de l&#39;envoi des requêtes GDPR à Adobe Audience Manager, vous devez inclure l&#39;un des identifiants (ID) répertoriés ci-dessous. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
+Lors de l'envoi des requêtes GDPR à Adobe Audience Manager, vous devez inclure l'un des identifiants (ID) répertoriés ci-dessous. You can find more information on the ID formats in our [Index of Audience Manager IDs](../../reference/ids-in-aam.md).
 
-### Utilisateur unique d&#39;Adobe Audience Manager - id
+### Utilisateur unique d'Adobe Audience Manager - id
 
 **Utilisateur - id**: aam_ uuid
 
-**Définition**: Utilisateur unique d&#39;Adobe Audience Manager - id
+**Définition**: Utilisateur unique d'Adobe Audience Manager - id
 
-**ID d&#39;espace de noms**: 0
+**ID d'espace de noms**: 0
 
 >[!NOTE]
 >
->Vous pouvez également utiliser l&#39;namespace de noms CORE. Voir le deuxième exemple JSON.
+>Vous pouvez également utiliser l'namespace de noms CORE. Voir le deuxième exemple JSON.
 
 **Exemple dans JSON**:
 
@@ -387,11 +387,11 @@ Lors de l&#39;envoi des requêtes GDPR à Adobe Audience Manager, vous devez inc
 
 **Définition**: Adobe Experience Cloud ID, anciennement appelé Identifiant visiteur ou Marketing Cloud ID
 
-**ID d&#39;espace de noms**: 4
+**ID d'espace de noms**: 4
 
 >[!NOTE]
 >
->Vous pouvez également utiliser l&#39;namespace de noms ECID. Voir le deuxième exemple JSON.
+>Vous pouvez également utiliser l'namespace de noms ECID. Voir le deuxième exemple JSON.
 
 **Exemple dans JSON**:
 
@@ -445,9 +445,9 @@ Lors de l&#39;envoi des requêtes GDPR à Adobe Audience Manager, vous devez inc
 
 **Utilisateur - id**: cid
 
-**Définition**: ID de client, par exemple un cookie que vous définissez pour les visiteurs anonymes du site ou un identifiant de gestion de la relation client à partir d&#39;un système hors ligne ou d&#39;un nom d&#39;utilisateur haché
+**Définition**: ID de client, par exemple un cookie que vous définissez pour les visiteurs anonymes du site ou un identifiant de gestion de la relation client à partir d'un système hors ligne ou d'un nom d'utilisateur haché
 
-**ID d&#39;espace de noms**: Spécifique au client. Veuillez la trouver depuis votre instance Audience Manager.
+**ID d'espace de noms**: Spécifique au client. Veuillez la trouver depuis votre instance Audience Manager.
 
 **Exemple dans JSON**:
 
@@ -486,7 +486,7 @@ Lors de l&#39;envoi des requêtes GDPR à Adobe Audience Manager, vous devez inc
 **Définition**: Identifiants de publicité mobile.
 >[!IMPORTANT]
 >
-> Si vous utilisez le SDK Mobile, vous devez ensuite envoyer l&#39;identifiant d&#39;expérience (MID) avec les identifiants de publicité mobile pour obtenir des réponses GDPR complètes et supprimer des réponses.
+> Si vous utilisez le SDK Mobile, vous devez ensuite envoyer l'identifiant d'expérience (MID) avec les identifiants de publicité mobile pour obtenir des réponses GDPR complètes et supprimer des réponses.
 
 **ID d’espace de noms**:
 
@@ -518,13 +518,13 @@ Lors de l&#39;envoi des requêtes GDPR à Adobe Audience Manager, vous devez inc
 ]
 ```
 
-### Code d&#39;intégration
+### Code d'intégration
 
 **Utilisateur - id**: d_ cid_ ic
 
-**Définition**: Code d&#39;intégration pour la source de données. Cette option peut être utilisée à la place de l&#39;ID de source de données/ID de l&#39;namespace de noms dans la demande d&#39;API vers le service principal de confidentialité Adobe Experience Cloud.
+**Définition**: Code d'intégration pour la source de données. Cette option peut être utilisée à la place de l'ID de source de données/ID de l'namespace de noms dans la demande d'API vers le service principal de confidentialité Adobe Experience Cloud.
 
-**ID d&#39;espace de noms**: Non applicable
+**ID d'espace de noms**: Non applicable
 
 Exemple dans JSON :
 
