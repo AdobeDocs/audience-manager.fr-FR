@@ -30,7 +30,7 @@ Une paire clé-valeur comprend deux éléments de données connexes : Clé qui d
 
 ## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
-Destinations accept key-value data in *`standard`* or *`serialized`* format. La mise en forme standard organise les données en paires clé-valeur distinctes. Chaque clé est explicitement spécifiée, même lorsqu&#39;elle est réutilisée pour définir une valeur différente. En revanche, la mise en forme sérialisée condense plusieurs valeurs en un jeu défini par une clé unique. En outre, dans une paire sérialisée, un indicateur spécial est utilisé pour séparer les valeurs dans le jeu de valeurs clés. Enfin, les valeurs de clé standard et sérialisées peuvent contenir des valeurs uniques ou multiples. Le tableau suivant présente des exemples de formats standard et de valeurs de clé de série.
+Destinations accept key-value data in *`standard`* or *`serialized`* format. La mise en forme standard organise les données en paires clé-valeur distinctes. Chaque clé est explicitement spécifiée, même lorsqu'elle est réutilisée pour définir une valeur différente. En revanche, la mise en forme sérialisée condense plusieurs valeurs en un jeu défini par une clé unique. En outre, dans une paire sérialisée, un indicateur spécial est utilisé pour séparer les valeurs dans le jeu de valeurs clés. Enfin, les valeurs de clé standard et sérialisées peuvent contenir des valeurs uniques ou multiples. Le tableau suivant présente des exemples de formats standard et de valeurs de clé de série.
 
 | Formatage | Clé unique | Paires clé-valeur |
 |---|---|---|
@@ -45,7 +45,7 @@ When working with serialized data, you must specify the characters that separate
 
 * **Clé :** Identifiant unique dans la paire clé-valeur.
 * **Délimiteur de valeurs :** Sépare les paires clé-valeur individuelles.
-* **Séparateur de valeur clé :** Sépare une clé des valeurs d&#39;une paire clé-valeur.
+* **Séparateur de valeur clé :** Sépare une clé des valeurs d'une paire clé-valeur.
 * **Séparateur de série :** Sépare les valeurs individuelles dans les paires clé-valeur sérialisées.
 
 ## Standard and Serialized Key-Value Elements {#standard-serialized-key-value-elements}
