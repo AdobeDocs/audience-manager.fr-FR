@@ -13,11 +13,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Delivery Methods for Metadata Files{#delivery-methods-for-metadata-files}
 
-Envoyez ou mettez à jour les fichiers de métadonnées en les envoyant vers un répertoire Amazon S 3 spécial pour votre compte Audience Manager. Pour plus d&#39;informations sur les chemins de distribution/répertoire, les temps de traitement des fichiers et les mises à jour, reportez-vous à cette section.
+Envoyez ou mettez à jour les fichiers de métadonnées en les envoyant vers un répertoire Amazon S 3 spécial pour votre compte Audience Manager. Pour plus d'informations sur les chemins de distribution/répertoire, les temps de traitement des fichiers et les mises à jour, reportez-vous à cette section.
 
 ## Delivery Path Syntax and Examples {#syntax}
 
-Les données sont stockées dans un namespace de noms distinct pour chaque client dans un annuaire Amazon S 3. Le chemin d&#39;accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Brackets `[ ]` indicate optional parameters. Les autres éléments sont des constantes et ne changent pas.
+Les données sont stockées dans un namespace de noms distinct pour chaque client dans un annuaire Amazon S 3. Le chemin d'accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Brackets `[ ]` indicate optional parameters. Les autres éléments sont des constantes et ne changent pas.
 
 **Syntaxe :**
 <pre><code>…/log_ ingestion/pid =<i>AAM ID</i>/dpid = <i>d_ src</i>/[meta | status]/ <i></i>yyyymmjj <i>ID</i>_ parent <i>ID</i></code></pre>
@@ -63,7 +63,7 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de remise de
  </tbody> 
 </table>
 
-**Exemple de transfert et de chemin d&#39;accès**
+**Exemple de transfert et de chemin d'accès**
 
 To upload a metadata file or to [check its status](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md), the file paths will look similar to these:
 
@@ -74,4 +74,4 @@ To upload a metadata file or to [check its status](../../../reporting/audience-o
 
 Les fichiers de métadonnées sont traités quatre fois par jour, à intervalles réguliers.
 
-Pour mettre à jour vos enregistrements de métadonnées, il vous suffit d&#39;envoyer un fichier contenant de nouvelles informations. Vous n&#39;avez pas besoin d&#39;envoyer toutes les mises à jour à chaque fois.
+Pour mettre à jour vos enregistrements de métadonnées, il vous suffit d'envoyer un fichier contenant de nouvelles informations. Vous n'avez pas besoin d'envoyer toutes les mises à jour à chaque fois.
