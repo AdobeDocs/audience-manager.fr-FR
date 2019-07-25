@@ -19,9 +19,9 @@ Describes the syntax and parameters used in the initial `HTTP` call to synchroni
 
 ## Objectif de la synchronisation des identifiants
 
-La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Cependant, votre partenaire de données peut identifier cet utilisateur avec l&#39;identifiant 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and the third-party data provider should have corresponding IDs for each unique user seen on our networks.
+La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Cependant, votre partenaire de données peut identifier cet utilisateur avec l'identifiant 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and the third-party data provider should have corresponding IDs for each unique user seen on our networks.
 
-## Syntaxe d&#39;URL
+## Syntaxe d'URL
 
 In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 
@@ -72,6 +72,6 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Méthodes et code d&#39;API de serveur de collecte de données](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+>* [Méthodes et code d'API de serveur de collecte de données](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Composants de collecte de données](../../reference/system-components/components-data-collection.md)
 
