@@ -14,13 +14,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Customer Data Feeds {#customer-data-feeds}
 
-Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you&#39;re interested in receiving [!UICONTROL CDF] files or just want more information.
+Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
 ## File Contents and Purpose {#file-contents-purpose}
 
 <!-- cdf-intro.xml -->
 
-A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. Cela inclut les données telles que l&#39;utilisateur - id, ID de caractéristique, ID de segment et tous les autres paramètres capturés par un appel d&#39;événement. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tente de générer [!UICONTROL CDF] des fichiers par heure et de les stocker dans un compartiment sécurisé spécifique aux clients sur un [!DNL Amazon S3] serveur. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
+A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. Cela inclut les données telles que l'utilisateur - id, ID de caractéristique, ID de segment et tous les autres paramètres capturés par un appel d'événement. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tente de générer [!UICONTROL CDF] des fichiers par heure et de les stocker dans un compartiment sécurisé spécifique aux clients sur un [!DNL Amazon S3] serveur. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] e
 There is no self-service process to start [!UICONTROL CDF] file delivery. Contact your [!DNL Audience Manager] consultant or Customer Care to get started. During implementation, your [!DNL Audience Manager] representative will:
 
 * Set up your [!DNL Amazon S3] storage bucket.
-* Provide read-only [!DNL S3] authentication credentials to your file storage bucket. Vous ne pourrez pas afficher ni accéder aux répertoires et aux fichiers qui appartiennent à d&#39;autres clients.
+* Provide read-only [!DNL S3] authentication credentials to your file storage bucket. Vous ne pourrez pas afficher ni accéder aux répertoires et aux fichiers qui appartiennent à d'autres clients.
 
-File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they&#39;re ready for download. You&#39;re responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#cdf-file-processing-notifications).
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#cdf-file-processing-notifications).
 
 ## Étapes suivantes {#next-steps}
 
@@ -128,7 +128,7 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. Cela inclut la 
 
 <!-- cdf-file-structure.xml -->
 
-[!UICONTROL CDF] ne contient pas de colonnes étiquetées ni d&#39;en-têtes de champ. Instead, a [!UICONTROL CDF] file defines fields and arrays with non-printing [!DNL ASCII] characters. Also, the [!UICONTROL CDF] file lists each field and array in a specific order. La compréhension des identifiants de champ et de l&#39;ordre vous aidera à analyser correctement le fichier.
+[!UICONTROL CDF] ne contient pas de colonnes étiquetées ni d'en-têtes de champ. Instead, a [!UICONTROL CDF] file defines fields and arrays with non-printing [!DNL ASCII] characters. Also, the [!UICONTROL CDF] file lists each field and array in a specific order. La compréhension des identifiants de champ et de l'ordre vous aidera à analyser correctement le fichier.
 
 <table id="table_D2C8786DF7CE47E5ADB8930EC825F8F6"> 
  <thead> 
@@ -169,17 +169,17 @@ Lists and defines the data structure of a [!UICONTROL CDF] file. Cela inclut la 
 
 ## CDF File Map {#cdf-file-map}
 
-[!UICONTROL CDF] les données de fichier apparaissent dans l&#39;ordre indiqué ci-dessous.
+[!UICONTROL CDF] les données de fichier apparaissent dans l'ordre indiqué ci-dessous.
 
 ![](assets/sequence-map.png)
 
 ## Identification des tableaux
 
-Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. Le premier élément d&#39;un tableau s&#39;affiche ainsi comme un champ de données autonome. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). Ce n&#39;est pas le cas, c&#39;est pourquoi vous devez connaître la séquence et la structure d&#39;un fichier de données. Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
+Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. Le premier élément d'un tableau s'affiche ainsi comme un champ de données autonome. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). Ce n'est pas le cas, c'est pourquoi vous devez connaître la séquence et la structure d'un fichier de données. Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
 
 ## Sample CDF File {#sample-file}
 
-A sample [!UICONTROL CDF] file could look similar to the following. Dans cet exemple, nous avons inséré des sauts de ligne pour l&#39;adapter à la page.
+A sample [!UICONTROL CDF] file could look similar to the following. Dans cet exemple, nous avons inséré des sauts de ligne pour l'adapter à la page.
 
 ![](assets/CDF-sample.png)
 
@@ -251,7 +251,7 @@ The following table lists and defines the elements in a [!UICONTROL CDF] file na
 
 ## Customer Data Feed File Processing Notifications {#cdf-file-processing-notifications}
 
-[!DNL Audience Manager] écrit `.info` un fichier dans [!DNL S3] votre répertoire pour vous informer lorsque votre [!UICONTROL Customer Data File] ([!UICONTROL CDF]) est prêt à être téléchargé. The `.info` file also includes [!DNL JSON] formatted metadata about the contents of your [!UICONTROL CDF] files. Consultez cette section pour plus d&#39;informations sur la syntaxe et les champs utilisés par ce fichier de notification.
+[!DNL Audience Manager] écrit `.info` un fichier dans [!DNL S3] votre répertoire pour vous informer lorsque votre [!UICONTROL Customer Data File] ([!UICONTROL CDF]) est prêt à être téléchargé. The `.info` file also includes [!DNL JSON] formatted metadata about the contents of your [!UICONTROL CDF] files. Consultez cette section pour plus d'informations sur la syntaxe et les champs utilisés par ce fichier de notification.
 
 ## Sample Info File {#sample-info-file}
 
@@ -356,7 +356,7 @@ The following tables list and define the elements in a [!UICONTROL CDF] `.info` 
 
 ## Customer Data Feed File Name Times and File Content Times are Different {#different-processing-times}
 
-Your [!UICONTROL CDF] file contains timestamps in the file name and file contents. These timestamps record different event processes for the same [!UICONTROL CDF] file. Il n&#39;est pas rare de voir des horodatages différents dans le nom et le contenu du même fichier. Comprendre chaque horodatage peut vous aider à éviter les erreurs courantes lorsque vous travaillez avec ces données ou tentez de le trier par heure.
+Your [!UICONTROL CDF] file contains timestamps in the file name and file contents. These timestamps record different event processes for the same [!UICONTROL CDF] file. Il n'est pas rare de voir des horodatages différents dans le nom et le contenu du même fichier. Comprendre chaque horodatage peut vous aider à éviter les erreurs courantes lorsque vous travaillez avec ces données ou tentez de le trier par heure.
 
 ## Locating CDF File Timestamps {#locating-timestamps}
 
@@ -370,10 +370,10 @@ Your [!UICONTROL CDF] file contains timestamps in the file name and file content
 
 The following table provides additional details about your [!UICONTROL CDF] file timestamps along with information about how to use them properly.
 
-| Emplacement d&#39;horodatage | Description |
+| Emplacement d'horodatage | Description |
 |--- |--- |
-| Nom de fichier | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. Cet horodatage est défini dans le fuseau horaire UTC. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. Cette durée peut être différente de l&#39;heure d&#39;événement enregistrée dans le contenu du fichier. Breakwhen Travailler avec des fichiers CDF, vous remarquerez parfois que votre compartiment S 3 est vide pendant une heure donnée. Un compartiment vide signifie peut-être l&#39;un des éléments suivants :<ul><li>Il n&#39;y a aucune donnée pour cette heure particulière. </li><li> Nos serveurs sont très chargés et ne peuvent traiter les fichiers qu&#39;une heure particulière. Lorsque le serveur est rattrapé, il place les fichiers qui auraient dû se placer dans un intervalle antérieur dans un compartiment avec une valeur plus tard. For example, you&#39;ll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). Dans ce cas, le serveur a probablement commencé à traiter votre fichier en dehors de 17 heures, mais il n&#39;a pas pu le terminer dans cet intervalle. Au lieu de cela, le fichier est déplacé vers la prochaine corbeille horaire.</li></ul><br>**Important**: N&#39;utilisez pas le fichier : le nom de l&#39;horodatage pour regrouper les événements par moment. If you need to group by time, use the `EventTime` timestamp in the file contents. |
-| Contenu du fichier | L&#39;horodatage dans le contenu du fichier CDF indique l&#39;heure à laquelle les serveurs de collecte de données ont commencé à traiter le fichier. Cet horodatage est défini dans le fuseau horaire UTC. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Conseil**: Contrairement à `hour=` l&#39;horodatage du fichier, vous pouvez utiliser `EventTime` pour regrouper les données par heure. |
+| Nom de fichier | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. Cet horodatage est défini dans le fuseau horaire UTC. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. Cette durée peut être différente de l'heure d'événement enregistrée dans le contenu du fichier. Breakwhen Travailler avec des fichiers CDF, vous remarquerez parfois que votre compartiment S 3 est vide pendant une heure donnée. Un compartiment vide signifie peut-être l'un des éléments suivants :<ul><li>Il n'y a aucune donnée pour cette heure particulière. </li><li> Nos serveurs sont très chargés et ne peuvent traiter les fichiers qu'une heure particulière. Lorsque le serveur est rattrapé, il place les fichiers qui auraient dû se placer dans un intervalle antérieur dans un compartiment avec une valeur plus tard. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). Dans ce cas, le serveur a probablement commencé à traiter votre fichier en dehors de 17 heures, mais il n'a pas pu le terminer dans cet intervalle. Au lieu de cela, le fichier est déplacé vers la prochaine corbeille horaire.</li></ul><br>**Important**: N'utilisez pas le fichier : le nom de l'horodatage pour regrouper les événements par moment. If you need to group by time, use the `EventTime` timestamp in the file contents. |
+| Contenu du fichier | L'horodatage dans le contenu du fichier CDF indique l'heure à laquelle les serveurs de collecte de données ont commencé à traiter le fichier. Cet horodatage est défini dans le fuseau horaire UTC. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Conseil**: Contrairement à `hour=` l'horodatage du fichier, vous pouvez utiliser `EventTime` pour regrouper les données par heure. |
 
 >[!MORE_ LIKE_ THIS]
 >
