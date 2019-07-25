@@ -19,7 +19,7 @@ Recommendations and use cases for segment retargeting and personalized segment q
 
 Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
-* Posséder un haut niveau d&#39;authentification dans leurs propriétés numériques. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a small amount of authenticated users.
+* Posséder un haut niveau d'authentification dans leurs propriétés numériques. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a small amount of authenticated users.
 * Demander un ciblage précis des audiences connues. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data.
 * Ciblez les audiences connues dans leurs états authentifiés et non authentifiés en temps réel.
 
@@ -27,18 +27,18 @@ Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
 ## Retargeting Use Case and Profile Merge Rule Configuration {#retargeting-use-cases}
 
-Reciblage des audiences qui ont déjà été authentifiées sur site et/ou dans l&#39;application sur plusieurs périphériques. Les segments peuvent être composés des profils suivants :
+Reciblage des audiences qui ont déjà été authentifiées sur site et/ou dans l'application sur plusieurs périphériques. Les segments peuvent être composés des profils suivants :
 
 * Dernier profil de périphérique authentifié connu.
 * Activité anonyme sur chaque profil de périphérique.
 
 >[!NOTE]
 >
->Les informations de caractéristique provenant de l&#39;un des types de profil peuvent être utilisées pour créer le segment.
+>Les informations de caractéristique provenant de l'un des types de profil peuvent être utilisées pour créer le segment.
 
 ### Exemple de reciblage
 
-Voyons comment cela fonctionne avec un exemple de société de carte de crédit. Cet exemple utilise les informations de caractéristique collectées à partir d&#39;activités anonymes visualisées sur 3 profils de périphérique uniquement.
+Voyons comment cela fonctionne avec un exemple de société de carte de crédit. Cet exemple utilise les informations de caractéristique collectées à partir d'activités anonymes visualisées sur 3 profils de périphérique uniquement.
 
 <table id="table_8C5ABA47A0634EBA9B1AA1B5C2AABF07"> 
  <thead> 
@@ -82,7 +82,7 @@ To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authentic
 
 ## Personalization Use Case and Profile Merge Rule Configuration {#personalization-use-case}
 
-Personnalisez l&#39;expérience pour les audiences authentifiées sur site et/ou dans l&#39;application en fonction de l&#39;activité sur plusieurs périphériques. Les segments peuvent être composés des profils suivants :
+Personnalisez l'expérience pour les audiences authentifiées sur site et/ou dans l'application en fonction de l'activité sur plusieurs périphériques. Les segments peuvent être composés des profils suivants :
 
 * Profil de périphérique authentifié actuellement.
 * Profils de périphérique anonymes.
@@ -141,6 +141,6 @@ For more information about how these device graph processes work, download our P
 >[!MORE_ LIKE_ THIS]
 >
 >* [Cas d’utilisation graphiques des périphériques externes](../../features/profile-merge-rules/external-graph-use-cases.md)
->* [Cas d&#39;utilisation général pour les règles de fusion de profils](../../features/profile-merge-rules/merge-rule-targeting-options.md)
+>* [Cas d'utilisation général pour les règles de fusion de profils](../../features/profile-merge-rules/merge-rule-targeting-options.md)
 >* [FAQ sur la fusion des profils](../../faq/faq-profile-merge.md)
 
