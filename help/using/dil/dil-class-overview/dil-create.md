@@ -156,7 +156,7 @@ var partnerObject2 = DIL.create({
 }); 
 ```
 
-A successful response returns the [!UICONTROL DIL] instance. Une tentative infructueuse renvoie un objet d&#39;erreur (qui n&#39;est pas généré) si votre code est configuré incorrectement ou lorsqu&#39;une erreur est détectée.
+A successful response returns the [!UICONTROL DIL] instance. Une tentative infructueuse renvoie un objet d'erreur (qui n'est pas généré) si votre code est configuré incorrectement ou lorsqu'une erreur est détectée.
 
 ## uuidCookie Properties {#uuidcookie-props}
 
@@ -186,7 +186,7 @@ Defines the properties used by the `visitorService` variable. This variable is p
 
 | Nom | Type | Description |
 |---|---|---|
-| `namespace` | Chaîne | Requis. Représente l&#39;ID d&#39;entreprise Experience Cloud. Ceci est nécessaire pour la fonctionnalité de service principal Experience Cloud. Même paramètre utilisé pour instancier la fonctionnalité d&#39;identification des visiteurs. |
+| `namespace` | Chaîne | Requis. Représente l'ID d'entreprise Experience Cloud. Ceci est nécessaire pour la fonctionnalité de service principal Experience Cloud. Même paramètre utilisé pour instancier la fonctionnalité d'identification des visiteurs. |
 
 **Exemple de code :**
 
