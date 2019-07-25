@@ -5,7 +5,7 @@ translation-type: tm+mt
 ---
 # Contribution
 
-Merci d&#39;avoir choisi de contribuer !
+Merci d'avoir choisi de contribuer !
 
 Vous trouverez ci-dessous un ensemble de directives à suivre lors de la contribution à ce projet.
 
@@ -19,4 +19,4 @@ Toutes les contributions tierces à ce projet doivent être accompagnées d’un
 
 ## Révision du code
 
-Tous les envois doivent prendre la forme de demandes d’extraction et doivent être examinés par les responsables du projet. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Tous les envois doivent prendre la forme de demandes d’extraction et doivent être examinés par les responsables du projet. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
