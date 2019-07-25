@@ -23,19 +23,19 @@ c_lookup_tables.xml
 
 ## Les métadonnées du fichier journal augmentent la taille du fichier et le temps de traitement
 
-A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. Il s&#39;agit d&#39;ID numériques et d&#39;informations intelligibles, telles que des noms pour les créatifs, les annonceurs, les commandes d&#39;insertion, etc.
+A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. Il s'agit d'ID numériques et d'informations intelligibles, telles que des noms pour les créatifs, les annonceurs, les commandes d'insertion, etc.
 
 This non-ID information is referred to as *`metadata`* (i.e., information about other information) and gets written in each row of the log file.
 
-However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. Les métadonnées sont utiles, mais répétitives. Elle augmente la taille du fichier et le temps d&#39;ingestion des données.
+However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. Les métadonnées sont utiles, mais répétitives. Elle augmente la taille du fichier et le temps d'ingestion des données.
 
-## Réduire la taille du fichier et réduire le temps de traitement avec les tableaux d&#39;index
+## Réduire la taille du fichier et réduire le temps de traitement avec les tableaux d'index
 
 Pour améliorer les performances, votre fichier de données principal doit contenir uniquement des ID. Placez les métadonnées dans un tableau de recherche (ou index) distinct et liez ces enregistrements au fichier principal avec une variable clé commune aux deux.
 
 ## Réduction de la taille du fichier dans les tableaux de recherche
 
-Imaginons que vous disposez d&#39;un fichier de données semblable à celui-ci.
+Imaginons que vous disposez d'un fichier de données semblable à celui-ci.
 
 | Identifiant utilisateur | Identifiant de publicité | Nom de la publicité | ID de commande | Nom de commande | Identifiant publicitaire | Nom du publicitaire |
 |---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@ Imaginons que vous disposez d&#39;un fichier de données semblable à celui-ci.
 
 <br> 
 
-Voici le même fichier journal que les métadonnées supprimées. Le fichier est plus petit et plus facile à traiter lorsqu&#39;il se compose d&#39;ID uniquement.
+Voici le même fichier journal que les métadonnées supprimées. Le fichier est plus petit et plus facile à traiter lorsqu'il se compose d'ID uniquement.
 
 | Identifiant utilisateur | Identifiant de publicité | ID de commande | Identifiant publicitaire |
 |---|---|---|---|
@@ -59,7 +59,7 @@ Voici le même fichier journal que les métadonnées supprimées. Le fichier est
 
 <br> 
 
-Le fichier de recherche ci-dessous contient les métadonnées et peut être lié au fichier principal avec l&#39;identifiant de publicité. Notez également la taille. Au lieu de répéter chaque annonceur plusieurs fois, vous n&#39;avez besoin que d&#39;une référence pour chacune d&#39;elles.
+Le fichier de recherche ci-dessous contient les métadonnées et peut être lié au fichier principal avec l'identifiant de publicité. Notez également la taille. Au lieu de répéter chaque annonceur plusieurs fois, vous n'avez besoin que d'une référence pour chacune d'elles.
 
 | Identifiant de publicité | Nom de la publicité | Nom de commande | Nom du publicitaire |
 |---|---|---|---|
@@ -68,7 +68,7 @@ Le fichier de recherche ci-dessous contient les métadonnées et peut être lié
 
 ## API Peut éliminer le besoin de tables de recherche
 
-Si votre système de service publicitaire comporte une API, il est possible que vous n&#39;ayez pas à envoyer des métadonnées dans un fichier de recherche. Nous pouvons obtenir ces informations par le biais de l&#39;API. Dans ce cas, vos fichiers journaux ne doivent contenir que des ID. Nous collaborerons avec vous pour déterminer si les métadonnées peuvent être obtenues via une API.
+Si votre système de service publicitaire comporte une API, il est possible que vous n'ayez pas à envoyer des métadonnées dans un fichier de recherche. Nous pouvons obtenir ces informations par le biais de l'API. Dans ce cas, vos fichiers journaux ne doivent contenir que des ID. Nous collaborerons avec vous pour déterminer si les métadonnées peuvent être obtenues via une API.
 
 >[!MORE_ LIKE_ THIS]
 >
