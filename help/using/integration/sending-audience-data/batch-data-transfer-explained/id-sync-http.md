@@ -13,17 +13,17 @@ source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
 
 # ID Synchronization for Inbound Data Transfers{#id-synchronization-for-inbound-data-transfers}
 
-Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. La synchronisation des identifiants peut commencer après l&#39;envoi de votre taxonomie de données à Audience Manager.
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. La synchronisation des identifiants peut commencer après l'envoi de votre taxonomie de données à Audience Manager.
 
 <!-- c_id_sync_in.xml -->
 
-La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones. Dans cette étape, Audience Manager et les fournisseurs comparent les identifiants et les identifiants des visiteurs de site respectifs. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Cependant, votre partenaire de données peut identifier cet utilisateur avec l&#39;identifiant 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
+La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones. Dans cette étape, Audience Manager et les fournisseurs comparent les identifiants et les identifiants des visiteurs de site respectifs. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Cependant, votre partenaire de données peut identifier cet utilisateur avec l'identifiant 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
 
 You can use the following methods to get your data into [!DNL Audience Manager]:
 
 * [Demande HTTP de synchronisation des identifiants](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
-* [Événement d&#39;ID déclaré](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
-* [Synchronisation des identifiants à partir d&#39;une image incorporée par courrier électronique](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
+* [Événement d'ID déclaré](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
+* [Synchronisation des identifiants à partir d'une image incorporée par courrier électronique](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
 ## ID Synchronization `HTTP` Request {#id-sync-http}
 
@@ -76,7 +76,7 @@ For more information, see [Declared IDs](../../../features/declared-ids.md).
 
 ## ID Synchronization From an Email Embedded Image {#id-sync-email-image}
 
-Le format des ID correspondants par le biais d&#39;une image de courriel est identique à celui indiqué ci-dessus. Notez toutefois que les images d&#39;un courriel doivent être activées pour que cela fonctionne. Cela peut affecter la synchronisation des identifiants par courriel, car la plupart des systèmes de messagerie désactivent les images par défaut.
+Le format des ID correspondants par le biais d'une image de courriel est identique à celui indiqué ci-dessus. Notez toutefois que les images d'un courriel doivent être activées pour que cela fonctionne. Cela peut affecter la synchronisation des identifiants par courriel, car la plupart des systèmes de messagerie désactivent les images par défaut.
 
 >[!MORE_ LIKE_ THIS]
 >
