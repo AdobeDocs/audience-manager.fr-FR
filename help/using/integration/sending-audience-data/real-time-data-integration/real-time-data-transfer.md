@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Real-Time Inbound Data Ingestion {#real-time-inbound-data-ingestion}
 
-The real-time inbound data ingestion process uses a series of `HTTP` requests from a user&#39;s browser to pass in data to Audience Manager.
+The real-time inbound data ingestion process uses a series of `HTTP` requests from a user's browser to pass in data to Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
@@ -32,7 +32,7 @@ The [!DNL URL] for an inbound data transfer should contain the variables describ
 | `<KEY>` | Identifiant unique dans une paire clé-valeur (par exemple sexe, couleur, prix). |
 | `<VAL>` | Une variable appartenant au jeu de données défini par la clé (par exemple sexe = homme, couleur = vert, prix = 100) |
 
-### Syntaxe d&#39;URL
+### Syntaxe d'URL
 
 During a real-time inbound data ingestion process, a properly formatted [!DNL URL] string uses the following syntax:
 
