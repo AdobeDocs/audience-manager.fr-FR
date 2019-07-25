@@ -43,7 +43,7 @@ Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accepte :
 
-* *`{string}`*: *(Facultatif)* Chaîne contenant l&#39;URL de recherche (utilisée `document.referrer` si undefined).
+* *`{string}`*: *(Facultatif)* Chaîne contenant l'URL de recherche (utilisée `document.referrer` si undefined).
 * *`{object}`*: *(Facultatif)* Objet contenant la configuration de la `hostPattern`, `queryParam`ou `queryPattern`.
 
 Et renvoie :
@@ -124,7 +124,7 @@ Function signature: `DIL.tools.decomposeURI`
 
 `decomposeURI` accepte :
 
-* *`uri {string}`*: *(Facultatif)* Chaîne contenant l&#39;URI. Defaults to `document.location.href` if not specified.
+* *`uri {string}`*: *(Facultatif)* Chaîne contenant l'URI. Defaults to `document.location.href` if not specified.
 
 Et renvoie :
 
@@ -152,7 +152,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 
 ## Getmetatags
 
-Recherche un contenu spécifique défini dans les balises meta d&#39;une page Web et renvoie ces données dans un objet.
+Recherche un contenu spécifique défini dans les balises meta d'une page Web et renvoie ces données dans un objet.
 
 <!-- 
 
@@ -179,8 +179,8 @@ Datalib. api. signals (DIL. tools. getmetatags ('<i>application</i>','<i>keyword
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: <i>`partnerName'</i>, 
+     partner: <i>`partnerName’</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags(’<i>application</i>’,’<i>keywords</i>’, ’<i>description</i>’), ’c_’).submit();
 </code></pre>
