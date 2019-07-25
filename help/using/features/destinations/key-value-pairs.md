@@ -13,7 +13,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 # Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}
 
-Une paire clé-valeur se compose d&#39;éléments associés : Clé qui définit le jeu de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à la visionneuse (homme/femme, vert, 100, par exemple). [!UICONTROL Destination Builder] envoie les données au format clé-valeur.
+Une paire clé-valeur se compose d'éléments associés : Clé qui définit le jeu de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à la visionneuse (homme/femme, vert, 100, par exemple). [!UICONTROL Destination Builder] envoie les données au format clé-valeur.
 
 ## Basic Key-Value Pairs {#basic-key-value-pairs}
 
@@ -27,7 +27,7 @@ Entièrement formé, un ensemble de base de paire clé-valeur pourrait ressemble
 
 Destinations accept key-value data in *`standard`* or *`serialized`* format.
 
-* **Paires clé-valeur standard :** Formate les données de destination en paires clé-valeur distinctes. Chaque clé est explicitement spécifiée, même lorsqu&#39;elle est réutilisée pour définir une valeur différente.
+* **Paires clé-valeur standard :** Formate les données de destination en paires clé-valeur distinctes. Chaque clé est explicitement spécifiée, même lorsqu'elle est réutilisée pour définir une valeur différente.
 * **Paires clé-valeur sérialisées :** Condense plusieurs valeurs en une paire clé-valeur unique. Dans une paire clé-valeur sérialisée, un indicateur spécial sépare les valeurs dans le jeu de valeurs clés.
 
 Les valeurs de clé standard et sérialisées peuvent contenir des valeurs uniques ou multiples. Le tableau suivant présente des exemples de formats standard et de valeurs de clé de série.
@@ -56,7 +56,7 @@ Les valeurs de clé standard et sérialisées peuvent contenir des valeurs uniqu
 
 ## Delimiters and Separators {#delimiters-separators}
 
-The characters that separate values within and between keys and values are known as *`delimiters`* and *`separators`*. Elles deviennent particulièrement importantes lorsque vous envoyez des segments à une destination dans un format de série. La sérialisation permet de transmettre plusieurs valeurs à l&#39;aide d&#39;une clé unique et de combiner des paires clé-valeur. Les délimiteurs et les séparateurs sont définis comme suit :
+The characters that separate values within and between keys and values are known as *`delimiters`* and *`separators`*. Elles deviennent particulièrement importantes lorsque vous envoyez des segments à une destination dans un format de série. La sérialisation permet de transmettre plusieurs valeurs à l'aide d'une clé unique et de combiner des paires clé-valeur. Les délimiteurs et les séparateurs sont définis comme suit :
 
 * **Séparateur de valeur clé :** Sépare une clé et une valeur dans une paire clé-valeur.
 * **Délimiteur de valeur clé :** Sépare les ensembles de paires clé-valeur.
@@ -129,7 +129,7 @@ Une destination sérialisée combine plusieurs caractéristiques dans une chaîn
 
 <!-- c_dest_serialized.xml -->
 
-La transmission de données sérialisées contribue à améliorer l&#39;efficacité, car plusieurs caractéristiques se déclenchent de manière séquentielle, plutôt qu&#39;en parallèle. Cela fournit au serveur de destination suffisamment de temps pour recevoir, traiter et renvoyer des données avant de répondre à d&#39;autres requêtes.
+La transmission de données sérialisées contribue à améliorer l'efficacité, car plusieurs caractéristiques se déclenchent de manière séquentielle, plutôt qu'en parallèle. Cela fournit au serveur de destination suffisamment de temps pour recevoir, traiter et renvoyer des données avant de répondre à d'autres requêtes.
 
 ### Destinations prises en charge
 
