@@ -13,7 +13,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 # Technical Specifications for Inbound, Real-Time Data Transfers{#technical-specifications-for-inbound-real-time-data-transfers}
 
-Les fournisseurs de contenu tiers peuvent s&#39;attendre à échanger des données avec Audience Manager en fonction de ces spécifications techniques. Une intégration en temps réel transfère les données en temps quasi réel, c&#39;est-à-dire lorsqu&#39;un utilisateur visite ou effectue des actions sur votre site. Les équipes techniques, d&#39;ingénierie ou de développement doivent utiliser ce matériel pour aider à configurer les transferts de données en temps réel avec Audience Manager.
+Les fournisseurs de contenu tiers peuvent s'attendre à échanger des données avec Audience Manager en fonction de ces spécifications techniques. Une intégration en temps réel transfère les données en temps quasi réel, c'est-à-dire lorsqu'un utilisateur visite ou effectue des actions sur votre site. Les équipes techniques, d'ingénierie ou de développement doivent utiliser ce matériel pour aider à configurer les transferts de données en temps réel avec Audience Manager.
 
 <!-- c_rt_realtime_intro.xml -->
 
