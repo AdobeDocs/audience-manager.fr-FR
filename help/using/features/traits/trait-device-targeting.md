@@ -23,7 +23,7 @@ Platform-level variables let you take data passed in from a particular site and 
 
 ## Platform-level Keys Defined by User Agent {#keys-user-agent}
 
-The [!UICONTROL Data Collection Servers] extract the values for these keys from the [user agent header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` requests. The values represent device-level information from the [!UICONTROL Device Atlas] database. Les signaux du tableau ci-dessous sont disponibles, comme extrait depuis l&#39;exemple de l&#39;agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv)les plus courantes, selon [!UICONTROL Device Atlas] les mesures.
+The [!UICONTROL Data Collection Servers] extract the values for these keys from the [user agent header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` requests. The values represent device-level information from the [!UICONTROL Device Atlas] database. Les signaux du tableau ci-dessous sont disponibles, comme extrait depuis l'exemple de l'agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv)les plus courantes, selon [!UICONTROL Device Atlas] les mesures.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
