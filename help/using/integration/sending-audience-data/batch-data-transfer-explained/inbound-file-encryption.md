@@ -34,7 +34,7 @@ Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données e
 
    `gpg --list-keys`
 
-   Un message similaire doit s&#39;afficher :
+   Un message similaire doit s'afficher :
 
    ```
    pub   4096R/8496CE32 2013-11-01
@@ -42,7 +42,7 @@ Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données e
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-1. Chiffrez les données entrantes à l&#39;aide de la commande suivante :
+1. Chiffrez les données entrantes à l'aide de la commande suivante :
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
