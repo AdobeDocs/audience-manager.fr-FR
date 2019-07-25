@@ -17,7 +17,7 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 >[!IMPORTANT]
 >
->L&#39;API de bibliothèque d&#39;intégration de données est obsolète. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>L'API de bibliothèque d'intégration de données est obsolète. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
@@ -377,7 +377,7 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 
 ## Generate DIL {#generate-dil}
 
-`GET` Méthode générée [!UICONTROL DIL] en fonction du contenu transmis dans le corps de la requête à l&#39;aide de la version spécifiée de [!UICONTROL DIL]. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
+`GET` Méthode générée [!UICONTROL DIL] en fonction du contenu transmis dans le corps de la requête à l'aide de la version spécifiée de [!UICONTROL DIL]. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
 
 <!-- r_api_generate_dil.xml -->
 
