@@ -19,13 +19,13 @@ Présentation générale de la manière dont Audience Manager effectue des trans
 
 ## Real - Time Data Transfer
 
-Les données en temps réel permettent de transférer et de recevoir des ID de segment en tant qu&#39;utilisateurs de visites ou d&#39;actions sur votre site. En règle générale, les transferts de données synchrones sont utiles lorsque vous devez qualifier ou segmenter les utilisateurs à droite, à mesure qu&#39;ils naviguent dans votre inventaire.
+Les données en temps réel permettent de transférer et de recevoir des ID de segment en tant qu'utilisateurs de visites ou d'actions sur votre site. En règle générale, les transferts de données synchrones sont utiles lorsque vous devez qualifier ou segmenter les utilisateurs à droite, à mesure qu'ils naviguent dans votre inventaire.
 
-## Étapes d&#39;intégration des données
+## Étapes d'intégration des données
 
-Le processus d&#39;intégration des données en temps réel fonctionne comme suit :
+Le processus d'intégration des données en temps réel fonctionne comme suit :
 
-1. Un utilisateur visite le site d&#39;un client qui contient le code Audience Manager.
+1. Un utilisateur visite le site d'un client qui contient le code Audience Manager.
 1. Audience Manager loads an iframe and makes a call to our [!UICONTROL Data Collection Server] ( [!UICONTROL DCS]).
 1. The [!UICONTROL DCS] calls the third-party server (in real time) to check if the vendor has any segment information about the user.
 1. Le fournisseur de contenu renvoie les informations de segment relatives à cet utilisateur à Audience Manager.
