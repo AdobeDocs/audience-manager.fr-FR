@@ -87,4 +87,4 @@ You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL
 
 ## E-Mail Template {#email-template}
 
-Pour finaliser l&#39;activation de l&#39;ingestion du journal, envoyez-nous un e-mail à aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).
+Pour finaliser l'activation de l'ingestion du journal, envoyez-nous un e-mail à aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).
