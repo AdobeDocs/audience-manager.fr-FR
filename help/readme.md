@@ -9,26 +9,26 @@ translation-type: tm+mt
 
 ## Table des matières
 
-+ `TOC.md` à la racine du guide de l&#39;utilisateur fournit l&#39;organisation des rubriques contenues dans le guide de cette solution.
++ `TOC.md` à la racine du guide de l'utilisateur fournit l'organisation des rubriques contenues dans le guide de cette solution.
 + Each user guide will have its own unique `TOC.md`, in which you can order all the pages/topics as necessary.
 + The first page of all user guides is `overview.md`.
 
 ## Guide de l’utilisateur
 
 + The introduction to the user guide is called `overview.md`
-+ Chaque rubrique du guide de l&#39;utilisateur possède son propre répertoire.
++ Chaque rubrique du guide de l'utilisateur possède son propre répertoire.
    + If there is a topic in the guide called *Implementation*, the corresponding directory is `/implementation`
 + All image assets are stored in `/assets` at the root of the user guide.
    + All images in the `/assets` directory will be localized.
-   + Any images in the `/no-localize` directory will not be localized (there&#39;s a surprise!). Ceci permet de garantir que dans les versions loc, les ressources spécifiques ne sont pas reproduites inutilement.
+   + Any images in the `/no-localize` directory will not be localized (there's a surprise!). Ceci permet de garantir que dans les versions loc, les ressources spécifiques ne sont pas reproduites inutilement.
 
-## meta de niveau Guide de l&#39;utilisateur - données
+## meta de niveau Guide de l'utilisateur - données
 
 + Meta data which describes the user guide is stored in the `TOC.md`. Cela inclut :
    + product - nom du produit/fonctionnalité.
    + cloud - cloud auquel ce produit appartient.
    + audience - audience ou archétype à laquelle le guide est ciblé.
-   + user-guide - nom du guide de l&#39;utilisateur.
+   + user-guide - nom du guide de l'utilisateur.
 
 ## Métadonnées au niveau de la page - données
 
@@ -38,7 +38,7 @@ translation-type: tm+mt
    + seo-title - titre alternatif.
    + seo-description - titre alternatif pour le référencement.
    + short-title - (champ facultatif).
-   + index - oui/non - la page sera indexée par la plateforme de recherche d&#39;Adobe.
+   + index - oui/non - la page sera indexée par la plateforme de recherche d'Adobe.
    + translate - yes/no - cette page sera localisée.
    + version utilisée principalement pour AEM et Campaign, pour indiquer la version du produit.
    + private-feature-pack - utilisé principalement pour AEM.
