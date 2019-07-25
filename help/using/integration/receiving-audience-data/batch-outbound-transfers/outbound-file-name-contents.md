@@ -31,7 +31,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
 
 ### Paramètres
 
-Le tableau définit les éléments d&#39;un fichier de données sortant - nom.
+Le tableau définit les éléments d'un fichier de données sortant - nom.
 
 <table id="table_1EA97D75004148CE85F702427DB7E97A"> 
  <thead> 
@@ -128,7 +128,7 @@ Fichiers complets :
  <li> <code> ftp_1234_20915_full_1486140843000-1.sync.gz </code> </li> 
 </ul>
 
-**Scénario 3**: Fichiers envoyés à [!DNL FTP] l&#39;emplacement, avec *`PID-ALIAS="XYZCustomer"`* et avec User - id tiers - id dans le contenu du fichier ( *`Vendor ID=45454`*) :
+**Scénario 3**: Fichiers envoyés à [!DNL FTP] l'emplacement, avec *`PID-ALIAS="XYZCustomer"`* et avec User - id tiers - id dans le contenu du fichier ( *`Vendor ID=45454`*) :
 
 Fichiers incrémentiels :
 
@@ -157,13 +157,13 @@ Décrit les champs, la syntaxe et les conventions nécessaires pour organiser le
 
 ### Syntaxe
 
-Les champs du fichier de données s&#39;affichent dans cet ordre :
+Les champs du fichier de données s'affichent dans cet ordre :
 
 `UUID<SPACE>SEGMENT_1,SEGMENT_2<SPACE>REMOVED_SEGMENT_,...`
 
 ### Paramètres
 
-Le tableau répertorie les variables qui définissent le contenu d&#39;un fichier de données.
+Le tableau répertorie les variables qui définissent le contenu d'un fichier de données.
 
 <table id="table_109BA747CFDA40108370EFEB208C7E11"> 
  <thead> 
@@ -194,7 +194,7 @@ Le tableau répertorie les variables qui définissent le contenu d&#39;un fichie
 
 ### Exemple : Format de fichier de base
 
-Un fichier de données correctement formaté peut ressembler à l&#39;exemple suivant. Cette entrée de fichier indique qu&#39;un utilisateur est admissible pour les segments 24, 26 et 27. As required, a space separates the `UUID` and segment IDs. Un autre espace sépare les ensembles d&#39;ID de segment. Dans cet exemple, un utilisateur appartient aux segments 24, 26 et 27. Elles ont été supprimées des segments 25 et 28.
+Un fichier de données correctement formaté peut ressembler à l'exemple suivant. Cette entrée de fichier indique qu'un utilisateur est admissible pour les segments 24, 26 et 27. As required, a space separates the `UUID` and segment IDs. Un autre espace sépare les ensembles d'ID de segment. Dans cet exemple, un utilisateur appartient aux segments 24, 26 et 27. Elles ont été supprimées des segments 25 et 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
