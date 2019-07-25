@@ -40,7 +40,7 @@ c_flash_dil_intro.xml
 * The [!UICONTROL DIL] class library ( `dil.swc`). Obtain the [!UICONTROL DIL] class library from your Partner Solutions contact.
 
 * JavaScript [!UICONTROL DIL] data collection code on the page.
-* [Bibliothèque actionscript DIL](../dil/dil-flash.md#flash-dil-actionscript) chargée dans l&#39;objet Flash dont vous souhaitez collecter les données.
+* [Bibliothèque actionscript DIL](../dil/dil-flash.md#flash-dil-actionscript) chargée dans l'objet Flash dont vous souhaitez collecter les données.
 * Adobe [!DNL AppMeasurement] [!DNL AS] library (version 3.5.2, or later) loaded the [!DNL Flash] object you want to collect data from.
 
 **Définissez allowscriptaccess sur`Always`ou`sameDomain`**
@@ -53,7 +53,7 @@ Try to place the JS [!UICONTROL DIL] data collection module on the page so it lo
 
 ## Data Collected by Flash DIL {#data-collected}
 
-[!UICONTROL Flash DIL] capture la page vue, le suivi des liens, le suivi des médias et d&#39;autres événements de vue média depuis [!UICONTROL AppMeasurement] la bibliothèque Adobe.
+[!UICONTROL Flash DIL] capture la page vue, le suivi des liens, le suivi des médias et d'autres événements de vue média depuis [!UICONTROL AppMeasurement] la bibliothèque Adobe.
 
 <!-- 
 
@@ -89,7 +89,7 @@ Unless specified otherwise by `s.Media.trackVars`, [!UICONTROL Flash DIL] collec
 
 Les données de ces paramètres sont collectées par défaut :
 
-* `mediaName` (Nom de l&#39;élément Média/vidéo)
+* `mediaName` (Nom de l'élément Média/vidéo)
 * `mediaAdName` (Nom de la publicité)
 * `mediaAdParentName` (Le nom du contenu multimédia principal est imbriqué sous).
 * `mediaAdParentPod` (Capsule ou coupure publicitaire dans le contenu principal où la publicité est lue)
@@ -118,7 +118,7 @@ To use the Analytics data passed by [!UICONTROL Flash DIL], you should create Au
 
 Pour obtenir des exemples, reportez-vous au tableau suivant :
 
-| Elément de données Analytics | Exemple Analytics | Comme caractéristique d&#39;Audience Manager |
+| Elément de données Analytics | Exemple Analytics | Comme caractéristique d'Audience Manager |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **evar** | `v35=bar` | `c_evar35=bar` |
