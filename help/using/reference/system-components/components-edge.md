@@ -23,17 +23,17 @@ c_compedge.xml
 
  -->
 
-L&#39;informatique Edge offre des performances accrues en réponse à la demande à l&#39;échelle Internet, car le « edge » est une limite globale. This means [!DNL Audience Manager] dynamically places processing closest to the sources of demand and returns data by the shortest possible path. L&#39;informatique Edge permet de conserver les performances du site, ce qui préserve l&#39;expérience de l&#39;utilisateur sur votre site Web. The edge data center is a key gateway for moving data in and out of [!DNL Audience Manager].
+L'informatique Edge offre des performances accrues en réponse à la demande à l'échelle Internet, car le « edge » est une limite globale. This means [!DNL Audience Manager] dynamically places processing closest to the sources of demand and returns data by the shortest possible path. L'informatique Edge permet de conserver les performances du site, ce qui préserve l'expérience de l'utilisateur sur votre site Web. The edge data center is a key gateway for moving data in and out of [!DNL Audience Manager].
 
 The [!DNL Audience Manager] edge data center includes:
 
-* **Serveurs principaux :** Il s&#39;agit des [!DNL Audience Manager] systèmes principaux. Elles mettent à jour et fournissent des données aux serveurs Edge.
+* **Serveurs principaux :** Il s'agit des [!DNL Audience Manager] systèmes principaux. Elles mettent à jour et fournissent des données aux serveurs Edge.
 
-* **Serveurs Edge :** En règle générale, il s&#39;agit de serveurs d&#39;applications et/ou Web. They sit at the boundary between [!DNL Audience Manager] and the Internet. Edge servers, such as the [!UICONTROL DCS] or Akamai systems, typically handle data and requests flowing into and out of [!DNL Audience Manager].
+* **Serveurs Edge :** En règle générale, il s'agit de serveurs d'applications et/ou Web. They sit at the boundary between [!DNL Audience Manager] and the Internet. Edge servers, such as the [!UICONTROL DCS] or Akamai systems, typically handle data and requests flowing into and out of [!DNL Audience Manager].
 
-* **Équilibreurs de charge :** Gérez les exigences de traitement/traitement inégales inhérentes aux applications Internet. Ces équilibreurs empêchent les clusters de serveurs d&#39;être surchargés alors que d&#39;autres restent inactifs.
+* **Équilibreurs de charge :** Gérez les exigences de traitement/traitement inégales inhérentes aux applications Internet. Ces équilibreurs empêchent les clusters de serveurs d'être surchargés alors que d'autres restent inactifs.
 
-Le diagramme suivant illustre l&#39;environnement Centre de données Edge d&#39;Audience Manager.
+Le diagramme suivant illustre l'environnement Centre de données Edge d'Audience Manager.
 
 ![](assets/edge_data_center.png)
 
