@@ -84,13 +84,13 @@ The following table defines the basic components of a simple [!UICONTROL DCS] ca
 
 ## Sample Call {#dcs-sample-call}
 
-This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a [!DNL JSON] response from the [!UICONTROL DCS] with a call back function. N&#39;oubliez pas que ce n&#39;est qu&#39;un exemple. Ne coupez pas ce code et ne le collez pas.
+This example shows the fictional company [!DNL Acme, Inc.] sending data to the [!UICONTROL DCS] via an HTTP call. Note that this call includes the optional parameters `d_dst=1`, `d_rtbd=json`, and `d_cb=callback`. These indicate that [!DNL Acme] wants to receive a [!DNL JSON] response from the [!UICONTROL DCS] with a call back function. N'oubliez pas que ce n'est qu'un exemple. Ne coupez pas ce code et ne le collez pas.
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
 ## Étapes suivantes {#dcs-next-steps}
 
-Now that you&#39;re familiar with sending data to the [!UICONTROL DCS], it&#39;s time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Now that you're familiar with sending data to the [!UICONTROL DCS], it's time to look at how to get data back from it and parse that information. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORE_ LIKE_ THIS]
 >
