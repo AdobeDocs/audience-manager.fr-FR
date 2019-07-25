@@ -36,7 +36,7 @@ Note the requirements for sending data using the `POST` method:
 * La taille maximale autorisée est de 32 K.
 * Set the content type to `application/x-www-form-urlencoded`.
 
-### Exemple d&#39;appel
+### Exemple d'appel
 
 <pre><code>curl -x POST\ 
  https://yourcompany.demdex.net/event<i></i>\ 
