@@ -15,7 +15,7 @@ source-git-commit: db98258a1f88867af4cd1369d35fa243a89f3f65
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] permet aux fournisseurs de données et aux acheteurs d&#39;exécuter des transactions de données en libre-service avec un effort minimum. Pour ce faire, vous fournissez des fonctionnalités spécialisées qui varient selon votre rôle en tant qu&#39;acheteur de données ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur. And, if this couldn’t get any better, [!UICONTROL Audience Marketplace] takes care of contracts, billing, and payments between data providers and sellers.
+[!UICONTROL Audience Marketplace] permet aux fournisseurs de données et aux acheteurs d'exécuter des transactions de données en libre-service avec un effort minimum. Pour ce faire, vous fournissez des fonctionnalités spécialisées qui varient selon votre rôle en tant qu'acheteur de données ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur. And, if this couldn’t get any better, [!UICONTROL Audience Marketplace] takes care of contracts, billing, and payments between data providers and sellers.
 
 Talk to your [!DNL Audience Manager] sales specialist to get started. They can activate [!UICONTROL Audience Marketplace for you].
 
@@ -23,7 +23,7 @@ Talk to your [!DNL Audience Manager] sales specialist to get started. They can a
 >
 >User roles control what you can and cannot do in [!UICONTROL Audience Marketplace].
 >
-> * Les administrateurs peuvent créer des flux de données, gérer les abonnés et s&#39;abonner aux flux de données.
+> * Les administrateurs peuvent créer des flux de données, gérer les abonnés et s'abonner aux flux de données.
 > * Les utilisateurs peuvent uniquement rechercher des flux et les afficher.
 
 
