@@ -17,7 +17,7 @@ Update your code to use `d_cid` or `d_cid_ic` instead of `d_dpid` and `d_dpuuid`
 
 ## DPID and DPUUID: A Review {#dpid-dpuuid-review}
 
-DPID et DPUUID sont des paires clé-valeur qui contiennent un identifiant de fournisseur de données et un utilisateur - id. Ces paires de clés-valeurs de valeurs clés sont des identifiants de fournisseur à l&#39;utilisateur - id. Elles envoient des données lors des appels d&#39;événement, pour les événements de synchronisation entrants et pour les appels d&#39;ID. Without them, [!DNL Audience Manager], and other services or features, would not have a way to match and synchronize IDs. These variables are sometimes expressed with or without the `d_` prefix as shown below. Note, in the code, *italics* indicates a variable placeholder.
+DPID et DPUUID sont des paires clé-valeur qui contiennent un identifiant de fournisseur de données et un utilisateur - id. Ces paires de clés-valeurs de valeurs clés sont des identifiants de fournisseur à l'utilisateur - id. Elles envoient des données lors des appels d'événement, pour les événements de synchronisation entrants et pour les appels d'ID. Without them, [!DNL Audience Manager], and other services or features, would not have a way to match and synchronize IDs. These variables are sometimes expressed with or without the `d_` prefix as shown below. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -50,7 +50,7 @@ Ces paires clé-valeur fonctionnent toujours, mais elles sont obsolètes. Vous d
 
 ## CID and CID_IC: About {#cid-cidic-about}
 
-Les paires CID et CID_ IC sont remplacées par DPID et DPUUID. Elles fournissent les mêmes fonctions que DPID et DPUUID, mais elles sont plus efficaces car elles incluent l&#39;identifiant de fournisseur de données (ou le code d&#39;intégration) et l&#39;utilisateur - id dans une paire clé-valeur unique. Dans chaque paire clé-valeur :
+Les paires CID et CID_ IC sont remplacées par DPID et DPUUID. Elles fournissent les mêmes fonctions que DPID et DPUUID, mais elles sont plus efficaces car elles incluent l'identifiant de fournisseur de données (ou le code d'intégration) et l'utilisateur - id dans une paire clé-valeur unique. Dans chaque paire clé-valeur :
 
 * Le symbole = sépare la clé de ses valeurs associées.
 * Le caractère ASCII non imprimable % 01 sépare les valeurs.
@@ -80,14 +80,14 @@ See also, [URL Variables and Syntax for Declared IDs](../features/declared-ids.m
 
 >[!NOTE]
 >
->You can use integration codes for your own data sources and for global [shared data sources](../features/datasources-list-and-settings.md#settings-menu-options), which you have access to. Par exemple, vous pouvez utiliser des codes d&#39;intégration lorsque vous travaillez avec des sources de données d&#39;identifiants mobiles. Utilisez les codes d&#39;intégration suivants, exactement comme indiqué ci-dessous :
+>You can use integration codes for your own data sources and for global [shared data sources](../features/datasources-list-and-settings.md#settings-menu-options), which you have access to. Par exemple, vous pouvez utiliser des codes d'intégration lorsque vous travaillez avec des sources de données d'identifiants mobiles. Utilisez les codes d'intégration suivants, exactement comme indiqué ci-dessous :
 
-* **DSID_ 20914** pour GAID, qui représente les périphériques exécutant le système d&#39;exploitation Android.
-* **DSID_ 20915** pour IDFA, représentant les périphériques exécutant le système d&#39;exploitation ios.
+* **DSID_ 20914** pour GAID, qui représente les périphériques exécutant le système d'exploitation Android.
+* **DSID_ 20915** pour IDFA, représentant les périphériques exécutant le système d'exploitation ios.
 
 **Exemples**
 
-Le tableau suivant fournit des exemples par type d&#39;événement.
+Le tableau suivant fournit des exemples par type d'événement.
 
 <table id="table_097A58CCD6E64C4DB0652271A4F31AE8"> 
  <thead> 
