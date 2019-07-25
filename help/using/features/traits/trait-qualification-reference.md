@@ -14,7 +14,7 @@ source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
 # Référence de qualification des traits {#trait-qualification-reference}
 
-La qualification des caractéristiques ou la concrétisation des caractéristiques est traitée différemment dans Audience Manager, selon le type de caractéristique. Pour plus d&#39;informations sur la qualification des caractéristiques, reportez-vous au tableau ci-dessous.
+La qualification des caractéristiques ou la concrétisation des caractéristiques est traitée différemment dans Audience Manager, selon le type de caractéristique. Pour plus d'informations sur la qualification des caractéristiques, reportez-vous au tableau ci-dessous.
 
 ## Trait Qualification by Trait Type {#trait-type}
 
@@ -57,11 +57,11 @@ The **[!UICONTROL Unique Trait Realizations]** count the number of your visitors
 
 The **[!UICONTROL Total Trait Population]** represents the number of your visitors that have this trait on their profile.
 
-Considérez les nombres de cette manière. In the image above, from the [Trait Details](../../features/traits/trait-details-page.md) view, 181 represents the number of active devices, that visited your properties yesterday. The [!UICONTROL Total Trait Population] of 1,595 represents the amount of users currently qualified for this trait. [!UICONTROL Total Trait Population] Cette illustration indique le nombre total d&#39;utilisateurs qui peuvent être utilisés pour la segmentation/le ciblage. En règle générale, les utilisateurs resteront dans une caractéristique pendant 120 jours.
+Considérez les nombres de cette manière. In the image above, from the [Trait Details](../../features/traits/trait-details-page.md) view, 181 represents the number of active devices, that visited your properties yesterday. The [!UICONTROL Total Trait Population] of 1,595 represents the amount of users currently qualified for this trait. [!UICONTROL Total Trait Population] Cette illustration indique le nombre total d'utilisateurs qui peuvent être utilisés pour la segmentation/le ciblage. En règle générale, les utilisateurs resteront dans une caractéristique pendant 120 jours.
 
 Because we run two different computational jobs to calculate the two populations, the [!UICONTROL Total Trait Population] always lags behind the [!UICONTROL Unique Trait Realizations] by 24 hours. In the graph above, you can see 175 [!UICONTROL Unique Trait Realizations] and a [!UICONTROL Total Trait Population] of 6 for February 11. The 175 profiles are added to the [!UICONTROL Total Trait Population] on the following day.
 
-To further drive the point home, if you experienced a spike of 10,000 visitors right now, they would show up in tomorrow&#39;s [!UICONTROL Unique Trait Realizations], but would only show up 24 hours later in the [!UICONTROL Total Trait Population].
+To further drive the point home, if you experienced a spike of 10,000 visitors right now, they would show up in tomorrow's [!UICONTROL Unique Trait Realizations], but would only show up 24 hours later in the [!UICONTROL Total Trait Population].
 
 ## Trait Qualification Limit {#trait-qualification-limit}
 
