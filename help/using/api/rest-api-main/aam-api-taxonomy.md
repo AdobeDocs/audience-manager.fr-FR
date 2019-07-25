@@ -13,7 +13,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 # Taxonomic API Methods {#taxonomic-api-methods}
 
-Méthodes qui vous permettent d&#39;afficher la taxonomie commune d&#39;Audience Manager. Ce modèle de classification facultatif organise les caractéristiques dans des catégories standard du secteur.
+Méthodes qui vous permettent d'afficher la taxonomie commune d'Audience Manager. Ce modèle de classification facultatif organise les caractéristiques dans des catégories standard du secteur.
 
 <!-- c_rest_api_taxonomy.xml -->
 
