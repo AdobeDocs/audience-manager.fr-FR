@@ -31,11 +31,11 @@ In [!DNL Audience Manager], Hadoop is the master database that contains everythi
 
 * **Hbase :** Une base de données Hadoop très volumineuse. Il traite et gère les données entrants et sortantes, les règles de caractéristiques, les informations de modélisation algorithmique et effectue de nombreuses autres fonctions relatives au stockage et au déplacement de données vers différents systèmes.
 
-Les clients n&#39;ont pas accès directement à ces systèmes. Toutefois, les clients travaillent avec eux indirectement car ces composants stockent des données importantes sur les visiteurs de leur site.
+Les clients n'ont pas accès directement à ces systèmes. Toutefois, les clients travaillent avec eux indirectement car ces composants stockent des données importantes sur les visiteurs de leur site.
 
 ## Snowflake {#snowflake}
 
-[Le flake de neige](https://www.snowflake.net/) est une base de données de cloud massive. Il fournit des données à bon nombre des graphiques du tableau de bord et de leurs zones de texte associées qui affichent la modification % pour chaque élément du graphique. If you use [!DNL Audience Manager] and look at the dashboard reports, you&#39;re interacting with data provided by [!UICONTROL Snowflake].
+[Le flake de neige](https://www.snowflake.net/) est une base de données de cloud massive. Il fournit des données à bon nombre des graphiques du tableau de bord et de leurs zones de texte associées qui affichent la modification % pour chaque élément du graphique. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
 
 
 
@@ -50,7 +50,7 @@ This is by no means a comprehensive list, but some common dashboard reports that
 
 ## SOLR {#solr}
 
-SOLR est une base de données Open Source et un système serveur d&#39;Apache. Il offre des capacités de recherche robustes et rapides par rapport à nos jeux de données volumineux. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR est idéal pour ce rôle en raison de sa vitesse. Par exemple, SOLR peut mettre à jour les données de taille historiques lorsque vous créez des règles et ajouter de nouvelles caractéristiques à un segment.
+SOLR est une base de données Open Source et un système serveur d'Apache. Il offre des capacités de recherche robustes et rapides par rapport à nos jeux de données volumineux. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR est idéal pour ce rôle en raison de sa vitesse. Par exemple, SOLR peut mettre à jour les données de taille historiques lorsque vous créez des règles et ajouter de nouvelles caractéristiques à un segment.
 
 
 
@@ -58,7 +58,7 @@ SOLR est une base de données Open Source et un système serveur d&#39;Apache. I
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] utilise [Tableau](https://www.tableausoftware.com/) pour afficher les données dans les rapports [Interactifs](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) et Optimisation [de l&#39;audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Les rapports interactifs affichent des données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d&#39;utiliser des nombres organisés en colonnes et lignes, ils renvoient des données à l&#39;aide de différentes formes, couleurs et tailles. En outre, vous pouvez choisir des groupes de données ou des groupes de points de données et les analyser pour plus d&#39;informations. Ces techniques de visualisation et l&#39;interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
+[!DNL Audience Manager] utilise [Tableau](https://www.tableausoftware.com/) pour afficher les données dans les rapports [Interactifs](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) et Optimisation [de l'audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Les rapports interactifs affichent des données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d'utiliser des nombres organisés en colonnes et lignes, ils renvoient des données à l'aide de différentes formes, couleurs et tailles. En outre, vous pouvez choisir des groupes de données ou des groupes de points de données et les analyser pour plus d'informations. Ces techniques de visualisation et l'interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
 
 
 
