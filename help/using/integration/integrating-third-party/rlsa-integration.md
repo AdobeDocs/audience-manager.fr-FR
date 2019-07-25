@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
-This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] destination. It is also known as a remarketing list for search ads ([!DNL RLSA]) integration. S&#39;applique uniquement à la recherche payante.
+This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] destination. It is also known as a remarketing list for search ads ([!DNL RLSA]) integration. S'applique uniquement à la recherche payante.
 
 >[!IMPORTANT]
->Veuillez noter qu&#39;il ne s&#39;agit pas d&#39;une intégration productrice des deux systèmes.
+>Veuillez noter qu'il ne s'agit pas d'une intégration productrice des deux systèmes.
 
 To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL destination:
 
 1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en) and write down your conversion ID.
-1. Utilisez l&#39;URL suivante comme modèle pour l&#39;URL de base et l&#39;URL sécurisée. Remplacez la section xxxxxxxx par votre identifiant de conversion.
+1. Utilisez l'URL suivante comme modèle pour l'URL de base et l'URL sécurisée. Remplacez la section xxxxxxxx par votre identifiant de conversion.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
@@ -68,7 +68,7 @@ Un mappage terminé peut ressembler à ceci :
 >[!MORE_ LIKE_ THIS]
 >
 >* [Destinations](../../features/destinations/destinations.md)
->* [Création d&#39;une destination d&#39;URL](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Création d'une destination d'URL](../../features/destinations/manage-destinations.md#configure-url-destination)
 >* [A propos des listes de remarketing adwords](https://support.google.com/adwords/answer/2472738)
 >* [Fonctionnement du remarketing adwords](https://support.google.com/adwords/answer/2454000)
 
