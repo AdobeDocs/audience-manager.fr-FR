@@ -20,7 +20,7 @@ Audience Manager définit une limite maximale quant au nombre de caractéristiqu
 
 The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adds the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
 
-| Mappage d&#39;ID | Limite maximale |
+| Mappage d'ID | Limite maximale |
 |-----------|-------------- |
 | ID de publication de périphérique (DAID) avec ID de périphérique (identifiant de CRM) | 100 Identifiants de publicité de périphérique (DSI) à 1 ID de périphérique (identifiant CRM) |
 | ID de la CRM (Cross-Device ID) vers DAID (Device Advertizing ID) | 10 Identifiants multiterminaux (ID de gestion de la relation client) sur 1 ID de publicité de périphérique (DAID) |
@@ -28,7 +28,7 @@ The table below lists the [ID mapping](../../integration/sending-audience-data/b
 
 ## Item Limits {#item-limits}
 
-Les tableaux répertorient les limites actuelles par type d&#39;élément. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. Si vous atteignez une limite, vous devez supprimer un ancien élément avant de pouvoir en créer un nouveau.
+Les tableaux répertorient les limites actuelles par type d'élément. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. Si vous atteignez une limite, vous devez supprimer un ancien élément avant de pouvoir en créer un nouveau.
 
 ### Limites de caractéristiques
 
@@ -62,7 +62,7 @@ Les tableaux répertorient les limites actuelles par type d&#39;élément. You c
 | Élément | Limite maximale |
 | -------- | ----- |
 | Modèles algorithmiques actifs | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| Taille maximale de l&#39;audience des modèles algorithmiques | 25,000,000.  Notez que cette limite ne peut pas être augmentée. Vous pouvez réduire les tailles d&#39;audience en sélectionnant moins de sources de données pour le modèle ou en sélectionnant une fenêtre de recherche plus courte. |
+| Taille maximale de l'audience des modèles algorithmiques | 25,000,000.  Notez que cette limite ne peut pas être augmentée. Vous pouvez réduire les tailles d'audience en sélectionnant moins de sources de données pour le modèle ou en sélectionnant une fenêtre de recherche plus courte. |
 | Nombre maximum de caractéristiques exclues pour un modèle | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 
 ### Limites de dossier
@@ -77,18 +77,18 @@ Les tableaux répertorient les limites actuelles par type d&#39;élément. You c
 | --------------- | ------------- |
 | Signaux dérivés | 50 000. |
 
-### Limite des comptes d&#39;utilisateurs de la société
+### Limite des comptes d'utilisateurs de la société
 
 | Élément | Limite maximale |
 | ----------- | ------------- |
-| Nombre maximum de comptes d&#39;utilisateurs pour une entreprise | 1 000. |
+| Nombre maximum de comptes d'utilisateurs pour une entreprise | 1 000. |
 
 ## Monitor Usage {#monitor-usage}
 
-You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. L&#39;accès requiert des autorisations d&#39;administrateur.
+You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. L'accès requiert des autorisations d'administrateur.
 
-![image limite d&#39;utilisation](assets/usage-limits.png)
+![image limite d'utilisation](assets/usage-limits.png)
 
 ## Increase Item Limits {#increase-item-limits}
 
-Les limites par défaut indiquées ici devraient fournir une capacité suffisante pour répondre aux besoins de votre entreprise. Si votre organisation atteint régulièrement ces limites, contactez le représentant du compte pour discuter d&#39;une augmentation.
+Les limites par défaut indiquées ici devraient fournir une capacité suffisante pour répondre aux besoins de votre entreprise. Si votre organisation atteint régulièrement ces limites, contactez le représentant du compte pour discuter d'une augmentation.
