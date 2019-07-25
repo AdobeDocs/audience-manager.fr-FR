@@ -14,7 +14,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Instance-level DIL Methods{#instance-level-dil-methods}
 
-The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. Les méthodes de niveau instance améliorent la fonctionnalité d&#39;API définie par les méthodes de niveau classe.
+The instance-level [!UICONTROL DIL] APIs let you programmatically create and work with Audience Manager objects. Les méthodes de niveau instance améliorent la fonctionnalité d'API définie par les méthodes de niveau classe.
 
 ## Getting started with Instance-level DIL Methods {#get-started-dil-methods}
 
@@ -26,8 +26,8 @@ c_api_overview.xml
 
 When working with the instance-level [!UICONTROL DIL] APIs:
 
-* L&#39;accès requiert un nom de partenaire et un identifiant de namespace de noms de conteneur (NSID). Contactez votre gestionnaire de compte Audience Manager pour obtenir ces informations.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you&#39;re working with.
+* L'accès requiert un nom de partenaire et un identifiant de namespace de noms de conteneur (NSID). Contactez votre gestionnaire de compte Audience Manager pour obtenir ces informations.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
 
 <!-- 
 
@@ -37,7 +37,7 @@ c_instance_start.xml
 
 ## signals {#signals}
 
-Ajoute des mappages au niveau des clients et des plateformes à la chaîne de requête d&#39;une requête en attente.
+Ajoute des mappages au niveau des clients et des plateformes à la chaîne de requête d'une requête en attente.
 
 <!-- 
 
@@ -49,7 +49,7 @@ r_dil_signals.xml
 
 >[!NOTE]
 >
->* Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>* Vous pouvez chaîner d'autres appels d'API à cette méthode.
 >* If the Adobe Experience Cloud JavaScript library is on the page, `submit()` waits for the Cloud to set a cookie before sending a request.
 
 
@@ -68,9 +68,9 @@ Les clés de requête suivantes sont réservées et ne peuvent pas être remplac
 
 | Nom | Type | Description |
 |---|---|---|
-| `obj` | Objet | Objet représentant les paires clé-valeur pour les mappages au niveau de la plate-forme. Le paramètre accepte les chaînes et les tableaux comme valeurs de propriété dans l&#39;objet. |
-| `prefix` | Chaîne | Facultatif. Valeur de chaîne préfixée à chaque clé d&#39;objet (remplace la clé d&#39;origine). |
-| `return` | DIL. api | Renvoie l&#39;objet API de l&#39;instance DIL active. |
+| `obj` | Objet | Objet représentant les paires clé-valeur pour les mappages au niveau de la plate-forme. Le paramètre accepte les chaînes et les tableaux comme valeurs de propriété dans l'objet. |
+| `prefix` | Chaîne | Facultatif. Valeur de chaîne préfixée à chaque clé d'objet (remplace la clé d'origine). |
+| `return` | DIL. api | Renvoie l'objet API de l'instance DIL active. |
 
 **Réponse**
 
@@ -103,7 +103,7 @@ Datalib. api. signals (obj,'c_'). submit () ;</code>
 
 ## traits {#traits}
 
-Ajoute des ID à la chaîne de requête d&#39;une requête en attente.
+Ajoute des ID à la chaîne de requête d'une requête en attente.
 
 <!-- 
 
@@ -115,7 +115,7 @@ r_dil_traits.xml
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode.
 
 **Paramètres**
 
@@ -178,7 +178,7 @@ r_dil_submit.xml
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode. Also, [!UICONTROL DIL] writes encoded data to a destination cookie. For example, spaces are encoded as `%20` and semicolons as `%3B`.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode. Also, [!UICONTROL DIL] writes encoded data to a destination cookie. For example, spaces are encoded as `%20` and semicolons as `%3B`.
 
 **Réponse**
 
@@ -220,7 +220,7 @@ r_dil_after_result.xml
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode.
 
 **Paramètres**
 
@@ -249,7 +249,7 @@ afterresult (function (json) {
 
 ## clearData {#cleardata}
 
-Efface toutes les données d&#39;une requête en attente.
+Efface toutes les données d'une requête en attente.
 
 <!-- 
 
@@ -261,7 +261,7 @@ r_dil_clear_data.xml
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode.
 
 **Réponse**
 
@@ -300,7 +300,7 @@ r_dil_custom_query_params.xml
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode.
 
 **Clés de requête réservées**
 
@@ -315,7 +315,7 @@ Les clés de requête suivantes sont réservées et ne peuvent pas être remplac
 
 **Réponse**
 
-Renvoie l&#39;objet API de l&#39;instance DIL active.
+Renvoie l'objet API de l'instance DIL active.
 
 **Exemple de code**
 
@@ -354,7 +354,7 @@ var nsid = datalib. api. getcontainernsid () ;</code>
 
 ## getEventLog {#geteventlog}
 
-Renvoie les données du journal d&#39;événements chronologiquement triées sous la forme d&#39;un tableau de chaînes. Utile pour le débogage et le dépannage.
+Renvoie les données du journal d'événements chronologiquement triées sous la forme d'un tableau de chaînes. Utile pour le débogage et le dépannage.
 
 <!-- 
 
@@ -482,7 +482,7 @@ state = {
 
 ## idSync {#idsync}
 
-Comprend deux fonctions qui permettent aux partenaires de données d&#39;échanger et de synchroniser les utilisateurs : les identifiants entre eux et Audience Manager.
+Comprend deux fonctions qui permettent aux partenaires de données d'échanger et de synchroniser les utilisateurs : les identifiants entre eux et Audience Manager.
 
 <!-- 
 
@@ -554,7 +554,7 @@ Works with [!UICONTROL DIL] versions 2.10 and 3.1 or higher.
 `idSync` accepte les macros suivantes :
 
 * **`%TIMESTAMP%`:** Génère un horodatage (en millisecondes). Utilisé pour la mise en cache.
-* **`%DID%`:** Insère l&#39;identifiant Audience Manager pour l&#39;utilisateur.
+* **`%DID%`:** Insère l'identifiant Audience Manager pour l'utilisateur.
 * **`%HTTP_PROTO%`:** Définit le protocole de la page ( `http` ou `https`).
 
 **Réponse**
@@ -604,7 +604,7 @@ Ce rappel remplace le rappel par défaut qui gère la publication de destination
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode.
 
 **Paramètres**
 
@@ -644,7 +644,7 @@ dil-secure-data-collection.xml
 
 >[!IMPORTANT]
 >
->Set `secureDataCollection= false` if you use visitorAPI.js and [!UICONTROL DIL] on the same page. Voir l&#39;exemple de code ci-dessous.
+>Set `secureDataCollection= false` if you use visitorAPI.js and [!UICONTROL DIL] on the same page. Voir l'exemple de code ci-dessous.
 
 <pre><code class="js">var dilinstance = DIL. create ({ 
  … 
@@ -659,7 +659,7 @@ dil-secure-data-collection.xml
 
 ## useCORSOnly {#usecorsonly}
 
-`useCORSOnly` est un paramètre booléen true/false qui contrôle la manière dont le navigateur demande des ressources à d&#39;autres domaines.
+`useCORSOnly` est un paramètre booléen true/false qui contrôle la manière dont le navigateur demande des ressources à d'autres domaines.
 
 <!-- 
 
@@ -681,7 +681,7 @@ dil-use-cors-only.xml
 
 >[!IMPORTANT]
 >
->* We recommend that you set `useCORSOnly: true` only when you&#39;re sure that your site visitors have browsers that support this feature.
+>* We recommend that you set `useCORSOnly: true` only when you're sure that your site visitors have browsers that support this feature.
 >* When `useCORSOnly: true`, [!UICONTROL DIL] will not make ID calls from Internet Explorer version 9 or older.
 >
 
@@ -708,7 +708,7 @@ r_dil_use_image_request.xml
 
 >[!NOTE]
 >
->Vous pouvez chaîner d&#39;autres appels d&#39;API à cette méthode.
+>Vous pouvez chaîner d'autres appels d'API à cette méthode.
 
 **Réponse**
 
