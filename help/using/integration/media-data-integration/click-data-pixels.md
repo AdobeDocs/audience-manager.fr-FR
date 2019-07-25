@@ -13,16 +13,16 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Le suivi des clics permet la mesure de l&#39;engagement des visiteurs tout au long de votre campagne, puisqu&#39;il enregistre l&#39;activité basée sur les clics pour les créations tierces. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. Le visiteur est ensuite redirigé vers l&#39;adresse Web prévue.
+Le suivi des clics permet la mesure de l'engagement des visiteurs tout au long de votre campagne, puisqu'il enregistre l'activité basée sur les clics pour les créations tierces. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. Le visiteur est ensuite redirigé vers l'adresse Web prévue.
 
 ## Conditions
 
 Les appels de suivi des clics nécessitent les paramètres suivants :
 
-* `d_event=click`: Paire clé-valeur qui identifie un appel d&#39;événement comme événement click.
+* `d_event=click`: Paire clé-valeur qui identifie un appel d'événement comme événement click.
 * `d_rd=redirect URL`: Paire clé-valeur contenant une redirection [!DNL URL]codée.
 
-En outre, l&#39;appel peut contenir des paires clé-valeur qui peuvent être utilisées pour la qualification des caractéristiques ou fournir des données et des métadonnées pour d&#39;autres rapports.
+En outre, l'appel peut contenir des paires clé-valeur qui peuvent être utilisées pour la qualification des caractéristiques ou fournir des données et des métadonnées pour d'autres rapports.
 
 ## Exemple de demande
 
@@ -32,7 +32,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## Réponse
 
-The response redirects the browser to the [!DNL URL] specified in the `d_rd` parameter. La chaîne de réponse peut inclure des valeurs générées par l&#39;une des macros prises en charge ci-dessous.
+The response redirects the browser to the [!DNL URL] specified in the `d_rd` parameter. La chaîne de réponse peut inclure des valeurs générées par l'une des macros prises en charge ci-dessous.
 
 Based on the above example, the browser is redirected to the following [!DNL URL]:
 
@@ -40,7 +40,7 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 ## Macros prises en charge
 
-Les événements de clic prennent en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité d&#39;auto-code qui s&#39;active lorsque la balise publicitaire se charge pour le suivi des campagnes et des utilisateurs. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Certaines clés ne comportent pas de macros et acceptent plutôt une valeur d&#39;ID codée en dur. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Les événements de clic prennent en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité d'auto-code qui s'active lorsque la balise publicitaire se charge pour le suivi des campagnes et des utilisateurs. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Certaines clés ne comportent pas de macros et acceptent plutôt une valeur d'ID codée en dur. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -136,7 +136,7 @@ Les événements de clic prennent en charge les macros répertoriées dans le ta
 
 ## Exemple de macros
 
-Cet exemple illustre la transmission des macros creative, adgroup et placement. Elle suppose que les valeurs de chaque paramètre sont transmises dans la portion non redirection de l&#39;appel de suivi des clics.
+Cet exemple illustre la transmission des macros creative, adgroup et placement. Elle suppose que les valeurs de chaque paramètre sont transmises dans la portion non redirection de l'appel de suivi des clics.
 
 <ul class="simplelist"> 
  <li> <code> creative = 1235 </code> </li> 
@@ -162,5 +162,5 @@ Based on the above example, the browser is redirected to the following [!DNL URL
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Fichiers de données et de métadonnées pour les rapports Optimisation d&#39;audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Fichiers de données et de métadonnées pour les rapports Optimisation d'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
