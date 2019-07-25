@@ -21,10 +21,10 @@ Audience Manager requires the `HTTP` server-to-server requests to be digitally s
 
 Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the `HTTP` requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#iris) and your HTTP server. Ceci garantit que :
 
-* **Authenticité**: seul l&#39;expéditeur qui possède la clé privée ([!UICONTROL IRIS]) peut envoyer `HTTP(S)` des messages valides au partenaire.
-* **Intégrité des messages**: avec cette approche, même sur `HTTP`, vous êtes protégé contre un homme dans l&#39;attaque intermédiaire où les messages sont déformés.
+* **Authenticité**: seul l'expéditeur qui possède la clé privée ([!UICONTROL IRIS]) peut envoyer `HTTP(S)` des messages valides au partenaire.
+* **Intégrité des messages**: avec cette approche, même sur `HTTP`, vous êtes protégé contre un homme dans l'attaque intermédiaire où les messages sont déformés.
 
-[!UICONTROL IRIS] comporte une prise en charge intégrée pour faire pivoter les clés dont le temps d&#39;interruption est zéro, comme indiqué dans [la section Rotation de la clé](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) privée ci-dessous.
+[!UICONTROL IRIS] comporte une prise en charge intégrée pour faire pivoter les clés dont le temps d'interruption est zéro, comme indiqué dans [la section Rotation de la clé](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) privée ci-dessous.
 
 ## Information you need to provide {#info-to-provide}
 
@@ -49,17 +49,17 @@ POST message content
 
 1. [!UICONTROL IRIS] crée le `HTTP` message à envoyer au partenaire.
 1. [!UICONTROL IRIS] crée une signature basée sur `HTTP` le message et la clé privée communiquée par le partenaire.
-1. [!UICONTROL IRIS] envoie la `HTTP(S)` requête au partenaire. Ce message contient la signature et le message réel, comme le montre l&#39;exemple ci-dessus.
+1. [!UICONTROL IRIS] envoie la `HTTP(S)` requête au partenaire. Ce message contient la signature et le message réel, comme le montre l'exemple ci-dessus.
 1. The partner server receives the `HTTP(S)` request. It reads the message body and the signature received from [!UICONTROL IRIS].
 1. En fonction du corps du message reçu et de la clé privée, le serveur partenaire recalcule la signature. See the [How to calculate the signature](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) section just below on how to achieve this.
 1. Compare the signature created on the partner server (receiver) with the one received from [!UICONTROL IRIS] (sender).
-1. If the signatures match, then the **authenticity** and **message integrity** have been validated. Seul l&#39;expéditeur, qui possède la clé privée, peut envoyer une signature valide (authenticité). De plus, un homme au milieu ne peut pas modifier le message et générer une signature valide, puisqu&#39;il n&#39;a pas la clé privée (intégrité des messages).
+1. If the signatures match, then the **authenticity** and **message integrity** have been validated. Seul l'expéditeur, qui possède la clé privée, peut envoyer une signature valide (authenticité). De plus, un homme au milieu ne peut pas modifier le message et générer une signature valide, puisqu'il n'a pas la clé privée (intégrité des messages).
 
 ![](assets/iris-digitally-sign-http-request.png)
 
 ## How to calculate the signature {#calculate-signature}
 
-[!DNL HMAC] (Code d&#39;authentification de message basé sur un hachage) est la méthode utilisée pour [!UICONTROL IRIS] la signature de message. Les implémentations et les bibliothèques sont disponibles essentiellement dans chaque langage de programmation. [!DNL HMAC] ne comporte pas d&#39;attaques d&#39;extension connues. See an example in [!DNL Java] below:
+[!DNL HMAC] (Code d'authentification de message basé sur un hachage) est la méthode utilisée pour [!UICONTROL IRIS] la signature de message. Les implémentations et les bibliothèques sont disponibles essentiellement dans chaque langage de programmation. [!DNL HMAC] ne comporte pas d'attaques d'extension connues. See an example in [!DNL Java] below:
 
 ```
 // Message to be signed.
@@ -86,11 +86,11 @@ The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc
 
 ## Rotating the private key {#rotate-private-key}
 
-Pour des raisons de sécurité, il est recommandé de faire pivoter régulièrement la clé privée. C&#39;est à vous de décider de la clé privée et de la période de rotation. In order to achieve the key rotation with zero downtime, [!UICONTROL IRIS] supports adding multiple signature headers. Un en-tête contiendra la signature générée avec l&#39;ancienne clé ; un autre en-tête contiendra la signature générée à l&#39;aide de la nouvelle clé privée. Voir sous la procédure détaillée :
+Pour des raisons de sécurité, il est recommandé de faire pivoter régulièrement la clé privée. C'est à vous de décider de la clé privée et de la période de rotation. In order to achieve the key rotation with zero downtime, [!UICONTROL IRIS] supports adding multiple signature headers. Un en-tête contiendra la signature générée avec l'ancienne clé ; un autre en-tête contiendra la signature générée à l'aide de la nouvelle clé privée. Voir sous la procédure détaillée :
 
 1. Partner communicates the new private key to [!DNL Adobe Audience Manager].
-1. [!UICONTROL IRIS] commence à envoyer deux en-têtes de signature (l&#39;un utilisant l&#39;ancienne clé, l&#39;autre utilisant la nouvelle clé).
-1. Une fois que vous avez commencé à recevoir les deux en-têtes, vous pouvez ignorer l&#39;ancienne clé et seulement la nouvelle signature.
+1. [!UICONTROL IRIS] commence à envoyer deux en-têtes de signature (l'un utilisant l'ancienne clé, l'autre utilisant la nouvelle clé).
+1. Une fois que vous avez commencé à recevoir les deux en-têtes, vous pouvez ignorer l'ancienne clé et seulement la nouvelle signature.
 1. The old key is removed from [!DNL Audience Manager] and [!UICONTROL IRIS] only sends the new signature header. Les clés ont été pivotées.
 
 ## Data used for signing {#data-signing}
