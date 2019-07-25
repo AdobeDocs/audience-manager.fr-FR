@@ -17,7 +17,7 @@ With [!UICONTROL Profile Merge Rules] you get control over the data sets used fo
 
 ## Data collection and targeting with anonymous and authenticated profiles {#data-collection-targeting}
 
-En règle générale, la segmentation et le ciblage de l&#39;audience reposent sur les données collectées auprès de tous les utilisateurs d&#39;un périphérique. La collecte et le ciblage de données basés sur les données au niveau du périphérique ont certains inconvénients. Par exemple, vous ne pouvez pas faire la distinction entre plusieurs utilisateurs qui partagent un périphérique ou ciblent précisément les utilisateurs sur plusieurs périphériques. La collecte de données centrées sur le périphérique ne suffit plus pour les campagnes de marketing numérique ou le ciblage inter-périphériques.
+En règle générale, la segmentation et le ciblage de l'audience reposent sur les données collectées auprès de tous les utilisateurs d'un périphérique. La collecte et le ciblage de données basés sur les données au niveau du périphérique ont certains inconvénients. Par exemple, vous ne pouvez pas faire la distinction entre plusieurs utilisateurs qui partagent un périphérique ou ciblent précisément les utilisateurs sur plusieurs périphériques. La collecte de données centrées sur le périphérique ne suffit plus pour les campagnes de marketing numérique ou le ciblage inter-périphériques.
 
 ![](assets/unauthenticated2.png)
 
@@ -71,8 +71,8 @@ See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for mor
 * [Prise en main des règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rules-start.md)
 * [Tableau de bord des règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
 * [Options de règle de fusion de profils définies](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [Cas d&#39;utilisation général pour les règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [Cas d&#39;utilisation du graphique de périphérique de lien de profil](/help/using/features/profile-merge-rules/profile-link-use-case.md)
+* [Cas d'utilisation général pour les règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
+* [Cas d'utilisation du graphique de périphérique de lien de profil](/help/using/features/profile-merge-rules/profile-link-use-case.md)
 * [Cas d’utilisation graphiques des périphériques externes](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
 * [Mesures des rapports pour les règles de fusion de profils](/help/using/features/profile-merge-rules/profile-link-metrics.md)
 * [Processus de fusion des profils et processus de déssegmentation des périphériques](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
