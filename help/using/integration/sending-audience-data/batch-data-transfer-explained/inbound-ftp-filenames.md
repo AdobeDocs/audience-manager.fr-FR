@@ -13,11 +13,11 @@ source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
 
 # FTP Name and File Size Requirements for Inbound Data Files{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Décrit les champs obligatoires, la syntaxe, les conventions d&#39;affectation de nom et les tailles de fichier à suivre lors de l&#39;envoi de données à Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.
+Décrit les champs obligatoires, la syntaxe, les conventions d'affectation de nom et les tailles de fichier à suivre lors de l'envoi de données à Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager [!DNL FTP] directory.
 
 >[!WARNING]
 >
->Le transfert FTP pour les fichiers de données entrants n&#39;est plus pris en charge. Utilisez Amazon S 3 pour accéder aux données hors ligne. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+>Le transfert FTP pour les fichiers de données entrants n'est plus pris en charge. Utilisez Amazon S 3 pour accéder aux données hors ligne. See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Les exemples suivants montrent les noms de fichier correctement formatés. Vos n
  <li> <code> ftp_ dpm_ 478_ 1366545717. overwrite</code> </li> 
 </ul>
 
-[Téléchargez](assets/ftp_dpm_1234_1445374061.overwrite) le fichier d&#39;exemple si vous avez besoin d&#39;exemples supplémentaires. This file is saved with the `.overwrite` file extension. Ouvrez-le avec un éditeur de texte simple.
+[Téléchargez](assets/ftp_dpm_1234_1445374061.overwrite) le fichier d'exemple si vous avez besoin d'exemples supplémentaires. This file is saved with the `.overwrite` file extension. Ouvrez-le avec un éditeur de texte simple.
 
 ## Accepted File Sizes {#accepted-file-sizes}
 
