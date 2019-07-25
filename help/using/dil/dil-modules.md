@@ -149,10 +149,10 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] n&#39;a aucune information sur la bibliothèque de code de Google `analytics.js` ni ne le contrôle. You should verify that [!UICONTROL DIL] data collection is still working if or when Google releases new versions of `analytics.js`.
+>* [!DNL Audience Manager] n'a aucune information sur la bibliothèque de code de Google `analytics.js` ni ne le contrôle. You should verify that [!UICONTROL DIL] data collection is still working if or when Google releases new versions of `analytics.js`.
    >
    >
-* You cannot use `GA.submitUniversalAnalytics();` if you&#39;re still working with Google&#39;s legacy analytics tracking code (e.g., `ga.js` or `dc.js`). See [GA.init](../dil/dil-modules.md#ga-init) instead.
+* You cannot use `GA.submitUniversalAnalytics();` if you're still working with Google's legacy analytics tracking code (e.g., `ga.js` or `dc.js`). See [GA.init](../dil/dil-modules.md#ga-init) instead.
 >
 
 
@@ -202,12 +202,12 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Référence des méthodes de l&#39;objet ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
+>* [Référence des méthodes de l'objet ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
 
 ## GA.init {#ga-init}
 
-`GA.init()` La fonction envoie les données de la version héritée/obsolète [!DNL Google Analytics] d&#39;Audience Manager.
+`GA.init()` La fonction envoie les données de la version héritée/obsolète [!DNL Google Analytics] d'Audience Manager.
 
 <!-- 
 
@@ -217,7 +217,7 @@ r_dil_ga_init.xml
 
 >[!IMPORTANT]
 >
->`GA.init()` fonctionne uniquement avec le code de suivi d&#39;analyse hérité de Google ou `ga.js``dc.js`. You cannot invoke this [!UICONTROL DIL] function if you use `analytics.js`, which is the latest code library for Google [!DNL Universal Analytics]. [!DNL Audience Manager] les clients qui utilisent [!UICONTROL DIL] et [!DNL Universal Analytics] doivent voir [GA. submituniversalanalytics](../dil/dil-modules.md#ga-submit-universal-analytics).
+>`GA.init()` fonctionne uniquement avec le code de suivi d'analyse hérité de Google ou `ga.js``dc.js`. You cannot invoke this [!UICONTROL DIL] function if you use `analytics.js`, which is the latest code library for Google [!DNL Universal Analytics]. [!DNL Audience Manager] les clients qui utilisent [!UICONTROL DIL] et [!DNL Universal Analytics] doivent voir [GA. submituniversalanalytics](../dil/dil-modules.md#ga-submit-universal-analytics).
 
 **Signature de fonction :**`DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
 
@@ -226,7 +226,7 @@ r_dil_ga_init.xml
 | Nom | Type | Description |
 |---|---|---|
 | `_gaq` | Tableau | Tableau contenant les commandes GA. |
-| `dilInstance` | Objet | Objet contenant l&#39;instance DIL. |
+| `dilInstance` | Objet | Objet contenant l'instance DIL. |
 | `trackVars` | Objet | *(Facultatif)* Objet comprenant `names` la propriété. Cette propriété est un tableau de noms de commande GA dont vous souhaitez effectuer le suivi. |
 
 **Appels de fonction GA pris en charge**
@@ -241,7 +241,7 @@ By default, `GA.init` captures data from the following functions:
 
 **DIL crée des clés pour les données GA**
 
-Audience Manager accepte les données sous la forme de paires clé-valeur tandis que GA fonctionne avec les éléments d&#39;un tableau. To work with GA data, [!UICONTROL DIL] creates a key-value pair automatically and forms a key like this: `c_ <key name>`. En outre, les éléments des tableaux GA s&#39;affichent dans un ordre spécifique. Par conséquent, vous devez fournir tous les paramètres dans cet ordre, même s&#39;ils ne contiennent aucune donnée. [!UICONTROL DIL] mappe clés pour les méthodes GA suivantes :
+Audience Manager accepte les données sous la forme de paires clé-valeur tandis que GA fonctionne avec les éléments d'un tableau. To work with GA data, [!UICONTROL DIL] creates a key-value pair automatically and forms a key like this: `c_ <key name>`. En outre, les éléments des tableaux GA s'affichent dans un ordre spécifique. Par conséquent, vous devez fournir tous les paramètres dans cet ordre, même s'ils ne contiennent aucune donnée. [!UICONTROL DIL] mappe clés pour les méthodes GA suivantes :
 
 ```js
 // Tracking Social Interactions 
@@ -306,9 +306,9 @@ To track all the monitored GA metrics without the additional function shown abov
 
 `DIL.modules.GA.init(_gaq, dilInstance).submit();`
 
-**Exemple d&#39;appel d&#39;événement**
+**Exemple d'appel d'événement**
 
-L&#39;appel d&#39;événement d&#39;URL à Audience Manager peut ressembler à celui-ci :
+L'appel d'événement d'URL à Audience Manager peut ressembler à celui-ci :
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
@@ -316,5 +316,5 @@ L&#39;appel d&#39;événement d&#39;URL à Audience Manager peut ressembler à c
 >
 >* [Code de suivi Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Terminer la mise à niveau Web : ga.js/dc.js à Analytics. js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
->* [Ajout d&#39;Analytics. js à votre site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [Ajout d'Analytics. js à votre site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 
