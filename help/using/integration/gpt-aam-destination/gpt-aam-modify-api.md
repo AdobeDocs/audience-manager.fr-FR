@@ -17,11 +17,11 @@ Add an if statement to check for Audience Manager cookies before calling the [!D
 
 ## Check for Audience Manager Cookies With an `IF` Statement
 
-The `.setTargeting` method gets data from the Audience Manager destination cookie and the unique user ID cookie ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they&#39;re not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
+The `.setTargeting` method gets data from the Audience Manager destination cookie and the unique user ID cookie ( `aam_uuid`). However, if `.setTargeting` gets invoked before [!UICONTROL DIL] writes these cookies, or the cookies are empty, you may see errors when the page loads. To help avoid this, wrap the `.setTargeting` method in an `if` statement that checks for these cookies. If they're not set, this statement prevents `.setTargeting` from calling the `AamGpt` function.
 
 ### `IF` Exemple de code de relevé
 
-In this example, the Audience Manager destination cookie name is `Sample`. Vous définissez ce nom lorsque vous créez le cookie de destination dans l&#39;interface utilisateur d&#39;Audience Manager. [!UICONTROL DIL] définit `aam_uuid` le cookie et le nom ne peut pas être modifié.
+In this example, the Audience Manager destination cookie name is `Sample`. Vous définissez ce nom lorsque vous créez le cookie de destination dans l'interface utilisateur d'Audience Manager. [!UICONTROL DIL] définit `aam_uuid` le cookie et le nom ne peut pas être modifié.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -37,7 +37,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >Depending on how you want to integrate with [!DNL DFP], you only need some of the lines in the code sample above:
 >
 >* Intégration côté client : utilisez les lignes 1-3 uniquement.
->* Intégration côté serveur : aucune des lignes n&#39;est nécessaire.
+>* Intégration côté serveur : aucune des lignes n'est nécessaire.
 >* Ingest [!DNL DFP] log files for reporting in [!DNL Audience Manager]: use lines 4-6 only. This code inserts the value of the `aam_uuid` cookie into the logs so they can be ingested for reporting.
 
 
@@ -74,6 +74,6 @@ Defines the key variables used in the `if` statement.
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Création d&#39;une destination GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+>* [Création d'une destination GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Code Audience Manager pour les balises Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
