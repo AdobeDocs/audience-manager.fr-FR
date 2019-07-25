@@ -67,7 +67,7 @@ This rule establishes trait qualification requirements using [!DNL Boolean] [!UI
 
 ## Exemple de plage avec plus grand que, inférieur à, égal à
 
-Cette règle définit les exigences de qualification des caractéristiques à l&#39;aide d&#39;une plage.
+Cette règle définit les exigences de qualification des caractéristiques à l'aide d'une plage.
 
 <table id="table_988DE28E35D94348ADD334FB4C9F68D3"> 
  <thead> 
