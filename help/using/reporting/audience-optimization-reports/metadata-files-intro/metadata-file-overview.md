@@ -13,27 +13,27 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Overview and Mappings for Metadata Files{#overview-and-mappings-for-metadata-files}
 
-Un fichier de métadonnées associe des ID numériques aux noms que vous pouvez lire et comprendre. Les rapports Optimisation d&#39;audience affichent des noms lisibles dans les menus des options de rapport.
+Un fichier de métadonnées associe des ID numériques aux noms que vous pouvez lire et comprendre. Les rapports Optimisation d'audience affichent des noms lisibles dans les menus des options de rapport.
 
 ## Aperçu {#overview}
 
-Une analyse des métadonnées et de leur utilisation. Un fichier de métadonnées doit être accompagné d&#39;un fichier de données. Le contenu du fichier de métadonnées correspond aux informations sur le fichier de données aux libellés humainement lisibles dans les menus des rapports. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+Une analyse des métadonnées et de leur utilisation. Un fichier de métadonnées doit être accompagné d'un fichier de données. Le contenu du fichier de métadonnées correspond aux informations sur le fichier de données aux libellés humainement lisibles dans les menus des rapports. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
-### Les fichiers de métadonnées contiennent des données sur d&#39;autres données
+### Les fichiers de métadonnées contiennent des données sur d'autres données
 
-Un fichier de métadonnées contient des informations sur d&#39;autres types de données. To help you understand how this works, let’s review how [!DNL Audience Manager] receives data.
+Un fichier de métadonnées contient des informations sur d'autres types de données. To help you understand how this works, let’s review how [!DNL Audience Manager] receives data.
 
 During an impression or click event, [!DNL Audience Manager] receives data in an URL string known as an *event call*.
 
-L&#39;appel d&#39;événement organise les informations dans des ensembles de paires clé-valeur définies. Les valeurs d&#39;une paire clé-valeur contiennent des données numériques. Le fichier de métadonnées contient des noms et d&#39;autres informations lisibles correspondant à l&#39;ID dans chaque paire clé-valeur.
+L'appel d'événement organise les informations dans des ensembles de paires clé-valeur définies. Les valeurs d'une paire clé-valeur contiennent des données numériques. Le fichier de métadonnées contient des noms et d'autres informations lisibles correspondant à l'ID dans chaque paire clé-valeur.
 
 ### ID de lien de métadonnées en noms lisibles
 
-Le fichier de métadonnées doit lier un ID numérique à un nom lisible. As an example, say an event call contains a creative ID in a key-value pair like this: `d_creative:1234`. Sans fichier de métadonnées, ce créatif s&#39;affichera sous la forme 1234 dans un menu d&#39;options.
+Le fichier de métadonnées doit lier un ID numérique à un nom lisible. As an example, say an event call contains a creative ID in a key-value pair like this: `d_creative:1234`. Sans fichier de métadonnées, ce créatif s'affichera sous la forme 1234 dans un menu d'options.
 
 Cependant, un fichier de métadonnées correctement formaté peut lier ce créatif à un nom réel, tel que « Advertiser Creative A », qui est un nom que vous pouvez lire et reconnaître dans un rapport.
 
-### Quand avez-vous besoin d&#39;un fichier de métadonnées ?
+### Quand avez-vous besoin d'un fichier de métadonnées ?
 
 First, a metadata file, and all of the parameters listed below, are required in an event call when you want to use the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
@@ -47,7 +47,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
 
 >[!IMPORTANT]
 >
->If you&#39;re using the [!UICONTROL Audience Optimization] reports, *all* of these values are required in the event call.
+>If you're using the [!UICONTROL Audience Optimization] reports, *all* of these values are required in the event call.
 
 <table id="table_B2C8C493080E449CA71C4EF07D9476BD"> 
  <thead> 
@@ -102,23 +102,23 @@ The following table lists the key-value pairs that hold data used by the [!UICON
 
 ## How Event Call IDs Shape File Names, Contents, and Delivery Paths {#how-ids-shape-file-names}
 
-Les ID transmis par ces paires clé-valeur permettent de créer le fichier de métadonnées - nom et contenu. Les sections et illustrations suivantes montrent comment cela fonctionne. Ces exemples créent un fichier qui contient le nom d&#39;un élément créatif dans une campagne, mais d&#39;autres combinaisons sont possibles.
+Les ID transmis par ces paires clé-valeur permettent de créer le fichier de métadonnées - nom et contenu. Les sections et illustrations suivantes montrent comment cela fonctionne. Ces exemples créent un fichier qui contient le nom d'un élément créatif dans une campagne, mais d'autres combinaisons sont possibles.
 
-### Appel d&#39;événement
+### Appel d'événement
 
-In this example we&#39;ll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. Pour ce faire, nous devons extraire les ID d&#39;élément créatif, de campagne et de source de données d&#39;un appel d&#39;événement.
+In this example we'll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. Pour ce faire, nous devons extraire les ID d'élément créatif, de campagne et de source de données d'un appel d'événement.
 
 ![](assets/metadata_file_event.png)
 
 ### Nom de fichier
 
-Le fichier - nom est basé sur les identifiants d&#39;élément créatif, de campagne et de source de données. Dans ce cas, comparez les différences ici entre les données clé-valeur d&#39;un appel d&#39;événement et comment elles sont utilisées dans un fichier - name.
+Le fichier - nom est basé sur les identifiants d'élément créatif, de campagne et de source de données. Dans ce cas, comparez les différences ici entre les données clé-valeur d'un appel d'événement et comment elles sont utilisées dans un fichier - name.
 
 Dans un fichier - name :
 
 * The data source key changes to `dpid` from `d_src`.
 
-* Les ID d&#39;élément créatif et de campagne représentent une catégorie plutôt qu&#39;un identifiant réel.
+* Les ID d'élément créatif et de campagne représentent une catégorie plutôt qu'un identifiant réel.
 
 ![](assets/metadata_file_name.png)
 
@@ -126,7 +126,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 ### Contenu du fichier
 
-Dans cet exemple, le contenu du fichier reflète les ID de créatif et de campagne transmis lors de l&#39;appel d&#39;événement. Le nouvel élément ici est un nom lisible. Once processed, the name in this file will appear as an option in the Creative menu of an [!UICONTROL Audience Optimization] report.
+Dans cet exemple, le contenu du fichier reflète les ID de créatif et de campagne transmis lors de l'appel d'événement. Le nouvel élément ici est un nom lisible. Once processed, the name in this file will appear as an option in the Creative menu of an [!UICONTROL Audience Optimization] report.
 
 ![](assets/metadata_file_contents.png)
 
@@ -138,7 +138,7 @@ After you name and add data to a file, you send it to an Amazon S3 storage direc
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Fichiers de données pour les rapports Optimisation d&#39;audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Fichiers de données pour les rapports Optimisation d'audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Capture des données de clic de campagne par appels de pixels](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Capture des données d’impression de campagne via des appels de pixel](../../../integration/media-data-integration/impression-data-pixels.md)
 
