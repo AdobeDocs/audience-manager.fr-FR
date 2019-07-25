@@ -13,7 +13,7 @@ source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
 
 # Rapport de chevauchement de caractéristiques{#trait-to-trait-overlap-report}
 
-Renvoie des données sur le nombre d&#39;utilisateurs uniques partagés parmi toutes vos première et tierce caractéristiques.
+Renvoie des données sur le nombre d'utilisateurs uniques partagés parmi toutes vos première et tierce caractéristiques.
 
 >[!NOTE]
 >
@@ -27,10 +27,10 @@ c_overlap_reports.xml
 
 ## Aperçu
 
-[!UICONTROL Trait-to-Trait Overlap] Le rapport renvoie des données sur le pourcentage d&#39;utilisateurs uniques partagés entre toutes vos propres caractéristiques et vos caractéristiques tierces. En tant qu&#39;outil d&#39;optimisation, ce rapport vous aide à :
+[!UICONTROL Trait-to-Trait Overlap] Le rapport renvoie des données sur le pourcentage d'utilisateurs uniques partagés entre toutes vos propres caractéristiques et vos caractéristiques tierces. En tant qu'outil d'optimisation, ce rapport vous aide à :
 
-* Créez des segments avec un chevauchement élevé ou élevé, en fonction de vos besoins. Les caractéristiques présentant un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un chevauchement faible peuvent s&#39;avérer utiles pour atteindre un jeu de visiteurs unique plus large.
-* Validation des données de caractéristiques tierces : Un chevauchement fort entre des caractéristiques tierces similaires et des caractéristiques tierces suggère que la caractéristique de votre partenaire de données est précise et fiable. Inversement, un chevauchement faible peut indiquer qu&#39;une caractéristique tierce peut ne pas contenir les mêmes informations que votre propre caractéristique de propriétaire similaire.
+* Créez des segments avec un chevauchement élevé ou élevé, en fonction de vos besoins. Les caractéristiques présentant un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un chevauchement faible peuvent s'avérer utiles pour atteindre un jeu de visiteurs unique plus large.
+* Validation des données de caractéristiques tierces : Un chevauchement fort entre des caractéristiques tierces similaires et des caractéristiques tierces suggère que la caractéristique de votre partenaire de données est précise et fiable. Inversement, un chevauchement faible peut indiquer qu'une caractéristique tierce peut ne pas contenir les mêmes informations que votre propre caractéristique de propriétaire similaire.
 * Recherchez un chevauchement inattendu entre les caractéristiques et utilisez ces informations pour créer des segments innovants.
 
 ## Exemple de rapport
@@ -108,5 +108,5 @@ The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metric
 >* [Formes, couleurs et tailles utilisées dans les rapports dynamiques](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Icônes de rapport et outils expliqués](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapports de chevauchement : Mettre à jour la planification et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Taux d&#39;échantillonnage des données et taux d&#39;erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
+>* [Taux d'échantillonnage des données et taux d'erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
