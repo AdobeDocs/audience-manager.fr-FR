@@ -13,7 +13,7 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
 
 # Fichiers CSV pour les rapports de chevauchement{#csv-files-for-overlap-reports}
 
-Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque le rapport en question atteint sa limite de 1-million de dossiers. Un rapport a peut-être atteint cette limite lorsque le message « Erreur inattendue » s&#39;est produit. Contactez le service d&#39;assistance clientèle pour demander un fichier. csv compressé que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
+Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque le rapport en question atteint sa limite de 1-million de dossiers. Un rapport a peut-être atteint cette limite lorsque le message « Erreur inattendue » s'est produit. Contactez le service d'assistance clientèle pour demander un fichier. csv compressé que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
 
 ## File Name Metadata {#file-name-metadata}
 
@@ -70,7 +70,7 @@ Le tableau suivant répertorie et décrit les conventions de dénomination des f
 
 ## File Contents {#file-contents}
 
-Dans le fichier, les données de chaîne sont entourées de guillemets doubles. Voir les données mock ci-dessous. Elle a été tronquée pour être abrégée et ajustée à l&#39;écran.
+Dans le fichier, les données de chaîne sont entourées de guillemets doubles. Voir les données mock ci-dessous. Elle a été tronquée pour être abrégée et ajustée à l'écran.
 
 ```js
 //File header
