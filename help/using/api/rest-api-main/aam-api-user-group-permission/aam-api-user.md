@@ -19,7 +19,7 @@ Rest [!DNL API] methods to manage users, including creating, updating, listing, 
 
 ## Create a User {#create-user}
 
-`POST` Méthode de création d&#39;un utilisateur.
+`POST` Méthode de création d'un utilisateur.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -68,7 +68,7 @@ Returns `409 Conflict` if the username is already taken.
 
 ## Update a User {#update-user}
 
-`PUT` Méthode de mise à jour d&#39;un utilisateur.
+`PUT` Méthode de mise à jour d'un utilisateur.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -111,7 +111,7 @@ Returns `409 Conflict` if the username is already taken.
 
 ## Update Logged-In User {#update-logged-in-user}
 
-`PUT` Méthode de mise à jour de l&#39;utilisateur actuellement connecté.
+`PUT` Méthode de mise à jour de l'utilisateur actuellement connecté.
 
 <!-- r_rest_api_user_update_self.xml -->
 
@@ -154,7 +154,7 @@ Returns `409 Conflict` if the username is already taken.
 
 ## Update Logged-In User Password {#update-logged-in-user-pw}
 
-`PUT` Méthode de mise à jour de l&#39;utilisateur actuellement connecté.
+`PUT` Méthode de mise à jour de l'utilisateur actuellement connecté.
 
 <!-- r_rest_api_user_password.xml -->
 
@@ -176,7 +176,7 @@ Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong 
 
 ## Reset Logged-In User Password {#reset-logged-in-user-pw}
 
-`PUT` Méthode permettant de réinitialiser l&#39;utilisateur actuellement connecté. [!UICONTROL Audience Management] lui envoie un mot de passe généré par le système.
+`PUT` Méthode permettant de réinitialiser l'utilisateur actuellement connecté. [!UICONTROL Audience Management] lui envoie un mot de passe généré par le système.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
@@ -192,7 +192,7 @@ Returns `200 OK` if successful.
 
 ## Return User Object for a User ID {#return-user-object-for-id}
 
-`Get` Méthode permettant de renvoyer l&#39;objet utilisateur pour un utilisateur - id.
+`Get` Méthode permettant de renvoyer l'objet utilisateur pour un utilisateur - id.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -220,7 +220,7 @@ Returns `200 OK` if successful.
 
 ## Return User Object for Logged-In User {#return-user-object-for-logged-in-user}
 
-`Get` Méthode permettant de renvoyer l&#39;objet utilisateur pour l&#39;utilisateur actuellement connecté.
+`Get` Méthode permettant de renvoyer l'objet utilisateur pour l'utilisateur actuellement connecté.
 
 <!-- r_rest_api_user_get_self.xml -->
 
@@ -286,7 +286,7 @@ Cette requête renvoie la liste de tous les utilisateurs des groupes spécifiés
 
 ## Delete a User {#delete-users}
 
-`DELETE` Méthode de suppression d&#39;un utilisateur.
+`DELETE` Méthode de suppression d'un utilisateur.
 
 <!-- r_rest_api_user_delete.xml -->
 
