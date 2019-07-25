@@ -12,7 +12,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 # Référence
 
-Cette section contient une documentation technique sur la fonctionnalité du système, l&#39;intégration des données et les fichiers d&#39;aide. Voici quelques-unes des pages de cette section :
+Cette section contient une documentation technique sur la fonctionnalité du système, l'intégration des données et les fichiers d'aide. Voici quelques-unes des pages de cette section :
 
 * [Outils de gestion en bloc](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [Composants système](/help/using/reference/system-components/components-overview.md)
