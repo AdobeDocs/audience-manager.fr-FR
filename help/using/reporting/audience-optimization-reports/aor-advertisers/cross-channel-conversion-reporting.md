@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Conversion inter-canaux{#cross-channel-conversion}
 
-L&#39;option Cross Channel Conversion (Conversion multicanaux) des rapports Optimisation d&#39;audience vous permet d&#39;attribuer des conversions hors ligne aux impressions ou aux clics en ligne diffusés.
+L'option Cross Channel Conversion (Conversion multicanaux) des rapports Optimisation d'audience vous permet d'attribuer des conversions hors ligne aux impressions ou aux clics en ligne diffusés.
 
 [!UICONTROL Cross Channel Conversion] Les rapports combinent les résultats de la plateforme [!DNL DoubleClick Campaign Manager] (DCM) avec des caractéristiques [!DNL Audience Manager] de conversion. Vous pouvez ainsi lier les conversions hors ligne aux impressions ou aux clics en ligne.
 
