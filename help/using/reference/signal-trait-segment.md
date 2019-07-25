@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Signals, Traits, and Segments{#signals-traits-and-segments}
 
-Décrit les composants d&#39;un segment Audience Manager, les expressions utilisées pour définir les critères de qualification d&#39;audience et la manière dont les données sont transmises dans un appel d&#39;événement.
+Décrit les composants d'un segment Audience Manager, les expressions utilisées pour définir les critères de qualification d'audience et la manière dont les données sont transmises dans un appel d'événement.
 
 <!-- 
 
@@ -67,11 +67,11 @@ Utilisez le diagramme ci-dessous pour garder une note mentale de la relation ent
 
 **Création de caractéristiques et de règles de segmentation avec outils visuels et Editeurs de code**
 
-Clients manage traits and segments with visual tools and code editors in the [!DNL Audience Manager] user interface. Les outils visuels vous permettent de créer des règles à l&#39;aide de fonctionnalités de recherche, d&#39;options contextuelles, de menus déroulants et de fonctionnalités de glisser-déposer. Les éditeurs de code offrent aux utilisateurs avancés un moyen de développer par programmation des critères de segmentation d&#39;audience.
+Clients manage traits and segments with visual tools and code editors in the [!DNL Audience Manager] user interface. Les outils visuels vous permettent de créer des règles à l'aide de fonctionnalités de recherche, d'options contextuelles, de menus déroulants et de fonctionnalités de glisser-déposer. Les éditeurs de code offrent aux utilisateurs avancés un moyen de développer par programmation des critères de segmentation d'audience.
 
-**Appels d&#39;événement Envoyer des données à Audience Manager**
+**Appels d'événement Envoyer des données à Audience Manager**
 
-An event call sends data from your website to [!DNL Audience Manager]. L&#39;appel contient les données de signal, de caractéristique et de segment dans une requête HTTP. The event itself is everything after the `/event` part of a URL string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager].
+An event call sends data from your website to [!DNL Audience Manager]. L'appel contient les données de signal, de caractéristique et de segment dans une requête HTTP. The event itself is everything after the `/event` part of a URL string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager].
 
 ```
 https://<domain>/event?product=camera&price>100
