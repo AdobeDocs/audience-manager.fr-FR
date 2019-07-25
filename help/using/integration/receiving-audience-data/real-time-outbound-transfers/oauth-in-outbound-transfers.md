@@ -13,15 +13,15 @@ source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
 # [!DNL OAuth 2.0] Intégration pour Real - Temps de transfert sortant{#oauth-integration-for-real-time-outbound-transfers}
 
-When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using [!DNL OAuth 2.0] when making the requests. Ceci permet de délivrer des requêtes authentifiées d&#39;Audience Manager vers votre endpoint de fin.
+When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using [!DNL OAuth 2.0] when making the requests. Ceci permet de délivrer des requêtes authentifiées d'Audience Manager vers votre endpoint de fin.
 
 ## Authentication Flow {#auth-flow}
 
 The [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) authentication implementation is based on the Client Credentials grant flow and follows these steps:
 
 1. Vous devez nous fournir les éléments suivants :
-   * [!DNL OAuth 2.0] Point de terminaison qui génère le jeton d&#39;authentification.
-   * Informations d&#39;identification utilisées pour générer un jeton.
+   * [!DNL OAuth 2.0] Point de terminaison qui génère le jeton d'authentification.
+   * Informations d'identification utilisées pour générer un jeton.
 1. An [!DNL Audience Manager] consultant sets up the [destination](../../../features/destinations/destinations.md) using the information you provided.
 1. Once a segment is mapped to this destination, our real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), makes a `POST` request to the token endpoint to exchange the credentials for a bearer token.
 1. For each segment publishing request to the partner endpoint, [!UICONTROL IRIS] uses the bearer token to authenticate.
@@ -34,7 +34,7 @@ As an [!DNL Audience Manager] partner, the following endpoints are needed to rec
 
 ### Point de terminaison 1 utilisé par IRIS pour obtenir un jeton de porteur
 
-Ce point de fin accepte les informations d&#39;identification fournies à l&#39;étape 1 et génère un jeton porteur qui sera utilisé lors des demandes suivantes.
+Ce point de fin accepte les informations d'identification fournies à l'étape 1 et génère un jeton porteur qui sera utilisé lors des demandes suivantes.
 
 * The endpoint must accept `HTTP POST` requests.
 * The endpoint must accept and look at the [!DNL Authorization] header. The value for this header will be: `Basic <credentials_provided_by_partner>`.
@@ -68,7 +68,7 @@ Content-Length: 121
 {"token_type":"Bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
 ```
 
-### Point de terminaison 2 utilisé par IRIS pour publier des segments à l&#39;aide du jeton porteur
+### Point de terminaison 2 utilisé par IRIS pour publier des segments à l'aide du jeton porteur
 
 [!DNL Audience Manager] envoie des données à ce point de fin en temps quasi réel, car les utilisateurs remplissent les critères des segments. De plus, cette méthode peut envoyer des lots de données hors ligne ou intégrées aussi fréquemment que toutes les 24 heures.
 
@@ -115,4 +115,4 @@ The credentials presented by the partner and the tokens obtained by [!DNL Audien
 
 ### [!DNL SSL] est requis
 
-[!DNL SSL] doit être utilisé pour assurer un processus d&#39;authentification sécurisé. All requests, including the ones used to obtain and use the tokens must use `HTTPS` endpoints.
+[!DNL SSL] doit être utilisé pour assurer un processus d'authentification sécurisé. All requests, including the ones used to obtain and use the tokens must use `HTTPS` endpoints.
