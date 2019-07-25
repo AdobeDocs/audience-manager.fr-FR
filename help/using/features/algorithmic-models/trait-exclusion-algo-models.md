@@ -12,19 +12,19 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 # Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] fournit des contrôles supplémentaires dans votre flux de modélisation, ce qui vous permet d&#39;ajouter les rails de garde nécessaires au modèle, en fonction de l&#39;expertise de votre domaine et des exigences réglementaires. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
+[!UICONTROL Trait Exclusion] fournit des contrôles supplémentaires dans votre flux de modélisation, ce qui vous permet d'ajouter les rails de garde nécessaires au modèle, en fonction de l'expertise de votre domaine et des exigences réglementaires. Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
 
 ## Cas d’utilisation {#use-cases}
 
 Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
-* [!UICONTROL Trait Exclusion] vous permet d&#39;exclure certaines caractéristiques fourre-toutes, telles que les caractéristiques du visiteur du site, de sorte que vous ne démentiez pas le modèle, ce qui entraîne des résultats plats.
+* [!UICONTROL Trait Exclusion] vous permet d'exclure certaines caractéristiques fourre-toutes, telles que les caractéristiques du visiteur du site, de sorte que vous ne démentiez pas le modèle, ce qui entraîne des résultats plats.
 * Vous pouvez supprimer des caractéristiques que vous ne connaissez pas ou que vous ne faites pas confiance à une source de données pour mieux comprendre les caractéristiques influentes.
 * Vous pouvez exclure certaines caractéristiques, telles que des caractéristiques démographiques, pour faciliter les obligations de conformité éventuelles.
 
 >[!IMPORTANT]
 >
->Remarque importante au troisième cas d&#39;utilisation. If the third-party data provider adds a new demographic trait to the data feed *after you created the model*, the trait is automatically picked up by the model. Vous ne pouvez pas exclure les caractéristiques de la modélisation après la création du modèle. See [Important Aspects &amp; Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Soyez prudent lorsque vous utilisez cette fonctionnalité et travaillez avec le fournisseur de données pour vous assurer de toute modification apportée à la structure du flux.
+>Remarque importante au troisième cas d'utilisation. If the third-party data provider adds a new demographic trait to the data feed *after you created the model*, the trait is automatically picked up by the model. Vous ne pouvez pas exclure les caractéristiques de la modélisation après la création du modèle. See [Important Aspects &amp; Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Soyez prudent lorsque vous utilisez cette fonctionnalité et travaillez avec le fournisseur de données pour vous assurer de toute modification apportée à la structure du flux.
 
 ![](assets/lam_exclude_traits.png)
 
@@ -32,7 +32,7 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 
 Use the [Build a model](../../features/algorithmic-models/create-model.md#build-model) workflow to build new algorithmic models.
 
-1. [!UICONTROL Exclusions] La sélection est grisée jusqu&#39;à ce que vous sélectionniez une ou plusieurs sources de données pour la modélisation.
+1. [!UICONTROL Exclusions] La sélection est grisée jusqu'à ce que vous sélectionniez une ou plusieurs sources de données pour la modélisation.
 2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
 3. In the **[!UICONTROL Select Traits to Exclude]** window, you can see all traits associated with the data sources you selected previously. Sélectionnez les caractéristiques à exclure.
 4. Vous pouvez filtrer les caractéristiques par type de caractéristique ou parcourir les dossiers de caractéristiques. Notez que les dossiers de caractéristiques affichent uniquement les caractéristiques associées aux sources de données sélectionnées.
@@ -40,9 +40,9 @@ Use the [Build a model](../../features/algorithmic-models/create-model.md#build-
 
 >[!TIP]
 >
->Vous pouvez exclure des dossiers entiers en excluant la caractéristique du dossier au lieu d&#39;exclure les caractéristiques du dossier, un par un. Par exemple, dans un dossier comportant 20 caractéristiques, vous devez uniquement exclure la caractéristique du dossier plutôt que d&#39;exclure toutes les caractéristiques un par un.
+>Vous pouvez exclure des dossiers entiers en excluant la caractéristique du dossier au lieu d'exclure les caractéristiques du dossier, un par un. Par exemple, dans un dossier comportant 20 caractéristiques, vous devez uniquement exclure la caractéristique du dossier plutôt que d'exclure toutes les caractéristiques un par un.
 
-Si vous préférez des didacticiels vidéo, regardez notre démonstration vidéo relative à l&#39;exclusion de caractéristiques :
+Si vous préférez des didacticiels vidéo, regardez notre démonstration vidéo relative à l'exclusion de caractéristiques :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=fre_fr)
 
