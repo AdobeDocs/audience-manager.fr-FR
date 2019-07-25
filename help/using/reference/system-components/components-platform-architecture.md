@@ -23,7 +23,7 @@ c_compmap.xml
 
  -->
 
-In the map, the gray box contains [!DNL Audience Manager] systems. Some components are completely internal and others sit on the boundary between [!DNL Audience Manager] and the outside world. As an [!DNL Audience Manager] customer, internal components are often transparent or inaccessible. Cependant, vous pouvez parfois interagir avec ces systèmes par le biais de l&#39;interface utilisateur ou des intégrations de données. Systems on the edge of the box collect and send data between [!DNL Audience Manager] and the outside world.
+In the map, the gray box contains [!DNL Audience Manager] systems. Some components are completely internal and others sit on the boundary between [!DNL Audience Manager] and the outside world. As an [!DNL Audience Manager] customer, internal components are often transparent or inaccessible. Cependant, vous pouvez parfois interagir avec ces systèmes par le biais de l'interface utilisateur ou des intégrations de données. Systems on the edge of the box collect and send data between [!DNL Audience Manager] and the outside world.
 
 Colors define the type of data that flows in and out of [!DNL Audience Manager]. Vert est des données client, bleu est des données client (visiteurs qui visitent votre site) et orange est des données utilisées pour la création de rapports.
 
