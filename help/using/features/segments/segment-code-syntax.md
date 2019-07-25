@@ -13,11 +13,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristique pour un segment à l&#39;aide d&#39;un éditeur de code. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
+[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristique pour un segment à l'aide d'un éditeur de code. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
 
-## Syntaxe du code du créateur d&#39;expressions
+## Syntaxe du code du créateur d'expressions
 
-Vous pouvez ajouter des règles de caractéristique à un segment avec du code plutôt que d&#39;utiliser des fonctions glisser-déposer. Lors du codage, remplacez les éléments en italique dans l&#39;exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
+Vous pouvez ajouter des règles de caractéristique à un segment avec du code plutôt que d'utiliser des fonctions glisser-déposer. Lors du codage, remplacez les éléments en italique dans l'exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
 
 ```
 FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
@@ -40,14 +40,14 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 
 | Nom ou variable | Description |
 |---|---|
-| `FREQUENCY` | Littéral devant précéder l&#39;expression. |
+| `FREQUENCY` | Littéral devant précéder l'expression. |
 | ` [`&lt;`traitID`&gt;`T]` | An array of trait IDs followed by the letter `T`. Séparez plusieurs caractéristiques par une virgule. For example, `[123T, 456T]`. |
 | ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit les règles de récence sur les caractéristiques du segment. The letter `D` indicates recency in days. |
 | ` <Frequency Operator><Numeric Value>` | Définit les règles de fréquence sur les caractéristiques du segment. |
 
 ### Opérateurs de récence et de fréquence autorisés
 
-Set [recency and frequency](../../features/segments/recency-and-frequency.md) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] utilise des expressions standard telles que &lt; (moins que), &gt; (supérieur à), = = (égal), etc. Toutefois, les types d&#39;opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
+Set [recency and frequency](../../features/segments/recency-and-frequency.md) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] utilise des expressions standard telles que &lt; (moins que), &gt; (supérieur à), = = (égal), etc. Toutefois, les types d'opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
