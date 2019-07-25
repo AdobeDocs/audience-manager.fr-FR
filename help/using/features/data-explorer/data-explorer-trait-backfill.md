@@ -14,7 +14,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Realizations de caractéristiques de renvoi pour capturer les audiences historiques et éviter la perte de données pertinentes avant une date de création de caractéristique.
 
-[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité supérieure qui améliore l&#39;expérience Audience Manager en déverrouillant des cas d&#39;utilisation supplémentaires. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients Audience Manager à un coût incrémentiel. Pour plus d&#39;informations, contactez votre représentant commercial Adobe.
+[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité supérieure qui améliore l'expérience Audience Manager en déverrouillant des cas d'utilisation supplémentaires. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients Audience Manager à un coût incrémentiel. Pour plus d'informations, contactez votre représentant commercial Adobe.
 
 Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous pouvez renvoyer les realizations de caractéristiques sur une période spécifique. [!DNL Audience Manager] capture les données historiques sur les audiences qui remplissent les critères de la nouvelle caractéristique et les stocke sur le profil correspondant. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md)**.
 
@@ -32,7 +32,7 @@ Voici comment renvoyer les realizations de caractéristiques :
    ![](assets/estimate-trait-realizations.png)
    >[!IMPORTANT]
    >
-   >Le renvoi et l&#39;estimation des caractéristiques ne sont pas disponibles pour les caractéristiques avec des expressions qui utilisent les opérateurs suivants :
+   >Le renvoi et l'estimation des caractéristiques ne sont pas disponibles pour les caractéristiques avec des expressions qui utilisent les opérateurs suivants :
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
@@ -49,7 +49,7 @@ Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled popula
 
 ## Trait Backfilling Limit {#trait-backfilling-limit}
 
-[!UICONTROL Data Explorer] vous permet de renvoyer jusqu&#39;à 50 caractéristiques par mois, le compteur de renvoi étant réinitialisé le 1 jour de chaque mois.
+[!UICONTROL Data Explorer] vous permet de renvoyer jusqu'à 50 caractéristiques par mois, le compteur de renvoi étant réinitialisé le 1 jour de chaque mois.
 
 >[!NOTE]
 >
