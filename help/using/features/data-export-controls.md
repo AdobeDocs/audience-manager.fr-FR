@@ -13,38 +13,38 @@ source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
 
 # Contrôles des exportations de données {#data-export-controls}
 
-[!UICONTROL Data Export Controls] vous éviter d&#39;envoyer des données aux destinations lorsque cette action enfreint les accords de confidentialité ou d&#39;utilisation des données.
+[!UICONTROL Data Export Controls] vous éviter d'envoyer des données aux destinations lorsque cette action enfreint les accords de confidentialité ou d'utilisation des données.
 
 ## Aperçu {#overview}
 
 [!UICONTROL Data Export Controls] vous permet de classer [les sources de données](../features/datasources-list-and-settings.md#data-sources-list-and-settings) et [les destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent si les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité se compose des éléments suivants :
 
-* **[!UICONTROL Data Export Controls]**: Vous pouvez définir les contrôles d&#39;exportation de données sur *les sources de données*. Lorsqu&#39;elles sont définies sur une source de données, ces commandes limitent la manière dont cette source de données et ses caractéristiques peuvent être utilisées.
-* **[!UICONTROL Data Export Labels]**: Vous pouvez définir les étiquettes d&#39;exportation des données sur *les destinations*. Lorsqu&#39;elles sont définies sur une destination, ces étiquettes identifient la manière dont la destination utilise les données. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
+* **[!UICONTROL Data Export Controls]**: Vous pouvez définir les contrôles d'exportation de données sur *les sources de données*. Lorsqu'elles sont définies sur une source de données, ces commandes limitent la manière dont cette source de données et ses caractéristiques peuvent être utilisées.
+* **[!UICONTROL Data Export Labels]**: Vous pouvez définir les étiquettes d'exportation des données sur *les destinations*. Lorsqu'elles sont définies sur une destination, ces étiquettes identifient la manière dont la destination utilise les données. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
 
-Selon les classifications appliquées à une source de données et à une destination, les commandes d&#39;exportation vous arrêtent de :
+Selon les classifications appliquées à une source de données et à une destination, les commandes d'exportation vous arrêtent de :
 
-* Ajout d&#39;une caractéristique à un segment lorsque la caractéristique appartient à une source de données dont le contrôle d&#39;exportation de données est incompatible avec une étiquette d&#39;exportation de données sur une ou plusieurs destinations auxquelles le segment est associé.
+* Ajout d'une caractéristique à un segment lorsque la caractéristique appartient à une source de données dont le contrôle d'exportation de données est incompatible avec une étiquette d'exportation de données sur une ou plusieurs destinations auxquelles le segment est associé.
 For example, say a segment is mapped to a destination with the export label **[UICONTROL! This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[UICONTROL! Cannot be tied to personally identifiable information (PII)]**.
-* L&#39;envoi d&#39;une donnée à une destination de destination dispose d&#39;un libellé d&#39;exportation de données bloqué par un contrôle d&#39;exportation de données sur les éléments suivants :
-   * Source de données d&#39;une caractéristique incluse ;
-   * Source de données d&#39;une caractéristique utilisée dans un segment inclus ;
+* L'envoi d'une donnée à une destination de destination dispose d'un libellé d'exportation de données bloqué par un contrôle d'exportation de données sur les éléments suivants :
+   * Source de données d'une caractéristique incluse ;
+   * Source de données d'une caractéristique utilisée dans un segment inclus ;
    * Règle de fusion de profil utilisée par un segment inclus ;
-   * Toute source de données utilisée par la règle de fusion de profil d&#39;un segment inclus.
+   * Toute source de données utilisée par la règle de fusion de profil d'un segment inclus.
 
-[!UICONTROL Data Export Controls] sont automatiquement disponibles pour tous les clients Audience Manager. Cependant, vous avez besoin des autorisations d&#39;administrateur pour ajouter des contrôles d&#39;exportation à une source de données. Adding export labels to a destination requires administrator permissions *or* sufficient privileges to create or edit a destination.
+[!UICONTROL Data Export Controls] sont automatiquement disponibles pour tous les clients Audience Manager. Cependant, vous avez besoin des autorisations d'administrateur pour ajouter des contrôles d'exportation à une source de données. Adding export labels to a destination requires administrator permissions *or* sufficient privileges to create or edit a destination.
 
 ## Controls and labels defined {#controls-labels}
 
 [!UICONTROL Data Export Controls] fournissez les commandes suivantes pour vous aider à classifier les sources de données et les destinations.
 
-Pour bloquer la diffusion des données, vous devez classer une source de données avec un contrôle d&#39;exportation et ajouter une étiquette d&#39;exportation à une destination. Si vous appliquez des contrôles d&#39;exportation à une source de données ou à une destination uniquement, cette fonction ne limite pas la remise des données. When set on both the data source *and* destination, the export controls will limit the traits you can add to a segment and prevent sending the segment members to a destination.
+Pour bloquer la diffusion des données, vous devez classer une source de données avec un contrôle d'exportation et ajouter une étiquette d'exportation à une destination. Si vous appliquez des contrôles d'exportation à une source de données ou à une destination uniquement, cette fonction ne limite pas la remise des données. When set on both the data source *and* destination, the export controls will limit the traits you can add to a segment and prevent sending the segment members to a destination.
 
-De plus, au moins une étiquette d&#39;exportation doit correspondre à un contrôle d&#39;exportation avant que les restrictions de remise de données ne soient prises en compte. For example, say you add the [!UICONTROL PII] export control to a data source. Ensuite, vous ajoutez le libellé de ciblage sur site à une destination. Dans ce cas, les commandes d&#39;exportation ne limitent pas la remise des données car les paramètres ne correspondent pas. However, if you add the [!UICONTROL PII] export label to the destination, the export controls will block the export.
+De plus, au moins une étiquette d'exportation doit correspondre à un contrôle d'exportation avant que les restrictions de remise de données ne soient prises en compte. For example, say you add the [!UICONTROL PII] export control to a data source. Ensuite, vous ajoutez le libellé de ciblage sur site à une destination. Dans ce cas, les commandes d'exportation ne limitent pas la remise des données car les paramètres ne correspondent pas. However, if you add the [!UICONTROL PII] export label to the destination, the export controls will block the export.
 
 >[!IMPORTANT]
 >
->[Vous ne pouvez pas bloquer l&#39;exportation d&#39;un segment en plaçant un contrôle d&#39;exportation de données sur la source de données du segment, vous devez définir le contrôle sur l&#39;un des éléments suivants :
+>[Vous ne pouvez pas bloquer l'exportation d'un segment en plaçant un contrôle d'exportation de données sur la source de données du segment, vous devez définir le contrôle sur l'un des éléments suivants :
 > * Sources de données des caractéristiques utilisées dans le segment ;
 > * Règle de fusion de profil utilisée par le segment ;
 > * Toute source de données utilisée par la règle de fusion du profil.
@@ -107,7 +107,7 @@ De plus, au moins une étiquette d&#39;exportation doit correspondre à un contr
 
 ## Processus{#workflow}
 
-Pour commencer, examinez la source de données et la documentation de destination. Ces articles contiennent des instructions sur l&#39;ajout de commandes et de libellés d&#39;exportation à vos sources de données et à vos destinations.
+Pour commencer, examinez la source de données et la documentation de destination. Ces articles contiennent des instructions sur l'ajout de commandes et de libellés d'exportation à vos sources de données et à vos destinations.
 
-* [Création d&#39;une source de données](../features/manage-datasources.md#create-data-source)
-* [Ajout d&#39;étiquettes d&#39;exportation de données à une destination](../features/destinations/manage-destinations.md#add-data-export-labels)
+* [Création d'une source de données](../features/manage-datasources.md#create-data-source)
+* [Ajout d'étiquettes d'exportation de données à une destination](../features/destinations/manage-destinations.md#add-data-export-labels)
