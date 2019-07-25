@@ -25,12 +25,12 @@ Lists the variables used by the `destinationType` parameter. Specify `push` or `
 
 <!-- r_destination_types.xml -->
 
-| Type de destination de l&#39;API | Type de destination de l&#39;interface utilisateur |
+| Type de destination de l'API | Type de destination de l'interface utilisateur |
 |---|---|
 | `PUSH` | [!UICONTROL URL] |
 | `ADS` | [!UICONTROL Cookie] |
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Choix d&#39;un type de destination](../../../features/destinations/destinations.md)
+>* [Choix d'un type de destination](../../../features/destinations/destinations.md)
 
