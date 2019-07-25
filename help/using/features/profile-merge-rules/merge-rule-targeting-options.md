@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # General Use Cases for Profile Merge Rules {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules] vous permettent de développer ou de renforcer la cible d&#39;action sur des audiences spécifiques en fonction des besoins ou objectifs commerciaux. Ces cas d&#39;utilisation généraux expliquent comment utiliser les options disponibles et créer des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. [!UICONTROL Profile Merge Rules] Actuellement, travaillez avec des destinations en temps réel uniquement.
+[!UICONTROL Profile Merge Rules] vous permettent de développer ou de renforcer la cible d'action sur des audiences spécifiques en fonction des besoins ou objectifs commerciaux. Ces cas d'utilisation généraux expliquent comment utiliser les options disponibles et créer des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. [!UICONTROL Profile Merge Rules] Actuellement, travaillez avec des destinations en temps réel uniquement.
 
 ![](assets/merge-rules-options.png)
 
@@ -30,23 +30,23 @@ User authentication to a website should trigger a declared ID call to [!DNL Audi
 
 ### Portée des utilisateurs authentifiés
 
-Les options de profil authentifiées créent des règles qui vous permettent de cibler les utilisateurs qui sont connectés à un site Web ou à une application en fonction d&#39;attributs hors ligne. Par exemple, une société de services financiers utilise cette option pour cibler les utilisateurs authentifiés avec des offres de mise à niveau de carte de crédit ciblées ou des offres de service spécialisées basées sur le revenu ou l&#39;activité hors ligne. Un autre exemple consisterait à cibler les frégates fréquemment authentifiées avec des offres basées sur le kilométrage cumulé.
+Les options de profil authentifiées créent des règles qui vous permettent de cibler les utilisateurs qui sont connectés à un site Web ou à une application en fonction d'attributs hors ligne. Par exemple, une société de services financiers utilise cette option pour cibler les utilisateurs authentifiés avec des offres de mise à niveau de carte de crédit ciblées ou des offres de service spécialisées basées sur le revenu ou l'activité hors ligne. Un autre exemple consisterait à cibler les frégates fréquemment authentifiées avec des offres basées sur le kilométrage cumulé.
 
 To create a rule that reaches only authenticated users, select **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. Cette option évaluera un segment en utilisant uniquement des données de profil authentifiées. Cette règle ignore les données du profil de périphérique anonyme.
 
 To also include data in the anonymous device profile, use the **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL Current Device Profile]** rule.
 
-### Atteindre les utilisateurs selon l&#39;état d&#39;authentification précédent
+### Atteindre les utilisateurs selon l'état d'authentification précédent
 
-Ces options atteignent des utilisateurs spécifiques lorsqu&#39;ils naviguent sur le site mais qu&#39;ils ne sont pas connectés. Vous pouvez le faire avec des options basées sur le ciblage au niveau de l&#39;utilisateur supposé. Le ciblage supposé permet d&#39;atteindre les personnes qui ne sont pas authentifiées explicitement sur votre site mais qui peuvent être en ligne. Elle fonctionne en lisant (mais pas en écrivant) les données du dernier profil authentifié. And, to help keep the authenticated profile clean, [!DNL Audience Manager] writes new trait qualifications to the device profile instead of the authenticated profile. Supposons, par exemple, que vous soyez un spécialiste du marketing qui souhaite tester différentes offres avec des clients existants qui ne sont pas connectés à votre site ou à votre application. En tant que spécialiste du marketing, vous pouvez tester ces annonces auprès des clients actuels non authentifiés pour identifier les offres qui obtiennent le plus de réponse.
+Ces options atteignent des utilisateurs spécifiques lorsqu'ils naviguent sur le site mais qu'ils ne sont pas connectés. Vous pouvez le faire avec des options basées sur le ciblage au niveau de l'utilisateur supposé. Le ciblage supposé permet d'atteindre les personnes qui ne sont pas authentifiées explicitement sur votre site mais qui peuvent être en ligne. Elle fonctionne en lisant (mais pas en écrivant) les données du dernier profil authentifié. And, to help keep the authenticated profile clean, [!DNL Audience Manager] writes new trait qualifications to the device profile instead of the authenticated profile. Supposons, par exemple, que vous soyez un spécialiste du marketing qui souhaite tester différentes offres avec des clients existants qui ne sont pas connectés à votre site ou à votre application. En tant que spécialiste du marketing, vous pouvez tester ces annonces auprès des clients actuels non authentifiés pour identifier les offres qui obtiennent le plus de réponse.
 
-Voici un exemple de règle qui atteint les utilisateurs selon l&#39;authentification prédictionnelle :
+Voici un exemple de règle qui atteint les utilisateurs selon l'authentification prédictionnelle :
 
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
 
 ## Expanded targeting {#expanded-targeting}
 
-Outre les règles qui permettent d&#39;atteindre des clients spécifiques, les marketeurs ont également besoin de règles qui augmentent la taille des ensembles de données disponibles pour le ciblage. [!UICONTROL Profile Merge Rules] vous permet de le faire avec l&#39;option de profil de périphérique. Les options de périphérique étendent l&#39;ensemble de données éligible à la segmentation, car elles tirent parti des caractéristiques réalisées lorsqu&#39;un utilisateur se trouvait dans un état anonyme sur un ou plusieurs périphériques. Cela peut s&#39;avérer utile lorsque vous tentez d&#39;atteindre un utilisateur sur l&#39;ensemble de son appareil à l&#39;aide d&#39;un graphique de périphérique individuel ou de tous les périphériques d&#39;un foyer à l&#39;aide d&#39;un graphique de périphérique ménager. Cette option peut inclure la publicité d&#39;une offre de vacances familiale. Dans ce cas, vous souhaitez atteindre chaque périphérique d&#39;un foyer avec l&#39;offre si un utilisateur sur n&#39;importe quel périphérique a manifesté un intérêt pour l&#39;offre.
+Outre les règles qui permettent d'atteindre des clients spécifiques, les marketeurs ont également besoin de règles qui augmentent la taille des ensembles de données disponibles pour le ciblage. [!UICONTROL Profile Merge Rules] vous permet de le faire avec l'option de profil de périphérique. Les options de périphérique étendent l'ensemble de données éligible à la segmentation, car elles tirent parti des caractéristiques réalisées lorsqu'un utilisateur se trouvait dans un état anonyme sur un ou plusieurs périphériques. Cela peut s'avérer utile lorsque vous tentez d'atteindre un utilisateur sur l'ensemble de son appareil à l'aide d'un graphique de périphérique individuel ou de tous les périphériques d'un foyer à l'aide d'un graphique de périphérique ménager. Cette option peut inclure la publicité d'une offre de vacances familiale. Dans ce cas, vous souhaitez atteindre chaque périphérique d'un foyer avec l'offre si un utilisateur sur n'importe quel périphérique a manifesté un intérêt pour l'offre.
 
 To create a rule that expands the targeting data set, select the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Graph]** rule.
 
@@ -102,7 +102,7 @@ Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rul
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Cas d&#39;utilisation du graphique de périphérique de lien de profil](../../features/profile-merge-rules/profile-link-use-case.md)
+>* [Cas d'utilisation du graphique de périphérique de lien de profil](../../features/profile-merge-rules/profile-link-use-case.md)
 >* [Cas d’utilisation graphiques des périphériques externes](../../features/profile-merge-rules/external-graph-use-cases.md)
 >* [FAQ sur la fusion des profils](../../faq/faq-profile-merge.md)
 
