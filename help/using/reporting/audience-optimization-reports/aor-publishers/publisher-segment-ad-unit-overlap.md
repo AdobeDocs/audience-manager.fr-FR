@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
 
-Le rapport de chevauchement du segment à l&#39;unité publicitaire s&#39;affiche sous la forme d&#39;un graphique à chaud qui met en évidence les chevauchements élevés et faibles entre les segments d&#39;unités publicitaires et d&#39;Audience Manager.
+Le rapport de chevauchement du segment à l'unité publicitaire s'affiche sous la forme d'un graphique à chaud qui met en évidence les chevauchements élevés et faibles entre les segments d'unités publicitaires et d'Audience Manager.
 
 ## Cas d’utilisation {#use-cases}
 
-With the [!UICONTROL Segment to Ad Unit Overlap] report, you can understand which audiences visit your web properties. The report displays the overlap between members of your [!DNL Audience Manager] segments and the number of visitors to your web properties. Un chevauchement plus élevé signifie que de nombreux membres d&#39;un segment visitent votre propriété Web.
+With the [!UICONTROL Segment to Ad Unit Overlap] report, you can understand which audiences visit your web properties. The report displays the overlap between members of your [!DNL Audience Manager] segments and the number of visitors to your web properties. Un chevauchement plus élevé signifie que de nombreux membres d'un segment visitent votre propriété Web.
 
 ## Using the Segment to Ad Unit Overlap Report {#using-the-report}
 
-Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d&#39;eux.
+Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d'eux.
 
 Use the **Day Range** and **Date Through** controls to adjust your look-back range. Notez que les périodes de recherche de 7 et 30 jours ne sont disponibles que pour les dates dimanche.
 
@@ -33,7 +33,7 @@ Use the **[!UICONTROL Segment Name]** and the **[!UICONTROL Ad Unit]** boxes to 
 
 ## Interpreting the Results {#interpreting-results}
 
-Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the one below. Passez la souris sur une cellule pour obtenir plus d&#39;informations sur ce chevauchement particulier. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l&#39;exemple de rapport.
+Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the one below. Passez la souris sur une cellule pour obtenir plus d'informations sur ce chevauchement particulier. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l'exemple de rapport.
 
 ![](assets/publisher_segment_ad_unit_overlap.png)
 
