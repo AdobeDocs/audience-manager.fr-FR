@@ -58,10 +58,10 @@ Supprimez une caractéristique de dossier en supprimant le dossier de stockage a
 
 <!-- delete-folder-trait.xml -->
 
-1. **Données d&#39;audience &gt; Caractéristiques** pour accéder au **tableau de bord Caractéristiques** .
+1. **Données d'audience &gt; Caractéristiques** pour accéder au **tableau de bord Caractéristiques** .
 1. In the [!UICONTROL Trait Storage] window, delete a folder by hovering over it and clicking the X icon.
 
-   ![Résultat de l&#39;étape](assets/folder_traits_create.PNG)
+   ![Résultat de l'étape](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
