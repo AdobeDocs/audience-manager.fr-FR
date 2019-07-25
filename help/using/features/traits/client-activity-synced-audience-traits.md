@@ -17,7 +17,7 @@ These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL
 
 >[!NOTE]
 >
->L&#39;accès requiert des autorisations d&#39;administrateur.
+>L'accès requiert des autorisations d'administrateur.
 
 ## Active Audience Traits {#active-audience-traits}
 
@@ -25,7 +25,7 @@ An [!UICONTROL Active Audience] trait contains all of the devices under manageme
 
 ## Data Source Synced Traits {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] s&#39;affichent dans [!UICONTROL Audience Traits] le dossier lorsque vous [créez ou modifiez une source de données](../../features/manage-datasources.md#create-data-source) et appliquez l&#39;un des paramètres suivants :
+[!UICONTROL Data Source Synced Traits] s'affichent dans [!UICONTROL Audience Traits] le dossier lorsque vous [créez ou modifiez une source de données](../../features/manage-datasources.md#create-data-source) et appliquez l'un des paramètres suivants :
 
 ![](assets/datasource_synced.png)
 
