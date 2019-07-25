@@ -25,18 +25,18 @@ Que faire lorsque les feuilles de calcul renvoient une erreur ou que votre requ�
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Cet outil est fourni à titre de commodité uniquement. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Les permissions de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans [!DNL Audience Manager] l&#39;interface utilisateur sont respectées dans l&#39; [!UICONTROL Bulk Management Tools]interface.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Cet outil est fourni à titre de commodité uniquement. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Les permissions de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans [!DNL Audience Manager] l'interface utilisateur sont respectées dans l' [!UICONTROL Bulk Management Tools]interface.
 
-Des facteurs tels que le trafic réseau important, l&#39;utilisation du serveur et les jeux de données volumineux peuvent entraîner l&#39;échec ou l&#39;expiration d&#39;une demande en masse. S&#39;il y a un problème, la feuille de calcul arrête d&#39;écrire les données et affiche un message d&#39;erreur. Lorsque cela se produit, vous devez :
+Des facteurs tels que le trafic réseau important, l'utilisation du serveur et les jeux de données volumineux peuvent entraîner l'échec ou l'expiration d'une demande en masse. S'il y a un problème, la feuille de calcul arrête d'écrire les données et affiche un message d'erreur. Lorsque cela se produit, vous devez :
 
-* Lisez le message d&#39;erreur.
+* Lisez le message d'erreur.
 * Corrigez le problème.
 * Supprimez toutes les lignes qui ont déjà été mises à jour.
 * Essayez de nouveau la demande en bloc.
 
 ## Long delays or unresponsive behavior {#delays-behavior}
 
-Le tableau suivant répertorie certains problèmes courants que vous pouvez rencontrer lors de la réalisation de requêtes en bloc avec les feuilles de calcul. Tentez de résoudre ces problèmes avec les solutions recommandées. Si les solutions recommandées ne résolvent pas le problème, enregistrez votre travail, redémarrez votre ordinateur, puis relancez la requête sans lancer ni utiliser d&#39;autres applications.
+Le tableau suivant répertorie certains problèmes courants que vous pouvez rencontrer lors de la réalisation de requêtes en bloc avec les feuilles de calcul. Tentez de résoudre ces problèmes avec les solutions recommandées. Si les solutions recommandées ne résolvent pas le problème, enregistrez votre travail, redémarrez votre ordinateur, puis relancez la requête sans lancer ni utiliser d'autres applications.
 
 <table id="table_AC6FB99402214A4EAC6E709465BB67AF"> 
  <thead> 
