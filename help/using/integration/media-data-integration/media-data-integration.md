@@ -13,7 +13,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 # Media Data Integration {#media-data-integration}
 
-Vous pouvez capturer des données à partir de campagnes multimédias à l&#39;aide d&#39;appels de pixels vers Audience Manager (souvent appelées pixellisation du créatif) ou en assimilant des fichiers journaux. Lisez les articles de cette section pour comprendre le processus.
+Vous pouvez capturer des données à partir de campagnes multimédias à l'aide d'appels de pixels vers Audience Manager (souvent appelées pixellisation du créatif) ou en assimilant des fichiers journaux. Lisez les articles de cette section pour comprendre le processus.
 
 <!-- c_camp_data_int.xml -->
 
