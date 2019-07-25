@@ -23,5 +23,5 @@ For more information about derived signals, see [Derived Signals](../../features
 >
 >The derived signals [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Voir :
 >
->* [Documentation d&#39;API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migration du code de l&#39;API Audience Manager](../../api/api-swagger-migration.md)
+>* [Documentation d'API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Migration du code de l'API Audience Manager](../../api/api-swagger-migration.md)
