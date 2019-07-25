@@ -13,7 +13,7 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Utilisé pour informer DIL qu&#39;il est chargé après le chargement de la fenêtre.
+Utilisé pour informer DIL qu'il est chargé après le chargement de la fenêtre.
 
 **Signature de fonction :**`isAddedPostWindowLoad: function()`
 
