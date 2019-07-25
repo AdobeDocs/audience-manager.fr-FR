@@ -21,10 +21,10 @@ Le tableau suivant décrit les sources de données globales prises en charge par
 
 | Identifiant de source de données | Description |
 |---|---|
-| 20914 | **ID de publication Google** - **Les dispositifs GAIM** représentent les dispositifs qui exécutent le système d&#39;exploitation Android. |
-| 20915 | **ID Apple pour la publicité** : **les identifiants IDFA** représentent les périphériques exécutant le système d&#39;exploitation ios. |
+| 20914 | **ID de publication Google** - **Les dispositifs GAIM** représentent les dispositifs qui exécutent le système d'exploitation Android. |
+| 20915 | **ID Apple pour la publicité** : **les identifiants IDFA** représentent les périphériques exécutant le système d'exploitation ios. |
 | 121963 | **Identifiant Roku pour la publication** : **les RIO** représentent les périphériques continus Roku. |
-| 389146 | **ID de publication Microsoft** - **Les maid** représentent les périphériques exécutant le système d&#39;exploitation Windows 10. |
+| 389146 | **ID de publication Microsoft** - **Les maid** représentent les périphériques exécutant le système d'exploitation Windows 10. |
 | 404660 | **Samsung duid** représente les TV dynamiques Samsung. |
 
 ## Importation de données à partir de sources de données globales
@@ -33,20 +33,20 @@ You can import device IDs from global data sources through both [real-time data 
 
 >[!IMPORTANT]
 >
->Lors de l&#39;envoi de données à Audience Manager à l&#39;aide d&#39;un ID de périphérique global, veillez à utiliser la source de données correspondante pour l&#39;ID de périphérique en question. Example: to import data for [!DNL Apple IDFA], use the data source ID 20915.
+>Lors de l'envoi de données à Audience Manager à l'aide d'un ID de périphérique global, veillez à utiliser la source de données correspondante pour l'ID de périphérique en question. Example: to import data for [!DNL Apple IDFA], use the data source ID 20915.
 
 ## Limites
 
-On devices running [!DNL iOS] and [!DNL Android] operating systems, only native applications can retrieve and use device advertising IDs ([!UICONTROL DAID]s). Les applications Web s&#39;exécutant dans des navigateurs mobiles n&#39;ont pas accès aux identifiants de publicité sur périphériques.
+On devices running [!DNL iOS] and [!DNL Android] operating systems, only native applications can retrieve and use device advertising IDs ([!UICONTROL DAID]s). Les applications Web s'exécutant dans des navigateurs mobiles n'ont pas accès aux identifiants de publicité sur périphériques.
 
-## Validation de l&#39;identifiant de périphérique global
+## Validation de l'identifiant de périphérique global
 
-Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. See [Index of IDs in Audience Manager](../reference/ids-in-aam.md) for a detailed mapping of device advertising IDs to global data sources and the proper format for each ID. Assurez-vous d&#39;importer des ID de périphérique au format correct, en fonction du type de périphérique. Audience Manager rejette les ID de périphérique qui ne remplissent pas le format correct et renvoie un message d&#39;erreur pour indiquer que l&#39;ID a été rejeté.
+Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) imported by customers, based on their format, to ensure they match the standard format outlined by device manufacturers. See [Index of IDs in Audience Manager](../reference/ids-in-aam.md) for a detailed mapping of device advertising IDs to global data sources and the proper format for each ID. Assurez-vous d'importer des ID de périphérique au format correct, en fonction du type de périphérique. Audience Manager rejette les ID de périphérique qui ne remplissent pas le format correct et renvoie un message d'erreur pour indiquer que l'ID a été rejeté.
 
 * Error messaging for batch data transfers is outlined here: [Onboarding Status Report Terms and Definitions](../reporting/onboarding-status-report.md#report-terms-conditions).
 * Error messaging for real-time data transfers is outlined here: [DCS Error Codes, Messages, and Examples](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
-## Stratégie d&#39;expiration d&#39;ID de périphérique
+## Stratégie d'expiration d'ID de périphérique
 
 Audience Manager automatically discards device advertising IDs after 120 days of inactivity, similar to [AAM UUID](../faq/faq-privacy.md)s.
 
