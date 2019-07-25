@@ -23,32 +23,32 @@ faq_reports.xml
 
  -->
 
-**Pour les nouvelles caractéristiques intégrées, pourquoi l&#39;affichage[!UICONTROL Trait Graph]peut-il parfois être inférieur à 0 ou 0 ?**
+**Pour les nouvelles caractéristiques intégrées, pourquoi l'affichage[!UICONTROL Trait Graph]peut-il parfois être inférieur à 0 ou 0 ?**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn&#39;t show any results or shows lower than expected numbers. Cela se produit lorsque le volume des données reçues est tellement important que la tâche de traitement entrant ne peut pas terminer l&#39;assimilation de ces informations avant la date limite de création de rapports pour cette journée.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. Cela se produit lorsque le volume des données reçues est tellement important que la tâche de traitement entrant ne peut pas terminer l'assimilation de ces informations avant la date limite de création de rapports pour cette journée.
 
-As a result, this data is sent to the reporting system late and won&#39;t show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br> 
 
-**Certains segments sont absents d&#39;un[!UICONTROL Overlap]rapport. Where are they?**
+**Certains segments sont absents d'un[!UICONTROL Overlap]rapport. Where are they?**
 
-Pour réduire la demande de calcul, ces rapports omettent de données statistiquement insignificatives des résultats. Vos segments ne sont pas manquants, ils sont simplement ignorés car ils ne produisent aucun résultat significatif ou des groupes d&#39;utilisateurs utiles que vous pouvez cibler. Voir également :
+Pour réduire la demande de calcul, ces rapports omettent de données statistiquement insignificatives des résultats. Vos segments ne sont pas manquants, ils sont simplement ignorés car ils ne produisent aucun résultat significatif ou des groupes d'utilisateurs utiles que vous pouvez cibler. Voir également :
 
-* [Rapports et méthodologie d&#39;échantillonnage des données](../reporting/report-sampling.md)
+* [Rapports et méthodologie d'échantillonnage des données](../reporting/report-sampling.md)
 * [Comptabilisation des utilisateurs uniques dans le chevauchement et les rapports généraux](../reporting/unique-user-counts.md).
 
 <br> 
 
-**Si je lance une campagne de marketing par courriel, comment puis-je déterminer si les utilisateurs redirigent vers mon site depuis cette campagne ou d&#39;autres sources ?**
+**Si je lance une campagne de marketing par courriel, comment puis-je déterminer si les utilisateurs redirigent vers mon site depuis cette campagne ou d'autres sources ?**
 
-Ajoutez une chaîne de requête spécifique à une campagne à l&#39;URL de la section du site que vous souhaitez surveiller. Ensuite, configurez une règle de caractéristique pour capturer cette variable. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
+Ajoutez une chaîne de requête spécifique à une campagne à l'URL de la section du site que vous souhaitez surveiller. Ensuite, configurez une règle de caractéristique pour capturer cette variable. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
 
 <br> 
 
 **Quelle différence y a-t-il entre le nombre total de population de segments et le nombre total de segments ?**
 
-* **Real - time :** Nombre d&#39;utilisateurs uniques qui font partie du segment et actifs sur vos propriétés durant une période donnée (c&#39;est-à-dire [!DNL Audience Manager] doivent avoir une activité enregistrée pour cet utilisateur pendant une période donnée).
+* **Real - time :** Nombre d'utilisateurs uniques qui font partie du segment et actifs sur vos propriétés durant une période donnée (c'est-à-dire [!DNL Audience Manager] doivent avoir une activité enregistrée pour cet utilisateur pendant une période donnée).
 
 * **Population totale de segments :** Regroupement de tous les utilisateurs actuellement classés dans ce segment.
 
@@ -61,7 +61,7 @@ Ajoutez une chaîne de requête spécifique à une campagne à l&#39;URL de la s
 
 <br> 
 
-**Je dispose d&#39;un segment composé d&#39;une seule caractéristique. Lorsque je regarde les mesures de création de rapports, leur compte ne correspond pas. Pourquoi ?**
+**Je dispose d'un segment composé d'une seule caractéristique. Lorsque je regarde les mesures de création de rapports, leur compte ne correspond pas. Pourquoi ?**
 
 See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
@@ -78,22 +78,22 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
  -->
 
-**J&#39;ai inbound un fichier et mon reçu entrant indique un nombre élevé d&#39;enregistrements réussis, mais la création de rapports indique un nombre beaucoup moins élevé. Pourquoi ?**
+**J'ai inbound un fichier et mon reçu entrant indique un nombre élevé d'enregistrements réussis, mais la création de rapports indique un nombre beaucoup moins élevé. Pourquoi ?**
 
 In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!UICONTROL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
 
 <br> 
 
-**Pourquoi les caractéristiques uniques pour mes caractéristiques intégrées sur plusieurs périphériques sont-elles beaucoup plus élevées que le nombre total d&#39;enregistrements intégrés ?**
+**Pourquoi les caractéristiques uniques pour mes caractéristiques intégrées sur plusieurs périphériques sont-elles beaucoup plus élevées que le nombre total d'enregistrements intégrés ?**
 
-Si vous embarquez un fichier pour un fournisseur de données sur plusieurs périphériques, le gestionnaire d&#39;audience effectue une recherche pour obtenir tous les ID de périphérique associés à chacun des ID de client inclus. Audience Manager attribue ensuite les caractéristiques intégrées à l&#39;ID de périphérique associé à l&#39;ID de client.
+Si vous embarquez un fichier pour un fournisseur de données sur plusieurs périphériques, le gestionnaire d'audience effectue une recherche pour obtenir tous les ID de périphérique associés à chacun des ID de client inclus. Audience Manager attribue ensuite les caractéristiques intégrées à l'ID de périphérique associé à l'ID de client.
 
 Supposons, par exemple, que vous ayez ajouté 100 enregistrements. Pour chacun de ces ID de client, AAM possède en moyenne trois ID de périphérique. Par conséquent, la caractéristique qui était intégrée est affectée à 300 ID de périphérique.
 
 Il existe deux raisons pour lesquelles un ID de client inter-périphériques unique peut être associé à plusieurs ID de périphérique :
 
 * Les utilisateurs se connectent au même compte sur plusieurs périphériques depuis plusieurs ordinateurs/navigateurs.
-* Les utilisateurs effacent leurs cookies. Remarque : Les cookies « abandonnés » sont supprimés après 120 jours d&#39;inactivité utilisateur.
+* Les utilisateurs effacent leurs cookies. Remarque : Les cookies « abandonnés » sont supprimés après 120 jours d'inactivité utilisateur.
 
 <br> 
 
@@ -103,6 +103,6 @@ Il existe deux raisons pour lesquelles un ID de client inter-périphériques uni
 
 <br> 
 
-**J&#39;ai créé une caractéristique et un[!UICONTROL Trait Graph]nombre plus grand[!UICONTROL Unique Trait Realizations]que la[!UICONTROL Total Trait Population]valeur. Is this normal?**
+**J'ai créé une caractéristique et un[!UICONTROL Trait Graph]nombre plus grand[!UICONTROL Unique Trait Realizations]que la[!UICONTROL Total Trait Population]valeur. Is this normal?**
 
 You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days.
