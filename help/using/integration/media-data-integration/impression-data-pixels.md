@@ -13,11 +13,11 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 # Capture des données d’impression de campagne via des appels de pixel{#capturing-campaign-impression-data-via-pixel-calls}
 
-Une approche d&#39;envoi de données de médias à Audience Manager utilise les macros de serveur d&#39;annonces pour envoyer des attributs de campagne à Audience Manager.
+Une approche d'envoi de données de médias à Audience Manager utilise les macros de serveur d'annonces pour envoyer des attributs de campagne à Audience Manager.
 
-On parle généralement de « pixellisation du créatif ».  » » Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. Les données agrégées fournissent une vue unifiée des performances de la campagne, permettent d&#39;identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence des événements de serveur publicitaire qui génèrent des conversions.
+On parle généralement de « pixellisation du créatif ».  » » Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. Les données agrégées fournissent une vue unifiée des performances de la campagne, permettent d'identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence des événements de serveur publicitaire qui génèrent des conversions.
 
-## Syntaxe d&#39;appel d&#39;événement
+## Syntaxe d'appel d'événement
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ On parle généralement de « pixellisation du créatif ».  » » Those dat
 
 L’appel d’un événement collecte les données d’impression et de conversion et les envoie aux [!DNL Audience Manager] [serveurs de collecte de données ](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Ce processus repose sur des serveurs d’annonces tiers qui placent l’appel dans le contenu créatif afin de contrôler le contenu inséré dans le code. Les serveurs d’annonces tiers (par exemple, [!DNL DFA]) peuvent placer ce code dans chaque impression publicitaire. En outre, un appel publicitaire n’utilise pas [!DNL JavaScript] ni n’emploie de techniques de « frame-busting » (destruction de cadres) pour accéder aux données d’éditeur en dehors de la balise publicitaire.
 
-Les appels d&#39;événement consistent en des paires clé-valeur qui utilisent la syntaxe suivante :
+Les appels d'événement consistent en des paires clé-valeur qui utilisent la syntaxe suivante :
 
 <pre>
 http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;
@@ -33,11 +33,11 @@ d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i
 &amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=cache buster value
 </pre>
 
-Dans la paire clé-valeur, la variable value est un ID ou une macro inséré par le serveur d&#39;annonces. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. Cet appel ne renvoie pas de réponse.
+Dans la paire clé-valeur, la variable value est un ID ou une macro inséré par le serveur d'annonces. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. Cet appel ne renvoie pas de réponse.
 
 ## Supported Key-Value Pairs {#supported-key-value-pairs}
 
-Les appels d&#39;événement d&#39;impression acceptent les données formées dans des paires clé-valeur. Le tableau suivant répertorie et décrit les clés utilisées pour les conserver. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Les appels d'événement d'impression acceptent les données formées dans des paires clé-valeur. Le tableau suivant répertorie et décrit les clés utilisées pour les conserver. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -108,9 +108,9 @@ Les appels d&#39;événement d&#39;impression acceptent les données formées da
 
 >[!NOTE]
 >
->Veuillez contacter vos consultants ou votre compte Adobe Audience Manager pour connaître l&#39;URL exacte spécifique au domaine client.
+>Veuillez contacter vos consultants ou votre compte Adobe Audience Manager pour connaître l'URL exacte spécifique au domaine client.
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Fichiers de données et de métadonnées pour les rapports Optimisation d&#39;audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Fichiers de données et de métadonnées pour les rapports Optimisation d'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
