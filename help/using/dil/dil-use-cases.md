@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # DIL Use Cases and Code Samples{#dil-use-cases-and-code-samples}
 
-Exemples de code et descriptions pour des cas d&#39;utilisation DIL spécifiques.
+Exemples de code et descriptions pour des cas d'utilisation DIL spécifiques.
 
 <!-- 
 
@@ -23,7 +23,7 @@ c_dil_use_case.xml
 
 ## Send Data Elements to Audience Manager with DIL {#send-data-elements-dil}
 
-Créez une variable d&#39;objet qui envoie des informations sur les éléments de la page à Audience Manager. Ceci s&#39;avère utile pour la collecte de données générales ou pour la collecte de données avec des variables Analytics.
+Créez une variable d'objet qui envoie des informations sur les éléments de la page à Audience Manager. Ceci s'avère utile pour la collecte de données générales ou pour la collecte de données avec des variables Analytics.
 
 <!-- 
 
@@ -67,7 +67,7 @@ sample_dil.api.signals(my_object,"c_").submit();
 
 **Exemple 3 : Envoi de données de page dans un tableau**
 
-In this case, the variable `my_object` uses an array to hold data. Cet exemple repose sur les informations transmises par la méthode recommandée ci-dessus, mais ajoute un calque supplémentaire pour tenir compte d&#39;un type et d&#39;un modèle de produit. Votre code peut ressembler à ce qui suit :
+In this case, the variable `my_object` uses an array to hold data. Cet exemple repose sur les informations transmises par la méthode recommandée ci-dessus, mais ajoute un calque supplémentaire pour tenir compte d'un type et d'un modèle de produit. Votre code peut ressembler à ce qui suit :
 
 <pre class="java"><code>var my_ objects = [{ 
  color : « bleu », 
@@ -104,7 +104,7 @@ c_dil_hrefer_over_https.xml
 
 >[!NOTE]
 >
->Cette méthode fonctionne uniquement lorsque les utilisateurs passent d&#39;une page à une autre avec des protocoles similaires (HTTP/HTTPS). Par exemple, le navigateur conserve une URL de référence lorsque vous accédez à un autre site sécurisé depuis un site sécurisé. Les navigateurs ne conservent pas l&#39;URL de référence lorsque vous passez d&#39;un site sécurisé à un site non sécurisé. This behavior is normal browser functionality and cannot be circumvented by [!UICONTROL DIL].
+>Cette méthode fonctionne uniquement lorsque les utilisateurs passent d'une page à une autre avec des protocoles similaires (HTTP/HTTPS). Par exemple, le navigateur conserve une URL de référence lorsque vous accédez à un autre site sécurisé depuis un site sécurisé. Les navigateurs ne conservent pas l'URL de référence lorsque vous passez d'un site sécurisé à un site non sécurisé. This behavior is normal browser functionality and cannot be circumvented by [!UICONTROL DIL].
 
 **Exemple de code**
 
@@ -136,7 +136,7 @@ By default, `DIL.getSearchReferrer` recognizes searches from these search engine
 
 **Description**
 
-Le code suivant montre comment obtenir le référent de recherche pour n&#39;importe quel moteur de recherche pris en charge. In this case, let&#39;s assume a user searched on the term &quot;homes&quot; from [!DNL Google] Canada ( `www.google.ca`). Ce code vous aidera à capturer ces termes de recherche et à les envoyer à Audience Manager.
+Le code suivant montre comment obtenir le référent de recherche pour n'importe quel moteur de recherche pris en charge. In this case, let's assume a user searched on the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Ce code vous aidera à capturer ces termes de recherche et à les envoyer à Audience Manager.
 
 **Code de base**
 
@@ -148,7 +148,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Exemple de code de moteur de recherche répertorié**
 
-In this case, let&#39;s assume that a user searched for the term &quot;homes&quot; from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` est [un préfixe](../features/traits/trait-variable-prefixes.md) obligatoire qui identifie ces variables comme des variables définies par le client à Audience Manager.
+In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` est [un préfixe](../features/traits/trait-variable-prefixes.md) obligatoire qui identifie ces variables comme des variables définies par le client à Audience Manager.
 
 <pre class="java"><code>var adobe_ dil = DIL. create ({partner : « <i>nom du partenaire</i> ») ; 
 var search_ referrer = DIL. tools. getsearchreferrer () ; 
@@ -163,7 +163,7 @@ if (search_ referrer &amp; &amp; search_ referrer. valid) {
 
 **Exemple de code de moteur de recherche non répertorié**
 
-In this case, let&#39;s assume that a user searched for the term &quot;homes&quot; from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. Votre code peut ressembler à ce qui suit :
+In this case, let's assume that a user searched for the term "homes" from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. Votre code peut ressembler à ce qui suit :
 
 <pre class="java"><code>var adobe_ dil = DIL. create ({partner : « <i>nom du partenaire</i> ») ; 
 var search_ referrer = DIL. tools. getsearchreferrer (document. referrer, { 
@@ -181,7 +181,7 @@ if (search_referrer &amp;&amp; search_referrer.valid) {
 
 ## Map Key Values to Other Keys {#map-key-values}
 
-Associez la valeur d&#39;une paire clé-valeur à une autre clé.
+Associez la valeur d'une paire clé-valeur à une autre clé.
 
 <!-- 
 
@@ -191,9 +191,9 @@ c_dil_map_keys.xml
 
 **Description**
 
-In a key-value pair, the `c_` prefix appended to the key identifies the signal as customer-defined data. Les données définies par le client servent à cibler le site spécifique qui transmet les données lors d&#39;un appel d&#39;événement. Cependant, vous souhaitez parfois que ces informations soient disponibles pour toutes les propriétés de votre compte Audience Manager. To do this, map the value in a `c_` key-value pair to a platform level key. A platform level key is prefixed with `d_` and makes the signal available for targeting across all properties in your account.
+In a key-value pair, the `c_` prefix appended to the key identifies the signal as customer-defined data. Les données définies par le client servent à cibler le site spécifique qui transmet les données lors d'un appel d'événement. Cependant, vous souhaitez parfois que ces informations soient disponibles pour toutes les propriétés de votre compte Audience Manager. To do this, map the value in a `c_` key-value pair to a platform level key. A platform level key is prefixed with `d_` and makes the signal available for targeting across all properties in your account.
 
-Par exemple, vous collectez les données du code postal à partir d&#39;un site particulier, mais vous souhaitez le cibler sur toutes les propriétés d&#39;Audience Manager. To make the ZIP code available at the platform level, you could map your customer-defined ZIP code key (e.g. `c_zip`) to a platform defined key as shown below.
+Par exemple, vous collectez les données du code postal à partir d'un site particulier, mais vous souhaitez le cibler sur toutes les propriétés d'Audience Manager. To make the ZIP code available at the platform level, you could map your customer-defined ZIP code key (e.g. `c_zip`) to a platform defined key as shown below.
 
 **Exemple de code**
 
@@ -244,5 +244,5 @@ To traffic the `dil.js` file in GTM:
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Centre d&#39;aide de Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
+>* [Centre d'aide de Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 
