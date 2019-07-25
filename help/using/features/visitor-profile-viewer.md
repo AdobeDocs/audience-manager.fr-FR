@@ -19,7 +19,7 @@ Use the [!UICONTROL Visitor Profile Viewer] to display the current state of a us
 >[!NOTE]
 >
 >* Access requires [!UICONTROL Administrator] permissions.
->* Il existe un délai de 24 heures avant que les informations relatives aux segments obtenus et aux caractéristiques intégrées ne s&#39;affichent dans l&#39;interface utilisateur.
+>* Il existe un délai de 24 heures avant que les informations relatives aux segments obtenus et aux caractéristiques intégrées ne s'affichent dans l'interface utilisateur.
 
 
 <!-- 
