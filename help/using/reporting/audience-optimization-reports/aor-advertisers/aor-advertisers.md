@@ -13,11 +13,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Optimization for Advertisers{#audience-optimization-for-advertisers}
 
-L&#39;optimisation d&#39;audience pour les annonceurs peut vous aider à identifier les opportunités de performances potentielles pour les segments Audience Manager dans vos campagnes de médias payants. Ces rapports combinent les données de performances des campagnes au niveau du journal avec les mesures de segments d&#39;Audience Manager pour informer les optimisations centrées sur les segments et un mix de canal efficace.
+L'optimisation d'audience pour les annonceurs peut vous aider à identifier les opportunités de performances potentielles pour les segments Audience Manager dans vos campagnes de médias payants. Ces rapports combinent les données de performances des campagnes au niveau du journal avec les mesures de segments d'Audience Manager pour informer les optimisations centrées sur les segments et un mix de canal efficace.
 
 ## Data Ingestion Methods {#data-ingestion-methods}
 
-You can send data to [!DNL Audience Manager] for use in these reports by either of these methods. Parfois, les clients envoient des données par deux méthodes. Cela garantit que vos rapports contiennent les informations les plus complètes et les plus précises concernant un visiteur. To use the [!UICONTROL Audience Optimization] reports, your event calls must include *all* of the parameters listed in the [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) documentation. Vous pouvez envoyer des données par l&#39;intermédiaire des méthodes ci-dessous.
+You can send data to [!DNL Audience Manager] for use in these reports by either of these methods. Parfois, les clients envoient des données par deux méthodes. Cela garantit que vos rapports contiennent les informations les plus complètes et les plus précises concernant un visiteur. To use the [!UICONTROL Audience Optimization] reports, your event calls must include *all* of the parameters listed in the [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) documentation. Vous pouvez envoyer des données par l'intermédiaire des méthodes ci-dessous.
 
 * Pixel calls: To pass the required metadata parameters to [!DNL Audience Manager] see [Capturing Campaign Click Data via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md) and [Capturing Campaign Impression Data via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md).
 
@@ -25,15 +25,15 @@ You can send data to [!DNL Audience Manager] for use in these reports by either 
 
 ## Role-Based Access Controls (RBAC) {#rbac}
 
-The type of reports you can view depend on the [!UICONTROL RBAC] group you&#39;re assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
+The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
 
-[!UICONTROL RBAC] les groupes doivent disposer de certaines sources de données pour afficher les [!UICONTROL Audience Optimization] rapports. Your [!DNL Audience Manager] consultant will set up these data sources for you. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. Au minimum, votre consultant va configurer au moins l&#39;une de ces sources de données :
+[!UICONTROL RBAC] les groupes doivent disposer de certaines sources de données pour afficher les [!UICONTROL Audience Optimization] rapports. Your [!DNL Audience Manager] consultant will set up these data sources for you. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. Au minimum, votre consultant va configurer au moins l'une de ces sources de données :
 
 * Source de données publicitaire
 * Source de données de marque
 * Source de données de plateforme
 
-Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group&#39;s view. Les données affichées seront mises à jour pour respecter le groupe sélectionné. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
+Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group's view. Les données affichées seront mises à jour pour respecter le groupe sélectionné. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
 
 ## Conversion Groups {#conversion-groups}
 
