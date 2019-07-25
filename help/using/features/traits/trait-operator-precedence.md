@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] évalue les expressions selon l&#39;ordre des opérations répertoriées ci-dessous, de haut en faible priorité. Les éléments de caractéristique définis par les opérateurs de priorité élevée sont évalués en premier, avant les autres opérateurs de priorité. Cette section classe chaque opérateur selon la priorité, de haut en bas.
+[!UICONTROL Trait Builder] évalue les expressions selon l'ordre des opérations répertoriées ci-dessous, de haut en faible priorité. Les éléments de caractéristique définis par les opérateurs de priorité élevée sont évalués en premier, avant les autres opérateurs de priorité. Cette section classe chaque opérateur selon la priorité, de haut en bas.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -56,6 +56,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Utilisation d&#39;expressions booléennes (ET, OU, NOT) dans traitbuilder](../../reference/boolean-expressions-tsb.md)
+>* [Utilisation d'expressions booléennes (ET, OU, NOT) dans traitbuilder](../../reference/boolean-expressions-tsb.md)
 >* [Utilisation des opérateurs de comparaison dans traitbuilder](../../features/traits/trait-comparison-operators.md)
 
