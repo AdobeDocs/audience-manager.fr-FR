@@ -15,7 +15,7 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 Le rapport Caractéristiques de conversion présente toutes les caractéristiques étiquetées comme caractéristiques de conversion pour un groupe de conversion à une date donnée.
 
-Les caractéristiques de conversion des groupes de conversion peuvent varier d&#39;une création de rapports à l&#39;autre. Le rapport affiche les caractéristiques de conversion par groupe de conversion pour la date de rapport sélectionnée.
+Les caractéristiques de conversion des groupes de conversion peuvent varier d'une création de rapports à l'autre. Le rapport affiche les caractéristiques de conversion par groupe de conversion pour la date de rapport sélectionnée.
 
 ## Exemple de rapport
 
