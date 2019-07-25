@@ -19,7 +19,7 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
 
 ## Création d’un groupe {#create-group}
 
-`POST` Méthode de création d&#39;un groupe d&#39;utilisateurs.
+`POST` Méthode de création d'un groupe d'utilisateurs.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -52,7 +52,7 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
 
 ## Update a Group {#update-group}
 
-`PUT` Méthode de mise à jour d&#39;un groupe d&#39;utilisateurs.
+`PUT` Méthode de mise à jour d'un groupe d'utilisateurs.
 
 <!--
 r_rest_api_group_update.xml
@@ -87,7 +87,7 @@ r_rest_api_group_update.xml
 
 ## List Groups {#list-groups}
 
-`GET` Méthode permettant de répertorier les groupes d&#39;utilisateurs.
+`GET` Méthode permettant de répertorier les groupes d'utilisateurs.
 
 <!--
 r_rest_api_group_list.xml
@@ -115,7 +115,7 @@ r_rest_api_group_list.xml
 
 ## Suppression d’un groupe {#delete-groups}
 
-`DELETE` Méthode permettant de supprimer un groupe d&#39;utilisateurs et de supprimer tous les membres de ce groupe.
+`DELETE` Méthode permettant de supprimer un groupe d'utilisateurs et de supprimer tous les membres de ce groupe.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -139,7 +139,7 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 
 ## List All Permissions for a Group {#list-permissions-group}
 
-`GET` Méthode permettant de répertorier les objets d&#39;autorisation d&#39;un groupe.
+`GET` Méthode permettant de répertorier les objets d'autorisation d'un groupe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -204,6 +204,6 @@ Returns `400 Bad Request` if the group is inaccessible.
 ]
 ```
 
-L&#39;exemple de réponse représente la liste mise à jour des objets d&#39;autorisation.
+L'exemple de réponse représente la liste mise à jour des objets d'autorisation.
 
 Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.
