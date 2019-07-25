@@ -15,4 +15,4 @@ La sécurité des données est un élément important de la gestion des données
 
 + [Sécurité des données](data-security.md)
 + [Confidentialité des données](data-privacy.md)
-+ [Gestion d&#39;exclusion](opt-out-management.md)
++ [Gestion d'exclusion](opt-out-management.md)
