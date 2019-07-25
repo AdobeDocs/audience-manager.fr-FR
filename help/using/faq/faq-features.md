@@ -24,13 +24,13 @@ faq_features_functions.xml
 
  -->
 
-**Quel est mon ID d&#39;organisation et comment le trouver ?**
+**Quel est mon ID d'organisation et comment le trouver ?**
 
 The *`Organization ID`* is a unique ID that identifies your organization to [!DNL Audience Manager] and the [!DNL Adobe Experience Cloud]. It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg].
 
 For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-The *`Organization ID`* is used by Audience Manager&#39;s [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 <br> 
 
@@ -46,7 +46,7 @@ Oui. See [Bulk Management Tools](../reference/bulk-management-tools/bulk-managem
 
 **Peut[!DNL Audience Manager]-on réduire le besoin de balises ou de pixels tiers et améliorer les temps de chargement des pages ?**
 
-If [!DNL Audience Manager] is integrated with your third-party data partner, you can replace their pixels and tags with a server-to-server ID call to [!DNL Audience Manager]. In this case, [!DNL Audience Manager] would fire a single ID call the first time we see a user and synchronize that information with your third-party partner. Cela évite d&#39;appeler plusieurs pixels à partir de chaque page. La réduction des appels de pixels peut améliorer les temps de chargement des pages.
+If [!DNL Audience Manager] is integrated with your third-party data partner, you can replace their pixels and tags with a server-to-server ID call to [!DNL Audience Manager]. In this case, [!DNL Audience Manager] would fire a single ID call the first time we see a user and synchronize that information with your third-party partner. Cela évite d'appeler plusieurs pixels à partir de chaque page. La réduction des appels de pixels peut améliorer les temps de chargement des pages.
 
 <br> 
 
@@ -68,19 +68,19 @@ Audience Manager used [!UICONTROL Tag Insertion Manager] (TIM) to create and man
 
 Les modèles algorithmiques détectent non seulement les caractéristiques les plus influentes, mais aussi les utilisateurs en fonction de ces caractéristiques et affecte un score individuel à chaque utilisateur. Vous créez ensuite des caractéristiques algorithmiques pour cibler vos utilisateurs. Avec les commandes de précision et de portée dans le créateur de caractéristiques, vous pouvez spécifier les utilisateurs parmi tous ceux qui possèdent les caractéristiques influentes que vous souhaitez cibler.
 
-Les modèles algorithmiques vous permettent de sélectionner des utilisateurs à différents niveaux et à différents tests dans Audience Lab, quel groupe d&#39;utilisateurs effectue le plus de conversions. See the detailed use case in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
+Les modèles algorithmiques vous permettent de sélectionner des utilisateurs à différents niveaux et à différents tests dans Audience Lab, quel groupe d'utilisateurs effectue le plus de conversions. See the detailed use case in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-Dans les modèles algorithmiques, le modèle s&#39;exécute tous les 8 jours et actualise les utilisateurs qualifiés pour les caractéristiques algorithmiques.
+Dans les modèles algorithmiques, le modèle s'exécute tous les 8 jours et actualise les utilisateurs qualifiés pour les caractéristiques algorithmiques.
 
 **Trait Recommendations**
 
-Recommandations est un moyen rapide d&#39;obtenir des informations sur d&#39;autres caractéristiques similaires à celles que vous utilisez dans un segment.
+Recommandations est un moyen rapide d'obtenir des informations sur d'autres caractéristiques similaires à celles que vous utilisez dans un segment.
 
 Utilisez les recommandations de caractéristique lorsque :
 
-* Vous avez besoin d&#39;informations rapides lors de la création d&#39;un segment ;
+* Vous avez besoin d'informations rapides lors de la création d'un segment ;
 * Vous utilisez les segments pour des campagnes courtes ou lorsque vous souhaitez rapidement supprimer le public qui effectue des conversions ;
-* Vous tentez d&#39;optimiser la portée.
+* Vous tentez d'optimiser la portée.
 
 <br> 
 
