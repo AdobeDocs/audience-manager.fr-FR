@@ -17,9 +17,9 @@ source-git-commit: 12cc02103902a77b8b5967c319f4ac18746a700e
 Overview and workflow for data buyers who want to purchase third-party data from within [!DNL Audience Manager].
 
 >[!NOTE]
->[Les autorisations basées sur un rôle](../../../reporting/reports-dashboard.md) contrôlent l&#39;accès aux [!UICONTROL Audience Marketplace] fonctionnalités.
+>[Les autorisations basées sur un rôle](../../../reporting/reports-dashboard.md) contrôlent l'accès aux [!UICONTROL Audience Marketplace] fonctionnalités.
 >
->* Les administrateurs peuvent créer des flux de données, gérer les abonnés et s&#39;abonner aux flux de données.
+>* Les administrateurs peuvent créer des flux de données, gérer les abonnés et s'abonner aux flux de données.
 >* Les utilisateurs peuvent uniquement rechercher des flux et les afficher.
 
 
@@ -35,22 +35,22 @@ The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buye
 
 ![](assets/buyer_marketplace.png)
 
-The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that&#39;s right for you. Items in the [!UICONTROL Marketplace] buyer&#39;s list include:
+The [!UICONTROL Marketplace] list contains information that you can sort and search to find the data feed that's right for you. Items in the [!UICONTROL Marketplace] buyer's list include:
 
 * **[!UICONTROL Search]:** Recherchez les flux de données par nom ou description texte.
 * **[!UICONTROL Name]:** Nom du flux de données.
-* **[!UICONTROL Description]:** Informations sur le contenu d&#39;un flux de données.
+* **[!UICONTROL Description]:** Informations sur le contenu d'un flux de données.
 * **[!UICONTROL Provider]:** Nom du fournisseur de données.
 * **[!UICONTROL Traits]:** Nombre de caractéristiques dans un flux de données.
-* **[!UICONTROL 30 Day Provider Unique Users]:** Nombre d&#39;utilisateurs uniques vus au cours des 30 derniers jours.
-* **[!UICONTROL 30 Day Overlapped Uniques]:** nombre d&#39;utilisateurs de votre compte qui se chevauchent avec les utilisateurs du compte du fournisseur.
+* **[!UICONTROL 30 Day Provider Unique Users]:** Nombre d'utilisateurs uniques vus au cours des 30 derniers jours.
+* **[!UICONTROL 30 Day Overlapped Uniques]:** nombre d'utilisateurs de votre compte qui se chevauchent avec les utilisateurs du compte du fournisseur.
 * **[!UICONTROL Feed Overlap]:** La valeur unique chevauchée de 30 jours, affichée en pourcentages, est calculée comme suit : Acheteur de données 30 jours chevauché/acheteur de données 30 jours uniques) x 100.
 * **[!UICONTROL Private Feeds]:** Voir [Flux de données privés](../../../features/audience-marketplace/marketplace-private-feeds.md).
-* **[!UICONTROL Currently Subscribed Plan Count]:** nombre d&#39;abonnements que vous disposez d&#39;un fournisseur de données.
+* **[!UICONTROL Currently Subscribed Plan Count]:** nombre d'abonnements que vous disposez d'un fournisseur de données.
 
 ## Flux de données privés {#private-data-feeds}
 
-In the [!UICONTROL Marketplace] list, sometimes the provider&#39;s name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Un flux de données privé permet aux vendeurs de limiter l&#39;accès aux données à l&#39;acheteur. Les vendeurs peuvent rendre les flux privés lorsqu&#39;ils proposent des offres spéciales, des remises ou lorsque leur confidentialité et leur contrôle d&#39;accès sont importants pour eux. En tant qu&#39;acheteur, vous devez envoyer une demande d&#39;abonnement au vendeur si vous souhaitez accéder à un flux privé. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
+In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Un flux de données privé permet aux vendeurs de limiter l'accès aux données à l'acheteur. Les vendeurs peuvent rendre les flux privés lorsqu'ils proposent des offres spéciales, des remises ou lorsque leur confidentialité et leur contrôle d'accès sont importants pour eux. En tant qu'acheteur, vous devez envoyer une demande d'abonnement au vendeur si vous souhaitez accéder à un flux privé. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
 
 >[!MORE_ LIKE_ THIS]
 >
