@@ -19,7 +19,7 @@ This section describes how to parse a [!UICONTROL DCS] response to retrieve the 
 
 A [!UICONTROL DCS] response contains data about your site visitors. You need the visitor and region ID before you can make server-to-server calls to the [!UICONTROL DCS].
 
-* L&#39;utilisateur - id est requis pour identifier et associer des données à un visiteur particulier.
+* L'utilisateur - id est requis pour identifier et associer des données à un visiteur particulier.
 * The region ID is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. Voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (DCS Region IDs, Locations, and Host Names).
 
 Ces paramètres sont décrits ci-dessous. Code in *italics* represents a variable placeholder.
@@ -48,7 +48,7 @@ Ces paramètres sont décrits ci-dessous. Code in *italics* represents a variabl
 
 ## Exemple de réponse {#sample-response}
 
-This simple response shows the `UUID` and region `ID`. Remarque : il s&#39;agit uniquement de données d&#39;exemple. Vos fichiers journaux peuvent être plus longs et plus complexes.
+This simple response shows the `UUID` and region `ID`. Remarque : il s'agit uniquement de données d'exemple. Vos fichiers journaux peuvent être plus longs et plus complexes.
 
 ```js
 {
