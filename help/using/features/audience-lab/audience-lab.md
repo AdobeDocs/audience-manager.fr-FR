@@ -14,11 +14,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Lab {#audience-lab}
 
-Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. Vous pouvez définir un groupe de contrôle et diviser votre segment en pourcentages d&#39;un ensemble afin de tester l&#39;efficacité.
+Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. Vous pouvez définir un groupe de contrôle et diviser votre segment en pourcentages d'un ensemble afin de tester l'efficacité.
 
 ## Aperçu {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utilise [le lien de profil](../../features/profile-merge-rules/merge-rules-overview.md) pour effectuer le test entre plusieurs périphériques. Cela permet de s&#39;assurer qu&#39;un utilisateur est admissible pour le même segment de test et reçoit le même traitement sur tous les appareils. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md) the base segment has assigned to it.
+[!UICONTROL Audience Lab] utilise [le lien de profil](../../features/profile-merge-rules/merge-rules-overview.md) pour effectuer le test entre plusieurs périphériques. Cela permet de s'assurer qu'un utilisateur est admissible pour le même segment de test et reçoit le même traitement sur tous les appareils. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md) the base segment has assigned to it.
 
 The [!UICONTROL Audience Lab] default view displays a card for each of the test groups. Click a card to access the **[!UICONTROL Test Group]** view. Cette vue comprend les informations suivantes :
 
@@ -31,10 +31,10 @@ You are able to create **up to 10 test groups**, each one with **up to 15 test s
 
 ## Search and Filter Test Groups {#search-and-filter}
 
-Lorsque vous commencez à créer plusieurs groupes de test avec plusieurs segments de test, il peut être plus facile d&#39;utiliser la zone de recherche pour trouver un groupe de test spécifique. Vous pouvez rechercher un groupe de test par :
+Lorsque vous commencez à créer plusieurs groupes de test avec plusieurs segments de test, il peut être plus facile d'utiliser la zone de recherche pour trouver un groupe de test spécifique. Vous pouvez rechercher un groupe de test par :
 
 * Nom du groupe de test ;
-* nom de l&#39;un des segments de test dans votre groupe de test ;
+* nom de l'un des segments de test dans votre groupe de test ;
 * Description du groupe de test.
 
 ![](assets/search_and_filter_audience_lab.png)
@@ -43,7 +43,7 @@ Vous pouvez également filtrer les groupes de tests par état. All available sta
 
 ## État {#status}
 
-L&#39;état d&#39;un groupe de test peut être actif, planifié, suspendu, brouillon ou terminé. Plus d&#39;informations sur chacune d&#39;elles dans le tableau ci-dessous :
+L'état d'un groupe de test peut être actif, planifié, suspendu, brouillon ou terminé. Plus d'informations sur chacune d'elles dans le tableau ci-dessous :
 
 <table id="table_7A0388BA02E045AC971C06A22DAC2C63"> 
  <thead> 
