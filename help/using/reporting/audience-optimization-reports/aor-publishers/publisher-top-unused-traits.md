@@ -13,17 +13,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Top Unused Traits{#top-unused-traits}
 
-Les principales caractéristiques inutilisées sont représentées sous forme de diagramme de dispersion des caractéristiques qui ne sont pas encore membres d&#39;un segment, en fonction du type de caractéristique, de la source de données et des performances.
+Les principales caractéristiques inutilisées sont représentées sous forme de diagramme de dispersion des caractéristiques qui ne sont pas encore membres d'un segment, en fonction du type de caractéristique, de la source de données et des performances.
 
 ## Cas d’utilisation {#use-cases}
 
-With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. Cette vue peut indiquer les meilleures caractéristiques à utiliser dans un segment d&#39;audience pour l&#39;optimisation des campagnes ou les nouvelles opportunités nettes.
+With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. Cette vue peut indiquer les meilleures caractéristiques à utiliser dans un segment d'audience pour l'optimisation des campagnes ou les nouvelles opportunités nettes.
 
 ## Using the Top Unused Traits Report {#using-the-report}
 
 Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. Select **[!UICONTROL All]** to return first and third party traits in the report.
 
-With the **[!UICONTROL Impressions]** slider, you can select a minimum and maximum value for returned impressions. Toute caractéristique responsable de plus ou moins que les limites définies ne s&#39;affiche pas dans le rapport.
+With the **[!UICONTROL Impressions]** slider, you can select a minimum and maximum value for returned impressions. Toute caractéristique responsable de plus ou moins que les limites définies ne s'affiche pas dans le rapport.
 
 Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to adjust your look-back range. Notez que seule la période de recherche de 30 jours est disponible pour ce rapport.
 
@@ -43,7 +43,7 @@ Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to
 
 Your [!UICONTROL Top Unused Traits] report could look similar to the one below. Dans le rapport, cliquez sur une bulle pour afficher les données sous-jacentes.
 
-Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l&#39;exemple de rapport.
+Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l'exemple de rapport.
 
 ![](assets/publisher_unused_traits.png)
 
@@ -84,9 +84,9 @@ Voir Descriptions pour obtenir des informations supplémentaires dans le tableau
 
 ![](assets/publisher_unused_traits_final.png)
 
-La position de vos caractéristiques dans un rapport peut vous indiquer les caractéristiques que vous pouvez utiliser pour optimiser les segments d&#39;audience existants.
+La position de vos caractéristiques dans un rapport peut vous indiquer les caractéristiques que vous pouvez utiliser pour optimiser les segments d'audience existants.
 
-Les caractéristiques situées plus haut sur l&#39;axe des impressions sont celles que vous souhaitez utiliser dans vos campagnes. Pour les caractéristiques présentant un faible nombre d&#39;impressions, il est peu probable que vous atteigniez cette audience sur votre propriété Web, en fonction de vos données DFP.
+Les caractéristiques situées plus haut sur l'axe des impressions sont celles que vous souhaitez utiliser dans vos campagnes. Pour les caractéristiques présentant un faible nombre d'impressions, il est peu probable que vous atteigniez cette audience sur votre propriété Web, en fonction de vos données DFP.
 
 Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
 
