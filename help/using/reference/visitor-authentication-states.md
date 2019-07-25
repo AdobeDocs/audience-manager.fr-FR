@@ -14,9 +14,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Visitor Authentication States in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-L&#39;état d&#39;authentification des visiteurs dans Audience Manager détermine si les informations de nouvelle caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil de l&#39;appareil, où les données ont été collectées. Audience Manager gère les états d&#39;authentification des identifiants visiteur Inconnus et LOGGED_ OUT dans les appels d&#39;événement de la même manière.
+L'état d'authentification des visiteurs dans Audience Manager détermine si les informations de nouvelle caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil de l'appareil, où les données ont été collectées. Audience Manager gère les états d'authentification des identifiants visiteur Inconnus et LOGGED_ OUT dans les appels d'événement de la même manière.
 
-Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifie les visiteurs en fonction de [leur état d&#39;authentification](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, selon l&#39;état d&#39;authentification transmis dans l&#39;appel et la règle de fusion [de profils que](../features/profile-merge-rules/merge-rules-dashboard.md) vous utilisez pour la segmentation.
+Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifie les visiteurs en fonction de [leur état d'authentification](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, selon l'état d'authentification transmis dans l'appel et la règle de fusion [de profils que](../features/profile-merge-rules/merge-rules-dashboard.md) vous utilisez pour la segmentation.
 
 ## Authentication Status: UNKNOWN {#auth-status-unknown}
 
@@ -40,7 +40,7 @@ Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` met
  </tbody> 
 </table>
 
-Exemple d&#39;appel (la valeur de requête correspondant à l&#39;état d&#39;authentification est mise en surbrillance) :
+Exemple d'appel (la valeur de requête correspondant à l'état d'authentification est mise en surbrillance) :
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
@@ -66,7 +66,7 @@ Exemple d&#39;appel (la valeur de requête correspondant à l&#39;état d&#39;au
  </tbody> 
 </table>
 
-Exemple d&#39;appel (la valeur de requête correspondant à l&#39;état d&#39;authentification est mise en surbrillance) :
+Exemple d'appel (la valeur de requête correspondant à l'état d'authentification est mise en surbrillance) :
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%011&d_sid=123456`
 
@@ -92,7 +92,7 @@ Exemple d&#39;appel (la valeur de requête correspondant à l&#39;état d&#39;au
  </tbody> 
 </table>
 
-Exemple d&#39;appel (la valeur de requête correspondant à l&#39;état d&#39;authentification est mise en surbrillance) :
+Exemple d'appel (la valeur de requête correspondant à l'état d'authentification est mise en surbrillance) :
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%012&d_sid=123456`
 
