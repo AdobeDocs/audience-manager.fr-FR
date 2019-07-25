@@ -29,15 +29,15 @@ La création de caractéristiques basées sur des informations existantes liées
 Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
 
 * **Concentrez-vous sur les audiences à forte valeur** ajoutée. Surveillez les tendances des tendances dans le comportement de recherche et de navigation sur vos pages, puis créez des caractéristiques spécifiques pour leur comportement. Éliminez la nécessité de créer des caractéristiques « uniquement au cas par cas » et de se concentrer sur les signaux pertinents.
-* **Évitez la perte de données**. Renseignez les caractéristiques avec des realizations historiques afin de ne pas manquer les segments d&#39;audience car vous n&#39;avez pas créé de caractéristiques avant de recevoir les signaux.
+* **Évitez la perte de données**. Renseignez les caractéristiques avec des realizations historiques afin de ne pas manquer les segments d'audience car vous n'avez pas créé de caractéristiques avant de recevoir les signaux.
 * **Améliorez votre flux de travaux**. Identifiez les tendances de Discover et transformez-les rapidement en caractéristiques exploitables.
 
 ## Cas d’utilisation {#use-cases-data-explorer}
 
 ### Exemple 1
 
-Un détaillant électronique mondial présente un volume élevé de trafic des visiteurs, mais les taux de conversion sont inférieurs à prévu, bien qu&#39;ils aient optimisé le contenu pour plusieurs plateformes. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. L&#39;entreprise peut exploiter ces informations en actualisant son stock et en ciblant ces visiteurs avec des campagnes personnalisées.
+Un détaillant électronique mondial présente un volume élevé de trafic des visiteurs, mais les taux de conversion sont inférieurs à prévu, bien qu'ils aient optimisé le contenu pour plusieurs plateformes. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. L'entreprise peut exploiter ces informations en actualisant son stock et en ciblant ces visiteurs avec des campagnes personnalisées.
 
 ### Exemple 2
 
-Lorsqu&#39;un fournisseur de services de voyage ajoute de nouvelles destinations à son site Web de réservation, il souhaite les publier sur les audiences historiques, bien qu&#39;elles ne possèdent aucune caractéristique pour elles. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Créez ensuite de nouveaux segments avec les nouvelles caractéristiques et ciblez-les immédiatement avec des campagnes dédiées.
+Lorsqu'un fournisseur de services de voyage ajoute de nouvelles destinations à son site Web de réservation, il souhaite les publier sur les audiences historiques, bien qu'elles ne possèdent aucune caractéristique pour elles. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Créez ensuite de nouveaux segments avec les nouvelles caractéristiques et ciblez-les immédiatement avec des campagnes dédiées.
