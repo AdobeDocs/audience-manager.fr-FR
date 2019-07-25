@@ -13,7 +13,7 @@ source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
 
 # Unique User Reach{#unique-user-reach}
 
-Le rapport Portée utilisateur unique renvoie les données dans un graphique à bulles. Chaque bulle est dimensionnée proportionnellement au nombre d&#39;utilisateurs uniques pour les unités d&#39;annonce sélectionnées. Une bulle plus grande indique une plus grande portée qu&#39;une bulle plus petite. Le rapport Portée utilisateur unique vous aide à trouver l&#39;unité publicitaire qui fournit la portée la plus large à vos utilisateurs ciblés.
+Le rapport Portée utilisateur unique renvoie les données dans un graphique à bulles. Chaque bulle est dimensionnée proportionnellement au nombre d'utilisateurs uniques pour les unités d'annonce sélectionnées. Une bulle plus grande indique une plus grande portée qu'une bulle plus petite. Le rapport Portée utilisateur unique vous aide à trouver l'unité publicitaire qui fournit la portée la plus large à vos utilisateurs ciblés.
 
 ## Cas d’utilisation {#use-cases}
 
@@ -36,6 +36,6 @@ Your [!UICONTROL Unique User Reach] report could look similar to the one below. 
 | Élément | Description |
 |--- |--- |
 | Valeur de dimension | Nom de la propriété web. |
-| Type de dimension | Type de dimension de l&#39;éditeur. Actuellement, nous ne prenons en charge que les unités publicitaires comme type de dimension. |
-| Impressions | nombre d&#39;impressions diffusées pour votre propriété web dans la plage de recherche indiquée. |
-| Portée unique | nombre unique d&#39;utilisateurs atteints par les impressions sur vos propriétés Web. |
+| Type de dimension | Type de dimension de l'éditeur. Actuellement, nous ne prenons en charge que les unités publicitaires comme type de dimension. |
+| Impressions | nombre d'impressions diffusées pour votre propriété web dans la plage de recherche indiquée. |
+| Portée unique | nombre unique d'utilisateurs atteints par les impressions sur vos propriétés Web. |
