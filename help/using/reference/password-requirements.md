@@ -13,7 +13,7 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-Audience Manager peut être configuré pour expirer les mots de passe tous les 30 jours. Pour activer l&#39;expiration du mot de passe, contactez votre consultant Audience Manager ou le service d&#39;assistance clientèle. Reportez-vous à cette section pour connaître les exigences en matière de mot de passe et comment récupérer un mot de passe perdu ou oublié.
+Audience Manager peut être configuré pour expirer les mots de passe tous les 30 jours. Pour activer l'expiration du mot de passe, contactez votre consultant Audience Manager ou le service d'assistance clientèle. Reportez-vous à cette section pour connaître les exigences en matière de mot de passe et comment récupérer un mot de passe perdu ou oublié.
 
 <!-- 
 
@@ -68,7 +68,7 @@ For information about resetting your password, see [Edit Your Account Settings](
 
 **Verrouillage du compte**
 
-Les comptes sont verrouillés après 5 tentatives d&#39;ouverture de session infructueuses. Contact your company&#39;s [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
+Les comptes sont verrouillés après 5 tentatives d'ouverture de session infructueuses. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
 
 **Mot de passe perdu/oublié**
 
