@@ -13,13 +13,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Cas d’utilisation graphiques des périphériques externes {#external-device-graph-use-cases}
 
-Recommandations et cas d&#39;utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de Audience Manager. This includes the [!DNL Adobe Experience Cloud Device Co-op] and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
+Recommandations et cas d'utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de Audience Manager. This includes the [!DNL Adobe Experience Cloud Device Co-op] and other integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 
 ## Recommandations {#recommendations}
 
 Consider the [!DNL Experience Cloud Device Co-op] and third-party device graph options for campaigns that:
 
-* Un faible niveau d&#39;authentification dans leurs propriétés numériques. Use the [Profile Link device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a large number of authenticated users.
+* Un faible niveau d'authentification dans leurs propriétés numériques. Use the [Profile Link device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a large number of authenticated users.
 * Ciblez les audiences volumineuses. The [!DNL Experience Cloud Device Co-op] and third-party device graphs contain authenticated and un-authenticated data.
 * Segmenter les visiteurs authentifiés et/ou non authentifiés au niveau individuel et du foyer.
 
@@ -61,7 +61,7 @@ Une campagne de marque est conçue pour atteindre autant de personnes que possib
 
 ## Retargeting or Site Personalization Use Case {#retargeting-use-case}
 
-Ces stratégies sont conçues pour amener un utilisateur non authentifié ou inconnu sur votre site ou pour personnaliser son expérience de navigation pendant qu&#39;il est sur le site.
+Ces stratégies sont conçues pour amener un utilisateur non authentifié ou inconnu sur votre site ou pour personnaliser son expérience de navigation pendant qu'il est sur le site.
 
 <table id="table_0EE2052AA3E744B3B76036FC06B5A453"> 
  <thead> 
@@ -95,7 +95,7 @@ Ces stratégies sont conçues pour amener un utilisateur non authentifié ou inc
 
 ## Profile Merge Rule Options for External Device Graph Use Cases {#profile-merge}
 
-Les options de règle de fusion pour ces cas d&#39;utilisation ressemblent à celles présentées ci-dessous. The [!UICONTROL Authenticated Profile] options are deactivated because these settings are only available when you select **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**. Your [!UICONTROL Device Options] will vary depending on the type of device graph setting that you want to use or that is available to you.
+Les options de règle de fusion pour ces cas d'utilisation ressemblent à celles présentées ci-dessous. The [!UICONTROL Authenticated Profile] options are deactivated because these settings are only available when you select **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**. Your [!UICONTROL Device Options] will vary depending on the type of device graph setting that you want to use or that is available to you.
 
 ![](assets/merge-rules-external.png)
 
@@ -103,7 +103,7 @@ For more information about how these device graph processes work, download our P
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Cas d&#39;utilisation du graphique de périphérique de lien de profil](../../features/profile-merge-rules/profile-link-use-case.md)
->* [Cas d&#39;utilisation général pour les règles de fusion de profils](../../features/profile-merge-rules/merge-rule-targeting-options.md)
+>* [Cas d'utilisation du graphique de périphérique de lien de profil](../../features/profile-merge-rules/profile-link-use-case.md)
+>* [Cas d'utilisation général pour les règles de fusion de profils](../../features/profile-merge-rules/merge-rule-targeting-options.md)
 >* [FAQ sur la fusion des profils](../../faq/faq-profile-merge.md)
 
