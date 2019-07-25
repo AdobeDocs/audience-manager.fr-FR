@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Ad Unit Overlap{#ad-unit-overlap}
 
-**[!UICONTROL Ad Unit Overlap]** Le rapport s&#39;affiche sous la forme d&#39;un graphique à chaud qui met en surbrillance les zones hautes et basses entre les unités publicitaires.
+**[!UICONTROL Ad Unit Overlap]** Le rapport s'affiche sous la forme d'un graphique à chaud qui met en surbrillance les zones hautes et basses entre les unités publicitaires.
 
 ## Cas d’utilisation {#use-cases}
 
@@ -21,7 +21,7 @@ With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into wher
 
 ## Using the Ad Unit Overlap Report {#using-the-report}
 
-Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d&#39;eux.
+Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d'eux.
 
 Use the **Day Range** and **Date Through** controls to adjust your look-back range. Notez que les périodes de recherche de 7 et 30 jours ne sont disponibles que pour les dates dimanche.
 
@@ -33,7 +33,7 @@ Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** c
 
 ## Interpreting the Results {#interpreting-results}
 
-Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Passez la souris sur une cellule pour obtenir plus d&#39;informations sur ce chevauchement particulier. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l&#39;exemple de rapport.
+Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Passez la souris sur une cellule pour obtenir plus d'informations sur ce chevauchement particulier. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l'exemple de rapport.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
