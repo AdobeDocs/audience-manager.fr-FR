@@ -13,7 +13,7 @@ source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
 # Obsolescence du protocole TLS 1.0{#tls-deprecation}
 
-Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communications sécurisé entre deux systèmes. Il permet d&#39;authentifier un ou les deux systèmes, et protège la confidentialité et l&#39;intégrité des informations transmises entre les systèmes. En mai 2018, il existe trois versions du protocole TLS en cours d&#39;utilisation : TLS 1.0, 1.1 et 1.2.
+Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communications sécurisé entre deux systèmes. Il permet d'authentifier un ou les deux systèmes, et protège la confidentialité et l'intégrité des informations transmises entre les systèmes. En mai 2018, il existe trois versions du protocole TLS en cours d'utilisation : TLS 1.0, 1.1 et 1.2.
 
 In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users that use browsers which only support [!DNL TLS 1.0]. In fact, we recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. For more information, visit [this Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
