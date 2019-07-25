@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}
 
-Cette page décrit la variation des totaux d&#39;utilisateurs uniques entre les rapports pour la même caractéristique et la même période.
+Cette page décrit la variation des totaux d'utilisateurs uniques entre les rapports pour la même caractéristique et la même période.
 
 <!-- 
 
@@ -21,17 +21,17 @@ c_unique_user_counts.xml
 
  -->
 
-## Rapport de chevauchement : Nombre d&#39;utilisateurs uniques
+## Rapport de chevauchement : Nombre d'utilisateurs uniques
 
-Les rapports de chevauchement comptabilisent les utilisateurs comme uniques lorsqu&#39;ils remplissent les critères d&#39;une caractéristique :
+Les rapports de chevauchement comptabilisent les utilisateurs comme uniques lorsqu'ils remplissent les critères d'une caractéristique :
 
-* Pendant l&#39;intervalle sélectionné pour le rapport.
+* Pendant l'intervalle sélectionné pour le rapport.
 * That has a [time-to-live](../features/traits/segment-ttl-explained.md) value longer than the selected time interval for the report.
-* S&#39;ils sont considérés comme actifs dans notre système (c&#39;est-à-dire qualifiés pour toute autre caractéristique, avaient une synchronisation des identifiants, etc.) au cours des 60 derniers jours.
+* S'ils sont considérés comme actifs dans notre système (c'est-à-dire qualifiés pour toute autre caractéristique, avaient une synchronisation des identifiants, etc.) au cours des 60 derniers jours.
 
-## Rapport général : Nombre d&#39;utilisateurs uniques
+## Rapport général : Nombre d'utilisateurs uniques
 
-Le rapport Général compte les visiteurs du site comme uniques s&#39;ils sont qualifiés pour la caractéristique durant la période sélectionnée.
+Le rapport Général compte les visiteurs du site comme uniques s'ils sont qualifiés pour la caractéristique durant la période sélectionnée.
 
 >[!MORE_ LIKE_ THIS]
 >
