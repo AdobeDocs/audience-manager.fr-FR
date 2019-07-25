@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Publisher Use Cases{#publisher-use-cases}
 
-Notez certains besoins courants de l&#39;éditeur qui sont satisfaits par Adobe Audience Manager.
+Notez certains besoins courants de l'éditeur qui sont satisfaits par Adobe Audience Manager.
 
 <!-- 
 
@@ -21,7 +21,7 @@ c_pub_use_case.xml
 
  -->
 
-**Unifier la vue de l&#39;utilisateur et mettre en surbrillance l&#39;audience**
+**Unifier la vue de l'utilisateur et mettre en surbrillance l'audience**
 
 <table id="table_7051791195CE41B49173BBF9E581BFB6"> 
  <thead> 
@@ -44,7 +44,7 @@ c_pub_use_case.xml
  </tbody> 
 </table>
 
-**Création de segments d&#39;audience avec des données d&#39;analyse propriétaires**
+**Création de segments d'audience avec des données d'analyse propriétaires**
 
 <table id="table_EE77D9F5BAD1473C8E058EE778AF2C3F"> 
  <thead> 
@@ -96,9 +96,9 @@ c_pub_use_case.xml
  </tbody> 
 </table>
 
-**Amélioration de l&#39;extension de portée hors site**
+**Amélioration de l'extension de portée hors site**
 
-Ce cas d&#39;utilisation fonctionne avec les données Analytics propriétaires envoyées à une plateforme côté demande (DSP).
+Ce cas d'utilisation fonctionne avec les données Analytics propriétaires envoyées à une plateforme côté demande (DSP).
 
 <table id="table_F88329D45D9441F1A8EDB9D6140FD02D"> 
  <thead> 
