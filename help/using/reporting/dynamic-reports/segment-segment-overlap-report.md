@@ -13,7 +13,7 @@ source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
 # Rapport de chevauchement de segments{#segment-to-segment-overlap-report}
 
-Renvoie des données sur le nombre d&#39;utilisateurs uniques partagés entre vos segments.
+Renvoie des données sur le nombre d'utilisateurs uniques partagés entre vos segments.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ c_segment_segment_overlap.xml
 
 The [!UICONTROL Segment-to-Segment Overlap] report can help you:
 
-* Identifiez les segments présentant un chevauchement élevé ou élevé en fonction de vos besoins. Les caractéristiques présentant un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un chevauchement faible peuvent s&#39;avérer utiles pour atteindre un jeu de visiteurs unique plus large.
+* Identifiez les segments présentant un chevauchement élevé ou élevé en fonction de vos besoins. Les caractéristiques présentant un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un chevauchement faible peuvent s'avérer utiles pour atteindre un jeu de visiteurs unique plus large.
 * Recherchez un chevauchement inattendu et utilisez ces informations pour créer de nouveaux segments hautes performances.
 
 ## Exemple de rapport
@@ -59,9 +59,9 @@ The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the me
 | Mesure | Description |
 |---|---|
 | **[!UICONTROL Segment ID1]** | Identifiant numérique unique du segment qui apparaît dans les résultats du rapport. Apparaît comme identifiant de ligne du segment. |
-| **[!UICONTROL Segment ID2]** | Identifiant numérique unique du segment sélectionné lors de l&#39;exécution du rapport. Apparaît comme ID de colonne du segment. |
+| **[!UICONTROL Segment ID2]** | Identifiant numérique unique du segment sélectionné lors de l'exécution du rapport. Apparaît comme ID de colonne du segment. |
 | **[!UICONTROL Segment Name1]** | Nom du segment qui apparaît dans la ligne des résultats du rapport. |
-| **[!UICONTROL Segment Name2]** | Nom du segment que vous sélectionnez lors de l&#39;exécution du rapport. Apparaît dans la colonne des résultats du rapport. |
+| **[!UICONTROL Segment Name2]** | Nom du segment que vous sélectionnez lors de l'exécution du rapport. Apparaît dans la colonne des résultats du rapport. |
 | **[!UICONTROL Overlap %]** | Pour obtenir le chevauchement %, Audience Manager utilise la formule suivante : Chevauchement des valeurs uniques/(segment de base + chevauchement des segments - uniques se chevauchant) |
 | **[!UICONTROL Overlap Uniques]** | Nombre de visiteurs uniques partagés entre les segments comparés. |
 | **[!UICONTROL Segment Uniques1]** | Nombre de visiteurs uniques dans le segment 1. |
@@ -73,5 +73,5 @@ The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the me
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Icônes de rapport et outils expliqués](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapports de chevauchement : Mettre à jour la planification et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Taux d&#39;échantillonnage des données et taux d&#39;erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
+>* [Taux d'échantillonnage des données et taux d'erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
