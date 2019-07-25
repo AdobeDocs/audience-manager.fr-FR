@@ -11,17 +11,17 @@ source-git-commit: b8a735f1bfbd2ac450aabc3348a387aee4b58707
 ---
 
 
-# Partenaires d&#39;activation d&#39;Audience Manager
+# Partenaires d'activation d'Audience Manager
 
 This page includes current Audience Manager [server-to-server integrations](/help/using/features/destinations/manage-destinations.md#add-edit-segments) only.  For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your Adobe Consultant or Customer Care.
 
 <br> 
 
-* **Updated** = Indique la date de la dernière mise à jour de ce partenaire d&#39;activation.
-* **Unsegment** = Unsegmentation décrit les processus qui excluent et suppriment les profils de périphérique des segments. Votre capacité à supprimer un profil de périphérique d&#39;un segment dépend de l&#39;option de périphérique utilisée pour créer une règle de fusion de profils. Unsegmentation is also used in the context of GDPR delete requests Read [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners With Unsegmentation Capabilities](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager envoie les informations de non segmentation aux destinations marquées par Oui ci-dessous.
-* **Réception des signaux de l&#39;IAB TCF** = Le module Audience Manager pour IAB TCF permet de transférer la chaîne de consentement IAB TCF aux partenaires d&#39;activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
+* **Updated** = Indique la date de la dernière mise à jour de ce partenaire d'activation.
+* **Unsegment** = Unsegmentation décrit les processus qui excluent et suppriment les profils de périphérique des segments. Votre capacité à supprimer un profil de périphérique d'un segment dépend de l'option de périphérique utilisée pour créer une règle de fusion de profils. Unsegmentation is also used in the context of GDPR delete requests Read [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners With Unsegmentation Capabilities](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager envoie les informations de non segmentation aux destinations marquées par Oui ci-dessous.
+* **Réception des signaux de l'IAB TCF** = Le module Audience Manager pour IAB TCF permet de transférer la chaîne de consentement IAB TCF aux partenaires d'activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Cette colonne répertorie les partenaires qui prennent en charge la suppression instantanée de périphériques. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID de périphérique mobile** = Cette colonne répertorie les partenaires qui peuvent recevoir des ID de périphérique mobile d&#39;Audience Manager.
+* **ID de périphérique mobile** = Cette colonne répertorie les partenaires qui peuvent recevoir des ID de périphérique mobile d'Audience Manager.
 
 <br> 
 
@@ -59,7 +59,7 @@ This page includes current Audience Manager [server-to-server integrations](/hel
 | Clearstream. tv | 27/02/2017 | Oui | Non | Non | Non |
 | Plateforme AMP collective | 27/02/2017 | Non | Non | Non | Non |
 | Criteo | 27/02/2017 | Non | Oui | Non | Oui |
-| Dans l&#39;ordre | 27/02/2017 | Oui | Non | Non | Non |
+| Dans l'ordre | 27/02/2017 | Oui | Non | Non | Non |
 | D.A.C. audienceone | 27/02/2017 | Oui | Non | Non | Non |
 | Dataxu | 11/20/2017 | Non | Non | Non | Oui |
 | Digilant | 02/03/2017 |  | Non | Non | Non |
