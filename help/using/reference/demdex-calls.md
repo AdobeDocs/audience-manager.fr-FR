@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Signification des appels vers le domaine Demdex{#understanding-calls-to-the-demdex-domain}
 
-Audience Manager et le service Experience Cloud ID effectuent des appels au domaine demdex.net et en reçoivent des données. Cela peut sembler qu&#39;Adobe fonctionne avec un domaine tiers inhabituel, mais ce n&#39;est pas le cas. Cette section décrit les éléments d&#39;un appel demdex. net.
+Audience Manager et le service Experience Cloud ID effectuent des appels au domaine demdex.net et en reçoivent des données. Cela peut sembler qu'Adobe fonctionne avec un domaine tiers inhabituel, mais ce n'est pas le cas. Cette section décrit les éléments d'un appel demdex. net.
 
 <table id="table_B846CBEDDA4C4AD19416F7C27FC325C6"> 
  <thead> 
