@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Formatting Key-Value Pairs in DCS Calls {#formatting-key-value-pairs-in-dcs-calls}
 
-When making a call, the [!UICONTROL DCS] accepts key-value data in standard or serialized format. Consultez cette section pour plus d&#39;informations sur la mise en forme des données standard et sérialisées de valeurs de clé.
+When making a call, the [!UICONTROL DCS] accepts key-value data in standard or serialized format. Consultez cette section pour plus d'informations sur la mise en forme des données standard et sérialisées de valeurs de clé.
 
 ## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
