@@ -76,6 +76,6 @@ For example, if the first file in the sequence were named: [!DNL ftp_12345_67890
 >
 > The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
 >
-> Les tailles d&#39;octets des fichiers et du nombre de lignes incluent les lignes/lignes d&#39;en-tête et d&#39;espacement (vides). Pour obtenir le décompte des lignes/lignes de données réelles, soustrayez les en-têtes.
+> Les tailles d'octets des fichiers et du nombre de lignes incluent les lignes/lignes d'en-tête et d'espacement (vides). Pour obtenir le décompte des lignes/lignes de données réelles, soustrayez les en-têtes.
 >
-> Les lignes totales par lot et la taille totale des octets sont incluses dans les en-têtes et les rangées d&#39;espacement.
+> Les lignes totales par lot et la taille totale des octets sont incluses dans les en-têtes et les rangées d'espacement.
