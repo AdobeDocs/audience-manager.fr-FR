@@ -18,13 +18,13 @@ In [!UICONTROL Segment Builder], recency and frequency let you segment visitors 
 Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
 
 * **[!UICONTROL Recency]:** Nombre de jours pendant lesquels un utilisateur a affiché ou qualifié une ou plusieurs caractéristiques.
-* **[!UICONTROL Frequency]:** Taux d&#39;affichage ou de qualification d&#39;un utilisateur pour une ou plusieurs caractéristiques.
+* **[!UICONTROL Frequency]:** Taux d'affichage ou de qualification d'un utilisateur pour une ou plusieurs caractéristiques.
 
-[!UICONTROL Recency] et [!UICONTROL Frequency] les paramètres vous aident à segmenter les visiteurs en fonction de leur niveau réel (ou perçu) d&#39;intérêt dans un site, une section ou un élément créatif particulier. Par exemple, les utilisateurs qui remplissent les critères d&#39;un segment avec des exigences de récence/fréquence élevées peuvent être plus intéressés par un site ou un produit que les utilisateurs qui visitent moins souvent ou moins souvent.
+[!UICONTROL Recency] et [!UICONTROL Frequency] les paramètres vous aident à segmenter les visiteurs en fonction de leur niveau réel (ou perçu) d'intérêt dans un site, une section ou un élément créatif particulier. Par exemple, les utilisateurs qui remplissent les critères d'un segment avec des exigences de récence/fréquence élevées peuvent être plus intéressés par un site ou un produit que les utilisateurs qui visitent moins souvent ou moins souvent.
 
 ## Location of Recency and Frequency Settings {#location}
 
-In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Cliquez sur l&#39;icône représentant une horloge pour exposer ces commandes.
+In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Cliquez sur l'icône représentant une horloge pour exposer ces commandes.
 
 ![](assets/recency_frequency.png)
 
@@ -82,13 +82,13 @@ Examinez et comprenez ces limites et règles lorsque vous souhaitez appliquer la
 
 Les expressions de plafonnement de fréquence incluent tous les utilisateurs dont le nombre de realizations de caractéristiques est inférieur à la valeur souhaitée. Voici quelques exemples :
 
-* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID &quot;1000&quot; a maximum of five times, including users who have not realized the trait.
+* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.
 * When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example above, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. Cette expression inclut tous les utilisateurs qui ont réalisé la caractéristique avec l&#39;identifiant « 1000 » au moins cinq fois au moins cinq fois. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
+* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. Cette expression inclut tous les utilisateurs qui ont réalisé la caractéristique avec l'identifiant « 1000 » au moins cinq fois au moins cinq fois. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
 
 >[!MORE_ LIKE_ THIS]
 >
 >* [Commandes du créateur de segments : Section Caractéristiques](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Syntaxe du code utilisée dans l&#39;éditeur d&#39;expression de segment](../../features/segments/segment-code-syntax.md)
+>* [Syntaxe du code utilisée dans l'éditeur d'expression de segment](../../features/segments/segment-code-syntax.md)
 
