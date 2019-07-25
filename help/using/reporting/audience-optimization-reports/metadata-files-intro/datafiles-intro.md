@@ -13,29 +13,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Data Files for Audience Optimization Reports{#data-files-for-audience-optimization-reports}
 
-Un fichier de données contient des données d&#39;impression, de clic ou de conversion. Lorsque le formatage est correct, vous pouvez importer ces données dans Audience Manager et les afficher dans les rapports Optimisation d&#39;audience. Mettez en forme vos fichiers de données selon ces spécifications dans cette section.
+Un fichier de données contient des données d'impression, de clic ou de conversion. Lorsque le formatage est correct, vous pouvez importer ces données dans Audience Manager et les afficher dans les rapports Optimisation d'audience. Mettez en forme vos fichiers de données selon ces spécifications dans cette section.
 
 ## Aperçu {#overview}
 
-A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. Ce processus nécessite des fichiers distincts pour les données d&#39;impression, de clic et de conversion. Ne mixez pas ces événements dans un seul fichier.
+A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. Ce processus nécessite des fichiers distincts pour les données d'impression, de clic et de conversion. Ne mixez pas ces événements dans un seul fichier.
 
-Un fichier de données doit être accompagné d&#39;un fichier de métadonnées. Le contenu du fichier de métadonnées correspond aux informations sur le fichier de données aux libellés humainement lisibles dans les menus des rapports. For more information, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Un fichier de données doit être accompagné d'un fichier de métadonnées. Le contenu du fichier de métadonnées correspond aux informations sur le fichier de données aux libellés humainement lisibles dans les menus des rapports. For more information, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 ## Naming Conventions for Data Files {#naming-conventions}
 
-La syntaxe suivante définit la structure d&#39;un fichier de données bien formaté. Note, *italics* indicates a variable placeholder that changes depending on the file contents.
+La syntaxe suivante définit la structure d'un fichier de données bien formaté. Note, *italics* indicates a variable placeholder that changes depending on the file contents.
 
 **Syntaxe :** <pre><code><i>event type</i>_<i>yyyymmjj</i></code></pre>
 
 Dans un fichier - name :
 
-* Le type d&#39;événement indique que le fichier contient des impressions, des clics ou des conversions. Créez un fichier distinct pour chaque type d&#39;événement.
-* Un trait de soulignement sépare le type d&#39;événement et un horodatage de date-mois.
+* Le type d'événement indique que le fichier contient des impressions, des clics ou des conversions. Créez un fichier distinct pour chaque type d'événement.
+* Un trait de soulignement sépare le type d'événement et un horodatage de date-mois.
 * Before uploading, compress your files using gzip and save them with the `.gz` file extension.
 
 Selon ces exigences, nommez vos fichiers de données en fonction de leur contenu :
 
-* Données d&#39;impression : <pre><code>impressions_<i>aaaammjj<i>.gz</code></pre>
+* Données d'impression : <pre><code>impressions_<i>aaaammjj<i>.gz</code></pre>
 * Données de clic : <pre><code>clics_<i>aaaammjj</i>.gz</code></pre>
 * Données de conversion : <pre><code>conversions_<i>aaaammjj</i>.gz</code></pre>
 
@@ -43,12 +43,12 @@ Selon ces exigences, nommez vos fichiers de données en fonction de leur contenu
 
 La syntaxe suivante définit la structure de contenu dans un fichier de données bien structuré. Note, *italics* indicates a variable placeholder and is replaced with an label in an actual data file.
 
-**Syntaxe :** <pre><code><i>libellé d&#39;en-tête 1</i> | <i>libellé d&#39;en-tête 2</i> … <i>libellé d&#39;en-tête n</i> | <i>version</i></code></pre>
+**Syntaxe :** <pre><code><i>libellé d'en-tête 1</i> | <i>libellé d'en-tête 2</i> … <i>libellé d'en-tête n</i> | <i>version</i></code></pre>
 
 Dans le contenu du fichier :
 
-* Les étiquettes d&#39;en-tête doivent apparaître dans l&#39;ordre, comme illustré dans le tableau ci-dessous. Les impressions et les clics utilisent les mêmes étiquettes. Les fichiers de conversion contiennent des en-têtes supplémentaires.
-* If you don&#39;t have data for a particular column, populate that field with a `NULL` object or `-1`.
+* Les étiquettes d'en-tête doivent apparaître dans l'ordre, comme illustré dans le tableau ci-dessous. Les impressions et les clics utilisent les mêmes étiquettes. Les fichiers de conversion contiennent des en-têtes supplémentaires.
+* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`.
 
 * Files *must* end with a version number. La version actuelle est 1.1.
 * Séparez les en-têtes et contenus du fichier par le caractère ASCII 001 non imprimable. Si vous ne pouvez pas utiliser ASCII 001, séparez les en-têtes et les données par un délimiteur de tabulation. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
@@ -139,11 +139,11 @@ Le tableau ci-dessous répertorie et décrit les en-têtes de colonne de votre f
 
 ## Delivery Methods for Data Files {#delivery-methods}
 
-Upload your impression, click, or conversion data files to an Amazon S3 directory for your [!DNL Audience Manager] account. Pour plus d&#39;informations sur les chemins de distribution/répertoire, les temps de traitement des fichiers et les mises à jour, reportez-vous à cette section.
+Upload your impression, click, or conversion data files to an Amazon S3 directory for your [!DNL Audience Manager] account. Pour plus d'informations sur les chemins de distribution/répertoire, les temps de traitement des fichiers et les mises à jour, reportez-vous à cette section.
 
 **Syntaxe des chemins de livraison et exemples**
 
-Les données sont stockées dans un namespace de noms distinct pour chaque client dans un annuaire Amazon S 3. Le chemin d&#39;accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
+Les données sont stockées dans un namespace de noms distinct pour chaque client dans un annuaire Amazon S 3. Le chemin d'accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
 **Syntaxe :** <pre><code>…/log_ ingestion/pid = <i>AAM ID<i>/dpid = <i>d_ src</i>/logs/ <i>file type</i>_<i>yyyymmjj</i></code></pre>
 
@@ -190,7 +190,7 @@ Lorsque vous téléchargez un fichier, le chemin ressemble à celui-ci :
 
 Les fichiers de données sont traités quatre fois par jour, à intervalles réguliers.
 
-Pour mettre à jour vos données, envoyez un fichier contenant toutes les impressions, clics ou conversions pour un jour donné. Dans ce cas, un jour est la période de 24 heures d&#39;une minuit à l&#39;autre. Il est recommandé d&#39;utiliser l&#39;heure UTC pour définir l&#39;intervalle de journée.
+Pour mettre à jour vos données, envoyez un fichier contenant toutes les impressions, clics ou conversions pour un jour donné. Dans ce cas, un jour est la période de 24 heures d'une minuit à l'autre. Il est recommandé d'utiliser l'heure UTC pour définir l'intervalle de journée.
 
 ## Étapes suivantes {#next-steps}
 
