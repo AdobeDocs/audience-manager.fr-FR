@@ -14,8 +14,8 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 Laissez les champs de clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
 
-Utilisez cette méthode lorsque vous n&#39;avez pas de paire clé-valeur spécifique à l&#39;esprit, mais souhaitez voir l&#39;évolution de plusieurs signaux sur une période spécifique.
+Utilisez cette méthode lorsque vous n'avez pas de paire clé-valeur spécifique à l'esprit, mais souhaitez voir l'évolution de plusieurs signaux sur une période spécifique.
 
-Dans l&#39;exemple ci-dessous, les filtres sont configurés pour afficher tous les signaux inutilisés des 30 derniers jours avec un nombre minimum de 1000.
+Dans l'exemple ci-dessous, les filtres sont configurés pour afficher tous les signaux inutilisés des 30 derniers jours avec un nombre minimum de 1000.
 
 ![](assets/signals-search-filters.png)
