@@ -22,7 +22,7 @@ The [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_
 * The [!UICONTROL user ID] is required to identify and associate data with a particular visitor.
 * The [!UICONTROL region ID] is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. Voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (DCS Region IDs, Locations, and Host Names).
 
-Les clients du service d&#39;ID peuvent extraire ces informations du cookie du service d&#39;ID ou en appelant une fonction. Le tableau ci-dessous décrit les tâches ou les étapes que vous devez effectuer pour commencer.
+Les clients du service d'ID peuvent extraire ces informations du cookie du service d'ID ou en appelant une fonction. Le tableau ci-dessous décrit les tâches ou les étapes que vous devez effectuer pour commencer.
 
 Code in *italics* represents a variable placeholder.
 
@@ -59,13 +59,13 @@ Code in *italics* represents a variable placeholder.
 
 ## Working With `getMarketingCloudVisitorID` {#working-with-getmarketingcloudvisitorid}
 
-Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepte l&#39;argument facultatif `callback` comme indiqué :
+Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepte l'argument facultatif `callback` comme indiqué :
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
 ### Callback Usage and Purpose {#callback-usage}
 
-`callback` est facultative. This function works without it, but returns an ID only when a visitor has a [!DNL Experience Cloud] cookie in their browser. If the visitor cookie is missing, or a visitor doesn&#39;t have an ID, the function returns an empty `()` object. Cela peut se produire même après le chargement de la page et un nouvel identifiant. To avoid this, `callback` forces this function to check for a visitor ID after the page loads. Without `callback`, the visitor ID function won&#39;t return an ID even if it&#39;s written to the visitor&#39;s browser later.
+`callback` est facultative. This function works without it, but returns an ID only when a visitor has a [!DNL Experience Cloud] cookie in their browser. If the visitor cookie is missing, or a visitor doesn't have an ID, the function returns an empty `()` object. Cela peut se produire même après le chargement de la page et un nouvel identifiant. To avoid this, `callback` forces this function to check for a visitor ID after the page loads. Without `callback`, the visitor ID function won't return an ID even if it's written to the visitor's browser later.
 
 ## Étapes suivantes {#next-steps}
 
