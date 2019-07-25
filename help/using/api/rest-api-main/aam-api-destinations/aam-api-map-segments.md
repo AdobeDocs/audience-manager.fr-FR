@@ -19,7 +19,7 @@ Map segments to destinations with these [!DNL RESTful API] methods.
 
 ## Types de destination pris en charge : URL et cookie uniquement
 
-The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Utilisez plutôt l&#39;interface utilisateur. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Utilisez plutôt l'interface utilisateur. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
 
 >[!MORE_ LIKE_ THIS]
 >
