@@ -13,7 +13,7 @@ source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 # Rapport de chevauchement de segments et de caractéristiques{#segment-to-trait-overlap-report}
 
-Renvoie des données sur le nombre d&#39;utilisateurs uniques partagés entre une caractéristique particulière et un segment entier.
+Renvoie des données sur le nombre d'utilisateurs uniques partagés entre une caractéristique particulière et un segment entier.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ c_segment_trait_overlap.xml
 
 ## Aperçu
 
-As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. Par exemple, vous pouvez créer des segments et caractéristiques ciblés avec un chevauchement élevé pour atteindre une audience particulière. Cependant, un chevauchement important peut impliquer moins d&#39;utilisateurs uniques (moins de portée). L&#39;exécution de ce rapport pour accroître la portée en supprimant les caractéristiques avec un fort chevauchement de segments et en les remplaçant par des caractéristiques qui se chevauchent moins.
+As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. Par exemple, vous pouvez créer des segments et caractéristiques ciblés avec un chevauchement élevé pour atteindre une audience particulière. Cependant, un chevauchement important peut impliquer moins d'utilisateurs uniques (moins de portée). L'exécution de ce rapport pour accroître la portée en supprimant les caractéristiques avec un fort chevauchement de segments et en les remplaçant par des caractéristiques qui se chevauchent moins.
 
 ### Exemple de rapport
 
@@ -57,14 +57,14 @@ Le diagramme suivant illustre la relation entre une caractéristique et le segme
 
 ![](assets/s2t.png)
 
-Le nombre de visiteurs uniques est la valeur constante commune partagée entre ces différentes classes d&#39;objets. Par conséquent, vous pouvez déterminer la relation des visiteurs uniques entre eux, comme suit :
+Le nombre de visiteurs uniques est la valeur constante commune partagée entre ces différentes classes d'objets. Par conséquent, vous pouvez déterminer la relation des visiteurs uniques entre eux, comme suit :
 
 * La caractéristique partage 30 % de ses visiteurs uniques avec le segment (3/10 = 0.30).
 * Le segment partage 0,3 % de ses visiteurs uniques avec la caractéristique (1 000 = 0,003)
 
 ### Rechercher une valeur dans les comparaisons de caractéristiques
 
-L&#39;examen du chevauchement entre les caractéristiques et les segments peut vous aider à estimer le pool de visiteurs total disponible (prévisions) ou à trouver des segments inefficaces avec trop de chevauchement.
+L'examen du chevauchement entre les caractéristiques et les segments peut vous aider à estimer le pool de visiteurs total disponible (prévisions) ou à trouver des segments inefficaces avec trop de chevauchement.
 
 <table id="table_5B211EF95216426299EB20253A5A9C1B"> 
  <thead> 
@@ -182,5 +182,5 @@ The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metr
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Icônes de rapport et outils expliqués](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapports de chevauchement : Mettre à jour la planification et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Taux d&#39;échantillonnage des données et taux d&#39;erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
+>* [Taux d'échantillonnage des données et taux d'erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
