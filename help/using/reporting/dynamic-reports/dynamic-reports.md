@@ -13,7 +13,7 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 
 # Interactive and Overlap Reports{#interactive-and-overlap-reports}
 
-Les rapports interactifs affichent des données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d&#39;utiliser des nombres organisés en colonnes et lignes, ces rapports renvoient des données à l&#39;aide de différentes formes, couleurs et tailles. En outre, vous pouvez choisir des groupes de données ou des groupes de points de données et les analyser pour plus d&#39;informations. Ces techniques de visualisation et l&#39;interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
+Les rapports interactifs affichent des données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d'utiliser des nombres organisés en colonnes et lignes, ces rapports renvoient des données à l'aide de différentes formes, couleurs et tailles. En outre, vous pouvez choisir des groupes de données ou des groupes de points de données et les analyser pour plus d'informations. Ces techniques de visualisation et l'interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
 
 + [Technologie des rapports](interactive-report-technology.md)
 + [Rapport de remise et de performance](delivery-performance-report.md)
