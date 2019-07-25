@@ -24,8 +24,8 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 [!UICONTROL Segment Builder] comprend 3 sections distinctes : [!UICONTROL Basic Information], [!UICONTROL Traits]et [!UICONTROL Destinations Mapping]. To create a segment, complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. [!UICONTROL Destinations Mapping] sont facultatifs. Pour obtenir une aide supplémentaire, reportez-vous aux instructions ci-dessous.
 
 1. In the [Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics) section:
-   * Nommez le segment. La longueur maximale d&#39;un nom de segment est de 255 caractères.
-   * Définissez l&#39;état du segment (actif est par défaut).
+   * Nommez le segment. La longueur maximale d'un nom de segment est de 255 caractères.
+   * Définissez l'état du segment (actif est par défaut).
    * Choisissez une source de données.
    * Sélectionnez une règle de fusion de profil à utiliser pour la qualification des segments.
    * Affectez le segment à un dossier de stockage.
@@ -39,7 +39,7 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
    * Affichez les données de population de segments au fur et à mesure que vous ajoutez ou supprimez des caractéristiques. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#segment-populations) in the Segment Builder.
    * Click **[!UICONTROL Save]** when done.
 1. *(Facultatif)* Mappez un segment à une destination dans [la section Mappage](../../features/segments/segment-builder.md#segment-builder-controls-destinations) de destination :
-   * Search for the destination and click **[!UICONTROL Add Destination]**. Remarque : la destination doit déjà exister avant de pouvoir l&#39;ajouter à un segment.
+   * Search for the destination and click **[!UICONTROL Add Destination]**. Remarque : la destination doit déjà exister avant de pouvoir l'ajouter à un segment.
    * Click **[!UICONTROL Save]** when done.
 
 ## Segment Builder Controls: Basic Information Section {#segment-builder-controls-basics}
@@ -97,20 +97,20 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 
 | Champ | Description |
 |--- |--- |
-| Vue de base | Cette section propose des commandes visuelles qui vous permettent d&#39;effectuer les opérations suivantes : <ul><li>Créez et gérez des segments existants.</li><li>Supprimez les caractéristiques d&#39;un segment.</li><li>Ajoute jusqu&#39;à 50 caractéristiques (maximum) à un segment.</li><li>Faites glisser des caractéristiques pour créer des groupes.</li><li>Affichez les caractéristiques et les groupes de caractéristiques dans un segment.</li><li>Définissez les critères de qualification avec les expressions booléennes, les opérateurs de comparaison et les paramètres récence/fréquence.</li></ul> |
-| Affichage du code | Ouvre un environnement de développement qui vous permet de créer et de gérer des caractéristiques, des groupes et des exigences de qualification avec le code au lieu de l&#39;interface visuelle. L&#39;affichage du code est utile si vos segments sont les suivants : <ul><li>Contient plus de 50 caractéristiques dans un segment individuel. Remarque : Les segments sont limités à 5 000 caractéristiques (maximum).</li><li>Contient de nombreux groupes de caractéristiques.</li><li>Posséder des conditions de qualification complexes.</li></ul> |
+| Vue de base | Cette section propose des commandes visuelles qui vous permettent d'effectuer les opérations suivantes : <ul><li>Créez et gérez des segments existants.</li><li>Supprimez les caractéristiques d'un segment.</li><li>Ajoute jusqu'à 50 caractéristiques (maximum) à un segment.</li><li>Faites glisser des caractéristiques pour créer des groupes.</li><li>Affichez les caractéristiques et les groupes de caractéristiques dans un segment.</li><li>Définissez les critères de qualification avec les expressions booléennes, les opérateurs de comparaison et les paramètres récence/fréquence.</li></ul> |
+| Affichage du code | Ouvre un environnement de développement qui vous permet de créer et de gérer des caractéristiques, des groupes et des exigences de qualification avec le code au lieu de l'interface visuelle. L'affichage du code est utile si vos segments sont les suivants : <ul><li>Contient plus de 50 caractéristiques dans un segment individuel. Remarque : Les segments sont limités à 5 000 caractéristiques (maximum).</li><li>Contient de nombreux groupes de caractéristiques.</li><li>Posséder des conditions de qualification complexes.</li></ul> |
 | Outils | Permet de trouver des caractéristiques à ajouter à un segment. |
 | Recommandations | Obtenez des recommandations en direct pour des caractéristiques similaires à ajouter à la règle de segment. Read more in [Trait Recommendations](trait-recommendations.md). |
 | Données de taille de segment réelles et estimées | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Remove Traits from a Segment {#remove-traits}
 
-La gestion des caractéristiques dans vos segments est une étape importante de la viabilité des segments. Pour supprimer des caractéristiques d&#39;un segment, procédez comme suit :
+La gestion des caractéristiques dans vos segments est une étape importante de la viabilité des segments. Pour supprimer des caractéristiques d'un segment, procédez comme suit :
 
-Pour supprimer des caractéristiques d&#39;un segment :
+Pour supprimer des caractéristiques d'un segment :
 
 1. Go to **Audience Data &gt; Segments**. Faites défiler la liste ou utilisez la fonction de recherche pour trouver le segment avec lequel vous souhaitez travailler.
-2. Cliquez sur le nom du segment pour ouvrir l&#39;écran des détails du segment.
+2. Cliquez sur le nom du segment pour ouvrir l'écran des détails du segment.
 3. Click **Edit** to open Segment Builder and then click **Traits** to open the traits panel.
 4. Passez la souris sur la caractéristique que vous souhaitez supprimer, puis cliquez sur le X. Cette action supprime immédiatement la caractéristique de votre segment.
 
@@ -139,7 +139,7 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears
 
 >[!NOTE]
 >
->Les dates de publication sont facultatives. Lorsqu&#39;elle est vide, la destination devient active et n&#39;expire jamais.
+>Les dates de publication sont facultatives. Lorsqu'elle est vide, la destination devient active et n'expire jamais.
 
 <!-- r_add_mappings_pop.xml -->
 
@@ -149,7 +149,7 @@ In the [!UICONTROL Destination Mapping] fields, specify the key-value pairs used
 
 ![](assets/cookie_modal.PNG)
 
-### Champs de destination d&#39;URL
+### Champs de destination d'URL
 
 In the [!UICONTROL URL] and [!UICONTROL Secure URL] fields, specify the complete standard or secure address used to send data to the destination.
 
@@ -163,6 +163,6 @@ In the [!UICONTROL Destination Value] field specify the value (part of a key-val
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Création d&#39;une destination de cookie](../../features/destinations/manage-destinations.md#create-cookie-destination)
->* [Création d&#39;une destination d&#39;URL](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Création d'une destination de cookie](../../features/destinations/manage-destinations.md#create-cookie-destination)
+>* [Création d'une destination d'URL](../../features/destinations/manage-destinations.md#configure-url-destination)
 
