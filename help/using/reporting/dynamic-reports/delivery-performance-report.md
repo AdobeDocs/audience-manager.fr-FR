@@ -21,11 +21,11 @@ c_delivery_reports.xml
 
  -->
 
-The [!UICONTROL Delivery and Performance] report lets you evaluate how segments perform on different advertiser sites. En tant qu&#39;outil d&#39;optimisation, ce rapport vous aide à :
+The [!UICONTROL Delivery and Performance] report lets you evaluate how segments perform on different advertiser sites. En tant qu'outil d'optimisation, ce rapport vous aide à :
 
-* Identifiez les segments à performances élevées à réutiliser dans d&#39;autres campagnes ou sur d&#39;autres sites.
+* Identifiez les segments à performances élevées à réutiliser dans d'autres campagnes ou sur d'autres sites.
 * Recherchez et supprimez des segments des sites peu performants.
-* Analyser visuellement la taille d&#39;impression et les taux de clics publicitaires.
+* Analyser visuellement la taille d'impression et les taux de clics publicitaires.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ La fenêtre contextuelle du rapport Livraison et performance contient les mesure
 | **[!UICONTROL Segment ID]** | Identifiant numérique unique pour ce segment. |
 | **[!UICONTROL Segment Name]** | Nom du segment. |
 | **[!UICONTROL Clicks]** | Nombre de clics enregistrés pour ce segment. |
-| **[!UICONTROL Impressions]** | Nombre d&#39;impressions enregistrées pour ce segment. |
+| **[!UICONTROL Impressions]** | Nombre d'impressions enregistrées pour ce segment. |
 | **[!UICONTROL Reach]** | Nombre de visiteurs uniques. |
 | **[!UICONTROL Click Through]** | Nombre de fois où un visiteur a cliqué sur une publicité. |
 
