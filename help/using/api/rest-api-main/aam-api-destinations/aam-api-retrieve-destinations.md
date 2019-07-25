@@ -68,7 +68,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 >* *(Facultatif)* `containsSegment=<sid>` Transférez le tableau de toutes les destinations associées au segment spécifié. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`.
    >
    >
-* Ne renvoie pas l&#39;objet de destination complet. Obtenez la destination par ordre de données si vous avez besoin d&#39;un objet entièrement renseigné.
+* Ne renvoie pas l'objet de destination complet. Obtenez la destination par ordre de données si vous avez besoin d'un objet entièrement renseigné.
 
 
 ### Paramètres de requête facultatifs
@@ -177,7 +177,7 @@ You can use these optional parameters with API methods that return *all* propert
 
 ## Return Destination Mappings {#return-dest-mappings}
 
-`GET` Méthode qui renvoie les correspondances d&#39;une destination.
+`GET` Méthode qui renvoie les correspondances d'une destination.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -269,7 +269,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Return S2S and Bulk S2S Destination Job History {#return-job-history}
 
-`GET` Méthode qui renvoie les informations [!UICONTROL Server-to-Server] d&#39;historique [!UICONTROL S2S]des tâches [!UICONTROL S2S] de destination () et de destination en masse.
+`GET` Méthode qui renvoie les informations [!UICONTROL Server-to-Server] d'historique [!UICONTROL S2S]des tâches [!UICONTROL S2S] de destination () et de destination en masse.
 
 <!-- r_get_job_history.xml -->
 
