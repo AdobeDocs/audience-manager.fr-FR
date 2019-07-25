@@ -23,9 +23,9 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager] utilise [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) pour étendre les autorisations de groupe d&#39;utilisateurs aux [!UICONTROL Trend] rapports. Les utilisateurs peuvent afficher uniquement les caractéristiques et les segments dans les rapports auxquels ils sont autorisés à accéder. [!UICONTROL RBAC] vous permet de contrôler quelles données de rapport les équipes internes peuvent afficher.
+[!DNL Audience Manager] utilise [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) pour étendre les autorisations de groupe d'utilisateurs aux [!UICONTROL Trend] rapports. Les utilisateurs peuvent afficher uniquement les caractéristiques et les segments dans les rapports auxquels ils sont autorisés à accéder. [!UICONTROL RBAC] vous permet de contrôler quelles données de rapport les équipes internes peuvent afficher.
 
-Par exemple, une agence qui gère différents comptes publicitaires peut configurer les autorisations des groupes d&#39;utilisateurs de sorte qu&#39;une équipe qui gère le compte publicitaire A ne puisse pas voir les données de rapport de l&#39;annonceur B.
+Par exemple, une agence qui gère différents comptes publicitaires peut configurer les autorisations des groupes d'utilisateurs de sorte qu'une équipe qui gère le compte publicitaire A ne puisse pas voir les données de rapport de l'annonceur B.
 
 Run a [!UICONTROL Trend] report when you need to:
 
@@ -45,11 +45,11 @@ The following illustration provides a high-level overview of key elements in the
 
    **Période :** Spécifiez la plage de dates du rapport (date de début et date de fin).
 
-   **Intervalle d&#39;affichage :** Spécifiez l&#39;intervalle d&#39;affichage (1, 7, 14, 30, 60 et 90 jours).
+   **Intervalle d'affichage :** Spécifiez l'intervalle d'affichage (1, 7, 14, 30, 60 et 90 jours).
 
 2. Rechercher une caractéristique ou un segment par nom ou par identifiant.
 3. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
-4. Générez le rapport pour l&#39;afficher dans les données sous forme graphique ou exportez le rapport au format CSV.
+4. Générez le rapport pour l'afficher dans les données sous forme graphique ou exportez le rapport au format CSV.
 
 ## Run a Trend Report {#run-trend-report}
 
@@ -64,7 +64,7 @@ t_working_with_trend_reports.xml
 1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
 1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: **[!UICONTROL Trait]** or **[!UICONTROL Segment]**.
 1. Cliquez sur les zones de dates pour afficher un calendrier, puis sélectionnez les dates de début et de fin de votre rapport.
-1. Spécifiez l&#39;intervalle d&#39;affichage : par 1, 7, 14, 30, 60 ou 90 jours.
+1. Spécifiez l'intervalle d'affichage : par 1, 7, 14, 30, 60 ou 90 jours.
 1. Rechercher une caractéristique ou un segment par nom ou par identifiant.
 1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
 
@@ -85,6 +85,6 @@ t_working_with_trend_reports.xml
 
    Vous pouvez cliquer sur les en-têtes de colonne du tableau pour trier les résultats par ordre croissant ou décroissant.
 
-For [!UICONTROL Trended Trait] reports, zeroes indicate that [!DNL Audience Manager] did not collect data for that day. Les entrées vides indiquent que la caractéristique n&#39;existe pas. L&#39;exemple suivant illustre des exemples d&#39;entrées :
+For [!UICONTROL Trended Trait] reports, zeroes indicate that [!DNL Audience Manager] did not collect data for that day. Les entrées vides indiquent que la caractéristique n'existe pas. L'exemple suivant illustre des exemples d'entrées :
 
 ![](assets/trended_data.png)
