@@ -19,7 +19,7 @@ You can send qualified segments to [!DNL DFP] either through a client-side or th
 
 For a client-side integration, you need to set up a [!DNL GPT] destination in Audience Manager. Consider the following points when you want to set up [!DNL GPT] as an Audience Manager destination:
 
-* **Ajouter[!UICONTROL DIL]:** Déployez [!UICONTROL Data Integration Library (DIL)] le code sur toutes les pages à cibler. [!UICONTROL DIL] écrit les données de segment Audience Manager et l&#39;utilisateur - identifiants aux cookies utilisés [!DNL GPT] pour le ciblage.
+* **Ajouter[!UICONTROL DIL]:** Déployez [!UICONTROL Data Integration Library (DIL)] le code sur toutes les pages à cibler. [!UICONTROL DIL] écrit les données de segment Audience Manager et l'utilisateur - identifiants aux cookies utilisés [!DNL GPT] pour le ciblage.
 
 * **Créer un[!UICONTROL Cookie Destination]:**[!DNL GPT] doit être configurée comme destination basée sur des cookies dans Audience Manager.
 
@@ -29,9 +29,9 @@ For a client-side integration, you need to set up a [!DNL GPT] destination in Au
 
    >[!NOTE]
    >
-   >`AamGpt` La fonction n&#39;est pas requise si vous utilisez votre propre code pour lire les données du cookie Audience Manager.
+   >`AamGpt` La fonction n'est pas requise si vous utilisez votre propre code pour lire les données du cookie Audience Manager.
 
-* **Envoyer des journaux de diffusion à Audience Manager :** Si vous souhaitez un rapport de diffusion de segment (facultatif), fournissez à Audience Manager un journal quotidien contenant des données de diffusion au niveau d&#39;impression. The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager can pick up or receive these via [!DNL FTP].
+* **Envoyer des journaux de diffusion à Audience Manager :** Si vous souhaitez un rapport de diffusion de segment (facultatif), fournissez à Audience Manager un journal quotidien contenant des données de diffusion au niveau d'impression. The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Seuls les segments qualifiés sont envoyés à GPT
 
@@ -43,13 +43,13 @@ The amount of data passed in to [!DNL GPT] depends on how many segments a partic
 
 ## Server-Side Integration {#server-side-integration}
 
-Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You&#39;ll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
+Talk to your Audience Manager consultant or Customer Care if you want to set up a server-side integration with [!DNL DFP], using [!DNL GPT]. You'll need to provide your [!DNL DFP] account Network ID and Audience Link ID.
 
 >[!IMPORTANT]
 >
->If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) library, you must use the server-side integration with Audience Manager. If you are on [!DNL AMP] and have a client-side integration with [!DNL AMP], you must migrate to the server-side integration. Contactez votre consultant Audience Manager ou le service d&#39;assistance clientèle pour discuter de la migration.
+>If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) library, you must use the server-side integration with Audience Manager. If you are on [!DNL AMP] and have a client-side integration with [!DNL AMP], you must migrate to the server-side integration. Contactez votre consultant Audience Manager ou le service d'assistance clientèle pour discuter de la migration.
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Guide de référence de l&#39;API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
+>* [Guide de référence de l'API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
 
