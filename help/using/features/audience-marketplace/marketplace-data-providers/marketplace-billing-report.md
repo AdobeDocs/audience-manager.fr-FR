@@ -121,7 +121,7 @@ Un rapport de facturation contient les informations suivantes.
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Attribution de facturation et d&#39;impression pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Attribution de facturation et d&#39;impression pour les flux de données de frais plats](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Utilisation de l&#39;utilisation du CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Attribution de facturation et d'impression pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Attribution de facturation et d'impression pour les flux de données de frais plats](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Utilisation de l'utilisation du CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
