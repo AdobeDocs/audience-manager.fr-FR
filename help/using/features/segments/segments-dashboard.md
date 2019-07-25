@@ -20,6 +20,6 @@ The main [!UICONTROL Segments] page contains features and tools that help you:
 * Créez de nouveaux segments.
 * Modifiez et supprimez des segments.
 * Cloner (dupliquer) les segments existants.
-* Affichez tous les segments d&#39;un tableau avec des colonnes triables.
+* Affichez tous les segments d'un tableau avec des colonnes triables.
 * Gérez le stockage des segments.
 * Rechercher des segments par nom.
