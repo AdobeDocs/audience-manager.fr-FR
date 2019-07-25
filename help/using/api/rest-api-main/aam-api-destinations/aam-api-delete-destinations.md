@@ -37,7 +37,7 @@ Remove multiple destinations with this `POST` method. Pass in destination IDs ( 
 
 ## Supprimer les correspondances de destination par identifiant de mappage de segment
 
-`POST` Méthode qui supprime les correspondances de destination selon l&#39;identifiant de segment spécifié.
+`POST` Méthode qui supprime les correspondances de destination selon l'identifiant de segment spécifié.
 
 * Request: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
 * Response: Returns code `204 No Content` if successful.
