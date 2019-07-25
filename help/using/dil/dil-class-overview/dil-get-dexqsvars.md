@@ -13,7 +13,7 @@ source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 
 # dexGetQSVars{#dexgetqsvars}
 
-Récupère une valeur spécifique à partir d&#39;un serveur d&#39;annonces.
+Récupère une valeur spécifique à partir d'un serveur d'annonces.
 
 **Signature de fonction :**`dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
@@ -29,7 +29,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Chaîne | Nom de la variable pour laquelle vous souhaitez obtenir une valeur. |
 | `partner` | Chaîne | Nom du partenaire à rechercher. |
-| `containerNSID` | Entier | The [!DNL NSID] of the container you&#39;re searching for. Defaults is `0`. |
+| `containerNSID` | Entier | The [!DNL NSID] of the container you're searching for. Defaults is `0`. |
 
 **Réponse**
 
