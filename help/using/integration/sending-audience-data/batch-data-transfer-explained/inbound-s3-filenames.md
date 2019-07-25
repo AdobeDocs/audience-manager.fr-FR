@@ -13,7 +13,7 @@ source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
 
 # Amazon S3 Name and File Size Requirements for Inbound Data Files{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-Décrit les champs obligatoires, la syntaxe, les conventions d&#39;affectation de nom et les tailles de fichier à suivre lors de l&#39;envoi de données à Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / [!DNL Amazon S3] directory.
+Décrit les champs obligatoires, la syntaxe, les conventions d'affectation de nom et les tailles de fichier à suivre lors de l'envoi de données à Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / [!DNL Amazon S3] directory.
 
 >[!NOTE]
 >
