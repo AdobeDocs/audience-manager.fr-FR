@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Making Server-to-Server DCS API Calls {#making-server-to-server-dcs-api-calls}
 
-Les appels nécessitent le nom d&#39;hôte du serveur DCS régional et de l&#39;utilisateur - id. If you do not have the required user and region IDs, see [Get User IDs and Regions From a DCS Response](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) and/or [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Une fois que vous avez des ID d&#39;utilisateur et de région, vous pouvez effectuer des appels serveur à serveur au serveur de collecte de données. Reportez-vous à cette section pour obtenir une syntaxe et des exemples.
+Les appels nécessitent le nom d'hôte du serveur DCS régional et de l'utilisateur - id. If you do not have the required user and region IDs, see [Get User IDs and Regions From a DCS Response](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) and/or [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Une fois que vous avez des ID d'utilisateur et de région, vous pouvez effectuer des appels serveur à serveur au serveur de collecte de données. Reportez-vous à cette section pour obtenir une syntaxe et des exemples.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ A basic server-to-server request that sends data to the [!UICONTROL DCS] uses th
 <pre><code>« Host :<i>domain alias</i>. demdex. net » https://DCS<i>host name.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=user</i><i>ID</i>.</code>
 </pre>
 
-Un exemple d&#39;appel ressemble à l&#39;exemple suivant.
+Un exemple d'appel ressemble à l'exemple suivant.
 
 ```
 "Host:foo.demdex.net" "https://usw2.demdex.net/event?d_rtbd=json&d_jsonv=1& d_uuid=123456789"`
