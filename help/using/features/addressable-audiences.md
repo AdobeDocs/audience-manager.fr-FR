@@ -15,11 +15,11 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 # Addressable Audience {#addressable-audiences}
 
-Présentation de la fonction d&#39;audience adressable et des cas d&#39;utilisation.
+Présentation de la fonction d'audience adressable et des cas d'utilisation.
 
 ## What is an Addressable Audience? {#addressable-audience-description}
 
-The [!UICONTROL Addressable Audiences] feature shows you the overlap between the audiences you see across all of your properties where [!DNL Audience Manager] collects data and your selected destination. Pour vous aider à comprendre ce concept, observez l&#39;illustration ci-dessous. Le chevauchement entre chaque cercle représente les différents types d&#39;audiences adressables.
+The [!UICONTROL Addressable Audiences] feature shows you the overlap between the audiences you see across all of your properties where [!DNL Audience Manager] collects data and your selected destination. Pour vous aider à comprendre ce concept, observez l'illustration ci-dessous. Le chevauchement entre chaque cercle représente les différents types d'audiences adressables.
 
 ![](assets/addressableAudienceVenn.png)
 
@@ -81,7 +81,7 @@ The [!UICONTROL Addressable Audience] feature turns this abstract concept into q
 
 ![](assets/addressable-audiences-landing.png)
 
-Les trois mesures affichées sur la page d&#39;entrée Audiences adressables représentent :
+Les trois mesures affichées sur la page d'entrée Audiences adressables représentent :
 
 | Mesure | Description |
 ---------|----------|
@@ -89,19 +89,19 @@ Les trois mesures affichées sur la page d&#39;entrée Audiences adressables rep
 | **Taux de correspondance** | This metric represents the Addressable Audience Match Rate (described in the table above) *for the last 30 days*. |
 | **Public adressable sur la durée de vie (dispositifs)** | Nombre de tous les périphériques qui ont interagi avec tous les clients Audience Manager au niveau de la plateforme durant la période de consultation du rapport et qui peuvent être correspondances avec cette destination. See [Platform-Level Metrics](/help/using/features/addressable-audiences.md#platform-level-metrics) for more information. |
 
-Cliquez sur le nom d&#39;une destination de serveur à serveur pour afficher les données de votre audience adressable. Remarque : cette fonctionnalité renvoie des données pour les destinations serveur à serveur uniquement et l&#39;accès requiert des autorisations de l&#39;administrateur.
+Cliquez sur le nom d'une destination de serveur à serveur pour afficher les données de votre audience adressable. Remarque : cette fonctionnalité renvoie des données pour les destinations serveur à serveur uniquement et l'accès requiert des autorisations de l'administrateur.
 
 ![](assets/addressableAudiences.png)
 
 La revue de ces données peut vous aider à :
 
-* **Prévisions et planification :**[!UICONTROL Segment Addressable Audience] Les données vous donnent plus de granularité dans les segments que vous prévoyez d&#39;envoyer à une destination pour le ciblage et l&#39;activation d&#39;audience.
+* **Prévisions et planification :**[!UICONTROL Segment Addressable Audience] Les données vous donnent plus de granularité dans les segments que vous prévoyez d'envoyer à une destination pour le ciblage et l'activation d'audience.
 
-* **Évaluations des performances :** Cette [!UICONTROL Addressable Audiences] fonctionnalité est également un outil de dépannage. Il vous permet de vérifier les performances des campagnes, de comprendre la portée de la campagne et d&#39;effectuer des vérifications croisées avec les partenaires de ciblage/activation si vous ne voyez pas les résultats attendus.
+* **Évaluations des performances :** Cette [!UICONTROL Addressable Audiences] fonctionnalité est également un outil de dépannage. Il vous permet de vérifier les performances des campagnes, de comprendre la portée de la campagne et d'effectuer des vérifications croisées avec les partenaires de ciblage/activation si vous ne voyez pas les résultats attendus.
 
 ### Prospection avec données et implications tierces pour les taux de correspondance
 
-Avant d&#39;acheter des données tierces pour l&#39;acquisition d&#39;audiences, les clients peuvent valider le chevauchement avec d&#39;autres fournisseurs de données. Cela peut vous aider à prendre une décision informée avant d&#39;acheter de nouvelles données. The ID syncs for purchased third-party data rely not only on the overlap of your data but also on third-party providers’ footprints with all other [!DNL Audience Manager] customers. Your [!DNL Adobe] consultant can help you identify additional relevant data sources to optimize prospecting campaigns.
+Avant d'acheter des données tierces pour l'acquisition d'audiences, les clients peuvent valider le chevauchement avec d'autres fournisseurs de données. Cela peut vous aider à prendre une décision informée avant d'acheter de nouvelles données. The ID syncs for purchased third-party data rely not only on the overlap of your data but also on third-party providers’ footprints with all other [!DNL Audience Manager] customers. Your [!DNL Adobe] consultant can help you identify additional relevant data sources to optimize prospecting campaigns.
 
 ### Utilisateurs mobiles et taux de correspondance
 
@@ -117,7 +117,7 @@ Read the sections below for available date ranges and how data ages out of each 
 
 Reports for your [!UICONTROL Addressable Audiences] and [Destinations](../features/destinations/destinations.md) use the same date range intervals. Les options de plage de dates incluent :
 
-* [!UICONTROL Last 1 Day] (Cet intervalle s&#39;exécute de minuit à minuit de la période de 24 heures précédente. Il ne s&#39;agit pas d&#39;une mesure réelle ou d&#39;heure actuelle.)
+* [!UICONTROL Last 1 Day] (Cet intervalle s'exécute de minuit à minuit de la période de 24 heures précédente. Il ne s'agit pas d'une mesure réelle ou d'heure actuelle.)
 * [!UICONTROL Last 7 Days]
 * [!UICONTROL Last 14 Days]
 * [!UICONTROL Last 30 Days]
@@ -129,14 +129,14 @@ All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones i
 
 ## Data in Date Range Intervals {#date-range-intervals}
 
-The [!UICONTROL Addressable Audience] and [!UICONTROL Destination] metrics return a count of unique users for the selected time interval. Par exemple, un visiteur n&#39;est comptabilisé qu&#39;une seule fois, même s&#39;il se rend sur votre site plusieurs fois. La première visite est la visite unique et est enregistrée. Les visites suivantes retournent des visites et ne sont pas comptabilisées car elles ne sont pas uniques.
+The [!UICONTROL Addressable Audience] and [!UICONTROL Destination] metrics return a count of unique users for the selected time interval. Par exemple, un visiteur n'est comptabilisé qu'une seule fois, même s'il se rend sur votre site plusieurs fois. La première visite est la visite unique et est enregistrée. Les visites suivantes retournent des visites et ne sont pas comptabilisées car elles ne sont pas uniques.
 
-Les plages de dates contiennent des données pour l&#39;intervalle sélectionné ou plus ancien. Et les âges des données sont prêts à partir de chaque intervalle de rapport au fil du temps. For example, let&#39;s assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. Dans les rapports, ces visiteurs :
+Les plages de dates contiennent des données pour l'intervalle sélectionné ou plus ancien. Et les âges des données sont prêts à partir de chaque intervalle de rapport au fil du temps. For example, let's assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. Dans les rapports, ces visiteurs :
 
 * *Seront inclus* dans les résultats renvoyés par des intervalles plus longs (60 jours, 90 jours et durée de vie).
-* *Ne* sera pas inclus à des intervalles plus courts qui précèdent l&#39; [!UICONTROL Last 30 Day] option (Actuel, 7 jours et 14 jours).
+* *Ne* sera pas inclus à des intervalles plus courts qui précèdent l' [!UICONTROL Last 30 Day] option (Actuel, 7 jours et 14 jours).
 
-And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. Ils ont dépassé l&#39;intervalle de 30 jours. Visitors do not age out of the [!UICONTROL Lifetime] interval.
+And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. Ils ont dépassé l'intervalle de 30 jours. Visitors do not age out of the [!UICONTROL Lifetime] interval.
 
 ## Addressable Audience Metrics {#addressable-audience-metrics}
 
@@ -146,7 +146,7 @@ This section describes the types of metrics provided by [!UICONTROL Addressable 
 
 <!-- addressable-audience-metrics.xml -->
 
-These metrics return data for traits realized when visitors come to your site or when you send inbound data files to [!DNL Audience Manager]. Ces mesures fournissent une vue d&#39;ensemble complète de la taille de l&#39;audience pour votre compte.
+These metrics return data for traits realized when visitors come to your site or when you send inbound data files to [!DNL Audience Manager]. Ces mesures fournissent une vue d'ensemble complète de la taille de l'audience pour votre compte.
 
 <table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
  <thead> 
@@ -180,11 +180,11 @@ These metrics return data for traits realized when visitors come to your site or
 
 ### Segment-Level Match Metrics {#segment-level-metrics}
 
-Ces mesures renvoient des données sur l&#39;appartenance au segment. Ils offrent une vue plus granulaire et précise de la taille de l&#39;audience pour chacun de vos segments.
+Ces mesures renvoient des données sur l'appartenance au segment. Ils offrent une vue plus granulaire et précise de la taille de l'audience pour chacun de vos segments.
 
 >[!NOTE]
 >
->La manière dont la fenêtre de recherche est appliquée au niveau du segment est différente de celle au niveau du client. Les visiteurs peuvent venir sur le site et réaliser une caractéristique il y a 10 jours ; ils peuvent alors remplir un segment depuis qu&#39;ils ont quitté le segment il y a 2 jours. Lorsque la recherche de 7 jours est appliquée, ces visiteurs sont comptabilisés au niveau du segment mais pas au niveau du client.
+>La manière dont la fenêtre de recherche est appliquée au niveau du segment est différente de celle au niveau du client. Les visiteurs peuvent venir sur le site et réaliser une caractéristique il y a 10 jours ; ils peuvent alors remplir un segment depuis qu'ils ont quitté le segment il y a 2 jours. Lorsque la recherche de 7 jours est appliquée, ces visiteurs sont comptabilisés au niveau du segment mais pas au niveau du client.
 
 <table id="table_4185AA02CC774B6C93B02E45F88BBBD9"> 
  <thead> 
@@ -211,7 +211,7 @@ Ces mesures renvoient des données sur l&#39;appartenance au segment. Ils offren
 
 ### Platform-Level Metrics {#platform-level-metrics}
 
-Cette mesure renvoie les données sur les activités collectées pour tous les clients Audience Manager. Elles offrent une vue plus large de l&#39;audience du client par rapport aux clients Audience Manager agrégés.
+Cette mesure renvoie les données sur les activités collectées pour tous les clients Audience Manager. Elles offrent une vue plus large de l'audience du client par rapport aux clients Audience Manager agrégés.
 
 <table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
  <thead> 
@@ -234,7 +234,7 @@ Cette mesure renvoie les données sur les activités collectées pour tous les c
 
 ## Comparing Customer and Segment Addressable Audiences{#comparing-metrics}
 
-You shouldn&#39;t compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. Il s&#39;agit de mesures distinctes, différentes et indépendantes. Comme décrit dans les définitions ci-dessus, chacune d&#39;elles est dérivée de différents ensembles de données. Dans ce cas, évitez de déduire les conclusions si une mesure est plus grande que l&#39;autre. Tout ce que vous pouvez dire lors de la comparaison, c&#39;est que :
+You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. Il s'agit de mesures distinctes, différentes et indépendantes. Comme décrit dans les définitions ci-dessus, chacune d'elles est dérivée de différents ensembles de données. Dans ce cas, évitez de déduire les conclusions si une mesure est plus grande que l'autre. Tout ce que vous pouvez dire lors de la comparaison, c'est que :
 
 * [!UICONTROL Customer Addressable Audiences] est basée sur des realizations de caractéristiques *pour vos propres données propriétaires*. Cette mesure fournit une vue exhaustive et exhaustive de votre intégration avec un partenaire de données.
 
@@ -275,4 +275,4 @@ In addition to surfacing match rates, you can also use [!UICONTROL Addressable A
 
 <!-- addressable-audiences-troubleshooting.xml -->
 
-Par exemple, supposons que vous envoyez un segment à une destination et que cette destination affiche un nombre de rapports faible. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. Un faible taux de correspondance indique que votre destination n&#39;est pas tout aussi grande pour les segments que vous avez sélectionnés. Toutefois, une différence dans le nombre total d&#39;audiences adressables entre Audience Manager et la destination indique une intégration, une synchronisation ou d&#39;autres problèmes techniques. Dans ce cas, contactez votre gestionnaire de compte.
+Par exemple, supposons que vous envoyez un segment à une destination et que cette destination affiche un nombre de rapports faible. Checking the [!UICONTROL Addressable Audience] results will show you if this is a technical problem or just a case of low match rates. Un faible taux de correspondance indique que votre destination n'est pas tout aussi grande pour les segments que vous avez sélectionnés. Toutefois, une différence dans le nombre total d'audiences adressables entre Audience Manager et la destination indique une intégration, une synchronisation ou d'autres problèmes techniques. Dans ce cas, contactez votre gestionnaire de compte.
