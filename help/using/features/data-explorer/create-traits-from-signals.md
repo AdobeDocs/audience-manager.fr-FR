@@ -30,7 +30,7 @@ To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the si
 
 ![](assets/signals-create-trait.png)
 
-You&#39;ll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
+You'll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
 
 ## Create Traits from Signal Search {#create-traits-from-signal-search}
 
@@ -43,7 +43,7 @@ Recherchez des signaux spécifiques et créez des caractéristiques basées sur 
    * To create a trait from one signal, click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
    * To create a trait from multiple signals, click the corresponding check box of each signal, then click **[!UICONTROL Create Trait from Multiple Signals]**.
    >[!NOTE]
-   >Vous pouvez uniquement créer des caractéristiques à partir de signaux du même type. Vous ne pouvez pas créer de caractéristique basée sur une combinaison d&#39;un signal en temps réel et d&#39;un caractère intégré.
+   >Vous pouvez uniquement créer des caractéristiques à partir de signaux du même type. Vous ne pouvez pas créer de caractéristique basée sur une combinaison d'un signal en temps réel et d'un caractère intégré.
    >
    > ![](assets/signals-create-trait-search.png)
    >Vous pouvez également créer des caractéristiques à partir des signaux utilisés. Signals that are already used in traits have the number of traits displayed in the **[!UICONTROL Included in Traits]** column. Cliquez sur la flèche pour afficher les caractéristiques qui incluent le signal.
