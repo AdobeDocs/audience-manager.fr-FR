@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # File Compression for Inbound Data Transfer Files{#file-compression-for-inbound-data-transfer-files}
 
-En tant qu&#39;option, vous pouvez compresser les fichiers de données lors de leur envoi à Audience Manager.
+En tant qu'option, vous pouvez compresser les fichiers de données lors de leur envoi à Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 
@@ -27,7 +27,7 @@ Audience Manager prend également en charge les fichiers non compressés.
 
 ## Compression Amazon S 3
 
-For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. Les fichiers compressés doivent être de 1 Go ou plus. Si les fichiers sont plus volumineux, veuillez discuter du fichier et du processus de transfert avec le service d&#39;assistance clientèle. Although [!DNL Audience Manager] can handle very large files, there may be ways to reduce the file size or make transfer of data more efficient.
+For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. Les fichiers compressés doivent être de 1 Go ou plus. Si les fichiers sont plus volumineux, veuillez discuter du fichier et du processus de transfert avec le service d'assistance clientèle. Although [!DNL Audience Manager] can handle very large files, there may be ways to reduce the file size or make transfer of data more efficient.
 
 >[!IMPORTANT]
 >
@@ -37,5 +37,5 @@ For delivery to [!DNL Amazon S3], you must use `.gz` or uncompressed files. Les 
 
 * Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension.)
 * The maximum compressed file size for a `.gz` compressed file is 1 GB.
-* Les tailles de répartition optimales, pour le traitement rapide/le plus rapide de vos fichiers, sont d&#39;environ 1 Go décompressées ou de 200-300 Mo compressées.
+* Les tailles de répartition optimales, pour le traitement rapide/le plus rapide de vos fichiers, sont d'environ 1 Go décompressées ou de 200-300 Mo compressées.
 * [!DNL Amazon S3] impose sa propre taille de fichier de 5 Go aux fichiers téléchargés.
