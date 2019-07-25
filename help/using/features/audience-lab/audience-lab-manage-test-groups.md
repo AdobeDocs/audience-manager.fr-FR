@@ -27,7 +27,7 @@ This procedure walks you through the steps needed to create, edit, or delete a t
    >
    >[Les caractéristiques](../../features/traits/about-folder-traits.md) de dossier **ne sont pas prises en charge** par [!UICONTROL Audience Lab]. Setting the [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
 
-* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. Cette autorisation permet à l&#39;utilisateur de créer et d&#39;afficher les résultats d&#39;un test. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **&quot;read&quot;** permissions. Un utilisateur peut uniquement visualiser les destinations auxquelles ils ont accès. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
+* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. Cette autorisation permet à l'utilisateur de créer et d'afficher les résultats d'un test. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. Un utilisateur peut uniquement visualiser les destinations auxquelles ils ont accès. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
    * accès pour lire les caractéristiques de conversion appropriées ;
    * accès pour lire et mapper les segments pertinents pour les tests ;
    * accès aux destinations pertinentes.
@@ -40,25 +40,25 @@ To create a new [!UICONTROL Segment Test Group]:
    * Fill in a **[!UICONTROL Test Group Name]** and a **[!UICONTROL Description]**.
    * Choose the **[!UICONTROL Base Segment]** either by navigating in the file browser or by typing in the search bar, confirm by pressing **[!UICONTROL Choose Segment.]**
    * Vous pouvez enregistrer le groupe de test en tant que brouillon et reprendre le travail dessus ultérieurement.
-   * Une alerte s&#39;affiche si le segment de base que vous avez sélectionné est déjà utilisé dans d&#39;autres groupes de test. L&#39;utilisation simultanée du segment de base peut distordre les résultats de conversion pour les deux tests.
+   * Une alerte s'affiche si le segment de base que vous avez sélectionné est déjà utilisé dans d'autres groupes de test. L'utilisation simultanée du segment de base peut distordre les résultats de conversion pour les deux tests.
 
 1. **[!UICONTROL Allocate Test Segments]**
 
    * You can create **up to 15 test segments** and divide the percentage of devices as you wish.
    * Vous pouvez modifier le nom des segments de test en cliquant dessus.
-   * Les pourcentages se divisent automatiquement à 100 % lorsque de nouveaux segments de test sont alloués. Vous pouvez ensuite modifier manuellement les pourcentages. Cochez la case après avoir modifié les pourcentages et veillez à ajouter jusqu&#39;à 100 % ; sinon, vous ne pourrez pas passer à l&#39;étape suivante.
+   * Les pourcentages se divisent automatiquement à 100 % lorsque de nouveaux segments de test sont alloués. Vous pouvez ensuite modifier manuellement les pourcentages. Cochez la case après avoir modifié les pourcentages et veillez à ajouter jusqu'à 100 % ; sinon, vous ne pourrez pas passer à l'étape suivante.
 
 1. **[!UICONTROL Set a Control Segment]**
 
-   * Sélectionnez un segment de contrôle si vous souhaitez ajouter une partie spécifique du segment à utiliser comme groupe de contrôle. Les groupes de contrôle vous permettent de voir l&#39;impact des segments de test que vous avez créés par rapport à un test de performance.
+   * Sélectionnez un segment de contrôle si vous souhaitez ajouter une partie spécifique du segment à utiliser comme groupe de contrôle. Les groupes de contrôle vous permettent de voir l'impact des segments de test que vous avez créés par rapport à un test de performance.
    * You can select a test segment as control segment in the drop-down list, or you can choose **[!UICONTROL None]** for no control.
-   * Click **[!UICONTROL Next]** when you&#39;re done.
+   * Click **[!UICONTROL Next]** when you're done.
 
 1. **[!UICONTROL Select Conversion Traits]**
 
    * Ajoutez des caractéristiques de conversion en saisissant dans la fenêtre de caractéristique de conversion. This is a **mandatory** step and you cannot proceed to the next step unless you add at least one conversion trait.
-   * Vous pouvez ajouter jusqu&#39;à 5 caractéristiques de conversion si vous le souhaitez.
-   * Une alerte s&#39;affiche si vous sélectionnez une caractéristique de conversion déjà utilisée pour d&#39;autres groupes de test.
+   * Vous pouvez ajouter jusqu'à 5 caractéristiques de conversion si vous le souhaitez.
+   * Une alerte s'affiche si vous sélectionnez une caractéristique de conversion déjà utilisée pour d'autres groupes de test.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
@@ -78,9 +78,9 @@ To create a new [!UICONTROL Segment Test Group]:
 1. **[!UICONTROL Summary & Finalize]**
 
    * Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
-   * Rappelez-vous qu&#39;une fois que vous avez finalisé un groupe de test, il peut être dupliqué ou supprimé, mais pas modifié.
+   * Rappelez-vous qu'une fois que vous avez finalisé un groupe de test, il peut être dupliqué ou supprimé, mais pas modifié.
    >[!NOTE]
-   >* Vous pouvez enregistrer les groupes de tests à tout moment dans le processus de création et revenir à l&#39;assistant ultérieurement. The test group status will be **[!UICONTROL Draft]** and the test group will not send any data to destinations until you finalize the segment test group.
+   >* Vous pouvez enregistrer les groupes de tests à tout moment dans le processus de création et revenir à l'assistant ultérieurement. The test group status will be **[!UICONTROL Draft]** and the test group will not send any data to destinations until you finalize the segment test group.
    >* For draft tests, you can go back and edit the test groups by clicking **[!UICONTROL Edit]** in the test group card in the main [!UICONTROL Audience Lab] view.
 
 
@@ -90,12 +90,12 @@ In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In th
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
 1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you&#39;re done.
+1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you're done.
 
 ## Delete Segment Test Groups {#delete-test-groups}
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
-1. Recherchez le groupe de test que vous souhaitez supprimer. Vous pouvez effectuer l&#39;une des opérations suivantes :
+1. Recherchez le groupe de test que vous souhaitez supprimer. Vous pouvez effectuer l'une des opérations suivantes :
 
    * press the **[!UICONTROL Delete]** control in the test group card, or
    * press the test group title in the test group card to go to the [Test Group Information](../../features/audience-lab/audience-lab-information-view.md) view and press the **[!UICONTROL Delete]** control in the title bar.
