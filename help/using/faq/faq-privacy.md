@@ -29,7 +29,7 @@ See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/
 
 **Les clients Audience Manager aux Etats-Unis peuvent-ils cibler des utilisateurs sur des propriétés européennes ?**
 
-Oui. Audience Manager fonctionne avec les clients qui possèdent des propriétés et des stocks internationaux. L&#39;UE possède des lois de confidentialité strictes, mais Audience Manager dispose de clients qui utilisent des données propriétaires pour le ciblage d&#39;audience en Europe. Audience Manager peut prendre en charge le ciblage des audiences européennes, mais il vous incombe de respecter les réglementations locales sur la confidentialité.
+Oui. Audience Manager fonctionne avec les clients qui possèdent des propriétés et des stocks internationaux. L'UE possède des lois de confidentialité strictes, mais Audience Manager dispose de clients qui utilisent des données propriétaires pour le ciblage d'audience en Europe. Audience Manager peut prendre en charge le ciblage des audiences européennes, mais il vous incombe de respecter les réglementations locales sur la confidentialité.
 
 <!-- 
 
