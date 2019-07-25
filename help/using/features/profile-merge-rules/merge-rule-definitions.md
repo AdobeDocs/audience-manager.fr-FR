@@ -25,7 +25,7 @@ You build a [!UICONTROL Profile Merge Rule] by making a selection from these opt
 
 ## Authenticated Options {#auth-options}
 
-The [!UICONTROL Authenticated Options] let you select un-authenticated and authenticated users and leverage their cross-device profile for segmentation. Ces options permettent d&#39;identifier et d&#39;atteindre des utilisateurs spécifiques sur un périphérique partagé. For more information on anonymous and authenticated users, see [Visitor Authentication States in Audience Manager](../../reference/visitor-authentication-states.md).
+The [!UICONTROL Authenticated Options] let you select un-authenticated and authenticated users and leverage their cross-device profile for segmentation. Ces options permettent d'identifier et d'atteindre des utilisateurs spécifiques sur un périphérique partagé. For more information on anonymous and authenticated users, see [Visitor Authentication States in Audience Manager](../../reference/visitor-authentication-states.md).
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 
@@ -52,11 +52,11 @@ The [!UICONTROL Authenticated Options] let you select un-authenticated and authe
 
 ## Authenticated Profile Options {#profile-options}
 
-The [!UICONTROL Authenticated Profile Options] lists your cross-device data sources. These options use the names you provided when you created a cross-device data source (see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)). Vous pouvez sélectionner jusqu&#39;à trois sources de données inter-périphériques à utiliser avec chaque règle de profil. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**.
+The [!UICONTROL Authenticated Profile Options] lists your cross-device data sources. These options use the names you provided when you created a cross-device data source (see [Create a Cross-Device Data Source](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)). Vous pouvez sélectionner jusqu'à trois sources de données inter-périphériques à utiliser avec chaque règle de profil. The [!UICONTROL Authenticated Profile Options] are available when you choose **[!UICONTROL Current Authenticated Profile]** or **[!UICONTROL Last Authenticated Profile]**.
 
 ## Device Options {#device-options}
 
-The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. Un profil de périphérique est composé de caractéristiques collectées par les utilisateurs lorsqu&#39;ils naviguent anonymement sur le Web. Au minimum, une règle de fusion de profil comprend une option authentifiée et une option de périphérique.
+The [!UICONTROL Device Options] let you select the type of *`device profile`* used by a [!UICONTROL Profile Merge Rule]. Un profil de périphérique est composé de caractéristiques collectées par les utilisateurs lorsqu'ils naviguent anonymement sur le Web. Au minimum, une règle de fusion de profil comprend une option authentifiée et une option de périphérique.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
