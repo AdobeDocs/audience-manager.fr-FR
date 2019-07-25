@@ -252,7 +252,7 @@ In the tables below, *italics* represents a variable placeholder.
 
 The [!UICONTROL DCS] returns error codes and messages in a [!DNL JSON] object or in an X- header in the HTTP response string.
 
-### Exemple de code d&#39;erreur et message d&#39;erreur DCS
+### Exemple de code d'erreur et message d'erreur DCS
 
 ```
 { 
