@@ -69,5 +69,5 @@ Le tableau suivant répertorie et décrit les intervalles de temps dans nos rapp
 
 >[!MORE_ LIKE_ THIS]
 >
->* [FAQ sur l&#39;assimilation des données client inbound](../faq/faq-inbound-data-ingestion.md)
+>* [FAQ sur l'assimilation des données client inbound](../faq/faq-inbound-data-ingestion.md)
 
