@@ -32,23 +32,23 @@ Oui, les segments de test comportent différents ID de segment. For destinations
 
 **La même caractéristique de conversion peut-elle être associée à plusieurs groupes de test ?**
 
-Oui, cela est autorisé. Considérez un cas d&#39;un test à l&#39;aide d&#39;un segment masculin associé à la conversion X et un test à l&#39;aide d&#39;un segment féminin associé à la conversion X. Cela n&#39;a pas d&#39;importance que les deux tests génèrent des conversions puisqu&#39;ils testent deux audiences différentes.
+Oui, cela est autorisé. Considérez un cas d'un test à l'aide d'un segment masculin associé à la conversion X et un test à l'aide d'un segment féminin associé à la conversion X. Cela n'a pas d'importance que les deux tests génèrent des conversions puisqu'ils testent deux audiences différentes.
 
 <br> 
 
-**Imaginons qu&#39;un groupe de test utilise un profil authentifié pour le fractionnement du segment de test. The authenticated profile is linked to 4[Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
+**Imaginons qu'un groupe de test utilise un profil authentifié pour le fractionnement du segment de test. The authenticated profile is linked to 4[Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
 
 In this case, [!UICONTROL Audience Lab] only counts one conversion.
 
 <br> 
 
-**Que se passe-t-il si le visiteur du dossier ci-dessus présente la caractéristique de conversion de l&#39;un des quatre UUID liés à son profil authentifié, puis qu&#39;il affiche également la caractéristique de conversion de deux autres UUID liés au profil authentifié ? Does this case count as one or three conversions?**
+**Que se passe-t-il si le visiteur du dossier ci-dessus présente la caractéristique de conversion de l'un des quatre UUID liés à son profil authentifié, puis qu'il affiche également la caractéristique de conversion de deux autres UUID liés au profil authentifié ? Does this case count as one or three conversions?**
 
 In this case, [!UICONTROL Audience Lab] counts three conversions, one for each device that has exhibited the authentication trait.
 
 <br> 
 
-**Un utilisateur peut[!UICONTROL Segment: Read-Only]-il avoir accès, mais[!UICONTROL Audience Lab]aussi tester l&#39;accès à la création de segments ?**
+**Un utilisateur peut[!UICONTROL Segment: Read-Only]-il avoir accès, mais[!UICONTROL Audience Lab]aussi tester l'accès à la création de segments ?**
 
 See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
 
