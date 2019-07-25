@@ -15,13 +15,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Le rapport Tendance de segment renvoie des données sur les impressions et les taux de clics publicitaires des segments mappés et non mappés au fil du temps.
 
-Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n&#39;avez pas envoyé à une destination pour le ciblage.
+Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n'avez pas envoyé à une destination pour le ciblage.
 
 Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image du comportement des audiences au fil du temps.
 
 ## Cas d’utilisation {#use-cases}
 
-Use the [!UICONTROL Segment Trend] report to validate a segment&#39;s performance over time and to pinpoint trends based on strong performance or scale.
+Use the [!UICONTROL Segment Trend] report to validate a segment's performance over time and to pinpoint trends based on strong performance or scale.
 
 Grâce à ce rapport, vous pouvez comprendre les propriétés Web qui montrent un creux ou une erreur incorrecte et dépanner le cas échéant. This report is the next step after you identify your audience of interest in the [!UICONTROL Segment Performance] report, to ensure that the strong or poor performance you saw in the [!UICONTROL Segment Performance] tab is consistent over time.
 
@@ -45,9 +45,9 @@ Use the **[!UICONTROL Segment]** drop-down box to select which segments you want
 
 ## Interpreting the Results {#interpreting-results}
 
-The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. Dans cet exemple, le rapport montre les tendances d&#39;impression et de clic publicitaire pour un ensemble de segments mappés et non mappés.
+The [!UICONTROL Segment Trend] report returns data in a line graph for a 14-day interval only. Dans cet exemple, le rapport montre les tendances d'impression et de clic publicitaire pour un ensemble de segments mappés et non mappés.
 
-Passez la souris sur une ligne pour obtenir plus d&#39;informations sur cette tendance de segment particulière. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l&#39;exemple de rapport.
+Passez la souris sur une ligne pour obtenir plus d'informations sur cette tendance de segment particulière. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l'exemple de rapport.
 
 ![](assets/publisher_segment_trend.png)
 
