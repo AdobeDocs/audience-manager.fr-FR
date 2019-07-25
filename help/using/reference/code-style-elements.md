@@ -13,7 +13,7 @@ source-git-commit: 8e4afebaa2035fca6f8535314be5f072f26e0217
 
 # Style Conventions for Code and Text Elements{#style-conventions-for-code-and-text-elements}
 
-Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d&#39;aide. En règle générale, vous n&#39;incluez pas ces symboles ou éléments de style dans votre code ou vos fichiers de données. Ce sont uniquement des indicateurs visuels.
+Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d'aide. En règle générale, vous n'incluez pas ces symboles ou éléments de style dans votre code ou vos fichiers de données. Ce sont uniquement des indicateurs visuels.
 
 <table id="table_EBEF9490D90041BD8B7ABE3AF1AF35B6"> 
  <thead> 
