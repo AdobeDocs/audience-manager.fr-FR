@@ -14,9 +14,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Test Group Reporting {#test-group-reporting}
 
-La section de création de rapports du groupe de test renvoie des informations sur les conversions des groupes de test, ce qui permet une comparaison facile de l&#39;efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
+La section de création de rapports du groupe de test renvoie des informations sur les conversions des groupes de test, ce qui permet une comparaison facile de l'efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
 
-[!UICONTROL Audience Lab] renvoie des informations de rapport détaillées pour les segments de test que vous avez créés et vous permet d&#39;enregistrer les données de rapport sous forme [!DNL CSV] de fichiers. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] renvoie des informations de rapport détaillées pour les segments de test que vous avez créés et vous permet d'enregistrer les données de rapport sous forme [!DNL CSV] de fichiers. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** renvoie les chiffres absolus des segments de test. **[!UICONTROL Trend Reporting]** renvoie un graphique de la tendance *sur une période spécifique*. Quatre onglets permettent de personnaliser les rapports :
 
@@ -52,7 +52,7 @@ Vous pouvez sélectionner une caractéristique de conversion spécifique pour la
 >[!NOTE]
 >
 >* La création de rapports pour un groupe de test remplit le jour suivant sa date de début.
->* Une conversion est comptée uniquement pour un périphérique après la date de début d&#39;un test et une fois que le périphérique a été ajouté à un segment de test. Si une conversion se produit pour ce périphérique avant d&#39;être affectée à un groupe de test, la conversion n&#39;est pas comptabilisée.
+>* Une conversion est comptée uniquement pour un périphérique après la date de début d'un test et une fois que le périphérique a été ajouté à un segment de test. Si une conversion se produit pour ce périphérique avant d'être affectée à un groupe de test, la conversion n'est pas comptabilisée.
 
 
 A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
