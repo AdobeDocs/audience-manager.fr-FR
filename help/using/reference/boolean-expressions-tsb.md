@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Boolean Expressions in Trait and Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
-Cet article explique comment les outils de caractéristique et de segment d&#39;Audience Manager utilisent les expressions booléennes ET, OU et NOT.
+Cet article explique comment les outils de caractéristique et de segment d'Audience Manager utilisent les expressions booléennes ET, OU et NOT.
 
 <!-- 
 
@@ -23,7 +23,7 @@ c_tb_boolean.xml
 
 **Expressions booléennes**
 
-La logique booléenne est une branche d&#39;algebra qui utilise quelques expressions de base (ou opérateurs) pour déterminer si une instruction est vraie ou fausse. The most common operators are [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]. Les combinaisons de ces expressions vous aident à adapter les règles de qualification des segments ou des segments à vos exigences de données. L&#39;illustration suivante illustre le fonctionnement des expressions booléennes de base.
+La logique booléenne est une branche d'algebra qui utilise quelques expressions de base (ou opérateurs) pour déterminer si une instruction est vraie ou fausse. The most common operators are [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]. Les combinaisons de ces expressions vous aident à adapter les règles de qualification des segments ou des segments à vos exigences de données. L'illustration suivante illustre le fonctionnement des expressions booléennes de base.
 
 <br> 
 
@@ -31,7 +31,7 @@ La logique booléenne est une branche d&#39;algebra qui utilise quelques express
 
 >[!NOTE]
 >
->[!UICONTROL NOT] L&#39;opérateur utilise une condition « et » implicite et est parfois écrit sous [!UICONTROL AND NOT]la forme.
+>[!UICONTROL NOT] L'opérateur utilise une condition « et » implicite et est parfois écrit sous [!UICONTROL AND NOT]la forme.
 
 **Utilisation des expressions booléennes dans le créateur de caractéristiques et le créateur de segment**
 
@@ -64,17 +64,17 @@ Vous créez des règles de qualification de caractéristique et de segment avec 
  </tbody> 
 </table>
 
-**[!UICONTROL AND]Exemple de cas d&#39;utilisation**
+**[!UICONTROL AND]Exemple de cas d'utilisation**
 
-[!UICONTROL AND] L&#39;opérateur est utile lorsque vous avez facilement des exigences d&#39;adhésion aux caractéristiques. Par exemple, imaginons que vous deviez créer un public de « acheteurs de caméra coûteux ».  » » Avec un modèle de pixels, vous devez créer et placer des pixels pour les appareils photo et une valeur numérique de prix sur votre page. By contrast, with traits you can apply Boolean operators to handle both conditions (cameras [!UICONTROL AND] price). Le résultat est une collecte de données efficace avec moins d&#39;appels HTTP, ce qui contribue à préserver l&#39;expérience de l&#39;utilisateur sur votre site.
+[!UICONTROL AND] L'opérateur est utile lorsque vous avez facilement des exigences d'adhésion aux caractéristiques. Par exemple, imaginons que vous deviez créer un public de « acheteurs de caméra coûteux ».  » » Avec un modèle de pixels, vous devez créer et placer des pixels pour les appareils photo et une valeur numérique de prix sur votre page. By contrast, with traits you can apply Boolean operators to handle both conditions (cameras [!UICONTROL AND] price). Le résultat est une collecte de données efficace avec moins d'appels HTTP, ce qui contribue à préserver l'expérience de l'utilisateur sur votre site.
 
-**[!UICONTROL OR]Exemple de cas d&#39;utilisation**
+**[!UICONTROL OR]Exemple de cas d'utilisation**
 
-[!UICONTROL OR] L&#39;opérateur est utile lorsque vous souhaitez créer des signaux avec des exigences étendues de qualification d&#39;audience. If you have several trait or segment qualification requirements, the [!UICONTROL OR] operator will evaluate to true when your site visitors exhibit *any* of those characteristics. [!UICONTROL OR] peut être plus utile lorsque vous souhaitez créer rapidement un large public de visiteurs qualifiés du site.
+[!UICONTROL OR] L'opérateur est utile lorsque vous souhaitez créer des signaux avec des exigences étendues de qualification d'audience. If you have several trait or segment qualification requirements, the [!UICONTROL OR] operator will evaluate to true when your site visitors exhibit *any* of those characteristics. [!UICONTROL OR] peut être plus utile lorsque vous souhaitez créer rapidement un large public de visiteurs qualifiés du site.
 
-**[!UICONTROL AND NOT]Exemple de cas d&#39;utilisation**
+**[!UICONTROL AND NOT]Exemple de cas d'utilisation**
 
-[!UICONTROL AND NOT] L&#39;opérateur est utile lorsqu&#39;il est plus facile de définir une audience par *exclusion* plutôt *que par inclusion*. Supposons, par exemple, que vous disposiez d&#39;une vente et que vous souhaitiez segmenter les visiteurs en clients qui examinent uniquement les articles à prix complet. Rather than create a list of signals for all qualifying full or sale-price items, it may be easier to qualify visitors if they have *not* seen a sale price item. Ceci est efficace administrativement car vous disposez généralement d&#39;un moins grand nombre d&#39;articles de prix de vente que ceux proposés à prix complet. With a Boolean [!UICONTROL NOT], visitors *must not* exhibit the sale signal to qualify for full-price audience membership. By contrast, [!UICONTROL AND NOT] is the opposite of the [!UICONTROL AND] use case, which showed how audience membership is determined by inclusion (i.e., the visitor qualified based on 2 explicitly stated signals).
+[!UICONTROL AND NOT] L'opérateur est utile lorsqu'il est plus facile de définir une audience par *exclusion* plutôt *que par inclusion*. Supposons, par exemple, que vous disposiez d'une vente et que vous souhaitiez segmenter les visiteurs en clients qui examinent uniquement les articles à prix complet. Rather than create a list of signals for all qualifying full or sale-price items, it may be easier to qualify visitors if they have *not* seen a sale price item. Ceci est efficace administrativement car vous disposez généralement d'un moins grand nombre d'articles de prix de vente que ceux proposés à prix complet. With a Boolean [!UICONTROL NOT], visitors *must not* exhibit the sale signal to qualify for full-price audience membership. By contrast, [!UICONTROL AND NOT] is the opposite of the [!UICONTROL AND] use case, which showed how audience membership is determined by inclusion (i.e., the visitor qualified based on 2 explicitly stated signals).
 
 >[!MORE_ LIKE_ THIS]
 >
