@@ -18,7 +18,7 @@ Cette section présente des informations générales sur le groupe de test et le
 
 Vous pouvez également afficher des informations sur le segment de base que vous avez utilisé pour le groupe de test et sur la division des segments de test.
 
-The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. L&#39;aperçu montre le pourcentage d&#39;utilisateurs que vous avez attribués à chaque segment de test.
+The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. L'aperçu montre le pourcentage d'utilisateurs que vous avez attribués à chaque segment de test.
 
 **[!UICONTROL Conversion Traits]** La création de rapports pour les groupes de test. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
 
@@ -31,6 +31,6 @@ The **[!UICONTROL Test Segments]** are populated randomly with users from the ba
 
 >[!NOTE]
 >
->N&#39;oubliez pas que vous ne pouvez pas modifier les groupes de tests après les avoir finalisés. Vous pouvez uniquement les suspendre, les supprimer ou les dupliquer.
+>N'oubliez pas que vous ne pouvez pas modifier les groupes de tests après les avoir finalisés. Vous pouvez uniquement les suspendre, les supprimer ou les dupliquer.
 
 ![](assets/test-groups-information.PNG)
