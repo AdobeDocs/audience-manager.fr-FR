@@ -25,7 +25,7 @@ Your CDF file is stored in the `aam-cdf` root directory on an [!DNL Amazon S3] s
 
 **Mon compartiment de stockage est-il sécurisé ?**
 
-Oui. Les clients ont accès à leur propre espace de stockage. Vous disposez d&#39;un accès en lecture seule à votre compartiment de stockage. Vous n&#39;aurez pas d&#39;accès en écriture.
+Oui. Les clients ont accès à leur propre espace de stockage. Vous disposez d'un accès en lecture seule à votre compartiment de stockage. Vous n'aurez pas d'accès en écriture.
 
 <br> 
 
@@ -37,7 +37,7 @@ Non. Les options de personnalisation et de stockage alternatif ne sont pas dispo
 
 **Il manque un fichier dans mon répertoire pendant une heure particulière. Where is it?**
 
-A missing file means [!DNL Audience Manager] was not able to process your CDF files for that hour. Cela survient généralement lorsque nos serveurs se retrouvent derrière le traitement des fichiers CDF. Dans ce cas, votre fichier n&#39;est pas perdu. Il apparaîtra dans un répertoire horaire ultérieur une fois que notre système aura la chance de rattraper le problème. See also, [Customer Data Feed File Processing Notifications](../features/cdf-files.md#cdf-file-processing-notifications).
+A missing file means [!DNL Audience Manager] was not able to process your CDF files for that hour. Cela survient généralement lorsque nos serveurs se retrouvent derrière le traitement des fichiers CDF. Dans ce cas, votre fichier n'est pas perdu. Il apparaîtra dans un répertoire horaire ultérieur une fois que notre système aura la chance de rattraper le problème. See also, [Customer Data Feed File Processing Notifications](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
@@ -51,23 +51,23 @@ See [Customer Data Feed File Processing Notifications](../features/cdf-files.md#
 
 **Quel type de fichier devrais-je prévoir ? How big is an average CDF file?**
 
-Il est difficile d&#39;estimer les tailles de fichier. Et chaque fichier peut avoir une taille différente. Les tailles varient d&#39;une heure à l&#39;autre. Si vous allez recevoir des fichiers CDF, il est utile d&#39;être prêt à gérer beaucoup de données.
+Il est difficile d'estimer les tailles de fichier. Et chaque fichier peut avoir une taille différente. Les tailles varient d'une heure à l'autre. Si vous allez recevoir des fichiers CDF, il est utile d'être prêt à gérer beaucoup de données.
 
 <br> 
 
 **Combien de fichiers vais-je recevoir ?**
 
-Là encore, il est difficile de l&#39;estimer. Toutefois, si vous allez recevoir des fichiers CDF, il est utile d&#39;être prêt à gérer beaucoup de données.
+Là encore, il est difficile de l'estimer. Toutefois, si vous allez recevoir des fichiers CDF, il est utile d'être prêt à gérer beaucoup de données.
 
 <br> 
 
 ## Data Integrity {#data-integrity}
 
-**Comment puis-je vérifier l&#39;intégrité des données téléchargées dans Amazon S 3 ?**
+**Comment puis-je vérifier l'intégrité des données téléchargées dans Amazon S 3 ?**
 
 Files exceeding 16MiB in size are split into 16MiB chunks and uploaded to [!DNL Amazon S3] using multi-part upload.
 
-[!DNL Amazon] génère `ETag` une valeur pour les transferts à parties multiples. Il calcule d&#39;abord les sommes de contrôle MD 5 individuelles de chaque partie téléchargée, puis les concatène dans une seule chaîne. Puis calcule la somme de contrôle MD 5 de la chaîne. The resulting checksum (the `ETag`) is then appended with a hyphen and the total number of parts used for upload. For instance, the `ETag` for a file that was split into 5 parts during upload could look something like this: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] génère `ETag` une valeur pour les transferts à parties multiples. Il calcule d'abord les sommes de contrôle MD 5 individuelles de chaque partie téléchargée, puis les concatène dans une seule chaîne. Puis calcule la somme de contrôle MD 5 de la chaîne. The resulting checksum (the `ETag`) is then appended with a hyphen and the total number of parts used for upload. For instance, the `ETag` for a file that was split into 5 parts during upload could look something like this: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
