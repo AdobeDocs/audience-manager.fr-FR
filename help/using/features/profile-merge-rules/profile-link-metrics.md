@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Report Metrics for Profile Merge Rules {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Link] les mesures fournissent des données sur les personnes et les périphériques qui s&#39;authentifient sur votre site. The data and graphs in [!UICONTROL Profile Link] update dynamically as you create a merge rules or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graph from the [!DNL Adobe Experience Cloud Device Co-op] or other third-party device graph sources.
+[!UICONTROL Profile Link] les mesures fournissent des données sur les personnes et les périphériques qui s'authentifient sur votre site. The data and graphs in [!UICONTROL Profile Link] update dynamically as you create a merge rules or when you click an existing rule from the [!UICONTROL Profile Merge Rules] dashboard. These metrics can include device graph from the [!DNL Adobe Experience Cloud Device Co-op] or other third-party device graph sources.
 
 ## Merge Rule Metrics {#merge-rule-metrics}
 
@@ -53,7 +53,7 @@ Reports return data in side-by-side bar graphs when your merge rules use data fr
 
 ## Device Graph Metrics {#device-graph-metrics}
 
-The [!UICONTROL Merge Rules] reports also show data on the total number of people and devices who have visited your site for the selected data source and device graph. Ces mesures renvoient des données basées sur des intervalles de temps prédéfinis (la période de recherche) qui varient selon l&#39;option de périphérique sélectionnée lors de la création d&#39;une règle. Le tableau suivant répertorie ces intervalles de rapport pour chacune des options du graphique de périphérique.
+The [!UICONTROL Merge Rules] reports also show data on the total number of people and devices who have visited your site for the selected data source and device graph. Ces mesures renvoient des données basées sur des intervalles de temps prédéfinis (la période de recherche) qui varient selon l'option de périphérique sélectionnée lors de la création d'une règle. Le tableau suivant répertorie ces intervalles de rapport pour chacune des options du graphique de périphérique.
 
 <table id="table_038983EBC71F4A55BBCA99212AC5DEE6"> 
  <thead> 
@@ -102,19 +102,19 @@ The [!UICONTROL Merge Rules] reports also show data on the total number of peopl
 
 ### Rapport Lien de profil standard
 
-A standard [!UICONTROL Profile Link] report looks like the following example. Les règles de fusion qui utilisent plusieurs sources de données (jusqu&#39;à 3, maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. This merge rule does not include [!UICONTROL Device Co-op] data.
+A standard [!UICONTROL Profile Link] report looks like the following example. Les règles de fusion qui utilisent plusieurs sources de données (jusqu'à 3, maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. This merge rule does not include [!UICONTROL Device Co-op] data.
 
 ![](assets/coop-metrics1.png)
 
 ### Rapport de lien de profil avec données graphiques de périphérique
 
-[!UICONTROL Profile Link] Un rapport qui comprend des données graphiques sur les périphériques provenant du [!UICONTROL Adobe Experience Cloud Device Co-op] graphique de périphérique tiers ou d&#39;un graphique de périphérique tiers montre [!UICONTROL Profile Link] les données du graphique et des périphériques avec des graphiques à barres côte à côte. Placing these graphs adjacent to each other lets you evaluate the benefits of using the [!UICONTROL Experience Cloud Device Co-op] compared to [!UICONTROL Profile Link] by itself. Les règles de fusion qui utilisent plusieurs sources de données (jusqu&#39;à 3, maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. As a reminder, the [!UICONTROL Authenticated Activity] graph and metrics do not return data from the [!DNL Adobe] device graph or other, third-party device graphs you may have access to in [!DNL Audience Manager].
+[!UICONTROL Profile Link] Un rapport qui comprend des données graphiques sur les périphériques provenant du [!UICONTROL Adobe Experience Cloud Device Co-op] graphique de périphérique tiers ou d'un graphique de périphérique tiers montre [!UICONTROL Profile Link] les données du graphique et des périphériques avec des graphiques à barres côte à côte. Placing these graphs adjacent to each other lets you evaluate the benefits of using the [!UICONTROL Experience Cloud Device Co-op] compared to [!UICONTROL Profile Link] by itself. Les règles de fusion qui utilisent plusieurs sources de données (jusqu'à 3, maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. As a reminder, the [!UICONTROL Authenticated Activity] graph and metrics do not return data from the [!DNL Adobe] device graph or other, third-party device graphs you may have access to in [!DNL Audience Manager].
 
 ![](assets/coop-metrics2.png)
 
 ## Profile Link Trend Graphs {#profile-link-trend}
 
-In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. Le graphique linéaire est conçu pour vous présenter les tendances au fil du temps pour vos règles de profil. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you&#39;re a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Cliquez sur une ligne de tendance pour afficher les données sous-jacentes.
+In addition to the other data visualizations, [!UICONTROL Profile Link] reports include a line graph. Le graphique linéaire est conçu pour vous présenter les tendances au fil du temps pour vos règles de profil. Trend graphs (and the other reports) are available when you click a rule from the [!UICONTROL Profile Merge Rules] landing page ( **[!UICONTROL Audience Data > Profile Merge Rules]**). These graphs include device graph data if you're a member of the [!UICONTROL Device Co-op] or other, third-party device graphs you may have access to in [!DNL Audience Manager]. Cliquez sur une ligne de tendance pour afficher les données sous-jacentes.
 
 ![](assets/authenticated_trends.png)
 
