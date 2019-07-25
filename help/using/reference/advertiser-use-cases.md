@@ -17,7 +17,7 @@ Examinez certains besoins courants des annonceurs qui sont satisfaits par Adobe 
 
 <!-- c_adv_use_case.xml -->
 
-## Création d&#39;une vue unifiée de tous vos utilisateurs
+## Création d'une vue unifiée de tous vos utilisateurs
 
 <table id="table_DB2C43F8A8074A229CE23B8772A510BF"> 
  <thead> 
@@ -192,7 +192,7 @@ The [Models](../features/algorithmic-models/understanding-models.md) documentati
  </tbody> 
 </table>
 
-## Personnalisation du chemin d&#39;achat du visiteur avec les données client actuelles et tierces
+## Personnalisation du chemin d'achat du visiteur avec les données client actuelles et tierces
 
 <table id="table_FAAE5C97107244A1B5179DF0FEC604D1"> 
  <thead> 
