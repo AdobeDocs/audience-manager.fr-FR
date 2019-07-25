@@ -13,7 +13,7 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 # Outbound File History {#outbound-file-history}
 
-Affichez les informations d&#39;historique des tâches par lots sortantes pour une période et une période spécifiées.
+Affichez les informations d'historique des tâches par lots sortantes pour une période et une période spécifiées.
 
 <!-- 
 
@@ -23,12 +23,12 @@ t_reports_outbound_history.xml
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
 
-   ![Résultat de l&#39;étape](assets/outbound_history.png)
+   ![Résultat de l'étape](assets/outbound_history.png)
 
 1. In the **[!UICONTROL Search for a Destination]** box, start typing and select the desired destination.
 1. In the **[!UICONTROL Select a Date Range]** box, specify the start and end dates for your report, then click **[!UICONTROL Apply Date Filter]**.
 
-   ![Résultat de l&#39;étape](assets/outbound_history_stats.png)
+   ![Résultat de l'étape](assets/outbound_history_stats.png)
 
    Le tableau suivant contient des informations correspondant aux colonnes du rapport :
 
