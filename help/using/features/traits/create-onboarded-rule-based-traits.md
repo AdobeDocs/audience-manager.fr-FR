@@ -24,7 +24,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
 
 <!-- c_tb_basics.xml -->
 
-### Champs d&#39;informations de base définis
+### Champs d'informations de base définis
 
 <table id="table_42AEC7A5B22346C5BB996D2D36C56229"> 
  <thead> 
@@ -78,7 +78,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
 
 ## Set a Trait Expiration Interval {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans une caractéristique (120 jours sont par défaut). Lorsqu&#39;elle est définie sur 0, l&#39;appartenance à la caractéristique n&#39;expire jamais.
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans une caractéristique (120 jours sont par défaut). Lorsqu'elle est définie sur 0, l'appartenance à la caractéristique n'expire jamais.
 
 <!-- t_tb_ttl.xml -->
 
@@ -90,5 +90,5 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a 
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Temps de segmentation pour l&#39;explication de la durée](../../features/traits/segment-ttl-explained.md)
+>* [Temps de segmentation pour l'explication de la durée](../../features/traits/segment-ttl-explained.md)
 
