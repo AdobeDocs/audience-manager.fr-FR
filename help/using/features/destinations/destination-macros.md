@@ -90,16 +90,16 @@ The `%rnd%` and `%timestamp%` macros insert unique values into a [!DNL URL] stri
 
 <!-- c_dest_cache_busting.xml -->
 
-Le cache des navigateurs (enregistrer) le contenu fréquemment demandé en mémoire. Lorsqu&#39;une page se charge, le contenu enregistré est diffusé à partir du cache plutôt qu&#39;à partir d&#39;un serveur distant. Ce processus permet de conserver des temps de téléchargement efficaces car les données sont diffusées localement plutôt qu&#39;à partir d&#39;un autre emplacement. Cependant, la mise en cache ne nécessitant pas d&#39;appel au serveur, elle peut fausser la création de rapports en diminuant artificiellement le nombre de requêtes uniques.
+Le cache des navigateurs (enregistrer) le contenu fréquemment demandé en mémoire. Lorsqu'une page se charge, le contenu enregistré est diffusé à partir du cache plutôt qu'à partir d'un serveur distant. Ce processus permet de conserver des temps de téléchargement efficaces car les données sont diffusées localement plutôt qu'à partir d'un autre emplacement. Cependant, la mise en cache ne nécessitant pas d'appel au serveur, elle peut fausser la création de rapports en diminuant artificiellement le nombre de requêtes uniques.
 
-La mise en cache du cache empêche les navigateurs d&#39;enregistrer et de réutiliser du contenu. Cette technique utilise le code qui insère un horodatage ou un horodatage dans une chaîne URL, ce qui lui donne un aspect unique. As a result, each `HTTP` call is counted as a separate request to the server. Forcer un nouvel appel au serveur pour chaque requête permet de conserver la précision des rapports et de réduire les disparités. [!DNL Audience Manager] fournit deux macros pour la mise en cache :
+La mise en cache du cache empêche les navigateurs d'enregistrer et de réutiliser du contenu. Cette technique utilise le code qui insère un horodatage ou un horodatage dans une chaîne URL, ce qui lui donne un aspect unique. As a result, each `HTTP` call is counted as a separate request to the server. Forcer un nouvel appel au serveur pour chaque requête permet de conserver la précision des rapports et de réduire les disparités. [!DNL Audience Manager] fournit deux macros pour la mise en cache :
 
 * `%rnd%`: Insère un nombre aléatoire dans une URL.
 * `%timestamp%`: Insère la date/heure Unix dans une URL.
 
 ## Comparing `%rnd%` and `%timestamp%` {#compare-rnd-timestamp}
 
-Both macros prevent caching, but `%rnd%` may be more efficient. For example, with `%timestamp%`, if several users view a page simultaneously they&#39;ll get the same date/time value. As a result, the [!DNL URL] is not unique and multiple calls are counted only once. `%rnd%` Toutefois, génère une valeur numérique unique pour chaque appel (même lorsque les utilisateurs visualisent la même page simultanément). This means the [!DNL URL] string contains different values and is counted as unique.
+Both macros prevent caching, but `%rnd%` may be more efficient. For example, with `%timestamp%`, if several users view a page simultaneously they'll get the same date/time value. As a result, the [!DNL URL] is not unique and multiple calls are counted only once. `%rnd%` Toutefois, génère une valeur numérique unique pour chaque appel (même lorsque les utilisateurs visualisent la même page simultanément). This means the [!DNL URL] string contains different values and is counted as unique.
 
 >[!MORE_ LIKE_ THIS]
 >
