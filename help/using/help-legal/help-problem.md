@@ -12,7 +12,7 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 # En cas de problème {#problem}
 
-Le service à la clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Fournissez autant de ces informations que vous le pouvez lorsque vous contactez le service d&#39;assistance clientèle. Cela permettra à l&#39;équipe de comprendre et de résoudre votre problème.
+Le service à la clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Fournissez autant de ces informations que vous le pouvez lorsque vous contactez le service d'assistance clientèle. Cela permettra à l'équipe de comprendre et de résoudre votre problème.
 
 ## Informations fondamentales {#basic-information}
 
