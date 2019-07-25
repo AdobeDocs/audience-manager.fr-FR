@@ -17,7 +17,7 @@ Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt i
 
 <!-- r_inbound_message.xml -->
 
-L&#39;exemple suivant illustre un exemple de courrier électronique. Le tableau ci-dessous décrit les différentes lignes du message.
+L'exemple suivant illustre un exemple de courrier électronique. Le tableau ci-dessous décrit les différentes lignes du message.
 
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
