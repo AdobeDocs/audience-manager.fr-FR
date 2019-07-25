@@ -13,11 +13,11 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 # Opt-out Management{#opt-out-management}
 
-Adobe respecte toutes les normes du secteur en ce qui concerne la gestion d&#39;exclusion. Lisez pour obtenir des informations complètes sur les types d&#39;exclusion pris en charge par Audience Manager.
+Adobe respecte toutes les normes du secteur en ce qui concerne la gestion d'exclusion. Lisez pour obtenir des informations complètes sur les types d'exclusion pris en charge par Audience Manager.
 
 ## Global Opt-Out {#global-opt-out}
 
-L&#39;exclusion globale représente une exclusion dans Audience Manager et d&#39;autres solutions Adobe Experience Cloud pour toutes les marques. Le tableau ci-dessous répertorie les méthodes utilisées pour l&#39;exclusion globale :
+L'exclusion globale représente une exclusion dans Audience Manager et d'autres solutions Adobe Experience Cloud pour toutes les marques. Le tableau ci-dessous répertorie les méthodes utilisées pour l'exclusion globale :
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -51,26 +51,26 @@ Votre fin - les utilisateurs peuvent également se désabonner de la collecte de
 * [The Digital Advertizing Alliance (DAA)](https://optout.aboutads.info/?c=2#!/);
 * [Initiative de publication sur réseau (NAI](https://optout.networkadvertising.org/?c=1#!/)).
 
-Suivez les demandes d&#39;exclusion décrites ci-dessus :
+Suivez les demandes d'exclusion décrites ci-dessus :
 
-* Audience Manager arrête la collecte de données, la segmentation ou l&#39;activation.
+* Audience Manager arrête la collecte de données, la segmentation ou l'activation.
 * Les données historiques sont supprimées du profil utilisateur après 120 jours.
 
 ## Partner Level Opt-Out {#partner-opt-out}
 
-L&#39;exclusion au niveau du partenaire permet d&#39;éliminer la collecte de données par des partenaires Audience Manager spécifiques. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
+L'exclusion au niveau du partenaire permet d'éliminer la collecte de données par des partenaires Audience Manager spécifiques. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
 
-### Exclusion du niveau partenaire avec les appels d&#39;ID déclarés
+### Exclusion du niveau partenaire avec les appels d'ID déclarés
 
-Après une exclusion de niveau partenaire avec un appel d&#39;ID déclaré :
+Après une exclusion de niveau partenaire avec un appel d'ID déclaré :
 
 * The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
-* Audience Manager arrête la collecte de données, la segmentation ou l&#39;activation pour le dernier ID de périphérique lié à l&#39;identifiant de la gestion de la relation client.
-* Aucune donnée historique n&#39;est supprimée.
+* Audience Manager arrête la collecte de données, la segmentation ou l'activation pour le dernier ID de périphérique lié à l'identifiant de la gestion de la relation client.
+* Aucune donnée historique n'est supprimée.
 
 <br/>
 
-**Appels d&#39;exclusion**
+**Appels d'exclusion**
 
 When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
 
@@ -103,10 +103,10 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
 | Exclusion avec | Exemple de code |
 |--- |--- |
 | Identifiant de fournisseur de données et utilisateur - id. | `https://domain name/demoptout.jpg?d_cid=123%01987...` |
-| Un code d&#39;intégration et un utilisateur - id. | `https://domain name/demoptout?d_cid_ic=456%01321...` |
+| Un code d'intégration et un utilisateur - id. | `https://domain name/demoptout?d_cid_ic=456%01321...` |
 | Plusieurs paires d_ cid et d_ cid_ ic_ cid_ ic. | `https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
 
-### Exclusion du niveau partenaire avec les appels d&#39;ID de périphérique
+### Exclusion du niveau partenaire avec les appels d'ID de périphérique
 
 You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
@@ -117,8 +117,8 @@ You can opt-out from data collection on a given device ID for a brand by making 
 
 Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
 
-Après une exclusion de niveau partenaire avec un appel d&#39;ID de périphérique :
+Après une exclusion de niveau partenaire avec un appel d'ID de périphérique :
 
-* L&#39;ID de périphérique est désabonné de la collecte de données.
-* Audience Manager interrompt toutes les collectes de données, la segmentation ou l&#39;activation pour le partenaire, pour l&#39;ID de périphérique.
-* Aucune donnée historique n&#39;est supprimée.
+* L'ID de périphérique est désabonné de la collecte de données.
+* Audience Manager interrompt toutes les collectes de données, la segmentation ou l'activation pour le partenaire, pour l'ID de périphérique.
+* Aucune donnée historique n'est supprimée.
