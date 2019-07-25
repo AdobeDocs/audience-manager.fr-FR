@@ -23,12 +23,12 @@ Audience Manager envoie des données par lots aux fournisseurs de contenu tiers 
 
 * [Macros de création de modèles sortants](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md) (en anglais)
 
-   Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Ces fichiers incluent le fichier : nom macros, macros d&#39;en-tête et macros de contenu.
+   Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Ces fichiers incluent le fichier : nom macros, macros d'en-tête et macros de contenu.
 
 * [Exemples de macro sortante](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
-   Exemples d&#39;utilisation de certaines macros pour créer des modèles de fichiers sortants.
+   Exemples d'utilisation de certaines macros pour créer des modèles de fichiers sortants.
 
 * [Utiliser les autorisations de compartiments inter-comptes Amazon S3 pour les fichiers de sortie](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   Le processus de transfert de données sortant pour les clients qui utilisent Amazon Simple Storage Service (Amazon S 3) exige que nous demandions votre clé d&#39;accès Amazon S 3 et votre clé secrète, afin de fournir les fichiers de données sortants à votre compartiment.
+   Le processus de transfert de données sortant pour les clients qui utilisent Amazon Simple Storage Service (Amazon S 3) exige que nous demandions votre clé d'accès Amazon S 3 et votre clé secrète, afin de fournir les fichiers de données sortants à votre compartiment.
