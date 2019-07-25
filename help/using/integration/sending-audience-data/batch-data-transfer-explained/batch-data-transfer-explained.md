@@ -19,15 +19,15 @@ Présentation générale de la manière dont Audience Manager effectue un échan
 
 <!-- c_async.xml -->
 
-Le processus d&#39;intégration des données par lots enregistre les informations des visiteurs sur nos serveurs et synchronise ce matériel avec les données envoyées par un fournisseur à intervalles réguliers. Le processus asynchrone de transfert des données est utile lorsque :
+Le processus d'intégration des données par lots enregistre les informations des visiteurs sur nos serveurs et synchronise ce matériel avec les données envoyées par un fournisseur à intervalles réguliers. Le processus asynchrone de transfert des données est utile lorsque :
 
 * Les transferts de données immédiats ne sont pas requis.
-* Collecte de données pour créer un grand pool d&#39;utilisateurs segmentés.
+* Collecte de données pour créer un grand pool d'utilisateurs segmentés.
 * You want to reduce data discrepancies and `HTTP` calls from the browser.
 
 ![](assets/s2s_70.png)
 
-## Étapes d&#39;intégration des données
+## Étapes d'intégration des données
 
 1. Un utilisateur visite un site client.
 1. Audience Manager et le fournisseur de données tiers attribuent au visiteur un identifiant unique (généralement avec un cookie).
