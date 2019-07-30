@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Prise en main de la gestion en bloc
 uuid: 4 bc 6 ae 0 a -315 c -4 ce 7-a 68 e-cc 0 c 6 c 6 aa 2 f 1
 translation-type: tm+mt
-source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
+source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
@@ -30,13 +30,17 @@ c_bulk_start.xml
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. L'API fournit les méthodes et les services qui vous permettent d'effectuer des modifications en bloc. Vous n'avez pas besoin de savoir comment coder ou utiliser nos API pour l'utiliser. La feuille de calcul contient des en-têtes et des onglets de colonne qui effectuent des modifications de masse spécifiques. Pour apporter des modifications en masse, tout ce que vous faites consiste à ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, à fournir les informations que vous souhaitez modifier en bloc, puis à cliquer sur un bouton d'action. La feuille de calcul et les API font le reste du travail.
 
+## Téléchargement {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+
 ## Conditions préalables {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. En tant que client, vous devez posséder déjà ces informations d'identification.
 * ID client d'API et clé secrète. Votre gestionnaire de compte peut vous fournir ces informations.
-* [!UICONTROL Bulk Management Tools] Feuille de calcul. **[Téléchargez la feuille de calcul](assets/BAAAM_August_2018.xlsm)** pour obtenir la dernière version.
+* [!UICONTROL Bulk Management Tools] Feuille de calcul. [Téléchargez la feuille de calcul](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) pour obtenir la dernière version.
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
