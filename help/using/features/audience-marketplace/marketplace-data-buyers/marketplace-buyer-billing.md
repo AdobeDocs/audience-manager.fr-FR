@@ -4,10 +4,10 @@ seo-description: Les acheteurs de données Audience Marketplace acceptent de sig
 seo-title: Facturation des acheteurs de flux de données
 solution: Audience Manager
 title: Facturation des acheteurs de flux de données
-topic: API DIL
+keywords: Création de rapports au niveau du segment, niveau segment, niveau segment
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
 
 ---
 
