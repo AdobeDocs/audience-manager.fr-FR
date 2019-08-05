@@ -7,7 +7,7 @@ title: Facturation des acheteurs de flux de données
 keywords: Création de rapports au niveau du segment, niveau segment, niveau segment
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
+source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
 
 ---
 
@@ -251,7 +251,7 @@ Au niveau d'un flux de données, la manière dont les impressions sont allouées
 
 La ventilation à un seul coup d'œil par flux de données et cas d'utilisation se présente comme suit :
 
-![flux-ventilation](assets/feed-breakdown.png)
+![flux-ventilation](assets/feed-breakdown-alt.png)
 
 <br> 
 
