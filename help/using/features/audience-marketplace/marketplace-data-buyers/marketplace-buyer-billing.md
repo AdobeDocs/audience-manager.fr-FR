@@ -7,7 +7,7 @@ title: Facturation des acheteurs de flux de données
 keywords: Création de rapports au niveau du segment, niveau segment, niveau segment
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ Pour signaler [!DNL CPM] l'utilisation au niveau du segment :
 6. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. Cliquez sur **[!UICONTROL Confirm]**.
+
+<br> 
 
 ## Utilisation du rapport CPM au niveau du flux de données {#feed-level-report}
 
@@ -221,6 +223,8 @@ Ce segment contient trois caractéristiques provenant de fournisseurs de donnée
 Nous ne pouvons pas déterminer la caractéristique responsable d'une impression car la qualification est basée sur une [!UICONTROL OR] condition. Par conséquent, dans [!UICONTROL Audience Marketplace > Payables] la section, vous créditez chaque fournisseur avec une allocation pondérée du nombre total d'impressions, en fonction de la population de caractéristiques.
 
 ![facturation-segment-ou](assets/billing-segment-or.png)
+
+<br> 
 
 ### Cas 3 : Segments avec cas d'utilisation de modélisation et d'activation
 
