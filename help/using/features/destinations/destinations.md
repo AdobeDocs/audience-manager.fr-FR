@@ -7,16 +7,16 @@ solution: Audience Manager
 title: Destinations
 uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
 
-# Destinations {#destinations}
+# Présentation des destinations {#destinations}
 
-In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) dont vous souhaitez partager les données. [!UICONTROL Destination Builder] est l'outil que vous avez utilisé pour créer et gérer [!DNL URL]les destinations de serveur à serveur.
+Dans Audience Manager, une destination est un système tiers (serveur d'annonces, [!DNL DSP]réseau publicitaire, etc.) dont vous souhaitez partager les données. [!UICONTROL Destination Builder] est l'outil que vous avez utilisé pour créer et gérer [!DNL URL]les destinations de serveur à serveur.
 
-## Purpose and Advantages {#purposes}
+## Objectif et avantages {#purposes}
 
 <!-- c_destinations.xml -->
 
@@ -24,13 +24,13 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 
 * **Protégez la valeur de données :** Plutôt que d'envoyer toutes les données utilisateur à une destination, [!UICONTROL Destination Builder] vous pouvez partager des informations spécifiques sur les utilisateurs qualifiés uniquement.
 * **Agir sur vos données :** L'envoi de données à un partenaire de destination les aide à développer et cibler rapidement des segments d'audience qualifiés.
-* **Réduire les frais de surcharge technique :** Les utilisateurs professionnels peuvent configurer les destinations en toute sécurité dans [!UICONTROL Destination Builder] l'interface. Cela permet de réduire le temps nécessaire aux tests préalables au déploiement. With [!UICONTROL Destination Builder], you create, manage, and delete destinations as your business needs change, all without working through a long development cycle.
+* **Réduire les frais de surcharge technique :** Les utilisateurs professionnels peuvent configurer les destinations en toute sécurité dans [!UICONTROL Destination Builder] l'interface. Cela permet de réduire le temps nécessaire aux tests préalables au déploiement. Avec [!UICONTROL Destination Builder], vous créez, gérez et supprimez des destinations à mesure que vos besoins commerciaux changent, sans passer par un cycle de développement long.
 
 ## Considérations techniques {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-La remise des données dépend de la manière dont votre partenaire de données souhaite ou peut recevoir les informations de destination. Technical or engineering constraints may prevent a destination from receiving data via [!DNL URL], cookie, or server-to-server processes. Collaborez avec votre partenaire tiers pour déterminer la méthode qu'ils peuvent utiliser.
+La remise des données dépend de la manière dont votre partenaire de données souhaite ou peut recevoir les informations de destination. Les contraintes techniques ou techniques peuvent empêcher une destination de recevoir des données par le biais [!DNL URL]de processus, de cookies ou de processus serveur à serveur. Collaborez avec votre partenaire tiers pour déterminer la méthode qu'ils peuvent utiliser.
 
 ## Considérations commerciales {#business-considerations}
 
@@ -39,7 +39,7 @@ Les décisions entreprises pour la sélection d'une méthode de livraison par ra
 * [!DNL URL]s et les destinations basées sur cookie fonctionnent de manière presque synchrone avec les actions de l'utilisateur sur une page.
 * Les méthodes serveur à serveur sont utiles pour créer des segments d'audience profonds au fil du temps.
 
-## Destination Types and Typical Uses {#destination-types}
+## Types de destination et utilisations types {#destination-types}
 
 Les exemples du tableau ci-dessous peuvent vous aider à comprendre quand utiliser une destination spécifique et les différences entre chaque type.
 
