@@ -5,7 +5,7 @@ seo-title: Suppression instantanée inter-périphérique
 title: Suppression instantanée inter-périphérique
 uuid: cb 11 b 9 cb -6 d 7 d -4 aa 9-91 b 0-c 2715857 d 821
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
 
@@ -21,47 +21,47 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * **Expérience utilisateur améliorée**: Les utilisateurs qui ont déjà acheté votre produit ou service ne verront pas les mêmes créatifs qu'avant l'achat. Vous pouvez plutôt afficher des messages de vente croisée ou croisée pour les produits ou services qu'ils n'ont pas achetés.
 * **Efficacité du multimédia**: Optimiser les dépenses de campagne en appliquant une enveloppe de fréquence globale à tous [!DNL DSP]les s. L'extrémité de fréquence peut être activée en temps réel pour plusieurs périphériques appartenant à un utilisateur.
 
-The technical details of the real-time unsegmentation are described in length in [Profile Merge Rules and Device Un-Segmentation Processes](../../features/profile-merge-rules/merge-rule-unsegment.md). Lisez la mise en œuvre pratique des cas d'utilisation décrits ci-dessus.
+Les détails techniques de la non segmentation en temps réel sont décrits en longueur dans les sections Règles de fusion [des profils et Processus de déssegmentation des périphériques](../../features/profile-merge-rules/merge-rule-unsegment.md). Lisez la mise en œuvre pratique des cas d'utilisation décrits ci-dessus.
 
-## Do Not Target Once Converted {#do-not-target-once}
+## Ne pas cibler une fois converti {#do-not-target-once}
 
-Assurez-vous que les utilisateurs qui ont déjà effectué la conversion (acheté un produit, ont acheté un abonnement, etc.) ne verra pas le même message avant la conversion. You can obtain this using the [!UICONTROL AND NOT] logic, as follows.
+Assurez-vous que les utilisateurs qui ont déjà effectué la conversion (acheté un produit, ont acheté un abonnement, etc.) ne verra pas le même message avant la conversion. Vous pouvez obtenir ce résultat à l'aide [!UICONTROL AND NOT] de la logique, comme suit.
 
-1. Create a segment using two traits, and use the [!UICONTROL AND NOT] logic, as shown in the image below. Vous devez utiliser une caractéristique basée sur des règles pour définir l'événement de conversion pour que le segment soit déclenché en temps réel. Read more about how to [create rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
-1. Faites correspondre le segment à n'importe quel nombre de destinations serveur à serveur en temps réel. Read on about how to add segments to [server-to-server destinations](../../features/destinations/manage-destinations.md#add-edit-segments).
+1. Créez un segment à l'aide de deux caractéristiques et utilisez la [!UICONTROL AND NOT] logique, comme illustré dans l'image ci-dessous. Vous devez utiliser une caractéristique basée sur des règles pour définir l'événement de conversion pour que le segment soit déclenché en temps réel. En savoir plus sur [la création de caractéristiques basées sur des règles](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
+1. Faites correspondre le segment à n'importe quel nombre de destinations serveur à serveur en temps réel. Découvrez comment ajouter des segments aux [destinations serveur à serveur](../../features/destinations/add-edit-segments.md).
 
 Les visiteurs sont admissibles pour le segment tant qu'ils n'ont pas été convertis. Dès qu'ils remplissent la caractéristique de conversion, ils ne suivent plus la règle de segment et sont immédiatement supprimés du segment.
 
 ![](assets/and_not_use_case.png)
 
-## Do Not Target After x Impressions {#do-not-target-after-x}
+## Ne pas cibler après x impressions {#do-not-target-after-x}
 
 Vous pouvez vous assurer que vous n'encombrez pas les utilisateurs avec le même créatif en définissant des commandes de récence et de fréquence. Dans ce scénario, créez un segment avec deux caractéristiques, comme décrit dans les étapes ci-dessous.
 
-1. Create a segment using two traits, and use the [!UICONTROL AND] logic, as shown in the image below. Vous devez utiliser une caractéristique basée sur des règles pour définir l'événement d'impression pour que le segment soit déclenché en temps réel. Read more about how to [create rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
+1. Créez un segment à l'aide de deux caractéristiques et utilisez la [!UICONTROL AND] logique, comme illustré dans l'image ci-dessous. Vous devez utiliser une caractéristique basée sur des règles pour définir l'événement d'impression pour que le segment soit déclenché en temps réel. En savoir plus sur [la création de caractéristiques basées sur des règles](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits).
    >[!NOTE]
    >
-   >You can use [!UICONTROL Actionable Log Files] or [!UICONTROL Pixel Calls] to create traits based on user impressions. Read more about [Actionable Log Files](../../integration/media-data-integration/actionable-log-files.md) and [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md).
-1. Applique les commandes de fréquence à la deuxième caractéristique. Si vous le souhaitez, vous pouvez ajouter également des commandes de récence. Read more about [how to apply recency and frequency controls](../../features/segments/recency-and-frequency.md).
-1. Faites correspondre le segment à n'importe quel nombre de destinations serveur à serveur en temps réel. Read on about how to add segments to [server-to-server destinations](../../features/destinations/manage-destinations.md#add-edit-segments).
+   >Vous pouvez utiliser [!UICONTROL Actionable Log Files] ou [!UICONTROL Pixel Calls] créer des caractéristiques basées sur les impressions des utilisateurs. Pour en savoir plus sur [les fichiers](../../integration/media-data-integration/actionable-log-files.md) journaux et les appels [de pixels actionnés](../../integration/media-data-integration/impression-data-pixels.md).
+1. Applique les commandes de fréquence à la deuxième caractéristique. Si vous le souhaitez, vous pouvez ajouter également des commandes de récence. En savoir plus sur [l'application des commandes de récence et de fréquence](../../features/segments/recency-and-frequency.md).
+1. Faites correspondre le segment à n'importe quel nombre de destinations serveur à serveur en temps réel. Découvrez comment ajouter des segments aux [destinations serveur à serveur](../../features/destinations/add-edit-segments.md).
 
 Dans ce scénario, une fois que vos utilisateurs ont accumulé plus de trois impressions, ils seront supprimés de ce segment et ne verront plus ce créatif particulier.
 
 ![](assets/impressions_use_case.png)
 
-## Important Aspects to Note - Processing {#processing-notes}
+## Aspects importants à prendre en compte - Traitement {#processing-notes}
 
 Gardez à l'esprit ces aspects liés au traitement :
 
 * Pour que la fonctionnalité de segmentation en temps réel fonctionne, vous devez mapper les segments souhaités avec les destinations serveur à serveur.
-* For devices connected to a device by a [device graph](../../features/profile-merge-rules/profile-link-use-case.md#recommendations), we enforce a four-device limit regarding evaluation and unsegmentation. This limitation is described in [Device Graph Options and Device Unsegmentation](../../features/profile-merge-rules/merge-rule-unsegment.md#device-graph-options-unsegmentation).&#x200B;
+* Pour les périphériques connectés à un périphérique par un graphique [de périphérique](../../features/profile-merge-rules/profile-link-use-case.md#recommendations), nous appliquons une limite de quatre périphériques au sujet d'évaluation et de non segmentation. Cette limitation est décrite dans [les sections Options graphiques de périphérique et Unsegmentation du périphérique](../../features/profile-merge-rules/merge-rule-unsegment.md#device-graph-options-unsegmentation).
 * La commande unsegment sera incluse dans un fichier de commandes, qui est envoyé aux destinations toutes les 24 heures, pour plusieurs périphériques connectés par le graphique de l'appareil.
-* The device must be seen in real-time (on the [Edge](../../reference/system-components/components-edge.md)) to prompt segment evaluation. For traits that have a [!UICONTROL time-to-live (TTL)] value, even if a trait [!DNL TTL] is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.&#x200B; Read more about how to [Set a Trait Expiration Interval](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
-* If you are using the [!UICONTROL DCS API] to on-board rule-based traits in real-time, you can trigger the unsegment with the use of the [!UICONTROL AND NOT] logic. Read more about [sending data to the DCS API](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;
+* Le périphérique doit être visible en temps réel ( [sur le bord Edge](../../reference/system-components/components-edge.md)) pour demander l'évaluation de segment. Pour les caractéristiques qui possèdent [!UICONTROL time-to-live (TTL)] une valeur, même si une caractéristique [!DNL TTL] est satisfaite, le périphérique *ne* sera pas automatiquement non segmenté tant que le périphérique n'est pas visualisé en temps réel. Pour en savoir plus sur [la définition d'un intervalle d'expiration de caractéristique](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* Si vous utilisez des caractéristiques [!UICONTROL DCS API] basées sur des règles sur le bord en temps réel, vous pouvez déclencher le désegment avec l'utilisation de [!UICONTROL AND NOT] la logique. En savoir plus sur [l'envoi de données à l'API DCS](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
 
-## Important Aspects to Note - Timing {#timing-notes}
+## Aspects importants à noter - Minutage {#timing-notes}
 
 Gardez à l'esprit ces aspects liés au timing :
 
-* A segment will be stored on the [Edge](../../reference/system-components/components-edge.md) for the same time period as a device profile is stored on the [!UICONTROL Edge], namely 14 days since last real-time interaction. Read more about data retention in our [Data Retention FAQ](../../faq/faq-privacy.md#data-retention-faq).
-* It takes approximately 24 hours for the unsegment operation to propagate across [!UICONTROL DCS] regions. Read more about our [!UICONTROL DCS] regions [here](../../reference/system-components/components-data-collection.md) and [here](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Un segment sera stocké sur [le bord pour](../../reference/system-components/components-edge.md) la même période qu'un profil de périphérique stocké sur le [!UICONTROL Edge], à savoir 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la rétention des données, consultez notre FAQ sur la rétention [des données](../../faq/faq-privacy.md#data-retention-faq).
+* La propagation de l'opération de segmentation à l'échelle [!UICONTROL DCS] des régions prend environ 24 heures. En savoir plus sur nos [!UICONTROL DCS] régions [ici](../../reference/system-components/components-data-collection.md) et [ici](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
