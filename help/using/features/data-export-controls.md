@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Contrôles des exportations de données
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -20,27 +20,27 @@ source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
 [!UICONTROL Data Export Controls] vous permet de classer [les sources de données](../features/datasources-list-and-settings.md#data-sources-list-and-settings) et [les destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent si les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité se compose des éléments suivants :
 
 * **[!UICONTROL Data Export Controls]**: Vous pouvez définir les contrôles d'exportation de données sur *les sources de données*. Lorsqu'elles sont définies sur une source de données, ces commandes limitent la manière dont cette source de données et ses caractéristiques peuvent être utilisées.
-* **[!UICONTROL Data Export Labels]**: Vous pouvez définir les étiquettes d'exportation des données sur *les destinations*. Lorsqu'elles sont définies sur une destination, ces étiquettes identifient la manière dont la destination utilise les données. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
+* **[!UICONTROL Data Export Labels]**: Vous pouvez définir les étiquettes d'exportation des données sur *les destinations*. Lorsqu'elles sont définies sur une destination, ces étiquettes identifient la manière dont la destination utilise les données. Voir [Ajout de libellés d'exportation de données à une destination](/help/using/features/destinations/add-data-export-labels.md) pour savoir comment ajouter des étiquettes d'exportation à une destination.
 
 Selon les classifications appliquées à une source de données et à une destination, les commandes d'exportation vous arrêtent de :
 
 * Ajout d'une caractéristique à un segment lorsque la caractéristique appartient à une source de données dont le contrôle d'exportation de données est incompatible avec une étiquette d'exportation de données sur une ou plusieurs destinations auxquelles le segment est associé.
-For example, say a segment is mapped to a destination with the export label **[UICONTROL! This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[UICONTROL! Cannot be tied to personally identifiable information (PII)]**.
+Par exemple, supposons qu'un segment soit mappé à une destination avec le libellé d'exportation **[UICONTROL ! Cette destination peut permettre une combinaison avec des informations d'identification personnelle]**. Les contrôles d'exportation vous empêchent d'ajouter une caractéristique à ce segment si la source de données à laquelle la caractéristique appartient possède un contrôle d'exportation de données qui indique **[UICONTROL ! Ne peut pas être lié à des informations d'identification personnelle]**.
 * L'envoi d'une donnée à une destination de destination dispose d'un libellé d'exportation de données bloqué par un contrôle d'exportation de données sur les éléments suivants :
    * Source de données d'une caractéristique incluse ;
    * Source de données d'une caractéristique utilisée dans un segment inclus ;
    * Règle de fusion de profil utilisée par un segment inclus ;
    * Toute source de données utilisée par la règle de fusion de profil d'un segment inclus.
 
-[!UICONTROL Data Export Controls] sont automatiquement disponibles pour tous les clients Audience Manager. Cependant, vous avez besoin des autorisations d'administrateur pour ajouter des contrôles d'exportation à une source de données. Adding export labels to a destination requires administrator permissions *or* sufficient privileges to create or edit a destination.
+[!UICONTROL Data Export Controls] sont automatiquement disponibles pour tous les clients Audience Manager. Cependant, vous avez besoin des autorisations d'administrateur pour ajouter des contrôles d'exportation à une source de données. L'ajout de libellés d'exportation à une destination requiert des autorisations d'administrateur *ou* des privilèges suffisants pour créer ou modifier une destination.
 
-## Controls and labels defined {#controls-labels}
+## Contrôles et étiquettes définis {#controls-labels}
 
 [!UICONTROL Data Export Controls] fournissez les commandes suivantes pour vous aider à classifier les sources de données et les destinations.
 
-Pour bloquer la diffusion des données, vous devez classer une source de données avec un contrôle d'exportation et ajouter une étiquette d'exportation à une destination. Si vous appliquez des contrôles d'exportation à une source de données ou à une destination uniquement, cette fonction ne limite pas la remise des données. When set on both the data source *and* destination, the export controls will limit the traits you can add to a segment and prevent sending the segment members to a destination.
+Pour bloquer la diffusion des données, vous devez classer une source de données avec un contrôle d'exportation et ajouter une étiquette d'exportation à une destination. Si vous appliquez des contrôles d'exportation à une source de données ou à une destination uniquement, cette fonction ne limite pas la remise des données. Lorsqu'elles sont définies sur la source *de données et* la destination, les commandes d'exportation limitent les caractéristiques que vous pouvez ajouter à un segment et empêchent l'envoi des membres du segment à une destination.
 
-De plus, au moins une étiquette d'exportation doit correspondre à un contrôle d'exportation avant que les restrictions de remise de données ne soient prises en compte. For example, say you add the [!UICONTROL PII] export control to a data source. Ensuite, vous ajoutez le libellé de ciblage sur site à une destination. Dans ce cas, les commandes d'exportation ne limitent pas la remise des données car les paramètres ne correspondent pas. However, if you add the [!UICONTROL PII] export label to the destination, the export controls will block the export.
+De plus, au moins une étiquette d'exportation doit correspondre à un contrôle d'exportation avant que les restrictions de remise de données ne soient prises en compte. Par exemple, imaginons que vous ajoutiez le contrôle [!UICONTROL PII] d'exportation à une source de données. Ensuite, vous ajoutez le libellé de ciblage sur site à une destination. Dans ce cas, les commandes d'exportation ne limitent pas la remise des données car les paramètres ne correspondent pas. Toutefois, si vous ajoutez le libellé [!UICONTROL PII] d'exportation à la destination, les commandes d'exportation bloquent l'exportation.
 
 >[!IMPORTANT]
 >
@@ -110,4 +110,4 @@ De plus, au moins une étiquette d'exportation doit correspondre à un contrôle
 Pour commencer, examinez la source de données et la documentation de destination. Ces articles contiennent des instructions sur l'ajout de commandes et de libellés d'exportation à vos sources de données et à vos destinations.
 
 * [Création d'une source de données](../features/manage-datasources.md#create-data-source)
-* [Ajout d'étiquettes d'exportation de données à une destination](../features/destinations/manage-destinations.md#add-data-export-labels)
+* [Ajout d'étiquettes d'exportation de données à une destination](../features/destinations/add-data-export-labels.md)
