@@ -2,25 +2,26 @@
 description: API et toolkits d'outils qui vous permettent de travailler par programmation avec Audience Manager.
 seo-description: API et toolkits d'outils qui vous permettent de travailler par programmation avec Audience Manager.
 seo-title: API et code SDK
+keywords: 'api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
 title: API et code SDK
 uuid: bf 801 e 84-f 914-4 efd -8807-c 4972474894 a
 translation-type: tm+mt
-source-git-commit: 9e407a14f6c466ae826f2b13013a997e762a160e
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
 
-# API and SDK Code {#api-and-sdk-code}
+# API et code SDK {#api-and-sdk-code}
 
 [!DNL API]s et les toolkits d'outils qui vous permettent de travailler par programmation avec Audience Manager.
 
 >[!NOTE]
 >
->These features are not supported by our [!DNL API]s:
+>Ces fonctionnalités ne sont pas prises en charge par notre [!DNL API]s :
 >
 >* [!UICONTROL General], [!UICONTROL Trend]et [!UICONTROL Interactive] les rapports.
->* Deprecated Tag Insertion Manager ([!DNL TIM]) functionality.
+>* Fonctionnalité d'insertion de balises obsolète ([!DNL TIM]).
 
 
 Détails:
