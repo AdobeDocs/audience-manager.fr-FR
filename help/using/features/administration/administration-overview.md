@@ -8,75 +8,76 @@ title: Administration
 topic: API DIL
 uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
 translation-type: tm+mt
-source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
 
-# Administration (RBAC Controls) {#administration}
+# Administration (commandes RBAC) {#administration}
 
 ![](assets/rbac-controls.png)
 
-The options under the [!UICONTROL Administration] menu let you create Audience Manager users and assign them to groups. Vous pouvez également afficher les limites (caractéristiques, segments, destinations et modèles).
+Les options du [!UICONTROL Administration] menu vous permettent de créer des utilisateurs Audience Manager et de les affecter aux groupes. Vous pouvez également afficher les limites (caractéristiques, segments, destinations et modèles).
 
-Enterprise customers using [!DNL Audience Manager] need one data management platform for all of their data, but must be able to control the visibility of the different data elements to specific business units. You can accomplish this using group permissions, also referred to as [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
+Clients d'entreprise qui utilisent [!DNL Audience Manager] une plateforme de gestion de données pour toutes leurs données, mais doivent pouvoir contrôler la visibilité des différents éléments de données à des unités opérationnelles spécifiques. Vous pouvez y effectuer des autorisations de groupe, également appelées [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] utilise des groupes pour attribuer des autorisations. Les autorisations ne sont pas attribuées au niveau de l'utilisateur. Les autorisations de groupe sont liées aux objets (caractéristiques, segments, etc.) et aux actions que vous pouvez effectuer sur ces objets (modification, affichage, etc.). Ces contrôles sont également disponibles via les API REST d'Audience Manager. See [User Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Group Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md), and [Permissions Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API methods.
+[!DNL Audience Manager] utilise des groupes pour attribuer des autorisations. Les autorisations ne sont pas attribuées au niveau de l'utilisateur. Les autorisations de groupe sont liées aux objets (caractéristiques, segments, etc.) et aux actions que vous pouvez effectuer sur ces objets (modification, affichage, etc.). Ces contrôles sont également disponibles via les API REST d'Audience Manager. Voir [Méthodes de l'API Gestion des utilisateurs](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Gestion](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)[des groupes et Gestion](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) des permissions.
 
 ## Create Users {#create-users}
 
 <!-- t_create_users.xml -->
 
-Create users in [!DNL Audience Manager] and specify user details, login status, and assign users to groups.
+Créez des utilisateurs dans [!DNL Audience Manager] et spécifiez les détails de l'utilisateur, le statut de connexion et affectez des utilisateurs aux groupes.
 
 1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
-1. Click ![](assets/icon_add.png) to display the [!UICONTROL Create New User] page.
+1. Cliquez sur ![](assets/icon_add.png) pour afficher [!UICONTROL Create New User] la page.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **Nom d'utilisateur :** Indiquez un nom d'utilisateur unique pour Audience Manager.
    * **Prénom :** Indiquez le prénom de l'utilisateur.
    * **Nom :** Indiquez le nom de l'utilisateur.
    * **Adresse électronique :** Indiquez l'adresse électronique de l'utilisateur. [!DNL Audience Manager] n'envoie pas de notification régulière aux utilisateurs. [!DNL Audience Manager] les administrateurs ont accès aux adresses électroniques des utilisateurs et peuvent manuellement envoyer les utilisateurs par messagerie électronique. Par exemple, si un utilisateur oublie son mot de passe, l'adresse électronique spécifiée dans ce champ est utilisée pour envoyer un mot de passe temporaire et des instructions pour réinitialiser le mot de passe.
    * **Numéro de téléphone :** Indiquez le numéro de téléphone de l'utilisateur.
-   * **Est Admin :** Indiquez si cet utilisateur est [!DNL Audience Manager] un administrateur. Les utilisateurs administrateurs peuvent gérer les utilisateurs (création, modification, etc.) et les groupes (créez, attribuez des autorisations, etc.). Les utilisateurs non administrateurs ne peuvent contrôler que leurs propres profils d'utilisateurs, y compris la modification de leurs adresses électroniques et la réinitialisation de leurs propres mots de passe. For more information, see [Edit Your Account Settings](../../features/administration/edit-account-settings.md).
-1. Under **[!UICONTROL Login]**, select the desired status:
+   * **Est Admin :** Indiquez si cet utilisateur est [!DNL Audience Manager] un administrateur. Les utilisateurs administrateurs peuvent gérer les utilisateurs (création, modification, etc.) et les groupes (créez, attribuez des autorisations, etc.). Les utilisateurs non administrateurs ne peuvent contrôler que leurs propres profils d'utilisateurs, y compris la modification de leurs adresses électroniques et la réinitialisation de leurs propres mots de passe. Pour plus d'informations, voir [Modification des paramètres de votre compte](../../features/administration/edit-account-settings.md).
+1. Sous **[!UICONTROL Login]**, sélectionnez l'état de votre choix :
    * **Actif :** Les utilisateurs actifs peuvent accéder [!DNL Audience Manager] aux autorisations et les disposer d'autorisations par adhésion au groupe.
-   * **Désactivé :** Les utilisateurs désactivés ne peuvent pas accéder [!DNL Audience Manager] à et ne disposent pas d'autorisations. If you deactivate users, their user information remains in [!DNL Audience Manager] and you can simple reactivate them, if necessary. If you remove users, you must re-create them if they need to use [!DNL Audience Manager] again in the future.
+   * **Désactivé :** Les utilisateurs désactivés ne peuvent pas accéder [!DNL Audience Manager] à et ne disposent pas d'autorisations. Si vous désactivez les utilisateurs, leurs informations utilisateur restent dans [!DNL Audience Manager] et vous pouvez les réactiver simple, si nécessaire. Si vous supprimez des utilisateurs, vous devez les recréer s'ils doivent réutiliser [!DNL Audience Manager] ultérieurement.
    * **Expiré :** Le mot de passe d'un utilisateur est supérieur à 90 jours.
    * **En attente :** L'utilisateur dispose d'un mot de passe temporaire, soit après une réinitialisation du mot de passe, soit comme un nouveau compte, et qu'il n'a pas encore défini de mot de passe permanent.
    * **Verrouillé :** 5 tentatives de connexion incorrectes verrouillent un utilisateur.
-1. Under **[!UICONTROL Assigned Groups]**, from the drop-down list, select the desired groups to which you want to assign this user.
-For more information about groups and permissions, see [Create a Group](../../features/administration/administration-overview.md#create-group).
+1. Sous **[!UICONTROL Assigned Groups]**, dans la liste déroulante, sélectionnez les groupes auxquels vous souhaitez affecter cet utilisateur.
+Pour plus d'informations sur les groupes et autorisations, voir [Création d'un groupe](../../features/administration/administration-overview.md#create-group).
 1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Création d’un groupe {#create-group}
 
-A *group* is a collection of users that share access rights to destination, segment, and trait objects. Vous pouvez limiter les groupes aux objets uniques uniquement ou leur donner un accès large aux combinaisons d'objets différents.
+Un *groupe* est un ensemble d'utilisateurs qui partagent des droits d'accès aux objets de destination, de segment et de caractéristique. Vous pouvez limiter les groupes aux objets uniques uniquement ou leur donner un accès large aux combinaisons d'objets différents.
 
 <!-- t_create_groups.xml -->
 
 Création d’un groupe:
 
 1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
-1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
+1. Cliquez sur ![](assets/icon_add.png) pour ouvrir [!UICONTROL Group Settings] la page.
 1. Dans [!UICONTROL Group Details]:
    * Nommez le groupe.
    * Fournissez une brève description de groupe.
-1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
-1. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md), or [destination](../../features/destinations/destinations.md) from **[!UICONTROL Add Object]**.
+1. Dans [!UICONTROL Group Members], cliquez sur un utilisateur à partir **[!UICONTROL Add Users]** des options pour les ajouter au groupe.
+1. Dans [!UICONTROL Group Permissions], sélectionnez [une caractéristique](../../features/traits/trait-details-page.md), [un segment](../../features/segments/segments-purpose.md)ou [une destination](../../features/destinations/destinations.md) .
+**[!UICONTROL Add Object]**
 Vous ouvrez alors une fenêtre d'autorisations pour l'objet sélectionné.
 1. Cochez la case correspondant aux autorisations que vous souhaitez accorder aux membres du groupe.
 1. *(Facultatif)* Attribuez [des autorisations](../../features/administration/administration-overview.md#wild-card-permissions) génériques au groupe.
 1. Cliquez sur **[!UICONTROL Save Group]**.
 
-## Understanding Wild Card Permissions {#wild-card-permissions}
+## Présentation des autorisations génériques {#wild-card-permissions}
 
-Simplify group rights management with [!UICONTROL Wild Card Permissions].
+Simplifiez la gestion des droits de groupe.[!UICONTROL Wild Card Permissions]
 
 <!-- c_wildcard_permissions.xml -->
 
 [!UICONTROL Wild Card Permissions] donner aux membres du groupe l'accès automatique à chaque source de données associée à un segment, une destination ou une caractéristique. Par comparaison, les autorisations régulières vous permettent d'affecter des sources de données spécifiques à l'un de ces objets. De plus, lorsque vous ajoutez de nouvelles sources de données, les membres du groupe n'ont pas accès à ces nouvelles sources.
 
-Vous devez ouvrir les autorisations du groupe et affecter ces nouvelles sources de données au groupe. [!UICONTROL Wild Card Permissions] vous permet d'éviter ce processus de mise à jour manuelle de la source de données. Groups with [!UICONTROL Wild Card Permissions] get access to new data sources without explicit authorization.
+Vous devez ouvrir les autorisations du groupe et affecter ces nouvelles sources de données au groupe. [!UICONTROL Wild Card Permissions] vous permet d'éviter ce processus de mise à jour manuelle de la source de données. Groupes ayant [!UICONTROL Wild Card Permissions] accès aux nouvelles sources de données sans autorisation explicite.
 
 ![](assets/wild-card.png)
 
@@ -85,9 +86,9 @@ Lisez la description ci-dessous pour obtenir une description de l'autorisation d
 **Caractéristique**
 
 * `MAP_ALL_TRAITS_TO_MODELS` - Les utilisateurs peuvent sélectionner des caractéristiques comme ligne de base pour les modèles.
-* `EDIT_ALL_TRAITS` - Les utilisateurs peuvent modifier toutes les caractéristiques appartenant à leur entreprise (PID).
-* `VIEW_ALL_TRAITS` - Les utilisateurs peuvent afficher toutes les caractéristiques appartenant à leur entreprise (PID).
-* `DELETE_ALL_TRAITS` - Les utilisateurs peuvent supprimer toutes les caractéristiques appartenant à leur entreprise.
+* `EDIT_ALL_TRAITS` - Les utilisateurs peuvent modifier toutes les caractéristiques configurées dans leur compte de société.
+* `VIEW_ALL_TRAITS` - Les utilisateurs peuvent afficher toutes les caractéristiques configurées dans leur compte de société.
+* `DELETE_ALL_TRAITS` - Les utilisateurs peuvent supprimer toutes les caractéristiques configurées dans leur compte de société.
 * `CREATE_ALL_ALGO_TRAITS` - Les utilisateurs peuvent créer des caractéristiques algorithmiques.
 * `MAP_ALL_TO_SEGMENTS` - Les utilisateurs peuvent ajouter n'importe quelle caractéristique appartenant à leur entreprise aux segments.
 * `CREATE_ALL_TRAITS` - Les utilisateurs peuvent créer des caractéristiques.
