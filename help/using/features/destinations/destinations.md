@@ -1,13 +1,13 @@
 ---
 description: Dans Audience Manager, une destination est un système tiers (serveur d'annonces, DSP, réseau publicitaire, etc.) dont vous souhaitez partager les données. Le créateur de destinations est l'outil que vous avez utilisé pour créer et gérer les destinations de cookie, d'URL ou de serveur à serveur.
-keywords: code d'intégration, destination, aperçu de destination
+keywords: code d'intégration, destination, aperçu de destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: Dans Audience Manager, une destination est un système tiers (serveur d'annonces, DSP, réseau publicitaire, etc.) dont vous souhaitez partager les données. Le créateur de destinations est l'outil que vous avez utilisé pour créer et gérer les destinations de cookie, d'URL ou de serveur à serveur.
 seo-title: Destinations
 solution: Audience Manager
 title: Destinations
 uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
