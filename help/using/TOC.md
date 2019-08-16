@@ -4,7 +4,7 @@ audience: utilisateur final
 user-guide-title: Guide de l'utilisateur d'Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
+source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
 
 ---
 
@@ -83,7 +83,9 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
          + [Configuration d'une destination Analytics](/help/using/features/destinations/create-analytics-destination.md)
       + Destinations basées sur les personnes {#pbd}
       + Destinations basées sur un périphérique (serveur à serveur) {#device-based}
+         + [Ajouter de nouvelles destinations basées sur un périphérique](/help/using/features/destinations/add-device-based-destinations.md)
          + [Ajout ou modification de segments pour les destinations serveur à serveur](/help/using/features/destinations/add-edit-segments.md)
+         + [Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service](/help/using/features/destinations/twitter-tailored-audiences.md)
       + Destinations personnalisées {#custom-destinations}
          + [Configuration d'une destination d'URL](/help/using/features/destinations/create-url-destination.md)
          + [Configuration d'une destination de cookie](/help/using/features/destinations/create-cookie-destination.md)
