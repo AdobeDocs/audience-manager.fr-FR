@@ -5,7 +5,7 @@ seo-title: Ajouter de nouvelles destinations basées sur un périphérique
 solution: Audience Manager
 title: Ajouter de nouvelles destinations basées sur un périphérique
 translation-type: tm+mt
-source-git-commit: b492065756d45ee6dfb185cc387409dea72a9923
+source-git-commit: d185a1d418e99abb99c36b28dfb419a1fb3b60f5
 
 ---
 
@@ -41,13 +41,13 @@ Après avoir configuré l'intégration de la plateforme de destination, vous pou
 
 1. Connectez-vous à votre compte Audience Manager, puis **[!DNL Audience Data > Destinations]** cliquez **[!DNL Create Destination]** sur.
 2. Dans **[!DNL Basic Information]** la section, saisissez a **[!DNL Name]** et **[!DNL Description]** pour la nouvelle destination et utilisez les paramètres de la liste ci-dessous : ![configuration](assets/dbd-new-basic.png)
+   * **[!DNL Category]**: [!DNL Integrated Platforms];
+   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Platform]**: sélectionnez la plateforme de destination à laquelle vous voulez envoyer les segments d'audience.
+   * **[!DNL Account]**: sélectionnez un compte publicitaire associé à la plateforme sélectionnée.
 3. Cliquez sur **[!DNL Next]**.
 4. Choisissez [les étiquettes](/help/using/features/data-export-controls.md#controls-labels) d'exportation de données à définir pour cette destination.
 5. Cliquez sur **[!DNL Save]**.
 6. Dans **[!DNL Segment Mappings]** la section, sélectionnez les segments d'audience à envoyer à cette destination.
 7. Enregistrez la destination.
 
-* **[!DNL Category]**: [!DNL Integrated Platforms];
-* **[!DNL Type]**: [!DNL Device-Based];
-* **[!DNL Platform]**: sélectionnez la plateforme de destination à laquelle vous voulez envoyer les segments d'audience.
-* **[!DNL Account]**: sélectionnez un compte publicitaire associé à la plateforme sélectionnée.
