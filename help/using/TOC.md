@@ -4,7 +4,7 @@ audience: utilisateur final
 user-guide-title: Guide de l'utilisateur d'Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
 
 ---
 
@@ -78,20 +78,29 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Signaux dérivés](features/derived-signals.md)
    + Destinations{#destinations}
       + [Présentation des destinations](features/destinations/destinations.md)
-      + [Page d'accueil des destinations](/help/using/features/destinations/destinations-home.md)
+      + [Page d'accueil des destinations](features/destinations/destinations-home.md)
       + Destinations Adobe Experience Cloud{#experience-cloud-destinations}
-         + [Configuration d'une destination Analytics](/help/using/features/destinations/create-analytics-destination.md)
-      + Destinations basées sur les personnes {#pbd}
+         + [Configuration d'une destination Analytics](features/destinations/create-analytics-destination.md)
+      + Destinations basées sur les personnes {#people-based-destinations}
+         + [Présentation et cas d'utilisation](features/destinations/people-based-destinations-overview.md)
+         + [Conditions préalables et points à prendre en compte](features/destinations/people-based-destinations-prerequisites.md)
+         + Guide de mise en œuvre {#pbd-implementation}
+            + [Présentation de l'implémentation](features/destinations/people-based-destinations-workflow.md)
+            + [Processus A - Personnalisation basée sur toutes les activités en ligne combinées aux données hors ligne](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Processus B - Personnalisation basée sur les données hors ligne uniquement](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Processus C - Personnalisation basée sur une activité authentifiée combinée avec des données hors ligne](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [Authentification avec plateformes basées sur People](features/destinations/people-based-destinations-authentication.md)
+         + [Audiences partageables](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinations basées sur un périphérique (serveur à serveur) {#device-based}
-         + [Ajouter de nouvelles destinations basées sur un périphérique](/help/using/features/destinations/add-device-based-destinations.md)
-         + [Ajout ou modification de segments pour les destinations serveur à serveur](/help/using/features/destinations/add-edit-segments.md)
-         + [Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service](/help/using/features/destinations/twitter-tailored-audiences.md)
+         + [Ajouter de nouvelles destinations basées sur un périphérique](features/destinations/add-device-based-destinations.md)
+         + [Ajout ou modification de segments pour les destinations serveur à serveur](features/destinations/add-edit-segments.md)
+         + [Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service](features/destinations/twitter-tailored-audiences.md)
       + Destinations personnalisées {#custom-destinations}
-         + [Configuration d'une destination d'URL](/help/using/features/destinations/create-url-destination.md)
-         + [Configuration d'une destination de cookie](/help/using/features/destinations/create-cookie-destination.md)
-         + [Paramètres facultatifs pour les destinations de cookie](/help/using/features/destinations/cookie-destination-options.md)
+         + [Configuration d'une destination d'URL](features/destinations/create-url-destination.md)
+         + [Configuration d'une destination de cookie](features/destinations/create-cookie-destination.md)
+         + [Paramètres facultatifs pour les destinations de cookie](features/destinations/cookie-destination-options.md)
       + Référence des destinations {#destinations-reference}
-         + [Créateur de destinations](/help/using/features/destinations/destination-builder.md)
+         + [Créateur de destinations](features/destinations/destination-builder.md)
          + [get_ aamcookie Code](features/destinations/get-aam-cookie-code.md)
          + [Macros de destination définies](features/destinations/destination-macros.md)
          + [Paires standard/de série-valeur standard](features/destinations/key-value-pairs.md)
@@ -362,6 +371,7 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [FAQ sur la collecte de données et l'intégration des produits](faq/faq-data-collection.md)
    + [FAQ sur l'assimilation des données client inbound](faq/faq-inbound-data-ingestion.md)
    + [FAQ sur la confidentialité et la rétention des données](faq/faq-privacy.md)
+   + [FAQ sur les destinations basées sur People](faq/faq-people-based-destinations.md)
    + [FAQ sur les fonctions et fonctions du produit](faq/faq-features.md)
    + [FAQ sur la fusion des profils et le graphique des périphériques](faq/faq-profile-merge.md)
    + [FAQ sur le ciblage](faq/faq-targeting.md)
