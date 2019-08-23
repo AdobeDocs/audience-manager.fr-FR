@@ -5,7 +5,7 @@ seo-title: Configuration des audiences personnalisées Twitter en tant que desti
 solution: Audience Manager
 title: Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service
 translation-type: tm+mt
-source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
+source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 
 ---
 
@@ -21,8 +21,6 @@ Avant de configurer [!DNL Twitter Tailored Audiences] votre destination, veillez
 1. Votre [!DNL Twitter Ads] compte doit être éligible pour la publication. Les nouveaux [!DNL Twitter Ads] comptes ne peuvent pas être publiés dans les deux semaines qui suivent leur création.
 2. Votre compte utilisateur Twitter autorisé à accéder à Audience Manager doit activer l'autorisation [du gestionnaire](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) d'audience de partenaire.
 3. Si vous [mettez à jour votre intégration Twitter existante dans une administration en libre-service](#update-existing-twitter-integrations), l'autorisation du gestionnaire [de publicités doit être activée pour votre](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) compte utilisateur Twitter.
-
-
 
 ## Ajouter une [!DNL Twitter Tailored Audiences] nouvelle destination {#add-new-twitter-destination}
 
@@ -65,9 +63,18 @@ Pour améliorer l'expérience des utilisateurs et simplifier le processus de con
 Procédez comme suit pour migrer votre destination existante [!DNL Twitter Tailored Audiences] vers le modèle libre-service.
 
 1. Connectez-vous à votre compte Audience Manager et accédez **[!DNL Administration > Integrated Accounts]**&#x200B;à.
-2. Cliquez sur **[!DNL Add Account]**.
-3. Sélectionnez [!DNL Twitter Tailored Audiences] et cliquez **[!DNL Confirm]** pour être redirigé vers la page d'authentification. ![plateformes intégrées](assets/dbd-integrated-platforms.png)
-4. Une fois que vous êtes authentifié auprès de votre compte Twitter, vous êtes redirigé vers Audience Manager, où vos comptes publicitaires associés doivent apparaître. Sélectionnez le compte publicitaire à utiliser, puis cliquez **[!DNL Confirm]** sur.
+1. Cliquez sur **[!DNL Add Account]**.
+1. Sélectionnez [!DNL Twitter Tailored Audiences] et cliquez **[!DNL Confirm]** pour être redirigé vers la page d'authentification. ![plateformes intégrées](assets/dbd-integrated-platforms.png)
+1. Une fois que vous êtes authentifié auprès de [!DNL Twitter] votre compte, vous êtes redirigé vers Audience Manager, où vos comptes publicitaires associés doivent être affichés. Sélectionnez le compte publicitaire à utiliser, puis cliquez **[!DNL Confirm]** sur.
+1. Accédez **[!UICONTROL Audience Data]** à &gt; **[!UICONTROL Destinations]** et cliquez sur la destination Twitter que vous devez configurer.
+1. Cliquez sur **[!UICONTROL Edit]**. Dans **[!UICONTROL Basic Information]** la section, cliquez sur le **[!UICONTROL Integrated Account]** menu déroulant et sélectionnez le [!DNL Twitter] compte que vous avez authentifié à l'étape 4.
+1. **[!UICONTROL Save]** la destination.
+
+## Validation de la migration vers l'administration en libre-service {#migration-validation}
+
+La migration complète des intégrations existantes [!DNL Twitter] pour l'administration en libre-service peut prendre jusqu'à 7 jours. Une fois la migration terminée, Audience Manager affiche une notification dans l'interface utilisateur.
+
+Vous verrez également un nouveau jeu d'audiences dans [!DNL Twitter] votre compte, avec leurs noms préfixés par [! Audience DNL [Adobe DMP]]. Veuillez autoriser jusqu'à 7 jours pour que la population d'audiences soit complètement renvoyée. Une fois la migration terminée, utilisez ces nouveaux publics plutôt que les anciens.
 
 ## Considérations relatives au mappage des segments {#segment-mapping-considerations}
 
@@ -76,7 +83,7 @@ Lors du mappage des segments d'audience sur Twitter, veillez à respecter les ex
 * Fournissez des noms de mappage de segments lisibles. Nous vous recommandons d'utiliser le même nom que celui utilisé pour les segments Audience Manager.
 * N'utilisez pas de virgules dans les noms de mappage des segments et des segments.
 
-**Exemple**
+### Exemple
 
 * Segment correct ou nom de mappage : « Acheteurs E.U. et européens » ;
 * Segment ou nom de mappage incorrect : « US, Europe 5 h 0 pP 3 rs ».
