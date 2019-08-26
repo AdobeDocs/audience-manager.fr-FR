@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentation du produit Audience Manager
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 0916 be
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
 
 ---
 
@@ -20,11 +20,10 @@ Audience Manager fournit des services de pointe de gestion des données d’aud
   <tr> 
    <td colname="col1"> <p> <b>Nouveautés et points forts</b> </p> <p>Découvrez les dernières fonctionnalités d'Audience Manager :</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/destinations/people-based-destinations-overview.md">Destinations basées sur les personnes</a> </li>
+     <li><a href="features/destinations/twitter-tailored-audiences.md">Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service</a> </li>
      <li><a href="features/destinations/destinations-home.md">Page d'accueil des destinations</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">Obscurcissement d’adresses IP</a> </li>
-     <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Module externe Audience Manager pour IAB TCF</a> </li>
-     <li><a href="features/administration/usage-limits.md#id-mapping-limits">Limites de mappage des identifiants</a> </li>
-     <li><a href="features/global-data-sources.md">Sources de données globales</a> </li> 
      </ul> </p> <p>Voir aussi <a href="docs-updates/docs-2019.md"> la section 2019 Mises à jour de la documentation</a>. </p> 
      <p>Si vous découvrez Audience Manager, consultez notre <a href="reference/aam-glossary.md"> Glossaire</a> et <a href= "reference/ids-in-aam.md">l'index des identifiants.</a></p></td>
    <td colname="col2"> <p> <b>Notes de mise à jour</b> </p> <p> 
@@ -38,7 +37,7 @@ Audience Manager fournit des services de pointe de gestion des données d’aud
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Formations et didacticiels Adobe</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> Page d’accueil de la documentation du produit</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Formation et assistance Audience Manager</a> </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
