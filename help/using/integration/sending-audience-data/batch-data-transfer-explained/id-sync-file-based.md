@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants
 uuid: bfe 42 af 9-9149-4 da 3-830 e-f 227 c 4 e 610 c 2
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 5624eac36a7f2b8892136688f89fc22af241fc3a
 
 ---
 
@@ -19,13 +19,13 @@ Décrit les champs obligatoires, la syntaxe et les conventions d'attribution de 
 >
 >Les styles de texte (`monospaced text`, *italiques*, crochets `[ ]` `( )`, etc.) dans ce document indique les éléments et options du code. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
 
-## File Name Syntax and Examples {#file-name-syntax}
+## Fichier - Syntaxe et exemples {#file-name-syntax}
 
 <!-- c_file_based_id_sync.xml -->
 
 Les noms des fichiers d'ID contiennent les éléments obligatoires et facultatifs suivants :
 
-`adobe_id_`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
+`adobe_id_`*`[c2c_id_]`*`MASTERDPID_DPID[_DPID_DPID`*`]_`*`TIMESTAMP`*`.sync[.`*`SPLIT_NUMBER`*`][.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -37,7 +37,11 @@ Les noms des fichiers d'ID contiennent les éléments obligatoires et facultatif
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> adobe_ id</code> </p> </td> 
-   <td colname="col2"> <p>Préfixe statique qui identifie le fichier comme un fichier d'ID. </p> </td> 
+   <td colname="col2"> <p>Préfixe statique qui identifie le fichier comme fichier de synchronisation des identifiants. Utilisez ce préfixe lorsque vous faites correspondre des ID de périphérique à d'autres ID de périphérique ou ID de client (dpuuid).  </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> c 2 c_ id</code> </p> </td> 
+   <td colname="col2"> <p>Préfixe statique qui identifie le fichier comme fichier de synchronisation des identifiants pour les destinations basées sur un utilisateur. Utilisez ce préfixe lorsque vous faites correspondre des ID de client (dpuuid) aux adresses de courriel hachées pour les destinations basées sur un utilisateur.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
@@ -74,23 +78,27 @@ Les exemples suivants montrent les noms de fichiers correctement formatés. Vos 
  <li> <code> adobe_ id_ 111_ 222_ 333_ 444_ 1454442149. sync</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
+ <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
 </ul>
 
-## File Content Syntax and Examples {#file-content-syntax}
+>[!NOTE]
+> Pour le nommage des fichiers de synchronisation des identifiants (préfixe c 2 c) pour les destinations basées sur les personnes, voir [Flux de travaux A - Personnalisation basée sur toutes les activités en ligne combinées aux données](../../../features/destinations/people-based-destinations-workflow-combined.md) ou [flux de travaux hors ligne B - Personnalisation basée sur les données hors ligne uniquement](../../../features/destinations/people-based-destinations-workflow-offline.md).
+
+## Syntaxe du contenu du fichier et exemples {#file-content-syntax}
 
 Le contenu d'un fichier d'ID inclut les éléments suivants :
 
 *`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
 
-The file contains user IDs ([!DNL UUID]). Dans chaque ligne, séparez les identifiants par un onglet. L'exemple suivant illustre un fichier d'ID correctement formaté. Votre contenu peut ressembler à celui-ci.
+Le fichier contient un utilisateur - id ([!DNL UUID]). Dans chaque ligne, séparez les identifiants par un onglet. L'exemple suivant illustre un fichier d'ID correctement formaté. Votre contenu peut ressembler à celui-ci.
 
 ```
 abc123 def456 ghi789 xyz987
 ```
 
-## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
+## Synchronisation correspond aux dpuuid sur les UUID {#sync-matches-dpuuids-uuids}
 
-The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-in-aam.md) from your own Data Sources with [!DNL Audience Manager] UUIDs. Synchronization maps the [!DNL DPUUID]s from the master [!DNL DPID] and its related [!DNL DPID]s to the [!DNL Audience Manager] [!DNL UUID]s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. Par exemple, prenons les deux exemples de fichiers présentés ici :
+L'objectif d'un fichier de synchronisation des identifiants est de synchroniser les [dpuuid](../../../reference/ids-in-aam.md) de vos propres sources de données avec [!DNL Audience Manager] des UUID. La synchronisation associe la [!DNL DPUUID][!DNL DPID] variable s [!DNL DPID]à [!DNL Audience Manager][!DNL UUID]la s. Lorsque vous placez les ID dans le fichier, le nom et le corps déterminent la manière dont ces identifiants sont associés les uns aux autres. Par exemple, prenons les deux exemples de fichiers présentés ici :
 
 * **Fichier 1 :**`adobe_id_0_12345_1476312152.sync`
 
@@ -110,8 +118,8 @@ The purpose of an ID sync file is to sync the [DPUUIDs](../../../reference/ids-i
 | 66552757407517449462805881945288602094 | XYZ 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 M |
 | 66184778222667870903738139438735041506 | XYZ 3017 q 9 r 60 kuhpoca_ Ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw |
 
-Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] "0" in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
-<br/>
+Étape 1 : Le processus de synchronisation des identifiants synchronise les [!DNL DPUUID]s entre [!DNL DPID] 12345 et [!DNL Audience Manager][!DNL UUID]les s dans la colonne de gauche. Notez que [!DNL DPID] la valeur « 0 » du fichier - nom représente [!DNL Audience Manager][!DNL UUID]s.<br/>
+
 
 **Fichier 2** ( [Télécharger un exemple de fichier](assets/adobe_id_12345_67890_1477846458.sync))
 
@@ -123,16 +131,16 @@ Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 
 | XYZ 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 M | 2351382994 |
 | XYZ 3017 q 9 r 60 kuhpoca_ Ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw | 4601584763 |
 
-Step 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been synced in step 1 with the Audience Manager [!DNL UUID]s. What this ID sync will do is sync the [!DNL DPUUID]s from [!DNL DPID] 67890 with the Audience Manager [!DNL UUID]s from step 1.
+Étape 2 : la [!DNL DPUUID]valeur s from [!DNL DPID] 12345 a été synchronisée à l'étape 1 avec Audience Manager [!DNL UUID]s. Ce synchronisation d'identifiants synchronise la [!DNL DPUUID]variable s de [!DNL DPID] 67890 avec Audience Manager [!DNL UUID]à l'étape 1.
 
 <br/>
 
-## Other Format Requirements {#other-format-reqs}
+## Autres exigences de format {#other-format-reqs}
 
 Utilisateur - les identifiants ne peuvent pas :
 
 * Comporte des onglets dans l'ID lui-même. Les onglets ne sont utilisés que pour séparer des ID individuels dans le fichier de données.
-* Contain personally identifiable information ([!UICONTROL PII]).
-* Use [!DNL URL] encoding. Transmettez uniquement les ID non codés.
+* Contient des informations d'identification personnelle ([!UICONTROL PII]).
+* Utilisez [!DNL URL] le codage. Transmettez uniquement les ID non codés.
 
 Les lignes qui se terminent par des tabulations ou des espaces ne seront ni traitées, ni converties. En règle générale, veillez à effacer la fin des lignes.
