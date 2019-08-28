@@ -5,7 +5,7 @@ seo-title: Configuration des audiences personnalisées Twitter en tant que desti
 solution: Audience Manager
 title: Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -74,7 +74,7 @@ Procédez comme suit pour migrer votre destination existante [!DNL Twitter Tailo
 
 La migration complète des intégrations existantes [!DNL Twitter] pour l'administration en libre-service peut prendre jusqu'à 7 jours. Une fois la migration terminée, Audience Manager affiche une notification dans l'interface utilisateur.
 
-Vous verrez également un nouveau jeu d'audiences dans [!DNL Twitter] votre compte, avec leurs noms préfixés par [! Audience DNL [Adobe DMP]]. Veuillez autoriser jusqu'à 7 jours pour que la population d'audiences soit complètement renvoyée. Une fois la migration terminée, utilisez ces nouveaux publics plutôt que les anciens.
+Vous verrez également un nouveau jeu d'audiences dans [!DNL Twitter] votre compte, avec leurs noms préfixés par [[!DNL Adobe DMP Audience]]. Veuillez autoriser jusqu'à 7 jours pour que la population d'audiences soit complètement renvoyée. Une fois la migration terminée, utilisez ces nouveaux publics plutôt que les anciens.
 
 ## Considérations relatives au mappage des segments {#segment-mapping-considerations}
 
