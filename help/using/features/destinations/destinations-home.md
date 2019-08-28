@@ -5,7 +5,7 @@ seo-title: Gérer les destinations
 solution: Audience Manager
 title: Gérer les destinations
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
 
@@ -23,7 +23,7 @@ La page d'entrée par défaut répertorie vos destinations, en fonction du type.
 
 * **Tout**: affiche tous les types de destinations.
 * **Adobe Experience Cloud**: affiche les destinations qui envoient des données à d'autres solutions Adobe Experience Cloud. Actuellement, la seule option prise en charge est Adobe Analytics. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **Plateformes intégrées**: montre les destinations basées sur les utilisateurs et les périphériques (également appelées destinations serveur à serveur). Notez que les destinations basées sur les personnes sont actuellement une fonctionnalité bêta uniquement disponible pour les clients sélectionnés.
+* **Plateformes intégrées**: montre les destinations basées sur les utilisateurs et les périphériques (également appelées destinations serveur à serveur).
 * **Personnalisé**: affiche les destinations de cookie et d'URL.
 
 
