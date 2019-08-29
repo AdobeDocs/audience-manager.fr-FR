@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Page Détails de la caractéristique
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
+source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
 
 ---
 
@@ -29,15 +29,16 @@ Vous [!UICONTROL Trait Graph] disposez ainsi des mesures de performances d'un co
 
 * Pour les caractéristiques basées sur des règles, la qualification des caractéristiques se produit en temps réel, car les utilisateurs remplissent une caractéristique dans leur navigateur.
 * Pour les caractéristiques intégrées, la qualification des caractéristiques survient après le traitement d'un fichier entrant, c'est-à-dire que le fichier entrant [est alimenté dans Audience Manager](../../faq/faq-inbound-data-ingestion.md) , c'est-à-dire lorsque la qualification de caractéristique se produit.
-* **Realizations de caractéristiques uniques**: Nombre d'utilisateurs uniques qui ont ajouté cette caractéristique à leur profil au cours de la période donnée.
-* **Population totale de caractéristiques**: Nombre d'utilisateurs uniques actuellement qualifiés pour cette caractéristique.
+* **[!UICONTROL Unique Trait Realizations]**: Nombre d'utilisateurs uniques qui ont ajouté cette caractéristique à leur profil au cours de la période donnée.
+* **[!UICONTROL Total Trait Population]**: Nombre d'utilisateurs uniques actuellement qualifiés pour cette caractéristique.
 
    ![caractéristique-graphique](assets/trait-summary.png)
 
-* **Ventilation Type d'identité**: Les trois premières entrées montrent les trois principales sources de données inter-périphériques dont le nombre de populations est le plus élevé et qui est qualifié pour la caractéristique, dans l'ordre décroissant. La quatrième entrée indique la somme de tout l'autre [!DNL DPUUIDs] ([!DNL CRM IDs]) qui est qualifiée pour la caractéristique, à partir des sources de données inter-périphériques qui ne figurent pas dans les trois premières. Ce rapport s'affiche uniquement si vous sélectionnez l'option ID inter-périphériques dans le [!UICONTROL Show Results By] menu déroulant en haut à droite de la page. L'option déroulante par défaut est [!UICONTROL Device ID], où ce rapport ne s'affiche pas.
+* **[!UICONTROL Identity Type Breakdown]**: Les trois premières entrées montrent les trois principales sources de données inter-périphériques dont le nombre de populations est le plus élevé et qui est qualifié pour la caractéristique, dans l'ordre décroissant. La quatrième entrée indique la somme de tout l'autre [!DNL DPUUIDs] ([!DNL CRM IDs]) qui est qualifiée pour la caractéristique, à partir des sources de données inter-périphériques qui ne figurent pas dans les trois premières. Ce rapport s'affiche uniquement si vous sélectionnez l'option ID inter-périphériques dans le [!UICONTROL Show Results By] menu déroulant en haut à droite de la page. L'option déroulante par défaut est [!UICONTROL Device ID], où ce rapport ne s'affiche pas.
 
    ![caractéristique-graphique](assets/trait-identity.png)
-
+   > [!NOTE]
+   > Audience Manager affiche uniquement [!UICONTROL Identity Type Breakdown] le rapport si des ID interterminaux sont qualifiés pour la caractéristique.
 
 ## Expression de caractéristique {#trait-expression}
 
