@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fichier de données sortantes - nom syntaxe et exemples
 uuid: effdfac 6-c 37 c -45 f 3-9 d 2 f-a 938 a 9 da 47 a 6
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
 
@@ -93,7 +93,7 @@ Le tableau définit les éléments d'un fichier de données sortant - nom.
 
 ### Scénario 1
 
-Fichiers envoyés à un [!DNL Amazon S3] emplacement, avec *`PID-ALIAS="XYZCustomer"`* et avec [!DNL Google Advertiser IDs] dans le contenu du fichier.
+Fichiers envoyés à un [!DNL Amazon S3] emplacement, avec *`PID_ALIAS="XYZCustomer"`* et avec [!DNL Google Advertiser IDs] dans le contenu du fichier.
 
 Fichiers incrémentiels :
 
@@ -112,7 +112,7 @@ Fichiers complets :
 
 ### Scénario 2
 
-Fichiers envoyés à [!DNL FTP] l'emplacement, sans *`PID-ALIAS`* et avec [!DNL Apple Advertiser IDs] dans le contenu du fichier :
+Fichiers envoyés à [!DNL FTP] l'emplacement, sans *`PID_ALIAS`* et avec [!DNL Apple Advertiser IDs] dans le contenu du fichier :
 
 Fichiers incrémentiels :
 
@@ -128,7 +128,7 @@ Fichiers complets :
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scénario 3**: Fichiers envoyés à [!DNL FTP] l'emplacement, avec *`PID-ALIAS="XYZCustomer"`* et avec User - id tiers - id dans le contenu du fichier ( *`Vendor ID=45454`*) :
+**Scénario 3**: Fichiers envoyés à [!DNL FTP] l'emplacement, avec *`PID_ALIAS="XYZCustomer"`* et avec User - id tiers - id dans le contenu du fichier ( *`Vendor ID=45454`*) :
 
 Fichiers incrémentiels :
 
