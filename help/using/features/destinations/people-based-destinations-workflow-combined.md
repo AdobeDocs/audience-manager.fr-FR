@@ -5,7 +5,7 @@ seo-title: Processus A - Personnalisation basée sur toutes les activités en li
 solution: Audience Manager
 title: Processus A - Personnalisation basée sur toutes les activités en ligne combinées aux données hors ligne
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: f3f47db944d9f771cbd55058f6652188cda0e147
 
 ---
 
