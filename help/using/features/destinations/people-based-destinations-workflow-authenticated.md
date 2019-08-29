@@ -5,7 +5,7 @@ seo-title: Processus C - Personnalisation basée sur une activité authentifiée
 solution: Audience Manager
 title: Processus C - Personnalisation basée sur une activité authentifiée combinée avec des données hors ligne
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -49,16 +49,16 @@ Pour qualifier les utilisateurs authentifiés pour des caractéristiques basées
 
 Imaginons que vous ayez créé les deux sources de données suivantes.
 
-| Données ID source | Données contenu source |
-|-|-|
-| 999999 | Existant Dpuuids (ID de CRM)|
-| 987654 | Hachage adresses électroniques|
+| ID de source de données | Contenu de la source de données |
+|---|---|
+| 999999 | DPUUID existants (identifiants CRM) |
+| 987654 | Adresses électroniques hachées |
 
 Vous souhaitez ensuite qualifier les identifiants CRM ci-dessous pour la caractéristique du tableau.
 
-| DPUUID (Identifiant CRM)| Courriel adresse | Adresse électronique hachée | Caractéristique|
-|-|-|-|-|
-|68079982765673198504052656074456196039|`johndoe@example.com`| 55 e 79200 c 1635 b 37 ad 31 a 378 c 39 feb 12 f 120 f 116625093 a 19 bc 32 fff 15041149 | location = US|
+| DPUUID, ID de CRM | Adresse électronique | Adresse électronique hachée | Caractéristique |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
 L'ID déclaré doit respecter cette syntaxe :
 
