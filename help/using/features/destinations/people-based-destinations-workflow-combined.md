@@ -5,7 +5,7 @@ seo-title: Processus A - Personnalisation basée sur toutes les activités en li
 solution: Audience Manager
 title: Processus A - Personnalisation basée sur toutes les activités en ligne combinées aux données hors ligne
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -55,7 +55,7 @@ Dans ce cas, vous devez créer une source de données inter-périphériques qui 
 Imaginons que vous souhaitez faire correspondre vos [dpuuid existants](../../reference/ids-in-aam.md) aux adresses électroniques hachées du tableau ci-dessous (colonne à droite) et stocker les adresses électroniques hachées dans la nouvelle source de données que vous avez créée à [l'étape 1 - Configurer les paramètres de source de données](people-based-destinations-workflow-combined.md#configure-data-source-settings).
 
 | DPUUID, ID de CRM | Adresse électronique | Adresse électronique hachée |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
@@ -65,7 +65,7 @@ Vous pouvez lier jusqu'à 10 adresses électroniques hachées à un [seul DPUUID
 Dans notre exemple, vous disposez maintenant de deux sources de données.
 
 | ID de source de données | Contenu de la source de données |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | DPUUID existants (identifiants CRM) |
 | 987654 | Adresses électroniques hachées |
 
