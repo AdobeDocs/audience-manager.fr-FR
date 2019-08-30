@@ -5,7 +5,7 @@ seo-title: Processus B - Personnalisation basée sur les données hors ligne uni
 solution: Audience Manager
 title: Processus B - Personnalisation basée sur les données hors ligne uniquement
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -34,7 +34,7 @@ Vous souhaitez qualifier les ID de client du tableau ci-dessous pour les ID de c
 | 67412682083411995725538770443620307584 | 45678 |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
-Pour qualifier les ID de client dans l'exemple ci-dessus pour les caractéristiques intégrées correspondantes, vous devez télécharger un fichier de données [entrant](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) avec le contenu suivant :
+<br />Pour qualifier les ID de client dans l'exemple ci-dessus pour les caractéristiques intégrées correspondantes, vous devez télécharger un [fichier de données entrantes] (../../integration/audience-audience-data/batch-data-transfer-explained/inbound-file-contents. md) avec le contenu suivant :
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -49,6 +49,8 @@ Pour [obtenir des informations détaillées sur la structure du fichier, voir Ex
 
 Selon que vos [dpuuid](../../reference/ids-in-aam.md) sont des adresses minuscules, des adresses électroniques hachées, vous devrez peut-être configurer la source de données qui stockera les adresses électroniques hachées.
 
+ 
+
 **Scénario 1 : vos[dpuuid](../../reference/ids-in-aam.md)sont déjà en minuscules, adresses électroniques hachées.**
 
 Dans ce cas, vous devez nommer la source de données correspondante en tant que telle :
@@ -57,6 +59,8 @@ Dans ce cas, vous devez nommer la source de données correspondante en tant que 
 1. Recherchez la source de données contenant vos [dpuuid](../../reference/ids-in-aam.md), puis cliquez dessus.
 1. Assurez-vous que l'option **[!UICONTROL Cannot be tied to personally identifiable information]** n'est pas cochée.
 1. Enregistrez les paramètres de la source de données.
+
+ 
 
 **Scénario 2 : vos[identifiants dpuuid](../../reference/ids-in-aam.md)ne sont pas des adresses électroniques hachées.**
 
@@ -98,7 +102,7 @@ Imaginons que vous souhaitez faire correspondre vos [dpuuid existants](../../ref
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
-<br/>
+ 
 
 Votre [fichier](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de synchronisation des identifiants présenterait les contenus suivants :
 
@@ -108,15 +112,16 @@ Votre [fichier](../../integration/sending-audience-data/batch-data-transfer-expl
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
-<br/>
+ 
 
 Le fichier de synchronisation [des identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) doit respecter cette structure de dénomination :
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
-<br/>
+ 
 
-Dans l'exemple ci-dessus, le fichier - nom ressemblerait à ceci : `c2c_id_999999_987654_1560431657.sync`
+Dans l'exemple ci-dessus, le fichier - nom ressemblerait à ceci :`c2c_id_999999_987654_1560431657.sync`
+
 
 [Téléchargez un exemple de fichier ici](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
