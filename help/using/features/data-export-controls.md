@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Contrôles des exportations de données
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 Selon les classifications appliquées à une source de données et à une destination, les commandes d'exportation vous arrêtent de :
 
 * Ajout d'une caractéristique à un segment lorsque la caractéristique appartient à une source de données dont le contrôle d'exportation de données est incompatible avec une étiquette d'exportation de données sur une ou plusieurs destinations auxquelles le segment est associé.
-Par exemple, supposons qu'un segment soit mappé à une destination avec le libellé d'exportation **[UICONTROL ! Cette destination peut permettre une combinaison avec des informations d'identification personnelle]**. Les contrôles d'exportation vous empêchent d'ajouter une caractéristique à ce segment si la source de données à laquelle la caractéristique appartient possède un contrôle d'exportation de données qui indique **[UICONTROL ! Ne peut pas être lié à des informations d'identification personnelle]**.
+Par exemple, supposons qu'un segment soit mappé à une destination avec le libellé **[!DNL This destination may enable a combination with personally identifiable information (PII)]** d'exportation. Les contrôles d'exportation vous empêchent d'ajouter une caractéristique à ce segment si la source de données à laquelle la caractéristique appartient possède un contrôle d'exportation de données qui indique **[!DNL Cannot be tied to personally identifiable information (PII)]**.
 * L'envoi d'une donnée à une destination de destination dispose d'un libellé d'exportation de données bloqué par un contrôle d'exportation de données sur les éléments suivants :
    * Source de données d'une caractéristique incluse ;
    * Source de données d'une caractéristique utilisée dans un segment inclus ;
@@ -44,7 +44,7 @@ De plus, au moins une étiquette d'exportation doit correspondre à un contrôle
 
 >[!IMPORTANT]
 >
->[Vous ne pouvez pas bloquer l'exportation d'un segment en plaçant un contrôle d'exportation de données sur la source de données du segment, vous devez définir le contrôle sur l'un des éléments suivants :
+>Vous ne pouvez pas bloquer l'exportation d'un segment en plaçant un contrôle d'exportation de données sur la source de données du segment, vous devez définir le contrôle sur l'un des éléments suivants :
 > * Sources de données des caractéristiques utilisées dans le segment ;
 > * Règle de fusion de profil utilisée par le segment ;
 > * Toute source de données utilisée par la règle de fusion du profil.
