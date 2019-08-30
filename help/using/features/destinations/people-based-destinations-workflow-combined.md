@@ -5,7 +5,7 @@ seo-title: Processus A - Personnalisation basée sur toutes les activités en li
 solution: Audience Manager
 title: Processus A - Personnalisation basée sur toutes les activités en ligne combinées aux données hors ligne
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,6 +18,8 @@ Cette page comprend des conseils détaillés sur la combinaison des données hor
 
 Selon que vos [dpuuid](../../reference/ids-in-aam.md) sont des adresses minuscules, des adresses électroniques hachées, vous devrez peut-être configurer la source de données qui stockera les adresses électroniques hachées.
 
+ 
+
 **Scénario 1 : vos[dpuuid](../../reference/ids-in-aam.md)sont déjà en minuscules, adresses électroniques hachées.**
 
 Dans ce cas, vous devez nommer la source de données correspondante en tant que telle :
@@ -26,6 +28,8 @@ Dans ce cas, vous devez nommer la source de données correspondante en tant que 
 1. Recherchez la source de données contenant vos [dpuuid](../../reference/ids-in-aam.md), puis cliquez dessus.
 1. Assurez-vous que l'option [!UICONTROL Cannot be tied to personally identifiable information] n'est pas cochée.
 1. Enregistrez les paramètres de la source de données.
+
+ 
 
 **Scénario 2 : vos[identifiants dpuuid](../../reference/ids-in-aam.md)ne sont pas des adresses électroniques hachées.**
 
@@ -60,6 +64,8 @@ Imaginons que vous souhaitez faire correspondre vos [dpuuid existants](../../ref
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
+ 
+
 Vous pouvez lier jusqu'à 10 adresses électroniques hachées à un [seul DPUUID](../../reference/ids-in-aam.md). Pour ce faire, séparez les adresses électroniques hachées par une virgule, dans le fichier de synchronisation.
 
 Dans notre exemple, vous disposez maintenant de deux sources de données.
@@ -69,6 +75,8 @@ Dans notre exemple, vous disposez maintenant de deux sources de données.
 | 999999 | DPUUID existants (identifiants CRM) |
 | 987654 | Adresses électroniques hachées |
 
+ 
+
 Votre [fichier](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de synchronisation des identifiants présenterait les contenus suivants :
 
 ```
@@ -77,9 +85,13 @@ Votre [fichier](../../integration/sending-audience-data/batch-data-transfer-expl
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+ 
+
 Le fichier de synchronisation [des identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) doit respecter cette structure de dénomination :
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+ 
 
 Dans l'exemple ci-dessus, le fichier - nom ressemblerait à ceci :`c2c_id_999999_987654_1560431657.sync`
 
