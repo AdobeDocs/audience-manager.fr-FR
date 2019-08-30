@@ -5,7 +5,7 @@ seo-title: Processus B - Personnalisation basée sur les données hors ligne uni
 solution: Audience Manager
 title: Processus B - Personnalisation basée sur les données hors ligne uniquement
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -28,11 +28,11 @@ Que vos identifiants de client Audience Manager ([dpuuid](../../reference/ids-in
 
 Vous souhaitez qualifier les ID de client du tableau ci-dessous pour les ID de caractéristique intégrés correspondants. Considérons que vos [dpuuid](../../reference/ids-in-aam.md) sont stockés dans une source de données avec l'ID 999999, et que votre ID partenaire Audience Manager est 123.
 
-| Client ID (DPUUID)| Identifiant de caractéristique intégré |
-|-|-|
-|68079982765673198504052656074456196039|12345, 23456 |
-|67412682083411995725538770443620307584 |45678|
-|8915902479676034373311173364602664602693 |11223, 93342, 27341|
+| ID de client (DPUUID) | Identifiant de caractéristique intégré |
+| -------------------------------------- | ------------------- |
+| 68079982765673198504052656074456196039 | 12345, 23456 |
+| 67412682083411995725538770443620307584 | 45678 |
+| 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 Pour qualifier les ID de client dans l'exemple ci-dessus pour les caractéristiques intégrées correspondantes, vous devez télécharger un fichier de données [entrant](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) avec le contenu suivant :
 
@@ -88,15 +88,17 @@ Imaginons que vous souhaitez faire correspondre vos [dpuuid existants](../../ref
 À titre de rappel, vous disposez maintenant de deux sources de données :
 
 | ID de source de données | Contenu de la source de données |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | DPUUID existants (identifiants CRM) |
 | 987654 | Adresses électroniques hachées |
 
 | Dpuuids (ID de CRM) | Adresse électronique | Adresse électronique hachée |
-|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+<br/>
 
 Votre [fichier](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de synchronisation des identifiants présenterait les contenus suivants :
 
@@ -106,9 +108,13 @@ Votre [fichier](../../integration/sending-audience-data/batch-data-transfer-expl
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+<br/>
+
 Le fichier de synchronisation [des identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) doit respecter cette structure de dénomination :
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+<br/>
 
 Dans l'exemple ci-dessus, le fichier - nom ressemblerait à ceci : `c2c_id_999999_987654_1560431657.sync`
 
