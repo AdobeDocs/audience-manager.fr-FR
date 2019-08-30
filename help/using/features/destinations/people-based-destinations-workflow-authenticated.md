@@ -5,7 +5,7 @@ seo-title: Processus C - Personnalisation basée sur une activité authentifiée
 solution: Audience Manager
 title: Processus C - Personnalisation basée sur une activité authentifiée combinée avec des données hors ligne
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,9 +18,13 @@ Cette page comprend des conseils détaillés sur la combinaison des données hor
 
 Selon que vos [dpuuid](../../reference/ids-in-aam.md) sont des adresses minuscules, des adresses électroniques hachées, vous devrez peut-être configurer la source de données qui stockera les adresses électroniques hachées.
 
+ 
+
 **Scénario 1 : vos[dpuuid](../../reference/ids-in-aam.md)sont déjà en minuscules, adresses électroniques hachées.**
 
 Dans ce cas, passez à [l'étape 5 - Configuration de l'authentification de plateforme basée sur les personnes](#configure-authentication).
+
+ 
 
 **Scénario 2 : vos[identifiants dpuuid](../../reference/ids-in-aam.md)ne sont pas des adresses électroniques hachées.**
 
@@ -50,19 +54,25 @@ Pour qualifier les utilisateurs authentifiés pour des caractéristiques basées
 Imaginons que vous ayez créé les deux sources de données suivantes.
 
 | ID de source de données | Contenu de la source de données |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | DPUUID existants (identifiants CRM) |
 | 987654 | Adresses électroniques hachées |
+
+ 
 
 Vous souhaitez ensuite qualifier les identifiants CRM ci-dessous pour la caractéristique du tableau.
 
 | DPUUID, ID de CRM | Adresse électronique | Adresse électronique hachée | Caractéristique |
-|---|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
+
+ 
 
 L'ID déclaré doit respecter cette syntaxe :
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+ 
 
 Dans l'exemple ci-dessus, l'appel d'ID déclaré doit ressembler à ceci :
 
