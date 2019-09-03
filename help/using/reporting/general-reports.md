@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapports généraux
 uuid: 0 cea 75 a 0-969 e -4 ee 3-971 a -60 b 911711 e 52
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 1c626c770208150d209d93f666b581113ada8de9
 
 ---
 
@@ -66,13 +66,13 @@ t_run_general_report.xml
 1. Cliquez sur **[!UICONTROL Run Report]**.
 
    Les résultats s'affichent dans un tableau exportable. Cliquez sur les en-têtes de colonne pour trier les résultats par ordre croissant ou décroissant.
-2. Sélectionnez le bouton d'option de votre choix dans la partie supérieure du rapport pour filtrer les données par performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]ou [!UICONTROL Total Trait Population]) ou par heure (1, 7, 14, 30, 60 ou 90 jours).
+1. Sélectionnez le bouton d'option de votre choix dans la partie supérieure du rapport pour filtrer les données par performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]ou [!UICONTROL Total Trait Population]) ou par heure (1, 7, 14, 30, 60 ou 90 jours).
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations] sont calculés [!UICONTROL Rule-based Traits] uniquement.
 
-3. *Clic facultatif***[!UICONTROL Export to CSV]**. Cette opération exporte le [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]et [!UICONTROL Total Trait Population] pour toutes les plages de dates.
+1. *Clic facultatif***[!UICONTROL Export to CSV]**. Cette opération exporte le [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]et [!UICONTROL Total Trait Population] pour toutes les plages de dates.
 
 ## Résultats généraux des rapports généraux {#general-reports-explained}
 
