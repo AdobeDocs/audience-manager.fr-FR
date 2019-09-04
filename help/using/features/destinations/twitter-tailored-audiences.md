@@ -5,7 +5,7 @@ seo-title: Configuration des audiences personnalisées Twitter en tant que desti
 solution: Audience Manager
 title: Configuration des audiences personnalisées Twitter en tant que destination basée sur un périphérique en libre-service
 translation-type: tm+mt
-source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
+source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
 
 ---
 
@@ -19,8 +19,9 @@ Cet article explique comment configurer [les audiences personnalisées Twitter](
 Avant de configurer [!DNL Twitter Tailored Audiences] votre destination, veillez à passer en revue les conditions préalables Twitter suivantes que vous devez respecter.
 
 1. Votre [!DNL Twitter Ads] compte doit être éligible pour la publication. Les nouveaux [!DNL Twitter Ads] comptes ne peuvent pas être publiés dans les deux semaines qui suivent leur création.
-2. Votre compte utilisateur Twitter autorisé à accéder à Audience Manager doit activer l'autorisation [du gestionnaire](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) d'audience de partenaire.
-3. Si vous [mettez à jour votre intégration Twitter existante dans une administration en libre-service](#update-existing-twitter-integrations), l'autorisation du gestionnaire [de publicités doit être activée pour votre](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) compte utilisateur Twitter.
+1. Votre compte utilisateur Twitter autorisé à accéder à Audience Manager doit activer l'autorisation [du gestionnaire](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) d'audience de partenaire.
+1. Si vous [mettez à jour votre intégration Twitter existante dans une administration en libre-service](#update-existing-twitter-integrations), l'autorisation du gestionnaire [de publicités doit être activée pour votre](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) compte utilisateur Twitter.
+2. Lors de la création de la première [!DNL Twitter Tailored Audiences] destination dans votre instance Audience Manager, contactez le service d'assistance clientèle ou le service d'assistance clientèle pour activer la synchronisation [!DNL Twitter] des identifiants (ID de source de données = 1123) pour votre compte. Ceci est requis pour la synchronisation correcte entre Audience Manager et [!DNL Twitter].
 
 ## Ajouter une [!DNL Twitter Tailored Audiences] nouvelle destination {#add-new-twitter-destination}
 
