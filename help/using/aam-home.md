@@ -1,19 +1,19 @@
 ---
 description: Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les publicitaires et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
-seo-description: Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les publicitaires et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
-seo-title: Documentation du produit Audience Manager
+seo-description: Documentation technique et self - Aide pour Audience Manager (AAM). AAM fournit des services de pointe pour la gestion des données d'audience en ligne et dote les publicitaires et éditeurs numériques des outils dont ils ont besoin pour contrôler et exploiter leurs ressources de données afin de stimuler les ventes.
+seo-title: Documentation technique d'Adobe Audience Manager
 solution: Audience Manager
 title: Documentation du produit Audience Manager
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 0916 be
 translation-type: tm+mt
-source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
+source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 ---
 
 
 # Documentation du produit Audience Manager {#audience-manager-product-documentation}
 
-Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les publicitaires et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
+Ce guide technique de documentation fournit l'aide d'Audience Manager - service de pointe pour la gestion des données d'audience en ligne. Grâce à nos produits et services, les publicitaires et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
