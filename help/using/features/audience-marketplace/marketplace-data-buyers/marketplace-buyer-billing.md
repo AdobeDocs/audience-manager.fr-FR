@@ -7,7 +7,7 @@ title: Facturation des acheteurs de flux de données
 keywords: Création de rapports au niveau du segment, niveau segment, niveau segment
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -40,15 +40,17 @@ Après l'utilisation de la création de rapports [!DNL CPM] au niveau du segment
 Pour signaler [!DNL CPM] l'utilisation au niveau du segment :
 
 1. Accédez **[!UICONTROL Audience Marketplace > Payables]**&#x200B;à.
-2. Sélectionnez **[!UICONTROL Segment Usage]** l'onglet.
-3. Renseignez l'utilisation de vos segments. Vous pouvez utiliser [!UICONTROL Search] la case pour filtrer les segments si vous n'avez qu'à les rapporter pour certains d'entre eux.
-4. Cliquez sur **[!UICONTROL Edit Segments Usage]**.
-5. Entrez le montant [!DNL CPM] d'utilisation dans [!UICONTROL Usage] la colonne.
-6. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
-   ![confirm-segment-usage](assets/confirm-segment-usage.png)
-7. Cliquez sur **[!UICONTROL Confirm]**.
+1. Sélectionnez **[!UICONTROL Segment Usage]** l'onglet.
+1. Renseignez l'utilisation de vos segments. Vous pouvez utiliser [!UICONTROL Search] la case pour filtrer les segments si vous n'avez qu'à les rapporter pour certains d'entre eux.
+1. Cliquez sur **[!UICONTROL Edit Segments Usage]**.
+1. Entrez le montant [!DNL CPM] d'utilisation dans [!UICONTROL Usage] la colonne.
+1. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
 
-<br> 
+   ![confirm-segment-usage](assets/confirm-segment-usage.png)
+
+1. Cliquez sur **[!UICONTROL Confirm]**.
+
+ 
 
 ## Utilisation du rapport CPM au niveau du flux de données {#feed-level-report}
 
@@ -57,15 +59,15 @@ Les rapports au niveau des flux de données sont plus fastidieux et présentent 
 Pour signaler [!DNL CPM] l'utilisation au niveau du segment :
 
 1. Accédez **[!UICONTROL Audience Marketplace > Payables]**&#x200B;à.
-2. Sélectionnez **[!UICONTROL Feed Usage]** l'onglet.
-3. Utilisez [!UICONTROL Search] la case pour filtrer les flux de données et identifier ceux dont vous avez besoin pour créer des rapports.
-4. Cliquez sur **[!UICONTROL Edit Feeds Usage]**.
-5. Calculez [!DNL CPM] l'utilisation de chaque flux de données en fonction de [l'attribution de coûts pour les flux de données CPM](#cost-attribution), puis saisissez-la dans [!UICONTROL Usage] la colonne.
-6. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
+1. Sélectionnez **[!UICONTROL Feed Usage]** l'onglet.
+1. Utilisez [!UICONTROL Search] la case pour filtrer les flux de données et identifier ceux dont vous avez besoin pour créer des rapports.
+1. Cliquez sur **[!UICONTROL Edit Feeds Usage]**.
+1. Calculez [!DNL CPM] l'utilisation de chaque flux de données en fonction de [l'attribution de coûts pour les flux de données CPM](#cost-attribution), puis saisissez-la dans [!UICONTROL Usage] la colonne.
+1. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-7. Cliquez sur **[!UICONTROL Confirm]**.
+1. Cliquez sur **[!UICONTROL Confirm]**.
 
 <br> 
 
@@ -155,7 +157,7 @@ Après avoir identifié [!DNL CPM] le numéro du mois précédent, [!DNL Adobe] 
 
 ## Affecter des impressions au niveau du flux en fonction des règles de qualification des caractéristiques {#assign-impressions}
 
-Le cas [!UICONTROL Activation] d'utilisation vous permet d'utiliser des caractéristiques dans le flux de données correspondant pour créer des segments dans [le créateur](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) de segments et mapper ces segments à une destination. Opérateurs [!UICONTROL AND]booléens, [!UICONTROL OR]et [!UICONTROL NOT] vous permettent de définir les conditions de qualification des caractéristiques et des segments.
+Le cas [!UICONTROL Activation] d'utilisation vous permet d'utiliser des caractéristiques dans le flux de données correspondant pour créer des segments dans [le créateur](../../../features/segments/segment-builder.md) de segments et mapper ces segments à une destination. Opérateurs [!UICONTROL AND]booléens, [!UICONTROL OR]et [!UICONTROL NOT] vous permettent de définir les conditions de qualification des caractéristiques et des segments.
 
 Lorsque [vous signalez l'utilisation CPM au niveau du flux de données](#feed-level-report), vous devez allouer des impressions proportionnellement pour chaque flux de données, selon les [!DNL Boolean] opérateurs utilisés dans les règles de qualification des caractéristiques. Le tableau suivant indique comment allouer correctement les impressions par type de règle ou de caractéristique booléenne.
 
