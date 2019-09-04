@@ -4,12 +4,12 @@ seo-description: Recherchez les signaux utilisés et inutilisés reçus pendant 
 seo-title: Signale la recherche
 title: Signale la recherche
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
 
-# Signals Search Overview {#signals-search}
+# Signale la présentation de la recherche {#signals-search}
 
 Recherchez les signaux utilisés et inutilisés reçus pendant des périodes spécifiques. Pour rechercher des signaux, sélectionnez Données d'audience &gt; Signaux &gt; Rechercher.
 
