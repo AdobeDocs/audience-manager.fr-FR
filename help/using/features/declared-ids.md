@@ -7,12 +7,12 @@ solution: Audience Manager
 title: ID déclarés
 uuid: 49 bb 4 f 7 e-b 4 a 7-4 d 87-a 29 c-c 3 dca 036 d 2 a 3
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# Declared IDs {#declared-ids}
+# ID déclarés {#declared-ids}
 
 Fonctionnement des ID déclarés, procédures de configuration, exemples de code et variables.
 
@@ -22,9 +22,9 @@ Exchange et synchronisation utilisateur - identifiants avec Audience Manager à 
 
 <!-- declared_id_about.xml -->
 
-## Purpose of Declared ID Targeting {#declared-id-targeting-purpose}
+## Objectif du ciblage d'ID déclaré {#declared-id-targeting-purpose}
 
-Certains navigateurs et la plupart des périphériques mobiles n'acceptent pas les cookies tiers. Cela complique la conservation des informations sur les visiteurs du site ou leur attribution à des ID persistants. To resolve this issue, Audience Manager uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. Also, a [!UICONTROL declared ID] can act as a universal ID that applies to the same user across all the solutions in the [!DNL Experience Cloud]. Le tableau suivant décrit le processus de ciblage/correspondance d'ID :
+Certains navigateurs et la plupart des périphériques mobiles n'acceptent pas les cookies tiers. Cela complique la conservation des informations sur les visiteurs du site ou leur attribution à des ID persistants. Pour résoudre ce problème, Audience Manager vous [!UICONTROL DIL] permet de transmettre [!UICONTROL declared IDs] un appel d'événement. En outre, un [!UICONTROL declared ID] utilisateur peut agir comme un ID universel qui s'applique au même utilisateur pour toutes les solutions de [!DNL Experience Cloud]la section. Le tableau suivant décrit le processus de ciblage/correspondance d'ID :
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -36,7 +36,7 @@ Certains navigateurs et la plupart des périphériques mobiles n'acceptent pas l
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Appel d'événement</b> </td> 
-   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID service </a> code on the page. <span class="wintitle"> Le code DIL </span> reçoit <span class="wintitle"> des ID </span> déclarés de la fonction <code> setvisitorid </code> fournie par le <span class="keyword"> service Experience Cloud ID </span> et transmet ce paramètre à <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Pour travailler, vous devez <span class="wintitle"> disposer du code DIL </span> et du <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> code du service </a> Experience Cloud ID sur la page. <span class="wintitle"> Le code DIL </span> reçoit <span class="wintitle"> des ID </span> déclarés de la fonction <code> setvisitorid </code> fournie par le <span class="keyword"> service Experience Cloud ID </span> et transmet ce paramètre à <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de correspondance</b> </td> 
@@ -53,24 +53,24 @@ Certains navigateurs et la plupart des périphériques mobiles n'acceptent pas l
  </tbody>
 </table>
 
-To get started, you need to configure the [!DNL Experience Cloud] ID service and [!UICONTROL DIL] across the pages on your site that you want to use for data collection. See [DIL create](../dil/dil-class-overview/dil-create.md#dil-create) and [Declared ID Variables](../features/declared-ids.md#declared-id-variables).
+Pour commencer, vous devez configurer le service [!DNL Experience Cloud] d'ID et [!UICONTROL DIL] les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir [Création](../dil/dil-class-overview/dil-create.md#dil-create) de variables d'ID [déclarées et création de rapports DIL](../features/declared-ids.md#declared-id-variables).
 
-## Opt-out Calls {#opt-out-calls}
+## Appels d'exclusion {#opt-out-calls}
 
-[!UICONTROL declared ID] Le processus respecte les préférences du visiteur du site pour exclure le ciblage Audience Manager de votre site Web. When Audience Manager receives an opt-out request, the [!DNL JSON] returned by the [!UICONTROL DCS] contains the error code 171, with the message "Encountered opt out tag", instead of the Audience Manager user ID.
+[!UICONTROL declared ID] Le processus respecte les préférences du visiteur du site pour exclure le ciblage Audience Manager de votre site Web. Lorsque Audience Manager reçoit une demande d'exclusion, le [!DNL JSON] renvoyé par le [!UICONTROL DCS] contient le code d'erreur 171, avec le message « Tag exclusion out tag », au lieu de l'utilisateur Audience Manager - id.
 
-* Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager [!UICONTROL UUID] in the [!DNL URL].
-* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Serveîr ([!UICONTROL PCS]) on a per-partner basis. There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross [!UICONTROL DCS] regions).
+* Audience Manager peut transmettre une [!UICONTROL declared ID] exclusion à côté d'Audience Manager [!UICONTROL UUID] dans [!DNL URL]le champ.
+* L [!UICONTROL declared ID] 'exclusion est stockée dans le [! UICONTROL Profile Cache Server ([!UICONTROL PCS]) par partenaire. Il n'y a pas d'exclusion au niveau de la plate [!UICONTROL declared IDs]-forme. De plus, Audience Manager exclut l'utilisateur de cette région particulière sur le bord (l'exclusion ne fait pas partie [!UICONTROL DCS] des régions).
 
-See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md) for more information about opting-out of data collection.
+Pour plus d'informations sur l'exclusion de la collecte de données, reportez-vous à [la section Confidentialité](../overview/data-security-and-privacy/data-privacy.md) des données.
 
-## Declared ID Opt-Out Examples {#opt-out-examples}
+## Exemples d'exclusion de l'identifiant déclarés {#opt-out-examples}
 
-You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. Voir [CID remplace DPID et DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+Vous pouvez effectuer une [!UICONTROL declared ID] demande d'exclusion avec `d_cid` les paires `d_cid_ic` clé-valeur. Les paramètres hérités tels que `d_dpid` continuent `d_dpuuid` à fonctionner, mais sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
 ### Exclusions avec CID et CID_ IC
 
-For a description and syntax, see [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#variables-and-syntax).
+Pour obtenir une description et une syntaxe, reportez-vous à la [section Variables URL et syntaxe pour les ID déclarés](../features/declared-ids.md#variables-and-syntax).
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
@@ -89,7 +89,7 @@ For a description and syntax, see [URL Variables and Syntax for Declared IDs](..
    <td colname="col2"> <p> <code> https://domain<i>nom</i>/déstout ? d_ cid_ ic = 456% 01321… </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Multiple <code> d_cid </code> and <code> d_cid_ic </code> key-value pairs. </p> </td> 
+   <td colname="col1"> <p>Plusieurs paires <code> d_ cid </code> et <code> d_ cid_ ic_ cid_ ic </code> . </p> </td> 
    <td colname="col2"> <p> <code> https://domain<i>nom</i>/déstout ? d_ cid = 123 % &amp; d_ cid_ ic = 456 013 01321… </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -113,25 +113,25 @@ Ces méthodes fonctionnent toujours mais sont considérées comme obsolètes. Ce
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exclusion du niveau partenaire </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID &amp; d_ dpid = ID fournisseur de données </code> </p> <p>A partner level opt-out gets stored for the latest mapping of this <code> dpid </code> + <code> dpuuid </code> pair to an AAM UUID. S'il n'existe pas de correspondance existante, Audience Manager vérifie si la requête contient un UUID AAM dans le cookie et, le cas échéant, utilise cette option pour stocker l'exclusion. Sinon, Audience Manager génère un nouvel identifiant AAM et stocke l'exclusion sous celle-ci. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID &amp; d_ dpid = ID fournisseur de données </code> </p> <p>Une exclusion de niveau partenaire est stockée pour le mappage le plus récent de cette <code> paire dpid </code> + <code> dpuuid </code> à un UUID AAM. S'il n'existe pas de correspondance existante, Audience Manager vérifie si la requête contient un UUID AAM dans le cookie et, le cas échéant, utilise cette option pour stocker l'exclusion. Sinon, Audience Manager génère un nouvel identifiant AAM et stocke l'exclusion sous celle-ci. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ dpuuid </code> + <code> d_ dpid </code> et explicite <code> d_ uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://domain/demoptout.jpg?d_uuid=<i></i>user ID &amp; d_ dpuuid = user provider's user - id &amp;<i>d_ dpid = data provider ID</i></code> </p> <p> <code> d_ uuid </code> est toujours prioritaire. If the <code> dpid </code> + <code> dpuuid </code> combination maps to another AAM UUID, the opt-out is stored under the AAM UUID passed in the request ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col2"> <p> <code> https://domain/demoptout.jpg?d_uuid=<i></i>user ID &amp; d_ dpuuid = user provider's user - id &amp;<i>d_ dpid = data provider ID</i></code> </p> <p> <code> d_ uuid </code> est toujours prioritaire. Si la combinaison <code> dpid </code> + <code> dpuuid </code> associe un autre UUID AAM, l'exclusion est stockée sous l'UUID AAM transmis dans la requête ( <code> d_ uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Variables and Syntax for Declared IDs {#variables-and-syntax}
+## Variables et syntaxe pour les ID déclarés {#variables-and-syntax}
 
 <!-- c_declared_id_var_syntax.xml -->
 
-The following table lists the key-value pairs that pass in your [!DNL Audience Manager] data provider ID and user IDs or integration codes, if used. Note, *italics* indicates a variable placeholder. Des espaces ont été ajoutés pour faciliter la lecture.
+Le tableau suivant répertorie les paires clé-valeur qui transmettent votre ID de fournisseur [!DNL Audience Manager] de données et votre utilisateur - les identifiants ou les codes d'intégration, s'ils sont utilisés. Note, *italics* indicates a variable placeholder. Des espaces ont été ajoutés pour faciliter la lecture.
 
 Dans chaque paire clé-valeur :
 
-* The `=` symbol separates the key from its related values.
-* The non-printing [!DNL ASCII] character `%01` separates the values.
+* Le `=` symbole sépare la clé de ses valeurs associées.
+* Le caractère non imprimable [!DNL ASCII]`%01` sépare les valeurs.
 
 <table id="table_DFA9A584A5DE40669EAF0DB62DDC5AAF"> 
  <thead> 
@@ -152,7 +152,7 @@ Dans chaque paire clé-valeur :
  </tbody> 
 </table>
 
-## Sample Event Calls {#sample-event-calls}
+## Exemples d'appels d'événement {#sample-event-calls}
 
 Étant donné ces paires clé-valeur et la syntaxe requise, vous effectuez les appels d'événement comme illustré ci-dessous.
 
@@ -173,7 +173,7 @@ Dans chaque paire clé-valeur :
    <td colname="col2"> <p> <code> https://domain<i>nom</i>/événement ? d_ cid_ ic = 456% 01321… </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Multiple <code> d_cid </code> and <code> d_cid_ic </code> key-value pairs. </p> </td> 
+   <td colname="col1"> <p>Plusieurs paires <code> d_ cid </code> et <code> d_ cid_ ic_ cid_ ic </code> . </p> </td> 
    <td colname="col2"> <p> <code> https://domain<i>nom</i>/événement ? d_ cid = 123 % &amp; d_ cid_ ic = 456 013 01321… </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -184,15 +184,15 @@ Dans chaque paire clé-valeur :
 >* [CID remplace DPID et DPUUID](../reference/cid.md)
 
 
-## Declared ID Variables {#declared-id-variables}
+## Variables d'ID déclarées {#declared-id-variables}
 
-Describes the configuration variables used to pass declared IDs through [!UICONTROL DIL] to [!DNL Audience Manager.]
+Décrit les variables de configuration utilisées pour transmettre les ID déclarés jusqu [!UICONTROL DIL] 'à [!DNL Audience Manager.]
 
-## DIL Uses the Experience Cloud ID Service to Pass Declared IDs {#dil-id-service-pass-declared-ids}
+## Le code DIL utilise le service Experience Cloud ID pour transmettre des ID déclarés. {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-When used with the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. Instead, the current versions of [!UICONTROL DIL] rely on the `visitorService` function to get the [!UICONTROL declared IDs] from the `setCustomerIDs` function in the [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). You would call `visitorService` in `DIL.create` as shown below.
+Lorsqu'il est utilisé avec le service [Experience Cloud ID,](https://marketing.adobe.com/resources/help/en_US/mcvid/)vous n'avez plus besoin de transmettre [!UICONTROL declared IDs] les variables obsolètes `dpid` et `dpuuid` variables. Les versions actuelles [!UICONTROL DIL] de la fonction reposent sur la `visitorService` fonction pour obtenir la [!UICONTROL declared IDs] fonction `setCustomerIDs` dans [!UICONTROL Experience Cloud ID Service]la fonction. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). Vous pouvez appeler `visitorService` comme `DIL.create` illustré ci-dessous.
 
 ```js
 var vDil = DIL.create({
@@ -203,12 +203,12 @@ var vDil = DIL.create({
 });
 ```
 
-In the `namespace` key-value pair, `MCORG` is your [!DNL Experience Cloud] Organization ID. If you don't have this ID, you can find it in the [!UICONTROL Administration] section of the [!DNL Experience Cloud] dashboard. Vous devez disposer des autorisations d'administrateur pour afficher ce tableau de bord. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+Dans la paire `namespace` clé-valeur, `MCORG` correspond à votre ID [!DNL Experience Cloud] d'organisation. Si vous ne possédez pas cet ID, vous pouvez le trouver dans la [!UICONTROL Administration] section du [!DNL Experience Cloud] tableau de bord. Vous devez disposer des autorisations d'administrateur pour afficher ce tableau de bord. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
-## Deprecated Functions {#deprecated-functions}
+## Fonctions obsolètes {#deprecated-functions}
 
-With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. Toutefois, nous référencons ces variables ici à des fins historiques et héritées. See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
-The following table describes the legacy variables used by the `declaredId` object:
+Avec les dernières versions de [!UICONTROL DIL] (6.2 +), vous n'avez pas besoin d'utiliser ces paires clé-valeur pour transmettre [!UICONTROL declared IDs]. Cela se produit car [!UICONTROL DIL] se repose désormais sur `visitorService` la fonction illustrée dans l'exemple de code ci-dessus. Cette fonction provient [!UICONTROL declared IDs] de [!UICONTROL Experience Cloud ID Service]la. Toutefois, nous référencons ces variables ici à des fins historiques et héritées. Voir le code ci-dessous pour obtenir un exemple de configuration `DIL.create` pour obtenir un [!UICONTROL declared ID] élément de [!UICONTROL Visitor ID Service]la section.
+Le tableau suivant décrit les variables héritées utilisées par l' `declaredId` objet :
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
  <thead> 
@@ -234,36 +234,38 @@ The following table describes the legacy variables used by the `declaredId` obje
 
 ### `DPID` et `DPUUID`
 
-Audience Manager compares and matches the combined `DPID` and `DPUUID` to a corresponding user ID in our system. If an ID does not exist, Audience Manager creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once Audience Manager matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client's domain (first-party cookie) or other local storage.
+Audience Manager compare et correspond à l'utilisateur combiné `DPID` et `DPUUID` à un utilisateur correspondant - id dans notre système. Si un identifiant n'existe pas, Audience Manager crée un nouvel utilisateur - id et le synchronise avec `DPID/DPUUID` la combinaison. Une fois qu'Audience Manager correspond ou crée un utilisateur - id (le `UUID`), il renvoie cet identifiant dans [!DNL JSON] la réponse au cookie du domaine du client (cookie propriétaire) ou d'un autre stockage local.
 
-Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
+Appelez cette fonction lorsque vous utilisez [!UICONTROL DIL] la version v 6.1 ou une version antérieure. Toutefois, cette fonction est déconseillée en faveur de la nouvelle version qui provient [!UICONTROL declared IDs] de [!UICONTROL Experience Cloud ID Service].
 
-<pre class="js"><code>DIL. create ({ 
- partenaire : « nom du partenaire », 
- Declaredid : { 
- dpuuid : <i>dpuuid</i>, 
- DPID : <i>dpid</i> 
- } 
- }) ;</code>
-</pre>
+```js
+DIL.create({
+    partner : "partner name",
+    declaredId : {
+       dpuuid : dpuuid,
+       DPID : dpid
+    }
+ });
+```
 
 >[!NOTE]
 >
->Note, you need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
+>Remarque : vous devez développer par programmation le code qui fournit les valeurs d'ID pour les clés `d_dpuuid` et les `d_dpid` clés.
 
 ### Transmettre les identifiants après les instanciations DIL
 
 >[!NOTE]
 >
->If you make an [!DNL API] call with a different `declaredID` combination, the new combination will be used for that call only. Further regular event calls will use the original `DIL.create`  `declaredID` combination.
+>Si vous [!DNL API] effectuez un appel avec `declaredID` une combinaison différente, la nouvelle combinaison sera utilisée pour cet appel uniquement. D'autres appels d'événements réguliers utilisent la `DIL.create``declaredID` combinaison d'origine.
 
-<pre class="js"><code>DIL. getdil ('partner name '). api. signals ({…}). declaredid ({ 
- dpuuid :<i>dpuuid</i> 
- dpid :<i>dpid</i> }). 
-submit () ;</code>
-</pre>
+```js
+DIL.getDil('partner name').api.signals({...}).declaredId({
+  dpuuid : dpuuid
+  dpid : dpid
+}).submit();
+```
 
-## Request/Response Examples {#request-response-examples}
+## Exemples de demande/réponse {#request-response-examples}
 
 La requête envoie un fournisseur de données et un utilisateur - id à Audience Manager :
 
@@ -271,7 +273,7 @@ La requête envoie un fournisseur de données et un utilisateur - id à Audience
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
-The response returns the Audience Manager ID (e.g., `UUID`) which is written to a first-party cookie in the page domain.
+La réponse renvoie l'identifiant Audience Manager (par exemple `UUID`,) qui est écrit dans un cookie propriétaire dans le domaine de la page.
 
 ```js
 myCallback({
@@ -280,6 +282,6 @@ myCallback({
 })
 ```
 
-## Do Not Target and Opt-Out Calls {#do-not-target}
+## Ne pas cibler et les appels d'exclusion {#do-not-target}
 
-[!UICONTROL declared ID] Le processus respecte les préférences du visiteur du site pour exclure le ciblage Audience Manager de votre site Web. When Audience Manager receives an opt-out request, the [!UICONTROL DCS] returns an empty [!DNL JSON] object instead of the Audience Manager user ID.
+[!UICONTROL declared ID] Le processus respecte les préférences du visiteur du site pour exclure le ciblage Audience Manager de votre site Web. Lorsque Audience Manager reçoit une demande d'exclusion, la [!UICONTROL DCS] renvoie un objet vide [!DNL JSON] plutôt que l'utilisateur Audience Manager - id.
