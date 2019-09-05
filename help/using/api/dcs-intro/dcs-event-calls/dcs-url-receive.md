@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Réception de données du serveur de collecte de données
 uuid: fbb 77197-8530-48 a 8-b 708-d 785 f 7214494
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,8 +21,9 @@ Avant de consulter ce contenu, reportez-vous à [la section Envoi de données au
 
 Votre [!UICONTROL DCS] demande doit inclure `d_rtbd=json` si vous souhaitez recevoir une réponse de [!UICONTROL DCS]la part de. Le [!UICONTROL DCS] paramètre ne renvoie aucune donnée si vous omettez ce paramètre. Un appel de base aux [!UICONTROL DCS] données de demande utilise cette syntaxe :
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>= <i>val 1</i>, &amp;<i>key 2</i>= <i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = json &amp; d_ cb =<i>callback</i></code>
-</pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 ## Exemple de réponse {#sample-response}
 
