@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Envoi de données au serveur de collecte de données
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
 
 ---
 
@@ -90,6 +90,7 @@ Cet exemple montre la société fictive [!DNL Acme, Inc.] qui envoie des donnée
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
 ```
+
 ## Étapes suivantes {#dcs-next-steps}
 
 Maintenant que vous êtes familiarisé avec l'envoi de données à la [!UICONTROL DCS], il est temps de savoir comment récupérer les données et analyser ces informations. Voir [Réception des données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
