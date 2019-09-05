@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Envoi de données au serveur de collecte de données
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -23,7 +23,9 @@ Commencez ici pour plus d'informations sur la réalisation `/event` d'appels à 
 
 Chaîne de base `URL` qui envoie les données aux [!UICONTROL DCS] utilisations de la syntaxe illustrée ci-dessous.
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>=<i>val 1</i>, &amp;<i>key 2</i>=<i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = json &amp; d_ cb =<i>callback</i></code></pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 >[!NOTE]
 >
@@ -85,8 +87,9 @@ Le tableau suivant définit les composants de base d'un appel simple [!UICONTROL
 
 Cet exemple montre la société fictive [!DNL Acme, Inc.] qui envoie des données à la [!UICONTROL DCS] suite d' [!DNL HTTP] un appel. Notez que cet appel comprend les paramètres `d_dst=1`facultatifs, `d_rtbd=json`et `d_cb=callback`. Ces informations indiquent qu' [!DNL Acme] il souhaite recevoir [!DNL JSON] une réponse de la [!UICONTROL DCS] fonction avec une fonction de retour. N'oubliez pas que ce n'est qu'un exemple. Ne coupez pas ce code et ne le collez pas.
 
-`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
-
+```js
+https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
+```
 ## Étapes suivantes {#dcs-next-steps}
 
 Maintenant que vous êtes familiarisé avec l'envoi de données à la [!UICONTROL DCS], il est temps de savoir comment récupérer les données et analyser ces informations. Voir [Réception des données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
