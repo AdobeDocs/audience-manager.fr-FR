@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Vue Résumé des segments
 uuid: e 844 e 423-9701-42 d 4-9 ba 5-d 82 f 41358 adc
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -18,7 +18,7 @@ La [!UICONTROL Segment Summary] page affiche des détails tels que le nom, les c
 Cliquez sur un nom de segment depuis le tableau de bord principal pour accéder à sa page de résumé. Les sections récapitulatives incluent :
 
 1. **[!UICONTROL Basic Information]:** Affiche les détails obligatoires et facultatifs spécifiés lors de la création du segment.
-2. **[!UICONTROL Segment Graph]:** Affiche les données de performances sous forme graphique et pour les intervalles 1, 7, 14, 30, 60 et 90 jours. Nous expliquons les nombres de population de segments dans un [document distinct](../../features/segments/segment-builder-data.md).
+2. **[!UICONTROL Segment Graph]:** Affiche les données de performances sous forme graphique et pour les intervalles 1, 7, 14, 30, 60 et 90 jours. Nous expliquons les nombres de population de segments dans un [article distinct](../../features/segments/segment-builder-data.md).
 
    ![segments-graphique](assets/segment-graph.png)
 
@@ -29,6 +29,8 @@ Cliquez sur un nom de segment depuis le tableau de bord principal pour accéder 
    >[!NOTE]
    >
    >Audience Manager affiche uniquement [!UICONTROL Identity Type Breakdown] le rapport si des ID interterminaux sont qualifiés pour le segment.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=fre_fr)
 
 4. **[!UICONTROL Segment Rules]:** Répertorie les caractéristiques du segment avec les règles de qualification.
 5. **[!UICONTROL Destination Mappings]:** Répertorie les correspondances de destination du segment.
