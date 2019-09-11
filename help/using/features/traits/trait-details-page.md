@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Page Détails de la caractéristique
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -39,6 +39,8 @@ Vous [!UICONTROL Trait Graph] disposez ainsi des mesures de performances d'un co
    ![caractéristique-graphique](assets/trait-identity.png)
    > [!NOTE]
    > Audience Manager affiche uniquement [!UICONTROL Identity Type Breakdown] le rapport si des ID interterminaux sont qualifiés pour la caractéristique.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=fre_fr)
 
 ## Expression de caractéristique {#trait-expression}
 
