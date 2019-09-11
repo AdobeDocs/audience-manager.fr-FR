@@ -7,20 +7,20 @@ solution: Audience Manager
 title: Création de caractéristiques articulées autour de règles ou articulées autour de règles
 uuid: 4243 e 09 f -1 f 96-443 a -864 a-d 6 e 6918079 fa
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
 
-# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
+# Création de caractéristiques articulées autour de règles ou articulées autour de règles {#create-rules-based-or-onboarded-traits}
 
-Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
+Décrit les étapes et les fonctionnalités de configuration spécifiques au [!UICONTROL rules-based] processus de création de [!UICONTROL onboarded] caractéristiques.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Basic Information for Traits {#basics}
+## Informations de base pour les caractéristiques {#basics}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. [!UICONTROL Basic Information] Les paramètres sont identiques pour les caractéristiques basées sur des règles, des valeurs intégrées et des algorithmes. Pour créer une nouvelle caractéristique, indiquez un nom (évitez les caractères spéciaux), une source de données et sélectionnez un dossier de stockage. Other [!UICONTROL Basic Information] fields are optional.
+Dans [!UICONTROL Trait Builder], [!UICONTROL Basic Information] les paramètres vous permettent de créer ou de modifier des caractéristiques existantes. [!UICONTROL Basic Information] Les paramètres sont identiques pour les caractéristiques basées sur des règles, des valeurs intégrées et des algorithmes. Pour créer une nouvelle caractéristique, indiquez un nom (évitez les caractères spéciaux), une source de données et sélectionnez un dossier de stockage. D'autres [!UICONTROL Basic Information] champs sont facultatifs.
 
 <!-- c_tb_basics.xml -->
 
@@ -43,7 +43,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
        <li id="li_579302FE34B64FE0AE3C751012839229">Tirets </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Onglets </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Symbole barre verticale ou barre verticale </li> 
-      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> inbound data file transfer</a>. </p> </td> 
+      </ul> </p> </p> <p>Cela permet de réduire les erreurs de traitement lorsque vous configurez un transfert de fichier de données <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> entrant</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Description</span></b> </td> 
@@ -51,7 +51,7 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type d’événement</span></b> </td> 
-   <td colname="col2"> Attribue la caractéristique à un type ou une catégorie, généralement selon la fonction (conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. </td> 
+   <td colname="col2"> Attribue la caractéristique à un type ou une catégorie, généralement selon la fonction (conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, reportez-vous à <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">la vidéo Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Source de données</span></b> </td> 
@@ -76,16 +76,16 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let y
  </tbody> 
 </table>
 
-## Set a Trait Expiration Interval {#set-expiration-interval}
+## Définition d'un intervalle d'expiration de caractéristique {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans une caractéristique (120 jours sont par défaut). Lorsqu'elle est définie sur 0, l'appartenance à la caractéristique n'expire jamais.
+Dans [!UICONTROL Trait Builder], vous [!UICONTROL Advanced Options] pouvez définir un intervalle de temps à réel ([!DNL TTL]) pour une caractéristique. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans une caractéristique (120 jours sont par défaut). Lorsqu'elle est définie sur 0, l'appartenance à la caractéristique n'expire jamais.
 
 <!-- t_tb_ttl.xml -->
 
 ### Définition de TTL pour une caractéristique
 
-1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Développez [!UICONTROL Advanced Options] la section et saisissez un nombre pour définir [!DNL TTL] la valeur de la caractéristique.
+2. Cliquez sur **[!UICONTROL Save]**.
    ![](assets/TTL.png)
 
 >[!MORE_ LIKE_ THIS]
