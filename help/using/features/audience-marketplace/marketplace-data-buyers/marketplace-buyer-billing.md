@@ -7,7 +7,7 @@ title: Facturation des acheteurs de flux de données
 keywords: Création de rapports au niveau du segment, niveau segment, niveau segment
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ Pour signaler [!DNL CPM] l'utilisation au niveau du segment :
 
 1. Cliquez sur **[!UICONTROL Confirm]**.
 
+Voir aussi notre démonstration vidéo de la manière dont vous pouvez créer des rapports d'utilisation au niveau du segment :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=fre_fr)
+
  
 
 ## Utilisation du rapport CPM au niveau du flux de données {#feed-level-report}
@@ -59,15 +63,15 @@ Les rapports au niveau des flux de données sont plus fastidieux et présentent 
 Pour signaler [!DNL CPM] l'utilisation au niveau du segment :
 
 1. Accédez **[!UICONTROL Audience Marketplace > Payables]**&#x200B;à.
-1. Sélectionnez **[!UICONTROL Feed Usage]** l'onglet.
-1. Utilisez [!UICONTROL Search] la case pour filtrer les flux de données et identifier ceux dont vous avez besoin pour créer des rapports.
-1. Cliquez sur **[!UICONTROL Edit Feeds Usage]**.
-1. Calculez [!DNL CPM] l'utilisation de chaque flux de données en fonction de [l'attribution de coûts pour les flux de données CPM](#cost-attribution), puis saisissez-la dans [!UICONTROL Usage] la colonne.
-1. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
+2. Sélectionnez **[!UICONTROL Feed Usage]** l'onglet.
+3. Utilisez [!UICONTROL Search] la case pour filtrer les flux de données et identifier ceux dont vous avez besoin pour créer des rapports.
+4. Cliquez sur **[!UICONTROL Edit Feeds Usage]**.
+5. Calculez [!DNL CPM] l'utilisation de chaque flux de données en fonction de [l'attribution de coûts pour les flux de données CPM](#cost-attribution), puis saisissez-la dans [!UICONTROL Usage] la colonne.
+6. Cliquez **[!UICONTROL Save]** une fois que vous avez terminé et passez en revue la boîte de dialogue de confirmation.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-1. Cliquez sur **[!UICONTROL Confirm]**.
+7. Cliquez sur **[!UICONTROL Confirm]**.
 
 <br> 
 
