@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Caractéristiques de conversion rapportées
 uuid: b 4 b 5 eb 9 c-d 83 e -4 e 7 f -8661-f 5 d 9 c 855258 b
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -17,8 +17,12 @@ Le rapport Caractéristiques de conversion présente toutes les caractéristique
 
 Les caractéristiques de conversion des groupes de conversion peuvent varier d'une création de rapports à l'autre. Le rapport affiche les caractéristiques de conversion par groupe de conversion pour la date de rapport sélectionnée.
 
+Pour savoir comment créer des caractéristiques de conversion dans Audience Manager, reportez-vous à la vidéo ci-dessous :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23431/?captions=fre_fr)
+
 ## Exemple de rapport
 
-Your [!UICONTROL Reported Conversion Traits] report could look similar to the one below:
+Votre [!UICONTROL Reported Conversion Traits] rapport peut ressembler à celui-ci :
 
 ![](assets/reported-conversion-traits.png)
