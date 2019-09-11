@@ -1,18 +1,18 @@
 ---
 description: Présentation des clients techniques et non techniciens qui souhaitent importer des données d'autres systèmes (hors ligne) dans Audience Manager.
-keywords: inbound
-seo-description: Présentation des clients techniques et non techniciens qui souhaitent importer des données d'autres systèmes (hors ligne) dans Audience Manager.
+keywords: inbound, batch, batch upload, batch data
+seo-description: Présentation des clients techniques et non techniciens qui souhaitent importer des données d'autres systèmes (hors ligne) dans Audience Manager. Pour ce faire, utilisez l'option de téléchargement par lot dans Audience Manager.
 seo-title: Envoi de données batch à l'aperçu Audience Manager
 solution: Audience Manager
 title: Envoi de données batch à l'aperçu Audience Manager
 uuid: 472583 b 1-5057-4 add -8 e 3 c -5 e 50762 c 88 e 0
 translation-type: tm+mt
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+source-git-commit: 2e3adc8f0b2fe6efd9ca57f1d763ee4476d2edee
 
 ---
 
 
-# Send Batch Data to Audience Manager Overview{#send-batch-data-to-audience-manager-overview}
+# Envoi de données batch à l'aperçu Audience Manager{#send-batch-data-to-audience-manager-overview}
 
 Présentation des clients techniques et non techniciens qui souhaitent importer des données d'autres systèmes (hors ligne) dans Audience Manager.
 
@@ -20,17 +20,17 @@ Présentation des clients techniques et non techniciens qui souhaitent importer 
 
 <!-- c_offline_to_online.xml -->
 
-Vous pouvez rendre les données d'autres systèmes disponibles dans Audience Manager. Notre système peut vous aider à déverrouiller la valeur et à exploiter les données utilisateur que vous avez collectées précédemment. This includes information about purchases, customer surveys, registration data, [!DNL CRM] databases, etc. Chaque intégration présente ses propres défis, mais tous partagent ces étapes courantes. Consultez ce document pour réduire l'effort nécessaire pour importer vos données hors ligne en ligne.
+Vous pouvez rendre les données d'autres systèmes disponibles dans Audience Manager. Notre système peut vous aider à déverrouiller la valeur et à exploiter les données utilisateur que vous avez collectées précédemment. Ceci inclut les informations sur les achats, les enquêtes client, les données d'enregistrement, [!DNL CRM] les bases de données, etc. Chaque intégration présente ses propres défis, mais tous partagent ces étapes courantes. Consultez ce document pour réduire l'effort nécessaire pour importer vos données hors ligne en ligne.
 
 ## Étape 1 : Synchroniser l'utilisateur - Identifiants
 
-Lors de la synchronisation, Audience Manager attribue des identifiants uniques aux clients et aux utilisateurs. These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. Lorsque cette étape est terminée, Audience Manager et votre référentiel hors ligne doivent contenir les identifiants correspondants pour chaque enregistrement utilisateur.
+Lors de la synchronisation, Audience Manager attribue des identifiants uniques aux clients et aux utilisateurs. Ces identifiants sont appelés [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) et [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivement. Audience Manager utilise [!UICONTROL DPID] et [!UICONTROL UUID] identifie les utilisateurs et les qualifie pour les caractéristiques, les segments, les groupes d'audiences et les rapports. De plus[!UICONTROL DIL], notre code de collecte de données recherche ces identifiants pour capturer les données des visiteurs de votre site Web. Lorsque cette étape est terminée, Audience Manager et votre référentiel hors ligne doivent contenir les identifiants correspondants pour chaque enregistrement utilisateur.
 
 Remarques importantes concernant cette étape :
 
 * **Placement d'ID client :** Audience Manager doit savoir où figure votre ID client sur votre site Web (par exemple, il est stocké dans un cookie, une variable Analytics, dans le code de page, etc.).
 * **Exclure[!DNL PII]:** Utilisateur - les identifiants ne doivent pas contenir d'informations personnelles identifiables ([!DNL PII]).
-* **Respect de la casse et du contenu :** Lors d'une synchronisation de données en temps réel, l'utilisateur - les identifiants capturés depuis votre site par Audience Manager doivent correspondre aux ID transmis depuis votre référentiel hors ligne. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. Par conséquent, les informations en ligne de ce visiteur ne peuvent pas être associées aux enregistrements correspondants dans votre base de données hors ligne. Les ID doivent correspondre exactement.
+* **Respect de la casse et du contenu :** Lors d'une synchronisation de données en temps réel, l'utilisateur - les identifiants capturés depuis votre site par Audience Manager doivent correspondre aux ID transmis depuis votre référentiel hors ligne. Par exemple, si des enregistrements hors ligne contiennent des informations, [!DNL User123]mais que votre site effectue le rendu de cet identifiant, [!DNL USER123]Audience Manager le voit comme des visiteurs différents. Par conséquent, les informations en ligne de ce visiteur ne peuvent pas être associées aux enregistrements correspondants dans votre base de données hors ligne. Les ID doivent correspondre exactement.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
@@ -49,14 +49,14 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 
 ## Étape 2 : Format du fichier de données
 
-Les noms et le contenu des fichiers suivent des directives strictes. You *must* name and organize data files according to these specifications in this guide. Voir :
+Les noms et le contenu des fichiers suivent des directives strictes. Vous *devez* nommer et organiser les fichiers de données conformément à ces spécifications dans ce guide. Voir :
 
 * [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [Contenu du fichier de données entrant : Syntaxe, variables et exemples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Les données en ligne sont disponibles pour les actions marketing hors ligne
 
-Lorsque vous importez des données hors ligne en ligne, vous pouvez toujours utiliser ces informations pour les campagnes hors ligne. To do this, Audience Manager exports trait and segment information to an [!DNL FTP] or [!DNL Amazon S3] location of your choice. Contactez votre gestionnaire de solutions partenaires pour obtenir d'autres informations ou d'autres informations.
+Lorsque vous importez des données hors ligne en ligne, vous pouvez toujours utiliser ces informations pour les campagnes hors ligne. Pour ce faire, Audience Manager exporte les informations de caractéristique et de segment sur un [!DNL FTP] ou [!DNL Amazon S3] plusieurs emplacements de votre choix. Contactez votre gestionnaire de solutions partenaires pour obtenir d'autres informations ou d'autres informations.
 
 ## Environnements
 
@@ -94,4 +94,4 @@ Audience Manager fournit les environnements suivants pour le dépôt de fichier 
 
 ## Lecture technique supplémentaire
 
-Systems engineers, developers, or technical/implementation teams should review [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process) and the other articles in this section. Ces articles fournissent des détails sur les protocoles de transfert, le contenu du fichier et le fichier - exigences en matière de nom.
+Les ingénieurs informatiques, les développeurs ou les équipes techniques/d'implémentation doivent consulter [le processus de transfert des données par lots décrit](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) et les autres articles de cette section. Ces articles fournissent des détails sur les protocoles de transfert, le contenu du fichier et le fichier - exigences en matière de nom.
