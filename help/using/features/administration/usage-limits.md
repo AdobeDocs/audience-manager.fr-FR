@@ -4,21 +4,21 @@ seo-description: Audience Manager définit une limite maximale quant au nombre d
 seo-title: Limites d'utilisation
 solution: Audience Manager
 title: Limites d'utilisation
-topic: API DIL
+keywords: Mappage d'ID, mappages d'ID, mappages des cookies
 uuid: 50 ca 4647-0 b 5 c -409 c -89 fa -4 fa 1799 b 3222
 translation-type: tm+mt
-source-git-commit: a9550d71bbc6adf939539df05cd38a9d22ef261b
+source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
 
 ---
 
 
-# Usage Limits {#usage-limits}
+# Limites d'utilisation {#usage-limits}
 
-Audience Manager définit une limite maximale quant au nombre de caractéristiques, de segments, de destinations et de modèles algorithmiques que vous pouvez créer pour un compte. Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.
+Audience Manager définit une limite maximale quant au nombre de caractéristiques, de segments, de destinations et de modèles algorithmiques que vous pouvez créer pour un compte. Les limites s'appliquent à ces éléments, qu'ils soient créés dans l'interface utilisateur ou par programmation par le biais [!DNL API] de méthodes. Les limites d'utilisation permettent de protéger Audience Manager à partir des processus automatisés susceptibles de tenter de compromettre l'interface [!DNL API]utilisateur ou l'interface utilisateur.
 
 ## Limites de mappage des identifiants {#id-mapping-limits}
 
-The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adds the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
+Le tableau ci-dessous répertorie les limites [de mappage](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) des identifiants pour les ID de périphérique. Lorsqu'un ID atteint l'une des limites ci-dessous, Audience Manager ajoute de nouveaux mappages d'ID basés sur une logique [!DNL FIFO] (première dans, premier affichage) en supprimant le mappage d'ID stocké le plus ancien et en ajoutant la nouvelle. Pour plus d'informations sur les ID pris en charge par Audience Manager, reportez-vous [à l'index des ID](../../reference/ids-in-aam.md) dans Audience Manager.
 
 | Mappage d'ID | Limite maximale |
 |-----------|-------------- |
@@ -26,16 +26,16 @@ The table below lists the [ID mapping](../../integration/sending-audience-data/b
 | ID de la CRM (Cross-Device ID) vers DAID (Device Advertizing ID) | 10 Identifiants multiterminaux (ID de gestion de la relation client) sur 1 ID de publicité de périphérique (DAID) |
 | ID de cookie/navigateur avec cookie/ID de navigateur | 1 000 identifiants de cookie/navigateur à 1 cookie/ID de navigateur |
 
-## Item Limits {#item-limits}
+## Limites d'éléments {#item-limits}
 
-Les tableaux répertorient les limites actuelles par type d'élément. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. Si vous atteignez une limite, vous devez supprimer un ancien élément avant de pouvoir en créer un nouveau.
+Les tableaux répertorient les limites actuelles par type d'élément. Vous ne pouvez pas créer de caractéristiques, de segments, de destinations ou [!UICONTROL Algorithmic Models] si vous atteignez une limite spécifique pour l'un de ces éléments. Si vous atteignez une limite, vous devez supprimer un ancien élément avant de pouvoir en créer un nouveau.
 
 ### Limites de caractéristiques
 
 | Type de caractéristique | Limite maximale |
 | -------------------------- | ------------------------------------- |
 | Total caractéristiques | 100,000 |
-| Qualification totale des caractéristiques | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
+| Qualification totale des caractéristiques | 150,000. Pour plus d'informations sur la qualification des caractéristiques, reportez-vous à la section Limite de qualification des caractéristiques dans [Référence des caractéristiques Caractéristiques](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
 | Algorithmique | 50 |
 | Basé sur les règles | 100,000 |
 | Intégré | 100,000 |
@@ -63,7 +63,7 @@ Les tableaux répertorient les limites actuelles par type d'élément. You canno
 | -------- | ----- |
 | Modèles algorithmiques actifs | 20. Audience Manager only counts *active* algorithmic models against the limit. |
 | Taille maximale de l'audience des modèles algorithmiques | 25,000,000.  Notez que cette limite ne peut pas être augmentée. Vous pouvez réduire les tailles d'audience en sélectionnant moins de sources de données pour le modèle ou en sélectionnant une fenêtre de recherche plus courte. |
-| Nombre maximum de caractéristiques exclues pour un modèle | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Nombre maximum de caractéristiques exclues pour un modèle | 500. Voir [Exclusion de caractéristiques dans la modélisation algorithmique](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 
 ### Limites de dossier
 
@@ -83,12 +83,12 @@ Les tableaux répertorient les limites actuelles par type d'élément. You canno
 | ----------- | ------------- |
 | Nombre maximum de comptes d'utilisateurs pour une entreprise | 1 000. |
 
-## Monitor Usage {#monitor-usage}
+## Surveiller l'utilisation {#monitor-usage}
 
-You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. L'accès requiert des autorisations d'administrateur.
+Vous pouvez afficher l'utilisation et les limites de votre compte en **[!UICONTROL Administration > Limits]** accédant à. L'accès requiert des autorisations d'administrateur.
 
 ![image limite d'utilisation](assets/usage-limits.png)
 
-## Increase Item Limits {#increase-item-limits}
+## Augmenter les limites d'éléments {#increase-item-limits}
 
 Les limites par défaut indiquées ici devraient fournir une capacité suffisante pour répondre aux besoins de votre entreprise. Si votre organisation atteint régulièrement ces limites, contactez le représentant du compte pour discuter d'une augmentation.
