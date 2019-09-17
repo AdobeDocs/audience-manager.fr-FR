@@ -5,7 +5,7 @@ seo-title: Ajouter de nouvelles destinations basées sur un périphérique
 solution: Audience Manager
 title: Ajouter de nouvelles destinations basées sur un périphérique
 translation-type: tm+mt
-source-git-commit: bdf4a26fb128e4e76507ce6d7bbb19decb13173e
+source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
 
 ---
 
@@ -31,9 +31,9 @@ Lors de la création de la première destination basée sur un périphérique av
 Avant de pouvoir créer une destination basée sur un périphérique, vous devez configurer l’intégration entre Audience Manager et la plateforme de destination. Voici comment procéder :
 
 1. Connectez-vous à votre compte Audience Manager et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
-2. Cliquez sur **[!DNL Add Account]**.
-3. Sélectionnez la plateforme de destination avec laquelle vous souhaitez vous authentifier, puis cliquez sur **[!DNL Confirm]** pour la rediriger vers la page d’authentification de la plateforme sélectionnée. ![plates-formes intégrées](assets/dbd-integrated-platforms.png)
-4. Une fois que vous êtes authentifié sur votre compte de plateforme de destination, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!DNL Confirm]**.
+1. Cliquez sur **[!DNL Add Account]**.
+1. Sélectionnez la plateforme de destination avec laquelle vous souhaitez vous authentifier, puis cliquez sur **[!DNL Confirm]** pour la rediriger vers la page d’authentification de la plateforme sélectionnée. ![plates-formes intégrées](assets/dbd-integrated-platforms.png)
+1. Une fois que vous êtes authentifié sur votre compte de plateforme de destination, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!DNL Confirm]**.
 
 ## Étape 2 : Créer une destination basée sur un périphérique {#step2}
 
@@ -44,14 +44,13 @@ Après avoir configuré l’intégration de la plateforme de destination, vous p
 >Vous ne pouvez pas modifier le nom d’une destination existante basée sur un périphérique. Veillez à indiquer un nom qui vous aidera à identifier correctement la destination.
 
 1. Connectez-vous à votre compte Audience Manager, accédez à **[!DNL Audience Data > Destinations]**, puis cliquez sur **[!DNL Create Destination]**.
-2. Dans la **[!DNL Basic Information]** section, saisissez un **[!DNL Name]** et **[!DNL Description]** pour votre nouvelle destination, puis utilisez les paramètres de la liste ci-dessous : ![configuration](assets/dbd-new-basic.png)
+1. Dans la **[!DNL Basic Information]** section, saisissez un **[!DNL Name]** et **[!DNL Description]** pour votre nouvelle destination, puis utilisez les paramètres de la liste ci-dessous : ![configuration](assets/dbd-new-basic.png)
    * **[!DNL Category]**: [!DNL Integrated Platforms];
    * **[!DNL Type]**: [!DNL Device-Based];
    * **[!DNL Platform]**: sélectionnez la plateforme de destination à laquelle vous souhaitez envoyer des segments d’audience.
    * **[!DNL Account]**: sélectionnez le compte publicitaire souhaité associé à la plateforme sélectionnée.
-3. Cliquez sur **[!DNL Next]**.
-4. Sélectionnez les étiquettes [d’exportation de](/help/using/features/data-export-controls.md#controls-labels) données que vous souhaitez définir pour cette destination.
-5. Cliquez sur **[!DNL Save]**.
-6. Dans la **[!DNL Segment Mappings]** section, sélectionnez les segments d’audience que vous souhaitez envoyer à cette destination.
-7. Enregistrez la destination.
-
+1. Cliquez sur **[!DNL Next]**.
+1. Sélectionnez les étiquettes [d’exportation de](/help/using/features/data-export-controls.md#controls-labels) données que vous souhaitez définir pour cette destination.
+1. Cliquez sur **[!DNL Save]**.
+1. Dans la **[!DNL Segment Mappings]** section, sélectionnez les segments d’audience que vous souhaitez envoyer à cette destination.
+1. Enregistrez la destination.
