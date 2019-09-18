@@ -5,7 +5,7 @@ seo-title: Présentation des destinations basées sur les personnes et cas d’u
 solution: Audience Manager
 title: Présentation et cas d’utilisation
 translation-type: tm+mt
-source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
+source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
 
 ---
 
@@ -19,7 +19,7 @@ Servez-vous [!DNL People-Based Destinations] pour envoyer des segments d’audie
 [!DNL People-Based Destinations] vous permet d’appliquer la segmentation aux données en ligne et hors ligne afin de créer des segments d’audience en fonction d’identifiants hachés, tels que des adresses électroniques ou des numéros de téléphone. Ensuite, vous pouvez envoyer ces segments aux "jardins muraux", tels que [!DNL Facebook], où vous pouvez cibler votre audience indépendamment de leurs interactions en ligne ou de leur état d’authentification. [!DNL People-Based Destinations] peut vous aider :
 
 * ciblez les audiences hors ligne et en ligne sur des plateformes telles que [!DNL Facebook], en fonction des adresses électroniques hachées ;
-* Conformez les fonctionnalités existantes de ciblage de périphériques et de cookies d’Audience Manager ;
+* Compléter les fonctionnalités de ciblage de périphériques et de cookies existantes d’Audience Manager ;
 * éliminer les coûts associés aux solutions d'intégration de données tierces ;
 * Éliminez les coûts associés au développement de flux de travail personnalisés d'intégration de données ;
 * Ciblez les audiences dans des environnements sans cookie ;
