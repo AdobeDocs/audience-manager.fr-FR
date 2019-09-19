@@ -1,10 +1,10 @@
 ---
-description: Une approche d'envoi de données de médias à Audience Manager utilise les macros de serveur d'annonces pour envoyer des attributs de campagne à Audience Manager.
-seo-description: Une approche d'envoi de données de médias à Audience Manager utilise les macros de serveur d'annonces pour envoyer des attributs de campagne à Audience Manager.
+description: Une méthode d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
+seo-description: Une méthode d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
 seo-title: Capture des données d’impression de campagne via des appels de pixel
 solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
-uuid: 6 ac 44100-4 c 55-4992-8835-0 d 578 bb 4 e 5 c 2
+uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
 source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
@@ -13,11 +13,11 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 # Capture des données d’impression de campagne via des appels de pixel{#capturing-campaign-impression-data-via-pixel-calls}
 
-Une approche d'envoi de données de médias à Audience Manager utilise les macros de serveur d'annonces pour envoyer des attributs de campagne à Audience Manager.
+Une méthode d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
 
-On parle généralement de « pixellisation du créatif ».  » » Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. Les données agrégées fournissent une vue unifiée des performances de la campagne, permettent d'identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence des événements de serveur publicitaire qui génèrent des conversions.
+Cette méthodologie est souvent appelée "pixellisation du créatif". Ces points de données sont insérés dynamiquement dans le code de [!DNL Audience Manager] pixels par les macros du serveur d’annonces tiers, qui sont utilisées pour mapper et rapporter toutes les impressions et clics en fonction des attributs de rapports clés de la campagne. Les données agrégées offrent une vue unifiée des performances des campagnes, permettent d’identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence d’événements de serveur d’annonces qui conduisent à des conversions.
 
-## Syntaxe d'appel d'événement
+## Syntaxe des appels d’événement
 
 >[!NOTE]
 >
@@ -25,19 +25,17 @@ On parle généralement de « pixellisation du créatif ».  » » Those dat
 
 L’appel d’un événement collecte les données d’impression et de conversion et les envoie aux [!DNL Audience Manager] [serveurs de collecte de données ](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Ce processus repose sur des serveurs d’annonces tiers qui placent l’appel dans le contenu créatif afin de contrôler le contenu inséré dans le code. Les serveurs d’annonces tiers (par exemple, [!DNL DFA]) peuvent placer ce code dans chaque impression publicitaire. En outre, un appel publicitaire n’utilise pas [!DNL JavaScript] ni n’emploie de techniques de « frame-busting » (destruction de cadres) pour accéder aux données d’éditeur en dehors de la balise publicitaire.
 
-Les appels d'événement consistent en des paires clé-valeur qui utilisent la syntaxe suivante :
+Les appels d’événement se composent de paires clé-valeur qui utilisent la syntaxe suivante :
 
 <pre>
-http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;
-d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>
-&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=cache buster value
+http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i><i>&amp;d_campaign=campaign_id[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=valeur de buster du cache</i>
 </pre>
 
-Dans la paire clé-valeur, la variable value est un ID ou une macro inséré par le serveur d'annonces. When the ad tag loads, that `%macro%` gets replaced with the required, corresponding values. Cet appel ne renvoie pas de réponse.
+Dans la paire clé-valeur, la variable valeur est un identifiant ou une macro inséré par le serveur d’annonces. Lorsque la balise publicitaire se charge, elle `%macro%` est remplacée par les valeurs correspondantes requises. Cet appel ne renvoie pas de réponse.
 
-## Supported Key-Value Pairs {#supported-key-value-pairs}
+## Paires clés-valeurs prises en charge {#supported-key-value-pairs}
 
-Les appels d'événement d'impression acceptent les données formées dans des paires clé-valeur. Le tableau suivant répertorie et décrit les clés utilisées pour les conserver. Many of these are required if you want to capture and analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Les appels d’événement d’impression acceptent les données formées en paires clé-valeur. Le tableau suivant répertorie et décrit les clés utilisées pour contenir ces variables. La plupart d’entre eux sont nécessaires pour capturer et analyser des données dans les rapports [Optimisation de l’](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -48,59 +46,59 @@ Les appels d'événement d'impression acceptent les données formées dans des p
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> d_ adgroup </code> </td> 
-   <td colname="col2"> <p>Identifiant de groupe publicitaire numérique à partir du serveur d'annonces. </p> <p>Facultatif. </p> </td> 
+   <td colname="col1"> <code> d_adgroup </code> </td> 
+   <td colname="col2"> <p>Identifiant du groupe publicitaire numérique à partir du serveur publicitaire. </p> <p>Facultatif. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ adsrc </code> </td> 
-   <td colname="col2"> <p>ID ou code d'intégration de source de données pour votre annonceur. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col1"> <code> d_adsrc </code> </td> 
+   <td colname="col2"> <p>ID de source de données ou code d’intégration pour votre annonceur. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ bu </code> </td> 
-   <td colname="col2"> <p>ID ou code d'intégration de source de données pour votre unité opérationnelle. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col1"> <code> d_bu </code> </td> 
+   <td colname="col2"> <p>ID de source de données ou code d’intégration pour votre unité opérationnelle. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_ bust </code> </p> </td> 
-   <td colname="col2"> <p>Valeur de la mémoire cache. <span class="keyword"> Audience Manager envoie </span> automatiquement les en-têtes de contrôle du cache qui sont respectés par la plupart des navigateurs et des doublures. Si vous souhaitez effectuer d'autres opérations de cache, incluez ce paramètre dans un appel d'événement suivi d'une chaîne aléatoire. </p> <p> Facultatif. </p> </td> 
+   <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
+   <td colname="col2"> <p>Valeur de blocage du cache. <span class="keyword"> Audience Manager envoie </span> automatiquement les en-têtes de contrôle du cache qui sont respectés par la plupart des navigateurs et des serveurs proxy. Si vous souhaitez exécuter une autre opération de contournement du cache, incluez ce paramètre dans un appel d’événement, suivi d’une chaîne aléatoire. </p> <p> Facultatif. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ campaign </code> </td> 
-   <td colname="col2"> <p>Identifiant de campagne numérique du serveur d'annonces. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col1"> <code> d_campaign </code> </td> 
+   <td colname="col2"> <p>Identifiant de campagne numérique du serveur d’annonces. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>In this context, <code> d_cid </code> instantiates a key-value pair that lets you associate a mobile device type to a unique user ID (DPUUID). Un ID fixe détermine le type de périphérique mobile. La valeur, qui est l'utilisateur - id, peut varier. Separate the key-value pair with <code> %01 </code>, which is a non-printing control character. Ce paramètre accepte les clés suivantes : </p> 
+   <td colname="col2"> <p>Dans ce contexte, <code> _cid </code> instancie une paire clé-valeur qui vous permet d’associer un type de périphérique mobile à un ID utilisateur unique (DPUUID). Un ID fixe détermine le type de périphérique mobile. La valeur (ID utilisateur) peut varier. Séparez la paire clé-valeur par <code> %01 </code>, qui est un caractère de commande non imprimable. Ce paramètre accepte les clés suivantes : </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914 : Identifie un périphérique Android (GAID). For example, <code> d_cid = 20914 %01 1234 </code> says that user 1234 is associated with an Android device. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915 : Identifie un périphérique ios (IDFA). For example, <code> d_cid = 20915 %01 5678 </code> says that user 5678 is associated with an iOS device. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014 : Identifie un périphérique Android (GAID). Par exemple, <code> d_cid = 20914 %01 1234 </code> indique que l’utilisateur 1234 est associé à un périphérique Android. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015 : Identifie un périphérique iOS (IDFA). Par exemple, <code> d_cid = 20915 %01 5678 </code> indique que l’utilisateur 5678 est associé à un périphérique iOS. </li> 
     </ul> <p>Facultatif. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ creative </code> </td> 
-   <td colname="col2"> <p>Identifiant créatif numérique à partir du serveur d'annonces. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col1"> <code> d_creative </code> </td> 
+   <td colname="col2"> <p>Identifiant créatif numérique du serveur d’annonces. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ event = imp </code> </td> 
-   <td colname="col2"> <p>Identifie un appel d'événement comme événement d'impression. </p> <p>Obligatoire. </p> </td> 
+   <td colname="col1"> <code> d_event=imp </code> </td> 
+   <td colname="col2"> <p>Identifie un appel d’événement en tant qu’événement d’impression. </p> <p>Obligatoire. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ placement </code> </td> 
-   <td colname="col2"> <p>Identifiant de placement numérique à partir du serveur d'annonces. </p> <p> Facultatif. </p> </td> 
+   <td colname="col1"> <code> d_placement </code> </td> 
+   <td colname="col2"> <p>Identifiant de placement numérique du serveur d’annonces. </p> <p> Facultatif. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ site </code> </td> 
-   <td colname="col2"> <p>Identifiant de site numérique à partir du serveur d'annonces. </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col1"> <code> d_site </code> </td> 
+   <td colname="col2"> <p>Identifiant numérique du site à partir du serveur d’annonces. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> d_ src </code> </td> 
-   <td colname="col2"> <p>ID ou code d'intégration de source de données de la plate-forme fournissant les métadonnées (DFA, Atlas, GBM, Media Math, etc.). </p> <p>Required for <span class="wintitle"> Audience Optimization </span> reports. </p> </td> 
+   <td colname="col1"> <code> d_src </code> </td> 
+   <td colname="col2"> <p>ID de source de données ou code d’intégration de la plateforme fournissant les métadonnées (par exemple, DFA, Atlas, GBM, Media Math, etc.). </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p> <p><code>gdpr</code> peut être 0 (GDPR ne s'applique pas) ou 1 (GDPR s'applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p> <p><code>gdpr</code> peut être égal à 0 (le RGD ne s’applique pas) ou à 1 (le RGD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>gdpr_ permission</code> </td> 
+   <td colname="col1"> <code>gdpr_permission</code> </td> 
    <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>, alors <code>%gdpr_consent%</code> est remplacé par la chaîne <code>gdpr_consent</code> (voir les <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">spécifications IAB</a>).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
   </tr> 
  </tbody> 
@@ -108,9 +106,9 @@ Les appels d'événement d'impression acceptent les données formées dans des p
 
 >[!NOTE]
 >
->Veuillez contacter vos consultants ou votre compte Adobe Audience Manager pour connaître l'URL exacte spécifique au domaine client.
+>Veuillez contacter votre conseiller ou responsable de compte Adobe Audience Manager pour connaître l’URL exacte spécifique au domaine client.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Fichiers de données et de métadonnées pour les rapports Optimisation d'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Fichiers de données et de métadonnées pour les rapports Optimisation de l’audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
