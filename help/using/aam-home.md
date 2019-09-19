@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentation du produit Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
+source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
 
@@ -26,7 +26,7 @@ Ce guide de documentation technique fournit une assistance autonome à Audience 
      <li><a href="features/administration/ip-obfuscation.md">Obscurcissement d’adresses IP</a> </li>
      </ul> </p> <p>Voir aussi Mises à jour <a href="docs-updates/docs-2019.md"> de la documentation de</a>2019. </p> 
      <p>Si vous découvrez Audience Manager, consultez notre <a href="reference/aam-glossary.md"> Glossaire</a> et notre <a href= "reference/ids-in-aam.md">index d’identifiants.</a></p>
-     <br>
+     <br> 
      <p> <b>Documentation collaborative</b> </p>
      <p>Nous nous félicitons des contributions de tous nos lecteurs à notre documentation. Consultez le Guide de <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">collaboration - Présentation</a> pour savoir comment commencer à contribuer.</p>
     </td>
@@ -36,11 +36,11 @@ Ce guide de documentation technique fournit une assistance autonome à Audience 
       <li id="li_EA594E939ED14D7780178DEA8E1AED64">Pour lire les anciennes annonces, reportez-vous aux <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/?f=c_legacy_releases.html" format="https" scope="external">notes de mise à jour précédentes</a>. </li> 
      </ul> </p> <p> <b>Ressources d’Experience Cloud</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Forums de la communauté Audience Manager</a> </li> 
-      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Centre de traitement des données personnelles Adobe</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Forums de la communauté Audience Manager</a> </li>
       <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Didacticiels Audience Manager</a> </li> 
+      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Centre de traitement des données personnelles Adobe</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Formation et certifications Adobe</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> Page d’accueil de la documentation du produit</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https">Accueil de la documentation du produit Experience Cloud</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Formation et assistance Audience Manager</a> </li> 
      </ul> </p> </td>
   </tr> 
