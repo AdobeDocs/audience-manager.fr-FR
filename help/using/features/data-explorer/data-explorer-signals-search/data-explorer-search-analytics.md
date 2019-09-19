@@ -1,27 +1,27 @@
 ---
-description: Les clients Audience Manager qui utilisent également Adobe Analytics peuvent tirer parti de l'intégration étroite entre les deux solutions en activant l'option Recherche avancée pour Adobe Analytics.
-seo-description: Les clients Audience Manager qui utilisent également Adobe Analytics peuvent tirer parti de l'intégration étroite entre les deux solutions en activant l'option Recherche avancée pour Adobe Analytics.
-seo-title: Recherche avancée d'Adobe Analytics
-title: Recherche avancée d'Adobe Analytics
-uuid: 20177820-10 e 1-49 d 9-bb 2 c -3 a 62141 a 498 e
+description: Les clients d’Audience Manager qui utilisent également Adobe Analytics peuvent tirer parti de l’intégration étroite entre les deux solutions en activant l’option Recherche avancée pour Adobe Analytics.
+seo-description: Les clients d’Audience Manager qui utilisent également Adobe Analytics peuvent tirer parti de l’intégration étroite entre les deux solutions en activant l’option Recherche avancée pour Adobe Analytics.
+seo-title: Recherche avancée pour Adobe Analytics
+title: Recherche avancée pour Adobe Analytics
+uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# Advanced Search for Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Recherche avancée pour Adobe Analytics {#advanced-search-for-adobe-analytics}
 
-Audience Manager customers who also use [!DNL Adobe Analytics] can leverage the tight integration between the two solutions by enabling the [!UICONTROL Advanced Search for Adobe Analytics] option.
+Les clients d’Audience Manager qui [!DNL Adobe Analytics] utilisent également peuvent tirer parti de l’intégration étroite entre les deux solutions en activant l’ [!UICONTROL Advanced Search for Adobe Analytics] option.
 
-This integration allows you to see the friendly names for key-value pairs derived from [!DNL Adobe Analytics] report suites. Voici comment procéder :
+Cette intégration vous permet de voir les noms conviviaux des paires clé-valeur provenant des suites de [!DNL Adobe Analytics] rapports. Voici comment procéder :
 
-1. Go to [!UICONTROL Audience Data > Signals > Search] and run a [!UICONTROL Signals Search] and enable the **[!UICONTROL Advanced search for Adobe Analytics]** option.
-1. Use the **[!UICONTROL Report Suite]** drop-down menu to search for and select the [!DNL Adobe Analytics] report suite to be used.
-1. Enter the rest of the search criteria and click **[!UICONTROL Search]**. Pour rechercher tous les signaux dans la suite de rapports spécifiée, laissez vide les champs de valeur clé.
+1. Accédez à [!UICONTROL Audience Data > Signals > Search] et exécutez une [!UICONTROL Signals Search] et activez l’ **[!UICONTROL Advanced search for Adobe Analytics]** option.
+1. Utilisez le menu **[!UICONTROL Report Suite]** déroulant pour rechercher et sélectionner la [!DNL Adobe Analytics] suite de rapports à utiliser.
+1. Entrez le reste des critères de recherche et cliquez sur **[!UICONTROL Search]**. Pour rechercher tous les signaux dans la suite de rapports spécifiée, laissez les champs de valeur de clé vides.
    >[!NOTE]
    >
-   >The **[!UICONTROL Key or Key Name]** field shows auto-completed suggestions based on your input, as well as friendly names for the keys that you enter.
+   >Le **[!UICONTROL Key or Key Name]** champ affiche les suggestions de saisie automatique en fonction de votre saisie, ainsi que les noms conviviaux des clés saisies.
 
    ![](assets/signals-search-analytics.png)
-1. The search results will now show you the friendly names for the key-value pairs entered in the **[!UICONTROL Key or Key Name]** column, or for all of the signals in the report suite, if you left the key-value fields blank.
+1. Les résultats de la recherche vous indiquent maintenant les noms conviviaux des paires clé-valeur saisies dans la **[!UICONTROL Key or Key Name]** colonne ou pour tous les signaux de la suite de rapports, si vous laissez les champs clé-valeur vides.
