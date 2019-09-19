@@ -1,39 +1,39 @@
 ---
-description: Envoyez des données à l'API DCS à l'aide des méthodes GET ou POST.
-seo-description: Envoyez des données à l'API DCS à l'aide des méthodes GET ou POST.
-seo-title: Méthodes de l'API DCS
+description: Envoyez des données à l’API DCS à l’aide des méthodes GET ou POST.
+seo-description: Envoyez des données à l’API DCS à l’aide des méthodes GET ou POST.
+seo-title: ' Méthodes de l’API DCS'
 solution: Audience Manager
-title: Méthodes de l'API DCS
-uuid: 6 e 407458-11 d 4-4342-a 84 a -512 afa 5 fc 183
+title: ' Méthodes de l’API DCS'
+uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
 source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
 
 ---
 
 
-# Méthodes de l'API DCS {#dcs-api-methods}
+# Méthodes de l’API DCS {#dcs-api-methods}
 
-Envoyer des données à [!UICONTROL DCS][!DNL API] l'utilisation `GET` ou `POST` aux méthodes.
+Envoyez des données à l’utilisateur [!UICONTROL DCS] à l’aide [!DNL API] ou `GET` `POST` de méthodes.
 
-Vous pouvez envoyer des données à l [!UICONTROL DCS] 'aide de l'une ou l'autre des `GET``POST` méthodes. Examinez les exemples d'appels ci-dessous, à l'aide [de curl](https://curl.haxx.se/). Dans les trois exemples d'appel, nous ajoutons les signaux `c_likes = famous popstar` et `c_loves = famous actress` le profil `12345678901234567890123456789012345678`du périphérique.
+Vous pouvez envoyer des données à l’ [!UICONTROL DCS] utilisateur à l’aide de l’une des méthodes `GET` ou `POST` . Examinez les exemples d’appels ci-dessous, à l’aide de [curl](https://curl.haxx.se/). Dans les trois exemples d’appels, nous ajoutons les signaux `c_likes = famous popstar` et `c_loves = famous actress` au profil du périphérique `12345678901234567890123456789012345678`.
 
 
 ## Envoyer des données via GET {#send-data-via-get}
 
-Notez que la taille maximale autorisée pour `GET` les appels est 8 K.
+Notez que la taille maximale autorisée pour les `GET` appels est de 8 Ko.
 
 ```
 curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
 ```
 
-## Envoi de données par le biais de POST {#send-data-via-post}
+## Envoyer des données via POST {#send-data-via-post}
 
-Notez les conditions requises pour envoyer des données à l'aide de `POST` la méthode :
+Notez les conditions requises pour envoyer des données à l’aide de la `POST` méthode :
 
-* La taille maximale autorisée est de 32 K.
+* La taille maximale autorisée est de 32 Ko.
 * Définissez le type de contenu sur `application/x-www-form-urlencoded`.
 
-### Exemple d'appel
+### Exemple d’appel
 
 ```js
 curl -X POST \
