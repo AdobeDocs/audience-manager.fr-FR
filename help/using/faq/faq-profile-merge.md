@@ -1,20 +1,20 @@
 ---
-description: Réponses aux questions courantes sur la règle de fusion des profils et le graphique des dispositifs.
+description: Réponses aux questions courantes sur la règle de fusion des profils et le graphique de périphériques.
 keywords: ID d’organisation
-seo-description: Réponses aux questions courantes sur la règle de fusion des profils et le graphique des dispositifs.
-seo-title: FAQ sur la fusion des profils et le graphique des périphériques
+seo-description: Réponses aux questions courantes sur la règle de fusion des profils et le graphique de périphériques.
+seo-title: FAQ sur les règles de fusion de profils et le graphique de périphériques
 solution: Audience Manager
-title: FAQ sur la fusion des profils et le graphique des périphériques
-uuid: ba 7986 f 1-078 f -4162-aef 3-b 5 c 8740 cebf 4
+title: ' FAQ sur les règles de fusion de profils et le graphique de périphériques'
+uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Profile Merge Rules and Device Graph FAQ{#profile-merge-rules-and-device-graph-faq}
+#  FAQ sur les règles de fusion de profils et le graphique de périphériques{#profile-merge-rules-and-device-graph-faq}
 
-Réponses aux questions courantes sur la règle de fusion des profils et le graphique des dispositifs.
+Réponses aux questions courantes sur la règle de fusion des profils et le graphique de périphériques.
 
 <!-- 
 
@@ -22,133 +22,133 @@ profile-merge-faq.xml
 
  -->
 
-## Device Graph Basics {#device-graph-basics}
+## Notions de base sur les graphiques des périphériques {#device-graph-basics}
 
 **Qu'est-ce qu'un graphique de périphérique ?**
 
-Un graphique de périphérique est un ensemble de mappages d'ID définissant des groupes de périphériques anonymes. Il associe ces périphériques à une personne ou un foyer en fonction des éléments communs des signaux collectés à partir de chaque périphérique. Ces signaux permettent d'identifier les périphériques au niveau individuel ou du foyer.
+Un graphique de périphérique est un ensemble de mappages d’ID qui définit des groupes de périphériques anonymes. Il associe ces dispositifs à une personne ou à un foyer en fonction d'éléments communs dans les signaux collectés à partir de chaque dispositif. Ces signaux aident à identifier les appareils au niveau individuel ou familial.
 
 <br> 
 
-**Qu'est-ce qu'un graphique de périphérique externe ?**
+**Qu’est-ce qu’un graphique de périphérique externe ?**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
-
-<br> 
-
-**Quels sont les cas d'utilisation courants d'utilisation d'un graphique de périphérique externe dans[!UICONTROL Profile Merge Rule]une ?**
-
-The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. Le segment lui-même peut comporter plusieurs utilisations, par exemple cibler une audience de prospects avec et de publicité diffusée par un DSP ou personnaliser l'expérience sur site d'un client via une plateforme de personnalisation sur site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+Un graphique de périphérique externe est un graphique de périphérique dans [!DNL Audience Manager] lequel il n’a pas été créé exclusivement à partir de vos propres sources de données inter-périphériques. Par exemple, lorsque vous créez une règle [de fusion de](../features/profile-merge-rules/merge-rules-start.md) profil et choisissez les options de graphique de périphérique [!UICONTROL Co-op Device Graph] ou tiers, vous travaillez avec un graphique de périphérique externe. Voir Options [du](../features/profile-merge-rules/merge-rule-definitions.md#device-options)périphérique.
 
 <br> 
 
-**Audience Manager fournit-il une prise en charge internationale des graphiques de périphériques externes ?**
+**Quels sont les cas d’utilisation courants pour l’utilisation d’un graphique de périphérique externe dans une[!UICONTROL Profile Merge Rule]application ?**
 
-Non. Les graphiques de périphériques externes sont disponibles aux États-Unis et au Canada uniquement.
+L’objectif principal de l’utilisation d’un graphique d’appareil dans un [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une personne ou à un ménage pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations, par exemple, le ciblage d’un public de prospects avec et de publicités servies par un fournisseur de services partagés ou la personnalisation de l’expérience sur site d’un client via une plateforme de personnalisation sur site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
 <br> 
 
-**À quelle fréquence[!DNL Audience Manager]les données des graphiques externes de périphériques externes sont-elles mises à jour ?**
+**Audience Manager fournit-il une prise en charge globale des graphiques de périphériques externes ?**
+
+Non. Les graphiques des périphériques externes sont disponibles uniquement aux États-Unis et au Canada.
+
+<br> 
+
+**À quelle fréquence les données graphiques des périphériques externes sont-elles mises[!DNL Audience Manager]à jour ?**
 
 Une fois par semaine.
 
 <br> 
 
-## Device Graphs and Profile Merge Rules {#device-graph-profile-merge-rules}
+## Graphiques de périphériques et règles de fusion de profils {#device-graph-profile-merge-rules}
 
-**Comment[!DNL Audience Manager]utiliser un graphique de périphérique ?**
+**Comment utiliser[!DNL Audience Manager]un graphique de périphérique ?**
 
-In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
+Dans [!DNL Audience Manager]la section, les graphiques de périphériques apparaissent comme des options de configuration lorsque vous [créez une règle](../features/profile-merge-rules/merge-rules-start.md)de fusion de profil. Grâce à [!UICONTROL Profile Merge Rules]vous, ces graphiques de périphériques aident [!DNL Audience Manager]:
 
-* Fusionnez plusieurs profils de périphérique. Cela crée un seul ensemble de caractéristiques.
-* Evaluez le recouvrement de caractéristiques pour la qualification des segments (plutôt que d'évaluer individuellement chaque profil de périphérique).
+* Fusionnez plusieurs profils de périphérique ensemble. Cela crée un seul et même ensemble de caractéristiques.
+* Evaluez le paramètre de caractéristique en vue de la qualification du segment (plutôt que d’évaluer chaque profil de périphérique individuellement).
 * Ajoutez des périphériques qualifiés aux segments disponibles.
 
 <br> 
 
 **Combien[!UICONTROL Profile Merge Rules]puis-je créer ?**
 
-Currently, you can create a maximum of 3 [!UICONTROL Profile Merge Rules].
+Actuellement, vous pouvez créer un maximum de 3 [!UICONTROL Profile Merge Rules].
 
 <br> 
 
-**Combien de profils de périphérique[!DNL Audience Manager]fusionnent et lu lors de l'utilisation d'un graphique de périphérique dans[!UICONTROL Profile Merge Rule]un ?**
+**Combien de profils de périphérique fusionnent-ils et lisent-ils[!DNL Audience Manager]lors de l’utilisation d’un graphique de périphérique dans un[!UICONTROL Profile Merge Rule]?**
 
-When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], Audience Manager merges and reads the current device profile and a maximum of 3 additional device profiles linked by your selected device graph option.
+Lors de la qualification d’un périphérique pour un segment à l’aide d’une [!UICONTROL Profile Merge Rule]instance, Audience Manager fusionne et lit le profil du périphérique actuel et un maximum de 3 profils de périphérique supplémentaires liés par l’option de graphique de périphérique sélectionnée.
 
 <br> 
 
-**Quels sont les périphériques qui remplissent les critères d'un segment lors de l'utilisation d'un graphique de périphérique dans[!UICONTROL Profile Merge Rule]?**
+**Quels sont les périphériques qui remplissent les critères d’un segment lors de l’utilisation d’un graphique de périphérique dans un[!UICONTROL Profile Merge Rule]?**
 
-The devices [!DNL Audience Manager] merges and reads are the same devices that are qualified for a segment.
+Les périphériques [!DNL Audience Manager] fusionnés et lus sont les mêmes que ceux qui sont qualifiés pour un segment.
 
 >[!NOTE]
 >
->For external device graphs, [!DNL Audience Manager] stores the mapping between devices at the platform level and selects 3 without evaluating their relationship to the devices seen in your instance of [!DNL Audience Manager].
+>Pour les graphiques de périphériques externes, [!DNL Audience Manager] stocke le mappage entre les périphériques au niveau de la plate-forme et sélectionne 3 sans évaluer leur relation aux périphériques vus dans votre instance de [!DNL Audience Manager].
 
 <br> 
 
-**Quels appareils **peuvent remplir un segment à l'aide d'un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
+**Quels périphériques *peuvent*être admissibles pour un segment à l’aide d’un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
 
-To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created. En outre, les serveurs Edge :
+Pour être admissible pour un segment, les périphériques doivent avoir été vus par Audience Manager sur nos serveurs [de données](../reference/system-components/components-edge.md) Edge une fois le segment créé. En outre, les serveurs Edge :
 
-* Stocker les données de profil pendant 14 jours au maximum.
-* Supprimez un profil de périphérique s'il a été inactif pendant plus de 14 jours. Remarque : Cette action supprime uniquement les données du bord. D'autres systèmes conservent les enregistrements pendant des intervalles plus longs. See the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
-* Reset the 14-day interval if [!DNL Audience Manager] records any activity for that profile across the entire platform.
+* Stockez les données de profil pendant 14 jours au maximum.
+* Supprimez un profil de périphérique s’il est inactif depuis plus de 14 jours. Remarque : Cette action supprime uniquement les données du bord. D'autres systèmes conserveront les enregistrements pendant des périodes plus longues. Consultez le FAQ [sur la](../faq/faq-privacy.md)confidentialité et la rétention des données.
+* Réinitialisez l’intervalle de 14 jours si vous [!DNL Audience Manager] enregistrez une activité pour ce profil sur l’ensemble de la plateforme.
 
-See also, [Data Collection Components](../reference/system-components/components-data-collection.md).
-
-<br> 
-
-**Où[!DNL Audience Manager]peut envoyer les segments qui ont été qualifiés par un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
-
-[!DNL Audience Manager] peut envoyer des segments à une destination dans des fichiers de traitement par lots ou en temps réel. And, as noted in the FAQ entry above, To qualify for a segment, devices must have been seen by [!DNL Audience Manager] on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created.
+Voir aussi Composants [de collecte de](../reference/system-components/components-data-collection.md)données.
 
 <br> 
 
-## Segments, Device Graphs, and Profile Merge Rules {#segments-device-graphs-rules}
+**Où peut-on[!DNL Audience Manager]envoyer des segments qui ont été qualifiés par un[!UICONTROL Profile Merge Rule]utilisateur qui utilise un graphique de périphérique ?**
 
-**Comment[!DNL Audience Manager]dissocier un périphérique lorsqu'il n'est plus qualifié pour un segment avec un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
-
-Audience Manager merges up to four devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. Si le signal de dissociation est émis, le périphérique actuel et trois périphériques supplémentaires vus en temps réel sont supprimés du segment dans la destination. Par exemple, dans une grappe de six périphériques, quatre périphériques au maximum sont fusionnés, évalués et qualifiés pour un segment. De même, jusqu'à quatre périphériques sont fusionnés, évalués et non segmentés.
+[!DNL Audience Manager] Vous pouvez envoyer des segments vers une destination dans des fichiers de commandes ou en temps réel. Et, comme indiqué dans l’entrée FAQ ci-dessus, pour être admissible à un segment, les périphériques doivent avoir été vus par nos serveurs [!DNL Audience Manager] de données [](../reference/system-components/components-edge.md) périphériques après la création du segment.
 
 <br> 
 
-**Si une destination peut ne pas segmenter les périphériques, les périphériques seront-ils supprimés des segments par[!UICONTROL Profile Merge Rules]le biais d'un graphique de périphérique ?**
+## Segments, graphiques de périphériques et règles de fusion de profils {#segments-device-graphs-rules}
 
-Oui. Reportez-vous à l'explication ci-dessus.
+**Comment[!DNL Audience Manager]désegmenter un périphérique lorsqu’il n’est plus qualifié pour un segment avec un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
 
-<br> 
-
-**Si je construise un segment avec un[!UICONTROL Profile Merge Rule]graphique de périphérique et que le segment utilise des données en temps réel et en ligne, mon segment sera-t-il mis à jour lorsque les modifications de données intégrées ?**
-
-Non. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Profile Merge Rule] that uses a device graph in real-time only. Updates made to on-boarded traits after the segment has been evaluated will be used to qualify the segment when the device is next seen by our [edge data servers](../reference/system-components/components-edge.md). Cela suppose que le profil de périphérique reste actif sur les serveurs Edge et que les données intégrées ont été mises à la disposition de ces systèmes. See also, the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
+Audience Manager fusionne jusqu’à quatre périphériques lors de l’évaluation de segments avec un graphique [!UICONTROL Profile Merge Rule] utilisant un périphérique. Si le signal de non-segmentation est émis, le périphérique actuel et trois périphériques supplémentaires affichés en temps réel sont supprimés du segment dans la destination. Par exemple, dans une grappe de six périphériques, jusqu’à quatre périphériques sont fusionnés, évalués et qualifiés pour un segment. De même, jusqu’à quatre périphériques sont fusionnés, évalués et non segmentés.
 
 <br> 
 
-**Les estimations de taille de segment incluent-elles des périphériques qui remplissent les critères d'un segment selon les connexions fournies par un[!UICONTROL Profile Merge Rule]utilisateur utilisant une option graphique de périphérique ?**
+**Si une destination peut désegmenter des périphériques, est-ce que les périphériques seront supprimés des segments par[!UICONTROL Profile Merge Rules]l’utilisation d’un graphique de périphérique ?**
 
-Non. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
+Oui. Voir l'explication ci-dessus.
 
 <br> 
 
-**[!UICONTROL Addressable Audiences]Les périphériques sont-ils inclus dans un segment selon les connexions fournies par un[!UICONTROL Profile Merge Rule]utilisateur utilisant une option graphique de périphérique ?**
+**Si je crée un segment avec un graphique[!UICONTROL Profile Merge Rule]utilisant un périphérique et que le segment utilise des données en temps réel et intégrées, mon segment sera-t-il mis à jour à mesure que les données intégrées changent ?**
+
+Non. Actuellement, [!DNL Audience Manager] évalue les segments avec un [!UICONTROL Profile Merge Rule] graphique de périphérique en temps réel uniquement. Les mises à jour apportées aux caractéristiques intégrées après l’évaluation du segment seront utilisées pour qualifier le segment lorsque le périphérique sera ensuite vu par nos serveurs [de données de](../reference/system-components/components-edge.md)périphérie. Cela suppose que le profil du périphérique est toujours actif sur les serveurs Edge et que les données intégrées ont été mises à la disposition de ces systèmes. Voir aussi FAQ [sur la](../faq/faq-privacy.md)confidentialité et la rétention des données.
+
+<br> 
+
+**Les estimations de la taille des segments incluent-elles les périphériques qui remplissent les critères d’un segment en fonction des connexions fournies par un[!UICONTROL Profile Merge Rule]utilisateur qui utilise une option de graphique de périphérique ?**
+
+Non. Reportez-vous aux définitions des sections [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans Données de population de [caractéristiques et de segments dans le créateur](../features/segments/segment-builder-data.md)de segments.
+
+<br> 
+
+**Inclut-[!UICONTROL Addressable Audiences]t-il les périphériques qui remplissent les conditions requises pour un segment en fonction des connexions fournies par un[!UICONTROL Profile Merge Rule]utilisateur qui utilise une option de graphique de périphérique ?**
 
 Oui.
 
 <br> 
 
-**Si un segment utilise une[!UICONTROL Profile Merge Rule]variable avec[!UICONTROL No Authenticated Profile]et que les caractéristiques qui qualifient les périphériques pour le segment sont stockées uniquement sur le profil authentifié, la population totale du segment sera-t-elle 0 ?**
+**Si un segment utilise un[!UICONTROL Profile Merge Rule]avec[!UICONTROL No Authenticated Profile]et que les caractéristiques qui qualifient les périphériques pour le segment sont uniquement stockées par rapport au profil authentifié, la population totale du segment sera-t-elle de 0 ?**
 
-Non. Aujourd'hui, Audience Manager compte les périphériques associés au profil authentifié comme étant qualifiés pour le segment.
+Non. Aujourd’hui, Audience Manager comptabilise les périphériques associés au profil authentifié comme étant admissibles pour le segment.
 
 <br> 
 
-## Trait Frequency, Device Graphs, and Profile Merge Rules {#trait-freq-device-rules}
+## Fréquence des caractéristiques, graphiques de périphériques et règles de fusion de profils {#trait-freq-device-rules}
 
-**Comment[!DNL Audience Manager]calculer la fréquence de caractéristiques avec un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
+**Comment[!DNL Audience Manager]calcule-t-on la fréquence des caractéristiques avec un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
 
-La fréquence de caractéristiques est définie par la somme du nombre de qualifications pour une caractéristique spécifique sur plusieurs périphériques. Pour vous aider à comprendre ce problème, observez le cas d'utilisation suivant.
+La fréquence des caractéristiques est définie par la somme du nombre de qualifications pour une caractéristique spécifique sur plusieurs périphériques. Pour vous aider à comprendre ce problème, examinez le cas d’utilisation suivant.
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
@@ -162,39 +162,39 @@ La fréquence de caractéristiques est définie par la somme du nombre de qualif
    <td colname="col1"> <p> <b>Conditions</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_52EA0F142E3F488CAAC7CF541E7F3472"> 
-      <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Le périphérique A et le périphérique B sont liés par un graphique de périphérique. </li> 
-      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">You have a <span class="wintitle"> Profile Merge Rule</span> that uses a device graph option. </li> 
-      <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Un segment unique (Segment 1) composé d'une caractéristique unique (Caractéristique 1), où Caractéristique 1 a une fréquence de 8. </li> 
+      <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Les périphériques A et B sont reliés par un graphique de périphérique. </li> 
+      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">Vous disposez d’une règle <span class="wintitle"></span> de fusion de profil qui utilise une option de graphique de périphérique. </li> 
+      <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Un segment unique (segment 1) composé d’un trait unique (caractéristique 1), où le trait 1 a une fréquence de 8. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Actions</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> lit et fusionne les profils de périphérique pour le périphérique A et le périphérique B. Voici ce qui suit : </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> lit et fusionne les profils de périphérique pour les périphériques A et B. Voici ce que nous voyons : </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
-      <li id="li_5760BEE513C94152AA307AEE10894718">Le périphérique A est qualifié trois fois pour Caractéristique. Elle a la fréquence 3 pour la caractéristique 1. </li> 
-      <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Le périphérique B est qualifié pour la caractéristique 1 fois. Elle a une fréquence de 5 pour Caractéristique 1. </li> 
+      <li id="li_5760BEE513C94152AA307AEE10894718">Le périphérique A s’est qualifié pour Trait 1 trois fois. Il a une fréquence de 3 pour le trait 1. </li> 
+      <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Le périphérique B a été qualifié pour le Caractéristique 1 cinq fois. Il a une fréquence de 5 pour Trait 1. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Résultats</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> additionne la fréquence de Caractéristique 1 et utilise 8 (3 + 5 = 8) pour déterminer la qualification des segments. Le périphérique A et le périphérique B sont admissibles pour le segment 1 parce qu'il a une fréquence de 8. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> évalue la fréquence du Caractéristique 1 et utilise 8 (3 + 5 = 8) pour décider de la qualification du segment. Le périphérique A et le périphérique B sont admissibles pour le segment 1, car il a une fréquence de 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 <br> 
 
-## Reports, Device Graphs, and Profile Merge Rules {#reports-device-graphs-rules}
+## Rapports, graphiques de périphériques et règles de fusion de profils {#reports-device-graphs-rules}
 
-**Puis-je afficher le nombre de périphériques pouvant être atteints par un[!UICONTROL Profile Merge Rule]graphique utilisant un graphique de périphérique ?**
+**Puis-je voir le nombre de périphériques accessibles par un[!UICONTROL Profile Merge Rule]qui utilise un graphique de périphérique ?**
 
-Oui. Reports return data at the [!UICONTROL Profile Merge Rule] level. Les données du rapport sont mises à jour quotidiennement. Les données sont basées sur les dispositifs affichés dans votre compte et non sur ceux liés par un graphique de périphérique. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md).
+Oui. Les rapports renvoient des données au [!UICONTROL Profile Merge Rule] niveau. Les données du rapport sont mises à jour quotidiennement. Les données sont basées sur les périphériques affichés dans votre compte, et non sur ceux liés par un graphique de périphériques. Voir Mesures des [rapports pour les règles](../features/profile-merge-rules/profile-link-metrics.md)de fusion de profils.
 
 <br> 
 
-**Puis-je voir le nombre de périphériques qualifiés pour un segment spécifique en *temps réel*avec[!UICONTROL Profile Merge Rules]un graphique de périphérique ?**
+**Puis-je voir le nombre de périphériques qualifiés pour un segment spécifique en temps *réel*avec[!UICONTROL Profile Merge Rules]un graphique de périphérique ?**
 
-Oui. La mesure de population en temps réel capture les qualifications des segments pour l'appareil actuel (le périphérique affiché en temps réel) à l'aide des profils de tous les dispositifs liés par un graphique de périphérique.
+Oui. La mesure de population en temps réel capture les qualifications des segments pour le périphérique actuel (le périphérique affiché en temps réel) à l’aide des profils de tous les périphériques liés par un graphique de périphérique.
 
 <table id="table_D37A51E99B314C04A96A084491A5FEC7"> 
  <thead> 
@@ -208,7 +208,7 @@ Oui. La mesure de population en temps réel capture les qualifications des segme
    <td colname="col1"> <p> <b>Conditions</b> </p> </td> 
    <td colname="col2"> <p>Supposons que nous ayons : </p> <p> 
      <ul id="ul_B8B627FBF6A04C0CAE6C8543EA3EA56D"> 
-      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1 basé sur ces caractéristiques et la logique de qualification : Segment 1 = Caractéristique A et Caractéristique B et Caractéristique C. </li> 
+      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Le segment 1 repose sur ces caractéristiques et sur la logique de qualification : Segment 1 = Caractéristique A et Caractéristique B et Caractéristique C. </li> 
       <li id="li_F7D559B3C0CA424DA2C1A0703C1E1717">3 profils de périphérique : Périphérique 1 (périphérique actuel), Périphérique 2 (graphique de périphérique), Périphérique 3 (graphique de périphérique). </li> 
      </ul> </p> </td> 
   </tr> 
@@ -218,15 +218,15 @@ Oui. La mesure de population en temps réel capture les qualifications des segme
      <ul id="ul_E60A5CBBEC484BB78F2A4AB0D6306019"> 
       <li id="li_26D7300BA0164426949FA43A60AC7023">Périphérique 1 : Caractéristique A </li> 
       <li id="li_B0C3D7ACC7754ED985974317362AFF85">Périphérique 2 : Caractéristique B </li> 
-      <li id="li_32C32DD0E87F461AA2C7FB77FB35C6DA">Périphérique 3 : Caractéristique C </li> 
+      <li id="li_32C32DD0E87F461AA2C7FB77FB35C6DA">Périphérique 3 : Trait C </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Résultats</b> </p> </td> 
-   <td colname="col2"> <p>Étant donné les éléments précédents, la population totale du segment 1 est une. </p> <p>In this case, the <span class="wintitle"> Profile Merge Rule</span> uses all the devices and their traits to decide segment qualification. Cela signifie que les périphériques 1, 2 et 3 sont admissibles pour le segment 1 mais, comme indiqué ci-dessus, seul le périphérique 1 est inclus dans la population de segments en temps réel. Cela est dû au fait que : </p> <p> 
+   <td colname="col2"> <p>Compte tenu des éléments précédents, la population totale du segment 1 est de un. </p> <p>Dans ce cas, la règle <span class="wintitle"> de fusion des</span> profils utilise tous les périphériques et leurs caractéristiques pour décider de la qualification des segments. Cela signifie que les périphériques 1, 2 et 3 sont admissibles pour le segment 1, mais, comme nous l’avons vu plus haut, seul le périphérique 1 est inclus dans la population de segments en temps réel. Ceci est dû au fait que : </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 is the current device interacting with the Audience Manager <span class="wintitle"> Data Collection Servers</span> (<span class="wintitle"> DCS</span>) in real-time. </li> 
-      <li id="li_57165E96289F4E20BF2244BC68B90BA3">Les périphériques 2 et 3 sont associés à Device 1 par un graphique de périphérique, mais ils n'interagissent pas avec le serveur de collecte de données en même temps que le périphérique 1. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Le périphérique 1 est le périphérique en cours qui interagit avec les serveurs <span class="wintitle"> de collecte de données d’Audience Manager (</span> DCS<span class="wintitle"></span>) en temps réel. </li> 
+      <li id="li_57165E96289F4E20BF2244BC68B90BA3">Les périphériques 2 et 3 sont associés au périphérique 1 par un graphique de périphérique, mais ils n’interagissent pas avec le serveur de collecte de données en même temps que le périphérique 1. </li> 
      </ul> </p> <p>Par conséquent, les périphériques 2 et 3 ne sont pas inclus dans la mesure de population de segments en temps réel. </p> </td> 
   </tr> 
  </tbody> 
@@ -234,9 +234,9 @@ Oui. La mesure de population en temps réel capture les qualifications des segme
 
 <br> 
 
-**Puis-je voir le nombre total de périphériques qualifiés pour un segment spécifique avec[!UICONTROL Profile Merge Rule]un graphique de périphérique ?**
+**Puis-je voir le nombre total de périphériques qualifiés pour un segment spécifique avec un graphique[!UICONTROL Profile Merge Rule]utilisant un périphérique ?**
 
-Oui. La mesure totale de population de segments inclut les périphériques supplémentaires qui sont qualifiés pour un segment en fonction des connexions issues d'un graphique de périphérique.
+Oui. La mesure de population de segments totale inclut les périphériques supplémentaires qui se sont qualifiés pour un segment en fonction des connexions à partir d’un graphique de périphériques.
 
 <table id="table_932E61B1D4374DD58F673C3B35C365EB"> 
  <thead> 
@@ -250,7 +250,7 @@ Oui. La mesure totale de population de segments inclut les périphériques suppl
    <td colname="col1"> <p> <b>Conditions</b> </p> </td> 
    <td colname="col2"> <p>Supposons que nous ayons : </p> <p> 
      <ul id="ul_DC0AC0F79323451C8C2480E4A85AE2EB"> 
-      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1 basé sur ces caractéristiques et la logique de qualification : Segment 1 = Caractéristique A et Caractéristique B et Caractéristique C. </li> 
+      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Le segment 1 repose sur ces caractéristiques et sur la logique de qualification : Segment 1 = Caractéristique A et Caractéristique B et Caractéristique C. </li> 
       <li id="li_6628727DDD0644BF8F5B6A8A9FA71E67">3 profils de périphérique : Périphérique 1 (périphérique actuel), Périphérique 2 (graphique de périphérique), Périphérique 3 (graphique de périphérique). </li> 
      </ul> </p> </td> 
   </tr> 
@@ -260,23 +260,23 @@ Oui. La mesure totale de population de segments inclut les périphériques suppl
      <ul id="ul_FE16B1639D2541009110E77A605D2CE0"> 
       <li id="li_25959C3822384CFAB8B18D3CD80A30DD">Périphérique 1 : Caractéristique A </li> 
       <li id="li_CDAC38F4CF3A4BEDA49A92BAEC48583E">Périphérique 2 : Caractéristique B </li> 
-      <li id="li_6063A91C482E48FD9FC5C00600B05E31">Périphérique 3 : Caractéristique C </li> 
+      <li id="li_6063A91C482E48FD9FC5C00600B05E31">Périphérique 3 : Trait C </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Résultats</b> </p> </td> 
-   <td colname="col2"> <p>Selon les éléments précédents, la population totale pour Segment 1 est trois (3). </p> <p>In this case, the <span class="wintitle"> Profile Merge Rule</span> uses all the devices and their traits to decide segment qualification. Cela signifie que les périphériques 1, 2 et 3 sont admissibles pour le segment 1 et que les trois sont inclus dans la population totale. </p> </td> 
+   <td colname="col2"> <p>Compte tenu des éléments précédents, la population totale du segment 1 est de trois (3). </p> <p>Dans ce cas, la règle <span class="wintitle"> de fusion des</span> profils utilise tous les périphériques et leurs caractéristiques pour décider de la qualification des segments. Cela signifie que les périphériques 1, 2 et 3 sont admissibles au segment 1 et que les trois sont inclus dans la population totale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 <br> 
 
-**Les périphériques qui remplissent les critères d'un segment utilisent-ils[!UICONTROL Profile Merge Rule]un graphique de périphérique inclus dans[!UICONTROL Interactive]les rapports,[!UICONTROL Overlap]rapports et[!UICONTROL Audience Optimization]rapports ?**
+**Les périphériques qui remplissent les critères d’un segment avec un graphique[!UICONTROL Profile Merge Rule]utilisant un périphérique inclus dans les[!UICONTROL Interactive]rapports,[!UICONTROL Overlap]rapports et[!UICONTROL Audience Optimization]rapports ?**
 
 Non
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Profile Link](../features/profile-merge-rules/merge-rules-overview.md)
 
