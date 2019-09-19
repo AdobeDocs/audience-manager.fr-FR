@@ -1,41 +1,41 @@
 ---
-description: Le rapport Portée utilisateur unique renvoie les données dans un graphique à bulles. Chaque bulle est dimensionnée proportionnellement au nombre d'utilisateurs uniques pour les unités d'annonce sélectionnées. Une bulle plus grande indique une plus grande portée qu'une bulle plus petite. Le rapport Portée utilisateur unique vous aide à trouver l'unité publicitaire qui fournit la portée la plus large à vos utilisateurs ciblés.
-seo-description: Le rapport Portée utilisateur unique renvoie les données dans un graphique à bulles. Chaque bulle est dimensionnée proportionnellement au nombre d'utilisateurs uniques pour les unités d'annonce sélectionnées. Une bulle plus grande indique une plus grande portée qu'une bulle plus petite. Le rapport Portée utilisateur unique vous aide à trouver l'unité publicitaire qui fournit la portée la plus large à vos utilisateurs ciblés.
-seo-title: Portée de l'utilisateur unique
+description: Le rapport Portée de l’utilisateur unique renvoie les données dans un graphique à bulles. La taille de chaque bulle est proportionnelle au nombre d’utilisateurs uniques pour les unités publicitaires sélectionnées. Une bulle plus importante indique une plus grande portée qu’une bulle plus petite. Le rapport Portée de l’utilisateur unique vous aide à trouver l’unité publicitaire qui offre la portée la plus large contre vos utilisateurs ciblés.
+seo-description: Le rapport Portée de l’utilisateur unique renvoie les données dans un graphique à bulles. La taille de chaque bulle est proportionnelle au nombre d’utilisateurs uniques pour les unités publicitaires sélectionnées. Une bulle plus importante indique une plus grande portée qu’une bulle plus petite. Le rapport Portée de l’utilisateur unique vous aide à trouver l’unité publicitaire qui offre la portée la plus large contre vos utilisateurs ciblés.
+seo-title: ' Portée de l’utilisateur unique'
 solution: Audience Manager
-title: Portée de l'utilisateur unique
-uuid: 64 e 75 fad-f 4 cb -4 d 47-a 162-34 e 663 f 3966 f
+title: ' Portée de l’utilisateur unique'
+uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
 translation-type: tm+mt
 source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
 
 ---
 
 
-# Unique User Reach{#unique-user-reach}
+#  Portée de l’utilisateur unique{#unique-user-reach}
 
-Le rapport Portée utilisateur unique renvoie les données dans un graphique à bulles. Chaque bulle est dimensionnée proportionnellement au nombre d'utilisateurs uniques pour les unités d'annonce sélectionnées. Une bulle plus grande indique une plus grande portée qu'une bulle plus petite. Le rapport Portée utilisateur unique vous aide à trouver l'unité publicitaire qui fournit la portée la plus large à vos utilisateurs ciblés.
+Le rapport Portée de l’utilisateur unique renvoie les données dans un graphique à bulles. La taille de chaque bulle est proportionnelle au nombre d’utilisateurs uniques pour les unités publicitaires sélectionnées. Une bulle plus importante indique une plus grande portée qu’une bulle plus petite. Le rapport Portée de l’utilisateur unique vous aide à trouver l’unité publicitaire qui offre la portée la plus large contre vos utilisateurs ciblés.
 
 ## Cas d’utilisation {#use-cases}
 
-With the [!UICONTROL Unique User Reach] report, you can identify the properties in your portfolio that attract a high volume of unique users.
+Le [!UICONTROL Unique User Reach] rapport vous permet d'identifier les propriétés de votre portefeuille qui attirent un grand nombre d'utilisateurs uniques.
 
-## Using the Unique Reach Report {#using-the-report}
+## Utilisation du rapport Portée unique {#using-the-report}
 
-Use the **[!UICONTROL Dimension Value]** box to select the ad units you want to display in the report. Click **[!UICONTROL All]** to display all your properties in the bubble chart.
+Utilisez la **[!UICONTROL Dimension Value]** zone pour sélectionner les unités publicitaires à afficher dans le rapport. Cliquez sur **[!UICONTROL All]** pour afficher toutes vos propriétés dans le graphique à bulles.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range.
+Utilisez les commandes **Plage** de jour et **Date jusqu’au bout** pour ajuster la plage de retour arrière.
 
-## Interpreting the Results {#interpreting-results}
+## Interprétation des résultats {#interpreting-results}
 
 **Exemple de rapport**
 
-Your [!UICONTROL Unique User Reach] report could look similar to the one below. Dans le rapport, cliquez sur une bulle pour afficher les données sous-jacentes. Voir descriptions pour obtenir des informations supplémentaires dans le tableau ci-dessous.
+Votre [!UICONTROL Unique User Reach] rapport pourrait ressembler à celui ci-dessous. Dans votre rapport, cliquez sur une bulle pour afficher les données sous-jacentes. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Élément | Description |
 |--- |--- |
 | Valeur de dimension | Nom de la propriété web. |
-| Type de dimension | Type de dimension de l'éditeur. Actuellement, nous ne prenons en charge que les unités publicitaires comme type de dimension. |
-| Impressions | nombre d'impressions diffusées pour votre propriété web dans la plage de recherche indiquée. |
-| Portée unique | nombre unique d'utilisateurs atteints par les impressions sur vos propriétés Web. |
+| Type de dimension | Type de dimension d’éditeur. Actuellement, seules les unités publicitaires sont prises en charge en tant que type de dimension. |
+| Impressions | Nombre d’impressions qui ont été diffusées pour votre propriété Web au cours de la période d’attente spécifiée. |
+| Portée unique | nombre unique d’utilisateurs qui ont été atteints par les impressions sur vos propriétés Web. |
