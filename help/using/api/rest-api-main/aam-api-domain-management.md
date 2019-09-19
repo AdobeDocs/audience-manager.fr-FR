@@ -1,25 +1,25 @@
 ---
-description: Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines sur lesquels vous souhaitez envoyer des données (pour les destinations de cookie uniquement).
-seo-description: Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines sur lesquels vous souhaitez envoyer des données (pour les destinations de cookie uniquement).
+description: Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
+seo-description: Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
 seo-title: Méthodes de l'API Gestion des domaines
 solution: Audience Manager
 title: Méthodes de l'API Gestion des domaines
-uuid: f 2 f 08 bc 5-ea 42-4171-9 a 43-0 b 20976 f 0 cb 0
+uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Domain Management API Methods {#domain-management-api-methods}
+# Méthodes de l'API Gestion des domaines {#domain-management-api-methods}
 
-Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines sur lesquels vous souhaitez envoyer des données (pour les destinations de cookie uniquement).
+Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
 
 <!-- c_partner_site.xml -->
 
 ## Create a New Domain {#create-new-domain}
 
-`POST` Méthode qui permet de créer un domaine pour (destinations de cookie uniquement).
+Méthode `POST` permettant de créer un domaine pour (destinations de cookies uniquement).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -37,7 +37,7 @@ Méthodes de gestion des domaines qui vous permettent de créer et de gérer les
 
 ### Réponse
 
-A successful response returns `201 created` and the partner site, including its unique ID.
+Une réponse réussie renvoie `201 created` et le site partenaire, y compris son identifiant unique.
 
 ```
 {
@@ -47,9 +47,9 @@ A successful response returns `201 created` and the partner site, including its 
 }
 ```
 
-## Delete a Domain {#delete-domain}
+## Suppression d’un domaine {#delete-domain}
 
-`DELETE` Méthode qui permet de supprimer un domaine (pour les destinations de cookie uniquement).
+Méthode `DELETE` permettant de supprimer un domaine (pour les destinations de cookies uniquement).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -59,11 +59,11 @@ A successful response returns `201 created` and the partner site, including its 
 
 ### Réponse
 
-A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found.
+Une réponse réussie revient `204 no content`. Renvoie `404 not found` si le site partenaire est introuvable.
 
-## Return Properties for a Domain {#return-props-domain}
+## Propriétés de retour pour un domaine {#return-props-domain}
 
-`GET` Méthode qui renvoie des détails sur le domaine spécifié (pour les destinations de cookie uniquement).
+Méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les destinations de cookies uniquement).
 
 <!-- r_get_partner_site.xml -->
 
@@ -73,7 +73,7 @@ A successful response returns `204 no content`. Returns `404 not found` if the p
 
 ### Réponse
 
-A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
+Une réponse réussie renvoie `200 OK` et des données comme illustré dans l’exemple ci-dessous. Renvoie `404 Not found` si l’identifiant ou le partenaire du site est introuvable.
 
 ```
 {
@@ -83,9 +83,9 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 }
 ```
 
-## Return Properties for all Domains {#return-props-all-domains}
+## Propriétés de retour pour tous les domaines {#return-props-all-domains}
 
-`GET` Méthode qui renvoie des informations sur tous les domaines (pour les destinations de cookie uniquement).
+Méthode `GET` qui renvoie des informations sur tous vos domaines (pour les destinations de cookies uniquement).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -95,7 +95,7 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 
 ### Paramètres de requête facultatifs
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] des méthodes qui renvoient *toutes les* propriétés d’un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à la [!DNL API]. Voir Paramètres [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)facultatifs.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -110,27 +110,27 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
    <td colname="col2"> Renvoie les résultats par numéro de page. La numérotation commence à 0. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code> Pagesize</code> </td> 
-   <td colname="col2"> Définit le nombre de résultats de réponse renvoyés par la requête (10 est par défaut). </td>
+   <td colname="col1"><code> pageSize</code> </td> 
+   <td colname="col2"> Définit le nombre de résultats de réponse renvoyés par la requête (10 est la valeur par défaut). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Sortby</code> </td> 
+   <td colname="col1"><code> sortBy</code> </td> 
    <td colname="col2"> Trie et renvoie les résultats selon la propriété JSON spécifiée. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> décroissant</code> </td>
-   <td colname="col2"> Trie et renvoie les résultats par ordre décroissant. L'ordre croissant est par défaut. </td>
+   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. L’option Croissant est utilisée par défaut. </td>
   </tr>
   <tr valign="top">
-   <td colname="col1"><code> recherche</code> </td>
-   <td colname="col2">Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Par exemple, supposons que vous souhaitiez obtenir des résultats pour tous les modèles qui contiennent le mot « Test » dans l'un des champs de valeur de cet élément. Voici un exemple de demande : <p><code> ' GET ''https://api.demdex.com/v1/models/?search=Test '</code>. </p> <p>Vous pouvez rechercher une valeur renvoyée par une méthode « get all ». </p> </td>
+   <td colname="col1"><code> rechercher</code> </td>
+   <td colname="col2">Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez rechercher des résultats pour tous les modèles qui contiennent le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de requête peut ressembler à ceci : <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Vous pouvez rechercher n’importe quelle valeur renvoyée par une méthode "get all". </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Réponse
 
-A successful response returns `200 OK` and data in an array as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
+Une réponse réussie renvoie `200 OK` et des données dans un tableau, comme le montre l'exemple ci-dessous. Renvoie `404 Not found` si l’identifiant ou le partenaire du site est introuvable.
 
 ```
 [
