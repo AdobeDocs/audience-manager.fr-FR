@@ -1,28 +1,28 @@
 ---
-description: Les utilisateurs non administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
-seo-description: Les utilisateurs non administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
+description: Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
+seo-description: Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
 seo-title: Modifier les paramètres de votre compte
 solution: Audience Manager
 title: Modifier les paramètres de votre compte
 topic: API DIL
-uuid: 5 cc 04104-65 db -4 d 48-ba 13-3 f 344 e 03 d 6 df
+uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Edit Your Account Settings {#edit-your-account-settings}
+# Modifier les paramètres de votre compte {#edit-your-account-settings}
 
-Les utilisateurs non administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
+Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
 
 <!-- t_edit_account_settings.xml -->
 
-Admin users can create users and add them to groups for permission purposes, as explained in [Create Users](../../features/administration/administration-overview.md#create-users) and [Create a Group](../../features/administration/administration-overview.md#create-group).
+Les administrateurs peuvent créer des utilisateurs et les ajouter à des groupes à des fins d’autorisation, comme expliqué dans [Création d’utilisateurs](../../features/administration/administration-overview.md#create-users) et [Création d’un groupe](../../features/administration/administration-overview.md#create-group).
 
-1. In the Audience Manager header, click ![](assets/icon_profile.png).
-1. Click **[!UICONTROL Account Settings]**, then click **[!UICONTROL Edit]** to display the [!UICONTROL My Account] page.
-1. In the **[!UICONTROL Email Address]** field, specify your new email address, if necessary. Audience Manager n'envoie pas de notification régulière aux utilisateurs. Les administrateurs d'Audience Manager ont accès aux adresses électroniques des utilisateurs et peuvent manuellement envoyer les utilisateurs par messagerie électronique. Par exemple, si un utilisateur oublie son mot de passe, l'adresse électronique spécifiée dans ce champ est utilisée pour envoyer un mot de passe temporaire et des instructions pour réinitialiser le mot de passe.
-1. Pour réinitialiser votre mot de passe, indiquez votre mot de passe actuel, indiquez le nouveau mot de passe, puis confirmez le nouveau mot de passe.
+1. Dans l’en-tête d’Audience Manager, cliquez sur ![](assets/icon_profile.png).
+1. Cliquez sur **[!UICONTROL Account Settings]**, puis sur **[!UICONTROL Edit]** pour afficher la [!UICONTROL My Account] page.
+1. Dans le **[!UICONTROL Email Address]** champ, indiquez votre nouvelle adresse électronique, le cas échéant. Audience Manager n’envoie pas de notification régulière aux utilisateurs. Les administrateurs d’Audience Manager ont accès aux adresses électroniques des utilisateurs et peuvent envoyer manuellement des courriers électroniques aux utilisateurs selon les besoins. Par exemple, si un utilisateur oublie son mot de passe, l’adresse électronique indiquée dans ce champ est utilisée pour envoyer un mot de passe temporaire et des instructions pour réinitialiser le mot de passe.
+1. Pour réinitialiser votre mot de passe, indiquez le nouveau mot de passe, puis confirmez le nouveau mot de passe.
 See also, [Password Requirements, Locked Accounts, and Forgotten Passwords](../../reference/password-requirements.md).
 1. Cliquez sur **[!UICONTROL Save]**.
