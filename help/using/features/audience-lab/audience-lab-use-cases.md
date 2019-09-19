@@ -1,58 +1,58 @@
 ---
-description: Audience Lab active plusieurs cas d'utilisation en vous permettant d'utiliser des segments de base pour la création de groupes de test. Vous pouvez diviser les groupes de tests en plusieurs segments de test exclusifs, les mapper à différentes destinations, puis déterminer quels segments sont les plus efficaces pour générer des conversions.
-seo-description: Audience Lab active plusieurs cas d'utilisation en vous permettant d'utiliser des segments de base pour la création de groupes de test. Vous pouvez diviser les groupes de tests en plusieurs segments de test exclusifs, les mapper à différentes destinations, puis déterminer quels segments sont les plus efficaces pour générer des conversions.
-seo-title: Cas d'utilisation d'Audience Lab
+description: Audience Lab permet d’utiliser plusieurs cas d’utilisation en vous permettant d’utiliser des segments de base pour créer des groupes de tests. Vous pouvez diviser les groupes de test en plusieurs segments de test mutuellement exclusifs, les mapper à différentes destinations, puis déterminer les segments les plus efficaces pour générer des conversions.
+seo-description: Audience Lab permet d’utiliser plusieurs cas d’utilisation en vous permettant d’utiliser des segments de base pour créer des groupes de tests. Vous pouvez diviser les groupes de test en plusieurs segments de test mutuellement exclusifs, les mapper à différentes destinations, puis déterminer les segments les plus efficaces pour générer des conversions.
+seo-title: Cas d’utilisation d’Audience Lab
 solution: Audience Manager
-title: Cas d'utilisation d'Audience Lab
+title: Cas d’utilisation d’Audience Lab
 topic: API DIL
-uuid: 727 bec 8 a-df 9 a -40 cc-b 8 a 7-e 1980 d 146 a 84
+uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Lab Use Cases {#audience-lab-use-cases}
+# Cas d’utilisation d’Audience Lab {#audience-lab-use-cases}
 
-[!UICONTROL Audience Lab] active plusieurs cas d'utilisation en vous permettant d'utiliser des segments de base pour la création de groupes de test. Vous pouvez diviser les groupes de tests en plusieurs segments de test exclusifs, les mapper à différentes destinations, puis déterminer quels segments sont les plus efficaces pour générer des conversions.
+[!UICONTROL Audience Lab] permet d’utiliser plusieurs cas d’utilisation en vous permettant d’utiliser des segments de base pour créer des groupes de tests. Vous pouvez diviser les groupes de test en plusieurs segments de test mutuellement exclusifs, les mapper à différentes destinations, puis déterminer les segments les plus efficaces pour générer des conversions.
 
-## Compare Models in Audience Lab {#compare-models}
+## Comparaison de modèles dans Audience Lab {#compare-models}
 
-You can use several different types and sources of models in [!DNL Audience Manager]. [!UICONTROL Audience Lab] offre un moyen facile de comparer les taux de conversion de vos clients à vos modèles actifs.
+Vous pouvez utiliser plusieurs types et sources de modèles différents dans [!DNL Audience Manager]. [!UICONTROL Audience Lab] offre un moyen facile de comparer les taux de conversion de vos clients, entre vos modèles actifs.
 
 <!-- audience-lab-compare-models.xml -->
 
-Dans ce cas d'utilisation, vous comparez différents modèles. You can either use models created via an in-house data warehouse and import them in [!DNL Audience Manager] as [Onboarded Traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or you can use the [Algorithmic Models](../../features/algorithmic-models/understanding-models.md) feature in [!DNL Audience Manager].
+Dans ce cas d’utilisation, vous comparez différents modèles. Vous pouvez soit utiliser des modèles créés via un entrepôt de données interne et les importer sous forme de caractéristiques [!DNL Audience Manager] [intégrées, soit utiliser la fonction Modèles](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) [algorithmiques dans](../../features/algorithmic-models/understanding-models.md) la section [!DNL Audience Manager].
 
-1. Create two models, either in the [Model Builder](../../features/algorithmic-models/create-model.md), or via an outside platform.
-1. Create [algorithmic traits](../../features/traits/create-algorithmic-traits.md) from the algorithmic model or import your own models as onboarded traits.
-1. Créer mutuellement - segments exclusifs de sorte que les utilisateurs des deux modèles ne chevauchent pas :
+1. Créez deux modèles, soit dans le Créateur [de](../../features/algorithmic-models/create-model.md)modèles, soit via une plateforme extérieure.
+1. Créez des caractéristiques [](../../features/traits/create-algorithmic-traits.md) algorithmiques à partir du modèle algorithmique ou importez vos propres modèles sous forme de caractéristiques intégrées.
+1. Créez des segments mutuellement exclusifs afin que les utilisateurs des deux modèles ne se chevauchent pas :
 
-   * Create a *Model 1 Segment* and a *Model 2 Segment*.
-   * Have the segment rule for *Model 1 Segment* be model 1 trait [!DNL AND NOT] model 2 trait, and vice-versa for *Model 2 Segment*.
+   * Créez un segment ** Modèle 1 et un segment ** Modèle 2.
+   * Demandez à la règle de segmentation du segment *du* modèle 1 de correspondre à la caractéristique du [!DNL AND NOT] modèle 2 du modèle 1 et vice versa pour le segment *du* modèle 2.
 
-1. [Créez deux groupes de test de segment](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) dans [!UICONTROL Audience Lab], un avec *Segment 1 Segment* comme ligne de base, l'autre avec *le segment Modèle 2* comme ligne de base.
+1. [Créez deux groupes](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) de tests de segments dans [!UICONTROL Audience Lab], l’un avec le segment *du* modèle 1 comme ligne de base, l’autre avec le segment *du* modèle 2 comme ligne de base.
 
-   * Conservez les variables de la même façon pour les deux groupes de test : même destinations, éléments créatifs, caractéristiques de conversion.
-   * Assurez-vous que les segments de test comportent un nombre d'utilisateurs similaire (par exemple, 1,6 million et 1,8 million d'utilisateurs à droite, 1,6 million et 16 millions).
-   * Réservez un segment de contrôle dans chaque groupe de test de segment de test. Ainsi, vous pouvez définir une petite partie de chaque segment et ne pas les cibler explicitement dans le test.
+   * Conservez les variables identiques pour les deux groupes de test : mêmes destinations, caractéristiques créatives, caractéristiques de conversion.
+   * Assurez-vous que les segments de test ont un nombre similaire d’utilisateurs (par exemple, 1,6 million et 1,8 million sont corrects, 1,6 million et 16 millions ne le sont pas).
+   * Réservez un segment de contrôle dans chaque groupe de tests de segment de test. Vous pouvez ainsi réserver une petite partie de chaque segment et ne pas les cibler explicitement dans le test.
 
 1. Examinez les résultats :
 
-   * The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md) will show the number of conversions each model is driving. Pour les campagnes basées sur les conversions, le segment de test qui génère le plus de conversions indique le modèle qui est le plus performant.
-   * Comme vous avez des segments de contrôle, vous pouvez également évaluer la manière dont le modèle a eu lieu par rapport au ciblage standard.  » » Vous testez simplement un modèle par rapport à l'autre, mais testez la question « ce modèle a-t-il été plus performant que les pratiques normales ? ».  » »
+   * La vue [des rapports](../../features/audience-lab/audience-lab-reporting-view.md) Audience Lab indique le nombre de conversions générées par chaque modèle. Pour les campagnes basées sur la conversion, le segment de test qui génère le plus de conversions indique le modèle le plus performant.
+   * Du fait que vous disposez de segments de contrôle, vous pouvez également évaluer l’efficacité du modèle par rapport au "ciblage standard". Vous testez non seulement un modèle par rapport à un autre, mais vous testez la question de "ce modèle a-t-il fait mieux que les pratiques normales ?"
 
-## Testing Creatives Across Destinations {#testing-creatives}
+## Test de créatifs sur plusieurs destinations {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 
-Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is driving across different destinations. Ce cas d'utilisation vous permet également de mesurer les conversions de la création par rapport naturellement à des conversions survenant naturellement.
+Utilisez cette option [!UICONTROL Audience Lab] pour mesurer le nombre de conversions qu’un créatif effectue sur différentes destinations. Ce cas d’utilisation vous permet également de mesurer les conversions du créatif par rapport aux conversions naturelles.
 
-1. [Créez un groupe de test de segment](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups), en sélectionnant le segment que vous souhaitez tester comme segment de base.
-1. Divisez le segment de base en segments de test et contrôlez les segments.
-1. Faites correspondre les segments de test aux différentes destinations à tester.
-1. Le segment de contrôle peut être conservé et non associé à une destination. Le segment de contrôle ne doit pas être ciblé par le créatif de test pour définir une ligne de base des résultats pour les conversions naturellement survenant.
+1. [Créez un groupe](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)de test de segment, en sélectionnant le segment par rapport auquel vous souhaitez tester le créatif comme segment de base.
+1. Fractionner le segment de base en segments de test et de contrôle.
+1. Faites correspondre les segments de test aux différentes destinations que vous souhaitez tester.
+1. Le segment de contrôle peut être conservé et non mappé à une destination. Le segment de contrôle ne doit pas être ciblé par l’élément créatif du test pour définir une ligne de base des résultats pour les conversions naturelles.
 1. Spécifiez une date de début et une date de fin pour le test.
-1. Configurez le segment et le créatif des destinations.
-1. The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md) will show the number of conversions the creative is driving across the destinations.
-1. Comme vous avez créé un segment de contrôle, vous pouvez également évaluer la manière dont le créatif a été comparé naturellement à des conversions survenant naturellement. Vous testez la question : « Ce créatif générait-il un taux de conversion plus élevé que les pratiques normales ?  » »
+1. Configurez le segment et le créatif dans les destinations.
+1. La vue [des rapports](../../features/audience-lab/audience-lab-reporting-view.md) Audience Lab indique le nombre de conversions effectuées par le créatif sur les destinations.
+1. Comme vous avez créé un segment de contrôle, vous pouvez également évaluer comment le créatif s’est comporté face aux conversions naturelles. Vous testez la question : "Ce créatif a-t-il généré un taux de conversion plus élevé que les pratiques normales ?"
