@@ -1,24 +1,24 @@
 ---
-description: La section de création de rapports du groupe de test renvoie des informations sur les conversions des groupes de test, ce qui permet une comparaison facile de l'efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
-seo-description: La section de création de rapports du groupe de test renvoie des informations sur les conversions des groupes de test, ce qui permet une comparaison facile de l'efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
-seo-title: Création de rapports de groupe de test
+description: La section de rapport sur les groupes de test renvoie des informations sur les conversions des groupes de test, ce qui permet de comparer facilement l'efficacité des segments de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
+seo-description: La section de rapport sur les groupes de test renvoie des informations sur les conversions des groupes de test, ce qui permet de comparer facilement l'efficacité des segments de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
+seo-title: Test des rapports de groupe
 solution: Audience Manager
-title: Création de rapports de groupe de test
+title: Test des rapports de groupe
 topic: API DIL
-uuid: 21303 c 3 e -4 c 05-4728-a 759-96 c 2 a 1 d 99 b 69
+uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Test Group Reporting {#test-group-reporting}
+# Test des rapports de groupe {#test-group-reporting}
 
-La section de création de rapports du groupe de test renvoie des informations sur les conversions des groupes de test, ce qui permet une comparaison facile de l'efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
+La section de rapport sur les groupes de test renvoie des informations sur les conversions des groupes de test, ce qui permet de comparer facilement l'efficacité des segments de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
 
-[!UICONTROL Audience Lab] renvoie des informations de rapport détaillées pour les segments de test que vous avez créés et vous permet d'enregistrer les données de rapport sous forme [!DNL CSV] de fichiers. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] renvoie des informations de rapport détaillées pour les segments de test que vous avez créés et vous permet d’enregistrer les données de rapport sous forme de [!DNL CSV] fichiers. Vous pouvez choisir entre **[!UICONTROL Aggregate Reporting]** et **[!UICONTROL Trend Reporting]**.
 
-**[!UICONTROL Aggregate Reporting]** renvoie les chiffres absolus des segments de test. **[!UICONTROL Trend Reporting]** renvoie un graphique de la tendance *sur une période spécifique*. Quatre onglets permettent de personnaliser les rapports :
+**[!UICONTROL Aggregate Reporting]** renvoie les nombres absolus pour vos segments de test. **[!UICONTROL Trend Reporting]** renvoie un graphique de la tendance *sur une période* spécifique. Quatre onglets vous permettent de personnaliser les rapports :
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -30,35 +30,35 @@ La section de création de rapports du groupe de test renvoie des informations s
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Taux de conversion de population</span></b> </p> </td> 
-   <td colname="col2"> <p>Renvoie le pourcentage des périphériques appartenant à un segment de test spécifique qui ont été convertis. </p> </td> 
+   <td colname="col2"> <p>Renvoie le pourcentage de périphériques appartenant à un segment de test particulier, qui ont été convertis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Convertisseurs</span></b> </p> </td> 
-   <td colname="col2"> <p>Renvoie le nombre de périphériques qui ont affiché la ou les caractéristiques de conversion sélectionnées dans les groupes de test. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Regardez cette vidéo</a> pour apprendre à créer des caractéristiques de conversion. </p> </td> 
+   <td colname="col2"> <p>Renvoie le nombre de périphériques qui ont présenté les caractéristiques de conversion sélectionnées dans les groupes de test. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Regardez cette vidéo</a> pour savoir comment créer des caractéristiques de conversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Conversions totales</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Total des conversions</span></b> </p> </td> 
    <td colname="col2"> <p>Renvoie le nombre de conversions générées par les segments de test. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Tester les populations de segments</span></b> </p> </td> 
-   <td colname="col2"> <p>Renvoie le nombre de périphériques appartenant aux segments de test. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md"> Reporting FAQ</a> . </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Test des populations de segments</span></b> </p> </td> 
+   <td colname="col2"> <p>Renvoie le nombre de périphériques appartenant aux segments de test. Basculer entre la population <b><span class="uicontrol"></span></b> totale et la population <b><span class="uicontrol"></span></b>en temps réel. La différence est expliquée dans la FAQ <a href="../../faq/faq-reporting.md"> sur les</a> rapports . </p> </td>
   </tr>
  </tbody>
 </table>
 
-Vous pouvez sélectionner une caractéristique de conversion spécifique pour laquelle générer le rapport ou sélectionner toutes les caractéristiques combinées. You can define a date range for which the information should be returned and export the report as a [!DNL CSV] file.
+Vous pouvez sélectionner une caractéristique de conversion spécifique pour laquelle générer le rapport ou sélectionner toutes les caractéristiques combinées. Vous pouvez définir une plage de dates pour laquelle les informations doivent être renvoyées et exporter le rapport dans un [!DNL CSV] fichier.
 
 >[!NOTE]
 >
->* La création de rapports pour un groupe de test remplit le jour suivant sa date de début.
->* Une conversion est comptée uniquement pour un périphérique après la date de début d'un test et une fois que le périphérique a été ajouté à un segment de test. Si une conversion se produit pour ce périphérique avant d'être affectée à un groupe de test, la conversion n'est pas comptabilisée.
+>* La création de rapports pour un groupe de test est renseignée le lendemain de sa date de début.
+>* Une conversion n’est comptabilisée pour un périphérique qu’après la date de début d’un test et après l’ajout du périphérique à un segment de test. Si une conversion survient pour ce périphérique avant qu’un groupe de test ne lui soit affecté, la conversion ne sera pas comptabilisée.
 
 
-A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
+Un **[!UICONTROL Aggregate Reporting]** graphique renvoyé peut se présenter comme suit :
 
 ![](assets/aggregate-reporting.PNG)
 
-A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
+Un **[!UICONTROL Trend Reporting]** graphique renvoyé peut ressembler à celui ci-dessous. Cochez **[!UICONTROL Normalized]** la case si vous souhaitez ignorer les chiffres absolus et vous concentrer simplement sur les tendances des segments de test.
 
 ![](assets/trend-reporting.PNG)
