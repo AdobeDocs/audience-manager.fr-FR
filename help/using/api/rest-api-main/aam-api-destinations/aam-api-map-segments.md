@@ -1,36 +1,36 @@
 ---
-description: Faites correspondre les segments aux destinations avec ces méthodes d'API restful.
-seo-description: Faites correspondre les segments aux destinations avec ces méthodes d'API restful.
-seo-title: Mapper les segments à une destination
+description: Faites correspondre les segments aux destinations avec ces méthodes d’API RESTful.
+seo-description: Faites correspondre les segments aux destinations avec ces méthodes d’API RESTful.
+seo-title: Mapper des segments à une destination
 solution: Audience Manager
-title: Mapper les segments à une destination
-uuid: 35358 ace -3082-4 e 86-a 6 eb-d 77281 af 6 d 7 e
+title: Mapper des segments à une destination
+uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
 
 
-# Map Segments to a Destination {#map-segments-to-a-destination}
+# Mapper des segments à une destination {#map-segments-to-a-destination}
 
-Map segments to destinations with these [!DNL RESTful API] methods.
+Faites correspondre les segments aux destinations à l’aide de ces [!DNL RESTful API] méthodes.
 
 <!-- c_api_map_seg_dest.xml -->
 
 ## Types de destination pris en charge : URL et cookie uniquement
 
-The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. Utilisez plutôt l'interface utilisateur. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+Les `POST` méthodes disponibles vous permettent de mapper des segments à [!UICONTROL URL] et [!UICONTROL cookie destinations] uniquement. Actuellement, vous ne pouvez pas mapper les segments à [!UICONTROL server-to-server destinations] l’aide de ces [!DNL REST API] méthodes. Utilisez plutôt l’interface utilisateur. Toutefois, les `GET` méthodes de destination associées vous permettent de récupérer des informations sur [!UICONTROL server-to-server destinations] les éléments créés dans l’interface utilisateur.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Destinations](../../../features/destinations/destinations.md#destination-api-methods)
+>* [Destinations](../../../features/destinations/destinations.md)
 >* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
 
 
-## Map a Segment to a Non-Serialized URL Destination {#map-segment-non-serial}
+## Mappage d’un segment à une destination URL non sérialisée {#map-segment-non-serial}
 
-`POST` Méthode qui vous permet de mapper un segment à [!UICONTROL URL] une destination non planifiée.
+Méthode `POST` permettant de mapper un segment à une destination non série [!UICONTROL URL] .
 
 <!-- r_map_noserial_url.xml -->
 
@@ -78,9 +78,9 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
 }
 ```
 
-## Map a Segment to a Serialized URL Destination {#map-segment-serial}
+## Mappage d’un segment à une destination URL sérialisée {#map-segment-serial}
 
-`POST` Méthode qui vous permet de mapper un segment à [!UICONTROL URL] une destination sérialisée.
+Méthode `POST` permettant de mapper un segment à une [!UICONTROL URL] destination sérialisée.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -90,7 +90,7 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ### Exemple de requête
 
-In the request, the `traitAlias` corresponds to the key in a key-value pair. Toutes les valeurs de requête sont requises, sauf indication contraire.
+Dans la requête, le `traitAlias` correspond à la clé dans une paire clé-valeur. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 {
@@ -128,9 +128,9 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. Tou
 }
 ```
 
-## Map a Segment to a Cookie Destination: Single-Key, Non-Serialized {#map-segment-cookie-noserial}
+## Faites correspondre un segment à une destination de cookie : Clé unique, Non sérialisée {#map-segment-cookie-noserial}
 
-`POST` Méthode qui vous permet de mapper un segment à une [!UICONTROL cookie] destination unique et non sérialisée.
+Méthode `POST` [!UICONTROL cookie] permettant de mapper un segment à une destination non sérialisée à clé unique.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -140,7 +140,7 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. Tou
 
 ### Exemple de requête
 
-In the request, the `valueAlias` corresponds to the value in a key-value pair. Toutes les valeurs de requête sont requises, sauf indication contraire.
+Dans la requête, le `valueAlias` correspond à la valeur dans une paire clé-valeur. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 {
@@ -175,9 +175,9 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. T
 }
 ```
 
-## Map a Segment to a Cookie Destination: Multi-Key, Non-Serialized {#map-segment-cookie-multi-noserial}
+## Faites correspondre un segment à une destination de cookie : Multi-Clé, Non Sérialisé {#map-segment-cookie-multi-noserial}
 
-`POST` Méthode qui vous permet de mapper un segment à une [!UICONTROL cookie] destination multi-clé et non sérialisée.
+Méthode `POST` [!UICONTROL cookie] qui vous permet de mapper un segment à une destination non sérialisée à plusieurs clés.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -187,7 +187,7 @@ In the request, the `valueAlias` corresponds to the value in a key-value pair. T
 
 ### Exemple de requête
 
-In the request, the `traitAlias` and `valueAlias` set the key and the value respectively in a key-value pair. Toutes les valeurs de requête sont requises, sauf indication contraire.
+Dans la requête, définissez respectivement la clé `traitAlias` et `valueAlias` la valeur dans une paire clé-valeur. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 {
@@ -223,9 +223,9 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 }
 ```
 
-## Map a Segment to a Cookie Destination: Multi-Key, Serialized {#map-segment-cookie-multi-serial}
+## Faites correspondre un segment à une destination de cookie : Multi-clé, sérialisé {#map-segment-cookie-multi-serial}
 
-`POST` Méthode qui vous permet de mapper un segment à une [!UICONTROL cookie destination]clé multi-clé.
+Méthode `POST` permettant de mapper un segment à un segment à plusieurs clés, sérialisé [!UICONTROL cookie destination].
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -235,7 +235,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value resp
 
 ### Exemple de requête
 
-In the request, the `traitAlias` and `valueAlias` set the key and the value in a key-value pair. Toutes les valeurs de requête sont requises, sauf indication contraire.
+Dans la requête, définissez la clé `traitAlias` et `valueAlias` la valeur dans une paire clé-valeur. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 {
@@ -271,9 +271,9 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 }
 ```
 
-## Map a Segment to a Server-to-Server Destination {#map-segment-s2s}
+## Association d’un segment à une destination serveur à serveur {#map-segment-s2s}
 
-`POST` Méthode qui vous permet de mapper un segment à une [!UICONTROL server-to-server] destination existante. Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
+Méthode `POST` permettant de mapper un segment à une [!UICONTROL server-to-server] destination existante. Notez toutefois que vous ne pouvez pas créer [!UICONTROL server-to-server] de destinations avec ces [!DNL API] méthodes actuellement disponibles.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -283,7 +283,7 @@ In the request, the `traitAlias` and `valueAlias` set the key and the value in a
 
 ### Exemple de requête
 
-In the request, the `traitAlias` corresponds to the key in a key-value pair. Toutes les valeurs de requête sont requises, sauf indication contraire.
+Dans la requête, le `traitAlias` correspond à la clé dans une paire clé-valeur. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 {
@@ -317,9 +317,9 @@ In the request, the `traitAlias` corresponds to the key in a key-value pair. Tou
 }
 ```
 
-## Bulk Create Destination Mappings {#bulk-create}
+## Mappages de destination de création en masse {#bulk-create}
 
-`POST` Méthode qui permet de transmettre un tableau ou [!UICONTROL cookie] des correspondances [!UICONTROL URL] de destination.
+Méthode `POST` permettant de transmettre un tableau de mappages [!UICONTROL cookie] ou [!UICONTROL URL] de destination.
 
 <!-- r_bulk_create.xml -->
 
@@ -401,9 +401,9 @@ Une réponse réussie renvoie le tableau des correspondances créées.
 ]
 ```
 
-## Add Multiple Segments to a Destination {#add-segments-dest}
+## Ajouter plusieurs segments à une destination {#add-segments-dest}
 
-`POST` Méthode qui vous permet de mapper plusieurs segments à une destination.
+Méthode `POST` permettant de mapper plusieurs segments à une destination.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -434,7 +434,7 @@ Créez plusieurs mappages de destination dans un tableau. Toutes les valeurs de 
 
 ### Réponse
 
-Renvoie un tableau des correspondances créées.
+Renvoie un tableau de mappages créés.
 
 ```
 [
@@ -485,9 +485,9 @@ Renvoie un tableau des correspondances créées.
 ]
 ```
 
-## Update a Destination by Destination ID {#update-dest-data-order}
+## Mettre à jour une destination par ID de destination {#update-dest-data-order}
 
-`PUT` Méthode qui permet de mettre à jour une destination existante.`destinationId`
+Méthode `PUT` permettant de mettre à jour une destination existante par `destinationId`.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -535,9 +535,9 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
 }
 ```
 
-## Update a Mapping to a Destination by Mapping ID {#update-mapping-dest-id}
+## Mettre à jour un mappage vers une destination par ID de mappage {#update-mapping-dest-id}
 
-`PUT` Méthode qui permet de mettre à jour un mappage à une destination par la valeur indiquée `mappingId`.
+Méthode `PUT` qui vous permet de mettre à jour un mappage vers une destination selon la valeur spécifiée `mappingId`.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
