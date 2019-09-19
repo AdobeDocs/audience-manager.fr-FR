@@ -1,11 +1,11 @@
 ---
-description: Pour créer une source de données, accédez à Données d'audience > Sources de données > Ajouter nouveau et suivez les étapes de chaque section décrite ici. Les autorisations d'administrateur sont requises pour créer une source de données.
-keywords: cdf ; flux de données personnalisé
-seo-description: Pour créer une source de données, accédez à Données d'audience > Sources de données > Ajouter nouveau et suivez les étapes de chaque section décrite ici. Les autorisations d'administrateur sont requises pour créer une source de données.
-seo-title: Création d'une source de données
+description: Pour créer une source de données, accédez à Données d’audience > Sources de données > Ajouter nouveau et suivez les étapes décrites ici pour chaque section. Des autorisations d’administrateur sont requises pour créer une source de données.
+keywords: cdf;flux de données personnalisé
+seo-description: Pour créer une source de données, accédez à Données d’audience > Sources de données > Ajouter nouveau et suivez les étapes décrites ici pour chaque section. Des autorisations d’administrateur sont requises pour créer une source de données.
+seo-title: Création d’une source de données
 solution: Audience Manager
-title: Création d'une source de données
-uuid: 4 df 65 bcb -9 ad 9-4 b 72-a 71 e -8918 b 43 d 4850
+title: Création d’une source de données
+uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -16,31 +16,31 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## Create a Data Source {#create-data-source}
 
-To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Les autorisations d'administrateur sont requises pour créer une source de données.
+Pour créer une source de données, accédez à **[!UICONTROL Audience Data > Data Sources > Add New]** et suivez les étapes de chaque section décrite ici. Des autorisations d’administrateur sont requises pour créer une source de données.
 
 <!-- create-datasource.xml -->
 
 >[!TIP]
 >
->See [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options) for descriptions of these different controls.
+>Voir Paramètres de source de [données et Options](../features/datasources-list-and-settings.md#settings-menu-options) de menu pour obtenir des descriptions de ces différents contrôles.
 
-## Data Source Details {#details}
+## Détails de la source de données {#details}
 
-To complete the [!UICONTROL Data Source Details] section:
+Pour compléter la [!UICONTROL Data Source Details] section :
 
 1. Nommez la source de données.
-1. *(Facultatif)* Décrivez la source de données. Une description concise permet de définir le rôle ou le rôle de la source de données.
-1. Fournissez un code d'intégration. En règle générale, les codes d'intégration sont facultatifs. Ils sont obligatoires lorsque vous voulez :
+1. *(Facultatif)* Décrivez la source de données. Une description concise permet de définir le rôle ou l’objectif de la source de données.
+1. Fournissez un code d’intégration. En règle générale, les codes d’intégration sont facultatifs. Elles sont requises lorsque vous souhaitez :
 
-   * [Créez une source de données sur plusieurs périphériques](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Use the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
-   * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
+   * [Créez une source](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de données sur plusieurs périphériques.
+   * Utilisez le service [d’ID](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
+   * Utilisation des règles [de fusion de](../features/profile-merge-rules/merge-rules-start.md)profil.
 
-1. Choose an **[!UICONTROL ID Type]**. Les options Type d'ID incluent :
+1. Choisissez un **[!UICONTROL ID Type]**. Les options de type d’ID sont les suivantes :
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
-   * **[!UICONTROL Cross-device]** (Requis pour créer un [!UICONTROL Profile Merge Rule]). Note, for some customers, this selection exposes the **[!UICONTROL ID Definition]** options.
+   * **[!UICONTROL Cross-device]** (Obligatoire pour créer une [!UICONTROL Profile Merge Rule]). Remarque : pour certains clients, cette sélection expose les **[!UICONTROL ID Definition]** options.
 
 1. Choose an **[!UICONTROL ID Definition]** option. Les options incluent :
 
@@ -49,35 +49,35 @@ To complete the [!UICONTROL Data Source Details] section:
 
 ## Contrôles des exportations de données {#export-controls}
 
-[Les contrôles d'exportation de données](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d'envoyer des données à une destination lorsque cette action enfreint un accord de confidentialité ou d'utilisation des données. Skip this section if you do not use [!UICONTROL Data Export Controls].
+[Les contrôles](../features/data-export-controls.md) d’exportation de données sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Elles vous empêchent d’envoyer des données vers une destination lorsque cette action enfreint un accord de confidentialité ou d’utilisation des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
-Ces paramètres déterminent comment une source de données est identifiée, utilisée et partagée. Vous pouvez également activer la création de rapports d'erreur pour les fichiers de données entrants. To complete the [!UICONTROL Data Source Settings] section:
+Ces paramètres déterminent la manière dont une source de données est identifiée, utilisée et partagée. Vous pouvez également activer la création de rapports d’erreurs pour les fichiers de données entrants. Pour compléter la [!UICONTROL Data Source Settings] section :
 
-1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your data source.
+1. Sélectionnez une [!UICONTROL Data Source Setting] case à cocher pour appliquer une option à votre source de données.
 2. Cliquez sur **[!UICONTROL Save]**.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Paramètres de source de données et options de menu](../features/datasources-list-and-settings.md#settings-menu-options)
 
 
-## Delete a Data Source {#delete-data-source}
+## Suppression d’une source de données {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Supprimez une source de données dont vous n'avez plus besoin.
+Supprimez une source de données dont vous n’avez plus besoin.
 
 >[!NOTE]
 >
->Veuillez noter les restrictions suivantes :
+>Veuillez prendre note des restrictions suivantes :
 >
->* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md).
->* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. Use the [Core Service](https://marketing.adobe.com/resources/help/en_US/mcloud/) to unmap these data sources.
+>* Vous ne pouvez pas supprimer une audience [active ou une caractéristique](../features/traits/client-activity-synced-audience-traits.md)synchronisée de source de données.
+>* Pour les clients qui utilisent Adobe Analytics : Audience Manager ne vous permet pas de supprimer les sources de données créées automatiquement à partir de vos suites de [!DNL Analytics] rapports. Utilisez le service [principal](https://marketing.adobe.com/resources/help/en_US/mcloud/) pour annuler le mappage de ces sources de données.
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
-1. Cochez la case en regard d'une ou de plusieurs sources de données.
-You can use the [!UICONTROL Search] box to locate the desired data sources if you have a long list.
-1. Click  ![](assets/icon_trash.png), then confirm the deletion.
+1. Cochez la case en regard d’une ou de plusieurs sources de données.
+Vous pouvez utiliser la [!UICONTROL Search] zone pour localiser les sources de données de votre choix si vous disposez d’une longue liste.
+1. Cliquez sur ![](assets/icon_trash.png), puis confirmez la suppression.
