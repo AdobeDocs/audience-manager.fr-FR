@@ -1,32 +1,32 @@
 ---
-description: La segmentation décrit les processus qui excluent et suppriment les profils de périphérique des segments. Votre capacité à supprimer un profil de périphérique d'un segment dépend de l'option de périphérique utilisée pour créer une règle de fusion de profils.
-seo-description: La segmentation décrit les processus qui excluent et suppriment les profils de périphérique des segments. Votre capacité à supprimer un profil de périphérique d'un segment dépend de l'option de périphérique utilisée pour créer une règle de fusion de profils.
-seo-title: Processus de fusion des profils et processus de déssegmentation des périphériques
+description: La section Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. La suppression d’un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer une règle de fusion de profil.
+seo-description: La section Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. La suppression d’un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer une règle de fusion de profil.
+seo-title: ' Règles de fusion des profils et processus de désegmentation des périphériques'
 solution: Audience Manager
-title: Processus de fusion des profils et processus de déssegmentation des périphériques
-uuid: b 61 c 6 de 3-5 fe 4-4892-a 05 a -96 a 4 cb 35 af 34
+title: Règles de fusion des profils et processus de désegmentation des périphériques
+uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Profile Merge Rules and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# Règles de fusion des profils et processus de désegmentation des périphériques {#profile-merge-rules-and-device-un-segmentation-processes}
 
-La segmentation décrit les processus qui excluent et suppriment les profils de périphérique des segments. Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
+La section Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. Votre capacité à supprimer un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer un profil de périphérique [!UICONTROL Profile Merge Rule].
 
-## Available Device Options {#device-options}
+## Options de périphérique disponibles {#device-options}
 
-As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL Profile Merge Rules Setup] section when you create or edit a [!UICONTROL Profile Merge Rule].
+À titre de rappel, les [!UICONTROL Device Options] sont disponibles dans la [!UICONTROL Profile Merge Rules Setup] section lorsque vous créez ou modifiez un [!UICONTROL Profile Merge Rule].
 
 ![](assets/merge-rules-options.png)
 
-## Current Device Profile Option and Device Unsegmentation {#current-device-profile-options}
+## Option de profil de périphérique actuelle et déssegmentation de périphérique {#current-device-profile-options}
 
-**[!UICONTROL Current Device Profile]** est l'option de profil de périphérique par défaut pour a [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] peut supprimer un profil de périphérique d'un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez **[!UICONTROL Current Device Profile]** cette option. Dans ces conditions, la segmentation survient lorsque :
+**[!UICONTROL Current Device Profile]** est l’option de profil de périphérique par défaut pour un [!UICONTROL Profile Merge Rule]périphérique. [!DNL Audience Manager] peut supprimer un profil de périphérique d’un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez l’ **[!UICONTROL Current Device Profile]** option. Dans ces conditions, la non-segmentation se produit lorsque :
 
-* Le profil du périphérique est inactif pendant 120 jours. Un processus de nettoyage de données hebdomadaire supprime les profils de périphérique inactifs de vos segments.
-* Le périphérique ne se qualifie plus pour un segment, car les mises à jour ou les modifications apportées au profil de périphérique le désactivent. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+* Le profil du périphérique est inactif depuis 120 jours. Un processus hebdomadaire de nettoyage des données supprime les profils de périphérique inactifs de vos segments.
+* Le périphérique n’est plus admissible pour un segment, car les mises à jour ou les modifications apportées au profil du périphérique le disqualifient. Cela se produit lorsque les critères de qualification des segments changent, ou lorsque vous appliquez un [!DNL AND NOT] opérateur à une règle de segment, ou lorsque vous spécifiez des conditions de [récence et de fréquence](../../features/segments/recency-and-frequency.md) qui utilisent les valeurs inférieures/égales aux paramètres. Les cas d’utilisation sont décrits dans la documentation [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) .
 
 ![](assets/single_device_use_case.png)
 
@@ -42,19 +42,19 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
-## No Device Option and Device Unsegmentation {#no-device-option}
+## Pas d'option de périphérique et de désegmentation de périphérique {#no-device-option}
 
-[!DNL Audience Manager] peut supprimer un ID inter-périphérique d'un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez **[!UICONTROL No Device Profile]** l **[!UICONTROL Current Authenticated]** 'option +. Dans ces conditions, la segmentation se produit lorsque l'ID inter-périphériques ne se qualifie plus pour un segment, car les mises à jour ou les modifications apportées au profil sur plusieurs périphériques la désactivent. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] Vous pouvez supprimer un ID de plusieurs périphériques d’un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez l’option **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** . Dans ces conditions, la non-segmentation se produit lorsque l’ID inter-périphériques n’est plus admissible pour un segment, car les mises à jour ou les modifications apportées au profil inter-périphériques le excluent. Cela se produit lorsque les critères de qualification des segments changent, ou lorsque vous appliquez un [!UICONTROL AND NOT] opérateur à une règle de segment, ou lorsque vous spécifiez des conditions de [récence et de fréquence](../../features/segments/recency-and-frequency.md) qui utilisent les valeurs inférieures/égales aux paramètres. Les cas d’utilisation sont décrits dans la documentation [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) .
 
 ![](assets/no_device_use_case.png)
 
-## Device Graph Options and Device Unsegmentation {#device-graph-options-unsegmentation}
+## Options de graphique de périphérique et désegmentation de périphérique {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] peut supprimer plusieurs profils de périphérique d'un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez l'option Graphique de périphérique. La segmentation survient lorsque le profil fusionné du périphérique à partir du graphique de périphérique ne se qualifie plus pour le segment, car les mises à jour ou les modifications apportées à ce profil fusionné ne le sont pas du segment. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] Vous pouvez supprimer plusieurs profils de périphérique d’un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez une option de graphique de périphérique. La non-segmentation se produit lorsque le profil fusionné du périphérique du graphique du périphérique n’est plus admissible pour le segment, car les mises à jour ou les modifications apportées à ce profil fusionné le disqualifient du segment. Cela se produit lorsque les critères de qualification des segments changent, ou lorsque vous appliquez un [!UICONTROL AND NOT] opérateur à une règle de segment, ou lorsque vous spécifiez des conditions de [récence et de fréquence](../../features/segments/recency-and-frequency.md) qui utilisent les valeurs inférieures/égales aux paramètres. Les cas d’utilisation sont décrits dans la documentation [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) .
 
 >[!NOTE]
 >
->**La limite de quatre périphériques pour l'évaluation et la disqualification des segments** [!DNL Audience Manager] fusionne jusqu'à quatre périphériques lors de l'évaluation de segments [!UICONTROL Profile Merge Rule] avec un graphique de périphérique. [!DNL Audience Manager] évalue le *périphérique actuel et trois périphériques supplémentaires sont affichés en temps réel*. Si le signal de dissociation est émis, le périphérique actuel et trois périphériques supplémentaires vus en temps réel sont supprimés du segment dans la destination. Par exemple, dans une grappe de six périphériques, quatre périphériques au maximum sont fusionnés, évalués et qualifiés pour un segment. De même, jusqu'à quatre périphériques sont fusionnés, évalués et non segmentés.
+>**La limite de quatre périphériques pour l’évaluation et la disqualification** des segments fusionne [!DNL Audience Manager] jusqu’à quatre périphériques lors de l’évaluation de segments avec un [!UICONTROL Profile Merge Rule] qui utilise un graphique de périphériques. [!DNL Audience Manager] évalue le périphérique *actuel et trois périphériques supplémentaires vus pour la dernière fois en temps* réel. Si le signal de non-segmentation est émis, le périphérique actuel et trois périphériques supplémentaires affichés en temps réel sont supprimés du segment dans la destination. Par exemple, dans une grappe de six périphériques, jusqu’à quatre périphériques sont fusionnés, évalués et qualifiés pour un segment. De même, jusqu’à quatre périphériques sont fusionnés, évalués et non segmentés.
 
 ![](assets/cross_device_workflow.png)
 
@@ -101,9 +101,9 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [FAQ sur la fusion des profils et le graphique des périphériques](../../faq/faq-profile-merge.md)
+>* [FAQ sur les règles de fusion de profils et le graphique de périphériques](../../faq/faq-profile-merge.md)
 >* [Suppression instantanée inter-périphérique](../../features/profile-merge-rules/instant-cross-device-suppression.md)
->* [Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphérique](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
+>* [Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphériques](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
 
