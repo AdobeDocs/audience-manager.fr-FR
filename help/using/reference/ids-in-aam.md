@@ -1,11 +1,11 @@
 ---
-description: Reportez-vous à ce document pour obtenir la liste complète des identifiants Adobe Audience Manager.
-keywords: DPID ; DPUUID ; CID ; UUID ; uuid ; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
-seo-description: Reportez-vous à ce document pour obtenir la liste complète des identifiants Adobe Audience Manager.
+description: Consultez ce document pour obtenir la liste complète des ID Adobe Audience Manager.
+keywords: DPID; DPUUID; CID; UUID; uuid; uid, uuid, uuuid, uuuid, uuuid, uuuid, uuuid, uuuid, uuuuid, uuuid, uuuuid, uuuid, uuuuid, uuuuuid, uuuid
+seo-description: Consultez ce document pour obtenir la liste complète des ID Adobe Audience Manager.
 seo-title: Index des ID dans Audience Manager
 solution: Audience Manager
 title: Index des ID dans Audience Manager
-uuid: 292185 ec -7 c 6 a -414 b-ab 17-800 c 21 cb 1 f 01
+uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
@@ -14,7 +14,7 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 # Index des ID dans Audience Manager{#index-of-ids-in-audience-manager}
 
-Reportez-vous à ce document pour obtenir la liste complète des identifiants Adobe Audience Manager.
+Consultez ce document pour obtenir la liste complète des ID Adobe Audience Manager.
 
 <table frame="all" id="table_6727BA8BBF2C40E48768126B4EC9984E"> 
  <thead> 
@@ -26,64 +26,64 @@ Reportez-vous à ce document pour obtenir la liste complète des identifiants Ad
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>AAM UUID </p> </td> 
-   <td colname="col2"> <p> <b><span class="keyword"> Utilisateur</span> unique Audience Manager - id </b> </p> <p> ID de périphérique numérique à 38 chiffres qu' <span class="keyword"> Audience Manager</span> associe à chaque périphérique avec lequel il interagit. Pensez à cet identifiant chaque fois que vous voyez une mention d'utilisateurs uniques dans l'interface utilisateur d'Audience Manager.<p><span class="keyword"> Audience Manager</span> tente d'enregistrer cet ID sous forme de cookie dans le domaine tiers demdex. net.</p> </p> <p>L'UUID Audience Manager est envoyé dans les appels d'événement comme signal d_ uuid. </p> </td> 
+   <td colname="col1"> <p>UUID AAM </p> </td> 
+   <td colname="col2"> <p> <b><span class="keyword"> ID utilisateur unique d’Audience Manager</span></b> </p> <p> ID numérique de périphérique à 38 chiffres associé par <span class="keyword"> Audience Manager</span> à chaque périphérique avec lequel il interagit. Pensez à cet identifiant chaque fois que vous voyez une mention d’utilisateurs uniques dans l’interface utilisateur d’Audience Manager.<p><span class="keyword"> Audience Manager</span> tente d’enregistrer cet identifiant sous forme de cookie dans le domaine tiers "demdex.net".</p> </p> <p>L’UUID d’Audience Manager est envoyé dans les appels d’événement en tant que signal d_uuid. </p> </td> 
    <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Imsorgid </p> </td> 
-   <td colname="col2"> <p> <b>ID d’organisation</b> </p> <p>Il s'agit de l'identifiant fourni par une société lors de la souscription pour Experience Cloud. Pour savoir comment trouver l'ID d'organisation de votre entreprise, lisez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> les organisations et liaison de comptes</a> et faites défiler la liste jusqu'à rechercher votre ID d'organisation.</p> </td> 
+   <td colname="col1"> <p>ImsOrgId </p> </td> 
+   <td colname="col2"> <p> <b>ID d’organisation</b> </p> <p>Il s’agit de l’identifiant fourni à une entreprise lors de son inscription à Experience Cloud. Pour savoir comment trouver l’ID d’organisation de votre entreprise, consultez la section <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> Organisations et liaison</a> de compte, puis faites défiler la liste jusqu’à Rechercher votre ID d’organisation.</p> </td> 
    <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>PID </p> </td> 
-   <td colname="col2"> <p> <b>ID du partenaire</b> </p> <p> Le paramètre PID est l'identifiant d'entreprise dans <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> associe un élément imsorgid à un identifiant PID. </p> </td> 
+   <td colname="col2"> <p> <b>ID du partenaire</b> </p> <p> Le PID est l’identifiant d’une société dans <span class="keyword"> Audience Manager</span>. <span class="keyword"> Audience Manager</span> associe un imsOrgId à un PID. </p> </td> 
    <td colname="col3"> <p><code> 1352</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ECID, MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>L'ID d'expérience (ECID, abréviations héritées MID ou MCID) est dérivé de manière mathématique de votre ID d'organisation et de <span class="keyword"> l'utilisateur</span> unique Audience Manager - id. Tant que ces identifiants restent constants, la génération de l'ECID correct pour un utilisateur spécifique n'est qu'un problème mathématique. Avec le même ID d'organisation et l'UUID Audience Manager, vous obtenez chaque fois la même valeur ECID. Vous pouvez en savoir plus sur l'ECID dans le document <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies et Experience Cloud ID</a> . </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>L’ID Experience Cloud (ECID, abréviations héritées MID ou MCID) est dérivé mathématiquement de votre ID d’organisation et de l’ID utilisateur unique d’Audience Manager <span class="keyword"></span> . Tant que ces identifiants restent constants, la génération de l'ECID approprié pour un utilisateur spécifique est simplement un problème de maths. Avec le même ID d’organisation et le même UUID Audience Manager, vous obtenez à chaque fois la même valeur ECID. Vous pouvez en savoir plus sur l’ECID dans le document <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies et Experience Cloud ID</a> . </p> </td> 
    <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
-   <td colname="col2"> <p> <b>ID de caractéristique</b> </p> <p>L'ID de caractéristique identifie de manière unique les caractéristiques dans l'environnement <span class="keyword"> Audience Manager</span> . Un identifiant de caractéristique est affecté à chaque caractéristique dans l'interface utilisateur (UI). </p> </td> 
+   <td colname="col2"> <p> <b>ID de trait</b> </p> <p>L’ID de caractéristique identifie de manière unique les caractéristiques de l’environnement <span class="keyword"> Audience Manager</span> . Un ID de caractéristique est affecté à chaque caractéristique de l’interface utilisateur. </p> </td> 
    <td colname="col3"> <p><code> 289983</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
-   <td colname="col2"> <p> <b>ID de segment </b> </p> <p>L'identifiant de segment identifie de manière unique les segments dans l'environnement <span class="keyword"> Audience Manager</span> . Un identifiant de segment est affecté à chaque segment dans l'interface utilisateur. </p> </td> 
+   <td colname="col2"> <p> <b>ID de segment </b> </p> <p>L’ID de segment identifie de manière unique les segments dans l’environnement <span class="keyword"> Audience Manager</span> . Un ID de segment est affecté à chaque segment dans l’interface utilisateur. </p> </td> 
    <td colname="col3"> <p><code> 4798574</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Csegid </p> </td> 
-   <td colname="col2"> <p> <b>ID de segment hérité </b> </p> <p>Cet identifiant identifie de manière unique les segments dans l'environnement <span class="keyword"> Audience Manager</span> . Un identifiant de segment hérité est affecté à chaque segment dans l'interface utilisateur. </p> </td> 
+   <td colname="col1"> <p>csegID </p> </td> 
+   <td colname="col2"> <p> <b>ID de segment hérité </b> </p> <p>Cet identifiant identifie de manière unique les segments dans l’environnement <span class="keyword"> Audience Manager</span> . Un ID de segment hérité est affecté à chaque segment de l’interface utilisateur. </p> </td> 
    <td colname="col3"> <p><code> 741232</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Destid </p> </td> 
-   <td colname="col2"> <p> <b>ID de destination </b> </p> <p>L'ID de destination identifie de manière unique les destinations dans l'environnement <span class="keyword"> Audience Manager</span> . Un ID est affecté à chaque destination dans l'interface utilisateur. </p> </td> 
+   <td colname="col1"> <p>destID </p> </td> 
+   <td colname="col2"> <p> <b>ID de destination </b> </p> <p>L’ID de destination identifie de manière unique les destinations dans l’environnement <span class="keyword"> Audience Manager</span> . Un ID est affecté à chaque destination dans l’interface utilisateur. </p> </td> 
    <td colname="col3"> <p><code> 2523</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>DPID </p> </td> 
-   <td colname="col2"> <p> <b>Identifiant de source de données (également appelé ID de fournisseur de données)</b> </p> <p>L'ID de source de données est un namespace de noms pour les ID ou caractéristiques. Un ID est affecté à chaque source de données (fournisseur de données) dans l'interface utilisateur. </p> </td> 
+   <td colname="col2"> <p> <b>ID de source de données (également appelé ID du fournisseur de données)</b> </p> <p>L’ID de source de données est un espace de noms pour les ID ou les caractéristiques. Un ID est affecté à chaque source de données (fournisseur de données) dans l’interface utilisateur. </p> </td> 
    <td colname="col3"> <p><code> 39217</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p> <b>Utilisateur unique du fournisseur de données - id </b><b>(également appelé identifiant CRM)</b> </p> <p>Un identifiant tiers. Il s'agit de l'ID par lequel vous identifiez la fin - utilisateurs dans votre propre système de gestion de la relation client. Vous pouvez synchroniser des identifiants dpuuid avec <span class="keyword"> des UUID d'Audience Manager</span> et vous pouvez synchroniser les dpuuid à partir de vos différentes <span class="wintitle"> sources</span> de données dans le processus de synchronisation <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md"> des identifiants</a>. </p> </td> 
-   <td colname="col3"> <p><code> 2132-3423 vn -343 fds -3432 r</code> </p> </td> 
+   <td colname="col2"> <p> <b>ID utilisateur unique du fournisseur de données </b> <b>(également appelé ID de gestion de la relation client)</b> </p> <p>Identifiant tiers. Il s’agit de l’identifiant par lequel vous identifiez les utilisateurs finaux dans votre propre système de gestion de la relation client. Vous pouvez synchroniser les DPUUID avec les UUID d’ <span class="keyword"> Audience Manager</span> et synchroniser les DPUUID à partir de vos différentes sources <span class="wintitle"> de données (DPID) dans le processus</span> de synchronisation des <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md"></a>identifiants. </p> </td> 
+   <td colname="col3"> <p><code> 2132-3423vn-343fds-3432r</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Identifiant de la gestion de la relation client </p> </td> 
+   <td colname="col1"> <p>ID CRM </p> </td> 
    <td colname="col2"> <p>Voir DPUUID ci-dessus. </p> </td> 
-   <td colname="col3"> <p><code> 2132-3423 vn -343 fds -3432 r</code> </p> </td> 
+   <td colname="col3"> <p><code> 2132-3423vn-343fds-3432r</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CID, CID_ IC </p> </td>
-   <td colname="col2"> <p> <b>ID de client, code d'intégration de l'ID client</b> </p> <p> <b>Les paires CID et CID_ IC <a href="../reference/cid.md"> sont remplacées par DPID et DPUUID</a>.</b> Elles fournissent les mêmes fonctions que DPID et DPUUID, mais elles sont plus efficaces car elles incluent l'identifiant de fournisseur de données et l'utilisateur - id (ou code d'intégration) dans une paire clé-valeur unique. </p> </td> 
-   <td colname="col3"> <p><code> 81841% 013 ad 2948 b 1570 a 7 e 408 a 7 cfb 7 ff 4879 e 4 </code> </p> </td> 
+   <td colname="col1"> <p>CID, CID_IC </p> </td>
+   <td colname="col2"> <p> <b>ID client, code d’intégration d’ID client</b> </p> <p> <b>Les paires clé-valeur CID et CID_IC <a href="../reference/cid.md"> remplacent DPID et DPUUID</a>.</b> Elles fournissent les mêmes fonctions que les DPID et les DPUUID, mais sont plus efficaces car elles incluent l’ID du fournisseur de données et l’ID utilisateur (ou code d’intégration) dans une seule paire clé-valeur. </p> </td> 
+   <td colname="col3"> <p><code> 81841%013ad2948b1570a7e408a7cfb7ff4879e4 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="2"> <p>DAID </p> <p> 
@@ -94,28 +94,28 @@ Reportez-vous à ce document pour obtenir la liste complète des identifiants Ad
       <li>MAID</li>
       <li>DUID</li>
      </ul> </p> </td> 
-   <td colname="col2"> <p> <b>ID de publication de périphérique</b> </p> <p>Cet identifiant propre à chaque périphérique est utilisé à des fins de publicité. Généralement fourni par le fabricant du périphérique ou du système d'exploitation du périphérique. </p> </td> 
-   <td colname="col3"> <p>IDFA, GAID, Roku ID, Playstation ID </p> </td> 
+   <td colname="col2"> <p> <b>ID de publicité de périphérique</b> </p> <p>Cet identifiant propre à chaque périphérique est utilisé à des fins de publicité. Généralement fourni par le fabricant du système d’exploitation du périphérique ou du périphérique. </p> </td> 
+   <td colname="col3"> <p>IDFA, GAID, ID Roku, ID de station de lecture </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>ID de publication de périphérique - IDFA - Périphériques ios</b> </p> <p> <b>Les identifiants IDFA</b> sont des identifiants de périphérique mobile fournis par le fabricant du périphérique. Ces ID représentent les périphériques qui exécutent le système d'exploitation ios. </p> </td> 
-   <td colname="col3"> <p> Le format est composé de 32 <i>chiffres</i> hexadécimaux en majuscules, affichés dans cinq groupes et séparés par des tirets, dans le formulaire 8-4-4-4-12, pour un total de 36 caractères. </p> <p><code> AEBE 52 E 7-03 EE -455 A-B 3 C 4-E 57283966239</code> </p> </td> 
+   <td colname="col2"> <p> <b>ID de publicité de périphérique - IDFA - périphériques iOS</b> </p> <p> <b>Les ID IDFA</b> sont des identifiants de périphériques mobiles fournis par le fabricant du périphérique. Ces identifiants représentent les périphériques qui exécutent le système d’exploitation iOS. </p> </td> 
+   <td colname="col3"> <p> Le format est strictement composé de 32 chiffres hexadécimaux <i>majuscules</i> , affichés en cinq groupes et séparés par des tirets, au format 8-4-4-12, pour un total de 36 caractères. </p> <p><code> AEBE52E7-03EE-455A-B3C4-E5728396239</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>ID de publication de périphérique - GAID - Périphériques Android</b> </p> <p><b>Les identifiants GAID</b> sont des identifiants de périphérique mobile fournis par le fabricant du périphérique. Ces ID représentent les périphériques qui exécutent le système d'exploitation Android. </p> </td> 
-   <td colname="col3"> <p>Le format est composé de 32 <i>chiffres</i> hexadécimaux minuscules, affichés dans cinq groupes et séparés par des tirets, dans le formulaire 8-4-4-4-12, pour un total de 36 caractères. </p> <p> <code> e 4 fe 9 bde-caa 0-47 b 6-908 d-ffba 3 fa 184 f 2</code> </p> </td> 
+   <td colname="col2"> <p> <b>ID de publicité de périphérique - GAID - périphériques Android</b> </p> <p><b>Les identifiants GAID</b> sont des identifiants de périphérique mobile fournis par le fabricant du périphérique. Ces identifiants représentent les périphériques qui exécutent le système d’exploitation Android. </p> </td> 
+   <td colname="col3"> <p>Le format est strictement composé de 32 chiffres hexadécimaux <i>minuscules</i> , affichés en cinq groupes et séparés par des tirets, au format 8-4-4-12, pour un total de 36 caractères. </p> <p> <code> e4fe9bde-caa0-47b6-908d-ffba3fa184f2</code> </p> </td> 
   </tr>
   <tr> 
-   <td colname="col2"> <p> <b>Roku - RIDA - Périphériques continus Roku</b> </p> <p><b>Les</b> identifiants RIDA GAID sont des identifiants de périphérique en flux continu fournis par le fabricant des dispositifs Roku.</p> </td>
-   <td colname="col3"> <p>Le format est composé de 32 <i>chiffres</i> hexadécimaux minuscules, affichés dans cinq groupes et séparés par des tirets, dans le formulaire 8-4-4-4-12, pour un total de 36 caractères. </p> <p> <code> fcb 2 a 29 c -315 a -5 e 6 b-bcfd-d 889 ba 19 aada</code> </p> </td> 
+   <td colname="col2"> <p> <b>Roku - RIDA - Périphériques de diffusion en continu Roku</b> </p> <p><b>Les ID RIDA GAID</b> sont des identifiants de périphérique de diffusion en continu fournis par le fabricant des périphériques Roku.</p> </td>
+   <td colname="col3"> <p>Le format est strictement composé de 32 chiffres hexadécimaux <i>minuscules</i> , affichés en cinq groupes et séparés par des tirets, au format 8-4-4-12, pour un total de 36 caractères. </p> <p> <code> fcb2a29c-315a-5e6b-bcfd-d889ba19aada</code> </p> </td> 
   </tr>
   <tr> 
-   <td colname="col2"> <p> <b>ID de publication Microsoft - Périphériques MAID - Windows 10</b> </p> <p><b>Les identifiants MAID</b> sont des identifiants de périphérique générés par Windows 10 sur un périphérique par périphérique.</p> </td>
-   <td colname="col3"> <p>Les maid sont formatés sous forme de chaînes alphanumériques.</p></td>
+   <td colname="col2"> <p> <b>ID de publicité Microsoft - MAID - Périphériques Windows 10</b> </p> <p><b>Les identifiants MAID</b> sont des identifiants de périphérique générés par Windows 10 par périphérique et par utilisateur.</p> </td>
+   <td colname="col3"> <p>Les MAID sont formatées sous la forme de chaînes alphanumériques.</p></td>
   </tr>
    <tr> 
-   <td colname="col2"> <p> <b>Samsung DUID - Périphériques Samsung</b> </p> Les identifiants Samsung sont des identifiants de périphérique fournis par Samsung TV.</p> </td>
-   <td colname="col3"> <p>Les identifiants Samsung duid sont formatés sous forme de chaînes alphanumériques.</p></td>
+   <td colname="col2"> <p> <b>Samsung DUID - Dispositifs Samsung</b> </p> Les DUID Samsung sont des identifiants de périphériques fournis par les téléviseurs Samsung.</p> </td>
+   <td colname="col3"> <p>Les DUID Samsung sont formatés sous la forme de chaînes alphanumériques.</p></td>
   </tr>
  </tbody> 
 </table>
