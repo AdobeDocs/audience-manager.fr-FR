@@ -1,23 +1,23 @@
 ---
 description: Méthodes qui vous permettent de travailler par programmation avec des caractéristiques.
 seo-description: Méthodes qui vous permettent de travailler par programmation avec des caractéristiques.
-seo-title: Méthodes API de caractéristique
+seo-title: ' Méthodes de l’API de caractéristiques'
 solution: Audience Manager
-title: Méthodes API de caractéristique
-uuid: 7359070 c -0 d 7 b -4 dd 9-8 b 8 b -028 e 41 bb 5 a 4 e
+title: ' Méthodes de l’API de caractéristiques'
+uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Trait API Methods {#trait-api-methods}
+# Méthodes de l’API de caractéristiques {#trait-api-methods}
 
 Méthodes qui vous permettent de travailler par programmation avec des caractéristiques.
 
 >[!IMPORTANT]
 >
->The trait [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Voir :
+>Les [!DNL API] méthodes de caractéristiques ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
->* [Documentation d'API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migration du code de l'API Audience Manager](../../api/api-swagger-migration.md)
+>* [Documentation de l’API d’Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Migration du code API d’Audience Manager](../../api/api-swagger-migration.md)
