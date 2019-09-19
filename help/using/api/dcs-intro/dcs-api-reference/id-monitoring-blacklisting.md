@@ -1,11 +1,11 @@
 ---
-description: Le serveur de collecte de données contrôle les ID qu'il reçoit et répertorie les adresses qui sont envoyées à un taux anormalement élevé pendant une courte période.
-keywords: id ; surveillance ; liste noire ; dcs
-seo-description: Le serveur de collecte de données contrôle les ID qu'il reçoit et répertorie les adresses qui sont envoyées à un taux anormalement élevé pendant une courte période.
+description: Le serveur de collecte de données contrôle les identifiants qu’il reçoit et met en liste noire ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période.
+keywords: id;surveillance;liste noire;dcs
+seo-description: Le serveur de collecte de données contrôle les identifiants qu’il reçoit et met en liste noire ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période.
 seo-title: Surveillance des identifiants et liste noire
 solution: Audience Manager
 title: Surveillance des identifiants et liste noire
-uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
+uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
 source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
@@ -14,38 +14,38 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
 # Surveillance des identifiants et liste noire
 
-[!UICONTROL DCS] Les moniteurs reçoivent les ID qu'ils reçoivent et répertorient ceux qui sont envoyés à un taux anormalement élevé sur une courte période.
+Le [!UICONTROL DCS] contrôle les identifiants qu’il reçoit et met en liste noire ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période de temps.
 
 ## Aperçu
 
-To protect the Audience Manager infrastructure against malicious activity, the [!UICONTROL DCS] uses an advanced algorithm to monitor the IDs it receives. These can be [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s), or [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). See [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md) for detailed explanations of the IDs supported by Audience Manager.
+Pour protéger l’infrastructure d’Audience Manager contre les activités malveillantes, l’ [!UICONTROL DCS] utilisateur utilise un algorithme avancé pour surveiller les identifiants qu’il reçoit. Il peut s’agir [!UICONTROL Data Provider Unique User ID]de[!UICONTROL CRM ID]s ( [!UICONTROL Audience Manager Unique User ID]s),[!UICONTROL AAM UUID]s ( [!UICONTROL Experience Cloud ID]s) ou[!UICONTROL ECID]s (s). Voir [Index des ID dans Audience Manager](../../../reference/ids-in-aam.md) pour obtenir des explications détaillées sur les ID pris en charge par Audience Manager.
 
-The [!UICONTROL DCS] monitors the frequency at which it receives these IDs to detect potential malicious activity. When the [!UICONTROL DCS] detects an unusually large amount of [!UICONTROL DCS] requests for any given ID in a short amount of time, that ID is blacklisted.
+Le [!UICONTROL DCS] contrôle la fréquence à laquelle il reçoit ces identifiants pour détecter une activité malveillante potentielle. Lorsque le [!UICONTROL DCS] détecte un nombre inhabituellement élevé de [!UICONTROL DCS] requêtes pour un ID donné en peu de temps, cet ID est mis sur liste noire.
 
 ## Codes d’erreur
 
-You can identify blacklisted IDs by the error codes received from the [!UICONTROL DCS]. Les codes d'erreur que vous pouvez recevoir sont les suivants :
+Vous pouvez identifier les ID placés sur liste noire en fonction des codes d’erreur reçus de la [!UICONTROL DCS]. Les codes d’erreur que vous pouvez recevoir sont les suivants :
 
-* 303 : ID de client bloqué ;
+* 303 : ID client bloqué ;
 * 306 : ID de périphérique déclaré bloqué ;
-* 307 : Opération de profil bloquée pour l'ID.
+* 307 : Opération de profil bloquée pour ID.
 
-See [DCS Error Codes, Messages, and Examples](dcs-error-codes.md) for details on the error codes that you may receive.
+Pour plus d’informations sur les codes d’erreur que vous pouvez recevoir, voir Codes d’erreur [DCS, Messages et Exemples](dcs-error-codes.md) .
 
-## Liste noire
+## Annulation de la liste noire
 
-Les identifiants placés sur liste noire ne doivent pas être utilisés dans les futures requêtes, car ils génèrent des rapports de données incorrects. The [!UICONTROL DCS] does not support un-blacklisting of IDs.
+Les identifiants placés sur liste noire ne doivent pas être utilisés dans les futures demandes, car ils conduiront à des rapports de données incorrects. L’ [!UICONTROL DCS] application ne prend pas en charge la non-mise en liste noire des ID.
 
 ## Impact sur la synchronisation des identifiants
 
-[!UICONTROL DCS] Les appels peuvent inclure un ou plusieurs types d'ID. Les appels contenant un ID unique sont totalement ignorés si cet identifiant est placé sur liste noire et qu'aucune synchronisation des identifiants ne se produit dans ce cas.
+[!UICONTROL DCS] peuvent inclure un ou plusieurs types d’ID. Les appels contenant un seul ID sont complètement ignorés si cet ID est mis sur liste noire et qu’aucune synchronisation des identifiants ne se produit dans ce cas.
 
-When a multiple ID call also includes a blacklisted ID, the [!UICONTROL DCS] disregards the blacklisted ID and only uses the remaining, non-blacklisted IDs for synchronization.
+Lorsqu’un appel à plusieurs identifiants inclut également un identifiant sur liste noire, l’ [!UICONTROL DCS] utilisateur ignore l’identifiant sur liste noire et utilise uniquement les identifiants restants non placés sur liste noire pour la synchronisation.
 
-## Causes et correctifs des listes noires d'ID
+## Causes et correctifs de la liste noire des identifiants
 
-La cause la plus fréquente des ID placés sur liste noire est l'intégration incorrecte entre l'infrastructure client et Audience Manager. Lorsque vous identifiez un identifiant sur liste noire, vérifiez soigneusement les intégrations d'Audience Manager. See **Implementation and Integration Guides** for detailed explanations of how you should configure Audience Manager to work with other Experience Cloud solutions or external systems.
+La raison la plus fréquente de la mise sur liste noire des identifiants est la mauvaise intégration entre l’infrastructure du client et Audience Manager. Lorsque vous identifiez un identifiant sur liste noire, veillez à examiner minutieusement vos intégrations d’Audience Manager. Voir les guides **d’** implémentation et d’intégration pour obtenir des explications détaillées sur la configuration d’Audience Manager pour une utilisation avec d’autres solutions Experience Cloud ou des systèmes externes.
 
-Another frequent cause of blacklisted IDs are indexing bots (web crawlers), which generally cause increases in traffic, leading to the same IDs being sent to the [!UICONTROL DCS] multiple times. Si vous identifiez l'indexation des robots comme motif de liste noire d'ID, vous devez limiter l'accès aux robots à votre site Web.
+Une autre cause fréquente d’ID placés sur liste noire est l’indexation des robots (moteurs de recherche Web), qui entraîne généralement une augmentation du trafic, ce qui entraîne l’envoi multiple des mêmes identifiants [!UICONTROL DCS] . Si vous identifiez les robots d’indexation comme étant la raison de la liste noire des identifiants, vous devez restreindre l’accès des robots à votre site Web.
 
-Si vous avez un temps dur pour identifier les problèmes d'intégration, n'hésitez pas à contacter le service clientèle. Prior to opening a support request, make sure to keep the `.har` `HTTP` archive of your browser ready. Cette archive aide l'équipe d'assistance à identifier les raisons pour lesquelles l'association de l'ID a eu lieu.
+Si vous avez du mal à identifier les problèmes d’intégration, n’hésitez pas à contacter le service clientèle. Avant d’ouvrir une demande d’assistance, veillez à conserver l’ `.har` archive `HTTP` de votre navigateur prête. Cette archive permet à l’équipe d’assistance d’identifier les raisons pour lesquelles la liste noire des identifiants a eu lieu.
