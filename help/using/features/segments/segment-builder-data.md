@@ -1,10 +1,10 @@
 ---
-description: Ajoutez et supprimez des caractéristiques dans le créateur de segments pour afficher les populations de caractéristiques réelles ainsi que les données réelles sur la population de segments. La taille estimée des données permet de créer le segment approprié pour votre campagne.
-seo-description: Ajoutez et supprimez des caractéristiques dans le créateur de segments pour afficher les populations de caractéristiques réelles ainsi que les données réelles sur la population de segments. La taille estimée des données permet de créer le segment approprié pour votre campagne.
-seo-title: Données sur la population de caractéristiques et de segments dans le créateur de segments
+description: Ajoutez et supprimez des caractéristiques dans le créateur de segments afin d’afficher les populations de caractéristiques réelles ainsi que les données de population de segments réelles et estimées. Les données de taille de population estimée vous aident à créer le segment approprié pour votre campagne.
+seo-description: Ajoutez et supprimez des caractéristiques dans le créateur de segments afin d’afficher les populations de caractéristiques réelles ainsi que les données de population de segments réelles et estimées. Les données de taille de population estimée vous aident à créer le segment approprié pour votre campagne.
+seo-title: Données de population de caractéristiques et de segments dans le créateur de segments
 solution: Audience Manager
-title: Données sur la population de caractéristiques et de segments dans le créateur de segments
-uuid: e 1 e 59 c 0 a-b 4 c 7-4 cad -8485-3667 e 0 a 95 e 83
+title: Données de population de caractéristiques et de segments dans le créateur de segments
+uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,11 +13,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Trait and Segment Population Data in Segment Builder {#trait-and-segment-population-data-in-segment-builder}
 
-Add and remove traits in [!UICONTROL Segment Builder] to see actual trait populations along with actual and estimated segment population data. La taille estimée des données permet de créer le segment approprié pour votre campagne.
+Ajoutez et supprimez des caractéristiques dans [!UICONTROL Segment Builder] pour afficher les populations de caractéristiques réelles ainsi que les données de population de segments réelles et estimées. Les données de taille de population estimée vous aident à créer le segment approprié pour votre campagne.
 
-## Trait Population Data {#trait-population-data}
+## Données de population de caractéristiques {#trait-population-data}
 
-[!UICONTROL Segment Builder] vous indique [!UICONTROL Total Trait Population] le dernier jour lorsque vous ajoutez une caractéristique à un segment. This data appears in the blue field around your selected trait in the [!UICONTROL Basic View] section.
+[!UICONTROL Segment Builder] vous montre le dernier jour [!UICONTROL Total Trait Population] où vous ajoutez une caractéristique à un segment. Ces données s’affichent dans le champ bleu entourant la caractéristique sélectionnée dans la [!UICONTROL Basic View] section.
 
 ![](assets/trait-size.png)
 
@@ -32,37 +32,37 @@ Le tableau suivant définit les mesures de population de caractéristiques
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Population totale de caractéristiques</span> </p> </td>
-   <td colname="col2"> <p>Nombre d'ID uniques ayant la caractéristique sélectionnée dans leur profil. </p> </td>
+   <td colname="col1"> <p> <span class="wintitle"> Population totale des caractéristiques</span> </p> </td>
+   <td colname="col2"> <p>Nombre d’identifiants uniques dont le profil contient la caractéristique sélectionnée. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-## Calculating Real and Estimated Segment Populations {#calculating-real-estimated-populations}
+## Calcul des populations de segments réelles et estimées {#calculating-real-estimated-populations}
 
-Lorsque vous créez un segment ou modifiez un segment existant, Audience Manager prend jusqu'à 24 heures pour afficher les résultats pour les populations de segments réelles et en temps réel.
+Lorsque vous créez un segment ou modifiez un segment existant, Audience Manager prend jusqu’à 24 heures pour afficher les résultats pour les populations de segments réelles en temps réel et totales.
 
-Cependant, Audience Manager peut immédiatement estimer la taille de population totale et totale de votre segment. Ces estimations reposent sur des données historiques échantillonnées et retournent des résultats à l'intervalle de confiance de 95 %.
+Toutefois, Audience Manager peut immédiatement estimer la taille de population totale et en temps réel de votre segment. Ces estimations sont basées sur des données historiques échantillonnées et renvoient les résultats à l’intervalle de confiance de 95 %.
 
 ![](assets/confidence-interval.png)
 
-In [!UICONTROL Segment Builder], a blue bar on the estimated population graphs indicates the possible upper and lower ranges for segment size. Bien que les performances antérieures ne garantissent pas les résultats futurs, les données estimées peuvent vous aider à comprendre la taille potentielle d'un segment nouveau ou modifié.
+En [!UICONTROL Segment Builder]revanche, une barre bleue sur les graphiques de population estimés indique les plages supérieure et inférieure possibles pour la taille du segment. Bien que les performances passées ne garantissent pas les résultats futurs, les données estimées peuvent vous aider à comprendre la taille potentielle d’un segment nouveau ou modifié.
 
-## Segment Population Data Overview {#segment-populations}
+## Présentation des données de population de segments {#segment-populations}
 
-[!UICONTROL Segment Builder] vous montre les données de population de segments lorsque vous créez et modifiez des segments.
+[!UICONTROL Segment Builder] La illustre les données de population de segments au fur et à mesure que vous créez et modifiez des segments.
 
-* For estimated segment population data (real-time and total), [!UICONTROL Segment Builder] does not update the graphs automatically as you add or remove traits in a segment. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers.
+* Pour les données de population de segments estimées (en temps réel et total), [!UICONTROL Segment Builder] ne met pas automatiquement à jour les graphiques lorsque vous ajoutez ou supprimez des caractéristiques dans un segment. Cliquez sur **[!UICONTROL Calculate Estimates]** pour afficher (ou actualiser) l’estimation des chiffres de population.
 
-* For actual (real) segment population data (real-time and total), [!UICONTROL Segment Builder] updates the segment graph automatically when you load an existing segment. Pour les nouveaux segments ou lorsque vous ajoutez de nouvelles caractéristiques à un segment existant, les données de population réelles ne sont pas mises à jour avant 24 heures après la création du segment.
+* Pour les données de population de segments réelles (réelles) (en temps réel et total), [!UICONTROL Segment Builder] met à jour le graphique de segments automatiquement lorsque vous chargez un segment existant. Pour les nouveaux segments ou lorsque vous ajoutez de nouvelles caractéristiques à un segment existant, les données de population réelles ne sont mises à jour que 24 heures après la création du segment.
 
 ![](assets/segment-data.png)
 
-Consultez les définitions ci-dessous pour plus d'informations sur les données de population de segments estimées et réelles.
+Voir les définitions ci-dessous pour plus d’informations sur les données de population de segments estimées et réelles.
 
-## Estimated Segment Population Data Defined {#estimated-segment-population}
+## Estimation des données de population de segments définies {#estimated-segment-population}
 
-Le tableau suivant définit les mesures de population estimée.
+Le tableau suivant définit les mesures de population estimées.
 
 <table id="table_B24503F372E34B6BBDF5204181701A59"> 
  <thead> 
@@ -73,31 +73,31 @@ Le tableau suivant définit les mesures de population estimée.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Estimation réelle - Population de temps (potentielle) </span> </p> </td> 
-   <td colname="col2"> <p>Nombre estimé de visiteurs uniques vus en temps réel pour la période spécifiée et qui ont été qualifiés pour le segment au moment où ils ont été vus par Audience Manager. </p> <p>In <span class="wintitle"> Segment Builder</span>, the last 30-day populations for traits (<span class="wintitle"> Total Trait Populations</span>), can be different for traits and segments evaluated in real-times. </p> <p>
+   <td colname="col1"> <p> <span class="wintitle"> Estimation de la population en temps réel (potentielle) </span> </p> </td> 
+   <td colname="col2"> <p>Nombre estimé de visiteurs uniques vus en temps réel pendant la période spécifiée et qualifiés pour le segment au moment où ils ont été vus par Audience Manager. </p> <p>Dans <span class="wintitle"> le créateur</span>de segments, les 30 derniers jours de populations pour les caractéristiques (<span class="wintitle"> Total des populations</span>de caractéristiques) peuvent être différents pour les caractéristiques et les segments évalués en temps réel. </p> <p>
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
-      <li id="li_3E64330D6F5B4D2F8F3456730A86894F">Pour les caractéristiques, la mesure de 30 derniers jours compte le nombre d'utilisateurs uniques qui ont qualifié cette caractéristique au cours des 30 derniers jours. </li>
-      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Pour les segments évalués en temps réel, la mesure de 30 derniers jours comptabilise le nombre d'utilisateurs qui ont qualifié une caractéristique (dans ce segment) à un moment donné et ont été remarqués de nouveau par Audience Manager au cours des 30 derniers jours. Supposons, par exemple, que vous ayez un utilisateur qui a qualifié une caractéristique il y a 60 jours et ait été vu de nouveau il y a 10 jours. Dans les données, cet utilisateur n'est pas ajouté au nombre de caractéristiques parce qu'il a préalablement qualifié la caractéristique il y a plus de 30 jours. Toutefois, elles seront incluses au dernier nombre de 30 jours pour les segments évalués en temps réel. Cela est dû au fait qu'ils ont qualifié le segment dans l'intervalle de 30 jours. </li>
-     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Real-Time Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> device graph option</a>. </p> </p> </td> 
+      <li id="li_3E64330D6F5B4D2F8F3456730A86894F">Pour les caractéristiques, la dernière mesure de 30 jours compte le nombre d’utilisateurs uniques qui se sont qualifiés pour cette caractéristique au cours des 30 derniers jours. </li>
+      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Pour les segments évalués en temps réel, la mesure des 30 derniers jours comptabilise le nombre d’utilisateurs qui se sont qualifiés pour une caractéristique (dans ce segment) à un moment donné dans le passé et qui ont été de nouveau vus par Audience Manager au cours des 30 derniers jours. Par exemple, supposons qu’un utilisateur se soit qualifié pour une caractéristique il y a 60 jours et qu’il ait été de nouveau vu il y a 10 jours. Dans les données, cet utilisateur ne sera pas ajouté au nombre de caractéristiques car il s’est qualifié pour la caractéristique il y a plus de 30 jours. Toutefois, ils seront inclus dans le décompte des 30 derniers jours pour les segments évalués en temps réel. En effet, ils se sont qualifiés pour le segment dans l’intervalle de 30 jours. </li>
+     </ul> </p> <p> <p>Remarque : La mesure <span class="wintitle"> Estimation de la population</span> en temps réel n’inclut pas les périphériques qui se sont qualifiés pour un segment en fonction des connexions fournies par une règle <span class="wintitle"> de fusion de</span> profil qui utilise une option <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> de graphique de</a>périphérique. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Population totale estimée (potentielle)</span> </p> </td> 
-   <td colname="col2"> <p>Nombre estimé de visiteurs uniques qui peuvent se trouver dans votre segment nouveau ou modifié. Comme pour la quasi-totalité des estimations, les performances antérieures ne garantissent pas les résultats futurs, mais vous pouvez utiliser le total estimé pour : </p> <p> 
+   <td colname="col1"> <p> <span class="wintitle"> Estimation de la population totale (potentielle)</span> </p> </td> 
+   <td colname="col2"> <p>Nombre estimé de visiteurs uniques susceptibles d’appartenir à votre segment nouveau ou modifié. Comme pour presque toute estimation, les performances passées ne garantissent pas les résultats futurs, mais vous pouvez utiliser le total estimé pour : </p> <p> 
      <ul id="ul_0490DD08C7C8493DADFB11B5872A73BC"> 
-      <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">Déterminez combien de personnes un segment nouveau ou révisé peut atteindre lorsque vous créez un segment. </li> 
-      <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">Ajustez le segment en fonction de vos objectifs. Par exemple, les grands segments sont utiles pour les campagnes de sensibilisation de la marque et les segments plus petits sont utiles pour cibler ou cibler les campagnes. </li> 
-     </ul> </p> <p> <p>Note: The <span class="wintitle"> Estimated Total Population</span> metric does not include devices that have qualified for a segment based on connections provided by a <span class="wintitle"> Profile Merge Rule</span> that uses a <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> device graph option</a>. </p> </p> </td> 
+      <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">Déterminer le nombre de personnes qu’un segment nouveau ou révisé peut atteindre lorsque vous créez un segment. </li> 
+      <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">Ajustez le segment en fonction de vos objectifs. Par exemple, les segments volumineux sont utiles pour les campagnes de sensibilisation à la marque et les segments plus petits sont utiles pour le ciblage ciblé ou le reciblage des campagnes. </li> 
+     </ul> </p> <p> <p>Remarque : La mesure Population <span class="wintitle"> totale</span> estimée n’inclut pas les périphériques qui se sont qualifiés pour un segment en fonction des connexions fournies par une règle <span class="wintitle"> de fusion de</span> profil qui utilise une option <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> de graphique de</a>périphérique. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Existing (Actual) Segment Population Data Defined {#existing-segment-population}
+## Définition des données de population de segments existantes (réelles) {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] affectent le nombre réel réel de population et de chiffres réels. These totals vary depending on if the [!UICONTROL Profile Merge Rule] a segment belongs to uses a device graph option or not. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] influent sur le nombre réel en temps réel et total de la population. Ces totaux varient selon que le segment appartient ou non à [!UICONTROL Profile Merge Rule] une option de graphique de périphérique. Voir aussi Définition [des options des règles de fusion](../../features/profile-merge-rules/merge-rule-definitions.md)de profil.
 
-### Données de population de segments pour les règles de fusion sans option graphique de périphérique
+### Segmenter les données de population pour les règles de fusion sans option graphique de périphérique
 
-The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created without a device graph option. These are the device options settings **[!UICONTROL No Device Options]** and **[!UICONTROL Current Device Proflie]**.
+Le tableau suivant définit les mesures réelles de temps réel et de population totale lorsque vos segments sont utilisés par une [!UICONTROL Profile Merge Rule] création sans option de graphique de périphérique. Il s’agit des paramètres des options de l’appareil **[!UICONTROL No Device Options]** et **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -108,23 +108,23 @@ The following table defines the actual real-time and total population metrics wh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Réel - Population temporelle (existante)</span> </p> </td> 
-   <td colname="col2"> <p>Nombre réel de visiteurs uniques vus en temps réel pour la période spécifiée et qui ont été qualifiés pour le segment au moment où ils ont été vus par Audience Manager. </p> <p>In <span class="wintitle"> Segment Builder</span>, the last 30-day populations for traits (<span class="wintitle"> Total Trait Populations</span>), can be different for traits and segments evaluated in real-time. </p> <p> 
+   <td colname="col1"> <p> <span class="wintitle"> Population en temps réel (existante)</span> </p> </td> 
+   <td colname="col2"> <p>Nombre réel de visiteurs uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par Audience Manager. </p> <p>Dans <span class="wintitle"> le créateur</span>de segments, les 30 derniers jours de populations pour les caractéristiques (<span class="wintitle"> Total des populations</span>de caractéristiques) peuvent être différents pour les caractéristiques et les segments évalués en temps réel. </p> <p> 
      <ul id="ul_50D1528DDDF347858F17DA3C033B0E3F"> 
-      <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">Pour les caractéristiques, la mesure de 30 derniers jours compte le nombre d'utilisateurs uniques qui ont qualifié cette caractéristique au cours des 30 derniers jours. </li> 
-      <li id="li_1519068CBB1445E893657D12E8FE42AC">Pour les segments évalués en temps réel, la mesure de 30 derniers jours comptabilise le nombre d'utilisateurs qui ont qualifié une caractéristique (dans ce segment) à un moment donné et ont été remarqués de nouveau par Audience Manager au cours des 30 derniers jours. Supposons, par exemple, que vous ayez un utilisateur qui a qualifié une caractéristique il y a 60 jours et ait été vu de nouveau il y a 10 jours. Dans les données, cet utilisateur n'est pas ajouté au nombre de caractéristiques parce qu'il a préalablement qualifié la caractéristique il y a plus de 30 jours. Toutefois, elles seront incluses au dernier nombre de 30 jours pour les segments évalués en temps réel. Cela est dû au fait qu'ils ont qualifié le segment dans l'intervalle de 30 jours. </li> 
+      <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">Pour les caractéristiques, la dernière mesure de 30 jours compte le nombre d’utilisateurs uniques qui se sont qualifiés pour cette caractéristique au cours des 30 derniers jours. </li> 
+      <li id="li_1519068CBB1445E893657D12E8FE42AC">Pour les segments évalués en temps réel, la mesure des 30 derniers jours comptabilise le nombre d’utilisateurs qui se sont qualifiés pour une caractéristique (dans ce segment) à un moment donné dans le passé et qui ont été de nouveau vus par Audience Manager au cours des 30 derniers jours. Par exemple, supposons qu’un utilisateur se soit qualifié pour une caractéristique il y a 60 jours et qu’il ait été de nouveau vu il y a 10 jours. Dans les données, cet utilisateur ne sera pas ajouté au nombre de caractéristiques car il s’est qualifié pour la caractéristique il y a plus de 30 jours. Toutefois, ils seront inclus dans le décompte des 30 derniers jours pour les segments évalués en temps réel. En effet, ils se sont qualifiés pour le segment dans l’intervalle de 30 jours. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Population totale (existante)</span> </p> </td> 
-   <td colname="col2"> <p>nombre réel de visiteurs uniques qui étaient qualifiés pour le segment depuis hier. </p> </td> 
+   <td colname="col2"> <p>Nombre réel de visiteurs uniques qualifiés pour le segment à partir d’hier. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Données de population de segments pour la fusion des règles avec une option Graphique de périphérique
+### Segmenter les données de population pour les règles de fusion avec une option graphique de périphérique
 
-The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a device graph option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] device graph, and other third-party device graph choices that are available to you.
+Le tableau suivant définit les mesures réelles de temps réel et de population totale lorsque vos segments sont utilisés par une option de graphique de périphérique [!UICONTROL Profile Merge Rule] créée avec une option de graphique de périphérique. Il s’agit des paramètres d’options du périphérique pour le graphique [!UICONTROL Profile Link Device Graph], le graphique [!DNL Adobe] du périphérique et d’autres options de graphiques de périphérique tiers disponibles.
 
 <table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
  <thead> 
@@ -135,26 +135,26 @@ The following table defines the actual real-time and total population metrics wh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Réel - Population temporelle (existante)</span> </p> </td> 
-   <td colname="col2"> <p>The actual number of devices seen in real-time with current profiles that, when merged with up to 3-other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by <span class="keyword"> Audience Manager</span>. </p> </td>
+   <td colname="col1"> <p> <span class="wintitle"> Population en temps réel (existante)</span> </p> </td> 
+   <td colname="col2"> <p>Nombre réel de périphériques affichés en temps réel avec les profils actuels qui, lorsqu’ils sont fusionnés avec jusqu’à 3 autres profils de périphériques connectés par le graphique de périphériques, contiennent les caractéristiques permettant de qualifier le segment au moment où il a été vu par <span class="keyword"> Audience Manager</span>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Population totale (existante)</span> </p> </td> 
-   <td colname="col2"> <p>Nombre total de périphériques avec des profils qui, lorsqu'ils sont fusionnés avec trois autres profils de périphérique connectés par le graphique de l'appareil, ont tous été qualifiés pour le segment. </p> </td>
+   <td colname="col2"> <p>Nombre total de périphériques avec des profils qui, lorsqu’ils étaient fusionnés avec 3 autres profils de périphériques connectés par le graphique de périphériques, étaient tous qualifiés pour le segment. </p> </td>
   </tr>
  </tbody>
 </table>
 
-### Limites en raison de la récence et des expressions de fréquence lors de l'estimation des populations de segment
+### Restrictions liées aux expressions de récence et de fréquence lors de l’estimation des populations de segments
 
-[!UICONTROL Segment Builder] prend en charge les estimations de taille de segment pour les règles de segmentation qui contiennent jusqu'à 4 expressions de récence et de fréquence. Si vous choisissez plus de 4 expressions de récence et de fréquence lors de la création d'une règle de segment, l'estimateur de segment affiche une erreur lors de l'estimation de la population.
+[!UICONTROL Segment Builder] prend en charge les estimations de la taille des segments pour les règles de segment qui contiennent jusqu’à 4 expressions de récence et de fréquence. Si vous choisissez plus de 4 expressions de récence et de fréquence lors de la création d’une règle de segmentation, l’estimateur de segments affiche une erreur lors de l’estimation de la population.
 
-### Limites dues à la fusion des règles lors de l'estimation des populations de segments
+### Limites dues aux règles de fusion lors de l’estimation des populations de segments
 
-Actuellement, il existe une limite connue car notre estimateur de taille de segment ne tient pas compte des règles de fusion de profils. For example, look at segments with the **No Authenticated Profile + Current Device Profile** [merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). Du fait de la façon dont nous calculons actuellement les chiffres d'estimation des segments, les populations estimées incluent les profils authentifiés. Toutefois, les populations de segments existantes ignorent correctement les profils authentifiés.
+Actuellement, il existe une limitation connue car notre estimateur de taille de segment ne tient pas compte des règles de fusion de profil. Par exemple, examinez les segments avec la règle **** Pas de profil authentifié + Profil[de périphérique actuel](../../features/profile-merge-rules/merge-rule-definitions.md)fusionnant. En raison de la façon dont nous calculons actuellement les chiffres d’estimation des segments, les populations estimées incluront des profils authentifiés. Toutefois, les populations de segments existantes ignoreront correctement les profils authentifiés.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [FAQ sur la fusion des profils et le graphique des périphériques](../../faq/faq-profile-merge.md)
+>* [FAQ sur les règles de fusion de profils et le graphique de périphériques](../../faq/faq-profile-merge.md)
 >* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
 
