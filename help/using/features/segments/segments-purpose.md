@@ -1,54 +1,54 @@
 ---
-description: Décrit les segments, leurs parties constituantes et la création de règles avec le créateur de segments.
-seo-description: Décrit les segments, leurs parties constituantes et la création de règles avec le créateur de segments.
-seo-title: Finalité des segments, composition et règles
+description: Décrit les segments, leurs parties constitutives et la création de règles avec le créateur de segments.
+seo-description: Décrit les segments, leurs parties constitutives et la création de règles avec le créateur de segments.
+seo-title: Objectif, composition et règles des segments
 solution: Audience Manager
-title: Finalité des segments, composition et règles
-uuid: 886 d 4 abe-b 1 b 6-4983-b 4 fb-b 552 d 54 d 51 ba
+title: Objectif, composition et règles des segments
+uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
 source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
 
-# Segments: Purpose, Composition, and Rules {#segments-purpose-composition-and-rules}
+# Segments : Objectif, composition et règles {#segments-purpose-composition-and-rules}
 
-Describes segments, their constituent parts, and rule creation with [!UICONTROL Segment Builder].
+Décrit les segments, leurs parties constitutives et la création de règles avec [!UICONTROL Segment Builder].
 
 ## Objectif des segments
 
-A *`segment`* (or an *`audience`*) is a set of users who share common attributes. Dans Audience Manager, vous créez des segments avec des règles côté serveur. Ces règles vous permettent de créer des groupes d'audiences en fonction des attributs des visiteurs du site tels que :
+Un *`segment`* (ou un *`audience`*) est un ensemble d’utilisateurs qui partagent des attributs communs. Dans Audience Manager, vous créez des segments avec des règles côté serveur. Ces règles permettent de créer des groupes d’audiences en fonction des attributs des visiteurs du site, tels que :
 
 * Comportement;
 * Données démographiques (âge, sexe, revenu, etc.);
-* Autres caractéristiques que vous pouvez définir dans l'interface utilisateur.
+* Autres caractéristiques que vous pouvez définir dans l’interface utilisateur.
 
 ## Composition de segment
 
-Un segment Audience Manager est une règle côté serveur qui consiste en une personne ou des groupes de caractéristiques. Les caractéristiques sont composées d'éléments de données appelés paires clé-valeur. Outre les règles que vous définissez au niveau du segment, ces paires clé-valeur contiennent les critères qui qualifient les visiteurs pour l'appartenance aux caractéristiques et aux segments.
+Un segment Audience Manager est une règle côté serveur qui se compose de caractéristiques individuelles ou de groupes de caractéristiques. Les caractéristiques sont composées d’éléments de données appelés paires clé-valeur. Outre les règles que vous définissez au niveau du segment, ces paires clé-valeur contiennent les critères qui permettent aux visiteurs de bénéficier d’une caractéristique et d’une appartenance à un segment.
 
-## Remarques sur le mappage des segments Adobe Analytics
+## Remarques sur le mappage des segments dans Adobe Analytics
 
-Lors du mappage des segments ou des suites de rapports Adobe Analytics à votre organisation Experience Cloud, Audience Manager crée automatiquement des segments et caractéristiques en lecture seule correspondants. Vous ne pouvez pas modifier ni modifier l'emplacement de stockage de ces segments à partir d'Audience Manager. Toutefois, toute modification que vous effectuez sur vos segments ou suites de rapports mappés est répercutée dans Audience Manager.
+Lors du mappage de segments ou de suites de rapports Adobe Analytics avec votre organisation Experience Cloud, Audience Manager crée automatiquement de nouveaux segments et caractéristiques correspondants en lecture seule. Vous ne pouvez pas modifier ni modifier l’emplacement de stockage de ces segments à partir d’Audience Manager. Toutefois, toute modification que vous apportez à vos segments ou suites de rapports Adobe Analytics mappés est répercutée dans Audience Manager.
 
 >[!TIP]
 >
->Audience Manager segments are different from [!DNL Adobe Analytics] segments. Read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.
+>Les segments d’Audience Manager sont différents des [!DNL Adobe Analytics] segments. Consultez [Compréhension des segments dans Analytics et Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) pour obtenir une description détaillée des différences.
 
 ## Création de segments basés sur des règles avec le créateur de segments
 
-Contrairement aux pixels traditionnels qui se déclenchent en réponse à des conditions simples oui/aucune, le créateur de segments vous permet de créer des exigences de segment complexes. Like traits, segments evaluate data using [!DNL Boolean] expressions ([!DNL AND], [!DNL OR], [!DNL NOT]), comparison operators (greater than, less than, equal to, etc.), and recency/frequency criteria. Ces fonctionnalités permettent de créer des segments d'audience orientés vers vos besoins.
+Contrairement aux pixels traditionnels qui se déclenchent en réponse à de simples conditions oui/non, le créateur de segments vous permet de créer des exigences de segment complexes. Comme les caractéristiques, les segments évaluent les données à l’aide [!DNL Boolean] d’expressions ([!DNL AND], [!DNL OR], [!DNL NOT]), d’opérateurs de comparaison (supérieur, inférieur, égal à, etc.) et de critères de récence/fréquence. Ces fonctionnalités permettent de créer des segments d’audience ciblés correspondant aux besoins de votre entreprise.
 
 ## Avantages
 
-Les segments améliorent les processus standard de création/segmentation d'audiences en pixels, car ils vous permettent :
+Les segments s’améliorent avec les processus standard de création/segmentation d’audience basés sur les pixels, car ils vous permettent d’effectuer les opérations suivantes :
 
-* Créez des segments pertinents et pertinents avec des caractéristiques propriétaires et tierces.
-* Créez des règles de segmentation complexes et complexes avec des opérateurs booléens, des expressions de comparaison et des critères récence/fréquence.
+* Créez des segments pertinents et utiles avec des caractéristiques propriétaires et tiers.
+* Créez des règles de segmentation complexes et sophistiquées avec des opérateurs booléens, des expressions de comparaison et des critères de récence/fréquence.
 * Envoyez des données de segment à un partenaire de destination.
 * Surveillez les performances avec les rapports Audience Manager.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Signaux, caractéristiques et segments](../../reference/signal-trait-segment.md)
 
