@@ -1,10 +1,10 @@
 ---
-description: Dans Audience Manager, nous sommes ingénieurs, développeurs et code ninjas comme vous. Et, comme vous, nous souhaitons utiliser la documentation d'API fiable et fiable. Par conséquent, nous réécriture de notre contenu API dans Swagger et le déplacement vers un nouvel emplacement. Ces modifications visent à améliorer votre expérience grâce au code de l'API Audience Manager.
-seo-description: Dans Audience Manager, nous sommes ingénieurs, développeurs et code ninjas comme vous. Et, comme vous, nous souhaitons utiliser la documentation d'API fiable et fiable. Par conséquent, nous réécriture de notre contenu API dans Swagger et le déplacement vers un nouvel emplacement. Ces modifications visent à améliorer votre expérience grâce au code de l'API Audience Manager.
-seo-title: Migration du code de l'API Audience Manager
+description: Ici, chez Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une documentation API fiable et précise. Par conséquent, nous réécrivons le contenu de notre API dans Swagger et le déplaçons vers un nouvel emplacement. Ces modifications sont conçues pour vous aider à améliorer votre expérience avec le code API d’Audience Manager.
+seo-description: Ici, chez Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une documentation API fiable et précise. Par conséquent, nous réécrivons le contenu de notre API dans Swagger et le déplaçons vers un nouvel emplacement. Ces modifications sont conçues pour vous aider à améliorer votre expérience avec le code API d’Audience Manager.
+seo-title: Migration du code API d’Audience Manager
 solution: Audience Manager
-title: Migration du code de l'API Audience Manager
-uuid: 93 cc 28 c 4-4 b 91-4 c 79-93 d 5-ece 9 bb 4 cc 9 d 5
+title: Migration du code API d’Audience Manager
+uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 translation-type: tm+mt
 source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
@@ -13,13 +13,13 @@ source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
 # Audience Manager API Code Migration {#audience-manager-api-code-migration}
 
-Dans Audience Manager, nous sommes ingénieurs, développeurs et code ninjas comme vous. And, like you, we want to work with reliable, accurate [!DNL API] documentation. As a result, we're re-writing our [!DNL API] content in [!DNL Swagger] and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager [!DNL API] code.
+Ici, chez Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une [!DNL API] documentation fiable et précise. Par conséquent, nous réécrivons notre [!DNL API] contenu [!DNL Swagger] et le déplaçons vers un nouvel emplacement. Ces modifications sont conçues pour vous aider à améliorer votre expérience avec le code Audience Manager [!DNL API] .
 
-## Movin' On Up {#code-migration-details}
+## Monter {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) site is the new home for our revised [!DNL API] content. We'll try to re-write and move a few sets of [!DNL API] methods with each release. This means you'll have to check in both the new location and the [REST API](../api/rest-api-main/rest-api-main.md) documentation to find all of the available methods. Eventually, all of the public [!DNL API]s will be on the [!DNL Audience Manager] [!DNL API] docs site. The following table lists the revised and migrated [!DNL API]s.
+Le site Docs [de l’API](https://bank.demdex.com/portal/swagger/index.html) Adobe Audience Manager constitue le nouvel accueil pour notre [!DNL API] contenu révisé. Nous essayerons de réécrire et de déplacer quelques ensembles de [!DNL API] méthodes avec chaque version. Cela signifie que vous devrez vérifier le nouvel emplacement et la documentation de l’API [](../api/rest-api-main/rest-api-main.md) REST pour trouver toutes les méthodes disponibles. A terme, tous les publics [!DNL API]seront sur le site des [!DNL Audience Manager] [!DNL API] documents. Le tableau suivant répertorie les [!DNL API]versions révisées et migrées.
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
@@ -39,8 +39,8 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
      <ul id="ul_4CFB3FAAC0B04E5AADD80E7D7FAF2722"> 
       <li id="li_50EE5F6B2278480E9FEA04AD51664F9D"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_API" format="https" scope="external"> Flux de données</a> </li> 
       <li id="li_5D372E3819014AB78C12048A9A2DC89F"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Request_API/" format="https" scope="external"> Demande de flux de données</a> </li> 
-      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> Finance Feed Finance</a> </li> 
-      <li id="li_C1C1CB42D6A74803B4672F6EE2D2D08C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Plans_API" format="https" scope="external"> Plans de flux de données</a> </li> 
+      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> Data Feed Finance</a> </li> 
+      <li id="li_C1C1CB42D6A74803B4672F6EE2D2D08C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Plans_API" format="https" scope="external"> Formules de flux de données</a> </li> 
       <li id="li_D8F9D791D0824287B9D0B0585E3106AB"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Subscription_API" format="https" scope="external"> Abonnements aux flux de données</a> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -68,8 +68,8 @@ The [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/ind
    <td colname="col2"> <p> 
      <ul id="ul_098B0655653D4846B70349A35A055C19"> 
       <li id="li_41A3003BF41147969BC88D4F12A5C1BB"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segments_API" format="https" scope="external"> Segments</a> </li> 
-      <li id="li_22A858D377634D88AE58BE2CE924169C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Test_Group_API/" format="https" scope="external"> Groupes de test de segments</a> </li> 
-      <li id="li_2B505A1B43CF4B29A0336106C321E7FD"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Test_Group_Draft_API/" format="https" scope="external"> API de brouillon du groupe de tests de segment</a> </li> 
+      <li id="li_22A858D377634D88AE58BE2CE924169C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Test_Group_API/" format="https" scope="external"> Groupes de tests de segments</a> </li> 
+      <li id="li_2B505A1B43CF4B29A0336106C321E7FD"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Test_Group_Draft_API/" format="https" scope="external"> API de brouillon de groupe de tests de segments</a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
