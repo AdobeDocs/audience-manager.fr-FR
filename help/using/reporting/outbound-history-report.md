@@ -1,19 +1,19 @@
 ---
-description: Affichez les informations d'historique des tâches par lots sortantes pour une période et une période spécifiées.
-seo-description: Affichez les informations d'historique des tâches par lots sortantes pour une période et une période spécifiées.
+description: Affichez les informations de l'historique des tâches par lot sortantes pour une destination et une période spécifiées.
+seo-description: Affichez les informations de l'historique des tâches par lot sortantes pour une destination et une période spécifiées.
 seo-title: Historique des fichiers sortants
 solution: Audience Manager
 title: Historique des fichiers sortants
-uuid: 3621 a 59 d -2 bb 5-4828-86 f 6-4 c 9 bfa 580764
+uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# Outbound File History {#outbound-file-history}
+# Historique des fichiers sortants {#outbound-file-history}
 
-Affichez les informations d'historique des tâches par lots sortantes pour une période et une période spécifiées.
+Affichez les informations de l'historique des tâches par lot sortantes pour une destination et une période spécifiées.
 
 <!-- 
 
@@ -23,12 +23,12 @@ t_reports_outbound_history.xml
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
 
-   ![Résultat de l'étape](assets/outbound_history.png)
+   ![Résultat de l’étape](assets/outbound_history.png)
 
-1. In the **[!UICONTROL Search for a Destination]** box, start typing and select the desired destination.
-1. In the **[!UICONTROL Select a Date Range]** box, specify the start and end dates for your report, then click **[!UICONTROL Apply Date Filter]**.
+1. Dans la **[!UICONTROL Search for a Destination]** zone, commencez à taper et sélectionnez la destination souhaitée.
+1. Dans la **[!UICONTROL Select a Date Range]** zone, indiquez les dates de début et de fin du rapport, puis cliquez sur **[!UICONTROL Apply Date Filter]**.
 
-   ![Résultat de l'étape](assets/outbound_history_stats.png)
+   ![Résultat de l’étape](assets/outbound_history_stats.png)
 
    Le tableau suivant contient des informations correspondant aux colonnes du rapport :
 
@@ -41,20 +41,20 @@ t_reports_outbound_history.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Fichier de synchronisation des données - nom </td> 
-   <td colname="col2"> <p>List of all outbound files that <span class="keyword"> Adobe</span> generated for this destination that were processed together. </p> </td> 
+   <td colname="col1"> Nom du fichier de synchronisation des données </td> 
+   <td colname="col2"> <p>Liste de tous les fichiers sortants générés par <span class="keyword"> Adobe</span> pour cette destination et qui ont été traités ensemble. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Réussi </td> 
-   <td colname="col2"> <p>Number of records that were successfully sent from <span class="keyword"> Audience Manager</span> to the destination. </p> </td> 
+   <td colname="col1"> Réussite </td> 
+   <td colname="col2"> <p>Nombre d’enregistrements qui ont été correctement envoyés depuis <span class="keyword"> Audience Manager</span> vers la destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Echec </td> 
-   <td colname="col2"> <p>Nombre d'enregistrements qui n'ont pas pu être envoyés à la destination. </p> </td> 
+   <td colname="col2"> <p>Nombre d’enregistrements qui n’ont pas pu être envoyés vers la destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enregistrements reçus </td> 
-   <td colname="col2"> <p>Total number of records <span class="keyword"> Adobe</span> generated in the files and attempted to send to the destination. Dans la plupart des cas, il doit s'agir du nombre total de fichiers réussis et d'échecs de fichiers. </p> </td> 
+   <td colname="col2"> <p>Nombre total d’enregistrements qu’Adobe <span class="keyword"></span> a générés dans les fichiers et tenté d’envoyer à la destination. Dans la plupart des cas, il doit s’agir du nombre total de fichiers réussis et ayant échoué. </p> </td> 
   </tr> 
  </tbody> 
 </table>
