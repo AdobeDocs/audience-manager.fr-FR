@@ -1,30 +1,30 @@
 ---
-description: Les clients du service d'ID doivent se référer à cette section pour savoir comment lire le cookie visiteur pour les ID requis pour effectuer des appels d'API DCS.
-seo-description: Les clients du service d'ID doivent se référer à cette section pour savoir comment lire le cookie visiteur pour les ID requis pour effectuer des appels d'API DCS.
-seo-title: Obtention de l'utilisateur - Identifiants et régions via le service Experience Cloud ID
+description: Les clients du service d’ID doivent consulter cette section pour savoir comment lire le cookie visiteur pour connaître les ID requis pour effectuer des appels à l’API DCS.
+seo-description: Les clients du service d’ID doivent consulter cette section pour savoir comment lire le cookie visiteur pour connaître les ID requis pour effectuer des appels à l’API DCS.
+seo-title: Obtention des ID utilisateur et des régions via le service d’ID Experience Cloud
 solution: Audience Manager
-title: Obtention de l'utilisateur - Identifiants et régions via le service Experience Cloud ID
-uuid: 80 de 6 cf 2-5 d 9 e -4 ef 8-a 0 f 2-d 53 b 5 d 574 c 89
+title: Obtention des ID utilisateur et des régions via le service d’ID Experience Cloud
+uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Get User IDs and Regions Through the Experience Cloud ID Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Obtention des ID utilisateur et des régions via le service d’ID Experience Cloud {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
-ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make [!UICONTROL DCS] API calls.
+Les clients du service d’ID doivent consulter cette section pour savoir comment lire le cookie visiteur pour connaître les ID requis pour effectuer des appels [!UICONTROL DCS] d’API.
 
-## Get the User ID from the ID Service Cookie {#get-user-ids-from-service-cookie}
+## Obtention de l’ID utilisateur à partir du cookie du service d’ID {#get-user-ids-from-service-cookie}
 
-The [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/) assigns visitor and region IDs to users who come to your website. These IDs identify users across all the solutions in the [!DNL Experience Cloud] and they are required if you want to make [!UICONTROL DCS] calls.
+Le service [d’ID](https://marketing.adobe.com/resources/help/en_US/mcvid/) Experience Cloud attribue des identifiants de visiteur et de région aux utilisateurs qui se rendent sur votre site Web. Ces identifiants identifient les utilisateurs dans toutes les solutions du [!DNL Experience Cloud] et ils sont nécessaires si vous souhaitez effectuer des [!UICONTROL DCS] appels.
 
-* The [!UICONTROL user ID] is required to identify and associate data with a particular visitor.
-* The [!UICONTROL region ID] is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. Voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (DCS Region IDs, Locations, and Host Names).
+* Le [!UICONTROL user ID] est requis pour identifier et associer des données à un visiteur particulier.
+* La [!UICONTROL region ID] valeur est requise car elle est liée à un nom de serveur régional, auquel vous devez envoyer des données au [!UICONTROL DCS]. Il [!UICONTROL DCS] stocke les informations dans les centres de données qui sont géographiquement les plus proches des visiteurs du site. Voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (DCS Region IDs, Locations, and Host Names).
 
-Les clients du service d'ID peuvent extraire ces informations du cookie du service d'ID ou en appelant une fonction. Le tableau ci-dessous décrit les tâches ou les étapes que vous devez effectuer pour commencer.
+Les clients du service d’ID peuvent extraire ces informations du cookie du service d’ID ou en appelant une fonction. Le tableau ci-dessous décrit les tâches ou les étapes à effectuer pour commencer.
 
-Code in *italics* represents a variable placeholder.
+Le code en *italique* représente un espace réservé de variable.
 
 <table id="table_660EBE1C24DD4FBE9DCE5191836C9135"> 
  <thead> 
@@ -35,38 +35,38 @@ Code in *italics* represents a variable placeholder.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. Check your <span class="keyword"> Experience Cloud</span> status</b> </p> </td> 
-   <td colname="col2"> <p>You need a <span class="keyword"> Experience Cloud</span> account to use the ID service. If you have a <span class="keyword"> Experience Cloud</span> account, great! </p> <p> If you're not part of the <span class="keyword"> Experience Cloud</span>, then sign up. Nous aimerions que vous disposiez d'une place pour plus d'espace. For instructions on how to set up an account, see <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services.html" format="https" scope="external"> Core Services - Enabling Your Solutions</a>. </p> </td> 
+   <td colname="col1"> <p> <b>1. Vérifiez votre état <span class="keyword"> Experience Cloud</span> .</b> </p> </td> 
+   <td colname="col2"> <p>Vous avez besoin d’un compte <span class="keyword"> Experience Cloud</span> pour utiliser le service d’ID. Si vous avez un compte <span class="keyword"> Experience Cloud</span> , super ! </p> <p> Si vous ne faites pas partie d’ <span class="keyword"> Experience Cloud</span>, inscrivez-vous. Nous aimerions vous avoir et il y a toujours de la place pour plus. Pour plus d’informations sur la configuration d’un compte, voir <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services.html" format="https" scope="external"> Services principaux - Activation de vos solutions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. Set up the <span class="keyword"> ID service</span></b> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> ID service</span> consists of JavaScript code that gets put on each page you want to use for data collection. See the ID service <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="https" scope="external"> implementation guides</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Le service <span class="keyword"> d’</span> ID se compose du code JavaScript qui est placé sur chaque page à utiliser pour la collecte de données. Pour plus d’informations, consultez les guides <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html" format="https" scope="external"></a> de mise en oeuvre du service d’ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>3. Read the <span class="keyword"> ID service</span> cookie</b> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> ID service</span> stores the user and region ID in the AMCV cookie. The full cookie name is <code>AMCV_<i>###</i>@AdobeOrg</code>. <code><i>Les # # #</i></code> elements sont des espaces réservés pour votre ID d'organisation. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Parse le cookie AMCV pour ces paires clé-valeur : </p> <p> 
+   <td colname="col1"> <p> <b>3. Lire le cookie du service <span class="keyword"> d’</span> ID</b> </p> </td> 
+   <td colname="col2"> <p>Le service <span class="keyword"> d’</span> ID stocke l’ID utilisateur et l’ID de région dans le cookie AMCV. Le nom complet du cookie est <code>AMCV_<i>##</i>@AdobeOrg</code>. Les éléments <code><i>##</i></code> sont des espaces réservés pour l'ID d'organisation. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Parcourez le cookie AMCV pour les paires clé-valeur suivantes : </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
-      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid =<i>user - id</i></code>: Cette paire clé-valeur contient l'utilisateur <span class="keyword"> Experience Cloud</span> - id. </li> 
-      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh =<i>ID de région</i></code>: Cette paire clé-valeur contient l'identifiant de région (parfois appelé indicateur <span class="term"> d'emplacement</span>) associé à un nom de serveur régional. </li> 
-     </ul> </p> <p>You can make calls to the <span class="wintitle"> DCS</span> once you have the user and region IDs. </p> </td> 
+      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=ID<i></i></code>utilisateur : Cette paire clé-valeur contient l’ID utilisateur <span class="keyword"> Experience Cloud</span> . </li> 
+      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=ID<i>de</i></code>région : Cette paire clé-valeur contient l’identifiant de région (parfois appelé indicateur <span class="term"></span>d’emplacement) associé à un nom de serveur régional. </li> 
+     </ul> </p> <p>Vous pouvez appeler le <span class="wintitle"> DCS</span> une fois que vous disposez des ID d’utilisateur et de région. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>4. Retrieve the <span class="keyword"> Experience Cloud ID</span> with getMarketingCloudVisitorID</b> </p> </td> 
-   <td colname="col2"> <p><i>(Facultatif)</i> Cette fonction renvoie l'identifiant visiteur <span class="keyword"> Experience Cloud</span> . Il est conçu pour des solutions personnalisées et des cas d'utilisation spécifiques. See <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Working With getMarketingCloudVisitorID</a> below and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-getmcvid.html" format="https" scope="external"> related ID service documentation</a>. </p> <p>Vous n'avez pas besoin de l'utiliser si vous obtenez les ID d'utilisateur et d'emplacement à partir du cookie du service d'ID. </p> </td> 
+   <td colname="col1"> <p> <b>4. Récupérer l’ID <span class="keyword"> Experience Cloud</span> avec getMarketingCloudVisitorID</b> </p> </td> 
+   <td colname="col2"> <p><i>(Facultatif)</i> Cette fonction renvoie l’ <span class="keyword"> identifiant visiteur Experience Cloud</span> . Il est conçu pour des solutions personnalisées et des cas d’utilisation spécifiques. Voir <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Utilisation de getMarketingCloudVisitorID</a> ci-dessous et la documentation <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-getmcvid.html" format="https" scope="external"> du service d’ID</a>associé. </p> <p>Vous n’avez pas besoin de l’utiliser si vous obtenez les ID d’utilisateur et d’emplacement à partir du cookie du service d’ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Working With `getMarketingCloudVisitorID` {#working-with-getmarketingcloudvisitorid}
+## Utilisation de `getMarketingCloudVisitorID`{#working-with-getmarketingcloudvisitorid}
 
-Another way to get the visitor ID is with the `getMarketingCloudVisitorID` function. When invoked, this function queries the [!DNL ID service] and returns an ID. `getMarketingCloudVisitorID` accepte l'argument facultatif `callback` comme indiqué :
+La fonction permet également d’obtenir l’identifiant visiteur. `getMarketingCloudVisitorID` Lorsqu’elle est invoquée, cette fonction interroge le [!DNL ID service] serveur et renvoie un ID. `getMarketingCloudVisitorID` accepte l’ `callback` argument facultatif comme illustré ci-dessous :
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-### Callback Usage and Purpose {#callback-usage}
+### Utilisation et objectif du rappel {#callback-usage}
 
-`callback` est facultative. This function works without it, but returns an ID only when a visitor has a [!DNL Experience Cloud] cookie in their browser. If the visitor cookie is missing, or a visitor doesn't have an ID, the function returns an empty `()` object. Cela peut se produire même après le chargement de la page et un nouvel identifiant. To avoid this, `callback` forces this function to check for a visitor ID after the page loads. Without `callback`, the visitor ID function won't return an ID even if it's written to the visitor's browser later.
+`callback` est facultatif. Cette fonction fonctionne sans elle, mais renvoie un identifiant uniquement lorsqu’un visiteur a un [!DNL Experience Cloud] cookie dans son navigateur. Si le cookie du visiteur est manquant ou qu’un visiteur n’a pas d’identifiant, la fonction renvoie un `()` objet vide. Cela peut se produire même après le chargement de la page et la réception d’un nouvel identifiant par le visiteur. Pour éviter cela, `callback` cette fonction vérifie l’identifiant d’un visiteur une fois la page chargée. Sans `callback`cela, la fonction Identifiant visiteur ne renvoie pas d’identifiant même s’il est écrit dans le navigateur du visiteur ultérieurement.
 
 ## Étapes suivantes {#next-steps}
 
-Once you have the user and region ID, you can start sending and receiving [!UICONTROL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Une fois que vous disposez de l’utilisateur et de l’ID de région, vous pouvez commencer à envoyer et à recevoir [!UICONTROL DCS] des données. Voir [Création d’appels](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)d’API DCS.
