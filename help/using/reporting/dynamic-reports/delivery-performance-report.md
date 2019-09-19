@@ -1,17 +1,17 @@
 ---
 description: Renvoie des données au niveau du segment sur les impressions et les taux de clics publicitaires.
 seo-description: Renvoie des données au niveau du segment sur les impressions et les taux de clics publicitaires.
-seo-title: Rapport de remise et de performance
+seo-title: Rapport sur la livraison et les performances
 solution: Audience Manager
-title: Rapport de remise et de performance
-uuid: c 8 daa 6 bc -50 d 6-4 c 2 c-a 45 a -5 b 7065 fd 88 f 9
+title: Rapport sur la livraison et les performances
+uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Delivery and Performance Report{#delivery-and-performance-report}
+# Rapport sur la livraison et les performances{#delivery-and-performance-report}
 
 Renvoie des données au niveau du segment sur les impressions et les taux de clics publicitaires.
 
@@ -21,29 +21,29 @@ c_delivery_reports.xml
 
  -->
 
-The [!UICONTROL Delivery and Performance] report lets you evaluate how segments perform on different advertiser sites. En tant qu'outil d'optimisation, ce rapport vous aide à :
+Le [!UICONTROL Delivery and Performance] rapport vous permet d’évaluer les performances des segments sur différents sites d’annonceurs. En tant qu’outil d’optimisation, ce rapport vous aide à :
 
-* Identifiez les segments à performances élevées à réutiliser dans d'autres campagnes ou sur d'autres sites.
-* Recherchez et supprimez des segments des sites peu performants.
-* Analyser visuellement la taille d'impression et les taux de clics publicitaires.
+* Identifiez les segments à hautes performances en vue de leur réutilisation dans d’autres campagnes ou sur d’autres sites.
+* Recherchez et supprimez des segments de sites peu performants.
+* Analysez visuellement la taille d’impression du segment et les taux de clics publicitaires.
 
 >[!NOTE]
 >
->Les vues de 1 jour sont mises à jour quotidiennement. Les périodes de recherche de 7 jours et 30 jours sont mises à jour chaque semaine.
+>1 jour de consultations est mis à jour quotidiennement. Les périodes de 7 jours et de 30 jours sont mises à jour chaque semaine.
 
 ![](assets/deliveryAndPerformanceReportCapture.PNG)
 
-Sélectionnez un point individuel pour afficher les détails des données dans une fenêtre contextuelle. En outre, vous pouvez cliquer et faire glisser le curseur sur un groupe de points pour renvoyer des données sur ces éléments de données uniquement. Ces actions mettent automatiquement à jour les résultats du rapport.
+Sélectionnez un point pour afficher les détails des données dans une fenêtre contextuelle. Vous pouvez également cliquer et faire glisser le curseur sur un groupe de points pour renvoyer uniquement des données sur ces éléments de données. Ces actions mettent automatiquement à jour les résultats du rapport.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Amélioration des délais de traitement des fichiers journaux avec les tables de recherche](../../reporting/dynamic-reports/lookup-tables.md)
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
->* [Champs Pop et Performance de données définis](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
+>* [Définition des champs Pop de données de remise et de performances](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
 
-## Delivery and Performance Data Pop Fields Defined {#field-definitions}
+## Définition des champs Pop de données de remise et de performances {#field-definitions}
 
 Décrit les mesures affichées dans la fenêtre contextuelle lorsque vous cliquez sur un point de données individuel.
 
@@ -53,20 +53,20 @@ r_delivery_data_pop.xml
 
  -->
 
-La fenêtre contextuelle du rapport Livraison et performance contient les mesures suivantes :
+La fenêtre contextuelle du rapport Livraison et performances contient les mesures suivantes :
 
 | Mesure | Description |
 |---|---|
 | **[!UICONTROL Date Range Start]** | Date de début utilisée par le rapport. |
 | **[!UICONTROL Date Range End]** | Date de fin utilisée par le rapport. |
-| **[!UICONTROL Segment ID]** | Identifiant numérique unique pour ce segment. |
+| **[!UICONTROL Segment ID]** | ID numérique unique pour ce segment. |
 | **[!UICONTROL Segment Name]** | Nom du segment. |
 | **[!UICONTROL Clicks]** | Nombre de clics enregistrés pour ce segment. |
-| **[!UICONTROL Impressions]** | Nombre d'impressions enregistrées pour ce segment. |
+| **[!UICONTROL Impressions]** | Nombre d’impressions enregistrées pour ce segment. |
 | **[!UICONTROL Reach]** | Nombre de visiteurs uniques. |
 | **[!UICONTROL Click Through]** | Nombre de fois où un visiteur a cliqué sur une publicité. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Amélioration des délais de traitement des fichiers journaux avec les tables de recherche](../../reporting/dynamic-reports/lookup-tables.md)
 
