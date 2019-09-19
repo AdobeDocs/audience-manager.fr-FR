@@ -1,19 +1,19 @@
 ---
-description: Une requête en masse renvoie les données que vous pouvez utiliser avec les différents en-têtes dans les feuilles de calcul Mettre à jour, Créer, Estimation et Supprimer.
-seo-description: Une requête en masse renvoie les données que vous pouvez utiliser avec les différents en-têtes dans les feuilles de calcul Mettre à jour, Créer, Estimation et Supprimer.
-seo-title: Demandes en masse
+description: Une requête en masse renvoie des données que vous pouvez utiliser avec les différents en-têtes des feuilles de calcul Mettre à jour, Créer, Estimer et Supprimer.
+seo-description: Une requête en masse renvoie des données que vous pouvez utiliser avec les différents en-têtes des feuilles de calcul Mettre à jour, Créer, Estimer et Supprimer.
+seo-title: Demandes en bloc
 solution: Audience Manager
-title: Demandes en masse
-uuid: 0192 d 26 a -4 cea -4 e 12-9 fea -388 b 92 b 382 f 1
+title: Demandes en bloc
+uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Requests{#bulk-requests}
+# Demandes en bloc{#bulk-requests}
 
-Une requête en masse renvoie les données que vous pouvez utiliser avec les différents en-têtes dans les feuilles de calcul Mettre à jour, Créer, Estimation et Supprimer.
+Une requête en masse renvoie des données que vous pouvez utiliser avec les différents en-têtes des feuilles de calcul Mettre à jour, Créer, Estimer et Supprimer.
 
 <!-- 
 
@@ -23,25 +23,25 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Cet outil est fourni à titre de commodité uniquement. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Les permissions de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans [!DNL Audience Manager] l'interface utilisateur sont respectées dans l' [!UICONTROL Bulk Management Tools]interface.
+>Les variables ne [!UICONTROL Bulk Management Tools] sont pas *prises en charge par* [!DNL Audience Manager]. Cet outil est fourni à titre pratique et à titre de courtoisie seulement. Pour les modifications en masse, nous vous recommandons de travailler avec les API [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) à la place. [Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans [!UICONTROL Bulk Management Tools].
 
-The [!UICONTROL Request] worksheet does not have its own set of column headers and you don't need to copy IDs to any of the columns. Il renvoie plutôt des données sur la base du bouton d'action que vous cliquez sur la barre d'outils. De plus, une fonction de création de rapports facultative renvoie un nombre de fréquence pour les déclenchements de pixels et le nombre d'utilisateurs uniques pendant plusieurs intervalles fixes.
+La [!UICONTROL Request] feuille de calcul ne comporte pas son propre jeu d'en-têtes de colonne et vous n'avez pas besoin de copier des ID dans aucune des colonnes. Il renvoie plutôt des données en fonction du bouton d’action sur lequel vous cliquez dans la barre d’outils. En outre, une fonctionnalité facultative de création de rapports renvoie un nombre de fréquence pour les incendies de pixels et un nombre d’utilisateurs uniques pour plusieurs intervalles de temps fixes.
 
-To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and:
+Pour effectuer des requêtes en masse, ouvrez la [!UICONTROL Bulk Management Tools] feuille de calcul et procédez comme suit :
 
 1. Click the **[!UICONTROL Request]** tab.
-2. Dans la barre d'outils située en haut de la feuille de calcul, cliquez sur un bouton de demande correspondant aux données que vous souhaitez utiliser. Vous pouvez demander :
+2. Dans la barre d'outils située en haut de la feuille de calcul, cliquez sur un bouton de requête correspondant aux données à utiliser. Vous pouvez demander :
 
-   * ID des fournisseurs de données
-   * Signaux dérivés
-   * Correspondances de destination
-   * Caractéristiques articulées autour des règles et intégrées
+   * ID de fournisseur de données
+   *  Signaux dérivés
+   * Mappages de destination
+   * Caractéristiques basées sur des règles et sur des panoramas
    * Segments
-   * ID des dossiers de caractéristiques et de segments
-   The [!DNL Audience Manager] API writes bulk data back to the [!UICONTROL Request] worksheet.
+   * ID de dossier de caractéristiques et de segments
+   L’ [!DNL Audience Manager] API réécrit les données en masse dans la [!UICONTROL Request] feuille de calcul.
 
 >[!NOTE]
 >
->In your results, the `createTime` and `updateTime` columns return data in exponential notation. Les tampons date/heure sous-jacents sont enregistrés sous UNIX UTC heure. Actuellement, la feuille de calcul ne peut pas renvoyer les horodatages de date/heure dans un format lisible.
+>Dans vos résultats, les `createTime` colonnes et `updateTime` les colonnes renvoient des données en notation exponentielle. Les horodatages sous-jacents sont enregistrés dans l’heure UTC UNIX. Actuellement, la feuille de calcul ne peut pas renvoyer de tampons de date/heure dans un format lisible.
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Si votre mise à jour en masse renvoie une erreur ou échoue, reportez-vous à la section [Dépannage des outils](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gestion en bloc.
