@@ -1,10 +1,10 @@
 ---
-description: Décrit l'intégration et la conformité d'Audience Manager aux bonnes pratiques généralement acceptées concernant la confidentialité des données et les procédures d'exclusion.
-seo-description: Décrit l'intégration et la conformité d'Audience Manager aux bonnes pratiques généralement acceptées concernant la confidentialité des données et les procédures d'exclusion.
+description: Décrit l’intégration et la conformité d’Audience Manager avec les meilleures pratiques généralement admises concernant la confidentialité des données des clients et les procédures d’exclusion.
+seo-description: Décrit l’intégration et la conformité d’Audience Manager avec les meilleures pratiques généralement admises concernant la confidentialité des données des clients et les procédures d’exclusion.
 seo-title: Confidentialité des données
 solution: Audience Manager
 title: Confidentialité des données
-uuid: 865 e 7 b 4 e-fee 1-4 fa 4-8035-1595 fc 77 cd 96
+uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
 source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
@@ -13,24 +13,24 @@ source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 # Confidentialité des données{#data-privacy}
 
-Décrit l'intégration et la conformité d'Audience Manager aux bonnes pratiques généralement acceptées concernant la confidentialité des données et les procédures d'exclusion.
+Décrit l’intégration et la conformité d’Audience Manager avec les meilleures pratiques généralement admises concernant la confidentialité des données des clients et les procédures d’exclusion.
 
 ## Confidentialité des données {#data-privacy-center}
 
 See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
-## Consumer Privacy Protection {#consumer-privacy-protection}
+## Protection de la vie privée des consommateurs {#consumer-privacy-protection}
 
-Audience Manager reconnaît le pacte implicite entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties tirent avantage de l'échange transparent d'éléments de données anonymes :
+Audience Manager reconnaît le pacte implicite entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d'un échange transparent d'éléments de données anonymes :
 
-* Les clients reçoivent du contenu personnalisé, des offres de produit réduites et des expériences utilisateur rationalisées.
-* Les marques reçoivent des revenus importants qui prennent en charge plusieurs modèles métier en ligne.
+* Les clients reçoivent du contenu personnalisé, des offres de produits à prix réduit et des expériences utilisateur simplifiées.
+* Les marques reçoivent des flux de revenus vitaux qui prennent en charge plusieurs modèles commerciaux en ligne.
 
-Grâce à la poursuite de ce modèle, Audience Manager reste soucieux de renforcer la transparence et le contrôle des consommateurs, et de répondre ou de dépasser les principes de la publicité comportementale en ligne (OBA).
+Dans notre appui continu à ce modèle, Audience Manager demeure déterminé à assurer la transparence et le contrôle des consommateurs et à respecter ou à dépasser les principes d’autoréglementation de la publicité comportementale en ligne (OBA).
 
-## Opt-Out Management {#opt-out-management}
+## Gestion des exclusions {#opt-out-management}
 
-La documentation d'exclusion a été étendue et déplacée vers une partie distincte de notre documentation. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
+La documentation d’exclusion a été étendue et déplacée vers une partie distincte de notre documentation. Voir Gestion des [exclusions](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <!-- 
 
@@ -68,7 +68,7 @@ La documentation d'exclusion a été étendue et déplacée vers une partie dist
 
  -->
 
-## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
+## Collecte des adresses IP et obscurcissement des adresses IP {#collecting-ip-addresses}
 
 <!-- 
 
@@ -76,20 +76,20 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-L’adresse IP d’un visiteur sur le site Web d’un client est transmise à un centre de traitement des données Adobe où elle peut être stockée. Selon la configuration réseau du visiteur, l'adresse IP peut ne pas nécessairement représenter l'adresse IP de l'ordinateur du visiteur. Il peut par exemple s’agir de l’adresse IP externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy HTTP ou d’une passerelle Internet.
+L’adresse IP d’un visiteur sur le site Web d’un client est transmise à un centre de traitement des données Adobe où elle peut être stockée. Selon la configuration réseau du visiteur, l’adresse IP peut ne pas nécessairement représenter l’adresse IP de l’ordinateur du visiteur. Il peut par exemple s’agir de l’adresse IP externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy HTTP ou d’une passerelle Internet.
 
-**Méthodologie d'obscurcissement d'IP :** Conformément aux principes de « Respect de la vie privée par conception », Adobe Audience Manager permet aux clients d'activer l'obscurcissement des adresses IP depuis l'interface utilisateur, soit globalement dans toutes les régions géographiques, soit pour des pays spécifiques. Lorsque vous activez ce paramètre, le dernier octet (la dernière partie) de l'adresse IP est immédiatement ignoré lorsque l'adresse IP est assimilée dans Audience Manager. Audience Manager ignore cette partie de l'adresse IP avant le traitement (y compris avant toute recherche ou journalisation géographique facultative de l'adresse IP). Par exemple :
+**** Méthodologie d’obscurcissement d’IP : Conformément aux principes de "Confidentialité par conception", Adobe Audience Manager permet aux clients d’activer l’obscurcissement d’IP à partir de l’interface utilisateur, que ce soit globalement dans toutes les régions géographiques ou pour des pays spécifiques. Lorsque vous activez ce paramètre, le dernier octet (dernière partie) de l’adresse IP est immédiatement ignoré lorsque l’adresse IP est assimilée à Audience Manager. Audience Manager ignore cette partie de l’adresse IP avant le traitement (y compris avant toute recherche géographique ou journalisation facultative de l’adresse IP). Par exemple :
 
 * Avant que les valeurs de: `255.255.255.255`
 * Après: `255.255.255.0`
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
+>Voir Obscurcissement d’adresse [IP](/help/using/features/administration/ip-obfuscation.md) pour savoir comment activer l’obscurcissement d’adresse IP dans l’interface utilisateur d’Audience Manager.
 
-**Segmentation géographique :** Si vous activez l'obscurcissement des adresses IP, les octets restants de l'adresse IP peuvent toujours être utilisés pour la géosegmentation et la création de rapports dans Audience Manager. Si vous n'activez pas l'obscurcissement d'adresses IP, Audience Manager utilise l'adresse IP complète. Vous pouvez utiliser la fonctionnalité de segmentation géographique qui vous permet d'identifier un emplacement IP par zone géographique dans tous les cas, mais avec une légère perte de précision lorsque l'obscurcissement d'IP est utilisé. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement de l’adresse IP, L'obtention d'informations de région et de pays ne devrait être que légèrement compromise. Les données de segmentation géographique sont granulaires uniquement au niveau de la ville ou du code postal, et non au niveau individuel. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
+**** Segmentation géographique : Si vous activez l’obscurcissement d’adresse IP, les octets restants de l’adresse IP peuvent toujours être utilisés pour la géosegmentation et la création de rapports dans Audience Manager. Si vous n’activez pas l’obscurcissement d’adresse IP, Audience Manager utilise l’adresse IP complète. Vous pouvez utiliser la fonction de segmentation géographique pour identifier un emplacement IP par zone géographique dans les deux cas, mais avec une légère perte de précision lorsque l’obscurcissement d’IP est utilisé. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement de l’adresse IP, L'obtention d'informations au niveau de la région et du pays ne devrait être que légèrement affectée. Les données de segmentation géographique sont granulaires uniquement au niveau de la ville ou du code postal, et non au niveau individuel. En savoir plus sur le [ciblage](/help/using/features/traits/trait-geotarget-keys.md) géographique et sur la configuration de caractéristiques avec des variables géographiques.
 
 ## Concepts associés {#related-concepts}
 
-* [Gestion d'exclusion](/help/using/overview/data-security-and-privacy/opt-out-management.md)
+* [Gestion des exclusions](/help/using/overview/data-security-and-privacy/opt-out-management.md)
 * [FAQ sur la confidentialité et la rétention des données](/help/using/faq/faq-privacy.md)
