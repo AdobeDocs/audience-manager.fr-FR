@@ -1,10 +1,10 @@
 ---
-description: Un flux de données privé est une option qui permet aux fournisseurs de limiter l'accès aux données à l'acheteur. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer et d'abonner aux flux de données privés.
-seo-description: Un flux de données privé est une option qui permet aux fournisseurs de limiter l'accès aux données à l'acheteur. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer et d'abonner aux flux de données privés.
+description: Un flux de données privé est une option qui permet aux fournisseurs de limiter l’accès des acheteurs à leurs données. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer des flux de données privés et de s’y abonner.
+seo-description: Un flux de données privé est une option qui permet aux fournisseurs de limiter l’accès des acheteurs à leurs données. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer des flux de données privés et de s’y abonner.
 seo-title: Flux de données privés
 solution: Audience Manager
 title: Flux de données privés
-uuid: e 4 ca 59 ca-bbc 9-4897-9374-8 f 3 d 54 b 2 beee
+uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 translation-type: tm+mt
 source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
 
@@ -13,23 +13,23 @@ source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
 
 # Flux de données privés {#private-data-feeds}
 
-Un flux de données privé est une option qui permet aux fournisseurs de limiter l'accès aux données à l'acheteur. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer et d'abonner aux flux de données privés.
+Un flux de données privé est une option qui permet aux fournisseurs de limiter l’accès des acheteurs à leurs données. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer des flux de données privés et de s’y abonner.
 
 <!-- c_marketplace_privatefeed.xml -->
 
-## Private Data Feeds for Providers {#private-data-feeds-providers}
+## Flux de données privés pour les fournisseurs {#private-data-feeds-providers}
 
-En tant que fournisseur, vos flux de données peuvent être publics ou privés. Un flux de données privé permet de limiter l'accès des acheteurs à vos données, y compris le nom du vendeur de données. Vous pouvez créer un flux de données privé pour proposer des offres spéciales, des remises ou lorsque la confidentialité et le contrôle d'accès sont importants. Avec un flux de données privé, vous pouvez réviser et approuver les demandes des acheteurs. Après avoir approuvé une requête, le flux ressemble à un flux de données public à l'acheteur. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Comme illustré ci-dessous, ce type de flux est marqué « Privé » dans la colonne d'état.
+En tant que fournisseur, vos flux de données peuvent être publics ou privés. Un flux de données privé vous permet de limiter l’accès de l’acheteur à vos données, y compris le nom du vendeur de données. Vous pouvez créer un flux de données privé pour proposer des offres spéciales, des remises ou lorsque le contrôle de la confidentialité et de l’accès est important. Avec un flux de données privé, vous pouvez examiner et approuver les demandes d’acheteur. Une fois une requête approuvée, le flux ressemble à un flux de données public destiné à l’acheteur. Vous pouvez afficher et gérer tous vos flux dans **[!UICONTROL Audience Marketplace > My Shared Data]**. Comme illustré ci-dessous, ce type de flux est marqué "Privé" dans la colonne d’état.
 
 ![](assets/my_shared_data.png)
 
 ### Gestion des requêtes de flux
 
-Clicking the name of a private data feed from [!UICONTROL My Shared Data] takes you to a page that contains several tabs. Cliquez sur un onglet pour gérer vos requêtes de flux de données privées.
+En cliquant sur le nom d’un flux de données privé, vous [!UICONTROL My Shared Data] accédez à une page qui contient plusieurs onglets. Cliquez sur un onglet pour gérer vos requêtes de flux de données privées.
 
 ![](assets/shared_data_tabs.png)
 
-Le tableau suivant définit le rôle ou les fonctions fournis par chaque onglet d'action.
+Le tableau suivant définit le ou les rôles fournis par chaque onglet d’action.
 
 <table id="table_AFB429CA52A34658859448D9A5215F9F"> 
  <thead> 
@@ -45,44 +45,44 @@ Le tableau suivant définit le rôle ou les fonctions fournis par chaque onglet 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Abonnés potentiels</span></b> </p> </td> 
-   <td colname="col2"> <p>Répertorie les acheteurs approuvés qui n'ont pas souscrit à un flux de données privé. </p> <p>Une approbation permet aux acheteurs de consulter un flux de données comme s'ils étaient publics. Cela leur donne la chance de revoir et d'évaluer les flux avant de s'abonner. Vous pouvez également proposer des remises sur les flux de données aux acheteurs répertoriés comme des abonnés potentiels. Once the buyer subscribes, their profile moves to <b><span class="uicontrol"> Current Subscribers</span></b>. </p> </td>
+   <td colname="col2"> <p>Répertorie les acheteurs approuvés qui ne se sont pas abonnés à un flux de données privé. </p> <p>Une approbation permet aux acheteurs d’afficher un flux de données comme s’il était public. Cela leur permet de consulter et d’évaluer vos flux avant de s’abonner. Vous pouvez également proposer des remises sur les flux de données aux acheteurs répertoriés comme abonnés potentiels. Une fois que l’acheteur s’est abonné, son profil passe aux abonnés <b><span class="uicontrol"></span></b>actuels. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Demandes d'accès</span></b> </p> </td>
-   <td colname="col2"> <p>Répertorie les nouvelles demandes d'abonnement pour un flux de données privé. Cliquez sur cet onglet pour vérifier, approuver ou rejeter les requêtes des acheteurs. </p>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Demandes d’accès</span></b> </p> </td>
+   <td colname="col2"> <p>Répertorie les nouvelles demandes d’abonnement pour un flux de données privé. Cliquez sur cet onglet pour examiner, approuver ou rejeter les demandes d’acheteur. </p>
     <ul id="ul_BE0A835A90B14C05B3F63226B79D052D"> 
-     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Approved buyers move to <b><span class="uicontrol"> Potential Subscribers</span></b>. </li>
-     <li id="li_929591FCF81E43A3881813BDBD3AC278">Rejected buyers move to <b><span class="uicontrol"> Denied Access</span></b>. </li>
+     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Les acheteurs approuvés passent aux abonnés <b><span class="uicontrol"> potentiels</span></b>. </li>
+     <li id="li_929591FCF81E43A3881813BDBD3AC278">Les acheteurs rejetés passent à Accès <b><span class="uicontrol"></span></b>refusé. </li>
     </ul> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Demandes de détails</span></b> </p> </td>
-   <td colname="col2"> <p>Répertorie les acheteurs approuvés qui n'ont pas encore souscrit à un flux de données et qui ont demandé davantage d'informations sur les flux. </p> <p>Une approbation permet aux acheteurs de consulter un flux de données comme s'ils étaient publics. Cela leur donne la chance de revoir et d'évaluer les flux avant de s'abonner. Vous pouvez également proposer des remises sur les flux de données aux acheteurs demandant un accès. La réponse à une demande de détails supprime le profil d'acheteur de cet onglet. If they haven't subscribed, the buyer profile is still in <b><span class="uicontrol"> Potential Subscribers</span></b>. </p> </td>
+   <td colname="col2"> <p>Répertorie les acheteurs approuvés qui ne se sont pas encore abonnés à un flux de données et qui ont demandé plus d’informations sur vos flux. </p> <p>Une approbation permet aux acheteurs d’afficher un flux de données comme s’il était public. Cela leur permet de consulter et d’évaluer vos flux avant de s’abonner. Vous pouvez également proposer des remises sur les flux de données aux acheteurs qui demandent un accès. La réponse à une demande de détails supprime le profil de l’acheteur de cet onglet. S’ils ne se sont pas abonnés, le profil d’acheteur est toujours dans les Abonnés <b><span class="uicontrol"></span></b>potentiels. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Accès refusé</span></b> </p> </td> 
-   <td colname="col2"> <p>Répertorie les demandes d'abonnement rejetées pour un flux de données privé. </p> <p>To re-approve denied buyers, change the <span class="wintitle"> Rejection Status</span> to <b><span class="uicontrol"> Allow</span></b>. This moves the buyer to <b><span class="uicontrol"> Potential Subscribers</span></b>. </p> </td> 
+   <td colname="col2"> <p>Répertorie les demandes d’abonnement rejetées pour un flux de données privé. </p> <p>Pour réapprouver les acheteurs refusés, définissez le statut <span class="wintitle"> de rejet sur</span> Autoriser <b><span class="uicontrol"></span></b>. L’acheteur est ainsi dirigé vers les abonnés <b><span class="uicontrol"></span></b>potentiels. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Étapes suivantes
 
-La documentation suivante peut vous aider à commencer avec des flux de données privés.
+La documentation suivante peut vous aider à commencer à utiliser des flux de données privés.
 
-* [Création d'un flux de données public ou privé](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)
-* [Révision, approbation ou rejet des requêtes de flux privés](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)
+* [Création d’un flux de données public ou privé](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)
+* [Révision, approbation ou rejet de requêtes de flux privés](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)
 * [Flux de données privés pour les acheteurs](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
 
-## Private Data Feeds for Buyers {#private-data-feeds-for-buyers}
+## Flux de données privés pour les acheteurs {#private-data-feeds-for-buyers}
 
-As a buyer, private data feeds appear in the [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) like any other offer. Cependant, dans ce cas, la liste des flux n'affiche pas d'informations récapitulatives pour les caractéristiques, les utilisateurs uniques et les superpositions de l'utilisateur. Also, the data seller has an option to show or hide their name in the [!UICONTROL Provider] column of the [!UICONTROL Marketplace] list. Une fois que le vendeur a approuvé votre demande d'abonnement, toutes les données d'un flux privé sont disponibles (il fonctionne comme un flux public). The [!UICONTROL Marketplace] example below lists the 3 different feed types available to you as a buyer.
+En tant qu’acheteur, les flux de données privés apparaissent dans [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) comme toute autre offre. Toutefois, dans ce cas, la liste des flux n’affiche pas d’informations récapitulatives sur les caractéristiques, les utilisateurs uniques et les chevauchements d’utilisateurs. Le vendeur de données peut également afficher ou masquer son nom dans la [!UICONTROL Provider] colonne de la [!UICONTROL Marketplace] liste. Une fois que le vendeur a approuvé votre demande d’abonnement, toutes les données d’un flux privé sont mises à votre disposition (il fonctionne comme un flux public). L’ [!UICONTROL Marketplace] exemple ci-dessous répertorie les 3 différents types de flux disponibles en tant qu’acheteur.
 
 ![](assets/buyer_marketplace.png)
 
-Les types de flux incluent :
+Les types de flux comprennent :
 
-Le tableau décrit la manière dont ces différents types de flux affichent ou masquent les données.
+Le tableau décrit comment ces différents types de flux affichent ou masquent les données.
 
 <table id="table_41D4A798ACF548A3A03ACB427CA4652D"> 
  <thead> 
@@ -98,70 +98,70 @@ Le tableau décrit la manière dont ces différents types de flux affichent ou m
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Privé sans marque</span></b> </p> </td> 
-   <td colname="col2"> <p>Le nom du fournisseur est défini sur « Vendeur privé » et il n'est pas possible d'afficher les données de chevauchement de caractéristiques, de données uniques et de chevauchement de caractéristiques. </p> </td> 
+   <td colname="col2"> <p>Le nom du fournisseur est défini sur "Vendeur privé" et vous ne pouvez pas voir le nombre de caractéristiques, les données uniques et les données de chevauchement de caractéristiques. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Privé avec marque</span></b> </p> </td> 
-   <td colname="col2"> <p>Le nom du fournisseur apparaît dans la liste mais vous ne pouvez pas afficher les données de chevauchement des caractéristiques, des données uniques et des caractéristiques. </p> </td> 
+   <td colname="col2"> <p>Le nom du fournisseur s’affiche dans la liste, mais vous ne pouvez pas voir le nombre de caractéristiques, les données uniques et les données de chevauchement de caractéristiques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Étapes suivantes
 
-Voir [Abonnez-vous à un flux de données privé](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) pour demander l'accès.
+Voir [Abonnez-vous à un flux](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de données privé pour demander un accès.
 
-## How to set up the Sharing Relationship between Data Provider and Data Buyer {#set-up-sharing-relationship}
+## Configuration de la relation de partage entre le fournisseur de données et l’acheteur de données {#set-up-sharing-relationship}
 
-### Etape 1 - Activation - Fournisseur de données et acheteur de données
+### Étape 1 - Activation - Fournisseur de données et acheteur de données
 
-La première étape du processus nécessite une intervention de la part d'Adobe Consulting ou du service d'assistance clientèle. Le fournisseur de données et l'acheteur de données doivent contacter le service d'assistance clientèle ou le service d'assistance clientèle pour demander l'activation.
+La première étape du processus nécessite l’intervention du service de conseil ou du service à la clientèle d’Adobe. Le fournisseur de données et l’acheteur de données doivent contacter le service de conseil d’Adobe ou le service à la clientèle pour demander l’activation.
 
-### Etape 2 - Fournisseur de données - Créer une source de données
+### Étape 2 - Fournisseur de données - Créer une source de données
 
 Dans votre compte Audience Manager, créez une source de données de cookie avec :
 
-* **ID d'Audience Manager** comme clé entrant ;
-* The **Share Enabled** option checked.
+* **ID** Audience Manager comme clé entrante ;
+* L’option **Partager activé** est cochée.
 
 ![](assets/create-datasource.png)
 
-After you click **Save**, a new subfolder is automatically created in **Traits Storage &gt; 3rd Party Data**.
+Une fois que vous avez cliqué sur **Enregistrer**, un nouveau sous-dossier est automatiquement créé dans Stockage des **caractéristiques &gt; Données** tierces.
 
 ![](assets/folder-structure.png)
 
-### Etape 3 - Fournisseur de données - Identifier les caractéristiques du partage
+### Étape 3 - Fournisseur de données - Identifier les caractéristiques du partage
 
-Au cours de cette étape, vous identifiez les caractéristiques que vous souhaitez partager avec votre partenaire. Vous pouvez soit créer des caractéristiques, soit modifier des caractéristiques existantes. Dans tous les cas, vous avez besoin des caractéristiques :
+Au cours de cette étape, vous identifiez les caractéristiques que vous souhaitez partager avec votre partenaire. Vous pouvez créer de nouvelles caractéristiques ou modifier des caractéristiques existantes. Dans tous les cas, vous avez besoin des caractéristiques suivantes :
 
-* À associer à la source de données que vous avez créée dans le cadre de l'étape 2.
-* Pour être stocké dans le sous-dossier nouvellement créé, sous Données tierces.
+* À associer à la source de données que vous avez créée dans le cadre de l’étape 2.
+* À stocker dans le sous-dossier nouvellement créé, sous Données tierces.
 
-Read more about [creating traits](/help/using/features/traits/create-onboarded-rule-based-traits.md) and [editing traits](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+En savoir plus sur la [création de caractéristiques](/help/using/features/traits/create-onboarded-rule-based-traits.md) et la [modification de caractéristiques](/help/using/features/traits/manage-trait-rules.md#edit-trait).
 
-### Étape 4 - Fournisseur de données - Création de flux de données
+### Étape 4 - Fournisseur de données - Créer un flux de données
 
-Ensuite, créez un flux de données pour partager vos caractéristiques avec l'acheteur de données. Refer to [Create a Public or Private Data Feed](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) for instructions on how to create a data feed.
+Créez ensuite un flux de données pour partager vos caractéristiques avec l’acheteur de données. Reportez-vous à la section [Création d’un flux](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) de données public ou privé pour savoir comment créer un flux de données.
 
 >[!IMPORTANT]
 >
->Dans Paramètres, sélectionnez l'option Privé. Si vous définissez ce champ sur Public, tout client Audience Marketplace peut s'abonner à votre flux.
+>Dans Paramètres, sélectionnez l’option Privé. Si vous définissez ce champ sur Public, tout client Audience Marketplace peut s’abonner à votre flux.
 
 ![](assets/create-data-feed.png)
 
 ### Étape 5 - Acheteur de données - Demande d'accès
 
-Go to **Audience Marketplace &gt; Marketplace**. Recherchez le flux de données créé par le fournisseur de données à l'étape précédente. Click **Request Access**. Le contact désigné du côté fournisseur de données reçoit désormais une notification par e-mail. See also, [Subscribe to a Private Data Feed](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
+Accédez à **Audience Marketplace &gt; Marketplace**. Recherchez le flux de données créé par le fournisseur de données à l’étape précédente. Cliquez sur **Demander l’accès**. Le contact désigné du côté du fournisseur de données recevra désormais une notification par courrier électronique. Voir aussi [S’abonner à un flux](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed)de données privé.
 
-### Étape 6 - Fournisseur de données - Octroi d'un accès
+### Étape 6 - Fournisseur de données - Octroi d’un accès
 
-Go to **Audience Marketplace &gt; My Shared Data** and search for the feed you created in step 4. Click into the new access request and click **Allow Access** to approve the request. See also, [Review, Approve, or Reject Private Feed Requests](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
+Accédez à **Audience Marketplace &gt; Mes données** partagées et recherchez le flux que vous avez créé à l’étape 4. Cliquez sur dans la nouvelle requête d’accès et cliquez sur **Autoriser l’accès** pour approuver la requête. Voir aussi [Réviser, Approuver ou Rejeter les requêtes](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)de flux privés.
 
-### Etape 7 - Acheteur de données - Activer l'abonnement
+### Étape 7 - Acheteur de données - Activer l'abonnement
 
-After the data provider grants access to the data feed, you can see the feed in your account in **Audience Marketplace &gt; Marketplace**. Review the details, turn the Subscription button ON, and click **Review &amp; Subscribe**. See [Storage for Subscribed Data Feeds](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) for information on where to find the 3rd party traits.
+Une fois que le fournisseur de données a autorisé l’accès au flux de données, vous pouvez voir le flux dans votre compte dans **Audience Marketplace &gt; Marketplace**. Passez en revue les détails, activez le bouton Abonnement, puis cliquez sur **Révision et abonnement**. Voir [Stockage pour les flux](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) de données abonnés pour en savoir plus sur l’emplacement des caractéristiques tierces.
 
-Notez que ces caractéristiques ne peuvent être modifiées que dans le compte du fournisseur de données.
+Veuillez noter que ces caractéristiques ne peuvent être modifiées que dans le compte du fournisseur de données.
 
 
 
