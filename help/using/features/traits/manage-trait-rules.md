@@ -1,124 +1,124 @@
 ---
-description: Dans le créateur de caractéristiques, le Générateur d'expression vous permet de créer et de tester des règles qui définissent les exigences de qualification de l'audience. Les règles consistent en des paires clé-valeur telles que « color = = blue » ou « price > 100 ». Les opérateurs de comparaison définissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
-seo-description: Dans le créateur de caractéristiques, le Générateur d'expression vous permet de créer et de tester des règles qui définissent les exigences de qualification de l'audience. Les règles consistent en des paires clé-valeur telles que « color = = blue » ou « price > 100 ». Les opérateurs de comparaison définissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
+description: Dans le créateur de caractéristiques, le créateur d’expressions vous permet de créer et de tester des règles qui définissent les exigences de qualification de l’audience. Les règles se composent de paires clé-valeur, telles que "color == blue" ou "price > 100". Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
+seo-description: Dans le créateur de caractéristiques, le créateur d’expressions vous permet de créer et de tester des règles qui définissent les exigences de qualification de l’audience. Les règles se composent de paires clé-valeur, telles que "color == blue" ou "price > 100". Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
 seo-title: Gestion des règles de caractéristiques
 solution: Audience Manager
 title: Gestion des règles de caractéristiques
-uuid: 827 d 4567-2 b 6 f -411 e-bd 5 c -9735 c 916291 a
+uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Managing Trait Rules {#managing-trait-rules}
+# Gestion des règles de caractéristiques {#managing-trait-rules}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as `color == blue` or `price > 100`. Les opérateurs de comparaison définissent la relation entre les clés et les valeurs. [!DNL Boolean] Les expressions déterminent la relation entre les groupes de règles.
+Dans [!UICONTROL Trait Builder]la, [!UICONTROL Expression Builder] vous permet de créer et de tester des règles qui définissent les exigences de qualification de l’audience. Les règles se composent de paires clé-valeur, telles que `color == blue` ou `price > 100`. Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. [!DNL Boolean] les expressions déterminent la relation entre les groupes de règles.
 
 <!-- c_tb_rules.xml -->
 
-## Fonctionnalités des règles de signal principales décrites
+## Principales fonctionnalités des règles de signal décrites
 
 ![](assets/manage-trait-rules.png)
 
-1. The **[!UICONTROL Expression Builder]** or **[!UICONTROL Code View]** tabs provide an overview of the rules in your trait. **[!UICONTROL Expression Builder]** L'onglet vous permet de créer des règles avec des champs et des menus déroulants. The **[!UICONTROL Code View]** lets you create rules by manually writing those expressions as code. The illustration above shows a simple trait composed of a signal that evaluates data for a qualifying condition where a product key equals a specific value, in this case `color == "blue"`.
+1. Les **[!UICONTROL Expression Builder]** onglets ou **[!UICONTROL Code View]** les onglets fournissent un aperçu des règles de votre caractéristique. L’ **[!UICONTROL Expression Builder]** onglet permet de créer des règles à l’aide de champs et de menus déroulants. Vous **[!UICONTROL Code View]** permet de créer des règles en écrivant manuellement ces expressions sous forme de code. L’illustration ci-dessus illustre une caractéristique simple composée d’un signal qui évalue les données pour une condition admissible lorsqu’une clé de produit est égale à une valeur spécifique, dans ce cas `color == "blue"`.
 
-1. Les champs et les commandes de cette section vous permettent de créer des signaux à partir de paires clé-valeur et de définir la relation entre eux avec un opérateur de comparaison. Une clé, un opérateur et une valeur sont requis.
-1. The [!UICONTROL Data Explorer Options] allow you to backfill trait realizations for your signals.
+1. Les champs et les contrôles de cette section vous permettent de créer des signaux à partir de paires clé-valeur et de définir la relation entre eux avec un opérateur de comparaison. Une clé, un opérateur et une valeur sont requis.
+1. Vous [!UICONTROL Data Explorer Options] pouvez renvoyer les réalisations de caractéristiques pour vos signaux.
    >[!NOTE]
    >
-   >This option is only available for [!UICONTROL Data Explorer] customers. Pour plus d'informations, contactez votre consultant Adobe.
-1. This section shows you an estimation of trait realizations for the past 7 days, for the signals defined in the [!UICONTROL Expression Builder], for backfilled and non-backfilled traits.
+   >Cette option est disponible uniquement pour [!UICONTROL Data Explorer] les clients. Pour plus d’informations, contactez votre consultant Adobe.
+1. Cette section vous montre une estimation des réalisations de caractéristiques pour les 7 derniers jours, pour les signaux définis dans le [!UICONTROL Expression Builder], pour les caractéristiques avec ou sans renvoi.
    >[!NOTE]
    >
-   >This option is only available for [!UICONTROL Data Explorer] customers. Pour plus d'informations, contactez votre consultant Adobe.
-1. The test fields let you validate combinations of signal rules or the [!DNL URL]s that you want to use when sending data to Audience Manager.
+   >Cette option est disponible uniquement pour [!UICONTROL Data Explorer] les clients. Pour plus d’informations, contactez votre consultant Adobe.
+1. Les champs de test vous permettent de valider des combinaisons de règles de signal ou [!DNL URL]les combinaisons à utiliser lors de l’envoi de données à Audience Manager.
 
-## Create a Trait Rule {#create-trait-rule}
+## Création d’une règle de caractéristiques {#create-trait-rule}
 
-Les règles (ou expressions) consistent en des groupes individuels ou des groupes de paires clé-valeur. Les opérateurs de comparaison définissent la relation entre les paires clé-valeur. To create a rule,provide a key, a value, select an operator, and click **[!UICONTROL Add Rule]**.
+Les règles (ou expressions) se composent de groupes ou d’individus de paires clé-valeur. Les opérateurs de comparaison définissent la relation entre les paires clé-valeur. Pour créer une règle, fournissez une clé, une valeur, sélectionnez un opérateur, puis cliquez sur **[!UICONTROL Add Rule]**.
 
 <!-- t_tb_create_rules.xml -->
 
-Complete the required fields in the **[!UICONTROL Basic Information]** section *before* creating trait rules.
+Renseignez les champs obligatoires de la **[!UICONTROL Basic Information]** section *avant* de créer des règles de caractéristiques.
 
-1. Expand the **[!UICONTROL Trait Expression]** section and enter a key and value name. This creates a *`signal`*.
+1. Développez la **[!UICONTROL Trait Expression]** section et saisissez une clé et un nom de valeur. Cela crée un *`signal`* problème.
    >[!NOTE]
    >
-   >Include the `c_` prefix (or any other naming convention) for key variable if your event calls send data to [!DNL Audience Manager] using that syntax.
-1. Select a [comparison operator](../../features/traits/trait-comparison-operators.md) from the **[!UICONTROL Operator]** dropdown. L'opérateur de comparaison évalue la relation entre les éléments d'un signal.
+   >Incluez le `c_` préfixe (ou toute autre convention d’affectation de nom) pour la variable clé si vos appels d’événement envoient des données à [!DNL Audience Manager] l’aide de cette syntaxe.
+1. Sélectionnez un opérateur [de](../../features/traits/trait-comparison-operators.md) comparaison dans la **[!UICONTROL Operator]** liste déroulante. L’opérateur de comparaison évalue la relation entre les éléments d’un signal.
    >[!NOTE]
    >
-   >[!DNL Boolean][!UICONTROL OR] L'opérateur établit la relation entre plusieurs signaux *au sein* d'un groupe et ne peut pas être modifié.
-1. Cliquez sur **[!UICONTROL Add Rule]**. La règle enregistrée apparaît dans l'espace de travail Caractéristiques au-dessus des champs de saisie de données.
+   >L’ [!DNL Boolean] opérateur [!UICONTROL OR] établit la relation entre plusieurs signaux *au sein* d’un groupe et ne peut pas être modifié.
+1. Cliquez sur **[!UICONTROL Add Rule]**. La règle enregistrée s’affiche dans l’espace de travail Caractéristiques au-dessus des champs de saisie des données.
 
 ### Exemple {#example-trait-rule}
 
-Dans l'exemple ci-dessous, un utilisateur a créé une règle de caractéristique basée sur l'ID du produit. To build this rule, the user provided the key `productkey` linked with an equals operator ( `==`) to the value `2093`.
+Dans l’exemple ci-dessous, un utilisateur a créé une nouvelle règle de caractéristique basée sur l’ID du produit. Pour créer cette règle, l’utilisateur a fourni la clé `productkey` liée à un opérateur égal ( `==`) à la valeur `2093`.
 ![](assets/tb_sample_rule1.png)
 
-Clicking **[!UICONTROL Add Rule]** saves and moves the trait into the [!UICONTROL Expression Builder] workspace.
+Cliquez sur **[!UICONTROL Add Rule]** pour enregistrer et déplacer la caractéristique dans l’ [!UICONTROL Expression Builder] espace de travail.
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Créer un groupe de règles](../../features/traits/manage-trait-rules.md#create-rule-group)
 >* [Déplacer les règles entre les groupes](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Suppression d'une règle de caractéristique](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
 
 
 ## Create a New Rule Group {#create-rule-group}
 
-Cette procédure décrit la création d'un groupe de règles.
+Cette procédure décrit la création d’un groupe de règles.
 
 <!-- t_tb_new_rule_group.xml -->
 
-Votre caractéristique doit contenir au moins deux règles avant de pouvoir créer un nouveau groupe de règles.
+Votre caractéristique doit contenir au moins deux règles avant de pouvoir créer un groupe de règles.
 
-1. Placez le curseur sur la règle que vous souhaitez déplacer pour le mettre en évidence.
-1. Passez la souris sur la bordure de règle mise en surbrillance.
-Cette règle sépare automatiquement la règle de son groupe actuel et la place dans un nouveau groupe.
+1. Placez le curseur sur la règle à déplacer pour la mettre en surbrillance.
+1. Passez la souris sur la bordure de la règle en surbrillance.
+La règle est automatiquement séparée de son groupe actuel et déplacée dans un nouveau groupe.
    >[!NOTE]
    >
-   >Faites glisser une règle vers son groupe d'origine si vous le déplacez involontairement.
-1. Select a [!DNL Boolean] operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) from the drop-down menu to set the relationship between the rule groups.
+   >Faites glisser une règle vers son groupe d’origine si vous la déplacez involontairement.
+1. Sélectionnez un [!DNL Boolean] opérateur ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dans le menu déroulant pour définir la relation entre les groupes de règles.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Création d'une règle de caractéristique](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Création d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#create-trait-rule)
 >* [Déplacer les règles entre les groupes](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Suppression d'une règle de caractéristique](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
 
 
-## Move Rules Between Groups {#move-rules-between-groups}
+## Déplacer les règles entre les groupes {#move-rules-between-groups}
 
 Pour déplacer une règle, cliquez dessus et faites-la glisser vers un autre groupe.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Création d'une règle de caractéristique](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Création d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#create-trait-rule)
 >* [Créer un groupe de règles](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Suppression d'une règle de caractéristique](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
 
 
-## Edit a Trait {#edit-trait}
+## Modifier un trait {#edit-trait}
 
-Cette procédure décrit la modification d'une caractéristique.
+Cette procédure décrit la modification d’une caractéristique.
 
 <!-- t_tb_edit.xml -->
 
-1. In the [!UICONTROL Traits] dashboard, hover over the **[!UICONTROL Actions]** column for the trait you want to edit. Cela permet d'afficher les icônes de gestion des caractéristiques.
+1. Dans le [!UICONTROL Traits] tableau de bord, passez la souris sur la **[!UICONTROL Actions]** colonne correspondant à la caractéristique à modifier. Ceci affiche les icônes de gestion des caractéristiques.
 1. Cliquez sur le crayon pour modifier la caractéristique.
 
    ![](assets/tb_edit_trait.png)
 
-## Delete a Trait Rule {#delete-trait}
+## Suppression d’une règle de caractéristiques {#delete-trait}
 
-Cette procédure décrit la suppression d'une règle de caractéristique.
+Cette procédure décrit la suppression d’une règle de caractéristique.
 
 <!-- t_tb_delete_rule.xml -->
 
-1. In the [!UICONTROL Traits] dashboard, hover over the [!UICONTROL Actions] columns for the trait you want to edit and click the pencil icon. Cela permet d'afficher les icônes de gestion des caractéristiques.
+1. Dans le [!UICONTROL Traits] tableau de bord, passez la souris sur les [!UICONTROL Actions] colonnes correspondant à la caractéristique à modifier, puis cliquez sur l’icône représentant un crayon. Ceci affiche les icônes de gestion des caractéristiques.
 1. Expand the [!UICONTROL Trait Expression] section.
-1. Passez la souris sur la règle à supprimer et cliquez sur l'icône X. La règle est supprimée immédiatement.
+1. Passez la souris sur la règle à supprimer, puis cliquez sur l’icône X. La règle est immédiatement supprimée.
