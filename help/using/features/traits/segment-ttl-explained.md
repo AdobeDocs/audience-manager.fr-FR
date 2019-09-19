@@ -1,43 +1,43 @@
 ---
-description: Incidence de l'intervalle de temps à Live (TTL) sur l'appartenance au segment.
-seo-description: Incidence de l'intervalle de temps à Live (TTL) sur l'appartenance au segment.
-seo-title: Durée de segment et durée de la caractéristique expliquée
+description: L’intervalle TTL (trait time-to-live) affecte l’appartenance au segment.
+seo-description: L’intervalle TTL (trait time-to-live) affecte l’appartenance au segment.
+seo-title: Segment et temps de décompte jusqu’à l’heure de diffusion
 solution: Audience Manager
-title: Temps de segmentation pour l'explication de la durée
-uuid: 5 b 2 c 6911-50 b 9-4 b 68-9 dd 4-21128 d 112 eab
+title: Segment Durée de vie expliqué
+uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 translation-type: tm+mt
 source-git-commit: 7e9aada98fe9c18c6fc484255b3c9ff33dc59324
 
 ---
 
 
-# Segment and Trait Time-to-Live Explained {#segment-time-to-live-explained}
+# Segment et temps de publication des caractéristiques {#segment-time-to-live-explained}
 
-How trait [!UICONTROL time-to-live] ([!DNL TTL]) interval affects segment membership.
+Comment l’intervalle [!UICONTROL time-to-live] ([!DNL TTL]) de caractéristiques affecte l’appartenance au segment.
 
 <!-- segment-ttl-explained.xml -->
 
-## Durée de vie
+## Temps de vivre
 
-[!DNL TTL] définit la durée pendant laquelle un visiteur du site reste dans un segment après l'événement de qualification de dernière caractéristique. [!DNL TTL] est définie sur des caractéristiques et non sur des segments. Visitors fall out of a segment if they do not see a qualifying trait before the end of the [!DNL TTL] interval. The default [!DNL TTL] for new traits is 120 days. Lorsqu'elle est définie sur 0 jour, la caractéristique n'expire jamais. [Définissez la valeur TTL](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) lorsque vous créez ou modifiez une caractéristique dans la [!UICONTROL Advanced Options] section de l'interface de création de la caractéristique.
+[!DNL TTL] définit la durée pendant laquelle un visiteur du site reste dans un segment après le dernier événement de qualification de caractéristique. [!DNL TTL] est définie sur les caractéristiques et non sur les segments. Les visiteurs sortent d’un segment s’ils ne voient pas une caractéristique qualifiante avant la fin de l’ [!DNL TTL] intervalle. La valeur par défaut [!DNL TTL] des nouvelles caractéristiques est de 120 jours. Lorsqu’il est défini sur 0 jour, le trait n’expire jamais. [Définissez la valeur](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL lorsque vous créez ou modifiez une caractéristique dans la [!UICONTROL Advanced Options] section de l’interface de création de caractéristiques.
 
-## [!DNL TTL] et abandon d'un segment
+## [!DNL TTL] et abandonner un segment
 
-A user falls out of a segment if they do not see any of its traits within the [!DNL TTL] interval. For example, if you have a 1-trait segment with a 30 days [!DNL TTL], the user will drop out of that segment if they do not see the trait again within the 30 days.
+Un utilisateur sort d’un segment s’il ne voit aucune de ses caractéristiques dans l’ [!DNL TTL] intervalle. Si, par exemple, vous disposez d’un segment à 1 caractéristique avec 30 jours [!DNL TTL], l’utilisateur abandonne ce segment s’il n’en voit plus la caractéristique dans les 30 jours.
 
 ![](assets/ttl_1.png)
 
-## [!DNL TTL] et renouvellement de segment
+## [!DNL TTL] et renouvellement des segments
 
-[!DNL TTL] Les réinitialisations et l'utilisateur restent dans un segment s'ils voient la caractéristique du segment dans [!DNL TTL] la période. Also, because most segments contain multiple traits with their own [!DNL TTL] periods, a user can remain in a segment (and reset the [!DNL TTL] interval) as long as they keep seeing any traits associated with a segment. For example, say you have Segment 1 composed of Trait A (30 day [!DNL TTL]) and Trait B (15 day [!DNL TTL]). Assuming the user sees each trait only once, the illustration below outlines the [!DNL TTL] renewal process and total in-segment duration.
+Les [!DNL TTL] réinitialisations et l’utilisateur reste dans un segment s’il en voit la caractéristique au cours de la [!DNL TTL] période. En outre, comme la plupart des segments contiennent plusieurs caractéristiques avec leurs propres [!DNL TTL] périodes, un utilisateur peut rester dans un segment (et réinitialiser l’ [!DNL TTL] intervalle) tant qu’il continue à voir les caractéristiques associées à un segment. Supposons, par exemple, que vous ayez le segment 1 composé du Caractéristique A (30 jours [!DNL TTL]) et du Caractéristique B (15 jours [!DNL TTL]). En supposant que l’utilisateur ne voit chaque caractéristique qu’une seule fois, l’illustration ci-dessous décrit le processus de [!DNL TTL] renouvellement et la durée totale du segment.
 
 ![](assets/ttl_2.png)
 
-## [!DNL Audience Manager] TTL est indépendant des paramètres TTL tiers
+## [!DNL Audience Manager] Les TTL sont indépendants des paramètres TTL tiers
 
-Remember, the [!DNL TTL] set on your [!DNL Audience Manager] pixel operates independently from the [!DNL TTL] set on other pixels used by third parties ([!DNL DSP]s, ad networks, etc.).
+N’oubliez pas que la [!DNL TTL] visionneuse de votre [!DNL Audience Manager] pixel fonctionne indépendamment de la [!DNL TTL] visionneuse des autres pixels utilisés par des tiers ([!DNL DSP]s, réseaux publicitaires, etc.).
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Définition d'un intervalle d'expiration de caractéristique](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
+>* [Définir un intervalle d’expiration des caractéristiques](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
 
