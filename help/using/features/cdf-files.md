@@ -155,13 +155,13 @@ Répertorie et définit la structure de données d’un [!UICONTROL CDF] fichier
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device  </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID de conteneur </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9"> Caractéristiques réalisées </li> 
-      <li id="li_1591180564374204852785C6FFCA4F74"> Segments réalisés </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74">Segments réalisés </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Paramètres de requête </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Adresse IP </li> 
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de périphérique Experience Cloud (ou MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595"> Tous les segments </li> 
-      <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Toutes les caractéristiques </li> 
+      <li id="li_1B5A6F076A354BA0A931CB260E6D2675"> Toutes les caractéristiques </li> 
      </ol> </p> <p>Pour consulter la description des champs, voir Définition <a href="#cdf-defined"></a>du contenu du flux de données client. </p> </td> 
   </tr> 
  </tbody> 
