@@ -1,29 +1,29 @@
 ---
-description: Méthodes qui vous permettent d'afficher la taxonomie commune d'Audience Manager. Ce modèle de classification facultatif organise les caractéristiques dans des catégories standard du secteur.
-seo-description: Méthodes qui vous permettent d'afficher la taxonomie commune d'Audience Manager. Ce modèle de classification facultatif organise les caractéristiques dans des catégories standard du secteur.
+description: Méthodes permettant d’afficher la taxonomie commune d’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans les catégories standard du secteur.
+seo-description: Méthodes permettant d’afficher la taxonomie commune d’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans les catégories standard du secteur.
 seo-title: Méthodes API taxonomiques
 solution: Audience Manager
 title: Méthodes API taxonomiques
-uuid: 4 ee 29 ba 5-e 9 ba -4498-a 6 ee -7343227 dd 7 ba
+uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Taxonomic API Methods {#taxonomic-api-methods}
+# Méthodes API taxonomiques {#taxonomic-api-methods}
 
-Méthodes qui vous permettent d'afficher la taxonomie commune d'Audience Manager. Ce modèle de classification facultatif organise les caractéristiques dans des catégories standard du secteur.
+Méthodes permettant d’afficher la taxonomie commune d’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans les catégories standard du secteur.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Vous ne pouvez pas créer de catégories taxonomiques ou classifier des caractéristiques avec ces méthodes. To classify a trait, specify the appropriate `categoryId` with a trait create or update method.
+>Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classifier les caractéristiques avec ces méthodes. Pour classer une caractéristique, spécifiez la caractéristique appropriée `categoryId` avec une méthode de création ou de mise à jour de caractéristique.
 
-## Return a Specific Taxonomy {#return-specific-taxonomy}
+## Retour d'une taxonomie spécifique {#return-specific-taxonomy}
 
-`GET` Méthode qui renvoie des détails sur la catégorie taxonomique spécifiée.
+Méthode `GET` qui renvoie des détails sur la catégorie taxonomique spécifiée.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -33,7 +33,7 @@ Méthodes qui vous permettent d'afficher la taxonomie commune d'Audience Manager
 
 ### Réponse
 
-A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist.
+Une réponse réussie renvoie `200 OK` et la catégorie pour l’identifiant spécifié. Une requête qui échoue est renvoyée `404 No Content` si l’ID n’existe pas.
 
 ```
 {
@@ -46,9 +46,9 @@ A successful response returns `200 OK` and the category for the specified ID. An
 }
 ```
 
-## Return all Taxonomic Categories {#return-all-taxonomy-categories}
+## Renvoyer toutes les catégories taxonomiques {#return-all-taxonomy-categories}
 
-`GET` Méthode qui renvoie une liste des catégories de niveau supérieur dans un tableau.
+Méthode `GET` qui renvoie une liste des catégories de niveau supérieur dans un tableau.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -58,7 +58,7 @@ A successful response returns `200 OK` and the category for the specified ID. An
 
 ### Réponse
 
-Tronqué pour concision.
+Troncée pour la brièveté.
 
 ```
 [
@@ -89,9 +89,9 @@ Tronqué pour concision.
 ]
 ```
 
-## Return Taxonomic Sub-Categories {#return-taxonomy-sub-categories}
+## Sous-catégories taxonomiques de retour {#return-taxonomy-sub-categories}
 
-`GET` Méthode qui renvoie des sous-catégories pour la catégorie parente spécifiée dans un tableau.
+Méthode `GET` qui renvoie des sous-catégories pour la catégorie parente spécifiée dans un tableau.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -101,7 +101,7 @@ Tronqué pour concision.
 
 ### Réponse
 
-A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. Tronqué pour concision.
+Une réponse réussie renvoie `200 OK` et la catégorie pour l’identifiant spécifié. Une requête qui échoue est renvoyée `404 No Content` si l’ID n’existe pas. Troncée pour la brièveté.
 
 ```
 [
