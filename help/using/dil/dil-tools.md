@@ -1,10 +1,10 @@
 ---
-description: Décrit les méthodes dans l'namespace de noms DIL. tools. Ces fonctions utilitaires vous aident à effectuer des tâches spécifiques.
-seo-description: Décrit les méthodes dans l'namespace de noms DIL. tools. Ces fonctions utilitaires vous aident à effectuer des tâches spécifiques.
+description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
+seo-description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
 seo-title: Outils DIL
 solution: Audience Manager
 title: Outils DIL
-uuid: 2 bc 62 ce 2-16 bd -4 e 80-b 493-c 816 ba 643 b 59
+uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 translation-type: tm+mt
 source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
 
@@ -13,7 +13,7 @@ source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
 
 # Outils DIL
 
-Describes methods in the `DIL.tools` namespace. Ces fonctions utilitaires vous aident à effectuer des tâches spécifiques.
+Décrit les méthodes dans l’espace de noms `DIL.tools` . Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
 
 <!-- 
 
@@ -21,9 +21,9 @@ c_dil_functions.xml
 
  -->
 
-## Getsearchreferrer
+## getSearchReferrer
 
-Renvoie les termes de recherche utilisés pour atteindre la page en cours.
+Renvoie les termes de recherche utilisés pour atteindre la page active.
 
 <!-- 
 
@@ -31,20 +31,20 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Purpose of `getSearchReferrer`
+### Objectif de `getSearchReferrer`
 
-In DIL, `getSearchReferrer` returns search results (names and key words) used to reach your site. You can pass in specific search terms to this function or let it search the supported search engines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo]) against `document.referrer` by default.
+Dans DIL, `getSearchReferrer` renvoie les résultats de la recherche (noms et mots clés) utilisés pour atteindre votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser faire une recherche dans les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]et [!DNL Yahoo]) par `document.referrer` défaut.
 
 ### Signature de fonction
 
-Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
+Signature de fonction : `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 ### Paramètres de fonction
 
 `getSearchReferrer` accepte :
 
-* *`{string}`*: *(Facultatif)* Chaîne contenant l'URL de recherche (utilisée `document.referrer` si undefined).
-* *`{object}`*: *(Facultatif)* Objet contenant la configuration de la `hostPattern`, `queryParam`ou `queryPattern`.
+* *`{string}`*: *(Facultatif)* Chaîne contenant l’URL de recherche (utilisée `document.referrer` si elle n’est pas définie).
+* *`{object}`*: *(Facultatif)* Objet contenant la configuration de `hostPattern`, `queryParam`ou `queryPattern`.
 
 Et renvoie :
 
@@ -65,12 +65,12 @@ Et renvoie :
    <td> Recherche par défaut</td> 
    <td> Renvoie les termes de recherche de mots-clés utilisés par les moteurs de recherche AOL, Ask, Bing, Google et Yahoo. </td> 
    <td>
-      <code>var &amp; amp ; nbsp ; results &amp; amp ; nbsp ; = &amp; amp ; nbsp ; DIL. tools. getsearchreferrer () ;</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
-   <td>Transmission d'une URL personnalisée</td> 
-   <td>Renvoie le référent de recherche basé sur une URL personnalisée.</td> 
+   <td>Transmission d’une URL personnalisée</td> 
+   <td>Renvoie le référent de recherche en fonction d’une URL personnalisée.</td> 
    <td> 
   <code>
         var results = 
@@ -79,8 +79,8 @@ Et renvoie :
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Correspondance de nom d'hôte de l'URL avec une Regex personnalisée</b></td> 
-   <td> Transmettez une expression régulière personnalisée pour correspondre au nom d'hôte de l'URL de référence. </td> 
+   <td> <b>Correspondance du nom d’hôte de l’URL avec un Regex personnalisé</b></td> 
+   <td> Transmettez une expression régulière personnalisée correspondant au nom d’hôte de l’URL de référence. </td> 
    <td> 
   <code>
       var results = 
@@ -92,8 +92,8 @@ Et renvoie :
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Correspondance des modèles de recherche avec une Regex personnalisée</b> </td> 
-   <td> Transmettez une expression régulière pour effectuer une recherche personnalisée. </td> 
+   <td> <b>Correspondance des modèles de recherche avec un Regex personnalisé</b> </td> 
+   <td> Transmettez une expression régulière personnalisée pour effectuer une recherche personnalisée. </td> 
    <td> 
     <code>
       var results = 
@@ -108,9 +108,9 @@ Et renvoie :
  </tbody> 
 </table>
 
-## Decomposeuri
+## décomposerURI
 
-Disassembles a Uniform Resource Identifier ( [!DNL URI]) into its constituent components: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, and `[!DNL uriParams]`.
+Désassemble un identificateur de ressource unique ( [!DNL URI]) dans ses composants : `hash`, `host`, `href`, `pathname`, `protocol`, `search`et `[!DNL uriParams]`.
 
 <!-- 
 
@@ -118,13 +118,13 @@ r_dil_decompose.xml
 
  -->
 
-Function signature: `DIL.tools.decomposeURI`
+Signature de fonction : `DIL.tools.decomposeURI`
 
 ### Paramètres de fonction
 
 `decomposeURI` accepte :
 
-* *`uri {string}`*: *(Facultatif)* Chaîne contenant l'URI. Defaults to `document.location.href` if not specified.
+* *`uri {string}`*: *(Facultatif)* Chaîne contenant l’URI. Defaults to `document.location.href` if not specified.
 
 Et renvoie :
 
@@ -150,9 +150,9 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 }
 ```
 
-## Getmetatags
+## getMetaTags
 
-Recherche un contenu spécifique défini dans les balises meta d'une page Web et renvoie ces données dans un objet.
+Recherche le contenu spécifique défini dans les balises meta d'une page Web et renvoie ces données dans un objet.
 
 <!-- 
 
@@ -162,7 +162,7 @@ r_dil_get_metatags.xml
 
 ### Signature de fonction
 
-Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
+Signature de fonction : `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Paramètres de fonction
 
@@ -170,12 +170,11 @@ Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Exemple de code
 
-<pre class="&ldquo;javascript&rdquo;"><code>var datalib = DIL. create ({ 
- partenaire : '<i>Partnership partnerName '</i>, 
- Containernsid : <i>Containernsid</i> }) 
-; 
-Datalib. api. signals (DIL. tools. getmetatags ('<i>application</i>','<i>keywords</i>','<i>description</i>'),'c_'). submit () ;</code>
-</pre>
+<pre class="&ldquo;javascript&rdquo;"><code>
+var dataLib = DIL.create({ partner : '<i>partnerName'</i>, containerNSID: <i>containerNSID</i> }); 
+
+dataLib.api.signaux(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+</code></pre>
 
 <pre><code>
 var dataLib = DIL.create({ 
