@@ -1,74 +1,74 @@
 ---
-description: Décrit les étapes obligatoires et facultatives qui vous permettent de créer un modèle algorithmique dans le créateur de modèles.
-keywords: déterminer comment fonctionne
-seo-description: Décrit les étapes obligatoires et facultatives qui vous permettent de créer un modèle algorithmique dans le créateur de modèles.
-seo-title: Création d'un modèle algorithmique
+description: Décrit les étapes requises et facultatives permettant de créer un modèle algorithmique dans le créateur de modèles.
+keywords: Algo How
+seo-description: Décrit les étapes requises et facultatives permettant de créer un modèle algorithmique dans le créateur de modèles.
+seo-title: Création d’un modèle algorithmique
 solution: Audience Manager
-title: Création d'un modèle algorithmique
+title: Création d’un modèle algorithmique
 topic: API DIL
-uuid: ccf 4 fc 4 e-cf 92-445 f-b 2 d 9-71 c 3 ca 624 e 26
+uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Create an Algorithmic Model {#create-an-algorithmic-model}
+# Création d’un modèle algorithmique {#create-an-algorithmic-model}
 
-Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
+Décrit les étapes obligatoires et facultatives qui vous permettent de créer un modèle algorithmique dans [!UICONTROL Model Builder].
 
-## Build a Model {#build-model}
+## Créer un modèle {#build-model}
 
 <!-- t_model_build.xml -->
 
 ### Section Créateur de modèles
 
-[!UICONTROL Model Builder] se compose des sections [!UICONTROL Basic Information] et [!UICONTROL Configuration] des sections. Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour démarrer l'algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois les premières données exécutées. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
+[!UICONTROL Model Builder] se compose des sections [!UICONTROL Basic Information] et [!UICONTROL Configuration] . Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour démarrer l’algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois la première exécution des données terminée. Une fois que vous avez reçu le courrier électronique, vous pouvez accéder au créateur de [caractéristiques](../../features/traits/about-trait-builder.md) et créer des caractéristiques algorithmiques.
 
 >[!NOTE]
 >
->* Le processus de modélisation ne s'exécute qu'une seule fois si vous créez un modèle et ne créez aucune caractéristique avec lui.
->* Créez des modèles à partir des sources de données qui contiennent une quantité significative d'informations. Les modèles dont les données sont insuffisantes s'exécuteront, mais ils ne retourneront aucun résultat.
->* *Ne* créez pas de modèles avec d'autres caractéristiques ou segments algorithmiques.
->* La notification électronique automatisée est envoyée une seule fois (après la première exécution de données).
+>* Le processus de modélisation ne s’exécute qu’une seule fois si vous créez un modèle et n’en créez aucune caractéristique.
+>* Créez des modèles à partir de sources de données qui contiennent une quantité significative d’informations. Les modèles avec des données insuffisantes s’exécuteront, mais ils ne retourneront pas de résultats.
+>* *Ne créez pas* de modèles avec d’autres caractéristiques ou segments algorithmiques.
+>* La notification électronique automatisée est envoyée une seule fois (après la première exécution des données).
 
 
 ### Créer le modèle
 
-To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
+Pour créer un modèle, accédez à la [!UICONTROL Models] section et cliquez **[!UICONTROL Add New]** sur et procédez comme suit :
 
-1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
+1. Dans la section Informations [](../../features/algorithmic-models/create-model.md#basic-information) de base
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
-   * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. Les modèles inactifs ne s'exécuteront pas et ne produisent aucune donnée.
-1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
-   * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne seront pas exécutés.
-   * Choisissez une période de consultation de 30, 60 ou 90 jours. Cette opération définit une période pour le modèle.
+   * Définissez l’état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécutent pas et ne produisent aucune donnée.
+1. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
+   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser.   Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas.
+   * Choisissez une période de recherche en arrière de 30, 60 ou 90 jours. Définit une période pour le modèle.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Select a data source from the [!UICONTROL Available Data] list.
+   * Sélectionnez une source de données dans la [!UICONTROL Available Data] liste.
    * Click **[!UICONTROL Save]** when done.
 
-## Basic Information for Algorithmic Models {#basic-information}
+## Informations de base sur les modèles algorithmiques {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. Le champ Description est facultatif.
+Dans [!UICONTROL Model Builder]ce cas, les [!UICONTROL Basic Information] paramètres vous permettent de créer ou de modifier des modèles existants. Pour créer un modèle, attribuez un nom et passez aux [!UICONTROL Configuration] paramètres. Le champ de description est facultatif.
 
 | Champ | Description |
 |---|---|
-| **[!UICONTROL Name]** | Donnez à votre modèle un nom court et court qui décrit sa fonction ou son rôle. Evitez les abréviations, les caractères spéciaux et les accents. |
-| **[!UICONTROL Description]** | Champ pour obtenir des informations descriptives supplémentaires sur le modèle. |
+| **[!UICONTROL Name]** | Donnez à votre modèle un nom logique et court qui décrit sa fonction ou son objectif. Evitez les abréviations, les caractères spéciaux et les accents. |
+| **[!UICONTROL Description]** | Champ permettant d’obtenir des informations descriptives supplémentaires sur le modèle. |
 | **[!UICONTROL Status]** | Active ou désactive le modèle (actif par défaut). |
 
 ## Configuration {#configuration}
 
-In [!UICONTROL Model Builder], the [!UICONTROL Configuration] section lets you add traits or segments to the model. Dans cette section, sélectionnez une caractéristique ou un segment de base, une période de consultation et des données issues de vos sources de données Première et Tierce.
+Dans [!UICONTROL Model Builder]la section [!UICONTROL Configuration] , vous pouvez ajouter des caractéristiques ou des segments au modèle. Dans cette section, sélectionnez une caractéristique ou un segment de base, une période de rétrospective et des données provenant de vos sources de données propriétaires et tiers.
 
 <!-- r_model_configuration.xml -->
 
 ### Conditions préalables
 
-Complete the required fields in the [!UICONTROL Basic Information] section first.
+Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information] section.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -81,29 +81,29 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner une caractéristique ou un segment de ligne de base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Cliquez sur le bouton de caractéristique ou de segment pour afficher la liste de toutes vos caractéristiques ou de vos segments. Le segment ou la caractéristique sélectionné devient la ligne de base utilisée par les algorithmes système pour la modélisation. </p> <p> <p><b>Remarque</b>: Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne seront pas exécutés. </p> </p> </td> 
+   <td colname="col1"> <p><b>Sélectionner un segment ou un trait de ligne de base (1)</b> </p> </td> 
+   <td colname="col2"> <p>Cliquez sur le bouton Caractéristique ou Segment pour afficher la liste de toutes vos caractéristiques ou segments. Votre segment ou caractéristique sélectionné devient la ligne de base que les algorithmes système utilisent pour la modélisation. </p> <p> <p><b>Remarque</b>:  Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner une période de recherche (2)</b> </p> </td> 
-   <td colname="col2"> <p>Définit une période pour le modèle. Selon votre sélection, l'algorithme comprend et évalue les données des 30, 60 ou 90 derniers jours. </p> </td> 
+   <td colname="col1"> <p><b>Sélectionnez Rechercher la période précédente (2)</b> </p> </td> 
+   <td colname="col2"> <p>Définit une période pour le modèle. Selon votre sélection, l’algorithme inclut et évalue les données des 30, 60 ou 90 jours précédents. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner l'algorithme (3)</b> </p> </td> 
-   <td colname="col2"> <p>At this time, Model Builder works with our proprietary <span class="keyword"> Trait Weight</span> algorithm only. <span class="keyword"> Audience Manager</span> peut ajouter d'autres fonctions algorithmiques dans les versions suivantes. </p> </td>
+   <td colname="col1"> <p><b>Sélectionner un algorithme (3)</b> </p> </td> 
+   <td colname="col2"> <p>Pour le moment, Model Builder fonctionne uniquement avec notre algorithme <span class="keyword"> Trait Weight</span> propriétaire. <span class="keyword"> Audience Manager</span> peut ajouter d’autres fonctions algorithmiques dans les versions suivantes. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner des données de modèle dans la source de données (4)</b> </p> </td> 
-   <td colname="col2"> <p>Vous permet de sélectionner les sources de données propriétaires et tierces que vous souhaitez utiliser dans le modèle. </p> </td>
+   <td colname="col1"> <p><b>Sélectionner les données du modèle à partir de la source de données (4)</b> </p> </td> 
+   <td colname="col2"> <p>Permet de sélectionner les sources de données propriétaires et tiers que vous souhaitez utiliser dans le modèle. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez exclure des caractéristiques des sources de données sélectionnées pour la modélisation. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td>
+   <td colname="col2"> <p>Vous pouvez exclure des caractéristiques des sources de données sélectionnées pour la modélisation. Utilisez la liste <span class="wintitle"> Exclusions</span> et lisez <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Modèles algorithmiques : Exclusion</a> des caractéristiques pour en savoir plus. </p> </td>
   </tr> 
  </tbody>
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Comprendre traitweight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
+>* [Présentation de TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
 
