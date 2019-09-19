@@ -1,10 +1,10 @@
 ---
-description: L'option Cross Channel Conversion (Conversion multicanaux) des rapports Optimisation d'audience vous permet d'attribuer des conversions hors ligne aux impressions ou aux clics en ligne diffusés.
-seo-description: L'option Cross Channel Conversion (Conversion multicanaux) des rapports Optimisation d'audience vous permet d'attribuer des conversions hors ligne aux impressions ou aux clics en ligne diffusés.
+description: L’option Conversion multicanaux des rapports Optimisation de l’audience vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
+seo-description: L’option Conversion multicanaux des rapports Optimisation de l’audience vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
 seo-title: Conversion inter-canaux
 solution: Audience Manager
 title: Conversion inter-canaux
-uuid: 0 fecec 23-e 502-490 b-b 7 dd -47 a 3753 a 3 f 75
+uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Conversion inter-canaux{#cross-channel-conversion}
 
-L'option Cross Channel Conversion (Conversion multicanaux) des rapports Optimisation d'audience vous permet d'attribuer des conversions hors ligne aux impressions ou aux clics en ligne diffusés.
+L’option Conversion multicanaux des rapports Optimisation de l’audience vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
 
-[!UICONTROL Cross Channel Conversion] Les rapports combinent les résultats de la plateforme [!DNL DoubleClick Campaign Manager] (DCM) avec des caractéristiques [!DNL Audience Manager] de conversion. Vous pouvez ainsi lier les conversions hors ligne aux impressions ou aux clics en ligne.
+Les [!UICONTROL Cross Channel Conversion] rapports combinent les résultats de la plateforme [!DNL DoubleClick Campaign Manager] (DCM) avec les caractéristiques de [!DNL Audience Manager] conversion. Vous pouvez ainsi lier des conversions hors ligne à des impressions ou des clics en ligne.
 
-You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) reports.
+Vous pouvez utiliser le [!UICONTROL Cross Channel Conversion] pour les rapports Performances [des](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segments et Fréquence [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) optimale.
 
-To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
+Pour afficher les [!UICONTROL Cross Channel Conversion] rapports, sélectionnez l’ **[!UICONTROL AAM+DCM]** élément dans la **[!UICONTROL Platform]** liste déroulante.
 
-The following table lists important considerations when setting up [!UICONTROL Cross Channel Conversion]:
+Le tableau suivant répertorie les points importants à prendre en compte lors de la configuration [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -33,27 +33,27 @@ The following table lists important considerations when setting up [!UICONTROL C
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Nombre minimum de caractéristiques de conversion </p> </td> 
-   <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basic Information for Traits</a> for more information on traits. </p> </td> 
+   <td colname="col1"> <p>Au moins une caractéristique de conversion doit être attribuée à une source de données pour que les rapports Conversion <span class="wintitle"></span> multicanal s’exécutent. Voir Informations <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> de base sur les caractéristiques</a> pour en savoir plus sur les caractéristiques. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>Nombre maximum de caractéristiques de conversion </p> </td> 
-   <td colname="col1"> <p>The reports pull in a <i>maximum</i> of 50 conversion traits from the user. Si vous atteignez le maximum, les rapports utilisent les 50 premières caractéristiques de conversion basées sur l'identifiant de caractéristique, dans l'ordre croissant. </p> </td> 
+   <td colname="col01"> <p>Nombre maximal de caractéristiques de conversion </p> </td> 
+   <td colname="col1"> <p>Les rapports extraient au <i>maximum</i> 50 caractéristiques de conversion de l’utilisateur. Si vous atteignez le maximum, les rapports utilisent les 50 premières caractéristiques de conversion en fonction de l’ID de caractéristique, dans l’ordre croissant. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fenêtre Attribution </p> </td> 
-   <td> <p> <b><span class="uicontrol"> La fenêtre</span></b> d'attribution AAM + DCM est 14 jours, ce qui signifie que seules les caractéristiques de conversion affichées au cours des deux dernières semaines sont prises en compte. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> La fenêtre d’attribution AAM+DCM</span></b> est de 14 jours, ce qui signifie que seules les caractéristiques de conversion exposées au cours des deux dernières semaines sont prises en compte. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Méthodologie Dernière touche </p> </td> 
-   <td> <p>Le créatif affiché par l'utilisateur avant la conversion est celui qui a obtenu la conversion. </p> </td> 
+   <td> <p>Le créatif que l’utilisateur a vu en dernier avant la conversion est celui qui a obtenu la conversion. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Clics par rapport aux impressions </p> </td> 
-   <td> <p>Un clic est prioritaire sur une impression lors de la décision d'attribution si elles se produisent exactement à la même heure. Par exemple, sur une page sur laquelle plusieurs éléments créatifs sont affichés, celle sur laquelle on clique reçoit la conversion. </p> </td> 
+   <td> <p>Clics et impressions </p> </td> 
+   <td> <p>Un clic prévaut sur une impression lorsque vous décidez de l’attribution s’il se produit exactement au même moment. Par exemple, sur une page où plusieurs éléments créatifs sont affichés, celui sur lequel l’utilisateur clique obtient la conversion. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Récence des données </p> </td> 
-   <td> <p>Les rapports sont toujours calculés pour les données disponibles le jour précédent. </p> </td> 
+   <td> <p>Les rapports sont toujours calculés pour les données disponibles la veille. </p> </td> 
   </tr> 
  </tbody> 
 </table>
