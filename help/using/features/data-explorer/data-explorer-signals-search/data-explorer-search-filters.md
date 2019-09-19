@@ -1,21 +1,21 @@
 ---
-description: Laissez les champs de clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
-seo-description: Laissez les champs de clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
-seo-title: Recherche de signaux par filtres
-title: Recherche de signaux par filtres
-uuid: 99 b 00 d 48-6415-4 cb 1-848 a -5401 b 34 c 43 a 6
+description: Laissez les champs clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
+seo-description: Laissez les champs clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
+seo-title: Signaux de recherche par filtres
+title: Signaux de recherche par filtres
+uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
 translation-type: tm+mt
 source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 ---
 
 
-# Search Signals by Filters {#search-signals-by-filters}
+# Signaux de recherche par filtres {#search-signals-by-filters}
 
-Laissez les champs de clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
+Laissez les champs clé-valeur vides pour rechercher une plus grande plage de signaux et utilisez les filtres disponibles pour réduire les résultats.
 
-Utilisez cette méthode lorsque vous n'avez pas de paire clé-valeur spécifique à l'esprit, mais souhaitez voir l'évolution de plusieurs signaux sur une période spécifique.
+Utilisez cette méthode lorsque vous n’avez pas en tête de paire clé-valeur spécifique, mais que vous souhaitez voir l’évolution de signaux multiples sur une période spécifique.
 
-Dans l'exemple ci-dessous, les filtres sont configurés pour afficher tous les signaux inutilisés des 30 derniers jours avec un nombre minimum de 1000.
+Dans l’exemple ci-dessous, les filtres sont configurés pour afficher tous les signaux inutilisés des 30 derniers jours avec un nombre minimum de 1 000.
 
 ![](assets/signals-search-filters.png)
