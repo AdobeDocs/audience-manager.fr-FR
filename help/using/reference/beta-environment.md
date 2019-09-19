@@ -1,11 +1,11 @@
 ---
-description: L'environnement bêta est destiné à tester votre implémentation d'Audience Manager. Les modifications effectuées en version bêta n'affectent pas les données de production. Contactez votre gestionnaire de solutions partenaires Audience Manager si vous souhaitez utiliser l'environnement bêta.
+description: L’environnement bêta permet de tester votre implémentation d’Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. Contactez votre représentant Solutions partenaires d’Audience Manager si vous souhaitez utiliser l’environnement bêta.
 keywords: sandbox
-seo-description: L'environnement bêta est destiné à tester votre implémentation d'Audience Manager. Les modifications effectuées en version bêta n'affectent pas les données de production. Contactez votre gestionnaire de solutions partenaires Audience Manager si vous souhaitez utiliser l'environnement bêta.
+seo-description: L’environnement bêta permet de tester votre implémentation d’Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. Contactez votre représentant Solutions partenaires d’Audience Manager si vous souhaitez utiliser l’environnement bêta.
 seo-title: Environnement bêta
 solution: Audience Manager
 title: Environnement bêta
-uuid: de 4 a 1 a 46-cfa 4-4 f 64-8569-48 a 7650 fd 8 cf
+uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
@@ -14,19 +14,19 @@ source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 # Environnement bêta {#beta-environment}
 
-L'environnement bêta est destiné à tester votre implémentation d'Audience Manager. Les modifications effectuées en version bêta n'affectent pas les données de production. Contactez votre gestionnaire de solutions partenaires Audience Manager si vous souhaitez utiliser l'environnement bêta.
+L’environnement bêta permet de tester votre implémentation d’Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. Contactez votre représentant Solutions partenaires d’Audience Manager si vous souhaitez utiliser l’environnement bêta.
 
 ## Aperçu
 
-L'environnement bêta est une réplique exacte de l'environnement de production, sans fonctionnalité expérimentale ou non publiée. Vos informations de connexion de l'environnement de production sont valides dans l'environnement bêta.
+L’environnement bêta est une réplique exacte de l’environnement de production, sans aucune fonctionnalité expérimentale ou non publiée. Vos informations de connexion de l’environnement de production sont valides dans l’environnement bêta.
 
-**Mettre à jour la planification**
+**Mettre à jour le calendrier**
 
-L'environnement bêta est mis à jour à la fin de chaque mois pendant les heures creuses.
+L’environnement bêta est mis à jour à la fin de chaque mois pendant les heures creuses.
 
 **Trafic sortant**
 
-Le trafic sortant n'est pas activé pour l'environnement bêta.
+Le trafic sortant n’est pas activé pour l’environnement bêta.
 
 <!-- 
 
@@ -38,22 +38,22 @@ Added re: AAM-30826.
 
 
 
-| Service | URL/Nom d'hôte | Obtention d'un accès |
+| Service | URL/Nom d’hôte | Comment obtenir un accès |
 |--- |--- | --- |
-| S3 | Contactez votre gestionnaire de solutions partenaires Audience Manager ou le service d'assistance clientèle. | Contactez votre gestionnaire de solutions partenaires Audience Manager ou le service d'assistance clientèle pour configurer un compartiment Amazon S 3 pour votre instance bêta. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | See [Accessing the DCS in the Beta Environment](../reference/beta-environment.md#access-dcs-beta-environment). |
-| IU | `https://bank-beta.demdex.com` | Les informations d'identification d'environnement de production sont valides pour l'environnement bêta. |
-| API | `https://api-beta.demdex.com/...` | Les informations d'identification d'environnement de production sont valides pour l'environnement bêta. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| S3 | Contactez votre représentant des solutions partenaires d’Audience Manager ou le service à la clientèle | Contactez votre représentant des solutions partenaires d’Audience Manager ou le service à la clientèle pour configurer un compartiment Amazon S3 pour votre instance bêta. Découvrez les [avantages de l’utilisation d’Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Voir [Accès au serveur de collecte de données dans l’environnement](../reference/beta-environment.md#access-dcs-beta-environment)bêta. |
+| IU | `https://bank-beta.demdex.com` | Les informations d’identification de votre environnement de production sont valides pour l’environnement bêta. |
+| API | `https://api-beta.demdex.com/...` | Les informations d’identification de votre environnement de production sont valides pour l’environnement bêta. Nous vous recommandons de créer un utilisateur API générique, [voir les détails](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Accessing the DCS in the Beta Environment {#access-dcs-beta-environment}
+## Accès au serveur de collecte de données dans l’environnement bêta {#access-dcs-beta-environment}
 
-1. Make a DCS call, using the curl [command](https://curl.haxx.se/docs/manpage.html). Curl est un outil permettant de transférer des données depuis ou vers un serveur, à l'aide de l'un des nombreux protocoles pris en charge.
+1. Effectuez un appel DCS à l’aide de la [commande curl](https://curl.haxx.se/docs/manpage.html). Curl est un outil permettant de transférer des données depuis ou vers un serveur, à l’aide de l’un des nombreux protocoles pris en charge.
 
    Par exemple :
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Vérifiez que votre requête a été diffusée par le serveur de collecte de données bêta en recherchant « sandbox » dans l'en-tête de réponse de DCS.
+1. Vérifiez que votre requête a été traitée par le serveur de collecte de données bêta en recherchant "sandbox" dans l’en-tête de réponse du serveur de collecte de données.
 
    Par exemple :
 
