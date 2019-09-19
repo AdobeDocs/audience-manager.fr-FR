@@ -1,18 +1,18 @@
 ---
-description: Une visite approfondie des principaux composants et flux de données dans le système Audience Manager.
-seo-description: Une visite approfondie des principaux composants et flux de données dans le système Audience Manager.
+description: Visite de haut niveau des principaux composants et flux de données du système Audience Manager.
+seo-description: Visite de haut niveau des principaux composants et flux de données du système Audience Manager.
 seo-title: Présentation des composants système
 title: Présentation des composants système
-uuid: cd 0 e 51 a 3-38 c 3-4 e 3 f -9 bf 1-938 de 2 c 71156
+uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
 translation-type: tm+mt
 source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 ---
 
 
-# System Components Overview{#system-components-overview}
+# Présentation des composants système{#system-components-overview}
 
-Une visite approfondie des principaux composants et flux de données dans le système Audience Manager.
+Visite de haut niveau des principaux composants et flux de données du système Audience Manager.
 
 <!-- 
 
@@ -20,19 +20,19 @@ c_compintro.xml
 
  -->
 
-This guide provides a basic overview of the main components that power [!DNL Audience Manager]. Elle est écrite pour :
+Ce guide fournit un aperçu de base des principaux composants qui alimentent [!DNL Audience Manager]. Il est écrit pour :
 
 * Lecteurs non techniques et techniques.
-* Current [!DNL Audience Manager] customers curious about how it all works.
-* Potential [!DNL Audience Manager] customers who need to evaluate this system as part of a due diligence or request for proposal process.
+* Clients actuels [!DNL Audience Manager] curieux de savoir comment tout fonctionne.
+* Clients potentiels [!DNL Audience Manager] qui doivent évaluer ce système dans le cadre d'un processus de diligence raisonnable ou de demande de propositions.
 
-Ce guide tente d'équilibrer les descriptions générales et une exploration approfondie. Toutefois, certains éléments sont exclusifs. Nous n'y accéderons donc pas. Après tout, la sauce spéciale est plus spéciale que la simple mayonnaise et le ketchup. Nous devons garder un secret secret. As always, you can check with your [!DNL Audience Manager] consultant if you have any questions.
+Ce guide cherche à trouver un équilibre entre les descriptions générales et une plongée profonde. Cependant, certaines choses sont propriétaires, donc nous n'allons pas là-bas. Après tout, il y a plus à la sauce spéciale qu'à la mayonnaise et au ketchup. Nous devons garder les cornichons secret. Comme toujours, vous pouvez consulter votre [!DNL Audience Manager] consultant si vous avez des questions.
 
-* [Composants clés dans le système Audience Manager](/help/using/reference/system-components/components-stack.md)
-* [Composants d'action de données](/help/using/reference/system-components/components-data-action.md)
+* [Composants clés du système Audience Manager](/help/using/reference/system-components/components-stack.md)
+* [Composants d’action de données](/help/using/reference/system-components/components-data-action.md)
 * [Composants de collecte de données](/help/using/reference/system-components/components-data-collection.md)
-* [Données - Traitement des composants](/help/using/reference/system-components/components-data-processing.md)
+* [Composants de traitement de données](/help/using/reference/system-components/components-data-processing.md)
 * [Composants de la gestion des balises](/help/using/reference/system-components/components-tag-management.md)
-* [Architecture de plate-forme : Carte de flux de données](/help/using/reference/system-components/components-platform-architecture.md)
-* [Présentation du Centre de données Edge](/help/using/reference/system-components/components-edge.md)
+* [Architecture de plateforme : Carte du flux de données](/help/using/reference/system-components/components-platform-architecture.md)
+* [Présentation du centre de données Edge](/help/using/reference/system-components/components-edge.md)
 
