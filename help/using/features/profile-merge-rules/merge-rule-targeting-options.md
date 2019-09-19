@@ -1,54 +1,54 @@
 ---
-description: Les options Règles de fusion de profils vous permettent de développer ou de renforcer la cible d'action sur des audiences spécifiques en fonction des besoins ou objectifs commerciaux. Ces cas d'utilisation généraux expliquent comment utiliser les options disponibles et créer des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. Actuellement, les règles de fusion de profils fonctionnent avec les destinations en temps réel uniquement.
-seo-description: Les options Règles de fusion de profils vous permettent de développer ou de renforcer la cible d'action sur des audiences spécifiques en fonction des besoins ou objectifs commerciaux. Ces cas d'utilisation généraux expliquent comment utiliser les options disponibles et créer des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. Actuellement, les règles de fusion de profils fonctionnent avec les destinations en temps réel uniquement.
-seo-title: Cas d'utilisation général pour les règles de fusion de profils
+description: Les options des règles de fusion de profils vous permettent d’étendre ou de renforcer le ciblage de l’audience sur des audiences spécifiques en fonction des besoins ou des objectifs de l’entreprise. Ces cas d’utilisation généraux explorent comment utiliser les options disponibles et créent des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. Actuellement, les règles de fusion de profils fonctionnent uniquement avec les destinations en temps réel.
+seo-description: Les options des règles de fusion de profils vous permettent d’étendre ou de renforcer le ciblage de l’audience sur des audiences spécifiques en fonction des besoins ou des objectifs de l’entreprise. Ces cas d’utilisation généraux explorent comment utiliser les options disponibles et créent des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. Actuellement, les règles de fusion de profils fonctionnent uniquement avec les destinations en temps réel.
+seo-title: Cas d’utilisation généraux des règles de fusion de profils
 solution: Audience Manager
-title: Cas d'utilisation général pour les règles de fusion de profils
-uuid: c 9 eb 41 c 8-fe 19-45 f 8-9 ff 1-552 c 11 ef 08 da
+title: Cas d’utilisation généraux des règles de fusion de profils
+uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# General Use Cases for Profile Merge Rules {#general-use-cases-for-profile-merge-rules}
+# Cas d’utilisation généraux des règles de fusion de profils {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules] vous permettent de développer ou de renforcer la cible d'action sur des audiences spécifiques en fonction des besoins ou objectifs commerciaux. Ces cas d'utilisation généraux expliquent comment utiliser les options disponibles et créer des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. [!UICONTROL Profile Merge Rules] Actuellement, travaillez avec des destinations en temps réel uniquement.
+[!UICONTROL Profile Merge Rules] vous permet d’étendre ou de renforcer le ciblage de l’audience sur des audiences spécifiques en fonction des besoins ou des objectifs de l’entreprise. Ces cas d’utilisation généraux explorent comment utiliser les options disponibles et créent des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. Actuellement, [!UICONTROL Profile Merge Rules] utilisez uniquement des destinations en temps réel.
 
 ![](assets/merge-rules-options.png)
 
 >[!TIP]
 >
->For definitions and descriptions of these [!UICONTROL Merge Rule] settings, see [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
+>Pour obtenir des définitions et des descriptions de ces [!UICONTROL Merge Rule] paramètres, voir Définition [des options des règles de fusion de](../../features/profile-merge-rules/merge-rule-definitions.md)profil.
 
-## Focused targeting {#focused-targeting}
+## Ciblage ciblé {#focused-targeting}
 
-User authentication to a website should trigger a declared ID call to [!DNL Audience Manager]. After this event, [!DNL Audience Manager] writes trait data to (and reads from) an authenticated profile. The authenticated profile lets [!DNL Audience Manager]:
+L’authentification de l’utilisateur sur un site Web doit déclencher un appel d’ID déclaré à [!DNL Audience Manager]. Après cet événement, [!DNL Audience Manager] écrit les données de caractéristique dans (et lit à partir de) un profil authentifié. Le profil authentifié permet [!DNL Audience Manager]:
 
-* Ecrivez des caractéristiques au profil authentifié propre à un utilisateur particulier.
-* Identifiez et faites la distinction entre plusieurs utilisateurs de périphériques pour la segmentation.
+* Ecrivez des caractéristiques dans le profil authentifié spécifique à un utilisateur particulier.
+* Identifier et différencier plusieurs utilisateurs de périphériques pour la segmentation.
 
-### Portée des utilisateurs authentifiés
+### Atteindre les utilisateurs authentifiés
 
-Les options de profil authentifiées créent des règles qui vous permettent de cibler les utilisateurs qui sont connectés à un site Web ou à une application en fonction d'attributs hors ligne. Par exemple, une société de services financiers utilise cette option pour cibler les utilisateurs authentifiés avec des offres de mise à niveau de carte de crédit ciblées ou des offres de service spécialisées basées sur le revenu ou l'activité hors ligne. Un autre exemple consisterait à cibler les frégates fréquemment authentifiées avec des offres basées sur le kilométrage cumulé.
+Les options de profil authentifiées créent des règles qui vous permettent de cibler les utilisateurs connectés à un site Web ou une application en fonction d’attributs hors ligne. Par exemple, une société de services financiers utiliserait cette option pour cibler les utilisateurs authentifiés avec des offres de mise à niveau de carte de crédit ciblées ou des offres de service spécialisées basées sur les revenus ou l’activité hors ligne. Un autre exemple serait une compagnie aérienne ciblant les vols fréquents authentifiés avec des transactions basées sur le kilométrage cumulé.
 
-To create a rule that reaches only authenticated users, select **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. Cette option évaluera un segment en utilisant uniquement des données de profil authentifiées. Cette règle ignore les données du profil de périphérique anonyme.
+Pour créer une règle qui n’atteint que les utilisateurs authentifiés, sélectionnez **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL No Device Profile]**. Cette option évalue un segment en utilisant uniquement des données de profil authentifiées. Cette règle ignore les données du profil de périphérique anonyme.
 
-To also include data in the anonymous device profile, use the **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL Current Device Profile]** rule.
+Pour inclure également des données dans le profil de périphérique anonyme, utilisez la règle **[!UICONTROL Current Authenticated Profile]** + **[!UICONTROL Current Device Profile]** .
 
-### Atteindre les utilisateurs selon l'état d'authentification précédent
+### Atteindre les utilisateurs en fonction de l’état d’authentification précédent
 
-Ces options atteignent des utilisateurs spécifiques lorsqu'ils naviguent sur le site mais qu'ils ne sont pas connectés. Vous pouvez le faire avec des options basées sur le ciblage au niveau de l'utilisateur supposé. Le ciblage supposé permet d'atteindre les personnes qui ne sont pas authentifiées explicitement sur votre site mais qui peuvent être en ligne. Elle fonctionne en lisant (mais pas en écrivant) les données du dernier profil authentifié. And, to help keep the authenticated profile clean, [!DNL Audience Manager] writes new trait qualifications to the device profile instead of the authenticated profile. Supposons, par exemple, que vous soyez un spécialiste du marketing qui souhaite tester différentes offres avec des clients existants qui ne sont pas connectés à votre site ou à votre application. En tant que spécialiste du marketing, vous pouvez tester ces annonces auprès des clients actuels non authentifiés pour identifier les offres qui obtiennent le plus de réponse.
+Ces options atteignent des utilisateurs spécifiques lorsqu’ils naviguent mais ne sont pas connectés. Pour ce faire, vous pouvez utiliser des options reposant sur un ciblage au niveau de l’utilisateur. Le ciblage implicite permet d’atteindre des personnes qui ne sont pas explicitement authentifiées sur votre site mais qui peuvent naviguer en ligne. Il fonctionne en lisant (mais pas en écrivant) les données du dernier profil authentifié. Et, pour préserver la propreté du profil authentifié, [!DNL Audience Manager] écrit de nouvelles qualifications de caractéristiques dans le profil du périphérique au lieu du profil authentifié. Supposons, par exemple, que vous soyez un spécialiste du marketing qui souhaite tester différentes offres auprès de clients existants qui ne sont pas connectés à votre site ou application. En tant que spécialiste du marketing, vous pouvez tester ces publicités avec des clients actuels non authentifiés afin de déterminer les offres qui obtiennent le plus de réponses.
 
-Voici un exemple de règle qui atteint les utilisateurs selon l'authentification prédictionnelle :
+Voici un exemple de règle qui parvient aux utilisateurs en fonction de l’authentification précédente :
 
 * **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
 
-## Expanded targeting {#expanded-targeting}
+## Ciblage étendu {#expanded-targeting}
 
-Outre les règles qui permettent d'atteindre des clients spécifiques, les marketeurs ont également besoin de règles qui augmentent la taille des ensembles de données disponibles pour le ciblage. [!UICONTROL Profile Merge Rules] vous permet de le faire avec l'option de profil de périphérique. Les options de périphérique étendent l'ensemble de données éligible à la segmentation, car elles tirent parti des caractéristiques réalisées lorsqu'un utilisateur se trouvait dans un état anonyme sur un ou plusieurs périphériques. Cela peut s'avérer utile lorsque vous tentez d'atteindre un utilisateur sur l'ensemble de son appareil à l'aide d'un graphique de périphérique individuel ou de tous les périphériques d'un foyer à l'aide d'un graphique de périphérique ménager. Cette option peut inclure la publicité d'une offre de vacances familiale. Dans ce cas, vous souhaitez atteindre chaque périphérique d'un foyer avec l'offre si un utilisateur sur n'importe quel périphérique a manifesté un intérêt pour l'offre.
+Outre les règles qui aident des clients spécifiques, les marketeurs ont également besoin de règles qui augmentent la taille des jeux de données disponibles pour le ciblage. [!UICONTROL Profile Merge Rules] vous permet de le faire avec l’option de profil de périphérique. Les options de périphérique permettent d’étendre l’ensemble de données éligible à la segmentation, car elles reposent sur des caractéristiques réalisées lorsqu’un utilisateur se trouvait dans un état anonyme sur un ou plusieurs périphériques. Cela peut s’avérer utile lorsque vous tentez d’atteindre un utilisateur sur tous ses appareils à l’aide d’un graphique de périphériques personnels ou de tous les appareils d’un ménage à l’aide d’un graphique de périphériques ménagers. Cette option peut être utilisée avec la publicité d’une offre de vacances en famille. Dans ce cas, vous souhaiterez atteindre chaque périphérique d’un foyer avec l’offre si un utilisateur de n’importe quel périphérique a manifesté son intérêt pour l’offre.
 
-To create a rule that expands the targeting data set, select the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Graph]** rule.
+Pour créer une règle qui développe le jeu de données de ciblage, sélectionnez la règle **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Graph]** .
 
 <!-- 
 
@@ -67,9 +67,9 @@ To create a rule that expands the targeting data set, select the **[!UICONTROL L
 
  -->
 
-## Device Graph Options {#device-graph-options}
+## Options de graphique de périphérique {#device-graph-options}
 
-Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rule depends on conditions unique to your digital properties and business goals. Ces instructions générales peuvent vous aider à comprendre quand utiliser un type de graphique par rapport à un autre. Note, you must be a member of the [!DNL Adobe Experience Cloud Device Co-op] or have a contractual relationship with an external device graph to use these options. Reportez-vous au tableau ci-dessous pour obtenir des instructions générales sur le moment auquel choisir un graphique de périphérique. For specific use cases, see [Profile Link Device Graph Use Cases](../../features/profile-merge-rules/profile-link-use-case.md) and [External Device Graph Use Cases](../../features/profile-merge-rules/external-graph-use-cases.md).
+Le choix d’une [!UICONTROL device graph] option pour une [!UICONTROL Profile Merge] règle dépend de conditions propres à vos propriétés numériques et à vos objectifs commerciaux. Ces directives générales peuvent vous aider à comprendre quand utiliser un type de graphique par rapport à un autre. Notez que vous devez être membre du [!DNL Adobe Experience Cloud Device Co-op] ou avoir une relation contractuelle avec un graphique de périphérique externe pour utiliser ces options. Reportez-vous au tableau ci-dessous pour obtenir des instructions générales sur le moment de choisir une option de graphique de périphérique. Pour des cas d’utilisation spécifiques, voir Cas [d’utilisation de graphiques de périphériques de lien de](../../features/profile-merge-rules/profile-link-use-case.md) profil et Cas [d’utilisation de graphiques de périphériques](../../features/profile-merge-rules/external-graph-use-cases.md)externes.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -81,28 +81,28 @@ Choosing a [!UICONTROL device graph] option for a [!UICONTROL Profile Merge] rul
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Profile Link</span> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Les règles de fusion</span> de profils créées avec l' <span class="wintitle"> option Link Link</span> sont parfaites pour : </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Les règles de fusion</span> de profil créées avec l’option Lien <span class="wintitle"></span> de profil sont idéales pour : </p> <p> 
      <ul id="ul_FF44FA894BB2448887C8EDA9C8407EF9"> 
-      <li id="li_E22505210C664FE6A9AA7C61244B36DA">Propriétés numériques qui présentent un haut niveau d'authentification des clients. </li> 
-      <li id="li_BE7112EE611E4DEB95B5C0A2852BFA97">Campagnes ciblées et ciblées. The <span class="wintitle"> Profile Link</span> device graph is built on deterministic data only. Ce pool de profils de périphérique sera toujours plus petit par rapport au pool d'utilisateurs et de périphériques non authentifiés. </li> 
-      <li id="li_5FD9E936A72A4EFE80E694FA2E08E385">Cas où les clients doivent être dans un état authentifié pour bénéficier de la segmentation. </li> 
+      <li id="li_E22505210C664FE6A9AA7C61244B36DA">Propriétés numériques présentant un niveau élevé d’authentification du client. </li> 
+      <li id="li_BE7112EE611E4DEB95B5C0A2852BFA97">Des campagnes ciblées et de faible portée. Le graphique du périphérique Lien <span class="wintitle"></span> de profil est basé sur des données déterministes uniquement. Ce pool de profils de périphériques sera toujours plus petit par rapport au pool d’utilisateurs et de périphériques non authentifiés. </li> 
+      <li id="li_5FD9E936A72A4EFE80E694FA2E08E385">Cas d’utilisation où les clients doivent être authentifiés pour pouvoir bénéficier de la segmentation. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Options graphiques de périphérique externe </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Les règles de fusion</span> de profils créées avec <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> le Device Cloud Device Co-op</a> ou tout graphique de périphérique externe intégré <span class="keyword"> à Audience Manager</span> sont parfaites pour : </p> <p> 
+   <td colname="col1"> <p>Options graphiques de périphériques externes </p> </td> 
+   <td colname="col2"> <p><span class="wintitle"> Les règles de fusion</span> de profil créées avec le <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Device Co-op</a> d’Experience Cloud ou tout graphique de périphérique externe intégré à Audience Manager <span class="keyword"></span> sont idéales pour : </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
-      <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriétés numériques ayant un faible niveau d'authentification des clients. </li> 
-      <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Des campagnes de marque large et large. </li> 
-      <li id="li_14AEC54CE34440889A3A36324EC6F497">Cas où les clients n'ont pas besoin d'être dans un état authentifié pour bénéficier de la segmentation. </li> 
-     </ul> </p> <p> <p>Tip: The <span class="keyword"> Device Co-op</span> is your best option if you're a <span class="keyword"> Experience Cloud</span> customer with low authentication and no relationship with any device graph provider. </p> </p> </td> 
+      <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriétés numériques présentant un faible niveau d’authentification du client. </li> 
+      <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagnes de grande envergure sur les marques. </li> 
+      <li id="li_14AEC54CE34440889A3A36324EC6F497">Cas d’utilisation où les clients n’ont pas besoin d’être authentifiés pour être admissibles à la segmentation. </li> 
+     </ul> </p> <p> <p>Conseil : La <span class="keyword"> Device Co-op</span> est votre meilleure option si vous êtes un client <span class="keyword"> Experience Cloud</span> avec une faible authentification et aucune relation avec un fournisseur de graphiques de périphériques. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
->* [Cas d'utilisation du graphique de périphérique de lien de profil](../../features/profile-merge-rules/profile-link-use-case.md)
+>* [Cas d’utilisation de graphiques de périphériques de lien de profil](../../features/profile-merge-rules/profile-link-use-case.md)
 >* [Cas d’utilisation graphiques des périphériques externes](../../features/profile-merge-rules/external-graph-use-cases.md)
->* [FAQ sur la fusion des profils](../../faq/faq-profile-merge.md)
+>* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
 
