@@ -1,37 +1,37 @@
 ---
-description: Evitez d'utiliser des règles de fusion de profils avec un graphique de périphérique pour les segments qui présentent peu de population de segments en temps réel.
-seo-description: Evitez d'utiliser des règles de fusion de profils avec un graphique de périphérique pour les segments qui présentent peu de population de segments en temps réel.
-seo-title: Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphérique
-title: Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphérique
-uuid: 93 cd 8861-210 d -4 c 52-9 cb 7-6 f 2 dd 7 dc 018 a
+description: Evitez d’utiliser des règles de fusion de profils avec un graphique de périphérique pour les segments qui ne sont pas très peuplés, voire pas du tout, en temps réel.
+seo-description: Evitez d’utiliser des règles de fusion de profils avec un graphique de périphérique pour les segments qui ne sont pas très peuplés, voire pas du tout, en temps réel.
+seo-title: Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphériques
+title: Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphériques
+uuid: 93cd8861-210d-4c52-9cb7-6f2dd7dc018a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}
+# Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphériques {#important-considerations-for-profile-merge-rules-with-device-graphs}
 
-Avoid using [!UICONTROL Profile Merge Rules] with a [!UICONTROL Device Graph] for segments which have little to no real-time segment population.
+Evitez d’utiliser [!UICONTROL Profile Merge Rules] une variable [!UICONTROL Device Graph] pour les segments dont la population de segments est faible, voire nulle, en temps réel.
 
 >[!IMPORTANT]
 >
->If the [!UICONTROL Profile Merge Rule] is configured incorrectly, the segment population exported to batch destinations may be significantly lower than expected.
+>Si la configuration [!UICONTROL Profile Merge Rule] est incorrecte, la population de segments exportée vers des destinations par lot peut être nettement inférieure à ce qui était prévu.
 
-Segments using a [Profile Merge Rule with a Device Graph](../../features/profile-merge-rules/merge-rule-targeting-options.md#device-graph-options) are only evaluated against devices seen in real-time on [Audience Manager’s Edge Servers](../../reference/system-components/components-edge.md) after the segment has been created.
+Les segments qui utilisent une règle de fusion de [profil avec un graphique](../../features/profile-merge-rules/merge-rule-targeting-options.md#device-graph-options) de périphérique sont uniquement évalués par rapport aux périphériques affichés en temps réel sur les serveurs [Edge d’](../../reference/system-components/components-edge.md) Audience Manager une fois le segment créé.
 
-Remember, a [!UICONTROL Profile Merge Rule] with a [!UICONTROL Device Graph] has one of the following device options selected, as shown below.
+N’oubliez pas que l’une des options de périphérique suivantes est sélectionnée dans une [!UICONTROL Profile Merge Rule] option avec un [!UICONTROL Device Graph] .
 
 ![](assets/pmr-considerations-1.png)
 
-Devices that qualify for a segment in real-time are measured by the [segment’s real-time population](../../features/segments/segment-builder-data.md#segment-populations).
+Les périphériques qui répondent aux critères d’un segment en temps réel sont mesurés par la population [en temps réel du](../../features/segments/segment-builder-data.md#segment-populations)segment.
 
 ![](assets/pmr-considerations-2.png)
 
-Une faible population de segments en temps réel signifie que très peu de périphériques qualifiant pour le segment sont visibles en temps réel. For best performance, segments with little to no real-time population should use a [!UICONTROL Profile Merge Rule] set to evaluate the *[!UICONTROL Current Device]*, like in the image below.
+Une faible population de segments en temps réel signifie que très peu de périphériques correspondant au segment sont affichés en temps réel. Pour de meilleures performances, les segments avec peu ou pas de population en temps réel doivent utiliser un [!UICONTROL Profile Merge Rule] ensemble pour évaluer le *[!UICONTROL Current Device]*, comme dans l’image ci-dessous.
 
 ![](assets/pmr-considerations-3.png)
 
-Setting the [!UICONTROL Profile Merge Rule] to evaluate the *[!UICONTROL Current Device]* ensures that all devices (not just those seen in real-time) are evaluated for the segment. Tous les périphériques qualifiant pour le segment sont définis par la population totale de segments, comme illustré ci-dessous.
+La définition [!UICONTROL Profile Merge Rule] de pour évaluer le *[!UICONTROL Current Device]* permet de s’assurer que tous les périphériques (et pas seulement ceux affichés en temps réel) sont évalués pour le segment. Tous les périphériques correspondant au segment sont définis par la population totale de segments, comme illustré ci-dessous.
 
 ![](assets/pmr-considerations-4.png)
