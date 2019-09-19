@@ -5,7 +5,7 @@ seo-title: Workflow C - Personnalisation basée sur l’activité authentifiée 
 solution: Audience Manager
 title: Workflow C - Personnalisation basée sur l’activité authentifiée combinée avec les données hors ligne
 translation-type: tm+mt
-source-git-commit: 455c198d7a096a620a2cf7c8b728b67335eadc8d
+source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
 
 ---
 
@@ -110,7 +110,7 @@ Pour créer des segments, utilisez le créateur de [segments](../segments/segmen
 
 >[!IMPORTANT]
 >
->Un gestionnaire de contenu gère l’intégration aux plateformes sociales au moyen de jetons d’authentification qui expirent après un certain temps. Voir Renouvellement du jeton d’authentification pour plus d’informations sur la manière de renouveler les jetons expirés.
+>Audience Manager gère l’intégration aux plateformes sociales au moyen de jetons d’authentification qui expirent après un certain temps. Voir Renouvellement du jeton d’authentification pour plus d’informations sur la manière de renouveler les jetons expirés.
 
 ## Etape 6 - Création d’une destination basée sur les personnes {#create-destination}
 
