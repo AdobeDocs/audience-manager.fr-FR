@@ -1,10 +1,10 @@
 ---
-description: Configurez un groupe Google pour importer vos fichiers de données doubleclick Campaign Manager (DCM) dans Audience Manager. Le contenu de cette section résume le processus d'intégration et fournit des liens vers les ressources DCM pour vous aider à démarrer.
-seo-description: Configurez un groupe Google pour importer vos fichiers de données doubleclick Campaign Manager (DCM) dans Audience Manager. Le contenu de cette section résume le processus d'intégration et fournit des liens vers les ressources DCM pour vous aider à démarrer.
-seo-title: Importer des fichiers de données DCM dans Audience Manager
+description: Configurez un groupe Google pour importer vos fichiers de données DoubleClick Campaign Manager (DCM) dans Audience Manager. Le contenu de cette section résume le processus d’intégration et vous fournit des liens vers les ressources DCM pour vous aider à démarrer.
+seo-description: Configurez un groupe Google pour importer vos fichiers de données DoubleClick Campaign Manager (DCM) dans Audience Manager. Le contenu de cette section résume le processus d’intégration et vous fournit des liens vers les ressources DCM pour vous aider à démarrer.
+seo-title: Importation Des Fichiers De Données DCM Dans Audience Manager
 solution: Audience Manager
-title: Importer des fichiers de données DCM dans Audience Manager
-uuid: 3578 cfe 1-6 d 30-4 a 73-ab 75-8 d 272 bebcd 60
+title: ' Importation Des Fichiers De Données DCM Dans Audience Manager'
+uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,53 +13,53 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Import DCM Data Files Into Audience Manager {#import-dcm-data-files-into-audience-manager}
 
-Configurez un groupe Google pour importer vos fichiers de données doubleclick Campaign Manager (DCM) dans Audience Manager. Le contenu de cette section résume le processus d'intégration et fournit des liens vers les ressources DCM pour vous aider à démarrer.
+Configurez un groupe Google pour importer vos fichiers de données DoubleClick Campaign Manager (DCM) dans Audience Manager. Le contenu de cette section résume le processus d’intégration et vous fournit des liens vers les ressources DCM pour vous aider à démarrer.
 
-## Résumé de l'intégration
+## Résumé de l’intégration
 
-DCM est le remplacement de [!DNL Google] pour [!DNL DoubleClick for Advertisers] (DFA). Tout comme avec DFA, les clients DCM peuvent importer, visualiser et manipuler leurs données dans [!DNL Audience Manager]. But [!DNL Audience Manager] cannot directly access and import your [!UICONTROL Data Transfer] and [!UICONTROL Match Table] files. C’est au client qu’il incombe d’importer ces fichiers.
+DCM est le remplacement de [!DNL Google] pour [!DNL DoubleClick for Advertisers] (DFA). Tout comme avec DFA, les clients DCM peuvent importer, visualiser et manipuler leurs données dans [!DNL Audience Manager]. Mais [!DNL Audience Manager] vous ne pouvez pas accéder directement à vos [!UICONTROL Data Transfer] fichiers et à vos [!UICONTROL Match Table] fichiers et les importer. C’est au client qu’il incombe d’importer ces fichiers.
 
-However, the set up procedure is well documented in the [DoubleClick Campaign Manager Help](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Vous pouvez également consulter les étapes répertoriées ci-dessous pour commencer.
+Toutefois, la procédure de configuration est bien documentée dans l’aide [du gestionnaire de campagnes](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456)DoubleClick. Vous pouvez également passer en revue les étapes ci-dessous pour commencer.
 
 >[!CAUTION]
 >
->Les fichiers de données DCM contiennent des données pour tous vos annonceurs ou clients. If you need to omit specific clients, then you must edit the files before making them available to [!DNL Audience Manager].
+>Les fichiers de données DCM contiennent des données pour tous vos annonceurs ou clients. Si vous devez omettre des clients spécifiques, vous devez modifier les fichiers avant de les rendre accessibles [!DNL Audience Manager].
 
 ## Fréquence et disponibilité des transferts de données
 
-[!DNL Audience Manager] recherche et transfère les données une fois par jour. Data is usually available in [!DNL Audience Manager] after 24-hours.
+[!DNL Audience Manager] vérifie et transfère les données une fois par jour. Les données sont généralement disponibles au [!DNL Audience Manager] bout de 24 heures.
 
 ## Étapes
 
 1. [Créer un groupe](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
 
-   Les groupes contrôlent l'accès aux données DCM. Eventually, you'll invite and add [!DNL Audience Manager] to this group.
+   Les groupes contrôlent l’accès à vos données DCM. Finalement, vous inviterez et ajouterez [!DNL Audience Manager] à ce groupe.
 
-1. [Vérifiez l'état de stockage de Google Cloud](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
+1. [Vérifiez votre état](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456)de stockage Google Cloud.
 
-   Google Cloud Storage contains the data bucket that holds your [!UICONTROL Data Transfer] and [!UICONTROL Match Tables]. Vous devez configurer un compartiment ou vous assurer que votre nouveau groupe a accès à un compartiment de stockage de données existant.
+   Le stockage Google Cloud contient le compartiment de données qui contient votre [!UICONTROL Data Transfer] et [!UICONTROL Match Tables]. Vous devez configurer un compartiment ou vous assurer que votre nouveau groupe a accès à un compartiment de stockage de données existant.
 
-1. [Obtenez une URL de fichier de données](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456).
+1. [Obtenez une URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456)de fichier de données.
 
-   Travaillez avec votre gestionnaire de compte DCM ou votre conseiller de solutions de plate-forme. Ils vous fourniront une URL vers vos fichiers de données. [!DNL Google] peut changer le format des noms de compartiment et de fichier dans les versions ultérieures. De nouveau, demandez à votre gestionnaire de compte DCM de vous assurer que vous utilisez les formats appropriés.
+   Travaillez avec votre gestionnaire de compte DCM ou votre consultant en solutions de plateformes. Ils vous fourniront une URL vers vos fichiers de données. [!DNL Google] peut modifier le format des noms de fichier et de compartiment dans les versions ultérieures. Là encore, demandez à votre gestionnaire de compte DCM de vous assurer que vous utilisez les formats appropriés.
 
-1. [Définissez les autorisations](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission)de compartiment.
+1. [Définissez les autorisations](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission)du compartiment.
 
-   The [!DNL Cloud Storage Manager] lets you control data sharing and bucket access. Give your group read access to the bucket that contains your [!UICONTROL Data Transfer] and [!UICONTROL Match Table] files.
+   Le [!DNL Cloud Storage Manager] permet de contrôler le partage des données et l’accès au compartiment. Donnez à votre groupe un accès en lecture au compartiment contenant vos [!UICONTROL Data Transfer] fichiers et [!UICONTROL Match Table] .
 
-1. [Configurez le partage des données](https://support.google.com/dcm/partner/answer/6206106?hl=en).
+1. [Configurez le partage](https://support.google.com/dcm/partner/answer/6206106?hl=en)des données.
 
-   Utilisateur DCM partagé - les identifiants sont chiffrés pour protéger la confidentialité. Encryption adds 2 columns to the end of your Data Transfer file, `PartnerId1` and `PartnerId2`. Ces colonnes contiennent un utilisateur codé - identifiants spécifiques à chaque entreprise qui reçoit ces fichiers.
+   Les ID utilisateur DCM partagés sont chiffrés pour protéger la confidentialité. Encryption ajoute 2 colonnes à la fin de votre fichier de transfert de données, `PartnerId1` et `PartnerId2`. Ces colonnes contiennent des ID utilisateur codés propres à chaque entreprise qui reçoit ces fichiers.
 
-   As an authorized third-party, [!DNL Audience Manager] can receive DCM data, but cannot decode the IDs. However, on the [!DNL Audience Manager] side, we know how the encoded IDs match our IDs. Cela signifie que nous pouvons établir une correspondance et synchroniser les utilisateurs avec confiance et précision.
+   En tant que tiers autorisé, [!DNL Audience Manager] peut recevoir des données DCM, mais ne peut pas décoder les ID. Cependant, [!DNL Audience Manager] nous savons comment les ID codés correspondent à nos ID. Cela signifie que nous pouvons associer et synchroniser les utilisateurs avec confiance et précision.
 
    >[!NOTE]
-   >You cannot import DCM files into [!DNL Audience Manager] if you're already sharing data with 2 other third-party partners.
+   >Vous ne pouvez pas importer de fichiers DCM dans [!DNL Audience Manager] si vous partagez déjà des données avec deux autres partenaires tiers.
 
-1. Invite [!DNL Audience Manager] to join the group.
+1. Invitez [!DNL Audience Manager] à rejoindre le groupe.
 
-   After you create a group and give it access to a data bucket, invite [!DNL Audience Manager] to join the group. Envoyez un courrier électronique d'invitation à DFA-AAM@adobe.com. Veillez à inclure l'URL du fichier de données à l'étape 3. Nos équipes internes collaboreront avec vous pour vérifier l'accès après acceptation de l'invitation. 1. Set up two data sources for DCM data in the [!DNL Audience Manager] User Interface.
+   Après avoir créé un groupe et lui avoir donné accès à un compartiment de données, invitez-le [!DNL Audience Manager] à rejoindre le groupe. Envoyez une invitation par courrier électronique à DFA-AAM@adobe.com. Veillez à inclure l’URL du fichier de données à l’étape 3. Nos équipes internes travailleront avec vous pour vérifier l'accès après avoir accepté l'invitation. 1. Configurez deux sources de données pour les données DCM dans l’interface [!DNL Audience Manager] utilisateur.
 
-   Name the data sources `Advertiser Analytics: DCM Platform` and `Advertiser Analytics: AAM+DCM Platform`. In the [Create Data Sources](../../../features/manage-datasources.md#create-data-source) workflow, set the ID type to `Cookie`. Partagez les identifiants des deux nouvelles sources de données avec nos équipes internes.
+   Nommez les sources de données `Advertiser Analytics: DCM Platform` et `Advertiser Analytics: AAM+DCM Platform`. Dans le flux de travail [Créer des sources](../../../features/manage-datasources.md#create-data-source) de données, définissez le type d’ID sur `Cookie`. Partagez les ID des deux nouvelles sources de données avec nos équipes internes.
 
-1. You can easily create traits from the DCM files you import into [!DNL Audience Manager]. See [Actionable Log Files](../../../integration/media-data-integration/actionable-log-files.md) and ask your [!DNL Audience Manager] consultant or Customer Care to enable the feature for you.
+1. Vous pouvez facilement créer des caractéristiques à partir des fichiers DCM dans lesquels vous importez [!DNL Audience Manager]. Reportez-vous à la section Fichiers [journaux](../../../integration/media-data-integration/actionable-log-files.md) exploitables et demandez à votre [!DNL Audience Manager] consultant ou au service à la clientèle d’activer cette fonction pour vous.
