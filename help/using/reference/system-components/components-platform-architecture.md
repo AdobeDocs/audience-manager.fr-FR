@@ -1,21 +1,21 @@
 ---
-description: Ce mappage contient les principaux systèmes Audience Manager. Elle représente visuellement la manière dont les données circulent, sortent et entre les composants Audience Manager.
-seo-description: Ce mappage contient les principaux systèmes Audience Manager. Elle représente visuellement la manière dont les données circulent, sortent et entre les composants Audience Manager.
-seo-title: Carte de flux de données d'architecture de plateforme
+description: Cette carte contient les principaux systèmes Audience Manager. Il représente visuellement la manière dont les données s’enchaînent dans, en dehors et entre les composants d’Audience Manager.
+seo-description: Cette carte contient les principaux systèmes Audience Manager. Il représente visuellement la manière dont les données s’enchaînent dans, en dehors et entre les composants d’Audience Manager.
+seo-title: Carte du flux de données de l'architecture de plateforme
 solution: Audience Manager
-title: Carte de flux de données d'architecture de plateforme
-uuid: d 845 af 1 d-f 448-4 f 4 c -948 e-b 2 c 89 f 125086
+title: Carte du flux de données de l'architecture de plateforme
+uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Platform Architecture: Data Flow Map{#platform-architecture-data-flow-map}
+# Architecture de plateforme : Carte du flux de données{#platform-architecture-data-flow-map}
 
-Ce mappage contient les principaux systèmes Audience Manager. Elle représente visuellement la manière dont les données circulent, sortent et entre les composants Audience Manager.
+Cette carte contient les principaux systèmes Audience Manager. Il représente visuellement la manière dont les données s’enchaînent dans, en dehors et entre les composants d’Audience Manager.
 
-## How to read this map {#compmap}
+## Comment lire cette carte {#compmap}
 
 <!-- 
 
@@ -23,11 +23,11 @@ c_compmap.xml
 
  -->
 
-In the map, the gray box contains [!DNL Audience Manager] systems. Some components are completely internal and others sit on the boundary between [!DNL Audience Manager] and the outside world. As an [!DNL Audience Manager] customer, internal components are often transparent or inaccessible. Cependant, vous pouvez parfois interagir avec ces systèmes par le biais de l'interface utilisateur ou des intégrations de données. Systems on the edge of the box collect and send data between [!DNL Audience Manager] and the outside world.
+Dans la carte, la zone grise contient [!DNL Audience Manager] des systèmes. Certains composants sont complètement internes et d'autres se trouvent à la frontière entre le monde [!DNL Audience Manager] et le monde extérieur. En tant que [!DNL Audience Manager] client, les composants internes sont souvent transparents ou inaccessibles. Cependant, vous pouvez parfois interagir avec ces systèmes par le biais de l’interface utilisateur ou des intégrations de données. Les systèmes au bord de la boîte collectent et envoient des données entre [!DNL Audience Manager] et le monde extérieur.
 
-Colors define the type of data that flows in and out of [!DNL Audience Manager]. Vert est des données client, bleu est des données client (visiteurs qui visitent votre site) et orange est des données utilisées pour la création de rapports.
+Les couleurs définissent le type de données entrant et sortant [!DNL Audience Manager]. Le vert désigne les données client, le bleu, les données client (visiteurs de votre site) et l’orange, les données utilisées pour la création de rapports.
 
-For system descriptions and summaries see the data [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [processing](../../reference/system-components/components-data-processing.md), and [tag management](../../reference/system-components/components-tag-management.md) sections.
+Pour obtenir des descriptions et des résumés du système, reportez-vous aux sections [Action](../../reference/system-components/components-data-action.md)de données, [collecte](../../reference/system-components/components-data-collection.md), [traitement](../../reference/system-components/components-data-processing.md)et gestion des [balises.](../../reference/system-components/components-tag-management.md)
 
 ![](assets/flowmap.png)
 
