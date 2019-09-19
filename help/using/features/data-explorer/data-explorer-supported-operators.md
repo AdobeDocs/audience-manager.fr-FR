@@ -3,18 +3,18 @@ description: Utilisez des opérateurs logiques pour regrouper des paires clé-va
 seo-description: Utilisez des opérateurs logiques pour regrouper des paires clé-valeur et des caractéristiques de renvoi.
 seo-title: Opérateurs logiques pris en charge
 title: Opérateurs logiques pris en charge
-uuid: 645 fcb 6 f -50 ac -49 bc -8 df 9-c 699 c 749 cf 8 f
+uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Supported Logical Operators {#supported-logical-operators}
+# Opérateurs logiques pris en charge {#supported-logical-operators}
 
 Utilisez des opérateurs logiques pour regrouper des paires clé-valeur et des caractéristiques de renvoi.
 
-## Supported Operators for Signal Search {#supported-operators-search}
+## Opérateurs pris en charge pour la recherche de signaux {#supported-operators-search}
 
 Utilisez les opérateurs logiques pris en charge suivants pour rechercher des paires clé-valeur :
 
@@ -30,12 +30,12 @@ Utilisez les opérateurs logiques pris en charge suivants pour rechercher des pa
 
 ### Opérateurs nommés
 
-| Opérateur | Evaluates to [!DNL True] When |
+| Opérateur | Evalue à [!DNL True] quel moment |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient* des caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Startswith]** | La valeur d’une paire clé-valeur *commence par* des caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Endswith]** | La valeur d’une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
 
-## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
+## Opérateurs pris en charge pour le renvoi et l’estimation des caractéristiques {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+Vous pouvez renvoyer des caractéristiques qui incluent des expressions contenant l’un des opérateurs pris en charge par [!UICONTROL Signal Search]. Outre ces opérateurs, le renvoi et l’estimation de caractéristiques prennent également en charge les opérateurs [!UICONTROL AND], [!UICONTROL OR]et [!UICONTROL AND NOT] logiques, utilisés pour combiner des paires clé-valeur dans les expressions de caractéristiques renvoyées.
