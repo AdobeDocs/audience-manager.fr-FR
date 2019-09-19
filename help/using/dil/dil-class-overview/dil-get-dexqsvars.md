@@ -1,21 +1,21 @@
 ---
-description: Récupère une valeur spécifique à partir d'un serveur d'annonces.
-seo-description: Récupère une valeur spécifique à partir d'un serveur d'annonces.
-seo-title: Dexgetqsvars
+description: Récupère une valeur spécifique d’un serveur d’annonces.
+seo-description: Récupère une valeur spécifique d’un serveur d’annonces.
+seo-title: dexGetQSVars
 solution: Audience Manager
-title: Dexgetqsvars
-uuid: 6 d 21 c 7 a 4-43 f 8-456 b -8831-47343 dbb 047 e
+title: dexGetQSVars
+uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
 translation-type: tm+mt
 source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# Dexgetqsvars{#dexgetqsvars}
+# dexGetQSVars{#dexgetqsvars}
 
-Récupère une valeur spécifique à partir d'un serveur d'annonces.
+Récupère une valeur spécifique d’un serveur d’annonces.
 
-**Signature de fonction :**`dexGetQSVars: function (variableName, partner, containerNSID) {}`
+**** Signature de fonction : `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
 <!-- 
 
@@ -29,12 +29,12 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Chaîne | Nom de la variable pour laquelle vous souhaitez obtenir une valeur. |
 | `partner` | Chaîne | Nom du partenaire à rechercher. |
-| `containerNSID` | Entier | Le [!DNL NSID] conteneur que vous recherchez. Valeurs par défaut `0`: |
+| `containerNSID` | Entier | Le conteneur [!DNL NSID] que vous recherchez. Les valeurs par défaut sont `0`. |
 
 **Réponse**
 
-Renvoie la valeur de variable d' [!UICONTROL DIL] une instance.
+Renvoie la valeur de la variable pour une [!UICONTROL DIL] instance.
 
 **Exemple de code**
 
-<pre class="java"><code>var value = DIL. dexgetqsvars ('<i>variablename</i>','<i>partnername</i>',<i>containernsid</i>) ;</code></pre>
+<pre class="java"><code>var value = DIL.dexGetQSVars('<i>variableName</i>','<i>partnerName</i>',<i>containerNSID</i>);</code></pre>
