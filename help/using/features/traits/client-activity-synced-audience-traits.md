@@ -1,41 +1,41 @@
 ---
-description: Il s'agit de caractéristiques spéciales utilisées par les audiences adressables. Les caractéristiques de public actif et de source de données sont situées dans Données d'audience > Caractéristiques > Caractéristiques du public.
-seo-description: Il s'agit de caractéristiques spéciales utilisées par les audiences adressables. Les caractéristiques de public actif et de source de données sont situées dans Données d'audience > Caractéristiques > Caractéristiques du public.
-seo-title: Caractéristiques de public actives et caractéristiques synchronisées Source de données
+description: Ce sont des caractéristiques spéciales utilisées par les audiences adressables. Les caractéristiques synchronisées d’audience et de source de données actives se trouvent sous Données d’audience > Caractéristiques > Caractéristiques d’audience.
+seo-description: Ce sont des caractéristiques spéciales utilisées par les audiences adressables. Les caractéristiques synchronisées d’audience et de source de données actives se trouvent sous Données d’audience > Caractéristiques > Caractéristiques d’audience.
+seo-title: Caractéristiques d’audience actives et caractéristiques synchronisées de la source de données
 solution: Audience Manager
-title: Caractéristiques de public actives et caractéristiques synchronisées Source de données
-uuid: b 4 f 145 ab-f 343-4 d 71-86 d 1-5 d 03 f 7 b 03809
+title: Caractéristiques d’audience actives et caractéristiques synchronisées de la source de données
+uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
+# Caractéristiques d’audience actives et caractéristiques synchronisées de la source de données {#active-audience-traits-and-data-source-synced-traits}
 
-These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] se [!UICONTROL Data Source Synced Traits] trouvent [!UICONTROL Audience Data > Traits > Audience Traits]dans la.
+Ce sont des caractéristiques spéciales utilisées par [!UICONTROL Addressable Audiences]les gens. [!UICONTROL Active Audience] et [!UICONTROL Data Source Synced Traits] se trouvent dans [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
->L'accès requiert des autorisations d'administrateur.
+>L’accès requiert des autorisations d’administrateur.
 
-## Active Audience Traits {#active-audience-traits}
+## Caractéristiques d’audience actives {#active-audience-traits}
 
-An [!UICONTROL Active Audience] trait contains all of the devices under management in your [!DNL Audience Manager] account. You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. Also, [Addressable Audiences](../../features/addressable-audiences.md) requires this trait to generate overlap data. All accounts have an [!UICONTROL Active Audience] trait by default. Cette caractéristique ne peut pas être supprimée.
+Une [!UICONTROL Active Audience] caractéristique contient tous les périphériques gérés dans votre [!DNL Audience Manager] compte. Vous pouvez utiliser une caractéristique [!UICONTROL Active Audience Trait] similaire aux autres lorsque vous créez ou modifiez des segments. En outre, les audiences [](../../features/addressable-audiences.md) adressables requièrent cette caractéristique pour générer des données de chevauchement. Tous les comptes ont une [!UICONTROL Active Audience] caractéristique par défaut. Cette caractéristique ne peut pas être supprimée.
 
-## Data Source Synced Traits {#data-source-synced-traits}
+## Caractéristiques synchronisées de la source de données {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] s'affichent dans [!UICONTROL Audience Traits] le dossier lorsque vous [créez ou modifiez une source de données](../../features/manage-datasources.md#create-data-source) et appliquez l'un des paramètres suivants :
+[!UICONTROL Data Source Synced Traits] apparaissent dans le [!UICONTROL Audience Traits] dossier lorsque vous [créez ou modifiez une source](../../features/manage-datasources.md#create-data-source) de données et appliquez l’un des paramètres suivants :
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] effectuer le suivi de tous les utilisateurs associés à une source de données. You can use a [!UICONTROL Data Source Synched Trait] like other traits when you build or edit segments. When you create a [!UICONTROL Data Source Synced Trait], the trait name matches the name used by your data source. Modifiez la source de données pour modifier le nom de la caractéristique. Ces caractéristiques ne peuvent pas être supprimées.
+[!UICONTROL Data Source Synced Traits] effectuez le suivi de tous les utilisateurs associés à une source de données. Vous pouvez utiliser une caractéristique [!UICONTROL Data Source Synched Trait] similaire aux autres lorsque vous créez ou modifiez des segments. Lorsque vous créez une [!UICONTROL Data Source Synced Trait]variable, le nom de la caractéristique correspond au nom utilisé par votre source de données. Modifiez la source de données pour modifier le nom de la caractéristique. Ces caractéristiques ne peuvent pas être supprimées.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] sont utiles à la résolution des problèmes. Cliquez sur un nom de caractéristique pour vérifier les mesures sur la page de résumé de la caractéristique. If your selected trait returns data, that indicates the ID synchronization process is set up properly and pushing data to [!DNL Audience Manager].
+>[!UICONTROL Data Source Synced Traits] sont utiles pour le dépannage. Cliquez sur le nom d’une caractéristique pour vérifier les mesures dans la page de résumé de la caractéristique. Si la caractéristique sélectionnée renvoie des données, cela indique que le processus de synchronisation des identifiants est configuré correctement et que les données sont poussées vers [!DNL Audience Manager].
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Audiences adressables](../../features/addressable-audiences.md)
 
