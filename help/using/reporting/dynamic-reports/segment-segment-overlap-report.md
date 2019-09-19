@@ -1,10 +1,10 @@
 ---
-description: Renvoie des données sur le nombre d'utilisateurs uniques partagés entre vos segments.
-seo-description: Renvoie des données sur le nombre d'utilisateurs uniques partagés entre vos segments.
+description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos segments.
+seo-description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos segments.
 seo-title: Rapport de chevauchement de segments
 solution: Audience Manager
 title: Rapport de chevauchement de segments
-uuid: 0339 eb 6 c -6355-44 a 3-9 c 46-f 159485449 d 1
+uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
 source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
@@ -13,11 +13,11 @@ source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
 # Rapport de chevauchement de segments{#segment-to-segment-overlap-report}
 
-Renvoie des données sur le nombre d'utilisateurs uniques partagés entre vos segments.
+Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos segments.
 
 >[!NOTE]
 >
->Les rapports de chevauchement dans Audience Manager respectent les principes RBAC. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Les rapports de chevauchement dans Audience Manager respectent les principes RBAC. Vous ne pouvez afficher que les segments des sources de données auxquelles vous avez accès en fonction du groupe [d’utilisateurs](/help/using/features/administration/administration-overview.md) RBAC auquel vous appartenez.
 
 <!-- 
 
@@ -27,26 +27,26 @@ c_segment_segment_overlap.xml
 
 ## Aperçu
 
-The [!UICONTROL Segment-to-Segment Overlap] report can help you:
+Le [!UICONTROL Segment-to-Segment Overlap] rapport peut vous aider à :
 
-* Identifiez les segments présentant un chevauchement élevé ou élevé en fonction de vos besoins. Les caractéristiques présentant un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un chevauchement faible peuvent s'avérer utiles pour atteindre un jeu de visiteurs unique plus large.
-* Recherchez un chevauchement inattendu et utilisez ces informations pour créer de nouveaux segments hautes performances.
+* Identifiez les segments présentant un chevauchement élevé ou faible, en fonction de vos besoins. Les caractéristiques avec un fort chevauchement vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques avec faible chevauchement peuvent s’avérer utiles pour atteindre un ensemble de visiteurs uniques plus grand.
+* Recherchez les chevauchements inattendus et utilisez ces informations pour créer de nouveaux segments hautes performances.
 
 ## Exemple de rapport
 
-The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Segment Overlap] report.
+L’illustration suivante présente un aperçu général du [!UICONTROL Segment-to-Segment Overlap] rapport.
 
 >[!NOTE]
 >
->The [!UICONTROL Segment-to-Segment Overlap] report returns an empty field when it compares the same segment to itself.
+>Le [!UICONTROL Segment-to-Segment Overlap] rapport renvoie un champ vide lorsqu’il compare le même segment à lui-même.
 
 ![](assets/segment-to-segment-overlap.png)
 
-## Exploration des points de données individuels
+## Analyse des points de données individuels
 
-Sélectionnez un point individuel pour afficher les détails des données dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
+Sélectionnez un point pour afficher les détails des données dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
 
-## Segment-to-Segment Overlap Data Pop Fields Defined {#fields-defined}
+## Définition des champs de pop de données de chevauchement segment-à-segment {#fields-defined}
 
 <!-- 
 
@@ -54,24 +54,24 @@ r_s2s_data_pop.xml
 
  -->
 
-The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
+La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport contient les mesures ci-dessous. Notez que la mesure unique du tableau représente vos utilisateurs *en temps* réel.
 
 | Mesure | Description |
 |---|---|
-| **[!UICONTROL Segment ID1]** | Identifiant numérique unique du segment qui apparaît dans les résultats du rapport. Apparaît comme identifiant de ligne du segment. |
-| **[!UICONTROL Segment ID2]** | Identifiant numérique unique du segment sélectionné lors de l'exécution du rapport. Apparaît comme ID de colonne du segment. |
+| **[!UICONTROL Segment ID1]** | Identifiant numérique unique pour le segment qui apparaît dans les résultats du rapport. S’affiche comme ID de ligne pour le segment. |
+| **[!UICONTROL Segment ID2]** | ID numérique unique du segment sélectionné lors de l’exécution du rapport. S’affiche comme ID de colonne pour le segment. |
 | **[!UICONTROL Segment Name1]** | Nom du segment qui apparaît dans la ligne des résultats du rapport. |
-| **[!UICONTROL Segment Name2]** | Nom du segment que vous sélectionnez lors de l'exécution du rapport. Apparaît dans la colonne des résultats du rapport. |
-| **[!UICONTROL Overlap %]** | Pour obtenir le chevauchement %, Audience Manager utilise la formule suivante : Chevauchement des valeurs uniques/(segment de base + chevauchement des segments - uniques se chevauchant) |
+| **[!UICONTROL Segment Name2]** | Nom du segment sélectionné lors de l’exécution du rapport. S’affiche dans la colonne des résultats du rapport. |
+| **[!UICONTROL Overlap %]** | Pour obtenir le pourcentage de chevauchement, Audience Manager utilise la formule suivante :Uniques de chevauchement / (Uniques de segments de base + Uniques de segments de chevauchement - Uniques de segments de chevauchement) |
 | **[!UICONTROL Overlap Uniques]** | Nombre de visiteurs uniques partagés entre les segments comparés. |
 | **[!UICONTROL Segment Uniques1]** | Nombre de visiteurs uniques dans le segment 1. |
 | **[!UICONTROL Segment Uniques2]** | Nombre de visiteurs uniques dans le segment 2. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Icônes de rapport et outils expliqués](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapports de chevauchement : Mettre à jour la planification et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Taux d'échantillonnage des données et taux d'erreur dans les rapports Audience Manager sélectionnés…](../../reporting/report-sampling.md)
+>* [Explication des icônes et des outils du rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Echantillonnage des données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
