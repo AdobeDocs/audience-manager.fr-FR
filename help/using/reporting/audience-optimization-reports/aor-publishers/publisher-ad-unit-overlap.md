@@ -1,39 +1,39 @@
 ---
-description: Le rapport de chevauchement d'unités publicitaires s'affiche sous la forme d'un diagramme à chaud qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
-seo-description: Le rapport de chevauchement d'unités publicitaires s'affiche sous la forme d'un diagramme à chaud qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
-seo-title: Chevauchement d'unités publicitaires
+description: Le rapport Chevauchement d’unité publicitaire s’affiche sous forme de graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
+seo-description: Le rapport Chevauchement d’unité publicitaire s’affiche sous forme de graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
+seo-title: Chevauchement d’unité publicitaire
 solution: Audience Manager
-title: Chevauchement d'unités publicitaires
-uuid: e 4467 e 81-acbf -474 e-b 501-89 d 57395651 f
+title: Chevauchement d’unité publicitaire
+uuid: e4467e81-acbf-474e-b501-89d57395651f
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Ad Unit Overlap{#ad-unit-overlap}
+# Chevauchement d’unité publicitaire{#ad-unit-overlap}
 
-**[!UICONTROL Ad Unit Overlap]** Le rapport s'affiche sous la forme d'un graphique à chaud qui met en surbrillance les zones hautes et basses entre les unités publicitaires.
+Le **[!UICONTROL Ad Unit Overlap]** rapport s’affiche sous la forme d’un graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
 
 ## Cas d’utilisation {#use-cases}
 
-With the **[!UICONTROL Ad Unit Overlap]** report, you can gain insight into where your audience overlaps across your web properties. Le rapport tient compte des 100 principales propriétés liées et vous montre le chevauchement entre ces deux propriétés.
+Grâce au **[!UICONTROL Ad Unit Overlap]** rapport, vous pouvez savoir où votre audience chevauche vos propriétés Web. Le rapport prend en compte vos 100 principales propriétés liées et vous montre le chevauchement entre elles.
 
-## Using the Ad Unit Overlap Report {#using-the-report}
+## Utilisation du rapport Chevauchement d’unité publicitaire {#using-the-report}
 
-Use the **[!UICONTROL Top N Base Ad Units]** and **[!UICONTROL Top N Overlapping Ad Units]** controls to select your desired number of ad units for the overlap. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d'eux.
+Utilisez les commandes **[!UICONTROL Top N Base Ad Units]** et **[!UICONTROL Top N Overlapping Ad Units]** pour sélectionner le nombre d’unités publicitaires souhaité pour le chevauchement. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chaque élément.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range. Notez que les périodes de recherche de 7 et 30 jours ne sont disponibles que pour les dates dimanche.
+Utilisez les commandes **Plage** de jour et **Date jusqu’au bout** pour ajuster la plage de retour arrière. Notez que les périodes de 7 jours et de 30 jours sont disponibles uniquement pour les dates du dimanche.
 
-Use the **[!UICONTROL Base Ad Unit]** and the **[!UICONTROL Overlap Ad Unit]** controls to select which of your ad units you want to display in the overlap report.
+Utilisez les **[!UICONTROL Base Ad Unit]** commandes et les **[!UICONTROL Overlap Ad Unit]** commandes pour sélectionner les unités publicitaires à afficher dans le rapport de chevauchement.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de l’ [importation de fichiers de données DFP dans Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous garantissez ainsi que le rapport indique la propriété web comme [!UICONTROL Ad Unit] au lieu de la propriété [!UICONTROL Ad Unit ID].
 
-## Interpreting the Results {#interpreting-results}
+## Interprétation des résultats {#interpreting-results}
 
-Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Passez la souris sur une cellule pour obtenir plus d'informations sur ce chevauchement particulier. Voir Descriptions pour obtenir des informations supplémentaires dans le tableau sous l'exemple de rapport.
+Votre [!UICONTROL Ad Unit Overlap] rapport pourrait ressembler à celui ci-dessous. Passez la souris sur une cellule pour obtenir plus d’informations sur ce chevauchement particulier. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -46,28 +46,28 @@ Your [!UICONTROL Ad Unit Overlap] report could look similar to the one below. Pa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Chevauchement de l'unité publicitaire</span> </p> </td> 
-   <td colname="col2"> <p>Nom de l'élément de stock. Par exemple, il peut s'agir de l'un de vos sites Web ou d'un article sur votre site Web. Dans l'image ci-dessus, les unités d'annonce de base sont les articles 9 à 18. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Unité publicitaire de chevauchement</span> </p> </td> 
+   <td colname="col2"> <p>Nom de votre article de stock. Par exemple, il peut s’agir de l’un de vos sites Web ou d’un article de votre site Web. Dans l'image ci-dessus, les unités publicitaires de base sont les articles 9 à 18. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Unité de base de l'annonce</span> </p> </td> 
-   <td colname="col2"> <p>Nom de l'élément de stock. Par exemple, il peut s'agir de l'un de vos sites Web ou d'un article sur votre site Web. Dans l'image ci-dessus, les unités d'annonce de base sont les articles 1 à 8. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Unité d'annonce de base</span> </p> </td> 
+   <td colname="col2"> <p>Nom de votre article de stock. Par exemple, il peut s’agir de l’un de vos sites Web ou d’un article de votre site Web. Dans l'image ci-dessus, les unités publicitaires de base sont les articles 1 à 8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Chevauchement du nombre d'unités publicitaires</span> </p> </td> 
-   <td colname="col2"> <p>Nombre de vos utilisateurs qui ont visité les articles d'unité publicitaire 9 à 18. Ces informations sont extraites des journaux DFP. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Nombre d'unités publicitaires de chevauchement</span> </p> </td> 
+   <td colname="col2"> <p>Nombre d’utilisateurs qui ont consulté les éléments 9 à 18 de l’unité publicitaire. Ces informations sont extraites des journaux DFP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Nombre d'unités de publicité de base</span> </p> </td> 
-   <td colname="col2"> <p>Nombre de vos utilisateurs qui ont visité les articles d'unité publicitaire 1 à 8. Ces informations sont extraites des journaux DFP. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Nombre d'unités d'annonce de base uniques</span> </p> </td> 
+   <td colname="col2"> <p>Nombre d’utilisateurs qui ont consulté les éléments 1 à 8 de l’unité publicitaire. Ces informations sont extraites des journaux DFP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Chevauchement des valeurs uniques</span> </p> </td> 
-   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Nombre de chevauchements uniques</span> </p> </td> 
+   <td colname="col2"> <p>chevauchement entre vos utilisateurs qui ont visité une unité <span class="wintitle"> publicitaire</span> de base et une unité <span class="wintitle"></span>publicitaire de chevauchement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Pourcentage de chevauchement</span> </p> </td> 
-   <td colname="col2"> <p>The overlap between your users who have visited a <span class="wintitle"> Base Ad Unit</span> and <span class="wintitle"> Overlap Ad Unit</span>. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Base Ad Unit</span>. </p> </td> 
+   <td colname="col2"> <p>chevauchement entre vos utilisateurs qui ont visité une unité <span class="wintitle"> publicitaire</span> de base et une unité <span class="wintitle"></span>publicitaire de chevauchement. Il s’agit du nombre <span class="wintitle"> unique de chevauchement</span>, exprimé en pourcentage de l’unité <span class="wintitle"> publicitaire</span>de base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
