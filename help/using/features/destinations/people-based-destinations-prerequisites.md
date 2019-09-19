@@ -53,7 +53,7 @@ Le hachage est une fonction à sens unique qui brouille l’entrée pour produir
 
 ## Exigences de hachage {#hashing-requirements}
 
-Lorsque vous hachez les adresses électroniques, veillez à respecter les exigences suivantes :
+Lors du hachage des adresses électroniques, veillez à respecter les exigences suivantes :
 
 * Rogner tous les espaces de début et de fin de la chaîne de courrier électronique ; exemple : `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
 * Assurez-vous que la chaîne hachée est en minuscules ; exemple : `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
