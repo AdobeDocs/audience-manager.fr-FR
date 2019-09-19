@@ -1,19 +1,19 @@
 ---
-description: Une estimation en masse renvoie les données de taille de segment en fonction des règles de segmentation. Suivez ces instructions pour effectuer une demande d'estimation en masse.
-seo-description: Une estimation en masse renvoie les données de taille de segment en fonction des règles de segmentation. Suivez ces instructions pour effectuer une demande d'estimation en masse.
+description: Une estimation en masse renvoie des données de taille de segment basées sur des règles de segment. Suivez ces instructions pour effectuer une demande d’estimation en masse.
+seo-description: Une estimation en masse renvoie des données de taille de segment basées sur des règles de segment. Suivez ces instructions pour effectuer une demande d’estimation en masse.
 seo-title: Estimations en masse
 solution: Audience Manager
 title: Estimations en masse
-uuid: 63 b 2 f 06 a -8 ba 0-47 a 2-bd 0 b -8039 b 2 d 4 c 95 d
+uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Estimates{#bulk-estimates}
+# Estimations en masse{#bulk-estimates}
 
-Une estimation en masse renvoie les données de taille de segment en fonction des règles de segmentation. Suivez ces instructions pour effectuer une demande d'estimation en masse.
+Une estimation en masse renvoie des données de taille de segment basées sur des règles de segment. Suivez ces instructions pour effectuer une demande d’estimation en masse.
 
 <!-- 
 
@@ -23,20 +23,20 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Cet outil est fourni à titre de commodité uniquement. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Les permissions de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans [!DNL Audience Manager] l'interface utilisateur sont respectées dans l' [!UICONTROL Bulk Management Tools]interface.
+>Les variables ne [!UICONTROL Bulk Management Tools] sont pas *prises en charge par* [!DNL Audience Manager]. Cet outil est fourni à titre pratique et à titre de courtoisie seulement. Pour les modifications en masse, nous vous recommandons de travailler avec les API [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) à la place. [Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans [!UICONTROL Bulk Management Tools].
 
-To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
+Pour effectuer des mises à jour en masse, ouvrez la [!UICONTROL Bulk Management Tools] feuille de calcul et procédez comme suit :
 
-1. Click the **[!UICONTROL Headers]** tab and copy the [!UICONTROL Estimate Segment Size] header.
+1. Cliquez sur l’ **[!UICONTROL Headers]** onglet et copiez l’ [!UICONTROL Estimate Segment Size] en-tête.
 1. Click the **[!UICONTROL Estimate]** tab.
 1. Collez l'en-tête d'estimation dans la première ligne de la feuille de calcul d'estimation.
-1. Collez ou tapez les données à modifier dans une colonne correspondante en fonction du libellé d'en-tête.
+1. Collez ou saisissez les données à modifier dans une colonne correspondante en fonction du libellé de l’en-tête.
 1. Dans la barre d'outils de la feuille de calcul, cliquez sur le bouton Créer correspondant à l'élément que vous mettez à jour.
-This action opens the [!UICONTROL Account Information] dialog box.
+Cette action ouvre la boîte de dialogue [!UICONTROL Account Information] .
 
-1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+1. Fournissez les informations [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) connexion requises et cliquez sur **[!UICONTROL Submit]**.
 
-This action creates a [!UICONTROL Response] column in the worksheet that contains estimated segment size data. Avant de saisir des données, votre feuille de calcul d'estimation en masse doit se présenter comme suit :
+Cette action crée une [!UICONTROL Response] colonne dans la feuille de calcul qui contient une estimation de la taille du segment. Avant de saisir des données, votre feuille de calcul d’estimation en masse doit ressembler à ce qui suit :
 
-![](assets/estimate.png)Si votre mise à jour en masse renvoie une erreur ou échoue, voir [Dépannage des outils de gestion en bloc](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+![](assets/estimate.png)Si votre mise à jour en masse renvoie une erreur ou échoue, reportez-vous à la section [Dépannage des outils](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gestion en bloc.
 
