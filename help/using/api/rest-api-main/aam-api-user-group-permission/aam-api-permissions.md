@@ -1,25 +1,25 @@
 ---
-description: Méthodes API REST pour gérer les autorisations pour les objets et les groupes.
-seo-description: Méthodes API REST pour gérer les autorisations pour les objets et les groupes.
-seo-title: Méthodes de l'API Gestion des permissions
+description: Méthodes de l’API REST pour gérer les autorisations des objets et des groupes.
+seo-description: Méthodes de l’API REST pour gérer les autorisations des objets et des groupes.
+seo-title: Méthodes de l’API de gestion des autorisations
 solution: Audience Manager
-title: Méthodes de l'API Gestion des permissions
-uuid: 111 d 0 f 92-d 92 c -4 d 4 b-b 0 d 6-10 dd 3 fa 466 ad
+title: Méthodes de l’API de gestion des autorisations
+uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Permissions Management API Methods {#permissions-management-api-methods}
+# Méthodes de l’API de gestion des autorisations {#permissions-management-api-methods}
 
-Rest [!DNL API] methods to manage permissions for objects and groups.
+Redéfinissez [!DNL API] les méthodes de gestion des autorisations pour les objets et les groupes.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## List Available Object Types {#list-object-types}
+## Liste des types d’objets disponibles {#list-object-types}
 
-`GET` Méthode permettant de répertorier les types d'objet disponibles sur lesquels les contrôles d'accès basés sur un rôle peuvent être définis.
+Méthode `GET` permettant de répertorier les types d’objet disponibles sur lesquels des contrôles d’accès basés sur les rôles peuvent être définis.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -33,9 +33,9 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## List Available Permissions for an Object Type {#list-permissions-object-type}
+## Répertorier les autorisations disponibles pour un type d’objet {#list-permissions-object-type}
 
-`GET` Méthode permettant de répertorier les autorisations disponibles pour un type d'objet.
+Méthode `GET` permettant de répertorier les autorisations disponibles pour un type d’objet.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -54,4 +54,4 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 
 >[!NOTE]
 >
->Les types d'objet TAGS et les signaux dérivés n'ont pas d'autorisations normales à utiliser. Les commandes de ces types d'objet sont uniquement modifiées par les autorisations de caractères génériques ou de caractères génériques.
+>Les types d’objet TAGS et DERIVED SIGNALS n’ont pas d’autorisations régulières à utiliser. Les contrôles de ces types d’objets sont modifiés uniquement par les autorisations de carte générique Tout ou Rien.
