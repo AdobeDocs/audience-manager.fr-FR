@@ -1,18 +1,18 @@
 ---
 description: Questions fréquentes sur la fonction Audience Lab.
 seo-description: Questions fréquentes sur la fonction Audience Lab.
-seo-title: FAQ sur Audience Lab
+seo-title: FAQ d’Audience Lab
 solution: Audience Manager
-title: FAQ sur Audience Lab
+title: FAQ d’Audience Lab
 topic: API DIL
-uuid: b 1 daf 99 d-af 60-4 f 65-987 d -794 a 6 d 45 d 566
+uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Lab FAQ{#audience-lab-faq}
+# FAQ d’Audience Lab{#audience-lab-faq}
 
 Questions fréquentes sur la fonction Audience Lab.
 
@@ -24,34 +24,34 @@ audience-lab-faq.xml
 
 <br> 
 
-**Les segments de test créés dans les groupes de test ont-ils des ID de segment différents ? How do I map the IDs to different destinations?**
+**Les segments de test créés dans les groupes de test ont-ils des ID de segment différents ? Comment faire correspondre les ID à différentes destinations ?**
 
-Oui, les segments de test comportent différents ID de segment. For destinations with [!UICONTROL Auto-fill Destination Mapping] or segments sent to [!DNL Google], [!UICONTROL Audience Lab] will handle the mapping values just like the destinations normally would.
-
-<br> 
-
-**La même caractéristique de conversion peut-elle être associée à plusieurs groupes de test ?**
-
-Oui, cela est autorisé. Considérez un cas d'un test à l'aide d'un segment masculin associé à la conversion X et un test à l'aide d'un segment féminin associé à la conversion X. Cela n'a pas d'importance que les deux tests génèrent des conversions puisqu'ils testent deux audiences différentes.
+Oui, les segments de test ont des ID de segment différents. Pour les destinations avec [!UICONTROL Auto-fill Destination Mapping] ou les segments envoyés [!DNL Google], [!UICONTROL Audience Lab] gérera les valeurs de mappage comme les destinations habituelles.
 
 <br> 
 
-**Imaginons qu'un groupe de test utilise un profil authentifié pour le fractionnement du segment de test. The authenticated profile is linked to 4[Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
+**La même caractéristique de conversion peut-elle être associée à plusieurs groupes de tests ?**
 
-In this case, [!UICONTROL Audience Lab] only counts one conversion.
-
-<br> 
-
-**Que se passe-t-il si le visiteur du dossier ci-dessus présente la caractéristique de conversion de l'un des quatre UUID liés à son profil authentifié, puis qu'il affiche également la caractéristique de conversion de deux autres UUID liés au profil authentifié ? Does this case count as one or three conversions?**
-
-In this case, [!UICONTROL Audience Lab] counts three conversions, one for each device that has exhibited the authentication trait.
+Oui, c'est permis. Pensez à un cas d’un test utilisant un segment mâle associé à la conversion X et d’un test utilisant un segment femelle associé à la conversion X. Peu importe que les deux tests génèrent des conversions puisqu’ils testent deux audiences différentes.
 
 <br> 
 
-**Un utilisateur peut[!UICONTROL Segment: Read-Only]-il avoir accès, mais[!UICONTROL Audience Lab]aussi tester l'accès à la création de segments ?**
+**Supposons qu’un groupe de test utilise un profil authentifié pour le fractionnement du segment de test. Le profil authentifié est lié à 4 UUID[Audience Manager](../reference/ids-in-aam.md). Lorsque le visiteur présente une caractéristique de conversion de l’un des quatre UUID, est-ce que cela[!UICONTROL Audience Lab]compte comme une ou quatre conversions ?**
 
-See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
+Dans ce cas, [!UICONTROL Audience Lab] seule une conversion est comptabilisée.
 
-**Puis-je utiliser[!UICONTROL Audience Lab]conjointement les[!UICONTROL Profile Link Device Graph]graphiques des périphériques externes ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Filad Device Graph, Liveramp Device Graph) ?**
+<br> 
 
-For now, [!UICONTROL Audience Lab] can only split out segment populations by the devices connected to a qualifying device, when using the [!UICONTROL Profile Link Device Graph]. We are working on adding support in [!UICONTROL Audience Lab] for the other device graphs and will let you know when we do so.
+**Que se passe-t-il si le visiteur du cas ci-dessus présente d’abord la caractéristique de conversion de l’un des quatre UUID liés à son profil authentifié, puis également la caractéristique de conversion de deux autres UUID liés au profil authentifié ? Ce cas compte-t-il comme une ou trois conversions ?**
+
+Dans ce cas, [!UICONTROL Audience Lab] compte trois conversions, une pour chaque périphérique présentant la caractéristique d’authentification.
+
+<br> 
+
+**Un utilisateur peut-il avoir[!UICONTROL Segment: Read-Only]accès, mais aussi[!UICONTROL Audience Lab]tester l’accès à la création de segments ?**
+
+Voir [Création d’un groupe](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) de tests de segment pour en savoir plus sur la manière d’utiliser [!UICONTROL Audience Lab] [!UICONTROL RBAC] les privilèges.
+
+**Puis-je utiliser[!UICONTROL Audience Lab]conjointement avec les graphiques des périphériques[!UICONTROL Profile Link Device Graph]et externes ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph) ?**
+
+Pour l’instant, [!UICONTROL Audience Lab] vous ne pouvez diviser les populations de segments que par les périphériques connectés à un périphérique éligible, lors de l’utilisation du [!UICONTROL Profile Link Device Graph]. Nous travaillons sur l'ajout de la prise en charge dans [!UICONTROL Audience Lab] les autres graphiques de périphériques et vous avertirons lorsque nous le ferons.
