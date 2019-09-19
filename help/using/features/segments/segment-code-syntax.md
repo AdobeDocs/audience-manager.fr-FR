@@ -1,23 +1,23 @@
 ---
-description: Créateur de segments permet de créer des règles de caractéristique pour un segment à l'aide d'un éditeur de code. Cliquez sur l'onglet Expressions de segment (Affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
-seo-description: Créateur de segments permet de créer des règles de caractéristique pour un segment à l'aide d'un éditeur de code. Cliquez sur l'onglet Expressions de segment (Affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
-seo-title: Syntaxe du code utilisée dans l'éditeur d'expression de segment
+description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (Affichage du code) dans le panneau Caractéristiques pour accéder à cette fonction.
+seo-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (Affichage du code) dans le panneau Caractéristiques pour accéder à cette fonction.
+seo-title: Syntaxe du code utilisée dans l’éditeur d’expression de segment
 solution: Audience Manager
-title: Syntaxe du code utilisée dans l'éditeur d'expression de segment
-uuid: 7 b 4 b 06 ca -7879-4501-8 ba 7-b 2 b 6467 b 8 a 3 b
+title: Syntaxe du code utilisée dans l’éditeur d’expression de segment
+uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
+# Syntaxe du code utilisée dans l’éditeur d’expression de segment {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristique pour un segment à l'aide d'un éditeur de code. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
+[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’ **[!UICONTROL Segment Expressions (Code View)]** onglet du [!UICONTROL Traits] panneau pour accéder à cette fonction.
 
-## Syntaxe du code du créateur d'expressions
+## Syntaxe du code du Générateur d’expression
 
-Vous pouvez ajouter des règles de caractéristique à un segment avec du code plutôt que d'utiliser des fonctions glisser-déposer. Lors du codage, remplacez les éléments en italique dans l'exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
+Vous pouvez ajouter des règles de caractéristiques à un segment avec du code au lieu d’utiliser des fonctions de glisser-déposer. Lors du codage, remplacez les éléments en italique de l’exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
 
 ```
 FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
@@ -26,11 +26,11 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->By default, [!DNL Boolean] [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
+>Par défaut, [!DNL Boolean] les [!UICONTROL OR] conditions s’appliquent à plusieurs caractéristiques *au sein* d’une expression.
 
-### Jonction de segments avec des opérateurs booléens
+### Joindre des segments avec des opérateurs booléens
 
-To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
+Pour créer des groupes de segments, placez la fonction de fréquence entre parenthèses et définissez la relation *entre* chaque expression avec un [!DNL Boolean] opérateur ([!UICONTROL AND], [!UICONTROL OR]et [!UICONTROL NOT]).
 
 ### Paramètres
 
@@ -40,14 +40,14 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 
 | Nom ou variable | Description |
 |---|---|
-| `FREQUENCY` | Littéral devant précéder l'expression. |
-| ` [`&lt;`traitID`&gt;`T]` | An array of trait IDs followed by the letter `T`. Séparez plusieurs caractéristiques par une virgule. For example, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit les règles de récence sur les caractéristiques du segment. The letter `D` indicates recency in days. |
-| ` <Frequency Operator><Numeric Value>` | Définit les règles de fréquence sur les caractéristiques du segment. |
+| `FREQUENCY` | Littéral devant précéder l’expression. |
+| ` [`&lt;`traitID`&gt;`T]` | Tableau d’identifiants de caractéristiques suivi de la lettre `T`. Séparez plusieurs caractéristiques par une virgule. For example, `[123T, 456T]`. |
+| ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit les règles de récence sur les caractéristiques du segment. La lettre `D` indique la récence en jours. |
+| ` <Frequency Operator><Numeric Value>` | Définit des règles de fréquence sur les caractéristiques du segment. |
 
 ### Opérateurs de récence et de fréquence autorisés
 
-Set [recency and frequency](../../features/segments/recency-and-frequency.md) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] utilise des expressions standard telles que &lt; (moins que), &gt; (supérieur à), = = (égal), etc. Toutefois, les types d'opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
+Définissez des intervalles de [récence et de fréquence](../../features/segments/recency-and-frequency.md) avec un opérateur de comparaison et un entier. [!UICONTROL Segment Builder] utilise des expressions standard telles que &lt; (inférieur à), &gt; (supérieur à), == (égal à), etc. Toutefois, les types d’opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -60,23 +60,23 @@ Set [recency and frequency](../../features/segments/recency-and-frequency.md) in
   <tr> 
    <td colname="col1"> 
     <ul id="ul_66D11A34097648A997BA5C6CCC38503A"> 
-     <li id="li_EA0B607E58834E62B427C0B7626C2BD1">&gt; = (supérieur/égal à) </li> 
-     <li id="li_CFE3D2DBEF424093A0497A70324D5B31">&lt; = (inférieur/égal à) </li> 
+     <li id="li_EA0B607E58834E62B427C0B7626C2BD1">&gt;= (supérieur/égal à) </li> 
+     <li id="li_CFE3D2DBEF424093A0497A70324D5B31">&lt;= (inférieur/égal à) </li> 
     </ul> </td> 
    <td colname="col2"> 
     <ul id="ul_A5A38BCD71B844F0B5FB28256069F87E"> 
-     <li id="li_EA17C353214E4C2EA2B70169C94A2E53">&gt; = (supérieur/égal à) </li> 
-     <li id="li_87CE5CCC6B44446BB2FD0AAD47712368">&lt; = (inférieur/égal à) </li> 
-     <li id="li_7E922AEF3A524E78A18A9F6ECBF7460B">= = (égal à) </li> 
+     <li id="li_EA17C353214E4C2EA2B70169C94A2E53">&gt;= (supérieur/égal à) </li> 
+     <li id="li_87CE5CCC6B44446BB2FD0AAD47712368">&lt;= (inférieur/égal à) </li> 
+     <li id="li_7E922AEF3A524E78A18A9F6ECBF7460B">== (égal à) </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_This]
 >
 >* [Récence et fréquence](../../features/segments/recency-and-frequency.md)
->* [Expressions booléennes dans le créateur de caractéristiques et le créateur de segment](../../reference/boolean-expressions-tsb.md)
->* [Utilisation des opérateurs de comparaison dans traitbuilder](../../features/traits/trait-comparison-operators.md)
->* [Ordre des opérations dans les expressions traitbuilder](../../features/traits/trait-operator-precedence.md)
+>* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
+>* [Utilisation des opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
+>* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
