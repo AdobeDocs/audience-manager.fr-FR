@@ -1,12 +1,12 @@
 ---
 description: Réponses aux questions et problématiques courantes concernant la confidentialité des données.
 seo-description: Réponses aux questions et problématiques courantes concernant la confidentialité des données.
-seo-title: FAQ sur la confidentialité et la rétention des données
+seo-title: ' FAQ sur la confidentialité et la rétention des données'
 solution: Audience Manager
-title: FAQ sur la confidentialité et la rétention des données
+title: ' FAQ sur la confidentialité et la rétention des données'
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 ---
 
@@ -52,27 +52,27 @@ Le tableau suivant répertorie les temps de rétention des différents types de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Serveurs dorsaux </p> </td> 
-   <td colname="col2"> <p>120 jours. </p> <p> Audience Manager supprime les données utilisateur de nos serveurs principaux 120 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> Audience Manager</span> enregistre l’activité de l’utilisateur au cours de ce cycle de 120 jours, nous conservons ces données pendant encore 120 jours. </p> </td> 
+   <td colname="col2"> <p>120-days. </p> <p> Audience Manager supprime les données utilisateur de nos serveurs principaux 120 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> Audience Manager</span> enregistre l’activité de l’utilisateur au cours de ce cycle de 120 jours, nous conservons ces données pendant encore 120 jours. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serveurs Edge </p> </td> 
-   <td colname="col2"> <p> 14 jours. </p> <p>Audience Manager supprime les données utilisateur de nos serveurs Edge 14 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> Audience Manager</span> enregistre l’activité de l’utilisateur au cours de ce cycle de 14 jours, nous conservons ces données pendant encore 14 jours. Si l’utilisateur devient actif à nouveau après la période de 14 jours, un délai s’écoulera entre cette première nouvelle page vue et le moment où l’utilisateur pourra agir. Il faut de 6 à 18 heures pour que le profil complet soit remis au centre du bord après plus de 14 jours d'inactivité. </p> </td> 
+   <td colname="col2"> <p> 14-days. </p> <p>Audience Manager supprime les données utilisateur de nos serveurs Edge 14 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14-days. If the user becomes active again after the 14-day period, there will be a delay between that first new page view and when the user becomes actionable. Il faut de 6 à 18 heures pour que le profil complet soit remis au centre du bord après plus de 14 jours d'inactivité. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Journaux bruts </p> </td> 
-   <td colname="col2"> <p>180 jours (supprimé après 180 jours sans activité). </p> <p>Les journaux bruts sont des données reçues par un serveur Edge via des appels HTTP ou à partir de fichiers intégrés envoyés à <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p>Raw logs </p> </td> 
+   <td colname="col2"> <p>180-days (removed after 180-days of no activity). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Journaux du serveur d’annonces publicitaires </p> </td> 
-   <td colname="col2"> <p><b>Création de rapports</b> </p> <p>Les fichiers journaux sont conservés pour la création de rapports pendant 30 jours au maximum. Nous ne conservons pas les journaux non concordants (c’est-à-dire les journaux pour lesquels il n’existe aucune synchronisation d’ID entre l’ID du serveur d’annonces d’un visiteur et l’ID Audience Manager <span class="keyword"> ) dans notre stockage principal. Les journaux correspondants stockés dans</span> Amazon S3 <span class="keyword"></span> sont conservés pendant 30 jours au maximum. </p> <p><b>Fichiers journaux pratiques</b> </p> <p>Les journaux correspondants et non correspondants sont conservés pendant 30 jours au maximum. </p> </td> 
+   <td colname="col1"> <p>Ad Server Logs </p> </td> 
+   <td colname="col2"> <p><b>Création de rapports</b> </p> <p>Log files are retained for reporting purposes for up to 30 days. We do not persist unmatched logs (i.e. logs for which there is no ID sync between a visitor's ad server ID and  Audience Manager ID) in our backend storage, and matched logs stored in  Amazon S3 are retained for up to 30 days.<span class="keyword"></span><span class="keyword"></span> </p> <p><b>Fichiers journaux pratiques</b> </p> <p>Both matched and unmatched logs are retained for up to 30 days. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Profils au niveau CRM (profils authentifiés) </p> </td> 
-   <td colname="col2"> <p>L’intervalle de temps de vie (TTL) par défaut pour les profils CRM inactifs (ID de client) est de 24 mois. Vous pouvez toutefois utiliser l’interface utilisateur d’Audience Manager pour réduire ou étendre l’intervalle TTL pour les profils CRM inactifs d’un mois à 5 ans. Vous pouvez y parvenir lors de la création ou de la modification d’une source de données sur plusieurs périphériques.</p> <p>Pour plus d’informations, voir Paramètres de source de données dans <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Création d’une source de données multiterminaux </a>.</p> </td> 
+   <td colname="col1"> <p>CRM-level profiles (authenticated profiles) </p> </td> 
+   <td colname="col2"> <p>The default time-to-live (TTL) interval for inactive CRM-level profiles (Customer IDs) is 24 months. However, you can use the Audience Manager UI to reduce or extend the TTL interval for inactive CRM-level profiles between one month and 5 years. Vous pouvez y parvenir lors de la création ou de la modification d’une source de données sur plusieurs périphériques.</p> <p>For more information, see Data Source Settings in  Create a Cross-Device Data Source .<a href="../features/profile-merge-rules/merge-rules-start.md#settings"></a></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID de périphérique mobile </p> </td> 
-   <td colname="col2"> <p>Les conditions de rétention des ID de périphérique mobile (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) suivent la cadence décrite dans les deux premières lignes, les serveurs principaux et les serveurs Edge. </p> </td> 
+   <td colname="col1"> <p>Mobile Device IDs </p> </td> 
+   <td colname="col2"> <p>The retention conditions for mobile device IDs ( IDFA, GAID) follow the cadence described in the first two rows, back-end servers and edge servers.<a href="../reference/ids-in-aam.md"></a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flux de données client (CDF) </p> </td> 
@@ -80,7 +80,7 @@ Le tableau suivant répertorie les temps de rétention des différents types de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappages entre ID synchronisés </p> </td> 
-   <td colname="col2"> <p>Les mappages entre les ID synchronisés peuvent être conservés pendant la durée de vie de l’ID utilisateur unique d’Audience Manager associé (UUID AAM) <a href="../reference/ids-in-aam.md"></a>. </p> </td> 
+   <td colname="col2"> <p>La durée de vie des mappages <a href="../features/administration/usage-limits.md#id-mapping-limits"> d’</a> ID entre les identifiants de cookie Audience Manager (identifiants d’utilisateur uniques<a href="../reference/ids-in-aam.md">Audience Manager ou identifiants UUUID</a>AAM) et les identifiants de cookie tiers est limitée à 120 jours. La durée de vie du mappage des identifiants est réinitialisée chaque fois que le cookie Audience Manager est affiché sur le réseau Audience Manager. La synchronisation de mappage des identifiants la plus récente sera conservée pendant la durée de vie de l’ID utilisateur unique <a href="../reference/ids-in-aam.md">Audience Manager (UUID AAM)</a>associé.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Données entrantes </p> </td> 
