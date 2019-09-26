@@ -5,14 +5,14 @@ seo-title: Authentification avec des plateformes basées sur les personnes
 solution: Audience Manager
 title: Authentification avec des plateformes basées sur les personnes
 translation-type: tm+mt
-source-git-commit: 05f334dc3d975a0fe18b93c844889e3edb2dfafa
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
 
 # Authentification avec des plateformes basées sur les personnes {#authentication-with-people-based-platforms}
 
-Cette page contient des conseils sur la configuration et la gestion de l’intégration entre Audience Manager et les plateformes basées sur les personnes.
+Cette page contient des conseils sur la manière de configurer et de gérer votre intégration entre Audience Manager et les plateformes basées sur les personnes.
 
 >[!NOTE]
 >Il s’agit d’une étape obligatoire pour les destinations basées sur les personnes, quel que soit votre scénario d’implémentation.
@@ -26,11 +26,11 @@ Cette page contient des conseils sur la configuration et la gestion de l’inté
    ![plate-forme à base de personnes](assets/pbd-add.png)
 1. Cliquez **[!UICONTROL Confirm]** pour être redirigé vers la page d'authentification de la plateforme sélectionnée.
 1. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!UICONTROL Confirm]**.
-1. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
+1. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications d’Adobe lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
 
 ## Expiration du jeton d’authentification et gestion des notifications {#token-expiration-notification}
 
-Audience Manager gère l’intégration aux plateformes sociales au moyen de jetons d’authentification qui expirent après un certain temps. La durée de validité du jeton est soumise aux règles d’intégration de chaque plateforme sociale. Une fois le jeton d’authentification arrivé à expiration, Audience Manager ne peut plus envoyer les segments d’audience vers votre destination. Pour éviter ce scénario, nous vous recommandons d’ajouter au moins une adresse électronique de contact à votre intégration, afin que vous soyez averti dès que le jeton d’authentification arrive à expiration. Dans ce cas, vous pouvez vous reconnecter pour vous assurer que la destination continue de recevoir les segments d’audience.
+Audience Manager gère votre intégration aux plateformes sociales au moyen de jetons d’authentification qui expirent après un certain temps. La durée de validité du jeton est soumise aux règles d’intégration de chaque plateforme sociale. Une fois le jeton d’authentification arrivé à expiration, Audience Manager ne peut plus envoyer les segments d’audience vers votre destination. Pour éviter ce scénario, nous vous recommandons d’ajouter au moins une adresse électronique de contact à votre intégration, afin que vous soyez averti dès que le jeton d’authentification arrive à expiration. Dans ce cas, vous pouvez vous reconnecter pour vous assurer que la destination continue de recevoir les segments d’audience.
 
 Voici comment ajouter des adresses électroniques aux intégrations existantes :
 
