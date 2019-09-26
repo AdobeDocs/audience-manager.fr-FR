@@ -5,12 +5,15 @@ seo-title: Guide de mise en oeuvre des destinations basées sur les personnes
 solution: Audience Manager
 title: Guide de mise en oeuvre
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Guide de mise en oeuvre {#implementation-guidance}
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 [!DNL People-Based Destinations] propose plusieurs stratégies d’implémentation, en fonction de la structure des données client. Cet article présente les étapes de mise en oeuvre que vous devez suivre [!DNL People-Based Destinations], selon votre scénario.
 
