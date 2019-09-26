@@ -5,7 +5,7 @@ seo-title: Présentation des destinations basées sur les personnes et cas d’u
 solution: Audience Manager
 title: Présentation et cas d’utilisation
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
@@ -13,6 +13,9 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 # Présentation et cas d’utilisation {#overview-use-cases}
 
 Servez-vous [!DNL People-Based Destinations] pour envoyer des segments d’audience propriétaires vers des environnements basés sur des personnes. Ces environnements sont des écosystèmes fermés appartenant à une entité qui contrôle le contenu affiché à l’intérieur. Elles comprennent des plateformes sociales telles que [!DNL Facebook]et d’autres plateformes qui s’appuient sur des comptes clients pour personnaliser le contenu affiché.
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 ## Aperçu {#overview}
 
@@ -41,31 +44,31 @@ Si vous n’activez pas les segments d’audience dans les canaux basés sur les
 
 **Ciblez les audiences dans les canaux basés sur les personnes sans avoir besoin d’une solution d’intégration de données dédiée ni de processus personnalisés pour envoyer des audiences.**
 
-The more "traditional" way of targeting audiences across people-based channels involves you having to export your customer data in a format accepted by the platform that you want to advertise on, and then using the platform's dedicated data onboarding method to bring your customer data to your advertiser account. This is all manual work that you need to do for each platform that you want to advertise on. Additionally, different platforms may have different data format requirements, making the process even more tedious.
+La méthode la plus "traditionnelle" de ciblage des audiences sur les canaux basés sur les personnes implique que vous devez exporter les données de vos clients dans un format accepté par la plateforme sur laquelle vous souhaitez faire de la publicité, puis utiliser la méthode d’intégration des données dédiées de la plate-forme pour apporter les données de vos clients à votre compte publicitaire. Il s'agit d'un travail manuel que vous devez effectuer pour chaque plateforme sur laquelle vous souhaitez publier de l'information. En outre, différentes plateformes peuvent avoir des exigences de format de données différentes, ce qui rend le processus encore plus fastidieux.
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Through , Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. [!DNL People-Based Destinations] You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
+Grâce [!DNL People-Based Destinations]à Audience Manager, vous pouvez centraliser les données de vos clients, créer des segments d’audience et les activer sur plusieurs canaux de personnes. Pour ce faire, vous pouvez vous reporter à l’interface utilisateur d’Audience Manager, ce qui évite d’avoir à charger manuellement les données sur chaque plate-forme, ce qui vous fait gagner un temps précieux dans le processus.
 
-**Create and activate audience segments from purely offline profiles.**
+**Créez et activez des segments d’audience à partir de profils hors ligne uniquement.**
 
-[!DNL People-Based Destinations] solve the issue that previously, you could only activate audience segments based on device activity. With , you can create segments from purely offline data from your own , and activate them in people-based platforms. [!DNL People-Based Destinations][!DNL CRM] De plus, vous pouvez corréler vos données hors ligne avec les données de périphérique que vous avez déjà dans Audience Manager.
+[!DNL People-Based Destinations] résoudre le problème qui, auparavant, ne pouvait activer que les segments d’audience en fonction de l’activité du périphérique. Avec [!DNL People-Based Destinations]cela, vous pouvez créer des segments à partir de données purement hors ligne à partir de vos propres données [!DNL CRM], et les activer dans des plateformes basées sur des personnes. De plus, vous pouvez corréler vos données hors ligne avec les données de périphérique que vous avez déjà dans Audience Manager.
 
-**Leverage Audience Manager's data governance and privacy controls to safely handle customer data.**
+**Tirez parti des contrôles de gouvernance des données et de confidentialité d’Audience Manager pour gérer en toute sécurité les données client.**
 
-[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
+[!DNL People-Based Destinations] nécessite que vous utilisiez uniquement des identifiants avec hachage irréversible. Cela réduit le risque associé au transfert manuel des données client vers chaque plateforme de destination.
 
 ## Cas d’utilisation {#use-cases}
 
-To help you better understand how and when you should use , here are two sample use cases that Audience Manager customers can solve by using this feature.[!DNL People-Based Destinations]
+Pour vous aider à mieux comprendre comment et quand utiliser [!DNL People-Based Destinations], voici deux exemples d’utilisation que les clients d’Audience Manager peuvent résoudre à l’aide de cette fonctionnalité.
 
 ### Use Case #1 {#use-case-1}
 
-Un détaillant en ligne souhaite atteindre les clients existants par le biais de plateformes sociales et leur présenter des offres personnalisées en fonction de leurs commandes précédentes. With , the online retailer can ingest hashed email addresses from their own  to Audience Manager, build segments from their own offline data, and send these segments to the social platforms they want to advertise on, optimizing their advertising spending.[!DNL People-Based Destinations][!DNL CRM]
+Un détaillant en ligne souhaite atteindre les clients existants par le biais de plateformes sociales et leur présenter des offres personnalisées en fonction de leurs commandes précédentes. Avec [!DNL People-Based Destinations]cela, le détaillant en ligne peut assimiler des adresses électroniques hachées de son propre [!DNL CRM] à Audience Manager, créer des segments à partir de ses propres données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles il souhaite faire de la publicité, en optimisant ainsi ses dépenses publicitaires.
 
 ### Use Case #2 {#use-case-2}
 
-Une compagnie aérienne a des niveaux de clients différents (Bronze, Argent et Or) et veut fournir à chacun des niveaux des offres personnalisées via des plateformes sociales. The company uses Audience Manager to analyze customer activity on the website. Cependant, tous les clients n’utilisent pas l’application mobile de la compagnie aérienne et certains d’entre eux ne se sont pas connectés au site Web de la compagnie. Les seuls identifiants dont dispose l’entreprise concernant ces clients sont les identifiants d’adhésion et les adresses électroniques.
+Une compagnie aérienne a des niveaux de clients différents (Bronze, Argent et Or) et veut fournir à chacun des niveaux des offres personnalisées via des plateformes sociales. L’entreprise utilise Audience Manager pour analyser l’activité des clients sur le site Web. Cependant, tous les clients n’utilisent pas l’application mobile de la compagnie aérienne et certains d’entre eux ne se sont pas connectés au site Web de la compagnie. Les seuls identifiants dont dispose l’entreprise concernant ces clients sont les identifiants d’adhésion et les adresses électroniques.
 
 Pour les cibler sur les réseaux sociaux et les canaux de personnes similaires, ils peuvent embarquer les données client de leur [!DNL CRM] compte dans Audience Manager, en utilisant les adresses électroniques hachées comme identifiants.
 
