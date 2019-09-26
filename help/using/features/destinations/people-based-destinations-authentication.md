@@ -5,12 +5,15 @@ seo-title: Authentification avec des plateformes basées sur les personnes
 solution: Audience Manager
 title: Authentification avec des plateformes basées sur les personnes
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Authentification avec des plateformes basées sur les personnes {#authentication-with-people-based-platforms}
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 Cette page contient des conseils sur la manière de configurer et de gérer votre intégration entre Audience Manager et les plateformes basées sur les personnes.
 
@@ -21,12 +24,12 @@ Cette page contient des conseils sur la manière de configurer et de gérer votr
 
 1. Connectez-vous à votre compte Audience Manager et accédez à **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Si vous avez déjà configuré une intégration avec une plateforme sociale, elle doit apparaître dans cette page. Sinon, la page est vide.
    ![intégration basée sur les personnes](assets/pbd-config.png)
-1. Cliquez sur **[!UICONTROL Add Account]**.
-1. Utilisez le menu **[!UICONTROL People-Based Platform]** déroulant pour sélectionner la plateforme avec laquelle vous souhaitez configurer l’intégration.
+2. Cliquez sur **[!UICONTROL Add Account]**.
+3. Utilisez le menu **[!UICONTROL People-Based Platform]** déroulant pour sélectionner la plateforme avec laquelle vous souhaitez configurer l’intégration.
    ![plate-forme à base de personnes](assets/pbd-add.png)
-1. Cliquez **[!UICONTROL Confirm]** pour être redirigé vers la page d'authentification de la plateforme sélectionnée.
-1. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!UICONTROL Confirm]**.
-1. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications d’Adobe lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
+4. Cliquez **[!UICONTROL Confirm]** pour être redirigé vers la page d'authentification de la plateforme sélectionnée.
+5. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!UICONTROL Confirm]**.
+6. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications d’Adobe lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
 
 ## Expiration du jeton d’authentification et gestion des notifications {#token-expiration-notification}
 
