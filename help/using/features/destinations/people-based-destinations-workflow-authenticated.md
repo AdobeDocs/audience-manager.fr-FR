@@ -5,12 +5,15 @@ seo-title: Workflow C - Personnalisation basée sur l’activité authentifiée 
 solution: Audience Manager
 title: Workflow C - Personnalisation basée sur l’activité authentifiée combinée avec les données hors ligne
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Workflow C - Personnalisation basée sur l’activité authentifiée combinée avec les données hors ligne {#workflow-c}
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 Cette page comprend des instructions détaillées sur la manière de combiner [!DNL CRM] des données hors ligne avec des données comportementales en temps réel pour les utilisateurs authentifiés afin de créer des segments d’audience, puis d’envoyer ces segments d’audience à [!DNL People-Based Destinations].
 
@@ -89,7 +92,7 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 1. Connectez-vous à votre compte Audience Manager et accédez à **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Cliquez sur **[!UICONTROL Add New Rule]**.
 3. Entrez une règle de fusion de profil **[!UICONTROL Name]** et **[!UICONTROL Description]**.
-4. Dans la **[!UICONTROL Profile Merge Rule Setup]** section, sélectionnez la **[!UICONTROL All Cross-Device Profiles]** règle dans la **[!UICONTROL Cross-Device Options]** liste.
+4. Dans la **[!UICONTROL Profile Merge Rule Setup]** section, sélectionnez la **[!UICONTROL Current Authenticated Profiles]** règle ou **[!UICONTROL Last Authenticated Profiles]** la règle dans la **[!UICONTROL Cross-Device Options]** liste.
 5. Dans la **[!UICONTROL Cross-Device Profile Options]** liste, sélectionnez les sources de données sur lesquelles vous souhaitez exécuter la segmentation. Il doit s’agir des sources de données contenant vos DPUUID existants.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
