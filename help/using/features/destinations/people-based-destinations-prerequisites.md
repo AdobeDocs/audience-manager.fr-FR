@@ -5,12 +5,15 @@ seo-title: Destinations basées sur les personnes Conditions préalables et cons
 solution: Audience Manager
 title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Conditions préalables et considérations {#prerequisites-considerations}
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 Vous trouverez ci-dessous un aperçu des besoins des clients que vous devez satisfaire avant de vous inscrire [!DNL People-Based Destinations].
 
@@ -39,23 +42,23 @@ Avant de pouvoir utiliser [!DNL People-Based Destinations] pour envoyer vos segm
 
 L’assimilation de données pour [!DNL People-Based Destinations] l’instant prend en charge jusqu’à 10 adresses électroniques hachées liées à un ID de client ([!DNL CRM ID]), par transfert par lot. Le téléchargement de plus de 10 adresses électroniques hachées liées à un ID de client entraîne l’assimilation de 10 d’entre elles par Audience Manager, sans ordre spécifique.
 
-Uploading more than 10 hashed email addresses linked to one customer ID in multiple batch transfers causes Audience Manager to retain the most recent 10 email addresses added.
+Le téléchargement de plus de 10 adresses électroniques hachées liées à un ID de client dans plusieurs transferts par lots entraîne la conservation des 10 adresses électroniques ajoutées les plus récentes par Audience Manager.
 
 ## Confidentialité des données {#data-privacy}
 
-Bien que vous [!DNL People-Based Destinations] puissiez cibler des audiences en fonction d’adresses électroniques hachées transférées par vous, il vous est toujours interdit de télécharger des informations de visiteur directement identifiables dans Audience Manager. In the data onboarding phase, you must ensure that the email addresses you plan to use are hashed with the  algorithm. [!DNL SHA256] Otherwise, you won't be able to use them in .[!DNL People-Based Destinations]
+Bien que vous [!DNL People-Based Destinations] puissiez cibler des audiences en fonction d’adresses électroniques hachées transférées par vous, il vous est toujours interdit de télécharger des informations de visiteur directement identifiables dans Audience Manager. Lors de la phase d’intégration des données, vous devez vous assurer que les adresses électroniques que vous prévoyez d’utiliser sont hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas les utiliser dans [!DNL People-Based Destinations].
 
-## Data Hashing Versus Encryption {#data-hashing-encryption}
+## Hachage de données contre chiffrement {#data-hashing-encryption}
 
-Encryption is a two-way function. Any encrypted information can also be decrypted, using the correct decryption key. Encrypting data in the context of Audience Manager poses serious risks, since any encrypted form of personally identifiable information can also be decrypted. As opposed to encryption,  are designed to work with hashed data instead.[!DNL People-Based Destinations]
+Le chiffrement est une fonction bidirectionnelle. Toute information chiffrée peut également être déchiffrée à l’aide de la clé de déchiffrement appropriée. Le chiffrement des données dans le contexte d’Audience Manager présente de sérieux risques, car toute forme chiffrée d’informations d’identification personnelle peut également être déchiffrée. Contrairement au chiffrement, [!DNL People-Based Destinations] sont conçus pour fonctionner avec des données hachées.
 
-Hashing is a one-way function that scrambles the input to produce a unique result. By using proper hashing algorithms, like , there is no way to reverse the hashing function and reveal the unscrambled information. [!DNL SHA256] The email addresses that you will onboard to Audience Manager must be hashed with the  algorithm. [!DNL SHA256] This way, you can ensure that no unhashed email addresses reach Audience Manager.
+Le hachage est une fonction à sens unique qui brouille l’entrée pour produire un résultat unique. En utilisant des algorithmes de hachage appropriés, comme [!DNL SHA256], il n'y a aucun moyen d'inverser la fonction de hachage et de révéler les informations non brouillées. Les adresses électroniques à bord d’Audience Manager doivent être hachées avec l’ [!DNL SHA256] algorithme. Ainsi, vous pouvez vous assurer qu’aucune adresse électronique non hachée n’atteint Audience Manager.
 
-## Hashing Requirements {#hashing-requirements}
+## Exigences de hachage {#hashing-requirements}
 
-When hashing the email addresses, make sure to comply with the following requirements:
+Lors du hachage des adresses électroniques, veillez à respecter les exigences suivantes :
 
-* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
+* Rogner tous les espaces de début et de fin de la chaîne de courrier électronique ; exemple : `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
 * Assurez-vous que la chaîne hachée est en minuscules ; exemple : `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Ne salez pas la chaîne.
 
