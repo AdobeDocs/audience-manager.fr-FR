@@ -5,12 +5,15 @@ seo-title: Audiences partagées
 solution: Audience Manager
 title: Audiences partagées
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Audiences partagées {#shareable-audiences}
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 [!DNL People-Based Destinations] apportez la notion de [!DNL Shareable Audiences] dans Audience Manager. Cette mesure vous permet de comprendre le nombre d’adresses électroniques hachées qu’Audience Manager peut partager avec la plateforme de destination.
 
