@@ -5,12 +5,15 @@ seo-title: Workflow B - Personnalisation basée sur les données hors ligne uniq
 solution: Audience Manager
 title: Workflow B - Personnalisation basée sur les données hors ligne uniquement
 translation-type: tm+mt
-source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Workflow B - Personnalisation basée sur les données hors ligne uniquement {#workflow-b}
+
+>[!IMPORTANT]
+>Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 Cette page comprend des instructions détaillées sur la manière de créer des segments d’audience à partir de données client hors ligne uniquement et de les envoyer vers des destinations basées sur les personnes.
 
