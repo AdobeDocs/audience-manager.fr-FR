@@ -1,13 +1,13 @@
 ---
-description: Les caractéristiques des dossiers vous permettent d’agréger automatiquement les caractéristiques qui résident dans le même dossier et tous les dossiers enfants dans un segment cible.
-keywords: estimateur de taille de segment;sse
-seo-description: Les caractéristiques des dossiers vous permettent d’agréger automatiquement les caractéristiques qui résident dans le même dossier et tous les dossiers enfants dans un segment cible.
-seo-title: Caractéristiques des dossiers
+description: Folder traits let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
+keywords: segment size estimator;sse
+seo-description: Folder traits let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
+seo-title: Folder Traits  About
 solution: Audience Manager
-title: Caractéristiques des dossiers
+title: Folder Traits  About
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
 
 ---
 
@@ -40,11 +40,11 @@ Le nombre de fréquences d’une caractéristique de dossier est la somme des r�
 * Caractéristique B : 1
 * Caractéristique C : 1
 
-Dans ce cas, l' [!DNL ]Automobile [!UICONTROL Folder Trait] a 7 réalisations.
+Dans ce cas, le [!DNL Automobile Folder Trait] compte a 7 réalisations.
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Rapports de caractéristiques du dossier {#folder-traits-reporting}
+## Folder Trait Reporting {#folder-traits-reporting}
 
 [!UICONTROL Folder traits] capturez tous les utilisateurs à partir des caractéristiques de la structure de dossiers sous-jacente. Si vous déplacez une caractéristique d’un dossier vers un autre dossier, la modification se propage vers nos serveurs [de collecte de](../../reference/system-components/components-data-collection.md) données, tout comme une modification de règle de caractéristique. Les mises à jour des rapports dans le prochain rapport s’exécutent pour refléter cette modification dans les plages de dates des rapports (1, 7, 14, 30, 60, 90). Les anciens nombres de rapports des jours précédents ne changeront pas.
 
@@ -52,16 +52,16 @@ Dans ce cas, l' [!DNL ]Automobile [!UICONTROL Folder Trait] a 7 réalisations.
 
 Pour les entreprises qui utilisent [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), les utilisateurs disposant des autorisations [!UICONTROL RBAC] appropriées peuvent modifier la source de données associée au [!UICONTROL folder trait]. Un utilisateur doit appartenir à un groupe avec l’un des éléments suivants :
 
-* `READ` et `WRITE` regrouper les autorisations sur une source de données de caractéristiques.
-* `VIEW_ALL_TRAITS` et les autorisations `EDIT_ALL_TRAITS` génériques pour les sources de données de caractéristiques.
+* `READ` and  group permissions to a trait data source.`WRITE`
+* `VIEW_ALL_TRAITS` and  wild card permissions for trait data sources.`EDIT_ALL_TRAITS`
 
-Découvrez comment attribuer [!UICONTROL RBAC] des autorisations dans notre documentation [d’](../../features/administration/administration-overview.md#create-group)administration.
+Learn how to assign  permissions in our administration documentation.[!UICONTROL RBAC][](../../features/administration/administration-overview.md#create-group)
 
-## Limites et autres considérations {#limits}
+## Limits and Other Considerations {#limits}
 
 | Élément | Description |
 |---|---|
-| Type de trait | [!UICONTROL Onboarded traits] et [!UICONTROL algorithmic traits] contribuer au plus 1 à la réalisation de [!UICONTROL folder trait]la fréquence d'un. |
-| Déplacement de caractéristiques entre des dossiers | Le déplacement d’une caractéristique d’un dossier vers un autre disqualifie cette caractéristique de la première caractéristique de dossier et la qualifie pour la seconde [!UICONTROL folder trait]. En d’autres termes, si vous supprimez ou déplacez une caractéristique du dossier, les utilisateurs de sa population ne seront pas segmentés des segments à l’aide de la caractéristique de dossier en tant qu’expression de segment. <br> Lors du mappage de segments ou de suites de rapports Adobe Analytics avec votre organisation Experience Cloud, Audience Manager crée automatiquement de nouveaux segments et caractéristiques correspondants en lecture seule. Vous ne pouvez pas modifier ni modifier l’emplacement de stockage de ces caractéristiques à partir d’Audience Manager. Toutefois, toute modification que vous apportez à vos segments ou suites de rapports Adobe Analytics mappés est répercutée dans Audience Manager. |
+| Trait type | [!UICONTROL Onboarded traits] and  contribute at most 1 realization to a 's frequency.[!UICONTROL algorithmic traits][!UICONTROL folder trait] |
+| Moving traits between folders | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second . [!UICONTROL folder trait] This means that if you delete or move a trait from the folder, the users in the trait's population will be unsegmented from the segments using the folder trait as a segment expression. <br> Lors du mappage de segments ou de suites de rapports Adobe Analytics avec votre organisation Experience Cloud, Audience Manager crée automatiquement de nouveaux segments et caractéristiques correspondants en lecture seule. Vous ne pouvez pas modifier ni modifier l’emplacement de stockage de ces caractéristiques à partir d’Audience Manager. Toutefois, toute modification que vous apportez à vos segments ou suites de rapports Adobe Analytics mappés est répercutée dans Audience Manager. |
 | Variables système | [!UICONTROL Folder traits] ne peut pas être réalisée dans les appels d’événement utilisant le `d_sid` paramètre. |
 | Création de rapports   | [!UICONTROL Folder traits] sont des caractéristiques autocalculées et n’apparaissent pas dans **[!UICONTROL Overlap Reports]**. |
