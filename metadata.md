@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
-solution-title: Audience Manager
+solution-title: Formation et support
 solution-hub-url: https://helpx.adobe.com/support/audience-manager.html
-solution-image: assets/aam-icon -24. png
+solution-image: assets/aam-icon-24.png
 getting-started-title: Prise en main
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: Didacticiels
@@ -10,21 +10,21 @@ tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
 git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: y
 translation-type: tm+mt
-source-git-commit: 6002bc689dea162014d197d4081c6ec87a22c4d4
+source-git-commit: fbc0e9f5243c8b09065083aa5ff9fa90386b044c
 
 ---
 
 
-# Métadonnées pour utilisation interne
+# Métadonnées à usage interne
 
-Le fichier metadata. md comprend des métadonnées de niveau référentiel qui transitent par les fichiers de la table des matières de guide de l'utilisateur dans le référentiel. Si vous souhaitez modifier le contenu metadata. md pour n'importe quel guide de l'utilisateur, faites-le dans n'importe quel fichier de table des matières.
+Le fichier metadata.md comprend des métadonnées au niveau du repo qui sont transmises aux fichiers du guide de l’utilisateur TOC.md dans le repo. Si vous souhaitez modifier le contenu metadata.md pour n’importe quel guide d’utilisateur, faites-le dans n’importe quel fichier TOC.md.
 
-| metadata | ce qu'il fait |
+| métadonnées | ce qu'il fait |
 |--- |--- |
-| solution-title | Utilisé dans l'en-tête de l'article comme lien |
-| solution-hub-url | Ouvre la page d'aide x |
-| solution-icon | Affiche l'icône de solution en regard du titre de la solution. Pas encore implémenté |
-| getting-started-url | Lien vers la page de prise en main de helpx |
-| tutorials-url | Lien vers des didacticiels vidéo : didacticiels utiles ou didacticiels d'aide |
-| mini-toc-levels | Détermine le nombre de niveaux d'en-tête qui apparaissent dans le rail droit. la valeur par défaut est 2 |
-| git-repo | Spécifie l'emplacement du référentiel maître pour l'utilisation interne. |
+| solution-titre | Utilisé dans l’en-tête de l’article comme lien |
+| solution-hub-url | Ouvre la page du concentrateur d’aide |
+| solution-icône | Affiche l’icône de la solution en regard du titre de la solution. Pas encore implémenté |
+| getting-started-url | Lien vers la page de prise en main de l’aide |
+| tutorials-url | Lien vers des didacticiels vidéo : didacticiels de l’aide ou didacticiels de l’application KT |
+| mini-toc-levels | Determines the number of heading levels that appear in right rail. la valeur par défaut est 2 |
+| git-repo | Specifies the location of the master repo for internal use |
