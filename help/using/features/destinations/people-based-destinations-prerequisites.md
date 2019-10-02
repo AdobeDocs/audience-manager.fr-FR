@@ -58,7 +58,7 @@ Le hachage est une fonction à sens unique qui brouille l’entrée pour produir
 
 When hashing the email addresses, make sure to comply with the following requirements:
 
-* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
+* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com` `<space>johndoe@example.com<space>`
 * When hashing the email strings, make sure to hash the lowercase string;
    * Exemple : , not ;`example@email.com` `EXAMPLE@EMAIL.COM`
 * Make sure the hashed string is all lowercase
