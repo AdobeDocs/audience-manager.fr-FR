@@ -5,7 +5,7 @@ seo-title: Workflow B - Personnalisation basée sur les données hors ligne uniq
 solution: Audience Manager
 title: Workflow B - Personnalisation basée sur les données hors ligne uniquement
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,23 +46,22 @@ Pour qualifier les ID de client dans l’exemple ci-dessus pour les caractérist
 89159024796760343733111707646026765593<TAB>d_sid=11223,d_sid=93342,d_sid=27341
 ```
 
-The file name would look like this: .
-`ftp_dpm_999999_123_TIMESTAMP.sync.gz`
-See Amazon S3 Name and File Size Requirements for Inbound Data Files for detailed information on the file name structure.[](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+Le nom de fichier se présente comme suit : `ftp_dpm_999999_123_TIMESTAMP.sync.gz`.
+Pour plus d’informations sur la structure des noms de fichiers, voir Exigences en matière de nom et de taille de fichier [Amazon S3 pour les fichiers](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de données entrants.
 
-## Step 2 - Configure Data Source Settings {#configure-data-source-settings}
+## Etape 2 - Configuration des paramètres de source de données {#configure-data-source-settings}
 
-Depending on whether your DPUUIDs are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.[](../../reference/ids-in-aam.md)
+Selon que vos [DPUUID](../../reference/ids-in-aam.md) sont des adresses électroniques hachées en minuscules, vous devrez peut-être configurer la source de données qui stockera les adresses électroniques hachées.
 
  
 
-**Scenario 1: your DPUUIDs are already lowercase, hashed email addresses.[](../../reference/ids-in-aam.md)**
+**Scénario 1 : vos[DPUUID](../../reference/ids-in-aam.md)sont déjà des adresses électroniques en minuscules hachées.**
 
-In this case, you need to need to label the corresponding data source as such:
+Dans ce cas, vous devez étiqueter la source de données correspondante comme telle :
 
 1. Accédez à **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Data Sources]**.
 1. Recherchez la source de données contenant vos [DPUUID](../../reference/ids-in-aam.md), puis cliquez dessus.
-1. Make sure the option  is unchecked.**[!UICONTROL Cannot be tied to personally identifiable information]**
+1. Vérifiez que l’option **[!UICONTROL Cannot be tied to personally identifiable information]** est désactivée.
 1. Enregistrez les paramètres de la source de données.
 
  
@@ -88,7 +87,7 @@ Dans ce cas, vous devez créer une source de données multipériphériques qui s
 
 Regardez la vidéo ci-dessous pour regarder un didacticiel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=fre_fr)
 
 ## Étape 3 - Correspondance des DPUUID avec des adresses électroniques hachées via la synchronisation des identifiants basée sur des fichiers {#match-ids-emails}
 
@@ -105,7 +104,7 @@ Pour rappel, vous disposez désormais de deux sources de données :
 | 999999 | Identifiants DPUUID (CRM) existants |
 | 987654 | Adresses électroniques hachées |
 
-| DPUUIDs (CRM IDs) | Adresse électronique | Adresse électronique hachée |
+| DPUUID (ID CRM) | Adresse électronique | Adresse électronique hachée |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
@@ -129,18 +128,18 @@ Le fichier [de synchronisation des](../../integration/sending-audience-data/batc
 
  
 
-In the example above, the file name would look like this:
+Dans l’exemple ci-dessus, le nom de fichier se présente comme suit :
 `c2c_id_999999_987654_1560431657.sync`
 
-[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
+[Téléchargez un exemple de fichier ici](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
-Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3] To learn how to upload ID synchronization files, see Send Batch Data to Audience Manager.[](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+Une fois que vous avez créé votre fichier de synchronisation des identifiants, vous devez le télécharger dans un [!DNL Amazon S3] compartiment. Pour savoir comment télécharger des fichiers de synchronisation des identifiants, voir [Envoyer des données par lot à Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Etape 4 - Création d’une règle de fusion de profil pour la segmentation {#create-profile-merge-rule}
 
-The next step is creating a new merge rule that will help you create the audience segments to send to your .[!DNL People-Based Destinations]
+L’étape suivante consiste à créer une règle de fusion qui vous aidera à créer les segments d’audience à envoyer à votre [!DNL People-Based Destinations]entreprise.
 
-1. Log in to your Audience Manager account and go to  -&gt; .**[!UICONTROL Audience Data]****[!UICONTROL Profile Merge Rules]**
+1. Connectez-vous à votre compte Audience Manager et accédez à **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Cliquez sur [!UICONTROL Add New Rule].
 3. Entrez une règle de fusion de profil **[!UICONTROL Name]** et **[!UICONTROL Description]**.
 4. Dans la **[!UICONTROL Profile Merge Rule Setup]** section, sélectionnez la **[!UICONTROL All Cross-Device Profiles]** règle dans la **[!UICONTROL Cross-Device Options]** liste.
@@ -176,7 +175,7 @@ Pour créer des segments à partir de données hors ligne uniquement, utilisez l
    * **[!UICONTROL Account]**: sélectionnez le compte publicitaire souhaité associé à la plateforme sélectionnée.
       ![create-destination](assets/pbd-create-destination.png)
 1. Cliquez sur **[!UICONTROL Next]**.
-1. Choose the  that you want to set for this destination.**[!UICONTROL Data Export Labels]**
-1. In the  section, select the data source that contains your hashed data sources.**[!UICONTROL Configuration]**
-1. In the  section, select the segments that you want to send to this destination. **[!UICONTROL Segment Mappings]** Il s’agit des segments que vous avez créés à l’ [étape 5 - Création de segments](people-based-destinations-workflow-offline.md#create-audience-segments)d’audience.
-1. Save the destination.
+1. Sélectionnez la destination **[!UICONTROL Data Export Labels]** que vous souhaitez définir.
+1. Dans la **[!UICONTROL Configuration]** section, sélectionnez la source de données qui contient vos sources de données hachées.
+1. Dans la **[!UICONTROL Segment Mappings]** section, sélectionnez les segments à envoyer à cette destination. Il s’agit des segments que vous avez créés à l’ [étape 5 - Création de segments](people-based-destinations-workflow-offline.md#create-audience-segments)d’audience.
+1. Enregistrez la destination.
