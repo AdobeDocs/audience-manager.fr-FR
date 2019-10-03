@@ -1,16 +1,16 @@
 ---
-description: 'Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content. '
+description: 'Utilisez des destinations basées sur les personnes pour envoyer des segments d’audience propriétaires vers des environnements basés sur les personnes. Ces environnements sont des écosystèmes fermés appartenant à une entité qui contrôle le contenu affiché à l’intérieur. Elles comprennent des plateformes sociales telles que Facebook et d’autres plateformes qui s’appuient sur des comptes clients pour personnaliser le contenu affiché. '
 seo-description: 'Utilisez des destinations basées sur les personnes pour envoyer des segments d’audience propriétaires vers des environnements basés sur les personnes. Ces environnements sont des écosystèmes fermés appartenant à une entité qui contrôle le contenu affiché à l’intérieur. Elles comprennent des plateformes sociales telles que Facebook et d’autres plateformes qui s’appuient sur des comptes clients pour personnaliser le contenu affiché.  '
-seo-title: People-Based Destinations Overview and Use Cases
+seo-title: Présentation des destinations basées sur les personnes et cas d’utilisation
 solution: Audience Manager
 title: Présentation et cas d’utilisation
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# Overview and Use Cases {#overview-use-cases}
+# Présentation et cas d’utilisation {#overview-use-cases}
 
 Servez-vous [!DNL People-Based Destinations] pour envoyer des segments d’audience propriétaires vers des environnements basés sur des personnes. Ces environnements sont des écosystèmes fermés appartenant à une entité qui contrôle le contenu affiché à l’intérieur. Elles comprennent des plateformes sociales telles que [!DNL Facebook]et d’autres plateformes qui s’appuient sur des comptes clients pour personnaliser le contenu affiché.
 
@@ -44,23 +44,23 @@ Si vous n’activez pas les segments d’audience dans les canaux basés sur les
 
 **Ciblez les audiences dans les canaux basés sur les personnes sans avoir besoin d’une solution d’intégration de données dédiée ni de processus personnalisés pour envoyer des audiences.**
 
-The more "traditional" way of targeting audiences across people-based channels involves you having to export your customer data in a format accepted by the platform that you want to advertise on, and then using the platform's dedicated data onboarding method to bring your customer data to your advertiser account. Il s'agit d'un travail manuel que vous devez effectuer pour chaque plateforme sur laquelle vous souhaitez publier de l'information. En outre, différentes plateformes peuvent avoir des exigences de format de données différentes, ce qui rend le processus encore plus fastidieux.
+La méthode la plus "traditionnelle" de ciblage des audiences sur les canaux basés sur les personnes implique que vous devez exporter les données de vos clients dans un format accepté par la plateforme sur laquelle vous souhaitez faire de la publicité, puis utiliser la méthode d’intégration des données dédiées de la plate-forme pour apporter les données de vos clients à votre compte publicitaire. Il s'agit d'un travail manuel que vous devez effectuer pour chaque plateforme sur laquelle vous souhaitez publier de l'information. En outre, différentes plateformes peuvent avoir des exigences de format de données différentes, ce qui rend le processus encore plus fastidieux.
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Through , Audience Manager helps you centralize your customer data, build audience segments, and activate them across multiple people-based channels. [!DNL People-Based Destinations] You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
+Grâce [!DNL People-Based Destinations]à Audience Manager, vous pouvez centraliser les données de vos clients, créer des segments d’audience et les activer sur plusieurs canaux de personnes. Pour ce faire, vous pouvez vous reporter à l’interface utilisateur d’Audience Manager, ce qui évite d’avoir à charger manuellement les données sur chaque plate-forme, ce qui vous fait gagner un temps précieux dans le processus.
 
-**Create and activate audience segments from purely offline profiles.**
+**Créez et activez des segments d’audience à partir de profils hors ligne uniquement.**
 
-[!DNL People-Based Destinations] solve the issue that previously, you could only activate audience segments based on device activity. With , you can create segments from purely offline data from your own , and activate them in people-based platforms. [!DNL People-Based Destinations][!DNL CRM] Additionally, you can correlate your offline data with device data that you already have in Audience Manager.
+[!DNL People-Based Destinations] résoudre le problème qui, auparavant, ne pouvait activer que les segments d’audience en fonction de l’activité du périphérique. Avec [!DNL People-Based Destinations]cela, vous pouvez créer des segments à partir de données purement hors ligne à partir de vos propres données [!DNL CRM], et les activer dans des plateformes basées sur des personnes. De plus, vous pouvez corréler vos données hors ligne avec les données de périphérique que vous avez déjà dans Audience Manager.
 
-**Leverage Audience Manager's data governance and privacy controls to safely handle customer data.**
+**Tirez parti des contrôles de gouvernance des données et de confidentialité d’Audience Manager pour gérer en toute sécurité les données client.**
 
-[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
+[!DNL People-Based Destinations] nécessite que vous utilisiez uniquement des identifiants avec hachage irréversible. Cela réduit le risque associé au transfert manuel des données client vers chaque plateforme de destination.
 
 Regardez la vidéo ci-dessous pour obtenir un aperçu du flux de données lors de l’utilisation [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=fre_fr)
 
 ## Cas d’utilisation {#use-cases}
 
@@ -68,7 +68,7 @@ Pour vous aider à mieux comprendre comment et quand utiliser [!DNL People-Based
 
 ### Use Case #1 {#use-case-1}
 
-An online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. Avec [!DNL People-Based Destinations]cela, le détaillant en ligne peut assimiler des adresses électroniques hachées de son propre [!DNL CRM] à Audience Manager, créer des segments à partir de ses propres données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles il souhaite faire de la publicité, en optimisant ainsi ses dépenses publicitaires.
+Un détaillant en ligne souhaite atteindre les clients existants par le biais de plateformes sociales et leur présenter des offres personnalisées en fonction de leurs commandes précédentes. Avec [!DNL People-Based Destinations]cela, le détaillant en ligne peut assimiler des adresses électroniques hachées de son propre [!DNL CRM] à Audience Manager, créer des segments à partir de ses propres données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles il souhaite faire de la publicité, en optimisant ainsi ses dépenses publicitaires.
 
 ### Use Case #2 {#use-case-2}
 
