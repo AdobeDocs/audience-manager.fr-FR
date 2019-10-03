@@ -5,7 +5,7 @@ seo-title: Aperçu, avantages et cas d’utilisation
 title: Aperçu, avantages et cas d’utilisation
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -41,3 +41,9 @@ Un détaillant électronique mondial a un volume élevé de trafic de visiteurs,
 ### Exemple 2
 
 Une fois qu’un fournisseur de services de voyage a ajouté de nouvelles destinations à son site Web de réservation, il souhaite les faire connaître à des audiences historiques, bien qu’il n’ait pas créé de caractéristiques pour lui. Ils peuvent utiliser la fonction Recherche de signaux pour identifier les signaux inutilisés liés aux nouvelles destinations, les inclure dans de nouvelles caractéristiques et les [renvoyer](../../features/data-explorer/data-explorer-trait-backfill.md) aux réalisations historiques. Créez ensuite de nouveaux segments avec les nouvelles caractéristiques et ciblez-les immédiatement avec des campagnes dédiées.
+
+### Utilisation de l’Explorateur de données pour valider la création de caractéristiques pour vos données intégrées
+
+L’une des fonctionnalités les plus puissantes d’Audience Manager est la possibilité d’embarquer des données hors ligne et de les lier à vos données en ligne. Dans la vidéo ci-dessous, apprenez à utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
+
+[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=fre_fr)
