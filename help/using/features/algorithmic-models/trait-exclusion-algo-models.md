@@ -5,7 +5,7 @@ seo-title: Exclusion des caractéristiques des modèles algorithmiques
 title: Exclusion des caractéristiques des modèles algorithmiques
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -19,24 +19,24 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 Voici quelques cas d’utilisation que vous pouvez traiter avec [!UICONTROL Trait Exclusion]:
 
 * [!UICONTROL Trait Exclusion] vous permet d’exclure certaines caractéristiques fourre-tout, telles que les caractéristiques des visiteurs du site, afin de ne pas biaiser le modèle, ce qui entraîne des résultats plats.
-* Vous pouvez supprimer des caractéristiques que vous ne connaissez pas ou auxquelles vous n'avez pas confiance d'une source de données, pour mieux comprendre les caractéristiques influentes.
-* Vous pouvez exclure certaines caractéristiques, telles que les caractéristiques démographiques, pour vous aider à respecter les obligations de conformité que vous pourriez avoir.
+* You can remove traits that you don't know about or you don't trust from a data source, to better understand the influential traits.
+* You can exclude certain traits, such as demographic traits, to help with any compliance obligations you may have.
 
 >[!IMPORTANT]
 >
->Une note importante sur le troisième cas d'utilisation. Si le fournisseur de données tiers ajoute une nouvelle caractéristique démographique au flux de données *après la création du modèle*, cette caractéristique est automatiquement sélectionnée par le modèle. Vous ne pouvez pas exclure les caractéristiques de la modélisation après avoir créé le modèle. Voir [Aspects et limites](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)importants. Soyez prudent lorsque vous utilisez cette fonctionnalité et demandez au fournisseur de données de vous assurer d’être informé de toute modification de la structure du flux.
+>An important note on the third use case. If the third-party data provider adds a new demographic trait to the data feed after you created the model, the trait is automatically picked up by the model. ** You cannot exclude traits from modeling after creating the model. See [Important Aspects &amp; Limitations](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Please exercise caution when using this feature and work with the data provider to ensure you are informed of any changes to the feed structure.
 
 ![](assets/lam_exclude_traits.png)
 
-## Utilisation des exclusions de caractéristiques {#how-to-use}
+## How to Use Trait Exclusions {#how-to-use}
 
-Utilisez le processus [Créer un modèle](../../features/algorithmic-models/create-model.md#build-model) pour créer de nouveaux modèles algorithmiques.
+Use the Build a model workflow to build new algorithmic models.[](../../features/algorithmic-models/create-model.md#build-model)
 
-1. La [!UICONTROL Exclusions] sélection est grisée jusqu’à ce que vous sélectionniez une ou plusieurs sources de données pour la modélisation.
-2. Après avoir sélectionné une ou plusieurs sources de données pour la modélisation, appuyez sur **[!UICONTROL Browse All Traits]**.
-3. Dans la **[!UICONTROL Select Traits to Exclude]** fenêtre, vous pouvez voir toutes les caractéristiques associées aux sources de données que vous avez sélectionnées précédemment. Sélectionnez les caractéristiques à exclure.
+1. The  selection is greyed out until you select one or more data sources for modeling.[!UICONTROL Exclusions]
+2. After selecting one or more data sources for modeling, press .**[!UICONTROL Browse All Traits]**
+3. In the  window, you can see all traits associated with the data sources you selected previously. **[!UICONTROL Select Traits to Exclude]** Select the traits you want to exclude.
 4. Vous pouvez filtrer les caractéristiques par type de caractéristique ou parcourir les dossiers de caractéristiques. Notez que les dossiers de caractéristiques affichent uniquement les caractéristiques associées aux sources de données sélectionnées.
-5. Appuyez **[!UICONTROL Exclude Selected Traits]**.
+5. Press .**[!UICONTROL Exclude Selected Traits]**
 
 >[!TIP]
 >
@@ -72,10 +72,10 @@ Veuillez prendre note des aspects et limitations suivants liés à [!UICONTROL T
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifier les caractéristiques exclues après l'enregistrement du modèle </p> </td>
-   <td colname="col2"> <p>Vous ne pouvez pas modifier les caractéristiques exclues après avoir créé et enregistré un modèle. Si vous souhaitez modifier les résultats, vous pouvez cloner le modèle et modifier les caractéristiques exclues. </p> </td>
+   <td colname="col2"> <p>You cannot modify the excluded traits after you have created and saved a model. Si vous souhaitez modifier les résultats, vous pouvez cloner le modèle et modifier les caractéristiques exclues. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nombre maximal de caractéristiques que vous pouvez exclure </p> </td>
+   <td colname="col1"> <p>Maximum number of traits you can exclude </p> </td>
    <td colname="col2"> <p>Le nombre maximal de caractéristiques que vous pouvez exclure d’un modèle est de 500. Utilisez les caractéristiques des dossiers pour optimiser vos exclusions. </p> </td>
   </tr> 
   <tr> 
@@ -84,6 +84,10 @@ Veuillez prendre note des aspects et limitations suivants liés à [!UICONTROL T
   </tr>
  </tbody>
 </table>
+
+Regardez la vidéo ci-dessous pour savoir comment et pourquoi exclure des caractéristiques spécifiques d'une [!UICONTROL Look-Alike Model].
+
+[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=fre_fr)
 
 ## Liens connexes
 
