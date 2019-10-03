@@ -8,7 +8,7 @@ title: Création d’un modèle algorithmique
 topic: API DIL
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -42,7 +42,7 @@ Pour créer un modèle, accédez à la [!UICONTROL Models] section et cliquez **
    * *(Facultatif)* Fournissez une brève description du modèle.
    * Définissez l’état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécutent pas et ne produisent aucune donnée.
 1. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser.   Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas.
+   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas.
    * Choisissez une période de recherche en arrière de 30, 60 ou 90 jours. Définit une période pour le modèle.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Sélectionnez une source de données dans la [!UICONTROL Available Data] liste.
@@ -102,6 +102,10 @@ Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information
   </tr> 
  </tbody>
 </table>
+
+Regardez la vidéo ci-dessous pour découvrir comment créer un modèle à l'apparence unique de premier niveau, afin que vous puissiez trouver davantage de vos propres visiteurs qui ressemblent à vos convertisseurs.
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=fre_fr)
 
 >[!MORE_LIKE_This]
 >
