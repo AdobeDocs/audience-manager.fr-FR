@@ -5,7 +5,7 @@ seo-title: Tableau de bord Signaux
 title: Tableau de bord Signaux
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -37,4 +37,4 @@ Cette section présente les 50 nouveaux signaux inutilisés reçus au cours des 
 Les recherches enregistrées affichent les 50 premiers résultats des critères correspondants.
 
 Regardez la vidéo ci-dessous pour apprendre à utiliser le [!UICONTROL Signals Dashboard].
-[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=fre_fr)
