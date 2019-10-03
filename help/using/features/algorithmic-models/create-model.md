@@ -1,34 +1,34 @@
 ---
-description: Décrit les étapes requises et facultatives permettant de créer un modèle algorithmique dans le créateur de modèles.
-keywords: Algo How
-seo-description: Décrit les étapes requises et facultatives permettant de créer un modèle algorithmique dans le créateur de modèles.
-seo-title: Création d’un modèle algorithmique
+description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+keywords: algo how works
+seo-description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+seo-title: Create an Algorithmic Model
 solution: Audience Manager
-title: Création d’un modèle algorithmique
-topic: API DIL
+title: Create an Algorithmic Model
+topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# Création d’un modèle algorithmique {#create-an-algorithmic-model}
+# Create an Algorithmic Model {#create-an-algorithmic-model}
 
-Décrit les étapes obligatoires et facultatives qui vous permettent de créer un modèle algorithmique dans [!UICONTROL Model Builder].
+Describes the required and optional steps that let you create an algorithmic model in .[!UICONTROL Model Builder]
 
-## Créer un modèle {#build-model}
+## Build a Model {#build-model}
 
 <!-- t_model_build.xml -->
 
-### Section Créateur de modèles
+### Model Builder Section
 
-[!UICONTROL Model Builder] se compose des sections [!UICONTROL Basic Information] et [!UICONTROL Configuration] . Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour démarrer l’algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois la première exécution des données terminée. Une fois que vous avez reçu le courrier électronique, vous pouvez accéder au créateur de [caractéristiques](../../features/traits/about-trait-builder.md) et créer des caractéristiques algorithmiques.
+[!UICONTROL Model Builder] consists of the  and  sections. [!UICONTROL Basic Information][!UICONTROL Configuration] To create a model, complete the required fields in these two sections. Enregistrez votre modèle pour démarrer l’algorithme. [!DNL Audience Manager] sends you an automated notification after the first data run completes. Une fois que vous avez reçu le courrier électronique, vous pouvez accéder au créateur de [caractéristiques](../../features/traits/about-trait-builder.md) et créer des caractéristiques algorithmiques.
 
 >[!NOTE]
 >
 >* Le processus de modélisation ne s’exécute qu’une seule fois si vous créez un modèle et n’en créez aucune caractéristique.
->* Créez des modèles à partir de sources de données qui contiennent une quantité significative d’informations. Les modèles avec des données insuffisantes s’exécuteront, mais ils ne retourneront pas de résultats.
+>* Build models from data sources that contain a meaningful amount of information. Les modèles avec des données insuffisantes s’exécuteront, mais ils ne retourneront pas de résultats.
 >* *Ne créez pas* de modèles avec d’autres caractéristiques ou segments algorithmiques.
 >* La notification électronique automatisée est envoyée une seule fois (après la première exécution des données).
 
@@ -42,7 +42,7 @@ Pour créer un modèle, accédez à la [!UICONTROL Models] section et cliquez **
    * *(Facultatif)* Fournissez une brève description du modèle.
    * Définissez l’état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécutent pas et ne produisent aucune donnée.
 1. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas.
+   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser.   Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas.
    * Choisissez une période de recherche en arrière de 30, 60 ou 90 jours. Définit une période pour le modèle.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Sélectionnez une source de données dans la [!UICONTROL Available Data] liste.
@@ -68,7 +68,7 @@ Dans [!UICONTROL Model Builder]la section [!UICONTROL Configuration] , vous pouv
 
 ### Conditions préalables
 
-Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information] section.
+Complete the required fields in the  section first.[!UICONTROL Basic Information]
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -81,19 +81,19 @@ Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner un segment ou un trait de ligne de base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Cliquez sur le bouton Caractéristique ou Segment pour afficher la liste de toutes vos caractéristiques ou segments. Votre segment ou caractéristique sélectionné devient la ligne de base que les algorithmes système utilisent pour la modélisation. </p> <p> <p><b>Remarque</b>:  Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas. </p> </p> </td> 
+   <td colname="col1"> <p><b>Select a Baseline Trait or Segment (1)</b> </p> </td> 
+   <td colname="col2"> <p>Click the trait or segment button to see a list of all your traits or segments. Your selected segment or trait becomes the baseline that the system algorithms use for modeling. </p> <p> <p><b>Note:  Select an onboarded trait, a rule-based trait, or a segment as baseline. </b> Otherwise, your models will not run. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Sélectionnez Rechercher la période précédente (2)</b> </p> </td> 
-   <td colname="col2"> <p>Définit une période pour le modèle. Selon votre sélection, l’algorithme inclut et évalue les données des 30, 60 ou 90 jours précédents. </p> </td> 
+   <td colname="col1"> <p><b>Select Look Back Period (2)</b> </p> </td> 
+   <td colname="col2"> <p>Sets a time range for the model. Based on your selection, the algorithm includes and evaluates data from the previous 30, 60, or 90 days. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner un algorithme (3)</b> </p> </td> 
-   <td colname="col2"> <p>Pour le moment, Model Builder fonctionne uniquement avec notre algorithme <span class="keyword"> Trait Weight</span> propriétaire. <span class="keyword"> Audience Manager</span> peut ajouter d’autres fonctions algorithmiques dans les versions suivantes. </p> </td>
+   <td colname="col1"> <p><b>Select Algorithm (3)</b> </p> </td> 
+   <td colname="col2"> <p>At this time, Model Builder works with our proprietary  Trait Weight algorithm only. <span class="keyword"></span> <span class="keyword"> Audience Manager</span> peut ajouter d’autres fonctions algorithmiques dans les versions suivantes. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Sélectionner les données du modèle à partir de la source de données (4)</b> </p> </td> 
+   <td colname="col1"> <p><b>Select Model Data from Data Source (4)</b> </p> </td> 
    <td colname="col2"> <p>Permet de sélectionner les sources de données propriétaires et tiers que vous souhaitez utiliser dans le modèle. </p> </td>
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information
 
 Regardez la vidéo ci-dessous pour découvrir comment créer un modèle à l'apparence unique de premier niveau, afin que vous puissiez trouver davantage de vos propres visiteurs qui ressemblent à vos convertisseurs.
 
-[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=fre_fr)
 
 >[!MORE_LIKE_This]
 >
