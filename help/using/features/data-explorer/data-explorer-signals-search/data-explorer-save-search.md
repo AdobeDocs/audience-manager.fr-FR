@@ -5,7 +5,7 @@ seo-title: Enregistrer les critères de recherche
 title: Enregistrer les critères de recherche
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -26,6 +26,10 @@ Optimisez les efforts de recherche de signaux en enregistrant jusqu’à 10 ense
 1. Sélectionnez le **[!UICONTROL Default Sorting]** mode :
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. Cliquez sur **[!UICONTROL Save]**. Vous pouvez voir votre recherche enregistrée dans la [!UICONTROL Saved Search] section et l'utiliser à chaque fois que vous en avez besoin.
+1. Cliquez sur **[!UICONTROL Save]**. You can see your saved search in the [!UICONTROL Saved Search] section, and use it whenever you need it.
 
-![recherche enregistrée](assets/saved-search.png)
+![saved search](assets/saved-search.png)
+
+Regardez la vidéo ci-dessous pour savoir comment enregistrer les recherches de signaux.
+
+[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=fre_fr)
