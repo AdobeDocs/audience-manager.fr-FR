@@ -5,7 +5,7 @@ seo-title: Tableau de bord Signaux
 title: Tableau de bord Signaux
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -35,3 +35,6 @@ Cette section présente les 50 nouveaux signaux inutilisés reçus au cours des 
 [!DNL Audience Manager] affiche toutes les recherches [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) enregistrées sur le [!UICONTROL Dashboard] fichier et les recharge chaque fois que vous chargez le [!UICONTROL Dashboard].
 
 Les recherches enregistrées affichent les 50 premiers résultats des critères correspondants.
+
+Regardez la vidéo ci-dessous pour apprendre à utiliser le [!UICONTROL Signals Dashboard].
+[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=fre_fr)
