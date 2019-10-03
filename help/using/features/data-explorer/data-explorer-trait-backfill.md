@@ -5,7 +5,7 @@ seo-title: Renvoi des caractéristiques
 title: Renvoi des caractéristiques
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -47,24 +47,24 @@ Une fois que vous avez créé le trait, vous verrez ses réalisations empilées 
 
 Regardez la vidéo ci-dessous pour découvrir comment renvoyer les caractéristiques.
 
-[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=fre_fr)
 
 ## Latence de renvoi de caractéristiques {#trait-backfilling-latency}
 
-Newly created traits start capturing audiences two to three hours after creation. However, due to the large volume of data that  performs on a daily basis, the backfilled population is not immediately reflected in the  and  graphs.[!DNL Audience Manager][!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population]
+Les nouvelles caractéristiques commencent à capturer les audiences deux à trois heures après leur création. Cependant, en raison du volume important de données qui [!DNL Audience Manager] se produisent quotidiennement, la population reconstituée n’est pas immédiatement reflétée dans les [!UICONTROL Unique Trait Realizations] graphiques et [!UICONTROL Total Trait Population] les graphiques.
 
-Audience Manager updates the  with the backfilled population within 48 hours from trait creation.[!UICONTROL Trait Graph]
+Audience Manager met à jour le fichier [!UICONTROL Trait Graph] avec la population avec renvoi dans les 48 heures suivant la création d’une caractéristique.
 
-## Trait Backfilling Limit {#trait-backfilling-limit}
+## Limite de renvoi de caractéristiques {#trait-backfilling-limit}
 
-[!UICONTROL Data Explorer] allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month.
+[!UICONTROL Data Explorer] vous permet de renvoyer jusqu’à 50 caractéristiques par mois, le compteur de renvoi étant réinitialisé le 1 jour de chaque mois.
 
 >[!NOTE]
 >
->Trait backfilling quota does not carry over from previous months. E.g., if you backfill 30 traits this month, the trait backfill quota for the next month is reset to 50, not 70.
+>Le quota de renvois aux caractéristiques n’est pas reporté des mois précédents. Par exemple, si vous renseignez 30 caractéristiques ce mois-ci, le quota de renvoi de caractéristiques pour le mois suivant est réinitialisé à 50, et non à 70.
 
-## Impact on Reporting {#reporting-impact}
+## Incidence sur les rapports {#reporting-impact}
 
-Backfilled trait realizations are reflected in the  and  metrics, as  turns historical signals into trait realizations.[!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population][!DNL Audience Manager]
+Les réalisations de caractéristiques empilées sont reflétées dans les [!UICONTROL Unique Trait Realizations] mesures et [!UICONTROL Total Trait Population] les mesures, tandis que [!DNL Audience Manager] les signaux historiques deviennent des réalisations de caractéristiques.
 
-However, the , , and  are not updated retroactively with historical metrics backfilled before the trait creation date.[!UICONTROL Trait Graph][!UICONTROL General Reports][!UICONTROL Trend Reports]
+Toutefois, les variables [!UICONTROL Trait Graph], [!UICONTROL General Reports]et [!UICONTROL Trend Reports] ne sont pas mises à jour rétroactivement avec des mesures historiques renvoyées avant la date de création de la caractéristique.
