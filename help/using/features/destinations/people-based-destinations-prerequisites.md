@@ -5,7 +5,7 @@ seo-title: Destinations basées sur les personnes Conditions préalables et cons
 solution: Audience Manager
 title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -67,7 +67,7 @@ Lors du hachage des adresses électroniques, veillez à respecter les exigences 
 
 Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=fre_fr)
 
 Adobe Experience Cloud vous permet de hacher les ID de client via le service d’ID Experience Cloud. Voir Prise en charge du hachage [SHA256 pour setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) pour obtenir des informations détaillées sur la manière d’utiliser ECID pour hacher les ID de client.
 
