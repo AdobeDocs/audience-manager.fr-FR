@@ -1,11 +1,11 @@
 ---
-description: 'Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.  '
-seo-description: 'Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.  '
+description: 'Vous trouverez ci-dessous un aperçu des besoins des clients que vous devez satisfaire avant de vous inscrire aux Destinations basées sur les personnes.  '
+seo-description: 'Vous trouverez ci-dessous un aperçu des besoins des clients que vous devez satisfaire avant de vous inscrire aux Destinations basées sur les personnes.  '
 seo-title: Destinations basées sur les personnes Conditions préalables et considérations
 solution: Audience Manager
-title: Prerequisites and Considerations
+title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -36,7 +36,7 @@ Avant de pouvoir utiliser [!DNL People-Based Destinations] pour envoyer vos segm
 1. Ajoutez le compte **Adobe Experience Cloud** en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]entreprise. Utilisez `business ID=206617933627973`. Voir [Ajout de partenaires à votre gestionnaire](https://www.facebook.com/business/help/708679622611131) d’entreprise pour en savoir plus.
    >[!IMPORTANT]
    > Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’autorisation **Gérer les campagnes** . Ceci est nécessaire pour l’ [!DNL People-Based Destinations] intégration.
-1. Read and sign the  Terms of Service. [!DNL Facebook Custom Audiences] Pour ce faire, allez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
+1. Lisez et signez les [!DNL Facebook Custom Audiences] Conditions d'utilisation. Pour ce faire, allez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
 
 ## Intégration des données {#data-onboarding}
 
@@ -48,26 +48,30 @@ Le téléchargement de plus de 10 adresses électroniques hachées liées à un 
 
 Bien que vous [!DNL People-Based Destinations] puissiez cibler des audiences en fonction d’adresses électroniques hachées transférées par vous, il vous est toujours interdit de télécharger des informations de visiteur directement identifiables dans Audience Manager. Lors de la phase d’intégration des données, vous devez vous assurer que les adresses électroniques que vous prévoyez d’utiliser sont hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas les utiliser dans [!DNL People-Based Destinations].
 
-## Data Hashing Versus Encryption {#data-hashing-encryption}
+## Hachage de données contre chiffrement {#data-hashing-encryption}
 
-Encryption is a two-way function. Toute information chiffrée peut également être déchiffrée à l’aide de la clé de déchiffrement appropriée. Encrypting data in the context of Audience Manager poses serious risks, since any encrypted form of personally identifiable information can also be decrypted. As opposed to encryption,  are designed to work with hashed data instead.[!DNL People-Based Destinations]
+Le chiffrement est une fonction bidirectionnelle. Toute information chiffrée peut également être déchiffrée à l’aide de la clé de déchiffrement appropriée. Le chiffrement des données dans le contexte d’Audience Manager présente de sérieux risques, car toute forme chiffrée d’informations d’identification personnelle peut également être déchiffrée. Contrairement au chiffrement, [!DNL People-Based Destinations] sont conçus pour fonctionner avec des données hachées.
 
 Le hachage est une fonction à sens unique qui brouille l’entrée pour produire un résultat unique. En utilisant des algorithmes de hachage appropriés, comme [!DNL SHA256], il n'y a aucun moyen d'inverser la fonction de hachage et de révéler les informations non brouillées. Les adresses électroniques à bord d’Audience Manager doivent être hachées avec l’ [!DNL SHA256] algorithme. Ainsi, vous pouvez vous assurer qu’aucune adresse électronique non hachée n’atteint Audience Manager.
 
-## Hashing Requirements {#hashing-requirements}
+## Exigences de hachage {#hashing-requirements}
 
-When hashing the email addresses, make sure to comply with the following requirements:
+Lors du hachage des adresses électroniques, veillez à respecter les exigences suivantes :
 
-* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com` `<space>johndoe@example.com<space>`
-* When hashing the email strings, make sure to hash the lowercase string;
-   * Exemple : , not ;`example@email.com` `EXAMPLE@EMAIL.COM`
-* Make sure the hashed string is all lowercase
-   * Exemple : , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
+* Rogner tous les espaces de début et de fin de la chaîne de courrier électronique ; exemple : `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
+* Lors du hachage des chaînes de courrier électronique, veillez à hacher la chaîne minuscule ;
+   * Exemple : `example@email.com`, non `EXAMPLE@EMAIL.COM`;
+* Assurez-vous que la chaîne hachée est en minuscules.
+   * Exemple : `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Ne salez pas la chaîne.
 
-Adobe Experience Cloud gives you the option to hash customer IDs through the Experience Cloud ID Service. See [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) for detailed information on how to use ECID to hash customer IDs.
+Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICONTROL People-Based Destinations].
 
-## Obtaining User Permission {#obtaining-user-permission}
+[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=fre_fr)
+
+Adobe Experience Cloud vous permet de hacher les ID de client via le service d’ID Experience Cloud. Voir Prise en charge du hachage [SHA256 pour setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) pour obtenir des informations détaillées sur la manière d’utiliser ECID pour hacher les ID de client.
+
+## Obtention de l’autorisation utilisateur {#obtaining-user-permission}
 
 Puisque [!DNL People-Based Destinations] vous pouvez activer des données d’audience propriétaires dans des canaux basés sur des personnes, il vous incombe d’informer vos clients et d’obtenir leur consentement sur la manière dont vous utiliserez leurs données à des fins publicitaires ou autres.
 
