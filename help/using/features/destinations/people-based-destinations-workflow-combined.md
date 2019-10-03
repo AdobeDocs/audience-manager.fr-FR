@@ -5,7 +5,7 @@ seo-title: Processus A - Personnalisation basée sur toutes les activités en li
 solution: Audience Manager
 title: Processus A - Personnalisation basée sur toutes les activités en ligne combinées aux données hors ligne
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -15,21 +15,21 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
-This page includes step-by-step guidance on how to combine offline  data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to .[!DNL CRM][!DNL People-Based Destinations]
+Cette page comprend des instructions détaillées sur la manière de combiner [!DNL CRM] des données hors ligne avec des données comportementales que vous avez déjà dans Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience à [!DNL People-Based Destinations].
 
-## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
+## Étape 1 - Configuration des paramètres de source de données {#configure-data-source-settings}
 
-Depending on whether your DPUUIDs are lowercase, hashed email addresses, you might need to configure the data source that will store the hashed email addresses.[](../../reference/ids-in-aam.md)
+Selon que vos [DPUUID](../../reference/ids-in-aam.md) sont des adresses électroniques hachées en minuscules, vous devrez peut-être configurer la source de données qui stockera les adresses électroniques hachées.
 
  
 
-**Scenario 1: your DPUUIDs are already lowercase, hashed email addresses.[](../../reference/ids-in-aam.md)**
+**Scénario 1 : vos[DPUUID](../../reference/ids-in-aam.md)sont déjà des adresses électroniques en minuscules hachées.**
 
-In this case, you need to need to label the corresponding data source as such:
+Dans ce cas, vous devez étiqueter la source de données correspondante comme telle :
 
 1. Accédez à [!UICONTROL Audience Data] -&gt; [!UICONTROL Data Sources].
 1. Recherchez la source de données contenant vos [DPUUID](../../reference/ids-in-aam.md), puis cliquez dessus.
-1. In the  drop-down menu, select .**[!UICONTROL ID Type]****[!UICONTROL Cross Device]**
+1. Dans le menu **[!UICONTROL ID Type]** déroulant, sélectionnez **[!UICONTROL Cross Device]**.
 1. Vérifiez que l’option [!UICONTROL Cannot be tied to personally identifiable information] est désactivée.
 1. Dans la **[!UICONTROL Data Source Settings]** section, sélectionnez les options **[!UICONTROL Inbound]** et **[!UICONTROL Outbound]** , puis activez l’ **[!UICONTROL Share associated cross-device IDs in people-based destinations]** option.
 1. Utilisez le menu déroulant pour sélectionner le **[!UICONTROL Emails(SHA256, lowercased)]** libellé de cette source de données.
@@ -50,7 +50,7 @@ Dans ce cas, vous devez créer une source de données multipériphériques qui s
 1. Entrez un [!UICONTROL Name] et [!UICONTROL Description] pour votre nouvelle source de données.
 1. Dans le menu **[!UICONTROL ID Type]** déroulant, sélectionnez **[!UICONTROL Cross Device]**.
 1. Dans la **[!UICONTROL Data Source Settings]** section, sélectionnez les options **[!UICONTROL Inbound]** et **[!UICONTROL Outbound]** , puis activez l’ **[!UICONTROL Share associated cross-device IDs in people-based destinations]** option.
-1. Use the drop-down menu to select the  label for this data source.**[!UICONTROL Emails(SHA256, lowercased)]**
+1. Utilisez le menu déroulant pour sélectionner le **[!UICONTROL Emails(SHA256, lowercased)]** libellé de cette source de données.
    >[!IMPORTANT]
    >
    >Cette option désigne uniquement la source de données comme contenant des données hachées avec cet algorithme spécifique. Audience Manager ne hachage pas les données à cette étape. Assurez-vous que les adresses électroniques que vous prévoyez de stocker dans cette source de données sont déjà hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas l'utiliser pour [!DNL People-Based Destinations].
@@ -60,7 +60,7 @@ Dans ce cas, vous devez créer une source de données multipériphériques qui s
 
 Regardez la vidéo ci-dessous pour regarder un didacticiel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=fre_fr)
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Regardez la vidéo ci-dessous pour regarder un didacticiel vidéo sur la créati
 
 Supposons que vous souhaitiez faire correspondre vos [DPUUID](../../reference/ids-in-aam.md) existants aux adresses électroniques hachées du tableau ci-dessous (colonne de droite) et stocker les adresses électroniques hachées dans la nouvelle source de données que vous avez créée à l’ [étape 1 - Configuration des paramètres](people-based-destinations-workflow-combined.md#configure-data-source-settings)de la source de données.
 
-| DPUUID (CRM ID) | Adresse électronique | Hashed email address |
+| DPUUID (ID CRM) | Adresse électronique | Adresse électronique hachée |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
@@ -82,14 +82,14 @@ Supposons que vous souhaitiez faire correspondre vos [DPUUID](../../reference/id
 
  
 
-You can link up to 10 hashed email addresses to a single DPUUID. [](../../reference/ids-in-aam.md) To do this, separate the hashed email addresses with a comma, inside the synchronization file.
+Vous pouvez lier jusqu’à 10 adresses électroniques hachées à un seul [PUUID](../../reference/ids-in-aam.md). Pour ce faire, séparez les adresses électroniques hachées par une virgule dans le fichier de synchronisation.
 
 Dans notre exemple, vous avez maintenant deux sources de données.
 
 | ID de source de données | Contenu de la source de données |
 | -------------- | -------------------------- |
 | 999999 | Identifiants DPUUID (CRM) existants |
-| 987654 | Hashed email addresses |
+| 987654 | Adresses électroniques hachées |
 
  
 
@@ -128,7 +128,7 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 1. Cliquez sur **[!UICONTROL Add New Rule]**.
 1. Entrez une règle de fusion de profil **[!UICONTROL Name]** et **[!UICONTROL Description]**.
 1. Dans la **[!UICONTROL Profile Merge Rule Setup]** section, sélectionnez les **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]** options.
-1. In the  list, select the data sources that you want to run the segmentation on. **[!UICONTROL Cross-Device Profile Options]** Il doit s’agir des sources de données contenant vos [DPUUID](../../reference/ids-in-aam.md)existants.
+1. Dans la **[!UICONTROL Cross-Device Profile Options]** liste, sélectionnez les sources de données sur lesquelles vous souhaitez exécuter la segmentation. Il doit s’agir des sources de données contenant vos [DPUUID](../../reference/ids-in-aam.md)existants.
 
 ## Étape 4 - Création de segments d’audience {#create-audience-segments}
 
@@ -142,20 +142,20 @@ Pour créer de nouveaux segments d’audience, utilisez le créateur de [segment
 1. Utilisez le menu **[!UICONTROL People-Based Platform]** déroulant pour sélectionner la plateforme avec laquelle vous souhaitez configurer l’intégration.
    ![plate-forme à base de personnes](assets/pbd-add.png)
 1. Cliquez **[!UICONTROL Confirm]** pour être redirigé vers la page d'authentification de la plateforme sélectionnée.
-1. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Select the advertiser account that you want to use and click .**[!UICONTROL Confirm]**
-1. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
+1. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!UICONTROL Confirm]**.
+1. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
 
 >[!IMPORTANT]
 >
 >Un gestionnaire de contenu gère l’intégration aux plateformes sociales au moyen de jetons d’authentification qui expirent après un certain temps. Voir Renouvellement du jeton d’authentification pour plus d’informations sur la manière de renouveler les jetons expirés.
 
-## Step 6 - Create a People-Based Destination {#create-destination}
+## Etape 6 - Création d’une destination basée sur les personnes {#create-destination}
 
-1. Log in to your Audience Manager account, go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Destinations]****[!UICONTROL Create Destination]**
+1. Connectez-vous à votre compte Audience Manager, accédez à **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]**, puis cliquez sur **[!UICONTROL Create Destination]**.
 1. Dans la **[!UICONTROL Basic Information]** section, saisissez un **[!UICONTROL Name]** et **[!UICONTROL Description]** pour votre nouvelle source de données, puis utilisez les paramètres suivants :
    * **[!UICONTROL Category]**: Plateformes intégrées;
    * **[!UICONTROL Type]**: En fonction des personnes;
-   * **[!UICONTROL Platform]**: select the people-based platform that you want to send audience segments to;
+   * **[!UICONTROL Platform]**: sélectionnez la plateforme basée sur les personnes à laquelle vous souhaitez envoyer des segments d’audience ;
    * **[!UICONTROL Account]**: sélectionnez le compte publicitaire souhaité associé à la plateforme sélectionnée.
       ![create-destination](assets/pbd-create-destination.png)
 1. Cliquez sur **[!UICONTROL Next]**.
