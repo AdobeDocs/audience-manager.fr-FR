@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Confidentialité des données
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -21,9 +21,9 @@ See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
 ## Protection de la vie privée des consommateurs {#consumer-privacy-protection}
 
-Audience Manager reconnaît le pacte implicite entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Both parties benefit from the transparent exchange of anonymous data elements:
+Audience Manager reconnaît le pacte implicite entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d'un échange transparent d'éléments de données anonymes :
 
-* Consumers receive personalized content, discounted product offers, and streamlined user experiences.
+* Les clients reçoivent du contenu personnalisé, des offres de produits à prix réduit et des expériences utilisateur simplifiées.
 * Les marques reçoivent des flux de revenus vitaux qui prennent en charge plusieurs modèles commerciaux en ligne.
 
 Dans notre appui continu à ce modèle, Audience Manager demeure déterminé à assurer la transparence et le contrôle des consommateurs et à respecter ou à dépasser les principes d’autoréglementation de la publicité comportementale en ligne (OBA).
@@ -89,7 +89,7 @@ The [!DNL IP] address of a visitor to a customer’s website is transmitted to a
 
 Regardez la vidéo ci-dessous pour comprendre le fonctionnement de l’obscurcissement des [!DNL IP] adresses dans Audience Manager.
 
-[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=fre_fr)
 
 **** Segmentation géographique : Si vous activez l’obscurcissement des [!DNL IP] adresses, les octets restants de l’ [!DNL IP] adresse peuvent toujours être utilisés pour la géosegmentation et la création de rapports dans Audience Manager. Si vous n’activez pas l’obscurcissement d’ [!DNL IP] adresse, Audience Manager utilise l’adresse [!DNL IP] complète. Vous pouvez utiliser la fonction de segmentation géographique qui vous permet d’identifier un [!DNL IP] [!DNL IP] emplacement par zone géographique dans les deux cas, mais avec une légère perte de précision lors de l’utilisation de l’obscurcissement. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. L'obtention d'informations au niveau de la région et du pays ne devrait être que légèrement affectée. Les données de segmentation géographique sont granulaires uniquement au niveau de la ville ou du code postal, et non au niveau individuel. En savoir plus sur le [ciblage](/help/using/features/traits/trait-geotarget-keys.md) géographique et sur la configuration de caractéristiques avec des variables géographiques.
 
