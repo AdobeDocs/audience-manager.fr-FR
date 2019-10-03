@@ -5,7 +5,7 @@ seo-title: Aperçu, avantages et cas d’utilisation
 title: Aperçu, avantages et cas d’utilisation
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,4 +46,4 @@ Une fois qu’un fournisseur de services de voyage a ajouté de nouvelles destin
 
 L’une des fonctionnalités les plus puissantes d’Audience Manager est la possibilité d’embarquer des données hors ligne et de les lier à vos données en ligne. Dans la vidéo ci-dessous, apprenez à utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=fre_fr)
