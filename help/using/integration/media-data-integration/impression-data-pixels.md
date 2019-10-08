@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 7f71a099157e81c8d17cf018a4c84a69e2205bb4
+source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
 
 ---
 
@@ -27,9 +27,9 @@ L’appel d’un événement collecte les données d’impression et de conversi
 
 Les appels d’événement se composent de paires clé-valeur qui utilisent la syntaxe suivante :
 
-<pre>
-http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign=<i>campaign_id[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=valeur de buster du cache</i>
-</pre>
+```
+http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+```
 
 Dans la paire clé-valeur, la variable valeur est un identifiant ou une macro inséré par le serveur d’annonces. Lorsque la balise publicitaire se charge, elle `%macro%` est remplacée par les valeurs correspondantes requises. Cet appel ne renvoie pas de réponse.
 
