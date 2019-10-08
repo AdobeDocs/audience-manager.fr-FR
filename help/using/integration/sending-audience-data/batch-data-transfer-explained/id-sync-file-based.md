@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 translation-type: tm+mt
-source-git-commit: 4bc3d7c0a34619e556f58b39b7812a5612050f7f
+source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
 
 ---
 
@@ -25,7 +25,7 @@ Décrit les champs obligatoires, la syntaxe et les conventions d’appellation u
 
 Les noms de fichiers d’ID contiennent les éléments obligatoires et facultatifs suivants :
 
-*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*[_DPID_DPID]*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*[.gz]
+*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*`[_DPID]`*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*`[.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -49,11 +49,11 @@ Les noms de fichiers d’ID contiennent les éléments obligatoires et facultati
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>Data provider IDs. These IDs represent entities or data sources associated with the master DPID. Synchronization maps DPIDs in the file name to UUIDs in the file. </p> <p>The number of DPIDs in the file name must match the number of UUIDs in the data file. For example, say your file name contains a master DPID and 3 DPIDs. Your data file must include 4 corresponding columns of UUIDs, formatted as described in the file content section below. </p> </td> 
+   <td colname="col2"> <p>ID de fournisseur de données. Ces identifiants représentent des entités ou des sources de données associées au DPID maître. La synchronisation associe les DPID du nom de fichier aux UUID du fichier. </p> <p>Le nombre de DPID dans le nom de fichier doit correspondre au nombre d’UUID dans le fichier de données. Par exemple, supposons que votre nom de fichier contient un DPID maître et 3 DPID. Votre fichier de données doit inclure 4 colonnes correspondantes d’UUID, au format décrit dans la section de contenu du fichier ci-dessous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
-   <td colname="col2"> <p>A 10-digit, UNIX timestamp in seconds. The timestamp helps make each file name unique. </p> </td> 
+   <td colname="col2"> <p>Horodatage UNIX à 10 chiffres en secondes. L’horodatage permet de rendre chaque nom de fichier unique. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .sync</code> </p> </td> 
@@ -72,10 +72,10 @@ Les noms de fichiers d’ID contiennent les éléments obligatoires et facultati
 
 ### Exemples de noms de fichier
 
-The following examples show properly formatted files names. Your file names could look similar.
+Les exemples suivants montrent les noms de fichiers correctement formatés. Vos noms de fichier peuvent être similaires.
 
 <ul class="simplelist"> 
- <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
+ <li> <code> adobe_id_111_222_333_444_14544442149.sync</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
  <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
@@ -100,9 +100,9 @@ abc123 def456 ghi789 xyz987
 
 Un fichier de synchronisation des identifiants a pour objectif de synchroniser les [identifiants DPUUID](../../../reference/ids-in-aam.md) de vos propres sources de données avec [!DNL Audience Manager] des identifiants UUID. La synchronisation fait correspondre les [!DNL DPUUID]s du maître [!DNL DPID] et [!DNL DPID]des associés aux [!DNL Audience Manager] [!DNL UUID]s. L’emplacement où vous placez les ID dans le nom et le corps du fichier détermine la manière dont ces identifiants sont mappés les uns aux autres. Par exemple, prenez les deux fichiers d’exemple suivants :
 
-* **File 1:** `adobe_id_0_12345_1476312152.sync`
+* **** Fichier 1 : `adobe_id_0_12345_1476312152.sync`
 
-* **File 2:**  `adobe_id_12345_67890_1476312876.sync`
+* **** Fichier 2 :  `adobe_id_12345_67890_1476312876.sync`
 
 <br/>
 
@@ -110,10 +110,10 @@ Compte tenu du nom et du contenu de l’exemple, les ID sont mappés comme suit 
 
 **Fichier 1** (fichier [d’exemple de](assets/adobe_id_0_12345_1476312152.sync)téléchargement)
 
-| DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
+| DPID 0 = UUID Adobe Audience Manager | DPID 12345 |
 |---|---|
-| 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR38 |
-| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
+| 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-Trj6E4njaMR38 |
+| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4LN_T5jk_f7rdEcqNs9wfnA7h70 |
 | 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
