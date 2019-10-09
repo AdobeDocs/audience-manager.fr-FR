@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Codes, messages et exemples d’erreur des serveurs de collecte de données
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
 
 ---
 
@@ -40,7 +40,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valeur <code> d_orgid</code> non valide (impossible de trouver une configuration pour cet ID d'organisation) : <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Valeur non <code> d_orgid</code> valide (impossible de trouver une configuration pour cet ID d'organisation) : <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>L'ID d'organisation est incorrect. </p> <p>Vérifiez votre ID et réessayez. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, consultez la section "Page d’administration" dans Administration <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> d’</a> Experience Cloud pour savoir comment le trouver. </p> </td> 
   </tr>
  </tbody>
@@ -64,18 +64,23 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>ID Experience Cloud non valide transmis dans <code><i>l’ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ID Experience Cloud non valide transmis <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>L’appel <span class="wintitle"> DCS</span> contient un <span class="keyword"> ID Experience Cloud</span> non valide. </p> <p>Vérifiez la paire <code> d_mid=</code> clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre le bon <span class="keyword"> ID Experience Cloud</span> et réessayez la requête. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>ID aam non valide transmis dans l' <code><i>ID de requête</i></code> </p> </td> 
-   <td colname="col3"> <p>L’appel <span class="wintitle"> DCS</span> contient un ID Audience Manager <span class="keyword"></span> non valide. </p> <p>Vérifiez la paire <code> _uuid=</code> clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre l’ID <span class="keyword"> Audience Manager</span> correct et réessayez la requête. </p> </td> 
+   <td colname="col2"> <p>ID aam non valide transmis dans la requête <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>L’appel <span class="wintitle"> DCS</span> contient un ID Audience Manager <span class="keyword"></span> non valide. </p> <p>Vérifiez la paire <code> d_uuid=</code> clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre l’ID <span class="keyword"> Audience Manager</span> correct et réessayez la requête. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
    <td colname="col2"> <p>Tous les identifiants de client ne sont pas valides </p> </td> 
    <td colname="col3"> <p>Tous les ID de client de votre appel ne sont pas valides. Vérifiez vos identifiants et réessayez. </p> </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"> <p>109</p> </td> 
+   <td colname="col2"> <p>Le référent <code>HTTP referer</code> n’est pas autorisé pour le partenaire <code>Partner ID</code> </p> </td> 
+   <td colname="col3"> <p>L'en-tête [!DNL HTTP referer] de l'appel n'est pas autorisé pour l'ID de partenaire de l'appel. Vérifiez que l'en-tête [!DNL HTTP referer] est correct.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -98,7 +103,7 @@ In the tables below, *italics* represents a variable placeholder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Balise d’exclusion rencontrée pour l’ <code><i>ID d’ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Balise d’exclusion de l’ID rencontrée <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Un client a choisi de ne pas recevoir de publicité ciblée. </p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +118,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
-   <td colname="col2"> <p> Les demandes de ce pays sont bloquées par le partenaire </p> </td> 
+   <td colname="col2"> <p>Les demandes de ce pays sont bloquées par le partenaire </p> </td> 
    <td colname="col3"> <p>En fonction de l’adresse IP, le <span class="wintitle"> DCS</span> bloque les demandes des pays où le partenaire a délibérément limité le trafic. </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +174,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Impossible d'effectuer la migration de <code><i>l'ID</i></code> vers l' <code><i>ID</i></code>, car la lecture du profil a échoué pour <code><i>l'ID</i></code> </p> </td>
+   <td colname="col2"> <p>Impossible d'effectuer la migration de <code><i>ID</i></code> vers <code><i>ID</i></code>, car la lecture du profil a échoué pour <code><i>ID</i></code> </p> </td>
    <td colname="col3"> <p>Si vous recevez cette erreur, nous rencontrons peut-être des problèmes d’évolutivité avec notre banque de données (<span class="wintitle"> PCS</span>). Contactez votre représentant Adobe si le problème persiste. </p> </td> 
   </tr> 
  </tbody> 
@@ -188,12 +193,12 @@ In the tables below, *italics* represents a variable placeholder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>ID de client <code><i>non valide</i></code> </p> </td> 
+   <td colname="col2"> <p>ID de client non valide <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>L’ID de client n’est pas valide (valeurs manquantes pour la source de données, codes d’intégration manquants, format non valide pour les sources de données, ID de client bloqué, ID de client vide, tentative d’accès non autorisé à une source de données qui n’appartient pas au partenaire). </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Nombre maximal d’identifiants de client dépassé. Le maximum autorisé est le <code><i>maximum autorisé</i></code>. Le <code><i>maximum trouvé</i></code>est.</p> </td> 
+   <td colname="col2"> <p>Nombre maximal d’identifiants de client dépassé. Le maximum autorisé est <code><i>maximum allowed</i></code>. On l'a trouvé <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>Le nombre d’ID de client associés à une source de données inter-périphériques dépasse le nombre autorisé d’ID inter-périphériques par requête. Ces identifiants comprennent des ID inter-périphériques, mobiles ou de cookies. La limite est actuellement définie sur 10. </p> </td>
   </tr> 
   <tr> 
@@ -203,17 +208,17 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>ID client <code><i>bloqué</i></code> </p> </td> 
+   <td colname="col2"> <p>ID client bloqué <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Renvoyée lorsque l’identifiant du client a été identifié comme étant malveillant et a été mis sur liste noire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>ID <code><i>de source de données bloqué</i></code> </p> </td> 
+   <td colname="col2"> <p>ID de source de données bloqué <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Renvoyée lorsque l’ID de source de données a été identifié comme étant malveillant et a été mis sur liste noire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>ID <code><i>de périphérique déclaré bloqué</i></code> </p> </td> 
+   <td colname="col2"> <p>ID de périphérique déclaré bloqué <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>L’ID de périphérique a été identifié comme étant malveillant et a été mis sur liste noire. Cela peut se produire lorsque nous recevons un nombre extrême de demandes <span class="wintitle"> DCS</span> contenant cet ID de périphérique en peu de temps. </p> </td>
   </tr>
   <tr> 
@@ -223,7 +228,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>L’ID <code><i>de client</i></code> a été ignoré car il dépassait la limite des ID de client déclarés par requête. </p> </td> 
+   <td colname="col2"> <p>L’ID de client <code><i>ID</i></code> a été ignoré car il dépassait la limite des identifiants de client déclarés par requête. </p> </td> 
    <td colname="col3"> <p>Lié à l’erreur 301. Cette erreur indique l’ID de client ignoré car la limite a été dépassée. </p> <p>Par exemple, s’il existe 12 ID de client déclarés dans l’appel <span class="wintitle"> DCS</span> , deux d’entre eux sont ignorés. Afin de relayer ceux qui ont été ignorés, cette erreur apparaîtra deux fois dans la réponse (une fois pour chaque ID de client ignoré). </p> </td>
   </tr>
   <tr> 
@@ -234,7 +239,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>La requête contient des paramètres non valides </p> </td> 
-   <td colname="col3"> <p>Le <span class="wintitle"> serveur de collecte de données</span> renvoie ce code d’erreur lorsqu’au moins un paramètre d’URL n’est pas correctement codé. Dans ce cas, le serveur de collecte de données <span class="wintitle"></span> ignore l’intégralité de la requête. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy !&amp;d_adsrc=48123</code> </p> <p>Dans l'exemple de requête ci-dessus, la séquence % <code></code> est incorrectement codée. Par conséquent, le <span class="wintitle"> SDC</span> ne s'en souviendra pas. </p> <p>L’exemple codé correctement doit se présenter comme suit : </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy !&amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p>Le <span class="wintitle"> serveur de collecte de données</span> renvoie ce code d’erreur lorsqu’au moins un paramètre d’URL n’est pas correctement codé. Dans ce cas, le serveur de collecte de données <span class="wintitle"></span> ignore l’intégralité de la requête. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Dans l’exemple de requête ci-dessus, la <code> %</code> séquence est incorrectement codée. Par conséquent, le <span class="wintitle"> SDC</span> ne s'en souviendra pas. </p> <p>L’exemple codé correctement doit se présenter comme suit : </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
