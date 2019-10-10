@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -32,7 +32,7 @@ Commencez par regarder la vidéo [](https://images-tv.adobe.com/avp/vr/b7f88801-
 1. Dans la section Informations [](../../features/segments/segment-builder.md#segment-builder-controls-basics) de base :
    * Attribuez un nom au segment. La longueur maximale d’un nom de segment est de 255 caractères.
    * Définissez l’état du segment (actif par défaut).
-   * Sélectionnez une source de données. Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données. Si vous ne disposez d’aucune suite de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et vous ne pouvez voir que vos sources de données Audience Manager.
+   * Sélectionnez une source de données. Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données. Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données Audience Manager sont désactivées par défaut uniquement.
    * Sélectionnez une règle de fusion de profil à utiliser pour la qualification des segments.
    * Affectez le segment à un dossier de stockage.
 2. Dans la section [Caractéristiques](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
@@ -76,7 +76,7 @@ Dans [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] les param�
   </tr> 
   <tr> 
    <td colname="col1"> <b>Source de données</b> </td> 
-   <td colname="col2"> <p>Associe le segment à un fournisseur de données spécifique. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous ne disposez d’aucune suite de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et vous ne pouvez voir que vos sources de données Audience Manager.</p></p> </td> 
+   <td colname="col2"> <p>Associe le segment à un fournisseur de données spécifique. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données Audience Manager sont désactivées par défaut uniquement.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Règle de fusion de profil</b> </td> 
