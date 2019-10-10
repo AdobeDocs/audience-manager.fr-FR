@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Création de caractéristiques basées sur des règles ou intégrées
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -23,6 +23,8 @@ Décrit les étapes et les fonctionnalités de configuration spécifiques au pro
 Dans [!UICONTROL Trait Builder], les [!UICONTROL Basic Information] paramètres vous permettent de créer ou de modifier des caractéristiques existantes. Les [!UICONTROL Basic Information] paramètres sont les mêmes pour les caractéristiques basées sur des règles, intégrées et algorithmiques. Pour créer une nouvelle caractéristique, attribuez un nom (évitez les caractères spéciaux), une source de données et sélectionnez un dossier de stockage. Les autres [!UICONTROL Basic Information] champs sont facultatifs.
 
 <!-- c_tb_basics.xml -->
+
+![create-trait](assets/create-trait.png)
 
 ### Définition des champs d’informations de base
 
@@ -50,12 +52,12 @@ Dans [!UICONTROL Trait Builder], les [!UICONTROL Basic Information] paramètres 
    <td colname="col2"> Quelques mots pour décrire l'objectif ou la fonction du trait. Facultatif. </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> Source de données</span></b> </td> 
+   <td colname="col2"> Associe la caractéristique à un fournisseur de données spécifique. Obligatoire. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous ne disposez d’aucune suite de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et vous ne pouvez voir que vos sources de données Audience Manager.</p>  </td> 
+  </tr>
+   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type d’événement</span></b> </td> 
    <td colname="col2"> Attribue la caractéristique à un type ou une catégorie, généralement en fonction de la fonction (par exemple, conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, reportez-vous à la vidéo <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Source de données</span></b> </td> 
-   <td colname="col2"> Associe la caractéristique à un fournisseur de données spécifique. Obligatoire. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Code d’intégration</span></b> </td> 
@@ -66,7 +68,7 @@ Dans [!UICONTROL Trait Builder], les [!UICONTROL Basic Information] paramètres 
    <td colname="col2"> Remarques générales sur une caractéristique. Facultatif. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Stocké dans</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Stocker dans</span></b> </td> 
    <td colname="col2"> Détermine le dossier de stockage auquel appartient la caractéristique. Obligatoire. </td> 
   </tr> 
   <tr> 
