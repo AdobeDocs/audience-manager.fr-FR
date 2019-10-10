@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Création de caractéristiques basées sur des règles ou intégrées
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -53,7 +53,7 @@ Dans [!UICONTROL Trait Builder], les [!UICONTROL Basic Information] paramètres 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Source de données</span></b> </td> 
-   <td colname="col2"> Associe la caractéristique à un fournisseur de données spécifique. Obligatoire. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous ne disposez d’aucune suite de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et vous ne pouvez voir que vos sources de données Audience Manager.</p>  </td> 
+   <td colname="col2"> Associe la caractéristique à un fournisseur de données spécifique. Obligatoire. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données Audience Manager sont désactivées par défaut uniquement.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type d’événement</span></b> </td> 
