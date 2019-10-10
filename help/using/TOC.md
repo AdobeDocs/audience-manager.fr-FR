@@ -4,7 +4,7 @@ audience: utilisateur final
 user-guide-title: Guide de l’utilisateur d’Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
+source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
       + [Modifier les paramètres de votre compte](features/administration/edit-account-settings.md)
       + [Obscurcissement d’adresses IP](features/administration/ip-obfuscation.md)
       + [Limites d’utilisation](features/administration/usage-limits.md)
-   +  Modèles algorithmiques{#algorithmic-models}
+   + Modèles algorithmiques{#algorithmic-models}
       + [Modèles algorithmiques](features/algorithmic-models/understanding-models.md)
       + [Création d’un modèle algorithmique](features/algorithmic-models/create-model.md)
       + [Modèles algorithmiques : Exclusion de caractéristiques](features/algorithmic-models/trait-exclusion-algo-models.md)
@@ -49,7 +49,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [Audience Marketplace pour les fournisseurs de données](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Création, tarification et gestion des flux de données](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
          + [Facturation pour les fournisseurs de flux de données](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-      +  Audience Marketplace pour les acheteurs de données{#audience-marketplace-for-data-buyers}
+      + Audience Marketplace pour les acheteurs de données{#audience-marketplace-for-data-buyers}
          + [Audience Marketplace pour les acheteurs de données](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [Gestion des abonnements aux flux de données](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [Facturation pour les acheteurs de flux de données](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
@@ -186,7 +186,6 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [Conventions de dénomination des fichiers de métadonnées](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Format de contenu pour les fichiers de métadonnées](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Méthodes de remise des fichiers de métadonnées](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-         + [Mises à jour de statut des fichiers de métadonnées](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [Rapport Variation de caractéristiques quotidiennes](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Rapports interactifs et de chevauchement {#interactive-and-overlap-reports}
       + [Présentation des rapports interactifs et de chevauchement](reporting/dynamic-reports/dynamic-reports.md)
