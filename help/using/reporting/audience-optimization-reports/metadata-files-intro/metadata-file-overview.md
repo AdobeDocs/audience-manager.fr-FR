@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aperçu et mappages pour les fichiers de métadonnées
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -59,43 +59,43 @@ Le tableau suivant répertorie les paires clé-valeur qui contiennent les donné
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Annonceur </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = ID de source de <i>données ou code d’intégration</i></code> </p> <p>Il s’agit de l’ID de source de données ou du code d’intégration de l’annonceur fourni lors de la création d’une source de données. Voir <a href="../../../features/manage-datasources.md#create-data-source"> Création d’une source</a>de données. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Il s’agit de l’ID de source de données ou du code d’intégration de l’annonceur fourni lors de la création d’une source de données. Voir <a href="../../../features/manage-datasources.md#create-data-source"> Création d’une source</a>de données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Unité opérationnelle </p> </td> 
-   <td colname="col2"> <p> <code>d_bu = ID <i>de l'unité opérationnelle</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_bu = <i>business unit ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campagne </p> </td> 
-   <td colname="col2"> <p> <code>d_campaign = ID <i>de campagne</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Créatif </p> </td> 
-   <td colname="col2"> <p> <code>d_creative = ID <i>de création</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exchange </p> </td> 
    <td colname="col2"> <p>Accepte 2 paires clé-valeur différentes : </p> 
     <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
-     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID de l’échange qui a servi la publicité</i></code> </li> 
-     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID du site sur lequel une publicité a été diffusée</i></code> </li> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID for the exchange that served the ad</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID for the site an ad served on</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ordre d’insertion (E/S) </p> </td> 
-   <td colname="col2"> <p> <code>d_io = ID de l'ordre <i>d'insertion</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_io = <i>insertion order ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plate-forme </p> </td> 
-   <td colname="col2"> <p> <code>d_src = ID de source de <i>données</i></code> </p> <p>Il s’agit de l’ID de source <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> de données de la plateforme fournissant des informations de métadonnées (par exemple, DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Il s’agit de l’ID de source <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> de données de la plateforme fournissant des informations de métadonnées (par exemple, DFA, Atlas, GBM, MediaMath, etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tactique </p> </td> 
-   <td colname="col2"> <p> <code>d_tactic = ID <i>tactique</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertical </p> </td> 
-   <td colname="col2"> <p> <code>d_vert = ID <i>vertical</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_vert = <i>vertical ID</i></code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Voir Format [de contenu pour les fichiers](../../../reporting/audience-optimizat
 
 ### Livraison de fichiers
 
-Après avoir nommé et ajouté des données à un fichier, vous l’envoyez dans un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir Méthodes [de remise pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md) de métadonnées et Mises à jour de [l’état pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)de métadonnées.
+Après avoir nommé et ajouté des données à un fichier, vous l’envoyez dans un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir Méthodes [de remise pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)de métadonnées.
 
 >[!MORE_LIKE_This]
 >
