@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fichiers de données et de métadonnées pour les rapports Optimisation de l’audience
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -24,8 +24,3 @@ Un fichier de données contient des données d’impression, de clic ou de conve
 * [Conventions de dénomination des fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Format de contenu pour les fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [Méthodes de remise des fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [Mises à jour de statut des fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-
