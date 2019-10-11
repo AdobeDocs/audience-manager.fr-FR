@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sources de données globales
 uuid: null
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
 
@@ -21,11 +21,12 @@ Le tableau suivant décrit les sources de données globales prises en charge par
 
 | ID de source de données | Description |
 |---|---|
-| 20914 | **Identifiant** publicitaire Google - **** Les GAID représentent les périphériques qui exécutent le système d’exploitation Android. |
-| 20915 | **ID Apple pour la publicité** : **** les fichiers IDFA représentent les périphériques qui exécutent le système d’exploitation iOS. |
-| 121963 | **Identifiant Roku pour la publicité** : **** les RIDA représentent les périphériques de diffusion en continu Roku. |
-| 389146 | **ID** publicitaire Microsoft - Les **** MAID représentent les périphériques exécutant le système d’exploitation Windows 10. |
-| 404660 | **Les** DUID Samsung représentent les télévisions intelligentes Samsung. |
+| 20914 | **Identifiant** publicitaire Google - **** Les AILD représentent les périphériques qui exécutent le [!DNL Android] système d’exploitation. |
+| 20915 | **ID Apple pour la publicité** : **** les fichiers IDFA représentent les périphériques qui exécutent le [!DNL iOS] système d’exploitation. |
+| 121963 | **ID Roku pour la publicité** : **** les RIDA représentent des périphériques [!DNL Roku] de diffusion en continu. |
+| 389146 | **Identifiant** publicitaire Microsoft - Les **** MAID représentent les périphériques exécutant le [!DNL Windows 10] système d’exploitation. |
+| 404660 | **Les** DUID Samsung représentent [!DNL Samsung] des télévisions intelligentes. |
+| 488258 | **Les** identifiants publicitaires Amazon Fire TV représentent les périphériques exécutant [!DNL Amazon Fire OS] |
 
 ## Importation de données à partir de sources de données globales
 
