@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Demandes en bloc
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
 
 ---
 
@@ -32,10 +32,11 @@ Pour effectuer des requêtes en masse, ouvrez la [!UICONTROL Bulk Management Too
 1. Click the **[!UICONTROL Request]** tab.
 2. Dans la barre d'outils située en haut de la feuille de calcul, cliquez sur un bouton de requête correspondant aux données à utiliser. Vous pouvez demander :
 
-   * ID de fournisseur de données
-   *  Signaux dérivés
+   * Modèles algorithmiques
+   * Sources de données
+   * Signaux dérivés
    * Mappages de destination
-   * Caractéristiques basées sur des règles et sur des panoramas
+   * Caractéristiques algorithmiques, basées sur des règles et intégrées
    * Segments
    * ID de dossier de caractéristiques et de segments
    L’ [!DNL Audience Manager] API réécrit les données en masse dans la [!UICONTROL Request] feuille de calcul.
