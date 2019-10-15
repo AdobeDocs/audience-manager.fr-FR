@@ -1,20 +1,20 @@
 ---
-description: Une mise à jour en bloc vous permet de modifier plusieurs segments, caractéristiques et éléments de dossiers de segments ou caractéristiques en une seule opération. Suivez ces instructions pour effectuer des mises à jour en masse.
+description: Une mise à jour en bloc vous permet de modifier plusieurs segments, caractéristiques, modèles, sources de données et éléments de segments ou de dossiers de caractéristiques en une seule opération. Suivez ces instructions pour effectuer des mises à jour en masse.
 keywords: baaam
-seo-description: Une mise à jour en bloc vous permet de modifier plusieurs segments, caractéristiques et éléments de dossiers de segments ou caractéristiques en une seule opération. Suivez ces instructions pour effectuer des mises à jour en masse.
+seo-description: Une mise à jour en bloc vous permet de modifier plusieurs segments, caractéristiques, modèles, sources de données et éléments de segments ou de dossiers de caractéristiques en une seule opération. Suivez ces instructions pour effectuer des mises à jour en masse.
 seo-title: Mises à jour en masse
 solution: Audience Manager
 title: Mises à jour en masse
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Mises à jour en masse{#bulk-updates}
 
-Une mise à jour en bloc vous permet de modifier plusieurs segments, caractéristiques et éléments de dossiers de segments ou caractéristiques en une seule opération. Suivez ces instructions pour effectuer des mises à jour en masse.
+Une mise à jour en bloc vous permet de modifier plusieurs segments, caractéristiques, modèles, sources de données et éléments de segments ou de dossiers de caractéristiques en une seule opération. Suivez ces instructions pour effectuer des mises à jour en masse.
 
 <!-- 
 
