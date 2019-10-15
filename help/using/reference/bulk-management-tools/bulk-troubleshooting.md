@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Conseils de dépannage pour les outils de gestion en bloc
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 
 ---
 
@@ -65,4 +65,8 @@ Le tableau suivant répertorie les problèmes courants que vous pouvez rencontre
   </tr> 
  </tbody> 
 </table>
+
+## Messages d’erreur
+
+Il arrive que vous receviez des messages d’erreur lorsque vous effectuez des modifications en masse. Pour interpréter le message d’erreur, reportez-vous à la section Codes de [réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) dans notre documentation API.
 
