@@ -4,7 +4,7 @@ seo-description: Recherchez les signaux utilisés et inutilisés reçus au cours
 seo-title: Recherche de signaux
 title: Recherche de signaux
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 64d0bdb8e7da43c2b467aef44cec2a185d1f79d7
 
 ---
 
