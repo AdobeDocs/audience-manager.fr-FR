@@ -1,12 +1,12 @@
 ---
 description: Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les publicitaires et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
-seo-description: Documentation technique et aide autonome pour Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+seo-description: Documentation technique et aide autonome pour Audience Manager (AAM). AAM fournit des services de pointe pour la gestion des données d’audience en ligne et fournit aux annonceurs et éditeurs numériques les outils dont ils ont besoin pour contrôler et exploiter leurs ressources de données afin de contribuer au succès des ventes.
 seo-title: Documentation technique du produit Adobe Audience Manager
 solution: Audience Manager
 title: Documentation du produit Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: f73d4ea5802cec4829f69d495745aeabf1e87c1d
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
@@ -20,6 +20,7 @@ Ce guide de documentation technique fournit une assistance autonome à Audience 
   <tr> 
    <td colname="col1"> <p> <b>Nouveautés et points forts</b> </p> <p>Découvrez les dernières fonctionnalités d’Audience Manager :</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+    <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Mise à jour des outils de gestion en bloc</a></li>
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinations basées sur les personnes</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique</a> </li>
