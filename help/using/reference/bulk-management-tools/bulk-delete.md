@@ -1,19 +1,19 @@
 ---
-description: La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
-seo-description: La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
+description: La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
+seo-description: La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
 seo-title: Suppression en masse
 solution: Audience Manager
 title: Suppression en masse
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Suppression en masse{#bulk-delete}
 
-La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
+La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
 
 <!-- 
 
