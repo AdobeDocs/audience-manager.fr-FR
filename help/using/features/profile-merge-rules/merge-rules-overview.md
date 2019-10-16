@@ -6,14 +6,16 @@ solution: Audience Manager
 title: Présentation des règles de fusion de profils
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # Présentation des règles de fusion de profils {#profile-merge-rules-overview}
 
-Vous [!UICONTROL Profile Merge Rules] contrôlez les jeux de données utilisés pour la segmentation et pouvez cibler une personne avec précision sur plusieurs périphériques.
+Vous [!UICONTROL Profile Merge Rules] pouvez ainsi contrôler quels jeux de données sont utilisés pour la segmentation et cibler précisément les utilisateurs sur plusieurs périphériques.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28974?captions=fre_fr)
 
 ## Collecte et ciblage de données avec des profils anonymes et authentifiés {#data-collection-targeting}
 
@@ -21,7 +23,7 @@ En règle générale, la segmentation et le ciblage de l’audience reposent sur
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] modifie fondamentalement la manière dont [!DNL Audience Manager] les données sont collectées et segmente les utilisateurs pour le ciblage. Il vous permet de travailler avec deux types de profils distincts, un profil de périphérique et un profil authentifié.
+[!UICONTROL Profile Merge Rules] modifie fondamentalement la manière dont [!DNL Audience Manager] les données sont collectées et segmente les utilisateurs pour le ciblage. Il vous permet de travailler avec deux types de profils distincts, un profil de périphérique et un profil [](../../reference/visitor-authentication-states.md)authentifié.
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -50,7 +52,7 @@ En règle générale, la segmentation et le ciblage de l’audience reposent sur
  </tbody>
 </table>
 
-Ces différents profils contrôlent les données que vous pouvez utiliser pour la segmentation. Par exemple, avec un profil authentifié, vous pouvez créer des segments précis d’après les données de plusieurs périphériques pour une seule personne. Cela signifie que vous pouvez offrir une expérience cohérente de la marque aux clients sur plusieurs périphériques. De plus, l’authentification sur plusieurs périphériques permet [!DNL Audience Manager] de mapper les différentes plateformes qu’une personne utilise pour ses activités en ligne. On l'appelle le [!UICONTROL Profile Link Device Graph].
+Ces différents profils contrôlent les données que vous pouvez utiliser pour la segmentation. Par exemple, avec un profil [](../../reference/visitor-authentication-states.md)authentifié, vous pouvez créer des segments précis à partir de données provenant de plusieurs périphériques pour un utilisateur unique. Cela signifie que vous pouvez offrir une expérience cohérente de la marque aux clients sur plusieurs périphériques. Audience Manager effectue cette opération en stockant le mappage des différents périphériques qu’une personne utilise pour ses activités en ligne sur son profil [](../../reference/visitor-authentication-states.md)authentifié. Ces mappages sont appelés le [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -58,23 +60,8 @@ Ces différents profils contrôlent les données que vous pouvez utiliser pour l
 
 Avec [!UICONTROL Profile Merge Rules] vous pouvez :
 
-* Ciblez les utilisateurs en fonction de profils authentifiés, de profils anonymes ou de combinaisons des deux.
+* Ciblez les utilisateurs en fonction du profil [](../../reference/visitor-authentication-states.md)authentifié, des profils anonymes ou des combinaisons des deux.
 * Ciblez un client spécifique sur l’ensemble de ses périphériques.
 * Créez un graphique de périphérique basé sur des données déterministes.
 * Affinez les données de vos segments en fonction de différents profils.
 * Obtenez des informations supplémentaires sur votre public.
-
-## Prise en main {#getting-started}
-
-Consultez les sections suivantes et la [FAQ](../../faq/faq-profile-merge.md) pour plus d’informations sur [!UICONTROL Profile Merge Rules]le sujet.
-
-* [Prise en main des règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rules-start.md)
-* [Tableau de bord des règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
-* [Définition des options de règle de fusion de profil](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [Cas d’utilisation généraux des règles de fusion de profils](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [Cas d’utilisation de graphiques de périphériques de lien de profil](/help/using/features/profile-merge-rules/profile-link-use-case.md)
-* [Cas d’utilisation graphiques des périphériques externes](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
-* [Mesures des rapports pour les règles de fusion de profils](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [Règles de fusion des profils et processus de désegmentation des périphériques](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
-* [Suppression instantanée inter-périphérique](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
-* [Remarques importantes concernant les règles de fusion de profils avec des graphiques de périphériques](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)
