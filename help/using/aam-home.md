@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentation du produit Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -20,8 +20,9 @@ Ce guide de documentation technique fournit une assistance autonome à Audience 
   <tr> 
    <td colname="col1"> <p> <b>Nouveautés et points forts</b> </p> <p>Découvrez les dernières fonctionnalités d’Audience Manager :</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+    <li><a href="features/profile-merge-rules/merge-rules-overview.md">Améliorations des règles de fusion de profils</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Mise à jour des outils de gestion en bloc</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
+     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinations basées sur les personnes</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique</a> </li>
      <li><a href="features/destinations/destinations-home.md">Page d'accueil Destinations</a> </li>
