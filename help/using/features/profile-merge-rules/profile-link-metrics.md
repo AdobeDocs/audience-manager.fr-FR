@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Mesures des rapports pour les règles de fusion de profils
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # Mesures des rapports pour les règles de fusion de profils {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Link] les mesures fournissent des données sur les personnes et les périphériques qui s’authentifient sur votre site. Les données et les graphiques sont [!UICONTROL Profile Link] mis à jour dynamiquement lorsque vous créez des règles de fusion ou lorsque vous cliquez sur une règle existante dans le [!UICONTROL Profile Merge Rules] tableau de bord. Ces mesures peuvent inclure des graphiques de périphériques provenant de sources de graphiques de périphériques [!DNL Adobe Experience Cloud Device Co-op] ou d’autres sources tierces.
+[!UICONTROL Profile Merge Rule] les mesures fournissent des données sur les personnes et les périphériques qui s’authentifient sur votre site. Les données et les graphiques sont [!UICONTROL Profile Merge Rule Reports] mis à jour dynamiquement lorsque vous créez une règle de fusion ou lorsque vous cliquez sur une règle existante dans le [!UICONTROL Profile Merge Rules] tableau de bord. Ces mesures peuvent inclure des graphiques de périphériques provenant de sources de graphiques de périphériques [!DNL Adobe Experience Cloud Device Co-op] ou d’autres sources tierces.
 
 ## Fusionner les mesures de règle {#merge-rule-metrics}
 
@@ -32,7 +32,7 @@ Les rapports renvoient des données dans des graphiques à barres côte-à-côte
    <td colname="col2"> <p>Montre : </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Personnes</span>actives : Nombre de personnes qui se sont authentifiées sur votre site au cours des 60 derniers jours. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Périphérique</span>croisé : Nombre total d’identifiants <a href="../../features/profile-merge-rules/merge-rules-start.md#create-data-source"> de</a> plusieurs périphériques stockés dans la <a href="../../features/manage-datasources.md#create-data-source"> source</a> de données du profil <a href="../../features/profile-merge-rules/merge-rule-definitions.md"></a> authentifié sélectionné pour la durée de vie de la source de données. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Périphérique</span>croisé : Nombre total d’identifiants <a href="merge-rules-start.md#create-data-source"> de</a> plusieurs périphériques stockés dans la <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> source</a> de données du profil <a href="merge-rule-definitions.md"></a> authentifié sélectionné pour la durée de vie de la source de données. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de personnes</span>actives : Affiche les personnes <span class="wintitle"></span> actives sous forme de %. </li> 
     </ul> <p> <span class="wintitle"> Activité</span> authentifiée vous permet de comparer les sources de données par activité, volume et pourcentage. Il peut vous aider à trouver une source de données qui compte beaucoup de personnes et un pourcentage élevé d’utilisateurs actifs. Vous pouvez également trouver intéressant de comparer les sources de données à une proportion élevée d’utilisateurs actifs par rapport à la taille totale de l’audience. Par exemple, il arrive qu’une source de données avec un faible nombre total de durée de vie et une forte activité soit plus précieuse que celles avec des résultats de durée de vie élevés et un faible nombre d’activités. </p> <p> <p>Remarque : Les mesures Activité <span class="wintitle"></span> authentifiée contiennent uniquement des données de lien <span class="wintitle"></span> de profil. Ce rapport n’inclut pas les données de graphique <span class="wintitle"></span> de périphérique. </p> </p> </td> 
   </tr> 
@@ -104,19 +104,17 @@ Les [!UICONTROL Merge Rules] rapports affichent également des données sur le n
 
 Un [!UICONTROL Profile Link] rapport standard ressemble à l’exemple suivant. Les règles de fusion qui utilisent plusieurs sources de données (jusqu’à 3 au maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. Cette règle de fusion n’inclut pas [!UICONTROL Device Co-op] les données.
 
-![](assets/coop-metrics1.png)
+![](assets/profile-link-metrics.png)
 
 ### Rapport Lien De Profil Avec Données Graphiques De Périphérique
 
-Un [!UICONTROL Profile Link] rapport qui inclut des données de graphique de périphérique issues du graphique de périphérique [!UICONTROL Adobe Experience Cloud Device Co-op] ou d’un graphique de périphérique tiers affiche [!UICONTROL Profile Link] et les données de graphique de périphérique avec des graphiques à barres côte à côte. Le fait de placer ces graphiques côte à côte vous permet d’évaluer les avantages de l’utilisation de la [!UICONTROL Experience Cloud Device Co-op] variable par rapport à [!UICONTROL Profile Link] elle-même. Les règles de fusion qui utilisent plusieurs sources de données (jusqu’à 3 au maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. En guise de rappel, le [!UICONTROL Authenticated Activity] graphique et les mesures ne renvoient aucune donnée du graphique de [!DNL Adobe] périphérique ou d’autres graphiques de périphérique tiers auxquels vous avez accès dans [!DNL Audience Manager].
+Un [!UICONTROL Profile Link Device Graph] rapport qui inclut des données de graphique de périphérique issues du graphique de périphérique [!UICONTROL Adobe Experience Cloud Device Co-op] ou d’un graphique de périphérique tiers affiche [!UICONTROL Profile Link] et les données de graphique de périphérique avec des graphiques à barres côte à côte. Le fait de placer ces graphiques côte à côte vous permet d’évaluer les avantages de l’utilisation de la [!UICONTROL Experience Cloud Device Co-op] variable par rapport à [!UICONTROL Profile Link] elle-même. Les règles de fusion qui utilisent plusieurs sources de données (jusqu’à 3 au maximum) affichent des graphiques dans des onglets distincts pour chaque source de données. En guise de rappel, le [!UICONTROL Authenticated Activity] graphique et les mesures ne renvoient aucune donnée du graphique de [!DNL Adobe] périphérique ou d’autres graphiques de périphérique tiers auxquels vous avez accès dans [!DNL Audience Manager].
 
-![](assets/coop-metrics2.png)
+![](assets/profile-link-graph.png)
 
 ## Graphiques de tendances des liens de profil {#profile-link-trend}
 
 Outre les autres visualisations de données, [!UICONTROL Profile Link] les rapports incluent un graphique linéaire. Le graphique linéaire est conçu pour vous montrer les tendances au fil du temps pour vos règles de profil. Les graphiques de tendances (et les autres rapports) sont disponibles lorsque vous cliquez sur une règle dans la page d’ [!UICONTROL Profile Merge Rules] entrée ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Ces graphiques incluent des données de graphique de périphérique si vous êtes membre du [!UICONTROL Device Co-op] ou d’autres graphiques de périphérique tiers auxquels vous avez accès dans [!DNL Audience Manager]. Cliquez sur une ligne de tendance pour afficher les données sous-jacentes.
-
-![](assets/authenticated_trends.png)
 
 >[!MORE_LIKE_This]
 >
