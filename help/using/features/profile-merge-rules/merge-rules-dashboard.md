@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tableau de bord des règles de fusion de profils
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ Le [!UICONTROL Profile Merge Rules] tableau de bord fournit un espace de travail
 
 Lorsque vous travaillez avec [!UICONTROL Profile Merge Rules]:
 
-* Créez un maximum de 4 règles à partir des sources de données inter-périphériques. Voir [Création d’une source](merge-rules-start.md#create-data-source)de données sur plusieurs périphériques.
+* Créez un maximum de 4 [!UICONTROL Profile Merge Rules] à partir de vos sources de données sur plusieurs périphériques. Voir [Création d’une source](merge-rules-start.md#create-data-source)de données sur plusieurs périphériques.
 * Désignez une règle de fusion par défaut. [Le créateur](../segments/segment-builder.md) de segments applique automatiquement la règle par défaut aux nouveaux segments que vous créez.
 * Appliquer les contrôles [d’exportation de](../data-export-controls.md) données à une règle de fusion. [!UICONTROL Data Export Controls] vous empêchez d’envoyer des données vers des destinations lorsque cela violerait la confidentialité des données ou les accords d’utilisation.
 * Assurez le suivi du nombre moyen de périphériques pour chaque utilisateur.
