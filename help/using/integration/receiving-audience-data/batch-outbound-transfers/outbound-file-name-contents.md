@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Syntaxe du nom du fichier de données sortantes et exemples
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 translation-type: tm+mt
-source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
 
-#  Nom du fichier de données sortant : Syntaxe et exemples{#outbound-data-file-name-syntax-and-examples}
+# Nom du fichier de données sortant : Syntaxe et exemples{#outbound-data-file-name-syntax-and-examples}
 
 Décrit les champs, la syntaxe et les conventions requis utilisés pour nommer un fichier de données sortant.
 
@@ -60,7 +60,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
       <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Identifiant publicitaire Google </span> (brut, non haché) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> ID Apple pour les annonceurs </span> (brut, non haché) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fournisseur - ID utilisateur tiers (Web/cookie) </li> 
-     </ul> </p> </td> 
+     </ul> </p> <p>Voir Sources <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de données</a> globales pour en savoir plus.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -68,7 +68,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>Le mode de synchronisation est un espace réservé de macro qui ajoute une étiquette au nom du fichier en fonction du type de synchronisation. Les types de synchronisation sont complets et incrémentiels. Ils apparaîtront dans le nom du fichier comme <code> entier </code> ou <code> plein </code>. </p> 
+   <td colname="col2"> <p>Le mode de synchronisation est un espace réservé de macro qui ajoute une étiquette au nom du fichier en fonction du type de synchronisation. Les types de synchronisation sont complets et incrémentiels. Ils apparaîtront dans le nom du fichier sous la forme <code> iter </code> ou <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Indique une synchronisation "itérative" ou incrémentielle. Un fichier incrémentiel contient uniquement les nouvelles données collectées depuis la dernière synchronisation. </li> 
      <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: Indique une synchronisation "complète". Un fichier entièrement synchronisé contient d’anciennes données et toutes les nouvelles données collectées depuis la dernière synchronisation. </li> 
@@ -83,7 +83,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
    <td colname="col2"> <p>Entier. Identifie une partie d’un fichier qui a été divisée en plusieurs parties afin d’améliorer les temps de traitement. Le nombre indique à quelle partie du fichier d’origine les données appartiennent.</p>  <p>L’entier doit comporter au moins 3 chiffres, précédés de zéros, si la taille de division est inférieure à 100 parties.</p>  <p>Le fichier d’origine ne comporte aucun numéro de division. Le premier fichier partagé se termine par 001. Voir les exemples ci-dessous. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>.gz (facultatif) </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
    <td colname="col2"> <p>Compression GZIP. </p> </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ Par exemple, fichiers complets :
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200001.sync.gz </code> </li> 
 </ul>
 
-##  Contenu du fichier de données sortantes : Syntaxe et paramètres {#outbound-contents-syntax}
+## Contenu du fichier de données sortantes : Syntaxe et paramètres {#outbound-contents-syntax}
 
 Décrit les champs, la syntaxe et les conventions requis utilisés pour organiser les informations dans un fichier de données sortant. Formatez vos données en fonction de ces spécifications.
 
