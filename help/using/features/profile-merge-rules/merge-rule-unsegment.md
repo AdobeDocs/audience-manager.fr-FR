@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Règles de fusion des profils et processus de désegmentation des périphériques
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -32,7 +32,7 @@ La section Unsegmentation décrit les processus qui excluent et suppriment les p
 
 [!DNL Audience Manager] Vous pouvez supprimer un ID de plusieurs périphériques d’un segment lorsque vous [!UICONTROL Profile Merge Rule] utilisez l’option **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** . Dans ces conditions, la non-segmentation se produit lorsque l’ID inter-périphériques n’est plus admissible pour un segment, car les mises à jour ou les modifications apportées au profil inter-périphériques le excluent. Cela se produit lorsque les critères de qualification des segments changent, ou lorsque vous appliquez un [!UICONTROL AND NOT] opérateur à une règle de segment, ou lorsque vous spécifiez des conditions de [récence et de fréquence](../segments/recency-and-frequency.md) qui utilisent les valeurs inférieures/égales aux paramètres. Les cas d’utilisation sont décrits dans la documentation [Instant Cross-Device Suppression](instant-cross-device-suppression.md) .
 
-![](../assets/current-no-device.png)
+![](assets/current-no-device.png)
 
 ## Options de graphique de périphérique et désegmentation de périphérique {#device-graph-options-unsegmentation}
 
