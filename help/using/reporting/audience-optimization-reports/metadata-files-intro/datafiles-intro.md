@@ -1,19 +1,19 @@
 ---
-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans Audience Manager et les afficher dans les rapports Optimisation de l’audience. Formatez vos fichiers de données en fonction de ces spécifications dans cette section.
-seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans Audience Manager et les afficher dans les rapports Optimisation de l’audience. Formatez vos fichiers de données en fonction de ces spécifications dans cette section.
-seo-title: Fichiers de données pour les rapports Optimisation de l’audience
+description: Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans Audience Manager et les utiliser dans les rapports Optimisation de l’audience et dans les fichiers journaux utilisables. Formatez vos fichiers de données selon les spécifications de cette section.
+seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans Audience Manager et les utiliser dans les rapports Optimisation de l’audience et dans les fichiers journaux utilisables. Formatez vos fichiers de données selon les spécifications de cette section.
+seo-title: Fichiers de données pour les rapports d’optimisation d’audience et les fichiers journaux utilisables
 solution: Audience Manager
-title: Fichiers de données pour les rapports Optimisation de l’audience
+title: Fichiers de données pour les rapports d’optimisation d’audience et les fichiers journaux utilisables
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-# Fichiers de données pour les rapports Optimisation de l’audience{#data-files-for-audience-optimization-reports}
+# Fichiers de données pour les rapports d’optimisation d’audience et les fichiers journaux utilisables {#data-files-for-audience-optimization-reports}
 
-Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans Audience Manager et les afficher dans les rapports Optimisation de l’audience. Formatez vos fichiers de données en fonction de ces spécifications dans cette section.
+Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans Audience Manager pour les afficher dans les rapports [Optimisation de l’](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience et créer des caractéristiques à l’aide des données via des fichiers [journaux](/help/using/integration/media-data-integration/actionable-log-files.md)exploitables. Formatez vos fichiers de données en fonction de ces spécifications dans cette section.
 
 ## Aperçu {#overview}
 
@@ -25,7 +25,7 @@ Un fichier de données doit être accompagné d’un fichier de métadonnées. L
 
 La syntaxe suivante définit la structure d’un nom de fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable qui change en fonction du contenu du fichier.
 
-**Syntaxe :** <pre><code><i>type</i>d’événement_<i>yyyymmdd</i></code></pre>
+**Syntaxe :** <pre><i>type</i>d’événement_<i>yyyymmdd</i></code></pre>
 
 Dans un nom de fichier :
 
@@ -35,15 +35,15 @@ Dans un nom de fichier :
 
 Compte tenu de ces exigences, nommez vos fichiers de données en fonction de leur contenu comme suit :
 
-* Données d’impression : <pre><code>impressions_<i>yyyyymmd<i>.gz</code></pre>
-* Données de clic : <pre><code>clicks_<i>yyyyyymmd</i>.gz</code></pre>
-* Données de conversion : <pre><code>conversions_<i>yyyyymmd</i>.gz</code></pre>
+* Données d’impression : <pre>impressions_<i>yyyyymmd<i>.gz</code></pre>
+* Données de clic : <pre>clicks_<i>yyyyyymmd</i>.gz</code></pre>
+* Données de conversion : <pre>conversions_<i>yyyyymmd</i>.gz</code></pre>
 
 ## Format de contenu pour les fichiers de données {#content-format}
 
 La syntaxe suivante définit la structure du contenu dans un fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
 
-**Syntaxe :** <pre><code><i>libellé d’en-tête 1</i> | <i>étiquette d'en-tête 2</i> ... Libellé d’ <i>en-tête n</i> | <i>version</i></code></pre>
+**Syntaxe :** <pre><i>libellé d’en-tête 1</i> | <i>étiquette d'en-tête 2</i> ... Libellé d’ <i>en-tête n</i> | <i>version</i></code></pre>
 
 Dans le contenu du fichier :
 
@@ -67,7 +67,7 @@ Le tableau ci-dessous répertorie et décrit les en-têtes de colonne de votre f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Horodatage </p> </td> 
-   <td colname="col2"> <p>Date et heure UTC pour l’événement d’impression, de clic ou de conversion. Utilisez le format <code> aaaa-jj-mm hh:mm:ss</code> . </p> </td> 
+   <td colname="col2"> <p>Date et heure UTC pour l’événement d’impression, de clic ou de conversion. Utilisez le <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -145,7 +145,7 @@ Téléchargez vos fichiers de données d’impression, de clic ou de conversion 
 
 Les données sont stockées dans un espace de noms distinct pour chaque client dans un répertoire Amazon S3. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
-**Syntaxe :** <pre><code>.../log_ingestion/pid= ID <i><i>AAM/dpid= <i>d_src</i>/logs/ type <i>de</i>fichier_<i>yyyymmdd</i></code></pre>
+**Syntaxe :** <pre> .../log_ingestion/pid= ID <i><i>AAM/dpid= <i>d_src</i>/logs/ type <i>de</i>fichier_<i>yyyymmdd</i></code></pre>
 
 Le tableau suivant définit chacun de ces éléments dans un chemin de remise de fichier.
 
@@ -162,7 +162,7 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de remise de
    <td colname="col2"> <p>Il s’agit du début du chemin de stockage du répertoire. Vous recevrez le chemin complet lorsque tout sera configuré. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>pid=ID<i>AAM</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>Cette paire clé-valeur qui contient votre ID de client <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
@@ -170,11 +170,11 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de remise de
    <td colname="col2"> <p>Cette paire clé-valeur contient l’ID de source de données transmis lors d’un appel d’événement. Il identifie l’agence dont proviennent les données et les associe à un fichier de métadonnées. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> journaux</code> </p> </td> 
+   <td colname="col1"> <p> <code> logs</code> </p> </td> 
    <td colname="col2"> <p> Répertoire de niveau supérieur pour les fichiers de données. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> type <i>de</i>fichier<i>_yyyymmdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>Nom de type de fichier qui indique le type de données qu’il contient et un horodatage de remise. </p> </td> 
   </tr> 
  </tbody> 
