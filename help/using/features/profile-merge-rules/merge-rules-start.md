@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Prise en main des règles de fusion de profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ Les champs de texte associés à ces paramètres vous permettent de renommer le 
 
 ## Création d’une règle de fusion de profil {#create-profile-merge-rule}
 
-Pour créer une [!UICONTROL Profile Merge Rule], accédez à **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** et suivez les étapes de chaque section décrite ici. Vous pouvez créer jusqu’à 3 règles de fusion après avoir configuré une source de données sur plusieurs périphériques. Les autorisations d’administrateur sont requises pour créer, modifier ou supprimer une règle. Tous les utilisateurs peuvent afficher et utiliser des données existantes [!UICONTROL Profile Merge Rules].
+Pour créer une [!UICONTROL Profile Merge Rule], accédez à **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** et suivez les étapes de chaque section décrite ici.
+
+Vous pouvez créer jusqu’à 3 règles de fusion après avoir configuré une source de données sur plusieurs périphériques. Vous avez accès à une quatrième règle de fusion de profil ([!UICONTROL All Cross-Device Profiles]) si vous vous inscrivez pour des destinations basées sur [les personnes](../destinations/people-based-destinations-overview.md).
+
+Les autorisations d’administrateur sont requises pour créer, modifier ou supprimer une règle. Tous les utilisateurs peuvent afficher et utiliser des données existantes [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
