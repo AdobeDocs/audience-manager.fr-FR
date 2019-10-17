@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: b258c7dbdcf359394fbdcad6511c4113f8d88d91
+source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
 
 ---
 
@@ -247,11 +247,13 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Utilisation de signaux tactiles dans l’interface utilisateur d’Audience Manager {#actionable-signals-in-ui}
 
-Vous pouvez afficher vos signaux interactifs entrants dans l’interface de recherche [des](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) signaux, à l’aide de la sélection Fichiers **journaux** interactifs.
+Vous pouvez afficher vos signaux interactifs entrants dans l’interface de recherche [des](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) signaux.
+
+Accédez à Données **** d’audience (1) &gt; **Signaux** (2) &gt; **Rechercher** (3) et sélectionnez le filtre Fichiers journaux **utilisables (4).**
 
 ![Signaux actifs dans l’interface utilisateur](/help/using/integration/assets/alf-in-signals.png)
 
-Pour créer des caractéristiques basées sur des règles à l’aide de vos signaux exploitables, sélectionnez Fichiers **journaux** exploitables, sélectionnez les signaux exploitables à utiliser comme règles de caractéristiques, puis appuyez sur **Créer un trait à partir des signaux** sélectionnés.
+Pour créer des caractéristiques basées sur des règles à l’aide de vos signaux exploitables, sélectionnez Fichiers **journaux** exploitables (1), sélectionnez les signaux exploitables à utiliser comme règles de caractéristiques (2) et appuyez sur **Créer un trait à partir de signaux** sélectionnés (3).
 
 ![Créer des caractéristiques à partir de signaux](/help/using/integration/assets/alf-create-trait.png)
 
