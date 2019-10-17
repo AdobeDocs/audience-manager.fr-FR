@@ -7,7 +7,7 @@ solution: Audience Manager
 title: FAQ sur les règles de fusion de profils et le graphique de périphériques
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
 
 ---
 
@@ -28,13 +28,13 @@ Un graphique de périphérique est un ensemble de mappages d’ID qui définit d
 
 **Qu’est-ce qu’un graphique de périphérique externe ?**
 
-Un graphique de périphérique externe est un graphique de périphérique dans [!DNL Audience Manager] lequel il n’a pas été créé exclusivement à partir de vos propres sources de données inter-périphériques. Par exemple, lorsque vous créez une règle [de fusion de](merge-rules-start.md) profil et choisissez les options de graphique de périphérique [!UICONTROL Co-op Device Graph] ou tiers, vous travaillez avec un graphique de périphérique externe. Voir Options [du](merge-rule-definitions.md#device-options)périphérique.
+Un graphique de périphérique externe est un graphique de périphérique dans [!DNL Audience Manager] lequel il n’a pas été créé exclusivement à partir de vos propres sources de données inter-périphériques. Par exemple, lorsque vous créez une règle [de fusion de](../features/profile-merge-rules/merge-rules-start.md) profil et choisissez les options de graphique de périphérique [!UICONTROL Co-op Device Graph] ou tiers, vous travaillez avec un graphique de périphérique externe. Voir Options [du](../features/profile-merge-rules/merge-rule-definitions.md#device-options)périphérique.
 
  
 
 **Quels sont les cas d’utilisation courants pour l’utilisation d’un graphique de périphérique externe dans une[!UICONTROL Profile Merge Rule]application ?**
 
-L’objectif principal de l’utilisation d’un graphique d’appareil dans un [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une personne ou à un ménage pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations, par exemple, le ciblage d’un public de prospects avec une publicité diffusée par un fournisseur de services de sécurité (DSP) ou la personnalisation de l’expérience sur site d’un client via une plateforme de personnalisation sur site. See [External Device Graph Use Cases](external-graph-use-cases.md).
+L’objectif principal de l’utilisation d’un graphique d’appareil dans un [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une personne ou à un ménage pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations, par exemple, le ciblage d’un public de prospects avec une publicité diffusée par un fournisseur de services de sécurité (DSP) ou la personnalisation de l’expérience sur site d’un client via une plateforme de personnalisation sur site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -54,7 +54,7 @@ Une fois par semaine.
 
 **Comment utiliser[!DNL Audience Manager]un graphique de périphérique ?**
 
-Dans [!DNL Audience Manager]la section, les graphiques de périphériques apparaissent comme des options de configuration lorsque vous [créez une règle](merge-rules-start.md)de fusion de profil. Grâce à [!UICONTROL Profile Merge Rules]vous, ces graphiques de périphériques aident [!DNL Audience Manager]:
+Dans [!DNL Audience Manager]la section, les graphiques de périphériques apparaissent comme des options de configuration lorsque vous [créez une règle](../features/profile-merge-rules/merge-rules-start.md)de fusion de profil. Grâce à [!UICONTROL Profile Merge Rules]vous, ces graphiques de périphériques aident [!DNL Audience Manager]:
 
 * Fusionnez plusieurs profils de périphérique ensemble. Cela crée un seul et même ensemble de caractéristiques.
 * Evaluez le paramètre de caractéristique en vue de la qualification du segment (plutôt que d’évaluer chaque profil de périphérique individuellement).
@@ -90,7 +90,7 @@ Les périphériques [!DNL Audience Manager] fusionnés et lus sont les mêmes qu
 
 **Comment[!DNL Audience Manager]désegmenter un périphérique lorsqu’il n’est plus qualifié pour un segment avec un[!UICONTROL Profile Merge Rule]graphique de périphérique ?**
 
-Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec un graphique [!UICONTROL Profile Merge Rule] utilisant un périphérique. Si le signal de désegmentation est émis, le périphérique actuel et jusqu’à 99 périphériques supplémentaires seront supprimés du segment dans la destination. Pour plus d’informations sur la non-segmentation, voir Règles de fusion [de profil et Processus de désegmentation de périphériques](merge-rule-unsegment.md).
+Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec un graphique [!UICONTROL Profile Merge Rule] utilisant un périphérique. Si le signal de désegmentation est émis, le périphérique actuel et jusqu’à 99 périphériques supplémentaires seront supprimés du segment dans la destination. Pour plus d’informations sur la non-segmentation, voir Règles de fusion [de profil et Processus de désegmentation de périphériques](../features/profile-merge-rules/merge-rule-unsegment.md).
 
  
 
@@ -168,7 +168,7 @@ La fréquence des caractéristiques est définie par la somme du nombre de quali
 
 **Puis-je voir le nombre de périphériques accessibles par un[!UICONTROL Profile Merge Rule]qui utilise un graphique de périphérique ?**
 
-Oui. Les rapports renvoient des données au [!UICONTROL Profile Merge Rule] niveau. Les données du rapport sont mises à jour quotidiennement. Les données sont basées sur les périphériques affichés dans votre compte, et non sur ceux liés par un graphique de périphériques. Voir Mesures des [rapports pour les règles](profile-link-metrics.md)de fusion de profils.
+Oui. Les rapports renvoient des données au [!UICONTROL Profile Merge Rule] niveau. Les données du rapport sont mises à jour quotidiennement. Les données sont basées sur les périphériques affichés dans votre compte, et non sur ceux liés par un graphique de périphériques. Voir Mesures des [rapports pour les règles](../features/profile-merge-rules/profile-link-metrics.md)de fusion de profils.
 
  
 
@@ -258,5 +258,5 @@ Non.
 
 >[!MORE_LIKE_This]
 >
->* [Profile Link](merge-rules-overview.md)
+>* [Profile Link](../features/profile-merge-rules/profile-link-use-case.md)
 
