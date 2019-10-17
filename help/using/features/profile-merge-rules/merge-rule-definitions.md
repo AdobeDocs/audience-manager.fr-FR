@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Définition des options de règle de fusion de profil
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
+source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 
 ---
 
@@ -84,7 +84,7 @@ La [!UICONTROL Cross-Device Profile Options] liste répertorie vos sources de do
 
 ## Options du périphérique {#device-options}
 
-Vous [!UICONTROL Device Options] pouvez sélectionner le type de *`device profile`* utilisé par un [!UICONTROL Profile Merge Rule]. Un profil de périphérique est constitué de caractéristiques collectées par les utilisateurs lorsqu’ils naviguent anonymement sur le Web. Au minimum, une règle de fusion de profil comprend une option authentifiée et une option de périphérique.
+Vous [!UICONTROL Device Options] pouvez sélectionner le type de *`device profile`* utilisé par un [!UICONTROL Profile Merge Rule]. Un profil de périphérique est créé à partir de caractéristiques collectées à partir d’une activité de navigation anonyme. Au minimum, une règle de fusion de profil comprend une option authentifiée et une option de périphérique.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
