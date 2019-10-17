@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Définition des options de règle de fusion de profil
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ---
 
 
-# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
+# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
 Les options de règle de fusion vous permettent de contrôler le type de données utilisé par Audience Manager pour la segmentation. Une règle de fusion peut inclure les profils de périphérique mappés par le graphique de périphérique, le [!UICONTROL Profile Link] [!UICONTROL Adobe Experience Cloud Device Co-op]fournisseur de graphiques de périphérique tiers et/ou d’autres fournisseurs de graphiques de périphérique tiers intégrés à Audience Manager. Vous pouvez créer un maximum de 4 [!UICONTROL Profile Merge Rules]. La quatrième [!UICONTROL Profile Merge Rule] est réservée aux clients qui ont acheté le [!UICONTROL People-Based Destinations] module complémentaire.
 
