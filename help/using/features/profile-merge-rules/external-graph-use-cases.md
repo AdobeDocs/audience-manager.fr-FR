@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Cas d’utilisation graphiques des périphériques externes
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -23,7 +23,7 @@ Tenez compte des options de graphique de périphériques [!DNL Experience Cloud 
 * Ciblez les publics importants. Les graphiques de périphériques [!DNL Experience Cloud Device Co-op] et tiers contiennent des données authentifiées et non authentifiées.
 * Segmentez les visiteurs authentifiés et/ou non authentifiés au niveau individuel et familial.
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -127,5 +127,5 @@ En utilisant le **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Ado
 >
 >* [Cas d’utilisation de graphiques de périphériques de lien de profil](profile-link-use-case.md)
 >* [Cas d’utilisation généraux des règles de fusion de profils](merge-rule-targeting-options.md)
->* [FAQ sur les règles de fusion de profils](faq-profile-merge.md)
+>* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
 
