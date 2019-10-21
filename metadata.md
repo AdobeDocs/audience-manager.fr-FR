@@ -6,11 +6,11 @@ solution-image: assets/aam-icon-24.png
 getting-started-title: Prise en main
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: Didacticiels
-tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: y
 translation-type: tm+mt
-source-git-commit: fbc0e9f5243c8b09065083aa5ff9fa90386b044c
+source-git-commit: aae87606a38948f221b1efea2ab224218061847a
 
 ---
 
@@ -26,5 +26,5 @@ Le fichier metadata.md comprend des métadonnées au niveau du repo qui sont tra
 | solution-icône | Affiche l’icône de la solution en regard du titre de la solution. Pas encore implémenté |
 | getting-started-url | Lien vers la page de prise en main de l’aide |
 | tutorials-url | Lien vers des didacticiels vidéo : didacticiels de l’aide ou didacticiels de l’application KT |
-| mini-toc-levels | Determines the number of heading levels that appear in right rail. la valeur par défaut est 2 |
-| git-repo | Specifies the location of the master repo for internal use |
+| mini-toc-level | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. la valeur par défaut est 2 |
+| git-repo | Spécifie l'emplacement du référentiel maître pour une utilisation interne |
