@@ -5,7 +5,7 @@ seo-title: Destinations basées sur les personnes Conditions préalables et cons
 solution: Audience Manager
 title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -56,7 +56,7 @@ Le hachage est une fonction à sens unique qui brouille l’entrée pour produir
 
 ## Exigences de hachage {#hashing-requirements}
 
-Lors du hachage des adresses électroniques, veillez à respecter les exigences suivantes :
+Lorsque vous hachez les adresses électroniques, veillez à respecter les exigences suivantes :
 
 * Rogner tous les espaces de début et de fin de la chaîne de courrier électronique ; exemple : `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
 * Lors du hachage des chaînes de courrier électronique, veillez à hacher la chaîne minuscule ;
@@ -82,6 +82,8 @@ Si vos clients souhaitent s’exclure des campagnes publicitaires, reportez-vous
 ## Activation des données propriétaires {#enforcing-first-party-activation}
 
 Lors de [!DNL People-Based Destinations]l’utilisation, vous pouvez uniquement utiliser des données propriétaires pour activer les segments d’audience dans les canaux basés sur les personnes. Vous ne pouvez pas utiliser de données propriétaires ou tierces pour l’activation de l’audience dans des canaux basés sur des personnes.
+
+Lors de l’utilisation [!UICONTROL People-Based Destinations], utilisez [les contrôles](../data-export-controls.md) d’exportation de données pour étiqueter vos sources de données et destinations en fonction des directives et des exigences des plateformes de destination et des fournisseurs de données.
 
 ## Identifiants hachés authentifiés à bord via le ciblage d’identifiants déclarés {#onboard-authenticated-declared-id}
 
