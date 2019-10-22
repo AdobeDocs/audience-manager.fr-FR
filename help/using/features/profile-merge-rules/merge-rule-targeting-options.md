@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Cas d’utilisation généraux des règles de fusion de profils
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ Le lien entre le périphérique et le profil du profil du client permet à Audie
 
 ![gestion des ménages](assets/household-management.png)
 
-## Ciblage basé sur les personnes {#all-cross-device}
+## Ciblage pour les destinations basées sur les personnes {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans ce document n'est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
 Ce scénario de ciblage n’est disponible que pour les clients qui ont acheté le [!DNL People-Based Destinations] module complémentaire. Cette règle permet aux spécialistes du marketing d’atteindre les clients en fonction de leurs propres données authentifiées.
 
-Supposons qu’un détaillant en ligne veuille atteindre les clients existants par le biais de plateformes sociales et leur montrer des offres personnalisées basées sur leurs commandes précédentes. Avec [!UICONTROL People-Based Destinations]cela, ils peuvent assimiler des adresses électroniques hachées de leur propre site [!DNL CRM] à Audience Manager, créer des segments à partir des données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles ils souhaitent faire de la publicité, en optimisant leurs dépenses publicitaires.
+Supposons qu’un détaillant en ligne veuille atteindre les clients existants par le biais de plateformes sociales et leur montrer des offres personnalisées basées sur leurs commandes précédentes. Avec [!UICONTROL People-Based Destinations]cela, ils peuvent assimiler des adresses électroniques hachées de leur propre [!DNL CRM] dans Audience Manager, créer des segments à partir des données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles ils souhaitent faire de la publicité, à l’aide de cet identifiant de hachage, en optimisant leurs dépenses publicitaires.
 
 Pour en savoir plus sur cette option, voir Destinations basées sur les [personnes](../destinations/people-based-destinations-overview.md).
 
