@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Définition des options de règle de fusion de profil
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -31,7 +31,7 @@ Les règles de fusion de profils permettent plusieurs combinaisons de règles, c
 | Derniers profils authentifiés | Profil du périphérique | Tous les clients | Temps réel et lot | Oui | [Ciblage en ligne/hors ligne](merge-rule-targeting-options.md#device-household-targeting) |
 | Derniers profils authentifiés |  Graphique de périphérique de lien de profil | Amérique du Nord et Canada uniquement | Temps réel et lot | Oui | [Ciblage sur plusieurs périphériques](profile-link-use-case.md#cross-device-personalization) |
 | Derniers profils authentifiés | Graphique de périphérique externe (inclut graphique de périphérique Co-op) | Tous les clients | Temps réel et lot | Non | [Ciblage avancé sur plusieurs périphériques](external-graph-use-cases.md#advanced-graph-expansion) |
-|  Tous les profils sur plusieurs périphériques | S.O. | Exclusif aux clients des destinations [basées sur les](../destinations/people-based-destinations-overview.md) personnes | Lot uniquement | Non | [Ciblage basé sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
+|  Tous les profils sur plusieurs périphériques | S.O. | Exclusif aux clients des destinations [basées sur les](../destinations/people-based-destinations-overview.md) personnes | Lot uniquement | Non | [Ciblage pour les destinations basées sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
 
 ## Évaluation du segment de règle de fusion de profils {#segment-evaluation}
 
