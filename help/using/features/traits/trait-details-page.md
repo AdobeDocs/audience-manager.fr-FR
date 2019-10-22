@@ -1,12 +1,13 @@
 ---
 description: La page de détails d’une caractéristique individuelle fournit un aperçu des informations telles que le nom de la caractéristique, l’ID, les mesures de performances, les expressions qui définissent la caractéristique, les segments auxquels elle appartient et le journal d’audit des caractéristiques. Pour afficher ces détails, accédez à Données d’audience > Caractéristiques et cliquez sur le nom de la caractéristique à utiliser.
 seo-description: La page de détails d’une caractéristique individuelle fournit un aperçu des informations telles que le nom de la caractéristique, l’ID, les mesures de performances, les expressions qui définissent la caractéristique, les segments auxquels elle appartient et le journal d’audit des caractéristiques. Pour afficher ces détails, accédez à Données d’audience > Caractéristiques et cliquez sur le nom de la caractéristique à utiliser.
-seo-title: ' Page Détails du trait'
+seo-title: Page Détails du trait
 solution: Audience Manager
-title: ' Page Détails du trait'
+title: Page Détails du trait
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
+keywords: ventilation de type d’identité, ventilation d’identité, rapport d’identité d’audience
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
