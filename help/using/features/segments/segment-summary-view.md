@@ -1,12 +1,13 @@
 ---
 description: La page de résumé des segments affiche des détails tels que le nom, les caractéristiques du segment, les règles, les données de performances et les informations de mappage de destination.
 seo-description: La page de résumé des segments affiche des détails tels que le nom, les caractéristiques du segment, les règles, les données de performances et les informations de mappage de destination.
-seo-title: ' Affichage du résumé des segments'
+seo-title: Affichage du résumé des segments
 solution: Audience Manager
-title: ' Affichage du résumé des segments'
+title: Affichage du résumé des segments
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
+keywords: ventilation de type d’identité, ventilation d’identité, rapport d’identité d’audience
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
