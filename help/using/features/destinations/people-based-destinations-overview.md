@@ -5,7 +5,7 @@ seo-title: Présentation des destinations basées sur les personnes et cas d’u
 solution: Audience Manager
 title: Présentation et cas d’utilisation
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -26,7 +26,7 @@ Servez-vous [!DNL People-Based Destinations] pour envoyer des segments d’audie
 * éliminer les coûts associés aux solutions d'intégration de données tierces ;
 * Éliminez les coûts associés au développement de flux de travail personnalisés d'intégration de données ;
 * Ciblez les audiences dans des environnements sans cookie ;
-* Ciblez les audiences en dédupliquant les adresses électroniques associées aux ID de client.
+* Ciblez les audiences en dédupliquant les adresses électroniques hachées associées aux ID de client.
 
 Vous pouvez les utiliser [!DNL People-Based Destinations] pour segmenter et cibler les clients à forte valeur ajoutée qui n’ont peut-être pas visité votre site Web ou arrêter de cibler ceux qui ont déjà effectué une conversion hors ligne. De plus, vous pouvez tirer parti [!DNL Profile Merge Rules] de la combinaison de vos données propriétaires hors ligne avec vos données propriétaires en ligne, y compris les données client provenant d’autres solutions Adobe Experience Cloud, pour optimiser vos efforts publicitaires sur les médias sociaux.
 
