@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Partage d’audience entre Audience Manager et Adobe Experience Platform
 keywords: Partage d’audience AEP, segments AEP, segments de plateforme
 translation-type: tm+mt
-source-git-commit: 421f15b79fa647bf4fbf71a425c7f7792fb302e5
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -36,9 +36,9 @@ De plus, vos segments de plateforme d’expérience sont partagés avec d’autr
 
 Consultez le tableau ci-dessous pour une présentation des cas d’utilisation du partage d’audience :
 
-| `*` | **Adobe Experience Platform** | **Audience Manager** | **Principaux services** |
+| **Cas d’utilisation** | **Adobe Experience Platform** | **Audience Manager** | **Principaux services** |
 ---------|----------|---------|---------
-| **Cas d’utilisation du partage d’audience** | <ul><li>Enrichir les profils client à l’aide des données d’Audience Manager</li><li>Utilisation des données d’Audience Manager dans la segmentation de la plateforme d’expérience</li></ul> | <ul><li>Ajout de données tierces aux segments</li><li>Modélisation algorithmique</li><li>Activation vers d’autres destinations</li></ul> | Utilisez les segments de plateforme d’expérience dans d’autres solutions Experience Cloud, telles qu’Adobe Target ou Analytics. |
+| **Partage d’audience** | <ul><li>Enrichir les profils client à l’aide des données d’Audience Manager</li><li>Utilisation des données d’Audience Manager dans la segmentation de la plateforme d’expérience</li></ul> | <ul><li>Ajout de données tierces aux segments</li><li>Modélisation algorithmique</li><li>Activation vers d’autres destinations</li></ul> | Utilisez les segments de plateforme d’expérience dans d’autres solutions Experience Cloud, telles qu’Adobe Target ou Analytics. |
 
 <br> 
 
