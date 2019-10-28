@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Définition des options de règle de fusion de profil
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
 
 ---
 
@@ -29,7 +29,7 @@ Les règles de fusion de profils permettent plusieurs combinaisons de règles, c
 | Aucun profil sur plusieurs périphériques | Graphique de périphérique externe (inclut graphique de périphérique Co-op) | Tous les clients | Temps réel et lot | Non | [Ciblage étendu des périphériques](external-graph-use-cases.md#audience-expansion) |
 | Profils authentifiés actuels | Aucun profil de périphérique | Tous les clients | Temps réel uniquement | Non | [Ciblage de périphériques partagés](merge-rule-targeting-options.md#target-shared-devices) |
 | Derniers profils authentifiés | Profil du périphérique | Tous les clients | Temps réel et lot | Oui | [Ciblage en ligne/hors ligne](merge-rule-targeting-options.md#device-household-targeting) |
-| Derniers profils authentifiés |  Graphique de périphérique de lien de profil | Amérique du Nord et Canada uniquement | Temps réel et lot | Oui | [Ciblage sur plusieurs périphériques](profile-link-use-case.md#cross-device-personalization) |
+| Derniers profils authentifiés |  Graphique de périphérique de lien de profil | Tous les clients | Temps réel et lot | Oui | [Ciblage sur plusieurs périphériques](profile-link-use-case.md#cross-device-personalization) |
 | Derniers profils authentifiés | Graphique de périphérique externe (inclut graphique de périphérique Co-op) | Tous les clients | Temps réel et lot | Non | [Ciblage avancé sur plusieurs périphériques](external-graph-use-cases.md#advanced-graph-expansion) |
 |  Tous les profils sur plusieurs périphériques | S.O. | Exclusif aux clients des destinations [basées sur les](../destinations/people-based-destinations-overview.md) personnes | Lot uniquement | Non | [Ciblage pour les destinations basées sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
 
