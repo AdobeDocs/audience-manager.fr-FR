@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ Le tableau ci-dessous répertorie les opérations que vous pouvez effectuer et l
 Prenons l'exemple de la création simultanée de plusieurs caractéristiques. Pour créer plusieurs caractéristiques dans une opération en bloc, procédez comme suit :
 
 1. Cliquez sur l’ **[!UICONTROL Headers]** onglet et copiez toutes les étiquettes sous l’ [!UICONTROL Create a Trait] option.
-
 2. Cliquez sur l’ **[!UICONTROL Create]** onglet et collez les étiquettes en commençant par la ligne 1, colonne A.
 3. Fournissez des informations relatives à chaque en-tête de colonne et cliquez sur **[!UICONTROL Create Traits]**. Cette action vous invite à confirmer votre authentification. Votre tâche en masse s’exécute une fois que vous avez confirmé votre authentification. Vérifiez que le coin inférieur gauche de la feuille de calcul contient une notification d'état de tâche.
+
 
 >[!NOTE]
 >
