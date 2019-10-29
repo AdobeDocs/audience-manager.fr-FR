@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trait Recommendations
 uuid: null
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: a67998b925002438b20fdde81f1abec4acbd5602
 
 ---
 
@@ -17,20 +17,28 @@ Obtenez des recommandations de caractéristiques dynamiques lorsque vous créez 
 
 ## Démonstration vidéo
 
-Commencez par regarder la vidéo sur les recommandations de caractéristiques, puis accédez à la section pour en savoir plus.
+Commencez par regarder la [!UICONTROL Trait Recommendations] vidéo ci-dessous, puis lisez la suite pour plus d'informations.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=fre_fr)
+
+La vidéo suivante décrit le flux de travaux pour [!UICONTROL Marketplace Recommendations], en vous montrant comment ajouter des recommandations de caractéristiques à vos segments, à partir de flux de données dans [!UICONTROL Audience Marketplace].
+
+>[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=fre_fr)
 
 ## Aperçu
 
 [!UICONTROL Trait Recommendations], optimisé par [!DNL Adobe Sensei], intègre la science des données dans vos processus quotidiens Audience Manager.
-With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule. Ajoutez les caractéristiques recommandées à votre segment pour élargir votre audience cible.
+With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
-![Présentation des recommandations de caractéristiques](assets/trait-recommendations-overview.png)
+Audience Manager affiche les recommandations de caractéristiques issues de vos caractéristiques propriétaires, dans la **[!UICONTROL Recommendations]** section et **[!UICONTROL Audience Marketplace]**, dans la **[!UICONTROL Recommendations from Marketplace]** section.
+
+![Présentation des recommandations de caractéristiques](assets/trait-recommendations-overview-full.png)
+
+Ajoutez les caractéristiques recommandées à votre segment pour élargir votre audience cible.
 
 **En bref :**
 
-* Audience Manager affiche les caractéristiques propriétaires et tierces de vos flux de données actuellement abonnés comme caractéristiques recommandées.
+* Audience Manager affiche les caractéristiques propriétaires dans la [!UICONTROL Recommendations] section. Les recommandations Marketplace issues de flux publics et privés auxquels vous n’êtes pas abonné sont visibles dans la [!UICONTROL Recommendations from Marketplace] section.
 * Audience Manager affiche un maximum de cinquante caractéristiques similaires à celle de la règle de segment.
 * Vous pouvez filtrer les sources de données à partir desquelles vous ne souhaitez voir aucune recommandation.
 * Lors du calcul des similitudes, Audience Manager prend en compte les [UUID](../../reference/ids-in-aam.md) qui se sont qualifiés pour la caractéristique au cours des 30 derniers jours.
@@ -45,7 +53,7 @@ Grâce [!UICONTROL Trait Recommendations]à Audience Manager, vous pouvez améli
 
 ## Différences entre les recommandations de caractéristiques et les modèles algorithmiques
 
-###  Modèles algorithmiques
+### Modèles algorithmiques
 
 [!UICONTROL Algorithmic Models] non seulement trouve les caractéristiques les plus influentes, mais note également les utilisateurs en fonction de ces caractéristiques et affecte à chaque utilisateur un score individuel. Vous créez ensuite des caractéristiques algorithmiques pour cibler vos utilisateurs. Avec des contrôles de précision et de portée dans [!UICONTROL Trait Builder], vous pouvez spécifier les utilisateurs parmi tous ceux qui ont les caractéristiques influentes à cibler.
 
@@ -65,28 +73,33 @@ Vous devez utiliser [!UICONTROL Trait Recommendations] lorsque :
 
 ## Workflow
 
-Lors de la création ou de la modification d’un segment dans le créateur [de](segment-builder.md)segments, vous pouvez explorer des caractéristiques similaires aux caractéristiques de la règle de segment. Le processus du créateur de segments est très similaire pour les segments nouveaux et existants :
+Lors de la création ou de la modification d’un segment dans le créateur [de](segment-builder.md)segments, vous pouvez explorer des caractéristiques similaires aux caractéristiques de la règle de segment. Le flux de travail [du créateur](segment-builder.md) de segments est très similaire pour les segments nouveaux et existants :
 
 ### Nouveaux segments
 
-1. Dans **Audience Data &gt; Segments**, sélectionnez **Ajouter nouveau**.
+1. Accédez à Données **d’audience &gt; Segments**, puis cliquez sur **Ajouter nouveau**.
 2. Dans la liste déroulante **Caractéristiques** , ajoutez au moins une caractéristique à la règle de segmentation.
-3. Vous pouvez maintenant voir les caractéristiques recommandées similaires aux caractéristiques que vous avez ajoutées à la règle de segmentation. Faites défiler l’écran vers le bas pour afficher toutes les caractéristiques recommandées.
-4. (Facultatif) Pour exclure les caractéristiques recommandées de certaines sources de données, cliquez sur le symbole **X** des sources de données à exclure.
+3. Vous pouvez voir les caractéristiques recommandées par les propriétaires dans la **[!UICONTROL Recommendations]** section et les caractéristiques recommandées par les tiers dans la **[!UICONTROL Recommendations from Marketplace]** section. Toutes ces recommandations sont similaires aux caractéristiques que vous avez ajoutées à la règle de segmentation. Faites défiler l’écran vers le bas pour afficher toutes les caractéristiques recommandées.
+4. (Facultatif) Pour exclure les caractéristiques propriétaires recommandées de certaines sources de données, cliquez sur le symbole **X** des sources de données à exclure.
    > [!NOTE]
-   > 
-   >Les sources de données exclues sont affichées juste au-dessus de la liste des caractéristiques recommandées. Appuyez sur **X** dans la zone grise pour supprimer les exclusions et afficher à nouveau les résultats des sources de données respectives.
+   >
+   > Les sources de données exclues sont affichées juste au-dessus de la liste des caractéristiques recommandées. Cliquez sur **X** dans la zone grise pour supprimer les exclusions et afficher à nouveau les résultats des sources de données respectives.
 5. Pour ajouter des caractéristiques recommandées à la règle de segment, cliquez sur le symbole **+** .
+
+> [!IMPORTANT]
+> Lorsque vous ajoutez [!UICONTROL Marketplace] des caractéristiques à un segment, elles ne sont utilisées que pour l’estimation des segments, jusqu’à ce que vous vous abonniez au flux de données correspondant. Les caractéristiques provenant de flux de données auxquels vous n’êtes pas abonné sont marquées par une icône de panier dans la liste des caractéristiques. Cliquez sur le nom de la caractéristique pour accéder à la page du flux de données et vous y abonner.
+> ![sans abonnement au marché](assets/trait-recommendations-marketplace.png)
+> Vous pouvez enregistrer un segment avec des caractéristiques tierces uniquement après avoir souscrit un abonnement aux flux de données correspondants.
 
 ### Segments existants
 
-1. Accédez à **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, sélectionnez le segment à modifier et appuyez sur ![Modifier](assets/edit-button.png).
+1. Accédez à **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, sélectionnez le segment à modifier, puis cliquez sur ![Modifier](assets/edit-button.png).
 1. Faites défiler jusqu’à la [!UICONTROL Traits] liste déroulante.
 1. Vous pouvez voir les caractéristiques recommandées, similaires aux caractéristiques déjà présentes dans la règle de segmentation. Faites défiler l’écran vers le bas pour afficher toutes les caractéristiques recommandées.
 1. (Facultatif) Pour exclure les caractéristiques recommandées de certaines sources de données, cliquez sur le symbole **X** des sources de données à exclure.
    > [!NOTE]
-   > 
-   >Les sources de données exclues sont affichées juste au-dessus de la liste des caractéristiques recommandées. Appuyez sur **X** dans la zone grise pour supprimer les exclusions et afficher à nouveau les résultats des sources de données respectives.
+   >
+   > Les sources de données exclues sont affichées juste au-dessus de la liste des caractéristiques recommandées. Cliquez sur **X** dans la zone grise pour supprimer les exclusions et afficher à nouveau les résultats des sources de données respectives.
 1. Pour ajouter des caractéristiques recommandées à la règle de segment, cliquez sur le symbole **+** .
 
 Lorsque vous créez ou modifiez un segment et ajoutez une caractéristique à la règle de segmentation, vous affichez un maximum de cinquante caractéristiques recommandées, similaires à celle que vous avez ajoutée. Si la règle de segmentation contient plusieurs caractéristiques, Audience Manager utilise une méthode de robot circulaire pour afficher la meilleure correspondance pour chaque caractéristique, puis la deuxième meilleure correspondance pour chaque caractéristique, etc., pour les cinquante caractéristiques les plus grandes par population, dans la règle de segment.
@@ -103,11 +116,11 @@ Par exemple, lorsqu’il existe trois caractéristiques dans la règle de segmen
 
 Pour obtenir des recommandations pour une caractéristique spécifique, vous pouvez cliquer sur les caractéristiques dans la règle de segment (1) ou dans la vue des caractéristiques recommandées (2).
 
-![](assets/three-base-traits-numbered.png)
+![base-traits-exemple](assets/three-base-traits-numbered.png)
 
-Cliquer sur une caractéristique ouvre une fenêtre contextuelle, comme illustré dans l’image ci-dessous. Si les caractéristiques recommandées ne font pas partie du segment, vous pouvez les ajouter au segment en appuyant sur **+**.
+Cliquez sur une caractéristique propriétaire pour ouvrir une fenêtre contextuelle, comme illustré dans l’image ci-dessous. Si les caractéristiques recommandées ne font pas partie du segment, vous pouvez les ajouter au segment en appuyant sur **+**.
 
-![](assets/add_to_segments.png)
+![ajouter au segment](assets/add_to_segments.png)
 
 > [!TIP]
 >
@@ -115,7 +128,7 @@ Cliquer sur une caractéristique ouvre une fenêtre contextuelle, comme illustr�
 
 > [!NOTE]
 >
-> Les caractéristiques recommandées peuvent être vos caractéristiques propriétaires ou tierces à partir des flux auxquels vous êtes abonné.
+> Les caractéristiques recommandées peuvent être vos caractéristiques propriétaires ou tierces à partir des flux de données auxquels vous êtes abonné dans [!UICONTROL Audience Marketplace].
 
 ## Fonctionnement
 
@@ -125,7 +138,7 @@ Pour générer des recommandations de caractéristiques, Audience Manager calcul
 
 Audience Manager calcule le nombre [!UICONTROL Trait Similarity Score] entre deux caractéristiques en calculant l’intersection et l’union en termes de nombre de [!UICONTROL UUID]caractéristiques, puis divise les deux. Pour deux caractéristiques A et B, le calcul ressemble à ceci :
 
-![](assets/jaccard_similarity.png)
+![jaccard-similarité](assets/jaccard_similarity.png)
 
 Voir aussi les deux exemples ci-dessous.
 
@@ -134,14 +147,14 @@ Voir aussi les deux exemples ci-dessous.
 Compte tenu de deux caractéristiques A et B, disons que chacune de ces caractéristiques a une population de 1 000 000 [!UICONTROL UUID]s, dont 25 000 [!UICONTROL UUID]s sont admissibles aux deux caractéristiques.
 En utilisant la formule ci-dessus, vous obtenez : 25 000 / 1 975 000 = 0,012. C'est un faible [!UICONTROL Trait Similarity Score], les deux traits sont très différents.
 
-![](assets/Trait-Recommendations-Low-overlap.png)
+![trait-recommandations-faible-chevauchement](assets/Trait-Recommendations-Low-overlap.png)
 
 ### Exemple 2 - Score de similarité des caractéristiques
 
 Si les mêmes caractéristiques A et B comportaient 400 000 [!UICONTRL ]UUID répondant aux deux caractéristiques, la [!UICONTROL Trait Similarity Score] valeur est beaucoup plus élevée :
 400 000 / 1 600 000 = 0,25
 
-![](assets/Trait-Recommendations-High-overlap.png)
+![trait-recommandations-chevauchement élevé](assets/Trait-Recommendations-High-overlap.png)
 
 ### Comment interpréter la note de similarité des caractéristiques
 
