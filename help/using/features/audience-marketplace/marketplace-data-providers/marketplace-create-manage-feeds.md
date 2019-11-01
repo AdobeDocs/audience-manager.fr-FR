@@ -7,7 +7,7 @@ title: Création, tarification et gestion des flux de données
 topic: API DIL
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,11 +59,6 @@ Dans la [!UICONTROL Settings] section, déplacez le curseur vers :
 * **[!UICONTROL Private]** et **[!UICONTROL Unbranded]**: La [!UICONTROL Marketplace] liste de l’acheteur affiche uniquement le nom et la description du flux de données. Le nom du fournisseur de données s’affiche sous la forme [!UICONTROL Private Seller].
 
 Pour savoir à quoi ressemble un flux privé pour les acheteurs, reportez-vous à la section acheteurs dans Flux [de données](../../../features/audience-marketplace/marketplace-private-feeds.md)privés.
-
->[!MORE_LIKE_This]
->
->* [Flux de données privés](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## Désactivation du flux de données d’un abonné {#deactivate-data-feed}
 
@@ -183,11 +178,6 @@ Pour examiner, approuver ou rejeter les demandes d’acheteur, accédez à [!UIC
 3. Dans la [!UICONTROL Allow Access] section de chaque champ de requête, cochez la case pour approuver une requête ou le X pour refuser l’accès.
 4. Confirmez ou annulez l’action sélectionnée dans la fenêtre contextuelle de confirmation.
 
->[!MORE_LIKE_This]
->
->* [Flux de données privés](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
 ##  Remises pour les fournisseurs de données {#discounts}
 
 En [!UICONTROL Audience Marketplace]effet, les remises vous permettent de réduire le prix publié d’un flux de données pour les abonnés individuels. Vous pouvez proposer des remises aux abonnés qui ont soumis une demande d’abonnement ou aux abonnés qui ont demandé des détails sur un flux de données. Les rabais s’appliquent aux flux [!DNL CPM] et aux flux à taux fixe. Les remises peuvent s’avérer utiles lorsque vous souhaitez offrir des avantages d’abonnement aux nouveaux clients ou pour récompenser la fidélité de vos clients.
@@ -212,3 +202,8 @@ Dans ces exemples, le vendeur a ajouté une remise de 10 % au flux de [!UICONTRO
 Les fournisseurs de données peuvent voir tous leurs abonnés et leurs flux réduits dans **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Flux de données privés](../../../features/audience-marketplace/marketplace-private-feeds.md)
+
