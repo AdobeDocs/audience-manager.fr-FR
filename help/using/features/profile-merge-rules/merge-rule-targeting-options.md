@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Cas d’utilisation généraux des règles de fusion de profils
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -112,7 +112,7 @@ Regardez la vidéo ci-dessous pour un aperçu des cas d'utilisation possibles po
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=fre_fr)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Cas d’utilisation de graphiques de périphériques de lien de profil](profile-link-use-case.md)
 >* [Cas d’utilisation graphiques des périphériques externes](external-graph-use-cases.md)
