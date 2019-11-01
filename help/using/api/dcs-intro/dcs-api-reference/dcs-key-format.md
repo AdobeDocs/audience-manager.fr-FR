@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Formatage des paires clé-valeur dans les appels DCS
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Lors d’un appel, le [!UICONTROL DCS] système accepte les données clé-valeur
   <tr> 
    <td colname="col1"> <b>Standard</b> </td> 
    <td colname="col2"> <p>Une paire clé-valeur standard se compose d’une seule clé et d’une seule valeur. Cette structure organise les données en paires clé-valeur distinctes. Chaque clé est explicitement mentionnée, même lorsqu’elle est à nouveau utilisée pour définir une valeur différente. Il s’agit de la méthode la plus courante pour envoyer des données au serveur de collecte de données. </p> </td>
-   <td colname="col3"> <code> key1=val1&amp;key2=val2&amp;key3=val3=val3</code> </td>
+   <td colname="col3"> <code> key1=val1&amp;key2=val2&amp;key3=val3</code> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Sérialisé</b> </td> 
@@ -65,7 +65,7 @@ Avec les paires clé-valeur sérialisées, vous devez spécifier les marqueurs q
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Envoyer des données au serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Préfixes et variables de valeur de clé pris en charge par le serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
