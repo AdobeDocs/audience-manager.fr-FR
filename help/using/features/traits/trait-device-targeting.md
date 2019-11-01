@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ciblage De Périphériques Avec Clés Au Niveau De La Plateforme
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ L’ [!UICONTROL Data Collection Servers] utilisateur extrait les valeurs de ces
 >
 >Même si un ou plusieurs signaux ne peuvent pas être extraits de l'en-tête de l'agent utilisateur, les autres signaux seront toujours transmis à l' [!UICONTROL Data Collection Servers]agent utilisateur.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Préfixe requis pour les variables clés](../../features/traits/trait-variable-prefixes.md)
 
