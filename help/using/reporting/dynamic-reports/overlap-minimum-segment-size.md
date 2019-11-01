@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Planification de la mise à jour des rapports de chevauchement et taille minimale du segment
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-#  Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment{#overlap-reports-update-schedule-and-minimum-segment-size}
 
 Décrit la taille du segment et le temps de création requis par le processus de mise à jour du rapport de chevauchement.
 
@@ -46,7 +46,7 @@ Si un segment ne figure pas dans l’un des [!UICONTROL Overlap] rapports, c’e
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Rapport de chevauchement de caractéristiques](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
 >* [Rapport de chevauchement de segments et de caractéristiques](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
