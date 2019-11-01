@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Synchronisation des identifiants pour les transferts de données sortants
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: e206d3a3cba259dc215f2f4190c9b4e03264f080
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -46,31 +46,31 @@ L’appel [!DNL URL] de synchronisation des identifiants entrants doit contenir 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2">Identifiant unique du fournisseur de données (attribué par <span class="keyword"> Audience Manager</span>). </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> ID utilisateur unique. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i></code> </td> 
-   <td colname="col2">Une redirection d’URL codée avec la macro <code> ${DD_UUID}</code> qui y est incorporée. <p><b></b> Remarque : Ajouté uniquement lorsque le fournisseur de données lance l’appel. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
+   <td colname="col2">Redirection d’URL codée avec la macro <code> ${DD_UUID}</code> intégrée. <p><b></b> Remarque : Ajouté uniquement lorsque le fournisseur de données lance l’appel. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> peut être égal à 0 (le RGD ne s’applique pas) ou à 1 (le RGD s’applique).</p><p><b>Remarque :</b> <ul><li>Les paramètres <code>gdpr</code> et <code>gdpr_consentement</code> sont progressivement déployés dans les URL de synchronisation des identifiants avec les partenaires d’activation. Reportez-vous à la page Partenaires d’activation qui prennent en charge le TCF IAB dans le module externe <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager pour le TCF IAB.</a></li><li>Ce paramètre ne peut être utilisé qu'avec <code>gdpr_consentement.</code></li></ul></p></td>
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p><p><b>Remarque :</b> <ul><li>Les paramètres <code>gdpr</code> et <code>gdpr_consent</code> sont progressivement déployés dans les URL de synchronisation des identifiants avec les partenaires d’activation. Reportez-vous à la page Partenaires d’activation qui prennent en charge le TCF IAB dans le module externe <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager pour le TCF IAB.</a></li><li>Ce paramètre ne peut être utilisé qu’avec <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code><i>gdpr_consentement=&lt;CHAÎNE ENCODED&gt;</i></code> </td> 
-   <td colname="col2"><p><code>gdpr_consentement</code> est la chaîne de consentement GDPR codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB).</p><p><b></b> Remarque : Ce paramètre ne peut être utilisé qu'avec <code>gdpr</code>.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> est la chaîne de consentement du RDDC codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB</a>).</p><p><b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Méthodes et code API du serveur de collecte de données (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Composants de collecte de données](../../reference/system-components/components-data-collection.md)
