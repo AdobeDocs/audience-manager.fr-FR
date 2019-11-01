@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Créer des destinations
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ Créez des destinations avec ces [!UICONTROL RESTful API] méthodes.
 ## Types de destination pris en charge : URL et cookie uniquement
 
 Les `POST` méthodes disponibles vous permettent de créer [!UICONTROL URL] et [!UICONTROL cookie destinations] uniquement. Actuellement, vous ne pouvez pas créer [!UICONTROL server-to-server destinations] avec ces [!DNL REST API] méthodes. Toutefois, les `GET` méthodes de destination associées vous permettent de récupérer des informations sur [!UICONTROL server-to-server destinations] les éléments créés dans l’interface utilisateur.
-
->[!MORE_LIKE_This]
->
->* [Destinations](../../../features/destinations/destinations.md)
->* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
-
 
 ## Création d’une destination d’URL non série {#create-nonserial-dest}
 
@@ -80,11 +73,6 @@ Une requête réussie revient `201 created` et la destination.
    "mappings":null
 } 
 ```
-
->[!MORE_LIKE_This]
->
->* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## Création d’une destination d’URL sérialisée {#create-serial-url-dest}
 
@@ -141,11 +129,6 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
    "mappings":null 
 }
 ```
-
->[!MORE_LIKE_This]
->
->* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## Créer une destination de cookie : Clé unique, Non sérialisée {#create-cookie-dest-single}
 
@@ -215,12 +198,6 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
    "uparamEnabled":false
 } 
 ```
-
->[!MORE_LIKE_This]
->
->* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
-
 
 ## Créer une destination de cookie : Clé unique, sérialisée {#create-cookie-dest-single-serial}
 
@@ -292,12 +269,6 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
    "uparamEnabled":false
 }
 ```
-
->[!MORE_LIKE_This]
->
->* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
-
 
 ## Créer une destination de cookie : Multi-Clé, Non Sérialisé {#create-cookie-dest-multi}
 
@@ -435,8 +406,9 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 }
 ```
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
+>* [Destinations](../../../features/destinations/destinations.md)
 >* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
 
