@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aperçu et mappages pour les fichiers de métadonnées
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -136,7 +136,7 @@ Voir Format [de contenu pour les fichiers](../../../reporting/audience-optimizat
 
 Après avoir nommé et ajouté des données à un fichier, vous l’envoyez dans un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir Méthodes [de remise pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)de métadonnées.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Fichiers de données pour les rapports Optimisation de l’audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Capture des données des clics sur les campagnes par appels de pixels](../../../integration/media-data-integration/click-data-pixels.md)
