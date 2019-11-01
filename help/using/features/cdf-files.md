@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,7 +59,7 @@ Un [!UICONTROL CDF] fichier comprend certains ou tous les champs définis ci-des
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code> Heure de l’événement</code> </p> </td> 
+   <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>Horodatage </p> </td> 
    <td colname="col3"> <p>Heure à laquelle un fichier CDF a été traité par les serveurs <span class="wintitle"></span> de collecte de données (DCS). L’horodatage utilise le format hh:mm:ss <i></i> aaaa-mm-jj et est défini dans le fuseau horaire UTC. </p> <p> <p>Remarque : L’heure de l’événement <i>n’est pas</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
@@ -68,37 +68,37 @@ Un [!UICONTROL CDF] fichier comprend certains ou tous les champs définis ci-des
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>Device </code> </p> </td> 
+   <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
    <td colname="col3"> <p>Il s’agit de l’ID <span class="wintitle"> utilisateur</span> unique (UUID), qui est un ID de périphérique à 38 chiffres pour le visiteur de votre site. Voir également <a href="../reference/ids-in-aam.md">Index des ID dans Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> ID de conteneur</code> </p> </td> 
+   <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numérique </p> </td> 
    <td colname="col3"> <p>L’ID du conteneur qui déclenche l’ID est synchronisé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Caractéristiques réalisées</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
    <td colname="col2"> <p>Tableau numérique </p> </td> 
    <td colname="col3"> <p>Tableau d’identifiants de caractéristiques qui contient toutes les caractéristiques pour lesquelles un visiteur s’est rendu compte (qualifié) dans l’appel d’événement. </p> <p>Notez que le tableau peut contenir des caractéristiques pour lesquelles le visiteur s’était qualifié avant et pour lesquelles il se réqualifie via cet appel d’événement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Segments réalisés</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Segments</code> </p> </td> 
    <td colname="col2"> <p>Tableau numérique </p> </td> 
    <td colname="col3"> <p>Tableau d’ID de segment qui contient tous les segments pour lesquels un visiteur a réalisé (qualifié) l’appel d’événement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Paramètres de requête</code> </p> </td> 
+   <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Chaîne qui capture tous les paramètres (variables, identifiants, paires clé-valeur, identifiants publicitaires de périphériques, etc.) transmis lors de l’appel d’événement. </p> <p>Exemple raccourci : </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.Prev vSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Chaîne qui capture tous les paramètres (variables, identifiants, paires clé-valeur, identifiants publicitaires de périphériques, etc.) transmis lors de l’appel d’événement. </p> <p>Exemple raccourci : </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Type de données de référent</code> </p> </td> 
+   <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
    <td colname="col3"> <p>URL non codée de la page de référence (le cas échéant). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Type de données IP</code> </p> </td> 
+   <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
    <td colname="col3"> <p>Adresse IP du visiteur capturé dans l’appel d’événement. </p> </td> 
   </tr> 
@@ -108,12 +108,12 @@ Un [!UICONTROL CDF] fichier comprend certains ou tous les champs définis ci-des
    <td colname="col3"> <p>Identifiant <span class="keyword"> Experience Cloud</span> (MID) affecté au visiteur du site. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Tous les segments</code> </p> </td> 
+   <td colname="col1"> <p><code> All Segments</code> </p> </td> 
    <td colname="col2"> <p>Tableau numérique </p> </td> 
    <td colname="col3"> <p>Tableau d’ID de segment contenant les segments précédemment réalisés et les nouveaux segments pour lesquels le visiteur est qualifié. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Toutes les caractéristiques</code> </p> </td> 
+   <td colname="col1"> <p><code> All Traits</code> </p> </td> 
    <td colname="col2"> <p>Tableau numérique </p> </td> 
    <td colname="col3"> <p>Tableau d’identifiants de caractéristiques propriétaires et tiers contenant les caractéristiques précédemment réalisées et les nouvelles caractéristiques pour lesquelles le visiteur s’est qualifié depuis le dernier flux de données généré. </p> </td> 
   </tr> 
@@ -142,8 +142,8 @@ Répertorie et définit la structure de données d’un [!UICONTROL CDF] fichier
    <td colname="col1"> <p>Séparateurs de champs et délimiteurs </p> </td> 
    <td colname="col2"> <p>Ces caractères non imprimables définissent les éléments et la structure du fichier CDF : </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> ou <code> ^A</code>) sépare les données de champs individuels avec un indicateur d’espace non imprimable. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> ou <code> ^B</code>) sépare les données d'un tableau et les paramètres de requête. </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> ou <code> ^A</code>) sépare les données de champs individuels par un indicateur d’espace non imprimable. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> ou <code> ^B</code>) sépare les données d’un tableau et les paramètres de requête. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> ou <code> ^C</code>) définit des paires clé-valeur. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -155,13 +155,13 @@ Répertorie et définit la structure de données d’un [!UICONTROL CDF] fichier
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device  </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID de conteneur </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9"> Caractéristiques réalisées </li> 
-      <li id="li_1591180564374204852785C6FFCA4F74">Segments réalisés </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74"> Segments réalisés </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Paramètres de requête </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Adresse IP </li> 
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de périphérique Experience Cloud (ou MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595"> Tous les segments </li> 
-      <li id="li_1B5A6F076A354BA0A931CB260E6D2675"> Toutes les caractéristiques </li> 
+      <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Toutes les caractéristiques </li> 
      </ol> </p> <p>Pour consulter la description des champs, voir Définition <a href="#cdf-defined"></a>du contenu du flux de données client. </p> </td> 
   </tr> 
  </tbody> 
@@ -224,11 +224,11 @@ Le tableau suivant répertorie et définit les éléments d’un nom de [!UICONT
    <td colname="col2"> <p>Il s’agit du compartiment de stockage racine par défaut de votre fichier CDF sur un serveur Amazon S3. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>votre nom</i> de compartiment S3 </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
    <td colname="col2"> <p>Nom du compartiment S3 en lecture seule qui contient vos fichiers CDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>day=<i>aaaa-mm-jj</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>day=<i>yyyy-mm-dd</i></code> </p> </td> 
    <td colname="col2"> <p>date de traitement de votre fichier. </p> </td> 
   </tr> 
   <tr> 
@@ -236,11 +236,11 @@ Le tableau suivant répertorie et définit les éléments d’un nom de [!UICONT
    <td colname="col2"> <p>Valeur d’heure exprimée en notation de 24 heures et définie dans le fuseau horaire UTC. <a href="#different-processing-times">Voir aussi </a> Heures du nom de fichier du flux de données client et Heures du contenu du fichier... . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID <i>de</i> partenaire </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
    <td colname="col2"> <p>Votre identifiant de partenaire. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID <i>de processus</i>AAM_0</code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
    <td colname="col2"> <p>ID de processus interne d’Audience Manager <span class="keyword"></span> . </p> </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ Les tableaux suivants répertorient et définissent les éléments d’un [!UICO
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Fichiers</code> </p> </td> 
+   <td colname="col1"> <p> <code> Files</code> </p> </td> 
    <td colname="col2"> <p>Démarre le tableau contenant des métadonnées sur vos fichiers CDF. </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Les tableaux suivants répertorient et définissent les éléments d’un [!UICO
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 ETag. Le nombre suivant le trait d’union indique le nombre de parties utilisées pour créer le fichier pendant le téléchargement en plusieurs parties. L’ <code> ETag</code> n’est pas identique à la somme de contrôle MD5 du fichier. </p> </td> 
+   <td colname="col2"> <p>Amazon S3 ETag. Le nombre suivant le trait d’union indique le nombre de parties utilisées pour créer le fichier pendant le téléchargement en plusieurs parties. La valeur <code> ETag</code> n’est pas identique à la somme de contrôle MD5 du fichier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
@@ -333,15 +333,15 @@ Les tableaux suivants répertorient et définissent les éléments d’un [!UICO
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Totaux</code> </p> </td> 
+   <td colname="col1"> <p> <code> Totals</code> </p> </td> 
    <td colname="col2"> <p>Démarre l’objet qui contient des données agrégées sur tous vos fichiers CDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Jour</code> </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
    <td colname="col2"> <p>Jour de disponibilité des données. Utilise le format <i>aaaa-mm-jj</i> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Heure</code> </p> </td> 
+   <td colname="col1"> <p> <code> Hour</code> </p> </td> 
    <td colname="col2"> <p>Heure pour laquelle les données sont disponibles. Utilise le format 24 heures défini dans le fuseau horaire UTC. </p> </td> 
   </tr> 
   <tr> 
@@ -376,7 +376,7 @@ Le tableau suivant fournit des détails supplémentaires sur les horodatages de 
 | Nom de fichier | L’horodatage du nom de fichier CDF marque l’heure à laquelle [!DNL Audience Manager] vous avez commencé à préparer votre fichier pour la remise. Cet horodatage est défini dans le fuseau horaire UTC. Il utilise le `hour=` paramètre, avec le temps formaté comme une heure de 2 chiffres en notation de 24 heures. Cette heure peut être différente de l’heure de l’événement enregistrée dans le contenu du fichier. VENTILATION Lorsque vous travaillez avec des fichiers CDF, vous constaterez parfois que votre compartiment S3 est vide pendant une heure donnée. Un compartiment vide peut signifier l’une des significations suivantes :<ul><li>Il n'y a pas de données pour cette heure particulière. </li><li> Nos serveurs sont lourdement chargés et ne peuvent pas traiter les fichiers pendant une heure particulière. Lorsque le serveur récupère, il place les fichiers qui auraient dû être transférés dans un intervalle de temps antérieur dans un intervalle de temps avec une valeur d'heure ultérieure. Par exemple, vous verrez ceci lorsqu’un fichier qui aurait dû figurer dans le compartiment 17 de l’heure apparaît dans le compartiment 18 de l’heure (avec `hour=18` le nom du fichier). Dans ce cas, le serveur a probablement commencé à traiter votre fichier à l’heure 17, mais n’a pas pu le terminer dans cet intervalle. Au lieu de cela, le fichier est déplacé vers l’intervalle horaire suivant.</li></ul><br>**Important**: N’utilisez pas l’horodatage du nom de fichier pour regrouper les événements par heure. Si vous devez grouper par heure, utilisez l’ `EventTime` horodatage dans le contenu du fichier. |
 | Contenu du fichier | L’horodatage du contenu du fichier CDF marque l’heure à laquelle les serveurs de collecte de données ont commencé à traiter le fichier. Cet horodatage est défini dans le fuseau horaire UTC. Il utilise le `EventTime` champ, avec le temps au format *`yyyy-mm-dd hh:mm:ss`*. Cette heure est proche de l’heure réelle de l’événement sur la page, mais elle peut être différente de l’indicateur d’heure dans le nom de fichier. <br> **Conseil**: Contrairement à l’ `hour=` horodatage du nom de fichier, vous pouvez utiliser `EventTime` pour regrouper les données par heure. |
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur le flux de données client](../faq/faq-cdf.md)
 
