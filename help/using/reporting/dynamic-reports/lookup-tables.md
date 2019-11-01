@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Amélioration des délais de traitement des fichiers journaux avec les tables de recherche
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -70,7 +70,7 @@ Le fichier de recherche ci-dessous contient les métadonnées et peut être lié
 
 Si votre système de service publicitaire comporte une API, vous n’aurez peut-être pas besoin d’envoyer des métadonnées dans un fichier de recherche. Nous pouvons peut-être obtenir ces informations via l'API. Dans ce cas, vos fichiers journaux ne doivent contenir que des ID. Nous travaillerons avec vous pour déterminer si les métadonnées peuvent être obtenues par le biais d'une API.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Rapport sur la livraison et les performances](../../reporting/dynamic-reports/delivery-performance-report.md)
 
