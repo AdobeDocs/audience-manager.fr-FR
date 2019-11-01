@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -279,7 +279,7 @@ Reciblez les utilisateurs qui ont vu la version 123 de Creative mais n’ont pas
 
 2. Une fois que vous avez créé la caractéristique, la conversion commence à faire l’objet d’un rapport dans le [!UICONTROL Audience Optimization Reports] et [!UICONTROL Audience Lab].
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Importation Des Fichiers De Données DCM Dans Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Rapports Optimisation de l’audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
