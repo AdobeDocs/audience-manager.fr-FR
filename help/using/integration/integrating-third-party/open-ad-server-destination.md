@@ -6,7 +6,7 @@ solution: Audience Manager
 title: OAS comme destination d’Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 translation-type: tm+mt
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,7 +40,7 @@ Audience Manager peut envoyer des données de segment à un cookie de navigateur
 
 La quantité de données transmises à [!DNL OAS] dépend du nombre de segments auxquels un utilisateur particulier est admissible. Supposons, par exemple, que vous configuriez 100 segments d’Audience Manager. Si un visiteur du site est admissible pour cinq d’entre eux, seuls ces cinq segments sont envoyés à l’OEA (pas tous les 100).
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
 >* [Paires clé-valeur expliquées](../../reference/key-value-pairs-explained.md)
@@ -54,7 +54,7 @@ Créez une destination basée sur des cookies pour [!DNL OAS] dans Audience Mana
 
 Dans Audience Manager, une *destination* correspond à tout autre système (serveur d’annonces, [!DNL DSP], réseau d’annonces, etc.) que vous souhaitez partager avec. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de remise des données. Les fonctionnalités de destination d’Audience Manager se trouvent dans *Audience Data &gt; Destinations*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
 
-### Étape 1 : Informations de base
+### Étape 1 :Informations de base
 
 Pour compléter la [!UICONTROL Basic Information] section :
 
@@ -72,7 +72,7 @@ Pour compléter la [!UICONTROL Configuration] section :
 1. Si vos clés utilisent des données avec des valeurs sérialisées, sélectionnez le **[!UICONTROL Serialize]** contrôle et spécifiez le délimiteur série (le caractère qui sépare les valeurs sérialisées).
 1. Cliquez sur **[!UICONTROL Save]** puis développez la [!UICONTROL Segment Mappings] section.
 
-### Étape 3 : Mappages de segments
+### Étape 3 :Mappages de segments
 
 Pour ajouter un segment à une destination de cookie :
 
