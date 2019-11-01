@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -167,7 +167,7 @@ Dans le [!UICONTROL Destination Value] champ, spécifiez la valeur (partie d’u
 
 ![](assets/s2s_modal.PNG)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Création d’une destination de cookie](../../features/destinations/create-cookie-destination.md)
 >* [Création d’une destination d’URL](../../features/destinations/create-url-destination.md)
