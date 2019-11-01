@@ -1,17 +1,17 @@
 ---
 description: Audience Manager reçoit chaque jour une quantité énorme de données. Cela affecte le temps nécessaire au traitement de vos données et à la génération des résultats des rapports. Le contenu de cette section décrit l’impact de ces intervalles de temps sur votre compte Audience Manager. De plus, les délais et les calendriers décrits ici ne sont que des directives générales. Ces calendriers ne constituent pas des ententes de niveau de service (SLA) ni des engagements liés à la remise des données. Adobe se réserve le droit de modifier les calendriers et les calendriers à tout moment sans préavis.
 seo-description: Audience Manager reçoit chaque jour une quantité énorme de données. Cela affecte le temps nécessaire au traitement de vos données et à la génération des résultats des rapports. Le contenu de cette section décrit l’impact de ces intervalles de temps sur votre compte Audience Manager. De plus, les délais et les calendriers décrits ici ne sont que des directives générales. Ces calendriers ne constituent pas des ententes de niveau de service (SLA) ni des engagements liés à la remise des données. Adobe se réserve le droit de modifier les calendriers et les calendriers à tout moment sans préavis.
-seo-title: ' Incidence des délais de remise des données et de traitement des fichiers sur les rapports'
+seo-title: Incidence des délais de remise des données et de traitement des fichiers sur les rapports
 solution: Audience Manager
-title: ' Incidence des délais de remise des données et de traitement des fichiers sur les rapports'
+title: Incidence des délais de remise des données et de traitement des fichiers sur les rapports
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-#  Incidence des délais de remise des données et de traitement des fichiers sur les rapports{#how-data-delivery-and-file-processing-times-affect-reports}
+# Incidence des délais de remise des données et de traitement des fichiers sur les rapports{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager reçoit chaque jour une quantité énorme de données. Cela affecte le temps nécessaire au traitement de vos données et à la génération des résultats des rapports. Le contenu de cette section décrit l’impact de ces intervalles de temps sur votre compte Audience Manager. De plus, les délais et les calendriers décrits ici ne sont que des directives générales. Ces calendriers ne constituent pas des ententes de niveau de service (SLA) ni des engagements liés à la remise des données. Adobe se réserve le droit de modifier les calendriers et les calendriers à tout moment sans préavis.
 
@@ -67,7 +67,7 @@ Le tableau suivant répertorie et décrit les intervalles de temps dans nos rapp
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur l'introduction des données client entrantes](../faq/faq-inbound-data-ingestion.md)
 
