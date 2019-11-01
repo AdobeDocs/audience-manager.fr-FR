@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Expressions booléennes dans le créateur de caractéristiques et de segments
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,9 +74,9 @@ L’ [!UICONTROL OR] opérateur est utile lorsque vous souhaitez créer des sign
 
 **[!UICONTROL AND NOT]Exemple de cas d’utilisation**
 
-L’ [!UICONTROL AND NOT] opérateur est utile lorsqu’il est plus facile de définir une audience par *exclusion* que par *inclusion*. Supposons, par exemple, que vous vendiez et que vous souhaitiez segmenter les visiteurs en clients qui examinent uniquement les articles à prix plein. Plutôt que de créer une liste de signaux pour tous les articles à prix complet ou à prix de vente admissibles, il peut être plus facile de qualifier les visiteurs s’ils *n’ont pas* vu un article de prix de vente. C'est efficace sur le plan administratif, car vous avez habituellement moins d'articles de prix de vente que ceux offerts à plein prix. Avec une valeur booléenne [!UICONTROL NOT], les visiteurs ne *doivent pas* afficher le signal de vente pour bénéficier d’un abonnement à prix plein. En revanche, [!UICONTROL AND NOT] c’est le contraire du [!UICONTROL AND] cas d’utilisation qui montre comment l’appartenance à l’audience est déterminée par l’inclusion (c.-à-d. que le visiteur est qualifié sur la base de 2 signaux explicitement indiqués).
+L’ [!UICONTROL AND NOT] opérateur est utile lorsqu’il est plus facile de définir une audience par *exclusion* que par *inclusion*. Supposons, par exemple, que vous vendiez et que vous souhaitiez segmenter les visiteurs en clients qui examinent uniquement les articles à prix plein. Plutôt que de créer une liste de signaux pour tous les articles à prix complet ou à prix de vente admissibles, il peut être plus facile de qualifier les visiteurs s’ils n’ont *pas* vu un article de prix de vente. C'est efficace sur le plan administratif, car vous avez habituellement moins d'articles de prix de vente que ceux offerts à plein prix. Avec une valeur booléenne [!UICONTROL NOT], les visiteurs ne *doivent pas* afficher le signal de vente pour bénéficier d’un abonnement à prix plein. En revanche, [!UICONTROL AND NOT] c’est le contraire du [!UICONTROL AND] cas d’utilisation qui montre comment l’appartenance à l’audience est déterminée par l’inclusion (c.-à-d. que le visiteur est qualifié sur la base de 2 signaux explicitement indiqués).
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Utilisation des opérateurs de comparaison dans TraitBuilder](../features/traits/trait-comparison-operators.md)
 >* [Ordre des opérations dans les expressions TraitBuilder](../features/traits/trait-operator-precedence.md)
