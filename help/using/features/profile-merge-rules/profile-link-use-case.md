@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Cas d’utilisation de graphiques de périphériques de lien de profil
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Cela [!UICONTROL Profile Merge Rule] permet aux spécialistes du marketing de fo
 
 ![personnalisation sur plusieurs périphériques](assets/cross-device-personalization.png)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Cas d’utilisation graphiques des périphériques externes](external-graph-use-cases.md)
 >* [Cas d’utilisation généraux des règles de fusion de profils](merge-rule-targeting-options.md)
