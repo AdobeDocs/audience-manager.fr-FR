@@ -8,7 +8,7 @@ title: A propos des modèles algorithmiques
 topic: API DIL
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Vous gérez les modèles dans **[!UICONTROL Audience Data > Models]**. À un niv
 ## Résolution des problèmes {#troubleshooting}
 
 Nous désactivons tout modèle algorithmique qui ne génère pas de données pour trois exécutions consécutives. Notez que vous ne pouvez pas réactiver l’état du modèle par la suite. Pour garantir que vos modèles génèrent des données, nous vous recommandons de créer des modèles à partir de sources de données avec des caractéristiques suffisantes pour accumuler des données.
-
->[!MORE_LIKE_This]
->
->* [Destinations](../../features/destinations/destinations.md)
->* [Caractéristiques](../../features/traits/trait-details-page.md)
->* [Segments](../../features/segments/segments-purpose.md)
-
 
 ## Présentation de TraitWeight {#understanding-traitweight}
 
@@ -210,3 +203,10 @@ La page de résumé du modèle comprend les sections suivantes.
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [Destinations](../../features/destinations/destinations.md)
+>* [Caractéristiques](../../features/traits/trait-details-page.md)
+>* [Segments](../../features/segments/segments-purpose.md)
+
