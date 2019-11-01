@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ Les comptes sont verrouillés après 5 échecs de connexion. Contactez l’ [!DN
 
 Cliquez sur le **[!UICONTROL Forgot password]** lien de la page de connexion pour réinitialiser votre mot de passe. Vous recevrez un courriel automatisé avec un mot de passe temporaire qui expire dans 24 heures. Cliquez sur le lien dans le courrier électronique pour accéder à votre compte et réinitialiser votre mot de passe.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Sécurité des données](../overview/data-security-and-privacy/data-security.md)
 >* [Sécurité des données](../overview/data-security-and-privacy/data-privacy.md)
