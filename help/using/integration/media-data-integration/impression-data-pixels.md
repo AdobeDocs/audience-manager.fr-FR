@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ Les appels d’événement d’impression acceptent les données formées en pai
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>Dans ce contexte, <code> _cid </code> instancie une paire clé-valeur qui vous permet d’associer un type de périphérique mobile à un ID utilisateur unique (DPUUID). Un ID fixe détermine le type de périphérique mobile. La valeur (ID utilisateur) peut varier. Séparez la paire clé-valeur par <code> %01 </code>, qui est un caractère de commande non imprimable. Ce paramètre accepte les clés suivantes : </p> 
+   <td colname="col2"> <p>Dans ce contexte, <code> d_cid </code> instancie une paire clé-valeur qui vous permet d’associer un type de périphérique mobile à un ID utilisateur unique (DPUUID). Un ID fixe détermine le type de périphérique mobile. La valeur (ID utilisateur) peut varier. Séparez la paire clé-valeur par <code> %01 </code>, qui est un caractère de contrôle non imprimable. Ce paramètre accepte les clés suivantes : </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
      <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014 : Identifie un périphérique Android (GAID). Par exemple, <code> d_cid = 20914 %01 1234 </code> indique que l’utilisateur 1234 est associé à un périphérique Android. </li> 
      <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015 : Identifie un périphérique iOS (IDFA). Par exemple, <code> d_cid = 20915 %01 5678 </code> indique que l’utilisateur 5678 est associé à un périphérique iOS. </li> 
@@ -95,10 +95,10 @@ Les appels d’événement d’impression acceptent les données formées en pai
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p> <p><code>gdpr</code> peut être égal à 0 (le RGD ne s’applique pas) ou à 1 (le RGD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p> <p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>gdpr_permission</code> </td> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
    <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>, alors <code>%gdpr_consent%</code> est remplacé par la chaîne <code>gdpr_consent</code> (voir les <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">spécifications IAB</a>).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
   </tr> 
  </tbody> 
@@ -108,7 +108,7 @@ Les appels d’événement d’impression acceptent les données formées en pai
 >
 >Veuillez contacter votre conseiller ou responsable de compte Adobe Audience Manager pour connaître l’URL exacte spécifique au domaine client.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Fichiers de données et de métadonnées pour les rapports Optimisation de l’audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
