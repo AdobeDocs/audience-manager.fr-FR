@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Modification de l’appel de l’API setTargeting GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -38,7 +38,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >
 >* Intégration côté client : utilisez uniquement les lignes 1 à 3.
 >* Intégration côté serveur : aucune ligne n' est nécessaire.
->* Incorporer [!DNL DFP] les fichiers journaux pour la création de rapports dans [!DNL Audience Manager]: utilisez uniquement les lignes 4 à 6. Ce code insère la valeur du `aam_uuid` cookie dans les journaux afin qu’ils puissent être assimilés pour la création de rapports.
+>* Incorporer les fichiers [!DNL DFP] journaux pour la création de rapports dans [!DNL Audience Manager]: utilisez uniquement les lignes 4 à 6. Ce code insère la valeur du `aam_uuid` cookie dans les journaux afin qu’ils puissent être assimilés pour la création de rapports.
 
 
 ### `AamGpt` Fonctions et types de données
@@ -57,7 +57,7 @@ Définit les variables clés utilisées dans l’ `if` instruction.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Renvoie la clé dans la paire de segments clé-valeur. Si, par exemple, votre paire clé-valeur était composée de <code> color=blue </code>, cela renvoie <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Renvoie la clé dans la paire de segments clé-valeur. Si, par exemple, votre paire clé-valeur se composait de <code> color=blue </code>, cela renvoie <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
@@ -72,7 +72,7 @@ Définit les variables clés utilisées dans l’ `if` instruction.
  </tbody>
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Création d’une destination GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Code Audience Manager pour les balises Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
