@@ -7,7 +7,7 @@ title: Facturation pour les fournisseurs de flux de données
 topic: API DIL
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -119,7 +119,7 @@ Un rapport de facturation contient les informations suivantes.
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Attribution de facturation et d’impression pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Attribution de la facturation et de l’impression pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
