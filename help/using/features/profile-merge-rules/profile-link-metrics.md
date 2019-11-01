@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Mesures des rapports pour les règles de fusion de profils
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -116,7 +116,7 @@ Un [!UICONTROL Profile Link Device Graph] rapport qui inclut des données de gra
 
 Outre les autres visualisations de données, [!UICONTROL Profile Link] les rapports incluent un graphique linéaire. Le graphique linéaire est conçu pour vous montrer les tendances au fil du temps pour vos règles de profil. Les graphiques de tendances (et les autres rapports) sont disponibles lorsque vous cliquez sur une règle dans la page d’ [!UICONTROL Profile Merge Rules] entrée ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Ces graphiques incluent des données de graphique de périphérique si vous êtes membre du [!UICONTROL Device Co-op] ou d’autres graphiques de périphérique tiers auxquels vous avez accès dans [!DNL Audience Manager]. Cliquez sur une ligne de tendance pour afficher les données sous-jacentes.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
 
