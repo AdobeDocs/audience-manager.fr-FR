@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Filtrage des résultats du rapport avec les curseurs de données
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ Les curseurs de rapport vous permettent de définir des limites sur les données
 * Réduire la quantité totale de données renvoyées par les rapports.
 * Concentrez-vous sur les caractéristiques ou les segments qui se situent dans une plage de tailles particulière.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Présentation des filtres de données dans le rapport de chevauchement segment-à-caractéristique](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
