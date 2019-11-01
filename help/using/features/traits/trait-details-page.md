@@ -7,20 +7,29 @@ title: Page Détails du trait
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: ventilation de type d’identité, ventilation d’identité, rapport d’identité d’audience
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # Page Détails du trait {#trait-details-page}
 
-La page de détails d’une caractéristique individuelle fournit un aperçu des informations telles que le nom de la caractéristique, l’ID, les mesures de performances, les expressions qui définissent la caractéristique, les segments auxquels elle appartient et le journal d’audit des caractéristiques. Pour afficher ces détails, accédez à [!UICONTROL Audience Data > Traits] et cliquez sur le nom de la caractéristique à utiliser.
+La page de détails d’une caractéristique individuelle fournit un aperçu des détails de la caractéristique, tels que le nom de la caractéristique, l’ID, les mesures de performances, les expressions qui définissent la caractéristique, les segments auxquels elle appartient et le journal d’audit des caractéristiques. Pour afficher ces détails, sélectionnez **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Traits]** et cliquez sur le nom de la caractéristique que vous souhaitez utiliser.
 
-## Informations fondamentales {#basics}
+## Outils de gestion des caractéristiques {#trait-management-tools}
 
-La [!UICONTROL Basic Information] section affiche des détails sur les champs obligatoires et facultatifs que vous avez remplis lors de la création de la caractéristique. Cela inclut des éléments tels que le type de caractéristique, l’ID de caractéristique, la description, la source de données et d’autres métadonnées. Ces détails varient en fonction du type de caractéristique (dossier, intégré ou basé sur des règles).
+Le haut de la page des détails de la caractéristique héberge les outils que vous pouvez utiliser pour gérer vos caractéristiques :
 
-![](assets/basicInfo.png)
+1. **[!UICONTROL Add New]**: Utilisez cette option pour créer de nouvelles caractéristiques basées sur des règles, algorithmiques ou intégrées.
+2. **[!UICONTROL Edit]**: Utilisez cette option pour modifier la configuration de la caractéristique actuelle.
+3. **[!UICONTROL Delete]**: Utilisez cette option pour supprimer la caractéristique actuelle de votre compte Audience Manager.
+4. **[!UICONTROL Marketplace Recommendations]**: Utilisez cette option pour trouver des caractéristiques similaires à celles que vous affichez, à partir des frais de [!UICONTROL Audience Marketplace] données auxquels vous n’êtes pas abonné. Voir [Audience Marketplace pour les acheteurs](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) de données pour savoir comment naviguer sur le Marketplace et trouver des caractéristiques similaires.
+
+![basic-trait-information](assets/basic-trait-information.png)
+
+## Informations sur les caractéristiques {#basics}
+
+La [!UICONTROL Trait Information] section affiche des détails sur les champs obligatoires et facultatifs que vous avez remplis lors de la création de la caractéristique. Cela inclut des éléments tels que le type de caractéristique, l’ID de caractéristique, la description, la source de données et d’autres métadonnées. Ces détails varient en fonction du type de caractéristique (dossier, intégré ou basé sur des règles).
 
 ## Graphique de caractéristiques {#trait-graph}
 
