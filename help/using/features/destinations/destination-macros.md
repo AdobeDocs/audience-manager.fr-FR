@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macros de destination définies
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,13 +40,13 @@ Lors de la création d’une [!DNL URL] destination, vous pouvez insérer les ma
    <td colname="col2"> <p>Insère l’ID <span class="keyword"> Audience Manager</span> de l’utilisateur dans l’URL de destination. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>%dpid_id<i>de source de</i>données%</code> </p> </td> 
+   <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
    <td colname="col2"> <p>L’ID <i>de source de</i> données correspond à l’identifiant d’une source de données transmise à la macro. </p> <p>Examinons comment cela fonctionne dans un exemple simple. Dans ce cas, nous avons un partenaire <span class="keyword"> Audience Manager</span> avec les identifiants et conditions suivants : </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID de source de données : <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">ID client interne : <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID déclaré : Le partenaire souhaite transmettre ces valeurs en tant qu’ID déclaré <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Pour ce faire, avec l’ID <code><i>de source de</i>%dpid_</code>données% <span class="keyword"> , le partenaire d’Audience Manager</span> formate la macro comme suit : </p> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID déclaré : Le partenaire souhaite transmettre ces valeurs comme identifiant déclaré <code> 1:CustomerABC</code>. </li> 
+    </ul> <p>Pour ce faire, le partenaire <code>%dpid_<i>data source id</i>%</code>Audience Manager <span class="keyword"></span> formate la macro comme suit : </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro remplacera <code> 1</code> par <code> CustomerABC</code>. </p> <p> 
@@ -101,6 +101,6 @@ La suppression du cache empêche les navigateurs d’enregistrer et de réutilis
 
 Les deux macros empêchent la mise en cache, mais `%rnd%` peuvent être plus efficaces. Par exemple, `%timestamp%`si plusieurs utilisateurs consultent simultanément une page, ils obtiennent la même valeur de date/heure. Par conséquent, le n’ [!DNL URL] est pas unique et plusieurs appels sont comptabilisés une seule fois. Cependant, `%rnd%` génère une valeur numérique unique pour chaque appel (même lorsque les utilisateurs voient simultanément la même page). Cela signifie que la [!DNL URL] chaîne contient des valeurs différentes et est comptée comme unique.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Macros de destination définies](../../features/destinations/destination-macros.md#destination-macros-defined)
