@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Géociblage Avec Des Clés Au Niveau De La Plateforme
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 translation-type: tm+mt
-source-git-commit: c5c57423bcba8d4b3974a04c46dc7c7afc7484a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -47,12 +47,12 @@ Nous travaillons avec [Digital Envoy](https://www.digitalenvoy.com/) pour obteni
 | d_long | Longitude (p. ex. d_long=73,98). Téléchargez la liste [des](assets/d_long.txt)longitudes. |
 | d_postal_code | Codes postaux (excluez le code +4 étendu). Téléchargez la liste [des codes](assets/d_postal_code.txt)postaux.  Par exemple : <ul><li>Caractéristique :  d_postal_code=84004 </li><li>Nom du trait : Alpin</li></ul> |
 | d_state | Abréviation de 2 caractères pour un état américain. Téléchargez la liste [des codes](assets/d_state.txt)d’état.  Par exemple : <ul><li>Caractéristique :  d_state=NY </li><li>Nom du trait : New York</li></ul>d_state contient des valeurs répétées pour différents états dans différents pays. Par exemple, d_state == "on" correspond à plusieurs états : Ontario (au Canada), Ondo (au Nigeria), Oshana (en Namibie). Nous vous recommandons d’associer ce signal à d_country pour un géociblage plus spécifique. |
-|  d_region | ID alphanumériques régionaux. Téléchargez la liste [des](assets/Country_RegionCodes_City.csv)régions.  Vous pouvez ensuite utiliser cette liste pour faire correspondre les ID de région aux noms de région. |
+| d_region | ID alphanumériques régionaux. Téléchargez la liste [des](assets/Country_RegionCodes_City.csv)régions.  Vous pouvez ensuite utiliser cette liste pour faire correspondre les ID de région aux noms de région. |
 | d_isp | FAI/organisation. Téléchargez la liste des [FAI](assets/d_isp.txt). |
 
 La liste de [tous les signaux](assets/all.csv) basés sur l'emplacement comprend tous les signaux ci-dessus, dans l'ordre suivant: `d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Préfixe requis pour les variables clés](../../features/traits/trait-variable-prefixes.md)
 
