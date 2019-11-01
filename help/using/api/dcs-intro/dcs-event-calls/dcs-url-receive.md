@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Recevoir des données du serveur de collecte de données
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,7 +61,7 @@ Le tableau ci-dessous répertorie et définit les paramètres les plus courants 
 | `u` et `uuid` | ID utilisateur unique attribué par Audience Manager. Ceci est nécessaire si vous effectuez des appels [DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)serveur à serveur. |
 | `y` | Type de destination, iFrame (`iframe`) ou image (`img`). |
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Préfixes et variables de valeur de clé pris en charge par le serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
