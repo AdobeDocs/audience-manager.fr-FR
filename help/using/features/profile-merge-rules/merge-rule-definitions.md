@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Définition des options de règle de fusion de profil
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -127,7 +127,7 @@ Vous [!UICONTROL Device Options] pouvez sélectionner le type de *`device profil
  </tbody>
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
 
