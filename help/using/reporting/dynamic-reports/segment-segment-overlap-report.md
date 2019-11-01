@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapport de chevauchement de segments
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: 339d5550b22949862415d2abc812217e5479c993
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport cont
 | **[!UICONTROL Segment Uniques1]** | Nombre de visiteurs uniques dans le segment 1. |
 | **[!UICONTROL Segment Uniques2]** | Nombre de visiteurs uniques dans le segment 2. |
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
