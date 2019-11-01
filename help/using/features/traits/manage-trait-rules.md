@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Gestion des règles de caractéristiques
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,13 +61,6 @@ Cliquez sur **[!UICONTROL Add Rule]** pour enregistrer et déplacer la caractér
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORE_LIKE_This]
->
->* [Créer un groupe de règles](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Déplacer les règles entre les groupes](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Create a New Rule Group {#create-rule-group}
 
 Cette procédure décrit la création d’un groupe de règles.
@@ -84,23 +77,9 @@ La règle est automatiquement séparée de son groupe actuel et déplacée dans 
    >Faites glisser une règle vers son groupe d’origine si vous la déplacez involontairement.
 1. Sélectionnez un [!DNL Boolean] opérateur ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dans le menu déroulant pour définir la relation entre les groupes de règles.
 
->[!MORE_LIKE_This]
->
->* [Création d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Déplacer les règles entre les groupes](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Déplacer les règles entre les groupes {#move-rules-between-groups}
 
 Pour déplacer une règle, cliquez dessus et faites-la glisser vers un autre groupe.
-
->[!MORE_LIKE_This]
->
->* [Création d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Créer un groupe de règles](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
-
 
 ## Modifier un trait {#edit-trait}
 
@@ -122,3 +101,12 @@ Cette procédure décrit la suppression d’une règle de caractéristique.
 1. Dans le [!UICONTROL Traits] tableau de bord, passez la souris sur les [!UICONTROL Actions] colonnes correspondant à la caractéristique à modifier, puis cliquez sur l’icône représentant un crayon. Ceci affiche les icônes de gestion des caractéristiques.
 1. Expand the [!UICONTROL Trait Expression] section.
 1. Passez la souris sur la règle à supprimer, puis cliquez sur l’icône X. La règle est immédiatement supprimée.
+
+>[!MORELIKETHIS]
+>
+>* [Créer un groupe de règles](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Déplacer les règles entre les groupes](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Création d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Suppression d’une règle de caractéristiques](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Déplacer les règles entre les groupes](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+
