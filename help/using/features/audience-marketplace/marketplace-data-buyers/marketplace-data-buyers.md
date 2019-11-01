@@ -7,7 +7,7 @@ title: Audience Marketplace pour les acheteurs de données
 topic: API DIL
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 ---
 
@@ -51,15 +51,15 @@ La [!UICONTROL Marketplace] liste contient des informations que vous pouvez trie
 * **[!UICONTROL Private Feeds]**: Voir Flux [de données](../../../features/audience-marketplace/marketplace-private-feeds.md)privés.
 * **[!UICONTROL Currently Subscribed Plan Count]**: Nombre d’abonnements avec un fournisseur de données.
 
+ 
+
 Pour trouver facilement les meilleurs flux de données en fonction de vos besoins, utilisez les filtres suivants disponibles sur le côté gauche de la [!UICONTROL Marketplace] page :
 
 * **[!UICONTROL Similarity To]**: Filtrez les flux de données en fonction de leur similarité avec une caractéristique ou un segment de votre choix. Lorsque vous saisissez la caractéristique ou le segment à comparer, vous pouvez utiliser l’ID de caractéristique ou de segment ou leurs noms respectifs.
-* **[!UICONTROL Similarity Cutoff]**: Faites glisser le curseur pour filtrer les flux de données en fonction de la similarité de leurs caractéristiques avec la caractéristique ou le segment sélectionné.
+* **[!UICONTROL Similarity Cutoff]**: Faites glisser le curseur pour filtrer les flux de données en fonction de la similarité de leurs caractéristiques avec la caractéristique ou le segment sélectionné. Pour en savoir plus sur les scores de similarité de caractéristiques, voir Score de similarité de [caractéristiques](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**: Filtrez les flux de données en fonction de l’état de votre abonnement.
 * **[!UICONTROL Plan Use Case]**: Filtrez les flux de données en fonction de leurs cas d’utilisation pris en charge : **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** et **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filtrez les flux de données en fonction de leur type de tarification.
-
-Regardez la vidéo ci-dessous pour savoir comment utiliser ces filtres.
 
 ## Trouver des caractéristiques similaires {#finding-similar-traits}
 
@@ -81,7 +81,6 @@ Pour afficher la liste complète des caractéristiques similaires, cliquez sur l
 Regardez la vidéo ci-dessous pour un aperçu complet de la façon de trouver des traits similaires.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=fre_fr)
-
 
 ## Flux de données privés {#private-data-feeds}
 
