@@ -7,7 +7,7 @@ title: Gestion des abonnements aux flux de données
 topic: API DIL
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Après vous être abonné à un flux de données :
 
 * Consultez les documents de facturation et de paiement. Consultez les liens connexes ci-dessous.
 
->[!MORE_LIKE_This]
->
->* [Attribution de facturation et d’impression pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Attribution de la facturation et de l’impression pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Comment signaler l'utilisation du CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
-
 ## S’abonner à un flux de données privé {#subscript-private-data-feed}
 
 Les acheteurs s’abonnent à des flux de données privés et planifient en **[!UICONTROL Audience Marketplace > Marketplace]** anglais.
@@ -76,12 +69,6 @@ Pour vous abonner à un flux de données privé :
 
    * **[!UICONTROL Request approved]**: L’état de la [!UICONTROL Marketplace] liste devient "Accès accordé" et vous recevrez une notification automatisée. A ce stade, vous pouvez vous abonner au flux. Voir [S’abonner à un flux](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) de données public pour obtenir des instructions.
    * **[!UICONTROL Request denied]**: Le texte "Demandé" est supprimé de la [!UICONTROL Marketplace] liste pour le flux. Vous pouvez essayer de vous abonner à nouveau ou choisir un autre flux.
-
->[!MORE_LIKE_This]
->
->* [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Remises pour les acheteurs de données](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
 
 ## Remises sur les flux de données pour les acheteurs {#buyer-discount}
 
@@ -139,11 +126,6 @@ Dans l'exemple, l'acheteur bénéficie d'une remise de 10 % sur le [!UICONTROL S
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_This]
->
->* [Le Marché : À propos de](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Recherche de données de flux souscrits {#find-subscribed-data-fee}
 
 Les données (caractéristiques) de vos flux de données s’affichent dans leurs propres dossiers de stockage des caractéristiques. Accédez au **[!UICONTROL Audience Data > Traits]** dossier et développez-le **[!UICONTROL 3rd-Party Data]** pour afficher et utiliser les caractéristiques de vos flux abonnés. Recherchez le sous-dossier nommé d’après votre fournisseur de données. Elles contiennent des dossiers nommés d’après le flux de données individuel et les caractéristiques de liste fournies par le flux.
@@ -151,11 +133,6 @@ Les données (caractéristiques) de vos flux de données s’affichent dans leur
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_This]
->
->* [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
-
 
 ## Désabonnement d’un flux de données {#unsubscribe}
 
@@ -168,7 +145,7 @@ Pour vous désabonner d’un flux de données :
 1. Cliquez sur le nom du flux de données dans le [!UICONTROL Marketplace].
 1. Dans la [!UICONTROL Use Case] section recherchez le plan que vous souhaitez utiliser et déplacez le **[!UICONTROL Subscription]** curseur vers **[!UICONTROL Off]**.
 
-##  Désactivation des flux de données : Pourquoi cela se produit et comment réagir {#data-feed-deactivation-reasons}
+## Désactivation des flux de données : Pourquoi cela se produit et comment réagir {#data-feed-deactivation-reasons}
 
 Dans [!UICONTROL Audience Marketplace]la, les fournisseurs de données peuvent révoquer l’accès à vos flux de données abonnés. Ne soyez pas alarmée si ça vous arrive. Nous vous avons couvert. Consultez cette section pour connaître les processus et procédures liés aux désactivations des flux de données.
 
@@ -290,11 +267,6 @@ Cette page contient les informations suivantes :
    * Cliquez sur **[!UICONTROL Cancel]** pour quitter la page sans apporter de modifications.
    * Cliquez sur **[!UICONTROL Review & Subscribe]** pour vous abonner à un flux de données. Ce bouton est grisé jusqu'à ce que vous changiez de [!UICONTROL Subscription] bascule [!UICONTROL On]. Voir aussi [S’abonner à un flux](#subscript-public-data-feed) de données public et [S’abonner à un flux](#subscript-private-data-feed)de données privé.
 
->[!MORE_LIKE_This]
->
->* [Le Marché : À propos de](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Présentation des cas d’utilisation des flux de données {#use-cases}
 
 En tant qu’acheteur de [!UICONTROL Audience Marketplace] données, vous pouvez acheter des données pour des cas d’utilisation de chevauchement, de modélisation et d’activation. Chaque cas d’utilisation est conçu pour un objectif spécifique et limite ce que vous pouvez faire avec les données. Ces descriptions de cas d'utilisation peuvent vous aider à prendre la bonne décision quant au type de plan de données à acheter.
@@ -310,10 +282,20 @@ Ce cas d’utilisation vous permet de comparer vos caractéristiques avec celles
 * **** Etendre la portée du public : Un chevauchement faible suggère que vos caractéristiques contiennent des utilisateurs que vous n’avez jamais vus auparavant. Vous souhaiterez peut-être que ces caractéristiques tentent d’atteindre de nouveaux utilisateurs.
 * **** Améliorer les audiences existantes : Un chevauchement élevé indique que vos caractéristiques sont similaires à celles détenues par le fournisseur de données. Vous souhaiterez peut-être que ces caractéristiques aident à apporter des améliorations ciblées et incrémentielles à un public déjà développé.
 
-###  Modèles algorithmiques
+### Modèles algorithmiques
 
 Ce cas d’utilisation vous permet d’évaluer les caractéristiques du fournisseur par rapport à vos caractéristiques avec la modélisation [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorithmique. Par exemple, notre système de modélisation algorithmique utilise l’une de vos caractéristiques comme base de comparaison avec une caractéristique fournisseur. Lorsque le modèle s’exécute, il peut indiquer si les audiences dans les caractéristiques du fournisseur partagent des attributs de conversion similaires à vos caractéristiques.
 
 ### Activation
 
 Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!UICONTROL Audience Manager]ce cas, une destination est tout système tiers (serveur publicitaire, [!DNL DSP], [!DNL DMP], échange, etc.) que vous souhaitez partager avec. Toutefois, dans un cas d’ [!UICONTROL Activation] utilisation, vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
+
+>[!MORELIKETHIS]
+>
+>* [Attribution de facturation et d’impression pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Attribution de la facturation et de l’impression pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Comment signaler l'utilisation du CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Remises pour les acheteurs de données](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [Le Marché : À propos de](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+
