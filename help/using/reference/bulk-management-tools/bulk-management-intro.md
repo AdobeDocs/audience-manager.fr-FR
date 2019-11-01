@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -121,7 +121,7 @@ Prenons l'exemple de la création simultanée de plusieurs caractéristiques. Po
 
 
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Téléchargement de la feuille de calcul de gestion en bloc](assets/BAAAM_August_2018.xlsm)
 
