@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Caractéristiques d’audience actives et caractéristiques synchronisées de la source de données
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,7 +35,7 @@ Une [!UICONTROL Active Audience] caractéristique contient tous les périphériq
 >
 >[!UICONTROL Data Source Synced Traits] sont utiles pour le dépannage. Cliquez sur le nom d’une caractéristique pour vérifier les mesures dans la page de résumé de la caractéristique. Si la caractéristique sélectionnée renvoie des données, cela indique que le processus de synchronisation des identifiants est configuré correctement et que les données sont poussées vers [!DNL Audience Manager].
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Audiences adressables](../../features/addressable-audiences.md)
 
