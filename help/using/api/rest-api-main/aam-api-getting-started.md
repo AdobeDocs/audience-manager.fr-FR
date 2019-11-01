@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -130,12 +130,6 @@ La [!DNL JSON] réponse contient votre nouveau jeton d’accès. La réponse doi
 
 Audience Manager [!UICONTROL REST API] prend en charge le code d’autorisation et l’authentification implicite. Pour utiliser ces méthodes d’accès, vos utilisateurs doivent se connecter pour accéder `https://api.demdex.com/oauth/authorize` aux jetons et les actualiser.
 
->[!MORE_LIKE_This]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 simplifié](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## Demandes d’API authentifiées {#authenticated-api-requests}
 
 Conditions requises pour appeler [!DNL API] des méthodes après réception d’un jeton d’authentification.
@@ -146,11 +140,6 @@ Pour lancer des appels par rapport aux [!DNL API] méthodes disponibles :
 
 * Dans l’ `HTTP` en-tête, définissez `Authorization: Bearer <token>`.
 * Appelez la [!DNL API] méthode requise.
-
->[!MORE_LIKE_This]
->
->* [Authentification OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## Paramètres facultatifs de requête d'API {#optional-api-query-parameters}
 
@@ -163,10 +152,10 @@ Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] des méthodes q
 | Paramètre | Description |
 |--- |--- |
 | page | Renvoie les résultats par numéro de page. La numérotation commence à 0. |
-|  pageSize | Définit le nombre de résultats de réponse renvoyés par la requête (10 est la valeur par défaut). |
+| pageSize | Définit le nombre de résultats de réponse renvoyés par la requête (10 est la valeur par défaut). |
 | sortBy | Trie et renvoie les résultats selon la [!DNL JSON] propriété spécifiée. |
-|  décroissant | Trie et renvoie les résultats dans l’ordre décroissant. L’option Croissant est utilisée par défaut. |
-|  rechercher | Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez rechercher des résultats pour tous les modèles qui contiennent le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de requête peut ressembler à ceci : `GET https://api.demdex.com/v1/models/?search=Test`.  Vous pouvez rechercher n’importe quelle valeur renvoyée par une méthode "get all". |
+| décroissant | Trie et renvoie les résultats dans l’ordre décroissant. L’option Croissant est utilisée par défaut. |
+| rechercher | Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez rechercher des résultats pour tous les modèles qui contiennent le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de requête peut ressembler à ceci : `GET https://api.demdex.com/v1/models/?search=Test`.  Vous pouvez rechercher n’importe quelle valeur renvoyée par une méthode "get all". |
 | folderId | Renvoie tous les ID des caractéristiques du dossier spécifié. Non disponible pour toutes les méthodes. |
 | permissions | Renvoie une liste de segments en fonction de l’autorisation spécifiée.  La lecture est par défaut. Les autorisations comprennent :<ul><li>`READ` : Renvoie et affiche des informations sur un segment.</li><li>`WRITE` : Utilisez `PUT` pour mettre à jour un segment.</li><li>`CREATE` : Utilisez `POST` pour créer un segment.</li><li>`DELETE` : Suppression d’un segment. Nécessite l’accès aux caractéristiques sous-jacentes, le cas échéant. Par exemple, vous aurez besoin de droits pour supprimer les caractéristiques qui appartiennent à un segment si vous souhaitez le supprimer.</li></ul><br>Spécifiez plusieurs autorisations avec des paires clé-valeur distinctes. Par exemple, pour renvoyer une liste de segments avec `READ` et `WRITE` autorisations uniquement, transmettez `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Booléen) Définissez cette variable sur true pour renvoyer vos autorisations pour le segment. La valeur par défaut est false. |
@@ -238,3 +227,10 @@ De nouvelles versions de ces [!DNL API]logiciels sont publiées régulièrement.
 | 404 | introuvables | Impossible de trouver la ressource pour le chemin spécifié. |
 | 409 | Conflit | Impossible de terminer la requête en raison d'un conflit avec l'état de la ressource. |
 | 500 | Erreur du serveur | Le serveur a rencontré une erreur inattendue qui l’empêchait de répondre à la demande. |
+
+>[!MORELIKETHIS]
+>
+>* [Authentification OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 simplifié](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+
