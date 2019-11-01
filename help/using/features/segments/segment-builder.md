@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 ---
 
@@ -97,7 +97,7 @@ Dans [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] les param�
 
 Dans [!UICONTROL Segment Builder]cette [!UICONTROL Traits] section, vous pouvez gérer les caractéristiques d’un segment, créer des groupes de caractéristiques et définir des critères de qualification. Pour ajouter une caractéristique à un segment, saisissez son nom dans le champ de recherche, puis cliquez sur [!UICONTROL Add Trait]. Enregistrez la caractéristique (le cas échéant) ou passez à [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **** Conditions préalables : Renseignez les champs obligatoires de la [!UICONTROL Basic Information] section.
 
@@ -106,7 +106,8 @@ Dans [!UICONTROL Segment Builder]cette [!UICONTROL Traits] section, vous pouvez 
 | Vue de base | Cette section fournit des commandes visuelles qui vous permettent d’effectuer les opérations suivantes : <ul><li>Créez et gérez des segments existants.</li><li>Supprimez les caractéristiques d’un segment.</li><li>Ajoutez jusqu’à 50 caractéristiques (maximum) à un segment.</li><li>Faites glisser et déposez des caractéristiques pour créer des groupes.</li><li>Affichez les caractéristiques et les groupes de caractéristiques dans un segment.</li><li>Définissez des critères de qualification avec des expressions booléennes, des opérateurs de comparaison et des paramètres de récence/fréquence.</li></ul> |
 | Affichage du code | Ouvre un environnement de développement qui vous permet de créer et de gérer des caractéristiques, des groupes et des exigences de qualification avec du code au lieu de l’interface visuelle. L’affichage du code est utile si vos segments : <ul><li>Contient plus de 50 caractéristiques dans un segment individuel. Remarque : Les segments sont limités à 5 000 caractéristiques (maximum).</li><li>Contiennent de nombreux groupes de caractéristiques.</li><li>Posséder des exigences de qualification complexes.</li></ul> |
 | Outils | Vous aide à trouver les caractéristiques à ajouter à un segment. |
-| Recommandations | Obtenez des recommandations en direct pour des caractéristiques similaires à ajouter à la règle de segmentation. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
+| Recommandations | Obtenez des recommandations en direct pour des caractéristiques similaires, à partir des caractéristiques propriétaires et des flux [!UICONTROL Audience Marketplace] de données auxquels vous êtes abonné. Ajoutez ces recommandations à la règle de segmentation pour développer votre audience. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
+| Recommandations Marketplace | Obtenez des recommandations en direct pour des caractéristiques similaires, à partir des flux de [!UICONTROL Audience Marketplace] données auxquels vous n’êtes pas abonné. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
 | Données de taille de segment réelle et estimée | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Suppression de caractéristiques d’un segment {#remove-traits}
