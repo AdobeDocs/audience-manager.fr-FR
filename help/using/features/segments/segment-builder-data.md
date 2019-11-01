@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Données de population de caractéristiques et de segments dans le créateur de segments
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -153,7 +153,7 @@ Le tableau suivant définit les mesures réelles de temps réel et de population
 
 Actuellement, il existe une limitation connue car notre estimateur de taille de segment ne tient pas compte des règles de fusion de profil. Par exemple, examinez les segments avec la règle **** Pas de profil authentifié + Profil[de périphérique actuel](../../features/profile-merge-rules/merge-rule-definitions.md)fusionnant. En raison de la façon dont nous calculons actuellement les chiffres d’estimation des segments, les populations estimées incluront des profils authentifiés. Toutefois, les populations de segments existantes ignoreront correctement les profils authentifiés.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur les règles de fusion de profils et le graphique de périphériques](../../faq/faq-profile-merge.md)
 >* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
