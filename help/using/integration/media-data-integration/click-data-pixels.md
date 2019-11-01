@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données des clics sur les campagnes par appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -79,12 +79,12 @@ Les événements de clic prennent en charge les macros répertoriées dans le ta
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>ID du fournisseur de données. </p> <p>Souvent utilisé avec <code> _dpuuid</code> pour lier un ID de fournisseur de données à un ID d’utilisateur. </p> <p>Facultatif. </p> </td> 
+   <td colname="col2"> <p>ID du fournisseur de données. </p> <p>Souvent utilisé pour <code> d_dpuuid</code> lier un ID de fournisseur de données à un ID d’utilisateur. </p> <p>Facultatif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
-   <td colname="col2"> <p>ID utilisateur unique fourni par le fournisseur de données. </p> <p>Souvent utilisé avec <code> _dpid</code> pour lier un ID utilisateur à un ID de fournisseur de données. </p> </td> 
+   <td colname="col2"> <p>ID utilisateur unique fourni par le fournisseur de données. </p> <p>Souvent utilisé pour lier <code> d_dpid</code> un ID d’utilisateur à un ID de fournisseur de données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
@@ -123,12 +123,12 @@ Les événements de clic prennent en charge les macros répertoriées dans le ta
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_apply%</code> </p> </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a> </p><p><code>gdpr</code> peut être égal à 0 (le RGD ne s’applique pas) ou à 1 (le RGD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
+   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a> </p><p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>gdpr_permission</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_permission%</code> </p> </td> 
+   <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
    <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>, alors <code>%gdpr_consent%</code> est remplacé par la chaîne <code>gdpr_consent</code> (voir les <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">spécifications IAB</a>).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
   </tr> 
  </tbody> 
@@ -160,7 +160,7 @@ Selon l’exemple ci-dessus, le navigateur est redirigé vers ce qui suit [!DNL 
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Fichiers de données et de métadonnées pour les rapports Optimisation de l’audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
