@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Envoyer des segments à une liste de commentaires Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-156331e93a2
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ Pour configurer une liste de [!DNL Google Ads] remarketing en tant que destinati
    ```
 
 1. Dans Audience Manager, [créez une destination](../../features/destinations/create-url-destination.md) URL ou modifiez une destination existante. Utilisez les paramètres suivants lors de la création de la destination :
-   * Type : URL
+   * Type :URL
    * Sérialiser : Activé
    * Délimiteur : Point-virgule (;)
 
@@ -65,7 +65,7 @@ Un mappage terminé peut ressembler à ceci :
 
 ![](../assets/rlsa_mapping.png)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Destinations](../../features/destinations/destinations.md)
 >* [Création d’une destination d’URL](../../features/destinations/create-url-destination.md)
