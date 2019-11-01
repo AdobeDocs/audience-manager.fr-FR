@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Etats d’authentification des visiteurs dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -56,7 +56,7 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <code>1</code> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
    <td colname="col2"> <p>Oui, si l’option Authentifiée Règle de fusion = "Profils authentifiés actuels" ou "Derniers profils authentifiés". </p> </td> 
    <td colname="col3" morerows="1"> <p>Oui, les données de caractéristique sont ajoutées au profil authentifié. </p> </td> 
   </tr> 
@@ -82,7 +82,7 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <code>2</code> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
    <td colname="col2"> Oui, si la règle de fusion des options authentifiées = "Derniers profils authentifiés" </td> 
    <td colname="col3" morerows="1"> <p>Non, les données de caractéristiques sont écrites dans le profil du périphérique. </p> </td> 
   </tr> 
@@ -100,7 +100,7 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 >
 >[!DNL Audience Manager] effectue une synchronisation des identifiants entre [CID et UUID](../reference/ids-in-aam.md) dans les trois cas.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [ID de client et états d’authentification](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
