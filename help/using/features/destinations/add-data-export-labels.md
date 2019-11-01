@@ -5,7 +5,7 @@ seo-title: Ajouter des contrôles d’exportation de données à une destination
 solution: Audience Manager
 title: Ajouter des contrôles d’exportation de données à une destination
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,6 +36,6 @@ Pour ajouter des libellés d’exportation à une destination :
    >Les restrictions d’exportation ne fonctionneront pas, sauf si vous définissez un contrôle [d’exportation](../../features/data-export-controls.md) correspondant sur une source de données.
 1. Cliquez sur **[!UICONTROL Save]**.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Création d’une source de données](../../features/manage-datasources.md#create-data-source)
