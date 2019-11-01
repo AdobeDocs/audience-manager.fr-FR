@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Syntaxe du contenu du fichier de données entrant, caractères, variables et exemples non valides
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-#  Contenu du fichier de données entrantes : Syntaxe, Caractères non valides, Variables et exemples{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Contenu du fichier de données entrantes : Syntaxe, Caractères non valides, Variables et exemples{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Champs, syntaxe et règles obligatoires à respecter lors du formatage d’un fichier de données de caractéristiques entrant.
 
@@ -51,7 +51,7 @@ Le tableau répertorie et définit les variables utilisées dans un fichier de d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>Identifiant utilisateur </i> </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Un ID utilisateur peut être : </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B">ID utilisateur unique attribué par <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> UUID Audience Manager </a>). </li> 
@@ -59,16 +59,16 @@ Le tableau répertorie et définit les variables utilisées dans un fichier de d
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">ID de périphérique mobile Android ou iOS dans son formulaire d’origine, non modifié, tel qu’il est révélé par le système d’exploitation mobile. </li> 
      </ul> </p> <p>Pour les ID mobiles : </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">Format IDFA : Les identifiants doivent être en majuscules et non pas hachés. Par exemple, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Format Android : Les ID doivent être en minuscules et non en hachage. Par exemple, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">Format IDFA : Les identifiants doivent être en majuscules et non pas hachés. For example, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Format Android : Les ID doivent être en minuscules et non en hachage. For example, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> TABULATION </code> </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
    <td colname="col2"> <p>Séparez l’ID utilisateur et les ID de caractéristiques à l’aide d’un délimiteur de tabulation unique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID de <i>caractéristique </i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
    <td colname="col2"> <p>ID de <span class="keyword"> caractéristique d’Audience Manager </span> . Nous vous demandons d’inclure <i>uniquement des caractéristiques</i> intégrées dans les fichiers de données entrants. Nous ne traitons aucun autre type de caractéristique dans le transfert de données entrant. </p> <p> <p>Remarque :  L’ID de caractéristique peut être trouvé en utilisant la méthode GET qui renvoie des détails sur toutes vos caractéristiques. Pour plus d’informations, voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -88,33 +88,34 @@ Le tableau suivant décrit les préfixes qui identifient les noms ou les ID de c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Le <code> préfixe d_sid </code> indique à notre système que l’ID est un <span class="keyword"> identifiant </span> de caractéristique d’Audience Manager. Il s’agit du même ID que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la méthode <code> GET de l’API </code> . Voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </td>
+   <td colname="col2"> <p>Le <code> d_sid </code> préfixe indique à notre système que l’ID est un <span class="keyword"> identifiant de </span> caractéristique d’Audience Manager. Il s’agit du même ID que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la <code> GET </code> méthode API. Voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Les données avec le préfixe <code> d_unsid </code> enlèvent les utilisateurs de cette caractéristique. Le <code> préfixe d_unsid </code> est ignoré dans un <code> </code> fichier de remplacement. </p> <p>Le <code> _unsid= </code> indique à notre système que l’ID est un <span class="keyword"> identifiant </span> de caractéristique d’Audience Manager. Il s’agit du même ID que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la méthode <code> GET de l’API </code> . Voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </td>
+   <td colname="col2"> <p>Le préfixe de données <code> d_unsid </code> supprime les utilisateurs de cette caractéristique. Le <code> d_unsid </code> préfixe est ignoré dans un <code> overwrite </code> fichier. </p> <p>Le <code> d_unsid= </code> préfixe indique à notre système que l’ID est un <span class="keyword"> identifiant de </span> caractéristique d’Audience Manager. Il s’agit du même ID que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la <code> GET </code> méthode API. Voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Les règles de caractéristiques vous </a> permettent de définir des critères pour la qualification des caractéristiques. Si vous mettez en forme une règle de caractéristiques sous la forme <code> ic == ID de caractéristique </code>, vous pouvez envoyer des caractéristiques dans une simple liste au format virgule. </p> <p>Supposons, par exemple, que vous créiez les 3 règles de caractéristiques suivantes : </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Les règles de caractéristiques vous </a> permettent de définir des critères pour la qualification des caractéristiques. Si vous mettez en forme une règle de caractéristique <code> ic == trait ID </code>, vous pouvez envoyer des caractéristiques dans une simple liste de valeurs au format virgule. </p> <p>Supposons, par exemple, que vous créiez les 3 règles de caractéristiques suivantes : </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>Ces caractéristiques sont associées à la <code> clé </code> ic. Vous pouvez ainsi créer une liste de caractéristiques plus simple dans le fichier de données. Et vous n’avez pas besoin d’inclure le <code> préfixe </code> ic. Par conséquent, le contenu de votre fichier de données peut se présenter comme suit : </p> <p>
+     </ul> </p> <p>Ces caractéristiques sont associées à la <code> ic </code> clé. Vous pouvez ainsi créer une liste de caractéristiques plus simple dans le fichier de données. Et vous n’avez pas besoin d’inclure le <code> ic </code> préfixe. Par conséquent, le contenu de votre fichier de données peut se présenter comme suit : </p> <p>
      <code> 
-                       
-      ID <i>utilisateur</i>&lt;TAB&gt; 123 456 789 </code> </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paires clé-valeur </p> </td> 
    <td colname="col2"> <p>Les données de caractéristiques peuvent être formatées sous forme de paires clé-valeur à l’aide de chaînes alphanumériques. Il existe plusieurs méthodes de formatage des paires clé-valeur, comme illustré ci-dessous : </p> <p> 
      <ul id="ul_D4F5A97FE0444AC6B7D8D4DAEDD3EAF2"> 
       <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = value </code> </li> 
-      <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = valeur </code> </li> 
+      <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code> "age"="32" </code> , <code> "genre"=m </code> , <code> modèle = "pick up pick up pick" </code> , <code> produit = tablette </code> sont tous des exemples de paires clé-valeur correctement formatées. </p> </td> 
+     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> sont tous des exemples de paires clé-valeur correctement formatées. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -137,14 +138,14 @@ Les identifiants de caractéristiques sont constitués uniquement de caractères
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>N'utilisez pas</i> de deux-points codés ( <code> %3A </code>) ni de deux-points non codés ( : ) dans les DPUUID. </p> </td> 
+   <td colname="col2"> <p><i>N’utilisez pas</i> de deux-points codés ( <code> %3A </code>) ou deux-points non codés ( : ) dans les DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de périphérique mobile iOS (IDFA) ou Android </p> </td> 
    <td colname="col2"> <p>Les ID de périphérique mobile doivent être strictement formatés, comme illustré ici : </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">Format IDFA : Les identifiants doivent être en majuscules et non pas hachés. Par exemple, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Format Android : Les ID doivent être en minuscules et non en hachage. Par exemple, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">Format IDFA : Les identifiants doivent être en majuscules et non pas hachés. For example, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Format Android : Les ID doivent être en minuscules et non en hachage. For example, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -175,8 +176,8 @@ Des noms de valeur mal formatés dans une paire clé-valeur posent également pr
    <td colname="col2"> <p>Nous ignorons les signes de tirets au début des clés. Par exemple, <code> -product = camera </code> est interprété comme <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> TABULATION </code> </p> </td> 
-   <td colname="col2"> <p><i>N’utilisez pas</i> l’ <code> onglet </code> au lieu de valeurs vides dans les paires clé-valeur. Utilisez uniquement <code> TAB </code> pour séparer les variables dans le fichier de données entrant. </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
+   <td colname="col2"> <p><i>N’utilisez pas</i> de valeur <code> TAB </code> au lieu de valeurs vides dans les paires clé-valeur. Utilisez uniquement <code> TAB </code> pour séparer les variables dans le fichier de données entrant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
@@ -196,28 +197,34 @@ Des noms de valeur mal formatés dans une paire clé-valeur posent également pr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Avec <code> _sid </code> ou <code> _unsid </code> </p> </td> 
+   <td colname="col1"> <p>Avec <code> d_sid </code> ou <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Ce fichier de données montre un utilisateur qualifié pour les caractéristiques 24, 26, 27 et a été supprimé des caractéristiques 28 et 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d sid=26,d_sid=27,d_unsid=28,d_unsid=29 </code> </p> <p>Remarque :  <p>Au lieu d’utiliser d_unsid, vous pouvez également supprimer des caractéristiques des profils utilisateur en utilisant la syntaxe suivante : </p> <p> 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+     </code> </p> <p>Remarque :  <p>Au lieu d’utiliser d_unsid, vous pouvez également supprimer des caractéristiques des profils utilisateur en utilisant la syntaxe suivante : </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 </code> </p> <p> 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+      </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;;nbsp;29: 1 </code> </p> </p> </td> 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+      </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avec <code> ic== </code> </p> </td> 
-   <td colname="col2"> <p>Ces caractéristiques ont été ajoutées à une règle de caractéristiques avec le <code> préfixe </code> ic. Vous pouvez ainsi les ajouter au fichier de données en les séparant par des virgules, comme indiqué. Un onglet sépare l’UUID et les ID de caractéristique. Le <code> préfixe ic </code> n’est pas obligatoire dans le fichier. </p> <p><b>ID numériques</b> </p> <p> 
+   <td colname="col2"> <p>Ces caractéristiques ont été ajoutées à une règle de caractéristiques avec le <code> ic </code> préfixe. Vous pouvez ainsi les ajouter au fichier de données en les séparant par des virgules, comme indiqué. Un onglet sépare l’UUID et les ID de caractéristique. Le <code> ic </code> préfixe n’est pas obligatoire dans le fichier. </p> <p><b>ID numériques</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30 626 </code> </p> <p><b>ID de chaîne</b> </p> <p> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+     </code> </p> <p><b>ID de chaîne</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 </code> </p> </td> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avec des paires clé-valeur </p> </td> 
    <td colname="col2"> Ces données de fichier utilisent des paires clé-valeur pour transmettre les données à <span class="keyword"> Audience Manager </span>. <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;"gender"="femelle","luxe_shopper"="yes"" </code> </p> </td> 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -494,7 +501,7 @@ ou
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 ```
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Générateur de caractéristiques](../../../features/traits/about-trait-builder.md)
 
