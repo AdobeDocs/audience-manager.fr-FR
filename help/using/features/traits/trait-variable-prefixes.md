@@ -3,10 +3,10 @@ description: Cet article décrit les préfixes que vous devez joindre aux variab
 seo-description: Cet article décrit les préfixes que vous devez joindre aux variables clés lors de la création de règles de caractéristiques.
 seo-title: Préfixe requis pour les variables clés
 solution: Audience Manager
-title: ' Préfixe requis pour les variables clés'
+title: Préfixe requis pour les variables clés
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,16 +43,16 @@ Le tableau suivant définit les préfixes courants utilisés par [!UICONTROL Tra
   </tr> 
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Contient des informations d’en-tête <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Inclut des paramètres d’en-tête tels que <code> referer</code>,<code> IP</code>, langue <code></code>d’acceptation, etc. </p> <p> <p>Remarque : Pour les clients utilisant des versions DIL antérieures à la version 9.0, la collecte de données utilisant le signal <code> _referer</code> ne fonctionne pas sur les navigateurs Safari. Avec l’introduction de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, les navigateurs Safari peuvent classifier le domaine demdex.net comme suivi et tronqueront le référent sur la demande de collecte de données afin qu’il contienne uniquement l’origine au lieu de l’URL complète. Voir <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtention et mise en oeuvre du code</a> DIL pour consulter la dernière version de DIL. </p> </p> </td> 
+   <td colname="col2"> <p>Contient des informations d’en-tête <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Inclut des paramètres d’en-tête tels que <code> referer</code>,<code> IP</code>, <code> accept-language</code>, etc. </p> <p> <p>Remarque : Pour les clients utilisant des versions DIL antérieures à la version 9.0, la collecte de données à l’aide du <code> h_referer</code> signal ne fonctionne pas sur les navigateurs Safari. Avec l’introduction de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, les navigateurs Safari peuvent classifier le domaine demdex.net comme suivi et tronqueront le référent sur la demande de collecte de données afin qu’il contienne uniquement l’origine au lieu de l’URL complète. Voir <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtention et mise en oeuvre du code</a> DIL pour consulter la dernière version de DIL. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Nos serveurs <span class="wintitle"></span> de collecte de données permettent la transmission de paramètres privés. En gros, tout paramètre commençant par <code> p_</code> sera utilisé pour l’évaluation des caractéristiques, mais il ne sera ni connecté en aval, ni stocké. </p> <p>Exemple : donné <code> /event?p_age=23</code> et un trait comme <code> YoungPeople = p_age &lt; 25</code>, le trait sera réalisé, mais la paire <code> p_age=23</code> clé-valeur sera supprimée après la requête et ne sera pas enregistrée. </p> </td> 
+   <td colname="col2"> <p>Nos serveurs <span class="wintitle"></span> de collecte de données permettent la transmission de paramètres privés. En gros, tout paramètre commençant par <code> p_</code> sera utilisé pour l’évaluation des caractéristiques, mais il ne sera ni connecté en aval, ni stocké. </p> <p>Exemple : étant donné <code> /event?p_age=23</code> et une caractéristique du type <code> YoungPeople = p_age &lt; 25</code>, la caractéristique sera réalisée, mais la paire <code> p_age=23</code> clé-valeur sera supprimée après la requête et ne sera pas enregistrée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Présentation des informations de base](../../features/traits/create-onboarded-rule-based-traits.md)
 >* [Gestion des règles de caractéristiques](../../features/traits/manage-trait-rules.md#managing-trait-rules)
