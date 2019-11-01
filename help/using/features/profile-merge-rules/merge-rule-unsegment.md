@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Règles de fusion des profils et processus de désegmentation des périphériques
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ La section Unsegmentation décrit les processus qui excluent et suppriment les p
 
 ![](assets/last-device-graph.png)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur les règles de fusion de profils et le graphique de périphériques](../../faq/faq-profile-merge.md)
 >* [Suppression instantanée inter-périphérique](instant-cross-device-suppression.md)
