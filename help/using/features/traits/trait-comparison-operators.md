@@ -1,12 +1,12 @@
 ---
 description: Cet article décrit les opérateurs de comparaison utilisés par le créateur de caractéristiques.
 seo-description: Cet article décrit les opérateurs de comparaison utilisés par le créateur de caractéristiques.
-seo-title: ' Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques'
+seo-title: Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques
 solution: Audience Manager
-title: ' Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques'
+title: Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Vous pouvez créer des règles avec les opérateurs nommés suivants :
 | **[!UICONTROL Endswith]** | La valeur d’une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
 | **[!UICONTROL Matchesregex]** | La valeur d’une paire clé-valeur *correspond* au modèle spécifié par une expression régulière. [En savoir plus](../../features/traits/trait-builder-regex.md) sur l’utilisation d’expressions régulières dans [!UICONTROL Trait Builder]. |
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
 >* [Présentation des expressions booléennes dans TraitBuilder](../../reference/boolean-expressions-tsb.md)
