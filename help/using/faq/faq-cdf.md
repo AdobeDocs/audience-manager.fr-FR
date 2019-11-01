@@ -6,7 +6,7 @@ solution: Audience Manager
 title: FAQ sur le flux de données client
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -83,7 +83,7 @@ Les données sont supprimées au bout de 8 (8) jours.
 
 Vous ne pouvez générer des fichiers CDF que pour les 8 derniers jours. Les fichiers CDF pour les intervalles antérieurs aux 8 derniers jours ne peuvent pas être recréés.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Flux de données client](../features/cdf-files.md)
 
