@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Cas d’utilisation graphiques des périphériques externes
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ En utilisant le **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Ado
 
 ![expansion-graphique-avancée](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Cas d’utilisation de graphiques de périphériques de lien de profil](profile-link-use-case.md)
 >* [Cas d’utilisation généraux des règles de fusion de profils](merge-rule-targeting-options.md)
