@@ -8,7 +8,7 @@ title: Audience Marketplace pour les fournisseurs de données
 topic: API DIL
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ Les fonctionnalités incluent :
 
 Dans [!UICONTROL My Shared Data]ce cas, l’état d’un flux est parfois marqué comme étant privé. Indique un flux de données privé. Un flux de données privé permet aux vendeurs de limiter l’accès de l’acheteur à leurs données et même au nom du flux de données. Les vendeurs peuvent rendre les flux privés lorsqu’ils proposent des offres spéciales, des remises ou lorsque la confidentialité et le contrôle d’accès sont importants. Avec les flux de données privés, les fournisseurs examinent et approuvent toutes les demandes d’accès des acheteurs. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). Pour créer un flux de données public ou privé, voir [Création d’un flux](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)de données public ou privé.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Remises pour les fournisseurs de données](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
