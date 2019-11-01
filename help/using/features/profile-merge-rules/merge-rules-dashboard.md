@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tableau de bord des règles de fusion de profils
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Lorsque vous travaillez avec [!UICONTROL Profile Merge Rules]:
 * Assurez le suivi du nombre moyen de périphériques pour chaque utilisateur.
 * Utilisez des contrôles de base pour créer, modifier et supprimer des règles. Seuls les administrateurs peuvent gérer les règles, mais d’autres utilisateurs peuvent les afficher et les appliquer aux segments. Voir Options des règles de fusion [de profil définies](merge-rule-definitions.md) et Cas d’ [utilisation pour les règles](merge-rule-targeting-options.md)de fusion.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
 
