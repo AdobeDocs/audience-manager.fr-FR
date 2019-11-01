@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Exigences relatives au nom FTP et à la taille des fichiers pour les fichiers de données entrants
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -52,7 +52,7 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
    <td colname="col2"> <p>Chemin d’accès et nom du répertoire FTP d’Audience Manager <span class="keyword"></span> . Contactez votre gestionnaire de compte pour connaître le répertoire FTP et les informations d’identification. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>DPID</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Un identifiant qui indique à <span class="keyword"> Audience Manager</span> si un fichier de données contient vos propres ID utilisateur, Android ou iOS. Accepte les options suivantes : </p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b></b> ID du partenaire de données :Il s’agit d’un identifiant unique attribué par Audience Manager à votre entreprise ou organisation. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> Audience Manager</span> qu’un partenaire avec l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </li> 
@@ -61,20 +61,20 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
     </ul> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, ne placez pas d’ID iOS ni vos propres ID dans le fichier de données. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
    <td colname="col2"> <p>Espace réservé pour un ID. Vous pouvez, par exemple, le définir sur votre <span class="keyword"> ID Audience Manager</span> si vous définissez le DPID sur un ID de source de données ou un ID Android ou iOS. Cela permet à <span class="keyword"> Audience Manager</span> de lier les données de fichier à votre entreprise. </p> <p>Par exemple : </p> 
     <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> montre un partenaire dont l’ID 21 a envoyé des données à partir d’une source de données qui utilise l’ID 33. </li> 
-     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> montre qu’un partenaire avec l’ID 21 a envoyé des données contenant des ID Android. </li> 
-     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> montre qu’un partenaire avec l’ID 21 a envoyé des données contenant des ID iOS. </li> 
+     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> La montre un partenaire avec l'ID 21 a envoyé des données d'une source de données qui utilise l'ID 33. </li> 
+     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> La illustre l’envoi par un partenaire avec l’ID 21 de données contenant des ID Android. </li> 
+     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> La illustre l’envoi par un partenaire avec l’ID 21 de données contenant des ID iOS. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
+   <td colname="col1"> <p> <code> (.sync |.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Options de synchronisation comprenant : </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
       <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Scénario normal lorsque des fournisseurs de données tiers envoient des caractéristiques par utilisateur pour être ajoutées ou supprimées dans le système Audience Manager. </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> écraser</code>: Permet aux clients et aux fournisseurs de données d’envoyer une liste de caractéristiques par utilisateur qui doit remplacer toutes les caractéristiques existantes de cet utilisateur pour une source de données donnée dans Audience Manager. Vous n’avez pas besoin d’inclure tous vos utilisateurs dans un fichier de remplacement. Incluez uniquement les utilisateurs que vous souhaitez modifier. Les caractéristiques qui ne sont pas attribuées à la source de données cible ne seront pas effacées. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Permet aux clients et aux fournisseurs de données d’envoyer une liste de caractéristiques par utilisateur qui doit remplacer toutes les caractéristiques existantes de cet utilisateur pour une source de données donnée dans Audience Manager. Vous n’avez pas besoin d’inclure tous vos utilisateurs dans un fichier de remplacement. Incluez uniquement les utilisateurs que vous souhaitez modifier. Les caractéristiques qui ne sont pas attribuées à la source de données cible ne seront pas effacées. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
     </ul> <p>Voir les 2 premiers exemples <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> de noms de</a> fichier ci-dessous. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>HORODATAGE</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Horodatage UTC UNIX à 10 chiffres en secondes. L’horodatage permet de rendre chaque nom de fichier unique. </p> 
     <draft-comment> 
      <p> <p>Remarque :  Audience Manager n’utilise pas l’horodatage lors du traitement des fichiers entrants. L’horodatage du nom de fichier a été abandonné dans Audience Manager, mais il est toujours nécessaire pour une compatibilité descendante. </p> </p> 
@@ -137,7 +137,7 @@ Tenez compte des chiffres ci-dessous pour le traitement le plus rapide/le plus p
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
