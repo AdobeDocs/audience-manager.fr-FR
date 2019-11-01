@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL Flash
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: 49fff90fa1330c59360e16f2a56e8fba7d4c43dc
+source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
 
 ---
 
@@ -95,11 +95,6 @@ Les données de ces paramètres sont collectées par défaut :
 * `mediaAdParentPod` (Saut de capsule ou de publicité dans le contenu principal où la publicité est lue)
 * `mediaAdParentPodPos` (Position numérique dans la capsule où la publicité est lue. Plusieurs publicités peuvent être lues dans une capsule.
 
->[!MORE_LIKE_This]
->
->* [Guide de mise en oeuvre d’AppMeasurement Flash, Flex et OSMF](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
-
-
 ## Données DIL Flash dans Audience Manager {#flash-dil-data}
 
 Le [!UICONTROL Flash DIL] module transforme les données Adobe AppMeasurement en caractéristiques d’Audience Manager et en signaux inutilisés.
@@ -128,14 +123,6 @@ Voir le tableau pour obtenir des exemples :
 
 Audience Manager accepte Analytics [!UICONTROL Props], [!UICONTROL eVars]et les événements, même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristiques et apparaissent dans le rapport [Signaux](../reporting/dynamic-reports/unused-signals.md) inutilisés à la place. Pour tirer le meilleur parti de ces informations, créez des caractéristiques d’Audience Manager qui correspondent aux données Analytics transmises par la [!UICONTROL Flash DIL] bibliothèque.
 
->[!MORE_LIKE_This]
->
->* [Caractéristiques](../features/traits/trait-details-page.md)
->* [Signaux, caractéristiques et segments](../reference/signal-trait-segment.md)
->* [Paires clé-valeur expliquées](../reference/key-value-pairs-explained.md)
->* [Préfixe requis pour les variables clés](../features/traits/trait-variable-prefixes.md)
-
-
 ## Bibliothèque ActionScript Flash DIL {#flash-dil-actionscript}
 
 Code de votre [!DNL Flash] objet pour envoyer des données Analytics à Audience Manager.
@@ -152,8 +139,6 @@ r_flash_dil_actionscript.xml
    >
    >
 * Requiert la version 3.5.2 ou ultérieure de la bibliothèque Adobe [!UICONTROL AppMeasurement][!DNL AS] .
->
-
 
 
 ```js
@@ -166,4 +151,12 @@ d.partner = "<partner>";// Partner name
 d.containerNSID = <container NSID>; // Optional, defaults to 0 
 s.loadModule(d);
 ```
+
+>[!MORELIKETHIS]
+>
+>* [Caractéristiques](../features/traits/trait-details-page.md)
+>* [Signaux, caractéristiques et segments](../reference/signal-trait-segment.md)
+>* [Paires clé-valeur expliquées](../reference/key-value-pairs-explained.md)
+>* [Préfixe requis pour les variables clés](../features/traits/trait-variable-prefixes.md)
+>* [Guide de mise en oeuvre d’AppMeasurement Flash, Flex et OSMF](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
