@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Composants de collecte de données
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ Ce sont des systèmes qui reçoivent des données envoyées par diverses intégr
 
 Le [!UICONTROL PCS] programme crée et écrit des données dans les fichiers journaux. Elles sont envoyées à d’autres systèmes de base de données pour traitement, création de rapports et stockage.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Centre de traitement des données personnelles Adobe](https://www.adobe.com/privacy.html)
 
