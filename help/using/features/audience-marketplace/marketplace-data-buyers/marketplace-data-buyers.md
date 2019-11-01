@@ -7,7 +7,7 @@ title: Audience Marketplace pour les acheteurs de données
 topic: API DIL
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d9a4244f68e95c872d3686da10ee3a774250fbfe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,7 +87,7 @@ Regardez la vidéo ci-dessous pour un aperçu complet de la façon de trouver de
 
 Dans la [!UICONTROL Marketplace] liste, le nom du fournisseur et les données de caractéristiques sont parfois marqués comme étant privés. Indique un flux [de données](../../../features/audience-marketplace/marketplace-private-feeds.md)privé. Un flux de données privé permet aux vendeurs de limiter l’accès des acheteurs à leurs données. Les vendeurs peuvent rendre les flux privés lorsqu’ils proposent des offres spéciales, des remises ou lorsque la confidentialité et le contrôle d’accès sont importants pour eux. En tant qu’acheteur, vous devez envoyer une demande d’abonnement au vendeur si vous souhaitez accéder à un flux privé. Voir [S’abonner à un flux](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de données privé pour plus d’informations.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Présentation de la page des détails de la formule d’Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) (en anglais)
 >* [Remises pour les acheteurs de données](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
