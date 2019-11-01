@@ -2,12 +2,12 @@
 description: Pour créer une source de données, accédez à Données d’audience > Sources de données > Ajouter nouveau et suivez les étapes décrites ici pour chaque section. Des autorisations d’administrateur sont requises pour créer une source de données.
 keywords: source de données;gérer la source de données;source de données Audience Manager
 seo-description: Pour créer une source de données, accédez à Données d’audience > Sources de données > Ajouter nouveau et suivez les étapes décrites ici pour chaque section. Des autorisations d’administrateur sont requises pour créer une source de données.
-seo-title: Create a Data Source
+seo-title: Création d’une source de données
 solution: Audience Manager
-title: Manage Data Sources
+title: Gestion des sources de données
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -55,29 +55,29 @@ Pour compléter la [!UICONTROL Data Source Details] section :
 
 Ces paramètres déterminent la manière dont une source de données est identifiée, utilisée et partagée. Vous pouvez également activer la création de rapports d’erreurs pour les fichiers de données entrants. Pour compléter la [!UICONTROL Data Source Settings] section :
 
-1. Select a  check box to apply an option to your data source.[!UICONTROL Data Source Setting]
+1. Sélectionnez une [!UICONTROL Data Source Setting] case à cocher pour appliquer une option à votre source de données.
 2. Cliquez sur **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
->* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
+>* [Paramètres de source de données et options de menu](../features/datasources-list-and-settings.md#settings-menu-options)
 
 
-## Delete a Data Source {#delete-data-source}
+## Suppression d’une source de données {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Delete a data source that you no longer need.
+Supprimez une source de données dont vous n’avez plus besoin.
 
 >[!NOTE]
 >
->Please note the following restrictions:
+>Veuillez prendre note des restrictions suivantes :
 >
->* You cannot delete an [Active Audience or Data Source Synced Trait](../features/traits/client-activity-synced-audience-traits.md).
->* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your  report suites. [!DNL Analytics] Use the [Core Service](https://marketing.adobe.com/resources/help/en_US/mcloud/) to unmap these data sources.
+>* Vous ne pouvez pas supprimer une audience [active ou une caractéristique](../features/traits/client-activity-synced-audience-traits.md)synchronisée de source de données.
+>* Pour les clients qui utilisent Adobe Analytics : Audience Manager ne vous permet pas de supprimer les sources de données créées automatiquement à partir de vos suites de [!DNL Analytics] rapports. Utilisez le service [principal](https://marketing.adobe.com/resources/help/en_US/mcloud/) pour annuler le mappage de ces sources de données.
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
 1. Cochez la case en regard d’une ou de plusieurs sources de données.
-You can use the [!UICONTROL Search] box to locate the desired data sources if you have a long list.
-1. Click  ![](assets/icon_trash.png), then confirm the deletion.
+Vous pouvez utiliser la [!UICONTROL Search] zone pour localiser les sources de données de votre choix si vous disposez d’une longue liste.
+1. Cliquez sur ![](assets/icon_trash.png), puis confirmez la suppression.
