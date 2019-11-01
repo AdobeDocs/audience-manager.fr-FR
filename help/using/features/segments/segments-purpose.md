@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Objectif, composition et règles des segments
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,7 +48,7 @@ Les segments s’améliorent avec les processus standard de création/segmentati
 * Envoyez des données de segment à un partenaire de destination.
 * Surveillez les performances avec les rapports Audience Manager.
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Signaux, caractéristiques et segments](../../reference/signal-trait-segment.md)
 
