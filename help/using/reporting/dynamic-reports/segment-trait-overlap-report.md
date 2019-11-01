@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapport de chevauchement de segments et de caractéristiques
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,7 +87,7 @@ L’examen du chevauchement entre les caractéristiques et les segments peut vou
 
 ## Présentation des filtres de données dans le rapport de chevauchement segment-à-caractéristique {#data-filters-s2t-report}
 
-Décrit le fonctionnement des curseurs % de chevauchement de caractéristiques et de segments uniques.
+Décrit le fonctionnement des curseurs % de chevauchement des caractéristiques et des segments uniques.
 
 <!-- 
 
@@ -176,7 +176,7 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Trait Overlap] rapport contie
  </tbody> 
 </table>
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
