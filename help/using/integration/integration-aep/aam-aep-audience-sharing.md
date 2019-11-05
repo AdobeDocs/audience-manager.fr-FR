@@ -4,9 +4,9 @@ seo-description: Cet article décrit la manière dont les audiences sont partag�
 seo-title: Partage d’audience entre Audience Manager et Adobe Experience Platform
 solution: Audience Manager
 title: Partage d’audience entre Audience Manager et Adobe Experience Platform
-keywords: Partage d’audience AEP, segments AEP, segments de plateforme
+keywords: Partage d’audience AEP, segments AEP, segments de plateforme, partage de segments, partage d’audience
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 ---
 
