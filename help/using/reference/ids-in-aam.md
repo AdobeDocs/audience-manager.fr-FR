@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Index des ID dans Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: 7e553755d4510dc6803e77cca7d567e0d6e7cb2d
+source-git-commit: 7d168c754a9b99dfd88718a0c27c34f3c1dc61d5
 
 ---
 
@@ -34,13 +34,13 @@ Consultez ce document pour obtenir la liste complète des ID Adobe Audience Mana
 
 ## ID de périphérique global {#global-device-ids}
 
-Les identifiants de périphérique globaux sont des identifiants publicitaires de périphérique, propres à chaque périphérique, fournis par le fabricant du périphérique ou le système d’exploitation. Le tableau ci-dessous décrit ces identifiants et leur format.
+Les identifiants de périphérique globaux sont des identifiants publicitaires de périphérique, propres à chaque périphérique, fournis par le fabricant du périphérique ou le système d’exploitation. Le tableau ci-dessous décrit ces identifiants et leur format. Pour plus d’informations sur les ID de périphérique globaux et leur utilisation dans Audience Manager, consultez Sources [de données](/help/using/features/global-data-sources.md)globales.
 
-| ID | Nom et description | Exemple |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [!DNL IDFA] | [!DNL Identifier for Advertisers] Les identifiants sont des identifiants de périphérique mobile fournis par le fabricant du périphérique. Ces identifiants représentent les périphériques qui exécutent le système d’exploitation iOS. | Le format est strictement composé de 32 chiffres hexadécimaux majuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères.<br> Exemple: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
-| [!DNL GAID] | [!DNL Google Advertising ID]s sont des identifiants de périphériques mobiles fournis par les fabricants de périphériques Android. Ces identifiants représentent les périphériques qui exécutent le système d’ [!DNL Android] exploitation. | Le format est strictement composé de 32 chiffres hexadécimaux minuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères. <br>Exemple: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
-| [!DNL RIDA] | [!DNL Roku IDs for Advertising] représentent les périphériques [!DNL Roku] de diffusion en continu. | Le format est strictement composé de 32 chiffres hexadécimaux minuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères. <br>Exemple: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
-| [!DNL MAID] | [!DNL Microsoft Advertising ID]s sont des identifiants de périphérique générés par [!DNL Windows 10] chaque périphérique, par utilisateur. | [!DNL MAID]s sont formatées sous la forme de chaînes alphanumériques. |
-| [!DNL DUID] | [!DNL Samsung DUID]s sont des identifiants de périphériques fournis par les téléviseurs Samsung Smart. | Les [!DNL DUID]Samsung sont formatés sous la forme de chaînes alphanumériques. |
-| [!DNL Amazon Fire TV Advertising ID] | Identifiants de périphérique représentant les périphériques exécutant le système d’ [!DNL Fire OS] exploitation. | Le format est strictement composé de 32 chiffres hexadécimaux minuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères. <br>Exemple : `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
+| ID | ID de source de données globale | Nom et description | Exemple |
+| --------------------- | ------ | ------------ | ---------------- |
+| [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] Les identifiants sont des identifiants de périphérique mobile fournis par le fabricant du périphérique. Ces identifiants représentent les périphériques qui exécutent le système d’exploitation iOS. | Le format est strictement composé de 32 chiffres hexadécimaux majuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères.<br> Exemple: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
+| [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s sont des identifiants de périphériques mobiles fournis par les fabricants de périphériques Android. Ces identifiants représentent les périphériques qui exécutent le système d’ [!DNL Android] exploitation. | Le format est strictement composé de 32 chiffres hexadécimaux minuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères. <br>Exemple: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
+| [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] représentent les périphériques [!DNL Roku] de diffusion en continu. | Le format est strictement composé de 32 chiffres hexadécimaux minuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères. <br>Exemple: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
+| [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s sont des identifiants de périphérique générés par [!DNL Windows 10] chaque périphérique, par utilisateur. | [!DNL MAID]s sont formatées sous la forme de chaînes alphanumériques. |
+| [!DNL DUID] | 404660 | [!DNL Samsung DUID]s sont des identifiants de périphériques fournis par les téléviseurs Samsung Smart. | Les [!DNL DUID]Samsung sont formatés sous la forme de chaînes alphanumériques. |
+| [!DNL Amazon Fire TV Advertising ID] | 488258 | Identifiants de périphérique représentant les périphériques exécutant le système [!DNL Fire OS] d’exploitation. | Le format est strictement composé de 32 chiffres hexadécimaux minuscules, affichés en cinq groupes et séparés par des tirets, au format 8-4-4-4-12, pour un total de 36 caractères. <br>Exemple : `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
