@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macros de création de modèles sortants (en anglais)
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
 
 ---
 
@@ -38,6 +38,10 @@ Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le no
   <tr> 
    <td colname="col1"> <p> <code> MASTER_DPID </code> </p> </td> 
    <td colname="col2"> <p>ID utilisateur Identifiant du fournisseur de données de clé. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> NEW_LINE </code> </p> </td> 
+   <td colname="col2"> <p> Permet de créer des en-têtes multilignes pour les commandes sortantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
@@ -161,7 +165,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour cons
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Renvoie une liste de segments dans une liste. Accepte les arguments facultatifs suivants : </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>:ID de segment. Obsolète. Utilisez <code> sid </code>. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID de segment. Obsolète. Utilisez <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID de segment du client. Obsolète. Utilisez <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID de segment </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Renvoie <code> 5 </code>, une valeur statique codée en dur qui identifie les données comme des données de segment. </li> 
