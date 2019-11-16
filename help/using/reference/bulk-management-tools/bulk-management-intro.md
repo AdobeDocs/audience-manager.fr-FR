@@ -1,13 +1,13 @@
 ---
 description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour travailler avec des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
-keywords: baam;BAAAM
+keywords: baaam;BAAAM
 seo-description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour travailler avec des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
 seo-title: Prise En Main De La Gestion En Bloc
 solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
 
 ---
 
@@ -39,7 +39,7 @@ Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20191015.xl
 Pour utiliser le [!DNL Bulk Management Tools], vous devez disposer des éléments suivants :
 
 * Votre [!DNL Experience Cloud] connexion. En tant que client, vous devez déjà disposer de ces informations d’identification.
-* La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) de calcul pour obtenir la dernière version.
+* La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille](assets/BAAAM_V2_20191015.xlsm) de calcul pour obtenir la dernière version.
 * Microsoft Excel s'exécutant sur [!DNL macOS] ou 64 bits [!DNL Microsoft Windows].
 * Lors de l’ouverture de la feuille de calcul, vous devez **activer les macros** pour que la [!DNL Bulk Management Tools] feuille de calcul fonctionne.
 
@@ -118,10 +118,4 @@ Prenons l'exemple de la création simultanée de plusieurs caractéristiques. Po
 >[!NOTE]
 >
 >Lorsque vous travaillez avec des requêtes volumineuses, la feuille de calcul peut ne plus répondre et apparaître inactive. Dans ces cas, laissez-le tranquille. La feuille de calcul sera réactive une fois la demande en masse terminée. Si la feuille de calcul ne répond pas pendant une longue période, reportez-vous à la section [](../../reference/bulk-management-tools/bulk-troubleshooting.md)Dépannage.
-
-
-
->[!MORELIKETHIS]
->
->* [Téléchargement de la feuille de calcul de gestion en bloc](assets/BAAAM_August_2018.xlsm)
 
