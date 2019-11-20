@@ -5,7 +5,7 @@ seo-title: Configuration d’audiences personnalisées Twitter en tant que desti
 solution: Audience Manager
 title: Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique
 translation-type: tm+mt
-source-git-commit: 4af2d7a4e2162f8d69273cf76aecb5f1ff00e7b6
+source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
 
 ---
 
