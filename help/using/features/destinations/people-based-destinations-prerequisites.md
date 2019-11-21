@@ -5,7 +5,7 @@ seo-title: Destinations basées sur les personnes Conditions préalables et cons
 solution: Audience Manager
 title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
+source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
 
@@ -56,7 +56,7 @@ Le hachage est une fonction à sens unique qui brouille l’entrée pour produir
 
 ## Exigences de hachage {#hashing-requirements}
 
-Lorsque vous hachez les adresses électroniques, veillez à respecter les exigences suivantes :
+Lors du hachage des adresses électroniques, veillez à respecter les exigences suivantes :
 
 * Rogner tous les espaces de début et de fin de la chaîne de courrier électronique ; exemple : `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
 * Lors du hachage des chaînes de courrier électronique, veillez à hacher la chaîne minuscule ;
@@ -69,7 +69,7 @@ Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=fre_fr)
 
-Adobe Experience Cloud vous permet de hacher les ID de client via le service d’ID Experience Cloud. Voir Prise en charge du hachage [SHA256 pour setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) pour obtenir des informations détaillées sur la manière d’utiliser ECID pour hacher les ID de client.
+Adobe Experience Cloud vous permet de hacher les ID de client via le service d’ID d’Experience Cloud. Voir Prise en charge du hachage [SHA256 pour setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) pour obtenir des informations détaillées sur la manière d’utiliser ECID pour hacher les ID de client.
 
 ## Obtention de l’autorisation utilisateur {#obtaining-user-permission}
 
@@ -77,7 +77,7 @@ Puisque [!DNL People-Based Destinations] vous pouvez activer des données d’au
 
 Avant de vous inscrire [!DNL People-Based Destinations], assurez-vous d'obtenir le consentement de vos clients avant d'utiliser leurs informations à des fins publicitaires.
 
-Si vos clients souhaitent s’exclure des campagnes publicitaires, reportez-vous à la section Gestion [des](../../overview/data-security-and-privacy/opt-out-management.md) exclusions pour plus d’informations sur la manière d’empêcher Audience Manager de collecter des données.
+Si vos clients souhaitent s’exclure des campagnes publicitaires, reportez-vous à la section Gestion [des](../../overview/data-security-and-privacy/data-privacy-requests.md) exclusions pour plus d’informations sur la manière d’empêcher Audience Manager de collecter des données.
 
 ## Activation des données propriétaires {#enforcing-first-party-activation}
 
