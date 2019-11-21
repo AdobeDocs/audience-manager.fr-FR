@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données des clics sur les campagnes par appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -124,12 +124,12 @@ Les événements de clic prennent en charge les macros répertoriées dans le ta
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
    <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a> </p><p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a> </p><p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
    <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/aam-gdpr/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>, alors <code>%gdpr_consent%</code> est remplacé par la chaîne <code>gdpr_consent</code> (voir les <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">spécifications IAB</a>).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>, alors <code>%gdpr_consent%</code> est remplacé par la chaîne <code>gdpr_consent</code> (voir les <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">spécifications IAB</a>).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
   </tr> 
  </tbody> 
 </table>
