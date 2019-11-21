@@ -1,10 +1,10 @@
 ---
 product: audience-manager
-audience: utilisateur final
-user-guide-title: Guide de l’utilisateur d’Audience Manager
+audience: end-user
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + Aperçu{#overview}
    + [Présentation d’Audience Manager](overview/aam-overview.md)
    + [Types de données collectées](overview/data-types-collected.md)
-   + Data Security and Privacy {#data-security-and-privacy}
-      + [Aperçu](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [Sécurité des données](overview/data-security-and-privacy/data-security.md)
-      + [Confidentialité des données](overview/data-security-and-privacy/data-privacy.md)
-      + [Gestion des exclusions](overview/data-security-and-privacy/opt-out-management.md)
-   + Règlement général sur la protection des données{#gdpr}
-      + [RGPD dans Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-      + [Considérations sur le RMMD pour les destinations](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [FAQ relative au RGPD](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [Module externe Audience Manager pour IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [Sécurité des données](overview/data-security-and-privacy/data-security.md)
+   + Confidentialité des données {#data-privacy}
+      + [Présentation de la confidentialité des données](overview/data-security-and-privacy/data-privacy.md)
+      + [Demandes de confidentialité de données](overview/data-security-and-privacy/data-privacy-requests.md)
+      + Référence de confidentialité des données {#data-privacy-reference}
+         + [Identifiants Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [Glossaire CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [Glossaire du RDPR](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [Considérations sur le RMMD pour les destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Guide de préparation GDPR pour les clients d’Audience Manager](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + Gestion du consentement {#consent-management}
+         + [Gestion du consentement](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [Module externe Audience Manager pour IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [Gouvernance des données](overview/data-security-and-privacy/data-governance.md)
 + Fonctionnalités{#features}
    + [Audiences adressables](features/addressable-audiences.md)
    + Administration{#administration}
