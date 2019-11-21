@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Synchronisation des identifiants pour les transferts de données entrants
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -61,11 +61,11 @@ L’appel [!DNL URL] de synchronisation des identifiants entrants doit contenir 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le module externe <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code> gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique). </p> <p> <b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le module externe <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code> gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique). </p> <p> <b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le module externe <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code>gdpr_consent</code> est la chaîne de consentement du RDDC codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB</a>). </p> <p> <b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le module externe <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code>gdpr_consent</code> est la chaîne de consentement du RDDC codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB</a>). </p> <p> <b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
