@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Synchronisation des identifiants pour les transferts de données sortants
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -60,7 +60,7 @@ L’appel [!DNL URL] de synchronisation des identifiants entrants doit contenir 
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p><p><b>Remarque :</b> <ul><li>Les paramètres <code>gdpr</code> et <code>gdpr_consent</code> sont progressivement déployés dans les URL de synchronisation des identifiants avec les partenaires d’activation. Reportez-vous à la page Partenaires d’activation qui prennent en charge le TCF IAB dans le module externe <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager pour le TCF IAB.</a></li><li>Ce paramètre ne peut être utilisé qu’avec <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique).</p><p><b>Remarque :</b> <ul><li>Les paramètres <code>gdpr</code> et <code>gdpr_consent</code> sont progressivement déployés dans les URL de synchronisation des identifiants avec les partenaires d’activation. Reportez-vous à la page Partenaires d’activation qui prennent en charge le TCF IAB dans le module externe <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager pour le TCF IAB.</a></li><li>Ce paramètre ne peut être utilisé qu’avec <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
