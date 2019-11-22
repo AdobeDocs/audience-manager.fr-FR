@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapport de chevauchement de segments et de caractéristiques
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -134,11 +134,11 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Trait Overlap] rapport contie
    <td colname="col2"> ID numérique unique du segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nom du fournisseur de données</span></b> </td> 
-   <td colname="col2"> Nom du propriétaire du segment. </td> 
+   <td colname="col1"><b><span class="wintitle"> Source de données de caractéristiques </span></b> </td> 
+   <td colname="col2"> Nom du propriétaire de la caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Type de fournisseur de données</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Type de source de données</span></b> </td> 
    <td colname="col2">Définit le type de fournisseur auquel appartient une caractéristique. Peut être : 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Propriétaire (votre propre caractéristique). </li> 
@@ -146,12 +146,12 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Trait Overlap] rapport contie
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> ID numérique unique du segment. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID de trait</span></b> </td> 
+   <td colname="col2"> ID numérique unique de la caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nom SID</span></b> </td> 
-   <td colname="col2"> Nom du segment. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nom du trait</span></b> </td> 
+   <td colname="col2"> Nom de la caractéristique. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Pourcentage de chevauchement des caractéristiques uniques</span></b> </td> 
