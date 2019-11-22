@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapport de chevauchement de caractéristiques
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -68,36 +68,44 @@ La fenêtre contextuelle du [!UICONTROL Trait-to-Trait Overlap] rapport contient
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nom du fournisseur de données</span></b> </td> 
-   <td colname="col2"> Nom du propriétaire du trait. </td> 
+   <td colname="col1"><b><span class="wintitle"> % de chevauchement</span></b> </td> 
+   <td colname="col2"> Indique le pourcentage de chevauchement unique entre les caractéristiques comparées (valeurs uniques/valeurs uniques de chevauchement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Type de fournisseur de données</span></b> </td> 
-   <td colname="col2">Définit le type de fournisseur auquel appartient une caractéristique. Peut être : 
+   <td colname="col1"><b><span class="wintitle"> Type de source de données</span></b> </td> 
+   <td colname="col2">Définit le type de source de données auquel appartient une caractéristique. Peut être : 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Propriétaire (votre propre caractéristique). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Tiers (provenant d’un partenaire/fournisseur de données externe). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID de trait</span></b> </td> 
-   <td colname="col2"> ID numérique unique pour cette caractéristique. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID de caractéristique superposée</span></b> </td> 
+   <td colname="col2"> ID numérique unique pour la caractéristique qui se superpose. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nom du trait</span></b> </td> 
-   <td colname="col2"> Nom de la caractéristique. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nom de caractéristique superposé</span></b> </td> 
+   <td colname="col2"> Nom de la caractéristique qui se superpose. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> ID de trait 2</span></b> </td> 
+   <td colname="col2"> Identifiant numérique unique pour la caractéristique de votre source de données de base. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % de chevauchement</span></b> </td> 
-   <td colname="col2"> Indique le pourcentage de chevauchement unique entre les caractéristiques comparées (valeurs uniques/valeurs uniques de chevauchement). </td> 
+   <td colname="col1"><b><span class="wintitle"> Nom du trait 2</span></b> </td> 
+   <td colname="col2"> Nom de la caractéristique dans votre source de données de base. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Chevauchement de valeurs uniques</span></b> </td> 
-   <td colname="col2"> <p>Pour obtenir le pourcentage de chevauchement, Audience Manager utilise la formule suivante :</p> <p>Uniques de chevauchement / (Uniques de segments de base + Uniques de segments de chevauchement - Uniques de segments de chevauchement)</p> </td> 
+   <td colname="col2"> <p>Pour obtenir le pourcentage de chevauchement, Audience Manager utilise la formule suivante :</p> <p>Uniques superposées / (Uniques de caractéristiques de base + Uniques de caractéristiques superposées - Uniques superposées)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Caractéristiques uniques</span></b> </td> 
-   <td colname="col2"> Nombre de visiteurs uniques dans la caractéristique. </td> 
+   <td colname="col1"><b><span class="wintitle"> Uniques de caractéristiques superposées</span></b> </td> 
+   <td colname="col2"> Nombre de visiteurs uniques provenant d’une caractéristique qui se superpose. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Caractéristiques uniques de base</span></b> </td> 
+   <td colname="col2"> Nombre de visiteurs uniques provenant de la caractéristique de base. </td> 
   </tr> 
  </tbody> 
 </table>
