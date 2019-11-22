@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Importation de fichiers de données DPF dans Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
@@ -23,8 +23,8 @@ Pour utiliser les fichiers journaux DFP ( [!DNL DoubleClick For Publishers]) dan
 
 Voici comment définir l’ [!DNL Audience Manager] ID dans l’appel de balise publicitaire, comme expliqué dans notre documentation :
 
-* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Via une destination de cookie](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Via une destination de cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 Vous devez définir vous-même la [!DNL Audience Manager] carte d'identité et vous pouvez travailler avec [!DNL Audience Manager] un consultant pour vérifier si tout fonctionne. Vous avez correctement défini l’ [!DNL Audience Manager] ID si :
 
