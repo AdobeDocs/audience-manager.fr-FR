@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapport de chevauchement de segments
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -58,14 +58,16 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport cont
 
 | Mesure | Description |
 |---|---|
-| **[!UICONTROL Segment ID1]** | Identifiant numérique unique pour le segment qui apparaît dans les résultats du rapport. S’affiche comme ID de ligne pour le segment. |
-| **[!UICONTROL Segment ID2]** | ID numérique unique du segment sélectionné lors de l’exécution du rapport. S’affiche comme ID de colonne pour le segment. |
-| **[!UICONTROL Segment Name1]** | Nom du segment qui apparaît dans la ligne des résultats du rapport. |
-| **[!UICONTROL Segment Name2]** | Nom du segment sélectionné lors de l’exécution du rapport. S’affiche dans la colonne des résultats du rapport. |
-| **[!UICONTROL Overlap %]** | Pour obtenir le pourcentage de chevauchement, Audience Manager utilise la formule suivante :Uniques de chevauchement / (Uniques de segments de base + Uniques de segments de chevauchement - Uniques de segments de chevauchement) |
-| **[!UICONTROL Overlap Uniques]** | Nombre de visiteurs uniques partagés entre les segments comparés. |
-| **[!UICONTROL Segment Uniques1]** | Nombre de visiteurs uniques dans le segment 1. |
-| **[!UICONTROL Segment Uniques2]** | Nombre de visiteurs uniques dans le segment 2. |
+| **[!UICONTROL Base Segment ID]** | Identifiant numérique unique pour le segment qui apparaît dans les résultats du rapport. S’affiche comme ID de ligne pour le segment. |
+| **[!UICONTROL Base Segment Name]** | Nom du segment qui apparaît dans la ligne des résultats du rapport. |
+| **[!UICONTROL Overlapping Segment ID]** | ID numérique unique du segment sélectionné lors de l’exécution du rapport. S’affiche comme ID de colonne pour le segment. |
+| **[!UICONTROL Overlapping Segment Name]** | Nom du segment sélectionné lors de l’exécution du rapport. S’affiche dans la colonne des résultats du rapport. |
+| **[!UICONTROL Base Segment Uniques]** | Nombre de visiteurs uniques dans votre segment de base. |
+| **[!UICONTROL Base Segment Uniques]** | Nombre de visiteurs uniques dans votre segment qui se chevauche. |
+| **[!UICONTROL Overlapping Uniques]** | Nombre de visiteurs uniques partagés entre les segments comparés. |
+| **[!UICONTROL Overlap %]** | Pour obtenir le pourcentage de chevauchement, Audience Manager utilise la formule suivante : Uniques en chevauchement / (Uniques de segments de base + Uniques de segments en chevauchement - Uniques en chevauchement) |
+
+
 
 >[!MORELIKETHIS]
 >
