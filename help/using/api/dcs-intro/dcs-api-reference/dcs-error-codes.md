@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Codes, messages et exemples d’erreur des serveurs de collecte de données
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -80,7 +80,7 @@ In the tables below, *italics* represents a variable placeholder.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>Le référent <code>HTTP referer</code> n’est pas autorisé pour le partenaire <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>L'en-tête [!DNL HTTP referer] de l'appel n'est pas autorisé pour l'ID de partenaire de l'appel. Vérifiez que l'en-tête [!DNL HTTP referer] est correct.</p> </td>
+   <td colname="col3"> <p>L' <code>HTTP referer</code> en-tête de l'appel n'est pas autorisé pour l'ID de partenaire de l'appel. Vérifiez que l’ <code>HTTP referer</code> en-tête est correct.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -234,7 +234,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>L’ID de client a été ignoré car il dépassait la limite d’un espace de noms donné. L’ID d’espace de noms est <code><i>ID</i></code>, l’ID de client est <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Ce code d’erreur est renvoyé s’il existe plus de 3 ID de client déclarés pour le même espace de noms (<code> DPID</code>) sur un appel <span class="wintitle"> DCS</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Dans cet exemple de demande <span class="wintitle"> DCS</span> , il existe 4 identifiants déclarés pour le même espace de noms (avec le code d’intégration 1). L’un des ID est ignoré et l’erreur 310 est renvoyée. </p> </td> 
+   <td colname="col3"> <p>Ce code d’erreur est renvoyé s’il existe plus de 3 ID de client déclarés pour le même espace de noms (<code> DPID</code>) sur un appel <span class="wintitle"> DCS</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Dans cet exemple de requête <span class="wintitle"> DCS</span> , il existe 4 identifiants déclarés pour le même espace de noms (avec le code d’intégration 1). L’un des ID est ignoré et l’erreur 310 est renvoyée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
