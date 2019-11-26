@@ -1,12 +1,12 @@
 ---
-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+description: Le processus de transfert de données en temps réel sortant renvoie les données utilisateur sous la forme d’une série d’objets JSON transmis avec une méthode POST.
 seo-description: Le processus de transfert de données en temps réel sortant renvoie les données utilisateur sous la forme d’une série d’objets JSON transmis avec une méthode POST.
 seo-title: Transferts de données sortantes en temps réel
 solution: Audience Manager
 title: Transferts de données sortantes en temps réel
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -22,28 +22,28 @@ Le processus de transfert de données en temps réel sortant fournit les donnée
 Pour utiliser cette méthode, la plateforme de destination doit répondre aux exigences suivantes :
 
 * Il doit fournir un point de terminaison [!DNL URL] pouvant être mis à l’échelle pour recevoir un volume élevé de messages d’Audience Manager ;
-* It must accept data in  format ();[!DNL JSON]`Content-type: application/json`
-* Il doit accepter des transferts `HTTPS` de données sécurisés. [!DNL Audience Manager] will not send messages through the unsecure  protocol.`HTTP`
+* Il doit accepter les données au [!DNL JSON] format (`Content-type: application/json`);
+* Il doit accepter des transferts `HTTPS` de données sécurisés. [!DNL Audience Manager] n'enverra pas de messages via le `HTTP` protocole non sécurisé.
 
 ## Fréquence
 
-Cette méthode de transfert de données permet d’envoyer des données en temps quasi réel, car les utilisateurs remplissent les conditions requises pour les segments. Real-time messages are only delivered while the user is online and actively visible to the Audience Manager Edge network. Optionally, this method can also send batches of offline or onboarded data as frequently as every 24-hours.
+Cette méthode de transfert de données permet d’envoyer des données en temps quasi réel, car les utilisateurs remplissent les conditions requises pour les segments. Les messages en temps réel ne sont diffusés que lorsque l’utilisateur est connecté et activement visible sur le réseau Edge d’Audience Manager. Cette méthode peut également envoyer des lots de données hors ligne ou intégrées aussi souvent que toutes les 24 heures.
 
 ## Transferts par lots
 
-Both real-time and batch transfers are sent to the same endpoint and use the same message format. Lorsque les transferts par lot sont activés, la plateforme de destination voit un pic dans le volume des messages pendant la remise des messages par lot. Bon nombre des qualifications du segment envoyées par le biais de messages en temps réel seront répétées dans les messages par lots. Les transferts par lots incluront uniquement les qualifications (ou non-qualifications) du segment qui ont changé depuis la livraison du dernier lot.
+Les transferts en temps réel et par lots sont envoyés au même point de fin et utilisent le même format de message. Lorsque les transferts par lot sont activés, la plateforme de destination voit un pic dans le volume des messages pendant la remise des messages par lot. Bon nombre des qualifications du segment envoyées par le biais de messages en temps réel seront répétées dans les messages par lots. Les transferts par lots incluront uniquement les qualifications (ou non-qualifications) du segment qui ont changé depuis la livraison du dernier lot.
 
-## Rate Limits
+## Limites de taux
 
-There are no rate limits set on the throughput of delievered messages. Setting rate limits could lead to data loss.
+Aucune limite de débit n'est fixée pour le débit des messages diffusés. La définition de limites de taux peut entraîner une perte de données.
 
-## Required Responses
+## Réponses requises
 
-By default, the recipient server must return the  code to indicate successful receipt. `200 OK` Other codes will be interpreted as failures. This response is expected within 3000 milliseconds. En cas d’échec, [!DNL Audience Manager] une seule tentative est effectuée.
+Par défaut, le serveur destinataire doit renvoyer le `200 OK` code pour indiquer la réception réussie. Les autres codes seront interprétés comme des échecs. Cette réponse est attendue dans les 3 000 millisecondes. En cas d’échec, [!DNL Audience Manager] une seule tentative est effectuée.
 
 ## Paramètres
 
-The following table defines the elements in the  data file that you send to the destination.[!DNL JSON]
+Le tableau suivant définit les éléments du fichier de [!DNL JSON] données que vous envoyez à la destination.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -64,8 +64,8 @@ The following table defines the elements in the  data file that you send to the 
    <td colname="col2"> <p>Entier </p> </td> 
    <td colname="col3"> <p>ID qui indique le type d’ID de périphérique contenu dans le message, dans la propriété User.DataPartner_UUID. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Identifiants Android (GAID) : <code> 2014</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">ID iOS (IDFA) : <code> 2015</code> </li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Identifiants Android (GAID) : <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">ID iOS (IDFA) : <code> 20915</code> </li>
      <li>ID de cookie/Web : varie selon la plateforme de destination</li>
     </ul> </td> 
   </tr> 
@@ -82,35 +82,35 @@ The following table defines the elements in the  data file that you send to the 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
-   <td colname="col3"> <p>Nombre total d’utilisateurs dans la requête <code> POST</code> . </p> </td> 
+   <td colname="col3"> <p>Nombre total d’utilisateurs dans la <code> POST</code> requête. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Utilisateurs</i></code> </td> 
+   <td colname="col1"><code><i>Users</i></code> </td> 
    <td colname="col2"> <p>Tableau </p> </td> 
    <td colname="col3"> <p>Tableau d’objets utilisateur. Par défaut, chaque message contiendra entre 1 et 10 utilisateurs, afin que la taille du message reste optimale. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>The  Audience Manager UUID.<span class="keyword"></span> </p> </td> 
+   <td colname="col3"> <p>UUID <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Destination platform UUID or the global device ID. </p> </td> 
+   <td colname="col3"> <p>UUID de plate-forme de destination ou ID de périphérique global. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>User.AAM_Years</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Tableau </td> 
-   <td colname="col3"> The  Audience Manager region ID where we've seen this device. <span class="keyword"></span> For instance, if the device had some activity in Paris (Europe), the region ID would be  6. <code></code> Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données</a> (DCS Region IDs, Locations, and Host Names). </td> 
+   <td colname="col3"> Identifiant de région d’Audience Manager <span class="keyword"></span> où nous avons vu ce périphérique. Par exemple, si le périphérique avait une certaine activité à Paris (Europe), l’ID de région serait <code> 6</code>. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données</a> (DCS Region IDs, Locations, and Host Names). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
    <td colname="col2"> <p>Tableau </p> </td> 
-   <td colname="col3"> <p>An array of segment objects. For real-time messages, the array contains all of the segments the user belongs to. For batch messages, the array contains only segment changes since the last batch.</p> </td> 
+   <td colname="col3"> <p>Tableau d’objets de segment. Pour les messages en temps réel, le tableau contient tous les segments auxquels appartient l’utilisateur. Pour les messages par lot, le tableau contient uniquement les modifications de segment depuis le dernier lot.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
    <td colname="col3"> <p>Identifiant du segment. Dans la plupart des cas, il s’agit de l’identifiant de segment généré par Audience Manager (entier). Dans certains cas, si la plate-forme de destination le permet, les clients peuvent définir l’identifiant de segment dans l’interface utilisateur d’Audience Manager (champ de texte ouvert), ce qui est répercuté dans cette propriété. </p> </td> 
   </tr> 
@@ -126,20 +126,20 @@ The following table defines the elements in the  data file that you send to the 
      <li id="li_8352B919A87242E68716FB9EC0443407">Supprimé d’un segment en fonction de la règle de segment. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Supprimé d’un segment en fonction de l’intervalle <a href="../../../features/traits/segment-ttl-explained.md"> de</a>durée de vie du segment. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Déplacé vers un état inactif s’ils n’ont pas été vus depuis 120 jours. </li>
-     <li>Removed due to a privacy change request (i.e. [!DNL GDPR])</li>
-    </ul> <p>Tous les identifiants de partenaire synchronisés avec un <span class="keyword"> ID Audience Manager</span> recevront l’indicateur <code> "État":"0"</code> lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
+     <li>Supprimé en raison d’une demande de modification de la confidentialité (c.-à-d. <span class="keyword"> RDDC</span>)</li>
+    </ul> <p>Tous les identifiants de partenaire synchronisés avec un <span class="keyword"> ID Audience Manager</span> recevront l’indicateur <code> "Status":"0"</code> lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>The time when the user-segment qualification was most recently verified.</p> </td> 
+   <td colname="col3"> <p>Heure à laquelle la qualification du segment utilisateur a été vérifiée le plus récemment.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Sécurité
 
-You can secure your real-time outbound data transfer process by signing HTTP requests using private keys or by having  authenticate through the OAuth 2.0 protocol.[](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)[!DNL Audience Manager][](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
+Vous pouvez sécuriser votre processus de transfert de données sortantes en temps réel en [signant des requêtes](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) HTTP à l’aide de clés privées ou en vous [!DNL Audience Manager] authentifiant via le protocole [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) .
 
 ## Demande
 
