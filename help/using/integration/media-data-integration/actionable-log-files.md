@@ -1,13 +1,13 @@
 ---
 description: Les fichiers journaux exploitables vous permettent de capturer les signaux du média à partir des fichiers journaux du serveur d’annonces afin de créer des caractéristiques dans Audience Manager. Capturez les impressions, les clics et les conversions depuis les serveurs d’annonces en tant que caractéristiques sans avoir à ajouter de pixels.
-keywords: journaux exploitables, alf, ALF
+keywords: actionable logs, alf, ALF
 seo-description: Les fichiers journaux exploitables vous permettent de capturer les signaux du média à partir des fichiers journaux du serveur d’annonces afin de créer des caractéristiques dans Audience Manager. Capturez les impressions, les clics et les conversions depuis les serveurs d’annonces en tant que caractéristiques sans avoir à utiliser l’ajout de pixels.
 seo-title: Fichiers journaux pratiques
 solution: Audience Manager
 title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -160,7 +160,7 @@ Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les ca
 
 ### Signaux utilisables à partir des journaux de serveur d’annonces génériques {#generic-logs-signals}
 
-Tout d’abord, vous devez déposer les journaux de votre serveur d’annonces dans nos compartiments Amazon S3. Pour ce faire, lisez Fichiers de [données pour les rapports d’optimisation de l’audience et les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) journaux utilisables *et contactez votre* [!DNL Audience Manager] consultant. Le tableau répertorie les signaux exploitables provenant des fichiers journaux génériques :
+Tout d’abord, vous devez déposer les journaux de votre serveur d’annonces dans nos seaux Amazon S3. Pour ce faire, lisez Fichiers de [données pour les rapports d’optimisation de l’audience et les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) journaux utilisables *et contactez votre* [!DNL Audience Manager] consultant. Le tableau répertorie les signaux exploitables provenant des fichiers journaux génériques :
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -186,8 +186,8 @@ Tout d’abord, vous devez déposer les journaux de votre serveur d’annonces d
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Date et heure UTC pour l’événement d’impression, de clic ou de conversion. Utilisez la fonctionnalité   <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> Date et heure UTC pour l’événement d’impression, de clic ou de conversion. Utilisez le <code>yyyy-MM-dd HH:mm:ss</code> format. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
