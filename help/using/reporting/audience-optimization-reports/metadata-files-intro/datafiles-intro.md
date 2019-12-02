@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fichiers de données pour les rapports d’optimisation d’audience et les fichiers journaux utilisables
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ Dans un nom de fichier :
 
 Compte tenu de ces exigences, nommez vos fichiers de données en fonction de leur contenu comme suit :
 
-* Données d’impression : <pre>impressions_<i>yyyyymmd<i>.gz</code></pre>
+* Données d’impression : <pre>impressions_<i>yyyyymmd</i>.gz</code></pre>
 * Données de clic : <pre>clicks_<i>yyyyyymmd</i>.gz</code></pre>
 * Données de conversion : <pre>conversions_<i>yyyyymmd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ Le tableau ci-dessous répertorie et décrit les en-têtes de colonne de votre f
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Horodatage </p> </td> 
-   <td colname="col2"> <p>Date et heure UTC pour l’événement d’impression, de clic ou de conversion. Utilisez le <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
+   <td colname="col2"> <p>Date et heure UTC pour l’événement d’impression, de clic ou de conversion. Utilisez le <code> yyyy-MM-dd HH:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -145,7 +145,7 @@ Téléchargez vos fichiers de données d’impression, de clic ou de conversion 
 
 Les données sont stockées dans un espace de noms distinct pour chaque client dans un répertoire Amazon S3. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
-**Syntaxe :** <pre> .../log_ingestion/pid= ID <i><i>AAM/dpid= <i>d_src</i>/logs/ type <i>de</i>fichier_<i>yyyymmdd</i></code></pre>
+**Syntaxe :** <pre>.../log_ingestion/pid= ID <i><i>AAM/dpid= <i>d_src</i>/logs/ type <i>de</i>fichier_<i>yyyymmdd</i></code></pre>
 
 Le tableau suivant définit chacun de ces éléments dans un chemin de remise de fichier.
 
