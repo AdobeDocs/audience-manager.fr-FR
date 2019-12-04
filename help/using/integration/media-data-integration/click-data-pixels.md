@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données des clics sur les campagnes par appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 
 ---
 
@@ -20,7 +20,7 @@ Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long d
 Les appels de suivi des clics nécessitent les paramètres suivants :
 
 * `d_event=click`: Paire clé-valeur qui identifie un appel d’événement en tant qu’événement de clic.
-* `d_rd=redirect URL`: Paire clé-valeur contenant une redirection codée [!DNL URL].
+* `d_rd=redirect URL`: Paire clé-valeur contenant une redirection codée en double [!DNL URL]. Si vous utilisez un outil de codage en ligne, exécutez la chaîne à travers l’encodeur, puis codez de nouveau le résultat, afin que la redirection fonctionne.
 
 En outre, l’appel peut contenir des paires clé-valeur qui peuvent être utilisées pour la qualification des caractéristiques ou pour fournir des données et des métadonnées pour d’autres rapports.
 
@@ -150,8 +150,7 @@ Cet exemple montre comment transmettre les macros de création, de groupe et de 
 
 ```
 https://client.demdex.net/event?d_event=click&d_creative=1235&d_src=203&d_campaign=4709&d_adgroup=3408&d_placement=1001&
-d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25%26campaign%3D%25d_campaign%25%26adgroup%3D%25
-d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
+d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creative%2525%2526campaign%253D%2525d_campaign%2525%2526adgroup%253D%2525%0Ad_adgroup%2525%2526d_placement%253D%2525placement%2525%2526src%253D%2525d_src%2525
 ```
 
 ## Réponse
