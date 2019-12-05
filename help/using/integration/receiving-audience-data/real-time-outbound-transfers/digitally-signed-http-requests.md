@@ -1,25 +1,25 @@
 ---
-description: Audience Manager requiert que les requêtes serveur à serveur HTTP soient numériquement signées pour être valides. Ce document décrit comment signer des requêtes HTTP à l’aide de clés privées.
-seo-description: Audience Manager requiert que les requêtes serveur à serveur HTTP soient numériquement signées pour être valides. Ce document décrit comment signer des requêtes HTTP à l’aide de clés privées.
-seo-title: Demandes HTTP numériquement signées
+description: Audience Manager requiert que les requêtes serveur à serveur HTTP(S) soient numériquement signées pour être valides. Ce document décrit comment signer des requêtes HTTP à l’aide de clés privées.
+seo-description: Audience Manager requiert que les requêtes serveur à serveur HTTP(S) soient numériquement signées pour être valides. Ce document décrit comment signer des requêtes HTTP(S) avec des clés privées.
+seo-title: Demandes HTTP(S) Signées Numériquement
 solution: Audience Manager
-title: Demandes HTTP numériquement signées
+title: Demandes HTTP(S) Signées Numériquement
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
+source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
 
 
-# Demandes `HTTP` signées numériquement {#digitally-signed-http-requests}
+# Demandes `HTTP(S)` signées numériquement {#digitally-signed-http-requests}
 
-Audience Manager requiert que les requêtes `HTTP` serveur à serveur soient numériquement signées pour être valides. Ce document décrit comment signer `HTTP` des requêtes à l’aide de clés privées.
+Audience Manager requiert que les requêtes `HTTP(S)` serveur à serveur soient numériquement signées pour être valides. Ce document décrit comment signer `HTTP(S)` des requêtes à l’aide de clés privées.
 
 ## Aperçu {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-A l’aide d’une clé privée fournie par vous et partagée avec [!DNL Audience Manager]vous, nous pouvons signer numériquement les `HTTP` requêtes envoyées entre [IRIS](../../../reference/system-components/components-data-action.md#iris) et votre serveur HTTP. Cela garantit :
+A l’aide d’une clé privée fournie par vous et partagée avec [!DNL Audience Manager]vous, nous pouvons signer numériquement les `HTTP(S)` requêtes envoyées entre [IRIS](../../../reference/system-components/components-data-action.md#iris) et votre serveur HTTP(S). Cela garantit :
 
 * **Authenticité**: seul l'expéditeur possédant la clé privée ([!UICONTROL IRIS]) peut envoyer `HTTP(S)` des messages valides au partenaire.
 * **Intégrité** du message : avec cette approche, même `HTTP`, vous êtes protégé contre un homme dans l' attaque du milieu où les messages sont déformés.
@@ -28,10 +28,10 @@ A l’aide d’une clé privée fournie par vous et partagée avec [!DNL Audienc
 
 ## Informations à fournir {#info-to-provide}
 
-Pour une destination serveur à serveur en `HTTP` temps réel, contactez votre [!DNL Audience Manager] consultant et spécifiez :
+Pour une destination serveur à serveur en `HTTP(S)` temps réel, contactez votre [!DNL Audience Manager] consultant et spécifiez :
 
 * Clé utilisée pour signer la requête.
-* Nom de l’ `HTTP` en-tête qui contiendra la signature générée (signature X dans l’exemple d’en-tête ci-dessous).
+* Nom de l’ `HTTP(S)` en-tête qui contiendra la signature générée (signature X dans l’exemple d’en-tête ci-dessous).
 * Facultatif : type de hachage utilisé pour la signature (md5, sha1, sha256).
 
 ```
@@ -47,8 +47,8 @@ POST message content
 
 ## How it works {#how-it-works}
 
-1. [!UICONTROL IRIS] crée le `HTTP` message à envoyer au partenaire.
-1. [!UICONTROL IRIS] crée une signature basée sur le `HTTP` message et la clé privée communiqués par le partenaire.
+1. [!UICONTROL IRIS] crée le `HTTP(S)` message à envoyer au partenaire.
+1. [!UICONTROL IRIS] crée une signature basée sur le `HTTP(S)` message et la clé privée communiqués par le partenaire.
 1. [!UICONTROL IRIS] envoie la `HTTP(S)` demande au partenaire. Ce message contient la signature et le message réel, comme illustré dans l’exemple ci-dessus.
 1. Le serveur partenaire reçoit la `HTTP(S)` demande. Il lit le corps du message et la signature reçue de [!UICONTROL IRIS].
 1. En fonction du corps du message reçu et de la clé privée, le serveur partenaire recalcule la signature. Voir la section [Comment calculer la signature](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) juste dessous sur la manière d’y parvenir.
@@ -63,8 +63,8 @@ POST message content
 
 ```
 // Message to be signed.
-// For GET type HTTP destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
-// For POST type HTTP destinations, the message used for signing will be the REQUEST_BODY.
+// For GET type HTTP(S) destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
+// For POST type HTTP(S) destinations, the message used for signing will be the REQUEST_BODY.
 // String getData = "/from-aam-s2s?sids=1,2,3";
 String postData = "POST message content";
 // Algorithm used. Currently supported: HmacSHA1, HmacSHA256, HmacMD5.
@@ -95,6 +95,6 @@ Pour des raisons de sécurité, il est recommandé de faire pivoter périodiquem
 
 ## Données utilisées pour la signature {#data-signing}
 
-Pour les destinations `GET` de type, le message utilisé pour la signature sera *REQUEST_PATH + QUERY STRING* (ex. */from-aam-s2s?sids=1,2,3*). IRIS ne prend pas en compte le nom d’hôte ou les en-têtes `HTTP` - ceux-ci peuvent être modifiés/mal configurés le long du chemin ou signalés de manière incorrecte.
+Pour les destinations `GET` de type, le message utilisé pour la signature sera *REQUEST_PATH + QUERY STRING* (ex. */from-aam-s2s?sids=1,2,3*). IRIS ne prend pas en compte le nom d’hôte ou les en-têtes `HTTP(S)` - ceux-ci peuvent être modifiés/mal configurés le long du chemin ou signalés de manière incorrecte.
 
 Pour les destinations `POST` de type, le message utilisé pour la signature est le *CORPS* DE REQUÊTE. Là encore, les en-têtes ou d’autres paramètres de requête sont ignorés.
