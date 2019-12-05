@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Exigences relatives au nom FTP et à la taille des fichiers pour les fichiers de données entrants
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
 
 ---
 
@@ -17,7 +17,7 @@ Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des
 
 >[!WARNING]
 >
->Le transfert FTP pour les fichiers de données entrants n’est plus pris en charge. Utilisez Amazon S3 pour embarquer des données hors ligne. Pour plus d’informations, voir Exigences en matière de nom et de taille de fichier [Amazon S3 pour les fichiers](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de données entrants.
+>Nous supprimons progressivement la prise en charge des configurations FTP. Bien que l’importation de fichiers de données entrants soit toujours prise en charge dans les intégrations FTP existantes, nous vous recommandons vivement d’utiliser Amazon S3 pour les données hors ligne intégrées. Pour plus d’informations, voir Exigences en matière de nom et de taille de fichier [Amazon S3 pour les fichiers](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de données entrants.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Un identifiant qui indique à <span class="keyword"> Audience Manager</span> si un fichier de données contient vos propres ID utilisateur, Android ou iOS. Accepte les options suivantes : </p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b></b> ID du partenaire de données :Il s’agit d’un identifiant unique attribué par Audience Manager à votre entreprise ou organisation. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> Audience Manager</span> qu’un partenaire avec l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b></b> ID du partenaire de données : Il s’agit d’un identifiant unique attribué par Audience Manager à votre entreprise ou organisation. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> Audience Manager</span> qu’un partenaire avec l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b></b> Identifiants Android (GAID) : Utilisez l’ID 20914 dans un nom de fichier de données s’il contient un ID Android. Par exemple, <code>...ftp_dpm_20914_123456789.sync</code> indique à <span class="keyword"> Audience Manager</span> que le fichier de données contient uniquement des ID Android. </li> 
      <li id="li_54E7734C121646AF82095806DD1AED61"> <b></b> ID iOS (IDFA) : Utilisez l’ID 20915 dans un nom de fichier de données s’il contient des ID iOS. Par exemple, <code>...ftp_dpm_20915_123456789.sync</code> indique à <span class="keyword"> Audience Manager</span> que le fichier de données contient uniquement des ID iOS. </li> 
     </ul> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, ne placez pas d’ID iOS ni vos propres ID dans le fichier de données. </p> </p> </td> 
