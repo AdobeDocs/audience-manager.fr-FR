@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Définition des options de règle de fusion de profil
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -29,9 +29,9 @@ Les règles de fusion de profils permettent plusieurs combinaisons de règles, c
 | Aucun profil sur plusieurs périphériques | Graphique de périphérique externe (inclut graphique de périphérique Co-op) | Tous les clients | Temps réel et lot | Non | [Ciblage étendu des périphériques](external-graph-use-cases.md#audience-expansion) |
 | Profils authentifiés actuels | Aucun profil de périphérique | Tous les clients | Temps réel uniquement | Non | [Ciblage de périphériques partagés](merge-rule-targeting-options.md#target-shared-devices) |
 | Derniers profils authentifiés | Profil du périphérique | Tous les clients | Temps réel et lot | Oui | [Ciblage en ligne/hors ligne](merge-rule-targeting-options.md#device-household-targeting) |
-| Derniers profils authentifiés |  Graphique de périphérique de lien de profil | Tous les clients | Temps réel et lot | Oui | [Ciblage sur plusieurs périphériques](profile-link-use-case.md#cross-device-personalization) |
+| Derniers profils authentifiés | Graphique de périphérique de lien de profil | Tous les clients | Temps réel et lot | Oui | [Ciblage sur plusieurs périphériques](profile-link-use-case.md#cross-device-personalization) |
 | Derniers profils authentifiés | Graphique de périphérique externe (inclut graphique de périphérique Co-op) | Tous les clients | Temps réel et lot | Non | [Ciblage avancé sur plusieurs périphériques](external-graph-use-cases.md#advanced-graph-expansion) |
-|  Tous les profils sur plusieurs périphériques | S.O. | Exclusif aux clients des destinations [basées sur les](../destinations/people-based-destinations-overview.md) personnes | Lot uniquement | Non | [Ciblage pour les destinations basées sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
+| Tous les profils sur plusieurs périphériques | S.O. | Exclusif aux clients des destinations [basées sur les](../destinations/people-based-destinations-overview.md) personnes | Lot uniquement | Non | [Ciblage pour les destinations basées sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
 
 ## Évaluation du segment de règle de fusion de profils {#segment-evaluation}
 
@@ -126,6 +126,10 @@ Vous [!UICONTROL Device Options] pouvez sélectionner le type de *`device profil
   </tr>
  </tbody>
 </table>
+
+## Stratégies de fusion externe {#external-merge-policies}
+
+Les segments d’audience qui ont été automatiquement créés à partir d’autres solutions Experience Cloud, en fonction de règles de fusion définies en dehors d’Audience Manager, sont marqués comme utilisant une [!UICONTROL External Merge Policy]balise . Par exemple, voir Partage [d’audience entre Audience Manager et Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
