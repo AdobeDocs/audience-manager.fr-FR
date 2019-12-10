@@ -1,12 +1,12 @@
 ---
-description: Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions servies et le nombre de conversions. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
+description: Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
 seo-description: Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
 seo-title: Rapport sur les fréquences optimales
 solution: Audience Manager
 title: Rapport sur les fréquences optimales
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -14,6 +14,8 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 # Rapport sur les fréquences optimales{#optimal-frequency-report}
 
 Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
+
+Le rapport a un intervalle de recherche de 30 jours, à partir de la date choisie dans le [!UICONTROL Date Through] sélecteur.
 
 Le volume de conversion diminue généralement avec les intervalles de fréquence d’impression plus élevés. Moins d’utilisateurs voient le nombre d’impressions le plus élevé. Cela signifie que ces intervalles de fréquence plus élevés ont moins de conversions.
 
@@ -23,5 +25,4 @@ Comme le montre l’exemple de rapport, l’intersection des tracés sur deux li
 
 ## Exemple de rapport
 
-![](assets/optimal-frequency.png)
-
+![fréquence optimale](assets/optimal-frequency.png)
