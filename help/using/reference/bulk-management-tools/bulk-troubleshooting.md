@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Conseils de dépannage pour les outils de gestion en bloc
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ Des facteurs tels que le trafic réseau important, l’utilisation du serveur et
 * Supprimez toutes les lignes qui ont déjà été mises à jour.
 * Réessayez la demande en bloc.
 
-## Retards longs ou comportement inactif {#delays-behavior}
+## Erreurs d’authentification, longs délais ou comportement non réactif {#delays-behavior}
 
 Le tableau suivant répertorie les problèmes courants que vous pouvez rencontrer lors de l’exécution de requêtes en masse avec les feuilles de calcul. Essayez de résoudre ces problèmes avec les solutions recommandées. Si les solutions recommandées ne résolvent pas le problème, enregistrez votre travail, redémarrez votre ordinateur et réessayez la requête sans lancer ou utiliser d’autres applications.
 
@@ -46,6 +46,12 @@ Le tableau suivant répertorie les problèmes courants que vous pouvez rencontre
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Erreur d’authentification</b> </td> 
+   <td colname="col2"> 
+    <b>Mettre à jour vers la dernière version de Microsoft Excel</b>: Lorsqu'une nouvelle version de Microsoft Excel est publiée et que vous utilisez une ancienne version, une erreur d'authentification peut se produire dans la feuille de calcul Gestion en bloc. Mettez à jour vers la dernière version de Microsoft Excel pour résoudre l'erreur d'authentification.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Retards longs</b> </td> 
    <td colname="col2"> 
