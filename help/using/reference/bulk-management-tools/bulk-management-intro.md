@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
+source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
 
 ---
 
@@ -32,15 +32,15 @@ Cette fonctionnalité utilise une feuille de calcul Microsoft Excel avec des mac
 
 ## Téléchargement {#download}
 
-Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20191015.xlsm)**.
+Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20191205.xlsm)**.
 
 ## Conditions préalables {#prereqs}
 
 Pour utiliser le [!DNL Bulk Management Tools], vous devez disposer des éléments suivants :
 
 * Votre [!DNL Experience Cloud] connexion. En tant que client, vous devez déjà disposer de ces informations d’identification.
-* La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille](assets/BAAAM_V2_20191015.xlsm) de calcul pour obtenir la dernière version.
-* Microsoft Excel s'exécutant sur [!DNL macOS] ou 64 bits [!DNL Microsoft Windows].
+* La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille](assets/BAAAM_V2_20191205.xlsm) de calcul pour obtenir la dernière version.
+* Microsoft Excel s'exécutant sur [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Nous vous recommandons d'utiliser la dernière version de Microsoft Excel.
 * Lors de l’ouverture de la feuille de calcul, vous devez **activer les macros** pour que la [!DNL Bulk Management Tools] feuille de calcul fonctionne.
 
 ## Exigences et options d’authentification {#auth-reqs}
