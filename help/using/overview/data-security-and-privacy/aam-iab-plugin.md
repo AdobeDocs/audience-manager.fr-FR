@@ -5,7 +5,7 @@ seo-title: Module externe Audience Manager pour IAB TCF
 solution: Audience Manager
 title: Module externe Audience Manager pour IAB TCF
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -40,7 +40,7 @@ Pour utiliser le TCF IAB avec Audience Manager, vous devez respecter les conditi
 1. Vous devez utiliser le service d’ID d’expérience (ECID) version 4.1 ou ultérieure. [Téléchargez](https://github.com/Adobe-Marketing-Cloud/id-service/releases) notre dernière version d'ECID.
 1. Vous devez utiliser la bibliothèque d’intégration des données d’Audience Manager (DIL) version 9.0 ou ultérieure, téléchargeable [ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lisez la documentation [d’Audience Manager sur](../..//dil/dil-overview.md)DIL.
 1. Si vous utilisez le transfert côté serveur (SSF) pour importer des données dans Audience Manager, vous devez effectuer la mise à niveau vers la dernière version d’AppMeasurement. Téléchargez AppMeasurement à l’aide du Gestionnaire [de code](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)Analytics.
-1. Vous devez utiliser une plateforme de gestion du consentement (CMP), commerciale ou la vôtre, qui prend en charge l’IAB et est enregistrée auprès de l’IAB TCF. Voir la liste des [CMP enregistrées dans le cadre](https://advertisingconsent.eu/cmp-list/)du CCI.
+1. Vous devez utiliser une plateforme de gestion du consentement (CMP), commerciale ou la vôtre, qui prend en charge le TCF IAB et est enregistrée auprès du TCF IAB. Voir la liste des [CMP enregistrées dans le cadre](https://advertisingconsent.eu/cmp-list/)du CCI.
 
 ## Recommandations et mise en oeuvre {#recommendations}
 
@@ -50,7 +50,7 @@ Pour ce faire, utilisez [Adobe Launch](https://docs.adobelaunch.com/) pour instr
 
 ## Processus de choix de l’utilisateur lors de l’utilisation de la structure IAB {#user-choice-workflow}
 
-Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans la liste globale des fournisseurs. L'image ci-dessous représente un exemple de dialogue CMP, présenté à un nouveau visiteur d'un site Web. N’oubliez pas que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
+Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans la liste globale des fournisseurs. L'image ci-dessous représente un exemple de dialogue CMP, présenté à un nouveau visiteur d'un site Web. Gardez à l’esprit que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
 
 ![Dialogue du CMP](assets/cmp.png)
 
