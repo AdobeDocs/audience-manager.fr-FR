@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Demandes de confidentialité de données
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -39,7 +39,7 @@ L’interface utilisateur [de](https://gdprui.cloud.adobe.io/) Privacy Service v
 
 Pour voir à quoi ressemble un [!DNL JSON] fichier valide, vous pouvez [télécharger un exemple de fichier JSON](../data-security-and-privacy/assets/access_request.json).
 
-Nous comprenons votre engagement à respecter vos demandes de confidentialité dans le délai imparti par la loi.
+Nous comprenons votre engagement à respecter vos demandes de confidentialité des données dans le délai imparti par la loi.
 
 ## Demandes de suppression de données{#delete-data}
 
@@ -49,16 +49,16 @@ L’interface utilisateur [de](https://gdprui.cloud.adobe.io/) Privacy Service v
 
 Pour voir à quoi ressemble un [!DNL JSON] fichier valide, vous pouvez [télécharger un exemple de fichier JSON](../data-security-and-privacy/assets/access_request.json).
 
-Nous comprenons votre engagement à respecter vos demandes de confidentialité dans les 30 jours suivant la réception. C'est pourquoi nous essayons de traiter votre demande de suppression de données le plus rapidement possible.
+Adobe comprend que vous vous engagez à respecter vos demandes de confidentialité dans les 30 jours suivant la réception. C’est pourquoi Adobe s’engage à traiter votre demande de suppression de données le plus rapidement possible.
 
-En réponse aux demandes de suppression de données, nous supprimons les caractéristiques et les segments associés à l’identifiant Audience Manager inclus dans la demande. De plus, les identifiants Audience Manager respectifs pour la personne concernée seront définitivement exclus de la collecte de données ultérieure par Audience Manager et les mappages d’ID correspondants seront supprimés.
+En réponse aux demandes de suppression de données du client, Audience Manager supprime les caractéristiques et les segments associés à l’identifiant Audience Manager inclus dans la demande. En outre, les identifiants Audience Manager respectifs pour la personne ayant choisi de ne pas continuer la collecte de données par Audience Manager et les mappages d’ID respectifs seront supprimés.
 
 Lorsque vous envoyez des identifiants déclarés, tels que [!DNL CRM] des identifiants inter-périphériques ou des identifiants de cookie, dans les demandes de confidentialité des données, Audience Manager effectue la suppression nécessaire sur tous les périphériques liés (jusqu’à 100 périphériques par identifiant déclaré).
 
-Audience Manager informe les partenaires d’activation des demandes de suppression en leur envoyant des informations de non-segmentation pour les objets de données demandant la suppression de certaines données. Cependant, certains partenaires d’activation :
+Audience Manager tente d’avertir les partenaires d’activation des demandes de suppression en leur envoyant des informations de non-segmentation pour les objets de données demandant la suppression de certaines données. Cependant, certains partenaires d’activation :
 
-1. Impossible de prendre en charge les requêtes de non-segmentation (ou de suppression de segment) d’Adobe et/ou
-2. Ne sont pas en mesure de recevoir des mises à jour de notre part avec une fréquence inférieure à 30 jours. Dans ce cas, les clients d’Audience Manager ne peuvent pas envoyer de requêtes de suppression aux partenaires d’activation de manière automatisée via Audience Manager.
+1. Impossible de prendre en charge les requêtes de non-segmentation (ou de suppression de segment) d’Audience Manager et/ou
+2. Ne peuvent pas recevoir de mises à jour d’Audience Manager avec une fréquence inférieure à 30 jours. Dans ce cas, les clients d’Audience Manager ne peuvent pas envoyer de demandes de suppression aux partenaires d’activation de manière automatisée via Audience Manager.
 
 Dans ce cas, vous ne pouvez pas envoyer de demandes de suppression aux partenaires d’activation de manière automatisée via Audience Manager.
 
@@ -66,7 +66,7 @@ Téléchargez notre feuille [Excel de](assets/AAM-Partners-October2019.xlsx) par
 
 ## Demandes d’exclusion {#opt-out-requests}
 
-Adobe respecte toutes les normes du secteur en matière de gestion des exclusions. Lisez la suite pour obtenir des informations complètes sur les types d’exclusion pris en charge par Audience Manager.
+Audience Manager prend en charge les normes à l’échelle du secteur en ce qui concerne la gestion des exclusions. Lisez la suite pour obtenir des informations complètes sur les types d’exclusion pris en charge par Audience Manager.
 
 Bien que les demandes d’accès aux données et de suppression soient traitées par le biais de [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), les demandes d’exclusion sont actuellement prises en charge par l’API DCS. Lisez la suite pour en savoir plus sur les appels d’API d’exclusion.
 
@@ -108,7 +108,7 @@ Vos utilisateurs finaux peuvent également se désabonner de la collecte de donn
 
 Suite aux demandes d’exclusion décrites ci-dessus :
 
-* Audience Manager cessera la collecte, la segmentation ou l’activation de toutes les données.
+* Audience Manager cessera la collecte, la segmentation ou l’activation de toutes les données à partir de maintenant, tant que l’utilisateur n’effacera pas les cookies de son navigateur.
 * Les données historiques sont supprimées du profil utilisateur au bout de 120 jours.
 
 ### Exclusion au niveau du partenaire avec appels d’ID déclarés
@@ -161,12 +161,12 @@ Suite à une exclusion au niveau du partenaire avec un appel d’ID de périphé
 
 ## Partenaires Audience Manager Avec Des Fonctionnalités D’Unsegmentation {#aam-partners-with-unsegmentation}
 
-Afin d’aider nos clients à automatiser les demandes de confidentialité des données, Audience Manager avertit nos partenaires d’activation des demandes de suppression des objets de données en leur envoyant des informations de non-segmentation (ou de suppression de segment).
+Afin de vous aider à automatiser vos demandes de confidentialité des données des consommateurs, Audience Manager tentera d’avertir les partenaires d’activation des demandes de suppression des objets de données en leur envoyant des informations de non-segmentation (ou de suppression de segment).
 
 Cependant, certains de nos partenaires d’activation :
 
-1. Impossible de prendre en charge les demandes de non-segmentation d’Adobe et/ou
-1. Ne peuvent pas recevoir les mises à jour de nous plus d'une fois par 30 jours.
+1. Impossible de prendre en charge les demandes de non-segmentation d’Audience Manager et/ou
+2. Ne peuvent pas recevoir les mises à jour d’Audience Manager plus d’une fois par 30 jours.
 
 Dans ce cas, vous ne pouvez pas envoyer de demandes de suppression aux partenaires d’activation de manière automatisée via Audience Manager.
 
@@ -174,6 +174,6 @@ Téléchargez notre feuille [Excel de](assets/AAM-Partners-October2019.xlsx) par
 
 ## Demandes de correction de données {#correction}
 
-Dans la mesure où Audience Manager n’est pas la source des données, il existe un rôle limité pour la correction des données dans Audience Manager. La correction peut signifier que la personne concernée a demandé soit d'être disqualifiée d'une caractéristique/segment incorrecte, soit d'être qualifiée d'une caractéristique/segment désirée.
+Dans la mesure où Audience Manager n’est pas la source des données, il existe un rôle limité pour la correction des données dans Audience Manager. La correction peut signifier que le consommateur a demandé à être soit disqualifié d'une caractéristique/segment incorrecte, soit qualifié à la caractéristique/segment désirée.
 
 Les clients d’Audience Manager peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils d’utilisateur et d’envoyer ces informations par ingestion [de données](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) hors ligne à Audience Manager. Veuillez noter que l’utilisateur continuera à être qualifié pour la caractéristique d’origine et les segments s’il répète son comportement.
