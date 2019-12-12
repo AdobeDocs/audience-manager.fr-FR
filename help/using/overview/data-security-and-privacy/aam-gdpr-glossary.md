@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossaire du RDPR
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -31,7 +31,7 @@ Familiarisez-vous avec les termes clés utilisés en rapport avec le RMPC. Nous 
 
  
 
-**** Processeur de données : Le "Processeur" est "la ... personne morale ... qui traite les données personnelles pour le compte du contrôleur". Dans le contexte d’Audience Manager, Adobe, dans le cadre de l’exploitation du service, agit comme un "processeur de données" pour toutes les données personnelles qu’il traite pour le compte du contrôleur. Adobe traite uniquement les données à caractère personnel conformément aux instructions du contrôleur de données (telles que définies dans notre accord avec le client ou par des actions entreprises dans Audience Manager).
+**** Processeur de données : Le "Processeur" est "la ... personne morale ... qui traite les données personnelles pour le compte du contrôleur". Dans le contexte d’Audience Manager, Adobe, dans le cadre de l’exploitation du service, agit comme un "processeur de données" pour toutes les données personnelles qu’il traite pour le compte du contrôleur, via Audience Manager. Adobe traite uniquement les données à caractère personnel conformément aux instructions du contrôleur de données (telles que définies dans notre accord avec le client ou par des actions entreprises dans Audience Manager).
 
  
 
@@ -39,7 +39,7 @@ Familiarisez-vous avec les termes clés utilisés en rapport avec le RMPC. Nous 
 
  
 
-**** Consentement : Consentement signifie "toute indication librement donnée, spécifique, informée et sans ambiguïté des souhaits de la personne concernée, par laquelle elle ou elle, par une déclaration ou par une discrimination positive claire, signifie son accord au traitement de ses données personnelles". Le consentement est la responsabilité du contrôleur de données, et non celle d’Adobe par le biais d’Audience Manager.
+**** Consentement : Consentement signifie "toute indication librement donnée, spécifique, informée et sans ambiguïté des souhaits de la personne concernée, par laquelle elle ou elle, par une déclaration ou par une discrimination positive claire, signifie son accord au traitement de ses données personnelles". Le consentement est la responsabilité du contrôleur de données, et non celle d’Adobe (via Audience Manager).
 
  
 
