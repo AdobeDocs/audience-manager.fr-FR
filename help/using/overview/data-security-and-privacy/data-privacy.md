@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Présentation de la confidentialité des données
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 La documentation sur la confidentialité des données décrit l’intégration d’Audience Manager et la conformité aux meilleures pratiques généralement admises en rapport avec la confidentialité des données des clients et les procédures d’exclusion.
 
-Audience Manager reconnaît l’importance de la relation entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d'un échange transparent d'éléments de données anonymes :
+Audience Manager reconnaît l’importance de la relation entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d'un échange transparent d'éléments de données pseudonymes :
 
 * Les clients reçoivent du contenu personnalisé, des offres de produits à prix réduit et des expériences utilisateur simplifiées.
 * Les marques reçoivent des flux de revenus vitaux qui prennent en charge plusieurs modèles commerciaux en ligne.
@@ -40,7 +40,7 @@ Pour plus d’informations, consultez le Centre [de confidentialité](https://ww
 
 Audience Manager vous aide à respecter vos obligations en vertu de certaines règles de confidentialité, par le biais d’outils de confidentialité tels que [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) pour l’accès aux données et la suppression des requêtes.
 
-Ce service fournit une interface utilisateur [!DNL RESTful API] et une interface utilisateur pour vous aider à gérer les requêtes de données des clients. Grâce à [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), vous pouvez envoyer des demandes d’accès et de suppression de données personnelles ou privées, en fonction de la demande d’un utilisateur individuel, ce qui vous permet d’automatiser cette partie de vos obligations de conformité.
+Ce service fournit une interface utilisateur [!DNL RESTful API] et une interface utilisateur pour vous aider à gérer les requêtes de données des clients. Grâce à [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), vous pouvez envoyer des demandes d’accès et de suppression de données personnelles, en fonction de la demande d’un consommateur individuel, afin d’automatiser cette partie de vos obligations de conformité.
 
 Bien que les demandes d’accès aux données et de suppression soient traitées par le biais de [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), les demandes [d’](data-privacy-requests.md#opt-out-requests) exclusion sont actuellement prises en charge par l’API [](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS. Voir Demandes [de confidentialité des](data-privacy-requests.md) données pour plus d’informations.
 
