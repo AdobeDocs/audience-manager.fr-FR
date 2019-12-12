@@ -5,7 +5,7 @@ seo-title: Glossaire CCPA
 solution: Audience Manager
 title: Glossaire CCPA
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -14,9 +14,11 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ## Aperçu {#overview}
 
-Cet article explique les concepts et la terminologie utilisés par l’ACCP (California Consumer Privacy Act) et comment Adobe Audience Manager répond aux diverses exigences de l’ACCP.
+Cet article explique les concepts et la terminologie utilisés par l’ACCP (California Consumer Privacy Act) et comment Adobe Audience Manager, en tant que fournisseur de services, répond aux diverses exigences de l’ACCP.
 
-La Loi sur la protection des renseignements personnels des consommateurs (LPCPC) de Californie entrera en vigueur le 1er janvier 2020 et constitue une autre occasion de faire de la protection de la vie privée une partie intégrante de votre expérience des consommateurs. Audience Manager tire parti de l’infrastructure de protection de la vie privée existante pour vous aider à remplir vos obligations en vertu de l’ACCP lorsque vous utilisez Audience Manager, ce qui vous permet d’être prêt à l’ACCP avant et après le 1er janvier 2020. Audience Manager se réjouit à l’idée de vous associer à vos nouveaux engagements en utilisant les fonctionnalités de conception de la gouvernance des données et de la confidentialité.
+La Loi sur la protection des renseignements personnels des consommateurs (LPCPC) de Californie entrera en vigueur le 1er janvier 2020 et constitue une autre occasion de faire de la protection de la vie privée une partie intégrante de votre expérience des consommateurs. Audience Manager tire parti de l’infrastructure de protection de la vie privée existante pour vous aider à remplir vos obligations en vertu de l’ACCP lorsque vous utilisez Audience Manager, ce qui vous permet d’être prêt à l’ACCP avant et après le 1er janvier 2020.
+
+Audience Manager se réjouit à l’idée de vous associer à vos nouveaux engagements en utilisant les fonctionnalités de conception de la gouvernance des données et de la confidentialité.
 
 ## Glossaire CCPA {#CCPA-glossay}
 
@@ -31,10 +33,6 @@ Familiarisez-vous avec les termes clés utilisés dans le cadre de l'ACCP. Nous 
  
 
 **Renseignements** personnels : l'information qui identifie, se rapporte à, décrit, peut être associée ou pourrait raisonnablement être liée, directement ou indirectement, à un consommateur ou à un ménage particulier. Les renseignements personnels comprennent, sans s'y limiter, les renseignements qui identifient, se rapportent, décrivent, peuvent être associés ou pourraient être raisonnablement liés, directement ou indirectement, à un consommateur particulier.
-
- 
-
-**Pseudonymize/Pseudonymization**: le traitement des renseignements personnels de manière à ce que les renseignements personnels ne soient plus attribuables à un consommateur particulier sans l’utilisation de renseignements supplémentaires, à condition que ces renseignements soient conservés séparément et qu’ils soient assujettis à des mesures techniques et organisationnelles pour s’assurer que les renseignements personnels ne sont pas attribués à un consommateur identifié ou identifiable.
 
  
 
