@@ -5,7 +5,7 @@ seo-title: Module externe Audience Manager pour IAB TCF
 solution: Audience Manager
 title: Module externe Audience Manager pour IAB TCF
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -129,7 +129,7 @@ Le cas d’utilisation est décrit dans l’image et dans les étapes ci-dessous
 
 ## Partenaires d’activation prenant en charge le TCF IAB {#aam-activation-partners}
 
-Le module externe Audience Manager pour IAB TCF vous permet de transférer la chaîne de consentement IAB TCF aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Pour plus d'informations sur les partenaires d'activation prenant en charge l'IAB TCF, consultez notre fiche **[Excel](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)** partenaire.
+Le module externe Audience Manager pour IAB TCF vous permet de transférer la chaîne de consentement IAB TCF aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Pour plus d'informations sur les partenaires d'activation prenant en charge l'IAB TCF, consultez notre fiche **[Excel](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)** partenaire.
 
 ## Test de l’implémentation IAB {#test-iab-implementation}
 
