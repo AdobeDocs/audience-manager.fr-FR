@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Demandes de confidentialité de données
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -39,7 +39,7 @@ L’interface utilisateur [de](https://gdprui.cloud.adobe.io/) Privacy Service v
 
 Pour voir à quoi ressemble un [!DNL JSON] fichier valide, vous pouvez [télécharger un exemple de fichier JSON](../data-security-and-privacy/assets/access_request.json).
 
-Nous comprenons votre engagement à respecter vos demandes de confidentialité des données dans le délai imparti par la loi.
+Nous comprenons votre engagement à respecter vos demandes de confidentialité dans le délai imparti par la loi.
 
 ## Demandes de suppression de données{#delete-data}
 
@@ -49,7 +49,7 @@ L’interface utilisateur [de](https://gdprui.cloud.adobe.io/) Privacy Service v
 
 Pour voir à quoi ressemble un [!DNL JSON] fichier valide, vous pouvez [télécharger un exemple de fichier JSON](../data-security-and-privacy/assets/access_request.json).
 
-Adobe comprend que vous vous engagez à respecter vos demandes de confidentialité dans les 30 jours suivant la réception. C’est pourquoi Adobe s’engage à traiter votre demande de suppression de données le plus rapidement possible.
+Adobe comprend que vous vous engagez à respecter vos demandes de confidentialité des données dans les 30 jours. C’est pourquoi Adobe s’engage à traiter votre demande de suppression de données le plus rapidement possible.
 
 En réponse aux demandes de suppression de données du client, Audience Manager supprime les caractéristiques et les segments associés à l’identifiant Audience Manager inclus dans la demande. En outre, les identifiants Audience Manager respectifs pour la personne ayant choisi de ne pas continuer la collecte de données par Audience Manager et les mappages d’ID respectifs seront supprimés.
 
@@ -108,7 +108,7 @@ Vos utilisateurs finaux peuvent également se désabonner de la collecte de donn
 
 Suite aux demandes d’exclusion décrites ci-dessus :
 
-* Audience Manager cessera la collecte, la segmentation ou l’activation de toutes les données à partir de maintenant, tant que l’utilisateur n’effacera pas les cookies de son navigateur.
+* Audience Manager interrompt la collecte, la segmentation ou l’activation des données tant que l’utilisateur n’efface pas les cookies de son navigateur.
 * Les données historiques sont supprimées du profil utilisateur au bout de 120 jours.
 
 ### Exclusion au niveau du partenaire avec appels d’ID déclarés
