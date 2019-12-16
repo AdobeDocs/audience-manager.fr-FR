@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Demandes de confidentialité de données
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -170,7 +170,7 @@ Cependant, certains de nos partenaires d’activation :
 
 Dans ce cas, vous ne pouvez pas envoyer de demandes de suppression aux partenaires d’activation de manière automatisée via Audience Manager.
 
-Téléchargez notre feuille [Excel de](assets/AAM-Partners-October2019.xlsx) partenaire pour savoir quels partenaires d’activation d’Audience Manager prennent en charge le non-segmentation.
+Téléchargez notre feuille [Excel de](assets/AAM-Partners-December2019.xlsx) partenaire pour savoir quels partenaires d’activation d’Audience Manager prennent en charge le non-segmentation.
 
 ## Demandes de correction de données {#correction}
 
