@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossaire du RDPR
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -35,7 +35,7 @@ Familiarisez-vous avec les termes clés utilisés en rapport avec le RMPC. Nous 
 
  
 
-**** Data Subject : La personne à laquelle les données personnelles se rapportent. Dans le contexte d’Audience Manager, les objets de données sont les consommateurs ou les utilisateurs finaux d’Audience Manager. Si Audience Manager reçoit des requêtes directement des objets de données, ces requêtes sont transférées aux clients Adobe respectifs.
+**** Data Subject : La personne à laquelle les données personnelles se rapportent. Dans le contexte d’Audience Manager, les objets de données sont les consommateurs ou les utilisateurs finaux d’Audience Manager. Si Adobe reçoit des requêtes directement des objets de données, ces requêtes sont transférées aux clients Audience Manager respectifs.
 
  
 
