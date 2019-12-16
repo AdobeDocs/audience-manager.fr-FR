@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: Gouvernance des données
 translation-type: tm+mt
-source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -42,4 +42,4 @@ L'application de politiques appropriées, sécurisées et opportunes de conserva
 
 ## Transferts de données transfrontaliers {#data-transfers}
 
-Le RDPC n’interdit pas le transfert de données en dehors de l’Europe. Elle exige que les protections de la vie privée sur les données européennes persistent partout où les données sont transférées. Consultez le Centre [de confidentialité](https://www.adobe.com/privacy/eudatatransfers.html) Adobe pour en savoir plus. L'ACCP n'a pas de restrictions au transfert transfrontalier de données.
+Lorsqu’Audience Manager transfère des données à caractère personnel depuis des clients au-delà des frontières nationales, Audience Manager le fait conformément à la législation applicable. Consultez le Centre [de confidentialité](https://www.adobe.com/privacy/eudatatransfers.html) Adobe pour en savoir plus.
