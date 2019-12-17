@@ -1,13 +1,13 @@
 ---
 description: Ajoutez le module Gestion de l’audience à Adobe Analytics AppMeasurement pour transférer les données Analytics à Audience Manager au lieu que le code DIL (Audience Manager Data Integration Library) envoie un pixel de la page.
-keywords: analyse de l’audience; analytics; ssf; transfert côté serveur
+keywords: audience analytics; analytics; ssf; server side forwarding
 seo-description: Ajoutez le module Gestion de l’audience à Adobe Analytics AppMeasurement pour transférer les données Analytics à Audience Manager au lieu que le code DIL (Audience Manager Data Integration Library) envoie un pixel de la page.
 seo-title: Mise en oeuvre du module Gestion de l’audience
 solution: Audience Manager
 title: Mise en oeuvre du module Gestion de l’audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
 
 ---
 
@@ -15,6 +15,10 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 # Mise en oeuvre du module Gestion de l’audience {#implement-the-audience-management-module}
 
 Ajoutez la [!UICONTROL Audience Management Module] pour [!DNL Adobe Analytics] transférer [!UICONTROL AppMeasurement] des données à Audience Manager au lieu que le code Audience Manager [!DNL Analytics] ( [!UICONTROL Data Integration Library][!UICONTROL DIL]) envoie un pixel de la page.
+
+>[!NOTE]
+>
+>Les instructions de cette page se rapportent aux implémentations à l’aide d’ [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) ou de toute autre solution de gestion des balises, *à l’exception* d’ [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Nous vous recommandons d’utiliser Adobe Launch. L’utilisation de Launch vous évite d’avoir à copier manuellement le code, comme illustré sur cette page.
 
 ## Conditions préalables {#prereqs}
 
