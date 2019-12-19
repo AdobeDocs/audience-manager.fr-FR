@@ -5,7 +5,7 @@ seo-title: Module externe Audience Manager pour IAB TCF
 solution: Audience Manager
 title: Module externe Audience Manager pour IAB TCF
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -44,13 +44,13 @@ Pour utiliser le TCF IAB avec Audience Manager, vous devez respecter les conditi
 
 ## Recommandations et mise en oeuvre {#recommendations}
 
-Pour activer la prise en charge TCF IAB dans Audience Manager, lisez notre documentation sur la [configuration d’IAB avec l’inclusion](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html).
+Pour activer la prise en charge TCF IAB dans Audience Manager, lisez notre documentation sur la [configuration d’IAB avec l’inclusion](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
 Pour ce faire, utilisez [Adobe Launch](https://docs.adobelaunch.com/) pour instrumenter l’inclusion ECID sur vos propriétés. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
 ## Processus de choix de l’utilisateur lors de l’utilisation de la structure IAB {#user-choice-workflow}
 
-Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans la liste globale des fournisseurs. L'image ci-dessous représente un exemple de dialogue CMP, présenté à un nouveau visiteur d'un site Web. Gardez à l’esprit que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
+Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans la liste globale des fournisseurs. L'image ci-dessous représente un exemple de dialogue CMP, présenté à un nouveau visiteur d'un site Web. N’oubliez pas que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
 
 ![Dialogue du CMP](assets/cmp.png)
 
@@ -133,7 +133,7 @@ Le module externe Audience Manager pour IAB TCF vous permet de transférer la ch
 
 ## Test de l’implémentation IAB {#test-iab-implementation}
 
-Pour vérifier que vous avez correctement implémenté le module externe Audience Manager pour IAB TCF, consultez le cas d’ [utilisation 4 dans Méthodes de validation pour l’inclusion et l’implémentation](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html)IAB.
+Pour vérifier que vous avez correctement implémenté le module externe Audience Manager pour IAB TCF, consultez le cas d’ [utilisation 4 dans Méthodes de validation pour l’inclusion et l’implémentation](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)IAB.
 
 ## IAB et exclusion dans Audience Manager. Ordre de priorité. {#iab-and-optout}
 
