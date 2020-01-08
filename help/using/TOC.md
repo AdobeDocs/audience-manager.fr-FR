@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -83,7 +83,7 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [Signaux dérivés](features/derived-signals.md)
    + Destinations{#destinations}
       + [Présentation des destinations](features/destinations/destinations.md)
-      + [Page d'accueil Destinations](features/destinations/destinations-home.md)
+      + [Page d&#39;accueil Destinations](features/destinations/destinations-home.md)
       + Destinations d’Adobe Experience Cloud{#experience-cloud-destinations}
          + [Configuration d’une destination Analytics](features/destinations/create-analytics-destination.md)
       + Destinations basées sur les personnes {#people-based}
@@ -233,25 +233,25 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + API REST{#rest-apis}
       + [Présentation des API REST](api/rest-api-main/rest-api-main.md)
       + [Prise en main des API REST](api/rest-api-main/aam-api-getting-started.md)
-      + [Méthodes d'API algorithmique](api/rest-api-main/aam-api-algo-methods.md)
+      + [Méthodes d&#39;API algorithmique](api/rest-api-main/aam-api-algo-methods.md)
       + [Méthodes API de la bibliothèque d’intégration de données](api/rest-api-main/aam-api-dil-methods.md)
       + [Méthodes d’API des sources de données](api/rest-api-main/aam-api-data-sources.md)
-      + [Méthodes de l'API Signaux dérivés](api/rest-api-main/aam-api-derived-signals.md)
+      + [Méthodes de l&#39;API Signaux dérivés](api/rest-api-main/aam-api-derived-signals.md)
       + Méthodes de l’API de destination{#destination-api-methods}
-         + [Présentation des méthodes de l'API de destination](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
+         + [Présentation des méthodes de l&#39;API de destination](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
          + [Créer des destinations](api/rest-api-main/aam-api-destinations/aam-api-create-destinations.md)
          + [Mapper des segments à une destination](api/rest-api-main/aam-api-destinations/aam-api-map-segments.md)
          + [Renvoyer une destination par ID de destination](api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md)
          + [Supprimer les destinations](api/rest-api-main/aam-api-destinations/aam-api-delete-destinations.md)
-      + [Méthodes de l'API Gestion des domaines](api/rest-api-main/aam-api-domain-management.md)
-      + [Méthodes de l'API de dossier](api/rest-api-main/aam-api-folders.md)
+      + [Méthodes de l&#39;API Gestion des domaines](api/rest-api-main/aam-api-domain-management.md)
+      + [Méthodes de l&#39;API de dossier](api/rest-api-main/aam-api-folders.md)
       + [Méthodes de l’API de segment](api/rest-api-main/api-segments.md)
       + [Méthodes API taxonomiques](api/rest-api-main/aam-api-taxonomy.md)
       + [Méthodes de l’API de caractéristiques](api/rest-api-main/api-traits.md)
       + [Méthodes de type de trait](api/rest-api-main/aam-api-trait-type.md)
       + Méthodes de l’API Gestion des utilisateurs, des groupes et des autorisations{#user-group-permissions}
          + [Méthodes de l’API de gestion des utilisateurs](api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)
-         + [Méthodes de l'API Gestion des groupes](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
+         + [Méthodes de l&#39;API Gestion des groupes](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
          + [Méthodes de l’API de gestion des autorisations](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
       + [Méthodes de l’API de région DCS](api/rest-api-main/aam-api-dcs-regions.md)
    + [Code SDK](api/aam-sdk.md)
@@ -348,7 +348,6 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
       + [Conseils de dépannage pour les outils de gestion en bloc](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [Glossaire des outils de gestion en bloc](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID remplace DPID et DPUUID](reference/cid.md)
-   + [Glossaire](reference/aam-glossary.md)
    + [Incidence des délais de remise des données et de traitement des fichiers sur les rapports](reference/reporting-file-transfer-timeframe.md)
    + [Index des ID dans Audience Manager](reference/ids-in-aam.md)
    + [Paires clé-valeur expliquées](reference/key-value-pairs-explained.md)
@@ -374,7 +373,7 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [FAQ d’Audience Lab](faq/faq-audience-lab.md)
    + [FAQ sur le flux de données client](faq/faq-cdf.md)
    + [FAQ sur la collecte de données et l’intégration de produits](faq/faq-data-collection.md)
-   + [FAQ sur l'introduction des données client entrantes](faq/faq-inbound-data-ingestion.md)
+   + [FAQ sur l&#39;introduction des données client entrantes](faq/faq-inbound-data-ingestion.md)
    + [FAQ sur la confidentialité et la rétention des données](faq/faq-privacy.md)
    + [FAQ sur les destinations basées sur les personnes](faq/faq-people-based-destinations.md)
    + [FAQ sur les fonctionnalités et fonctionnalités du produit](faq/faq-features.md)
@@ -391,3 +390,4 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [Mises à jour de la documentation 2017](docs-updates/docs-2017.md)
    + [Mises à jour de la documentation 2016](docs-updates/docs-2016.md)
    + [Mises à jour de la documentation 2015](docs-updates/docs-2015.md)
++ [Glossaire](reference/aam-glossary.md)
