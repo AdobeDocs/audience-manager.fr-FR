@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Rapport Signaux inutilisés
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # Rapport Signaux inutilisés{#unused-signals-report}
 
-Ce rapport renvoie un nombre de fréquence de toutes les informations inutilisées collectées sur votre stock et envoyées à Audience Manager.
+Ce rapport renvoie un nombre de fréquence de toutes les informations inutilisées collectées sur votre stock et envoyées à Audience Manager. Pour accéder à ce rapport, sélectionnez **Analytics > Rapports d’audience > Autres rapports > Signaux** inutilisés.
 
-<!-- 
+>[!NOTE]
+>
+>Si le message &quot;Vous n’avez pas accès aux rapports Audience&quot; s’affiche, contactez votre conseiller Audience Manager ou le service à la clientèle pour que le rapport vous soit fourni.
 
-c_unused_signals.xml
+![Capture d&#39;écran du rapport Signaux inutilisés](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Rapport Signaux inutilisés
+## Aperçu
 
 Un signal est une information de votre site Web transmise à [!DNL Audience Manager] sous la forme de paires [valeur-](../../reference/key-value-pairs-explained.md) clé (ex. `color=blue, price>100, gender=female`, etc.).
 
@@ -45,7 +45,7 @@ Consultez ce rapport pour identifier les signaux orphelins qui peuvent être map
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Vérifier l’uniformité des caractéristiques ou ajouter des valeurs associées à une clé unique</b> </p> </td> 
-   <td colname="col2"> <p>Consultez le rapport pour tenir compte des différentes variations de valeur pour un signal particulier. </p> <p>Par exemple, supposons que vous ayez une caractéristique pour l’état "Caroline du Nord" défini dans une paire clé-valeur sous la forme <code> c_state = Caroline</code>du Nord. Le rapport peut vous aider à trouver des variantes de nom et à les ajouter à la caractéristique (par exemple, <code> c_state = Caroline du Nord, NC, N.C., NCarolina</code>). Vous pouvez également repérer les variantes de nom avec le rapport et les remplacer par une valeur uniforme sur tous les sites. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Consultez le rapport pour tenir compte des différentes variations de valeur pour un signal particulier. </p> <p>Par exemple, supposons que vous ayez une caractéristique pour l’état "Caroline du Nord" définie dans une paire clé-valeur comme <code> c_state = North Carolina</code>. Le rapport peut vous aider à trouver des variantes de nom et à les ajouter à la caractéristique (par exemple, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Vous pouvez également repérer les variantes de nom avec le rapport et les remplacer par une valeur uniforme sur tous les sites. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Créer de nouvelles caractéristiques</b> </p> </td> 
