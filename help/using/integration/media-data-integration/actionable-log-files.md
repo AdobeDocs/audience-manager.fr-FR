@@ -1,13 +1,13 @@
 ---
 description: Les fichiers journaux exploitables vous permettent de capturer les signaux du média à partir des fichiers journaux du serveur d’annonces afin de créer des caractéristiques dans Audience Manager. Capturez les impressions, les clics et les conversions depuis les serveurs d’annonces en tant que caractéristiques sans avoir à ajouter de pixels.
 keywords: actionable logs, alf, ALF
-seo-description: Les fichiers journaux exploitables vous permettent de capturer les signaux du média à partir des fichiers journaux du serveur d’annonces afin de créer des caractéristiques dans Audience Manager. Capturez les impressions, les clics et les conversions depuis les serveurs d’annonces en tant que caractéristiques sans avoir à utiliser l’ajout de pixels.
+seo-description: Les fichiers journaux exploitables vous permettent de capturer les signaux du média à partir des fichiers journaux du serveur d’annonces afin de créer des caractéristiques dans Audience Manager. Capturez les impressions, les clics et les conversions depuis les serveurs d’annonces en tant que caractéristiques sans avoir à ajouter de pixels.
 seo-title: Fichiers journaux pratiques
 solution: Audience Manager
 title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
+source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
 
 ---
 
@@ -35,7 +35,7 @@ Si vous importez déjà des données de journal dans [!DNL Audience Manager], de
 
 >[!IMPORTANT]
 >
-> Fin 2019, [!UICONTROL Actionable Log Files] la disponibilité des nouveaux serveurs d’annonces va commencer à augmenter. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> Début 2020, [!UICONTROL Actionable Log Files] commencera à étendre la disponibilité aux nouveaux serveurs d’annonces. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Utilisation de fichiers journaux utilisables {#working-with-actionable-log-files}
 
@@ -45,7 +45,7 @@ Vous devez encore configurer des caractéristiques basées sur des règles pour 
 
 >[!IMPORTANT]
 >
->Nous vous recommandons de mettre en oeuvre [!UICONTROL Actionable Log Files] au lieu *des appels* en [](../../integration/media-data-integration/impression-data-pixels.md)pixels. Nous décourageons l'utilisation des deux options, car cela entraîne une augmentation du nombre de fréquences pour les caractéristiques.
+>Nous vous recommandons de mettre en oeuvre [!UICONTROL Actionable Log Files] au lieu *des appels* en [](../../integration/media-data-integration/impression-data-pixels.md)pixels. Nous décourageons l&#39;utilisation des deux options, car cela entraîne une augmentation du nombre de fréquences pour les caractéristiques.
 
 ## Signaux utilisables {#actionable-signals}
 
@@ -146,9 +146,9 @@ Les signaux décrits dans le tableau sont capturés [!DNL Audience Manager] comm
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées dans l'heure environ après le traitement des journaux. [!DNL DCM]
+Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées dans l&#39;heure environ après le traitement des journaux. [!DNL DCM]
 
->[!NOTE] {importance="high"}
+>[!NOTE] {importance=&quot;high&quot;}
 >
 >L’horodatage de l’événement fourni dans les [!DNL DCM] journaux sera respecté et transmis au [!UICONTROL Data Collection Servers].
 >
@@ -249,7 +249,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Vous pouvez afficher vos signaux interactifs entrants dans l’interface de recherche [des](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) signaux.
 
-Accédez à Données **** d’audience (1) &gt; **Signaux** (2) &gt; **Rechercher** (3) et sélectionnez le filtre Fichiers journaux **utilisables (4).**
+Accédez à Données **** d’audience (1) > **Signaux** (2) > **Rechercher** (3) et sélectionnez le filtre Fichiers journaux **utilisables (4).**
 
 ![Signaux actifs dans l’interface utilisateur](/help/using/integration/assets/alf-in-signals.png)
 
@@ -260,7 +260,7 @@ Pour créer des caractéristiques basées sur des règles à l’aide de vos sig
 
 ## Cas d’utilisation {#use-cases}
 
-L’un des avantages de la mise en oeuvre [!UICONTROL Actionable Log Files] est l’option d’appliquer des contrôles de [récence et de fréquence](../../features/segments/recency-and-frequency.md) à toute caractéristique [basée sur des](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) règles qui contient des signaux exploitables. Cela vous permet, par exemple, de limiter le nombre de fois où un utilisateur voit apparaître un élément créatif particulier dans une campagne multimédia. Lisez Suppression [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) instantanée de plusieurs périphériques pour savoir comment procéder. Les autres cas d'utilisation sont les suivants :
+L’un des avantages de la mise en oeuvre [!UICONTROL Actionable Log Files] est l’option d’appliquer des contrôles de [récence et de fréquence](../../features/segments/recency-and-frequency.md) à toute caractéristique [basée sur des](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) règles qui contient des signaux exploitables. Cela vous permet, par exemple, de limiter le nombre de fois où un utilisateur voit apparaître un élément créatif particulier dans une campagne multimédia. Lisez Suppression [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) instantanée de plusieurs périphériques pour savoir comment procéder. Les autres cas d&#39;utilisation sont les suivants :
 
 ### Recibler les utilisateurs
 
