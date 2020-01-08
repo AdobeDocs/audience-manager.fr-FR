@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentation du produit Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -27,7 +27,6 @@ Ce guide de documentation technique fournit une assistance autonome à Audience 
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinations basées sur les personnes</a> </li>
      </ul> </p> <p>Voir aussi Mises à jour <a href="docs-updates/docs-2019.md"> de la documentation de</a>2019. </p> 
-     <p>Si vous découvrez Audience Manager, consultez notre <a href="reference/aam-glossary.md"> Glossaire</a> et notre <a href= "reference/ids-in-aam.md">index d’identifiants.</a></p>
      <br> 
      <p> <b>Documentation collaborative</b> </p>
      <p>Nous nous félicitons des contributions de tous nos lecteurs à notre documentation. Consultez le Guide de <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">collaboration - Présentation</a> pour savoir comment commencer à contribuer.</p>
@@ -43,7 +42,8 @@ Ce guide de documentation technique fournit une assistance autonome à Audience 
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Formation et certifications Adobe</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Accueil de la documentation du produit Experience Cloud</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Formation et assistance Audience Manager</a> </li> 
-     </ul> </p> </td>
+     </ul> </p> 
+     <p> <b>Glossaire et index des ID</b> </p><p>Si vous découvrez Audience Manager, consultez notre <a href="reference/aam-glossary.md"> Glossaire</a> et notre <a href= "reference/ids-in-aam.md">index d’identifiants.</a></p></td>
   </tr> 
  </tbody> 
 </table>
