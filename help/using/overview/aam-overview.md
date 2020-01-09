@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Présentation d’Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: aebdeb953153f4d1028871966f8da9ee27f58d35
+source-git-commit: a13c64eb45fdbcb311bfecdb39b3203523d6b399
 
 ---
 
@@ -23,11 +23,21 @@ Les fonctions d’une plateforme de gestion des données (DMP) peuvent être ré
 
 ![Image de trois fonctions DMP : Données Dans, Création D’Audiences, Sortie De Données](/help/using/overview/assets/dmp-functions.png)
 
-**Data In** Audience Manager collecte des données propriétaires à partir des canaux et des périphériques (analyses Web, gestion de la relation client, données de périphérique, commerce électronique, etc.).
+**Données dans**
 
-**Création** d’audienceUnifie les données en profils d’audience, ce qui vous donne une vue complète du client sur les périphériques et les canaux. Créez des modèles semblables, créez des segments d’audience et des groupes de profils et complétez-les par des sources de données propriétaires et tiers.
+Audience Manager collecte des données propriétaires à partir des canaux et des périphériques (analyses Web, gestion de la relation client, données de périphérique, commerce électronique, etc.).
 
-**Data Out** active les segments d’audience en les poussant vers les plateformes côté demande (DSP), les systèmes de gestion de campagne et d’autres plateformes marketing.
+<br> 
+
+**Création d’audience**
+
+permet d’unifier les données dans les profils d’audience, ce qui vous donne une vue complète du client sur les périphériques et les canaux. Créez des modèles semblables, créez des segments d’audience et des groupes de profils et complétez-les par des sources de données propriétaires et tiers.
+
+<br> 
+
+**Sortie de données**
+
+Active les segments d’audience en les poussant vers les plateformes côté demande (DSP), les systèmes de gestion de campagne et d’autres plateformes marketing.
 
 ## Plus d’informations {#more-information}
 
