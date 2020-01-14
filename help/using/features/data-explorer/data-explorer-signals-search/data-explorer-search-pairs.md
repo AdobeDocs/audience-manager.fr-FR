@@ -5,7 +5,7 @@ seo-title: Rechercher des signaux par paires clé-valeur
 title: Rechercher des signaux par paires clé-valeur
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -32,6 +32,10 @@ Lors de la recherche de signaux utilisant plusieurs paires clé-valeur, [!DNL Au
 Cette recherche renvoie uniquement les résultats qui répondent aux critères des trois filtres du même appel : `c_creative == "12345"` `AND` `c_product == "smartphone"``AND` `c_location == "europe"`.
 
 ![](assets/signals-search.png)
+
+## Signaux exclus de la recherche de signaux {#excluded-signals}
+
+Les variables clés utilisées par Audience Manager et précédées du préfixe `d_` et `h_` ne sont pas surfacées par [!UICONTROL Signals Search]. Voir [Préfixe requis pour les variables](../../traits/trait-variable-prefixes.md) clés pour plus d’informations.
 
 ## Insensibilité à la casse et exécution automatique de la recherche {#case-insensitivity}
 
