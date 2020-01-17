@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Présentation de la confidentialité des données
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 La documentation sur la confidentialité des données décrit l’intégration d’Audience Manager et la conformité aux meilleures pratiques généralement admises en rapport avec la confidentialité des données des clients et les procédures d’exclusion.
 
-Audience Manager reconnaît l’importance de la relation entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d'un échange transparent d'éléments de données pseudonymes :
+Audience Manager reconnaît l’importance de la relation entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d&#39;un échange transparent d&#39;éléments de données pseudonymes :
 
 * Les clients reçoivent du contenu personnalisé, des offres de produits à prix réduit et des expériences utilisateur simplifiées.
 * Les marques reçoivent des flux de revenus vitaux qui prennent en charge plusieurs modèles commerciaux en ligne.
@@ -26,13 +26,13 @@ Dans le cadre de notre soutien continu à ce modèle, Audience Manager demeure d
 
  
 
-Le Règlement [général sur la protection des données (RDPC)](https://eugdpr.org/) a introduit plusieurs nouveaux droits à la confidentialité des données pour les membres de l'Union européenne, notamment le **droit d'accès** et le **droit d'être oublié**. Cela signifie que tout citoyen de l'UE dont les données personnelles ont été collectées par votre entreprise peut demander à tout moment d'accéder à ces données ou de les supprimer. Le non-respect de ces demandes peut entraîner des amendes de plusieurs millions de dollars pour votre organisation.
+Le Règlement [général sur la protection des données (RDPC)](https://eugdpr.org/) a introduit plusieurs nouveaux droits à la confidentialité des données pour les membres de l&#39;Union européenne, notamment le **droit d&#39;accès** et le **droit d&#39;être oublié**. Cela signifie que tout citoyen de l&#39;UE dont les données personnelles ont été collectées par votre entreprise peut demander à tout moment d&#39;accéder à ces données ou de les supprimer. Le non-respect de ces demandes peut entraîner des amendes de plusieurs millions de dollars pour votre organisation.
 
 Pour se conformer à la RDDC, Audience Manager prend en charge l’accès aux données et la suppression [des requêtes](data-privacy-requests.md).
 
-La [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), qui entrera en vigueur le 1er janvier 2020, conférera aux résidents de Californie de nouveaux droits sur leurs renseignements personnels et imposera des responsabilités en matière de protection des données à certaines entités qui font des affaires en Californie.
+La [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), qui est entrée en vigueur le 1er janvier 2020, accorde aux résidents de Californie de nouveaux droits concernant leurs renseignements personnels et impose des responsabilités en matière de protection des données à certaines entités qui font des affaires en Californie.
 
-L'ACCP accorde de nouveaux droits à la confidentialité des données aux résidents de Californie, y compris le droit d'accéder à leurs données personnelles et de les supprimer, et de savoir si leurs données personnelles sont vendues ou divulguées (et à qui). En prévision de l’ACCP, Audience Manager appuie les [demandes](data-privacy-requests.md)d’accès et de suppression de l’ACCP.
+L’ACCP accorde de nouveaux droits à la confidentialité des données aux résidents de Californie, y compris le droit d’accéder et de supprimer leurs données personnelles et de savoir si leurs données personnelles sont vendues ou divulguées (et à qui). Pour se conformer à l’ACCP, Audience Manager prend en charge l’accès à l’ACCP et les [demandes](data-privacy-requests.md)de suppression.
 
 Pour plus d’informations, consultez le Centre [de confidentialité](https://www.adobe.com/privacy/opt-out.html) Adobe.
 
