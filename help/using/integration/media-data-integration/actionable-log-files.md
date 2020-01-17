@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
+source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 
 ---
 
@@ -35,7 +35,7 @@ Si vous importez déjà des données de journal dans [!DNL Audience Manager], de
 
 >[!IMPORTANT]
 >
-> Début 2020, [!UICONTROL Actionable Log Files] commencera à étendre la disponibilité aux nouveaux serveurs d’annonces. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> Fin 2019, [!UICONTROL Actionable Log Files] a commencé à étendre la disponibilité aux nouveaux serveurs d’annonces. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Utilisation de fichiers journaux utilisables {#working-with-actionable-log-files}
 
