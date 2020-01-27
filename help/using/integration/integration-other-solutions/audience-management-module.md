@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Mise en oeuvre du module Gestion de l’audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
 
 ---
 
@@ -19,10 +19,6 @@ Suivez les étapes de ce didacticiel pour transférer [!DNL Analytics] des donn�
 >[!TIP]
 >
 >Nous vous recommandons d’utiliser [!UICONTROL Adobe Launch] pour transférer [!UICONTROL Analytics] des données dans Audience Manager. En utilisant [!UICONTROL Launch], vous n’avez pas à copier manuellement le code dans [!UICONTROL AppMeasurement], comme illustré sur cette page.
-
->[!NOTE]
->
->Les instructions de cette page se rapportent aux implémentations à l’aide d’ [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) ou de toute autre solution de gestion des balises, *à l’exception* d’ [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Nous vous recommandons d’utiliser Adobe Launch. En utilisant [!DNL Launch], vous n’avez pas à copier manuellement le code dans [!UICONTROL AppMeasurement], comme illustré sur cette page.
 
 ## Conditions préalables {#prereqs}
 
