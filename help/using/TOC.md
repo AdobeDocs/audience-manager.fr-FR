@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
+source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
 
 ---
 
@@ -37,6 +37,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
       + [Modifier les paramètres de votre compte](features/administration/edit-account-settings.md)
       + [Obscurcissement d’adresses IP](features/administration/ip-obfuscation.md)
       + [Limites d’utilisation](features/administration/usage-limits.md)
+      + [Rapports d’utilisation des activités](features/administration/activity-usage-reporting.md)
    + Modèles algorithmiques{#algorithmic-models}
       + [Modèles algorithmiques](features/algorithmic-models/understanding-models.md)
       + [Création d’un modèle algorithmique](features/algorithmic-models/create-model.md)
@@ -98,6 +99,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
          + [Audiences partagées](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinations basées sur un périphérique (serveur à serveur) {#device-based}
          + [Ajouter de nouvelles destinations basées sur un périphérique](features/destinations/add-device-based-destinations.md)
+         + [Liste des destinations basées sur les périphériques d’Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Ajout ou modification de segments pour les destinations serveur à serveur](features/destinations/add-edit-segments.md)
          + [Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique](features/destinations/twitter-tailored-audiences.md)
       + Destinations personnalisées {#custom-destinations}
@@ -371,6 +373,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
    + [FAQ sur l’API](faq/faq-api.md)
    + [FAQ d’Audience Lab](faq/faq-audience-lab.md)
    + [FAQ sur le flux de données client](faq/faq-cdf.md)
+   + [Assistance clientèle - Problèmes les plus fréquemment signalés](/help/using/faq/faq-top-customer-care-issues.md)
    + [FAQ sur la collecte de données et l’intégration de produits](faq/faq-data-collection.md)
    + [FAQ sur l&#39;introduction des données client entrantes](faq/faq-inbound-data-ingestion.md)
    + [FAQ sur la confidentialité et la rétention des données](faq/faq-privacy.md)
@@ -383,6 +386,11 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
    + [Aperçu](/help/using/help-legal/help-legal-overview.md)
    + [En cas de problème](/help/using/help-legal/help-problem.md)
    + [Coordonnées et informations juridiques](/help/using/help-legal/help-legal-contact.md)
++ Principaux problèmes du service clientèle{#top-support-issues}
+   + [Aperçu](/help/using/support-issues/support-issues-overview.md)
+   + [Pourquoi mes populations de caractéristiques embarquées ont-elles chuté à 0 vers le 15 octobre ? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Pourquoi mes caractéristiques ou segments ne s’affichent-ils pas dans la page des rapports de chevauchement ?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Pourquoi nos utilisateurs en lecture seule peuvent-ils créer, modifier ou supprimer des caractéristiques et des segments ?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Mises à jour de la documentation{#documentation-updates}
    + [Mises à jour de la documentation 2020](docs-updates/docs-2020.md)
    + [Mises à jour de la documentation 2019](docs-updates/docs-2019.md)
