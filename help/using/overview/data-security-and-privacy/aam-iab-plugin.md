@@ -5,7 +5,7 @@ seo-title: Module externe Audience Manager pour IAB TCF
 solution: Audience Manager
 title: Module externe Audience Manager pour IAB TCF
 translation-type: tm+mt
-source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -37,7 +37,7 @@ Le soutien du CCI au TCF décrit dans cet article représente la première phase
 
 Pour utiliser le TCF IAB avec Audience Manager, vous devez respecter les conditions préalables suivantes :
 
-1. Vous devez utiliser le service d’ID d’expérience (ECID) version 4.1 ou ultérieure. [Téléchargez](https://github.com/Adobe-Marketing-Cloud/id-service/releases) notre dernière version d'ECID.
+1. Vous devez utiliser le service d’ID d’expérience (ECID) version 4.1 ou ultérieure. [Téléchargez](https://github.com/Adobe-Marketing-Cloud/id-service/releases) notre dernière version d&#39;ECID.
 1. Vous devez utiliser la bibliothèque d’intégration des données d’Audience Manager (DIL) version 9.0 ou ultérieure, téléchargeable [ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lisez la documentation [d’Audience Manager sur](../..//dil/dil-overview.md)DIL.
 1. Si vous utilisez le transfert côté serveur (SSF) pour importer des données dans Audience Manager, vous devez effectuer la mise à niveau vers la dernière version d’AppMeasurement. Téléchargez AppMeasurement à l’aide du Gestionnaire [de code](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)Analytics.
 1. Vous devez utiliser une plateforme de gestion du consentement (CMP), commerciale ou la vôtre, qui prend en charge le TCF IAB et est enregistrée auprès du TCF IAB. Voir la liste des [CMP enregistrées dans le cadre](https://advertisingconsent.eu/cmp-list/)du CCI.
@@ -50,7 +50,7 @@ Pour ce faire, utilisez [Adobe Launch](https://docs.adobelaunch.com/) pour instr
 
 ## Processus de choix de l’utilisateur lors de l’utilisation de la structure IAB {#user-choice-workflow}
 
-Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans la liste globale des fournisseurs. L'image ci-dessous représente un exemple de dialogue CMP, présenté à un nouveau visiteur d'un site Web. N’oubliez pas que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
+Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans la liste globale des fournisseurs. L&#39;image ci-dessous représente un exemple de dialogue CMP, présenté à un nouveau visiteur d&#39;un site Web. N’oubliez pas que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
 
 ![Dialogue du CMP](assets/cmp.png)
 
@@ -64,7 +64,7 @@ Les objectifs normalisés du CCI sont les suivants :
 
 Consultez la page [de spécification de la structure](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features) IAB pour obtenir une description des cinq objectifs standard.
 
-Les utilisateurs peuvent accorder leur consentement à une combinaison d'objectifs normalisés et de fournisseurs. Par exemple, les utilisateurs peuvent accorder leur consentement pour le stockage, la personnalisation et la mesure et accorder leur consentement à tous les fournisseurs tiers affichés par le CMP. Ou, dans un autre exemple, ils pourraient accorder leur consentement aux cinq fins habituelles, mais seulement à quelques-uns des fournisseurs affichés par le CMP.
+Les utilisateurs peuvent accorder leur consentement à une combinaison d&#39;objectifs normalisés et de fournisseurs. Par exemple, les utilisateurs peuvent accorder leur consentement pour le stockage, la personnalisation et la mesure et accorder leur consentement à tous les fournisseurs tiers affichés par le CMP. Ou, dans un autre exemple, ils pourraient accorder leur consentement aux cinq fins habituelles, mais seulement à quelques-uns des fournisseurs affichés par le CMP.
 
 Une fois que l’utilisateur sélectionne ses choix de confidentialité, les choix de l’utilisateur sont enregistrés dans la chaîne de consentement TCF IAB. La chaîne de consentement du CCI TCF stocke la combinaison des objectifs approuvés et des fournisseurs, ainsi que d’autres informations de métadonnées (voir la page [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) du CCI pour plus d’informations). Chaque fournisseur inscrit au CCI TCF évalue la chaîne de consentement du CCI et prend des décisions en fonction des choix de confidentialité des utilisateurs. N’oubliez pas que les choix de confidentialité des utilisateurs sont valides pour tous les fournisseurs approuvés.
 
@@ -72,7 +72,7 @@ Une fois que l’utilisateur sélectionne ses choix de confidentialité, les cho
 
 Audience Manager évalue les choix des utilisateurs stockés dans la chaîne de consentement TFC IAB pour :
 
-* Stockage des informations et accès (ID d'objectif 1 dans la liste [](https://vendorlist.consensu.org/vendorlist.json)globale des fournisseurs)
+* Stockage des informations et accès (ID d&#39;objectif 1 dans la liste [](https://vendorlist.consensu.org/vendorlist.json)globale des fournisseurs)
 * Personnalisation (ID d’objectif 2)
 * Mesure (ID objectif 5)
 * Le fournisseur d’Audience Manager consent à stocker, traiter ou activer des données pour un éditeur.
@@ -111,7 +111,7 @@ Les pixels sont généralement placés par les clients d’Audience Manager sur 
 
 Audience Manager utilise deux paramètres pour transmettre le consentement de l’utilisateur dans les appels de pixels :
 
-* `gdpr` peut être 0 (le RGMD ne s'applique pas) ou 1 (le RGMD s'applique);
+* `gdpr` peut être 0 (le RGMD ne s&#39;applique pas) ou 1 (le RGMD s&#39;applique);
 * `gdpr_consent` est la chaîne de consentement du RDDC codée en base 64 et compatible avec les URL (voir [spécification](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications)). Un exemple d’appel pour un pixel d’impression avec les deux paramètres peut ressembler à ce qui suit :
 
 ```
@@ -129,7 +129,7 @@ Le cas d’utilisation est décrit dans l’image et dans les étapes ci-dessous
 
 ## Partenaires d’activation prenant en charge le TCF IAB {#aam-activation-partners}
 
-Le module externe Audience Manager pour IAB TCF vous permet de transférer la chaîne de consentement IAB TCF aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Pour plus d'informations sur les partenaires d'activation prenant en charge l'IAB TCF, consultez notre fiche **[Excel](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)** partenaire.
+Le module externe Audience Manager pour IAB TCF vous permet de transférer la chaîne de consentement IAB TCF aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Pour savoir quels partenaires d’activation prennent en charge le TCF IAB, consultez notre [liste de destinations](/help/using/features/destinations/device-based-destinations-list.md)basées sur un périphérique.
 
 ## Test de l’implémentation IAB {#test-iab-implementation}
 
