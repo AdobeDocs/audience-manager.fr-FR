@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Demandes de confidentialité de données
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -18,16 +18,16 @@ source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 Ce document présente la gestion de la confidentialité des données individuelles et des demandes d’exclusion que vous pouvez envoyer à Audience Manager via l’interface utilisateur [de](https://gdprui.cloud.adobe.io/) Privacy Service et l’interface **[!DNL Privacy Service API]**.
 
-Ces outils vous permettent d'envoyer des demandes de confidentialité de données aux consommateurs effectuées en vertu du RDPC et de l'ACCP.
+Ces outils vous permettent d&#39;envoyer des demandes de confidentialité de données aux consommateurs effectuées en vertu du RDPC et de l&#39;ACCP.
 
 Avant de lire cet article, nous vous recommandons de consulter le glossaire [du](../data-security-and-privacy/aam-gdpr-glossary.md) RDPC et le glossaire [de l’](aam-ccpa-glossary.md)ACCP afin de mieux comprendre la terminologie utilisée ici.
 
 Vous pouvez envoyer des requêtes individuelles pour accéder aux données du client et les supprimer d’Audience Manager de deux manières :
 
 * Via l’interface utilisateur [de](https://gdprui.cloud.adobe.io/)Privacy Service. Consultez la documentation [ici](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Par le **[!DNL Privacy Service API]**. Consultez la documentation [ici](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) et la référence API [ici](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Par le **[!DNL Privacy Service API]**. Consultez la documentation[ici](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)et la référence API[ici](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Lors de l’envoi de requêtes de confidentialité de données individuelles, vous pouvez envoyer les identifiants (ID) Audience Manager, comme décrit dans la section Identifiants **[](data-privacy-ids.md)** Audience Manager, ainsi que leurs identifiants d’espace de noms respectifs (ID de source de données).
+Lors de l’envoi de requêtes de confidentialité de données individuelles, vous pouvez envoyer les identifiants (ID) Audience Manager, comme décrit dans la section Identifiants **[](data-privacy-ids.md)**Audience Manager, ainsi que leurs identifiants d’espace de noms respectifs (ID de source de données).
 
 Le service [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) de confidentialité prend en charge deux types de requêtes : demandes d’accès aux données et de suppression de données.
 
@@ -140,7 +140,7 @@ Pour obtenir une description et une syntaxe, voir Variables [d’URL et Syntaxe 
 
  
 
-### Exclusion au niveau partenaire avec appels d'ID de périphérique
+### Exclusion au niveau partenaire avec appels d&#39;ID de périphérique
 
 L’exclusion au niveau du partenaire vous permet d’exclure vos utilisateurs de la collecte de données par des partenaires Audience Manager spécifiques. Vous pouvez vous exclure de la collecte de données sur un ID de périphérique donné pour une marque en lançant les appels suivants à l’API [](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS :
 
@@ -170,10 +170,10 @@ Cependant, certains de nos partenaires d’activation :
 
 Dans ce cas, vous ne pouvez pas envoyer de demandes de suppression aux partenaires d’activation de manière automatisée via Audience Manager.
 
-Téléchargez notre feuille [Excel de](assets/AAM-Partners-December2019.xlsx) partenaire pour savoir quels partenaires d’activation d’Audience Manager prennent en charge le non-segmentation.
+Consultez la [liste des destinations](/help/using/features/destinations/device-based-destinations-list.md) basées sur un périphérique pour savoir quels partenaires d’activation d’Audience Manager prennent en charge le non-segmentation.
 
 ## Demandes de correction de données {#correction}
 
-Dans la mesure où Audience Manager n’est pas la source des données, il existe un rôle limité pour la correction des données dans Audience Manager. La correction peut signifier que le consommateur a demandé à être soit disqualifié d'une caractéristique/segment incorrecte, soit qualifié à la caractéristique/segment désirée.
+Dans la mesure où Audience Manager n’est pas la source des données, il existe un rôle limité pour la correction des données dans Audience Manager. La correction peut signifier que le consommateur a demandé à être soit disqualifié d&#39;une caractéristique/segment incorrecte, soit qualifié à la caractéristique/segment désirée.
 
 Les clients d’Audience Manager peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils d’utilisateur et d’envoyer ces informations par ingestion [de données](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) hors ligne à Audience Manager. Veuillez noter que l’utilisateur continuera à être qualifié pour la caractéristique d’origine et les segments s’il répète son comportement.
