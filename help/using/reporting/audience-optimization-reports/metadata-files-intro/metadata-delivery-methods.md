@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Méthodes de remise des fichiers de métadonnées
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,10 @@ source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
 # Méthodes de remise des fichiers de métadonnées{#delivery-methods-for-metadata-files}
 
 Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant dans un [!DNL Amazon S3] répertoire spécial pour votre compte Audience Manager. Reportez-vous à cette section pour plus d’informations sur les chemins de remise/répertoire, les délais de traitement des fichiers et les mises à jour.
+
+>[!IMPORTANT]
+>
+> Contactez votre conseiller Audience Manager ou le service à la clientèle pour commencer à configurer un [!DNL Amazon S3] répertoire pour vos fichiers de métadonnées.
 
 ## Syntaxe du chemin de livraison et exemple {#syntax}
 
