@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fichiers de données pour les rapports d’optimisation d’audience et les fichiers journaux utilisables
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -43,7 +43,7 @@ Compte tenu de ces exigences, nommez vos fichiers de données en fonction de leu
 
 La syntaxe suivante définit la structure du contenu dans un fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
 
-**Syntaxe :** <pre><i>libellé d’en-tête 1</i> | <i>étiquette d'en-tête 2</i> ... Libellé d’ <i>en-tête n</i> | <i>version</i></code></pre>
+**Syntaxe :** <pre><i>libellé d’en-tête 1</i> | <i>étiquette d&#39;en-tête 2</i> ... Libellé d’ <i>en-tête n</i> | <i>version</i></code></pre>
 
 Dans le contenu du fichier :
 
@@ -141,9 +141,13 @@ Le tableau ci-dessous répertorie et décrit les en-têtes de colonne de votre f
 
 Téléchargez vos fichiers de données d’impression, de clic ou de conversion vers un répertoire Amazon S3 pour votre [!DNL Audience Manager] compte. Reportez-vous à cette section pour plus d’informations sur les chemins de remise/répertoire, les délais de traitement des fichiers et les mises à jour.
 
+>[!IMPORTANT]
+>
+> Contactez votre conseiller Audience Manager ou le service à la clientèle pour commencer à configurer un [!DNL Amazon S3] répertoire pour vos fichiers de données.
+
 **Syntaxe du chemin de remise et exemples**
 
-Les données sont stockées dans un espace de noms distinct pour chaque client dans un répertoire Amazon S3. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
+Les données sont stockées dans un espace de noms distinct pour chaque client dans un [!DNL Amazon S3] répertoire. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
 **Syntaxe :** <pre>.../log_ingestion/pid= ID <i><i>AAM/dpid= <i>d_src</i>/logs/ type <i>de</i>fichier_<i>yyyymmdd</i></code></pre>
 
@@ -163,7 +167,7 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de remise de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Cette paire clé-valeur qui contient votre ID de client <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Cette paire clé-valeur contient votre ID de client <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
