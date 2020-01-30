@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aperçu et mappages pour les fichiers de métadonnées
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ---
 
@@ -17,7 +17,7 @@ Un fichier de métadonnées associe des ID numériques avec des noms lisibles et
 
 ## Aperçu {#overview}
 
-Un examen des métadonnées et de leur utilisation. Un fichier de métadonnées doit être accompagné d’un fichier de données. Le contenu du fichier de métadonnées correspond aux informations du fichier de données et aux libellés connexes, lisibles par des personnes, des menus de rapport. Pour plus d’informations, voir Fichiers de [données pour les rapports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)Optimisation de l’audience.
+Un examen des métadonnées et de leur utilisation. Un fichier de métadonnées doit être accompagné d’un fichier de données. Le contenu du fichier de métadonnées correspond aux informations du fichier de données et aux libellés connexes, lisibles par des personnes, des menus de rapport. Pour plus d’informations, voir Fichiers de [données pour les rapports Optimisation de l’audience et Fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)journaux utilisables.
 
 ### Les Fichiers De Métadonnées Contiennent Des Données Sur D’Autres Données
 
@@ -31,7 +31,7 @@ L’appel d’événement classe les informations en ensembles de paires clé-va
 
 Le fichier de métadonnées est nécessaire pour lier un ID numérique à un nom lisible. Par exemple, supposons qu’un appel d’événement contient un ID créatif dans une paire clé-valeur comme celle-ci : `d_creative:1234`. Sans fichier de métadonnées, ce créatif s’afficherait sous la forme 1234 dans un menu d’options.
 
-Cependant, un fichier de métadonnées correctement formaté peut lier ce créatif à un vrai nom, comme "Advertiser Creative A", qui est un nom que vous pouvez lire et reconnaître dans un rapport.
+Cependant, un fichier de métadonnées correctement formaté peut lier ce créatif à un vrai nom, comme &quot;Advertiser Creative A&quot;, qui est un nom que vous pouvez lire et reconnaître dans un rapport.
 
 ### Quand avez-vous besoin d’un fichier de métadonnées
 
@@ -106,7 +106,7 @@ Les ID transmis par ces paires clé-valeur permettent de créer le nom du fichie
 
 ### Appel d’événement
 
-Dans cet exemple, nous allons créer un fichier de métadonnées qui permet d'insérer des noms créatifs dans un [!UICONTROL Audience Optimization] rapport. Pour ce faire, nous devons extraire les ID de source de données, de campagne et de création d’un appel d’événement.
+Dans cet exemple, nous allons créer un fichier de métadonnées qui permet d&#39;insérer des noms créatifs dans un [!UICONTROL Audience Optimization] rapport. Pour ce faire, nous devons extraire les ID de source de données, de campagne et de création d’un appel d’événement.
 
 ![](assets/metadata_file_event.png)
 
