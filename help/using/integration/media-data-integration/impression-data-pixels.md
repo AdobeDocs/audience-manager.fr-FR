@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -15,7 +15,11 @@ source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 Une méthode d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
 
-Cette méthodologie est souvent appelée "pixellisation du créatif". Ces points de données sont insérés dynamiquement dans le code de [!DNL Audience Manager] pixels par les macros du serveur d’annonces tiers, qui sont utilisées pour mapper et rapporter toutes les impressions et clics en fonction des attributs de rapports clés de la campagne. Les données agrégées offrent une vue unifiée des performances des campagnes, permettent d’identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence d’événements de serveur d’annonces qui conduisent à des conversions.
+Cette méthodologie est souvent appelée &quot;pixellisation du créatif&quot;. Ces points de données sont insérés dynamiquement dans le code de [!DNL Audience Manager] pixels par les macros du serveur d’annonces tiers, qui sont utilisées pour mapper et rapporter toutes les impressions et clics en fonction des attributs de rapports clés de la campagne. Les données agrégées offrent une vue unifiée des performances des campagnes, permettent d’identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence d’événements de serveur d’annonces qui conduisent à des conversions.
+
+>[!IMPORTANT]
+>
+>Pour qu’Audience Manager interprète correctement les champs qu’il reçoit dans les appels d’événement et effectue le rendu de vos données de campagne dans les rapports [Optimisation de l’](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audience, vous devez envoyer des fichiers de métadonnées qui mappent ces champs à des valeurs lisibles par l’utilisateur. Voir [Présentation et mappages pour les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées et contactez votre conseiller Audience Manager ou le service à la clientèle pour configurer un répertoire Amazon S3 pour les fichiers de métadonnées.
 
 ## Syntaxe des appels d’événement
 
@@ -51,7 +55,7 @@ Les appels d’événement d’impression acceptent les données formées en pai
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>ID de source de données ou code d’intégration pour votre annonceur. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> </td> 
+   <td colname="col2"> <p>ID de source de données ou code d’intégration pour votre annonceur. </p> <p>Requis pour les <span class="wintitle"> rapports Optimisation de l’audience </span> . </p> <p>Facultatif.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
