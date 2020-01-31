@@ -6,18 +6,14 @@ solution: Audience Manager
 title: Capture des données des clics sur les campagnes par appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de votre campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte des impressions, un appel d’événement est envoyé aux serveurs de collecte de données ([!UICONTROL DCS]) d’Audience Manager pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
-
->[!IMPORTANT]
->
->Pour qu’Audience Manager interprète correctement les champs qu’il reçoit dans les appels d’événement et effectue le rendu de vos données de campagne dans les rapports [Optimisation de l’](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audience, vous devez envoyer des fichiers de métadonnées qui mappent ces champs à des valeurs lisibles par l’utilisateur. Voir [Présentation et mappages pour les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées et contactez votre conseiller Audience Manager ou le service à la clientèle pour configurer un répertoire Amazon S3 pour les fichiers de métadonnées.
+Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de votre campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte [des](/help/using/integration/media-data-integration/impression-data-pixels.md)impressions, un appel d’événement est envoyé aux serveurs de collecte de données ([!UICONTROL DCS]) d’Audience Manager pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
 
 >[!NOTE]
 >
@@ -166,6 +162,11 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 Selon l’exemple ci-dessus, le navigateur est redirigé vers ce qui suit [!DNL URL]:
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
+
+## Fonctionnalité supplémentaire - Rapports Optimisation de l’audience
+
+Vous pouvez utiliser des appels de pixels pour alimenter les rapports [Optimisation de l’](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audience. Voir [Aperçu et mappages pour les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
+
 
 >[!MORELIKETHIS]
 >
