@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 Une méthode d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
 
 Cette méthodologie est souvent appelée &quot;pixellisation du créatif&quot;. Ces points de données sont insérés dynamiquement dans le code de [!DNL Audience Manager] pixels par les macros du serveur d’annonces tiers, qui sont utilisées pour mapper et rapporter toutes les impressions et clics en fonction des attributs de rapports clés de la campagne. Les données agrégées offrent une vue unifiée des performances des campagnes, permettent d’identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence d’événements de serveur d’annonces qui conduisent à des conversions.
-
->[!IMPORTANT]
->
->Pour qu’Audience Manager interprète correctement les champs qu’il reçoit dans les appels d’événement et effectue le rendu de vos données de campagne dans les rapports [Optimisation de l’](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audience, vous devez envoyer des fichiers de métadonnées qui mappent ces champs à des valeurs lisibles par l’utilisateur. Voir [Présentation et mappages pour les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées et contactez votre conseiller Audience Manager ou le service à la clientèle pour configurer un répertoire Amazon S3 pour les fichiers de métadonnées.
 
 ## Syntaxe des appels d’événement
 
@@ -111,6 +107,10 @@ Les appels d’événement d’impression acceptent les données formées en pai
 >[!NOTE]
 >
 >Veuillez contacter votre conseiller ou responsable de compte Adobe Audience Manager pour connaître l’URL exacte spécifique au domaine client.
+
+## Fonctionnalité supplémentaire - Rapports Optimisation de l’audience
+
+Vous pouvez utiliser des appels de pixels pour alimenter les rapports [Optimisation de l’](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)audience. Voir [Aperçu et mappages pour les fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
 >[!MORELIKETHIS]
 >
