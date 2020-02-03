@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Types de données collectées
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
+source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
 
 ---
 
@@ -39,8 +39,14 @@ L’exemple suivant illustre la manière dont les éléments de données potenti
 
 ![panier-données](assets/shopping-cart-data.png)
 
-|Elément|Description||—|—||1|**Sexe**. Le prénom d&#39;un acheteur indique habituellement son sexe. Dans notre exemple, le prénom de l&#39;acheteur est Mary, donc nous savons que l&#39;acheteur est une femme. Les noms ne sont jamais stockés par Audience Manager. ||2|**Intérêts**. Les articles du panier peuvent indiquer divers intérêts. Dans notre exemple, Mary dépense beaucoup pour l&#39;équipement de fitness. ||3|Type **de**logement. Selon les adresses d&#39;expédition et/ou de facturation, vous pouvez déterminer si Mary achète de l&#39;équipement pour elle-même ou pour une entreprise.|
-|4|**Location**. Les codes postaux sont plus fiables que les adresses IP lorsqu’il s’agit de localiser un emplacement. ||5|Affinité&#x200B;**de promotion**. Si un acheteur utilise des codes promotionnels ou des cartes-cadeaux, il est probablement un chasseur de bonnes affaires à la recherche des meilleures affaires. ||6|**Dépenser du pouvoir**. Les données de prix corrélées avec les codes ZIP+4 indiquent la puissance de dépense d&#39;un emplacement donné.|
+| Élément | Description |
+|---|---|
+| 1 | **Sexe**. Le prénom d&#39;un acheteur indique habituellement son sexe. Dans notre exemple, le prénom de l&#39;acheteur est Mary, donc nous savons que l&#39;acheteur est une femme. Les noms ne sont jamais stockés par Audience Manager. |
+| 2 | **Intérêts**. Les articles du panier peuvent indiquer divers intérêts. Dans notre exemple, Mary dépense beaucoup pour l&#39;équipement de fitness. |
+| 3 | **Type** de logement. Selon les adresses d&#39;expédition et/ou de facturation, vous pouvez déterminer si Mary achète de l&#39;équipement pour elle-même ou pour une entreprise. |
+| 4 | **Emplacement**. Les codes postaux sont plus fiables que les adresses IP lorsqu’il s’agit de localiser un emplacement. |
+| 5 | **Affinité** de promotion. Si un acheteur utilise des codes promotionnels ou des cartes-cadeaux, il est probablement un chasseur de bonnes affaires à la recherche des meilleures affaires. |
+| 6 | **Dépenser le pouvoir**. Les données de prix corrélées avec les codes ZIP+4 indiquent le pouvoir de dépense d’un emplacement donné. |
 
 Une fois les données brutes collectées, elles sont mises en correspondance avec les caractéristiques définies par le client dans la plate-forme Audience Manager. La taxonomie et les mappages de données peuvent être ajustés à tout moment sans apporter de modifications au code de collecte de données.
 
