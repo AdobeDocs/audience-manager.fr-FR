@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Types de données collectées
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
 
 ---
 
@@ -33,11 +33,14 @@ c_1st_party_data.xml
 
  -->
 
-Audience Manager travaille avec les clients pour comprendre leur stratégie de données, puis fait correspondre cette stratégie à un plan de collecte de données personnalisé. Notre équipe Solutions Partenaires travaille avec vous pour évaluer les sites, les signaux de données brutes et les autres interactions des utilisateurs sur vos sites Web. Grâce à ces informations, nous vous aiderons à créer une stratégie de collecte de données personnalisée qui capture les signaux de données au niveau de l'utilisateur provenant de diverses pages de votre inventaire. Les données capturées sont stockées et mises en correspondance avec une taxonomie prédéfinie, qui peut être mise à jour à tout moment, en fonction des besoins de votre entreprise.
+Audience Manager travaille avec les clients pour comprendre leur stratégie de données, puis fait correspondre cette stratégie à un plan de collecte de données personnalisé. Notre équipe Solutions Partenaires travaille avec vous pour évaluer les sites, les signaux de données brutes et les autres interactions des utilisateurs sur vos sites Web. Grâce à ces informations, nous vous aiderons à créer une stratégie de collecte de données personnalisée qui capture les signaux de données au niveau de l&#39;utilisateur provenant de diverses pages de votre inventaire. Les données capturées sont stockées et mises en correspondance avec une taxonomie prédéfinie, qui peut être mise à jour à tout moment, en fonction des besoins de votre entreprise.
 
 L’exemple suivant illustre la manière dont les éléments de données potentiels peuvent être capturés à partir d’un exemple de page d’achat.
 
-![](assets/1st_party_800px.png)
+![panier-données](assets/shopping-cart-data.png)
+
+|Elément|Description||—|—||1|**Sexe**. Le prénom d&#39;un acheteur indique habituellement son sexe. Dans notre exemple, le prénom de l&#39;acheteur est Mary, donc nous savons que l&#39;acheteur est une femme. Les noms ne sont jamais stockés par Audience Manager. ||2|**Intérêts**. Les articles du panier peuvent indiquer divers intérêts. Dans notre exemple, Mary dépense beaucoup pour l&#39;équipement de fitness. ||3|Type **de**logement. Selon les adresses d&#39;expédition et/ou de facturation, vous pouvez déterminer si Mary achète de l&#39;équipement pour elle-même ou pour une entreprise.|
+|4|**Location**. Les codes postaux sont plus fiables que les adresses IP lorsqu’il s’agit de localiser un emplacement. ||5|Affinité&#x200B;**de promotion**. Si un acheteur utilise des codes promotionnels ou des cartes-cadeaux, il est probablement un chasseur de bonnes affaires à la recherche des meilleures affaires. ||6|**Dépenser du pouvoir**. Les données de prix corrélées avec les codes ZIP+4 indiquent la puissance de dépense d&#39;un emplacement donné.|
 
 Une fois les données brutes collectées, elles sont mises en correspondance avec les caractéristiques définies par le client dans la plate-forme Audience Manager. La taxonomie et les mappages de données peuvent être ajustés à tout moment sans apporter de modifications au code de collecte de données.
 
@@ -53,9 +56,9 @@ c_2nd_party_data.xml
 
 Dans un scénario de données propriétaires, les publicitaires envoient leurs propres ressources de données aux éditeurs afin qu’ils puissent combiner ces informations avec les données de l’éditeur, puis exécuter un programme publicitaire plus ciblé. De plus, les éditeurs peuvent élargir leur public en s’associant avec leurs annonceurs. Dans la plupart des cas, ces arrangements impliquent des relations contractuelles limitées au placement de la balise conteneur Audience Manager sur le site partenaire afin de faciliter la collecte et le partage des données.
 
-Un exemple de collecte et de remarketing de données de seconde partie pourrait impliquer qu'un constructeur automobile collecte des données sur ses pages de configuration de voiture, puis partage ces informations avec des partenaires clés. Dans ce cas, le fabricant de la voiture peut diffuser différentes publicités sur un site partenaire d’Audience Manager pour les consommateurs qui ont configuré différents types d’options de véhicules (par exemple, couleur, modèle, etc.).
+Un exemple de collecte et de remarketing de données de seconde partie peut impliquer la collecte de données sur ses produits par un distributeur de vêtements, puis le partage de ces informations avec des partenaires clés. Dans ce cas, le commerce de détail peut proposer différentes publicités sur un site partenaire d’Audience Manager pour les clients qui choisissent différentes couleurs et tailles de veste.
 
-![](assets/2nd_party_700px.png)
+![](assets/shopping-cart-traits.png)
 
 ## Third-Party Data Collection {#third-party-data}
 
