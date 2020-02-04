@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Types de données collectées
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
+source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
 
 ---
 
@@ -88,5 +88,4 @@ Audience Manager s’intègre à d’autres fournisseurs de données en fonction
 
 De nombreux clients choisissent de travailler avec des partenaires tiers de correspondance de données. Ces entités ont des relations avec les sites qui ont des exigences d’enregistrement et peuvent traiter les fichiers de données client en les faisant correspondre (en temps réel) en fonction de leur réseau d’enregistrement.
 
-![](assets/data_provider_match_700px.png)
-
+![data-provider-match](assets/data-provider-match.png)
