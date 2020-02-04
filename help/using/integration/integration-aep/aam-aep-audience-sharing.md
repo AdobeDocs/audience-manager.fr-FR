@@ -4,9 +4,9 @@ seo-description: Cet article décrit la manière dont les audiences sont partag�
 seo-title: Partage d’audience entre Audience Manager et Adobe Experience Platform
 solution: Audience Manager
 title: Partage d’audience entre Audience Manager et Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
+source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
 
 ---
 
@@ -26,9 +26,9 @@ La fonctionnalité de partage d’audience entre Audience Manager et Adobe Exper
 Vous pouvez utiliser les caractéristiques et les segments d’Audience Manager dans Experience Platform pour ajouter des données d’Audience Manager à vos profils clients et bénéficier du service [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)segmentation de la plateforme d’expérience.
 
 Dans Audience Manager, vous pouvez utiliser les segments de la plateforme d’expérience pour les cas d’utilisation de la plateforme de gestion de données, tels que :
-* Ajout de données [tierces](/help/using/overview/data-types-collected.md#third-party-data) à vos segments ;
+* Ajoutez des données [](/help/using/overview/data-types-collected.md#third-party-data) tierces à vos segments ;
 * [Modélisation algorithmique](/help/using/features/algorithmic-models/understanding-models.md);
-* Activation de vos segments vers des destinations qui ne sont pas actuellement prises en charge dans la plateforme d’expérience.
+* Activez vos segments vers des destinations qui ne sont pas encore prises en charge dans le catalogue [des](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)destinations de la plateforme d’expérience.
 
 De plus, vos segments de plateforme d’expérience sont partagés avec d’autres solutions Experience Cloud, via les services [principaux](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
@@ -47,7 +47,7 @@ Consultez le tableau ci-dessous pour une présentation des cas d’utilisation d
 Vos caractéristiques et segments Audience Manager apparaissent dans la plateforme d’expérience sous forme d’ **audiences** dans le processus des segments. Pour plus d’informations sur vos segments et caractéristiques Audience Manager dans la plateforme d’expérience, voir :
 
 * [Présentation du service de segmentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
-* [Guide de l’utilisateur du créateur de segments de plateforme d’expérience](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segment-builder-guide.md)
+* [Guide de l’utilisateur du créateur de segments de plateforme d’expérience](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
 
 <br> 
 
@@ -70,7 +70,7 @@ Pour un exemple de caractéristique créée automatiquement à partir d’un seg
 ![Caractéristique de la plateforme d’expérience](/help/using/integration/integration-aep/assets/aep-trait.png)
 
 
-| Numéro d'article | Nom | Description |
+| Numéro d&#39;article | Nom | Description |
 ---------|----------|---------
 | 1 | Type de caractéristiques | Les caractéristiques créées à partir des segments de plateforme d’expérience sont créées sous forme de caractéristiques intégrées dans Audience Manager. |
 | 2 | Source de données | Création automatique. Toutes les caractéristiques et tous les segments créés automatiquement à partir des segments de la plate-forme d’expérience sont stockés dans la source de données **Adobe Experience Platform Audience Sharing**. |
@@ -84,13 +84,13 @@ Pour un exemple de caractéristique créée automatiquement à partir d’un seg
 
 Audience Manager crée automatiquement un dossier de segments appelé Segments **de plateforme d’** expérience dans votre stockage de segments.
 
-![Capture d'écran du tableau de bord](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
+![Capture d&#39;écran du tableau de bord](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
 Pour un exemple de segment créé automatiquement à partir d’un segment de plateforme d’expérience, voir la capture d’écran ci-dessous :
 
-![Capture d'écran du segment](/help/using/integration/integration-aep/assets/aep-segment.png)
+![Capture d&#39;écran du segment](/help/using/integration/integration-aep/assets/aep-segment.png)
 
-| Numéro d'article | Nom | Description |
+| Numéro d&#39;article | Nom | Description |
 ---------|----------|---------
 | 1 | Code d’intégration | Le code d’intégration correspond à l’ID de segment dans la plateforme d’expérience. |
 | 2 | Source de données | Création automatique. Toutes les caractéristiques et tous les segments créés automatiquement à partir des segments de la plate-forme d’expérience sont stockés dans la source de données **Adobe Experience Platform Audience Sharing**. |
