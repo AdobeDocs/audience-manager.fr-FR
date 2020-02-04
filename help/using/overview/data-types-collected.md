@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Types de données collectées
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
+source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
 
 ---
 
@@ -62,7 +62,7 @@ c_2nd_party_data.xml
 
 Dans un scénario de données propriétaires, les publicitaires envoient leurs propres ressources de données aux éditeurs afin qu’ils puissent combiner ces informations avec les données de l’éditeur, puis exécuter un programme publicitaire plus ciblé. De plus, les éditeurs peuvent élargir leur public en s’associant avec leurs annonceurs. Dans la plupart des cas, ces arrangements impliquent des relations contractuelles limitées au placement de la balise conteneur Audience Manager sur le site partenaire afin de faciliter la collecte et le partage des données.
 
-Un exemple de collecte et de remarketing de données de seconde partie peut impliquer la collecte de données sur ses produits par un distributeur de vêtements, puis le partage de ces informations avec des partenaires clés. Dans ce cas, le commerce de détail peut proposer différentes publicités sur un site partenaire d’Audience Manager pour les clients qui choisissent différentes couleurs et tailles de veste.
+Un exemple de collecte et de remarketing de données de seconde partie pourrait impliquer un détaillant de vêtements qui collecterait des données sur ses produits, puis les partagerait avec des partenaires clés. Dans ce cas, le commerce de détail peut proposer différentes publicités sur un site partenaire d’Audience Manager pour les clients qui choisissent différentes couleurs et tailles de veste.
 
 ![](assets/shopping-cart-traits.png)
 
