@@ -1,14 +1,14 @@
 ---
 description: Les options du menu Administration vous permettent de créer des utilisateurs d’Audience Manager et de les affecter à des groupes. Vous pouvez également afficher les limites (caractéristiques, segments, destinations et modèles).
-keywords: rbac;RBAC;rôle-based;role-based;role-based access control
+keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: Les options du menu Administration vous permettent de créer des utilisateurs d’Audience Manager et de les affecter à des groupes. Vous pouvez également afficher les limites (caractéristiques, segments, destinations et modèles).
 seo-title: Administration
 solution: Audience Manager
 title: Administration
-topic: API DIL
+topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
@@ -29,10 +29,10 @@ Les clients d’entreprise qui utilisent [!DNL Audience Manager] une seule plate
 
 Créez des utilisateurs dans [!DNL Audience Manager] et spécifiez les détails de l’utilisateur, l’état de connexion et affectez des utilisateurs à des groupes.
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Cliquez sur ![](assets/icon_add.png) pour afficher la [!UICONTROL Create New User] page.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
-   * **** Nom d'utilisateur : Spécifiez un nom d’utilisateur unique pour Audience Manager.
+   * **** Nom d&#39;utilisateur : Spécifiez un nom d’utilisateur unique pour Audience Manager.
    * **** Prénom : Indiquez le prénom de l’utilisateur.
    * **** Nom : Indiquez le nom de famille de l’utilisateur.
    * **** Adresse électronique : Indiquez l’adresse électronique de l’utilisateur. [!DNL Audience Manager] n’envoie pas de notification régulière aux utilisateurs. [!DNL Audience Manager] les administrateurs ont accès aux adresses électroniques des utilisateurs et peuvent envoyer manuellement des courriers électroniques aux utilisateurs selon les besoins. Par exemple, si un utilisateur oublie son mot de passe, l’adresse électronique indiquée dans ce champ est utilisée pour envoyer un mot de passe temporaire et des instructions pour réinitialiser le mot de passe.
@@ -56,7 +56,7 @@ Un *groupe* est un ensemble d’utilisateurs qui partagent des droits d’accès
 
 Création d’un groupe:
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
 1. Cliquez sur ![](assets/icon_add.png) pour ouvrir la [!UICONTROL Group Settings] page.
 1. Dans [!UICONTROL Group Details]:
    * Nommez le groupe.
@@ -135,3 +135,21 @@ Lisez ci-dessous la description de chaque autorisation de caractères génériqu
 **Signaux**
 
 * `VIEW_ALL_SIGNALS` - Les utilisateurs peuvent afficher tous les signaux capturés dans [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
+
+## Cas d’utilisation {#use-cases}
+
+### Contrôle de l’accès des utilisateurs {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] Vous pouvez surveiller l’état de connexion de l’utilisateur, en vous donnant une idée claire de qui peut accéder à votre instance d’Audience Manager.
+
+Selon les besoins de votre entreprise, vous pouvez activer et désactiver les comptes d’utilisateurs, selon les besoins.
+
+![moniteur-accès utilisateur](assets/monitor-user-access.png)
+
+### Protection de l’accès pour les sources de données sensibles {#protect-sensitive-data-sources}
+
+Vous pouvez configurer [!UICONTROL Role-Based Access Control] au niveau de la caractéristique, du segment et de la destination, pour chaque groupe d’utilisateurs.
+
+Cette fonctionnalité vous permet de gérer la manière dont vos utilisateurs visualisent, créent, lisent, écrivent et modifient des jeux de données spécifiques, et même de limiter l&#39;accès des utilisateurs aux jeux de données qui ne devraient pas être accessibles.
+
+![protection d&#39;accès](assets/access-protection.png)
