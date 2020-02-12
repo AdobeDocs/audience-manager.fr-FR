@@ -4,9 +4,9 @@ seo-description: En option, vous pouvez chiffrer des fichiers de données à l�
 seo-title: Chiffrement PGP de fichier pour les types de données entrants
 solution: Audience Manager
 title: Chiffrement PGP de fichier pour les types de données entrants
-uuid: 89cace1-0259-48fc-865b-d525ec7822f7
+uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -20,6 +20,8 @@ Vous pouvez, en option, chiffrer des fichiers de données avec [!DNL PGP] chiffr
 >[!IMPORTANT]
 >
 >Actuellement, nous ne prenons pas en charge le chiffrement et la compression sur le même fichier de données entrant. Vous pouvez choisir de chiffrer ou de [compresser](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) vos fichiers entrants.
+>
+> Toutefois, gardez à l’esprit que le chiffrement PGP inclut une compression intégrée.
 
 Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données entrants.
 
