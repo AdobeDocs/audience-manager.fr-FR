@@ -1,17 +1,17 @@
 ---
 description: Vous pouvez également compresser les fichiers de données lors de leur envoi vers Audience Manager.
 seo-description: Vous pouvez également compresser les fichiers de données lors de leur envoi vers Audience Manager.
-seo-title: ' Compression de fichiers pour les fichiers de transfert de données entrants'
+seo-title: Compression de fichiers pour les fichiers de transfert de données entrants
 solution: Audience Manager
-title: ' Compression de fichiers pour les fichiers de transfert de données entrants'
+title: Compression de fichiers pour les fichiers de transfert de données entrants
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
 
-#  Compression de fichiers pour les fichiers de transfert de données entrants{#file-compression-for-inbound-data-transfer-files}
+# Compression de fichiers pour les fichiers de transfert de données entrants{#file-compression-for-inbound-data-transfer-files}
 
 Vous pouvez également compresser les fichiers de données lors de leur envoi vers Audience Manager.
 
@@ -24,6 +24,8 @@ Audience Manager prend également en charge les fichiers non compressés.
 >[!IMPORTANT]
 >
 >Actuellement, nous ne prenons pas en charge le chiffrement et la compression sur le même fichier de données entrant. Vous pouvez choisir de [chiffrer](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) ou de compresser vos fichiers entrants.
+>
+> Toutefois, gardez à l’esprit que le chiffrement PGP inclut une compression intégrée.
 
 ## Compression Amazon S3
 
