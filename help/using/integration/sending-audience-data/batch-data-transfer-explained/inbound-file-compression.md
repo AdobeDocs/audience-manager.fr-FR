@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Compression de fichiers pour les fichiers de transfert de données entrants
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
 
 ---
 
@@ -25,7 +25,7 @@ Audience Manager prend également en charge les fichiers non compressés.
 >
 >Nous ne prenons pas en charge le chiffrement des fichiers entrants compressés à l’aide de gzip (`.gz`).
 >
-> Pour chiffrer et compresser des fichiers entrants, utilisez le chiffrement [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] le chiffrement inclut la compression de fichiers.
+>Pour chiffrer et compresser des fichiers entrants, utilisez le chiffrement [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] le chiffrement inclut la compression de fichiers.
 
 ## Compression Amazon S3
 
