@@ -4,17 +4,15 @@ seo-description: Un flux de données nécessite un nom, une description, une sou
 seo-title: Création, tarification et gestion des flux de données
 solution: Audience Manager
 title: Création, tarification et gestion des flux de données
-topic: API DIL
+topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
 
 
 # Création, tarification et gestion des flux de données {#create-price-and-manage-data-feeds}
-
-Un flux de données nécessite un nom, une description, une source de données et un type de plan. Les flux sont désactivés jusqu’à ce que vous enregistriez et activiez le flux. Configurez des flux de données publics ou privés dans [!UICONTROL Audience Marketplace] &gt; [!UICONTROL My Shared Data]. Disponible uniquement pour les vendeurs de données.
 
 ## Création d’un flux de données public ou privé {#create-public-private-data-feed}
 
@@ -30,7 +28,7 @@ Pour créer un flux de données :
 1. Fournissez une brève description (255 caractères au maximum).
 
    Une bonne description doit décrire votre flux avec précision. Par exemple, vous pouvez inclure du texte pour les catégories marketing, les données démographiques et la couverture géographique (par exemple, [!DNL US] ou Amérique du Nord). Le texte de la description peut faire l’objet de recherches et aide les acheteurs à trouver ou à évaluer votre flux. Une bonne description est un élément important pour attirer des abonnés à votre flux de données.
-1. Sélectionnez une source de données dans les **[!UICONTROL Data Source]** options.
+1. Sélectionnez une source de données dans les **[!UICONTROL Data Source]** options. Les flux de données sont limités à une seule source de données. Vous ne pouvez pas affecter plusieurs sources de données au même flux de données.
 
    >[!IMPORTANT]
    >
@@ -40,7 +38,7 @@ Pour créer un flux de données :
 
    Les flux peuvent contenir plusieurs plans. Les plans peuvent contenir plusieurs cas d’utilisation. Pour plus d’informations, voir Types de [plan pour les flux](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)de données.
 
-1. Cliquez sur **[!UICONTROL Save]** pour enregistrer vos frais de données *sans* les activer.
+1. Cliquez sur **[!UICONTROL Save]** pour enregistrer votre flux de données *sans* l’activer.
 1. Pour enregistrer et activer un flux de données :
    1. Déplacez le **[!UICONTROL Availability]** curseur vers **[!UICONTROL Active]**.
    1. Cliquez sur **[!UICONTROL Save]**.
@@ -54,7 +52,7 @@ Pour créer un flux de données :
 
 Dans la [!UICONTROL Settings] section, déplacez le curseur vers :
 
-* **[!UICONTROL Private]** et **[!UICONTROL Branded]**: La [!UICONTROL Marketplace] liste de l'acheteur affiche le nom du vendeur dans la colonne Fournisseur et toutes les autres données sont masquées.
+* **[!UICONTROL Private]** et **[!UICONTROL Branded]**: La [!UICONTROL Marketplace] liste de l&#39;acheteur affiche le nom du vendeur dans la colonne Fournisseur et toutes les autres données sont masquées.
 
 * **[!UICONTROL Private]** et **[!UICONTROL Unbranded]**: La [!UICONTROL Marketplace] liste de l’acheteur affiche uniquement le nom et la description du flux de données. Le nom du fournisseur de données s’affiche sous la forme [!UICONTROL Private Seller].
 
@@ -94,7 +92,7 @@ Après avoir supprimé l’accès à un flux de données, les abonnés sont resp
 
 ![](assets/plan_types.png)
 
-## Types de plan et options de cas d'utilisation {#plan-types-use-cases}
+## Types de plan et options de cas d&#39;utilisation {#plan-types-use-cases}
 
 <!-- c_feed_options.xml -->
 
@@ -178,7 +176,7 @@ Pour examiner, approuver ou rejeter les demandes d’acheteur, accédez à [!UIC
 3. Dans la [!UICONTROL Allow Access] section de chaque champ de requête, cochez la case pour approuver une requête ou le X pour refuser l’accès.
 4. Confirmez ou annulez l’action sélectionnée dans la fenêtre contextuelle de confirmation.
 
-##  Remises pour les fournisseurs de données {#discounts}
+## Remises pour les fournisseurs de données {#discounts}
 
 En [!UICONTROL Audience Marketplace]effet, les remises vous permettent de réduire le prix publié d’un flux de données pour les abonnés individuels. Vous pouvez proposer des remises aux abonnés qui ont soumis une demande d’abonnement ou aux abonnés qui ont demandé des détails sur un flux de données. Les rabais s’appliquent aux flux [!DNL CPM] et aux flux à taux fixe. Les remises peuvent s’avérer utiles lorsque vous souhaitez offrir des avantages d’abonnement aux nouveaux clients ou pour récompenser la fidélité de vos clients.
 
