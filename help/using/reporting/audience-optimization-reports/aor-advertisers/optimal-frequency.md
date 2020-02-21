@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 'Rapport sur les fréquences optimales '
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: e197dda9232b1400737a70add2ae0e44ab5e39d7
+source-git-commit: 69b8464dad7918d9f0dd0c5570c1d84f7f8e4c2b
 
 ---
 
@@ -25,4 +25,4 @@ Comme le montre l’exemple de rapport, l’intersection des tracés sur deux li
 
 ## Exemple de rapport
 
-![fréquence optimale](assets/optimal-frequency1.png)
+![fréquence optimale](assets/optimal-frequency2.png)
