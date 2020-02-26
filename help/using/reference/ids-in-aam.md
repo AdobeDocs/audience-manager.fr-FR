@@ -1,35 +1,45 @@
 ---
 description: Consultez ce document pour obtenir la liste complète des ID Adobe Audience Manager.
-keywords: DPID; DPUUID; CID; UUID; uuid; uid, uuid, uuuid, uuuid, uuuid, uuuid, uuuid, uuuid, uuuuid, uuuid, uuuuid, uuuid, uuuuid, uuuuuid, uuuid
+keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: Consultez ce document pour obtenir la liste complète des ID Adobe Audience Manager.
 seo-title: Index des ID dans Audience Manager
 solution: Audience Manager
 title: Index des ID dans Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: 7d168c754a9b99dfd88718a0c27c34f3c1dc61d5
+source-git-commit: df2a3c180ff47358a2643f0be2d26c1538524c86
 
 ---
 
 
 # Index des ID dans Audience Manager{#index-of-ids-in-audience-manager}
 
-Consultez ce document pour obtenir la liste complète des ID Adobe Audience Manager.
+## Aperçu {#overview}
 
-| ID | Nom et description | Exemple |
-|---|---|---|
-| [!DNL AAM UUID] | ID utilisateur unique d’Audience Manager. ID numérique de périphérique à 38 chiffres associé par Audience Manager à chaque périphérique avec lequel il interagit. Pensez à cet identifiant chaque fois que vous voyez une mention d’utilisateurs uniques dans l’interface utilisateur d’Audience Manager. Audience Manager enregistre cet identifiant sous forme de cookie dans le domaine `demdex.net` tiers. L’UUID Audience Manager est envoyé dans les appels d’événement en tant que `d_uuid` signal. | `demdex = 07955261652886032950143702505894272138` |
-| [!DNL ImsOrgId] | ID d’organisation. Il s’agit de l’identifiant fourni à une entreprise lors de son inscription à Experience Cloud. Pour savoir comment trouver l’ID d’organisation de votre entreprise, consultez [Rechercher votre ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)d’organisation. | `5DC5123F5245B1D20A490D46@AdobeOrg` |
-| PID | ID de partenaire. Le PID est l’identifiant d’une société dans Audience Manager. Audience Manager associe un [!DNL imsOrgId] à un [!DNL PID]. | `1352` |
-| [!DNL ECID], [!DNL MID] | Experience Cloud ID. L’ID Experience Cloud ([!DNL ECID], abréviations héritées [!DNL MID] ou [!DNL MCID]) est dérivé mathématiquement de votre ID d’organisation et de l’ID utilisateur unique d’Audience Manager. As long as these IDs remain constant, generating the right [!DNL ECID] for a specific user is simply a math problem. With the same organization ID and Audience Manager [!DNL UUID] you get the same [!DNL ECID] value every time. Vous pouvez en savoir plus sur l’ECID dans la documentation [Cookies et Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) . | `mid = 08382830887934830189014177072406221371` |
-| [!DNL SID] | ID de caractéristique. L’ID de caractéristique identifie de manière unique les caractéristiques de l’environnement Audience Manager. Un ID de caractéristique est affecté à chaque caractéristique de l’interface utilisateur. | `289983` |
-| SID | ID de segment. L’ID de segment identifie de manière unique les segments dans l’environnement Audience Manager. Un ID de segment est affecté à chaque segment dans l’interface utilisateur. | `4798574` |
-| [!DNL csegID] | Identifiant de segment hérité. Cet identifiant identifie de manière unique les segments dans l’environnement Audience Manager. Un ID de segment hérité est affecté à chaque segment de l’interface utilisateur. | `741232` |
-| [!DNL destID] | ID de destination. L’ID de destination identifie de manière unique les destinations dans l’environnement Audience Manager. Un ID est affecté à chaque destination dans l’interface utilisateur. | `2523` |
-| [!DNL DPID] | ID de source de données (également appelé ID de fournisseur de données). L’ID de source de données est un espace de noms pour les ID ou les caractéristiques. Un ID est affecté à chaque source de données (fournisseur de données) dans l’interface utilisateur. | `39217` |
-| [!DNL DPUUID] | ID utilisateur unique du fournisseur de données (également appelé [!DNL CRM ID]). Identifiant tiers. Il s’agit de l’identifiant par lequel vous identifiez les utilisateurs finaux dans votre propre [!DNL CRM] système. Vous pouvez synchroniser [!DNL DPUUIDs] Audience Manager [!DNL UUIDs] et vous pouvez synchroniser [!DNL DPUUIDs] à partir de vos différentes sources de données ([!DNL DPIDs]) dans le processus de synchronisation des identifiants. | `2132-3423vn-343fds-3432r` |
-| [!DNL CRM ID] | Voir DPUUID. | `2132-3423vn-343fds-3432r` |
-| [!DNL CID], [!DNL CID_IC] | ID client, code d’intégration d’ID client. Les paires [!DNL CID] et [!DNL CID_IC] clé-valeur remplacent [!DNL DPID] et [!DNL DPUUID]. Ils fournissent les mêmes fonctions que le [!DNL DPID] et [!DNL DPUUID], mais sont plus efficaces car ils incluent l’ID du fournisseur de données et l’ID utilisateur (ou le code d’intégration) dans une seule paire clé-valeur. |  |
+Audience Manager utilise plusieurs ID pour identifier et gérer les données que vous lui envoyez. Reportez-vous à cet article pour obtenir la liste complète des ID Adobe Audience Manager, ainsi que des exemples des préfixes que vous devez utiliser.
+
+## Préfixe d’ID {#prefixing}
+
+Bien que vous puissiez faire référence à la plupart de ces identifiants par leur nom autonome, la plupart d’entre eux sont destinés à être utilisés avec divers préfixes lors de la transmission de données par le biais d’appels DCS. Certains de ces identifiants sont utilisés par Audience Manager sans être exposés aux utilisateurs, tandis que d’autres sont également visibles dans l’interface utilisateur.
+
+Pour comprendre les préfixes utilisés dans les exemples suivants, voir Attributs [pris en charge pour les appels d’API DCS](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+
+## Liste des identifiants d’Audience Manager {#id-list}
+
+| ID | Nom et description | Utilisation et exemples | Emplacement de l’interface utilisateur |
+|---|---|---|---|
+| [!DNL AAM UUID] | ID utilisateur unique d’Audience Manager. ID numérique de périphérique à 38 chiffres associé par Audience Manager à chaque périphérique avec lequel il interagit. Pensez à cet identifiant chaque fois que vous voyez une mention d’utilisateurs uniques dans l’interface utilisateur d’Audience Manager. Audience Manager enregistre cet identifiant sous forme de cookie dans le domaine `demdex.net` tiers. | Dans [!DNL DCS] les appels, `uuid` est précédé du `d_` préfixe. <p> `d_uuid = 07955261652886032950143702505894272138` </p> | Invisible dans l’interface utilisateur d’Audience Manager. |
+| [!DNL ImsOrgId] | ID d’organisation. Il s’agit de l’identifiant fourni à une entreprise lors de sa connexion à un compte Experience Cloud. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Invisible dans l’interface utilisateur d’Audience Manager. Pour savoir comment trouver l’ID d’organisation de votre entreprise, consultez [Rechercher votre ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)d’organisation. |
+| PID | ID de partenaire. Le PID est l’identifiant d’une société dans Audience Manager. Audience Manager associe un [!DNL imsOrgId] à un [!DNL PID]. | `1352` | Invisible dans l’interface utilisateur d’Audience Manager. |
+| [!DNL ECID], [!DNL MID] | Experience Cloud ID. L’ID Experience Cloud ([!DNL ECID], abréviations héritées [!DNL MID] ou [!DNL MCID]) est dérivé mathématiquement de votre ID d’organisation et de l’ID utilisateur unique d’Audience Manager. As long as these IDs remain constant, generating the right [!DNL ECID] for a specific user is simply a math problem. With the same organization ID and Audience Manager [!DNL UUID] you get the same [!DNL ECID] value every time. Vous pouvez en savoir plus sur l’ECID dans la documentation [Cookies et Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) . | `mid = 08382830887934830189014177072406221371` | Invisible dans l’interface utilisateur d’Audience Manager. |
+| [!DNL SID] | ID de caractéristique. L’ID de caractéristique identifie de manière unique les caractéristiques de l’environnement Audience Manager. | Dans [!DNL DCS] les appels, `SID` est précédé du `d_` préfixe. <p>Exemple `d_sid=289983`</p> | Un ID de caractéristique est affecté à chaque caractéristique et visible dans l’interface utilisateur, dans la [!UICONTROL Traits] page. |
+| [!DNL SID] | ID de segment. L’ID de segment identifie de manière unique les segments dans l’environnement Audience Manager. | Dans [!DNL DCS] les appels, `SID` est précédé du `d_` préfixe. <p>Exemple `d_sid=4798574` | Un ID de segment est affecté à chaque segment et visible dans l’interface utilisateur, dans la [!UICONTROL Segments] page. |
+| [!DNL csegID] | Identifiant de segment hérité. Cet identifiant identifie de manière unique les segments dans l’environnement Audience Manager. | `741232` | Un ID de segment hérité est affecté à chaque segment et visible dans l’interface utilisateur, dans la [!UICONTROL Segments] page. |
+| [!DNL destID] | ID de destination. L’ID de destination identifie de manière unique les destinations dans l’environnement Audience Manager. Un ID est affecté à chaque destination dans l’interface utilisateur. | `2523` | Un ID de destination est affecté à chaque destination et visible dans l’interface utilisateur de la [!DNL Destinations] page. |
+| [!DNL DPID] | ID de source de données (également appelé ID de fournisseur de données). L’ID de source de données est un espace de noms pour les ID ou les caractéristiques. Un ID est affecté à chaque source de données (fournisseur de données) dans l’interface utilisateur. | Dans [!DNL DCS] les appels, `dpid` est précédé du `d_` préfixe. <p>Exemple: `d_dpid=39217` | Un ID de fournisseur de données est affecté à chaque source de données et visible dans l’interface utilisateur, dans la [!UICONTROL Data Sources] page. |
+| [!DNL DPUUID] | ID utilisateur unique du fournisseur de données (également appelé [!DNL CRM ID]). Identifiant tiers. Il s’agit de l’identifiant par lequel vous identifiez les utilisateurs finaux dans votre propre [!DNL CRM] système. Vous pouvez synchroniser [!DNL DPUUIDs] Audience Manager [!DNL UUIDs] et vous pouvez synchroniser [!DNL DPUUIDs] à partir de vos différentes sources de données ([!DNL DPIDs]) dans le processus de synchronisation des identifiants. | Dans les appels DCS, `dpuuid` est précédé du `d_` préfixe. <p> Exemple `d_dpuuid=2132-3423vn-343fds-3432r` </p> | Invisible dans l’interface utilisateur d’Audience Manager. |
+| [!DNL CRM ID] | Voir `DPUUID`. | Voir `DPUUID`. | Voir `DPUUID`. |
+| [!DNL CID], [!DNL CID_IC] | ID client, code d’intégration d’ID client. Les paires [!DNL CID] et [!DNL CID_IC] clé-valeur remplacent [!DNL DPID] et [!DNL DPUUID]. Ils fournissent les mêmes fonctions que le [!DNL DPID] et [!DNL DPUUID], mais sont plus efficaces car ils incluent l’ID du fournisseur de données et l’ID utilisateur (ou le code d’intégration) dans une seule paire clé-valeur. | Dans les appels DCS, ces identifiants sont précédés du `d_` préfixe. <p>Exemple: `d_cid_ic=39217_myIntegrationCode`</p> | Voir `DPID` et `DPUUID`. |
 | [!DNL DAID] | ID de publicité du périphérique. Cet identifiant propre à chaque périphérique est utilisé à des fins de publicité. Généralement fourni par le fabricant du système d’exploitation du périphérique ou du périphérique. | Voir ID de périphérique [global](#global-device-ids). |
 
 ## ID de périphérique global {#global-device-ids}
