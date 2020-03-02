@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Données de population de caractéristiques et de segments dans le créateur de segments
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 
 ---
 
@@ -136,11 +136,11 @@ Le tableau suivant définit les mesures réelles de temps réel et de population
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Population en temps réel (existante)</span> </p> </td> 
-   <td colname="col2"> <p>Nombre réel de périphériques affichés en temps réel avec les profils actuels qui, lorsqu’ils sont fusionnés avec jusqu’à 3 autres profils de périphériques connectés par le graphique de périphériques, contiennent les caractéristiques permettant de qualifier le segment au moment où il a été vu par <span class="keyword"> Audience Manager</span>. </p> </td>
+   <td colname="col2"> <p>Nombre réel de périphériques affichés en temps réel avec les profils actuels qui, lorsqu’ils sont fusionnés avec jusqu’à 100 autres profils de périphériques connectés par le graphique de périphériques, contiennent les caractéristiques permettant de qualifier le segment au moment où il a été vu par <span class="keyword"> Audience Manager</span>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Population totale (existante)</span> </p> </td> 
-   <td colname="col2"> <p>Nombre total de périphériques avec des profils qui, lorsqu’ils étaient fusionnés avec 3 autres profils de périphériques connectés par le graphique de périphériques, étaient tous qualifiés pour le segment. </p> </td>
+   <td colname="col2"> <p>Nombre total de périphériques avec des profils qui, lorsqu’ils étaient fusionnés avec 100 autres profils de périphériques connectés par le graphique de périphériques, étaient tous qualifiés pour le segment. </p> </td>
   </tr>
  </tbody>
 </table>
