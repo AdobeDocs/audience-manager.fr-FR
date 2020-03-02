@@ -22,7 +22,7 @@ Audience Manager utilise plusieurs ID pour identifier et gérer les données que
 
 Bien que vous puissiez faire référence à la plupart de ces identifiants par leur nom autonome, la plupart d’entre eux sont destinés à être utilisés avec divers préfixes lors de la transmission de données par le biais d’appels DCS. Certains de ces identifiants sont utilisés par Audience Manager sans être exposés aux utilisateurs, tandis que d’autres sont également visibles dans l’interface utilisateur.
 
-Pour comprendre les préfixes utilisés dans les exemples suivants, voir Attributs [pris en charge pour les appels d’API DCS](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+Pour comprendre les préfixes utilisés dans les exemples suivants, voir Attributs [pris en charge pour les appels](../api/dcs-intro/dcs-api-reference/dcs-keys.md)d’API DCS.
 
 ## Liste des identifiants d’Audience Manager {#id-list}
 
