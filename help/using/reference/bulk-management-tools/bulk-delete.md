@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Suppression en masse
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ La suppression en bloc permet de supprimer plusieurs segments, caractéristiques
 
 >[!NOTE]
 >
->Les variables ne [!UICONTROL Bulk Management Tools] sont pas *prises en charge par* [!DNL Audience Manager]. Cet outil est fourni à titre pratique et à titre de courtoisie seulement. Pour les modifications en masse, nous vous recommandons de travailler avec les API [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) à la place. [Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans [!UICONTROL Bulk Management Tools].
+>[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
