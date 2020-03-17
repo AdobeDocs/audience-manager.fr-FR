@@ -50,7 +50,7 @@ Pour ce faire, utilisez [Adobe Experience Platform Launch](https://docs.adobelau
 
 ## Processus de choix de l’utilisateur lors de l’utilisation de la structure IAB {#user-choice-workflow}
 
-Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans le fournisseur global. L&#39;image ci-dessous représente un exemple de dialogue CMP, affiché pour un premier d&#39;un site Web. Gardez à l’esprit que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
+Lors de la visite d’une propriété Web, vos utilisateurs peuvent indiquer comment leurs données doivent être utilisées par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille. Les utilisateurs fournissent leurs choix sous la forme d’objectifs *et d’autorisations* standard aux fournisseurs ** tiers enregistrés dans le fournisseur global. L&#39;image ci-dessous représente un exemple de dialogue CMP, affiché pour un premier d&#39;un site Web. N’oubliez pas que ce dialogue peut sembler très différent, en fonction de l’implémentation des clients.
 
 ![Dialogue de la CMP](assets/cmp.png)
 
@@ -99,7 +99,7 @@ En implémentant le TCF IAB, vous n’êtes pas tenu de gérer le code personnal
 4. Si GDPR s’applique,  Gestionnaire  vérifie la chaîne de consentement TCF IAB, transmise dans le paramètre `gdpr_consent`, pour connaître les autorisations nécessaires.  Gestionnaire de  de a besoin d’autorisations pour , la personnalisation, la mesure, plus le consentement du fournisseur du Gestionnaire de, pour stocker, traiter ou activer les données.
 5. Si la chaîne de consentement TCF IAB est présente et qu’elle contient les autorisations requises,  Gestionnaire de  transmet la chaîne de consentement TCF IAB à nos serveurs [de collecte de](../../reference/system-components/components-data-collection.md) données (DCS).
 6.  Gestionnaire  de répond en définissant un cookie [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) demdex sur le navigateur.  Gestionnaire de initie et honore également les synchronisations d’identifiants tiers.
-7. Si la chaîne de consentement TCF IAB transmise à l’étape 5 ne contient pas toutes les autorisations requises,  Gestionnaire de  de ne collecte, ne traite pas ou n’active pas les données et n’honore ni ne déclenche les synchronisations d’ID.
+7. Si la chaîne de consentement TCF IAB transmise à l’étape 5 ne contient pas toutes les autorisations nécessaires,  Gestionnaire de  de ne collecte, ne traite pas ou n’active pas les données et n’honore ni ne déclenche les synchronisations d’ID.
 
 ![Cas d’utilisation de l’éditeur](assets/publisher-use-case.png)
 
@@ -121,7 +121,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 Le cas d’utilisation est décrit dans l’image et dans les étapes ci-dessous.  à gauche de l’image :
 
 1. Une impression est transmise à l’utilisateur par l’intermédiaire d’un serveur d’annonces. Cela se traduit par un appel au pixel vers nos serveurs de collecte de données (DCS).
-2.  Gestionnaire de  vérifie si l’indicateur GDPR s’applique. Si ce n’est pas le cas,  Gestionnaire de  de stocke les données transmises dans des variables de macro dans des appels en pixels.
+2.  Gestionnaire  vérifie si l’indicateur GDPR s’applique. Si ce n’est pas le cas,  Gestionnaire de  de stocke les données transmises dans des variables de macro dans des appels en pixels.
 3. Si la chaîne de consentement est présente et qu’elle contient les autorisations requises,  Gestionnaire de  de stocke les données transmises dans les variables de macro dans des appels de pixels.
 4. Si la chaîne de consentement est manquante ou si elle ne dispose pas des autorisations requises,  Gestionnaire de  supprime les données transmises dans les variables de macro dans les appels de pixels.
 
