@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Les variables ne [!UICONTROL Bulk Management Tools] sont pas *prises en charge par* [!DNL Audience Manager]. Cet outil est fourni à titre pratique et à titre de courtoisie seulement. Pour les modifications en masse, nous vous recommandons de travailler avec les API [Gestionnaire de](../../api/rest-api-main/aam-api-getting-started.md) à la place. [Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
+>[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
 
 ## Aperçu {#overview}
 
@@ -32,7 +32,7 @@ Cette fonctionnalité utilise une feuille de calcul Microsoft Excel avec des mac
 
 ## Téléchargement {#download}
 
-Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20191205.xlsm)**.
+Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20200311.xlsm)**.
 
 ## Conditions préalables {#prereqs}
 
