@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Création ou mise à jour de règles de caractéristiques et de règles de segments
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,21 +23,21 @@ Les feuilles de calcul de création et de mise à jour acceptent un en-tête tra
 
 >[!NOTE]
 >
->Les variables ne [!UICONTROL Bulk Management Tools] sont pas *prises en charge par* [!DNL Audience Manager]. Cet outil est fourni à titre pratique et à titre de courtoisie seulement. Pour les modifications en masse, nous vous recommandons de travailler avec les API [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) à la place. [Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans [!UICONTROL Bulk Management Tools].
+>[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
 
 ## Utilisation des règles de caractéristiques {#trait-rules}
 
-Dans votre feuille de calcul, la colonne de règle de caractéristique renvoie et accepte des règles composées d’expressions booléennes, d’opérateurs de comparaison et d’expressions régulières. Vous pouvez créer des règles avec le créateur de caractéristiques ou de segments dans [!DNL Audience Manager] et les copier dans votre feuille de calcul. Ou, si vous connaissez la syntaxe des règles, vous pouvez écrire des expressions directement dans les feuilles de calcul.
+Dans votre feuille de calcul, la colonne de règle de caractéristique renvoie et accepte des règles composées de  booléens, d’opérateurs de comparaison et de de  de données  ordinaires. Vous pouvez créer des règles avec le créateur de caractéristiques ou de segments dans [!DNL Audience Manager] et les copier dans votre feuille de calcul. Ou, si vous connaissez la syntaxe des règles, vous pouvez écrire  directement dans les feuilles de calcul.
 
 ## Exemple de créateur de règles {#rule-builder-example}
 
-Examinons un exemple qui montre comment utiliser [!UICONTROL Segment Builder] pour créer une règle que vous pouvez dans la feuille de calcul en masse. Cependant, il ne s'agit pas d'un ensemble d'instructions étape par étape pour ces outils. Au lieu de cela, nous allons commencer par une règle simple qui a déjà été créée. Pour plus d’informations sur l’utilisation des créateurs de règles, voir Créateur [de](../../features/segments/segment-builder.md) segments et Créateur de [caractéristiques](../../features/traits/about-trait-builder.md).
+Examinons un exemple qui montre comment utiliser [!UICONTROL Segment Builder] pour créer une règle que vous pouvez dans la feuille de calcul en masse. Cependant, il ne s&#39;agit pas d&#39;un ensemble d&#39;instructions étape par étape pour ces outils. Au lieu de cela, nous allons  avec une règle simple qui a déjà été créée. Pour plus d’informations sur l’utilisation des créateurs de règles, voir Créateur [de](../../features/segments/segment-builder.md) segments et Créateur de [caractéristiques](../../features/traits/about-trait-builder.md).
 
 Avec le créateur de règles visuel, nous avons créé une règle de segment avec 3 caractéristiques et un opérateur booléen [!UICONTROL AND] .
 
 ![](assets/visualrule.png)
 
-Cliquez sur **[!UICONTROL Code View]** pour obtenir la version texte de cette règle.
+Cliquez sur **[!UICONTROL Code View]** pour obtenir la version textuelle de cette règle.
 
 >[!TIP]
 >
@@ -51,10 +51,10 @@ Collez la règle dans la [!UICONTROL Bulk Management Tools] feuille de calcul et
 
 ## Création de vos propres règles {#create-rules}
 
-Vous pouvez écrire vos propres règles en dehors de [!UICONTROL Rule Builder]. Avant de commencer, lisez la documentation qui couvre des éléments tels que les opérateurs, l’expression et les variables requises. Nous vous recommandons de consulter les éléments suivants :
+Vous pouvez écrire vos propres règles en dehors de [!UICONTROL Rule Builder]. Avant de , veillez à lire la documentation qui couvre des éléments tels que les opérateurs,  les et les variables requises. Nous vous recommandons de consulter les éléments suivants :
 
 * [Utilisation D’Opérateurs De Comparaison Dans Le Créateur De Caractéristiques](../../features/traits/trait-comparison-operators.md)
 * [Ordre des opérations](../../features/traits/trait-operator-precedence.md)
 * [Préfixe requis pour les variables clés](../../features/traits/trait-variable-prefixes.md)
-* [Exemples d’expressions avec opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
+* [Exemple de  avec opérateur booléen et de comparaison](../../features/traits/trait-expression-samples.md)
 
