@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossaire des outils de gestion en bloc
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ Libellés d’en-tête de colonne définis.
 
 >[!NOTE]
 >
->Les variables ne [!UICONTROL Bulk Management Tools] sont pas *prises en charge par* [!DNL Audience Manager]. Cet outil est fourni à titre pratique et à titre de courtoisie seulement. Pour les modifications en masse, nous vous recommandons de travailler avec les API [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) à la place. [Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans [!UICONTROL Bulk Management Tools].
+>[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -67,11 +67,11 @@ Libellés d’en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sid</span> </p> </td> 
-   <td colname="col2"> <p> ID de segment. </p> </td> 
+   <td colname="col2"> <p>ID de segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Les signaux sont des bits de données transmis à <span class="keyword"> Audience Manager</span> en fonction de l’activité de l’utilisateur. Elles sont transmises sous forme de paires <a href="../../reference/key-value-pairs-explained.md"> clé-valeur</a>. La clé source est une constante qui ne change pas. Cela permet de classer la valeur source qui peut changer. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </p> </td> 
+   <td colname="col2"> <p>Les signaux sont des bits de données transmis à <span class="keyword"> Gestionnaire de</span> en fonction des de l’utilisateur. Elles sont transmises sous forme de paires <a href="../../reference/key-value-pairs-explained.md"> clé-valeur</a>. La clé source est une constante qui ne change pas. Cela permet de classer la valeur source qui peut changer. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -79,7 +79,7 @@ Libellés d’en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indique quand un segment peut commencer à être envoyé vers une destination. Utilise le format <tt>aaaa-mm-jj</tt> . </p> </td> 
+   <td colname="col2"> <p>Indique à quel moment un segment peut  être envoyé vers une destination. Utilise le format <tt>aaaa-mm-jj</tt> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -95,7 +95,7 @@ Libellés d’en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Caractéristique ou règle de segment réelle utilisée pour collecter des données. Une requête en bloc renvoie les règles créées dans <span class="keyword"> Audience Manager</span> avec le créateur <a href="../../features/traits/about-trait-builder.md"> de règles de</a> caractéristiques ou le créateur <a href="../../features/segments/segment-builder.md"></a>de règles de segments. Vous pouvez également utiliser ces outils pour créer des règles et les appliquer en bloc lorsque vous mettez à jour un segment ou une caractéristique. </p> <p>Voir aussi <a href="../../reference/bulk-management-tools/bulk-rules.md"> Créer ou mettre à jour des règles de caractéristiques et des règles</a>de segment. </p> </td> 
+   <td colname="col2"> <p>Caractéristique ou règle de segment réelle utilisée pour collecter des données. Une requête en bloc renvoie les règles créées dans  Gestionnaire <span class="keyword"> de</span> de <a href="../../features/traits/about-trait-builder.md"> avec le créateur</a> de règles de <a href="../../features/segments/segment-builder.md"> caractéristiques ou le créateur</a>de règles de segments. Vous pouvez également utiliser ces outils pour créer des règles et les appliquer en bloc lorsque vous mettez à jour un segment ou une caractéristique. </p> <p>Voir aussi <a href="../../reference/bulk-management-tools/bulk-rules.md"> Créer ou mettre à jour des règles de caractéristiques et des règles</a>de segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
