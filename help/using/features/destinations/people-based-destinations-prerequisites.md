@@ -5,7 +5,7 @@ seo-title: Destinations basées sur les personnes Conditions préalables et cons
 solution: Audience Manager
 title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 ---
 
@@ -37,6 +37,18 @@ Avant de pouvoir utiliser [!DNL People-Based Destinations] pour envoyer vos segm
    >[!IMPORTANT]
    > Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’autorisation **Gérer les campagnes** . Ceci est nécessaire pour l’ [!DNL People-Based Destinations] intégration.
 3. Lisez et signez les [!DNL Facebook Custom Audiences] Conditions d&#39;utilisation. Pour ce faire, allez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
+
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> L’ [!DNL People-Based Destinations] intégration avec [!DNL LinkedIn] est actuellement en phase de test bêta et n’est disponible que pour un nombre limité de clients.
+> 
+> Une fois les tests bêta terminés, cette intégration sera disponible pour tous  clients  Manager qui se sont inscrits pour [!DNL People-Based Destinations].
+
+Avant de pouvoir utiliser [!DNL People-Based Destinations] pour envoyer vos segments de  de premier niveau vers [!DNL LinkedIn], assurez-vous que votre [!DNL LinkedIn Campaign Manager] compte dispose du [!DNL Creative Manager] ou d’un niveau d’autorisation supérieur.
+
+Pour savoir comment modifier vos autorisations d’ [!DNL LinkedIn Campaign Manager] utilisateur, reportez-vous à la section [Ajouter, modification et suppression des autorisations d’utilisateur sur les comptes de publicité.](https://www.linkedin.com/help/lms/answer/5753)
 
 ## Intégration des données {#data-onboarding}
 
