@@ -5,8 +5,9 @@ seo-title: FAQ sur la collecte de données et l’intégration de produits
 solution: Audience Manager
 title: FAQ sur la collecte de données et l’intégration de produits
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ Malheureusement, nous ne le pouvons pas. Ces adresses IP sont attribuées dynami
 
 <br> 
 
-**Pouvez-vous me fournir une adresse IP que je peux mettre en liste blanche pour votre serveur FTP entrant et sortant ?**
+**Pouvez-vous me fournir une adresse IP que je peux mettre en liste blanche pour votre serveur sFTP entrant et sortant ?**
 
 Oui, voir ci-dessous.
 
