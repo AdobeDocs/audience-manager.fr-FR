@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Référence de qualification des traits
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
+source-git-commit: bd0ebcddc89c2141e9ce55d7fa2e68b5ca1cbb22
 
 ---
 
@@ -34,13 +34,13 @@ En fonction du type de résultats que vous souhaitez afficher sur le graphique (
 
 Lors du filtrage des résultats par [!UICONTROL Device ID]:
 
-* Le [!UICONTROL Unique Trait Realizations] compte le nombre de vos de périphériques anonymes qui ont ajouté la caractéristique à leur , dans des plages de temps différentes.
-* Le [!UICONTROL Total Trait Population] compte le nombre total de vos de périphériques anonymes qui ont la caractéristique sur leur  de.
+* [!UICONTROL Unique Trait Realizations] est le nombre de vos de périphériques anonymes qui ont ajouté la caractéristique à leur  de diffusion au cours de différentes périodes.
+* [!UICONTROL Total Trait Population] est le nombre de vos de périphériques anonymes qui ont cette caractéristique sur leur  de.
 
 Lors du filtrage des résultats par [!UICONTROL Cross-Device ID]:
 
-* Le [!UICONTROL Unique Trait Realizations] décompte du nombre de vos authentifiés qui ont ajouté la caractéristique à leur, dans des plages de temps différentes.
-* Le [!UICONTROL Total Trait Population] compte le nombre total de vos authentifiés qui ont cette caractéristique sur leur  de.
+* [!UICONTROL Unique Trait Realizations] est le nombre de vos authentifiés qui ont ajouté la caractéristique à leur  de, dans des plages de temps différentes.
+* [!UICONTROL Total Trait Population] est le nombre de vos authentifiés qui ont cette caractéristique sur leur  de.
 
 Pensez aux chiffres de cette façon. Dans l’image ci-dessus, à partir du Détails [de](../../features/traits/trait-details-page.md) caractéristiques, 90 173 représente le nombre de périphériques actifs qui ont visité vos propriétés hier. La valeur [!UICONTROL Total Trait Population] de 55 757 représente le nombre d’utilisateurs actuellement qualifiés pour cette caractéristique. La [!UICONTROL Total Trait Population] figure indique le nombre total d’utilisateurs pouvant être utilisés pour la segmentation/le ciblage. En règle générale, les utilisateurs restent une caractéristique pendant 120 jours.
 
