@@ -5,7 +5,7 @@ seo-title: Renvoi des caractéristiques
 title: Renvoi des caractéristiques
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -16,7 +16,7 @@ Renseignez les réalisations de caractéristiques pour capturer les  de  histori
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité Premium qui améliore l’expérience  de  Manager en déverrouillant d’autres cas d’utilisation. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients   Manager à un coût incrémentiel. Pour plus d’informations, contactez votre représentant commercial Adobe.
+>[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité Premium qui améliore l’expérience  de  Manager en déverrouillant d’autres cas d’utilisation. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients   Manager à un coût incrémentiel. Pour plus d’informations, contactez votre représentant commercial Adobe.
 
 Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous pouvez choisir de renvoyer les réalisations de caractéristiques sur une période spécifique. [!DNL Audience Manager] capture les données historiques sur les  de  qui remplissent les conditions requises pour la nouvelle caractéristique et les stocke sur l’ correspondante. Vous pouvez voir la **[!UICONTROL Backfill Options]** section dans la [!UICONTROL Trait Expression] section du Créateur de **[caractéristiques](../../features/traits/about-trait-builder.md)**.
 
