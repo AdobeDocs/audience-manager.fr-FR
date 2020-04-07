@@ -7,7 +7,7 @@ title: Limites d’utilisation
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -35,7 +35,7 @@ Les tableaux  les limites actuelles par type d’élément. Vous ne pouvez pas c
 | Type de caractéristiques | Limite maximale |
 | -------------------------- | ------------------------------------- |
 | Caractéristiques totales | 100,000 |
-| Qualifications totales des caractéristiques | 150,000. Pour plus d&#39;informations sur la qualification des caractéristiques, voir Limite de qualification des caractéristiques dans le Guide de référence [sur les qualités des](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)caractéristiques. |
+| Qualifications totales des caractéristiques | 150,000. Pour plus d&#39;informations sur la qualification des caractéristiques, voir Limite de qualification des caractéristiques dans le Guide de référence [sur les qualités des](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit)caractéristiques. |
 | Algorithmique | 50 |
 | Basé sur les règles | 100,000 |
 | En mode intégré | 100,000 |
