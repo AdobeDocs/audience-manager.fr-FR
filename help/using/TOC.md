@@ -2,10 +2,10 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager User Guide
+user-guide-title: ' Guide de l''utilisateur  Gestionnaire de'
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -134,6 +134,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Syntaxe du code utilisée dans l’éditeur de  de  de segments](features/segments/segment-code-syntax.md)
       + [Données de population de caractéristiques et de segments dans le créateur de segments](features/segments/segment-builder-data.md)
       + [Trait Recommendations](features/segments/trait-recommendations.md)
+      + [Référence de qualification de caractéristiques et de segments](features/traits/trait-and-segment-qualification-reference.md)
    + Caractéristiques{#traits}
       + [Présentation des caractéristiques](/help/using/features/traits/traits-overview.md)
       + [Page Détails du trait](features/traits/trait-details-page.md)
@@ -158,7 +159,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Géociblage Avec Des Clés Au Niveau De La Plateforme](features/traits/trait-geotarget-keys.md)
       + [Ciblage De Périphériques Avec Clés Au Niveau De La Plate-Forme](features/traits/trait-device-targeting.md)
       + [Exemple de  avec opérateur booléen et de comparaison](features/traits/trait-expression-samples.md)
-      + [Référence de qualification des traits](features/traits/trait-qualification-reference.md)
+      + [Référence de qualification de caractéristiques et de segments](features/traits/trait-and-segment-qualification-reference.md)
    + [de](features/visitor-profile-viewer.md)
 + Création de rapports{#reporting}
    + [Présentation des rapports](reporting/reports-overview.md)
