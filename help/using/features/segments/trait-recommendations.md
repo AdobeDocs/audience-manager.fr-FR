@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trait Recommendations
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -80,9 +80,9 @@ Lors de la création ou de la modification d’un segment dans le créateur [de]
 ### Nouveaux segments
 
 1. Accédez à **Données de > Segments**, puis cliquez sur **Ajouter Nouveau**.
-2. Dans la liste déroulante **Caractéristiques** , ajoutez au moins une caractéristique à la règle de segmentation.
-3. Vous pouvez consulter les caractéristiques recommandées propriétaires et les recommandations [!UICONTROL Audience Marketplace] de caractéristiques des flux auxquels vous êtes abonné, dans la **[!UICONTROL Recommendations]** section. La **[!UICONTROL Recommendations from Marketplace]** section présente les recommandations relatives aux caractéristiques des flux auxquels vous n’êtes pas abonné. Toutes ces recommandations sont similaires aux caractéristiques que vous avez ajoutées à la règle de segmentation. Faites défiler l’écran vers le bas pour afficher toutes les caractéristiques recommandées.
-4. (Facultatif) Pour exclure les caractéristiques propriétaires recommandées de certaines sources de données, cliquez sur le symbole **X** des sources de données à exclure.
+1. Dans la liste déroulante **Caractéristiques** , ajoutez au moins une caractéristique à la règle de segmentation.
+1. Vous pouvez consulter les caractéristiques recommandées propriétaires et les recommandations [!UICONTROL Audience Marketplace] de caractéristiques des flux auxquels vous êtes abonné, dans la **[!UICONTROL Recommendations]** section. La **[!UICONTROL Recommendations from Marketplace]** section présente les recommandations relatives aux caractéristiques des flux auxquels vous n’êtes pas abonné. Toutes ces recommandations sont similaires aux caractéristiques que vous avez ajoutées à la règle de segmentation. Faites défiler l’écran vers le bas pour afficher toutes les caractéristiques recommandées.
+1. (Facultatif) Pour exclure les caractéristiques propriétaires recommandées de certaines sources de données, cliquez sur le symbole **X** des sources de données à exclure.
 
    >[!NOTE]
    >
