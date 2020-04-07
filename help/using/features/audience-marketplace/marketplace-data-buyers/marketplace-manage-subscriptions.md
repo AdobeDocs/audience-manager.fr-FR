@@ -7,7 +7,7 @@ title: 'Gestion des flux de données  '
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ Pour vous abonner à un flux de données public :
 
 1. Allez-y **[!UICONTROL Audience Marketplace > Marketplace]**. Utilisez la fonction de recherche ou parcourez le  pour rechercher un flux de données.
 
-   ![](assets/subscribe1.png)
+   ![abonnement](assets/subscribe1.png)
 
 1. Cliquez sur le nom du flux de données à utiliser. La page [Détails du](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) plan s’ouvre alors pour le flux sélectionné.
 
-   ![](assets/plan-details.png)
+   ![plan-détails](assets/plan-details.png)
 
 1. Choisissez un cas d’utilisation dans le tableau   et :
    * Déplacez le **[!UICONTROL Subscription]** curseur vers **[!UICONTROL On]**.
    * Cliquez sur **[!UICONTROL Review & Subscribe]**. Cela ouvre la [!UICONTROL Terms and Conditions] fenêtre.
-   ![](assets/subscribe3.png)
+   ![abonnement](assets/subscribe3.png)
 
 1. Dans la [!UICONTROL Terms and Conditions] fenêtre :
 
    * **Important :** Laissez la **[!UICONTROL ID sync]** case à cocher cochée. Ce paramètre permet d’améliorer les taux de correspondance avec votre fournisseur de données.
    * Cochez la case Conditions générales et cliquez sur **[!UICONTROL Accept]** pour terminer le processus   du.
-   ![](assets/subscribe4.png)
+   ![abonnement](assets/subscribe4.png)
 
 ### Étapes suivantes
 
