@@ -5,7 +5,7 @@ seo-title: Destinations basées sur les personnes Conditions préalables et cons
 solution: Audience Manager
 title: Conditions préalables et considérations
 translation-type: tm+mt
-source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -101,5 +101,5 @@ Lors de l’utilisation [!UICONTROL People-Based Destinations], utilisez [les co
 
 Vous pouvez apporter vos données hors ligne à  Gestionnaire de  de pour [!DNL People-Based Destinations]deux raisons.
 
-* [Envoyez des données](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) par lot à  Gestionnaire  de pour assimiler des adresses électroniques hachées. Cette méthode vous permet d’utiliser les adresses électroniques hachées de votre [!DNL CRM] base de données dans [!DNL People-Based Destinations]. De plus, lorsque vous utilisez cette méthode, vous pouvez également définir les adresses électroniques hachées pour les caractéristiques [](../traits/trait-qualification-reference.md)intégrées.
+* [Envoyez des données](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) par lot à  Gestionnaire  de pour assimiler des adresses électroniques hachées. Cette méthode vous permet d’utiliser les adresses électroniques hachées de votre [!DNL CRM] base de données dans [!DNL People-Based Destinations]. De plus, lorsque vous utilisez cette méthode, vous pouvez également définir les adresses électroniques hachées pour les caractéristiques [](../traits/trait-and-segment-qualification-reference.md)intégrées.
 * Utilisez des ID [déclarés](../declared-ids.md) pour déclarer des adresses électroniques hachées lors de la transmission d’ID de client authentifiés. Lors de l’utilisation de cette méthode,  Gestionnaire  de, en votre nom, envoie uniquement aux adresses électroniques hachées [!DNL People-Based Destinations] les utilisateurs qui se sont authentifiés en ligne. Les adresses électroniques activées par l’intermédiaire des basés sur des personnes ne sont que celles des appels de d’ID déclarés. Les autres adresses électroniques associées à l’ID de client ne sont pas envoyées en temps réel.
