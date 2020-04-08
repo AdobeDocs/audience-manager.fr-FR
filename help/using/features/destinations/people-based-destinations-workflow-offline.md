@@ -5,7 +5,7 @@ seo-title: Flux de travaux B - Personnalisation basée sur les données hors lig
 solution: Audience Manager
 title: Flux de travaux B - Personnalisation basée sur les données hors ligne uniquement
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ Vous souhaitez définir les ID de client du tableau ci-dessous pour les ID de ca
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-Pour qualifier les ID de client dans l’exemple ci-dessus pour les caractéristiques intégrées correspondantes, vous devez télécharger un [fichier de données entrantes](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) avec le contenu suivant :
+
+Pour qualifier les identifiants de client dans l’exemple ci-dessus pour les caractéristiques intégrées correspondantes, vous devez télécharger un fichier [de données](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) entrant avec le contenu suivant :
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
