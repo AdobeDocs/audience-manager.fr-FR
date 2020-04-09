@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: ' Guide de l''utilisateur  Gestionnaire de'
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [Aperçu](/help/using/help-legal/help-legal-overview.md)
    + [En cas de problème](/help/using/help-legal/help-problem.md)
    + [Coordonnées et informations juridiques](/help/using/help-legal/help-legal-contact.md)
++ Principaux problèmes du service clientèle{#top-support-issues}
+   + [Aperçu](/help/using/support-issues/support-issues-overview.md)
+   + [Pourquoi mes populations de caractéristiques embarquées ont-elles chuté à 0 vers le 15 octobre ? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Pourquoi mes caractéristiques ou segments ne s’affichent-ils pas dans la page des rapports de chevauchement ?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Pourquoi nos utilisateurs en lecture seule peuvent-ils créer, modifier ou supprimer des caractéristiques et des segments ?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Nous ne sommes pas un client   Manager, mais nous vous invitons à consulter les appels Javascript du Gestionnaire de de la  sur notre site.](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Dois-je voir mes segments mappés  Gestionnaire de   du laboratoire de sur la page des détails de destination ?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Mises à jour de la documentation{#documentation-updates}
    + [Mises à jour de la documentation 2020](docs-updates/docs-2020.md)
    + [Mises à jour de la documentation 2019](docs-updates/docs-2019.md)
