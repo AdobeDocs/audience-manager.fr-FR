@@ -5,7 +5,7 @@ seo-title: Nous n'utilisons pas  Gestionnaire de  de, mais nous voyons des appel
 solution: Audience Manager
 title: Nous n'utilisons pas  Gestionnaire de  de, mais nous voyons des appels Javascript Gestionnaire de de  de Javascript dans le débogueur Javascript - Pourquoi ?
 translation-type: tm+mt
-source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
+source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
 
 ---
 
@@ -14,10 +14,12 @@ source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
 
 ## Question
 
-Nous n’utilisons pas Adobe  Gestionnaire de, mais nous voyons des appels Javascript Gestionnaire de dans le débogueur Javascript.  Pourquoi cela se produirait-il ?
+Nous n’utilisons pas Adobe  Gestionnaire de, mais nous voyons des appels Javascript Gestionnaire de dans le débogueur Javascript.
+
+Pourquoi cela se produit-il ?
 
 ## Réponse
 
-Il est probable que vous exécutez le service d’ID de sur votre propriété. Si vous l’êtes, la référence AAM ne fait pas nécessairement référence à la propriété exécutant  Gestionnaire de, mais cela signifie que  Gestionnaire de est en fait en train de mettre ce service sous tension.
+Il est probable que vous exécutiez le service [d’identité](https://docs.adobe.com/content/help/en/id-service/using/home.html) Experience Cloud sur votre propriété. Si vous l’êtes, la référence à ce  Gestionnaire de  de ne fait pas nécessairement référence à la propriété qui exécute le Gestionnaire de de . Cela signifie que  Gestionnaire de  est en train de mettre ce service sous tension.
 
-Notez que l’appel AAM est généralement effectué pour synchroniser les ID de client Set.
+L’appel du serveur   Manager est généralement effectué pour [synchroniser les ID](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)du client.
