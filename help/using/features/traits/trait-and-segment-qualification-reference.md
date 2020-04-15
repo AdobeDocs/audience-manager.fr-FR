@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Référence de qualification des traits
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
 
@@ -34,7 +34,7 @@ De plus, voir Population des segments en temps [réel et Population](#real-time-
 
 ![réalisation-caractéristique unique](assets/trait-graph.png)
 
-En fonction du type de résultats que vous souhaitez afficher sur le graphique (filtrés par ID [!UICONTROL Device ID] [!UICONTORL ou ID]de plusieurs périphériques), les mesures ont des significations différentes :
+En fonction du type de résultats que vous souhaitez afficher sur le graphique (filtrés par [!UICONTROL Device ID] ou [!UICONTROL Cross-Device ID]), les mesures ont des significations différentes :
 
 Lors du filtrage des résultats par [!UICONTROL Device ID]:
 
