@@ -1,26 +1,26 @@
 ---
-description: Cet article explique comment configurer des audiences personnalisées Twitter pour les intégrations nouvelles et existantes.
-seo-description: Cet article explique comment configurer des audiences personnalisées Twitter pour les intégrations nouvelles et existantes.
-seo-title: Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique
+description: Cet article explique comment configurer des personnalisés  Twitter pour les intégrations nouvelles et existantes.
+seo-description: Cet article explique comment configurer des personnalisés  Twitter pour les intégrations nouvelles et existantes.
+seo-title: Configuration d’un Twitter personnalisé  en tant que destination en libre-service basée sur un périphérique
 solution: Audience Manager
-title: Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique
+title: Configuration d’un Twitter personnalisé  en tant que destination en libre-service basée sur un périphérique
 translation-type: tm+mt
-source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
+source-git-commit: fb1bec17023b7b70c53659d68e2fbc431d9022fa
 
 ---
 
 
-# Configurer [!DNL Twitter Tailored Audiences] comme destination en libre-service basée sur un périphérique {#configure-twitter}
+# Configuration [!DNL Twitter Tailored Audiences] en tant que destination en libre-service basée sur un périphérique {#configure-twitter}
 
-Cet article explique comment configurer une intégration avec des audiences [personnalisées](https://business.twitter.com/en/targeting/tailored-audiences.html)Twitter.
+Cet article explique comment configurer une intégration avec un  personnalisé [Twitter](https://business.twitter.com/en/targeting/tailored-audiences.html).
 
 ## Conditions préalables {#prerequisites}
 
 Avant de configurer votre [!DNL Twitter Tailored Audiences] destination, vérifiez les conditions préalables Twitter suivantes que vous devez respecter.
 
 1. Votre [!DNL Twitter Ads] compte doit être éligible à la publicité. Les nouveaux [!DNL Twitter Ads] comptes ne sont pas éligibles à la publicité dans les 2 premières semaines suivant leur création.
-2. L’autorisation du gestionnaire [!DNL Twitter] d’audience [partenaire doit être activée pour votre compte](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) utilisateur pour lequel vous avez autorisé l’accès dans Audience Manager.
-3. Lors de la création de la première [!DNL Twitter Tailored Audiences] destination dans votre instance Audience Manager, contactez le service de conseil ou le service à la clientèle Adobe pour activer la synchronisation des [!DNL Twitter] identifiants (ID de source de données = 1123) pour votre compte. Ceci est requis pour la synchronisation correcte entre Audience Manager et [!DNL Twitter].
+2. L&#39;autorisation du gestionnaire [!DNL Twitter] de [de votre compte](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) d&#39;utilisateur pour lequel vous avez autorisé l&#39;accès dans  Gestionnaire de  de doit être activée pour l&#39;autorisation du Gestionnaire de de l&#39;partenaire.
+3. Lors de la création de la première [!DNL Twitter Tailored Audiences] destination dans votre instance  Gestionnaire de  de, contactez le service de conseil ou le service à la clientèle d’Adobe pour activer la synchronisation des [!DNL Twitter] identifiants (ID de source de données = 1123) pour votre compte. Ceci est nécessaire pour une synchronisation correcte entre  Gestionnaire de  de et [!DNL Twitter].
 
 ## Ajouter une nouvelle [!DNL Twitter Tailored Audiences] destination {#add-new-twitter-destination}
 
@@ -28,27 +28,27 @@ Cette section décrit les étapes à suivre lors de la configuration d’une nou
 
 ### Étape 1. Authentifier avec [!DNL Twitter Tailored Audiences]{#step1-authenticate-with-twitter}
 
-Avant de pouvoir ajouter la destination basée sur un périphérique, vous devez lier Audience Manager à votre [!DNL Twitter Tailored Audiences] compte. Voici comment procéder :
+Avant d’ajouter la destination basée sur un périphérique, vous devez lier  Gestionnaire de  de et votre [!DNL Twitter Tailored Audiences] compte. Voici comment procéder :
 
-1. Connectez-vous à votre compte Audience Manager et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
+1. Connectez-vous à votre compte  Manager  et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
 1. Cliquez sur **[!DNL Add Account]**.
 1. Sélectionnez [!DNL Twitter Tailored Audiences] puis cliquez **[!DNL Confirm]** pour être redirigé vers la page d’authentification.                     ![plates-formes intégrées](assets/dbd-integrated-platforms.png)
-1. Une fois que vous êtes authentifié, vous êtes redirigé vers Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!DNL Confirm]**.
+1. Une fois que vous êtes authentifié, vous êtes redirigé vers  Gestionnaire de  de où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!DNL Confirm]**.
 
 ### Étape 2 : Créer une destination basée sur un périphérique {#step2-create-new-destination}
 
-Après avoir lié Audience Manager et votre [!DNL Twitter Tailored Audiences]application, vous pouvez créer la nouvelle destination. Voici comment procéder :
+Une fois que vous avez lié  Gestionnaire  de et votre [!DNL Twitter Tailored Audiences], vous pouvez créer la nouvelle destination. Voici comment procéder :
 
 >[!NOTE]
 >
 >Vous ne pouvez pas modifier le nom d’une destination existante basée sur un périphérique. Veillez à indiquer un nom qui vous aidera à identifier correctement la destination.
 
-1. Connectez-vous à votre compte Audience Manager, accédez à **[!DNL Audience Data > Destinations]**, puis cliquez sur **[!DNL Create Destination]**.
+1. Connectez-vous à votre compte  Manager , accédez à **[!DNL Audience Data > Destinations]**, puis cliquez sur **[!DNL Create Destination]**.
 1. Dans la **[!DNL Basic Information]** section, saisissez un **[!DNL Name]** et **[!DNL Description]** pour votre nouvelle destination, puis utilisez les paramètres ci-dessous : ![configuration](assets/dbd-new-basic.png)
 1. Cliquez sur **[!DNL Next]**.
 1. Sélectionnez les étiquettes [d’exportation de](/help/using/features/data-export-controls.md#controls-labels) données que vous souhaitez définir pour cette destination.
 1. Cliquez sur **[!DNL Save]**.
-1. Dans la **[!DNL Segment Mappings]** section, sélectionnez les segments d’audience que vous souhaitez envoyer à cette destination.
+1. Dans la **[!DNL Segment Mappings]** section, sélectionnez les segments   que vous souhaitez envoyer à cette destination.
 1. Enregistrez la destination.
 
 <!--
@@ -79,21 +79,21 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ## Considérations relatives au mappage de segments {#segment-mapping-considerations}
 
-Lors du mappage des segments d’audience sur [!UICONTROL Twitter], assurez-vous de répondre aux exigences d’appellation des segments suivantes :
+Lors du mappage de   de segments sur [!UICONTROL Twitter], assurez-vous de répondre aux exigences d’appellation des segments suivantes :
 
-* Fournissez des noms de mappage de segments lisibles par des personnes. Nous vous recommandons d’utiliser le même nom que celui utilisé pour les segments d’Audience Manager.
-* N’utilisez pas de caractères spéciaux (`,``%` `:``;` `@` `/` `=` ) dans les noms de mappage de segments et de segments. `?``$` Si le nom du segment Audience Manager contient ces caractères, supprimez-les avant de mapper le segment à une [!UICONTROL Twitter] destination.
+* Fournissez des noms de mappage de segments lisibles par des personnes. Nous vous recommandons d’utiliser le même nom que celui utilisé pour les segments   Manager.
+* N’utilisez pas de caractères spéciaux (`,``%` `:``;` `@` `/` `=` ) dans les noms de mappage de segments et de segments. `?``$` Si le nom du segment  Gestionnaire de  contient ces caractères, supprimez-les avant de mapper le segment à une [!UICONTROL Twitter] destination.
 
 ### Exemple
 
-* Nom du segment ou mappage correct : "Acheteurs américains et européens";
-* Nom de segment ou de mappage incorrect : "US, Européen 5h0pP3rs".
+* Nom du segment ou mappage correct : &quot;Acheteurs américains et européens&quot;;
+* Nom de segment ou de mappage incorrect : &quot;US, Européen 5h0pP3rs&quot;.
 
 >[!IMPORTANT]
 >
->Vous ne pouvez pas modifier les noms des segments déjà mappés. Audience Manager utilise les noms des segments pour identifier correctement les segments dans l’intégration.
+>Vous ne pouvez pas modifier les noms des segments déjà mappés.  Gestionnaire de  de utilise les noms de segment pour identifier correctement les segments dans l’intégration.
 
-## Considérations relatives aux taux de correspondance {#match-rates-considerations}
+## Points à prendre en compte concernant les taux de correspondance {#match-rates-considerations}
 
-* Lors de l’utilisation [!UICONTROL Twitter Tailored Audiences], les [!UICONTROL Segment Addressable Audience] mesures et [!UICONTROL Segment Match Rate] les mesures de la page de destination n’affichent aucune valeur. Il s’agit d’un comportement normal, puisque les correspondances d’audience et les taux de correspondance pour cette destination sont gérés et hébergés par [!UICONTROL Twitter], et non par Adobe.
-* Actuellement, l’intégration entre Audience Manager et [!UICONTROL Twitter Tailored Audiences] ne prend pas en charge les renvois d’audience historiques. En d’autres termes, seules les qualifications de segment survenant *après* le mappage du segment à une destination Twitter sont envoyées [!UICONTROL Twitter] en temps réel.
+* Lors de l’utilisation [!UICONTROL Twitter Tailored Audiences], les [!UICONTROL Segment Addressable Audience] mesures et [!UICONTROL Segment Match Rate] les mesures de la page de destination n’affichent aucune valeur. C’est un comportement normal, car   de correspondance avec les taux de correspondance pour cette destination sont gérés et hébergés par [!UICONTROL Twitter], et non par Adobe.
+* L’intégration entre  Gestionnaire de  de et prend en charge [!UICONTROL Twitter Tailored Audiences] les remplissages de de  historiques. Toutes les qualifications de segment sont envoyées à [!UICONTROL Twitter] la création de la destination.
