@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: ' Guide de l''utilisateur  Gestionnaire de'
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [Limites d’utilisation](features/administration/usage-limits.md)
       + [  d&#39;utilisation](features/administration/activity-usage-reporting.md)
    + Modèles algorithmiques{#algorithmic-models}
-      + [Modèles algorithmiques](features/algorithmic-models/understanding-models.md)
-      + [Création d’un modèle algorithmique](features/algorithmic-models/create-model.md)
-      + [Modèles algorithmiques : Exclusion de caractéristiques](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [Présentation des modèles algorithmiques](features/algorithmic-models/algo-models-overview.md)
+      + Modélisation analogue {#look-alike-modeling}
+         + [Présentation de la modélisation ressemblant à un aspect](features/algorithmic-models/understanding-models.md)
+         + [Créer un modèle similaire](features/algorithmic-models/create-model.md)
+         + [Modélisation des styles : Exclusion de caractéristiques](features/algorithmic-models/trait-exclusion-algo-models.md)
+      +  prédictive {#predictive-audiences}
+         + [Aperçu du  de  prédictif](features/algorithmic-models/predictive-audiences.md)
+         + [Prise en main du  prédictif](features/algorithmic-models/predictive-audiences-start.md)
+         + [prédictif ](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab{#audience-lab}
       + [Présentation du  Lab](features/audience-lab/audience-lab.md)
       + [Gestion des groupes de tests](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [FAQ sur les destinations basées sur les personnes](faq/faq-people-based-destinations.md)
    + [FAQ sur les fonctionnalités et les fonctionnalités du produit](faq/faq-features.md)
    + [FAQ sur les règles de fusion  et le graphique de périphériques](faq/faq-profile-merge.md)
+   + [FAQ sur les  prédictifs](faq/faq-predictive-audiences.md)
    + [FAQ sur le ciblage](faq/faq-targeting.md)
    + [FAQ sur la création de rapports](faq/faq-reporting.md)
 + Aide et juridique{#help-and-legal}
