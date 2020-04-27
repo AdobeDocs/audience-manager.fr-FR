@@ -5,7 +5,7 @@ seo-title: Aperçu du  de  prédictif
 solution: Audience Manager
 title: ' Gestionnaire de   Gestionnaire de  Prédictif'
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ Lors de l’évaluation de l’ de premier niveau et de l’attribution de score
 ## Considérations et limites {#considerations}
 
 >[!IMPORTANT]
-> Lisez attentivement cet article avant de passer à la phase de mise en oeuvre.
+> Lisez attentivement cette section avant de passer à la phase de mise en oeuvre.
 
 Lors de la configuration de vos [!UICONTROL Predictive Audiences] modèles, tenez compte des considérations et limites suivantes :
 
