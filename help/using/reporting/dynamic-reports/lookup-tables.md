@@ -1,19 +1,19 @@
 ---
-description: Placez les données dans les fichiers journaux du rapport Performances de remise dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tableaux de recherche distincts pour réduire la taille du fichier et les temps de traitement.
-seo-description: Placez les données dans les fichiers journaux du rapport Performances de remise dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tableaux de recherche distincts pour réduire la taille du fichier et les temps de traitement.
+description: Placez les données dans les fichiers journaux du rapport Performances du dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tableaux de recherche distincts pour réduire la taille du fichier et les temps de traitement.
+seo-description: Placez les données dans les fichiers journaux du rapport Performances du dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tableaux de recherche distincts pour réduire la taille du fichier et les temps de traitement.
 seo-title: Amélioration des délais de traitement des fichiers journaux avec les tables de recherche
 solution: Audience Manager
 title: Amélioration des délais de traitement des fichiers journaux avec les tables de recherche
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
 # Amélioration des délais de traitement des fichiers journaux avec les tables de recherche{#improve-log-file-processing-times-with-lookup-tables}
 
-Placez les données dans les fichiers journaux du rapport Performances de remise dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tableaux de recherche distincts pour réduire la taille du fichier et les temps de traitement.
+Placez les données dans les fichiers journaux du rapport Performances du dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tableaux de recherche distincts pour réduire la taille du fichier et les temps de traitement.
 
 <!-- 
 
@@ -39,11 +39,11 @@ Supposons que vous ayez un fichier de données qui ressemble à celui ci-dessous
 
 | Identifiant utilisateur | Identifiant de publicité | Nom de la publicité | ID de commande | Nom de commande | Identifiant publicitaire | Nom du publicitaire |
 |---|---|---|---|---|---|---|
-| 1 | 111 | Chaussure A | 456 | Dessinateurs | 27 | Société A |
-| 2 | 111 | Chaussure A | 456 | Dessinateurs | 27 | Société A |
-| 3 | 111 | Chaussure A | 456 | Dessinateurs | 27 | Société A |
-| 4 | 222 | Chaussure B | 789 | Randonnée | 14 | Société B |
-| 5 | 222 | Chaussure B | 789 | Randonnée | 14 | Société B |
+| 1 | 111 | Chaussure A | 456 | Dessinateurs | 27 | A |
+| 2 | 111 | Chaussure A | 456 | Dessinateurs | 27 | A |
+| 3 | 111 | Chaussure A | 456 | Dessinateurs | 27 | A |
+| 4 | 222 | Chaussure B | 789 | Randonnée | 14 | B |
+| 5 | 222 | Chaussure B | 789 | Randonnée | 14 | B |
 
 <br> 
 
@@ -63,14 +63,9 @@ Le fichier de recherche ci-dessous contient les métadonnées et peut être lié
 
 | Identifiant de publicité | Nom de la publicité | Nom de commande | Nom du publicitaire |
 |---|---|---|---|
-| 111 | Chaussure A | Dessinateurs | Société A |
-| 222 | Chaussure B | Randonnée | Société B |
+| 111 | Chaussure A | Dessinateurs | A |
+| 222 | Chaussure B | Randonnée | B |
 
 ## Les API peuvent éliminer le besoin de tables de recherche
 
-Si votre système de service publicitaire comporte une API, vous n’aurez peut-être pas besoin d’envoyer des métadonnées dans un fichier de recherche. Nous pouvons peut-être obtenir ces informations via l'API. Dans ce cas, vos fichiers journaux ne doivent contenir que des ID. Nous travaillerons avec vous pour déterminer si les métadonnées peuvent être obtenues par le biais d'une API.
-
->[!MORELIKETHIS]
->
->* [Rapport sur la livraison et les performances](../../reporting/dynamic-reports/delivery-performance-report.md)
-
+Si votre système de service publicitaire comporte une API, vous n’aurez peut-être pas besoin d’envoyer des métadonnées dans un fichier de recherche. Nous pouvons peut-être obtenir ces informations via l&#39;API. Dans ce cas, vos fichiers journaux ne doivent contenir que des ID. Nous travaillerons avec vous pour déterminer si les métadonnées peuvent être obtenues par le biais d&#39;une API.
