@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Echantillonnage de données et taux d'erreur dans les rapports  sélectionnés  Gestionnaire de
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -30,7 +30,7 @@ Les rapports qui utilisent l’échantillonnage excluent les caractéristiques e
 
 Des erreurs peuvent se produire dans les rapports qui génèrent des données de chevauchement. Une erreur est définie comme le pourcentage d’enregistrements qui :
 
-* N’aurait pas dû être inclus dans un rapport, mais a été ajouté de toute façon.
+* N’aurait pas dû être inclus dans un rapport, mais il a été tout de même ajouté.
 * Il aurait dû être inclus dans un rapport, mais il a été omis.
 
 Il est important de noter que nos tests et modèles montrent que le taux d&#39;erreur *diminue* inversement proportionnellement au nombre d&#39;enregistrements dans votre jeu de données. Les ensembles de données contenant un grand nombre d’enregistrements génèrent moins d’erreurs que les ensembles contenant un petit nombre d’enregistrements. Regardons cette affirmation d&#39;une manière plus quantitative. Comme le montre le tableau suivant, pour un nombre défini d’enregistrements, 95 % des résultats du rapport sont inférieurs à un taux d’erreur spécifique.
@@ -51,3 +51,4 @@ Les [!DNL Audience Manager] rapports qui utilisent des données échantillonnée
 * [Rapports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) de chevauchement (trait à trait, segment à trait et segment à segment).
 * [Données](../features/addressable-audiences.md)  adressables (données au niveau du client et du segment).
 * Mesure [Total des périphériques](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) pour un [!UICONTROL Profile Merge Rule].
+* [L’Explorateur](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) de données utilise des données échantillonnées dans l’ [!UICONTROL Search] onglet et dans n’importe quel [!UICONTROL Saved Searches].
