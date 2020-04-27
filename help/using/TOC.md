@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: ' Guide de l''utilisateur  Gestionnaire de'
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -202,7 +202,6 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [Rapport Variation de caractéristiques quotidiennes](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Rapports interactifs et de chevauchement {#interactive-and-overlap-reports}
       + [Présentation des rapports interactifs et de chevauchement](reporting/dynamic-reports/dynamic-reports.md)
-      + [Rapport  et performances du](reporting/dynamic-reports/delivery-performance-report.md)
       + [Rapport de chevauchement de caractéristiques](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [Rapport de chevauchement de segments et de caractéristiques](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [Rapport de chevauchement de segments](reporting/dynamic-reports/segment-segment-overlap-report.md)
