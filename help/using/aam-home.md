@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ' documentation du produit  Gestionnaire de produits'
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
 
 ---
 
@@ -25,7 +25,7 @@ Ce guide de documentation technique fournit de l’aide autonome à  Gestionnair
 ## Comment lire cette page
 
 *  en explorant la section **principale fonctionnalité** du Gestionnaire de pour obtenir un instantané des problèmes que le Gestionnaire dede peut vous aider à résoudre. Voir aussi la présentation [du Gestionnaire de  de](/help/using/overview/aam-overview.md) , puis revenez à cette page.
-* Ensuite, lisez **Commencer avec  Gestionnaire** de  de pour vous familiariser avec les concepts du Gestionnaire de de . Vérifiez également les guides de mise en oeuvre technique et opérationnelle.
+* Lisez ensuite **Commencer avec  Gestionnaire** de  de pour vous familiariser avec les concepts du Gestionnaire de de . Vérifiez également les guides de mise en oeuvre technique et opérationnelle.
 * Reportez-vous aux dernières notes de mise à jour de   Manager et découvrez les dernières fonctionnalités de la section **Notes de mise à jour et Dernières fonctionnalités**.
 * Enfin, vous pouvez explorer d’autres ressources d’Experience Cloud, telles que des forums, des didacticiels vidéo, des cours de formation en personne et en ligne, dans la section **Centre d’** apprentissage - Recommandé  Gestionnaire de et Ressourcesd’Experience Cloud.
 
@@ -156,7 +156,7 @@ Ce guide de documentation technique fournit de l’aide autonome à  Gestionnair
      <br> 
      <p> <b>Dernières fonctionnalités</b> </p> <p> 
      Découvrez les dernières fonctionnalités   Manager :</p>
-     <p><ul><li><a href="/help/using/features/administration/activity-usage-reporting.md">   d'utilisation</a></li>
+     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md"> prédictive </a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">   d'utilisation</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Loi sur la protection des renseignements personnels des consommateurs de Californie (ACCP) - Soutien et révision de la documentation sur la protection des renseignements personnels</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Recommandations intelligentes pour  données  Marketplace, optimisées par Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Améliorations apportées aux règles de fusion des </a></li></ul><p>
