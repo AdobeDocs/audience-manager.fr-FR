@@ -1,22 +1,21 @@
 ---
-description: Les rapports interactifs affichent les données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données avec des formes, des couleurs et des tailles différentes. De plus, vous pouvez choisir des groupes ou des individus de points de données et parcourir les résultats du rapport pour plus d’informations. Ces techniques de visualisation et l’interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
-seo-description: Les rapports interactifs affichent les données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données avec des formes, des couleurs et des tailles différentes. De plus, vous pouvez choisir des groupes ou des individus de points de données et parcourir les résultats du rapport pour plus d’informations. Ces techniques de visualisation et l’interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
+description: Les rapports interactifs affichent les données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données en utilisant des formes, des couleurs et des tailles différentes. De plus, vous pouvez choisir des groupes ou des individus de points de données et approfondir l’analyse des résultats du rapport pour en savoir plus. Ces techniques de visualisation et l’interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
+seo-description: Les rapports interactifs affichent les données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données en utilisant des formes, des couleurs et des tailles différentes. De plus, vous pouvez choisir des groupes ou des individus de points de données et approfondir l’analyse des résultats du rapport pour en savoir plus. Ces techniques de visualisation et l’interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
 seo-title: Rapports interactifs et de chevauchement
 solution: Audience Manager
 title: Rapports interactifs et de chevauchement
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 translation-type: tm+mt
-source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
 # Rapports interactifs et de chevauchement{#interactive-and-overlap-reports}
 
-Les rapports interactifs affichent les données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données avec des formes, des couleurs et des tailles différentes. De plus, vous pouvez choisir des groupes ou des individus de points de données et parcourir les résultats du rapport pour plus d’informations. Ces techniques de visualisation et l’interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
+Les rapports interactifs affichent les données de performances et de chevauchement pour les caractéristiques et les segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données en utilisant des formes, des couleurs et des tailles différentes. De plus, vous pouvez choisir des groupes ou des individus de points de données et approfondir l’analyse des résultats du rapport pour en savoir plus. Ces techniques de visualisation et l’interactivité des rapports facilitent la compréhension de grandes quantités de données numériques.
 
 + [Technologie des rapports](interactive-report-technology.md)
-+ [Rapport sur la livraison et les performances](delivery-performance-report.md)
 + [Rapport de chevauchement de caractéristiques](trait-trait-overlap-report.md)
 + [Rapport de chevauchement de segments et de caractéristiques](segment-trait-overlap-report.md)
 + [Rapport de chevauchement de segments](segment-segment-overlap-report.md)
