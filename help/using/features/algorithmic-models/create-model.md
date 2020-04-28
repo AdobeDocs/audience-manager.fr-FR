@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Création d’un modèle algorithmique
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
 
 ---
 
@@ -34,13 +34,14 @@ Suivez les étapes ci-dessous pour créer un [!UICONTROL Look-Alike Model]:
 
 1. Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** et cliquez **[!UICONTROL Add New]** dans la [!UICONTROL Look-Alike Modeling] section.
    ![look-like-add](assets/look-alike-add.png)
-2. Dans la section Informations [](../../features/algorithmic-models/create-model.md#basic-information) de base
+1. Dans la section Informations [](../../features/algorithmic-models/create-model.md#basic-information) de base
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
    * Définissez l’état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécuteront pas et ne produiront aucune donnée.
       ![apparence-basique](assets/look-alike-basic.png)
-3. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s&#39;exécuteront pas.
+1. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
+   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Recherchez les caractéristiques par nom, ID, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les caractéristiques par type de caractéristique ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]et [!UICONTROL Algorithmic]) ou par type de population (ID[de](../../reference/ids-in-aam.md) [périphérique et ID de périphérique).](../../reference/ids-in-aam.md)
+      ![browse-traits](assets/browse-traits.png)
    * Choisissez une période de recherche en arrière de 30, 60 ou 90 jours. Définit une période pour le modèle.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Sélectionnez une source de données dans le [!UICONTROL Available Data] .
