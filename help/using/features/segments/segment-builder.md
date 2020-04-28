@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 Décrit les étapes obligatoires et facultatives de création d’un segment dans [!UICONTROL Segment Builder].
 
-## Démonstration vidéo
+## Vidéo de démonstration
 
-Commencez par regarder la vidéo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)Créer des segments dans Audience Manager. La vidéo vous guide tout au long du processus de création de segments. Lisez les sections ci-dessous pour en savoir plus.
+en regardant la vidéo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)Créer des segments dans  Gestionnaire de . La vidéo vous guide tout au long du processus de création de segments. Lisez les sections ci-dessous pour en savoir plus.
 
 ## Créer un segment {#create-segment}
 
@@ -27,30 +27,35 @@ Commencez par regarder la vidéo [](https://images-tv.adobe.com/avp/vr/b7f88801-
 
 [!UICONTROL Segment Builder] se compose de trois sections distinctes : [!UICONTROL Basic Information], [!UICONTROL Traits]et [!UICONTROL Destinations Mapping]. Pour créer un segment, renseignez les champs obligatoires dans les sections [!UICONTROL Basic Information] et [!UICONTROL Traits] . [!UICONTROL Destinations Mapping] sont facultatives. Consultez les instructions ci-dessous pour obtenir une aide supplémentaire.
 
-![create-segment](assets/create-segment.png)
-
 1. Dans la section Informations [](../../features/segments/segment-builder.md#segment-builder-controls-basics) de base :
+
+   ![create-segment](assets/create-segment.png)
+
    * Attribuez un nom au segment. La longueur maximale d’un nom de segment est de 255 caractères.
    * Définissez l’état du segment (actif par défaut).
-   * Sélectionnez une source de données. Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données. Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données Audience Manager sont désactivées par défaut uniquement.
-   * Sélectionnez une règle de fusion de profil à utiliser pour la qualification des segments.
-   * Affectez le segment à un dossier de stockage.
-2. Dans la section [Caractéristiques](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
-   * Recherchez la caractéristique à ajouter à un segment et cliquez sur **[!UICONTROL Add Trait]**. Ajoutez une autre caractéristique pour créer un groupe de caractéristiques.
-   * Affichez le module Recherche avancée en cliquant sur **[!UICONTROL Browse All Traits]**. Recherchez les caractéristiques par nom, ID, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les caractéristiques par type de caractéristique.
+   * Sélectionnez une source de données. Utilisez le premier menu déroulant pour filtrer entre  sources de données  Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données. Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et  par défaut uniquement les sources de données du Gestionnaire de  de.
+   * Sélectionnez une règle de fusion  à utiliser pour la qualification des segments.
+   * Affectez le segment à un  dossier .
+
+1. Dans la section [Caractéristiques](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+   ![segment-builder-traits](assets/segment-builder-traits.png)
+   * Recherchez la caractéristique à ajouter à un segment et cliquez sur **[!UICONTROL Add Trait]**. Ajouter une autre caractéristique pour créer un groupe de caractéristiques.
+   * Affichez le module Recherche avancée en cliquant sur **[!UICONTROL Browse All Traits]**. Recherchez les caractéristiques par nom, ID, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les caractéristiques par type de caractéristique ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]et [!UICONTROL Algorithmic]) ou par type de population (ID[de](../../reference/ids-in-aam.md) [périphérique et ID de périphérique).](../../reference/ids-in-aam.md)
+      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * Obtenez des recommandations [de](trait-recommendations.md) caractéristiques en direct lorsque vous créez votre segment.
    * Cliquez et faites glisser des caractéristiques pour créer des groupes distincts.
    * Passez la souris sur des groupes pour définir des relations avec des valeurs booléennes [!UICONTROL AND], [!UICONTROL OR]et [!UICONTROL AND NOT] .
    * Passez la souris sur l’icône de l’horloge pour ajouter des règles de [récence et de fréquence](../../features/segments/recency-and-frequency.md) à la caractéristique.
-   * Affichez les données de population de segments lorsque vous ajoutez ou supprimez des caractéristiques. Cliquez sur **[!UICONTROL Calculate Estimates]** pour afficher (ou actualiser) l’estimation des chiffres de population. En savoir plus sur les données [de population de](../../features/segments/segment-builder-data.md#segment-populations) segments dans le créateur de segments.
-   * Click **[!UICONTROL Save]** when done.
-3. *(Facultatif)* Faites correspondre un segment à une destination dans la section Mappage [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destination :
+   *  segmentez les données de population au fur et à mesure que vous ajoutez ou supprimez des caractéristiques. Cliquez sur **[!UICONTROL Calculate Estimates]** pour afficher (ou actualiser) l’estimation des chiffres de population. En savoir plus sur les données [de population de](../../features/segments/segment-builder-data.md#segment-populations) segments dans le créateur de segments.
+   * Cliquez **[!UICONTROL Save]** une fois terminé.
+
+1. *(Facultatif)* Faites correspondre un segment à une destination dans la section Mappage [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destination :
    * Recherchez la destination et cliquez sur **[!UICONTROL Add Destination]**. Remarque : la destination doit déjà exister avant de pouvoir l’ajouter à un segment.
-   * Click **[!UICONTROL Save]** when done.
+   * Cliquez **[!UICONTROL Save]** une fois terminé.
 
 ## Contrôles du créateur de segments : Section des informations de base {#segment-builder-controls-basics}
 
-Dans [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] les paramètres vous permettent de créer des caractéristiques ou de modifier des caractéristiques existantes. Pour créer un segment, nommez-le, créez une source de données et sélectionnez un dossier de stockage. Tous les autres champs sont facultatifs. Passez à la [!UICONTROL Traits] section lorsque vous avez terminé.
+Dans [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] les paramètres vous permettent de créer des caractéristiques ou de modifier des caractéristiques existantes. Pour créer un segment, nommez-le, créez-en une source de données et sélectionnez un dossier  . Tous les autres champs sont facultatifs. Passez à la [!UICONTROL Traits] section lorsque vous avez terminé.
 
 <!-- r_segment_basic_info_section.xml -->
 
@@ -72,23 +77,23 @@ Dans [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] les param�
   </tr> 
   <tr> 
    <td colname="col1"> <b>Code d’intégration</b> </td> 
-   <td colname="col2"> <p>Champ d’un ID défini par l’utilisateur ou d’autres informations propres à l’entreprise. </p> </td> 
+   <td colname="col2"> <p>Champ d’un ID défini par l’utilisateur ou d’autres informations spécifiques à un. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Source de données</b> </td> 
-   <td colname="col2"> <p>Associe le segment à un fournisseur de données spécifique. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données Audience Manager sont désactivées par défaut uniquement.</p></p> </td> 
+   <td colname="col2"> <p>Associe le segment à un fournisseur de données spécifique. <p>Utilisez le premier menu déroulant pour filtrer entre  sources de données  Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et  par défaut uniquement les sources de données du Gestionnaire de  de.</p></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Règle de fusion de profil</b> </td> 
-   <td colname="col2"> <p>Sélectionne la règle de fusion de profils à utiliser pour la qualification des segments. </p> </td> 
+   <td colname="col1"><b>Règle de fusion</b> </td> 
+   <td colname="col2"> <p>Sélectionne la règle de fusion  à utiliser pour la qualification des segments. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>État</b> </td> 
    <td colname="col2"> <p>Active ou désactive le segment (actif par défaut). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Stockage de dossiers</b> </td> 
-   <td colname="col2"> <p>Détermine le dossier de stockage auquel appartient le segment. </p> </td> 
+   <td colname="col1"> <b>de dossiers</b> </td> 
+   <td colname="col2"> <p>Détermine à quel   dossier le segment appartient. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,14 +104,14 @@ Dans [!UICONTROL Segment Builder]cette [!UICONTROL Traits] section, vous pouvez 
 
 <!-- r_segment_traits_section.xml-->
 
-**** Conditions préalables : Renseignez les champs obligatoires de la [!UICONTROL Basic Information] section.
+**Conditions préalables :** Renseignez les champs obligatoires de la [!UICONTROL Basic Information] section.
 
 | Champ | Description |
 |--- |--- |
-| Vue de base | Cette section fournit des commandes visuelles qui vous permettent d’effectuer les opérations suivantes : <ul><li>Créez et gérez des segments existants.</li><li>Supprimez les caractéristiques d’un segment.</li><li>Ajoutez jusqu’à 50 caractéristiques (maximum) à un segment.</li><li>Faites glisser et déposez des caractéristiques pour créer des groupes.</li><li>Affichez les caractéristiques et les groupes de caractéristiques dans un segment.</li><li>Définissez des critères de qualification avec des expressions booléennes, des opérateurs de comparaison et des paramètres de récence/fréquence.</li></ul> |
-| Affichage du code | Ouvre un environnement de développement qui vous permet de créer et de gérer des caractéristiques, des groupes et des exigences de qualification avec du code au lieu de l’interface visuelle. L’affichage du code est utile si vos segments : <ul><li>Contient plus de 50 caractéristiques dans un segment individuel. Remarque : Les segments sont limités à 5 000 caractéristiques (maximum).</li><li>Contiennent de nombreux groupes de caractéristiques.</li><li>Posséder des exigences de qualification complexes.</li></ul> |
+|  de base | Cette section fournit des commandes visuelles qui vous permettent d’effectuer les opérations suivantes : <ul><li>Créez et gérez des segments existants.</li><li>Supprimez les caractéristiques d’un segment.</li><li>Ajouter jusqu’à 50 caractéristiques (maximum) à un segment.</li><li>Faites glisser et déposez des caractéristiques pour créer des groupes.</li><li> les caractéristiques et les groupes de caractéristiques dans un segment.</li><li>Définissez des critères de qualification avec des  de  booléens, des opérateurs de comparaison et des paramètres de récence/fréquence.</li></ul> |
+|  de de code | Ouvre un  de développement  qui vous permet de créer et de gérer des caractéristiques, des groupes et des exigences de qualification avec du code au lieu de l’interface visuelle. Le de code est utile si vos segments : <ul><li>Contient plus de 50 caractéristiques dans un segment individuel. Remarque : Les segments sont limités à 5 000 caractéristiques (maximum).</li><li>Contiennent de nombreux groupes de caractéristiques.</li><li>Posséder des exigences de qualification complexes.</li></ul> |
 | Outils | Vous aide à trouver les caractéristiques à ajouter à un segment. |
-| Recommandations | Obtenez des recommandations en direct pour des caractéristiques similaires, à partir des caractéristiques propriétaires et des flux [!UICONTROL Audience Marketplace] de données auxquels vous êtes abonné. Ajoutez ces recommandations à la règle de segmentation pour développer votre audience. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
+| Recommandations | Obtenez des recommandations en direct pour des caractéristiques similaires, à partir des caractéristiques propriétaires et des flux [!UICONTROL Audience Marketplace] de données auxquels vous êtes abonné. Ajouter ces recommandations à la règle de segmentation pour développer votre  de. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
 | Recommandations Marketplace | Obtenez des recommandations en direct pour des caractéristiques similaires, à partir des flux de [!UICONTROL Audience Marketplace] données auxquels vous n’êtes pas abonné. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
 | Données de taille de segment réelle et estimée | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
@@ -116,7 +121,7 @@ La gestion des caractéristiques de vos segments est un élément important de l
 
 Pour supprimer des caractéristiques d’un segment :
 
-1. Accédez à Données **d’audience &gt; Segments**. Faites défiler la liste ou utilisez la fonction de recherche pour trouver le segment à utiliser.
+1. Accédez à **de données de > Segments**. Faites défiler le  du ou utilisez la fonction de recherche pour trouver le segment à utiliser.
 2. Cliquez sur le nom du segment pour ouvrir l’écran des détails du segment.
 3. Cliquez sur **Modifier** pour ouvrir le créateur de segments, puis sur **Caractéristiques** pour ouvrir le panneau Caractéristiques.
 4. Passez la souris sur la caractéristique à supprimer, puis cliquez sur le X. Cette action supprime immédiatement la caractéristique de votre segment.
@@ -137,8 +142,8 @@ Le **[!UICONTROL Destination Mappings]** panneau contient des outils de recherch
 
 | Type de recherche | Description |
 |---|---|
-| **Rechercher par nom de destination** | Permet de rechercher une destination spécifique par son nom. Pour effectuer une recherche, commencez à taper. Le champ est renseigné automatiquement en fonction des termes recherchés. Click **[!UICONTROL Add Destination]** when done. |
-| **Parcourir toutes les destinations** | Parcourez la liste de *toutes les* destinations disponibles. Sélectionnez et ajoutez des destinations à votre segment dans la liste contextuelle. |
+| **Rechercher par nom de destination** | Permet de rechercher une destination spécifique par son nom. Pour effectuer une recherche,  taper. Le champ est renseigné automatiquement en fonction des termes recherchés. Cliquez **[!UICONTROL Add Destination]** une fois terminé. |
+| **Parcourir toutes les destinations** | Parcourez un  de *toutes les* destinations disponibles. Sélectionnez et ajoutez des destinations à votre segment à partir du  contextuel. |
 
 ## Champs dans la fenêtre contextuelle Correspondances de destination {#fields-in-dest-mappings}
 
@@ -156,7 +161,7 @@ Dans les [!UICONTROL Destination Mapping] champs, spécifiez les paires clé-val
 
 ![](assets/cookie_modal.PNG)
 
-### Champs de destination d’URL
+### Champs de destination de l’URL
 
 Dans les champs [!UICONTROL URL] et [!UICONTROL Secure URL] , spécifiez l’adresse standard complète ou sécurisée utilisée pour envoyer les données vers la destination.
 
