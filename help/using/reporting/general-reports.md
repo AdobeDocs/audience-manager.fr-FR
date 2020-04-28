@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapports généraux
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -84,33 +84,51 @@ Les nombres dans le [!UICONTROL General Reports] sont générés directement à 
 
 ## Rapports généraux Résultats pour les caractéristiques {#general-report-results-traits}
 
-Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport Général et que vous sélectionnez **[!UICONTROL Trait]** comme type de rapport :
+Les  ci-dessous sont disponibles lorsque vous exécutez un rapport Général et que vous sélectionnez **[!UICONTROL Trait]** le type de rapport.
 
-**Valorisations de caractéristiques uniques**
+Lors du filtrage des résultats par [!UICONTROL Device ID]:
 
-Cette mesure représente le nombre unique d’ID d’utilisateur unique (UUID) [du gestionnaire de ](../reference/ids-in-aam.md) qui se sont qualifiés pour la caractéristique de la période sélectionnée. Par exemple, si un utilisateur a visité votre page d&#39;accueil trois fois le 10/1, vous verrez une réalité de caractéristiques uniques.
+* [!UICONTROL Unique Trait Realizations] est le nombre de vos de périphériques anonymes qui ont ajouté la caractéristique à leur  de au cours de la période sélectionnée.
+* [!UICONTROL Total Trait Realization] est le nombre total de réalisations de caractéristiques anonymes au cours de la période sélectionnée.
+* [!UICONTROL Total Trait Population] est le nombre de vos de périphériques anonymes qui ont cette caractéristique sur leur  de.
 
-**Total des conversions de caractéristiques**
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
-Cette mesure représente la quantité totale de déclenchements de caractéristiques pour la caractéristique de la période sélectionnée. Par exemple, si un utilisateur a consulté votre page d’accueil, puis accédé à vos nouvelles techniques et à vos sections d’actualités sportives, elles apparaissent dans le rapport général sous la forme de trois réalisations de caractéristiques totales et d’une réalisation de caractéristiques unique.
+Lors du filtrage des résultats par [!UICONTROL Cross-Device ID]:
 
-**Population totale des caractéristiques**
+* [!UICONTROL Unique Trait Realizations] est le nombre de vos authentifiés qui ont ajouté la caractéristique à leur  de, au cours de la période sélectionnée.
+* [!UICONTROL Total Trait Realization] est le nombre total de réalisations de caractéristiques authentifiées au cours de la période sélectionnée.
+* [!UICONTROL Total Trait Population] est le nombre de vos authentifiés qui ont cette caractéristique sur leur  de.
 
-Cette mesure représente le nombre total de  UUID Gestionnaire de  qui sont actuellement qualifiés pour la caractéristique. Utilisez ce nombre pour comprendre le nombre total d’utilisateurs que vous pouvez utiliser pour la segmentation et le ciblage. En règle générale, les utilisateurs restent une caractéristique pendant [120 jours](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). Par exemple, un utilisateur visitant votre page d&#39;accueil trois fois aujourd&#39;hui et ne revenant jamais par la suite resterait en tant qu&#39;utilisateur dans cette population tous les jours jusqu&#39;à 120 jours. À 120 jours, ils seraient retirés de la population. Lisez notre Guide de référence [](../features/traits/trait-and-segment-qualification-reference.md) sur les caractéristiques et les caractéristiques des segments pour obtenir d’autres exemples sur la différence entre les caractéristiques uniques et la population totale de caractéristiques.
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
 
-L&#39;illustration ci-dessous montre les résultats de l&#39;exécution d&#39;un rapport général pour le type de rapport Caractéristiques.
+<!-- 
+### Unique Trait Realizations
 
-![](assets/general_reports_metrics.png)
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+
+### Total Trait Realizations
+
+This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
+
+### Total Trait Population
+
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
+
 
 ## Rapports généraux Résultats pour les segments {#general-report-results-segments}
 
 Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport Général et que vous sélectionnez **[!UICONTROL Segment]** comme type de rapport :
 
-**Population des segments en temps réel**
+### Population des segments en temps réel
 
 Cette mesure représente le nombre réel de uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par  Gestionnaire de  de.
 
-**Population totale des segments**
+### Population totale des segments
 
 Cette mesure représente le nombre total d’UUID  Gestionnaire de  qui sont qualifiés pour le segment au cours de la période de recherche précédente que vous avez sélectionnée. Votre population totale de segments de 1 jour représente votre base d’utilisateurs la plus précise pour le ciblage.
 
