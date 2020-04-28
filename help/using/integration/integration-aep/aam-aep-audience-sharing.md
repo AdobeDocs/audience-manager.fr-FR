@@ -6,7 +6,7 @@ solution: Audience Manager
 title: '  de partage de entre  Gestionnaire de et Adobe Experience Platform'
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: 100767fe1d8baaa49fb6e83fdae23144ce9748a7
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -71,11 +71,11 @@ Pour un exemple de caractéristique créée automatiquement à partir d’un seg
 
 | Numéro d&#39;article | Nom | Description |
 ---------|----------|---------
-| 1 | [!UICONTROL Trait Type] | Les caractéristiques créées à partir des segments de plateforme d’expérience sont créées sous forme de caractéristiques intégrées dans  Gestionnaire de  de. |
-| 2 | [!UICONTROL Data Source] | Création automatique. Toutes les caractéristiques et tous les segments créés automatiquement à partir des segments de la plateforme d’expérience sont stockés dans la source de données **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans la plateforme d’expérience. |
-| 4 | [!UICONTROL Trait Expression] | Le trait  est `segID = segment ID in Experience Platform`. |
-| 5 | [!UICONTROL Segments with this Trait] | Segment créé automatiquement qui utilise cette caractéristique comme composition. |
+| 1 | Type de caractéristiques | Les caractéristiques créées à partir des segments de plateforme d’expérience sont créées sous forme de caractéristiques intégrées dans  Gestionnaire de  de. |
+| 2 | Source de données | Création automatique. Toutes les caractéristiques et tous les segments créés automatiquement à partir des segments de la plate-forme d’expérience sont stockés dans la source de données **Adobe Experience Platform  le partage** de . |
+| 3 | Code d’intégration | Le code d’intégration correspond à l’ID de segment dans la plateforme d’expérience. |
+| 4 |  de caractéristiques  | Le trait  est `segID = segment ID in Experience Platform`. |
+| 5 | Segments avec ce trait | Segment créé automatiquement qui utilise cette caractéristique comme composition. |
 
 <br> 
 
@@ -91,21 +91,7 @@ Pour un exemple de segment créé automatiquement à partir d’un segment de pl
 
 | Numéro d&#39;article | Nom | Description |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans la plateforme d’expérience. |
-| 2 | [!UICONTROL Data Source] | Création automatique. Toutes les caractéristiques et tous les segments créés automatiquement à partir des segments de la plateforme d’expérience sont stockés dans la source de données **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion configurée dans la plateforme d’expérience. |
-| 4 | [!UICONTROL Segment Rule] | Le segment est constitué de la caractéristique décrite dans la section [](#aep-segments-as-aam-traits)Caractéristiques. |
-
-## Comprendre les différences de population de segments entre   Manager de et Experience Platform
-
-Les nombres de population de segments peuvent varier entre vos segments  Gestionnaire de  de et Plate-forme d’expérience. Bien que les chiffres des segments soient toujours relativement proches, de petites différences dans les populations peuvent être dues aux facteurs suivants :
-
-* Les tâches de segmentation s’exécutent.  Gestionnaire de  de exécute une tâche de segmentation qui met à jour les nombres dans l’interface une fois par jour. Cette tâche s’aligne rarement avec les tâches de segmentation dans la plateforme d’expérience.
-* [Fusionner les règles](/help/using/features/profile-merge-rules/merge-rules-overview.md) dans  Gestionnaire de et [Fusionner les stratégies](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) dans la plateforme d’expérience fonctionnent différemment, et le graphique d’identité utilisé pour chaque opération varie. C’est pourquoi on s’attend à certaines différences entre les populations de segments.
-
-
->[!MORELIKETHIS]
->
->* [Présentation du service de segmentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
->* [Guide de l’utilisateur du créateur de segments de plateforme d’expérience](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
->* [ Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+| 1 | Code d’intégration | Le code d’intégration correspond à l’ID de segment dans la plateforme d’expérience. |
+| 2 | Source de données | Création automatique. Toutes les caractéristiques et tous les segments créés automatiquement à partir des segments de la plate-forme d’expérience sont stockés dans la source de données **Adobe Experience Platform  le partage** de . |
+| 3 | Règle de fusion  | **La stratégie** de fusion externe indique que les segments créés automatiquement suivent la stratégie de fusion définie dans la plateforme d’expérience. |
+| 4 | Règle de segment | Le segment est constitué de la caractéristique décrite dans la section [](#aep-segments-as-aam-traits)Caractéristiques. |
