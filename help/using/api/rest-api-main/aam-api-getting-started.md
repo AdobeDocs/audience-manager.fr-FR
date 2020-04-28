@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
 
 ---
 
@@ -34,20 +34,31 @@ Tenez compte des points suivants lorsque vous travaillez avec [code API](https:/
 
 * **Documentation et exemples de code :** Le texte en *italique* représente une variable que vous fournissez ou transmettez lors de la création ou de la réception de [!DNL API] données. Remplacez *le texte en italique* par votre propre code, paramètres ou autres informations requises.
 
-## Recommandations : Création d’un utilisateur API générique {#requirements}
+## Authentification JWT (Service Account) {#jwt}
+
+Pour établir une session d’API d’E/S Adobe de service à service sécurisé, vous devez créer un JSON Web Token (JWT) qui encapsule l’identité de votre intégration, puis l’échanger contre un. Chaque demande adressée à un service Adobe doit inclure le  du dans l’en-tête d’autorisation, ainsi que la clé d’API (ID client) générée lors de la création de l’intégration [du compte de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) service dans la console [d’E/S](https://console.adobe.io/)Adobe.
+
+Voir Authentification [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) JWT (Service Account) pour obtenir des instructions détaillées sur la configuration de votre authentification.
+
+## Authentification OAuth (obsolète) {#oauth}
+
+>[!WARNING]
+>  l’authentification et le renouvellement des [!UICONTROL REST API] jetons du Gestionnaire de  de par le biais [!DNL OAuth 2.0] est désormais obsolète.
+>
+> Utilisez plutôt l&#39;authentification [](#jwt-service-account-authentication-jwt) JWT (Service Account).
+
+ Gestionnaire de  de applique les [!UICONTROL REST API] [!DNL OAuth 2.0] normes d’authentification et de renouvellement des jetons. Les sections ci-dessous décrivent comment vous authentifier et  utiliser les [!DNL API]s.
+
+## Création d’un utilisateur API générique {#requirements}
 
 Nous vous recommandons de créer un compte d’utilisateur technique distinct pour travailler avec les directeurs de  de [!DNL API]. Il s’agit d’un compte générique qui n’est pas associé à un utilisateur spécifique de votre entreprise ou qui n’est pas lui-même associé. Ce type de compte [!DNL API] utilisateur vous permet d’accomplir deux tâches :
 
 * Identifiez le service qui appelle le [!DNL API] (par exemple, les appels de vos applications qui utilisent nos [!DNL API]applications ou d’autres outils qui effectuent [!DNL API] des requêtes).
 * Fournir un accès ininterrompu aux [!DNL API]s. Un compte lié à une personne spécifique peut être supprimé lorsqu’il quitte votre. Cela vous empêchera de travailler avec le [!DNL API] code disponible. Un compte générique qui n’est pas lié à un employé en particulier permet d’éviter ce problème.
 
-À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vous souhaitiez modifier un grand nombre de segments à la fois avec les outils [de gestion en](../../reference/bulk-management-tools/bulk-management-intro.md)masse. Eh bien, pour ce faire, votre compte utilisateur a besoin d&#39; [!DNL API] accès. Plutôt que d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur non spécifique [!DNL API] doté des informations d’identification, de la clé et du secret appropriés pour effectuer [!DNL API] des appels. Cela s’avère également utile si vous développez vos propres applications qui utilisent les   Manager [!DNL API]s.
+À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vous souhaitiez modifier un grand nombre de segments à la fois avec les outils [de gestion en](../../reference/bulk-management-tools/bulk-management-intro.md)masse. Eh bien, pour ce faire, votre compte utilisateur a besoin d&#39; [!DNL API] accès. Plutôt que d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur non spécifique [!DNL API] doté des informations d’identification, de la clé et du secret appropriés pour effectuer [!DNL API] des appels. Cela s’avère également utile si vous développez vos propres applications qui utilisent les   Manager [!DNL API]de.
 
 Contactez votre consultant   Manager pour configurer un compte utilisateur générique [!DNL API]uniquement.
-
-## OAuth Authentication {#oauth}
-
- Gestionnaire de  de applique les [!UICONTROL REST API] [!DNL OAuth 2.0] normes d’authentification et de renouvellement des jetons. Les sections ci-dessous décrivent comment vous authentifier et  utiliser les [!DNL API]s.
 
 ## Processus d’authentification par mot de passe {#password-authentication-workflow}
 
@@ -108,6 +119,7 @@ Les étapes suivantes décrivent le processus d’utilisation d’un jeton d’a
 Transmettez une demande de jeton actualisé à votre [!DNL JSON] client préféré. Lorsque vous créez la requête :
 
 * Utilisez une `POST` méthode pour appeler `https://api.demdex.com/oauth/token`.
+* En-têtes de demande : lorsque vous utilisez des jetons d’E/S [](https://www.adobe.io/) Adobe, vous devez fournir l’ `x-api-key` en-tête. Vous pouvez obtenir votre clé d’API en suivant les instructions de la page d’intégration [de compte de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) service.
 * Convertissez votre ID client et votre secret en chaîne codée en base 64. Séparez l’ID et le secret par deux-points pendant le processus de conversion. Par exemple, les informations d’identification `testId : testSecret` sont converties en `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Transmettez les en-têtes HTTP `Authorization:Basic <base-64 clientID:clientSecret>` et `Content-Type: application/x-www-form-urlencoded`. Par exemple, votre en-tête peut ressembler à ceci : <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Dans le corps de la requête, spécifiez le jeton `grant_type:refresh_token` d’actualisation que vous avez reçu dans votre demande d’accès précédente, puis transmettez-le. La requête doit se présenter comme suit : <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
