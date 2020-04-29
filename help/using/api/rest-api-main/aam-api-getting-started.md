@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
+source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
 
 ---
 
@@ -68,7 +68,7 @@ Nous vous recommandons de créer un compte d’utilisateur technique distinct po
 * Identifiez le service qui appelle le [!DNL API] (par exemple, les appels de vos applications qui utilisent nos [!DNL API]applications ou d’autres outils qui effectuent [!DNL API] des requêtes).
 * Fournir un accès ininterrompu aux [!DNL API]s. Un compte lié à une personne spécifique peut être supprimé lorsqu’il quitte votre. Cela vous empêchera de travailler avec le [!DNL API] code disponible. Un compte générique qui n’est pas lié à un employé en particulier permet d’éviter ce problème.
 
-À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vous souhaitiez modifier un grand nombre de segments à la fois avec les outils [de gestion en](../../reference/bulk-management-tools/bulk-management-intro.md)masse. Eh bien, pour ce faire, votre compte utilisateur a besoin d&#39; [!DNL API] accès. Plutôt que d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur non spécifique [!DNL API] doté des informations d’identification, de la clé et du secret appropriés pour effectuer [!DNL API] des appels. Cela s’avère également utile si vous développez vos propres applications qui utilisent les   Manager [!DNL API]de.
+À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vous souhaitiez modifier un grand nombre de segments à la fois avec les outils [de gestion en](../../reference/bulk-management-tools/bulk-management-intro.md)masse. Eh bien, pour ce faire, votre compte utilisateur a besoin d&#39; [!DNL API] accès. Plutôt que d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur non spécifique [!DNL API] doté des informations d’identification, de la clé et du secret appropriés pour effectuer [!DNL API] des appels. Cela s’avère également utile si vous développez vos propres applications qui utilisent les   Manager [!DNL API]s.
 
 Contactez votre consultant   Manager pour configurer un compte utilisateur générique [!DNL API]uniquement.
 
@@ -242,10 +242,11 @@ Les [!DNL Audience Manager] s [!DNL API]permettent d’accéder à différents  
 
 En fonction de la méthode d’authentification que vous utilisez, vous devez ajuster vos  d’URL  en fonction du tableau ci-dessous.
 
-| Environnement | Nom d’hôte pour l’authentification OAuth | Nom d’hôte pour l’authentification JWT |
+| Environnement | Nom d’hôte pour l’authentification JWT | Nom d’hôte pour l’authentification OAuth |
 |---|---|---|
-| **Production** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
-| **Bêta** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
+| **Production** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
+| **Bêta** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >
