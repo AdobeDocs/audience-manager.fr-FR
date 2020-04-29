@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
+source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
 
 ---
 
@@ -26,6 +26,7 @@ Les choses que vous devez faire et que vous devez faire lorsque vous travaillez 
 Tenez compte des points suivants lorsque vous travaillez avec [code API](https://bank.demdex.com/portal/swagger/index.html#/) Gestionnaire de  de :
 
 * **Paramètres de requête :** Tous les paramètres de requête sont obligatoires, sauf indication contraire.
+* **En-têtes** de demande : lorsque vous utilisez des jetons d’E/S [](https://www.adobe.io/) Adobe, vous devez fournir l’ `x-api-key` en-tête. Vous pouvez obtenir votre clé d’API en suivant les instructions de la page d’intégration [de compte de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) service.
 * **[!DNL JSON]type de contenu :**Spécifiez`content-type: application/json`et **`accept: application/json`dans votre code.
 
 * **Demandes et réponses :** Envoyez des requêtes sous la forme d’un [!DNL JSON] objet correctement formaté. [!DNL Audience Manager] répond par des données [!DNL JSON] formatées. Les réponses du serveur peuvent contenir des données demandées, un code d’état ou les deux.
@@ -38,8 +39,8 @@ Tenez compte des points suivants lorsque vous travaillez avec [code API](https:/
 
 Les API REST  Gestionnaire de  de prennent en charge deux méthodes d’authentification.
 
-* [L’authentification](#jwt) JWT (Service Account) est la méthode d’authentification recommandée.
-* [Authentification OAuth (désapprouvée)](#oauth). Les clients avec des intégrations OAuth existantes peuvent continuer à utiliser cette méthode.
+* [Authentification](#jwt)JWT (Service Account). Il s’agit de la méthode d’authentification recommandée.
+* [Authentification OAuth (désapprouvée)](#oauth). Bien que cette méthode soit obsolète, les clients avec des intégrations OAuth existantes peuvent continuer à utiliser cette méthode.
 
 >[!IMPORTANT]
 >
@@ -130,7 +131,6 @@ Les étapes suivantes décrivent le processus d’utilisation d’un jeton d’a
 Transmettez une demande de jeton actualisé à votre [!DNL JSON] client préféré. Lorsque vous créez la requête :
 
 * Utilisez une `POST` méthode pour appeler `https://api.demdex.com/oauth/token`.
-<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * Convertissez votre ID client et votre secret en chaîne codée en base 64. Séparez l’ID et le secret par deux-points pendant le processus de conversion. Par exemple, les informations d’identification `testId : testSecret` sont converties en `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Transmettez les en-têtes HTTP `Authorization:Basic <base-64 clientID:clientSecret>` et `Content-Type: application/x-www-form-urlencoded`. Par exemple, votre en-tête peut ressembler à ceci : <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Dans le corps de la requête, spécifiez le jeton `grant_type:refresh_token` d’actualisation que vous avez reçu dans votre demande d’accès précédente, puis transmettez-le. La requête doit se présenter comme suit : <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
