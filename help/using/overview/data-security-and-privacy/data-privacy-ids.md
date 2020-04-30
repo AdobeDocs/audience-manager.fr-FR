@@ -1,25 +1,25 @@
 ---
-description: Ce document décrit les types d’ID Audience Manager que vous pouvez utiliser dans les demandes de confidentialité de données.
-seo-description: Ce document décrit les types d’ID Audience Manager que vous pouvez utiliser dans les demandes de confidentialité de données.
-seo-title: Identifiants (ID) Audience Manager
+description: Ce document couvre les types d’ID Audience Manager que vous pouvez utiliser dans les demandes de confidentialité des données.
+seo-description: Ce document couvre les types d’ID Audience Manager que vous pouvez utiliser dans les demandes de confidentialité des données.
+seo-title: Identifiants (ID) du Gestionnaire d'Audiences
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: Identifiants (ID) Audience Manager
+title: Identifiants (ID) du Gestionnaire d'Audiences
 translation-type: tm+mt
-source-git-commit: 30352749e926d5730e9cc8beef3936c9ed6d2986
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
-# Identifiants (ID) Audience Manager {#aam-ids}
+# Identifiants (ID) du Gestionnaire d&#39;Audiences {#aam-ids}
 
-Lorsque vous envoyez des demandes [de confidentialité de](data-privacy-requests.md) données à Adobe Audience Manager, vous devez inclure l’un des identifiants (ID) répertoriés ci-dessous. Vous trouverez plus d’informations sur les formats d’ID dans notre [Index des identifiants](../../reference/ids-in-aam.md)Audience Manager.
+Lors de l’envoi de demandes [de confidentialité de](data-privacy-requests.md) données à Adobe Audience Manager, vous devez inclure l’un des identifiants (ID) répertoriés ci-dessous. Vous trouverez plus d’informations sur les formats d’ID dans notre [Index d’ID d’Audience Manager](../../reference/ids-in-aam.md).
 
-## ID utilisateur unique Adobe Audience Manager
+## ID utilisateur unique d’Adobe Audience Manager
 
 * **Identifiant utilisateur**: `aam_uuid`
-* **Définition**:ID utilisateur unique Adobe Audience Manager
-* **ID** d’espace de noms : 0
+* **Définition**: ID utilisateur unique d’Adobe Audience Manager
+* **ID** d&#39;Espace de nommage : 0
 
 **Exemple d’objet JSON**:
 
@@ -48,7 +48,7 @@ Lorsque vous envoyez des demandes [de confidentialité de](data-privacy-requests
 
 >[!NOTE]
 >
->Vous pouvez également utiliser l’ [!DNL CORE] espace de noms.
+>Vous pouvez également utiliser l’ [!DNL CORE] espace de nommage.
 
 ```json
  "users": [
@@ -76,12 +76,12 @@ Lorsque vous envoyez des demandes [de confidentialité de](data-privacy-requests
 ## Adobe Experience Cloud ID
 
 * **Identifiant utilisateur**: `mid`
-* **Définition**: [!DNL Adobe Experience Cloud ID], anciennement appelé [!DNL Visitor ID] ou [!DNL Marketing Cloud ID]
-* **ID** d’espace de noms : 4
+* **Définition**: [!DNL Adobe Experience Cloud ID], anciennement connu sous le nom [!DNL Visitor ID] ou [!DNL Marketing Cloud ID]
+* **ID** d&#39;Espace de nommage : 4
 
 >[!NOTE]
 >
->Vous pouvez également utiliser l’ [!DNL ECID] espace de noms. Voir le deuxième [!DNL JSON] exemple.
+>Vous pouvez également utiliser l’ [!DNL ECID] espace de nommage. Voir le deuxième [!DNL JSON] exemple.
 
 **Exemple d’objet JSON**:
 
@@ -135,9 +135,9 @@ Lorsque vous envoyez des demandes [de confidentialité de](data-privacy-requests
 
 **Identifiant utilisateur**: `cid`
 
-**Définition**: ID de client, tel qu’un cookie que vous avez défini pour les visiteurs anonymes du site ou un [!DNL CRM] ID provenant d’un système hors ligne ou d’un nom d’utilisateur haché.
+**Définition**: ID de client, tel qu’un cookie que vous avez défini pour les visiteurs anonymes du site ou un [!DNL CRM] identifiant provenant d’un système hors ligne ou d’un nom d’utilisateur haché.
 
-**ID** d’espace de noms : Spécifique au client. Recherchez-le dans votre instance Audience Manager.
+**ID** d&#39;Espace de nommage : Spécifique au client. Recherchez-le à partir de votre instance Audience Manager.
 
 **Exemple d’objet JSON**:
 
@@ -179,11 +179,11 @@ Lorsque vous envoyez des demandes [de confidentialité de](data-privacy-requests
 * [!DNL IDFA:] 20915
 * [!DNL GAID:] 20914
 
-Voir Sources [de données](../../features/global-data-sources.md) globales pour en savoir plus.
+Voir Sources [de données](../../features/global-data-sources.md) globales pour plus d’informations.
 
 >[!IMPORTANT]
 >
-> Si vous utilisez Mobile [!DNL SDK], vous devez également envoyer l’ID Experience Cloud (`MID`) avec les ID de publicité mobile pour obtenir des réponses d’accès et de suppression complètes.
+> Si vous utilisez Mobile [!DNL SDK], vous devez également envoyer l’ID Experience Cloud (`MID`) avec les ID de publicité mobile pour obtenir des réponses complètes d’accès et de suppression.
 
 **Exemple d’objet JSON**:
 
@@ -214,9 +214,9 @@ Voir Sources [de données](../../features/global-data-sources.md) globales pour 
 
 **Identifiant utilisateur**: `d_cid_ic`
 
-**Définition**: Code d’intégration de la source de données. Vous pouvez l’utiliser à la place de l’ID de source de données/de l’ID d’espace de noms dans la [!DNL API] requête [!DNL Adobe Experience Cloud Privacy Core Service].
+**Définition**: Code d’intégration de la source de données. Vous pouvez l’utiliser à la place de l’ID de source de données/ID d’espace de nommage dans la [!DNL API] demande de [!DNL Adobe Experience Cloud Privacy Core Service]service.
 
-**ID** d’espace de noms : Sans objet
+**ID** d&#39;Espace de nommage : Sans objet
 
 **Exemple d’objet JSON**:
 
