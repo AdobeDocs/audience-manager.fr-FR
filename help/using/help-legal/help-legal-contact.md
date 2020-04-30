@@ -5,7 +5,7 @@ seo-title: Coordonnées et informations juridiques
 solution: Audience Manager
 title: Coordonnées et informations juridiques
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -20,7 +20,7 @@ L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider e
 
 * [Consultez les pages d’aide d’Experience Cloud pour obtenir des conseils et lire les questions fréquentes.](https://helpx.adobe.com/support.ec.html)
 * [Posez une question sur Twitter à l’adresse @AdobeExpCare.](https://twitter.com/AdobeExpCare)
-* [Contactez directement l’équipe d’assistance](https://helpx.adobe.com/contact/enterprise-support.ec.html).
+* [Contactez directement l’équipe d’assistance](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html).
 * [Vérifiez la disponibilité et l’état des solutions Experience Cloud.](https://status.adobe.com/)
 
 ## Informations sur le service, les fonctionnalités et la facturation {#billing}
@@ -31,7 +31,7 @@ En fonction de la configuration de votre solution, il est possible que vous n’
 
 Published by Adobe Systems Incorporated.
 
-[Conditions d’utilisation](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Centre de traitement des données personnelles](https://www.adobe.com/privacy.html)
+[Conditions d’utilisation](https://www.adobe.com/legal/terms.html) | [Centre de traitement des données personnelles](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
