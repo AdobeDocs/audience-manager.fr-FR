@@ -6,7 +6,7 @@ solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -19,10 +19,10 @@ Une configuration booléenne facultative permet de déterminer si le code DIL e
 
 To use `isCoopSafe` you must:
 
-* Utilisez [!UICONTROL DIL] la version 6.11 ou ultérieure.
-* Participer à [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/). Les membres potentiels de Co-op doivent également consulter cette documentation pour déterminer si `isCoopSafe` peut répondre à des préoccupations concernant la manière dont les données sont utilisées pour créer la coopérative Device Graph.
+* Utilisez la version [!UICONTROL DIL] v6.11 ou ultérieure.
+* Participer à [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Les membres potentiels de Co-op doivent également consulter cette documentation pour déterminer si `isCoopSafe` peut répondre à des préoccupations concernant la manière dont les données sont utilisées pour créer la coopérative Device Graph.
 
-* Collaborer avec votre conseiller [!DNL Adobe] afin de définir un indicateur de liste blanche ou de liste noire pour votre compte Device Co-op. Il n'existe pas de chemin en libre-service pour activer ces indicateurs.
+* Collaborer avec votre conseiller [!DNL Adobe] afin de définir un indicateur de liste blanche ou de liste noire pour votre compte Device Co-op. Il n&#39;existe pas de chemin d&#39;accès libre-service pour activer ces indicateurs.
 
 ## Cas d’utilisation {#use-cases}
 
@@ -63,7 +63,7 @@ Les options booléennes déterminent la manière dont les données des clients s
 
 **Exemple de code**
 
-Définissez cette valeur lorsque DIL instancie.
+Définissez cette variable lorsque DIL instancie.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -114,11 +114,11 @@ Ces API permettent de remplacer l’état `isCoopSafe`. Elles sont nécessaires 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Définit le paramètre POST <code>d_coop_safe=1</code> dans tous les appels d’événement suivants. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_safe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Définit le paramètre POST <code>d_coop_unsafe=1</code> dans tous les appels d’événement suivants. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_unsafe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
  </tbody> 
 </table>
