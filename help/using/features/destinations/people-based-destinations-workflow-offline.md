@@ -5,7 +5,7 @@ seo-title: Workflow B - Personnalisation basée sur les données hors ligne uniq
 solution: Audience Manager
 title: Workflow B - Personnalisation basée sur les données hors ligne uniquement
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -132,9 +132,7 @@ Le fichier [de synchronisation des](../../integration/sending-audience-data/batc
 Dans l’exemple ci-dessus, le nom de fichier se présenterait comme suit :
 `c2c_id_999999_987654_1560431657.sync`
 
-[Téléchargez un exemple de fichier ici](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
-
-<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
+[Téléchargez un exemple de fichier ici](assets/c2c_id_999999_987654_1560431657.sync).
 
 Une fois que vous avez créé votre fichier de synchronisation des identifiants, vous devez le télécharger dans un [!DNL Amazon S3] compartiment. Pour savoir comment télécharger des fichiers de synchronisation des identifiants, voir [Envoyer des données de lot à Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
