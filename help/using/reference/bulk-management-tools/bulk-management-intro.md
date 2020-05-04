@@ -1,13 +1,13 @@
 ---
-description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour travailler avec des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
-keywords: baaam;BAAAM
-seo-description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour travailler avec des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
+description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
+keywords: baaam;BAAAM;download baaam
+seo-description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
 seo-title: Prise En Main De La Gestion En Bloc
 solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -28,52 +28,52 @@ c_bulk_start.xml
 
 ## Aperçu {#overview}
 
-Cette fonctionnalité utilise une feuille de calcul Microsoft Excel avec des macros qui effectuent des appels sécurisés et authentifiés aux [!DNL Audience Manager] API. L’API fournit les méthodes et les services qui vous permettent d’effectuer des modifications en bloc. Vous n&#39;avez pas besoin de savoir comment coder ou utiliser nos API pour l&#39;utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en masse spécifiques. Pour effectuer des modifications en masse, vous devez simplement ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournir les informations que vous souhaitez modifier en bloc, puis cliquer sur un bouton d’action. La feuille de calcul et les API font le reste du travail pour vous.
+Cette fonctionnalité utilise une feuille de calcul Microsoft Excel avec des macros qui effectuent des appels sécurisés et authentifiés aux [!DNL Audience Manager] API. L’API fournit les méthodes et les services qui vous permettent d’apporter des modifications en bloc. Vous n&#39;avez pas besoin de savoir comment coder ou utiliser nos API pour l&#39;utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en masse spécifiques. Pour effectuer des modifications en masse, vous n&#39;avez qu&#39;à ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournir les informations que vous souhaitez modifier en bloc, puis cliquer sur un bouton d&#39;action. La feuille de calcul et les API font le reste du travail pour vous.
 
 ## Téléchargement {#download}
 
-Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20200311.xlsm)**.
+Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Conditions préalables {#prereqs}
 
-Pour utiliser le [!DNL Bulk Management Tools], vous devez disposer des éléments suivants :
+Pour utiliser le [!DNL Bulk Management Tools]logiciel, vous devez disposer des éléments suivants :
 
-* Votre [!DNL Experience Cloud] connexion. En tant que client, vous devez déjà disposer de ces informations d’identification.
-* La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille](assets/BAAAM_V2_20200311.xlsm) de calcul pour obtenir la dernière version.
+* Votre [!DNL Experience Cloud] connexion. En tant que client, vous devriez déjà disposer de ces informations d’identification.
+* La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille de calcul](assets/BAAAM_V2_20200502.xlsm) pour obtenir la dernière version.
 * Microsoft Excel s&#39;exécutant sur [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Nous vous recommandons d&#39;utiliser la dernière version de Microsoft Excel.
-* Lors de l’ouverture de la feuille de calcul, vous devez **activer les macros** pour que la [!DNL Bulk Management Tools] feuille de calcul fonctionne.
+* Lors de l&#39;ouverture de la feuille de calcul, vous devez **activer les macros** pour que la [!DNL Bulk Management Tools] feuille de calcul fonctionne.
 
 ## Exigences et options d’authentification {#auth-reqs}
 
-Les modifications en masse nécessitent une authentification. Avant d’effectuer une action, vous devez vous connecter. Comme la feuille de calcul effectue des appels d’API, vous devez la configurer pour l’authentifier dans votre compte utilisateur.
+Les modifications en masse nécessitent une authentification. Avant d’effectuer une action, vous devez vous connecter. Comme la feuille de calcul effectue des appels d&#39;API, vous devez la configurer pour l&#39;authentifier dans votre compte d&#39;utilisateur.
 
-**Exigences d’authentification API**
+**Exigences d’authentification des API**
 
-La deuxième version des outils de gestion en bloc, publiée en octobre 2019, simplifie le processus d’authentification. Les étapes d’authentification de cette version sont décrites ci-dessous :
+La deuxième version des outils de gestion en bloc, publiée en octobre 2019, simplifie le processus d&#39;authentification. Les étapes d’authentification de cette version sont décrites ci-dessous :
 
-1. Ouvrez la feuille de calcul et accédez à la **feuille de configuration** .
+1. Ouvrez la feuille de calcul et accédez à la feuille de **configuration** .
 2. Suivez les étapes décrites dans la feuille.
    ![](assets/baaam-authentication.png)
-3. Une fois les étapes terminées, vous êtes autorisé à effectuer des modifications en masse.
+3. Après avoir exécuté les étapes, vous êtes autorisé à effectuer des modifications en masse.
 
-Lorsque vous apportez des modifications en masse, vous devrez quand même confirmer que vous êtes autorisé à effectuer les modifications, mais que l’authentification API est automatique.
+Lorsque vous apportez des modifications en masse, vous devrez tout de même confirmer que vous êtes autorisé à effectuer les modifications, mais que l&#39;authentification par API est automatique.
 
-**Options d’authentification de domaine**
+**Options d&#39;authentification de domaine**
 
-L’authentification de domaine vous permet de tester les requêtes en masse ou de les appliquer directement à votre compte de production. Les modifications en masse apportées au  bêta  n’affecteront pas votre compte de production. Les modifications apportées à la production entrent en vigueur immédiatement. La feuille de gestion en bloc vous permet de travailler dans le   suivant :
+L’authentification de domaine vous permet de tester des requêtes en masse ou de les appliquer directement à votre compte de production. Apporter des modifications en masse à l’environnement bêta n’affectera pas votre compte de production. Les modifications apportées à la production entrent en vigueur immédiatement. La feuille de gestion en vrac vous permet de travailler dans les environnements suivants :
 
 * bêta
 * Production
 
 ## Actions et opérations {#actions-ops}
 
-La [!UICONTROL Bulk Management Tools] feuille de calcul se compose de boutons d’authentification, d’onglets d’action, de boutons d’action et d’un **[!UICONTROL Headers]** onglet. L’ **[!UICONTROL Headers]** onglet contient les en-têtes de colonne préformatés utilisés par les onglets d’action. Les onglets d’action contiennent des macros qui effectuent l’opération en bloc sélectionnée. Pour effectuer une opération en bloc, vous copiez un ensemble d’en-têtes dans l’onglet d’action approprié, saisissez les données d’en-tête, puis cliquez sur un bouton d’action.
+La [!UICONTROL Bulk Management Tools] feuille de calcul comprend des boutons d&#39;authentification, des onglets d&#39;action, des boutons d&#39;action et un **[!UICONTROL Headers]** onglet. L’ **[!UICONTROL Headers]** onglet contient les en-têtes de colonne préformatés utilisés par les onglets d’action. Les onglets d&#39;action contiennent des macros qui effectuent l&#39;opération en bloc que vous avez sélectionnée. Pour effectuer une opération en bloc, vous copiez un ensemble d’en-têtes dans l’onglet d’action approprié, saisissez des données d’en-tête et cliquez sur un bouton d’action.
 
 Après [l’authentification](#auth-reqs), cliquez sur un bouton d’action pour commencer.
 
 ![](assets/baaam-worksheet.png)
 
-Le tableau ci-dessous  les opérations que vous pouvez effectuer et les éléments que vous pouvez manipuler avec les [!UICONTROL Bulk Management Tools] feuilles de calcul.
+Le tableau ci-dessous liste les opérations que vous pouvez effectuer et les éléments que vous pouvez manipuler avec les [!UICONTROL Bulk Management Tools] feuilles de calcul.
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
@@ -84,7 +84,7 @@ Le tableau ci-dessous  les opérations que vous pouvez effectuer et les élémen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Les actions en bloc apparaissent dans les onglets au bas de la feuille de calcul et incluent : </p> <p> 
+   <td colname="col1"> <p>Les actions en bloc apparaissent dans les onglets au bas de la feuille de calcul et comprennent : </p> <p> 
      <ul id="ul_49F46B9E00C045D29E40258EB7BDCFBB"> 
       <li id="li_193C41EA19EF4D738FBA037D2BF9B05C">Demandes </li> 
       <li id="li_5BE2E13D839F4958AAA5C01B7EFC5096">Mise à jour </li> 
@@ -108,14 +108,14 @@ Le tableau ci-dessous  les opérations que vous pouvez effectuer et les élémen
 
 **Exemple d&#39;opération en bloc**
 
-Prenons l&#39;exemple de la création simultanée de plusieurs caractéristiques. Pour créer plusieurs caractéristiques dans une opération en bloc, procédez comme suit :
+À titre d&#39;exemple, examinons comment créer plusieurs caractéristiques à la fois. Pour créer plusieurs caractéristiques dans une opération en bloc, vous devez :
 
 1. Cliquez sur l’ **[!UICONTROL Headers]** onglet et copiez toutes les étiquettes sous l’ [!UICONTROL Create a Trait] option.
 2. Cliquez sur l’ **[!UICONTROL Create]** onglet et collez les étiquettes en commençant par la ligne 1, colonne A.
-3. Fournissez des informations relatives à chaque en-tête de colonne et cliquez sur **[!UICONTROL Create Traits]**. Cette action vous invite à confirmer votre authentification. Votre tâche en masse s’exécute une fois que vous avez confirmé votre authentification. Vérifiez que le coin inférieur gauche de la feuille de calcul contient une notification d&#39;état de tâche.
+3. Fournissez des informations relatives à chaque en-tête de colonne et cliquez sur **[!UICONTROL Create Traits]**. Cette action vous invite à confirmer votre authentification. Votre tâche en masse s’exécute après avoir confirmé votre authentification. Consultez le coin inférieur gauche de la feuille de calcul pour obtenir une notification d&#39;état de la tâche.
 
 
 >[!NOTE]
 >
->Lorsque vous travaillez avec des requêtes volumineuses, la feuille de calcul peut ne plus répondre et apparaître inactive. Dans ces cas, laissez-le tranquille. La feuille de calcul sera réactive une fois la demande en masse terminée. Si la feuille de calcul ne répond pas pendant une longue période, reportez-vous à la section [](../../reference/bulk-management-tools/bulk-troubleshooting.md)Dépannage.
+>Lorsque vous travaillez avec des requêtes volumineuses, la feuille de calcul peut ne plus répondre et apparaître inactive. Dans ces cas, laissez-le tranquille. La feuille de calcul devient réactive une fois la demande en vrac terminée. Si la feuille de calcul ne répond pas pendant une longue période, reportez-vous à la section [](../../reference/bulk-management-tools/bulk-troubleshooting.md)Dépannage.
 
