@@ -236,7 +236,7 @@ Selon la méthode d’authentification que vous utilisez, vous devez ajuster les
 | Types de caractéristiques | `https://api.demdex.com/v1/customer-trait-types` |
 | Taxonomie | `https://api.demdex.com/v1/taxonomies/0/` |
 
-##  {#environments}
+## Environments {#environments}
 
 Les [!DNL Audience Manager] s [!DNL API]permettent d’accéder à différents  de  de travail. Ces   vous aident à tester le code par rapport à des bases de données distinctes sans affecter les données de production en direct. Le tableau ci-dessous  le  de l’disponible [!DNL API] ainsi que les noms d’hôtes de ressource correspondants.
 
