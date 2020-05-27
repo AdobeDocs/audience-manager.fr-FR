@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Liste et paramètres des sources de données
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +61,7 @@ Outre les champs de texte, la [!UICONTROL Data Source Details] section contient 
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Périphérique</span></b>croisé : Identifiant authentifié fourni par le client. Sélectionnez cette option lorsque vous souhaitez créer : 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Source de données sur plusieurs périphériques et création d’une règle <span class="wintitle"> de fusion</span>de Profil. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Source de données qui utilise les liens fournis par <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> ou par un autre graphique de périphérique tiers intégré à <span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Source de données qui utilise les liens fournis par <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> ou un autre graphique de périphériques tiers intégré à <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -96,6 +99,10 @@ Le [!UICONTROL Data Source Settings] contient les commandes et les options répe
 ### Paramètres de source de données entrantes
 
 Cochez la **[!UICONTROL Inbound]** case lorsque votre source de données est conçue pour recevoir les données entrantes. La sélection de la **[!UICONTROL Inbound]** case à cocher expose deux autres groupes de contrôles décrits ci-dessous.
+
+>[!NOTE]
+>
+>La **[!UICONTROL Inbound]** case à cocher est uniquement destinée à afficher ou masquer les commandes de source de données décrites ci-dessous. La désactivation de l’ **[!UICONTROL Inbound]** option n’a aucune incidence sur l’assimilation des données. Vos données intégrées seront traitées, quelle que soit l’option sélectionnée.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
