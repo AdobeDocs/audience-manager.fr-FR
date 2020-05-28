@@ -1,27 +1,30 @@
 ---
-description: Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant vers un répertoire Amazon S3 spécial pour votre compte Audience Manager. Reportez-vous à cette section pour plus d’informations sur les chemins de remise/répertoire, les délais de traitement des fichiers et les mises à jour.
-seo-description: Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant vers un répertoire Amazon S3 spécial pour votre compte Audience Manager. Reportez-vous à cette section pour plus d’informations sur les chemins de remise/répertoire, les délais de traitement des fichiers et les mises à jour.
-seo-title: Méthodes de remise des fichiers de métadonnées
+description: Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant dans un répertoire Amazon S3 spécial pour votre compte Audience Manager. Reportez-vous à cette section pour obtenir des informations sur les chemins d’accès aux diffusions/répertoires, les délais de traitement des fichiers et les mises à jour.
+seo-description: Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant dans un répertoire Amazon S3 spécial pour votre compte Audience Manager. Reportez-vous à cette section pour obtenir des informations sur les chemins d’accès aux diffusions/répertoires, les délais de traitement des fichiers et les mises à jour.
+seo-title: Méthodes de Diffusion pour les fichiers de métadonnées
 solution: Audience Manager
-title: Méthodes de remise des fichiers de métadonnées
+title: Méthodes de Diffusion pour les fichiers de métadonnées
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
 
-# Méthodes de remise des fichiers de métadonnées{#delivery-methods-for-metadata-files}
+# Méthodes de Diffusion pour les fichiers de métadonnées{#delivery-methods-for-metadata-files}
 
-Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant dans un [!DNL Amazon S3] répertoire spécial pour votre compte Audience Manager. Reportez-vous à cette section pour plus d’informations sur les chemins de remise/répertoire, les délais de traitement des fichiers et les mises à jour.
+Envoyez ou mettez à jour des fichiers de métadonnées en les envoyant dans un [!DNL Amazon S3] répertoire spécial pour votre compte Audience Manager. Reportez-vous à cette section pour obtenir des informations sur les chemins d’accès aux diffusions/répertoires, les délais de traitement des fichiers et les mises à jour.
 
 >[!IMPORTANT]
 >
-> Contactez votre conseiller Audience Manager ou le service à la clientèle pour commencer à configurer un [!DNL Amazon S3] répertoire pour vos fichiers de métadonnées.
+> Contactez votre consultant Audience Manager ou le service à la clientèle pour commencer à configurer un [!DNL Amazon S3] répertoire pour vos fichiers de métadonnées.
 
-## Syntaxe du chemin de livraison et exemple {#syntax}
+## Syntaxe du chemin de Diffusion et exemple {#syntax}
 
-Les données sont stockées dans un espace de noms distinct pour chaque client dans un [!DNL Amazon S3] répertoire. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Notez que les crochets `<>` indiquent un espace réservé de variable. Les autres éléments sont des constantes et ne changent pas.
+Les données sont stockées dans un espace de nommage distinct pour chaque client dans un [!DNL Amazon S3] annuaire. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Remarque : les crochets `<>` indiquent une balise d’emplacement de variable. Les autres éléments sont des constantes et ne changent pas.
 
 **Syntaxe :**
 
@@ -37,17 +40,17 @@ Les données sont stockées dans un espace de noms distinct pour chaque client d
 
 <br> 
 
-Le tableau suivant définit chacun de ces éléments dans un chemin de remise de fichier.
+Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion de fichiers.
 
 
 | Paramètre de fichier | Description |
 ---------|----------|
-| `.../log_ingestion/` | Il s’agit du début du chemin de stockage du répertoire. Vous recevrez le chemin complet lorsque tout sera configuré. |
+| `.../log_ingestion/` | début du chemin d&#39;enregistrement de l&#39;annuaire. Vous recevrez le chemin complet lorsque tout sera configuré. |
 | `pid=<AAM ID>` | Cette paire clé-valeur contient votre ID de client Audience Manager. |
-| `dpid=<d_src>` | Cette paire clé-valeur contient l’ID de source de données transmis lors d’un appel d’événement. L’ID de source de données est la valeur qui lie tout le contenu de votre fichier aux données réelles auxquelles il appartient. </br> Supposons, par exemple, que vous ayez un élément créatif avec l’ID 123 et le nom &quot;Advertiser Creative A&quot;. Comme un appel d’événement ne transmet que l’identifiant dont vous avez besoin pour inclure &quot;Advertiser Creative A&quot; dans le fichier de métadonnées. La campagne et l’élément créatif appartiennent à une source de données. L’ID de source de données est ce qui relie ces éléments et nous permet d’associer précisément le contenu du fichier à un ID envoyé lors d’un appel d’événement. Voir [Comment les ID d’appel d’événement déterminent les noms de fichier, le contenu et les chemins](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-filenames)de remise. |
-| `<yyyymmdd_0_child ID>` | Il s’agit du nom de fichier. Voir Conventions [de dénomination des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)de métadonnées. |
+| `dpid=<d_src>` | Cette paire clé-valeur contient l’identifiant de source de données transmis lors d’un appel de événement. L’ID de source de données est la valeur qui lie tout le contenu de votre fichier aux données réelles auxquelles il appartient. </br> Par exemple, supposons que vous disposez d’un élément créatif avec l’ID 123 et le nom &quot;Advertiser Creative A&quot;. Comme un appel de événement ne transmet que l’identifiant dont vous avez besoin pour inclure &quot;Advertiser Creative A&quot; dans le fichier de métadonnées. La campagne et le créatif appartiennent à une source de données. L’ID de source de données est ce qui relie ces éléments et nous permet d’associer précisément le contenu des fichiers à un identifiant envoyé lors d’un appel de événement. Voir [Comment les ID d’appel de Événement déterminent les noms de fichier, le contenu et les chemins](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)de Diffusion. |
+| `<yyyymmdd_0_child ID>` | Il s&#39;agit du nom de fichier. Voir Conventions [de dénomination des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)de métadonnées. |
 
-## Heures et mises à jour de traitement des fichiers {#processing-times}
+## Heures de traitement des fichiers et mises à jour {#processing-times}
 
 Les fichiers de métadonnées sont traités quatre fois par jour, à intervalles réguliers.
 
