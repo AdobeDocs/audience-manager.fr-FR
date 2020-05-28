@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Glossaire
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +24,7 @@ Définitions et liens vers d’autres lectures.
 
 Utilisez [!UICONTROL Algorithmic Modeling] comme un moyen d&#39;étendre la portée au-delà du noyau des utilisateurs que vous avez identifiés. Cette fonction vous permet de découvrir de nouvelles audiences uniques grâce à l’analyse automatisée des données. Gérez votre [!UICONTROL Algorithmic Models] dans **[!UICONTROL Audience Data > Models]**.
 
-Voir [Présentation des modèles](../features/algorithmic-models/understanding-models.md#understanding-models)algorithmiques.
+Voir [Présentation des modèles](../features/algorithmic-models/algo-models-overview.md)algorithmiques.
 
 <br> 
 
@@ -112,7 +115,7 @@ Il [!UICONTROL Data Integration Library] s’agit d’une bibliothèque d’API 
 
 **Experience Cloud ID (ECID)**
 
-Précédemment nommé [!DNL Marketing Cloud] ID (MID ou MCID). L’ [!DNL Experience Cloud] ID est un élément central du service d’ID. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir Cookies et Service [d’identité](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience Platform.
+Précédemment nommé [!DNL Marketing Cloud] ID (MID ou MCID). L’ [!DNL Experience Cloud] ID est un élément central du service d’ID. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir Cookies et Service [d’identité de la plate-forme](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience Platform.
 
 <br> 
 
@@ -163,7 +166,7 @@ Lorsque vous utilisez l’ [!DNL Audience Manager] interface utilisateur ou l’
 
 * [!UICONTROL Traits]: un code d’intégration est un champ pour un identifiant, un SKU ou toute autre valeur utilisée par vos processus métier internes. Facultatif.
 * [!UICONTROL Segments]: un code d’intégration est un champ destiné à un identifiant défini par l’utilisateur ou à d’autres informations spécifiques à une société. Facultatif.
-* [!UICONTROL Data Sources]: les codes d’intégration sont requis lorsque vous souhaitez créer des sources de données sur plusieurs périphériques, utiliser Adobe Experience Platform Identity Service ou travailler avec [!UICONTROL Profile Merge Rules]. Voir [Création d’une source](../features/manage-datasources.md#create-data-source) de données pour plus d’informations.
+* [!UICONTROL Data Sources]: les codes d’intégration sont requis lorsque vous souhaitez créer des sources de données inter-périphériques, utiliser le service d’identité de la plateforme d’expérience Adobe ou travailler avec [!UICONTROL Profile Merge Rules]. Voir [Création d’une source](../features/manage-datasources.md#create-data-source) de données pour plus d’informations.
 
 ## K-L {#k-l}
 
@@ -269,7 +272,7 @@ TTL définit le nombre de jours qu’un visiteur qualifié reste dans une caract
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Voir la documentation d’ [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
+Consultez la documentation du service [d’identité de la plateforme](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Platform.
 
 ## W-X-Y-Z {#w-z}
 
