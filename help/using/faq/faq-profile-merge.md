@@ -7,9 +7,9 @@ solution: Audience Manager
 title: FAQ sur les règles de fusion de Profils et le graphique de périphériques
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -259,7 +259,7 @@ Oui. La mesure de population totale de segments inclut les périphériques suppl
 
 Non.
 
-**Pourquoi mes exportations de segments vers Adobe Campaign s’affichent-elles comme 0 après le 16 mars 2020 ?**
+**Pourquoi est-ce que je vois une population de segments zéro pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
 
 À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance Gestionnaire d’Audiences à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
 
