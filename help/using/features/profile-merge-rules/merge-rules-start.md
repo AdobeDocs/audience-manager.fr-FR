@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Prise en main des règles de fusion de Profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 1%
 
 ---
 
@@ -98,6 +101,19 @@ Pour compléter la [!UICONTROL Proflie Merge Rule Setup] section :
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. Cliquez sur **[!UICONTROL Save]**.
+
+### Considérations relatives aux destinations Adobe Campaign utilisant des identifiants de plusieurs périphériques comme clés d’ID utilisateur {#considerations}
+
+À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance Gestionnaire d’Audiences à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
+
+Pour garantir l’intégration correcte entre votre instance Audience Manager et vos destinations à l’aide d’identifiants sur plusieurs périphériques, tels que Adobe Campaign, assurez-vous de respecter les exigences suivantes :
+
+1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion des Profils doit utiliser l’ [!UICONTROL Last Authenticated Profile] option, de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
+2. Sélectionnez la source de données d’ID déclarés Adobe Campaign dans les paramètres de la règle de fusion de Profils.
+
+>[!NOTE]
+>
+> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de Profils pour les autres cas d’utilisation.
 
 ## Configurer le code de règle de fusion {#configure-merge-rule-code}
 
