@@ -1,37 +1,40 @@
 ---
-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant Adobe ou le service à la clientèle.
-seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant Adobe ou le service à la clientèle.
-seo-title: Partenaires technologiques d’Adobe Audience Manager
+description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller Adobe ou le service d’assistance clientèle.
+seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller Adobe ou le service d’assistance clientèle.
+seo-title: Partenaires technologiques du gestionnaire d'Audiences d'Adobe
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Partenaires technologiques d’Adobe Audience Manager
+title: Partenaires technologiques du gestionnaire d'Audiences d'Adobe
 translation-type: tm+mt
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 59%
 
 ---
 
 
-# Partenaires d’activation d’Audience Manager
+# Audience Manager Activations Partenaires
 
-Cette page comprend uniquement les intégrations [](/help/using/features/destinations/add-edit-segments.md) serveur à serveur actuelles d’Audience Manager.  Pour plus d’informations sur une intégration, reportez-vous à sa liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant Adobe ou le service à la clientèle.
-
-<br> 
-
-* **Mise à jour** = Affiche la dernière date à laquelle il y a eu une mise à jour pour ce partenaire d’activation.
-* **Unsegment** = Unsegmentation décrit les processus qui excluent et suppriment les profils de périphérique des segments. La suppression d’un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer une règle de fusion de profil. La non-segmentation est également utilisée dans le contexte des demandes de suppression GDPR Lire les règles de fusion [de profil et les processus](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de non-segmentation des périphériques et [Audience Manager Partners with Unsegmentation Capabilities](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager envoie des informations de non-segmentation aux destinations marquées du Oui ci-dessous.
-* **Recevoir des signaux** de consentement TCF IAB = Le module externe Audience Manager pour IAB TCF vous permet de transmettre la chaîne de consentement TCF IAB aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = Cette colonne répertorie les partenaires qui prennent en charge la suppression instantanée de plusieurs périphériques. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID** de périphérique mobile = Cette colonne répertorie les partenaires qui peuvent recevoir des ID de périphérique mobile d’Audience Manager.
+Cette page comprend les intégrations [actuelles d’Audience Manager](/help/using/features/destinations/add-edit-segments.md) serveur à serveur uniquement.  Pour plus d’informations sur une intégration, consultez sa liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre conseiller Adobe ou le service d’assistance clientèle.
 
 <br> 
 
-| Intégration | Mise à jour de la section | Dissocier | Recevoir des signaux de consentement TCF IAB | ICDS | ID de périphérique mobile |
+* **Mise à jour** = Affiche la dernière date à laquelle une mise à jour a été effectuée pour ce partenaire d&#39;activation.
+* **Unsegment** = Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. La possibilité de supprimer un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer une règle de fusion de Profil. La non-segmentation est également utilisée dans le contexte des demandes de suppression GDPR Lire les règles de fusion des [Profils et les processus](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de non-segmentation des périphériques et les partenaires [du gestionnaire d&#39;Audiences dotés de capacités](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de non-segmentation. Audience Manager envoie des informations de non-segmentation aux destinations signalées par Oui ci-dessous.
+* **Recevoir des signaux** de consentement TCF IAB = Le module externe Audience Manager pour le TCF IAB vous permet de transférer la chaîne TC IAB aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = Cette colonne liste les partenaires qui prennent en charge la suppression instantanée de plusieurs périphériques. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **ID** de périphérique mobile = Cette colonne liste les partenaires qui peuvent recevoir des ID de périphérique mobile d&#39;Audience Manager.
+
+<br> 
+
+| Intégration | Mise à jour de la section | Dissocier | Réception de signaux de consentement TCF IAB | ICDS | ID de périphérique mobile |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | Informations 4C | 26/09/2018 | Oui | Non | Non | Oui |
 | 4info | 09/02/2017 | Non | Non | Non | Oui |
-| AcuityAds | 09/02/2017 | Oui | Non | Oui | Non |
+| AcuityPublics | 09/02/2017 | Oui | Non | Oui | Non |
 | Adara | 17/02/2017 | Oui | Non | Non | Non |
-| Mobilité dépendante | 22/02/2017 | Oui | Non | Oui | Oui |
+| Mobilité addictive | 22/02/2017 | Oui | Non | Oui | Oui |
 | Adelphique | 22/02/2017 | Non | Non | Non | Oui |
 | AdForm | 22/02/2017 | Oui | Non | Oui | Oui |
 | AdGear | 22/02/2017 | Oui | Non | Oui | Non |
@@ -48,11 +51,11 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | Atedra/AdStanding | 02/03/2017 | Oui | Non | Oui | Non |
 | Avocent | 06/12/2017 | Non | Non | Non | Non |
 | Bidtellect | 03/03/2017 | Oui | Non | Non | Non |
-| Béescire | 25/05/2018 | Non | Non | Non | Oui |
+| cire d&#39;abeilles | 25/05/2018 | Non | Non | Non | Oui |
 | Écran de marque | 03/03/2017 | Non | Non | Non | Non |
 | Brightroll | 03/03/2017 | Non | Oui | Non | Non |
 | Bouton | 18/12/2017 | Oui | Non | Non | Oui |
-| C1 Exchange | 27/02/2017 | Oui | Non | Non | Non |
+| Échange C1 | 27/02/2017 | Oui | Non | Non | Non |
 | Celtra | 27/02/2017 | Oui | Non | Non | Oui |
 | Centro | 27/02/2017 | Non | Non | Non | Oui |
 | ChoiceStream | 27/02/2017 | Non | Non | Non | Non |
@@ -66,23 +69,23 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | DistrictM | 02/03/2017 | Oui | Non | Non | Non |
 | DoubleVerify | 06/09/2017 | Oui | Non | Non | Non |
 | Drawbridge | 02/03/2017 | Non | Non | Non | Oui |
-| Photothèque (FKA Media6) | 02/03/2017 | Oui | Non | Non | Oui |
-| Conversant d'Epsilon | 03/03/2017 | Non | Non | Non | Non |
-| Exponentiel | 27/02/2017 | Oui | Non | Oui | Non |
+| Distribution (FKA Media6) | 02/03/2017 | Oui | Non | Non | Oui |
+| Conversant d&#39;épsilon | 03/03/2017 | Non | Non | Non | Non |
+| Exponentielle | 27/02/2017 | Oui | Non | Oui | Non |
 | Eyereturn Marketing | 11/04/2017 | Oui | Non | Non | Non |
 | EyeView Digital | 14/06/2018 | Oui | Non | Non | Oui |
 | Fiksu | 03/03/2017 | Oui | Non | Non | Oui |
-| Flammes | 02/03/2017 | Non | Non | Non | Non |
+| Flambant | 02/03/2017 | Non | Non | Non | Non |
 | FreakOut | 03/03/2017 | Oui | Non | Non | Non |
-| Roue libre | 27/02/2017 | Oui | Oui | Non | Oui |
+| roue libre | 27/02/2017 | Oui | Oui | Non | Oui |
 | Gamut Media | 03/03/2017 |  | Non | Non |  |
 | Affichage Google AdsWords | 02/08/2018 | Oui | Oui | Non | Oui |
-| Gestionnaire d'offres Google DoubleClick (DBM) | 24/04/2017 | Oui | Oui | Oui | Oui |
-| Gestionnaire de campagnes Google DoubleClick (DCM fka DFA) | 24/04/2017 | Oui | Oui | Oui | Oui |
+| Gestionnaire d&#39;offres Google DoubleClick (DBM) | 24/04/2017 | Oui | Oui | Oui | Oui |
+| Google DoubleClick Campaign Manager (DCM fka DFA) | 24/04/2017 | Oui | Oui | Oui | Oui |
 | Google DoubleClick for Publishers (DFP, DFPP) | 24/04/2017 | Oui | Oui | Oui | Oui |
 | GumGum | 02/06/2017 | Oui | Non | Non | Non |
-| Index Exchange (anciennement Casale Media) | 03/03/2017 | Oui | Non | Non | Non |
-| Média infectieux | 03/03/2017 | Oui | Non | Oui | Non |
+| Exchange d&#39;index (anciennement Casale Media) | 03/03/2017 | Oui | Non | Non | Non |
+| Médias infectieux | 03/03/2017 | Oui | Non | Oui | Non |
 | inMobi | 30/03/2017 | Oui | Non | Non | Oui |
 | Innovid | 02/03/2017 | Oui | Non | Non | Non |
 | iPinYou | 11/07/2017 | Non | Non | Non | Non |
@@ -97,7 +100,7 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | Lotame | 30/06/2017 | Oui | Non | Non | Oui |
 | MaxPoint Interactive | 27/02/2017 | Non | Non | Non | Non |
 | MediaMath | 27/02/2017 | Oui | Non | Non | Oui |
-| Annonces Bing Microsoft | 30/05/2017 | Oui | Oui | Oui | Non |
+| Annonces Microsoft Bing | 30/05/2017 | Oui | Oui | Oui | Non |
 | Médias du millénaire | 27/02/2017 | Non | Non | Non | Oui |
 | mPlatform China | 06/08/2018 | Oui | Non | Non | Oui |
 | E/S narratives | 12/01/2018 | Oui | Non | Non | Oui |
@@ -105,7 +108,7 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | Nativo | 27/02/2017 | Oui | Non | Non | Non |
 | Mail.ru | 29/04/2019 | Oui | Non | Non | Oui |
 | Professionnels de la téléphonie mobile | 25/05/2018 | Oui | Non | Non | Oui |
-| Netying | 02/03/2017 | Non | Non | Non | Non |
+| Netmining | 02/03/2017 | Non | Non | Non | Non |
 | Neustar | 28/03/2017 | Oui | Non | Non | Non |
 | OnAd | 13/02/2017 | Oui | Non | Oui | Non |
 | OneSpot | 19/06/2017 | Oui | Non | Non | Oui |
@@ -113,23 +116,23 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | Opera Mediaworks | 13/02/2017 | Oui | Non | Non | Oui |
 | Extérieur | 03/04/2017 | Oui | Non | Non | Non |
 | PropriétaireIQ | 13/02/2017 | Oui | Non | Oui | Non |
-| Plate-forme 161 | 28/11/2018 | Oui | Non | Non | Oui |
+| Plateforme 161 | 28/11/2018 | Oui | Non | Non | Oui |
 | PocketMath | 22/02/2017 | Oui | Non | Non | Oui |
 | Powerlinks | 17/05/2017 | Oui | Non | Non | Non |
 | Pubmatic | 13/02/2017 | Oui | Non | Non | Non |
 | Pulsepoint | 13/02/2017 | Oui | Non | Non | Non |
 | PushSpring | 28/08/2017 | Oui | Non | Non | Oui |
 | Quantcast | 13/02/2017 | Oui | Non | Non | Non |
-| RhythmOne / RadiumOne | 13/02/2017 | Oui | Non | Non | Oui |
-| Remerge | 31/05/2017 | Oui | Non | Oui | Oui |
-| Résistance | 17/02/2017 | Oui | Non | Non | Non |
+| RythmeOne / RadiumOne | 13/02/2017 | Oui | Non | Non | Oui |
+| Remerciement | 31/05/2017 | Oui | Non | Oui | Oui |
+| Résonance | 17/02/2017 | Oui | Non | Non | Non |
 | RevJet | 17/02/2017 | Non | Non | Non | Non |
 | RocketFuel | 17/02/2017 | Oui | Non | Oui | Oui |
 | Rubicon |  | Oui | Oui | Non |  |
 | EXÉCUTER | 17/02/2017 | Oui | Non | Non | Non |
 | Sabio Mobile | 17/02/2017 | Non | Non | Non | Oui |
 | Simpli.fi | 17/02/2017 | Non | Non | Non | Oui |
-| Sizmek Audience Hub | 17/02/2017 | Oui | Non | Non |  |
+| Centre d&#39;Audience de Sizmek | 17/02/2017 | Oui | Non | Non |  |
 | Slickdeal | 04/09/2018 | Oui | Non | Non | Oui |
 | Smart Adserver | 31/07/2017 | Oui | Non | Oui | Oui |
 | Logicad des réseaux de médias du réseau So-net |  | Oui | Non | Non |  |
@@ -137,7 +140,7 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | SpecificMedia | 03/03/2017 | Non | Non | Non | Non |
 | SpongeCell | 03/03/2017 | Oui | Non | Oui | Oui |
 | SpotX | 16/03/2018 | Non | Oui | Non | Oui |
-| Stroder | 03/03/2017 | Oui | Non | Non | Non |
+| Arborescence | 03/03/2017 | Oui | Non | Non | Non |
 | SundaySky | 03/03/2017 | Oui | Non | Oui | Non |
 | StartApp | 25/05/2018 | Oui | Non | Non | Oui |
 | Supership/ScaleOut | 03/03/2017 | Oui | Non | Non | Non |
@@ -148,11 +151,11 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | Systèmes télégraphiques | 03/03/2017 | Oui | Non | Non | Non |
 | Le bureau de commerce | 03/03/2017 | Oui | Oui | Oui | Oui |
 | Thnk Realtime | 05/02/2016 |  | Non | Non |  |
-| Vidéo Tremor | 03/03/2017 | Oui | Non | Non | Non |
+| Vidéo sur le tremblement de terre | 03/03/2017 | Oui | Non | Non | Non |
 | Effet élévateur triple | 03/03/2017 | Non | Oui | Non | Non |
 | TrueX | 11/01/2018 | Oui | Non | Non | Oui |
 | TubeMogul | 03/03/2017 | Oui | Non | Oui | Non |
-| Tourner / Amobee | 03/03/2027 | Non | Non | Non | Oui |
+| Tourner / Amobe | 03/03/2027 | Non | Non | Non | Oui |
 | Twenga | 29/10/2018 | Oui | Non | Non | Non |
 | Audiences personnalisées Twitter | 27/03/2017 | Oui | Non | Oui | Non |
 | Sous-ton | 11/07/2017 | Non | Non | Non | Non |
@@ -160,7 +163,7 @@ Cette page comprend uniquement les intégrations [](/help/using/features/destina
 | VideoAmp | 03/03/2017 | Non | Non | Non | Non |
 | Vidéologie | 03/03/2017 | Non | Non | Non | Non |
 | VisualIQ | 24/03/2017 | Oui | Non | Non | Non |
-| Utilisateur | 04/08/2018 | Oui | Non | Non | Oui |
+| Wikibuy | 04/08/2018 | Oui | Non | Non | Oui |
 | X+1 | 05/02/2016 |  | Non | Non |  |
 | Xaxis | 03/03/2017 | Oui | Non | Non | Non |
 | Yahoo DataX | 03/03/2017 | Oui | Oui | Oui | Oui |
