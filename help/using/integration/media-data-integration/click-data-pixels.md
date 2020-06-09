@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Capture des données des clics Campaign par le biais d’appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +20,7 @@ Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long d
 
 >[!NOTE]
 >
->Contactez votre responsable de compte ou votre consultant Adobe Audience Manager pour connaître l’URL exacte spécifique au domaine client.
+>Veuillez contacter votre gestionnaire d&#39;Audiences Adobe ou votre responsable de compte pour connaître l&#39;URL exacte spécifique au domaine client.
 
 ## Conditions
 
@@ -127,13 +130,13 @@ Cliquez sur événements pour prendre en charge les macros répertoriées dans l
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
+   <td colname="col02"> <p> <code>${gdpr}</code> </p> </td> 
    <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a> </p><p><code>gdpr</code> peut être 0 (le RGPD ne s'applique pas) ou 1 (le RGPD s'applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>, alors <code>%gdpr_consent%</code> est remplacé par la chaîne <code>gdpr_consent</code> (voir les <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">spécifications IAB</a>).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
+   <td colname="col02"> <p> <code>${gdpr_consent_XXXX}</code> </p> </td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p><p> Si <code>gdpr=1</code>vous le souhaitez, <code>${gdpr_consent_XXXX}</code> est remplacé par la <code>gdpr_consent</code> chaîne et l’identifiant du fournisseur (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>IAB).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p></td> 
   </tr> 
  </tbody> 
 </table>
