@@ -7,7 +7,10 @@ title: FAQ sur la collecte de données et l’intégration de produits
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +37,13 @@ Les caractéristiques embarquées via [!UICONTROL Inbound] sont renseignées de 
 
 <br> 
 
-**Pouvez-vous me fournir une liste d&#39;adresses IP que je peux mettre en liste blanche pour dpm.demdex.net ?**
+**Pouvez-vous me fournir une liste d’adresses IP que je peux ajouter à une liste autorisée pour dpm.demdex.net ?**
 
 Malheureusement, nous ne le pouvons pas. Ces adresses IP sont attribuées dynamiquement, par région géographique, par [!DNL Amazon Web Services]. Par conséquent, [!DNL Audience Manager] ne contrôle pas la plage d’adresses IP pouvant être attribuées à cette adresse.
 
 <br> 
 
-**Pouvez-vous me fournir une adresse IP que je peux mettre en liste blanche pour votre serveur sFTP entrant et sortant ?**
+**Pouvez-vous me fournir une adresse IP que je peux ajouter à une liste autorisée pour votre serveur sFTP entrant et sortant ?**
 
 Oui, voir ci-dessous.
 
@@ -146,7 +149,7 @@ Chaque fournisseur apporte quelque chose d&#39;unique à la table, donc la répo
 
 **Comment définir[!DNL Audience Manager]des cookies et transmettre des variables à DFP ?**
 
-[!DNL Audience Manager] définit 2 cookies : L’un envoie les variables de segment à la balise publicitaire DFP et l’autre définit notre identifiant utilisateur unique (UUID), également lu par la fonction DFP. L’ajout de l’UUID à la balise d’annonce permet de découvrir des rapports et des audiences au niveau de l’utilisateur.
+[!DNL Audience Manager] définit 2 cookies : L’un envoie les variables de segment à la balise publicitaire DFP et l’autre définit notre identifiant utilisateur unique (UUID), également lu par la fonction DFP. Ajouter l’identifiant UUID à la balise d’annonce signifie que nous pouvons effectuer la détection des rapports et des audiences au niveau de l’utilisateur.
 
 <br> 
 
