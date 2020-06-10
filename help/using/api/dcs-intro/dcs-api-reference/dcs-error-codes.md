@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Codes, messages et exemples d’erreur des serveurs de collecte de données
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -212,27 +212,27 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>ID client bloqué <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retourné lorsque l’identifiant du client a été identifié comme étant malveillant et a été blacklisté. </p> </td> 
+   <td colname="col3"> <p>Renvoyé lorsque l’identifiant du client a été identifié comme étant malveillant et a été ajouté à une liste de refus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>ID de source de données bloqué <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retourné lorsque l’identifiant de source de données a été identifié comme étant malveillant et a été blacklisté. </p> </td> 
+   <td colname="col3"> <p>Renvoyé lorsque l’identifiant de source de données a été identifié comme étant malveillant et a été ajouté à une liste de refus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID de périphérique déclaré bloqué <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'ID de périphérique a été identifié comme étant malveillant et a été blacklisté. Cela peut se produire lorsque nous recevons un nombre extrême de demandes <span class="wintitle"> DCS</span> contenant cet ID de périphérique en peu de temps. </p> </td>
+   <td colname="col3"> <p>L'ID de périphérique a été identifié comme étant malveillant et a été ajouté à une liste de refus. Cela peut se produire lorsque nous recevons un nombre extrême de demandes <span class="wintitle"> DCS</span> contenant cet ID de périphérique en peu de temps. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Opération de profil bloqué pour <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Une action de lecture/écriture a été bloquée car un identifiant a été identifié comme étant malveillant et a été blacklisté. Voir le code d’erreur 306. </p> </td> 
+   <td colname="col3"> <p>Une action de lecture/écriture a été bloquée car un identifiant a été identifié comme étant malveillant et a été ajouté à une liste de refus Voir code d'erreur 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
    <td colname="col2"> <p>L’ID de client <code><i>ID</i></code> a été ignoré car il dépassait la limite des identifiants de client déclarés par demande. </p> </td> 
-   <td colname="col3"> <p>Lié à l’erreur 301. Cette erreur indique l’ID de client qui a été ignoré car la limite a été dépassée. </p> <p>Par exemple, s’il y a 12 ID de client déclarés lors de l’appel <span class="wintitle"> DCS</span> , deux d’entre eux seront ignorés. Afin de relayer ceux qui ont été ignorés, cette erreur apparaîtra deux fois dans la réponse (une fois pour chaque ID de client ignoré ). </p> </td>
+   <td colname="col3"> <p>Lié à l’erreur 301. Cette erreur indique l’ID de client qui a été ignoré car la limite a été dépassée. </p> <p>Par exemple, s’il y a 12 ID de client déclarés lors de l’appel <span class="wintitle"> DCS</span> , deux d’entre eux seront ignorés. Afin de relayer ceux qui ont été ignorés, cette erreur apparaîtra deux fois dans la réponse (une fois pour chacun des ID de client ignorés). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
