@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
+source-git-commit: e51a4302808958093342170d513701ac1547c275
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Informations sur les exigences générales, l’authentification, les paramètre
 
 <!-- c_rest_api_overview.xml -->
 
-## Configuration requise pour l’API et recommandations {#api-requirements-recommendations}
+## Configuration requise et recommandations pour l’API {#api-requirements-recommendations}
 
 Ce que vous devez et devez faire lorsque vous travaillez avec les gestionnaires d’Audiences [!DNL API]s.
 
