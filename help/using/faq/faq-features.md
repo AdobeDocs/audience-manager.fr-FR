@@ -7,7 +7,10 @@ solution: Audience Manager
 title: FAQ sur les fonctionnalités et les fonctionnalités du produit
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 Questions et problèmes communs liés aux produits et aux fonctions.
 
-<br> 
+ 
 
 <!-- 
 
@@ -30,9 +33,9 @@ Il *`Organization ID`* s’agit d’un identifiant unique qui identifie votre or
 
 Par exemple, voici à quoi ressemble un *`Organization ID`* exemple : `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-L’ *`Organization ID`* interface est utilisée par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, le service [d’identité](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform et d’autres [!DNL Experience Cloud] solutions. Les utilisateurs dotés d’autorisations d’administrateur peuvent trouver le *`Organization ID`* sur le [!DNL Adobe Admin Console]. Voir la FAQ [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)Administration - Gestion des utilisateurs (en anglais).
+Elle *`Organization ID`* est utilisée par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, le service [d’identité](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform et d’autres [!DNL Experience Cloud] solutions. Les utilisateurs dotés d’autorisations d’administrateur peuvent trouver le *`Organization ID`* sur le [!DNL Adobe Admin Console]. Voir la FAQ [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)Administration - Gestion des utilisateurs (en anglais).
 
-<br> 
+ 
 
 **Puis-je créer des caractéristiques ou des destinations en vrac ?**
 
@@ -40,27 +43,33 @@ Oui. Voir Outils [de gestion](../reference/bulk-management-tools/bulk-management
 
 >[!NOTE]
 >
->Les [!UICONTROL Bulk Management Tools] outils ne *sont pas* pris en charge par [!DNL Audience Manager]le logiciel. Elles sont fournies pour commodité et uniquement à titre gracieux. Pour les modifications en masse, nous vous recommandons de travailler plutôt avec les API [](../api/api.md) Audience Manager.
+>Les [!UICONTROL Bulk Management Tools] outils ne *sont pas* pris en charge par [!DNL Audience Manager]le logiciel. Elles sont fournies pour commodité et uniquement à titre gracieux. Pour les modifications en masse, nous vous recommandons de travailler plutôt avec les API [d’](../api/api.md) Audience Manager.
 
-<br> 
+ 
+
+**Lors d’une exportation d’ID en vrac vers une destination, certains identifiants de client sont absents. Why does that happen?**
+
+Lorsqu’un ID de périphérique (UUID[](../reference/ids-in-aam.md)AAM) est lié à plusieurs ID de gestion de la relation client ([DPUUID](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’ID de périphérique exportés est peut-être inférieur à ce qui était prévu.
+
+ 
 
 **Peut-[!DNL Audience Manager]on réduire le besoin de balises tierces ou de pixels et améliorer les délais de chargement des pages ?**
 
 Si [!DNL Audience Manager] est intégré à votre partenaire de données tiers, vous pouvez remplacer leurs pixels et balises par un appel d’ID serveur à serveur [!DNL Audience Manager]. Dans ce cas, [!DNL Audience Manager] déclencherait un appel d’identifiant unique lors de la première consultation d’un utilisateur et synchroniserait ces informations avec votre partenaire tiers. Cela évite d’appeler plusieurs pixels à partir de chaque page. La réduction des appels de pixels peut améliorer les temps de chargement des pages.
 
-<br> 
+ 
 
 **Je me suis abonné à un flux de données. Où sont stockées ces données ?**
 
 Votre flux de données et toutes les caractéristiques qu’il contient apparaissent sous la forme de sous-dossiers et de caractéristiques dans [!DNL Audience Manager]. Accédez à **[!UICONTROL Audience Data > Traits]** et développez le [!UICONTROL 3rd-Party Data] dossier pour vue vos caractéristiques ou créez des segments et des modèles à l’aide de ces données.
 
-<br> 
+ 
 
 **Qu’est-ce que[!UICONTROL Tag Insertion Manager (TIM)]?**
 
 Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
-<br> 
+ 
 
 **Quelles sont les différences entre les modèles algorithmiques et les recommandations de caractéristiques ? Quand dois-je les utiliser ?**
 
@@ -82,7 +91,7 @@ Vous devez utiliser les recommandations de caractéristiques lorsque :
 * Vous utilisez les segments pour les campagnes courtes ou lorsque vous souhaitez supprimer rapidement les audiences qui convertissent ;
 * Vous essayez de maximiser la portée.
 
-<br> 
+ 
 
 **Existe-t-il une différence entre les segments Adobe Analytics et Audience Manager ?**
 
