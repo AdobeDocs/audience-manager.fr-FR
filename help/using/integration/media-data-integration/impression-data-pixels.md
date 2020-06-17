@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 20%
@@ -111,7 +111,7 @@ Les appels de événement d’impression acceptent les données formées en pair
 >
 >Veuillez contacter votre conseiller d&#39;Adobe Audience Manager ou votre responsable de compte pour connaître l&#39;URL exacte propre au domaine client.
 
-## Autres fonctionnalités - [!DNL Audience Optimization Reports]
+## Autres fonctionnalités - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
 Vous pouvez utiliser des appels en pixels pour alimenter les rapports [Optimisation des](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences. Voir [Aperçu et mappages des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
