@@ -1,14 +1,14 @@
 ---
-description: L’une des méthodes d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
-seo-description: L’une des méthodes d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
+description: L’une des méthodes d’envoi de données multimédias à l’Audience Manager utilise des macros de serveur publicitaire pour envoyer des attributs de campagne à l’Audience Manager.
+seo-description: L’une des méthodes d’envoi de données multimédias à l’Audience Manager utilise des macros de serveur publicitaire pour envoyer des attributs de campagne à l’Audience Manager.
 seo-title: Capture des données d’impression de campagne via des appels de pixel
 solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 20%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 20%
 
 # Capture des données d’impression de campagne via des appels de pixel{#capturing-campaign-impression-data-via-pixel-calls}
 
-L’une des méthodes d’envoi de données multimédias à Audience Manager utilise des macros de serveur d’annonces pour envoyer des attributs de campagne à Audience Manager.
+L’une des méthodes d’envoi de données multimédias à l’Audience Manager utilise des macros de serveur publicitaire pour envoyer des attributs de campagne à l’Audience Manager.
 
 Cette méthodologie est souvent appelée &quot;pixellisation de la création&quot;. Ces points de données sont insérés dynamiquement dans le code de [!DNL Audience Manager] pixel par les macros du serveur publicitaire tiers, qui sont utilisées pour mapper et rapporter toutes les impressions et clics en fonction des attributs de rapports clés de la campagne. Les données agrégées fournissent une vue unifiée des performances des campagnes, aident à identifier les chemins de conversion personnalisés et aident les clients à améliorer la séquence de événements de serveur d’annonces qui conduisent à des conversions.
 
@@ -62,7 +62,7 @@ Les appels de événement d’impression acceptent les données formées en pair
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Valeur de blocage du cache. <span class="keyword"> Audience Manager envoie </span> automatiquement les en-têtes de contrôle du cache qui sont respectés par la plupart des navigateurs et des serveurs proxy. Si vous souhaitez exécuter une autre opération de contournement du cache, incluez ce paramètre dans un appel de événement, suivi d’une chaîne aléatoire. </p> <p> Facultatif. </p> </td> 
+   <td colname="col2"> <p>Valeur de blocage du cache. <span class="keyword"> L’Audience Manager </span> envoie automatiquement des en-têtes de contrôle du cache qui sont respectés par la plupart des navigateurs et des serveurs proxy. Si vous souhaitez exécuter une autre opération de contournement du cache, incluez ce paramètre dans un appel de événement, suivi d’une chaîne aléatoire. </p> <p> Facultatif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
@@ -109,9 +109,9 @@ Les appels de événement d’impression acceptent les données formées en pair
 
 >[!NOTE]
 >
->Veuillez contacter votre gestionnaire d&#39;Audiences Adobe ou votre responsable de compte pour connaître l&#39;URL exacte spécifique au domaine client.
+>Veuillez contacter votre conseiller d&#39;Adobe Audience Manager ou votre responsable de compte pour connaître l&#39;URL exacte propre au domaine client.
 
-## Autres fonctionnalités - Rapports d&#39;optimisation des Audiences
+## Autres fonctionnalités - [!DNL Audience Optimization Reports]
 
 Vous pouvez utiliser des appels en pixels pour alimenter les rapports [Optimisation des](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences. Voir [Aperçu et mappages des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
