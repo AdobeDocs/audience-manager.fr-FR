@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Capture des données des clics Campaign par le biais d’appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '657'
 ht-degree: 7%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte [des](/help/using/integration/media-data-integration/impression-data-pixels.md)impressions, un appel de événement est envoyé aux serveurs de collecte de données d’Audience Manager ([!UICONTROL DCS]) pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
+Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte [](/help/using/integration/media-data-integration/impression-data-pixels.md)d’impressions, un appel de événement est envoyé aux serveurs de collecte de données d’Audience Manager ([!DNL DCS]) pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
 
 >[!NOTE]
 >
->Veuillez contacter votre gestionnaire d&#39;Audiences Adobe ou votre responsable de compte pour connaître l&#39;URL exacte spécifique au domaine client.
+>Veuillez contacter votre [!DNL Audience Manager] consultant ou votre responsable de compte pour connaître le [!DNL URL] domaine du client.
 
 ## Conditions
 
@@ -121,7 +121,7 @@ Cliquez sur événements pour prendre en charge les macros répertoriées dans l
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID de la source d’où Audience Manager extrait les métadonnées. </p> <p>Obligatoire. </p> </td> 
+   <td colname="col2"> <p>DPID de la source d’où l’Audience Manager extrait les métadonnées. </p> <p>Obligatoire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
