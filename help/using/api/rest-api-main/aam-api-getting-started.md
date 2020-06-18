@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Le [!DNL Audience Manager][!DNL REST APIs] prend en charge deux méthodes d’au
 >
 >Selon votre méthode d’authentification, vous devez ajuster votre requête [!DNL URLs] en conséquence. Consultez la section [Environnements](#environments) pour plus d’informations sur les noms d’hôtes à utiliser.
 
-## Authentification JWT (Service Account) {#jwt}
+## Authentification JWT ([!DNL Service Account]) {#jwt}
 
 ### Conditions préalables {#prerequisites}
 
@@ -278,14 +278,14 @@ De nouvelles versions de ces [!DNL API]logiciels sont publiées régulièrement.
 
 | ID de code de réponse | Texte de la réponse | Définition |
 |---|---|---|
-| 200 | `OK` | La demande a été traitée avec succès. Renverra le contenu ou les données attendus si nécessaire. |
-| 201 | `Created` | La ressource a été créée. Renvoie pour `PUT` et `POST` les requêtes. |
-| 204 | `No Content` | La ressource a été supprimée. Le corps de la réponse sera vide. |
-| 400 | `Bad Request` | Le serveur n&#39;a pas compris la demande. Généralement en raison d’une syntaxe incorrecte. Vérifiez votre demande et réessayez. |
-| 403 | `Forbidden` | Vous n&#39;avez pas accès à la ressource. |
-| 404 | `Not Found` | Impossible de trouver la ressource pour le chemin spécifié. |
-| 409 | `Conflict` | Impossible de terminer la demande en raison d&#39;un conflit avec l&#39;état de la ressource. |
-| 500 | `Server Error` | Le serveur a rencontré une erreur inattendue qui l&#39;a empêchée de répondre à la demande. |
+| `200` | `OK` | La demande a été traitée avec succès. Renverra le contenu ou les données attendus si nécessaire. |
+| `201` | `Created` | La ressource a été créée. Renvoie pour `PUT` et `POST` les requêtes. |
+| `204` | `No Content` | La ressource a été supprimée. Le corps de la réponse sera vide. |
+| `400` | `Bad Request` | Le serveur n&#39;a pas compris la demande. Généralement en raison d’une syntaxe incorrecte. Vérifiez votre demande et réessayez. |
+| `403` | `Forbidden` | Vous n&#39;avez pas accès à la ressource. |
+| `404` | `Not Found` | Impossible de trouver la ressource pour le chemin spécifié. |
+| `409` | `Conflict` | Impossible de terminer la demande en raison d&#39;un conflit avec l&#39;état de la ressource. |
+| `500` | `Server Error` | Le serveur a rencontré une erreur inattendue qui l&#39;a empêchée de répondre à la demande. |
 
 >[!MORELIKETHIS]
 >
