@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Codes, messages et exemples d’erreur des serveurs de collecte de données
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 4%
+source-wordcount: '1509'
+ht-degree: 3%
 
 ---
 
@@ -22,76 +22,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Codes d&#39;erreur système {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID de code </th> 
-   <th colname="col2" class="entry"> Message d’erreur </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Erreur non spécifiée </p> </td> 
-   <td colname="col3"> <p>Il s’agit d’une erreur fourre-tout qui gère les événements qui ne sont pas couverts par les autres gestionnaires d’erreurs. La résolution de cette erreur est difficile. Elle peut être causée par une variété d'actions ou de événements inconnus. </p> <p>Si vous recevez cette erreur, essayez de relancer votre demande <span class="wintitle"> DCS</span> . Contactez votre représentant Adobe si le problème persiste. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Impossible de trouver la configuration du nom d'hôte : <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>Le nom d'hôte envoyé dans la demande n'a pas été configuré par notre équipe de mise en service partenaire. Contactez votre représentant Adobe si ce message d’erreur s’affiche. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valeur non valide ( <code> d_orgid</code> impossible de trouver une configuration pour cet ID d'organisation) : <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'ID d'organisation est incorrect. </p> <p>Vérifiez votre ID et réessayez. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, consultez la section "Page d’administration" dans <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organisations et liens</a> de compte pour savoir comment le trouver. </p> </td> 
-  </tr>
- </tbody>
-</table>
+|Code d&#39;erreur|Message d&#39;erreur|Description|
+|—|—|—|
+|0|Erreur non spécifiée|Il s&#39;agit d&#39;une erreur fourre-tout qui traite les événements qui ne sont pas couverts par les autres gestionnaires d&#39;erreurs. La résolution de cette erreur est difficile. Elle peut être causée par une variété d&#39;actions ou de événements inconnus. Si vous recevez cette erreur, réessayez votre [!DNL DCS] demande. Contactez votre [!DNL Adobe] représentant si le problème persiste.|
+|1|Impossible de trouver la configuration du nom d&#39;hôte : `hostname`|Le nom d&#39;hôte envoyé dans la demande n&#39;a pas été configuré par notre équipe de mise en service partenaire. Contactez votre [!DNL Adobe] représentant si ce message d’erreur s’affiche.|
+|2|Valeur non `d_orgid` valide (impossible de trouver une configuration pour cet ID d&#39;organisation) : `ID`|L&#39;ID d&#39;organisation est incorrect. Vérifiez votre ID et réessayez. Si vous ne connaissez pas ou ne possédez pas votre ID d&#39;organisation, consultez la section &quot;Page d&#39;administration&quot; [Organisations et liens](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) de compte pour en savoir plus sur la manière de le trouver.|
 
 ## Codes d’erreur d’intégration {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID de code </th> 
-   <th colname="col2" class="entry"> Message </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>Impossible de récupérer le nom d'hôte pour la demande </p> </td> 
-   <td colname="col3"> <p>Un appel d’API n’envoyait pas l’en-tête HTTP hôte dans la requête. </p> <p>Ajoutez l’en-tête d’hôte à l’appel, puis réessayez. Notez que la plupart des navigateurs et des clients d’API le font automatiquement. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>ID d'Experience Cloud non valide transmis <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'appel <span class="wintitle"> DCS</span> contient un ID d' <span class="keyword"> Experience Cloud</span> non valide. </p> <p>Vérifiez la paire <code> d_mid=</code> clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre l’ID <span class="keyword"> d’Experience Cloud</span> correct et réessayez la demande. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>ID aam non valide transmis dans la demande <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'appel <span class="wintitle"> DCS</span> contient un ID d'Audience Manager <span class="keyword"></span> non valide. </p> <p>Vérifiez la paire <code> d_uuid=</code> clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre l’ID d’ <span class="keyword"> Audience Manager</span> correct et réessayez la requête. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Tous les identifiants de client ne sont pas valides </p> </td> 
-   <td colname="col3"> <p>Tous les ID de client de votre appel ne sont pas valides. Vérifiez vos identifiants et réessayez. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>Le référent <code>HTTP referer</code> n'est pas autorisé pour le partenaire <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>L' <code>HTTP referer</code> en-tête de l'appel n'est pas autorisé pour l'ID de partenaire de l'appel. Vérifiez que l’ <code>HTTP referer</code> en-tête est correct.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Jeton <span class="wintitle"> IMS</span> non valide reçu </p> </td> 
-   <td colname="col3"> <p>Retour pour les intégrations Audience Manager - Adobe Target. L'erreur est générée lorsqu'un appel est lancé au serveur de collecte de données, contenant un jeton IMS non valide. Le jeton peut être mal formé, expiré ou l'utilisateur peut ne pas être autorisé à accéder à la ressource requise. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Code d&#39;erreur|Message d&#39;erreur|Description|
+|—|—|—|
+|100|Impossible de récupérer le nom d&#39;hôte pour la requête|Un [!DNL API] appel n&#39;a pas envoyé l&#39;en-tête d&#39;hôte [!DNL HTTP] dans la requête. Ajoutez l’en-tête hôte sur l’appel, puis réessayez. La plupart des navigateurs et [!DNL API] des clients effectuent cette opération automatiquement. |
+|101|ID [!DNL Experience Cloud] non valide transmis `ID`|L&#39; [!DNL DCS] appel contient un [!DNL Experience Cloud] ID non valide. Vérifiez la paire `d_mid=` clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre l’ [!DNL Experience Cloud] identifiant correct et réessayez la demande. |
+|102|Non valide [!DNL AAM ID] transmis dans la requête `ID`|L&#39; [!DNL DCS] appel contient un [!DNL Audience Manager] ID non valide. Vérifiez la paire `d_uuid=` clé-valeur dans la chaîne d’en-tête. Assurez-vous de transmettre l’ [!DNL Audience Manager] identifiant correct et réessayez la demande. |
+|104|Tous les ID de client ne sont pas valides | Tous les ID de client de votre appel ne sont pas valides. Vérifiez vos identifiants et réessayez.|
+|109|Le référent `HTTP referer` n&#39;est pas autorisé pour le partenaire `Partner ID`|L&#39; `HTTP referer` en-tête de l&#39;appel n&#39;est pas autorisé pour l&#39;ID de partenaire de l&#39;appel. Vérifiez que l’ `HTTP referer` en-tête est correct.|
+|111|Jeton `IMS` non valide reçu|Renvoyé pour [!DNL Audience Manager] - [!DNL Adobe Target] intégrations. L&#39;erreur est générée lorsqu&#39;un appel est lancé vers le [!DNL DCS], contenant un [!DNL IMS] jeton non valide. Le jeton peut être mal formé, expiré ou l&#39;utilisateur peut ne pas être autorisé à accéder à la ressource requise.|
 
 ## Codes d&#39;erreur d&#39;exclusion {#opt-out-error-codes}
 
