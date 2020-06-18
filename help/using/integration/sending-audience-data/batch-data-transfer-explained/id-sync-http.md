@@ -1,39 +1,42 @@
 ---
-description: Décrit la syntaxe et les paramètres utilisés dans l’appel HTTP initial pour synchroniser les ID utilisateur entre un fournisseur et Audience Manager. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à Audience Manager.
-seo-description: Décrit la syntaxe et les paramètres utilisés dans l’appel HTTP initial pour synchroniser les ID utilisateur entre un fournisseur et Audience Manager. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à Audience Manager.
+description: Décrit la syntaxe et les paramètres utilisés dans l’appel HTTP initial pour synchroniser les ID utilisateur entre un fournisseur et une Audience Manager. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à l’Audience Manager.
+seo-description: Décrit la syntaxe et les paramètres utilisés dans l’appel HTTP initial pour synchroniser les ID utilisateur entre un fournisseur et une Audience Manager. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à l’Audience Manager.
 seo-title: Synchronisation des identifiants pour les transferts de données entrants
 solution: Audience Manager
 title: Synchronisation des identifiants pour les transferts de données entrants
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
 
 # Synchronisation des identifiants pour les transferts de données entrants{#id-synchronization-for-inbound-data-transfers}
 
-Décrit la syntaxe et les paramètres utilisés dans l’ `HTTP` appel initial pour synchroniser les ID utilisateur entre un fournisseur et Audience Manager. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à Audience Manager.
+Décrit la syntaxe et les paramètres utilisés dans l’ `HTTP` appel initial pour synchroniser les ID utilisateur entre un fournisseur et [!DNL Audience Manager]. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à [!DNL Audience Manager].
 
 <!-- c_id_sync_in.xml -->
 
-La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones et entrantes. Au cours de cette étape, Audience Manager et le fournisseur comparent les identifiants des visiteurs de leur site respectifs et les font correspondre. Par exemple, un [!DNL Audience Manager] client peut connaître un utilisateur à l’aide de l’ID 123. Toutefois, votre partenaire de données peut identifier cet utilisateur avec l’ID 456. Le processus de synchronisation permet [!DNL Audience Manager] et à un fournisseur de données de concilier ces différents ID et d’identifier les utilisateurs dans leurs systèmes respectifs. Une fois terminé, [!DNL Audience Manager] et votre partenaire tiers doivent avoir les identifiants correspondants pour chaque utilisateur unique affiché sur nos réseaux.
+La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones et entrants. Au cours de cette étape, [!DNL Audience Manager] et le fournisseur comparent les ID de leurs visiteurs de site respectifs et les font correspondre. Par exemple, un [!DNL Audience Manager] client peut connaître un utilisateur par ID 123. Toutefois, votre partenaire de données peut identifier cet utilisateur avec l’ID 456. Le processus de synchronisation permet [!DNL Audience Manager] à un fournisseur de données de concilier ces différents identifiants et d’identifier les utilisateurs dans leurs systèmes respectifs. Une fois terminé, [!DNL Audience Manager] et votre partenaire tiers doivent avoir les identifiants correspondants pour chaque utilisateur unique affiché sur nos réseaux.
 
-Vous pouvez utiliser les méthodes suivantes pour récupérer vos données [!DNL Audience Manager]:
+Vous pouvez utiliser les méthodes suivantes pour obtenir vos données dans [!DNL Audience Manager]:
 
 * [Demande HTTP de synchronisation des identifiants](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
-* [Evénement d’identifiant déclaré](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
+* [Événement d’ID déclaré](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
 * [Synchronisation des identifiants à partir d’une image incorporée par courrier électronique](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## Demande de synchronisation des identifiants `HTTP`{#id-sync-http}
+## Demande de synchronisation des identifiants `HTTP` {#id-sync-http}
 
-Dans un échange d’ID, une [!DNL URL] chaîne correctement formatée doit se présenter comme suit :
+Dans un échange d’ID, une [!DNL URL] chaîne correctement formatée doit ressembler à ceci :
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-L’appel [!DNL URL] de synchronisation des identifiants entrants doit contenir les variables décrites dans le tableau ci-dessous.
+L&#39;appel [!DNL URL] de synchronisation des identifiants entrants doit contenir les variables décrites dans le tableau ci-dessous.
 
 >[!NOTE]
 >
@@ -49,34 +52,34 @@ L’appel [!DNL URL] de synchronisation des identifiants entrants doit contenir 
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Identifiant unique du fournisseur de contenu (attribué par <span class="keyword"> Audience Manager</span>). </p> </td> 
+   <td colname="col2"> <p>ID unique du fournisseur de contenu (attribué par <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Représentation codée URL (pourcentage) de votre ID utilisateur unique. Outre le codage des caractères ASCII réservés, les caractères non ASCII doivent être codés en pourcentage selon la table de codage des caractères UTF-8. </p> <p>Pour plus d'informations, consultez le site Web <a href="https://www.url-encode-decode.com" format="http" scope="external"> Encode/décoder en ligne</a> . </p> </td> 
+   <td colname="col2"> <p>Représentation codée URL (pourcentage) de votre ID utilisateur unique. Outre le codage des caractères ASCII réservés, les caractères non ASCII doivent être codés en pourcentage selon la table de codage des caractères UTF-8. </p> <p>Pour plus d'informations, consultez le site Web <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Redirection d’URL codée avec la macro <code> ${DD_UUID}</code> intégrée. </p> <p>Remarque :  Ajouté uniquement lorsque le fournisseur de contenu lance l’appel. </p> </td> 
+   <td colname="col2"> <p>Redirection d’URL codée avec la macro <code> ${DD_UUID}</code> incorporée. </p> <p>Remarque :  Ajouté uniquement lorsque le fournisseur de contenu lance l’appel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le module externe <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code> gdpr</code> peut être 0 (le RGMD ne s’applique pas) ou 1 (le RGMD s’applique). </p> <p> <b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le plug-in <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code> gdpr</code> peut être 0 (le RGPD ne s'applique pas) ou 1 (le RGPD s'applique). </p> <p> <b>Remarque :</b> Ce paramètre ne peut être utilisé qu'avec <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le module externe <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code>gdpr_consent</code> est la chaîne de consentement du RDDC codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB</a>). </p> <p> <b></b> Remarque : Ce paramètre ne peut être utilisé qu’avec <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Facultatif. Ajoutez ce paramètre si vous utilisez le plug-in <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour IAB TCF.</a></p> <p><code>gdpr_consent</code> est la chaîne de consentement GDPR codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB). </p> <p> <b>Remarque :</b> Ce paramètre ne peut être utilisé qu'avec <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Evénement d’identifiant déclaré {#declared-id-event}
+## Événement d’ID déclaré {#declared-id-event}
 
-Pour plus d’informations, voir ID [déclarés](../../../features/declared-ids.md).
+Pour plus d’informations, voir Identifiants [](../../../features/declared-ids.md)déclarés.
 
 ## Synchronisation des identifiants à partir d’une image incorporée par courrier électronique {#id-sync-email-image}
 
-Le format des ID correspondants par le biais d’une image de courrier électronique est identique à celui illustré ci-dessus. Notez toutefois que les images d’un courrier électronique doivent être activées pour que cela fonctionne. Cela peut avoir une incidence sur la synchronisation des identifiants par courrier électronique, car la plupart des systèmes de messagerie désactivent les images par défaut.
+Le format des identifiants correspondants par le biais d’une image de courrier électronique est identique à celui illustré ci-dessus. Notez toutefois que les images d’un courrier électronique doivent être activées pour que cela fonctionne. Cela peut avoir une incidence sur la synchronisation des identifiants par courrier électronique, car la plupart des systèmes de messagerie désactivent les images par défaut.
 
 >[!MORELIKETHIS]
 >
