@@ -1,25 +1,28 @@
 ---
-description: Pour plus d’informations sur la façon de demander une réponse DCS dans un appel /event, consultez la section suivante. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
-seo-description: Pour plus d’informations sur la façon de demander une réponse DCS dans un appel /event, consultez la section suivante. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
-seo-title: Recevoir des données du serveur de collecte de données
+description: Pour plus d'informations sur la façon de demander une réponse DCS dans un appel /événement, consultez la section. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
+seo-description: Pour plus d'informations sur la façon de demander une réponse DCS dans un appel /événement, consultez la section. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
+seo-title: Recevoir les données du serveur de collecte de données
 solution: Audience Manager
-title: Recevoir des données du serveur de collecte de données
+title: Recevoir les données du serveur de collecte de données
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
 
-# Recevoir des données du serveur de collecte de données {#receive-data-from-the-dcs}
+# Recevoir les données du serveur de collecte de données {#receive-data-from-the-dcs}
 
-Pour plus d'informations sur la façon de demander une [!UICONTROL DCS] réponse dans un `/event` appel, consultez la section. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
+Pour plus d&#39;informations sur la façon de demander une [!DNL DCS] réponse dans un `/event` appel, consultez la rubrique ici. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
 
-Avant de consulter ce contenu, voir [Envoyer des données au serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
+Avant de passer en revue ce contenu, voir [Envoyer des données au serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
 
 ## Paramètres de réponse DCS : Une révision {#dcs-response-parameters}
 
-Votre [!UICONTROL DCS] requête doit inclure `d_rtbd=json` si vous souhaitez recevoir une réponse de la [!UICONTROL DCS]. L’opérateur ne [!UICONTROL DCS] renvoie aucune donnée si vous omettez ce paramètre. Un appel de base à [!UICONTROL DCS] demander des données utilise la syntaxe suivante :
+Votre [!DNL DCS] demande doit inclure `d_rtbd=json` si vous souhaitez recevoir une réponse de la part de [!DNL DCS]. Le n&#39; [!DNL DCS] affichera pas de données si vous omettez ce paramètre. Un appel de base à la [!DNL DCS] demande de données utilise la syntaxe suivante :
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -27,11 +30,11 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## Exemple de réponse {#sample-response}
 
-Rappelez-vous que depuis la documentation [Send Data to DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) , la société fictive [!DNL Acme, Inc.] a passé cet appel :
+Rappelez-vous que, depuis la documentation [Envoyer les données au serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) , la société fictive [!DNL Acme, Inc.] a lancé cet appel :
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-Comme cet appel inclut le paramètre de réponse requis, l’ [!UICONTROL DCS] objet [!DNL JSON] renvoyé est illustré ci-dessous. Le vôtre peut être similaire ou plus complexe.
+Comme cet appel inclut le paramètre de réponse requis, l’objet [!DNL DCS] renvoyé est l’ [!DNL JSON] objet illustré ci-dessous. Les vôtres peuvent être semblables ou plus complexes.
 
 ```js
 {
@@ -44,20 +47,20 @@ Comme cet appel inclut le paramètre de réponse requis, l’ [!UICONTROL DCS] o
 
 ## Paramètres de réponse {#response-parameters}
 
-Le tableau ci-dessous répertorie et définit les paramètres les plus courants que vous pouvez voir dans une réponse de la [!UICONTROL DCS]. Cela s’applique aux appels d’événement ou à d’autres [!UICONTROL DCS] requêtes [!DNL API] qui renvoient des données.
+Le tableau ci-dessous liste et définit les paramètres les plus courants que vous pouvez voir dans une réponse du [!DNL DCS]. Ceci s’applique aux appels de événement ou à d’autres [!DNL DCS][!DNL API] requêtes qui renvoient des données.
 
 | Paramètre | Description |
 |--- |--- |
-| `c` | URL définie comme destination [de l’](../../../features/destinations/create-url-destination.md)URL. |
+| `c` | URL définie comme destination [](../../../features/destinations/create-url-destination.md)URL. |
 | `cn` | Nom ou ID défini dans le champ Nom du cookie d’une destination [de](../../../features/destinations/create-cookie-destination.md)cookie. |
-| `cv` | Valeurs envoyées à la destination définie par le paramètre "cn":" nom de destination. |
+| `cv` | Les valeurs envoyées à la destination définie par le paramètre &quot;cn&quot;:&quot; nom de destination. |
 | `dcs_region` | Appels [DCS](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)serveur à serveur. |
 | `dests` | Cet objet contient des informations pour toutes les destinations URL configurées dans l’interface utilisateur. La liste de cet objet est dynamique en fonction des actions de l’utilisateur. |
-| `dmn` | Domaine spécifié dans le champ Domaine du cookie pour une destination de cookie. Voir Paramètres [facultatifs pour les destinations](../../../features/destinations/cookie-destination-options.md)des cookies.  Pour les intégrations serveur à serveur, nous vous recommandons d’utiliser un domaine comme `aam-api.com`. |
+| `dmn` | Il s’agit du domaine spécifié dans le champ Domaine du cookie pour une destination de cookie. Voir Paramètres [facultatifs pour les destinations](../../../features/destinations/cookie-destination-options.md)de cookies.  Pour les intégrations serveur à serveur, nous vous recommandons d’utiliser un domaine comme `aam-api.com`. |
 | `e` | URL sécurisée définie dans une destination d’URL. |
 | `stuff` | Cet objet contient des informations pour toutes les destinations de cookie. La liste de cet objet est dynamique en fonction des actions de l’utilisateur. |
-| `tid` | ID de transaction, qui est un identifiant unique de 12 caractères utilisé à des fins de débogage. Chaque appel /event au serveur de collecte de données reçoit une notification à laquelle vous pouvez faire référence dans les demandes d’assistance pour obtenir une réponse plus rapide et plus efficace. |
-| `ttl` | Valeur du temps de vie du cookie en jours. |
+| `tid` | ID de transaction, qui est un identifiant unique de 12 caractères utilisé à des fins de débogage. Chaque appel /événement au serveur de collecte de données reçoit un appel que vous pouvez référencer dans les demandes d&#39;assistance pour obtenir une réponse plus rapide et plus efficace. |
+| `ttl` | Valeur de durée de vie du cookie en jours. |
 | `u` et `uuid` | ID utilisateur unique attribué par Audience Manager. Ceci est nécessaire si vous effectuez des appels [DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)serveur à serveur. |
 | `y` | Type de destination, iFrame (`iframe`) ou image (`img`). |
 
