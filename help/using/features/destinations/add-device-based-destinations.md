@@ -1,21 +1,21 @@
 ---
-description: Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur d’Audience Manager.
-seo-description: Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur d’Audience Manager.
-seo-title: Ajouter nouvelles destinations basées sur les dispositifs
+description: Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur de l’Audience Manager.
+seo-description: Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur de l’Audience Manager.
+seo-title: Ajouter de nouvelles destinations basées sur un périphérique
 solution: Audience Manager
-title: Ajouter nouvelles destinations basées sur les dispositifs
+title: Ajouter de nouvelles destinations basées sur un périphérique
 translation-type: tm+mt
-source-git-commit: 69fb3601ac9de300032abc8730a40c41abc12d97
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
 
 
-# Ajouter nouvelles destinations basées sur les dispositifs {#add-new-device-based-destinations}
+# Ajouter de nouvelles destinations basées sur un périphérique {#add-new-device-based-destinations}
 
-Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur d’Audience Manager.
+Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur de l’Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -23,23 +23,23 @@ Cet article explique comment configurer de nouvelles destinations basées sur un
 
 ## Aperçu {#overview}
 
-Le processus d’ajout d’une nouvelle destination basée sur un périphérique comprend deux étapes principales. Tout d’abord, vous devez configurer l’intégration entre Audience Manager et le partenaire de destination. Une fois que vous avez effectué cette opération, vous pouvez créer une nouvelle destination basée sur un périphérique.
+Le processus d’ajout d’une nouvelle destination basée sur un périphérique comprend deux étapes principales. Tout d&#39;abord, vous devez configurer l&#39;intégration entre l&#39;Audience Manager et le partenaire de destination. Une fois que vous avez effectué cette opération, vous pouvez créer une nouvelle destination basée sur un périphérique.
 
 ## Conditions préalables {#prerequisites}
 
-Lors de la création de la première destination basée sur un périphérique avec une plateforme intégrée, contactez le service de conseil ou le service à la clientèle d’Adobe pour activer la synchronisation des identifiants entre Audience Manager et la plate-forme intégrée pour votre compte. Ceci est nécessaire pour une synchronisation correcte entre Audience Manager et la plateforme de destination.
+Lors de la création de la première destination basée sur un périphérique avec une plateforme intégrée, contactez le service de conseil ou le service à la clientèle d’Adobe pour activer la synchronisation des identifiants entre l’Audience Manager et la plate-forme intégrée pour votre compte. Ceci est nécessaire pour une synchronisation correcte entre l’Audience Manager et la plateforme de destination.
 
-## Étape 1. Authentification avec une plateforme de destination {#step1}
+## Étape 1. Authentification avec une Platform de destination {#step1}
 
-Avant de pouvoir créer une destination basée sur un périphérique, vous devez configurer l’intégration entre Audience Manager et la plateforme de destination. Voici comment procéder :
+Avant de pouvoir créer une destination basée sur un périphérique, vous devez configurer l’intégration entre l’Audience Manager et la plateforme de destination. Voici comment procéder :
 
-1. Connectez-vous à votre compte Audience Manager et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
+1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
 1. Cliquez sur **[!DNL Add Account]**.
 1. Sélectionnez la plate-forme de destination avec laquelle vous souhaitez vous authentifier, puis cliquez sur **[!DNL Confirm]** pour la redirection vers la page d&#39;authentification de la plate-forme sélectionnée.
 
    ![plates-formes intégrées](assets/dbd-integrated-platforms.png)
 
-1. Une fois que vous êtes authentifié sur votre compte de plateforme de destination, vous êtes redirigé vers Audience Manager où vous devriez voir vos comptes d’annonceurs associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!DNL Confirm]**.
+1. Une fois que vous êtes authentifié sur votre compte de plateforme de destination, vous êtes redirigé vers l’Audience Manager où vous devriez voir les comptes publicitaires associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!DNL Confirm]**.
 
 ## Étape 2 : Créer une destination basée sur un périphérique {#step2}
 
@@ -49,7 +49,7 @@ Après avoir configuré l’intégration de la plateforme de destination, vous p
 >
 >Vous ne pouvez pas modifier le nom d’une destination existante basée sur un périphérique. Veillez à fournir un nom qui vous aidera à identifier correctement la destination.
 
-1. Connectez-vous à votre compte Audience Manager, accédez à **[!DNL Audience Data > Destinations]**, puis cliquez sur **[!DNL Create Destination]**.
+1. Connectez-vous à votre compte d’Audience Manager, accédez à **[!DNL Audience Data > Destinations]**, puis cliquez sur **[!DNL Create Destination]**.
 1. Dans la **[!DNL Basic Information]** section, entrez un **[!DNL Name]** et **[!DNL Description]** pour votre nouvelle destination, puis utilisez les paramètres de la liste ci-dessous :
 
    ![configuration](assets/dbd-new-basic.png)
