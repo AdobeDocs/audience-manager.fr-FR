@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Informations de base sur [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) les 
 
 <!-- cdf-intro.xml -->
 
-Un [!UICONTROL CDF] fichier contient les mêmes données qu’un appel de [!DNL Audience Manager] événement ( `/event`) envoie à nos serveurs. Cela inclut des données telles que les ID d’utilisateur, les ID de caractéristiques, les ID de segment et tous les autres paramètres capturés par un appel de événement. Les [!DNL Audience Manager] systèmes internes traitent les données de événement dans un [!UICONTROL CDF] fichier dont le contenu est organisé en champs qui s’affichent dans un ordre défini. [!DNL Audience Manager] essaie de générer [!UICONTROL CDF] des fichiers toutes les heures et de les stocker dans un compartiment sécurisé spécifique au client sur un [!DNL Amazon S3] serveur. Nous fournissons ces fichiers pour que vous puissiez travailler avec [!DNL Audience Manager] des données en dehors des limites imposées par notre interface utilisateur.
+Un [!UICONTROL CDF] fichier contient les mêmes données qu’un appel de [!DNL Audience Manager] événement (`/event`) envoie à nos serveurs. Cela inclut des données telles que les ID d’utilisateur, les ID de caractéristiques, les ID de segment et tous les autres paramètres capturés par un appel de événement. Les [!DNL Audience Manager] systèmes internes traitent les données de événement dans un [!UICONTROL CDF] fichier dont le contenu est organisé en champs qui s’affichent dans un ordre défini. [!DNL Audience Manager] essaie de générer [!UICONTROL CDF] des fichiers toutes les heures et de les stocker dans un compartiment sécurisé spécifique au client sur un [!DNL Amazon S3] serveur. Nous fournissons ces fichiers pour que vous puissiez travailler avec [!DNL Audience Manager] des données en dehors des limites imposées par notre interface utilisateur.
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ Un [!UICONTROL CDF] fichier comprend certains ou tous les champs définis ci-des
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Identifiant <span class="keyword"> Experience Cloud</span> (MID) affecté au visiteur de site. Voir aussi <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et Service</a>d’identité Adobe Experience Platform. </p> </td> 
+   <td colname="col3"> <p>Identifiant <span class="keyword"> Experience Cloud</span> (MID) attribué au visiteur du site. Voir aussi <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et Service</a>d’identité des Experience Platform Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -241,7 +244,7 @@ Le tableau suivant liste et définit les éléments d’un nom de [!UICONTROL CD
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>ID de processus interne <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>ID de processus d’ <span class="keyword"> Audience Manager</span> interne. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -373,8 +376,8 @@ Le tableau suivant fournit des détails supplémentaires sur les horodatages de 
 
 | Emplacement de l’horodatage | Description |
 |--- |--- |
-| Nom de fichier | L’horodatage du nom de fichier CDF marque l’heure à laquelle [!DNL Audience Manager] vous avez commencé à préparer votre fichier pour la diffusion. Cet horodatage est défini dans le fuseau horaire UTC. Il utilise le `hour=` paramètre, avec l’heure formatée comme une heure à 2 chiffres en notation à 24 heures. Cette heure peut être différente de l’heure de événement enregistrée dans le contenu du fichier. VENTILATIONLorsque vous travaillez avec des fichiers CDF, vous remarquerez parfois que votre compartiment S3 est vide pendant une heure donnée. Un compartiment vide peut signifier l’une des significations suivantes :<ul><li>Il n&#39;y a pas de données pour cette heure particulière. </li><li> Nos serveurs sont sous de lourdes charges et ne peuvent pas traiter les fichiers pendant une heure particulière. Lorsque le serveur récupère, il place les fichiers qui auraient dû être transférés dans un intervalle de temps antérieur dans un intervalle de temps avec une valeur d&#39;heure ultérieure. Par exemple, vous verrez ceci lorsqu&#39;un fichier qui aurait dû être dans la corbeille 17 heures apparaît dans la corbeille 18 heures (avec `hour=18` le nom de fichier). Dans ce cas, le serveur a probablement commencé à traiter votre fichier à l’heure 17, mais n’a pas pu le terminer dans cet intervalle. Au lieu de cela, le fichier est déplacé vers l’intervalle horaire suivant.</li></ul><br>**Important **: N’utilisez pas l’horodatage du nom de fichier pour regrouper les événements par heure. Si vous devez grouper par heure, utilisez l’`EventTime`horodatage dans le contenu du fichier. |
-| Contenu du fichier | L’horodatage du contenu du fichier CDF marque l’heure à laquelle les serveurs de collecte de données ont commencé à traiter le fichier. Cet horodatage est défini dans le fuseau horaire UTC. Il utilise le `EventTime` champ, avec l’heure *`yyyy-mm-dd hh:mm:ss`* formatée. Cette heure est proche de l’heure réelle du événement sur la page, mais elle peut être différente de l’indicateur d’heure dans le nom de fichier. <br> **Conseil**: Contrairement à l’ `hour=` horodatage du nom de fichier, vous pouvez utiliser `EventTime` pour regrouper les données par heure. |
+| Nom de fichier | L’horodatage du nom de votre [!DNL CDF] fichier marque l’heure à laquelle [!DNL Audience Manager] vous avez commencé à préparer votre fichier pour la diffusion. Cet horodatage est défini dans le [!DNL UTC] fuseau horaire. Il utilise le `hour=` paramètre, avec l’heure formatée comme une heure à 2 chiffres en notation à 24 heures. Cette heure peut être différente de l’heure de événement enregistrée dans le contenu du fichier. Lorsque vous travaillez avec [!DNL CDF] des fichiers, vous remarquerez parfois que votre [!DNL S3] compartiment est vide pendant une heure donnée. Un compartiment vide peut signifier l’une des significations suivantes :<ul><li>Il n&#39;y a pas de données pour cette heure particulière. </li><li> Nos serveurs sont sous de lourdes charges et ne peuvent pas traiter les fichiers pendant une heure particulière. Lorsque le serveur récupère, il place les fichiers qui auraient dû être transférés dans un intervalle de temps antérieur dans un intervalle de temps avec une valeur d&#39;heure ultérieure. Par exemple, vous verrez ceci lorsqu&#39;un fichier qui aurait dû être dans la corbeille 17 heures apparaît dans la corbeille 18 heures (avec `hour=18` le nom de fichier). Dans ce cas, le serveur a probablement commencé à traiter votre fichier à l’heure 17, mais n’a pas pu le terminer dans cet intervalle. Au lieu de cela, le fichier est déplacé vers l’intervalle horaire suivant.</li></ul><br>**Important **: N’utilisez pas l’horodatage du nom de fichier pour regrouper les événements par heure. Si vous devez grouper par heure, utilisez l’`EventTime`horodatage dans le contenu du fichier. |
+| Contenu du fichier | L’horodatage du contenu du [!DNL CDF] fichier marque l’heure à laquelle le [!DNL Data Collection Servers] traitement du fichier a commencé. Cet horodatage est défini dans le [!DNL UTC] fuseau horaire. Il utilise le `EventTime` champ, avec l’heure *`yyyy-mm-dd hh:mm:ss`* formatée. Cette heure est proche de l’heure réelle du événement sur la page, mais elle peut être différente de l’indicateur d’heure dans le nom de fichier. <br> **Conseil**: Contrairement à l’ `hour=` horodatage du nom de fichier, vous pouvez utiliser `EventTime` pour regrouper les données par heure. |
 
 >[!MORELIKETHIS]
 >
