@@ -5,9 +5,9 @@ seo-title: Présentation et cas d’utilisation des destinations basées sur les
 solution: Audience Manager
 title: Présentation et cas d’utilisation
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Vous pouvez les utiliser [!DNL People-Based Destinations] pour segmenter et cibl
 
 [!DNL People-Based Destinations] est une intégration d’Audiences Manager de premier ordre. Veuillez contacter votre représentant Adobe pour profiter de cette fonctionnalité haut de gamme.
 
-## Pourquoi utiliser des destinations basées sur des personnes {#why-use}
+## Pourquoi utiliser [!UICONTROL People-Based Destinations] {#why-use}
 
 **Proposez à vos clients des expériences intercanaux cohérentes en gérant l’ensemble de la segmentation de vos audiences depuis l’Audience Manager.**
 
@@ -67,7 +67,7 @@ Regardez la vidéo ci-dessous pour obtenir un aperçu du flux de données lors d
 
 ## Cas d’utilisation {#use-cases}
 
-Pour vous aider à mieux comprendre comment et quand utiliser [!DNL People-Based Destinations]cette fonctionnalité, voici deux exemples de cas d&#39;utilisation que les clients d&#39;Audience Manager peuvent résoudre en utilisant cette fonction.
+Pour vous aider à mieux comprendre comment et quand utiliser [!DNL People-Based Destinations]cette fonctionnalité, voici deux exemples de cas d’utilisation que les clients d’Audience Manager peuvent résoudre en utilisant cette fonction.
 
 ### Use Case #1 {#use-case-1}
 
