@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossaire
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 3%
@@ -46,9 +46,9 @@ See [Customer Data Feeds](../features/cdf-files.md).
 
 **ID CRM**
 
-L’identifiant de gestion de la relation client est l’identifiant par lequel les clients identifient les utilisateurs dans leur propre système de gestion de la relation client. Au lieu de CRM ID, nous utilisons le terme DPUUID dans Audience Manager.
+L’identifiant de gestion de la relation client est l’identifiant par lequel les clients identifient les utilisateurs dans leur propre système de gestion de la relation client. Au lieu de CRM ID, nous utilisons le terme DPUUID en Audience Manager.
 
-Voir DPUUID dans l’ [index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
+Voir DPUUID dans l’ [index des identifiants en Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -115,7 +115,7 @@ Il [!UICONTROL Data Integration Library] s’agit d’une bibliothèque d’API 
 
 **Experience Cloud ID (ECID)**
 
-Précédemment nommé [!DNL Marketing Cloud] ID (MID ou MCID). L’ [!DNL Experience Cloud] ID est un élément central du service d’ID. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir Cookies et Service [d’identité de la plate-forme](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience Platform.
+Précédemment nommé [!DNL Marketing Cloud] ID (MID ou MCID). L’ [!DNL Experience Cloud] ID est un élément central du service d’ID. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir Cookies et Service [d’identité des](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobes Experience Platform.
 
 <br> 
 
@@ -166,7 +166,7 @@ Lorsque vous utilisez l’ [!DNL Audience Manager] interface utilisateur ou l’
 
 * [!UICONTROL Traits]: un code d’intégration est un champ pour un identifiant, un SKU ou toute autre valeur utilisée par vos processus métier internes. Facultatif.
 * [!UICONTROL Segments]: un code d’intégration est un champ destiné à un identifiant défini par l’utilisateur ou à d’autres informations spécifiques à une société. Facultatif.
-* [!UICONTROL Data Sources]: les codes d’intégration sont requis lorsque vous souhaitez créer des sources de données inter-périphériques, utiliser le service d’identité de la plateforme d’expérience Adobe ou travailler avec [!UICONTROL Profile Merge Rules]. Voir [Création d’une source](../features/manage-datasources.md#create-data-source) de données pour plus d’informations.
+* [!UICONTROL Data Sources]: les codes d&#39;intégration sont requis lorsque vous souhaitez créer des sources de données inter-périphériques, utiliser Adobe Experience Platform Identity Service ou travailler avec [!UICONTROL Profile Merge Rules]. Voir [Création d’une source](../features/manage-datasources.md#create-data-source) de données pour plus d’informations.
 
 ## K-L {#k-l}
 
@@ -178,13 +178,13 @@ Voir Modélisation [](../reference/aam-glossary.md#a-b)algorithmique.
 
 **MCID**, **MID**
 
-Voir l’ID [](../reference/aam-glossary.md#e-f)Experience Cloud.
+Voir l’ID [de l’](../reference/aam-glossary.md#e-f)Experience Cloud.
 
 ## O-P {#o-p}
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. La base de données [!UICONTROL PCS] est volumineuse, et s&#39;exécute sur Apache Cassandra. Il stocke les données reçues pour les utilisateurs actifs à partir des transferts serveur à serveur et du [!UICONTROL DCS]. [!UICONTROL PCS] les données se composent d’ID de périphérique, d’ID de profil authentifiés et de leurs caractéristiques associées.
+[!UICONTROL Profile Cache Server]. La base de données [!UICONTROL PCS] est volumineuse, et s&#39;exécute sur Apache Cassandra. Il stocke les données reçues pour les utilisateurs actifs à partir des transferts serveur à serveur et du [!DNL DCS]. [!UICONTROL PCS] les données se composent d’ID de périphérique, d’ID de profil authentifiés et de leurs caractéristiques associées.
 
 Voir Composants [de collecte de](../reference/system-components/components-data-collection.md)données.
 
@@ -220,7 +220,7 @@ Voir [Segments : Objectif, composition et règles](../features/segments/segments
 
 **Audience des segments adressables**
 
-Dans l’Audience [](/help/using/features/addressable-audiences.md)adressable, cette mesure représente le nombre d’utilisateurs qui ont appartenu au segment au cours de la période de recherche en arrière du rapport et qui disposent d’une synchronisation active des identifiants sur votre site. Les segments peuvent inclure vos propres données propriétaires et vos données propriétaires et tierces, au moyen de caractéristiques acquises dans le Marché des [Audiences](/help/using/features/audience-marketplace/audience-marketplace.md).
+Dans l’Audience [](/help/using/features/addressable-audiences.md)adressable, cette mesure représente le nombre d’utilisateurs qui ont appartenu au segment au cours de la période de recherche en arrière du rapport et qui disposent d’une synchronisation active des identifiants sur votre site. Les segments peuvent inclure vos propres données propriétaires et les données propriétaires et tierces, au moyen de caractéristiques acquises dans l’ [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 <br> 
 
@@ -272,7 +272,7 @@ TTL définit le nombre de jours qu’un visiteur qualifié reste dans une caract
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Consultez la documentation du service [d’identité de la plateforme](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Platform.
+Consultez la documentation [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## W-X-Y-Z {#w-z}
 
