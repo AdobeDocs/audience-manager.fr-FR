@@ -1,22 +1,25 @@
 ---
-description: Les API RESTful vous permettent de travailler par programmation avec Audience Manager.
-seo-description: Les API RESTful vous permettent de travailler par programmation avec Audience Manager.
+description: Les API RESTful vous permettent de travailler par programmation avec l'Audience Manager.
+seo-description: Les API RESTful vous permettent de travailler par programmation avec l'Audience Manager.
 seo-title: API REST
 solution: Audience Manager
 title: API REST
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 translation-type: tm+mt
-source-git-commit: 80d3001618211f76a2166b214a5b88a04ac07037
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
 
 # API REST {#rest-apis}
 
-[!UICONTROL RESTful APIs] vous permet de travailler par programmation avec Audience Manager.
+[!UICONTROL RESTful APIs] vous permet de travailler par programme avec [!DNL Audience Manager].
 
-Audience Manager [!DNL REST API] suit [!DNL JavaScript Object Notation] ( [JSON](https://www.json.org/)) les normes de formatage des données envoyées et reçues. L'un des principaux avantages de [!DNL JSON] cela est qu'il permet aux développeurs et aux machines d'écrire, de lire et d'analyser facilement [!DNL API] les requêtes.
+Le [!DNL Audience Manager] code [!DNL REST API] suivant [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) pour le formatage des données envoyées et reçues. L&#39;un des principaux avantages de [!DNL JSON] cette méthode est qu&#39;elle facilite [!DNL API] la rédaction, la lecture et l&#39;analyse des requêtes par les développeurs et les machines.
 
-Pour simplifier encore plus votre travail, nous migrons nos API REST vers [Swagger](https://swagger.io/solutions/api-documentation/). Pour plus d’informations, voir Migration [du code API d’](/help/using/api/api-swagger-migration.md)Audience Manager.
+Pour simplifier encore plus votre travail, nous migrons vers [!DNL REST APIs] Swagger [](https://swagger.io/solutions/api-documentation/). Pour plus d’informations, voir Migration [du code de l’API](/help/using/api/api-swagger-migration.md)d’Audience Manager.
 
-Passez en revue la documentation [Prise en main](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) avant d’utiliser les [!DNL API] méthodes d’Audience Manager.
+Consultez le [matériel de prise en main](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) avant d’utiliser les [!DNL Audience Manager][!DNL API] méthodes.
