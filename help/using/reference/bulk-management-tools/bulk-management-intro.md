@@ -7,14 +7,17 @@ solution: Audience Manager
 title: Prise En Main De La Gestion En Bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour travailler avec des sources de données, des signaux dérivés, des destinations, des dossiers, des modèles, des segments et des caractéristiques.
+Vous [!DNL Bulk Management Tools] permet de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser [!DNL Bulk Management Tools] pour travailler avec [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]et .[!UICONTROL traits]
 
 <!-- 
 
@@ -28,7 +31,7 @@ c_bulk_start.xml
 
 ## Aperçu {#overview}
 
-Cette fonctionnalité utilise une feuille de calcul Microsoft Excel avec des macros qui effectuent des appels sécurisés et authentifiés aux [!DNL Audience Manager] API. L’API fournit les méthodes et les services qui vous permettent d’apporter des modifications en bloc. Vous n&#39;avez pas besoin de savoir comment coder ou utiliser nos API pour l&#39;utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en masse spécifiques. Pour effectuer des modifications en masse, vous n&#39;avez qu&#39;à ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournir les informations que vous souhaitez modifier en bloc, puis cliquer sur un bouton d&#39;action. La feuille de calcul et les API font le reste du travail pour vous.
+Cette fonctionnalité utilise une [!DNL Microsoft Excel] feuille de calcul avec des macros qui effectuent des appels sécurisés et authentifiés aux [!DNL Audience Manager] API. L’API fournit les méthodes et les services qui vous permettent d’apporter des modifications en bloc. Vous n&#39;avez pas besoin de savoir comment coder ou utiliser nos API pour l&#39;utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en masse spécifiques. Pour effectuer des modifications en masse, vous n&#39;avez qu&#39;à ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournir les informations que vous souhaitez modifier en bloc, puis cliquer sur un bouton d&#39;action. La feuille de calcul et les API font le reste du travail pour vous.
 
 ## Téléchargement {#download}
 
@@ -40,7 +43,7 @@ Pour utiliser le [!DNL Bulk Management Tools]logiciel, vous devez disposer des �
 
 * Votre [!DNL Experience Cloud] connexion. En tant que client, vous devriez déjà disposer de ces informations d’identification.
 * La [!DNL Bulk Management Tools] feuille de calcul. [Téléchargez la feuille de calcul](assets/BAAAM_V2_20200502.xlsm) pour obtenir la dernière version.
-* Microsoft Excel s&#39;exécutant sur [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Nous vous recommandons d&#39;utiliser la dernière version de Microsoft Excel.
+* [!DNL Microsoft Excel] s’exécutant sur [!DNL macOS] ou en 64 bits [!DNL Microsoft Windows]. Nous vous recommandons d&#39;utiliser la dernière version de [!DNL Microsoft Excel].
 * Lors de l&#39;ouverture de la feuille de calcul, vous devez **activer les macros** pour que la [!DNL Bulk Management Tools] feuille de calcul fonctionne.
 
 ## Exigences et options d’authentification {#auth-reqs}
@@ -49,9 +52,9 @@ Les modifications en masse nécessitent une authentification. Avant d’effectue
 
 **Exigences d’authentification des API**
 
-La deuxième version des outils de gestion en bloc, publiée en octobre 2019, simplifie le processus d&#39;authentification. Les étapes d’authentification de cette version sont décrites ci-dessous :
+La deuxième version de la [!DNL Bulk Management Tools], publiée en octobre 2019, simplifie le processus d’authentification. Les étapes d’authentification de cette version sont décrites ci-dessous :
 
-1. Ouvrez la feuille de calcul et accédez à la feuille de **configuration** .
+1. Ouvrez la feuille de calcul et accédez à la **[!UICONTROL Config]** feuille.
 2. Suivez les étapes décrites dans la feuille.
    ![](assets/baaam-authentication.png)
 3. Après avoir exécuté les étapes, vous êtes autorisé à effectuer des modifications en masse.
