@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Méthodes d’intégration des données
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 1%
 
 Présentation générale de la manière dont l’Audience Manager échange des informations avec d’autres fournisseurs et systèmes de données.
 
-## Méthodes d’intégration des données prises en charge : Temps réel et serveur à serveur {#supported-methods}
+## Méthodes d’intégration des données prises en charge : Temps réel et [!DNL Server-to-Server] {#supported-methods}
 
 Le choix de la bonne méthode d’intégration dépend de la combinaison des exigences de l’entreprise et des capacités techniques de votre partenaire de données. L’Audience Manager échange des informations du visiteur avec d’autres fournisseurs de données par l’une des méthodes suivantes :
 
 * **Temps réel :** Transfère les données immédiatement lorsqu’un utilisateur visite votre site. Cette méthode est également connue sous le nom d’ *`synchronous`* intégration.
-* **Lot (serveur à serveur) :** Transfère les données entre les serveurs selon un calendrier défini une fois qu’un visiteur a quitté la page. Cette méthode est également connue sous le nom d’ *`out-of-band`* intégration ou *`asynchronous`* d’intégration.
+* **Lot ([!DNL Server-to-Server]) :** Transfère les données entre les serveurs selon un calendrier défini une fois qu’un visiteur a quitté la page. Cette méthode est également connue sous le nom d’ *`out-of-band`* intégration ou *`asynchronous`* d’intégration.
 
 ## Conditions préalables : Créer une taxonomie de caractéristiques {#prereqs}
 
-Avant le début du processus d’intégration, pensez à [créer des caractéristiques](../features/traits/create-onboarded-rule-based-traits.md) et une structure [de](../features/traits/trait-storage.md#create-trait-storage-folder) dossiers dans l’ [!DNL Audience Manager] interface utilisateur. La taxonomie contiendra toutes vos caractéristiques organisées dans une hiérarchie logique.
+Avant le début du processus d’intégration, pensez à [créer des caractéristiques](../features/traits/create-onboarded-rule-based-traits.md) et une structure [de](../features/traits/trait-storage.md#create-trait-storage-folder) dossiers dans l’ [!DNL Audience Manager] interface utilisateur. La taxonomie contiendra toutes vos [!UICONTROL traits] organisations dans une hiérarchie logique.
 
 ## Cas d’utilisation d’intégration {#integration-use-cases}
 
 Résumé du cas d’utilisation des méthodes d’intégration des données d’Audience Manager avec les avantages et les inconvénients de chacune.
 
-### Intégrations serveur à serveur en temps réel
+### Intégrations [!DNL Server-to-Server] en temps réel
 
 <!-- c_int_types_use_cases.xml -->
 
-Une intégration de données serveur à serveur en temps réel synchronise rapidement les données utilisateur entre les serveurs d’Audience Manager et un autre système de ciblage. Dans la plupart des cas, l’échange de données a lieu en quelques secondes ou minutes, selon le taux d’actualisation du système de ciblage. Notez toutefois que le système ciblé détermine cet intervalle d’actualisation et non l’Audience Manager. En outre, le taux de rafraîchissement peut varier selon les systèmes. Une intégration serveur à serveur en temps réel est le type d’intégration préféré pour les échanges de données. L’Audience Manager utilise cette méthode chaque fois que des partenaires de ciblage peuvent la prendre en charge.
+Une intégration [!DNL server-to-server] des données en temps réel synchronise rapidement les données utilisateur entre les serveurs d’Audience Manager et un autre système de ciblage. Dans la plupart des cas, l’échange de données a lieu en quelques secondes ou minutes, selon le taux d’actualisation du système de ciblage. Notez toutefois que le système ciblé détermine cet intervalle d’actualisation et non l’Audience Manager. En outre, le taux de rafraîchissement peut varier selon les systèmes. L’intégration en temps réel [!UICONTROL server-to-server] est le type d’intégration préféré pour les échanges de données. L’Audience Manager utilise cette méthode chaque fois que des partenaires de ciblage peuvent la prendre en charge.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -56,9 +56,9 @@ Une intégration de données serveur à serveur en temps réel synchronise rapid
  </tr>
 </table>
 
-### Intégrations de lots serveur à serveur
+### [!DNL Server-to-Server] Intégrations par lots
 
-Une intégration par lots serveur à serveur regroupe les données et les envoie à d’autres systèmes à des intervalles définis plutôt qu’en temps quasi réel. Les intervalles de transfert de données début à partir de 24 heures. Certains fournisseurs de données prennent uniquement en charge ce type d’intégration. Cependant, nous avons observé une tendance générale à l&#39;abandon des intégrations par lots vers des méthodologies d&#39;intégration en temps réel.
+Une intégration [!DNL server-to-server] par lot regroupe les données et les envoie à d’autres systèmes à des intervalles définis plutôt qu’en temps quasi réel. Les intervalles de transfert de données début à partir de 24 heures. Certains fournisseurs de données prennent uniquement en charge ce type d’intégration. Cependant, nous avons observé une tendance générale à l&#39;abandon des intégrations par lots vers des méthodologies d&#39;intégration en temps réel.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -77,7 +77,7 @@ Une intégration par lots serveur à serveur regroupe les données et les envoie
 
 ### Appels en temps réel
 
-Les appels en temps réel échangent immédiatement des données avec l’Audience Manager, lorsqu’un utilisateur visite votre site ou agit sur la page. Grâce à cette méthode, les systèmes de ciblage obtiennent les données de qualification de segment les plus mises à jour et peuvent prendre ces informations en compte lors d’une décision de contenu ou de diffusion publicitaire. En outre, ce processus fonctionne avec les serveurs d’annonces d’éditeurs sur lesquels nous mettons à jour des segments qualifiés vers un cookie propriétaire qui est lu dans un appel d’annonce en tant que paires clé-valeur. Actuellement, l&#39;Audience Manager utilise des appels en temps réel pour s&#39;intégrer à [!DNL Target] d&#39;autres systèmes de gestion de contenu.
+Les appels en temps réel échangent immédiatement des données avec l’Audience Manager, lorsqu’un utilisateur visite votre site ou agit sur la page. Grâce à cette méthode, les systèmes de ciblage obtiennent les données de qualification de segment les plus mises à jour et peuvent prendre ces informations en compte lors d’une décision de contenu ou de diffusion publicitaire. En outre, ce processus fonctionne avec les serveurs d’annonces d’éditeurs sur lesquels nous mettons à jour des segments qualifiés vers un cookie propriétaire qui est lu dans un appel d’annonce en tant que paires clé-valeur. Actuellement, l&#39;Audience Manager utilise des appels en temps réel pour s&#39;intégrer à [!DNL Adobe Target] d&#39;autres systèmes de gestion de contenu.
 
 <table> 
  <tr>
@@ -151,7 +151,7 @@ Présentation générale de la manière dont l’Audience Manager échange les d
 
 <!-- c_int_overview_async.xml -->
 
-Le processus d’intégration des données par lot (serveur à serveur) suit la plupart des étapes décrites dans le processus de transfert des données en temps réel. Cependant, au lieu de renvoyer immédiatement les ID de segment, les informations utilisateur sont enregistrées sur nos serveurs et synchronisées avec un fournisseur de données tiers à intervalles réguliers. Le processus de transfert de données asynchrone est utile lorsque :
+Le processus d’intégration des données par lot ([!DNL server-to-server]) suit la plupart des étapes décrites dans le processus de transfert de données en temps réel. Cependant, au lieu de renvoyer immédiatement les ID de segment, les informations utilisateur sont enregistrées sur nos serveurs et synchronisées avec un fournisseur de données tiers à intervalles réguliers. Le processus de transfert de données asynchrone est utile lorsque :
 
 * Les transferts de données immédiats ne sont pas nécessaires.
 * Collecte de données pour créer un grand groupe d’utilisateurs segmentés.
@@ -166,4 +166,4 @@ Le processus d’intégration des données par lot (serveur à serveur) suit la 
 
 ![](assets/s2s_70.png)
 
-Pour plus d&#39;informations sur les périodes pendant lesquelles l&#39;Audience Manager traite les transferts de fichiers entre serveurs ([!UICONTROL S2S]) entrants et sortants, consultez les directives [sur les délais de transfert de](../reference/reporting-file-transfer-timeframe.md)Rapports et de fichiers.
+Pour plus d&#39;informations sur les périodes pendant lesquelles l&#39;Audience Manager traite les transferts de fichiers entrants et sortants [!DNL Server-to-Server] ([!UICONTROL S2S]), consultez les directives [sur les délais de transfert de](../reference/reporting-file-transfer-timeframe.md)Rapports et de fichier.
