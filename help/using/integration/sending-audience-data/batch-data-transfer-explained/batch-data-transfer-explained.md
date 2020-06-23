@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Description du processus de transfert de données par lot
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Le processus d&#39;intégration des données par lot enregistre les informations
 ## Étapes d’intégration des données
 
 1. Un utilisateur visite un site client.
-1. L’Audience Manager et le fournisseur de données tiers attribuent au visiteur un identifiant unique (généralement avec un cookie).
-1. L’Audience Manager appelle le fournisseur de données tiers pour qu’il corresponde aux ID de visiteur.
-1. Une demande planifiée, généralement à intervalles quotidiens, échange des données de segment de visiteur entre l’Audience Manager et votre fournisseur de données tiers.
+1. [!DNL Audience Manager] et le fournisseur de données tiers attribue au visiteur un identifiant unique (généralement avec un cookie).
+1. [!DNL Audience Manager] appelle le fournisseur de données tiers pour qu’il corresponde aux ID de visiteur.
+1. Une demande planifiée, généralement à intervalles quotidiens, échange des données de segment de visiteur entre [!DNL Audience Manager] votre fournisseur de données tiers et votre fournisseur de données tiers.
 1. Chaque fois qu&#39;un [!UICONTROL Server-to-Server] fichier entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s&#39;il est configuré, au partenaire. Pour plus d’informations, voir [Exemple de message aux partenaires après le traitement](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)entrant.
