@@ -5,9 +5,9 @@ seo-title: Présentation des Audiences prédictives
 solution: Audience Manager
 title: Audiences prédictives Audience Manager
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Lors de la configuration de vos [!UICONTROL Predictive Audiences] modèles, gard
    >[!IMPORTANT]
    > Actuellement, les segments [!UICONTROL Total Segment Population] prédictifs sont affichés sous la forme 0 et les transferts [de données sortantes](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) par lot ne sont pas pris en charge pour [!UICONTROL Predictive Audiences]. Ce comportement changera dans une prochaine mise à jour.
 * [!UICONTROL Predictive Audiences] effectue une classification des audiences en fonction de vos caractéristiques propriétaires, à partir de toutes vos sources de données propriétaires.
-* L’évaluation des segments pour [!UICONTROL Predictive Audiences] utilise la valeur par défaut **[!UICONTROL Profile Merge Rule]** que vous avez définie dans votre compte. Pour en savoir plus sur [!UICONTROL Profile Merge Rules] consultez la [documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)qui vous est consacrée.
+* L’évaluation des segments pour [!UICONTROL Predictive Audiences] utilise la valeur par défaut **[!UICONTROL Profile Merge Rule]** que vous avez définie dans votre compte. Pour en savoir plus sur [!UICONTROL Profile Merge Rules] consultez la [documentation](../profile-merge-rules/merge-rules-overview.md)qui vous est consacrée.
 * Certaines caractéristiques et certains segments ne sont pas pris en charge en tant que lignes de base ou audiences de cible. [!UICONTROL Predictive Audiences] les modèles ne peuvent pas être enregistrés lorsque vous sélectionnez l&#39;une des audiences suivantes comme lignes de base ou cible :
    * Caractéristiques prédictives et segments créés avec des caractéristiques prédictives ;
    * [caractéristiques ou segments d&#39;Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
