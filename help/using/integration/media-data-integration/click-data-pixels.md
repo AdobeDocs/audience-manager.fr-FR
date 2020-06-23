@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Capture des données des clics Campaign par le biais d’appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte [](/help/using/integration/media-data-integration/impression-data-pixels.md)d’impressions, un appel de événement est envoyé aux serveurs de collecte de données d’Audience Manager ([!DNL DCS]) pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
+Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte [des](/help/using/integration/media-data-integration/impression-data-pixels.md)impressions, un appel de événement est envoyé aux serveurs de collecte de données ( [!DNL Audience Manager] )[!DNL DCS]pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers ce qui su
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Autres fonctionnalités - Rapports d&#39;optimisation des Audiences
+## Autres fonctionnalités - [!UICONTROL Audience Optimization Reports]
 
 Vous pouvez utiliser des appels en pixels pour alimenter les rapports [Optimisation des](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences. Voir [Aperçu et mappages des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
