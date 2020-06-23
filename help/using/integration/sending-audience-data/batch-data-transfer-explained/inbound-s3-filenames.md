@@ -1,20 +1,20 @@
 ---
 description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
-seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
+seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
 seo-title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants
 solution: Audience Manager
 title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
 
 
-# Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers que vous devez respecter lors de l’envoi de données à [!DNL Audience Manager]. Définissez les noms et tailles de vos fichiers selon ces spécifications lorsque vous envoyez des données vers un [!DNL Audience Manager] / [!DNL Amazon S3] répertoire.
 
