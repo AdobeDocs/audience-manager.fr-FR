@@ -5,15 +5,15 @@ seo-title: Intégration WCA Facebook
 solution: Audience Manager
 title: Intégration WCA Facebook
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '862'
 ht-degree: 2%
 
 ---
 
 
-# Intégration WCA Facebook {#facebook-wca-integration}
+# [!DNL Facebook WCA] Analytics {#facebook-wca-integration}
 
 Cette page illustre le processus de création de [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixels pour l’envoi de segments d’ [!DNL Audience Manager] audience basés sur le Web vers [!DNL Facebook], pour le ciblage des annonces en ligne avec une transparence accrue.
 
@@ -25,7 +25,7 @@ Cette page illustre le processus de création de [!DNL Facebook Website Custom A
 
 >[!IMPORTANT]
 >
-> Cette fonctionnalité nécessite que vous sélectionniez l’option audience de site Web pour les plateformes sociales dans les destinations [](/help/using/features/destinations/create-url-destination.md)URL. Les plateformes sociales exigent que les informations de parrain soient démasquées lorsqu’elles sont envoyées sur leur plateforme. Sachez que cela signifie que la plateforme/partenaire de destination pourra voir les informations dans votre parrain [!DNL URL].
+> Cette fonctionnalité nécessite que vous sélectionniez l’option [!UICONTROL Website] audience pour les plateformes sociales dans les destinations [](/help/using/features/destinations/create-url-destination.md)URL. Les plateformes sociales exigent que les informations de parrain soient démasquées lorsqu’elles sont envoyées sur leur plateforme. Sachez que cela signifie que la plateforme/partenaire de destination pourra voir les informations dans votre parrain [!DNL URL].
 
 ## Conditions préalables {#prerequisites}
 
@@ -36,17 +36,17 @@ Cette page illustre le processus de création de [!DNL Facebook Website Custom A
 
 Nous vous recommandons d’installer ou de mettre à niveau les bibliothèques des étapes 3 et 4 à l’aide du lancement [d’](https://docs.adobelaunch.com/) Adobe Experience Platform ou de la gestion [dynamique des balises de Adobe](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
-## Etape 1 - Création d’une destination Facebook dans l’Audience Manager {#step-1-create-facebook-destination}
+## Etape 1 - Création d’une [!UICONTROL Facebook Destination] section [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
 Créez un nouveau [!UICONTROL URL Destination] dans [!DNL Audience Manager] et nommez-le [!DNL Facebook Website Custom Audiences]. Utilisez les paramètres ci-dessous lors de la création de la destination. Vous pouvez également vous reporter à la page [Configurer une URL de destination](/help/using/features/destinations/create-url-destination.md) .
 
 ### Informations fondamentales
 
 * **[!UICONTROL Category]**: Personnalisé
-* **[!UICONTROL Type]**: URL
+* **[!UICONTROL Type]**: [!DNL URL]
 * Cochez la **[!UICONTROL Auto-fill Destination Mapping]** case, puis sélectionnez **[!UICONTROL Segment ID]**.
 
-### Étiquettes des exportations de données
+### [!UICONTROL Data Export Labels]
 
 Sélectionnez l’option **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**.
 
@@ -59,7 +59,7 @@ Sélectionnez l’option **[!UICONTROL This destination may enable a combination
 * **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. En sélectionnant cette [!UICONTROL URL Type] option, [!DNL Audience Manager] n’obscurcit pas les informations du parrain [!DNL URL] lors du déclenchement d’un [!DNL Facebook WCA] pixel.
 * **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
 * Dans le champ **[!UICONTROL Base URL]** et **[!UICONTROL Secure URL]** , entrez le [!DNL Facebook WCA] pixel.
-* **[!UICONTROL Delimiter]**: ,
+* **[!UICONTROL Delimiter]**: `,`
 
 Exemple [!DNL URL] de base : `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
@@ -72,33 +72,33 @@ Exemple de pixel déclenché à partir de la page. Cet exemple montre un utilisa
 | `id` | Votre ID de [!DNL Facebook] pixel, que vous pouvez trouver dans l’interface [!DNL Facebook Ad Manager] utilisateur lors de la création de pixels d’audience. |
 | `ev` | Event.     Il s’agit d’une valeur arbitraire qui apparaîtra dans l’interface [!DNL Facebook Ad Manager] utilisateur une fois que le pixel commencera à se déclencher sur le site. Pour plus d’informations, voir l’ [!UICONTROL Include] élément de l’ [étape 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience). |
 | `cd[segID]` | Un autre paramètre, qui commence à être renseigné dans l’interface [!DNL Facebook Ad Manager] utilisateur une fois que le pixel commence à se déclencher sur le site. `segID` est aussi arbitraire. |
-| `%ALIAS%` | Une [!DNL Audience Manager] macro, qui sera dynamiquement remplacée par les identifiants de [!DNL Audience Manager] segment pour lesquels le visiteur du site est admissible, délimités par une virgule, |
+| `%ALIAS%` | Une [!DNL Audience Manager] macro, qui sera dynamiquement remplacée par les [!DNL Audience Manager] [!UICONTROL segment] identifiants pour lesquels le visiteur du site est admissible, délimités par une virgule, |
 
 Votre [!UICONTROL URL destination] configuration doit se présenter comme suit :
 
 ![Configuration de destination](/help/using/integration/assets/facebook-wca.png)
 
-Enregistrez la destination. Ensuite, vous pouvez passer à l’étape Correspondances **des** segments.
+Enregistrez le [!UICONTROL destination]. Ensuite, vous pouvez passer à l’étape Correspondances **des** segments.
 
 ## Étape 2 - Mappages de segments - Mapper un segment à la destination {#step-2-segment-mappings}
 
-Dans le processus [Configurer la destination](/help/using/features/destinations/create-url-destination.md) de l’URL, mappez le segment applicable à votre destination nouvellement créée. Notez que la valeur de mappage est automatiquement renseignée avec l’ID [!DNL Audience Manager] du segment.
+Dans le flux de travaux [Configurer la destination](/help/using/features/destinations/create-url-destination.md) de l’URL, mappez le segment applicable à votre nouveau segment [!UICONTROL destination]créé. Notez que la valeur de mappage est automatiquement renseignée avec la [!DNL Audience Manager][!UICONTROL segment ID].
 
 Entrez une date de fin, le cas échéant, ou laissez vide pour ne pas saisir de date de fin.
 
-## Etape 3 - Création d’une Audience dans le Gestionnaire d’annonces Facebook {#step-3-create-audience}
+## Etape 3 : création d’un [!UICONTROL Audience] élément [!DNL Facebook Ads Manager] {#step-3-create-audience}
 
 Voir [Création d’une Audience](https://www.facebook.com/business/help/666509013483225) personnalisée d’un site Web dans la [!DNL Facebook] documentation d’aide. Sélectionnez les [!UICONTROL Create Audience] options du tableau ci-dessous :
 
 | Élément | Description |
 ---------|----------|
 | Trafic du site Web | Combinaison personnalisée |
-| Inclure | <ul><li>Sélectionnez **Événement** > Sélectionner **Adobe-Audience-Manager-Segment**. Il s’agit de la valeur du paramètre ev dans l’exemple de pixel de l’étape 1. Notez que si le pixel n’est pas encore déclenché, l’option **Événement** ou l’option **Adobe-Audience-Manager-Segment** peut ne pas apparaître dans l’interface utilisateur de Facebook.</li><li>Ajoutez un paramètre : Sélectionnez `segID`.</li><li><p>Sélectionnez l’opérateur **contient** .</p><p>Ceci est important, puisque les visiteurs peuvent être inclus dans plusieurs segments, il peut y avoir plusieurs ID de segment dans le paramètre pixel. L&#39;utilisation de l&#39;opérateur égal (=) peut ne pas qualifier vos visiteurs pour l&#39;audience et vous obtiendrez un volume inférieur.</p></li><li>Ajoutez une valeur : Saisissez l’ID du [!DNL Audience Manager] segment.</li></ul> |
+| Inclure | <ul><li>Choisissez **[!UICONTROL Event]** > Sélectionner **[!UICONTROL Adobe-Audience-Manager-Segment]**. Il s’agit de la valeur du `ev` paramètre dans l’exemple de pixel de l’étape 1. Notez que si le pixel doit encore se déclencher, l’ **[!UICONTROL Event]** option ou **[!UICONTROL Adobe-Audience-Manager-Segment]** peut ne pas apparaître dans l’interface [!DNL Facebook] utilisateur.</li><li>Ajoutez un paramètre : Sélectionnez `segID`.</li><li><p>Sélectionnez l’opérateur **contient** .</p><p>Ceci est important, puisque les visiteurs peuvent être inclus dans plusieurs segments, il peut y avoir plusieurs segments [!UICONTROL segment IDs] dans le paramètre de pixel. L&#39;utilisation de l&#39;opérateur égal (`=`) peut ne pas qualifier vos visiteurs pour l&#39;audience, et vous observerez un volume inférieur.</p></li><li>Ajoutez une valeur : Saisissez l’ID du [!DNL Audience Manager] segment.</li></ul> |
 | Ajouter une nouvelle condition | Paramètre facultatif. |
 | Dans le dernier | Paramètre facultatif. |
 | Nom de l’Audience | Nous vous recommandons d’utiliser le même nom de [!DNL Audience Manager] segment pour assurer la cohérence, sauf si vous ajoutez des conditions supplémentaires à cette Audience. |
 
-## Etape 4 - Affectation de l’Audience à un Campaign dans le Gestionnaire d’annonces Facebook {#step-4-assign-audience-to-campaign}
+## Étape 4 - Affecter le [!UICONTROL Audience] à un [!UICONTROL Campaign] dans [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
 
 Après avoir créé le fichier [!DNL Custom Audience], affectez-le à une campagne publicitaire. Créez une nouvelle campagne ou modifiez une campagne existante. Votre audience nouvellement créée est répertoriée dans l’interface [!DNL Facebook] utilisateur. Votre campagne publicitaire cible les utilisateurs qui ont vu le pixel se déclencher sur leur navigateur lors de leur visite sur votre site, si [!DNL Audience Manager] elle les inclut dans le segment.
 
@@ -109,3 +109,4 @@ Maintenant que vous avez affecté votre [!DNL Audience Manager] segment à la [!
 >[!NOTE]
 >
 > Si un utilisateur sort du [!DNL Audience Manager] segment, il n’existe actuellement aucun moyen [!DNL Audience Manager] d’informer [!DNL Facebook] de la suppression de l’utilisateur du [!DNL Custom Audience].
+
