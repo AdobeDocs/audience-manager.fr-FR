@@ -7,23 +7,21 @@ solution: Audience Manager
 title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1860'
 ht-degree: 2%
 
 ---
 
 
-# Flux de données client {#customer-data-feeds}
+# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Informations de base sur [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) les fichiers et instructions de démarrage. Début ici si vous souhaitez recevoir [!UICONTROL CDF] des fichiers ou simplement plus d&#39;informations.
 
 ## Contenu et objet du fichier {#file-contents-purpose}
 
-<!-- cdf-intro.xml -->
-
-Un [!UICONTROL CDF] fichier contient les mêmes données qu’un appel de [!DNL Audience Manager] événement (`/event`) envoie à nos serveurs. Cela inclut des données telles que les ID d’utilisateur, les ID de caractéristiques, les ID de segment et tous les autres paramètres capturés par un appel de événement. Les [!DNL Audience Manager] systèmes internes traitent les données de événement dans un [!UICONTROL CDF] fichier dont le contenu est organisé en champs qui s’affichent dans un ordre défini. [!DNL Audience Manager] essaie de générer [!UICONTROL CDF] des fichiers toutes les heures et de les stocker dans un compartiment sécurisé spécifique au client sur un [!DNL Amazon S3] serveur. Nous fournissons ces fichiers pour que vous puissiez travailler avec [!DNL Audience Manager] des données en dehors des limites imposées par notre interface utilisateur.
+Un [!UICONTROL CDF] fichier contient les mêmes données qu’un appel de [!DNL Audience Manager] événement (`/event`) envoie à nos serveurs. Cela inclut des données telles que les ID utilisateur, [!UICONTROL trait IDs], [!UICONTROL segment IDs]et tous les autres paramètres capturés par un appel de événement. Les [!DNL Audience Manager] systèmes internes traitent les données de événement dans un [!UICONTROL CDF] fichier dont le contenu est organisé en champs qui s’affichent dans un ordre défini. [!DNL Audience Manager] essaie de générer [!UICONTROL CDF] des fichiers toutes les heures et de les stocker dans un compartiment sécurisé spécifique au client sur un [!DNL Amazon S3] serveur. Nous fournissons ces fichiers pour que vous puissiez travailler avec [!DNL Audience Manager] des données en dehors des limites imposées par notre interface utilisateur.
 
 >[!NOTE]
 >
@@ -42,13 +40,11 @@ Les notifications de fichiers et [!UICONTROL CDF] les fichiers s’affichent dan
 
 Les sections ci-dessous et la FAQ [sur le flux de données](../faq/faq-cdf.md) client peuvent vous aider à mieux vous familiariser avec ce service.
 
-## Contenu du flux de données client défini {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Contenu défini {#cdf-defined}
 
 Liste et définit les éléments de données et les tableaux dans un [!UICONTROL CDF] fichier, par ordre d’apparition. Les définitions incluent les types de données, mais ces informations ne font pas partie d’un [!UICONTROL CDF] fichier.
 
 ## Définitions {#definitions}
-
-<!-- cdf-contents-defined.xml -->
 
 Un [!UICONTROL CDF] fichier comprend certains ou tous les champs définis ci-dessous. Pour plus d’informations sur l’organisation interne des fichiers, voir Structure [des fichiers de flux de données](#cdf-file-structure)client.
 
@@ -123,13 +119,11 @@ Un [!UICONTROL CDF] fichier comprend certains ou tous les champs définis ci-des
  </tbody> 
 </table>
 
-## Structure du fichier de flux de données client {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Structure du fichier {#cdf-file-structure}
 
 Liste et définit la structure de données d’un [!UICONTROL CDF] fichier. Cela inclut la séquence de données, les délimiteurs de champ et les séparateurs, un mappage de fichier de données et un exemple de fichier.
 
 ## Identifiants de champ de données et séquence {#identifiers-and-sequence}
-
-<!-- cdf-file-structure.xml -->
 
 [!UICONTROL CDF] ne contiennent pas de colonnes ou d’en-têtes de champ étiquetés. A la place, un [!UICONTROL CDF] fichier définit des champs et des tableaux avec [!DNL ASCII] des caractères non imprimables. En outre, le fichier [!UICONTROL CDF] liste chaque champ et tableau dans un ordre spécifique. La compréhension des identificateurs de champ et de l’ordre vous aidera à analyser correctement le fichier.
 
@@ -170,7 +164,7 @@ Liste et définit la structure de données d’un [!UICONTROL CDF] fichier. Cela
  </tbody> 
 </table>
 
-## Carte de fichiers CDF {#cdf-file-map}
+## [!UICONTROL CDF] Carte de fichiers {#cdf-file-map}
 
 [!UICONTROL CDF] les données de fichier s’affichent dans l’ordre indiqué ci-dessous.
 
@@ -178,21 +172,19 @@ Liste et définit la structure de données d’un [!UICONTROL CDF] fichier. Cela
 
 ## Identification des tableaux
 
-Tableaux dans un début de [!UICONTROL CDF] fichiers et se terminent par le séparateur de `Ctrl + a` champs. Ainsi, le premier élément d&#39;un tableau apparaît comme un champ de données autonome. Par exemple, le tableau de caractéristiques réalisées s’début avec `^A1234`. Le délimiteur et l&#39;ID de tableau `^B5678` suivent cette entrée. Par conséquent, vous pouvez être tenté de penser que le premier élément du tableau de caractéristiques réalisé est l’identifiant 5678 (car il début avec `^B`). Ce n’est pas le cas, c’est pourquoi vous devez connaître la séquence et la structure d’un fichier de données. Bien que le premier élément du tableau de caractéristiques réalisé (ou de l&#39;un des autres tableaux d&#39;un [!UICONTROL CDF] fichier) s&#39;début avec `^A`, l&#39;ordre d&#39;apparence ou de position du fichier définit le début d&#39;un tableau. Et le premier élément d&#39;un tableau est toujours séparé de l&#39;entrée précédente par `^A`.
+Tableaux dans un début de [!UICONTROL CDF] fichiers et se terminent par le séparateur de `Ctrl + a` champs. Ainsi, le premier élément d&#39;un tableau apparaît comme un champ de données autonome. Par exemple, la [!UICONTROL traits] baie de disques réalisée s&#39;début avec `^A1234`. Le délimiteur et l&#39;ID de tableau `^B5678` suivent cette entrée. Par conséquent, vous pouvez être tenté de penser que le premier élément du tableau réalisé [!UICONTROL traits] est l&#39;identifiant 5678 (car il début avec `^B`). Ce n’est pas le cas, c’est pourquoi vous devez connaître la séquence et la structure d’un fichier de données. Même si le premier élément du tableau réalisé [!UICONTROL trait] (ou de l&#39;un des autres tableaux d&#39;un [!UICONTROL CDF] fichier) s&#39;début avec `^A`, l&#39;ordre d&#39;apparence ou de position du fichier définit le début d&#39;un tableau. Et le premier élément d&#39;un tableau est toujours séparé de l&#39;entrée précédente par `^A`.
 
-## Exemple de fichier CDF {#sample-file}
+## Sample [!UICONTROL CDF] File {#sample-file}
 
 Un exemple de [!UICONTROL CDF] fichier peut ressembler à ce qui suit. Nous avons inséré des sauts de ligne dans cet exemple pour l&#39;aider à s&#39;adapter à la page.
 
 ![](assets/CDF-sample.png)
 
-## Conventions d’attribution de noms aux fichiers de flux de données client {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Conventions de dénomination des fichiers {#cdf-naming-conventions}
 
 Les sections ci-dessous liste et définissent les éléments de votre nom de [!UICONTROL CDF] fichier.
 
-## Nom de fichier CDF : Syntaxe et exemple {#cdf-file-name}
-
-<!-- cdf-file-name.xml -->
+## [!UICONTROL CDF] Nom du fichier : Syntaxe et exemple {#cdf-file-name}
 
 Un nom de [!UICONTROL CDF] fichier type contient les éléments répertoriés ci-dessous. Note, *italics* indicates a variable placeholder:
 
@@ -210,7 +202,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 Dans votre regroupement d&#39; [!DNL S3] enregistrements, les fichiers sont triés par ordre croissant selon l&#39;ID de partenaire ([!UICONTROL PID]), le jour et l&#39;heure.
 
-## Définition des éléments de nom de fichier CDF {#cdf-file-name-elements}
+## [!UICONTROL CDF] Définition des éléments de nom de fichier {#cdf-file-name-elements}
 
 Le tableau suivant liste et définit les éléments d’un nom de [!UICONTROL CDF] fichier.
 
@@ -253,13 +245,11 @@ Le tableau suivant liste et définit les éléments d’un nom de [!UICONTROL CD
  </tbody> 
 </table>
 
-## Notifications de traitement des fichiers de flux de données client {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Notifications de traitement de fichiers {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] écrit un `.info` fichier dans votre [!DNL S3] répertoire afin de vous indiquer quand votre [!UICONTROL Customer Data File] ([!UICONTROL CDF]) fichier est prêt pour le téléchargement. Le `.info` fichier comprend également des métadonnées [!DNL JSON] formatées sur le contenu de vos [!UICONTROL CDF] fichiers. Consultez cette section pour en savoir plus sur la syntaxe et les champs utilisés par ce fichier de notification.
 
 ## Exemple de fichier d&#39;informations {#sample-info-file}
-
-<!-- cdf-notifications.xml -->
 
 Chaque `.info` fichier contient une `Files` section et `Totals` . La `Files` section contient un tableau contenant des mesures spécifiques pour chaque fichier horaire. La `Totals` section contient des mesures agrégées dans tous vos [!UICONTROL CDF] fichiers pour un jour donné. Le contenu de votre `.info` fichier peut ressembler à l’exemple suivant.
 
@@ -358,13 +348,11 @@ Les tableaux suivants liste et définissent les éléments d’un [!UICONTROL CD
  </tbody> 
 </table>
 
-## Nom de fichier du flux de données client Heures et Contenu du fichier Heures différentes {#different-processing-times}
+## [!UICONTROL Customer Data Feed] Les heures des noms de fichier et les heures du contenu du fichier diffèrent {#different-processing-times}
 
 Votre [!UICONTROL CDF] fichier contient des horodatages dans le nom de fichier et le contenu du fichier. Ces horodatages enregistrent différents processus de événement pour le même [!UICONTROL CDF] fichier. Il n’est pas rare de voir des horodatages différents dans le nom et le contenu du même fichier. La compréhension de chaque horodatage peut vous aider à éviter les erreurs courantes lors de l’utilisation de ces données ou lors d’une tentative de tri temporel.
 
-## Localisation des horodatages de fichiers CDF {#locating-timestamps}
-
-<!-- cdf-time-differences.xml -->
+## Localisation des horodatages des [!UICONTROL CDF] fichiers {#locating-timestamps}
 
 [!UICONTROL CDF] les fichiers enregistrent le temps différemment en 2 emplacements distincts.
 
