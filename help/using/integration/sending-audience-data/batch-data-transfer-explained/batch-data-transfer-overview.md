@@ -7,33 +7,31 @@ solution: Audience Manager
 title: Présentation de l'envoi de données par lots à l'Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 3%
 
 ---
 
 
-# Présentation de l&#39;envoi de données par lots à l&#39;Audience Manager {#send-batch-data-to-audience-manager-overview}
+# Envoyer les données du lot à [!DNL Audience Manager] la présentation {#send-batch-data-to-audience-manager-overview}
 
 Présentation destinée aux clients techniques et non techniques qui souhaitent importer des données d’autres systèmes (hors ligne) dans [!DNL Audience Manager].
 
 ## Avantages
 
-<!-- c_offline_to_online.xml -->
-
 Vous pouvez rendre les données d&#39;autres systèmes disponibles dans [!DNL Audience Manager]. Notre système peut vous aider à déverrouiller la valeur et à exploiter les données utilisateur que vous avez collectées précédemment. Il s’agit notamment d’informations sur les achats, les questionnaires client, les données d’enregistrement, les [!DNL CRM] bases de données, etc. Bien que chaque intégration présente ses propres défis, elles partagent toutes ces étapes communes. Consultez ce document afin de réduire les efforts nécessaires pour mettre en ligne vos données hors ligne.
 
 ## Étape 1 : Synchronisation des ID utilisateur
 
-Au cours de la synchronisation, [!DNL Audience Manager] affecte des identifiants uniques aux clients et à leurs utilisateurs. Ces identifiants sont connus sous les noms [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) et [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivement. [!DNL Audience Manager] utilise les et [!UICONTROL DPID][!UICONTROL UUID] pour identifier les utilisateurs et les qualifier pour les caractéristiques, les segments, les groupes d’audiences et pour le rapports. De plus, notre code de collecte de données ([!UICONTROL DIL]) recherche ces identifiants pour capturer les données de visiteur de votre site Web. Une fois cette étape terminée, [!DNL Audience Manager] et votre référentiel hors ligne doit contenir les ID correspondants pour chaque enregistrement d’utilisateur.
+Au cours de la synchronisation, [!DNL Audience Manager] affecte des identifiants uniques aux clients et à leurs utilisateurs. Ces identifiants sont connus sous les noms [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) et [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivement. [!DNL Audience Manager] utilise la méthode [!UICONTROL DPID] et [!UICONTROL UUID] pour identifier les utilisateurs et les qualifier pour [!UICONTROL traits], [!UICONTROL segments]les groupes d’audiences et pour le rapports. De plus, notre code de collecte de données ([!UICONTROL DIL]) recherche ces identifiants pour capturer les données de visiteur de votre site Web. Une fois cette étape terminée, [!DNL Audience Manager] et votre référentiel hors ligne doit contenir les ID correspondants pour chaque enregistrement d’utilisateur.
 
 Remarques importantes concernant cette étape :
 
 * **Emplacement de l’ID client :** [!DNL Audience Manager] doit savoir où s’affiche l’identifiant client sur votre site Web (par exemple, s’il est stocké dans un cookie, une variable Analytics, dans un code de page, etc.).
 * **Exclure[!DNL PII]:** Les identifiants d’utilisateur ne doivent pas contenir d’informations d’identification personnelle ([!DNL PII]).
-* **Respect de la casse et du contenu :** Lors d’une synchronisation des données en temps réel, les identifiants d’utilisateur capturés sur votre site par [!DNL Audience Manager] doivent correspondre aux identifiants transmis à partir de votre référentiel hors ligne. Par exemple, si les enregistrements hors ligne contiennent des informations sur [!DNL User123]votre site, mais que celui-ci effectue le rendu de cet identifiant [!DNL USER123], l’Audience Manager les considère comme des visiteurs différents. Par conséquent, les informations en ligne de ce visiteur ne peuvent pas être associées aux enregistrements correspondants dans votre base de données hors ligne. Les identifiants doivent correspondre exactement.
+* **Respect de la casse et du contenu :** Lors d’une synchronisation des données en temps réel, les identifiants d’utilisateur capturés sur votre site par [!DNL Audience Manager] doivent correspondre aux identifiants transmis à partir de votre référentiel hors ligne. Par exemple, si les enregistrements hors ligne contiennent des informations sur [!DNL User123], mais que votre site effectue le rendu de cet identifiant [!DNL USER123], [!DNL Audience Manager] les voit comme des visiteurs différents. Par conséquent, les informations en ligne de ce visiteur ne peuvent pas être associées aux enregistrements correspondants dans votre base de données hors ligne. Les identifiants doivent correspondre exactement.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
