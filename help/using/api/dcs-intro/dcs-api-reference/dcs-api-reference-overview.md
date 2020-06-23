@@ -1,12 +1,12 @@
 ---
 description: Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus de l’API DCS.
 seo-description: Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus de l’API DCS dans Adobe Audience Manager (AAM).
-seo-title: Présentation des références d’API DCS dans Adobe Audience Manager (AAM)
+seo-title: Présentation de la référence de l’API DCS dans l’Adobe Audience Manager (AAM)
 title: Présentation des références de l’API DCS
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Présentation des références de l’API DCS
 
-Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus de l’API DCS.
+Informations conceptuelles, descriptions et définitions du [!DNL DCS API] code, des méthodes et des processus.
 
 * [Méthodes de l’API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Envoyez des données à l’API DCS à l’aide des méthodes GET ou POST.
+   Envoyez des données à l’ [!DNL DCS API] aide des méthodes GET ou POST.
 
 * [Codes, messages et exemples d’erreur des serveurs de collecte de données](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
@@ -26,7 +26,7 @@ Informations conceptuelles, descriptions et définitions pour le code, les méth
 
 * [Surveillance des identifiants et refus d’inscription](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   Le serveur de collecte de données contrôle les identifiants qu’il reçoit et ajoute ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période à une liste de refus.
+   Le serveur de collecte de données contrôle les identifiants qu’il reçoit et ajoute ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période à une liste bloquée.
 
 * [Identifiants de région DCS, emplacements et noms d’hôtes](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
