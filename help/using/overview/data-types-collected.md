@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Types de données collectées
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '867'
 ht-degree: 1%
 
 ---
@@ -30,12 +30,6 @@ Déverrouiller les ressources d&#39;informations client stockées dans plusieurs
 
 La collecte de données propriétaires est une [!DNL Audience Manager] fonction principale. Cette compétence de base répond aux besoins de nos clients (éditeurs ou annonceurs) qui veulent utiliser les données propriétaires comme pierre angulaire de leurs programmes marketing ou pour cibler et modéliser en fonction d’autres sources de données.
 
-<!-- 
-
-c_1st_party_data.xml
-
- -->
-
 [!DNL Audience Manager] travaille avec les clients pour comprendre leur stratégie de données, puis fait correspondre cette stratégie à un plan de collecte de données personnalisé. Notre équipe Solutions partenaires travaille avec vous pour évaluer les sites, les signaux de données brutes et les autres interactions des utilisateurs sur vos sites Web. Grâce à ces informations, nous vous aiderons à créer une stratégie de collecte de données personnalisée qui capture les signaux de données au niveau de l&#39;utilisateur provenant de différentes pages de votre inventaire. Les données capturées sont stockées et reassociées à une taxonomie prédéfinie, qui peut être mise à jour à tout moment, en fonction des besoins de votre entreprise.
 
 L’exemple suivant illustre comment capturer des éléments de données potentiels à partir d’un exemple de page d’achat.
@@ -47,7 +41,7 @@ L’exemple suivant illustre comment capturer des éléments de données potenti
 | 1 | **Sexe**. Le prénom d&#39;un acheteur indique habituellement son sexe. Dans notre exemple, le prénom de l&#39;acheteur est Mary, nous savons donc que l&#39;acheteur est une femme. Les noms ne sont jamais stockés par Audience Manager. |
 | 2 | **Intérêts**. Les articles du panier peuvent indiquer divers intérêts. Dans notre exemple, Marie dépense beaucoup pour l&#39;équipement de remise en forme. |
 | 3 | **Type** de logement. En vous basant sur les adresses de livraison et/ou de facturation, vous pouvez déduire si Mary achète de l&#39;équipement de remise en forme pour elle-même ou pour une société. |
-| 4 | **Emplacement**. [!DNL ZIP] les codes sont plus fiables que les adresses IP lorsqu’il s’agit de localiser un emplacement. |
+| 4 | **Emplacement**. [!DNL ZIP] les codes sont plus fiables que [!DNL IP] les adresses lorsqu&#39;il s&#39;agit de localiser un emplacement. |
 | 5 | **Affinité** de promotion. Si un acheteur utilise des codes promotionnels ou des cartes-cadeaux, il est probablement un chasseur de bonnes affaires à la recherche des meilleures affaires. |
 | 6 | **Dépenser le pouvoir**. Les données de prix corrélées aux [!DNL ZIP+4] codes indiquent le pouvoir de dépense d&#39;un emplacement donné. |
 
@@ -57,12 +51,6 @@ Une fois les données brutes collectées, elles sont mises en correspondance ave
 
 Les données tierces proviennent d’un partenaire commercial stratégique (il ne s’agit pas de données d’éditeur). Ces informations sont collectées et gérées comme des données propriétaires.
 
-<!-- 
-
-c_2nd_party_data.xml
-
- -->
-
 Dans un scénario de données tierces, les annonceurs envoient leurs propres ressources de données aux éditeurs afin qu’ils puissent combiner ces informations avec les données de l’éditeur, puis exécuter un programme publicitaire plus ciblé. En outre, les éditeurs peuvent étendre leur pool d’audiences en s’associant avec leurs annonceurs. Dans la plupart des cas, ces arrangements impliquent des relations contractuelles limitées à placer la balise de [!DNL Audience Manager] conteneur sur le site partenaire pour faciliter la collecte et le partage des données.
 
 Un exemple de collecte et de marketing de relance de données de fournisseurs tiers pourrait impliquer un détaillant de vêtements qui collecte des données sur ses produits, puis partage ces informations avec des partenaires clés. Dans ce cas, le produit de vente au détail peut proposer différentes publicités sur un site [!DNL Audience Manager] partenaire pour les consommateurs qui ont choisi différentes couleurs et tailles de veste.
@@ -71,15 +59,9 @@ Un exemple de collecte et de marketing de relance de données de fournisseurs ti
 
 ## Third-Party Data Collection {#third-party-data}
 
-Les données tierces sont des informations collectées et partagées par les fournisseurs en dehors de l’Audience Manager.
+Les données tierces sont des informations collectées et partagées par les fournisseurs en dehors de [!DNL Audience Manager].
 
-<!-- 
-
-c_3rd_party_data.xml
-
- -->
-
-Les données tierces peuvent être utilisées pour qualifier les segments de données existants (par exemple, l’âge, le revenu du ménage, etc.), fournir des données qui sont en demande mais qui ne sont pas disponibles d’une autre manière, ou être utilisées dans une modélisation semblable à celle d’une base d’utilisateurs connue à partir de données propriétaires et secondaires. [!DNL Audience Manager] travaille avec de nombreux fournisseurs de données tiers et vous aidera à comprendre le type de données que ces fournisseurs collectent afin que vous puissiez conclure des accords stratégiques avec chaque fournisseur.
+Les données tierces peuvent être utilisées pour qualifier les données existantes [!UICONTROL segments] (par exemple, l’âge, le revenu du ménage, etc.), fournir des données qui sont en demande mais qui ne sont pas disponibles d’une autre manière, ou être utilisées dans la modélisation semblable à celle d’une base d’utilisateurs connue à partir de données propriétaires et secondaires. [!DNL Audience Manager] travaille avec de nombreux fournisseurs de données tiers et vous aidera à comprendre le type de données que ces fournisseurs collectent afin que vous puissiez conclure des accords stratégiques avec chaque fournisseur.
 
 >[!NOTE]
 >
