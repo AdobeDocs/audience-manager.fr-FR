@@ -7,19 +7,19 @@ solution: Audience Manager
 title: A propos de la modélisation à l’apparence
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 0%
+source-wordcount: '1590'
+ht-degree: 1%
 
 ---
 
 
-# Présentation de la modélisation à l’apparence {#about-algorithmic-models}
+# Compréhension [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
-## Rechercher de nouveaux utilisateurs avec la modélisation à l’apparence {#find-new-users}
+## Rechercher de nouveaux utilisateurs avec [!UICONTROL Look-Alike Modeling] {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] vous aide à découvrir de nouvelles audiences uniques grâce à l’analyse automatisée des données. Le processus se début lorsque vous sélectionnez une caractéristique ou un segment, un intervalle de temps et des sources de données propriétaires et tiers. Vos choix fournissent les entrées pour le modèle algorithmique. Lorsque le processus d’analyse s’exécute, il recherche les utilisateurs éligibles en fonction de caractéristiques partagées de la population sélectionnée. Une fois l’opération terminée, ces données sont disponibles dans le créateur [de](../../features/traits/about-trait-builder.md) caractéristiques où vous pouvez les utiliser pour créer des caractéristiques basées sur la [précision et la portée](../../features/traits/trait-accuracy-reach.md). De plus, vous pouvez créer des segments qui combinent des caractéristiques algorithmiques avec des caractéristiques basées sur des règles et ajouter d’autres exigences de qualification avec des expressions booléennes et des opérateurs de comparaison. [!UICONTROL Look-Alike Modeling] vous permet d’extraire de la valeur de toutes les données de caractéristiques disponibles de manière dynamique.
+[!UICONTROL Look-Alike Modeling] vous aide à découvrir de nouvelles audiences uniques grâce à l’analyse automatisée des données. Le processus se début lorsque vous sélectionnez un [!UICONTROL trait] ou [!UICONTROL segment], un intervalle de temps et un premier ou un tiers [!UICONTROL data sources]. Vos choix fournissent les entrées pour le modèle algorithmique. Lorsque le processus d’analyse s’exécute, il recherche les utilisateurs éligibles en fonction de caractéristiques partagées de la population sélectionnée. Une fois l’opération terminée, ces données sont disponibles dans le créateur [de](../../features/traits/about-trait-builder.md) caractéristiques où vous pouvez les utiliser pour créer des caractéristiques basées sur la [précision et la portée](../../features/traits/trait-accuracy-reach.md). De plus, vous pouvez créer des segments qui combinent des caractéristiques algorithmiques avec [!UICONTROL rules-based traits] et ajouter d’autres exigences de qualification avec [!DNL Boolean] des expressions et des opérateurs de comparaison. [!UICONTROL Look-Alike Modeling] vous permet d’extraire de la valeur de toutes les données de caractéristiques disponibles de manière dynamique.
 
 ## Avantages {#advantages}
 
@@ -27,69 +27,65 @@ Les principaux avantages de l&#39;utilisation [!UICONTROL Look-Alike Modeling] s
 
 * **Précision des données :** L’algorithme s’exécute régulièrement, ce qui permet de garder les résultats à jour et pertinents.
 * **Automatisation :** Vous n’avez pas à gérer un ensemble important de règles statiques. L&#39;algorithme trouvera des audiences pour vous.
-* **Gagnez du temps et réduisez les efforts :** Avec notre processus de modélisation, vous n’avez pas à deviner quels traits/segments peuvent fonctionner ou à passer du temps sur les campagnes pour découvrir de nouvelles audiences. Le modèle peut faire ça pour vous.
+* **Gagnez du temps et réduisez les efforts :** Avec notre processus de modélisation, vous n’avez pas à deviner ce qui [!UICONTROL traits]/[!UICONTROL segments] peut fonctionner ou passer du temps sur les campagnes pour découvrir de nouvelles audiences. Le modèle peut faire ça pour vous.
 * **Fiabilité :** La modélisation fonctionne avec des processus de détection et de qualification côté serveur qui évaluent vos propres données et les données tierces sélectionnées auxquelles vous avez accès. Cela signifie que vous n’avez pas besoin de voir les visiteurs sur votre site pour les qualifier pour une caractéristique.
 
 ## Processus{#workflow}
 
 Vous gérez les modèles dans **[!UICONTROL Audience Data > Models]**. A un niveau élevé, le processus de flux de travail implique les éléments suivants :
 
-* Sélectionnez les données de base que l’algorithme doit évaluer. Cela inclut une caractéristique ou un segment, une plage de temps et des sources de données (vos propres données et données tierces auxquelles vous avez déjà accès par le biais [!DNL Audience Manager]). Dans le processus de création de modèle, vous pouvez exclure les caractéristiques que vous ne souhaitez pas interférer avec votre modèle.
-* Enregistrez votre modèle. Une fois enregistré, le processus d’évaluation algorithmique s’exécute automatiquement. Notez toutefois que cette procédure peut prendre jusqu’à 7 jours. [!DNL Audience Manager] vous envoie un courrier électronique lorsque l’algorithme est terminé et que les résultats sont disponibles pour la création de caractéristiques.
-* Créez des caractéristiques algorithmiques dans [!UICONTROL Trait Builder].
-* Combinez des caractéristiques en segments dans [!UICONTROL Segment Builder].
-* Créez et envoyez des données de segment à une destination.
+* Sélectionnez les données de base que l’algorithme doit évaluer. Cela inclut un ou [!UICONTROL trait][!UICONTROL segment], une plage de temps et [!UICONTROL data sources] (vos propres données et données tierces auxquelles vous avez déjà accès par [!DNL Audience Manager]le biais de). Dans le processus de création de modèle, vous pouvez exclure le [!UICONTROL traits] fait que vous ne souhaitez pas interférer avec votre modèle.
+* Enregistrez votre modèle. Une fois enregistré, le processus d’évaluation algorithmique s’exécute automatiquement. Notez toutefois que cette procédure peut prendre jusqu’à 7 jours. [!DNL Audience Manager] vous envoie un courrier électronique lorsque l’algorithme est terminé et que les résultats sont disponibles pour [!UICONTROL trait] la création.
+* Créez un algorithme [!UICONTROL traits] dans [!UICONTROL Trait Builder].
+* Combinez [!UICONTROL traits] dans [!UICONTROL segments] dans [!UICONTROL Segment Builder].
+* Créez et envoyez [!UICONTROL segment] des données à un [!UICONTROL destination]utilisateur.
 
 ## Résolution des problèmes {#troubleshooting}
 
-Nous désactivons toutes les [!UICONTROL Look-Alike Model] qui ne génèrent pas de données pour trois exécutions consécutives. Notez que vous ne pouvez pas réactiver l&#39;état du modèle par la suite. Pour garantir que vos modèles génèrent des données, nous vous recommandons de créer des modèles à partir de sources de données présentant des caractéristiques suffisantes pour accumuler des données.
+Nous désactivons toutes les [!UICONTROL Look-Alike Model] qui ne génèrent pas de données pour trois exécutions consécutives. Notez que vous ne pouvez pas réactiver l&#39;état du modèle par la suite. Pour garantir que vos modèles génèrent des données, nous vous recommandons de créer des modèles à partir de sources de données avec suffisamment [!UICONTROL traits] de données pour en accumuler.
 
-## Comprendre TraitWeight {#understanding-traitweight}
+## Compréhension [!UICONTROL TraitWeight] {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] est un algorithme propriétaire conçu pour découvrir automatiquement de nouvelles caractéristiques. Il compare les données de caractéristiques de vos caractéristiques et segments actuels à toutes les autres données propriétaires et tierces auxquelles vous avez accès par le biais de [!DNL Audience Manager]. Reportez-vous à cette section pour une description du processus de découverte [!UICONTROL TraitWeight] algorithmique.
-
-<!-- traitweight.xml -->
+[!UICONTROL TraitWeight] est un algorithme propriétaire conçu pour découvrir de nouveaux [!UICONTROL traits] automatiquement. Il compare [!UICONTROL trait] les données de vos données actives [!UICONTROL traits] et [!UICONTROL segments] à toutes les autres données propriétaires et tierces auxquelles vous avez accès par le biais [!DNL Audience Manager]. Reportez-vous à cette section pour une description du processus de découverte [!UICONTROL TraitWeight] algorithmique.
 
 ![](assets/algo_model.png)
 
 Les étapes suivantes décrivent le processus d&#39; [!UICONTROL TraitWeight] évaluation.
 
-### Étape 1 : Créer une référence pour la comparaison des caractéristiques
+### Étape 1 : Créer une référence pour la [!UICONTROL Trait] comparaison
 
-Pour établir une référence, [!UICONTROL TraitWeight] mesure toutes les caractéristiques associées à une audience pendant un intervalle de 30, 60 ou 90 jours. Ensuite, il classe les caractères selon leur fréquence et leur corrélation. Le décompte des fréquences mesure les points communs. La corrélation mesure la probabilité qu’un trait ne soit présent que dans l’audience de base. Les caractéristiques qui apparaissent souvent présentent des points communs élevés, une caractéristique importante utilisée pour définir un score pondéré lorsqu’elle est combinée aux caractéristiques découvertes dans les sources de données sélectionnées.
+Pour établir une référence, [!UICONTROL TraitWeight] mesure tous les éléments [!UICONTROL traits] associés à une audience pour un intervalle de 30, 60 ou 90 jours. Ensuite, il se classe [!UICONTROL traits] selon leur fréquence et leur corrélation. Le décompte des fréquences mesure les points communs. La corrélation mesure la probabilité qu&#39;une [!UICONTROL trait] personne ne soit présente que dans l&#39;audience de référence. [!UICONTROL Traits] qui semblent souvent présenter des points communs élevés, une caractéristique importante utilisée pour définir un score pondéré lorsqu&#39;il est combiné avec [!UICONTROL traits] découvert dans votre [!UICONTROL data sources]choix.
 
-### Étape 2 : Rechercher les mêmes caractéristiques dans la source de données
+### Étape 2 : Identique [!UICONTROL Traits] dans la section [!UICONTROL Data Source]
 
-Après avoir créé une ligne de base à des fins de comparaison, l’algorithme recherche des caractéristiques identiques dans les sources de données sélectionnées. Au cours de cette étape, [!UICONTROL TraitWeight] effectue un décompte de fréquence de toutes les caractéristiques découvertes et les compare à la ligne de base. Cependant, contrairement à la ligne de base, les traits rares sont classés plus haut que ceux qui apparaissent le plus souvent. On dit que les traits rares présentent un degré élevé de spécificité. [!UICONTROL TraitWeight] évalue les combinaisons de caractéristiques de base communes et de caractéristiques de source de données peu communes (très spécifiques) comme étant plus influentes ou souhaitables que les caractéristiques communes aux deux ensembles de données. En fait, notre modèle reconnaît ces grandes caractéristiques communes et n&#39;accorde pas une priorité excessive aux ensembles de données présentant des corrélations élevées. Les traits rares obtiennent une priorité plus élevée parce qu’ils sont plus susceptibles de représenter de nouveaux utilisateurs uniques que les traits présentant une grande communauté dans l’ensemble.
+Après avoir créé une ligne de base à des fins de comparaison, l’algorithme recherche la même ligne de base [!UICONTROL traits] dans votre [!UICONTROL data sources]choix. Au cours de cette étape, [!UICONTROL TraitWeight] effectue un décompte de fréquence de toutes les [!UICONTROL traits] découvertes et les compare à la ligne de base. Cependant, contrairement à la ligne de base, les valeurs les plus rares [!UICONTROL traits] sont classées plus haut que celles qui apparaissent le plus souvent. On [!UICONTROL traits] dit que les rares ont un degré élevé de spécificité. [!UICONTROL TraitWeight] évalue les combinaisons de lignes de base communes [!UICONTROL traits] et de lignes de base inhabituelles (très spécifiques) [!UICONTROL data source] comme étant plus influentes ou souhaitables que [!UICONTROL traits] [!UICONTROL traits] communes aux deux ensembles de données. En fait, notre modèle reconnaît ces grands ensembles de données communs [!UICONTROL traits] et n&#39;accorde pas une priorité excessive aux ensembles de données présentant des corrélations élevées. Rares [!UICONTROL traits] obtiennent une priorité plus élevée parce qu’ils sont plus susceptibles de représenter de nouveaux utilisateurs uniques que [!UICONTROL traits] avec une communauté élevée dans l’ensemble.
 
 ### Étape 3 : Attribuer un Poids
 
-Dans cette étape, [!UICONTROL TraitWeight] les caractéristiques nouvellement découvertes sont classées par ordre d&#39;influence ou d&#39;opportunité. L&#39;échelle de poids est un pourcentage qui s&#39;étend de 0 % à 100 %. Les traits classés plus près de 100 % signifient qu’ils ressemblent davantage à l’audience de votre population de base. En outre, les caractéristiques fortement pondérées sont précieuses car elles représentent de nouveaux utilisateurs uniques qui peuvent se comporter de la même manière que votre audience de base établie. N&#39;oubliez pas que [!UICONTROL TraitWeight] les caractéristiques présentant une forte communauté dans la ligne de base et une grande spécificité dans les sources de données comparées sont plus précieuses que les caractéristiques communes à chaque ensemble de données.
+Dans cette étape, [!UICONTROL TraitWeight] classe les nouveaux découverts [!UICONTROL traits] par ordre d&#39;influence ou d&#39;opportunité. L&#39;échelle de poids est un pourcentage qui s&#39;étend de 0 % à 100 %. [!UICONTROL Traits] classé plus près de 100 % signifie qu’ils ressemblent davantage à l’audience de votre population de base. En outre, les valeurs pondérées [!UICONTROL traits] sont précieuses car elles représentent de nouveaux utilisateurs uniques qui peuvent se comporter de la même manière que votre audience de base établie. N’oubliez pas que [!UICONTROL TraitWeight] les données comparées présentent [!UICONTROL traits] des points communs élevés dans la ligne de base et une grande spécificité dans les sources de données comparées, ce qui est plus intéressant que [!UICONTROL traits] commun dans chaque jeu de données.
 
 ### Étape 4 : Notation des utilisateurs
 
-Chaque utilisateur des sources de données sélectionnées obtient un score d’utilisateur égal à la somme de tous les poids des caractéristiques influentes du profil de cet utilisateur. Les scores de l’utilisateur sont ensuite normalisés entre 0 et 100 %.
+Chaque utilisateur sélectionné [!UICONTROL data sources] reçoit un score d&#39;utilisateur égal à la somme de tous les poids de l&#39;influent [!UICONTROL traits] sur son profil. Les scores de l’utilisateur sont ensuite normalisés entre 0 et 100 %.
 
 ### Étape 5 : Affichage et utilisation des résultats
 
-[!DNL Audience Manager] affiche les résultats du modèle pondéré dans [!UICONTROL Trait Builder]. Lorsque vous souhaitez créer une caractéristique algorithmique, [!UICONTROL Trait Builder] vous permet de créer des caractéristiques basées sur le score pondéré généré par l’algorithme au cours d’une exécution de données. Vous pouvez choisir une précision plus élevée afin de ne qualifier que les utilisateurs dont les scores d’utilisateur sont très élevés et sont donc très similaires à l’audience de base, plutôt que le reste de l’audience. Si vous souhaitez atteindre une plus grande audience (portée), vous pouvez réduire la précision.
+[!DNL Audience Manager] affiche les résultats du modèle pondéré dans [!UICONTROL Trait Builder]. Lorsque vous souhaitez créer un [!UICONTROL algorithmic trait]algorithme, [!UICONTROL Trait Builder] vous permet de créer [!UICONTROL traits] en fonction du score pondéré généré par l’algorithme au cours d’une exécution de données. Vous pouvez choisir une précision plus élevée afin de ne qualifier que les utilisateurs dont les scores d’utilisateur sont très élevés et sont donc très similaires à l’audience de base, plutôt que le reste de l’audience. Si vous souhaitez atteindre une plus grande audience (portée), vous pouvez réduire la précision.
 
-### Étape 6 : Réévaluer la signification d’une caractéristique sur plusieurs cycles de traitement
+### Étape 6 : Réévaluer l’importance d’un cycle de traitement [!UICONTROL Trait] sur plusieurs
 
-Régulièrement, [!UICONTROL TraitWeight] réévalue l&#39;importance d&#39;un trait en fonction de la taille et du changement de la population de ce trait. Cela se produit lorsque le nombre d’utilisateurs qualifiés pour cette caractéristique augmente ou diminue au fil du temps. Ce comportement est plus clairement visible dans les caractères qui deviennent très grands. Par exemple, supposons que l’algorithme utilise la caractéristique A pour la modélisation. À mesure que la population de la caractéristique A augmente, [!UICONTROL TraitWeight] réévalue l’importance de cette caractéristique et peut attribuer un score plus faible ou l’ignorer. Dans ce cas, le trait A est trop commun ou trop grand pour dire quoi que ce soit de significatif sur sa population. Après [!UICONTROL TraitWeight] avoir réduit la valeur de la caractéristique A (ou l’avoir ignorée dans le modèle), la population de la caractéristique algorithmique diminue. La liste des caractéristiques influentes reflète l&#39;évolution de la population de base. Utilisez la liste des caractéristiques influentes pour comprendre pourquoi ces changements se produisent.
+Régulièrement, [!UICONTROL TraitWeight] réévalue l&#39;importance d&#39;un [!UICONTROL trait] rapport en fonction de la taille et de l&#39;évolution de la population de ce [!UICONTROL trait]groupe. Cela se produit lorsque le nombre d&#39;utilisateurs qualifiés pour cela [!UICONTROL trait] augmente ou diminue au fil du temps. Ce comportement est plus clairement visible dans les caractères qui deviennent très grands. Supposons, par exemple, que l’algorithme utilise [!UICONTROL trait A] pour la modélisation. Au fur et à mesure que la population augmente, [!UICONTROL trait A] réévalue l&#39;importance de cette situation [!UICONTROL TraitWeight] [!UICONTROL trait] et peut attribuer un score plus faible ou l&#39;ignorer. Dans ce cas, [!UICONTROL trait A] il est trop courant ou trop important pour dire quoi que ce soit d&#39;important sur sa population. Après [!UICONTROL TraitWeight] avoir réduit la valeur de [!UICONTROL trait A] (ou l’avoir ignorée dans le modèle), la population de la caractéristique algorithmique diminue. La liste de l&#39;influence [!UICONTROL traits] reflète l&#39;évolution de la population de base. Utilisez la liste de l’influent [!UICONTROL traits] pour comprendre pourquoi ces changements se produisent.
 
 Liens connexes :
 
 * [Créateur de modèles](../../features/algorithmic-models/create-model.md)
 * [Précision et portée](../../features/traits/trait-accuracy-reach.md)
 
-## Planification de la mise à jour des modèles et des caractéristiques similaires {#update-schedule}
+## Mettre à jour le calendrier pour [!UICONTROL Look-Alike Models] et [!UICONTROL Traits] {#update-schedule}
 
-Planification de la création et de la mise à jour de modèles et de caractéristiques algorithmiques nouveaux ou existants.
+Planification de la création et de la mise à jour pour les nouveaux programmes [!UICONTROL algorithmic models] et les programmes existants [!UICONTROL traits].
 
-<!-- c_model_update_schedule.xml -->
-
-### Planification de la création et de la mise à jour de modèles ressemblants
+### [!UICONTROL Look-Alike Model] Planification de la création et de la mise à jour
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -118,7 +114,7 @@ Planification de la création et de la mise à jour de modèles et de caractéri
  </tbody>
 </table>
 
-### Planification de la création et de la mise à jour des caractéristiques
+### [!UICONTROL Look-Alike Trait] Planification de la création et de la mise à jour
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
@@ -143,20 +139,16 @@ Planification de la création et de la mise à jour de modèles et de caractéri
 
 La vue de liste est un espace de travail central qui vous permet de créer, de réviser et de gérer des modèles.
 
-<!-- c_models_list_view.xml -->
-
-La page liste Modèles contient des fonctionnalités et des outils qui vous aident à :
+La page [!UICONTROL Models] liste contient des fonctionnalités et des outils qui vous aident à :
 
 * Créez de nouveaux modèles.
 * Gérer les modèles existants (modifier, suspendre, supprimer ou cloner).
 * Rechercher des modèles par nom.
-* Créez des caractéristiques algorithmiques à l’aide de n’importe quel modèle donné.
+* Créez [!UICONTROL algorithmic traits] à l’aide de n’importe quel modèle donné.
 
 ## Vue de résumé des modèles {#models-summary-view}
 
-La page de résumé affiche les détails du modèle tels que le nom, la portée/précision, l&#39;historique de traitement et les caractéristiques créées à partir du modèle. La page comprend également des paramètres qui vous permettent de créer et de gérer des modèles. Cliquez sur un nom de modèle dans la liste de résumé pour en afficher les détails.
-
-<!-- c_models_summary.xml -->
+La page de résumé affiche les détails du modèle tels que le nom, la portée/précision, l’historique de traitement et l’historique [!UICONTROL traits] créé à partir du modèle. La page comprend également des paramètres qui vous permettent de créer et de gérer des modèles. Cliquez sur un nom de modèle dans la liste de résumé pour en afficher les détails.
 
 La page de résumé du modèle comprend les sections suivantes.
 
