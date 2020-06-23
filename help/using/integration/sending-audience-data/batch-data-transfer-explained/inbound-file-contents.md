@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Syntaxe du contenu du fichier de données entrant, caractères non valides, variables et exemples
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -78,9 +78,9 @@ Le tableau liste et définit les variables utilisées dans un fichier de donnée
  </tbody> 
 </table>
 
-## Formatage des ID de caractéristiques {#formatting-trait-ids}
+## Formatage [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-Le tableau suivant décrit les préfixes qui identifient les noms ou les identifiants de caractéristiques dans un fichier de données entrant. Consultez les [exemples de fichiers](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) pour en savoir plus.
+Le tableau suivant décrit les préfixes qui identifient [!UICONTROL trait] les noms ou les identifiants dans un fichier de données entrant. Consultez les [exemples de fichiers](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) pour en savoir plus.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ Le tableau suivant décrit les préfixes qui identifient les noms ou les identif
  </tbody>
 </table>
 
-## Caractères non valides dans les ID de caractéristiques, les ID d&#39;utilisateur et les paires clé-valeur {#invalid-chars}
+## Caractères non valides dans les paires [!UICONTROL Trait IDs], [!UICONTROL User IDs] et valeur-clé {#invalid-chars}
 
-### ID de caractéristiques
+### [!UICONTROL Trait IDs]
 
-Les identifiants de caractéristiques sont composés uniquement de caractères numériques. Nous vous demandons d&#39;inclure *uniquement des caractéristiques* intégrées dans les fichiers de données entrants. Nous ne traitons aucun autre type de caractéristique dans le transfert de données entrant.
+[!UICONTROL Trait IDs] se compose uniquement de caractères numériques. Nous vous demandons d&#39;inclure *uniquement[!UICONTROL onboarded traits]*dans les fichiers de données entrants. Nous ne traitons aucun autre[!UICONTROL trait]type dans le transfert de données entrant.
 
-### Identifiants d’utilisateurs
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ Les noms de valeur mal formatés dans une paire clé-valeur posent également pr
 
 ## Exemple de matrice {#examples-matrix}
 
-Le graphique ci-dessous présente des exemples de la manière appropriée de formater vos fichiers entrants, en fonction du [type d’ID](../../../reference/ids-in-aam.md) et de la méthode d’ajout de caractéristiques aux profils.
+Le graphique ci-dessous présente des exemples de la manière appropriée de formater vos fichiers entrants, en fonction du [type d’ID](../../../reference/ids-in-aam.md) et de la méthode d’ajout [!UICONTROL traits] aux profils.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -283,7 +283,7 @@ Le graphique ci-dessous présente des exemples de la manière appropriée de for
 
 ### Example 1 {#example-1}
 
-Utilisez les ID de caractéristique pour envoyer des informations de qualification de caractéristique pour [!DNL Audience Manager][!DNL UUIDs].
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations [!UICONTROL trait] de qualification pour [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ Utilisez les ID de caractéristique pour envoyer des informations de qualificati
 
 ### Example 2 {#example-2}
 
-Utilisez les ID de caractéristique pour envoyer des informations d’exclusion de caractéristique pour [!DNL Audience Manager][!DNL UUIDs].
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations [!UICONTROL trait] d&#39;exclusion pour [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ ou
 
 ### Example 3 {#example-3}
 
-Envoyez des paires clé-valeur pour ajouter des informations de qualification de caractéristiques pour [!DNL Audience Manager][!DNL UUIDs].
+Envoyez des paires clé-valeur pour ajouter des informations [!UICONTROL trait] de qualification pour [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ ou
 
 ### Example 4 {#example-4}
 
-Utilisez le préfixe ic pour envoyer des informations de qualification de caractéristiques pour [!DNL Audience Manager][!DNL UUIDs].
+Utilisez le `ic` préfixe pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ ou
 
 ### Example 5 {#example-5}
 
-Utilisez les ID de caractéristiques pour envoyer des informations de qualification de caractéristiques pour [!DNL Android] les périphériques.
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL Android] les périphériques.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Utilisez les ID de caractéristiques pour envoyer des informations d’exclusion de caractéristiques pour [!DNL Android] les périphériques.
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations de [!UICONTROL trait] disqualification pour [!DNL Android] les périphériques.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Envoyez des paires clé-valeur pour ajouter des informations de qualification de caractéristiques pour [!DNL Android] les périphériques.
+Envoyez des paires clé-valeur pour ajouter des informations de [!UICONTROL trait] qualification pour [!DNL Android] les périphériques.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Utilisez le préfixe ic pour envoyer des informations de qualification de caractéristiques pour [!DNL Android] les périphériques.
+Utilisez le `ic` préfixe pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL Android] les périphériques.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Utilisez les ID de caractéristiques pour envoyer des informations de qualification de caractéristiques pour [!DNL iOS] les périphériques.
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL iOS] les périphériques.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ Utilisez les ID de caractéristiques pour envoyer des informations de qualificat
 
 ### Example 10 {#example-10}
 
-Utilisez les ID de caractéristiques pour envoyer des informations d’exclusion de caractéristiques pour [!DNL iOS] les périphériques.
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations de [!UICONTROL trait] disqualification pour [!DNL iOS] les périphériques.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ ou
 
 ### Example 11 {#example-11}
 
-Envoyez des paires clé-valeur pour ajouter des informations de qualification de caractéristiques pour [!DNL iOS] les périphériques.
+Envoyez des paires clé-valeur pour ajouter des informations de [!UICONTROL trait] qualification pour [!DNL iOS] les périphériques.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ ou
 
 ### Example 12 {#example-12}
 
-Utilisez le préfixe ic pour envoyer des informations de qualification de caractéristiques pour [!DNL iOS] les périphériques.
+Utilisez le `ic` préfixe pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL iOS] les périphériques.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ ou
 
 ### Example 13 {#example-13}
 
-Utilisez les ID de caractéristique pour envoyer des informations de qualification de caractéristique pour [!DNL DPUUIDs].
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Utilisez les ID de caractéristique pour envoyer des informations d’exclusion de caractéristique pour [!DNL DPUUIDs].
+Utilisez [!UICONTROL trait IDs] pour envoyer des informations [!UICONTROL trait] d&#39;exclusion pour [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -479,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Envoyez des paires clé-valeur pour ajouter des informations de qualification de caractéristiques pour [!DNL DPUUIDs].
+Envoyez des paires clé-valeur pour ajouter des informations de [!UICONTROL trait] qualification pour [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Utilisez le `ic` préfixe pour envoyer des informations de qualification de caractéristiques pour [!DNL DPUUIDs].
+Utilisez le `ic` préfixe pour envoyer des informations de [!UICONTROL trait] qualification pour [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
