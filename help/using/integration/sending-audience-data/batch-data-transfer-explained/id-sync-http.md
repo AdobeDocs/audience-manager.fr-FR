@@ -6,19 +6,17 @@ solution: Audience Manager
 title: Synchronisation des identifiants pour les transferts de données entrants
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 3%
 
 ---
 
 
-# Synchronisation des identifiants pour les transferts de données entrants{#id-synchronization-for-inbound-data-transfers}
+# Synchronisation des identifiants pour les transferts de données entrants {#id-synchronization-for-inbound-data-transfers}
 
 Décrit la syntaxe et les paramètres utilisés dans l’ `HTTP` appel initial pour synchroniser les ID utilisateur entre un fournisseur et [!DNL Audience Manager]. La synchronisation des identifiants peut commencer une fois que vous avez envoyé votre taxonomie de données à [!DNL Audience Manager].
-
-<!-- c_id_sync_in.xml -->
 
 La synchronisation des identifiants est la première étape du processus de transfert des données asynchrones et entrants. Au cours de cette étape, [!DNL Audience Manager] et le fournisseur comparent les ID de leurs visiteurs de site respectifs et les font correspondre. Par exemple, un [!DNL Audience Manager] client peut connaître un utilisateur par ID 123. Toutefois, votre partenaire de données peut identifier cet utilisateur avec l’ID 456. Le processus de synchronisation permet [!DNL Audience Manager] à un fournisseur de données de concilier ces différents identifiants et d’identifier les utilisateurs dans leurs systèmes respectifs. Une fois terminé, [!DNL Audience Manager] et votre partenaire tiers doivent avoir les identifiants correspondants pour chaque utilisateur unique affiché sur nos réseaux.
 
@@ -73,7 +71,7 @@ L&#39;appel [!DNL URL] de synchronisation des identifiants entrants doit conteni
  </tbody> 
 </table>
 
-## Événement d’ID déclaré {#declared-id-event}
+## [!UICONTROL Declared ID] Événement {#declared-id-event}
 
 Pour plus d’informations, voir Identifiants [](../../../features/declared-ids.md)déclarés.
 
