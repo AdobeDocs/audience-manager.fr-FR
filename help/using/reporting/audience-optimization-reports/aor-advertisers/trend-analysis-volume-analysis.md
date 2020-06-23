@@ -1,33 +1,36 @@
 ---
 description: Ces rapports renvoient des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image des performances de votre campagne au fil du temps.
 seo-description: Ces rapports renvoient des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image des performances de votre campagne au fil du temps.
-seo-title: Rapports d’analyse des tendances et d’analyse des volumes
+seo-title: Rapports d'Analyse des tendances et d'Analyse des volumes
 solution: Audience Manager
-title: Rapports d’analyse des tendances et d’analyse des volumes
+title: Rapports d'Analyse des tendances et d'Analyse des volumes
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9326b61f27f6c529567ab9b26694998f0b5dafb3
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
 
-# Rapports d’analyse des tendances et d’analyse des volumes{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] et rapports [!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
 
 Ces rapports renvoient des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image des performances de votre campagne au fil du temps.
 
-## Exemple de rapport Analyse des tendances {#sample-trend-analysis}
+## Exemple de rapport [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
-Le [!UICONTROL Trend Analysis] rapport renvoie des données dans un graphique linéaire pour un intervalle de 14 jours uniquement. Dans cet exemple, le rapport montre les tendances d’impression, de clics publicitaires et de conversion pour un ensemble de segments mappés.
+Le [!UICONTROL Trend Analysis] rapport renvoie des données sur un graphique linéaire pour un intervalle de 14 jours seulement. Dans cet exemple, le rapport affiche les tendances d’impression, de clics publicitaires et de conversion pour un ensemble de segments mappés.
 
 ![](assets/trend-analysis.png)
 
-## Exemple de rapport Analyse du volume {#sample-volume-analysis}
+## Exemple de rapport [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
-Le [!UICONTROL Volume Analysis] rapport renvoie les données dans un graphique à barres pour la période sélectionnée. Dans cet exemple, le rapport montre l’impression, le clic publicitaire et les conversions par volume pour un ensemble de segments mappés.
+Le [!UICONTROL Volume Analysis] rapport renvoie les données sous forme de graphique à barres pour la période sélectionnée. Dans cet exemple, le rapport montre les impressions, les clics publicitaires et les conversions par volume pour un ensemble de segments mappés.
 
 >[!NOTE]
 >
->Les périodes de 7 jours et de 30 jours sont disponibles uniquement pour les **[!UICONTROL Date Through]** dates du dimanche.
+>Les périodes de 7 jours et 30 jours de recherche en arrière ne sont disponibles que pour les **[!UICONTROL Date Through]** dates du dimanche.
 
 ![](assets/volume-analysis.png)
 
