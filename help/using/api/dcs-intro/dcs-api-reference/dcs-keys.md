@@ -7,15 +7,15 @@ title: Attributs pris en charge pour les appels d’API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
 
 
-# Attributs pris en charge pour les appels d’API DCS {#supported-attributes-for-dcs-api-calls}
+# Attributs pris en charge pour les [!DNL DCS][!DNL API] appels {#supported-attributes-for-dcs-api-calls}
 
 Liste et décrit la syntaxe et les attributs pris en charge (ou paires clé-valeur) que vous pouvez transmettre à la [!UICONTROL Data Collection Servers] ([!DNL DCS]). Ces informations peuvent vous aider à formater vos [!DNL DCS] requêtes et à comprendre les paramètres renvoyés par ce système.
 
@@ -50,7 +50,7 @@ Le module [!DNL DCS] repose sur des préfixes spécifiques ajoutés aux clés da
  </tbody> 
 </table>
 
-## d_ Attributs {#d-attributes}
+## [!DNL d_] Attributs {#d-attributes}
 
 Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une réponse de la part de la [!DNL DCS]. Si vous souhaitez que le [!DNL DCS] renvoie une réponse, `d_rtbd=json` il est nécessaire.
 
