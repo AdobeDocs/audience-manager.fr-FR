@@ -5,15 +5,15 @@ seo-title: Module externe Audience Manager pour IAB TCF
 solution: Audience Manager
 title: Module externe Audience Manager pour IAB TCF
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2449'
 ht-degree: 7%
 
 ---
 
 
-# Module externe Audience Manager pour IAB TCF {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## Aperçu
 
@@ -43,6 +43,10 @@ Actuellement, l&#39;Audience Manager ne prend pas en charge :
 
 * workflows de dispositifs portables ;
 * Approbation imminente des exportations de segments.
+
+## Mise à niveau vers [!DNL IAB TCF v2.0] {#upgrading}
+
+Les clients qui effectuent la mise à niveau de leur [!DNL Audience Manager Plug-in for IAB TCF] mise en oeuvre de [!DNL IAB TCF] v1.1 à [!DNL IAB TCF] v2.0, ou qui activent [!DNL IAB TCF] v2.0 pour la première fois, doivent tous suivre les mêmes directives concernant les conditions préalables et l’implémentation, comme décrit ci-dessous.
 
 ## Conditions préalables {#prerequisites}
 
@@ -156,7 +160,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 Le cas d’utilisation est décrit dans l’image et dans les étapes ci-dessous. Début à gauche de l&#39;image :
 
-1. Votre utilisateur reçoit une impression via un serveur d’annonces. Cela se traduit par un appel [](../../integration/media-data-integration/impression-data-pixels.md) pixel vers nos serveurs de collecte de données (DCS).
+1. Votre utilisateur reçoit une impression via un serveur d’annonces. Cela se traduit par un appel [de](../../integration/media-data-integration/impression-data-pixels.md) pixels vers nos serveurs de collecte de données (DCS).
 2. L&#39;Audience Manager vérifie si l&#39;indicateur GDPR s&#39;applique. Dans le cas contraire, l’Audience Manager stocke les données transmises dans les variables `gdpr` et `gdpr_consent` dans des appels en pixels.
 3. Si la chaîne CCI IAB est présente et contient les autorisations requises, l’Audience Manager stocke les données transmises dans les variables `gdpr` et `gdpr_consent` dans les appels en pixels.
 4. Si la chaîne TC IAB est manquante ou ne dispose pas des autorisations requises, l’Audience Manager supprime les données transmises dans les variables `gdpr` et `gdpr_consent` dans les appels en pixels.
