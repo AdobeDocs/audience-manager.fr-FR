@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '735'
 ht-degree: 20%
 
 ---
@@ -98,7 +98,7 @@ Les appels de événement d’impression acceptent les données formées en pair
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p> <p><code>gdpr</code> peut être 0 (le RGPD ne s'applique pas) ou 1 (le RGPD s'applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p> </td> 
+   <td colname="col2"> <p>En lien avec le <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">module externe Audience Manager pour IAB TCF.</a></p> <p><code>gdpr</code> peut être 0 (le RGPD ne s'applique pas) ou 1 (le RGPD s'applique).</p> <p>La valeur par défaut est 0.</p><p>Facultatif.</p><p>Si <code>gdpr=1</code>le paramètre <code>gdpr_consent</code> doit contenir le paramètre de consentement TC de l'IAB pour traiter les données avec succès. Sinon, toutes les données seront ignorées.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
