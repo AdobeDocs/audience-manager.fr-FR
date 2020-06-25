@@ -1,39 +1,43 @@
 ---
-description: Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires et les segments d’Audience Manager.
-seo-description: Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires et les segments d’Audience Manager.
+description: Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique à chaleur qui présente les chevauchements élevés et faibles entre vos unités publicitaires et vos segments d’Audience Manager.
+seo-description: Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique à chaleur qui présente les chevauchements élevés et faibles entre vos unités publicitaires et vos segments d’Audience Manager.
 seo-title: Chevauchement de segment vers l’unité publicitaire
 solution: Audience Manager
 title: Chevauchement de segment vers l’unité publicitaire
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
 
 # Chevauchement de segment vers l’unité publicitaire{#segment-to-ad-unit-overlap}
 
-Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires et les segments d’Audience Manager.
+Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique à chaleur qui présente les chevauchements élevés et faibles entre vos unités publicitaires et vos segments d’Audience Manager.
 
 ## Cas d’utilisation {#use-cases}
 
-Le [!UICONTROL Segment to Ad Unit Overlap] rapport vous permet de comprendre les audiences qui visitent vos propriétés Web. Le rapport affiche le chevauchement entre les membres de vos [!DNL Audience Manager] segments et le nombre de visiteurs de vos propriétés Web. Un chevauchement plus important signifie que de nombreux membres d’un segment visitent votre propriété Web.
+Grâce au [!UICONTROL Segment to Ad Unit Overlap] rapport, vous pouvez identifier les audiences qui visitent vos propriétés Web. Le rapport affiche le chevauchement entre les membres de vos [!DNL Audience Manager] segments et le nombre de visiteurs de vos propriétés Web. Un chevauchement plus élevé signifie que de nombreux membres d’un segment visitent votre propriété Web.
 
-## Utilisation du rapport Chevauchement de segment vers une unité publicitaire {#using-the-report}
+## Utilisation du rapport Chevauchement de segment vers l’unité publicitaire {#using-the-report}
 
-Utilisez les commandes **[!UICONTROL Top N Ad Units]** et **[!UICONTROL Top N Segments]** pour sélectionner le nombre d’unités publicitaires et de segments souhaité pour le chevauchement. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chaque élément.
+Utilisez les **[!UICONTROL Top N Ad Units]** commandes et **[!UICONTROL Top N Segments]** pour sélectionner le nombre d’unités publicitaires et de segments souhaité pour le chevauchement. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d’eux.
 
-Utilisez les commandes **Plage** de jour et **Date jusqu’au bout** pour ajuster la plage de retour arrière. Notez que les périodes de 7 jours et de 30 jours sont disponibles uniquement pour les dates du dimanche.
+Utilisez les commandes Plage **de** jour et **Date jusqu’au début** pour ajuster la plage de recherche en amont. Notez que les périodes de 7 et 30 jours de recherche en arrière ne sont disponibles que pour les dates du dimanche.
 
-Utilisez les **[!UICONTROL Segment Name]** zones et les **[!UICONTROL Ad Unit]** zones pour filtrer les segments et les unités publicitaires.
+Utilisez les **[!UICONTROL Segment Name]** zones et les **[!UICONTROL Ad Unit]** zones pour filtrer n’importe quel segment et unité publicitaire.
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de l’ [importation de fichiers de données DFP dans Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous garantissez ainsi que le rapport indique la propriété web comme [!UICONTROL Ad Unit] au lieu de la propriété [!UICONTROL Ad Unit ID].
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de [l’importation de fichiers de données DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Ad Unit] que non pas en tant que [!UICONTROL Ad Unit ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
-Votre [!UICONTROL Segment to Ad Unit Overlap] rapport pourrait ressembler à celui ci-dessous. Passez la souris sur une cellule pour obtenir plus d’informations sur ce chevauchement particulier. Voir la description des informations supplémentaires dans le tableau ci-dessous.
+Votre [!UICONTROL Segment to Ad Unit Overlap] rapport peut ressembler à celui qui suit. Passez la souris sur une cellule pour obtenir plus d’informations sur ce chevauchement particulier. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
 ![](assets/publisher_segment_ad_unit_overlap.png)
 
@@ -51,11 +55,11 @@ Votre [!UICONTROL Segment to Ad Unit Overlap] rapport pourrait ressembler à cel
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre de segments uniques en temps réel</span> </p> </td> 
-   <td colname="col2"> <p>Nombre de visiteurs uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Nombre de visiteurs uniques vus en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre d'unités publicitaires uniques</span> </p> </td> 
-   <td colname="col2"> <p>Nombre de visiteurs pour cette unité publicitaire spécifique. Ces informations sont extraites des journaux DFP. </p> </td> 
+   <td colname="col2"> <p>Nombre de vos visiteurs pour cette unité publicitaire spécifique. Ces informations sont extraites des journaux DFP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre de chevauchements uniques</span> </p> </td> 
@@ -63,7 +67,7 @@ Votre [!UICONTROL Segment to Ad Unit Overlap] rapport pourrait ressembler à cel
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Pourcentage de chevauchement</span> </p> </td> 
-   <td colname="col2"> <p>Le chevauchement entre les populations d’unités publicitaires et de segments. Il s’agit du nombre <span class="wintitle"> unique de chevauchement des</span>segments, exprimé en pourcentage des <span class="wintitle"></span>segments en temps réel. </p> </td> 
+   <td colname="col2"> <p>Le chevauchement entre les populations d’unités publicitaires et de segments. Il s'agit du décompte <span class="wintitle"> unique</span>de chevauchement, exprimé en pourcentage des valeurs uniques <span class="wintitle"> en temps réel du</span>segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>
