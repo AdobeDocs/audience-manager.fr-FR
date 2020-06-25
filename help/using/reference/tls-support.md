@@ -1,25 +1,29 @@
 ---
-description: Le protocole TLS (Transport Layer Security) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l'intégrité des informations transmises entre les systèmes. En mai 2018, il existait trois versions du protocole TLS utilisant TLS 1.0, 1.1 et 1.2.
-seo-description: Le protocole TLS (Transport Layer Security) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l'intégrité des informations transmises entre les systèmes. En mai 2018, il existait trois versions du protocole TLS utilisant TLS 1.0, 1.1 et 1.2.
+description: 'Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l''intégrité de l''information transmise entre les systèmes. En mai 2018, il y avait trois versions du protocole TLS en cours d''utilisation : TLS 1.0, 1.1 et 1.2.'
+seo-description: 'Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l''intégrité de l''information transmise entre les systèmes. En mai 2018, il y avait trois versions du protocole TLS en cours d''utilisation : TLS 1.0, 1.1 et 1.2.'
 seo-title: Dépréciation de TLS 1.0 et 1.1
 solution: Audience Manager
 title: Dépréciation de TLS 1.0 et 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
+feature: reference
 translation-type: tm+mt
-source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 30%
 
 ---
 
 
 # Dépréciation de TLS 1.0 et 1.1{#tls-deprecation}
 
-Le protocole TLS (Transport Layer Security) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l&#39;intégrité des informations transmises entre les systèmes. En mai 2018, trois versions du protocole TLS étaient utilisées : TLS 1.0, 1.1 et 1.2.
+Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l&#39;intégrité de l&#39;information transmise entre les systèmes. En mai 2018, trois versions du protocole TLS étaient utilisées : TLS 1.0, 1.1 et 1.2.
 
-En mars 2019, [!DNL Adobe] le soutien au [!DNL TLS 1.0] protocole a cessé. La fonctionnalité d’Adobe Audience Manager ne fonctionne pas pour les utilisateurs finaux qui utilisent des navigateurs uniquement pris en charge [!DNL TLS 1.0].
+En mars 2019, [!DNL Adobe] le soutien au [!DNL TLS 1.0] protocole a pris fin. La fonctionnalité d’Adobe Audience Manager ne fonctionne pas pour les utilisateurs finaux qui utilisent des navigateurs qui ne prennent en charge que [!DNL TLS 1.0].
 
-En mars 2020, [!DNL Adobe] il mettra fin au soutien au [!DNL TLS 1.1] protocole. La fonctionnalité d’Adobe Audience Manager cessera de fonctionner pour vos utilisateurs finaux qui utilisent des navigateurs qui ne prennent en charge que [!DNL TLS 1.1].
+En mars 2020, [!DNL Adobe] [!DNL TLS 1.1] le protocole cessera d&#39;être soutenu. La fonctionnalité d’Adobe Audience Manager cessera de fonctionner pour les utilisateurs finaux qui utilisent des navigateurs qui ne prennent en charge que [!DNL TLS 1.1].
 
-Nous recommandons vivement l&#39;utilisation de [!DNL TLS 1.2], qui est, au moment de la rédaction du présent document, la dernière version du protocole. Tous les navigateurs modernes utilisent [!DNL TLS 1.2]. Nous avons rassemblé pour vous une liste de navigateurs, versions et leur [!DNL TLS] support. Pour plus d&#39;informations, visitez [ce lien](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Wikipedia.
+Nous recommandons fortement l&#39;utilisation de [!DNL TLS 1.2], qui est, au moment de la rédaction du présent rapport, la dernière version du protocole. Tous les navigateurs modernes utilisent [!DNL TLS 1.2]. Nous avons collecté pour vous une liste de navigateurs, de versions et de leur [!DNL TLS] support. Pour plus d&#39;informations, visitez [ce lien](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Wikipédia.
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
@@ -76,7 +80,7 @@ Nous recommandons vivement l&#39;utilisation de [!DNL TLS 1.2], qui est, au mome
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Navigateur Google Android OS </p> </td> 
+   <td colname="col1" morerows="2"> <p>Navigateur du système d’exploitation Google Android </p> </td> 
    <td colname="col2"> <p>Android 1.0 - 4.0.4 </p> </td> 
    <td colname="col3" morerows="2"> S.O. </td> 
    <td colname="col4"> <p>Oui </p> </td> 
@@ -273,7 +277,7 @@ Nous recommandons vivement l&#39;utilisation de [!DNL TLS 1.2], qui est, au mome
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Microsoft Edge et Microsoft Edge for Mobile </p> </td> 
+   <td colname="col1"> <p>Microsoft Edge et Microsoft Edge pour Mobile </p> </td> 
    <td colname="col2"> <p>Toutes les versions </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_87B9CD9D72CA43A1A4DC824C5DEA3638"> 
