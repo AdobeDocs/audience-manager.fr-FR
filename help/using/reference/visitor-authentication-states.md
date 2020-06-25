@@ -1,20 +1,24 @@
 ---
-description: L’état d’authentification du visiteur dans Audience Manager détermine si les informations sur la nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. Audience Manager traite de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
+description: L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
 keywords: dpm.demdex.net
-seo-description: L’état d’authentification du visiteur dans Audience Manager détermine si les informations sur la nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. Audience Manager traite de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
-seo-title: États d’authentification des Visiteurs dans Audience Manager
+seo-description: L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
+seo-title: États d'authentification des Visiteurs dans l'Audience Manager
 solution: Audience Manager
-title: États d’authentification des Visiteurs dans Audience Manager
+title: États d'authentification des Visiteurs dans l'Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
+feature: reference
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 1%
 
 ---
 
 
-# États d’authentification des Visiteurs dans Audience Manager{#visitor-authentication-states-in-audience-manager}
+# États d&#39;authentification des Visiteurs dans l&#39;Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-L’état d’authentification du visiteur dans Audience Manager détermine si les informations sur la nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. Audience Manager traite de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
+L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
 
 À partir de la version 1.5 du service [!DNL Experience Cloud] d’ID, la `setCustomerID` méthode inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur état [d’](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)authentification. [!DNL Audience Manager] gère différemment les caractéristiques réalisées, en fonction de l’état d’authentification transmis dans l’appel et de la règle [de fusion](../features/profile-merge-rules/merge-rules-dashboard.md) de Profil que vous utilisez pour la segmentation.
 
