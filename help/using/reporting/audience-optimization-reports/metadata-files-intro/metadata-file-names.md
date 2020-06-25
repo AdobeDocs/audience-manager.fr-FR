@@ -1,21 +1,25 @@
 ---
-description: Nommez votre fichier de métadonnées Optimisation de l’audience en fonction de ces spécifications.
-seo-description: Nommez votre fichier de métadonnées Optimisation de l’audience en fonction de ces spécifications.
+description: Nommez votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
+seo-description: Nommez votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
 seo-title: Conventions de dénomination des fichiers de métadonnées
 solution: Audience Manager
 title: Conventions de dénomination des fichiers de métadonnées
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
 
 # Conventions de dénomination des fichiers de métadonnées{#naming-conventions-for-metadata-files}
 
-Nommez votre fichier de métadonnées Optimisation de l’audience en fonction de ces spécifications.
+Nommez votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
 
-## Syntaxe et catégories d’ID {#syntax}
+## Catégories de syntaxe et d’ID {#syntax}
 
 La syntaxe suivante définit la structure d’un nom de fichier de métadonnées bien formé. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes et ne changent pas.
 
@@ -41,9 +45,9 @@ Dans le nom du fichier de métadonnées, l’ID enfant est un identifiant qui cl
 1. Site
 1. Advertiser (en cas d’utilisation de codes d’intégration dans une source [de](../../../features/manage-datasources.md#details)données)
 1. Ordre d’insertion (E/S)
-1. Vertical (c.-à-d. une catégorie spécifique de l’industrie ou de l’entreprise, comme "ordinateurs", "automobiles", "immeubles", etc.)
+1. Vertical (c.-à-d. une catégorie industrielle ou commerciale spécifique telle que &quot;ordinateurs&quot;, &quot;automobiles&quot;, &quot;immobilier&quot;, etc.)
 1. Tactique
-1. Entreprise ou marque
+1. Unité commerciale ou marque
 
 ## Exemple {#example}
 
