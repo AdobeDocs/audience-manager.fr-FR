@@ -6,8 +6,12 @@ seo-title: Paires clé-valeur expliquées
 solution: Audience Manager
 title: Paires clé-valeur expliquées
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +26,7 @@ c_key_value_explained.xml
 
  -->
 
-Une paire clé-valeur se compose de deux éléments de données connexes : Une clé, qui est une constante qui définit l’ensemble de données (par exemple, sexe, couleur, prix), et une valeur, qui est une variable qui appartient à l’ensemble (par exemple, mâle/femelle, vert, 100). Entièrement formée, une paire clé-valeur peut se présenter comme suit :
+Une paire clé-valeur se compose de deux éléments de données connexes : Une clé, qui est une constante qui définit l&#39;ensemble de données (par exemple, sexe, couleur, prix), et une valeur, qui est une variable qui appartient à l&#39;ensemble (par exemple, mâle/femelle, vert, 100). Entièrement formée, une paire clé-valeur peut se présenter comme suit :
 
 * `gender = male`
 * `color = green`
@@ -30,7 +34,7 @@ Une paire clé-valeur se compose de deux éléments de données connexes : Une c
 
 ## Paires de valeurs clés standard et sérialisées {#standard-serialized-pairs}
 
-Les destinations acceptent les données clé-valeur dans *`standard`* ou *`serialized`* le format. Le formatage standard classe les données en paires clé-valeur distinctes. Chaque clé est explicitement mentionnée, même si elle est utilisée de nouveau pour définir une autre valeur. En revanche, la mise en forme sérialisée convertit plusieurs valeurs en un jeu défini par une seule clé. En outre, dans une paire sérialisée, un indicateur spécial est utilisé pour séparer les valeurs dans l’ensemble clé-valeur. Enfin, les valeurs de clé standard et sérialisées peuvent contenir une ou plusieurs valeurs. Le tableau suivant fournit des exemples de formats de valeur de clé standard et de série.
+Les destinations acceptent les données de valeur clé dans *`standard`* ou *`serialized`* le format. La mise en forme standard organise les données en paires clé-valeur distinctes. Chaque clé est explicitement indiquée, même si elle est utilisée de nouveau pour définir une autre valeur. En revanche, la mise en forme sérialisée convertit plusieurs valeurs en un ensemble défini par une seule clé. En outre, dans une paire sérialisée, un indicateur spécial est utilisé pour séparer les valeurs dans le jeu de valeurs clés. Enfin, les valeurs de clé standard et sérialisées peuvent contenir une ou plusieurs valeurs. Le tableau suivant fournit des exemples de formats de valeur de clé standard et de série.
 
 | Formatage | Clé unique | Paires clé-valeur |
 |---|---|---|
@@ -39,16 +43,16 @@ Les destinations acceptent les données clé-valeur dans *`standard`* ou *`seria
 
 
 
-## Touches, délimiteurs et séparateurs {#keys-delimiters-separators}
+## Raccourcis clavier, délimiteurs et séparateurs {#keys-delimiters-separators}
 
 Lorsque vous utilisez des données sérialisées, vous devez spécifier les caractères qui séparent les valeurs *au sein* et *entre* les paires clé-valeur. Les éléments des paires clé-valeur sont définis comme suit :
 
-* **** Clé : Identifiant unique dans la paire clé-valeur.
-* **** Délimiteur de valeur : Sépare les paires clé-valeur individuelles.
-* **** Séparateur clé-valeur : Sépare une clé des valeurs d’une paire clé-valeur.
-* **** Séparateur de série : Sépare les valeurs individuelles dans des paires clé-valeur sérialisées.
+* **Clé :** Identificateur unique dans la paire clé-valeur.
+* **Délimiteur de valeur :** Sépare les paires clé-valeur individuelles.
+* **Séparateur de valeur de clé :** Sépare une clé des valeurs d’une paire clé-valeur.
+* **Séparateur de série :** Sépare les valeurs individuelles dans des paires clé-valeur sérialisées.
 
-## Eléments de valeur clé standard et sérialisés {#standard-serialized-key-value-elements}
+## Éléments de valeur clé standard et sérialisés {#standard-serialized-key-value-elements}
 
 <table id="table_62B0498441034A719C9DB57276777D40"> 
  <thead> 
@@ -56,7 +60,7 @@ Lorsque vous utilisez des données sérialisées, vous devez spécifier les cara
    <th colname="col1" class="entry"> Type </th> 
    <th colname="col2" class="entry"> Exemple </th> 
    <th colname="col3" class="entry"> Clé </th> 
-   <th colname="col4" class="entry"> Séparateur clé-valeur </th> 
+   <th colname="col4" class="entry"> Séparateur de valeur-clé </th> 
    <th colname="col5" class="entry"> Délimiteur clé-valeur </th> 
    <th colname="col6" class="entry"> Séparateur de série </th> 
   </tr> 
