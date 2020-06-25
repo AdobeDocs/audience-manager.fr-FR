@@ -3,8 +3,9 @@ description: Utilisez les options du menu Analytics pour vue le tableau de bord 
 seo-description: Utilisez les options du menu Analytics pour vue le tableau de bord et divers rapports dans l’Adobe Audience Manager (AAM).
 seo-title: Présentation du Rapports dans l’Adobe Audience Manager (AAM)
 title: Présentation du Rapports
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 5%
