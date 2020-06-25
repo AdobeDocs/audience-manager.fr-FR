@@ -6,8 +6,12 @@ seo-title: Mises à jour en masse
 solution: Audience Manager
 title: Mises à jour en masse
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
@@ -26,23 +30,23 @@ t_bulk_updates.xml
 >
 >[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
 
-Pour effectuer des mises à jour en masse, ouvrez la [!UICONTROL Bulk Management Tools] feuille de calcul et procédez comme suit :
+Pour effectuer des mises à jour en masse, ouvrez la [!UICONTROL Bulk Management Tools] feuille de calcul et :
 
 1. Cliquez sur l’ **[!UICONTROL Headers]** onglet et copiez les en-têtes de mise à jour de l’élément à modifier.
 2. Click the **[!UICONTROL Update]** tab.
-3. Collez les en-têtes de mise à jour dans la première ligne de la feuille de calcul de mise à jour. Tenez compte des points suivants :
+3. Paste the update headers into the first row of the update worksheet. Note the following:
 
-   * Lors de la mise à jour d’un dossier, tous les en-têtes sont obligatoires.
+   * When updating a folder, all headers are required.
    * Lors de la mise à jour de segments ou de caractéristiques, vous avez uniquement besoin de l’ID de segment (SID) et de l’élément d’en-tête qui doit être modifié. Supprimez les en-têtes inutilisés.
 
-4. Collez ou saisissez les données à modifier dans une colonne correspondante en fonction du libellé de l’en-tête.
+4. Paste or type the data you want to change into a corresponding column based on the header label.
 5. Dans la barre d&#39;outils de la feuille de calcul, cliquez sur un bouton de mise à jour correspondant à l&#39;élément que vous mettez à jour.
-Cette action ouvre la boîte de [!UICONTROL Account Information] dialogue.
+Cette action ouvre la boîte de dialogue [!UICONTROL Account Information] .
 
-6. Fournissez les informations [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) connexion requises et cliquez sur **[!UICONTROL Submit]**.
+6. Fournissez les informations [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) connexion requises, puis cliquez sur **[!UICONTROL Submit]**.
 
-   La feuille de calcul crée une [!UICONTROL Results] colonne. La [!UICONTROL Results] colonne renvoie la réponse JSON pour une opération réussie. Voir les API [](../../api/rest-api-main/rest-api-main.md) REST pour obtenir des exemples. Avant de saisir des données, votre feuille de calcul de mise à jour en masse doit ressembler à ce qui suit :
+   La feuille de calcul crée une [!UICONTROL Results] colonne. La [!UICONTROL Results] colonne renvoie la réponse JSON pour une opération réussie. Voir les API [](../../api/rest-api-main/rest-api-main.md) REST pour obtenir des exemples. Avant de saisir des données, votre feuille de calcul de mise à jour en masse doit se présenter comme suit :
 
 ![](assets/update.png)
 
-Si votre mise à jour en masse renvoie une erreur ou échoue, reportez-vous à la section [Dépannage des outils](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gestion en bloc.
+Si votre mise à jour en masse renvoie une erreur ou échoue, voir [Dépannage des outils](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gestion en bloc.
