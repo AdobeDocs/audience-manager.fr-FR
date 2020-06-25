@@ -5,8 +5,9 @@ seo-title: Rapport de chevauchement de segments
 solution: Audience Manager
 title: Rapport de chevauchement de segments
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 4%
@@ -20,7 +21,7 @@ Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos 
 
 >[!NOTE]
 >
->Les rapports Chevauchement dans Audience Manager respectent les principes du contrôle d’accès à distance. Vous ne pouvez afficher que les segments provenant des sources de données auxquelles vous avez accès en fonction du groupe [d’utilisateurs](/help/using/features/administration/administration-overview.md) RBAC auquel vous appartenez.
+>Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous ne pouvez afficher que les segments provenant des sources de données auxquelles vous avez accès en fonction du groupe [d’utilisateurs](/help/using/features/administration/administration-overview.md) RBAC auquel vous appartenez.
 
 <!-- 
 
@@ -68,7 +69,7 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport cont
 | **[!UICONTROL Base Segment Uniques]** | Nombre de visiteurs uniques dans votre segment de base. |
 | **[!UICONTROL Base Segment Uniques]** | Nombre de visiteurs uniques dans votre segment qui se chevauchent. |
 | **[!UICONTROL Overlapping Uniques]** | Nombre de visiteurs uniques partagés entre les segments comparés. |
-| **[!UICONTROL Overlap %]** | Pour obtenir le pourcentage de chevauchement, Audience Manager utilise la formule suivante : Uniques en chevauchement / (Uniques de segments de base + Uniques de segments en chevauchement - Uniques en chevauchement) |
+| **[!UICONTROL Overlap %]** | Pour obtenir le pourcentage de chevauchement, l’Audience Manager utilise la formule suivante : Uniques en chevauchement / (Uniques de segments de base + Uniques de segments en chevauchement - Uniques en chevauchement) |
 
 
 
@@ -78,5 +79,5 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport cont
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explication des icônes et outils du rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Echantillonnage de données et taux d&#39;erreur dans les rapports Gestionnaire d&#39;Audiences sélectionnés...](../../reporting/report-sampling.md)
+>* [Échantillonnage des données et taux d&#39;erreur dans les rapports d&#39;Audience Manager sélectionnés...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
