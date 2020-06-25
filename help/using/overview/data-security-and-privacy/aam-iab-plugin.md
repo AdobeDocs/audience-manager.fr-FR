@@ -4,8 +4,9 @@ seo-description: Adobe vous fournit les moyens de gérer et de communiquer les c
 seo-title: Module externe Audience Manager pour IAB TCF
 solution: Audience Manager
 title: Module externe Audience Manager pour IAB TCF
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 7%
@@ -160,7 +161,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 Le cas d’utilisation est décrit dans l’image et dans les étapes ci-dessous. Début à gauche de l&#39;image :
 
-1. Votre utilisateur reçoit une impression via un serveur d’annonces. Cela se traduit par un appel [](../../integration/media-data-integration/impression-data-pixels.md) pixel vers nos serveurs de collecte de données (DCS).
+1. Votre utilisateur reçoit une impression via un serveur d’annonces. Cela se traduit par un appel [de](../../integration/media-data-integration/impression-data-pixels.md) pixels vers nos serveurs de collecte de données (DCS).
 2. L&#39;Audience Manager vérifie si l&#39;indicateur GDPR s&#39;applique. Dans le cas contraire, l’Audience Manager stocke les données transmises dans les variables `gdpr` et `gdpr_consent` dans des appels en pixels.
 3. Si la chaîne CCI IAB est présente et contient les autorisations requises, l’Audience Manager stocke les données transmises dans les variables `gdpr` et `gdpr_consent` dans les appels en pixels.
 4. Si la chaîne TC IAB est manquante ou ne dispose pas des autorisations requises, l’Audience Manager supprime les données transmises dans les variables `gdpr` et `gdpr_consent` dans les appels en pixels.
