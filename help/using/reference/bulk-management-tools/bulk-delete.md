@@ -1,19 +1,23 @@
 ---
-description: La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
-seo-description: La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
+description: La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
+seo-description: La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
 seo-title: Suppression en masse
 solution: Audience Manager
 title: Suppression en masse
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 0%
 
 ---
 
 
 # Suppression en masse{#bulk-delete}
 
-La suppression en bloc permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
+La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une demande de suppression en bloc.
 
 <!-- 
 
@@ -27,19 +31,19 @@ La suppression en bloc permet de supprimer plusieurs segments, caractéristiques
 
 >[!NOTE]
 >
->Une suppression en bloc pour les mappages de destination échoue si des segments sont mappés sur la destination. Supprimez vos segments de cette destination dans l’interface utilisateur avant d’essayer de supprimer des destinations en bloc. En outre, les dossiers de caractéristiques et de segments doivent être vides avant de pouvoir les supprimer.
+>Une suppression en bloc pour les mappages de destination échoue si des segments sont mappés à la destination. Supprimez vos segments de cette destination dans l’interface utilisateur avant de tenter de supprimer en masse des destinations. En outre, les dossiers de caractéristiques et de segments doivent être vides avant de pouvoir les supprimer.
 
-Pour supprimer plusieurs éléments, ouvrez la [!UICONTROL Bulk Management Tools] feuille de calcul et procédez comme suit :
+Pour supprimer plusieurs éléments, ouvrez la [!UICONTROL Bulk Management Tools] feuille de calcul et :
 
 1. Cliquez sur l’ **[!UICONTROL Headers]** onglet et copiez les en-têtes de création de l’élément à ajouter.
 2. Click the **[!UICONTROL Delete]** tab.
 3. Collez les en-têtes de suppression dans la première ligne de la feuille de calcul de mise à jour.
-4. Collez ou saisissez les ID des objets à supprimer dans la colonne située sous l’en-tête.
-5. Fournissez les informations [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) connexion requises et cliquez sur **[!UICONTROL Submit]**.
+4. Collez ou tapez les ID des objets à supprimer dans la colonne située sous l&#39;en-tête.
+5. Fournissez les informations [de](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) connexion requises, puis cliquez sur **[!UICONTROL Submit]**.
 
    La feuille de calcul crée une [!UICONTROL Results] colonne. La [!UICONTROL Results] colonne renvoie un message indiquant si l’élément a été supprimé ou un message d’erreur.
-Avant de saisir des données, votre feuille de calcul de mise à jour en masse doit ressembler à ce qui suit :
+Avant de saisir des données, votre feuille de calcul de mise à jour en masse doit se présenter comme suit :
 
 ![](assets/delete.png)
 
-Si votre mise à jour en masse renvoie une erreur ou échoue, reportez-vous à la section [Dépannage des outils](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gestion en bloc.
+Si votre mise à jour en masse renvoie une erreur ou échoue, voir [Dépannage des outils](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gestion en bloc.
