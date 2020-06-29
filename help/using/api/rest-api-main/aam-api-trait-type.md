@@ -1,27 +1,31 @@
 ---
-description: Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de création de rapports internes.
-seo-description: Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de création de rapports internes.
-seo-title: Méthodes de type de trait
+description: Méthodes facultatives qui vous permettent d’attribuer des caractéristiques à un type ou une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de rapports interne.
+seo-description: Méthodes facultatives qui vous permettent d’attribuer des caractéristiques à un type ou une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de rapports interne.
+seo-title: Méthodes de type de caractéristique
 solution: Audience Manager
-title: Méthodes de type de trait
+title: Méthodes de type de caractéristique
 uuid: 082931d5-457b-4622-817b-86303f38c26a
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 4%
 
 ---
 
 
-# Méthodes de type de trait {#trait-type-methods}
+# Méthodes de type de caractéristique {#trait-type-methods}
 
-Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de création de rapports internes.
+Méthodes facultatives qui vous permettent d’attribuer des caractéristiques à un type ou une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de rapports interne.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Les méthodes de type de caractéristiques n'attribuent pas de caractéristiques aux catégories utilisées par la taxonomie [commune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considérez-les comme des étiquettes distinctes de la taxonomie commune.
+>Les méthodes de type de caractéristique n&#39;attribuent pas de caractéristiques aux catégories utilisées par la taxonomie [](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)commune. Considérez ces étiquettes comme des étiquettes distinctes de la taxonomie commune.
 
-Pour référence visuelle, [!UICONTROL Trait Types] est une commande de liste déroulante située dans la [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Pour la référence visuelle, [!UICONTROL Trait Types] est un contrôle déroulant situé dans le [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Créer un nouveau type de caractéristique {#create-trait-type}
 
