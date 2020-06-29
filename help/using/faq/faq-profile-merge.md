@@ -6,8 +6,9 @@ seo-title: FAQ sur les règles de fusion de Profils et le graphique de périphé
 solution: Audience Manager
 title: FAQ sur les règles de fusion de Profils et le graphique de périphériques
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 2%
@@ -41,7 +42,7 @@ L&#39;objectif principal de l&#39;utilisation d&#39;un graphique d&#39;appareil 
 
  
 
-**Audience Manager fournit-il une prise en charge globale des graphiques de périphériques externes ?**
+**L&#39;Audience Manager fournit-elle une prise en charge globale des graphiques de périphériques externes ?**
 
 Non. Les graphiques des dispositifs externes sont disponibles uniquement aux États-Unis et au Canada.
 
@@ -73,7 +74,7 @@ Actuellement, vous pouvez créer un maximum de 4 [!UICONTROL Profile Merge Rules
 
 **Combien de profils de périphérique fusionnent-ils et lisent-ils[!DNL Audience Manager]lors de l&#39;utilisation d&#39;un graphique de périphérique dans un[!UICONTROL Profile Merge Rule]?**
 
-Lors de la qualification d’un périphérique pour un segment à l’aide d’un [!UICONTROL Profile Merge Rule]gestionnaire d’Audiences fusionne et lit le profil de périphérique actuel et un maximum de 99 autres profils de périphérique supplémentaires liés par l’option de graphique de périphérique sélectionnée.
+Lors de la qualification d&#39;un périphérique pour un segment à l&#39;aide d&#39;une [!UICONTROL Profile Merge Rule]Audience Manager, fusionne et lit le profil de périphérique actuel et un maximum de 99 autres profils de périphérique supplémentaires liés par l&#39;option de graphique de périphérique sélectionnée.
 
  
 
@@ -93,7 +94,7 @@ Les périphériques [!DNL Audience Manager] fusionnés et lus sont les mêmes qu
 
 **Comment dissocier un périphérique lorsqu’il n’est plus qualifié pour un segment avec un[!DNL Audience Manager][!UICONTROL Profile Merge Rule]graphique de périphérique ?**
 
-Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec un graphique [!UICONTROL Profile Merge Rule] utilisant un périphérique. Si le signal de non-segmentation est émis, le périphérique actuel et jusqu&#39;à 99 périphériques supplémentaires seront supprimés du segment dans la destination. Pour plus d’informations sur la désegmentation, voir Règles de fusion des [Profils et Processus](../features/profile-merge-rules/merge-rule-unsegment.md)de désegmentation des périphériques.
+L’Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec un graphique [!UICONTROL Profile Merge Rule] utilisant un périphérique. Si le signal de non-segmentation est émis, le périphérique actuel et jusqu&#39;à 99 périphériques supplémentaires seront supprimés du segment dans la destination. Pour plus d’informations sur la désegmentation, voir Règles de fusion des [Profils et Processus](../features/profile-merge-rules/merge-rule-unsegment.md)de désegmentation des périphériques.
 
  
 
@@ -123,7 +124,7 @@ Oui.
 
 **Si un segment utilise un[!UICONTROL Profile Merge Rule]avec[!UICONTROL No Cross-Device Profile]et que les caractéristiques qui qualifient les périphériques pour le segment sont stockées uniquement sur le profil inter-périphériques, la population totale du segment sera-t-elle de 0 ?**
 
-Oui. Audience Manager ne comptabilisera pas les caractéristiques stockées sur le profil inter-périphériques dans l’évaluation des segments lorsque la règle de fusion des Profils est définie sur [!UICONTROL No Cross-Device Profile].
+Oui. L’Audience Manager ne comptabilisera pas les caractéristiques stockées sur le profil inter-périphériques dans l’évaluation de segment lorsque la règle de fusion de Profil est définie sur [!UICONTROL No Cross-Device Profile].
 
  
 
@@ -152,7 +153,7 @@ La fréquence des caractéristiques est définie par la somme du nombre de quali
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Actions</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> lit et fusionne les profils des périphériques A et B. À partir de cela, nous voyons les éléments suivants : </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> L’Audience Manager</span> lit et fusionne les profils des périphériques A et B. À partir de cela, nous voyons les éléments suivants : </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">Le périphérique A a été qualifié pour la caractéristique 1 trois fois. Il a une fréquence de 3 pour le trait 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Le périphérique B a été qualifié pour la caractéristique 1 cinq fois. Il a une fréquence de 5 pour le trait 1. </li> 
@@ -160,7 +161,7 @@ La fréquence des caractéristiques est définie par la somme du nombre de quali
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Résultats</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> additionne la fréquence de la caractéristique 1 et utilise 8 (3 + 5 = 8) pour décider de la qualification du segment. Le périphérique A et le périphérique B sont inclus dans le segment 1, car leur fréquence est de 8. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> L’Audience Manager</span> additionne la fréquence de la caractéristique 1 et utilise 8 (3 + 5 = 8) pour déterminer la qualification du segment. Le périphérique A et le périphérique B sont inclus dans le segment 1, car leur fréquence est de 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,18 +260,18 @@ Oui. La mesure de population totale de segments inclut les périphériques suppl
 
 Non.
 
-**Pourquoi est-ce que je vois une population de segments zéro pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
+**Pourquoi est-ce que je vois une population de segments nulle pour les exportations de segments vers l’Adobe Campaign après le 16 mars 2020 ?**
 
-À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance Gestionnaire d’Audiences à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
+À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
 
-Pour garantir l’intégration correcte entre votre instance Audience Manager et vos destinations à l’aide d’identifiants sur plusieurs périphériques, tels que Adobe Campaign, assurez-vous de respecter les exigences suivantes :
+Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que l’Adobe Campaign, assurez-vous de respecter les exigences suivantes :
 
 1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion des Profils doit utiliser l’ [!UICONTROL Last Authenticated Profile] option, de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
-2. Sélectionnez la source de données d’ID déclarés Adobe Campaign dans les paramètres de la règle de fusion de Profils.
+2. Sélectionnez la source de données d’identifiant déclaré de l’Adobe Campaign dans les paramètres de la règle de fusion de Profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de Profils pour les autres cas d’utilisation.
+> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré de l’Adobe Campaign, sans modifier les règles de fusion de Profil pour les autres cas d’utilisation.
 
 >[!MORELIKETHIS]
 >
