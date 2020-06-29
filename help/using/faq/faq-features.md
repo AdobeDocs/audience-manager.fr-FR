@@ -6,8 +6,9 @@ seo-title: FAQ sur les fonctionnalités et les fonctionnalités du produit
 solution: Audience Manager
 title: FAQ sur les fonctionnalités et les fonctionnalités du produit
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -33,7 +34,7 @@ Il *`Organization ID`* s’agit d’un identifiant unique qui identifie votre or
 
 Par exemple, voici à quoi ressemble un *`Organization ID`* exemple : `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-Elle *`Organization ID`* est utilisée par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, le service [d’identité](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform et d’autres [!DNL Experience Cloud] solutions. Les utilisateurs dotés d’autorisations d’administrateur peuvent trouver le *`Organization ID`* sur le [!DNL Adobe Admin Console]. Voir la FAQ [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)Administration - Gestion des utilisateurs (en anglais).
+L&#39; *`Organization ID`* API [DIL](../dil/dil-overview.md) de l&#39;Audience Manager est utilisée, le service [d&#39;identité de l&#39;](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform et d&#39;autres [!DNL Experience Cloud] solutions. Les utilisateurs dotés d’autorisations d’administrateur peuvent trouver le *`Organization ID`* sur le [!DNL Adobe Admin Console]. Voir la FAQ [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)Administration - Gestion des utilisateurs (en anglais).
 
  
 
@@ -43,7 +44,7 @@ Oui. Voir Outils [de gestion](../reference/bulk-management-tools/bulk-management
 
 >[!NOTE]
 >
->Les [!UICONTROL Bulk Management Tools] outils ne *sont pas* pris en charge par [!DNL Audience Manager]le logiciel. Elles sont fournies pour commodité et uniquement à titre gracieux. Pour les modifications en masse, nous vous recommandons de travailler plutôt avec les API [d’](../api/api.md) Audience Manager.
+>Les [!UICONTROL Bulk Management Tools] outils ne *sont pas* pris en charge par [!DNL Audience Manager]le logiciel. Elles sont fournies pour commodité et uniquement à titre gracieux. Pour les modifications en masse, nous vous recommandons plutôt d’utiliser les API [](../api/api.md) d’Audience Manager.
 
  
 
@@ -67,7 +68,7 @@ Votre flux de données et toutes les caractéristiques qu’il contient apparais
 
 **Qu’est-ce que[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
+Audience Manager utilisée [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
  
 
@@ -93,6 +94,6 @@ Vous devez utiliser les recommandations de caractéristiques lorsque :
 
  
 
-**Existe-t-il une différence entre les segments Adobe Analytics et Audience Manager ?**
+**Existe-t-il une différence entre les segments Adobe et Audience Manager ?**
 
-Oui, veuillez lire [Comprendre les segments dans Analytics et Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour obtenir une description détaillée des différences.
+Oui, veuillez lire [Comprendre les segments en Analytics et en Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour obtenir une description détaillée des différences.
