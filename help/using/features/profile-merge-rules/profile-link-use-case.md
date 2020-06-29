@@ -1,17 +1,21 @@
 ---
-description: Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le graphique de périphérique Lien de profil.
-seo-description: Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le graphique de périphérique Lien de profil.
-seo-title: Cas d’utilisation de graphiques de périphériques de lien de profil
+description: Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le graphique de périphérique Lien de Profil.
+seo-description: Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le graphique de périphérique Lien de Profil.
+seo-title: Cas d'utilisation du graphique de Profil Link
 solution: Audience Manager
-title: Cas d’utilisation de graphiques de périphériques de lien de profil
+title: Cas d'utilisation du graphique de Profil Link
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
-# Cas d’utilisation de graphiques de périphériques de lien de profil {#profile-link-device-graph-use-cases}
+# Cas d&#39;utilisation du graphique de Profil Link {#profile-link-device-graph-use-cases}
 
 Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le [!UICONTROL Profile Link Device Graph].
 
@@ -20,32 +24,32 @@ Recommandations et cas d’utilisation pour le reciblage de segments et la quali
 Tenez compte du graphique [!UICONTROL Profile Link] de périphériques pour les campagnes qui :
 
 * Posséder un niveau élevé d’authentification sur l’ensemble de leurs propriétés numériques. Utilisez une option [de graphique de périphérique](merge-rule-definitions.md#device-options) externe si vous avez un petit nombre d’utilisateurs authentifiés.
-* Exiger un ciblage précis des audiences connues. Le fichier [!UICONTROL Profile Link Device Graph] est créé à l’aide de données propriétaires authentifiées.
-* Ciblez les audiences connues dans leurs états authentifiés et non authentifiés en temps réel.
+* Exiger un ciblage précis des audiences connues. Le [!UICONTROL Profile Link Device Graph] fichier est créé à l’aide de données authentifiées propriétaires.
+* Cible d’audiences connues dans leurs états authentifiés et non authentifiés en temps réel.
 
 ![](assets/merge-rule-triangle2.png)
 
 ## Ciblage sur plusieurs périphériques {#cross-device-personalization}
 
-Disons que John possède trois appareils qu'il utilise régulièrement pour rechercher des forfaits vacances : son ordinateur portable ([!DNL Device 1]), son smartphone ([!DNL Device 2]) et sa tablette ([!DNL Device 3]). Cependant, John utilise ses appareils pour rechercher différents éléments des offres de forfait :
+Disons que John possède trois appareils qu&#39;il utilise régulièrement pour rechercher des forfaits vacances : son ordinateur portable ([!DNL Device 1]), son smartphone ([!DNL Device 2]) et sa tablette ([!DNL Device 3]). Cependant, John utilise ses appareils pour rechercher différents articles des offres spéciales :
 
-* Il utilise son ordinateur portable pour rechercher des vols;
+* Il utilise son ordinateur portable pour rechercher des vols ;
 * Il utilise son smartphone pour rechercher des hôtels ;
 * Il utilise sa tablette pour rechercher des visites guidées.
 
-Même si John n'est pas authentifié sur les trois périphériques mentionnés ci-dessus, en utilisant la règle **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** , un fournisseur de packages de vacances peut associer ces périphériques au profil authentifié de John, en supposant qu'il était la dernière personne à s'authentifier sur les trois périphériques.
+Même si John n&#39;est pas authentifié sur les trois appareils mentionnés ci-dessus, en utilisant la règle **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** , un fournisseur de forfaits de vacances peut associer ces appareils au profil authentifié de John, en supposant qu&#39;il était la dernière personne à s&#39;authentifier sur les trois appareils.
 
-![last-device-graph](assets/last-device-graph.png)
+![dernier-dispositif-graphique](assets/last-device-graph.png)
 
-Dans la mesure où Audience Manager qualifie chaque profil de périphérique qui a pris part à la fusion de profils pour un segment, les trois profils de périphérique sont segmentés. Elle [!UICONTROL Profile Link Device Graph] permet à Audience Manager d’examiner le comportement sur les trois périphériques et de qualifier chaque périphérique pour un segment pour lequel aucun profil de périphérique unique ne peut être qualifié seul.
+Comme l’Audience Manager qualifie chaque profil de périphérique qui a participé à la fusion de profils pour un segment, les trois profils de périphérique sont segmentés. L’ [!UICONTROL Profile Link Device Graph] option permet à l’Audience Manager d’examiner le comportement sur les trois périphériques et de qualifier chaque périphérique pour un segment pour lequel aucun profil de périphérique unique ne peut être identifié seul.
 
-Cela [!UICONTROL Profile Merge Rule] permet aux spécialistes du marketing de fournir une expérience cohérente à tous les périphériques appartenant à une personne, en fonction de l’activité de l’utilisateur et non de l’activité de chaque périphérique.
+Cela [!UICONTROL Profile Merge Rule] permet aux spécialistes du marketing de fournir une expérience cohérente à tous les périphériques détenus par une seule personne, en fonction de l’activité de l’utilisateur plutôt que de l’activité de chaque périphérique.
 
 ![personnalisation sur plusieurs périphériques](assets/cross-device-personalization.png)
 
 >[!MORELIKETHIS]
 >
 >* [Cas d’utilisation graphiques des périphériques externes](external-graph-use-cases.md)
->* [Cas d’utilisation généraux des règles de fusion de profils](merge-rule-targeting-options.md)
->* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
+>* [Cas d’utilisation généraux des règles de fusion de Profils](merge-rule-targeting-options.md)
+>* [FAQ sur les règles de fusion de Profils](../../faq/faq-profile-merge.md)
 
