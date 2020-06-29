@@ -1,23 +1,27 @@
 ---
-description: Le processus d’importation de données en temps réel utilise une série de requêtes HTTP du navigateur d’un utilisateur pour transmettre les données à Audience Manager.
-seo-description: Le processus d’importation de données en temps réel utilise une série de requêtes HTTP du navigateur d’un utilisateur pour transmettre les données à Audience Manager.
+description: Le processus d’assimilation des données entrantes en temps réel utilise une série de requêtes HTTP du navigateur d’un utilisateur pour transmettre les données à l’Audience Manager.
+seo-description: Le processus d’assimilation des données entrantes en temps réel utilise une série de requêtes HTTP du navigateur d’un utilisateur pour transmettre les données à l’Audience Manager.
 seo-title: Ingestion des données entrantes en temps réel
 solution: Audience Manager
 title: Ingestion des données entrantes en temps réel
-uuid: 43cb0ebc-6c36-4391-bfb-6b203d63c69a
+uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
 
 # Ingestion des données entrantes en temps réel {#real-time-inbound-data-ingestion}
 
-Le processus d’assimilation des données d’entrée en temps réel utilise une série de `HTTP` requêtes du navigateur d’un utilisateur pour transmettre les données à Audience Manager.
+Le processus d’assimilation des données entrantes en temps réel utilise une série de `HTTP` requêtes du navigateur d’un utilisateur pour transmettre des données à l’Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-Les données entrantes doivent être formatées en tant que paires clé-valeur appelées signaux. En règle générale, chaque signal est mappé à un segment créé ou géré par le biais de l’interface utilisateur ou [!DNL API].
+Les données entrantes doivent être formatées en tant que paires clé-valeur appelées signaux. En règle générale, chaque signal est mappé à un segment créé ou géré par le biais de l’interface utilisateur ou [!DNL API]de.
 
 ## Paramètres de chaîne d’URL et syntaxe {#url-string-syntax}
 
