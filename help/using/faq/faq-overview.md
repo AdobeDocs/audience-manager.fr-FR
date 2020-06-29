@@ -1,27 +1,31 @@
 ---
-description: Questions et problèmes courants du Gestionnaire de  .
-seo-description: Questions et problèmes courants du Gestionnaire de  .
-seo-title: 'FAQ  Gestionnaire de '
+description: Questions et problèmes d'Audience Manager courants.
+seo-description: Questions et problèmes d'Audience Manager courants.
+seo-title: FAQ sur l'Audience Manager
 solution: Audience Manager
-title: 'FAQ  Gestionnaire de '
+title: FAQ sur l'Audience Manager
+feature: Overview
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
 
-#  FAQ sur le Gestionnaire de {#audience-manager-faq}
+# FAQ sur l&#39;Audience Manager Présentation {#audience-manager-faq}
 
-Cette section   un de l&#39;de FAQ pour les différentes fonctionnalités du Gestionnaire de de.
+Cette section agrégat une liste des catégories de FAQ pour les différentes fonctionnalités de l&#39;Audience Manager.
 
 * [FAQ sur l’API](faq-api.md)
-* [FAQ du](faq-audience-lab.md)
+* [FAQ sur Audience Lab](faq-audience-lab.md)
 * [FAQ sur le flux de données client](faq-cdf.md)
 * [FAQ sur la collecte de données et l’intégration de produits](faq-data-collection.md)
-* [FAQ sur l&#39;introduction des données client entrantes](faq-inbound-data-ingestion.md)
+* [FAQ sur l&#39;envoi de données client entrant](faq-inbound-data-ingestion.md)
 * [FAQ sur la confidentialité et la rétention des données](faq-privacy.md)
 * [FAQ sur les destinations basées sur les personnes](faq-people-based-destinations.md)
 * [FAQ sur les fonctionnalités et les fonctionnalités du produit](faq-features.md)
-* [FAQ sur les règles de fusion  et le graphique de périphériques](faq-profile-merge.md)
+* [FAQ sur les règles de fusion de Profils et le graphique de périphériques](faq-profile-merge.md)
 * [FAQ sur le ciblage](faq-targeting.md)
 * [FAQ sur la création de rapports](faq-reporting.md)
