@@ -1,17 +1,21 @@
 ---
 description: Décrit les champs, la syntaxe et les conventions requis utilisés pour nommer un fichier de données sortant.
 seo-description: Décrit les champs, la syntaxe et les conventions requis utilisés pour nommer un fichier de données sortant.
-seo-title: Syntaxe du nom du fichier de données sortantes et exemples
+seo-title: Syntaxe et exemples du nom du fichier de données sortantes
 solution: Audience Manager
-title: Syntaxe du nom du fichier de données sortantes et exemples
+title: Syntaxe et exemples du nom du fichier de données sortantes
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 4%
 
 ---
 
 
-# Nom du fichier de données sortant : Syntaxe et exemples{#outbound-data-file-name-syntax-and-examples}
+# Nom du fichier de données sortantes : Syntaxe et exemples{#outbound-data-file-name-syntax-and-examples}
 
 Décrit les champs, la syntaxe et les conventions requis utilisés pour nommer un fichier de données sortant.
 
@@ -43,7 +47,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_TYPE </i></code> </p> </td> 
-   <td colname="col2"> <p>Fait référence aux méthodes de transfert de données. Les méthodes de transfert incluent : </p> 
+   <td colname="col2"> <p>Fait référence aux méthodes de transfert de données. Les méthodes de transfert comprennent : </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Transfert via SFTP </li> 
      <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Transfert vers <span class="keyword"> AWS Amazon </span> </li> 
@@ -51,24 +55,24 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de destination. </p> <p>Dans <span class="keyword"> Audience Manager </span>, une destination est l’instance de l’intégration où vous pouvez mapper vos segments cibles. Les clients peuvent avoir plusieurs destinations, selon les besoins de l’entreprise. </p> </td> 
+   <td colname="col2"> <p>ID de destination. </p> <p>En <span class="keyword"> Audience Manager </span>, une destination est l’instance de l’intégration où vous pouvez mapper vos segments cibles. Les clients peuvent avoir plusieurs destinations, en fonction des besoins de l’entreprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
-   <td colname="col2"> <p>Fournisseur de données ou ID de source de données. Cet ID identifie le type d’ID utilisateur présent dans le contenu du fichier. Les clés d’ID utilisateur les plus courantes sont : </p> <p> 
+   <td colname="col2"> <p>Fournisseur de données ou ID de source de données. Cet identifiant identifie le type d’ID utilisateur présent dans le contenu du fichier. Les clés d’ID utilisateur les plus courantes sont : </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Identifiant publicitaire Google </span> (brut, non haché) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Identifiant publicitaire Google </span> (brut, non haché) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> ID Apple pour les annonceurs </span> (brut, non haché) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fournisseur - ID utilisateur tiers (Web/cookie) </li> 
-     </ul> </p> <p>Voir Sources <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de données</a> globales pour en savoir plus.</p></td> 
+     </ul> </p> <p>Voir Sources <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de données</a> globales pour plus d’informations.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
-   <td colname="col2"> Identifiant du client de la plateforme tierce. </td> 
+   <td colname="col2"> Identificateur de client de la plateforme tierce. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>Le mode de synchronisation est un espace réservé de macro qui ajoute une étiquette au nom du fichier en fonction du type de synchronisation. Les types de synchronisation sont complets et incrémentiels. Ils apparaîtront dans le nom du fichier sous la forme <code> iter </code> ou <code> full </code>. </p> 
+   <td colname="col2"> <p>Le mode de synchronisation est un espace réservé de macro qui ajoute une étiquette au nom de fichier en fonction du type de synchronisation. Les types de synchronisation sont complets et incrémentiels. Ils apparaîtront dans le nom de fichier sous la forme <code> iter </code> ou <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Indique une synchronisation "itérative" ou incrémentielle. Un fichier incrémentiel contient uniquement les nouvelles données collectées depuis la dernière synchronisation. </li> 
      <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: Indique une synchronisation "complète". Un fichier entièrement synchronisé contient d’anciennes données et toutes les nouvelles données collectées depuis la dernière synchronisation. </li> 
@@ -80,7 +84,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
   </tr> 
   <tr> 
    <td colname="col1"> <p><code><i>SPLITNUM</i></code></p> </td> 
-   <td colname="col2"> <p>Entier. Identifie une partie d’un fichier qui a été divisée en plusieurs parties afin d’améliorer les temps de traitement. Le nombre indique à quelle partie du fichier d’origine les données appartiennent.</p>  <p>L’entier doit comporter au moins 3 chiffres, précédés de zéros, si la taille de division est inférieure à 100 parties.</p>  <p>Le fichier d’origine ne comporte aucun numéro de division. Le premier fichier partagé se termine par 001. Voir les exemples ci-dessous. </p> </td> 
+   <td colname="col2"> <p>Entier. Identifie une partie d'un fichier qui a été fractionnée en plusieurs parties afin d'améliorer les temps de traitement. Le numéro indique à quelle partie du fichier d’origine les données appartiennent.</p>  <p>L’entier doit contenir au moins 3 chiffres, précédés de zéros, si la taille de fractionnement est inférieure à 100 parties.</p>  <p>Le fichier d'origine n'aura pas de numéro partagé. Le premier fichier scindé se terminera par 001. Voir les exemples ci-dessous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
@@ -93,7 +97,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
 
 ### Scénario 1
 
-Fichiers envoyés à un [!DNL Amazon S3] emplacement, avec *`PID_ALIAS="XYZCustomer"`* et avec [!DNL Google Advertiser IDs] dans le contenu du fichier.
+Fichiers envoyés à un [!DNL Amazon S3] emplacement, avec *`PID_ALIAS="XYZCustomer"`* et [!DNL Google Advertiser IDs] dans le contenu du fichier.
 
 Par exemple, fichiers incrémentiels :
 
@@ -147,7 +151,7 @@ Par exemple, fichiers complets :
 
 ## Contenu du fichier de données sortantes : Syntaxe et paramètres {#outbound-contents-syntax}
 
-Décrit les champs, la syntaxe et les conventions requis utilisés pour organiser les informations dans un fichier de données sortant. Formatez vos données en fonction de ces spécifications.
+Décrit les champs, la syntaxe et les conventions requis utilisés pour organiser les informations dans un fichier de données sortant. Mettez en forme vos données selon ces spécifications.
 
 <!-- c_outbound_data_file.xml -->
 
@@ -163,7 +167,7 @@ Les champs du fichier de données s’affichent dans l’ordre suivant :
 
 ### Paramètres
 
-Le tableau répertorie les variables qui définissent le contenu d’un fichier de données.
+Le tableau liste des variables qui définissent le contenu d’un fichier de données.
 
 <table id="table_109BA747CFDA40108370EFEB208C7E11"> 
  <thead> 
@@ -179,7 +183,7 @@ Le tableau répertorie les variables qui définissent le contenu d’un fichier 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
-   <td colname="col2"> <p>Séparez les données UUID et de segment par un espace </p> </td> 
+   <td colname="col2"> <p>Séparez les données UUID et de segmentation par un espace </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SEGMENT_N </i></code> </p> </td> 
@@ -187,14 +191,14 @@ Le tableau répertorie les variables qui définissent le contenu d’un fichier 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de segment à partir duquel l’utilisateur a été disqualifié. Séparez plusieurs segments par une virgule. Avec une synchronisation complète, vous pouvez ignorer les segments supprimés, car le fichier de données contiendra la liste complète des segments actuels pour l’utilisateur. En règle générale, vous souhaitez connaître les segments auxquels un utilisateur appartient plutôt que ceux dont il a été supprimé. Voir aussi <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nom du fichier de données sortantes : Syntaxe et exemples </a>. </p> </td> 
+   <td colname="col2"> <p>ID de segment à partir duquel l’utilisateur a été disqualifié. Séparez plusieurs segments par une virgule. Avec une synchronisation complète, vous pouvez ignorer les segments supprimés car le fichier de données contiendra la liste complète des segments actuels pour l’utilisateur. En règle générale, vous souhaitez connaître les segments auxquels un utilisateur appartient plutôt que ceux dont il a été supprimé. Voir aussi Nom <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> du fichier de données sortantes : Syntaxe et exemples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Exemple : Format de fichier de base
 
-Un fichier de données correctement formaté peut ressembler à l’exemple suivant. Cette entrée de fichier indique qu’un utilisateur est admissible pour les segments 24, 26 et 27. Selon les besoins, un espace sépare les ID de segment `UUID` et de segment. Un autre espace sépare les jeux d’ID de segment. Dans cet exemple, un utilisateur appartient aux segments 24, 26 et 27. Ils ont été supprimés des segments 25 et 28.
+Un fichier de données correctement formaté peut ressembler à l’exemple suivant. Cette entrée de fichier indique qu’un utilisateur est admissible pour les segments 24, 26 et 27. Si nécessaire, un espace sépare les ID `UUID` et les ID de segment. Un autre espace sépare les jeux d’ID de segment. Dans cet exemple, un utilisateur appartient aux segments 24, 26 et 27. Ils ont été supprimés des segments 25 et 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
