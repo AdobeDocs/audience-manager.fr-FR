@@ -1,34 +1,38 @@
 ---
-description: En option, vous pouvez chiffrer des fichiers de données à l’aide du chiffrement PGP lors de leur envoi à Audience Manager.
-seo-description: En option, vous pouvez chiffrer des fichiers de données à l’aide du chiffrement PGP lors de leur envoi à Audience Manager.
+description: En option, vous pouvez chiffrer des fichiers de données à l’aide d’un chiffrement PGP lors de leur envoi à l’Audience Manager.
+seo-description: En option, vous pouvez chiffrer des fichiers de données à l’aide d’un chiffrement PGP lors de leur envoi à l’Audience Manager.
 seo-title: Chiffrement PGP de fichier pour les types de données entrants
 solution: Audience Manager
 title: Chiffrement PGP de fichier pour les types de données entrants
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
 
 # Chiffrement PGP de fichier pour les types de données entrants{#file-pgp-encryption-for-inbound-data-types}
 
-Vous pouvez chiffrer des fichiers de données avec [!DNL PGP] chiffrement lors de leur envoi à Audience Manager.
+Vous pouvez chiffrer des fichiers de données à l’aide d’un [!DNL PGP] chiffrement lors de leur envoi à l’Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] le chiffrement inclut la compression de fichiers. Lorsque vous envoyez des fichiers [!DNL PGP] entrants chiffrés, veillez à ne pas les [compresser](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) à l’aide de gzip (`.gz`).
+>[!DNL PGP] le chiffrement inclut la compression de fichiers. Lorsque vous envoyez des fichiers [!DNL PGP] chiffrés entrants, veillez à ne pas les [compresser](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) à l’aide de gzip (`.gz`).
 >
->[!DNL PGP] les fichiers entrants chiffrés également [compressés](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) ne sont pas valides dans Audience Manager.
+>[!DNL PGP] les fichiers entrants chiffrés qui sont également [compressés](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) ne sont pas valides en Audience Manager.
 
 Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données entrants.
 
-1. Téléchargez la clé [publique d’](./assets/adobe_pgp.pub)Audience Manager.
-2. Importez la clé publique dans votre magasin de confiance.
+1. Téléchargez la clé [publique](./assets/adobe_pgp.pub)Audience Manager.
+2. Importez la clé publique dans votre magasin approuvé.
 
-   Par exemple, si vous utilisez [!DNL GPG], la commande peut être semblable à ce qui suit :
+   Par exemple, si vous utilisez [!DNL GPG], la commande peut être similaire à la commande suivante :
 
    `gpg --import adobe_pgp.pub`
 
@@ -36,7 +40,7 @@ Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données e
 
    `gpg --list-keys`
 
-   Un message similaire à celui-ci doit s’afficher :
+   Vous devriez voir un message similaire à celui-ci :
 
    ```
    pub   4096R/8496CE32 2013-11-01
@@ -48,8 +52,8 @@ Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données e
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Toutes les données chiffrées doivent utiliser `.pgp` ou `.gpg` comme extension de fichier ( `ftp_dpm_100_123456789.sync.pgp` ou `ftp_dpm_100_123456789.overwrite.gpg`).
+   Toutes les données chiffrées doivent utiliser `.pgp` ou `.gpg` comme extension de fichier (par ex. `ftp_dpm_100_123456789.sync.pgp` ou `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager ne prend en charge que l’algorithme [!DNL Advanced Encryption Standard (AES)] de chiffrement des données. Audience Manager prend en charge n’importe quelle taille de clé.
+   >L’Audience Manager ne prend en charge que l’algorithme [!DNL Advanced Encryption Standard (AES)] de chiffrement des données. L’Audience Manager prend en charge n’importe quelle taille de clé.
