@@ -1,19 +1,23 @@
 ---
-description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
-seo-description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
+description: Décrit les méthodes de l’espace de nommage DIL.tools. Ces fonctions d'utilitaire vous aident à exécuter des tâches spécifiques.
+seo-description: Décrit les méthodes de l’espace de nommage DIL.tools. Ces fonctions d'utilitaire vous aident à exécuter des tâches spécifiques.
 seo-title: Outils DIL
 solution: Audience Manager
 title: Outils DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
 
 # Outils DIL
 
-Décrit les méthodes dans l’espace de noms `DIL.tools` . Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
+Décrit les méthodes de l’ `DIL.tools` espace de nommage. Ces fonctions d&#39;utilitaire vous aident à exécuter des tâches spécifiques.
 
 <!-- 
 
@@ -31,9 +35,9 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Objectif de `getSearchReferrer`
+### Objectif `getSearchReferrer`
 
-Dans DIL, `getSearchReferrer` renvoie les résultats de la recherche (noms et mots clés) utilisés pour atteindre votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser faire une recherche dans les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]et [!DNL Yahoo]) par `document.referrer` défaut.
+Dans DIL, `getSearchReferrer` renvoie les résultats de la recherche (noms et mots clés) utilisés pour atteindre votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser faire une recherche dans les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]et [!DNL Yahoo]) par rapport à `document.referrer` par défaut.
 
 ### Signature de fonction
 
@@ -44,7 +48,7 @@ Signature de fonction : `DIL.tools.getSearchReferrer(uri, initConfig)`
 `getSearchReferrer` accepte :
 
 * *`{string}`*: *(Facultatif)* Chaîne contenant l’URL de recherche (utilisée `document.referrer` si elle n’est pas définie).
-* *`{object}`*: *(Facultatif)* Objet contenant la configuration de `hostPattern`, `queryParam`ou `queryPattern`.
+* *`{object}`*: *(Facultatif)* Objet contenant la configuration pour le `hostPattern`, `queryParam`ou `queryPattern`.
 
 Et renvoie :
 
@@ -70,24 +74,24 @@ Et renvoie :
   </tr> 
   <tr> 
    <td>Transmission d’une URL personnalisée</td> 
-   <td>Renvoie le référent de recherche en fonction d’une URL personnalisée.</td> 
+   <td>Renvoie le parrain de recherche basé sur une URL personnalisée.</td> 
    <td> 
   <code>
-        var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+        var&nbsp;results&nbsp;= 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
   </code>
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Correspondance du nom d’hôte de l’URL avec un Regex personnalisé</b></td> 
-   <td> Transmettez une expression régulière personnalisée correspondant au nom d’hôte de l’URL de référence. </td> 
+   <td> <b>Faire correspondre le nom d’hôte de l’URL avec une Regex personnalisée</b></td> 
+   <td> Transmettez une expression regex personnalisée pour qu’elle corresponde au nom d’hôte de l’URL de référence. </td> 
    <td> 
   <code>
       var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/
-    search.aspx?q=adobe+rules",{ 
-       hostPattern:/ehow\./, 
-         queryParam:"p" 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/
+      search.aspx?q=adobe+rules",{ 
+      &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+      &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
   </code>
   </td></tr> 
@@ -96,11 +100,11 @@ Et renvoie :
    <td> Transmettez une expression régulière personnalisée pour effectuer une recherche personnalisée. </td> 
    <td> 
     <code>
-      var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-    {
-       hostPattern:/ehow\./, 
-           search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      var&nbsp;results&nbsp;= 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
     </code>
    </td> 
@@ -110,7 +114,7 @@ Et renvoie :
 
 ## décomposerURI
 
-Désassemble un identificateur de ressource unique ( [!DNL URI]) dans ses composants : `hash`, `host`, `href`, `pathname`, `protocol`, `search`et `[!DNL uriParams]`.
+Déassemble un identificateur de ressource unique ( [!DNL URI]) en ses composants : `hash`, `host`, `href`, `pathname`, `protocol`, `search`et `[!DNL uriParams]`.
 
 <!-- 
 
@@ -152,7 +156,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 
 ## getMetaTags
 
-Recherche le contenu spécifique défini dans les balises meta d'une page Web et renvoie ces données dans un objet.
+Recherche le contenu spécifique défini dans les balises meta d&#39;une page Web et renvoie ces données dans un objet.
 
 <!-- 
 
@@ -171,15 +175,19 @@ Signature de fonction : `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Exemple de code
 
 <pre class="&ldquo;javascript&rdquo;"><code>
-var dataLib = DIL.create({ partner : '<i>partnerName'</i>, containerNSID: <i>containerNSID</i> }); 
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
+}); 
 
-dataLib.api.signaux(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: <i>`partnerName’</i>, 
+     partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
-dataLib.api.signals(DIL.tools.getMetaTags(’<i>application</i>’,’<i>keywords</i>’, ’<i>description</i>’), ’c_’).submit();
+
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
