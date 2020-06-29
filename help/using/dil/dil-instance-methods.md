@@ -1,20 +1,24 @@
 ---
-description: Les API DIL au niveau de l’instance vous permettent de créer et d’utiliser par programmation des objets Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
+description: Les API DIL au niveau de l’instance vous permettent de créer et d’utiliser par programmation des objets d’Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
 keywords: create traits;create trait
-seo-description: Les API DIL au niveau de l’instance vous permettent de créer et d’utiliser par programmation des objets Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
+seo-description: Les API DIL au niveau de l’instance vous permettent de créer et d’utiliser par programmation des objets d’Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
 seo-title: Méthodes DIL au niveau de l’instance
 solution: Audience Manager
 title: Méthodes DIL au niveau de l’instance
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 12%
 
 ---
 
 
 # Méthodes DIL au niveau de l’instance{#instance-level-dil-methods}
 
-Les [!UICONTROL DIL] API de niveau instance vous permettent de créer et d’utiliser par programmation des objets Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
+Les [!UICONTROL DIL] API de niveau instance vous permettent de créer et d’utiliser par programmation des objets d’Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
 
 ## Prise en main des méthodes DIL au niveau de l’instance {#get-started-dil-methods}
 
@@ -26,7 +30,7 @@ c_api_overview.xml
 
 Lorsque vous utilisez des [!UICONTROL DIL] API de niveau instance :
 
-* L&#39;accès nécessite un nom de partenaire et un ID d&#39;espace de nommage d&#39;conteneur (NSID). Contactez votre gestionnaire de compte Audience Manager pour obtenir ces informations.
+* L&#39;accès nécessite un nom de partenaire et un ID d&#39;espace de nommage d&#39;conteneur (NSID). Contactez votre gestionnaire de compte d’Audience Manager pour obtenir ces informations.
 * Remplacez tout exemple de texte *en italique* dans la documentation de l’API par la valeur, l’ID ou toute autre variable, comme requis par la méthode utilisée.
 
 <!-- 
@@ -99,7 +103,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 ## traits {#traits}
 
-Ajoute des SID à la chaîne de requête d’une requête en attente.
+Ajoute les SID à la chaîne de requête d’une requête en attente.
 
 <!-- 
 
@@ -135,7 +139,7 @@ partnerObject.api.traits(<i>[123, 456, 789]</i>);
 
 ## logs {#logs}
 
-Ajouter de données aux fichiers journaux dans la requête en attente.
+Ajoutez les données pour enregistrer les fichiers dans la requête en attente.
 
 <!-- 
 
@@ -164,7 +168,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Envoie toutes les données en attente à Audience Manager pour l’ [!UICONTROL DIL] instance.
+Envoie toutes les données en attente à l’Audience Manager de l’ [!UICONTROL DIL] instance.
 
 <!-- 
 
@@ -284,7 +288,7 @@ dataLib.clearData();
 
 ## customQueryParams {#customqueryparams}
 
-Ajoute à une requête en attente des paramètres de requête personnalisés qui ne sont pas explicitement définis par le serveur de collecte de données.
+Ajoute des paramètres de requête personnalisés qui ne sont pas explicitement définis par le serveur de collecte de données à une requête en attente.
 
 <!-- 
 
@@ -483,7 +487,7 @@ state = {
 
 ## idSync {#idsync}
 
-Comprend deux fonctions qui permettent aux partenaires de données d’échanger et de synchroniser les ID utilisateur entre eux et Audience Manager.
+Comprend deux fonctions qui permettent aux partenaires de données d’échanger et de synchroniser leurs identifiants d’utilisateur entre eux et entre leurs Audiences Manager.
 
 <!-- 
 
@@ -505,11 +509,11 @@ Fonctionne avec [!UICONTROL DIL] les versions 2.10 et 3.1 ou ultérieures.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre différents partenaires de données et le Gestionnaire d’Audiences. Par exemple, le partenaire x utilisera cette méthode pour synchroniser un ID d’utilisateur avec le partenaire y, puis l’enverra au Gestionnaire d’Audiences. </p> <p> <p><b>Important :</b>  Cette méthode est désapprouvée. Veuillez utiliser la <code> idSyncByURL </code> méthode de l’instance Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Entre différents partenaires de données et Audience Manager. Par exemple, le partenaire x utilisera cette méthode pour synchroniser un ID d’utilisateur avec le partenaire y, puis l’enverra à l’Audience Manager. </p> <p> <p><b>Important :</b>  Cette méthode est désapprouvée. Veuillez utiliser la <code> idSyncByURL </code> méthode de l'instance du service d'identité de l'Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Lorsque vous connaissez déjà l’ID utilisateur et souhaitez l’envoyer à Audience Manager. </p> <p> <p><b>Important :</b>  Cette méthode est désapprouvée. Veuillez utiliser la <code> idSyncByDataSource </code> méthode de l’instance Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Lorsque vous connaissez déjà l’ID utilisateur et souhaitez l’envoyer à l’Audience Manager. </p> <p> <p><b>Important :</b>  Cette méthode est désapprouvée. Veuillez utiliser la <code> idSyncByDataSource </code> méthode de l'instance du service d'identité de l'Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -555,7 +559,7 @@ Fonctionne avec [!UICONTROL DIL] les versions 2.10 et 3.1 ou ultérieures.
 `idSync` accepte les macros suivantes :
 
 * **`%TIMESTAMP%`:**Génère un horodatage (en millisecondes). Utilisé pour la mise en cache.
-* **`%DID%`:**Insère l’ID Audience Manager de l’utilisateur.
+* **`%DID%`:**Insère l’ID d’Audience Manager de l’utilisateur.
 * **`%HTTP_PROTO%`:**Définit le protocole de la page (`http`ou`https`).
 
 **Réponse**
@@ -722,5 +726,5 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [Fonctions de synchronisation dans Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [Création DIL](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform Identity Service : UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Prise en charge de CORS dans Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Prise en charge de la norme CORS dans le service d&#39;identité des Adobes Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
