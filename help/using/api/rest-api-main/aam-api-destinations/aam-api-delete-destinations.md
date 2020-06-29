@@ -1,12 +1,16 @@
 ---
-description: Les méthodes DELETE et POST permettent de supprimer les destinations et les mappages de segments.
-seo-description: Les méthodes DELETE et POST permettent de supprimer les destinations et les mappages de segments.
+description: Méthodes DELETE et POST permettant de supprimer les destinations et les mappages de segments.
+seo-description: Méthodes DELETE et POST permettant de supprimer les destinations et les mappages de segments.
 seo-title: Supprimer les destinations
 solution: Audience Manager
 title: Supprimer les destinations
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
+feature: API
 translation-type: tm+mt
-source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +29,7 @@ Méthode `DELETE` qui supprime une destination.
 >
 >Vous devez supprimer tous les mappages de segments avant de pouvoir supprimer une destination.
 
-* Request: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
+* Demande: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 * Réponse : Renvoie le code `204 No Content` en cas de réussite.
 
 ## Destinations de suppression en bloc
@@ -35,9 +39,9 @@ Supprimez plusieurs destinations avec cette `POST` méthode. Transmettez les ID 
 * Demande: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
 * Réponse : Renvoie le code `204 No Content` en cas de réussite.
 
-## Supprimer les correspondances de destination par ID de mappage de segment
+## Supprimer les mappages de destination par ID de mappage de segment
 
-Méthode `POST` qui supprime les mappages de destination selon l’ID de segment spécifié.
+Méthode `POST` qui supprime les mappages de destination en fonction de l’ID de segment spécifié.
 
-* Request: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* Demande: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
 * Réponse : Renvoie le code `204 No Content` en cas de réussite.
