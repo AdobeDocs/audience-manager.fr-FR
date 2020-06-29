@@ -4,8 +4,12 @@ seo-description: Utilisez des opérateurs logiques pour regrouper des paires cl�
 seo-title: Opérateurs logiques pris en charge
 title: Opérateurs logiques pris en charge
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 4%
 
 ---
 
@@ -23,19 +27,19 @@ Utilisez les opérateurs logiques pris en charge suivants pour rechercher des pa
 | Opérateur | Définition |
 |---|---|
 | **==** | Égal à |
-| **&gt;** | Supérieur à |
+| **>** | Supérieur à |
 | **&lt;** | Inférieur à |
-| **=&gt;** | Supérieur/égal à |
+| **=>** | Supérieur/égal à |
 | **&lt;=** | Inférieur/égal à |
 
 ### Opérateurs nommés
 
-| Opérateur | Evalue à [!DNL True] quel moment |
+| Opérateur | Évaluer à [!DNL True] quel moment |
 |---|---|
 | **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient* des caractères spécifiés par cet opérateur. |
-| **[!UICONTROL Startswith]** | La valeur d’une paire clé-valeur *commence par* des caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Startswith]** | Valeur d’une paire clé-valeur *débuts avec* des caractères spécifiés par cet opérateur. |
 | **[!UICONTROL Endswith]** | La valeur d’une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
 
-## Opérateurs pris en charge pour le renvoi et l’estimation des caractéristiques {#supported-operators-backfilling}
+## Opérateurs pris en charge pour le renvoi et l&#39;estimation des caractéristiques {#supported-operators-backfilling}
 
-Vous pouvez renvoyer des caractéristiques qui incluent des expressions contenant l’un des opérateurs pris en charge par [!UICONTROL Signal Search]. Outre ces opérateurs, le renvoi et l’estimation de caractéristiques prennent également en charge les opérateurs [!UICONTROL AND], [!UICONTROL OR]et [!UICONTROL AND NOT] logiques, utilisés pour combiner des paires clé-valeur dans les expressions de caractéristiques renvoyées.
+Vous pouvez renvoyer les caractéristiques qui incluent des expressions contenant l’un des opérateurs pris en charge par [!UICONTROL Signal Search]. Outre ces opérateurs, le renvoi et l&#39;estimation des caractéristiques prennent également en charge les opérateurs [!UICONTROL AND], [!UICONTROL OR]et [!UICONTROL AND NOT] logiques, utilisés pour combiner des paires clé-valeur dans les expressions de caractéristiques renvoyées.
