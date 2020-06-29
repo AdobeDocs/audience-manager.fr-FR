@@ -5,8 +5,9 @@ seo-title: Utiliser les autorisations de compartiments inter-comptes Amazon S3 
 solution: Audience Manager
 title: Utiliser les autorisations de compartiments inter-comptes Amazon S3 pour les fichiers de sortie
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 14%
