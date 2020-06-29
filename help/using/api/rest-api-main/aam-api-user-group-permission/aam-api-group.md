@@ -1,25 +1,29 @@
 ---
 description: Méthodes de l’API REST pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
 seo-description: Méthodes de l’API REST pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
-seo-title: Méthodes de l'API Gestion des groupes
+seo-title: Méthodes de l'API de gestion des groupes
 solution: Audience Manager
-title: Méthodes de l'API Gestion des groupes
+title: Méthodes de l'API de gestion des groupes
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 
 
-# Méthodes de l'API Gestion des groupes {#group-management-api-methods}
+# Méthodes de l&#39;API de gestion des groupes {#group-management-api-methods}
 
-Méthodes [!DNL API] de test pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
+Redéfinissez [!DNL API] les méthodes de gestion des groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Création d’un groupe {#create-group}
 
-Méthode `POST` permettant de créer un groupe d’utilisateurs.
+Méthode `POST` de création d’un groupe d’utilisateurs.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -85,9 +89,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Groupes de listes {#list-groups}
+## Groupes de Listes {#list-groups}
 
-Méthode `GET` permettant de répertorier les groupes d’utilisateurs.
+Méthode `GET` de liste des groupes d’utilisateurs.
 
 <!--
 r_rest_api_group_list.xml
@@ -115,7 +119,7 @@ r_rest_api_group_list.xml
 
 ## Suppression d’un groupe {#delete-groups}
 
-Méthode `DELETE` permettant de supprimer un groupe d’utilisateurs et tous les membres de ce groupe.
+Méthode `DELETE` de suppression d’un groupe d’utilisateurs et de tous ses membres.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -127,7 +131,7 @@ Renvoie `204 No Content` en cas de réussite. En cas de conflit revient `409 Con
 
 ## Suppression de groupes en bloc {#delete-groups-bulk}
 
-Méthode `DELETE` permettant de supprimer plusieurs groupes en bloc et de supprimer tous les membres de ce groupe.
+Une `DELETE` méthode pour supprimer plusieurs groupes en bloc et supprimer tous les membres de ce groupe.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -137,9 +141,9 @@ Méthode `DELETE` permettant de supprimer plusieurs groupes en bloc et de suppri
 
 Renvoie `204 No Content` en cas de réussite. En cas de conflit revient `409 Conflict`.
 
-## Répertorier toutes les autorisations d’un groupe {#list-permissions-group}
+## Liste de toutes les autorisations pour un groupe {#list-permissions-group}
 
-Méthode `GET` permettant de répertorier les objets d’autorisation d’un groupe.
+Méthode `GET` de liste des objets d’autorisation d’un groupe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -206,4 +210,4 @@ Méthode `PUT` de mise à jour des autorisations de groupe. Cette méthode rempl
 
 L’exemple de réponse représente la liste mise à jour des objets d’autorisation.
 
-Renvoie `200 OK` en cas de réussite. Renvoie `400` si une autorisation donnée n’est pas valide. Peut également renvoyer `403` si l’objet n’est pas accessible à l’utilisateur connecté.
+Renvoie `200 OK` en cas de réussite. Renvoie `400` si une autorisation donnée n&#39;est pas valide. Peut également renvoyer `403` si l’objet n’est pas accessible à l’utilisateur connecté.
