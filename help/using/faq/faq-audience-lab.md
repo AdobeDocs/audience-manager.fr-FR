@@ -6,8 +6,12 @@ solution: Audience Manager
 title: FAQ sur Audience Lab
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Oui, c&#39;est permis. Imaginez un cas d&#39;un test utilisant un segment mascul
 
 <br> 
 
-**Supposons qu’un groupe de test utilise un profil authentifié pour le fractionnement du segment de test. Le profil authentifié est lié à 4 UUID[Audience Manager](../reference/ids-in-aam.md). Lorsque le visiteur présente une caractéristique de conversion de l’un des quatre UUID, est-ce qu’il[!UICONTROL Audience Lab]compte une ou quatre conversions ?**
+**Supposons qu’un groupe de test utilise un profil authentifié pour le fractionnement du segment de test. Le profil authentifié est lié à 4 UUID[d’Audience Manager](../reference/ids-in-aam.md). Lorsque le visiteur présente une caractéristique de conversion de l’un des quatre UUID, est-ce qu’il[!UICONTROL Audience Lab]compte une ou quatre conversions ?**
 
 Dans ce cas, [!UICONTROL Audience Lab] une seule conversion est comptabilisée.
 
