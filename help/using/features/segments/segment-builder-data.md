@@ -5,8 +5,9 @@ seo-title: Données de population de caractéristiques et de segments dans le cr
 solution: Audience Manager
 title: Données de population de caractéristiques et de segments dans le créateur de segments
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Le tableau suivant définit les mesures de population de caractéristiques :
 
 ## Calcul des populations de segments réelles et estimées {#calculating-real-estimated-populations}
 
-Lorsque vous créez un segment ou modifiez un segment existant, l’Audience Manager prend jusqu’à 24 heures pour afficher les résultats des populations réelles de segments en temps réel et du total des segments.
+Lorsque vous créez un segment ou modifiez un segment existant, l’Audience Manager peut prendre jusqu’à 24 heures pour afficher les résultats des populations réelles de segments en temps réel et du total des segments.
 
 Toutefois, l’Audience Manager peut immédiatement estimer la taille de population totale et en temps réel de votre segment. Ces estimations sont basées sur des données historiques échantillonnées et retournent les résultats à l&#39;intervalle de confiance de 95 %.
 
