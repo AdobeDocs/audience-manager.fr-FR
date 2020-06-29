@@ -6,8 +6,9 @@ solution: Audience Manager
 title: Page Détails du segment
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -26,8 +27,8 @@ La partie supérieure de la page Détails du segment héberge les outils que vou
 1. **[!UICONTROL Add New]**: Utilisez cette option pour activer les segments [!UICONTROL Segment Builder] et créer de nouveaux segments.
 2. **[!UICONTROL Edit]**: Utilisez cette option pour modifier la configuration du segment actuel.
 3. **[!UICONTROL Duplicate]**: Utilisez cette option pour créer une copie du segment actuel.
-4. **[!UICONTROL Delete]**: Utilisez cette option pour supprimer le segment actuel de votre compte Audience Manager.
-5. **[!UICONTROL Marketplace Recommendations]**: Utilisez cette option pour trouver des segments similaires à celui que vous consultez, à partir de flux de [!UICONTROL Audience Marketplace] données auxquels vous n’êtes pas abonné. Voir [Audience Marketplace pour les acheteurs](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) de données pour savoir comment naviguer sur le Marketplace et trouver des segments similaires.
+4. **[!UICONTROL Delete]**: Utilisez cette option pour supprimer le segment actuel de votre compte d&#39;Audience Manager.
+5. **[!UICONTROL Marketplace Recommendations]**: Utilisez cette option pour trouver des segments similaires à celui que vous consultez, à partir de flux de [!UICONTROL Audience Marketplace] données auxquels vous n’êtes pas abonné. Voir [Audience Marketplace pour les acheteurs](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) de données pour savoir comment naviguer sur le Marché et trouver des segments similaires.
 
 ![information-segment-de-base](assets/basic-segment-information.png)
 
@@ -46,7 +47,7 @@ Sous les outils de gestion des segments, vous trouverez les informations suivant
 
    >[!NOTE]
    >
-   >Audience Manager affiche le [!UICONTROL Identity Type Breakdown] rapport uniquement si les ID de plusieurs périphériques sont qualifiés pour le segment.
+   >L’Audience Manager affiche le [!UICONTROL Identity Type Breakdown] rapport uniquement si les ID de plusieurs périphériques sont qualifiés pour le segment.
 
    Regardez la vidéo ci-dessous pour un aperçu de [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
