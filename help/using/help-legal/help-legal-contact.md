@@ -4,8 +4,12 @@ seo-description: Coordonnées permettant de contacter Adobe et informations sur 
 seo-title: Coordonnées et informations juridiques
 solution: Audience Manager
 title: Coordonnées et informations juridiques
+feature: Support
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 88%
 
 ---
 
