@@ -5,8 +5,9 @@ seo-title: Prise en main des règles de fusion de Profils
 solution: Audience Manager
 title: Prise en main des règles de fusion de Profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -54,7 +55,7 @@ Pour compléter la [!UICONTROL Data Source Details] section :
 
 * **[!UICONTROL Use as a Device Graph]**: Ce contrôle n’est disponible que pour les comptes répertoriés en tant que fournisseur de données. Cette case à cocher crée votre source de données sous forme de graphique de périphérique et vous permet de la partager avec d’autres [!DNL Audience Manager] clients. Contactez votre [!DNL Audience Manager] consultant pour être configuré en tant que fournisseur de données et pour spécifier avec quels clients il [!UICONTROL Data Source] convient de partager. Votre consultant va configurer le partage des graphiques de votre compte et de votre périphérique au moyen d&#39;un processus de mise en service interne.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Ce contrôle vous permet de définir la période de rétention des données pour les ID de client inactifs. Cela détermine la durée pendant laquelle Audience Manager conserve les ID de client dans notre base de données après leur dernière consultation sur la plateforme Audience Manager. La valeur par défaut est de 24 mois (720 jours). La valeur minimale que vous pouvez définir est de 1 mois et la valeur maximale est de 5 ans. Notez que nous comptons tous les mois comme 30 jours. Audience Manager exécute un processus qui supprime les ID de client inactifs une fois par semaine, conformément à la rétention de données que vous avez définie pour les ID de client inactifs.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Ce contrôle vous permet de définir la période de rétention des données pour les ID de client inactifs. Cela détermine la durée pendant laquelle l’Audience Manager conserve les ID de client dans notre base de données après leur dernière consultation sur la plateforme d’Audience Manager. La valeur par défaut est de 24 mois (720 jours). La valeur minimale que vous pouvez définir est de 1 mois et la valeur maximale est de 5 ans. Notez que nous comptons tous les mois comme 30 jours. L’Audience Manager exécute un processus qui supprime les ID de client inactifs une fois par semaine, conformément à la rétention de données que vous avez définie pour les ID de client inactifs.
 
 Les champs de texte associés à ces paramètres vous permettent de renommer le fichier [!UICONTROL Data Source] avec un alias qui s’affiche dans les options [Règle de fusion de](merge-rule-definitions.md)Profil. Par exemple, si vous ajoutez un alias à **[!UICONTROL Use as Authenticated Profile]**, ce nom apparaît dans la [!UICONTROL Authenticated Profile Options] liste. Si vous ajoutez un alias à **[!UICONTROL Use as a Device Graph]**, ce nom apparaît dans la [!UICONTROL Device Options] liste.
 
@@ -102,18 +103,18 @@ Pour compléter la [!UICONTROL Proflie Merge Rule Setup] section :
    * **[!UICONTROL Device Co-op]**
 4. Cliquez sur **[!UICONTROL Save]**.
 
-### Considérations relatives aux destinations Adobe Campaign utilisant des identifiants de plusieurs périphériques comme clés d’ID utilisateur {#considerations}
+### Considérations relatives aux destinations d’Adobe Campaign à l’aide d’ID sur plusieurs périphériques en tant que clés d’ID utilisateur {#considerations}
 
-À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance Gestionnaire d’Audiences à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
+À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
 
-Pour garantir l’intégration correcte entre votre instance Audience Manager et vos destinations à l’aide d’identifiants sur plusieurs périphériques, tels que Adobe Campaign, assurez-vous de respecter les exigences suivantes :
+Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que l’Adobe Campaign, assurez-vous de respecter les exigences suivantes :
 
 1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion des Profils doit utiliser l’ [!UICONTROL Last Authenticated Profile] option, de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
-2. Sélectionnez la source de données d’ID déclarés Adobe Campaign dans les paramètres de la règle de fusion de Profils.
+2. Sélectionnez la source de données d’identifiant déclaré de l’Adobe Campaign dans les paramètres de la règle de fusion de Profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de Profils pour les autres cas d’utilisation.
+> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré de l’Adobe Campaign, sans modifier les règles de fusion de Profil pour les autres cas d’utilisation.
 
 ## Configurer le code de règle de fusion {#configure-merge-rule-code}
 
@@ -224,7 +225,7 @@ Vérifiez les méthodes de votre [!DNL SDK] code qui vous permettent de passer [
  </tbody>
 </table>
 
-Voir aussi Méthodes du gestionnaire des [Audiences pour Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et Méthodes du gestionnaire des [Audiences pour iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Voir également Méthodes d’ [Audience Manager pour Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et Méthodes d’ [Audience Manager pour iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
