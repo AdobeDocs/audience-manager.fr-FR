@@ -5,15 +5,19 @@ seo-title: Renvoyer une destination par ID de destination
 solution: Audience Manager
 title: Renvoyer une destination par ID de destination
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
 
 # Renvoyer une destination par ID de destination {#return-a-destination-by-destination-id}
 
-Méthode `GET` qui renvoie la destination pour le paramètre spécifié `destinationId`.
+Méthode `GET` qui renvoie la destination pour le `destinationId`champ spécifié.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -23,7 +27,7 @@ Méthode `GET` qui renvoie la destination pour le paramètre spécifié `destina
 
 >[!NOTE]
 >
->Pour renseigner le `mappings` champ transmis `includeMappings=true` dans l’URL.
+>Pour remplir le `mappings` champ transmis `includeMappings=true` dans l’URL.
 
 ## Réponse
 
@@ -65,15 +69,15 @@ Méthode `GET` qui renvoie toutes les destinations pour le partenaire spécifié
 
 >[!NOTE]
 >
->* *(Facultatif)* Transmission `containsSegment=<sid>` pour renvoyer un tableau de toutes les destinations mises en correspondance avec le segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
+>* *(Facultatif)* Transmettez- `containsSegment=<sid>` le pour renvoyer un tableau de toutes les destinations mises en correspondance avec le segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
    >
    >
 * Ne renvoie pas l’objet de destination complet. Obtenez la destination par ordre de données si vous avez besoin d’un objet entièrement renseigné.
 
 
-### Paramètres de requête facultatifs
+### Paramètres de Requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renvoient *toutes les* propriétés d’un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à la [!DNL API]. Voir Paramètres [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)facultatifs.
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient *toutes les* propriétés d’un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à la [!DNL API]. Voir Paramètres [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)facultatifs.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -85,7 +89,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renv
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Renvoie les résultats par numéro de page. La numérotation commence à 0. </td>
+   <td colname="col2"> Renvoie les résultats par numéro de page. débuts de numérotation à 0. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
@@ -93,15 +97,15 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renv
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Trie et renvoie les résultats selon la propriété JSON <span class="keyword"></span> spécifiée. </td>
+   <td colname="col2">Trie et renvoie les résultats selon la propriété <span class="keyword"> JSON</span> spécifiée. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> décroissant</code> </td>
-   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. L’option Croissant est utilisée par défaut. </td>
+   <td colname="col1"><code> descending</code> </td>
+   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. Ascendant est défini par défaut. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> rechercher</code> </td>
-   <td colname="col2">Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez rechercher des résultats pour tous les modèles qui contiennent le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de requête peut ressembler à ceci : <p><code> OBTENEZ https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Vous pouvez rechercher n’importe quelle valeur renvoyée par une méthode "get all". </p> </td>
+   <td colname="col1"><code> search</code> </td>
+   <td colname="col2">Renvoie des résultats basés sur la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez trouver des résultats pour tous les modèles qui contiennent le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de demande peut se présenter comme suit : <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Vous pouvez rechercher n’importe quelle valeur renvoyée par une méthode "get all". </p> </td>
   </tr>
  </tbody>
 </table>
@@ -249,9 +253,9 @@ Méthode `GET` qui renvoie les mappages pour une destination.
 {
 ```
 
-## Renvoyer toutes les plateformes de destination disponibles {#return-dest-platforms}
+## Renvoyer toutes les plates-formes de destination disponibles {#return-dest-platforms}
 
-Méthode `GET` qui renvoie toutes les plateformes de périphérique disponibles pour les destinations.
+Méthode `GET` qui renvoie toutes les plates-formes de périphériques disponibles pour les destinations.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -267,9 +271,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Retour de l’historique des tâches de destination S2S et S2S en bloc {#return-job-history}
+## Retourner l&#39;historique des tâches de destination S2S et S2S en bloc {#return-job-history}
 
-Méthode `GET` qui renvoie des informations d’historique des tâches sortantes [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) et de destination en bloc [!UICONTROL S2S] .
+Méthode `GET` qui renvoie des informations relatives à l’historique des tâches sortantes [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) et de [!UICONTROL S2S] destination en bloc.
 
 <!-- r_get_job_history.xml -->
 
@@ -277,7 +281,7 @@ Méthode `GET` qui renvoie des informations d’historique des tâches sortantes
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Paramètres de requête requis : `startDate` = *&lt;`epochtime`&gt;* et `endDate` = *&lt;`epochtime`&gt;.*
+Paramètres de requête requis : `startDate` = *&lt;`epochtime`>* et `endDate` = *&lt;`epochtime`>*.
 
 ### Réponse
 
