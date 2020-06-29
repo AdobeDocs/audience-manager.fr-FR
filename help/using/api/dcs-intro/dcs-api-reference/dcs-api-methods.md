@@ -5,23 +5,23 @@ seo-title: Méthodes de l’API DCS
 solution: Audience Manager
 title: Méthodes de l’API DCS
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
 
-# Méthodes de l’API DCS {#dcs-api-methods}
+# [!DNL DCS] [!DNL API] Méthodes {#dcs-api-methods}
 
 Envoyez des données à l’ [!DNL DCS] utilisateur à l’ [!DNL API] aide `GET` ou `POST` de méthodes.
 
 Vous pouvez envoyer des données à l’ [!DNL DCS] utilisateur à l’aide de l’une des méthodes `GET` ou `POST` . Consultez les exemples d’appels ci-dessous, en utilisant [curl](https://curl.haxx.se/). Dans les trois exemples d&#39;appels, nous ajoutons les signaux `c_likes = famous popstar` et `c_loves = famous actress` au profil de l&#39;appareil `12345678901234567890123456789012345678`.
 
-
-## Envoyer des données via GET {#send-data-via-get}
+## Envoyer des données via [!DNL GET] {#send-data-via-get}
 
 Notez que la taille maximale autorisée pour les `GET` appels est de 8 Ko.
 
@@ -29,7 +29,7 @@ Notez que la taille maximale autorisée pour les `GET` appels est de 8 Ko.
 curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
 ```
 
-## Envoyer des données via POST {#send-data-via-post}
+## Envoyer des données via [!DNL POST] {#send-data-via-post}
 
 Notez les conditions requises pour l’envoi de données à l’aide de la `POST` méthode :
 
