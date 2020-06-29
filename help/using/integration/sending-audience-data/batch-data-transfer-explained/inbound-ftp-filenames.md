@@ -1,12 +1,13 @@
 ---
-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
-seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
+description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
+seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
 seo-title: Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants
 solution: Audience Manager
 title: Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 3%
