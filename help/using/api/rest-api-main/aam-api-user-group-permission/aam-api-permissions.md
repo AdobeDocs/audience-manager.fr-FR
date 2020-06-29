@@ -5,8 +5,12 @@ seo-title: Méthodes de l’API de gestion des autorisations
 solution: Audience Manager
 title: Méthodes de l’API de gestion des autorisations
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +21,9 @@ Redéfinissez [!DNL API] les méthodes de gestion des autorisations pour les obj
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Liste des types d’objets disponibles {#list-object-types}
+## Types d&#39;objet disponibles pour la Liste {#list-object-types}
 
-Méthode `GET` permettant de répertorier les types d’objet disponibles sur lesquels des contrôles d’accès basés sur les rôles peuvent être définis.
+Une `GET` méthode permettant de liste les types d&#39;objet disponibles sur lesquels des contrôles d&#39;accès basés sur les rôles peuvent être définis.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -33,9 +37,9 @@ Méthode `GET` permettant de répertorier les types d’objet disponibles sur le
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Répertorier les autorisations disponibles pour un type d’objet {#list-permissions-object-type}
+## Liste des autorisations disponibles pour un type d’objet {#list-permissions-object-type}
 
-Méthode `GET` permettant de répertorier les autorisations disponibles pour un type d’objet.
+Méthode `GET` de liste des autorisations disponibles pour un type d’objet.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -54,4 +58,4 @@ Méthode `GET` permettant de répertorier les autorisations disponibles pour un 
 
 >[!NOTE]
 >
->Les types d’objet TAGS et DERIVED SIGNALS n’ont pas d’autorisations régulières à utiliser. Les contrôles de ces types d’objets sont modifiés uniquement par les autorisations de carte générique Tout ou Rien.
+>Les types d&#39;objet TAGS et DERIVED SIGNALS n&#39;ont pas d&#39;autorisations régulières à utiliser. Les contrôles de ces types d’objet sont modifiés uniquement par les autorisations de carte générique Tout ou Rien.
