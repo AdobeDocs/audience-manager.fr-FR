@@ -1,26 +1,30 @@
 ---
-description: Envoyez les données d’audience d’autres sources à Audience Manager.
-seo-description: Envoyez les données d’audience d’autres sources à Adobe Audience Manager (AAM).
-seo-title: Envoi de données d’audience dans Adobe Audience Manager (AAM)
-title: Envoi de données d’audience
+description: Envoyer à l’Audience Manager les données d’audience provenant d’autres sources.
+seo-description: Envoyer des données d’audience d’autres sources à l’Adobe Audience Manager (AAM).
+seo-title: Envoi de données d’Audience dans un Adobe Audience Manager (AAM)
+title: Envoi de données d'Audience
+feature: Inbound Data Transfer
 translation-type: tm+mt
-source-git-commit: 00ea159dff61de4b346d994a50b5dcfc2ccb8c89
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
 
-# Envoi de données d’audience
+# Envoi de données d&#39;Audience
 
-Envoyez les données d’audience d’autres sources à Audience Manager.
+Envoyer à l’Audience Manager les données d’audience provenant d’autres sources.
 
 * [Intégration des données entrantes en temps réel](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-   Informations sur l’intégration d’Audience Manager en temps réel.
+   Informations sur l’intégration des Audiences Manager en temps réel.
 
 * [Description du processus de transfert de données par lot](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
-   Présentation générale d’Audience Manager qui effectue un échange asynchrone de données par lot avec un fournisseur tiers.
+   Présentation générale de la manière dont l’Audience Manager effectue un échange de données par lot asynchrone avec un fournisseur tiers.
 
-* [Intégrations personnalisées de partenaires](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+* [Intégrations de partenaires personnalisées](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
 
    Cette page répertorie les intégrations personnalisées entre Audience Manager et les partenaires de données.
