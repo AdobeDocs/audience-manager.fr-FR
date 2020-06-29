@@ -5,8 +5,12 @@ seo-title: Code SDK
 solution: Audience Manager
 title: Code SDK
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
+feature: API
 translation-type: tm+mt
-source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +25,7 @@ Audience Manager fournit des kits de développement logiciel ([!DNL SDK]s) pour 
 
 * Pour commencer, cliquez sur [Launch](https://launch.adobe.com/).
 * Pour consulter le contenu des dépôts du SDK Experience Platform, accédez à [Github : Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Pour mettre en oeuvre Audience Manager dans votre application à l’aide du nouveau SDK v.5, lisez la documentation [d’](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager sur la nouvelle page du SDK.
+* Pour mettre en oeuvre l’Audience Manager dans votre application, à l’aide du nouveau SDK v.5, lisez la documentation [de l’](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager sur la nouvelle page du SDK.
 
 <br> 
 
