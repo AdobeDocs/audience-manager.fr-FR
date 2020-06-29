@@ -5,8 +5,9 @@ seo-title: Liste et paramètres des sources de données
 solution: Audience Manager
 title: Liste et paramètres des sources de données
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
+feature: Data Sources
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 2%
@@ -146,7 +147,7 @@ Cochez la **[!UICONTROL Inbound]** case lorsque votre source de données est con
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Utiliser comme graphique de périphérique</span></b> </p> </td> 
-   <td colname="col2"> <p>Crée une source de données sous forme de graphique de périphérique que vous pouvez fournir à d’autres clients <span class="keyword"> d’Audience Manager</span> . Avant de sélectionner cette option, indiquez à votre consultant en <span class="keyword"> Audience Manager</span> avec quels clients cette source <span class="wintitle"></span> de données doit être partagée. Votre consultant devra fournir ces sociétés par le biais de nos processus internes. </p> <p>Cette option expose un champ de texte qui vous permet de renommer la source de données avec un alias. Si vous utilisez un alias, ce nouveau nom remplace le nom de la source de données et s’affiche dans les Options <span class="wintitle"></span> de périphérique lorsque vous <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> créez une règle</a>de fusion de Profils. </p> </td> 
+   <td colname="col2"> <p>Crée une source de données sous forme de graphique de périphérique que vous pouvez fournir à d’autres clients <span class="keyword"> d’Audience Manager</span> . Avant de sélectionner cette option, indiquez à votre consultant en <span class="keyword"> Audience Manager</span> avec quels clients cette source <span class="wintitle"></span> de données doit être partagée. Votre consultant devra fournir ces sociétés par le biais de nos processus internes. </p> <p>Cette option expose un champ de texte qui vous permet de renommer la source de données avec un alias. Si vous utilisez un alias, ce nouveau nom remplace le nom de la source de données et s'affiche dans les Options <span class="wintitle"></span> de périphérique lorsque vous <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> créez une règle</a>de fusion de Profils. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Partager les ID de visiteur ou de périphérique associés avec des clients d’Audience Manager spécifiques</span></b> </p> </td> 
