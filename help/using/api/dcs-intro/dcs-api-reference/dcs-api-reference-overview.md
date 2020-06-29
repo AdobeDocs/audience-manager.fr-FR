@@ -3,8 +3,9 @@ description: Informations conceptuelles, descriptions et définitions pour le co
 seo-description: Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus de l’API DCS dans Adobe Audience Manager (AAM).
 seo-title: Présentation de la référence de l’API DCS dans l’Adobe Audience Manager (AAM)
 title: Présentation des références de l’API DCS
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 1%
