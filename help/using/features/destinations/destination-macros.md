@@ -5,8 +5,9 @@ seo-title: Macros de destination définies
 solution: Audience Manager
 title: Macros de destination définies
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -40,11 +41,11 @@ Lors de la création d’une [!DNL URL] destination, vous pouvez insérer les ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Insère l’ID du gestionnaire <span class="keyword"> d’</span> Audiences de l’utilisateur dans l’URL de destination. </p> </td> 
+   <td colname="col2"> <p>Insère l’ID <span class="keyword"> d’Audience Manager</span> de l’utilisateur dans l’URL de destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>L’ID <i>de source de</i> données correspond à l’identifiant d’une source de données transmise à la macro. </p> <p>Examinons comment cela fonctionne dans un exemple simple. Dans ce cas, nous avons un partenaire <span class="keyword"> Audience Manager</span> avec les ID et conditions suivants : </p> 
+   <td colname="col2"> <p>L’ID <i>de source de</i> données correspond à l’identifiant d’une source de données transmise à la macro. </p> <p>Examinons comment cela fonctionne dans un exemple simple. Dans ce cas, nous avons un partenaire <span class="keyword"> d’Audience Manager</span> avec les identifiants et conditions suivants : </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID de source de données : <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un ID de client interne : <code> CustomerABC</code> </li> 
@@ -59,11 +60,11 @@ Lors de la création d’une [!DNL URL] destination, vous pouvez insérer les ma
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Indique si les règlements du RGMD s'appliquent au visiteur ou non. Utilisez cette macro pour inclure le consentement dans les segments envoyés aux destinations URL intégrées à IAB. Voir Module externe <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour le TCF</a> IAB pour en savoir plus.</p></td>
+    <td><p>Indique si les règlements du RGMD s'appliquent au visiteur ou non. Utilisez cette macro pour inclure le consentement dans les segments envoyés aux destinations URL intégrées à IAB. Voir Module d’ <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour le TCF</a> IAB pour en savoir plus.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>Chaîne de consentement (y compris l’ID du fournisseur IAB) collectée lorsque des visiteurs fournissent ou refusent le consentement sur votre site. Utilisez cette macro pour inclure la chaîne de consentement dans les segments envoyés aux destinations URL intégrées à IAB. Remplacez cette valeur par <code>XXXX</code> l’identifiant du partenaire de destination. Voir Module externe <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour le TCF</a> IAB pour en savoir plus. </p></td>
+    <td><p>Chaîne de consentement (y compris l’ID du fournisseur IAB) collectée lorsque des visiteurs fournissent ou refusent le consentement sur votre site. Utilisez cette macro pour inclure la chaîne de consentement dans les segments envoyés aux destinations URL intégrées à IAB. Remplacez cette valeur par <code>XXXX</code> l’identifiant du partenaire de destination. Voir Module d’ <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager pour le TCF</a> IAB pour en savoir plus. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -76,11 +77,11 @@ Lors de la création d’une [!DNL URL] destination, vous pouvez insérer les ma
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Insère l’ID <span class="keyword"> Experience Cloud</span> dans l’URL de destination. </p> </td> 
+   <td colname="col2"> <p>Insère l’ID <span class="keyword"> d’Experience Cloud</span> dans l’URL de destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Insère la région <span class="wintitle"> Data Collection Server (DCS)</span> dans l’URL de destination. Afin de minimiser la latence, lorsque le visiteur effectue un appel HTTP au gestionnaire <span class="keyword"></span>d’Audiences, il est redirigé vers le centre de données <span class="wintitle"> DCS</span> le plus proche. Pour ce faire, le service DNS est capable de détecter l’emplacement du visiteur et de le diriger vers le centre de données approprié. </p> </td> 
+   <td colname="col2"> <p>Insère la région <span class="wintitle"> Data Collection Server (DCS)</span> dans l’URL de destination. Afin de minimiser la latence, lorsque le visiteur effectue un appel HTTP à l’ <span class="keyword"> Audience Manager</span>, il est redirigé vers le centre de données <span class="wintitle"> DCS</span> le plus proche. Pour ce faire, le service DNS est capable de détecter l’emplacement du visiteur et de le diriger vers le centre de données approprié. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
