@@ -1,27 +1,31 @@
 ---
-description: Le  Segments est un espace de travail centralisé pour la gestion des destinations.
-seo-description: Le  Segments est un espace de travail centralisé pour la gestion des destinations.
-seo-title: 'Segments  '
+description: Le tableau de bord Segments est un espace de travail centralisé pour la gestion des destinations.
+seo-description: Le tableau de bord Segments est un espace de travail centralisé pour la gestion des destinations.
+seo-title: Vue de Liste de segments
 solution: Audience Manager
-title: 'Segments  '
+title: Vue de Liste de segments
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 2a3a562d5bc516c338c113db08303cf36e832f47
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
 
-# Segments  {#segments-list-view}
+# Vue de Liste de segments {#segments-list-view}
 
-Le [Segments](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) est un espace de travail centralisé pour la gestion de vos  segments de. Vous pouvez voir le [!UICONTROL Segments] en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+Le tableau de bord [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segments est un espace de travail centralisé pour la gestion de vos segments d’audience. Vous pouvez voir le [!UICONTROL Segments] tableau de bord en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-![segments-](assets/segments-dashboard.png)
+![segments-tableau de bord](assets/segments-dashboard.png)
 
 La [!UICONTROL Segments] page contient des fonctionnalités et des outils qui vous aident à :
 
 * Créer de nouveaux segments ;
 * Modifier et supprimer des segments ;
-* Cloner () les segments existants ;
+* Cloner (duplicata) les segments existants ;
 * Affichez tous vos segments dans un tableau avec des colonnes triables ;
-* Gérer les  de segments  ;
-* Recherchez les segments par nom.
+* Gérer l&#39;enregistrement de segments ;
+* Rechercher des segments par nom.
