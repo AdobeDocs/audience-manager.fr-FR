@@ -7,8 +7,9 @@ solution: Audience Manager
 title: Audiences adressables
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
+feature: Match Rates
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 1%
@@ -162,4 +163,4 @@ Vous ne devriez pas comparer les [!UICONTROL Customer Addressable Audience] mesu
 
 Outre les taux de correspondance de surface, vous pouvez également utiliser [!UICONTROL Addressable Audiences] comme outil de dépannage.
 
-Supposons, par exemple, que vous envoyiez un segment à un [!UICONTROL destination] et que [!UICONTROL destination] les chiffres de rapports soient faibles. Si vous vérifiez les [!UICONTROL Addressable Audience] résultats, vous verrez s&#39;il s&#39;agit d&#39;un problème technique ou simplement d&#39;un cas de faible taux de correspondance. Un faible taux de correspondance indique que votre [!UICONTROL destination] n’est pas si intéressant pour les segments sélectionnés. Cependant, une différence de [!UICONTROL total addressable audience] nombre entre [!DNL Audience Manager] et [!UICONTROL destination] indique un problème d’intégration, de synchronisation ou autre problème technique. Dans ce cas, contactez votre gestionnaire de compte.
+Supposons, par exemple, que vous envoyiez un segment à un [!UICONTROL destination] et que [!UICONTROL destination] les chiffres de rapports soient faibles. Si vous vérifiez les [!UICONTROL Addressable Audience] résultats, vous verrez s&#39;il s&#39;agit d&#39;un problème technique ou simplement d&#39;un cas de faible taux de correspondance. Un faible taux de correspondance indique que votre [!UICONTROL destination] n’est pas si intéressant pour les segments sélectionnés. Cependant, une différence de [!UICONTROL total addressable audience] nombre entre [!DNL Audience Manager] et le [!UICONTROL destination] indique un problème d’intégration, de synchronisation ou autre problème technique. Dans ce cas, contactez votre gestionnaire de compte.
