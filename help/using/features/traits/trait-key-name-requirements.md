@@ -5,8 +5,12 @@ seo-title: Exigences de nom pour les variables clés
 solution: Audience Manager
 title: Exigences de nom pour les variables clés
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
+feature: Traits
 translation-type: tm+mt
-source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +23,12 @@ Cet article décrit les conventions d’affectation de nom utilisées par la var
 
 <!-- c_tb_key_name_requirements.xml -->
 
-Dans [!UICONTROL Expression Builder]ce cas, le nom d’une variable clé dans une paire clé-valeur peut être composé de n’importe quel nombre de chiffres suivi de 1 (ou plus) lettre, d’un tiret, d’un trait de soulignement et de chiffres supplémentaires.
+En [!UICONTROL Expression Builder]effet, le nom d’une variable clé d’une paire clé-valeur peut être composé de n’importe quel nombre de chiffres suivi de 1 (ou plus) lettre, d’un tiret, d’un trait de soulignement et de chiffres supplémentaires.
 
 * Noms de clés valides : `price123`, `123price`, `price-123`, `c_price123`.
 
 * Noms de clés non valides : `123`, `price!123`.
 
-## Préfixe des variables clés avec `c_`
+## Préfixation des variables clés avec `c_`
 
-Le `c_` préfixe est *toujours* requis si les paramètres qui envoient des données sur une URL d’appel d’événement utilisent cette syntaxe.
+Le `c_` préfixe est *toujours* requis si les paramètres qui envoient des données sur une URL d’appel de événement utilisent cette syntaxe.
