@@ -5,8 +5,12 @@ seo-title: Cas d’utilisation généraux des règles de fusion de Profils
 solution: Audience Manager
 title: Cas d’utilisation généraux des règles de fusion de Profils
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ## Ciblage de périphérique {#device-personalization}
 
-Ce scénario s’applique aux spécialistes du marketing qui souhaitent évaluer un profil de périphérique unique pour un segment d’audience défini dans Audience Manager, afin de fournir une expérience cohérente au périphérique à l’aide de plateformes de ciblage prenant en charge les ID de périphérique (DSP, plateformes de personnalisation sur site et autres plateformes de ciblage basées sur un périphérique), sans tenir compte de l’authentification des utilisateurs.
+Ce scénario s’applique aux spécialistes du marketing qui souhaitent évaluer un profil de périphérique unique pour un segment d’audience défini dans l’Audience Manager, afin de fournir une expérience cohérente au périphérique à l’aide de plateformes de ciblage qui prennent en charge les ID de périphérique (DSP, plateformes de personnalisation sur site et autres plateformes de ciblage basées sur un périphérique), sans tenir compte de l’authentification des utilisateurs.
 
 Pour créer une règle qui ne cible que les profils de périphérique, sélectionnez **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -43,7 +47,7 @@ L&#39;équipe marketing du magasin peut utiliser la règle **[!UICONTROL Current
 
 ![current-no-device](assets/current-no-device.png)
 
-En utilisant cette règle, Audience Manager ignore complètement le profil de l’appareil, qualifie l’ID de gestion de la relation client de John pour le segment et ne considère pas l’ID de gestion de la relation client de Jane comme éligible.
+En utilisant cette règle, l’Audience Manager ignore complètement le profil de l’appareil, qualifie l’ID de gestion de la relation client de John pour le segment et ne considère pas l’ID de gestion de la relation client de Jane comme éligible.
 
 ![ciblage sur périphérique partagé](assets/shared-device-targeting.png)
 
@@ -55,9 +59,9 @@ Ce cas d&#39;utilisation couvre la gestion de l&#39;identité des ménages. Une 
 
 Prenons l&#39;exemple d&#39;un segment composé de ménages dont le revenu est supérieur à 100 000 $ par année, qui comprend au moins un appareil qui est un appareil [!DNL iPhone 7] à allumer [!DNL Data Plan B]. Nous avons deux profils ménagers (profils inter-appareils), chacun connecté à deux profils différents. Les caractéristiques requises pour être incluses dans le segment sont distribuées sur l’ensemble des profils du périphérique et sur plusieurs périphériques.
 
-Audience Manager fusionne chaque paire de profils périphérique + périphérique pour déterminer si l’ensemble de caractéristiques fusionné est admissible pour le segment. Audience Manager évaluant chaque profil inclus dans la fusion, il est possible de segmenter un profil de périphérique et un profil domestique.
+L’Audience Manager fusionne chaque paire de profils périphérique + périphérique pour déterminer si l’ensemble de caractéristiques fusionné est admissible pour le segment. Comme l&#39;Audience Manager évalue chaque profil inclus dans la fusion, il est possible de segmenter à la fois un profil d&#39;appareil et un profil domestique.
 
-Le lien entre l&#39;appareil et le profil domestique permet au gestionnaire d&#39;Audiences d&#39;être admissible [!DNL Household 2] au segment, mais pas [!DNL Household 1]. De [!DNL Household 2], seulement [!DNL Device 3] est admissible pour le segment. Cela [!UICONTROL Profile Merge Rule] a permis au spécialiste du marketing de diffuser un message marketing cohérent à un périphérique ([!DNL Device 3]) et au foyer ([!DNL Household 2]) en général.
+Le lien entre l&#39;appareil et l&#39;profil domestique permet à l&#39;Audience Manager de se qualifier [!DNL Household 2] pour le segment, mais pas [!DNL Household 1]. De [!DNL Household 2], seulement [!DNL Device 3] est admissible pour le segment. Cela [!UICONTROL Profile Merge Rule] a permis au spécialiste du marketing de diffuser un message marketing cohérent à un périphérique ([!DNL Device 3]) et au foyer ([!DNL Household 2]) en général.
 
 ![gestion des ménages](assets/household-management.png)
 
@@ -69,7 +73,7 @@ Le lien entre l&#39;appareil et le profil domestique permet au gestionnaire d&#3
 
 Ce scénario de ciblage n’est disponible que pour les clients qui ont acheté le [!DNL People-Based Destinations] module complémentaire. Cette règle permet aux spécialistes du marketing d’atteindre des clients en fonction de leurs propres données authentifiées.
 
-Supposons qu’un détaillant en ligne souhaite atteindre des clients existants par le biais de plateformes sociales et leur montrer des offres personnalisées en fonction de leurs commandes précédentes. Grâce à [!UICONTROL People-Based Destinations]eux, ils peuvent ingérer des adresses électroniques hachées de leur propre [!DNL CRM] entreprise dans Audience Manager, créer des segments à partir des données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles ils souhaitent faire de la publicité, en utilisant cet identifiant haché, ce qui optimise leurs dépenses publicitaires.
+Supposons qu’un détaillant en ligne souhaite atteindre des clients existants par le biais de plateformes sociales et leur montrer des offres personnalisées en fonction de leurs commandes précédentes. Grâce à [!UICONTROL People-Based Destinations]eux, ils peuvent assimiler des adresses électroniques hachées de leur propre [!DNL CRM] entreprise à l’Audience Manager, créer des segments à partir des données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles ils souhaitent faire de la publicité, en utilisant cet identifiant haché, ce qui optimise leurs dépenses publicitaires.
 
 Pour en savoir plus sur cette option, voir Destinations [basées sur les](../destinations/people-based-destinations-overview.md)personnes.
 
@@ -98,7 +102,7 @@ Le choix d’une [!UICONTROL device graph] option pour une [!UICONTROL Profile M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Options graphiques des périphériques externes </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Les règles de fusion</span> de Profil créées avec la <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> coopération</a> de périphérique Experience Cloud ou tout graphique de périphérique externe intégré à <span class="keyword"> Audience Manager</span> sont idéales pour : </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Les règles de fusion</span> de Profil créées avec la <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> ou tout graphique de périphérique externe intégré à <span class="keyword"> l'Audience Manager</span> sont idéales pour : </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriétés numériques présentant un faible niveau d’authentification du client. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagnes de grande envergure sur les marques. </li> 
