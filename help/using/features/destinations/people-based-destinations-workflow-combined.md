@@ -1,11 +1,15 @@
 ---
-description: 'Cette page comprend des instructions détaillées sur la manière de combiner des données de gestion de la relation client hors ligne avec des données comportementales que vous avez déjà dans Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers des destinations basées sur les personnes.  '
-seo-description: 'Cette page comprend des instructions détaillées sur la manière de combiner des données de gestion de la relation client hors ligne avec des données comportementales que vous avez déjà dans Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers des destinations basées sur les personnes.   '
+description: 'Cette page comprend des instructions détaillées sur la manière de combiner les données de gestion de la relation client hors ligne avec les données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers les destinations basées sur les personnes.  '
+seo-description: 'Cette page comprend des instructions détaillées sur la manière de combiner les données de gestion de la relation client hors ligne avec les données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers les destinations basées sur les personnes.   '
 seo-title: Workflow A - Personnalisation basée sur toutes les Activités en ligne combinée avec les données hors ligne
 solution: Audience Manager
 title: Workflow A - Personnalisation basée sur toutes les Activités en ligne combinée avec les données hors ligne
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1180'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonction. Rien dans ce document n&#39;est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
-Cette page comprend des instructions détaillées sur la manière de combiner des données hors ligne [!DNL CRM] avec des données comportementales que vous avez déjà dans Audience Manager pour créer de nouveaux segments d’audience, puis d’envoyer ces segments d’audience à [!DNL People-Based Destinations].
+Cette page comprend des instructions détaillées sur la manière de combiner des données hors ligne [!DNL CRM] avec des données comportementales que vous avez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis d’envoyer ces segments d’audience à [!DNL People-Based Destinations].
 
 ## Etape 1 - Configuration des paramètres de source de données {#configure-data-source-settings}
 
@@ -35,7 +39,7 @@ Dans ce cas, vous devez étiqueter la source de données correspondante comme te
 1. Utilisez le menu déroulant pour sélectionner le **[!UICONTROL Emails(SHA256, lowercased)]** libellé de cette source de données.
    >[!IMPORTANT]
    >
-   >Cette option étiquette uniquement la source de données comme contenant des données hachées avec cet algorithme spécifique. Audience Manager ne hachage pas les données à cette étape. Assurez-vous que les adresses électroniques que vous prévoyez de stocker dans cette source de données sont déjà hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas l&#39;utiliser pour [!DNL People-Based Destinations].
+   >Cette option étiquette uniquement la source de données comme contenant des données hachées avec cet algorithme spécifique. L’Audience Manager ne hachage pas les données à cette étape. Assurez-vous que les adresses électroniques que vous prévoyez de stocker dans cette source de données sont déjà hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas l&#39;utiliser pour [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Enregistrez les paramètres de la source de données.
@@ -46,14 +50,14 @@ Dans ce cas, vous devez étiqueter la source de données correspondante comme te
 
 Dans ce cas, vous devez créer une source de données multipériphériques qui stockera vos adresses électroniques hachées. Voici comment procéder :
 
-1. Connectez-vous à votre compte Audience Manager, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, puis cliquez sur **[!UICONTROL Add New]**.
+1. Connectez-vous à votre compte d’Audience Manager, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, puis cliquez sur **[!UICONTROL Add New]**.
 1. Saisissez un [!UICONTROL Name] et [!UICONTROL Description] pour votre nouvelle source de données.
 1. Dans le menu **[!UICONTROL ID Type]** déroulant, sélectionnez **[!UICONTROL Cross Device]**.
 1. Dans la **[!UICONTROL Data Source Settings]** section, sélectionnez les options **[!UICONTROL Inbound]** et **[!UICONTROL Outbound]** , puis activez l’ **[!UICONTROL Share associated cross-device IDs in people-based destinations]** option.
 1. Utilisez le menu déroulant pour sélectionner le **[!UICONTROL Emails(SHA256, lowercased)]** libellé de cette source de données.
    >[!IMPORTANT]
    >
-   >Cette option étiquette uniquement la source de données comme contenant des données hachées avec cet algorithme spécifique. Audience Manager ne hachage pas les données à cette étape. Assurez-vous que les adresses électroniques que vous prévoyez de stocker dans cette source de données sont déjà hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas l&#39;utiliser pour [!DNL People-Based Destinations].
+   >Cette option étiquette uniquement la source de données comme contenant des données hachées avec cet algorithme spécifique. L’Audience Manager ne hachage pas les données à cette étape. Assurez-vous que les adresses électroniques que vous prévoyez de stocker dans cette source de données sont déjà hachées avec l’ [!DNL SHA256] algorithme. Sinon, vous ne pourrez pas l&#39;utiliser pour [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Enregistrez les paramètres de la source de données.
@@ -64,7 +68,7 @@ Regardez la vidéo ci-dessous pour découvrir comment créer une source de donn�
 
 >[!NOTE]
 >
-> Pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager for People-Based Destinations, reportez-vous à la section Intégration [des](people-based-destinations-prerequisites.md#data-onboarding) données.
+> Pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans l’Audience Manager des destinations basées sur les personnes, reportez-vous à la section Intégration [des](people-based-destinations-prerequisites.md#data-onboarding) données.
 
 ## Étape 2 - Correspondance entre les DPUUID et les adresses électroniques hachées via la synchronisation des identifiants basée sur des fichiers {#match-ids-emails}
 
@@ -114,7 +118,7 @@ Dans l’exemple ci-dessus, le nom de fichier se présenterait comme suit :
 
 [Téléchargez un exemple de fichier ici](assets/c2c_id_999999_987654_1560431657.sync).
 
-Une fois que vous avez créé votre fichier de synchronisation des identifiants, vous devez le télécharger dans un [!DNL Amazon S3] compartiment. Pour savoir comment télécharger des fichiers de synchronisation des identifiants, voir [Envoyer des données de lot à Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+Une fois que vous avez créé votre fichier de synchronisation des identifiants, vous devez le télécharger dans un [!DNL Amazon S3] compartiment. Pour savoir comment télécharger des fichiers de synchronisation des identifiants, voir [Envoyer des données de lot à l’Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Etape 3 - Création d’une règle de fusion de Profils pour la segmentation {#create-merge-rule}
 
@@ -124,7 +128,7 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 >
 > Si une règle est déjà définie avec les options [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL Last Authenticated Profiles] , vous pouvez passer à l’ [étape 4 - Créer des segments](people-based-destinations-workflow-combined.md#create-audience-segments)d’Audience.
 
-1. Connectez-vous à votre compte Audience Manager et accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
+1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
 1. Cliquez sur **[!UICONTROL Add New Rule]**.
 1. Saisissez une règle de fusion de profil **[!UICONTROL Name]** et **[!UICONTROL Description]**.
 1. Dans la **[!UICONTROL Profile Merge Rule Setup]** section, sélectionnez les **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]** options.
@@ -132,18 +136,18 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 
 ## Étape 4 - Création de segments d’Audience {#create-audience-segments}
 
-Pour créer de nouveaux segments d’audience, utilisez le créateur [de](../segments/segment-builder.md)segments. Si vous souhaitez envoyer des segments d’audience existants à [!DNL People-Based Destinations]l’étape 5 - Configuration de l’authentification [de plateforme basée sur les personnes, passez à l’](people-based-destinations-workflow-combined.md#configure-authentication)étape 5.
+Pour créer de nouveaux segments d’audience, utilisez le créateur [de](../segments/segment-builder.md)segments. Si vous souhaitez envoyer des segments d’audience existants à [!DNL People-Based Destinations]l’étape 5 - Configuration de l’authentification [Platform basée sur les personnes, passez à l’](people-based-destinations-workflow-combined.md#configure-authentication)étape 5.
 
-## Étape 5 - Configuration de l’authentification de plateforme basée sur les personnes {#configure-authentication}
+## Étape 5 - Configuration de l’authentification Platform basée sur les personnes {#configure-authentication}
 
-1. Connectez-vous à votre compte Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme sociale, vous devriez la voir répertoriée dans cette page. Sinon, la page est vide.
+1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si vous disposez d’une intégration précédemment configurée avec une plateforme sociale, vous devriez la voir répertoriée dans cette page. Sinon, la page est vide.
    ![intégration basée sur les personnes](assets/pbd-config.png)
 1. Cliquez sur **[!UICONTROL Add Account]**.
 1. Utilisez le menu **[!UICONTROL People-Based Platform]** déroulant pour sélectionner la plate-forme avec laquelle vous souhaitez configurer l’intégration.
    ![plate-forme à base de personnes](assets/pbd-add.png)
 1. Cliquez sur **[!UICONTROL Confirm]** pour être redirigé vers la page d&#39;authentification de la plateforme sélectionnée.
-1. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers Audience Manager où vous devriez voir vos comptes d’annonceurs associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!UICONTROL Confirm]**.
-1. Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
+1. Une fois que vous êtes authentifié sur votre compte de plateforme sociale, vous êtes redirigé vers l’Audience Manager où vous devriez voir vos comptes d’annonceurs associés. Sélectionnez le compte publicitaire à utiliser, puis cliquez sur **[!UICONTROL Confirm]**.
+1. L’Audience Manager affiche une notification en haut de la page pour vous indiquer si le compte a bien été ajouté. La notification vous permet également d’ajouter une adresse électronique de contact pour recevoir des notifications lorsque l’authentification de la plateforme sociale est sur le point d’expirer.
 
 >[!IMPORTANT]
 >
@@ -151,7 +155,7 @@ Pour créer de nouveaux segments d’audience, utilisez le créateur [de](../seg
 
 ## Etape 6 - Création d’une destination basée sur les personnes {#create-destination}
 
-1. Connectez-vous à votre compte Audience Manager, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, puis cliquez sur **[!UICONTROL Create Destination]**.
+1. Connectez-vous à votre compte d’Audience Manager, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, puis cliquez sur **[!UICONTROL Create Destination]**.
 1. Dans la **[!UICONTROL Basic Information]** section, saisissez un **[!UICONTROL Name]** et **[!UICONTROL Description]** pour votre nouvelle source de données, puis utilisez les paramètres suivants :
    * **[!UICONTROL Category]**: Plateformes intégrées ;
    * **[!UICONTROL Type]**: basé sur les personnes ;
