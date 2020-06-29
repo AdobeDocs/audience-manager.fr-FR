@@ -5,8 +5,12 @@ seo-title: Création DIL
 solution: Audience Manager
 title: Création DIL
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 9%
 
 ---
 
@@ -45,7 +49,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
-   <td colname="col3"> <p>Cette propriété définit l’identifiant du conteneur utilisé par <span class="keyword">Audience Manager</span> pour la synchronisation des identifiants. Vous pouvez définir <code> containerNSID </code> si <span class="wintitle"> le code DIL </span> est déployé sur plusieurs sites. Chacun de ces sites aura son propre conteneur ID et ID synchronisés. Si vous ne disposez que d’un site, l’ID de conteneur est 0 par défaut et vous n’avez pas besoin de définir cette valeur correctement. Contactez votre consultant pour obtenir une liste de vos sites et de leurs ID de conteneur. </p> <p>Dans <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, la propriété <code> idSyncContainerID </code> correspond à <code> containerNSID </code> dans <span class="wintitle"> DIL </span>. Notez les points suivants si vous utilisez <span class="wintitle"> DIL </span> <i></i> et le service d’ID sur plusieurs sites : </p> <p> 
+   <td colname="col3"> <p>Cette propriété définit l’identifiant du conteneur utilisé par <span class="keyword">Audience Manager</span> pour la synchronisation des identifiants. Vous pouvez définir <code> containerNSID </code> si <span class="wintitle"> le code DIL </span> est déployé sur plusieurs sites. Chacun de ces sites aura son propre conteneur ID et ID synchronisés. Si vous ne disposez que d’un site, l’ID de conteneur est 0 par défaut et vous n’avez pas besoin de définir cette valeur correctement. Contactez votre consultant pour obtenir une liste de vos sites et de leurs ID de conteneur. </p> <p>Dans le service d’identité <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> d’Adobe Experience Platform </a>, la propriété <code> idSyncContainerID </code> correspond à <code> containerNSID </code> dans <span class="wintitle"> DIL </span>. Notez les points suivants si vous utilisez <span class="wintitle"> DIL </span> <i></i> et le service d’ID sur plusieurs sites : </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Pour chaque site, définissez les mêmes ID de conteneur sur <code> containerNSID </code> et <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Le <span class="wintitle"> code DIL </span> et le service d’ID tenteront d’envoyer des synchronisations d’ID à notre iFrame de collecte de données. Cependant, l’iFrame s’assure que <span class="wintitle"> DIL </span> ne déclenche pas de synchronisation des identifiants. Cela permet d'éviter les doublons. </li> 
@@ -57,12 +61,12 @@ r_dil_create.xml
    <td colname="col2"> <p>Objet </p> </td> 
    <td colname="col3"> 
     <draft-comment> 
-     <p>Envoie les variables <a href="../../features/declared-ids.md"> d’ID déclarés </a> à chaque appel de événement à <span class="keyword"> Audience Manager </span>. </p> 
+     <p>Envoie les variables <a href="../../features/declared-ids.md"> d’ID déclarés </a> à chaque appel de événement à <span class="keyword"> l’Audience Manager </span>. </p> 
     </draft-comment> <p> <code> delcaredId </code> est utilisée pour transmettre l’une des valeurs suivantes : </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: ID de partenaire de données qui vous a été attribué par <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Votre identifiant unique pour un utilisateur. </li> 
-    </ul> <p> <p>Important :  Utilisez uniquement des valeurs non codées pour vos identifiants. Le codage crée des identifiants codés par doublon. </p> </p> <p> <p>Remarque :  Si vous utilisez le service d’identité <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a>, définissez les ID de client avec la <code> setCustomerIDs </code> méthode au lieu de <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+    </ul> <p> <p>Important :  Utilisez uniquement des valeurs non codées pour vos identifiants. Le codage crée des identifiants codés par doublon. </p> </p> <p> <p>Remarque :  Si vous utilisez <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, définissez les ID de client avec la <code> setCustomerIDs </code> méthode au lieu de <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -72,7 +76,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDeclaredUUIDCookie </code> </p> </td> 
    <td colname="col2"> <p>Booléen </p> </td> 
-   <td colname="col3"> <p> False par défaut, ce qui signifie que <span class="keyword"> Audience Manager </span> définit un cookie dans le domaine du partenaire (définit un cookie propriétaire). </p> </td> 
+   <td colname="col3"> <p> False par défaut, ce qui signifie que <span class="keyword"> l’Audience Manager </span> définit un cookie dans le domaine du partenaire (définit un cookie propriétaire). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
@@ -102,7 +106,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Obligatoire. </p> <p>La paire <code> namespace </code> clé-valeur contient votre <span class="keyword"> ID </span> d’organisation Experience Cloud. Si vous ne possédez pas cet identifiant, vous pouvez le trouver dans la section <span class="wintitle"> Administration </span> du <span class="keyword"> tableau de bord </span> Experience Cloud. Vous avez besoin d'autorisations d'administrateur pour vue ce tableau de bord. Reportez-vous aux FAQ sur les fonctionnalités et les fonctionnalités <a href="../../faq/faq-features.md"> du produit </a> et <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administration - Gestion des utilisateurs et FAQ </a>. </p> </td> 
+   <td colname="col3"> <p>Obligatoire. </p> <p>La paire <code> namespace </code> clé-valeur contient votre ID <span class="keyword"> d’organisation </span> Experience Cloud. Si vous ne possédez pas cet identifiant, vous pouvez le trouver dans la section <span class="wintitle"> Administration </span> du <span class="keyword"> tableau de bord </span> Experience Cloud. Vous avez besoin d'autorisations d'administrateur pour vue ce tableau de bord. Reportez-vous aux FAQ sur les fonctionnalités et les fonctionnalités <a href="../../faq/faq-features.md"> du produit </a> et <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administration - Gestion des utilisateurs et FAQ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
@@ -122,7 +126,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Objet </p> </td> 
-   <td colname="col3"> <p>Requis avec <span class="wintitle"> DIL </span> 6.2 ou version ultérieure. </p> <p> DIL s’appuie sur la <code> setCustomerIDs </code> fonction du service d’identité <span class="wintitle"> Adobe Experience Platform </span> pour transmettre les identifiants déclarés à <span class="keyword"> Audience Manager </span>. Pour plus d’informations, voir <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états de l’authentification.</a> </p> </td> 
+   <td colname="col3"> <p>Requis avec <span class="wintitle"> DIL </span> 6.2 ou version ultérieure. </p> <p> Le code DIL s'appuie sur la <code> setCustomerIDs </code> fonction du service d'identité <span class="wintitle"> d'Adobe Experience Platform </span> pour transmettre les identifiants déclarés à <span class="keyword"> l'Audience Manager </span>. Pour plus d’informations, voir <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états de l’authentification.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,7 +190,7 @@ Définit les propriétés utilisées par la `visitorService` variable. Cette var
 
 | Nom | Type | Description |
 |---|---|---|
-| `namespace` | Chaîne | Requis. Représente L’ID D’Entreprise Experience Cloud. Ceci est nécessaire pour la fonctionnalité Service principal d’Experience Cloud. Paramètre identique à celui utilisé pour instancier la fonctionnalité d’ID de Visiteur. |
+| `namespace` | Chaîne | Requis. Représente L’ID D’Entreprise Experience Cloud. Ceci est nécessaire pour la fonctionnalité Experience Cloud Core Service. Paramètre identique à celui utilisé pour instancier la fonctionnalité d’ID de Visiteur. |
 
 **Exemple de code :**
 
