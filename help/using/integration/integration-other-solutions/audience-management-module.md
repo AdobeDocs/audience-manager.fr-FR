@@ -6,8 +6,9 @@ seo-title: Mise en oeuvre du module Gestion des Audiences
 solution: Audience Manager
 title: Mise en oeuvre du module Gestion des Audiences
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
+feature: Integration with Analytics
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 1%
@@ -82,7 +83,7 @@ Le tableau suivant définit des variables importantes dans l’exemple de code.
 
 | Paramètre | Description |
 |--- |--- |
-| `partner` | Requis. Il s&#39;agit d&#39;un nom de partenaire qui vous a été attribué par [!DNL Adobe]. Il est parfois appelé sous-domaine de votre [!UICONTROL partner ID] ou partenaire.  Si vous ne connaissez pas le nom de votre partenaire, contactez votre [!DNL Adobe] conseiller ou le service d’assistance [](https://helpx.adobe.com/marketing-cloud/contact-support.html) clientèle. |
+| `partner` | Requis. Il s&#39;agit d&#39;un nom de partenaire qui vous a été attribué par [!DNL Adobe]. Il est parfois appelé sous-domaine de votre [!UICONTROL partner ID] ou partenaire.  Si vous ne connaissez pas le nom de votre partenaire, contactez votre [!DNL Adobe] conseiller ou le service à la [clientèle](https://helpx.adobe.com/marketing-cloud/contact-support.html) . |
 | `containerNSID` | Requis. La plupart des clients peuvent simplement définir `"containerNSID":0` . Cependant, si votre société doit personnaliser les synchronisations d’identifiants avec un conteneur différent, vous pouvez spécifier cet identifiant de conteneur ici. |
 | `uuidCookie` | Facultatif. Cette configuration vous permet de définir un [!DNL Adobe] cookie dans le domaine propriétaire. Cette [!DNL cookie] section contient l’ [identifiant UUID](../../reference/ids-in-aam.md) . |
 | `visitorService` - `namespace` | Requis. Le `namespace` paramètre est requis si vous utilisez le [!DNL AudienceManagement] module fourni avec [!UICONTROL AppMeasurement] la version 2.10 ou ultérieure. Ce [!UICONTROL AudienceManagement] module nécessite l&#39;utilisation de [!UICONTROL Adobe Experience Platform Identity Service] la version 3.3 ou ultérieure. <br><br>Il [!UICONTROL Experience Cloud Organization ID] s’agit de l’identifiant fourni par une société lors de sa connexion au [!UICONTROL Experience Cloud]service. Découvrez l’ID d’organisation de votre société dans [Organisations et Liaison de compte](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
