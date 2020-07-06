@@ -1,21 +1,21 @@
 ---
-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
-seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
+description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
+seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
 seo-title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants
 solution: Audience Manager
 title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 2%
+source-wordcount: '1152'
+ht-degree: 6%
 
 ---
 
 
-# [!DNL Amazon S3] Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers que vous devez respecter lors de l’envoi de données à [!DNL Audience Manager]. Définissez les noms et tailles de vos fichiers selon ces spécifications lorsque vous envoyez des données vers un [!DNL Audience Manager] / [!DNL Amazon S3] répertoire.
 
@@ -33,7 +33,11 @@ Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de 
 
 Pour connaître les autres formats de nom de fichier acceptés, voir Intégrations [de partenaire](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personnalisé.
 
->[!NOTE] {importance=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] uniquement les processus [!DNL ASCII] et les fichiers [!DNL UTF-8] codés.
 
@@ -66,7 +70,7 @@ Le tableau définit les éléments d’un nom de [!DNL S3] fichier.
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Identifiants Android (GAID) :</b> Utilisez l’ID 20914 dans un nom de fichier de données s’il contient un ID Android. Par exemple, <code>...ftp_dpm_20914_21_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> que le fichier de données contient uniquement des ID Android. Remarque : l’ID 21 </li> 
       <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA) :</b> Utilisez l’ID 20915 dans un nom de fichier de données s’il contient des ID iOS. Par exemple, <code>...ftp_dpm_20915_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> que le fichier de données contient uniquement des ID iOS. </li> 
      </ul> 
-    </draft-comment> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, n’insérez pas d’ID iOS ou vos propres ID dans le fichier de données. </p> </p><p>Voir Sources <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de données</a> globales pour plus d’informations.</p> <p>Voir aussi l' <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrée ci-dessous. </p> </td> 
+    </draft-comment> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, n’insérez pas d’ID iOS ou vos propres ID dans le fichier de données. </p> </p><p>Consultez les <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p> <p>Voir aussi l' <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrée ci-dessous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -106,7 +110,7 @@ Le tableau définit les éléments d’un nom de [!DNL S3] fichier.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Lors de l’envoi de fichiers vers Amazon S3, utilisez la compression gzip uniquement. Une fois compressés, ces fichiers obtiennent l’ <code> .gz</code> extension. N’utilisez pas la compression .zip. </p> <p>Les fichiers compressés doivent être de 3 Go ou moins. Si vos fichiers sont plus volumineux, contactez le service à la clientèle. Bien que l'Audience Manager puisse gérer des fichiers volumineux, nous pouvons vous aider à réduire la taille de vos fichiers et à rendre les transferts de données plus efficaces. Voir <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Compression de fichiers pour les fichiers</a>de transfert de données entrants. </p> </td> 
+   <td colname="col2"> <p>Lors de l’envoi de fichiers vers Amazon S3, utilisez la compression gzip uniquement. Une fois compressés, ces fichiers obtiennent l’ <code> .gz</code> extension. N’utilisez pas la compression .zip. </p> <p>Les fichiers compressés doivent être de 3 Go ou moins. Si vos fichiers sont plus volumineux, contactez le service à la clientèle. Bien que l'Audience Manager puisse gérer des fichiers volumineux, nous pouvons vous aider à réduire la taille de vos fichiers et à rendre les transferts de données plus efficaces. Voir <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Compression de fichiers pour les fichiers de transfert de données entrants</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
