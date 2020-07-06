@@ -1,23 +1,23 @@
 ---
-description: Liste les navigateurs pris en charge par l’interface utilisateur de l’Audience Manager. Les cookies et JavaScript doivent être activés sur tous les navigateurs.
-seo-description: Liste les navigateurs pris en charge par l’interface utilisateur de l’Audience Manager. Les cookies et JavaScript doivent être activés sur tous les navigateurs.
-seo-title: Navigateurs pris en charge
+description: Liste les navigateurs pris en charge par l’interface utilisateur d’Audience Manager. Les cookies et JavaScript doivent être activés sur tous les navigateurs.
+seo-description: Liste les navigateurs pris en charge par l’interface utilisateur d’Audience Manager. Les cookies et JavaScript doivent être activés sur tous les navigateurs.
+seo-title: 'Navigateurs pris en charge '
 solution: Audience Manager
-title: Navigateurs pris en charge
+title: 'Navigateurs pris en charge '
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Navigateurs pris en charge{#supported-browsers} 
+# Navigateurs pris en charge {#supported-browsers}
 
-Cette page liste les navigateurs pris en charge par l’interface utilisateur de l’Audience Manager. Les cookies et JavaScript doivent être activés sur tous les navigateurs.
+Cette page liste les navigateurs pris en charge par l’interface utilisateur d’Audience Manager. Les cookies et JavaScript doivent être activés sur tous les navigateurs.
 
 <!-- 
 
@@ -27,22 +27,22 @@ c_supported_browsers.xml
 
 Adobe prend en charge la dernière version majeure de ces navigateurs :
 
-* **Google Chrome **
+* **Google Chrome**
 
-   Récupérez la dernière version de Chrome sur [http://www.google.com/chrome](http://www.google.com/chrome).
+   Téléchargez la dernière version de Chrome à l’adresse [https://www.google.com/intl/fr/chrome/](https://www.google.com/intl/fr/chrome/).
 
-* **Microsoft Edge**
+* **Microsoft Edge**
 
-   (Adobe a mis fin à la prise en charge d’Internet Explorer 11 en Audience Manager le 10 juillet 2019. Veuillez passer à la dernière version majeure de Microsoft Edge ou d’un autre navigateur pris en charge, dès que possible.)
+   (Adobe met fin à la prise en charge d’Internet Explorer 11 au sein d’Audience Manager le 10 juillet 2019. Veuillez passer à la dernière version majeure de Microsoft Edge ou d’un autre navigateur pris en charge, dès que possible.)
 
-   Récupérez la dernière version d’Edge à partir de [https://www.microsoft.com/windows/microsoft-edge](https://www.microsoft.com/windows/microsoft-edge).
+   Téléchargez la dernière version d’Edge à l’adresse [https://www.microsoft.com/fr-fr/edge](https://www.microsoft.com/fr-fr/edge).
 
-* **Mozilla Firefox **
+* **Mozilla Firefox**
 
-   Récupérez la dernière version de Firefox sur [http://www.mozilla.com/en-US/firefox](http://www.mozilla.com/en-US/firefox).
+   Téléchargez la dernière version de Firefox à l’adresse [http://www.mozilla.com/fr-FR/firefox](http://www.mozilla.com/fr-FR/firefox).
 
 * **Safari**
 
-   Récupérez la dernière version de Safari sur [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
+   Téléchargez la dernière version de Safari à l’adresse [http://www.apple.com/fr/safari](http://www.apple.com/fr/safari).
 
-D&#39;autres navigateurs peuvent fonctionner, mais ne sont pas pris en charge par nos équipes techniques et de produits. Si vous rencontrez des problèmes lors de l’utilisation de [!DNL Audience Manager]ce navigateur, assurez-vous que vous utilisez un navigateur à jour et pris en charge.
+D’autres navigateurs peuvent fonctionner, mais ne sont pas pris en charge par nos équipes techniques et produit. Si vous rencontrez des problèmes lors de l’utilisation d’[!DNL Audience Manager], assurez-vous d’utiliser un navigateur à jour et pris en charge.
