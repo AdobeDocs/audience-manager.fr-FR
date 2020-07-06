@@ -1,52 +1,52 @@
 ---
-description: Les Audiences prédictives vous aident à classer les audiences inconnues en différentes personnes en temps réel, en utilisant la science des données.
-seo-description: Les Audiences prédictives vous aident à classer les audiences inconnues en différentes personnes en temps réel, en utilisant la science des données.
-seo-title: FAQ sur les Audiences prédictives
+description: Les audiences prédictives vous aident à classer les audiences inconnues en personas distinctes en temps réel à l’aide de la science des données.
+seo-description: Les audiences prédictives vous aident à classer les audiences inconnues en personas distinctes en temps réel à l’aide de la science des données.
+seo-title: FAQ sur les audiences prédictives
 solution: Audience Manager
-title: Audiences prédictives Audience Manager
+title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# FAQ sur les Audiences prédictives
+# FAQ sur les audiences prédictives
 
 Questions fréquentes sur [!UICONTROL Predictive Audiences].
 
  
 
-**Quand dois-je utiliser[!UICONTROL Predictive Audiences]plutôt que[!UICONTROL Look-alike modeling]?**
+**Quand dois-je utiliser [!UICONTROL Predictive Audiences] plutôt que [!UICONTROL Look-alike modeling] ?**
 
-[!UICONTROL Predictive Audiences] et [!UICONTROL Look-alike modeling] répondent à différents cas d’utilisation. Les principales différences entre les deux algorithmes sont les suivantes :
+[!UICONTROL Predictive Audiences] et [!UICONTROL Look-alike modeling] correspondent à des cas d’utilisation différents. Les principales différences entre les deux algorithmes sont les suivantes :
 
-1. [!UICONTROL Look-alike modeling] prend une petite audience comme entrée et la développe. [!UICONTROL Predictive Audiences] prend une grande audience comme entrée et la divise en audiences distinctes plus petites, définies par vos personnages.
-1. Le nombre de segments de base est différent pour chaque algorithme. [!UICONTROL Predictive Audiences] nécessite au moins deux lignes de base, alors que [!UICONTROL Look-alike modeling] l&#39;on utilise une ligne de base au maximum.
-1. [!UICONTROL Predictive Audiences] effectue une évaluation des segments en temps réel, mais [!UICONTROL Look-alike modeling] non.
+1. [!UICONTROL Look-alike modeling] prend une petite audience comme entrée et la développe. [!UICONTROL Predictive Audiences] prend une grande audience comme entrée et la divise en audiences distinctes plus petites, définies par vos personas.
+1. Le nombre de segments de base est différent pour chaque algorithme. [!UICONTROL Predictive Audiences] nécessite au moins deux lignes de base, alors que [!UICONTROL Look-alike modeling] utilise au maximum une ligne de base.
+1. [!UICONTROL Predictive Audiences] effectue une évaluation de segmentation en temps réel, contrairement à [!UICONTROL Look-alike modeling].
 
-En fonction de votre cas d’utilisation, vous devez décider quel modèle sera le plus pertinent pour vous.
+Vous devez choisir le modèle qui vous convient le mieux en fonction de votre cas d’utilisation.
 
-Vous pouvez imaginer construire un [!UICONTROL Predictive Audiences] modèle avec un certain nombre de lignes de base comme l&#39;équivalent de construire le même nombre de modèles semblables, seulement sans l&#39;évaluation en temps réel, et avec une très forte probabilité d&#39;avoir des visiteurs appartenant à plusieurs personnalités différentes, au lieu d&#39;une seule personne distincte.
-
- 
-
-**Combien de personnages/modèles suis-je autorisé à créer ?**
-
-Vous pouvez créer jusqu’à 10 [!UICONTROL Predictive Audiences] modèles. Pour chaque modèle, vous pouvez définir jusqu’à 50 caractéristiques ou segments de base.
+Vous pouvez considérer la création d’un modèle [!UICONTROL Predictive Audiences] avec un certain nombre de lignes de base comme l’équivalent de la création d’un même nombre de modèles semblables, seulement sans l’évaluation en temps réel. Il est également très probable que les visiteurs appartiennent à plusieurs personas différentes, au lieu d’une seule persona distincte.
 
  
 
-**Comment puis-je créer de nouveaux segments à partir d’un[!UICONTROL Predictive Audiences]segment ?**
+**Combien de personas/modèles suis-je autorisé à créer ?**
 
-Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**, puis cliquez sur le **[!UICONTROL Predictive Audiences]** dossier. Recherchez le segment de votre choix, duplicata-le et modifiez-le selon vos besoins.
+Vous pouvez créer jusqu’à 10 modèles [!UICONTROL Predictive Audiences]. Pour chaque modèle, vous pouvez définir jusqu’à 50 caractéristiques ou segments de ligne de base.
 
  
 
-**Pourquoi certains de mes visiteurs embarqués ne sont-ils pas classifiés ?**
+**Comment puis-je créer de nouveaux segments à partir d’un segment [!UICONTROL Predictive Audiences] ?**
+
+Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**, puis cliquez sur le dossier **[!UICONTROL Predictive Audiences]**. Recherchez le segment souhaité, dupliquez-le et modifiez-le en fonction de vos besoins.
+
+ 
+
+**Pourquoi certains de mes visiteurs intégrés ne sont-ils pas classés ?**
 
 Actuellement, la classification des audiences ne fonctionne que pour les qualifications en temps réel, à l’exception des utilisateurs authentifiés définis comme faisant partie de [!UICONTROL Profile Merge Rules].
 
@@ -54,65 +54,65 @@ La prise en charge complète des données intégrées sera ajoutée dans une pro
 
  
 
-**Quand puis-je voir les premiers résultats produits par mon modèle ?**
+**Quand puis-je voir les premiers résultats produits par mon modèle ?**
 
-[!UICONTROL Predictive Audiences] les résultats du modèle sont disponibles dans les 24 heures suivant la création du modèle, si le modèle s&#39;exécute correctement.
+Les résultats du modèle [!UICONTROL Predictive Audiences] sont disponibles dans les 24 heures suivant la création du modèle, si celui-ci fonctionne correctement.
 
-Si le modèle ne produit pas de résultats dans les 24 heures, contactez votre représentant Adobe.
-
- 
-
-**Pourquoi mon modèle ne produit-il pas de résultats ou n&#39;affiche-t-il pas l&#39;état Avertissement ?**
-
-[!UICONTROL Predictive Audiences] les modèles peuvent ne pas produire de résultats pour plusieurs raisons :
-
-1. Aucune des caractéristiques/segments de personnalité/segment sélectionnés n’a suffisamment de profils d’utilisateur. Nous vous recommandons de choisir vos caractéristiques ou segments afin que chaque personne dispose d’au moins quelques centaines de profils d’utilisateur.
-1. Aucune des caractéristiques/segments de personnage sélectionnés n’a suffisamment de données dans son profil d’utilisateur (pas assez de caractéristiques pour être analysées).
-1. La caractéristique / le segment de l’audience de cible n’avait aucun utilisateur actif ou intégré au cours des 30 derniers jours.
-1. Les utilisateurs de l’audience de cible qui étaient actifs ou intégrés au cours des 30 derniers jours ne disposent pas de suffisamment de données dans leurs profils d’utilisateurs (caractéristiques insuffisantes pour l’analyse).
-
-Pour obtenir des résultats pertinents, l’ [!UICONTROL Predictive Audiences] algorithme évalue les réalisations de caractéristiques et de segments en fonction de l’activité utilisateur en temps réel vue par le serveur de collecte de données. Si vous sélectionnez de nouvelles caractéristiques de base et de nouveaux segments qui n’ont pas encore suffisamment d’utilisateurs, l’algorithme peut prendre quelques jours pour classer votre audience.
-
-Pour obtenir des résultats optimaux, suivez les lignes directrices proposées dans Critères de [sélection pour les personnes](../features/algorithmic-models/predictive-audiences.md#selection-personas) et Critères de [sélection pour l&#39;Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience)des Cibles.
+Si le modèle ne produit pas de résultats dans les 24 heures, contactez votre représentant Adobe.
 
  
 
-**Pourquoi mon modèle affiche-t-il l’état d’erreur ?**
+**Pourquoi mon modèle ne produit-il pas de résultats ou n’affiche-t-il pas l’état d’avertissement ?**
 
-Le modèle n&#39;a pas pu s&#39;exécuter. Dans ce cas, contactez votre représentant Adobe.
+Les modèles [!UICONTROL Predictive Audiences] peuvent ne produire aucun résultat pour un certain nombre de raisons :
 
- 
+1. Aucun des segments/caractéristiques de persona sélectionnés ne dispose de suffisamment de profils utilisateur. Nous vous recommandons de choisir vos caractéristiques ou segments afin que chaque persona dispose d’au moins quelques centaines de profils utilisateur.
+1. Aucun des segments/caractéristiques de persona sélectionnés ne contient suffisamment de données dans son profil utilisateur (caractéristiques insuffisantes pour l’analyse).
+1. La caractéristique ou le segment de l’audience cible ne disposait d’aucun utilisateur actif ou intégré au cours des 30 derniers jours.
+1. Les profils des utilisateurs de l’audience cible qui étaient actifs ou intégrés au cours des 30 derniers jours ne contiennent pas suffisamment de données (caractéristiques insuffisantes pour l’analyse).
 
-**Comment puis-je modifier la règle de fusion des Profils pour un segment Audiences prédictives ?**
+Pour obtenir des résultats pertinents, l’algorithme [!UICONTROL Predictive Audiences] évalue les réalisations de caractéristiques et de segments en fonction de l’activité de l’utilisateur en temps réel observée par le serveur de collecte de données. Si vous sélectionnez de nouveaux segments et caractéristiques de base qui ne disposent pas encore de suffisamment d’utilisateurs, l’algorithme peut prendre quelques jours pour classer votre audience.
 
-Duplicata du [!UICONTROL Predictive Audiences] segment et modification [!UICONTROL Profile Merge Rule] du segment dupliqué.
-
- 
-
-**Un utilisateur de l&#39;audience de cible qui ne fait partie d&#39;aucune caractéristique/segment persona ne peut-il pas être classifié ?**
-
-Oui, au cas où l&#39;utilisateur n&#39;aurait aucune caractéristique dans son profil. Dans ce cas, l’utilisateur obtient un score de correspondance de 0 pour toutes les caractéristiques/segments de personne et ne sera donc classé dans aucun des segments prédictifs.
+Pour obtenir des résultats optimaux, suivez les instructions proposées dans [Critères de sélection des personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) et [Critères de sélection de l’audience cible](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Un utilisateur qui a été classé dans l’un des segments prédictifs peut-il être reclassifié dans un autre[!UICONTROL Predictive Audiences]segment ?**
+**Pourquoi mon modèle affiche-t-il l’état d’erreur ?**
 
-Oui. Puisque l’algorithme est formé quotidiennement, il applique les modifications pour chacun des personnages en termes de notation des caractéristiques. Si un utilisateur faisant partie d’un [!UICONTROL Predictive Audiences] segment est actif, les modifications apportées à son score de caractéristique peuvent modifier la classification en fonction des 30 derniers jours d’activité.
-
- 
-
-**Puis-je voir les caractéristiques de la classification des audiences ?**
-
-Oui, vous pouvez voir toutes les caractéristiques influentes pour toutes les lignes de base dans la page de rapports de modèle. Voir Caractéristiques [](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits)influentes.
+L’exécution du modèle a échoué. Dans ce cas, contactez votre représentant Adobe.
 
  
 
-**Qu’advient-il du modèle si je modifie l’une de ses caractéristiques ou segments de base ?**
+**Comment puis-je modifier la stratégie de fusion de profils d’un segment d’audiences prédictives ?**
 
-Le modèle évalue les caractéristiques ou les segments une fois par jour. Vous devriez voir la classification mise à jour le lendemain de votre mise à jour.
+Dupliquez le segment [!UICONTROL Predictive Audiences] et modifiez la [!UICONTROL Profile Merge Rule] du segment dupliqué.
 
  
 
-**Puis-je sélectionner les sources de données à partir desquelles le modèle apprendra ?**
+**Un utilisateur de l’audience cible qui ne fait partie d’aucun segment/caractéristique de persona peut-il ne pas être classé ?**
 
-Non, la sélection des sources de données n’est pas prise en charge. L’ [!UICONTROL Predictive Audiences] algorithme identifie toutes vos caractéristiques propriétaires.
+Oui, lorsque le profil de l’utilisateur ne contient aucune caractéristique. Dans ce cas, l’utilisateur obtient une note de correspondance de 0 pour tous les segments/caractéristiques de persona et n’est donc classé dans aucun des segments prédictifs.
+
+ 
+
+**Un utilisateur qui a été classé dans l’un des segments prédictifs peut-il être reclassé dans un autre segment [!UICONTROL Predictive Audiences] ?**
+
+Oui. Étant donné que l’algorithme est formé quotidiennement, il applique les modifications pour chacune des personas en termes de notation des caractéristiques. Si un utilisateur faisant partie d’un segment [!UICONTROL Predictive Audiences] est actif, les modifications apportées à sa notation des caractéristiques peuvent modifier la classification en fonction de l’activité des 30 derniers jours.
+
+ 
+
+**Puis-je voir les caractéristiques utilisées pour la classification des audiences ?**
+
+Oui, vous pouvez voir toutes les caractéristiques influentes pour toutes les lignes de base dans la page de rapports de modèle. Voir [Caractéristiques influentes](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
+
+ 
+
+**Qu’advient-il du modèle si je modifie l’un de ses segments ou caractéristiques de ligne de base ?**
+
+Le modèle évalue les caractéristiques ou les segments une fois par jour. Vous devriez voir la mise à jour de la classification le lendemain de votre mise à jour.
+
+ 
+
+**Puis-je sélectionner les sources de données qui serviront à former le modèle ?**
+
+Non, la sélection des sources de données n’est pas prise en charge. L’algorithme [!UICONTROL Predictive Audiences] est formé à partir de toutes vos caractéristiques propriétaires.
