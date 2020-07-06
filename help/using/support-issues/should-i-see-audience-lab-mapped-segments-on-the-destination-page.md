@@ -1,37 +1,37 @@
 ---
-description: Raisons pour lesquelles les segments mappés d'Audience Lab ne s'affichent pas sur la page des détails de destination.
-seo-description: Raisons pour lesquelles les segments mappés d'Audience Lab ne s'affichent pas sur la page des détails de destination.
-seo-title: Raisons pour lesquelles les segments mappés d'Audience Lab ne s'affichent pas sur la page des détails de destination.
+description: Pourquoi les segments mappés d’Audience Lab ne s’affichent pas sur la page de détails des destinations.
+seo-description: Pourquoi les segments mappés d’Audience Lab ne s’affichent pas sur la page de détails des destinations.
+seo-title: Pourquoi les segments mappés d’Audience Lab ne s’affichent pas sur la page de détails des destinations.
 solution: Audience Manager
-title: Dois-je afficher les segments mappés de mon atelier d'Audiences sur la page des détails de destination ?
+title: Devrais-je voir mes segments mappés d’Audience Lab sur la page de détails des destinations ?
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Dois-je afficher les segments mappés de mon atelier d&#39;Audiences sur la page des détails de destination ? {#audience-lab-segments-destination-page}
+# Devrais-je voir mes segments mappés d’Audience Lab sur la page de détails des destinations ? {#audience-lab-segments-destination-page}
 
 ## Question
 
-Certains segments de test sont créés dans [!UICONTROL Audience Lab]et ont été mappés à une destination. Cependant, quand je les recherche sur la page des détails de destination, je ne les vois pas.
+Certains de mes segments de test ont été créés dans [!UICONTROL Audience Lab] et ont été mappés à une destination. Cependant, lorsque je les recherche sur la page de détails des destinations, je ne les vois pas.
 
-Est-ce que ce comportement est attendu, ou est-ce un bug ?
+Est-ce normal, ou s’agit-il d’un bogue ?
 
 ## Réponse
 
-Les segments mappés créés dans [!UICONTROL Audience Lab] ne s’affichent pas sur la page des détails de destination.
+Les segments mappés créés dans [!UICONTROL Audience Lab] ne s’affichent pas sur la page de détails des destinations.
 
-Par exemple, dans les captures d’écran ci-dessous, [!UICONTROL Test Segment 1] et [!UICONTROL Test Segment 2] sont associés à la [!UICONTROL autofill SID - serialized] destination.
+Par exemple, dans les captures d’écran ci-dessous, [!UICONTROL Test Segment 1] et [!UICONTROL Test Segment 2] sont mappés à la destination [!UICONTROL autofill SID - serialized].
 
-Les segments s’affichent dans le test de segment Lab d’Audiences :
+Les segments s’affichent bien dans le segment de test d’Audience Lab :
 
-![Image de la vue de segments du laboratoire d&#39;Audience](assets/should_i_see_my_aamlab01.png)
+![Image de visualisation du segment d’Audience Lab](assets/should_i_see_my_aamlab01.png)
 
-Les segments ne s’afficheront toutefois pas dans la page des détails de destination :
+Cependant, les segments ne s’afficheront pas dans la page de détails des destinations :
 
-![Image de la page des détails de destination](assets/should_i_see_my_aamlab02.png)
+![Image de la page de détails des destinations](assets/should_i_see_my_aamlab02.png)
