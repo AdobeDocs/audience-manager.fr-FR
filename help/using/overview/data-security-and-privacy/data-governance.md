@@ -1,6 +1,6 @@
 ---
-description: Ce document explique comment les données du client sont gérées dans l’Audience Manager.
-seo-description: Ce document explique comment les données du client sont gérées en Audience Manager.
+description: Ce document explique la manière dont les données client sont gérées dans Audience Manager.
+seo-description: Ce document explique la manière dont les données client sont gérées dans Audience Manager.
 seo-title: Gouvernance des données
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
@@ -9,41 +9,41 @@ feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Gouvernance des données
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
-La gouvernance des données en Audience Manager fait référence au cycle de vie des données de vos clients en Audience Manager et englobe la [collecte et l’obscurcissement des adresses](data-governance.md#collecting-ip-addresses)IP, la rétention [des](data-governance.md#data-retention)données et les transferts [de données](data-governance.md#data-transfers)transfrontaliers.
+La gouvernance des données dans Audience Manager renvoie au cycle de vie de vos données client dans Audience Manager et englobe la [collecte et l’obscurcissement des adresses IP](data-governance.md#collecting-ip-addresses), la [rétention des données](data-governance.md#data-retention) et les [transferts de données transfrontaliers](data-governance.md#data-transfers).
 
-## Collecte des adresses IP et obscurcissement des adresses IP {#collecting-ip-addresses}
+## Collecte et obscurcissement des adresses IP {#collecting-ip-addresses}
 
-The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
+L’adresse [!DNL IP] d’un visiteur sur le site web d’un client est transmise à un [!DNL Data Processing Center] Adobe ([!DNL DPC]) où l’adresse [!DNL IP] peut être stockée. Selon la configuration du réseau du visiteur, l’adresse [!DNL IP] collectée ne correspond pas nécessairement à l’adresse [!DNL IP] de son ordinateur. L’adresse [!DNL IP] peut par exemple correspondre à l’adresse [!DNL IP] externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy [!DNL HTTP] ou d’une passerelle Internet.
 
-**Méthodologie d’obscurcissement d’IP :** Suivant les principes de &quot;Confidentialité par conception&quot;, l&#39;Adobe Audience Manager permet aux clients d&#39;activer l&#39; [!DNL IP] obscurcissement depuis l&#39;interface utilisateur, soit dans l&#39;ensemble des régions géographiques, soit pour des pays spécifiques. Lorsque vous activez ce paramètre, le dernier octet (dernière partie) de l’ [!DNL IP] adresse est immédiatement ignoré lorsque l’ [!DNL IP] adresse est assimilée à une Audience Manager. L&#39;Audience Manager ignore cette partie de l&#39; [!DNL IP] adresse avant le traitement (y compris avant toute recherche géographique ou consignation facultative de l&#39; [!DNL IP] adresse). Par exemple :
+**Méthodologie d’obscurcissement des adresses IP :** conformément aux principes du « respect de la vie privée dès la conception », Adobe Audience Manager permet aux clients d’activer l’obscurcissement des adresses [!DNL IP] à partir de l’interface utilisateur, et ce dans l’ensemble des zones géographiques ou pour certains pays. Lorsque vous activez ce paramètre, le dernier octet (la dernière partie) de l’adresse [!DNL IP] est immédiatement ignoré lorsque l’adresse [!DNL IP] est ingérée dans Audience Manager. Audience Manager ignore cette partie de l’adresse [!DNL IP] avant le traitement (y compris avant toute recherche géographique ou journalisation facultative de l’adresse [!DNL IP]). Par exemple :
 
-* Avant que les valeurs de: `255.255.255.255`
-* Après: `255.255.255.0`
+* Avant : `255.255.255.255`
+* Après : `255.255.255.0`
 
 >[!NOTE]
 >
->Voir Obscurcissement [d’adresse](../../features/administration/ip-obfuscation.md) IP pour savoir comment activer l’obscurcissement d’ [!DNL IP] adresse dans l’interface utilisateur de l’Audience Manager.
+>See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
 
-Regardez la vidéo ci-dessous pour comprendre comment l&#39;obscurcissement des [!DNL IP] adresses fonctionne en Audience Manager.
+Regardez la vidéo ci-dessous pour comprendre comment fonctionne l’obscurcissement des adresses [!DNL IP] dans Audience Manager.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
-**Segmentation géographique :** Si vous activez l’obscurcissement des [!DNL IP] adresses, les valeurs restantes de l’ [!DNL IP] adresse peuvent toujours être utilisées pour la géosegmentation et le rapports en Audience Manager. Si vous n’activez pas l’obscurcissement [!DNL IP] d’adresse, l’Audience Manager utilise l’adresse complète [!DNL IP] . Vous pouvez utiliser la fonction de segmentation géographique qui vous permet d&#39;identifier un [!DNL IP] emplacement par zone géographique dans les deux cas, mais avec une légère perte de précision en cas d&#39; [!DNL IP] obscurcissement. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. L&#39;obtention d&#39;informations au niveau des régions et des pays ne devrait être que légèrement entravée. Les données de segmentation géographique sont granulaires uniquement au niveau de la ville ou du code postal, et non au niveau individuel. En savoir plus sur le [ciblage](../../features/traits/trait-geotarget-keys.md) géographique et sur la manière de configurer des caractéristiques avec des variables géographiques.
+**Segmentation géographique :** si vous activez l’obscurcissement des adresses [!DNL IP], les octets restants de l’adresse [!DNL IP] peuvent toujours être utilisés pour la géosegmentation et la création de rapports dans Audience Manager. Si vous n’activez pas l’obscurcissement des adresses [!DNL IP], Audience Manager utilise l’adresse [!DNL IP] complète. Vous pouvez dans les deux cas utiliser la fonctionnalité de segmentation géographique qui vous permet d’identifier un emplacement [!DNL IP] selon sa zone géographique, mais l’obscurcissement des adresses [!DNL IP] en diminuera la précision. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement des adresses [!DNL IP], tandis que l’obtention des informations sur les régions et les pays ne sera que légèrement entravée. Les données de segmentation géographique sont alors détaillées au niveau des villes ou des codes postaux uniquement, mais pas au niveau individuel. En savoir plus sur le [géociblage](../../features/traits/trait-geotarget-keys.md) et la configuration de caractéristiques avec des variables géographiques.
 
-## Conservation des données dans l&#39;Audience Manager {#data-retention}
+## Rétention des données dans Audience Manager {#data-retention}
 
-L&#39;application de politiques appropriées, sécurisées et opportunes de rétention des données à vos données est un élément important du respect des règles de confidentialité des données. Audience Manager Les clients peuvent définir des périodes de rétention personnalisées sur les caractéristiques et les segments en définissant la durée de vie requise (TTL). Voir FAQ [sur la rétention des](../../faq/faq-privacy.md) données pour en savoir plus sur les périodes de rétention.
+L’application de stratégies appropriées, sécurisées et opportunes de rétention des données pour vos données est primordiale dans le respect des réglementations en matière de confidentialité des données. Les clients d’Audience Manager peuvent définir des périodes de rétention personnalisées sur les caractéristiques et les segments en définissant la durée de vie requise. Pour plus d’informations sur les périodes de rétention, reportez-vous à la [FAQ sur la rétention des données](../../faq/faq-privacy.md).
 
 ## Transferts de données transfrontaliers {#data-transfers}
 
-Lorsque l&#39;Audience Manager transfère des données à caractère personnel des clients par-delà les frontières nationales, l&#39;Audience Manager le fait conformément à la législation en vigueur. Visitez le Centre [](https://www.adobe.com/privacy/eudatatransfers.html) de Confidentialité d&#39;Adobe pour en savoir plus.
+Lorsqu’Audience Manager transfère des données personnelles des clients par-delà les frontières nationales, Audience Manager s’assure que ce transfert est conforme à la législation en vigueur. Consultez le [Centre de traitement des données personnelles Adobe](https://www.adobe.com/fr/privacy/eudatatransfers.html) pour en savoir plus.
