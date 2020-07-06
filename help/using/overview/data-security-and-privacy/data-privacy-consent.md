@@ -1,6 +1,6 @@
 ---
-description: Ce document explique comment fonctionne la gestion du consentement en Audience Manager.
-seo-description: Ce document explique comment fonctionne la gestion du consentement en Audience Manager.
+description: Ce document décrit le fonctionnement de la gestion du consentement dans Audience Manager.
+seo-description: Ce document décrit le fonctionnement de la gestion du consentement dans Audience Manager.
 seo-title: Gestion du consentement
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent
@@ -10,7 +10,7 @@ feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,38 +18,38 @@ ht-degree: 0%
 
 # Gestion du consentement
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
-Dans les cas où le consentement est nécessaire pour certaines activités marketing, les clients de l’Audience Manager doivent déterminer la portée et l’étendue de l’opération et s’il est nécessaire d’actualiser certains consentements pour pouvoir continuer à utiliser les données à l’avenir.
+Dans les cas nécessitant un consentement pour certaines activités de marketing, les clients d’Audience Manager doivent déterminer la portée et la nécessité ou non d’actualiser certains consentements afin de continuer à utiliser les données à l’avenir.
 
-Audience Manager offre vos outils pour vous aider à obtenir le consentement requis de vos utilisateurs, afin que vous puissiez leur proposer des expériences personnalisées d’un canal à l’autre.
+Audience Manager offre des outils qui vous permettent d’obtenir les consentements requis de vos utilisateurs, afin que vous puissiez leur proposer des expériences personnalisées sur différents canaux.
 
 >[!IMPORTANT]
 >
-> Le contenu de ce document n&#39;est pas un avis juridique et n&#39;est pas destiné à se substituer à un avis juridique.
+> Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique.
 >
-> En tant que traitement de données, Adobe n&#39;est pas en mesure de fournir des conseils juridiques sur l&#39;obtention du consentement. Vous pouvez également envisager de travailler avec un fournisseur de solution de gestion du consentement, tel qu’ [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) ou [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), et consulter le service juridique de votre société pour obtenir des conseils sur le consentement et les pratiques lors de la configuration de votre mise en oeuvre de l’inclusion.
+> En tant que responsable du traitement des données, Adobe n’est pas en mesure de fournir d’avis juridiques sur l’obtention du consentement. Il est également recommandé de collaborer avec un fournisseur de solution de gestion du consentement, tel qu’[Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) ou [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), et de consulter le service juridique de votre société pour obtenir des conseils sur le consentement et les pratiques lors de la mise en œuvre de votre accord préalable.
 
-## Service d&#39;inscription Experience Cloud
+## Service d’accord préalable d’Experience Cloud
 
-The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual&#39;s device or browser when visiting your site.
+Le [service d’accord préalable d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/opt-in-service/optin-overview.html) vous permet de configurer des protocoles permettant aux visiteurs de vous aider à déterminer si vous pouvez installer des cookies sur l’appareil ou le navigateur de la personne qui visite votre site.
 
-This is an extension of the [!DNL Experience Cloud ID (ECID) Service], designed to let you control whether and which Experience Cloud solutions can place cookies on web pages for visitors prior to user consent.
+Il s’agit d’une extension du [!DNL Experience Cloud ID (ECID) Service] conçu pour vous permettre de contrôler l’introduction de cookies par les solutions Experience Cloud sur les pages web pour les visiteurs avant d’avoir eu l’accord de l’utilisateur (ainsi que de désigner les solutions concernées).
 
-Le service [d’inscription des](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) Experience Cloud vous permet également de définir des protocoles à intégrer à votre Platform de gestion du consentement (CMP) et aux systèmes existants dans le cadre de votre conception plus large.
+Le [service d’accord préalable d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/opt-in-service/optin-overview.html) vous permet également de configurer des protocoles à intégrer à votre plateforme de gestion du consentement (CMP) et aux systèmes existants dans le cadre de votre conception globale.
 
-## Gestion de l&#39;inscription / Obtention du consentement
+## Gestion de l’accord préalable/Obtention du consentement
 
-Les clients de l’Audience Manager ont la possibilité de stocker le consentement de l’utilisateur dans divers cas d’utilisation, tels que la publicité ou la personnalisation en tant que caractéristiques en Audience Manager. Les segments que vous créez à l’aide de ces caractéristiques incluent alors uniquement les utilisateurs qui donnent leur consentement pour chacun de ces cas d’utilisation. Notez que l&#39;utilisation de cette approche n&#39;arrête pas la collecte de données, mais n&#39;affecte l&#39;utilisation des données que lorsque vous envoyez des segments pour activation. Lorsque les utilisateurs retirent leur consentement, vous pouvez supprimer ces caractéristiques du profil d’utilisateurs à l’aide du processus [d’exclusion par lots](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) entrant dans l’Audience Manager ou du processus d’exclusion par Audience Manager, comme indiqué ci-dessous.
+Les clients d’Audience Manager peuvent stocker le consentement des utilisateurs pour divers cas d’utilisation, tels que la publicité ou la personnalisation en tant que caractéristiques dans Audience Manager. Les segments que vous créez à l’aide de ces caractéristiques comprennent uniquement les utilisateurs qui donnent leur consentement respectif pour chacun de ces cas d’utilisation. Notez que l’utilisation de cette approche n’empêche pas la collecte de données et n’affecte l’utilisation des données que lorsque vous envoyez des segments pour activation. Lorsque les utilisateurs retirent leur consentement, vous pouvez supprimer ces caractéristiques du profil utilisateur à l’aide du [traitement par lots entrants](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) d’Audience Manager ou du processus d’exclusion d’Audience Manager comme décrit ci-dessous.
 
-## Gestion de l&#39;exclusion / Retrait du consentement
+## Gestion de l’exclusion/Retrait du consentement
 
-Vous pouvez gérer l’exclusion pour Adobe Experience Cloud via la page [Vos choix](https://www.adobe.com/privacy/opt-out.html#customeruse) de confidentialité. Les fonctionnalités d’un clic permettent aux utilisateurs finaux de contrôler la collecte de données et de s’exclure de celle-ci par les solutions publicitaires Adobe Experience Cloud (y compris l’Audience Manager). En particulier, consultez la section [clients](https://www.adobe.com/privacy/opt-out.html#customeruse) professionnels de la page Choix de confidentialité. Pour les navigateurs qui ne prennent pas en charge les cookies tiers, voir Ciblage [des identifiants](../../features/declared-ids.md#declared-id-targeting)déclarés. Pour les périphériques mobiles, récupérez les identifiants d’Audience Manager pertinents et appelez les API d’exclusion d’Audience Manager comme mentionné dans les exemples [d’exclusion d’ID](../../features/declared-ids.md#opt-out-examples)déclarés. Par la suite, vous pouvez arrêter la collecte de données pour les utilisateurs qui utilisent les API opt-out à partir du SDK Mobile - reportez-vous à la page Périphériques [](https://docs.adobe.com/content/help/en/mobile-services/android/gdpr-privacy-android/privacy.html) Android et périphériques [](https://docs.adobe.com/content/help/en/mobile-services/ios/privacy-gdpr-ios/privacy.html)iOS. Vous trouverez des informations supplémentaires sur l’exclusion dans la documentation [des requêtes de confidentialité des](../../overview/data-security-and-privacy/data-privacy-requests.md)données.
+Vous pouvez gérer l’exclusion pour Adobe Experience Cloud via la page [Vos choix en matière de confidentialité](https://www.adobe.com/fr/privacy/opt-out.html#customeruse). Les fonctionnalités en un clic permettent aux utilisateurs finaux de contrôler la collecte de données et de ne pas y participer grâce aux solutions publicitaires d’Adobe Experience Cloud (y compris Audience Manager). Plus précisément, consultez la [section client professionnel](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) de la page Choix de confidentialité. Pour les navigateurs qui ne prennent pas en charge les cookies tiers, consultez [Ciblage des identifiants déclarés](../../features/declared-ids.md#declared-id-targeting). Pour les appareils mobiles, récupérez les identifiants d’Audience Manager appropriés et appelez les API d’exclusion d’Audience Manager comme mentionné dans les [exemples d’exclusion d’identifiants déclarés](../../features/declared-ids.md#opt-out-examples). Ensuite, vous pouvez suspendre la collecte de données pour les utilisateurs disposant des API d’exclusion du SDK Mobile. Consultez [Appareils Android](https://docs.adobe.com/content/help/fr-FR/mobile-services/android/gdpr-privacy-android/privacy.html) et [Appareils iOS](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/privacy-gdpr-ios/privacy.html). Vous trouverez des informations supplémentaires sur l’exclusion dans la [documentation sur les requêtes de confidentialité des données](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
-## Gestion du consentement pour les partenaires tiers
+## Gestion du consentement pour les partenaires secondaires
 
-Les partenaires de deuxième partie sont généralement aussi des contrôleurs de données et sont propriétaires du processus d&#39;obtention du consentement nécessaire des personnes concernées pour partager les données avec leurs partenaires de données de deuxième partie. En tant que Client Audience Manager, il vous appartient de déterminer si le Partenaire tiers a obtenu le consentement nécessaire pour votre utilisation. Plus de détails sur l&#39;obtention du consentement sont traités ci-dessus.
+Les partenaires secondaires sont généralement aussi des contrôleurs de données et sont propriétaires du processus d’obtention des consentements nécessaires des titulaires de données pour partager des données avec leurs partenaires de données secondaires. Il vous incombe, en tant que client d’Audience Manager, de déterminer si le partenaire secondaire a obtenu le consentement nécessaire pour votre cas d’utilisation. De plus amples informations sur l’obtention du consentement sont fournies ci-dessus.
 
-## Gestion du consentement pour l&#39;Audience Marketplace Partenaires tiers
+## Gestion du consentement pour les partenaires tiers d’Audience Marketplace
 
-Audience Marketplace Les partenaires tiers sont également des contrôleurs de données et sont propriétaires de leur processus d&#39;obtention du consentement et de gestion des demandes d&#39;accès, de suppression et de correction. Adobe demande de façon proactive que les partenaires tiers Audiences Marketplace mettent à jour leurs informations de profil de société dans l&#39;outil de recherche [d&#39;Audiences](https://www.adobe-audience-finder.com/) Adobe avec des informations supplémentaires sur la collecte de données utilisateur. Les informations seront fournies par les partenaires tiers de l&#39;Audience Marketplace et seront mises à jour régulièrement. Cependant, il appartient à chaque client d’Audience Manager de déterminer que le partenaire tiers de l’Audience Marketplace a obtenu le consentement nécessaire pour l’utilisation de ce client. Adobe ne fait aucune déclaration sur la portée ou la validité du consentement obtenu ou rapporté par un partenaire tiers Audience Marketplace pour un cas d&#39;utilisation donné.
+Les partenaires tiers d’Audience Marketplace sont également des contrôleurs de données et sont propriétaires du processus d’obtention des consentements et de gestion des demandes d’accès, de suppression et de correction. Adobe demande de manière proactive aux partenaires tiers d’Audience Marketplace de mettre à jour leurs informations de profil de la société dans [Adobe Audience Finder](https://www.adobe-audience-finder.com/) avec des informations supplémentaires sur la collecte de données utilisateur. Les informations sont fournies par les partenaires tiers d’Audience Marketplace et mises à jour régulièrement. Cependant, il appartient à chaque client d’Audience Manager de déterminer si le partenaire tiers d’Audience Marketplace a obtenu le consentement nécessaire pour le cas d’utilisation de ce client. Adobe ne garantit pas la portée ou la validité du consentement obtenu ou rapporté par un partenaire tiers d’Audience Marketplace pour un cas d’utilisation donné.
