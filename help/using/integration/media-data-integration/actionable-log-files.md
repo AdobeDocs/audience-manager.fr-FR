@@ -8,10 +8,10 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 4%
 
 ---
 
@@ -153,7 +153,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées dans l&#39;heure environ après le traitement des journaux. [!DNL DCM]
 
->[!NOTE] {importance=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >L&#39;horodatage du événement fourni dans les [!DNL DCM] journaux sera respecté et transmis au [!UICONTROL Data Collection Servers].
 >
@@ -299,6 +303,6 @@ Retargez les utilisateurs qui ont vu la version 123 de Creative mais n’ont pas
 
 >[!MORELIKETHIS]
 >
->* [Importer des fichiers de données DCM dans l’Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Rapports Optimisation des Audiences](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Importation de fichiers de données DCM dans Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Rapports d’Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
