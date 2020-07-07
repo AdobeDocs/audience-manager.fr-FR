@@ -1,21 +1,21 @@
 ---
 description: Le rapport Chevauchement d'unité publicitaire s'affiche sous forme de graphique à chaleur qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
 seo-description: Le rapport Chevauchement d'unité publicitaire s'affiche sous forme de graphique à chaleur qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
-seo-title: Chevauchement de l'unité publicitaire
+seo-title: Chevauchement d’unité publicitaire
 solution: Audience Manager
-title: Chevauchement de l'unité publicitaire
+title: Chevauchement d’unité publicitaire
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
-# Chevauchement de l&#39;unité publicitaire{#ad-unit-overlap}
+# Chevauchement d’unité publicitaire{#ad-unit-overlap}
 
 Le **[!UICONTROL Ad Unit Overlap]** rapport s’affiche sous la forme d’un graphique à chaleur qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
 
@@ -33,7 +33,7 @@ Utilisez les **[!UICONTROL Base Ad Unit]** commandes et les **[!UICONTROL Overla
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de [l’importation de fichiers de données DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Ad Unit] que non pas en tant que [!UICONTROL Ad Unit ID].
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Ad Unit] que non comme [!UICONTROL Ad Unit ID]la propriété web.
 
 ## Interprétation des résultats {#interpreting-results}
 
@@ -59,11 +59,11 @@ Votre [!UICONTROL Ad Unit Overlap] rapport peut ressembler à celui qui suit. Pa
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre d'unités d'annonce de chevauchement</span> </p> </td> 
-   <td colname="col2"> <p>Nombre d’utilisateurs qui ont visité les éléments 9 à 18 de l’unité publicitaire. Ces informations sont extraites des journaux DFP. </p> </td> 
+   <td colname="col2"> <p>Nombre d’utilisateurs qui ont visité les éléments 9 à 18 de l’unité publicitaire. Ces informations sont extraites des journaux Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre d'unités d'annonce de base</span> </p> </td> 
-   <td colname="col2"> <p>Nombre d'utilisateurs qui ont visité les éléments 1 à 8 de l'unité publicitaire. Ces informations sont extraites des journaux DFP. </p> </td> 
+   <td colname="col2"> <p>Nombre d'utilisateurs qui ont visité les éléments 1 à 8 de l'unité publicitaire. Ces informations sont extraites des journaux Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre de chevauchements uniques</span> </p> </td> 
