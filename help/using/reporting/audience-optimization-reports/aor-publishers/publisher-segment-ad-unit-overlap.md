@@ -1,21 +1,21 @@
 ---
 description: Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique à chaleur qui présente les chevauchements élevés et faibles entre vos unités publicitaires et vos segments d’Audience Manager.
 seo-description: Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique à chaleur qui présente les chevauchements élevés et faibles entre vos unités publicitaires et vos segments d’Audience Manager.
-seo-title: Chevauchement de segment vers l’unité publicitaire
+seo-title: Segmentation vers le chevauchement d’unité publicitaire
 solution: Audience Manager
-title: Chevauchement de segment vers l’unité publicitaire
+title: Segmentation vers le chevauchement d’unité publicitaire
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 
-# Chevauchement de segment vers l’unité publicitaire{#segment-to-ad-unit-overlap}
+# Segmentation vers le chevauchement d’unité publicitaire{#segment-to-ad-unit-overlap}
 
 Le rapport Chevauchement segment/unité publicitaire s’affiche sous la forme d’un graphique à chaleur qui présente les chevauchements élevés et faibles entre vos unités publicitaires et vos segments d’Audience Manager.
 
@@ -33,7 +33,7 @@ Utilisez les **[!UICONTROL Segment Name]** zones et les **[!UICONTROL Ad Unit]**
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de [l’importation de fichiers de données DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Ad Unit] que non pas en tant que [!UICONTROL Ad Unit ID].
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Ad Unit] que non comme [!UICONTROL Ad Unit ID]la propriété web.
 
 ## Interprétation des résultats {#interpreting-results}
 
@@ -59,7 +59,7 @@ Votre [!UICONTROL Segment to Ad Unit Overlap] rapport peut ressembler à celui q
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre d'unités publicitaires uniques</span> </p> </td> 
-   <td colname="col2"> <p>Nombre de vos visiteurs pour cette unité publicitaire spécifique. Ces informations sont extraites des journaux DFP. </p> </td> 
+   <td colname="col2"> <p>Nombre de vos visiteurs pour cette unité publicitaire spécifique. Ces informations sont extraites des journaux Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre de chevauchements uniques</span> </p> </td> 
