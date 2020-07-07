@@ -1,27 +1,27 @@
 ---
-description: Vous pouvez envoyer des segments qualifiés à DFP via une intégration côté client (côté navigateur) ou une intégration côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour les balises Google Publisher en Audience Manager.
-seo-description: Vous pouvez envoyer des segments qualifiés à DFP via une intégration côté client (côté navigateur) ou une intégration côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour les balises Google Publisher en Audience Manager.
-seo-title: Créer une destination GPT
+description: Vous pouvez envoyer des segments qualifiés à Google Ad Manager via une intégration côté client (côté navigateur) ou côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour les balises Google Publisher en Audience Manager.
+seo-description: Vous pouvez envoyer des segments qualifiés à Google Ad Manager via une intégration côté client (côté navigateur) ou côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour les balises Google Publisher en Audience Manager.
+seo-title: Création d’une destination GPT
 solution: Audience Manager
-title: Créer une destination GPT
+title: Création d’une destination GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 1%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
 
-# Créer une destination GPT {#create-a-gpt-destination}
+# Création d’une destination GPT {#create-a-gpt-destination}
 
-Vous pouvez envoyer des segments qualifiés vers [!DNL DFP] via une intégration côté client (côté navigateur) ou une intégration côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour [!DNL Google Publisher Tags] en Audience Manager.
+Vous pouvez envoyer des segments qualifiés vers [!DNL Google Ad Manager] via une intégration côté client (côté navigateur) ou une intégration côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour [!DNL Google Publisher Tags] en Audience Manager.
 
 ## Destinations 
 
-En Audience Manager, un *`destination`* est tout autre système (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) que vous souhaitez partager avec. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination des Audiences Manager se trouvent dans *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]**et suivez les étapes ci-dessous.
+In Audience Manager, a *`destination`* is any other system (ad server, [!DNL DSP], ad network, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination des Audiences Manager se trouvent dans *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]**et suivez les étapes ci-dessous.
 
 ## Informations fondamentales
 
