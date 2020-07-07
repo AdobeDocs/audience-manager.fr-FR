@@ -1,21 +1,21 @@
 ---
 description: Le rapport Performances des segments compare les segments mappés et non mappés selon les impressions et les uniques de segments en temps réel. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez souhaiter envoyer à une destination pour le ciblage.
 seo-description: Le rapport Performances des segments compare les segments mappés et non mappés selon les impressions et les uniques de segments en temps réel. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez souhaiter envoyer à une destination pour le ciblage.
-seo-title: Rapport de performances des segments
+seo-title: Rapport de performances sur les segments
 solution: Audience Manager
-title: Rapport de performances des segments
+title: Rapport de performances sur les segments
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 2%
 
 ---
 
 
-# Rapport de performances des segments{#segment-performance-report}
+# Rapport de performances sur les segments{#segment-performance-report}
 
 Le rapport Performances des segments compare les segments mappés et non mappés selon les impressions et les uniques de segments en temps réel.
 
@@ -44,7 +44,7 @@ Utilisez la **[!UICONTROL Segment]** liste déroulante pour sélectionner les se
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item IDs], comme décrit à l’étape 3 de [l’importation de fichiers de données DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Line Item] que non pas en tant que [!UICONTROL Line Item ID].
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Line Item] que non pas en tant que [!UICONTROL Line Item ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
