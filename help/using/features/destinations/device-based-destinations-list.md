@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Adobe Audience Manager des destinations serveur à serveur
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '1122'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ Cette page inclut les destinations [!DNL Audience Manager] actuelles basées sur
 
  
 
-| Intégration | Dernière mise à jour | Mises à jour | Dissocier | Réception de signaux de [!DNL IAB TCF] consentement | [!DNL ICDS] | ID de périphérique mobile |
+| Intégration | Dernière mise à jour | Mises à jour | Dissocier | Réception de signaux de [!DNL IAB TCF] consentement | [!DNL ICDS] | Identifiants d’appareil mobile |
 |---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26/09/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL 4info] | 09/02/2017 | 1xday | Non | Non | Non | Oui |
