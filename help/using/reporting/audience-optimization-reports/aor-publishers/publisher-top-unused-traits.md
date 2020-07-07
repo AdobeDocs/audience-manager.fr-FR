@@ -7,10 +7,10 @@ title: Principales caractéristiques inutilisées
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Utilisez la **[!UICONTROL Traits]** liste déroulante pour sélectionner les car
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Order IDs], comme décrit à l’étape 3 de [l’importation de fichiers de données DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Order] que non comme [!UICONTROL Order ID]la propriété web.
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Order IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Order] que non pas en tant que [!UICONTROL Order ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
@@ -90,7 +90,7 @@ Voir la description des informations supplémentaires dans le tableau ci-dessous
 
 La position de vos caractéristiques dans un rapport peut vous en apprendre beaucoup sur les caractéristiques que vous pouvez utiliser pour optimiser les segments d’audience existants.
 
-Les caractéristiques situées plus haut sur l’axe Impressions sont celles que vous souhaitez utiliser dans vos campagnes. Pour les caractéristiques avec un faible nombre d’impressions, il est peu probable que vous atteigniez cette audience sur votre propriété Web, en fonction de vos données DFP.
+Les caractéristiques situées plus haut sur l’axe Impressions sont celles que vous souhaitez utiliser dans vos campagnes. Pour les caractéristiques avec un faible nombre d’impressions, il est peu probable que vous atteigniez cette audience sur votre propriété Web, en fonction de vos [!DNL Google Ad Manager] données.
 
 Recherchez à gauche de l&#39; [!UICONTROL Unique Trait Realizations] axe des caractéristiques très précises et à droite les caractéristiques qui peuvent conduire à l&#39;échelle.
 
