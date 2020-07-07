@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 96%
+source-wordcount: '1066'
+ht-degree: 93%
 
 ---
 
@@ -136,9 +136,9 @@ Oui, [!DNL Audience Manager] peut vous fournir les données collectées pour les
 
 <br> 
 
-**Je souhaite collecter des données sur un site et cibler les utilisateurs au moyen de DFP sur un autre site. Dois-je déployer du code sur l’autre propriété si je ne souhaite pas collecter de données à partir de cet emplacement ?**
+**[!DNL Google Ad Manager]Je souhaite collecter des données sur un site et cibler les utilisateurs au moyen de sur un autre site. Dois-je déployer du code sur l’autre propriété si je ne souhaite pas collecter de données à partir de cet emplacement ?**
 
-Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. Tant que vous avez accès à l’inventaire sur le deuxième site par le biais de DFP, vous pouvez utiliser la collecte de données depuis le premier site et cibler les utilisateurs au moyen de DFP.
+Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -148,9 +148,9 @@ Chaque fournisseur possède sa propre particularité ; la réponse à cette que
 
 <br> 
 
-**Comment [!DNL Audience Manager] définit-il des cookies et transmet-il des variables à DFP ?**
+**Comment [!DNL Audience Manager] définit-il des cookies et transmet-il des variables à[!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] définit 2 cookies : l’un envoie les variables de segment à la balise publicitaire DFP et l’autre définit notre identifiant utilisateur unique (UUID), également lu par DFP. L’ajout de l’UUID à la balise publicitaire permet de créer des rapports et de découvrir des audiences au niveau de l’utilisateur.
+[!DNL Audience Manager][!DNL Google Ad Manager] définit 2 cookies : l’un envoie les variables de segment à la balise publicitaire et l’autre définit notre identifiant utilisateur unique (UUID), également lu par [!DNL Google Ad Manager]. L’ajout de l’UUID à la balise publicitaire permet de créer des rapports et de découvrir des audiences au niveau de l’utilisateur.
 
 <br> 
 
