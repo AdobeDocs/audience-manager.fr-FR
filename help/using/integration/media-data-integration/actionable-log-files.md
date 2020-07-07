@@ -8,10 +8,10 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 4%
+source-wordcount: '1597'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 Pour commencer [!UICONTROL Actionable Log Files]à utiliser, vous devez importer des données de journal dans [!DNL Audience Manager]. Les liens suivants vous aideront à démarrer :
 
 * Pour [!UICONTROL Google DCM] les journaux, voir [Importer des fichiers de données DCM en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)*et* contactez votre [!DNL Audience Manager] consultant.
-* Pour [!UICONTROL Google DFP] consulter les journaux, reportez-vous à la section [Importation de fichiers de données DFP en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *et contactez votre* [!DNL Audience Manager] consultant.
+* Pour les journaux [!UICONTROL Google Ad Manager] (anciennement Google DFP), voir [Importer des fichiers de données DFP en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) , *et contactez votre* [!DNL Audience Manager] consultant.
 * Pour les autres journaux de serveur d’annonces, voir Fichiers [de](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) données et de métadonnées *et contactez votre* [!DNL Audience Manager] consultant.
 
 Si vous importez déjà des données de journal dans [!DNL Audience Manager], demandez à votre [!DNL Audience Manager] consultant ou au service d’assistance [](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) clientèle de vous les activer [!UICONTROL Actionable Log Files] .
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* Si un horodatage n&#39;est pas disponible pour une ligne de données dans le fichier [!DNL DCM] journal, nous utilisons l&#39;heure de l&#39; `HTTP` appel comme horodatage événement.
 >* Si la ligne de données du fichier [!DNL DCM] journal contient un horodatage incorrect, nous ignorons la ligne entière.
+
+
+<br> 
+
+### Signaux utilisables à partir des [!DNL Google Ad Manager] journaux {#ad-manager-logs-signals}
+
+Le tableau liste les signaux interactifs provenant des fichiers [!DNL Google Ad Manager] journaux :
+
+
+| Nom d&#39;en-tête dans le fichier journal | Signal | Description |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | ID numérique de l’élément de ligne Ad Manager livré |
+| `OrderId` | `d_orderid` | ID numérique de la commande du gestionnaire d’annonces qui contenait l’élément de ligne livré et le créatif. |
+| `CreativeId` | `d_creative` | ID numérique du créatif Ad Manager diffusé. |
+| `-` | `d_event` | Indique le type d&#39;événement. L’Audience Manager lit le type d&#39;événement du nom du fichier journal d’Ad Manager et le transforme en signal interactif. Les valeurs acceptées sont les suivantes : <br> <ul><li>d_événement = imp pour les impressions.</li><li>d_événement = clic pour les clics.</li><li>d_événement = conv pour les conversions et les activités.</li></ul> |
+| `-` | `d_src` | ID de la source de données que vous utilisez pour capturer les données d’Ad Manager. Voir [Comment créer une source](/help/using/features/manage-datasources.md)de données. |
+
+Les signaux décrits dans le tableau sont capturés en Audience Manager comme un appel HTTP en temps réel. L’exemple d’appel ci-dessous contient des informations sur un événement de conversion provenant de Google Ad Manager. Les appels n&#39;ont pas nécessairement à inclure tous les signaux dans l&#39;exemple d&#39;appel.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>L&#39;horodatage du événement fourni dans les [!DNL Google Ad Manager] journaux sera respecté et transmis au [!UICONTROL Data Collection Servers].
+>
+>* Si un horodatage n&#39;est pas disponible pour une ligne de données dans le fichier [!DNL Google Ad Manager] journal, nous utilisons l&#39;heure de l&#39; `HTTP` appel comme horodatage événement.
+>* Si la ligne de données du fichier [!DNL Google Ad Manager] journal contient un horodatage incorrect, nous ignorons la ligne entière.
 
 
 <br> 
