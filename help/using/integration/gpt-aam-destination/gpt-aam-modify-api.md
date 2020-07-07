@@ -1,21 +1,21 @@
 ---
 description: Ajoutez une instruction if pour rechercher les cookies d’Audience Manager avant d’appeler la méthode .setTargeting de la balise Google Publisher.
 seo-description: Ajoutez une instruction if pour rechercher les cookies d’Audience Manager avant d’appeler la méthode .setTargeting de la balise Google Publisher.
-seo-title: Modification de l’appel de l’API GPT setTargeting
+seo-title: Modification de l’appel API GPT setTargeting
 solution: Audience Manager
-title: Modification de l’appel de l’API GPT setTargeting
+title: Modification de l’appel API GPT setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Modification de l’appel `setTargeting` API GPT {#modify-the-gpt-settargeting-api-call}
+# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
 Ajoutez une instruction if pour rechercher les cookies d’Audience Manager avant d’appeler la [!DNL Google Publisher Tag]`.setTargeting` méthode.
 
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->En fonction de la méthode d’intégration à [!DNL DFP]laquelle vous souhaitez procéder, vous n’avez besoin que de quelques lignes dans l’exemple de code ci-dessus :
+>En fonction de la méthode d’intégration à [!DNL Google Ad Manager]laquelle vous souhaitez procéder, vous n’avez besoin que de quelques lignes dans l’exemple de code ci-dessus :
 >
 >* Intégration côté client : utilisez uniquement les lignes 1 à 3.
 >* Intégration côté serveur : aucune ligne n&#39;est nécessaire.
->* Envoi des fichiers [!DNL DFP] journaux pour le rapports dans [!DNL Audience Manager]: n&#39;utilisez que les lignes 4 à 6. Ce code insère la valeur du `aam_uuid` cookie dans les journaux afin qu’il puisse être assimilé à un rapports.
+>* Envoi des fichiers [!DNL Google Ad Manager] journaux pour le rapports dans [!DNL Audience Manager]: n&#39;utilisez que les lignes 4 à 6. Ce code insère la valeur du `aam_uuid` cookie dans les journaux afin qu’il puisse être assimilé à un rapports.
 
 
 ### `AamGpt` Fonctions et types de données
@@ -78,6 +78,6 @@ Définit les variables clés utilisées dans l&#39; `if` instruction.
 
 >[!MORELIKETHIS]
 >
->* [Créer une destination GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Code d’Audience Manager pour les balises Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Création d’une destination GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+>* [Code Audience Manager pour les Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
