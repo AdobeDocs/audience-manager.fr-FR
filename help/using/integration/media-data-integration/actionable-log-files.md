@@ -8,9 +8,9 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1574'
 ht-degree: 3%
 
 ---
@@ -33,14 +33,18 @@ ht-degree: 3%
 Pour commencer [!UICONTROL Actionable Log Files]à utiliser, vous devez importer des données de journal dans [!DNL Audience Manager]. Les liens suivants vous aideront à démarrer :
 
 * Pour [!UICONTROL Google DCM] les journaux, voir [Importer des fichiers de données DCM en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)*et* contactez votre [!DNL Audience Manager] consultant.
-* Pour les journaux [!UICONTROL Google Ad Manager] (anciennement Google DFP), voir [Importer des fichiers de données DFP en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) , *et contactez votre* [!DNL Audience Manager] consultant.
+* Pour les journaux [!UICONTROL Google Ad Manager] (anciennement Google DFP), voir [Importation de fichiers de données Google Ad Manager en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)*et contactez votre* [!DNL Audience Manager] consultant.
 * Pour les autres journaux de serveur d’annonces, voir Fichiers [de](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) données et de métadonnées *et contactez votre* [!DNL Audience Manager] consultant.
 
 Si vous importez déjà des données de journal dans [!DNL Audience Manager], demandez à votre [!DNL Audience Manager] consultant ou au service d’assistance [](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) clientèle de vous les activer [!UICONTROL Actionable Log Files] .
 
+<!--
+
 >[!IMPORTANT]
 >
-> Fin 2019, [!UICONTROL Actionable Log Files] a commencé à étendre la disponibilité aux nouveaux serveurs d’annonces. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+
+-->
 
 ## Utilisation de fichiers journaux utilisables {#working-with-actionable-log-files}
 
