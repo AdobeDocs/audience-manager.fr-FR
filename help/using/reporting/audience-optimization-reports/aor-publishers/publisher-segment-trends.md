@@ -1,21 +1,21 @@
 ---
 description: Le rapport Tendance des segments renvoie des données sur les impressions et les taux de clics publicitaires des segments mappés et non mappés au fil du temps. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure idée du comportement de vos audiences au fil du temps.
 seo-description: Le rapport Tendance des segments renvoie des données sur les impressions et les taux de clics publicitaires des segments mappés et non mappés au fil du temps. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure idée du comportement de vos audiences au fil du temps.
-seo-title: Rapport Tendance des segments
+seo-title: Rapport de tendances sur les segments
 solution: Audience Manager
-title: Rapport Tendance des segments
+title: Rapport de tendances sur les segments
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '609'
+ht-degree: 3%
 
 ---
 
 
-# Rapport Tendance des segments{#segment-trend-report}
+# Rapport de tendances sur les segments{#segment-trend-report}
 
 Le rapport Tendance des segments renvoie des données sur les impressions et les taux de clics publicitaires des segments mappés et non mappés au fil du temps.
 
@@ -45,7 +45,7 @@ Utilisez la **[!UICONTROL Segment]** liste déroulante pour sélectionner les se
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item] les ID, comme décrit à l’étape 3 de l’étape [Importation de fichiers de données DFP en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que propriété [!UICONTROL Line Item] et non en tant qu’ [!UICONTROL Line Item] identifiant.
+>Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item] les identifiants, comme décrit à l’étape 3 de l’étape [Importer des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que propriété [!UICONTROL Line Item] et non en tant qu’ [!UICONTROL Line Item] identifiant.
 
 ## Interprétation des résultats {#interpreting-results}
 
