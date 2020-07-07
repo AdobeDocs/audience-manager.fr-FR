@@ -1,22 +1,22 @@
 ---
 description: Configurez DFP en tant que destination et envoyez les données de segment d’Audience Manager à cette plateforme.
-seo-description: Configurez DFP en tant que destination et envoyez les données de segment d’Audience Manager à cette plateforme.
-seo-title: DFP comme destination de l'Audience Manager
+seo-description: Configurez Google Ad Manager en tant que destination et envoyez les données de segment d’Audience Manager à cette plateforme.
+seo-title: Google Ad Manager comme destination de l’Audience Manager
 solution: Audience Manager
-title: DFP comme destination de l'Audience Manager
+title: Google Ad Manager comme destination de l’Audience Manager
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 
-# DFP comme destination de l&#39;Audience Manager {#dfp-as-an-audience-manager-destination}
+# Google Ad Manager (anciennement DFP) comme destination de l’Audience Manager {#dfp-as-an-audience-manager-destination}
 
-Configurez [!DNL DFP] comme destination et envoyez des données de segment d’Audience Manager à cette plateforme.
+Configurez [!DNL Google Ad Manager] comme destination et envoyez des données de segment d’Audience Manager à cette plateforme.
 
-La documentation de cette section décrit la méthode dépassée d&#39;intégration avec [!DNL DFP] et a été supprimée. Pour [!DNL DFP] les intégrations, voir [Intégration de DFP à l’aide de balises Google Publisher (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
+La documentation de cette section décrit la méthode dépassée d&#39;intégration avec [!DNL Google Ad Manager] et a été supprimée. Pour [!DNL Google Ad Manager] les intégrations, voir [Intégration de Google Ad Manager à l’aide de balises Google Publisher (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
