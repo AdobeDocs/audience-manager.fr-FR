@@ -8,9 +8,9 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
+source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1605'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 Pour commencer [!UICONTROL Actionable Log Files]à utiliser, vous devez importer des données de journal dans [!DNL Audience Manager]. Les liens suivants vous aideront à démarrer :
 
-* Pour [!UICONTROL Google DCM] les journaux, voir [Importer des fichiers de données DCM en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)*et* contactez votre [!DNL Audience Manager] consultant.
+* Pour [!UICONTROL Google Campaign Manager] les journaux, reportez-vous à la section [Importation des fichiers de données Google Campaign Manager en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)*et contactez votre* [!DNL Audience Manager] consultant.
 * Pour les journaux [!UICONTROL Google Ad Manager] (anciennement Google DFP), voir [Importation de fichiers de données Google Ad Manager en Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)*et contactez votre* [!DNL Audience Manager] consultant.
 * Pour les autres journaux de serveur d’annonces, voir Fichiers [de](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) données et de métadonnées *et contactez votre* [!DNL Audience Manager] consultant.
 
@@ -62,9 +62,9 @@ Les signaux sont les [plus petites unités](../../reference/signal-trait-segment
 
 N’oubliez pas que pour utiliser ces informations pour la création et la segmentation d’audiences, vous devez vous-même configurer les caractéristiques basées sur des règles.
 
-### Signaux utilisables à partir des journaux Google DCM {#dcm-logs-signals}
+### Signaux utilisables à partir des journaux Google Campaign Manager {#dcm-logs-signals}
 
-Le tableau liste les signaux interactifs provenant des fichiers [!DNL DCM] journaux :
+Le tableau liste les signaux interactifs provenant des fichiers [!DNL Google Campaign Manager] journaux :
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -79,13 +79,13 @@ Le tableau liste les signaux interactifs provenant des fichiers [!DNL DCM] journ
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Représente l’identifiant numérique de l’activité de conversion dans DCM. Ce champ correspond à l’ID d’Activité de DCM. </p> <p> <p>Conseil : Vous pouvez capturer plusieurs ou des activités de conversion spécifiques à partir de DCM. Créez des caractéristiques à l’aide <code> d_conversion = activity ID</code> de chaque activité de conversion à partir de DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Représente l’identifiant numérique de l’activité de conversion dans Google Campaign Manager. Ce champ correspond à l’ID d’Activité de Google Campaign Manager. </p> <p> <p>Conseil : Vous pouvez capturer plusieurs activités de conversion ou des données spécifiques à partir de Google Campaign Manager. Créez des caractéristiques à l’aide <code> d_conversion = activity ID</code> de chaque activité de conversion à partir de Google Campaign Manager. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion ID</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Ce champ correspond à l’ID de conversion dans DCM. Indique l’activité précédant la conversion de l’utilisateur à partir de DCM. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
+   <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Ce champ correspond à l’ID de conversion dans Google Campaign Manager. Indique l’activité précédant la conversion d’utilisateur à partir du Gestionnaire de Campaign de Google. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> pour les conversions après clic. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> pour les conversions après impression. </li> 
@@ -102,25 +102,25 @@ Le tableau liste les signaux interactifs provenant des fichiers [!DNL DCM] journ
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Code d’intégration de la source de données de l’annonceur. Notez que ceci n’est pas lié aux sources de données d’Audience Manager.</p> <p>Ce champ correspond à l’identifiant du groupe publicitaire de DCM. </p> </td> 
+   <td colname="col3"><p>Code d’intégration de la source de données de l’annonceur. Notez que ceci n’est pas lié aux sources de données d’Audience Manager.</p> <p>Ce champ correspond à l’identifiant du groupe publicitaire de Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col3"> <p>ID d'unité opérationnelle. Ce champ correspond à l’identifiant publicitaire de DCM. </p> </td> 
+   <td colname="col3"> <p>ID d'unité opérationnelle. Ce champ correspond à l’identifiant publicitaire de Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>ID Campaign fourni par DCM.</p> </td> 
+   <td colname="col3"> <p>ID Campaign fourni par Google Campaign Manager.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>ID de création fourni par DCM. </p> </td> 
+   <td colname="col3"> <p>ID de création fourni par Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Le tableau liste les signaux interactifs provenant des fichiers [!DNL DCM] journ
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indique le type d'événement. L’Audience Manager lit le type d'événement à partir du nom du fichier journal DCM et le transforme en signal utilisable. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
+   <td colname="col3"> <p>Indique le type d'événement. L’Audience Manager lit le type d'événement à partir du nom du fichier journal de Google Campaign Manager et le transforme en un signal utilisable. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> pour les impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> pour les clics. </li> 
@@ -143,19 +143,19 @@ Le tableau liste les signaux interactifs provenant des fichiers [!DNL DCM] journ
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>ID de la source de données que vous utilisez pour capturer les données DCM. Voir <a href="../../features/manage-datasources.md#create-data-source"> Comment créer une source</a>de données. </p> </td> 
+   <td colname="col3"> <p>ID de la source de données que vous utilisez pour capturer les données Google Campaign Manager. Voir <a href="../../features/manage-datasources.md#create-data-source"> Comment créer une source</a>de données. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-Les signaux décrits dans le tableau sont capturés [!DNL Audience Manager] comme un appel en temps réel `HTTP` . L&#39;exemple d&#39;appel ci-dessous contient des informations sur un événement de conversion de [!DNL DCM]. Les appels n&#39;ont pas nécessairement à inclure *tous les* signaux dans l&#39;exemple d&#39;appel.
+Les signaux décrits dans le tableau sont capturés [!DNL Audience Manager] comme un appel en temps réel `HTTP` . L&#39;exemple d&#39;appel ci-dessous contient des informations sur un événement de conversion de [!DNL Google Campaign Manager]. Les appels n&#39;ont pas nécessairement à inclure *tous les* signaux dans l&#39;exemple d&#39;appel.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées dans l&#39;heure environ après le traitement des journaux. [!DNL DCM]
+Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées dans l&#39;heure environ après le traitement des journaux. [!DNL Google Campaign Manager]
 
 <!--
 Removed  {importance="high"} for ExL
@@ -163,10 +163,10 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->L&#39;horodatage du événement fourni dans les [!DNL DCM] journaux sera respecté et transmis au [!UICONTROL Data Collection Servers].
+>L&#39;horodatage du événement fourni dans les [!DNL Google Campaign Manager] journaux sera respecté et transmis au [!UICONTROL Data Collection Servers].
 >
->* Si un horodatage n&#39;est pas disponible pour une ligne de données dans le fichier [!DNL DCM] journal, nous utilisons l&#39;heure de l&#39; `HTTP` appel comme horodatage événement.
->* Si la ligne de données du fichier [!DNL DCM] journal contient un horodatage incorrect, nous ignorons la ligne entière.
+>* Si un horodatage n&#39;est pas disponible pour une ligne de données dans le fichier [!DNL Google Campaign Manager] journal, nous utilisons l&#39;heure de l&#39; `HTTP` appel comme horodatage événement.
+>* Si la ligne de données du fichier [!DNL Google Campaign Manager] journal contient un horodatage incorrect, nous ignorons la ligne entière.
 
 
 <br> 
@@ -322,9 +322,9 @@ Retargez les utilisateurs qui ont vu la version 123 de Creative mais n’ont pas
 
 4. Faites correspondre le segment [!DNL Retarget Users] à une destination et aux utilisateurs de cible de la destination avec Creative 456.
 
-### Utilisation de l’Activité DCM Floodlight dans les rapports d’optimisation des Audiences ou dans Audience Lab
+### Utilisation de l’Activité Google Campaign Manager Floodlight dans les rapports d’optimisation des Audiences ou dans Audience Lab
 
-[Les balises](https://support.google.com/dcm/partner/answer/4293719?hl=en) Floodlight permettent aux annonceurs de suivre les conversions des utilisateurs. Avec [!UICONTROL Actionable Log Files], vous pouvez effectuer le suivi des [!DNL DCM] conversions dans les rapports [d&#39;optimisation des](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audiences ou dans [Audiences Lab](../../features/audience-lab/audience-lab.md):
+[Les balises](https://support.google.com/dcm/partner/answer/4293719?hl=en) Floodlight permettent aux annonceurs de suivre les conversions des utilisateurs. Avec [!UICONTROL Actionable Log Files], vous pouvez effectuer le suivi des [!DNL Google Campaign Manager] conversions dans les rapports [d&#39;optimisation des](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audiences ou dans [Audiences Lab](../../features/audience-lab/audience-lab.md):
 
 1. Créez une caractéristique et utilisez la règle de caractéristique suivante pour capturer une conversion à partir des journaux du serveur d’annonces :
 
@@ -336,6 +336,6 @@ Retargez les utilisateurs qui ont vu la version 123 de Creative mais n’ont pas
 
 >[!MORELIKETHIS]
 >
->* [Importation de fichiers de données DCM dans Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Importer les fichiers de données Google Campaign Manager dans l’Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Rapports d’Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
