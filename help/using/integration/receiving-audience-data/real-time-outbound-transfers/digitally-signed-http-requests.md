@@ -7,19 +7,19 @@ title: Requêtes HTTP(S) Signées Numériquement
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
 
-# Demandes `HTTP(S)` signées numériquement {#digitally-signed-http-requests}
+# Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
 
 L’Audience Manager requiert que les requêtes `HTTP(S)` serveur à serveur soient numériquement signées pour être valides. Ce document décrit comment signer `HTTP(S)` des requêtes à l’aide de clés privées.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
@@ -90,10 +90,7 @@ La RFC pour l’implémentation du [!DNL HMAC] hachage est [https://www.ietf.org
 
 ## Rotation de la clé privée {#rotate-private-key}
 
-Pour des raisons de sécurité, il est recommandé de faire pivoter périodiquement la clé privée. C&#39;est à vous de décider de la clé privée et de la période de rotation. Afin d’atteindre la rotation de clés avec un temps d’inactivité nul, [!UICONTROL IRIS] prend en charge l’ajout de plusieurs en-têtes de signature. Un en-tête contient la signature générée avec l’ancienne clé, un autre contient la signature générée à l’aide de la nouvelle clé privée. Reportez-vous aux étapes détaillées ci-dessous :
-
-1. Le partenaire communique la nouvelle clé privée à [!DNL Adobe Audience Manager].
-1. L’ancienne clé est supprimée [!DNL Audience Manager] et [!UICONTROL IRIS] envoie uniquement le nouvel en-tête de signature. Les clés ont été tournées.
+Pour faire pivoter la clé privée, les partenaires doivent communiquer la nouvelle clé privée à leur [!DNL Adobe Audience Manager] consultant. L’ancienne clé est supprimée [!DNL Audience Manager] et [!UICONTROL IRIS] envoie uniquement le nouvel en-tête de signature. Les clés ont été tournées.
 
 ## Données utilisées pour la signature {#data-signing}
 
