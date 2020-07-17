@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Explication du temps de vie des segments et des caractéristiques {#segment-time-to-live-explained}
+# Explication de la durée de vie des segments et des caractéristiques {#segment-time-to-live-explained}
 
 Comment l’intervalle de caractéristiques [!UICONTROL time-to-live] ([!DNL TTL]) affecte l’appartenance au segment.
 
@@ -23,7 +23,7 @@ Comment l’intervalle de caractéristiques [!UICONTROL time-to-live] ([!DNL TTL
 
 ## Temps de vie
 
-[!DNL TTL] définit la durée pendant laquelle un visiteur de site reste dans un segment après le dernier événement de qualification des caractéristiques. [!DNL TTL] est définie sur les caractéristiques et non sur les segments. Les Visiteurs abandonnent un segment s’ils ne remplissent pas les critères d’une caractéristique avant la fin de l’ [!DNL TTL] intervalle. La valeur par défaut [!DNL TTL] pour les nouvelles caractéristiques est de 120 jours. Lorsqu’elle est définie sur 0 jour, la caractéristique n’expire jamais. [Définissez la valeur](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL lorsque vous créez ou modifiez une caractéristique dans la [!UICONTROL Advanced Options] section de l’interface de création de caractéristiques.
+[!DNL TTL] définit la durée pendant laquelle un visiteur de site reste dans un segment après le dernier événement de qualification des caractéristiques. [!DNL TTL] est définie sur les caractéristiques et non sur les segments. Visitors fall out of a segment if they do not qualify for a trait before the end of the [!DNL TTL] interval. La valeur par défaut [!DNL TTL] pour les nouvelles caractéristiques est de 120 jours. Lorsqu’elle est définie sur 0 jour, la caractéristique n’expire jamais. [Définissez la valeur](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL lorsque vous créez ou modifiez une caractéristique dans la [!UICONTROL Advanced Options] section de l’interface de création de caractéristiques.
 
 ### Explication de TTL sur 1 jour
 
