@@ -2,21 +2,21 @@
 description: Définit et décrit des paires clé-valeur standard et sérialisées.
 keywords: integration code
 seo-description: Définit et décrit des paires clé-valeur standard et sérialisées.
-seo-title: Paires clé-valeur expliquées
+seo-title: Explication des paires clé-valeur
 solution: Audience Manager
-title: Paires clé-valeur expliquées
+title: Explication des paires clé-valeur
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Paires clé-valeur expliquées{#key-value-pairs-explained}
+# Explication des paires clé-valeur{#key-value-pairs-explained}
 
 Définit et décrit des paires clé-valeur standard et sérialisées.
 
@@ -32,7 +32,7 @@ Une paire clé-valeur se compose de deux éléments de données connexes : Une c
 * `color = green`
 * `price > 100`
 
-## Paires de valeurs clés standard et sérialisées {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
 Les destinations acceptent les données de valeur clé dans *`standard`* ou *`serialized`* le format. La mise en forme standard organise les données en paires clé-valeur distinctes. Chaque clé est explicitement indiquée, même si elle est utilisée de nouveau pour définir une autre valeur. En revanche, la mise en forme sérialisée convertit plusieurs valeurs en un ensemble défini par une seule clé. En outre, dans une paire sérialisée, un indicateur spécial est utilisé pour séparer les valeurs dans le jeu de valeurs clés. Enfin, les valeurs de clé standard et sérialisées peuvent contenir une ou plusieurs valeurs. Le tableau suivant fournit des exemples de formats de valeur de clé standard et de série.
 
