@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
@@ -23,10 +23,10 @@ Les rapports interactifs affichent les données de performances et de chevauchem
 + [Rapport de chevauchement de caractéristiques](trait-trait-overlap-report.md)
 + [Rapport de chevauchement de segments et de caractéristiques](segment-trait-overlap-report.md)
 + [Rapport de chevauchement de segments](segment-segment-overlap-report.md)
-+ [Rapport Signaux inutilisés](unused-signals.md)
-+ [Amélioration des délais de traitement des fichiers journaux avec les tables de recherche](lookup-tables.md)
++ [Rapport des signaux inutilisés](unused-signals.md)
++ [Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance](lookup-tables.md)
 + [Filtrage des résultats du rapport avec les curseurs de données](data-sliders.md)
-+ [Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment](overlap-minimum-segment-size.md)
++ [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](overlap-minimum-segment-size.md)
 + [Fichiers CSV pour les rapports de chevauchement](overlap-csv-files.md)
 
 <!-- 
