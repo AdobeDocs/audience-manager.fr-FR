@@ -1,16 +1,16 @@
 ---
 description: Audience Manager fournit des kits de développement logiciel (SDK) pour Android et iOS.
 seo-description: Audience Manager fournit des kits de développement logiciel (SDK) pour Android et iOS.
-seo-title: Code SDK
+seo-title: Code du SDK
 solution: Audience Manager
-title: Code SDK
+title: Code du SDK
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
