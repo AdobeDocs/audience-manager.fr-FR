@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Segments : Objectif, composition et règles {#segments-purpose-composition-and-rules}
+# Segments : objectif, composition et règles {#segments-purpose-composition-and-rules}
 
 Décrit [!UICONTROL segments]leurs parties constituantes et crée des règles avec [!UICONTROL Segment Builder].
 
 ## Objectif [!UICONTROL Segments]
 
-Un *`segment`* (ou un) *`audience`*) est un ensemble d’utilisateurs qui partagent des attributs communs. En Audience Manager, vous créez [!UICONTROL segments] avec des règles côté serveur. Ces règles vous permettent de créer des groupes d&#39;audiences en fonction des attributs du visiteur du site, tels que :
+A *`segment`* (or an *`audience`*) is a set of users who share common attributes. En Audience Manager, vous créez [!UICONTROL segments] avec des règles côté serveur. Ces règles vous permettent de créer des groupes d&#39;audiences en fonction des attributs du visiteur du site, tels que :
 
 * Comportement;
 * Données démographiques (âge, sexe, revenu, etc.);
@@ -37,7 +37,7 @@ Lors du mappage des suites de rapports [!UICONTROL segments] ou Analytics Adobe 
 
 >[!TIP]
 >
->L&#39;Audience Manager [!UICONTROL segments] est différente de [!DNL Adobe Analytics][!UICONTROL segments]. Consultez [Comprendre les segments en Analytics et en Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour obtenir une description détaillée des différences.
+>L&#39;Audience Manager [!UICONTROL segments] est différente de [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/fr-FR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Créer des règles basées sur [!UICONTROL Segments] des [!UICONTROL Segment Builder]
 
