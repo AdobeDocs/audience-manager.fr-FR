@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Lors d’un appel, la fonction [!DNL DCS] accepte les données de valeur de clé dans un format standard ou sérialisé. Consultez cette section pour savoir comment formater les données de valeur de clé standard et sérialisées.
 
-## Paires de valeurs clés standard et sérialisées {#standard-serialized}
+## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -71,7 +71,7 @@ Avec les paires clé-valeur sérialisées, vous devez spécifier les marqueurs q
 
 >[!MORELIKETHIS]
 >
->* [Envoyer des données au serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
+>* [Envoi de données au DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Préfixes et variables de valeur de clé pris en charge par le serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
+>* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
 
