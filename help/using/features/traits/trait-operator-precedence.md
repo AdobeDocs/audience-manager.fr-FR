@@ -1,21 +1,21 @@
 ---
 description: Le créateur de caractéristiques évalue les expressions selon l’ordre des opérations indiqué ci-dessous, de la priorité élevée à la priorité faible. Les éléments de caractéristiques définis par les opérateurs de priorité élevée sont évalués en premier, avant les autres opérateurs de priorité. Cette section classe chaque opérateur en fonction de la priorité, de haut en bas.
 seo-description: Le créateur de caractéristiques évalue les expressions selon l’ordre des opérations indiqué ci-dessous, de la priorité élevée à la priorité faible. Les éléments de caractéristiques définis par les opérateurs de priorité élevée sont évalués en premier, avant les autres opérateurs de priorité. Cette section classe chaque opérateur en fonction de la priorité, de haut en bas.
-seo-title: Ordre des opérations dans le créateur de caractéristiques
+seo-title: Ordre des opérations dans le générateur de caractéristiques
 solution: Audience Manager
-title: Ordre des opérations dans le créateur de caractéristiques
+title: Ordre des opérations dans le générateur de caractéristiques
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
 
-# Ordre des opérations dans le créateur de caractéristiques {#order-of-operations-in-trait-builder}
+# Ordre des opérations dans le générateur de caractéristiques {#order-of-operations-in-trait-builder}
 
 [!UICONTROL Trait Builder] évalue les expressions selon l’ordre des opérations indiqué ci-dessous, de la priorité élevée à la priorité faible. Les éléments de caractéristiques définis par les opérateurs de priorité élevée sont évalués en premier, avant les autres opérateurs de priorité. Cette section classe chaque opérateur en fonction de la priorité, de haut en bas.
 
@@ -47,7 +47,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
-   <td colname="col2"><span class="wintitle"> AND</span> </td> 
+   <td colname="col2"><span class="wintitle"> ET</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
   <tr> 
