@@ -1,20 +1,20 @@
 ---
 description: Utilisez des opérateurs logiques pour regrouper des paires clé-valeur et des caractéristiques de renvoi.
 seo-description: Utilisez des opérateurs logiques pour regrouper des paires clé-valeur et des caractéristiques de renvoi.
-seo-title: Opérateurs logiques pris en charge
-title: Opérateurs logiques pris en charge
+seo-title: Opérations logiques prises en charge
+title: Opérations logiques prises en charge
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
 
-# Opérateurs logiques pris en charge {#supported-logical-operators}
+# Opérations logiques prises en charge {#supported-logical-operators}
 
 Utilisez des opérateurs logiques pour regrouper des paires clé-valeur et des caractéristiques de renvoi.
 
