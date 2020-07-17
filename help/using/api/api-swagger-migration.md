@@ -1,21 +1,21 @@
 ---
 description: Ici, à l'Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une documentation API fiable et précise. Par conséquent, nous réécrivons le contenu de notre API dans Swagger et le déplaçons vers un nouvel emplacement. Ces modifications ont pour but d’améliorer votre expérience avec le code de l’API d’Audience Manager.
 seo-description: Ici, à l'Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une documentation API fiable et précise. Par conséquent, nous réécrivons le contenu de notre API dans Swagger et le déplaçons vers un nouvel emplacement. Ces modifications ont pour but d’améliorer votre expérience avec le code de l’API d’Audience Manager.
-seo-title: Migration du code de l'API d'Audience Manager
+seo-title: Migration du code de l’API Audience Manager
 solution: Audience Manager
-title: Migration du code de l'API d'Audience Manager
+title: Migration du code de l’API Audience Manager
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# Audience Manager API Code Migration {#audience-manager-api-code-migration}
+# Migration du code de l’API Audience Manager {#audience-manager-api-code-migration}
 
 Ici, à l&#39;Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une [!DNL API] documentation fiable et précise. Par conséquent, nous réécrivons notre [!DNL API] contenu dans [!DNL Swagger] et le déplaçons vers un nouvel emplacement. Ces modifications sont conçues pour vous aider à améliorer votre expérience avec le code [!DNL API] d’Audience Manager.
 
@@ -92,8 +92,8 @@ Le site Docs [de l&#39;API](https://bank.demdex.com/portal/swagger/index.html) A
 ---------|----------
 | **[!UICONTROL Algorithmic Models**] | [Modèles algorithmiques](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
 | **[!UICONTROL Audience Marketplace]** | <ul><li>[Flux de données](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Demande de flux de données](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Finance des flux de données](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Plans de flux de données](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Abonnements de flux de données](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
-| **[!UICONTROL Data Sources]** | [Sources de données](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
+| **[!UICONTROL Data Sources]** | [Sources de données ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
 | **[!UICONTROL Folders]** | <ul><li>[Dossiers de segment](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Dossiers de caractéristiques](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [Création de rapports](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |
-| **[!UICONTROL Segments]** | <ul><li>[Segments](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Groupes de tests de segments](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[API de brouillon de groupe de tests de segment](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
-| **[!UICONTROL Traits]** | [Caractéristiques](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
+| **[!UICONTROL Segments]** | <ul><li>[Segments ](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Groupes de tests de segments](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[API de brouillon de groupe de tests de segment](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
+| **[!UICONTROL Traits]** | [Caractéristiques ](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
