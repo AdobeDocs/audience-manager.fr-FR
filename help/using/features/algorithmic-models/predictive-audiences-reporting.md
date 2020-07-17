@@ -1,20 +1,20 @@
 ---
-description: Les Audiences prédictives vous aident à classer les audiences inconnues en différentes personnes en temps réel, en utilisant la science des données.
-seo-description: Les Audiences prédictives vous aident à classer les audiences inconnues en différentes personnes en temps réel, en utilisant la science des données.
-seo-title: Rapports des Audiences prédictives
+description: Les audiences prédictives vous aident à classer les audiences inconnues en personas distinctes en temps réel à l’aide de la science des données.
+seo-description: Les audiences prédictives vous aident à classer les audiences inconnues en personas distinctes en temps réel à l’aide de la science des données.
+seo-title: Rapports des audiences prédictives
 solution: Audience Manager
-title: Audiences prédictives Audience Manager
+title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Rapports des Audiences prédictives
+# Rapports des audiences prédictives
 
 Une fois que vous avez enregistré un [!UICONTROL Predictive Audiences] modèle, les débuts d’Audience Manager l’ont formé. En quelques heures, le modèle calculé analysera les audiences sur les serveurs [de collecte de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)données. Le Rapports sera disponible le lendemain.
 
