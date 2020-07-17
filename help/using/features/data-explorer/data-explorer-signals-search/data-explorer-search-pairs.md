@@ -1,20 +1,20 @@
 ---
 description: Recherchez un ou plusieurs signaux, en fonction de leurs paires clé-valeur respectives.
 seo-description: Recherchez un ou plusieurs signaux, en fonction de leurs paires clé-valeur respectives.
-seo-title: Signaux de recherche par paires clé-valeur
-title: Signaux de recherche par paires clé-valeur
+seo-title: Recherche de signaux par paires clé-valeur
+title: Recherche de signaux par paires clé-valeur
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Signaux de recherche par paires clé-valeur {#search-signals-by-key-value-pairs}
+# Recherche de signaux par paires clé-valeur {#search-signals-by-key-value-pairs}
 
 Recherchez un ou plusieurs signaux, en fonction de leurs paires clé-valeur respectives.
 Pour rechercher plusieurs signaux, cliquez sur le bouton ![Ajouter](assets/icon_add.png) . Entrez les paires clé-valeur à rechercher, puis utilisez les filtres suivants pour affiner vos résultats.
