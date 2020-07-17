@@ -1,9 +1,9 @@
 ---
 description: Le Marketplace est l'endroit où les acheteurs de données se rendent pour la recherche et s'abonnent à des flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
 seo-description: Le Marketplace est l'endroit où les acheteurs de données se rendent pour la recherche et s'abonnent à des flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
-seo-title: Gérer les Abonnements de flux de données
+seo-title: Gestion des abonnements aux flux de données
 solution: Audience Manager
-title: Gérer les Abonnements de flux de données
+title: Gestion des abonnements aux flux de données
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Gérer les Abonnements de flux de données {#manage-data-feed-subscriptions}
+# Gestion des abonnements aux flux de données {#manage-data-feed-subscriptions}
 
 C&#39; [!UICONTROL Marketplace] est là que les acheteurs de données se rendent à la recherche et s&#39;abonnent à des flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
 
@@ -39,12 +39,14 @@ Pour vous abonner à un flux de données public :
 1. Choisissez un cas d’utilisation dans le tableau abonnements et :
    * Déplacez le **[!UICONTROL Subscription]** curseur vers **[!UICONTROL On]**.
    * Cliquez sur **[!UICONTROL Review & Subscribe]**. Cela ouvre la [!UICONTROL Terms and Conditions] fenêtre.
+
    ![abonnement](assets/subscribe3.png)
 
 1. Dans la [!UICONTROL Terms and Conditions] fenêtre :
 
    * **Important :** Laissez la **[!UICONTROL ID sync]** case cochée. Ce paramètre permet d’améliorer les taux de correspondance avec votre fournisseur de données.
    * Cochez la case Conditions générales et cliquez sur **[!UICONTROL Accept]** pour terminer le processus d’abonnement.
+
    ![abonnement](assets/subscribe4.png)
 
 ### Étapes suivantes
@@ -256,7 +258,7 @@ En tant qu’acheteur de données, vous êtes responsable de la suppression des 
 
 >[!NOTE]
 >
->La suppression de caractéristiques des modèles ou destinations algorithmiques actifs affecte l’échelle et la précision du ciblage. Si possible, essayez de remplacer les caractères révoqués par de nouveaux caractères actifs.
+>La suppression des caractéristiques des modèles ou destinations algorithmiques actifs affecte l’échelle et la précision du ciblage. Si possible, essayez de remplacer les caractères révoqués par de nouveaux caractères actifs.
 
 [Désabonnez-vous du flux](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) de données désactivé après avoir supprimé toutes les caractéristiques révoquées de votre compte. S’il s’agit d’une désactivation temporaire, vous pouvez vous réabonner une fois que le fournisseur de données a terminé d’apporter les modifications requises et de réactiver le flux. Comme dans la plupart des cas, une bonne communication avec vos partenaires (le fournisseur de données et [!DNL Adobe]) peut vous aider à mener à bien ce processus.
 
@@ -313,7 +315,7 @@ Ce cas d’utilisation vous permet d’évaluer les caractéristiques des fourni
 
 ### Activation
 
-Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager]le cas d’une destination, tout système tiers (serveur publicitaire, [!DNL DSP], [!DNL DMP]échange, etc.) que vous souhaitez partager avec. Toutefois, dans un cas d’ [!UICONTROL Activation] utilisation, vous ne pouvez pas exécuter de rapports de chevauchement ou tester les données dans un modèle algorithmique.
+Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager]le cas d’une destination, tout système tiers (serveur publicitaire, [!DNL DSP], [!DNL DMP]échange, etc.) avec lequel vous souhaitez partager des données. Toutefois, dans un cas d’ [!UICONTROL Activation] utilisation, vous ne pouvez pas exécuter de rapports de chevauchement ou tester les données dans un modèle algorithmique.
 
 >[!MORELIKETHIS]
 >
