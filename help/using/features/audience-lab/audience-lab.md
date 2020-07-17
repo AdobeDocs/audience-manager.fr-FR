@@ -1,9 +1,9 @@
 ---
 description: Créez des segments de test mutuellement exclusifs dans les groupes de tests de segments afin de comparer et de mesurer l’efficacité de différentes destinations. Vous pouvez réserver une Population témoin et diviser votre segment en pourcentages entiers, afin de tester son efficacité.
 seo-description: Créez des segments de test mutuellement exclusifs dans les groupes de tests de segments afin de comparer et de mesurer l’efficacité de différentes destinations. Vous pouvez réserver une Population témoin et diviser votre segment en pourcentages entiers, afin de tester son efficacité.
-seo-title: Audience Lab
+seo-title: 'Audience Lab '
 solution: Audience Manager
-title: Audience Lab
+title: 'Audience Lab '
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 3%
 
 Créez des segments de test mutuellement exclusifs dans [!UICONTROL Segment Test Groups] pour comparer et mesurer l&#39;efficacité de différentes destinations. Vous pouvez réserver une Population témoin et diviser votre segment en pourcentages entiers, afin de tester son efficacité.
 
-## Aperçu {#audience-lab-overview}
+## Présentation {#audience-lab-overview}
 
 [!UICONTROL Audience Lab] utilise [Profil Link](../../features/profile-merge-rules/merge-rules-overview.md) pour alimenter les tests sur plusieurs périphériques. Cela permet de s’assurer qu’un utilisateur est admissible pour le même segment de test et reçoit le même traitement sur tous les périphériques. Les segments de test des groupes de test héritent de la règle [de fusion](../../features/profile-merge-rules/merge-rules-dashboard.md) Profil que le segment de base lui a assignée.
 
 La vue [!UICONTROL Audience Lab] par défaut affiche une carte pour chacun des groupes de tests. Cliquez sur une carte pour accéder à la **[!UICONTROL Test Group]** vue. Cette vue comprend les informations suivantes :
 
-* **[Informations du groupe de tests](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Rapports du groupe de tests](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Informations sur le groupe de test](../../features/audience-lab/audience-lab-information-view.md)**
+* **[Rapports sur les groupes de test](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 Vous pouvez créer **jusqu’à 10 groupes** de tests, chacun avec **jusqu’à 15 segments** de test.
 
