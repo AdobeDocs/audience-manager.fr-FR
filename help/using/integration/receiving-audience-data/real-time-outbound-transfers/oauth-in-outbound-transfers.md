@@ -1,16 +1,16 @@
 ---
 description: Lors de la publication de segments vers la destination partenaire via une intégration serveur à serveur en temps réel, l’Audience Manager peut être configurée pour s’authentifier à l’aide d’OAuth 2.0 lors de l’exécution des requêtes. Cela permet d’émettre des requêtes authentifiées d’Audience Manager en point de terminaison.
 seo-description: Lors de la publication de segments vers la destination partenaire via une intégration serveur à serveur en temps réel, l’Audience Manager peut être configurée pour s’authentifier à l’aide d’OAuth 2.0 lors de l’exécution des requêtes. Cela permet d’émettre des requêtes authentifiées d’Audience Manager en point de terminaison.
-seo-title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
+seo-title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
 solution: Audience Manager
-title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
+title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ L’implémentation de l’authentification [!DNL Adobe Audience Manager] OAuth 
 
 ![](assets/oauth2-iris.png)
 
-## Conditions requises {#auth-requirements}
+## Exigences {#auth-requirements}
 
 En tant que [!DNL Audience Manager] partenaire, les points de terminaison suivants sont nécessaires pour recevoir les demandes authentifiées :
 
