@@ -1,21 +1,21 @@
 ---
 description: Les mesures Lien de Profil fournissent des données sur les personnes et les périphériques qui s’authentifient sur votre site. Les données et les graphiques du lien de Profil se mettent à jour dynamiquement lorsque vous créez des règles de fusion ou lorsque vous cliquez sur une règle existante dans le tableau de bord Profil Merge Rules (Règles de fusion de ). Ces mesures peuvent inclure des graphiques de périphériques provenant de la Adobe Experience Cloud Device Co-op ou d’autres sources de graphiques de périphériques tiers.
 seo-description: Les mesures Lien de Profil fournissent des données sur les personnes et les périphériques qui s’authentifient sur votre site. Les données et les graphiques du lien de Profil se mettent à jour dynamiquement lorsque vous créez des règles de fusion ou lorsque vous cliquez sur une règle existante dans le tableau de bord Profil Merge Rules (Règles de fusion de ). Ces mesures peuvent inclure des graphiques de périphériques provenant de la Adobe Experience Cloud Device Co-op ou d’autres sources de graphiques de périphériques tiers.
-seo-title: Mesures des rapports pour les règles de fusion de Profils
+seo-title: Mesures des rapports des stratégies de fusion de profils
 solution: Audience Manager
-title: Mesures des rapports pour les règles de fusion de Profils
+title: Mesures des rapports des stratégies de fusion de profils
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Mesures des rapports pour les règles de fusion de Profils {#report-metrics-for-profile-merge-rules}
+# Mesures des rapports des stratégies de fusion de profils {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] les mesures fournissent des données sur les personnes et les périphériques qui s’authentifient sur votre site. Les données et les graphiques sont [!UICONTROL Profile Merge Rule Reports] mis à jour dynamiquement lorsque vous créez une règle de fusion ou lorsque vous cliquez sur une règle existante du [!UICONTROL Profile Merge Rules] tableau de bord. Ces mesures peuvent inclure des graphiques de périphériques provenant de sources de graphiques de périphériques [!DNL Adobe Experience Cloud Device Co-op] ou d’autres sources tierces.
 
@@ -68,7 +68,7 @@ Les [!UICONTROL Merge Rules] rapports contiennent également des données sur le
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Profile Link</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Profile Link</span> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_B2FF2341573840549FFB96579F537082"> 
       <li id="li_B37323C2F2434F41B407500AC5C15447">Nombre total de personnes : 60 jours </li> 
