@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -26,5 +26,5 @@ ht-degree: 17%
 >Les [!DNL API] méthodes de la source de données ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
 >* [Documentation de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migration du code de l&#39;API d&#39;Audience Manager](../../api/api-swagger-migration.md)
+>* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)
 >
