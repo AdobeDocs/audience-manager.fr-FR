@@ -131,7 +131,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour cons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Identifiant Adobe Experience Cloud.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
