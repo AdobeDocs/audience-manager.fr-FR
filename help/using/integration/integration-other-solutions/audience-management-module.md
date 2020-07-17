@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Suivez les étapes de ce didacticiel pour transférer [!DNL Analytics] des donn�
 
 Outre l’activation des extensions ou la mise en oeuvre du code décrit dans ce document, vous devez également :
 
-* Mettez en oeuvre le service [d&#39;identité des](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobes Experience Platform.
+* Implement the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
 * Activez le transfert [côté](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) serveur pour les suites de rapports dans le [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implémentation {#implementation}
@@ -51,9 +51,9 @@ Il existe deux méthodes pour implémenter le transfert de données de [!DNL Ado
 >
 >[!DNL Adobe] a publié des plans de temporisation [!DNL DTM] d&#39;ici la fin de 2020. Pour plus d&#39;informations et de planification, voir [!DNL DTM] Plans pour un coucher du soleil dans les forums [de la communauté](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset)Adobe.
 
-Pour mettre en oeuvre l’ [!UICONTROL Audience Management Module] utilisation de la gestion dynamique des balises [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) ou d’une autre solution de gestion des balises :
+Pour mettre en oeuvre l’ [!UICONTROL Audience Management Module] utilisation de la gestion dynamique des balises [Adobe DTM](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html) ou d’une autre solution de gestion des balises :
 
-1. Téléchargez [!UICONTROL AppMeasurement] à l’aide du Gestionnaire [de code](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html) Analytics (nécessite la version 1.5 ou ultérieure).
+1. Téléchargez [!UICONTROL AppMeasurement] à l’aide du Gestionnaire [de code](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/code-manager-admin.html) Analytics (nécessite la version 1.5 ou ultérieure).
 1. Mettez à jour votre [!UICONTROL AppMeasurement] code vers la version incluse dans le fichier zip téléchargé.
 1. Copiez tout le code `AppMeasurement_Module_AudienceManagement.js` du fichier zip. Collez-le dans le `appMeasurement.js` fichier juste au-dessus du texte, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
 1. Ajoutez le code, `s.loadModule("AudienceManagement");`, juste au-dessus du `AppMeasurement_Module_AudienceManagement.js` code que vous venez d’ajouter à l’étape précédente.
@@ -83,7 +83,7 @@ Le tableau suivant définit des variables importantes dans l’exemple de code.
 
 | Paramètre | Description |
 |--- |--- |
-| `partner` | Requis. Il s&#39;agit d&#39;un nom de partenaire qui vous a été attribué par [!DNL Adobe]. Il est parfois appelé sous-domaine de votre [!UICONTROL partner ID] ou partenaire.  Si vous ne connaissez pas le nom de votre partenaire, contactez votre [!DNL Adobe] conseiller ou le service à la [clientèle](https://helpx.adobe.com/marketing-cloud/contact-support.html) . |
+| `partner` | Requis. Il s&#39;agit d&#39;un nom de partenaire qui vous a été attribué par [!DNL Adobe]. Il est parfois appelé sous-domaine de votre [!UICONTROL partner ID] ou partenaire.  Si vous ne connaissez pas le nom de votre partenaire, contactez votre [!DNL Adobe] conseiller ou le service à la [clientèle](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html) . |
 | `containerNSID` | Requis. La plupart des clients peuvent simplement définir `"containerNSID":0` . Cependant, si votre société doit personnaliser les synchronisations d’identifiants avec un conteneur différent, vous pouvez spécifier cet identifiant de conteneur ici. |
 | `uuidCookie` | Facultatif. Cette configuration vous permet de définir un [!DNL Adobe] cookie dans le domaine propriétaire. Cette [!DNL cookie] section contient l’ [identifiant UUID](../../reference/ids-in-aam.md) . |
 | `visitorService` - `namespace` | Requis. Le `namespace` paramètre est requis si vous utilisez le [!DNL AudienceManagement] module fourni avec [!UICONTROL AppMeasurement] la version 2.10 ou ultérieure. Ce [!UICONTROL AudienceManagement] module nécessite l&#39;utilisation de [!UICONTROL Adobe Experience Platform Identity Service] la version 3.3 ou ultérieure. <br><br>Il [!UICONTROL Experience Cloud Organization ID] s’agit de l’identifiant fourni par une société lors de sa connexion au [!UICONTROL Experience Cloud]service. Découvrez l’ID d’organisation de votre société dans [Organisations et Liaison de compte](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
