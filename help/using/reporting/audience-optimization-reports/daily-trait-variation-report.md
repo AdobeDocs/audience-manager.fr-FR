@@ -1,21 +1,21 @@
 ---
 description: Ce rapport renvoie une liste de caractéristiques qui ont été réalisées au moins 10 000 fois au cours des 30 jours précédant la ou les dates sélectionnées et dont l'écart type est supérieur ou égal à 1,7 dans l'une ou l'autre des directions au cours du même intervalle de temps. Ce rapport vous aide à évaluer la manière dont le nombre d’impressions d’utilisateurs uniques d’une caractéristique varie au fil du temps.
 seo-description: Ce rapport renvoie une liste de caractéristiques qui ont été réalisées au moins 10 000 fois au cours des 30 jours précédant la ou les dates sélectionnées et dont l'écart type est supérieur ou égal à 1,7 dans l'une ou l'autre des directions au cours du même intervalle de temps. Ce rapport vous aide à évaluer la manière dont le nombre d’impressions d’utilisateurs uniques d’une caractéristique varie au fil du temps.
-seo-title: Rapport Variation de caractéristiques quotidiennes
+seo-title: Rapport de variation des caractéristiques quotidiennes
 solution: Audience Manager
-title: Rapport Variation de caractéristiques quotidiennes
+title: Rapport de variation des caractéristiques quotidiennes
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rapport Variation de caractéristiques quotidiennes {#daily-trait-variation-report}
+# Rapport de variation des caractéristiques quotidiennes {#daily-trait-variation-report}
 
 Ce rapport renvoie une liste de caractéristiques qui ont été réalisées au moins 10 000 fois au cours des 30 jours précédant la ou les dates sélectionnées et dont l&#39;écart type est supérieur ou égal à 1,7 dans l&#39;une ou l&#39;autre des directions au cours du même intervalle de temps. Ce rapport vous aide à évaluer la manière dont le nombre d’impressions d’utilisateurs uniques d’une caractéristique varie au fil du temps.
 
