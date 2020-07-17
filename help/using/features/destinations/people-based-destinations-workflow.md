@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1379'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL People-Based Destinations] offre plusieurs stratégies d’implémentation, en fonction de la structure des données client. Cet article présente une vue d’ensemble des étapes de mise en oeuvre que vous devez suivre [!DNL People-Based Destinations]en fonction de votre scénario.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 La configuration de [!DNL People-Based Destinations] vous guide dans plusieurs sections de l&#39;Audience Manager et requiert différents paramètres et méthodes d&#39;intégration des données, en fonction du type de données client que vous avez déjà en Audience Manager et du type d&#39;audience de ciblage que vous souhaitez effectuer.
 
@@ -42,7 +42,7 @@ Votre société, une compagnie aérienne, a différents niveaux de clients (Bron
 
 Pour les cible sur les réseaux sociaux et les canaux similaires basés sur des personnes, vous pouvez importer vos adresses [électroniques](people-based-destinations-prerequisites.md) hachées en Audience Manager et les combiner avec vos caractéristiques d’activité en ligne existantes, afin de créer de nouveaux segments d’audience. Vous pouvez ensuite utiliser ces segments pour cible votre audience jusqu’à [!DNL People-Based Destinations].
 
-**B) Ciblage des Audiences basé exclusivement sur votre activité** d’utilisateur hors ligne. Dans ce scénario, votre [!DNL CRM] système contient les adresses électroniques de vos clients et d’autres attributs du client, mais les clients n’ont pas interagi avec votre site Web, de sorte que vous n’avez aucune activité de client en Audience Manager. Voici un exemple qui illustre ce scénario :
+**B) Ciblage des Audiences basé exclusivement sur votre activité** d’utilisateur hors ligne. Dans ce scénario, votre [!DNL CRM] système contient vos adresses électroniques de client et d’autres attributs de client, mais les clients n’ont pas interagi avec votre site Web, de sorte que vous n’avez aucune activité de client en Audience Manager. Voici un exemple qui illustre ce scénario :
 
 Votre société, un fournisseur de services de télécommunication, conserve les données client comme les adresses électroniques et les plans de télécommunications achetés en interne [!DNL CRM]. Vous souhaitez cible les clients existants sur les plateformes sociales afin de les offre à mettre à niveau des packs en fonction de leurs abonnements existants. Pour ce faire, vous pouvez assimiler vos adresses électroniques de clients hachées à l’Audience Manager et créer des segments en fonction des abonnements de clients existants. Ensuite, vous pouvez envoyer ces segments à [!DNL People-Based Destinations] la cible de vos clients avec des offres personnalisées.
 
@@ -78,8 +78,8 @@ Selon le type d’ID de client que vous avez en Audience Manager (voir [3). Iden
 
 **B) Créer une source** de données. Cette option s’applique au scénario où vos identifiants de client d’Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) ne sont pas hachés. Dans ce cas, vous devez créer une source de données multipériphériques et embarquer vos adresses électroniques hachées à l’encontre de celle-ci. Vous pouvez le faire de deux manières :
 
-* Utilisez la synchronisation des identifiants basée sur des fichiers. Voir Exigences en matière de [nom et de contenu pour les fichiers](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de synchronisation des identifiants pour en savoir plus sur les fichiers de synchronisation des identifiants. Lorsque vous utilisez cette méthode, vous pouvez cible toutes vos adresses électroniques hachées à partir de votre [!DNL CRM] base de données.
-* Utilisez des ID [](../declared-ids.md) déclarés pour déclarer vos adresses électroniques hachées lors de la transmission d’identifiants de client authentifiés. Lors de l’utilisation de cette méthode, l’Audience Manager, en votre nom, ne cible que les adresses électroniques hachées des utilisateurs qui se sont authentifiés en ligne. Les adresses électroniques ciblées dans les canaux basés sur des personnes ne sont que celles des appels de événement d’ID déclarés. Les autres adresses électroniques associées à l’ID de client ne sont pas activées en temps réel.
+* Utilisez la synchronisation d’identifiants basée sur le fichier. Consultez [les exigences en matière de contenu pour les fichiers de synchronisation d’identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) pour obtenir des informations sur ce à quoi les fichiers de synchronisation d’identifiants doivent ressembler. When using this method, you can target all of your hashed email addresses from your [!DNL CRM] database.
+* Use [declared IDs](../declared-ids.md) to declare your hashed email addresses when passing in authenticated customer IDs. Lors de l’utilisation de cette méthode, l’Audience Manager, en votre nom, ne cible que les adresses électroniques hachées des utilisateurs qui se sont authentifiés en ligne. Les adresses électroniques ciblées dans les canaux basés sur des personnes ne sont que celles des appels de événement d’ID déclarés. Les autres adresses électroniques associées à l’identifiant du client ne sont pas activées en temps réel.
 
 ## 6. Utilisation d’une règle de fusion de Profils pour la segmentation {#use-profile-merge-rules}
 
