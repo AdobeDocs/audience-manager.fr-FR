@@ -1,21 +1,21 @@
 ---
 description: Décrit les étapes et les fonctionnalités de configuration propres au processus de création de caractéristiques algorithmiques.
 seo-description: Décrit les étapes et les fonctionnalités de configuration propres au processus de création de caractéristiques algorithmiques.
-seo-title: Créer des caractéristiques algorithmiques
+seo-title: Création de caractéristiques algorithmiques
 solution: Audience Manager
-title: Créer des caractéristiques algorithmiques
+title: Création de caractéristiques algorithmiques
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Créer des caractéristiques algorithmiques {#create-algorithmic-traits}
+# Création de caractéristiques algorithmiques {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
 
@@ -40,7 +40,7 @@ Dans [!UICONTROL Trait Builder]la section [!UICONTROL Configuration] , vous pouv
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Créez un modèle](../../features/algorithmic-models/create-model.md)similaire à celui de l’apparence.
+* [Création d’un modèle analogue](../../features/algorithmic-models/create-model.md).
 * Attendez que le courrier électronique de notification vous permette de savoir que l&#39;exécution des données du modèle est terminée.
 * Renseignez les champs obligatoires de la section Informations [](../../features/traits/create-onboarded-rule-based-traits.md) de base.
 
@@ -51,7 +51,7 @@ Dans [!UICONTROL Trait Builder]la section [!UICONTROL Configuration] , vous pouv
 | **[!UICONTROL Select Model for Algorithmic Trait]** | Cliquez sur le **[!UICONTROL Update]** bouton pour ouvrir la fenêtre des modèles. Dans la fenêtre, sélectionnez le modèle algorithmique à utiliser pour créer la caractéristique. |
 | **[!UICONTROL Select Goal Accuracy]** | Sélectionnez cette option pour créer une caractéristique basée sur la précision. La précision est une valeur notée qui indique à quel point les utilisateurs potentiels sont proches de votre ligne de base. L&#39;échelle de précision est comprise entre 0 (la moins précise) et 1 (la plus précise). |
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Située à droite, cette section affiche jusqu’à 21 lignes de données numériques qui affichent la précision et les valeurs de portée de votre modèle. |
-| **[!UICONTROL Reach and Accuracy Slider]** | Situé au bas du graphique, le curseur vous permet de définir une valeur numérique pour vos objectifs de portée ou de précision. Vous pouvez définir le curseur, puis choisir le bouton d’objectif Portée ou Précision pour créer une caractéristique. |
+| **[!UICONTROL Reach and Accuracy Slider]** | Situé au bas du graphique, le curseur vous permet de définir une valeur numérique pour vos objectifs de portée ou de précision. Vous pouvez définir le curseur, puis choisir le bouton d’objectif de portée ou de précision pour créer une caractéristique. |
 
 >[!MORELIKETHIS]
 >
