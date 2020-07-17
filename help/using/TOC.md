@@ -236,7 +236,7 @@ ht-degree: 94%
          + [Présentation des références d’API DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Méthodes d’API DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Codes, messages et exemples d’erreur des serveurs de collecte de données](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Surveillance des identifiants et refus d’inscription](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [Surveillance et Liste bloquée des identifiants](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formatage des paires clé-valeur dans les appels DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Conditions de race et gestion des erreurs](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
