@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ Cette page inclut les intégrations [actuelles d&#39;Audience Manager](/help/usi
 
 <br> 
 
-| Intégration | Mise à jour de la section | Dissocier | Réception de signaux de consentement TCF IAB | ICDS | ID de périphérique mobile |
+| Intégration | Mise à jour de la section | Dissocier | Réception de signaux de consentement TCF IAB | ICDS | Identifiants d’appareil mobile |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | Informations 4C | 26/09/2018 | Oui | Non | Non | Oui |
 | 4info | 09/02/2017 | Non | Non | Non | Oui |
