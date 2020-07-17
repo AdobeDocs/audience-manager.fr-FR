@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Modélisation à l’identique : Exclusion de caractéristiques {#algorithmic-models-trait-exclusion}
+# Modélisation analogue : exclusion de caractéristiques {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] fournit des contrôles supplémentaires dans votre processus de modélisation, vous permettant d&#39;ajouter les rails de garde nécessaires au modèle, en fonction de votre expertise en matière de domaine et des exigences réglementaires. Utilisez cette [!UICONTROL Exclusions] option pour sélectionner les caractéristiques à ignorer lors de la création de modèles à partir d’une ou de plusieurs sources de données.
 
