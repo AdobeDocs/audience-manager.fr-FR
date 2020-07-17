@@ -1,21 +1,21 @@
 ---
 description: Configurez Open Ad Server comme destination et envoyez les données d’Audience Manager à cette plateforme.
 seo-description: Configurez Open Ad Server comme destination et envoyez les données d’Audience Manager à cette plateforme.
-seo-title: OAS comme destination de l'Audience Manager
+seo-title: OAS en tant que destination d’Audience Manager
 solution: Audience Manager
-title: OAS comme destination de l'Audience Manager
+title: OAS en tant que destination d’Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# OAS comme destination de l&#39;Audience Manager {#oas-as-an-audience-manager-destination}
+# OAS en tant que destination d’Audience Manager {#oas-as-an-audience-manager-destination}
 
 Configurez [!DNL Open Ad Server] comme destination et envoyez les données d’Audience Manager à cette plateforme.
 
@@ -46,8 +46,8 @@ Le montant des données transmises à [!DNL OAS] dépend du nombre de segments p
 
 >[!MORELIKETHIS]
 >
->* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
->* [Paires clé-valeur expliquées](../../reference/key-value-pairs-explained.md)
+>* [Code get_aamCookie](../../features/destinations/get-aam-cookie-code.md)
+>* [Explication des paires clé-valeur](../../reference/key-value-pairs-explained.md)
 
 
 ## Créer une destination OAS {#oas-dest-setup}
@@ -56,7 +56,7 @@ Créez une destination basée sur des cookies pour [!DNL OAS] en Audience Manage
 
 <!-- aam-oas-destination-setup.xml -->
 
-En Audience Manager, une *destination* correspond à tout autre système (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) que vous souhaitez partager avec. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination de l’Audience Manager se trouvent dans *Audience Data > Destinations*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination de l’Audience Manager se trouvent dans *Audience Data > Destinations*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
 
 ### Étape 1 : Informations de base
 
