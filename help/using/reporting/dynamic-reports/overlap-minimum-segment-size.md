@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum{#overlap-reports-update-schedule-and-minimum-segment-size}
 
 Décrit la taille du segment et le temps de création requis par le processus de mise à jour du rapport de chevauchement.
 
