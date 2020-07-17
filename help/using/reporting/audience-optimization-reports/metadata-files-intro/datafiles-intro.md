@@ -1,31 +1,31 @@
 ---
 description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports Optimisation des Audiences et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
 seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports Optimisation des Audiences et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
-seo-title: Fichiers de données pour les rapports d'optimisation des Audiences et les fichiers journaux utilisables
+seo-title: Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques
 solution: Audience Manager
-title: Fichiers de données pour les rapports d'optimisation des Audiences et les fichiers journaux utilisables
+title: Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Fichiers de données pour les rapports d&#39;optimisation des Audiences et les fichiers journaux utilisables {#data-files-for-audience-optimization-reports}
+# Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques {#data-files-for-audience-optimization-reports}
 
 Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans l&#39;Audience Manager pour les vue dans les rapports [d&#39;optimisation des](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audiences et créer des caractéristiques à l&#39;aide des données par le biais de fichiers [journaux](/help/using/integration/media-data-integration/actionable-log-files.md)utilisables. Mettez en forme vos fichiers de données selon ces spécifications dans cette section.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les rapports [Optimisation des](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences. Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré [!DNL Audience Manager] et que vous souhaitez utiliser les données qu’il contient dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
 
 Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées correspond aux informations relatives au fichier de données et aux étiquettes lisibles dans les menus du rapport. Pour plus d’informations, voir [Aperçu et mappages pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)de métadonnées.
 
-## Conventions de dénomination des fichiers de données {#naming-conventions}
+## Naming Conventions for Data Files {#naming-conventions}
 
 La syntaxe suivante définit la structure d’un nom de fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable qui change en fonction du contenu du fichier.
 
@@ -43,7 +43,7 @@ Pour ces raisons, nommez vos fichiers de données en fonction de leur contenu co
 * Données du clic : <pre>clicks_<i>yyyyymmdd</i>.gz</code></pre>
 * Données de conversion : <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
-## Format de contenu pour les fichiers de données {#content-format}
+## Content Format for Data Files {#content-format}
 
 La syntaxe suivante définit la structure de contenu dans un fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
 
@@ -141,7 +141,7 @@ Le tableau ci-dessous liste et décrit les en-têtes de colonne de votre fichier
  </tbody> 
 </table>
 
-## Méthodes de Diffusion pour les fichiers de données {#delivery-methods}
+## Delivery Methods for Data Files {#delivery-methods}
 
 Téléchargez vos fichiers de données d’impression, de clic ou de conversion vers un répertoire Amazon S3 pour votre [!DNL Audience Manager] compte. Reportez-vous à cette section pour obtenir des informations sur les chemins d’accès aux diffusions/répertoires, les délais de traitement des fichiers et les mises à jour.
 
