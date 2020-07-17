@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ Vous créez des règles de qualification de caractéristiques et de segments ave
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> AND</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> ET</span></b> </p> </td> 
    <td colname="col2"> <p>Exigences de qualification des audiences étroites et ciblées. </p> </td> 
    <td colname="col3"> <p>Les utilisateurs <i>doivent</i> appartenir à toutes les caractéristiques ou segments spécifiés. </p> </td> 
   </tr> 
