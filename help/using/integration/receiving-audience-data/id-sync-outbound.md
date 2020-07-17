@@ -1,21 +1,21 @@
 ---
 description: Décrit la syntaxe et les paramètres utilisés dans l’appel HTTP initial pour synchroniser les ID utilisateur entre l’Audience Manager et un fournisseur de données tiers. Contactez votre consultant en Adobe Audience Manager avant de tenter votre première synchronisation des identifiants.
 seo-description: Décrit la syntaxe et les paramètres utilisés dans l’appel HTTP initial pour synchroniser les ID utilisateur entre l’Audience Manager et un fournisseur de données tiers. Contactez votre consultant en Adobe Audience Manager avant de tenter votre première synchronisation des identifiants.
-seo-title: Synchronisation des identifiants pour les transferts de données sortants
+seo-title: Synchronisation d’identifiants pour les transferts de données sortantes
 solution: Audience Manager
-title: Synchronisation des identifiants pour les transferts de données sortants
+title: Synchronisation d’identifiants pour les transferts de données sortantes
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
 
-# Synchronisation des identifiants pour les transferts de données sortants{#id-synchronization-for-outbound-data-transfers}
+# Synchronisation d’identifiants pour les transferts de données sortantes{#id-synchronization-for-outbound-data-transfers}
 
 Décrit la syntaxe et les paramètres utilisés dans l’ `HTTP` appel initial pour synchroniser les ID utilisateur entre l’Audience Manager et un fournisseur de données tiers. Contactez votre consultant en Adobe Audience Manager avant de tenter votre première synchronisation des identifiants.
 
@@ -69,13 +69,13 @@ L&#39;appel [!DNL URL] de synchronisation des identifiants entrants doit conteni
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code> est la chaîne de consentement GDPR codée en base 64 et compatible avec les URL (voir la spécification <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB).</p><p><b>Remarque :</b> Ce paramètre ne peut être utilisé qu'avec <code>gdpr</code>.</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p><p><b>Remarque :</b> Ce paramètre ne peut être utilisé qu'avec <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Méthodes et code d’API du serveur de collecte de données (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+>* [Méthodes et code de l’API du serveur de collecte de données (DCS) ](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Composants de collecte de données](../../reference/system-components/components-data-collection.md)
 
