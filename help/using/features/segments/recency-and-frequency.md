@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Recency and Frequency {#recency-and-frequency}
+# Récence et fréquence {#recency-and-frequency}
 
 Dans [!UICONTROL Segment Builder], la récence et la fréquence vous permettent de segmenter les visiteurs en fonction des actions qui se produisent ou se répètent au cours d’un intervalle quotidien défini.
 
@@ -84,8 +84,8 @@ Examinez et comprenez ces limites et règles lorsque vous souhaitez appliquer la
    <td colname="col2"> <p>Vous pouvez configurer les exigences de fréquence <i>sans</i> configurer les exigences de récence. Il vous suffit de définir une valeur de fréquence et de laisser le champ récence vide. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Règles de fusion des Profils</b> </p> </td> 
-   <td colname="col2"> <p>Voir <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Fréquence des caractéristiques, Graphiques de périphériques externes et Règles</a>de fusion des Profils. </p> </td> 
+   <td colname="col1"> <p><b>Stratégies de fusion de profils</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,5 +126,5 @@ Les expressions de plafonnement des fréquences incluent tous les utilisateurs d
 >[!MORELIKETHIS]
 >
 >* [Contrôles du créateur de segments : Section Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Syntaxe du code utilisée dans l’éditeur d’Expressions de segments](../../features/segments/segment-code-syntax.md)
+>* [Syntaxe du code utilisé dans l’éditeur d’expressions de segments](../../features/segments/segment-code-syntax.md)
 
