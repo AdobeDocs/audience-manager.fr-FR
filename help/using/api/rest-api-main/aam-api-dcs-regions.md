@@ -1,21 +1,21 @@
 ---
 description: Méthodes permettant d’liste par programmation des régions DCS d’Audience Manager.
 seo-description: Méthodes permettant d’liste par programmation des régions DCS d’Audience Manager.
-seo-title: Méthodes de l’API de région DCS
+seo-title: Méthodes d’API de région DCS
 solution: Audience Manager
-title: Méthodes de l’API de région DCS
+title: Méthodes d’API de région DCS
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
 
-# Méthodes de l’API de région DCS {#dcs-region-api-methods}
+# Méthodes d’API de région DCS {#dcs-region-api-methods}
 
 Méthodes qui vous permettent d’liste par programmation [!DNL DCS] des régions d’Audience Manager.
 
