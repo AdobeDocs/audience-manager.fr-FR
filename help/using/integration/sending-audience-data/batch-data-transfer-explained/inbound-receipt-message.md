@@ -1,21 +1,21 @@
 ---
 description: Chaque fois qu'un fichier de serveur à serveur entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s'il est configuré, au partenaire.
 seo-description: Chaque fois qu'un fichier de serveur à serveur entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s'il est configuré, au partenaire.
-seo-title: Exemple de message aux partenaires après le traitement entrant
+seo-title: Message d’exemple aux partenaires après le traitement entrant
 solution: Audience Manager
-title: Exemple de message aux partenaires après le traitement entrant
+title: Message d’exemple aux partenaires après le traitement entrant
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Exemple de message aux partenaires après le traitement entrant{#sample-message-to-partners-after-inbound-processing}
+# Message d’exemple aux partenaires après le traitement entrant{#sample-message-to-partners-after-inbound-processing}
 
 Chaque fois qu&#39;un [!UICONTROL Server-to-Server] fichier entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s&#39;il est configuré, au partenaire.
 
