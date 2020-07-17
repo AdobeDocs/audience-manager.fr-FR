@@ -1,21 +1,21 @@
 ---
 description: Les options Règles de fusion des Profils vous permettent d’étendre ou de renforcer l’audience en mettant l’accent sur des audiences spécifiques en fonction des besoins ou des objectifs de l’entreprise. Ces cas d’utilisation généraux explorent comment utiliser les options disponibles et créent des règles de fusion pour le ciblage individuel, domestique et inter-périphériques.
 seo-description: Les options Règles de fusion des Profils vous permettent d’étendre ou de renforcer l’audience en mettant l’accent sur des audiences spécifiques en fonction des besoins ou des objectifs de l’entreprise. Ces cas d’utilisation généraux explorent comment utiliser les options disponibles et créent des règles de fusion pour le ciblage individuel, domestique et inter-périphériques.
-seo-title: Cas d’utilisation généraux des règles de fusion de Profils
+seo-title: Cas d’utilisation généraux des stratégies de fusion de profils
 solution: Audience Manager
-title: Cas d’utilisation généraux des règles de fusion de Profils
+title: Cas d’utilisation généraux des stratégies de fusion de profils
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Cas d’utilisation généraux des règles de fusion de Profils {#general-use-cases-for-profile-merge-rules}
+# Cas d’utilisation généraux des stratégies de fusion de profils {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] vous permet d’étendre ou de renforcer l’audience en vous concentrant sur des audiences spécifiques en fonction des besoins ou des objectifs de l’entreprise. Ces cas d’utilisation généraux explorent comment utiliser les options disponibles et créent des règles de fusion pour le ciblage individuel, domestique et inter-périphériques. [!UICONTROL Profile Merge Rules] fonctionnent avec des destinations en temps réel et par lot.
 
@@ -81,7 +81,7 @@ Pour en savoir plus sur cette option, voir Destinations [basées sur les](../des
 
 ## Options graphiques du périphérique {#device-graph-options}
 
-Le choix d’une [!UICONTROL device graph] option pour une [!UICONTROL Profile Merge] règle dépend de conditions propres à vos propriétés numériques et à vos objectifs commerciaux. Ces instructions générales peuvent vous aider à déterminer quand utiliser un type de graphique par rapport à un autre. Remarque : vous devez être membre d’ [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) ou avoir une relation contractuelle avec un graphique de périphérique externe pour utiliser ces options. Reportez-vous au tableau ci-dessous pour obtenir des instructions générales sur le moment de choisir une option de graphique de périphérique. Pour des cas d’utilisation spécifiques, voir Cas [d’utilisation des graphiques de périphériques de lien de](profile-link-use-case.md) Profil et Cas [d’utilisation des graphiques de périphériques](external-graph-use-cases.md)externes.
+Le choix d’une [!UICONTROL device graph] option pour une [!UICONTROL Profile Merge] règle dépend de conditions propres à vos propriétés numériques et à vos objectifs commerciaux. Ces instructions générales peuvent vous aider à déterminer quand utiliser un type de graphique par rapport à un autre. Remarque : vous devez être membre d’ [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html) ou avoir une relation contractuelle avec un graphique de périphérique externe pour utiliser ces options. Reportez-vous au tableau ci-dessous pour obtenir des instructions générales sur le moment de choisir une option de graphique de périphérique. Pour des cas d’utilisation spécifiques, voir Cas [d’utilisation des graphiques de périphériques de lien de](profile-link-use-case.md) Profil et Cas [d’utilisation des graphiques de périphériques](external-graph-use-cases.md)externes.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,7 +118,7 @@ Regardez la vidéo ci-dessous pour un aperçu des cas d&#39;utilisation possible
 
 >[!MORELIKETHIS]
 >
->* [Cas d&#39;utilisation du graphique de Profil Link](profile-link-use-case.md)
->* [Cas d’utilisation graphiques des périphériques externes](external-graph-use-cases.md)
+>* [Cas d’utilisation des représentations graphiques des appareils Profile Link](profile-link-use-case.md)
+>* [Cas d’utilisation des représentations graphiques externes des appareils](external-graph-use-cases.md)
 >* [FAQ sur les règles de fusion de Profils](../../faq/faq-profile-merge.md)
 
