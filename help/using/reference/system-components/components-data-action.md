@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Les composants d’action sont des systèmes et des processus qui vous permetten
 
 ## Serveur de collecte de données (DCS) {#dcs}
 
-Voir Composants [de collecte de](../../reference/system-components/components-data-collection.md)données.
+Voir [Composants de la collecte de données](../../reference/system-components/components-data-collection.md).
 
 ## SFTP/S3 {#sftp-s3}
 
@@ -150,4 +150,4 @@ L’exemple suivant contient des données de segment en temps réel provenant de
 
 ## Serveur de cache de Profil (PCS) {#pcs}
 
-Voir Composants [de collecte de](../../reference/system-components/components-data-collection.md)données.
+Voir [Composants de la collecte de données](../../reference/system-components/components-data-collection.md).
