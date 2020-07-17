@@ -1,8 +1,8 @@
 ---
 description: La fonction de suppression instantanée inter-périphérique permet de supprimer des utilisateurs sur plusieurs périphériques qui leur sont associés lorsqu’une action particulière survient sur l’un de ces périphériques. Utilisez cette fonction pour offrir aux utilisateurs des conditions d’utilisation homogènes sur tous les périphériques. Ceci est rendu possible grâce aux options de désegmentation en temps réel dans Audience Manager.
 seo-description: La fonction de suppression instantanée inter-périphérique permet de supprimer des utilisateurs sur plusieurs périphériques qui leur sont associés lorsqu’une action particulière survient sur l’un de ces périphériques. Utilisez cette fonction pour offrir aux utilisateurs des conditions d’utilisation homogènes sur tous les périphériques. Ceci est rendu possible grâce aux options de désegmentation en temps réel dans Audience Manager.
-seo-title: Suppression instantanée inter-périphérique
-title: Suppression instantanée inter-périphérique
+seo-title: Suppression instantanée multi-appareils
+title: Suppression instantanée multi-appareils
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge Rules
 translation-type: tm+mt
@@ -14,11 +14,11 @@ ht-degree: 15%
 ---
 
 
-# Suppression instantanée inter-périphérique {#instant-cross-device-suppression}
+# Suppression instantanée multi-appareils {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] permet de supprimer des utilisateurs sur plusieurs périphériques connectés lorsqu’une expérience particulière se produit sur l’un de ces périphériques. Use the [!UICONTROL Instant Cross-Device Suppression] capability to deliver a consistent experience across devices to your users. Ceci est rendu possible grâce aux options de désegmentation en temps réel dans Audience Manager.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 [!UICONTROL Instant Cross-Device Suppression] fournit deux cas d’utilisation clés : amélioration de l’expérience utilisateur et de l’efficacité des médias.
 
