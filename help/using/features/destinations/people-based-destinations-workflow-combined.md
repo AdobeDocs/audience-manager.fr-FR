@@ -1,20 +1,20 @@
 ---
 description: 'Cette page comprend des instructions détaillées sur la manière de combiner les données de gestion de la relation client hors ligne avec les données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers les destinations basées sur les personnes.  '
 seo-description: 'Cette page comprend des instructions détaillées sur la manière de combiner les données de gestion de la relation client hors ligne avec les données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers les destinations basées sur les personnes.   '
-seo-title: Workflow A - Personnalisation basée sur toutes les Activités en ligne combinée avec les données hors ligne
+seo-title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
 solution: Audience Manager
-title: Workflow A - Personnalisation basée sur toutes les Activités en ligne combinée avec les données hors ligne
+title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Workflow A - Personnalisation basée sur toutes les Activités en ligne combinée avec les données hors ligne {#workflow-a}
+# Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne {#workflow-a}
 
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonction. Rien dans ce document n&#39;est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
