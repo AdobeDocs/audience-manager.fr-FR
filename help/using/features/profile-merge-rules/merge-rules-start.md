@@ -1,27 +1,27 @@
 ---
 description: Pour créer des règles de fusion de Profil, passez en revue et suivez les étapes décrites dans chacune des procédures décrites dans cette section.
 seo-description: Pour créer des règles de fusion de Profil, passez en revue et suivez les étapes décrites dans chacune des procédures décrites dans cette section.
-seo-title: Prise en main des règles de fusion de Profils
+seo-title: Démarrage des stratégies de fusion de profils
 solution: Audience Manager
-title: Prise en main des règles de fusion de Profils
+title: Démarrage des stratégies de fusion de profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Prise en main des règles de fusion de Profils {#getting-started-with-profile-merge-rules}
+# Démarrage des stratégies de fusion de profils {#getting-started-with-profile-merge-rules}
 
 Pour créer [!UICONTROL Profile Merge Rules], examiner et exécuter les étapes de chacune des procédures décrites dans cette section.
 
 <!-- merge-rules-start.xml -->
 
-## Création d’une source de données sur plusieurs périphériques {#create-data-source}
+## Create a Cross-Device Data Source {#create-data-source}
 
 Pour créer une source de données sur plusieurs périphériques, suivez **[!UICONTROL Audience Data > Data Sources > Add New]** les étapes décrites ici et suivez les étapes ci-dessous. Les autorisations d’administrateur sont requises pour créer ou modifier une source de données sur plusieurs périphériques.
 
@@ -69,7 +69,7 @@ Les autorisations d’administrateur sont requises pour créer, modifier ou supp
 
 <!-- create-profile-merge-rule.xml -->
 
-**Conditions préalables :** Une source de données sur plusieurs périphériques est nécessaire pour créer une [!UICONTROL Profile Merge Rule]variable. Voir [Création d’une source](../manage-datasources.md#create-data-source)de données.
+**Conditions préalables :** Une source de données sur plusieurs périphériques est nécessaire pour créer une [!UICONTROL Profile Merge Rule]variable. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -167,7 +167,7 @@ var vDil = DIL.create({
 });
 ```
 
-Dans la paire clé-valeur de l’espace de nommage, la variable `*`MCORG`*` correspond à votre [!DNL Experience Cloud] ID d’organisation. Si vous ne possédez pas cet identifiant, vous pouvez le trouver dans la [!UICONTROL Administration] section du [!DNL Experience Cloud] tableau de bord. Vous avez besoin d&#39;autorisations d&#39;administrateur pour vue ce tableau de bord. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Dans la paire clé-valeur de l’espace de nommage, la variable `*`MCORG`*` correspond à votre [!DNL Experience Cloud] ID d’organisation. Si vous ne possédez pas cet identifiant, vous pouvez le trouver dans la [!UICONTROL Administration] section du [!DNL Experience Cloud] tableau de bord. Vous avez besoin d&#39;autorisations d&#39;administrateur pour vue ce tableau de bord. See [Administration: Core Services](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuration des SDK
 
@@ -206,7 +206,7 @@ Vérifiez les méthodes de votre [!DNL SDK] code qui vous permettent de passer [
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b> Android </b> </p> </td> 
-   <td colname="col2"> <p> <code> setDpidAndDpuuid </code> </p> <p> <b>Syntaxe :</b> </p> <p> <pre> public static void setDpidAndDpuuid(String dpid, String dpuuid); </pre> </p> <p> <b>Exemple :</b> </p> <p> <pre> AudienceManager.setDpidAndDpuuid("myDpid","myDpuuid"); </pre> </p> </td> 
+   <td colname="col2"> <p> <code> setDpidAndDpuuid </code> </p> <p> <b>Syntaxe :</b> </p> <p> <pre> public static void setDpidAndDpuuid(String dpid, String dpuuid); </pre> </p> <p> <b>Exemple:</b> </p> <p> <pre> AudienceManager.setDpidAndDpuuid("myDpid","myDpuuid"); </pre> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> iOS </b> </p> </td> 
@@ -215,7 +215,7 @@ Vérifiez les méthodes de votre [!DNL SDK] code qui vous permettent de passer [
       +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
     </code></p>
-    <p> <b>Exemple :</b> </p><p>
+    <p> <b>Exemple:</b> </p><p>
     <code class="javascript">
       [ADBMobile&nbsp;audienceSetDpid:@"290"
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
