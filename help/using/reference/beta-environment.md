@@ -20,7 +20,7 @@ ht-degree: 4%
 
 L’environnement bêta permet de tester la mise en oeuvre de votre Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. Si vous souhaitez utiliser l&#39;environnement bêta, contactez votre représentant Solutions partenaires d&#39;Audience Manager.
 
-## Aperçu
+## Présentation
 
 L&#39;environnement bêta est une réplique exacte de l&#39;environnement de production, sans aucune fonctionnalité expérimentale ou non publiée. Vos informations de connexion à partir de l’environnement de production sont valides dans l’environnement bêta.
 
