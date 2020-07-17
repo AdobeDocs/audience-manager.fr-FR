@@ -1,21 +1,21 @@
 ---
 description: Méthodes de l’API REST pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
 seo-description: Méthodes de l’API REST pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
-seo-title: Méthodes de l'API de gestion des groupes
+seo-title: Méthodes d’API de gestion des groupes
 solution: Audience Manager
-title: Méthodes de l'API de gestion des groupes
+title: Méthodes d’API de gestion des groupes
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
 
-# Méthodes de l&#39;API de gestion des groupes {#group-management-api-methods}
+# Méthodes d’API de gestion des groupes {#group-management-api-methods}
 
 Redéfinissez [!DNL API] les méthodes de gestion des groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
 
