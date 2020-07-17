@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Un rapport de tendance renvoie des données de tendance sur les caractéristiques et les segments.
 
-## Aperçu {#trend-report-overview}
+## Présentation {#trend-report-overview}
 
 <!-- 
 
