@@ -1,20 +1,20 @@
 ---
 description: Avec Trait Recommendations, lorsque vous créez ou modifiez un segment dans Segment Builder, vous obtenez des recommandations sur les caractéristiques supplémentaires que vous pouvez inclure et qui sont similaires aux caractéristiques de la règle de segment. Ajoutez les caractéristiques recommandées à votre segment pour élargir votre audience cible.
 seo-description: Bénéficiez de recommandations de caractéristiques dynamiques lorsque vous créez vos segments.
-seo-title: Trait Recommendations
+seo-title: Recommandations de caractéristiques
 solution: Audience Manager
-title: Trait Recommendations
+title: Recommandations de caractéristiques
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
 
-# Trait Recommendations
+# Recommandations de caractéristiques
 
 Bénéficiez de recommandations de caractéristiques dynamiques lorsque vous créez vos segments, à partir de vos propres caractéristiques propriétaires et de flux de [!UICONTROL Audience Marketplace] données.
 
@@ -28,7 +28,7 @@ La vidéo suivante décrit le processus pour [!UICONTROL Marketplace Recommendat
 
 >[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
-## Aperçu
+## Présentation
 
 [!UICONTROL Trait Recommendations], optimisé par [!DNL Adobe Sensei], intègre la science des données dans vos workflows d&#39;Audience Manager quotidiens.
 With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
@@ -60,21 +60,21 @@ Avec [!UICONTROL Trait Recommendations], vous pouvez améliorer vos workflows, e
 
 ### Modèles algorithmiques
 
-[!UICONTROL Algorithmic Models] non seulement trouve-t-on les caractéristiques les plus influentes, mais il note également les utilisateurs en fonction de ces caractéristiques et attribue à chaque utilisateur un score individuel. Vous créez ensuite des caractéristiques algorithmiques pour cible vos utilisateurs. Grâce aux contrôles de précision et de portée [!UICONTROL Trait Builder], vous pouvez spécifier les utilisateurs parmi tous ceux qui ont les caractéristiques influentes que vous souhaitez cible.
+[!UICONTROL Algorithmic Models] non seulement trouve-t-on les caractéristiques les plus influentes, mais il note également les utilisateurs en fonction de ces caractéristiques et attribue à chaque utilisateur un score individuel. Vous créez ensuite des caractéristiques algorithmiques pour cibler vos utilisateurs. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-[!UICONTROL Algorithmic Models] vous permet de sélectionner des utilisateurs à différents niveaux de précision et de tester [!UICONTROL Audience Lab] quel groupe d’utilisateurs effectue le plus de conversions. Consultez le cas d&#39;utilisation détaillé dans [Comparaison de modèles dans Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
+[!UICONTROL Algorithmic Models] vous permet de sélectionner des utilisateurs à différents niveaux de précision et de tester [!UICONTROL Audience Lab] quel groupe d’utilisateurs effectue le plus de conversions. Consultez les cas d’utilisation détaillés dans [Comparaison des modèles dans Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-Dans [!UICONTROL Algorithmic Models]ce cas, le modèle s’exécute tous les 8 jours et actualise les utilisateurs qualifiés pour les caractéristiques algorithmiques.
+In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
-### Trait Recommendations
+### Recommandations de caractéristiques
 
 [!UICONTROL Trait Recommendations] est un moyen rapide d’obtenir des informations sur d’autres caractéristiques similaires à celles que vous utilisez dans un segment.
 
 Vous devez utiliser [!UICONTROL Trait Recommendations] :
 
-* Vous avez besoin d’informations rapides lors de la création d’un segment ;
-* Vous utilisez les segments pour les campagnes courtes ou lorsque vous souhaitez supprimer rapidement les audiences qui convertissent ;
-* Vous essayez de maximiser la portée.
+* vous avez besoin d’insights rapides en créant un segment ;
+* vous utilisez les segments pour des campagnes courtes ou vous souhaitez supprimer rapidement des audiences qui se convertissent ;
+* vous essayez de maximiser votre portée.
 
 ## Workflow
 
