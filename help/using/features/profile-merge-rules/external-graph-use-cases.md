@@ -1,21 +1,21 @@
 ---
 description: Recommandations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut Adobe Experience Cloud Device Co-op et d’autres intégrations qu’Adobe possède avec des sociétés de graphiques de périphériques déterministes ou probabilistes tierces.
 seo-description: Recommandations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut Adobe Experience Cloud Device Co-op et d’autres intégrations qu’Adobe possède avec des sociétés de graphiques de périphériques déterministes ou probabilistes tierces.
-seo-title: Cas d’utilisation graphiques des périphériques externes
+seo-title: Cas d’utilisation des représentations graphiques externes des appareils
 solution: Audience Manager
-title: Cas d’utilisation graphiques des périphériques externes
+title: Cas d’utilisation des représentations graphiques externes des appareils
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Cas d’utilisation graphiques des périphériques externes {#external-device-graph-use-cases}
+# Cas d’utilisation des représentations graphiques externes des appareils {#external-device-graph-use-cases}
 
 Recommandations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut les [!DNL Adobe Experience Cloud Device Co-op] intégrations d&#39;Adobe avec des sociétés de graphiques de dispositifs déterministes ou probabilistes tierces.
 
@@ -129,7 +129,7 @@ En utilisant le **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Ado
 
 >[!MORELIKETHIS]
 >
->* [Cas d&#39;utilisation du graphique de Profil Link](profile-link-use-case.md)
->* [Cas d’utilisation généraux des règles de fusion de Profils](merge-rule-targeting-options.md)
+>* [Cas d’utilisation des représentations graphiques des appareils Profile Link](profile-link-use-case.md)
+>* [Cas d’utilisation généraux des stratégies de fusion de profils](merge-rule-targeting-options.md)
 >* [FAQ sur les règles de fusion de Profils](../../faq/faq-profile-merge.md)
 
