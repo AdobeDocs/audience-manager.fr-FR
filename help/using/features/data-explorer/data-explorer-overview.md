@@ -9,16 +9,16 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Explorateur de données - Présentation, avantages et cas d’utilisation {#overview-benefits-and-use-cases}
+# Explorateur de données : présentation, avantages et cas d’utilisation {#overview-benefits-and-use-cases}
 
 Servez-vous [!UICONTROL Data Explorer] pour exploiter les audiences historiques en construisant des caractéristiques basées sur des signaux utilisés et inutilisés, et en les remplissant de données historiques pour éviter toute perte potentielle d&#39;audiences pertinentes.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 La création de caractéristiques basées sur les connaissances existantes liées à votre audience est un processus assez simple, à condition de toujours savoir qui est votre audience. Mais à quelle fréquence cela arrive-t-il ?
 
