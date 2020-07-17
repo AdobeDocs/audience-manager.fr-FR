@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -29,7 +29,7 @@ c_overlap_reports.xml
 
  -->
 
-## Aperçu
+## Présentation
 
 Le [!UICONTROL Trait-to-Trait Overlap] rapport renvoie des données sur le pourcentage d&#39;utilisateurs uniques partagés entre vos propres caractéristiques et celles de vos tiers. En tant qu&#39;outil d&#39;optimisation, ce rapport vous aide à :
 
@@ -119,6 +119,6 @@ La fenêtre contextuelle du [!UICONTROL Trait-to-Trait Overlap] rapport contient
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports dynamiques](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explication des icônes et outils du rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Échantillonnage des données et taux d&#39;erreur dans les rapports d&#39;Audience Manager sélectionnés...](../../reporting/report-sampling.md)
+>* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
