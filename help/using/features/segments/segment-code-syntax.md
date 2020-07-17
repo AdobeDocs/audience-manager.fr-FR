@@ -1,21 +1,21 @@
 ---
 description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (Vue de code) du panneau Caractéristiques pour accéder à cette fonction.
 seo-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (Vue de code) du panneau Caractéristiques pour accéder à cette fonction.
-seo-title: Syntaxe du code utilisée dans l’éditeur d’Expressions de segments
+seo-title: Syntaxe du code utilisé dans l’éditeur d’expressions de segments
 solution: Audience Manager
-title: Syntaxe du code utilisée dans l’éditeur d’Expressions de segments
+title: Syntaxe du code utilisé dans l’éditeur d’expressions de segments
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Syntaxe du code utilisée dans l’éditeur d’Expressions de segments {#code-syntax-used-in-the-segment-expression-editor}
+# Syntaxe du code utilisé dans l’éditeur d’expressions de segments {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’ **[!UICONTROL Segment Expressions (Code View)]** onglet du [!UICONTROL Traits] panneau pour accéder à cette fonction.
 
