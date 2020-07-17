@@ -19,7 +19,7 @@ ht-degree: 1%
 
 [!UICONTROL Data Export Controls] vous empêche d’envoyer des données vers des destinations lorsque cette action enfreint les accords de confidentialité ou d’utilisation des données.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 [!UICONTROL Data Export Controls] vous permet de classifier les sources [de](../features/datasources-list-and-settings.md#data-sources-list-and-settings) données et les [destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent quand les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité comprend :
 
