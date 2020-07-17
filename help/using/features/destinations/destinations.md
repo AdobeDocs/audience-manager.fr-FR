@@ -1,7 +1,7 @@
 ---
-description: En Audience Manager, une destination est tout système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) que vous souhaitez partager avec. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
+description: En Audience Manager, une destination est tout système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: En Audience Manager, une destination est tout système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) que vous souhaitez partager avec. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
+seo-description: En Audience Manager, une destination est tout système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 seo-title: 'Destinations '
 solution: Audience Manager
 title: 'Destinations '
@@ -11,14 +11,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# [!UICONTROL Destinations] Aperçu {#destinations}
+# [!UICONTROL Destinations] Présentation {#destinations}
 
-En Audience Manager, un [!UICONTROL destination] est un système tiers (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) que vous souhaitez partager avec. [!UICONTROL Destination Builder] est l’outil que vous avez utilisé pour créer et gérer [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
+En Audience Manager, un [!UICONTROL destination] est un système tiers (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] est l’outil que vous avez utilisé pour créer et gérer [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
 
 ## Objectif et avantages {#purposes}
 
