@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 76%
 
 Une configuration booléenne facultative permet de déterminer si le code DIL envoie (ou n’envoie pas) des données à Adobe Experience Cloud Device Co-op.
 
-## Conditions requises {#requirements}
+## Exigences {#requirements}
 
 To use `isCoopSafe` you must:
 
 * Utilisez la version [!UICONTROL DIL] v6.11 ou ultérieure.
-* Participer à [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Les membres potentiels de Co-op doivent également consulter cette documentation pour déterminer si `isCoopSafe` peut répondre à des préoccupations concernant la manière dont les données sont utilisées pour créer la coopérative Device Graph.
+* Participer à [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html). Les membres potentiels de Co-op doivent également consulter cette documentation pour déterminer si `isCoopSafe` peut répondre à des préoccupations concernant la manière dont les données sont utilisées pour créer la coopérative Device Graph.
 
 * Work with your [!DNL Adobe] consultant to set an allowlist or a denylist flag on your Device Co-op account. Il n&#39;existe pas de chemin d&#39;accès libre-service pour activer ces indicateurs.
 
