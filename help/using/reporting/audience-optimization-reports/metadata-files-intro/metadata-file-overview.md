@@ -1,25 +1,25 @@
 ---
 description: Un fichier de métadonnées lie des ID numériques avec des noms lisibles et compréhensibles. Les rapports Optimisation des Audiences affichent des noms lisibles dans les différents menus d'options de rapport.
 seo-description: Un fichier de métadonnées lie des ID numériques avec des noms lisibles et compréhensibles. Les rapports Optimisation des Audiences affichent des noms lisibles dans les différents menus d'options de rapport.
-seo-title: Présentation et mappages des fichiers de métadonnées
+seo-title: Présentation et correspondances des fichiers de métadonnées
 solution: Audience Manager
-title: Présentation et mappages des fichiers de métadonnées
+title: Présentation et correspondances des fichiers de métadonnées
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Présentation et mappages des fichiers de métadonnées{#overview-and-mappings-for-metadata-files}
+# Présentation et correspondances des fichiers de métadonnées{#overview-and-mappings-for-metadata-files}
 
 Un fichier de métadonnées lie des ID numériques avec des noms lisibles et compréhensibles. Les rapports Optimisation des Audiences affichent des noms lisibles dans les différents menus d&#39;options de rapport.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 Examen des métadonnées et de leur utilisation. Un fichier de métadonnées doit être accompagné d’un fichier de données. Le contenu du fichier de métadonnées correspond aux informations relatives au fichier de données et aux étiquettes lisibles dans les menus du rapport. Pour plus d’informations, voir Fichiers de [données pour les rapports d’optimisation des Audiences et Fichiers journaux](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)utilisables.
 
@@ -41,7 +41,7 @@ Cependant, un fichier de métadonnées correctement formaté peut lier ce créat
 
 Tout d&#39;abord, un fichier de métadonnées et tous les paramètres répertoriés ci-dessous sont requis dans un appel de événement lorsque vous souhaitez utiliser les rapports [Optimisation des](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences.
 
-Ensuite, vous avez besoin d&#39;un fichier de métadonnées si vous envoyez vos propres données à [!DNL Audience Manager] ou si vous souhaitez afficher les données des rapports d&#39;autres fournisseurs avec lesquels nous ne sommes pas intégrés. Par exemple, [!DNL Audience Manager] dispose d’une intégration avec le Gestionnaire [de Campaign (DCM) de Google avec un](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) Doublon-clic. En raison de cette relation, [!DNL Audience Manager] vous pouvez associer des identifiants aux noms et descriptions utilisés par les options de rapport. Sans intégration, nous pouvons toujours ingérer des données, mais les options de rapport afficheront des identifiants numériques au lieu d’un nom descriptif.
+Ensuite, vous avez besoin d&#39;un fichier de métadonnées si vous envoyez vos propres données à [!DNL Audience Manager] ou si vous souhaitez afficher les données des rapports d&#39;autres fournisseurs avec lesquels nous ne sommes pas intégrés. Par exemple, [!DNL Audience Manager] dispose d’une intégration avec le Gestionnaire [de Campaign (DCM) de Google avec un clic de](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) Doublon. En raison de cette relation, [!DNL Audience Manager] vous pouvez associer des identifiants aux noms et descriptions utilisés par les options de rapport. Sans intégration, nous pouvons toujours ingérer des données, mais les options de rapport afficheront des identifiants numériques au lieu d’un nom descriptif.
 
 ![](assets/metadata_menu.png)
 
@@ -63,7 +63,7 @@ Le tableau suivant liste les paires clé-valeur qui contiennent les données uti
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Annonceur </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Il s’agit de l’ID de source de données ou du code d’intégration de l’annonceur fourni lors de la création d’une source de données. Voir <a href="../../../features/manage-datasources.md#create-data-source"> Création d’une source</a>de données. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Il s’agit de l’ID de source de données ou du code d’intégration de l’annonceur fourni lors de la création d’une source de données. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Unité opérationnelle </p> </td> 
@@ -126,7 +126,7 @@ Dans un nom de fichier :
 
 ![](assets/metadata_file_name.png)
 
-Voir Conventions [de dénomination des fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)de métadonnées.
+See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Contenu du fichier
 
@@ -134,15 +134,15 @@ Dans cet exemple, le contenu du fichier reflète les identifiants de création e
 
 ![](assets/metadata_file_contents.png)
 
-Voir Format [de contenu pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)de métadonnées.
+See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Diffusion de fichiers
 
-Après avoir nommé et ajouté des données à un fichier, vous les envoyez dans un répertoire d’enregistrements Amazon S3 fourni par [!DNL Audience Manager]. Voir Méthodes de [Diffusion pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)de métadonnées.
+Après avoir nommé et ajouté des données à un fichier, vous les envoyez dans un répertoire d’enregistrements Amazon S3 fourni par [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
 >* [Fichiers de données pour les rapports d’optimisation d’Audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Capture des données des clics Campaign par le biais d’appels de pixels](../../../integration/media-data-integration/click-data-pixels.md)
+>* [Capture des données de clics de campagne via des appels de pixel](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Capture des données d’impression de campagne via des appels de pixel](../../../integration/media-data-integration/impression-data-pixels.md)
 
