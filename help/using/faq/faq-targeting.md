@@ -9,8 +9,8 @@ feature: Match Rates
 translation-type: tm+mt
 source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 100%
 
 ---
 
