@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Servez-vous [!DNL People-Based Destinations] d’envoyer des segments d’audien
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonction. Rien dans ce document n&#39;est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 [!DNL People-Based Destinations] vous permet d’appliquer la segmentation aux données en ligne et hors ligne afin de créer des segments d’audience basés sur des identifiants [](people-based-destinations-prerequisites.md#hashing-requirements)hachés, tels que des adresses électroniques ou des numéros de téléphone. Ensuite, vous pouvez envoyer ces segments vers des &quot;jardins muraux&quot; tels que [!DNL Facebook], où vous pouvez cible votre audience sur les plateformes sociales. [!DNL People-Based Destinations] peut vous aider :
 
@@ -36,7 +36,7 @@ Vous pouvez les utiliser [!DNL People-Based Destinations] pour segmenter et cibl
 
 ![pbd-overview](assets/pbd-overview.png)
 
-## Availability {#availability}
+## Disponibilité {#availability}
 
 [!DNL People-Based Destinations] est une intégration d’Audiences Manager de premier ordre. Veuillez contacter votre représentant Adobe pour profiter de cette fonctionnalité haut de gamme.
 
