@@ -1,9 +1,9 @@
 ---
 description: Le rapport État de l’intégration vérifie les taux de réussite et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures de synthèse sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans Analytics > Rapport d’état de l’intégration. Ce rapport est également disponible lorsque vous créez une source de données entrante.
 seo-description: Le rapport État de l’intégration vérifie les taux de réussite et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures de synthèse sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans Analytics > Rapport d’état de l’intégration. Ce rapport est également disponible lorsque vous créez une source de données entrante.
-seo-title: Rapport État de l’intégration
+seo-title: Rapport d’état de l’intégration
 solution: Audience Manager
-title: Rapport État de l’intégration
+title: Rapport d’état de l’intégration
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: inbound and outbound reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Rapport État de l’intégration{#onboarding-status-report-about}
+# Rapport d’état de l’intégration{#onboarding-status-report-about}
 
 Le rapport État de l’intégration vérifie les taux de réussite et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures de synthèse sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans Analytics > Rapport d’état de l’intégration. Ce rapport est également disponible lorsque vous créez une source de données entrante.
 
