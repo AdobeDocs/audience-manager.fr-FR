@@ -1,21 +1,21 @@
 ---
 description: Méthodes qui vous permettent de travailler par programmation avec la bibliothèque d’intégration de données (DIL).
 seo-description: Méthodes qui vous permettent de travailler par programmation avec la bibliothèque d’intégration de données (DIL).
-seo-title: Méthodes de l’API de la bibliothèque d’intégration de données
+seo-title: Méthodes d’API de Data Integration Library
 solution: Audience Manager
-title: Méthodes de l’API de la bibliothèque d’intégration de données
+title: Méthodes d’API de Data Integration Library
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
 
-# Méthodes de l’API de la bibliothèque d’intégration de données {#data-integration-library-api-methods}
+# Méthodes d’API de Data Integration Library {#data-integration-library-api-methods}
 
 Méthodes qui vous permettent de travailler par programmation avec le [!UICONTROL Data Integration Library] ([!UICONTROL DIL]).
 
