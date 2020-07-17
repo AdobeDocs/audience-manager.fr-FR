@@ -1,16 +1,16 @@
 ---
 description: Ces rapports renvoient des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image des performances de votre campagne au fil du temps.
 seo-description: Ces rapports renvoient des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image des performances de votre campagne au fil du temps.
-seo-title: Rapports d'Analyse des tendances et d'Analyse des volumes
+seo-title: Rapports d’analyses des tendances et des volumes
 solution: Audience Manager
-title: Rapports d'Analyse des tendances et d'Analyse des volumes
+title: Rapports d’analyses des tendances et des volumes
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
