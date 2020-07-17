@@ -1,21 +1,21 @@
 ---
 description: La création en bloc vous permet de créer plusieurs sources de données, signaux dérivés, segments, caractéristiques et autres éléments à l’aide d’une seule opération. Suivez ces instructions pour effectuer une demande de création en masse.
 seo-description: La création en bloc vous permet de créer plusieurs sources de données, signaux dérivés, segments, caractéristiques et autres éléments à l’aide d’une seule opération. Suivez ces instructions pour effectuer une demande de création en masse.
-seo-title: Création en masse
+seo-title: Création en bloc
 solution: Audience Manager
-title: Création en masse
+title: Création en bloc
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Création en masse{#bulk-create}
+# Création en bloc{#bulk-create}
 
 La création en bloc vous permet de créer plusieurs sources de données, signaux dérivés, segments, caractéristiques et autres éléments à l’aide d’une seule opération. Suivez ces instructions pour effectuer une demande de création en masse.
 
