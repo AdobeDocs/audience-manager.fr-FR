@@ -2,21 +2,21 @@
 description: Créez, modifiez et supprimez des caractéristiques de dossier.
 keywords: Folder Trait;Folder Traits;folder traits;folder trait
 seo-description: Créez, modifiez et supprimez des caractéristiques de dossier.
-seo-title: Gérer les caractéristiques des dossiers
+seo-title: Gestion des caractéristiques de dossier
 solution: Audience Manager
-title: Gérer les caractéristiques des dossiers
+title: Gestion des caractéristiques de dossier
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Gérer les caractéristiques des dossiers {#manage-folder-traits}
+# Gestion des caractéristiques de dossier {#manage-folder-traits}
 
 Créez, modifiez et supprimez des caractéristiques de dossier.
 
@@ -31,6 +31,7 @@ Une [!UICONTROL folder trait] est créée automatiquement lorsque vous créez un
 
    * Texte &quot;Toutes les caractéristiques&quot; pour ajouter un nouveau dossier de niveau racine.
    * Un dossier parent existant pour ajouter un nouveau dossier subordonné.
+
    ![](assets/folder_traits_create.PNG)
 
 1. Cliquez sur l’icône + pour créer le dossier. Vous pouvez créer 2 000 dossiers au maximum dans la taxonomie. Pour plus d’informations, consultez la documentation relative aux [limites d’utilisation](../../features/administration/usage-limits.md).
