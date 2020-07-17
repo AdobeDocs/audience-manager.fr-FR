@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -37,10 +37,10 @@ Veuillez contacter votre représentant Adobe pour profiter de cette fonctionnali
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer votre audience propriétaire [!UICONTROL segments] à [!DNL Facebook], assurez-vous de respecter les exigences suivantes :
 
 1. L’autorisation [!DNL Facebook] Gérer les campagnes **doit être activée pour votre compte** utilisateur pour le compte publicitaire que vous prévoyez d’utiliser.
-2. Ajoutez le compte **Adobe Experience Cloud** en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]entreprise. Utilisez `business ID=206617933627973`. Pour plus d&#39;informations, reportez-vous à la section [Ajouter des partenaires à votre gestionnaire](https://www.facebook.com/business/help/1717412048538897) d&#39;entreprise.
+2. Add the **Adobe Experience Cloud** business account as an advertising partner in your [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/1717412048538897) for details.
    >[!IMPORTANT]
-   > Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’autorisation **Gérer les campagnes** . Cela est nécessaire pour l&#39; [!UICONTROL People-Based Destinations] intégration.
-3. Lisez et signez les [!DNL Facebook Custom Audiences] conditions d’utilisation. Pour ce faire, allez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
+   > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. Ceci est obligatoire pour l’intégration de [!UICONTROL People-Based Destinations].
+3. Lisez et signez les [!DNL Facebook Custom Audiences] conditions d’utilisation. Pour ce faire, accédez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn]
 
@@ -50,7 +50,7 @@ Pour savoir comment modifier vos autorisations d’ [!DNL LinkedIn Campaign Mana
 
 Voir [Présentation et configuration de la destination](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) basée sur les personnes LinkedIn pour obtenir des instructions vidéo.
 
-## Intégration des données {#data-onboarding}
+## Intégration de données {#data-onboarding}
 
 L&#39;assimilation de données pour [!UICONTROL People-Based Destinations] l&#39;instant prend en charge jusqu&#39;à 10 adresses électroniques hachées liées à un ID de client ([!DNL CRM ID]), par transfert par lot. Le chargement de plus de 10 adresses électroniques hachées liées à un ID de client entraîne l’Audience Manager d’en importer 10, sans ordre spécifique.
 
@@ -99,7 +99,7 @@ Lors de l’utilisation de [!UICONTROL People-Based Destinations]Data Export Con
 
 ## Identifiants hachés authentifiés à bord via le ciblage d’identifiants déclarés {#onboard-authenticated-declared-id}
 
-Il existe deux façons d’apporter vos données hors ligne à l’Audience Manager [!UICONTROL People-Based Destinations].
+Il existe deux manières d’importer vos données hors ligne vers Audience Manager pour [!UICONTROL People-Based Destinations].
 
 * [Envoyez des données](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) par lot à l’Audience Manager pour importer des adresses électroniques hachées. Cette méthode vous permet d’utiliser les adresses électroniques hachées de votre [!DNL CRM] base de données dans [!UICONTROL People-Based Destinations]. De plus, lorsque vous utilisez cette méthode, vous pouvez également définir les adresses électroniques hachées pour les caractéristiques [](../traits/trait-and-segment-qualification-reference.md)intégrées.
-* Utilisez des identifiants [](../declared-ids.md) déclarés pour déclarer les adresses électroniques hachées lors de la transmission d’identifiants de client authentifiés. Lors de l’utilisation de cette méthode, l’Audience Manager, en votre nom, envoie uniquement aux adresses électroniques hachées [!UICONTROL People-Based Destinations] des utilisateurs qui se sont authentifiés en ligne. Les adresses électroniques activées par le biais de canaux basés sur des personnes ne sont que celles des appels de événement d’ID déclarés. Les autres adresses électroniques associées à l’ID de client ne sont pas envoyées en temps réel.
+* Use [Declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager, on your behalf, only sends to [!UICONTROL People-Based Destinations] the hashed email addresses from users who have authenticated online. Les adresses électroniques activées par le biais de canaux basés sur des personnes ne sont que celles des appels de événement d’ID déclarés. Les autres adresses électroniques associées à l’ID de client ne sont pas envoyées en temps réel.
