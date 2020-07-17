@@ -2,9 +2,9 @@
 description: Le serveur de collecte de données contrôle les identifiants qu’il reçoit et ajoute ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période à une liste bloquée.
 keywords: id;monitoring;dcs
 seo-description: Le serveur de collecte de données contrôle les identifiants qu’il reçoit et ajoute ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période à une liste bloquée.
-seo-title: Surveillance des identifiants et refus d’inscription
+seo-title: Surveillance et Liste bloquée des identifiants
 solution: Audience Manager
-title: Surveillance des identifiants et refus d’inscription
+title: Surveillance et Liste bloquée des identifiants
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 translation-type: tm+mt
@@ -16,11 +16,11 @@ ht-degree: 0%
 ---
 
 
-# Surveillance des identifiants et refus d’inscription
+# Surveillance et Liste bloquée des identifiants
 
 Il [!DNL DCS] contrôle les identifiants qu’il reçoit et ajoute ceux qui sont envoyés à un taux inhabituellement élevé sur une courte période à une liste bloquée.
 
-## Aperçu
+## Présentation
 
 Pour protéger l’infrastructure d’Audience Manager contre les activités malveillantes, l’ [!DNL DCS] utilisateur utilise un algorithme avancé pour surveiller les identifiants qu’il reçoit. Il peut s’agir [!UICONTROL Data Provider Unique User ID]de s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) ou [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). Voir [Index des identifiants dans l’Audience Manager](../../../reference/ids-in-aam.md) pour obtenir des explications détaillées sur les identifiants pris en charge par l’Audience Manager.
 
@@ -44,11 +44,11 @@ Les identifiants qui ont été ajoutés aux listes bloquées ne doivent pas êtr
 
 [!DNL DCS] les appels peuvent inclure un ou plusieurs types d’ID. Les appels contenant un seul ID sont complètement ignorés si cet ID est ajouté à une liste bloquée et qu’aucune synchronisation d’ID ne se produit dans ce cas.
 
-Lorsqu’un appel à plusieurs identifiants inclut également un identifiant de liste de refus, celui-ci [!DNL DCS] ignore l’identifiant refusé et n’utilise que les autres identifiants autorisés pour la synchronisation.
+Lorsqu’un appel à plusieurs identifiants inclut également un identifiant placé sur l&#39;liste bloquée, le [!DNL DCS] ignore l’identifiant refusé et n’utilise que les autres identifiants autorisés pour la synchronisation.
 
-## Causes et correctifs de la désinscription des identifiants
+## Causes et correctifs pour l’Liste bloquée des identifiants
 
-La cause la plus fréquente d’ajout d’identifiants aux listes bloquées est la mauvaise intégration entre l’infrastructure client et l’Audience Manager. Lorsque vous identifiez un identifiant de liste refusée, veillez à examiner minutieusement vos intégrations d’Audiences Manager. Voir les guides **d’** implémentation et d’intégration pour obtenir des explications détaillées sur la manière de configurer l’Audience Manager pour qu’elle fonctionne avec d’autres solutions Experience Cloud ou systèmes externes.
+La cause la plus fréquente d’ajout d’identifiants aux listes bloquées est la mauvaise intégration entre l’infrastructure client et l’Audience Manager. Lorsque vous identifiez un identifiant placé sur l&#39;liste bloquée, veillez à examiner minutieusement vos intégrations d’Audiences Manager. Voir les guides **d’** implémentation et d’intégration pour obtenir des explications détaillées sur la manière de configurer l’Audience Manager pour qu’elle fonctionne avec d’autres solutions Experience Cloud ou systèmes externes.
 
 Une autre cause fréquente d’ajout d’identifiants aux listes bloquées est l’indexation des robots (moteurs de balayage Web), qui entraîne généralement une augmentation du trafic, ce qui entraîne l’envoi à [!DNL DCS] plusieurs reprises des mêmes identifiants. Si vous identifiez les robots d’indexation comme la raison pour laquelle des identifiants sont ajoutés aux listes bloquées, vous devez limiter l’accès des robots à votre site Web.
 
