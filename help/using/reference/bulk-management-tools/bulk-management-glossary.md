@@ -1,21 +1,21 @@
 ---
 description: Libellés d'en-tête de colonne définis.
 seo-description: Libellés d'en-tête de colonne définis.
-seo-title: Glossaire des outils de gestion en masse
+seo-title: Glossaire des outils de gestion en bloc
 solution: Audience Manager
-title: Glossaire des outils de gestion en masse
+title: Glossaire des outils de gestion en bloc
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Glossaire des outils de gestion en masse{#bulk-management-tools-glossary}
+# Glossaire des outils de gestion en bloc{#bulk-management-tools-glossary}
 
 Libellés d&#39;en-tête de colonne définis.
 
@@ -99,7 +99,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Caractéristique ou règle de segment réelle utilisée pour collecter des données. Une requête en bloc renvoie les règles créées en <span class="keyword"> Audience Manager</span> avec le créateur <a href="../../features/traits/about-trait-builder.md"> de règles</a> de caractéristiques ou le créateur <a href="../../features/segments/segment-builder.md"> de règles</a>de segments. Vous pouvez également utiliser ces outils pour créer des règles et les appliquer en bloc lorsque vous mettez à jour un segment ou une caractéristique. </p> <p>Voir aussi <a href="../../reference/bulk-management-tools/bulk-rules.md"> Créer ou mettre à jour des règles de caractéristiques et des règles</a>de segment. </p> </td> 
+   <td colname="col2"> <p>Caractéristique ou règle de segment réelle utilisée pour collecter des données. Une requête en bloc renvoie les règles créées en <span class="keyword"> Audience Manager</span> avec le créateur <a href="../../features/traits/about-trait-builder.md"> de règles</a> de caractéristiques ou le créateur <a href="../../features/segments/segment-builder.md"> de règles</a>de segments. Vous pouvez également utiliser ces outils pour créer des règles et les appliquer en bloc lorsque vous mettez à jour un segment ou une caractéristique. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
