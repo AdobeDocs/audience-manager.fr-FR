@@ -1,21 +1,21 @@
 ---
 description: Début ici pour obtenir des informations sur l’envoi d’appels /événement au serveur de collecte de données. Cette section comprend des informations sur la syntaxe des appels, les paramètres, la mise en forme et un exemple de requête.
 seo-description: Début ici pour obtenir des informations sur l’envoi d’appels /événement au serveur de collecte de données. Cette section comprend des informations sur la syntaxe des appels, les paramètres, la mise en forme et un exemple de requête.
-seo-title: Envoyer des données au serveur de collecte de données
+seo-title: Envoi de données au DCS
 solution: Audience Manager
-title: Envoyer des données au serveur de collecte de données
+title: Envoi de données au DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# Envoyer des données au serveur de collecte de données {#send-data-to-the-dcs}
+# Envoi de données au DCS {#send-data-to-the-dcs}
 
 Début ici pour obtenir des informations sur les `/event` appels au [!DNL DCS]. Cette section comprend des informations sur la syntaxe des appels, les paramètres, la mise en forme et un exemple de requête.
 
@@ -52,7 +52,7 @@ Le tableau suivant définit les composants de base d’un [!DNL DCS] appel simpl
    <td colname="col2"> <p>Cette partie de l'appel contient : </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Votre alias de domaine attribué par <span class="keyword"> Audience Manager</span> (par ex. <code> my_domain.demdex.net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Le domaine de destination, qui est toujours <code> demdex.net</code>défini. Voir <a href="../../../reference/demdex-calls.md">Signification des appels vers le domaine Demdex</a> (Understanding Calls to the Demdex Domain). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Le domaine de destination, qui est toujours <code> demdex.net</code>défini. Voir <a href="../../../reference/demdex-calls.md">Signification des appels vers le domaine Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Le tableau suivant définit les composants de base d’un [!DNL DCS] appel simpl
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Placez les données de chaîne entre guillemets de doublon (par exemple <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Vous pouvez transmettre plusieurs clés sur une seule valeur (par exemple <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatage de paires clé-valeur dans les appels</a>DCS. </p> </td>
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -97,9 +97,9 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Étapes suivantes {#dcs-next-steps}
 
-Maintenant que vous connaissez l&#39;envoi de données à [!DNL DCS], il est temps de regarder comment récupérer les données et analyser ces informations. Voir [Réception de données à partir du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Maintenant que vous connaissez l&#39;envoi de données à [!DNL DCS], il est temps de regarder comment récupérer les données et analyser ces informations. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
+>* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
 
