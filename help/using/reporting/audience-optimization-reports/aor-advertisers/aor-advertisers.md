@@ -1,16 +1,16 @@
 ---
 description: L'optimisation des Audiences pour les annonceurs peut vous aider à identifier les opportunités de performances potentielles pour les segments d'Audience Manager dans vos campagnes de médias payants. Ces rapports combinent des données de performances de campagne au niveau du journal avec des mesures de segments d’Audience Manager afin d’alimenter les optimisations centrées sur les segments et d’offrir un canal efficace.
 seo-description: L'optimisation des Audiences pour les annonceurs peut vous aider à identifier les opportunités de performances potentielles pour les segments d'Audience Manager dans vos campagnes de médias payants. Ces rapports combinent des données de performances de campagne au niveau du journal avec des mesures de segments d’Audience Manager afin d’alimenter les optimisations centrées sur les segments et d’offrir un canal efficace.
-seo-title: Optimisation des Audiences pour les annonceurs
+seo-title: Audience Optimization pour les annonceurs
 solution: Audience Manager
-title: Optimisation des Audiences pour les annonceurs
+title: Audience Optimization pour les annonceurs
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
