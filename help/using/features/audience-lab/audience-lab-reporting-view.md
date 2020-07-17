@@ -1,9 +1,9 @@
 ---
 description: La section rapports du groupe de test renvoie des informations sur les conversions du groupe de test, ce qui permet de comparer facilement l'efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
 seo-description: La section rapports du groupe de test renvoie des informations sur les conversions du groupe de test, ce qui permet de comparer facilement l'efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
-seo-title: Rapports du groupe de tests
+seo-title: Rapports sur les groupes de test
 solution: Audience Manager
-title: Rapports du groupe de tests
+title: Rapports sur les groupes de test
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Rapports du groupe de tests {#test-group-reporting}
+# Rapports sur les groupes de test {#test-group-reporting}
 
 La section rapports du groupe de test renvoie des informations sur les conversions du groupe de test, ce qui permet de comparer facilement l&#39;efficacité du segment de test. De nombreux filtres et dimensions sont disponibles pour la visualisation des données.
 
