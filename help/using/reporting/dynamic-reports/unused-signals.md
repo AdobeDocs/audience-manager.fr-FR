@@ -1,21 +1,21 @@
 ---
 description: Ce rapport renvoie un nombre de fréquence de toutes les informations inutilisées collectées sur votre inventaire et envoyées à l'Audience Manager.
 seo-description: Ce rapport renvoie un nombre de fréquence de toutes les informations inutilisées collectées sur votre inventaire et envoyées à l'Audience Manager.
-seo-title: Rapport Signaux inutilisés
+seo-title: Rapport des signaux inutilisés
 solution: Audience Manager
-title: Rapport Signaux inutilisés
+title: Rapport des signaux inutilisés
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Rapport Signaux inutilisés{#unused-signals-report}
+# Rapport des signaux inutilisés{#unused-signals-report}
 
 Ce rapport renvoie un nombre de fréquence de toutes les informations inutilisées collectées sur votre inventaire et envoyées à l&#39;Audience Manager. Pour accéder à ce rapport, accédez à **Analytics > Rapports d’Audience > Autres rapports > Signaux** inutilisés.
 
@@ -25,7 +25,7 @@ Ce rapport renvoie un nombre de fréquence de toutes les informations inutilisé
 
 ![Capture d&#39;écran du rapport Signaux inutilisés](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
-## Aperçu
+## Présentation
 
 Un signal est une information de votre site Web transmise à [!DNL Audience Manager] sous la forme de paires [](../../reference/key-value-pairs-explained.md) clé-valeur (ex. : `color=blue, price>100, gender=female`etc.).
 
