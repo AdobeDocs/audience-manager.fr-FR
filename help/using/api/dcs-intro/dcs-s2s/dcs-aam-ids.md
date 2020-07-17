@@ -1,21 +1,21 @@
 ---
 description: Cette section décrit comment analyser une réponse du serveur de collecte de données afin de récupérer les ID de visiteur et de région requis pour effectuer des appels en temps réel au serveur de collecte de données.
 seo-description: Cette section décrit comment analyser une réponse du serveur de collecte de données afin de récupérer les ID de visiteur et de région requis pour effectuer des appels en temps réel au serveur de collecte de données.
-seo-title: Obtention des ID utilisateur et des régions à partir d’une réponse DCS
+seo-title: Obtention des identifiants et des régions à partir d’une réponse DCS
 solution: Audience Manager
-title: Obtention des ID utilisateur et des régions à partir d’une réponse DCS
+title: Obtention des identifiants et des régions à partir d’une réponse DCS
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
 
-# Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
+# Obtention des identifiants et des régions à partir d’une réponse DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
 Cette section décrit comment analyser une [!DNL DCS] réponse afin de récupérer les ID de visiteur et de région requis pour effectuer des appels en temps réel vers le [!DNL DCS].
 
