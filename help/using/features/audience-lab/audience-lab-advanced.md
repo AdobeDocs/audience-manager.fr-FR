@@ -1,16 +1,16 @@
 ---
 description: Cet article décrit deux fonctions qui offrent des fonctionnalités avancées pour le modèle d'allocation des Duplicata du laboratoire d'Audiences et le délai d'attente des segments.
 seo-description: Cet article décrit deux fonctions qui offrent des fonctionnalités avancées pour le modèle d'allocation des Duplicata du laboratoire d'Audiences et le délai d'attente des segments.
-seo-title: Fonctionnalités avancées d'Audience Lab
+seo-title: Fonctionnalités avancées d’Audience Lab
 solution: Audience Manager
-title: Fonctionnalités avancées d'Audience Lab
+title: Fonctionnalités avancées d’Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
