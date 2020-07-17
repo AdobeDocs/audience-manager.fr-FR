@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ c_segment_trait_overlap.xml
 
  -->
 
-## Aperçu
+## Présentation
 
 En tant qu’outil d’optimisation, les [!UICONTROL Segment to Trait Overlap] rapports vous aident à créer des segments très ciblés ou à étendre la portée des segments. Par exemple, vous pouvez créer des segments ciblés et des caractéristiques présentant un chevauchement élevé pour atteindre une audience particulière. Cependant, un grand chevauchement peut signifier moins d&#39;utilisateurs uniques (moins de portée). L’exécution de ce rapport permet d’élargir la portée en supprimant les caractéristiques présentant un fort chevauchement de segments et en les remplaçant par des caractéristiques présentant moins de chevauchement.
 
@@ -185,6 +185,6 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Trait Overlap] rapport contie
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explication des icônes et outils du rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Échantillonnage des données et taux d&#39;erreur dans les rapports d&#39;Audience Manager sélectionnés...](../../reporting/report-sampling.md)
+>* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
