@@ -3,19 +3,19 @@ description: Décrit la variation des totaux d’utilisateurs uniques entre les 
 seo-description: Décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même caractéristique et la même période dans l’Adobe Audience Manager.
 seo-title: Comptage des utilisateurs uniques dans le chevauchement et les rapports généraux dans AAM
 solution: Audience Manager
-title: Comptabilisation des utilisateurs uniques dans les chevauchements et les rapports généraux
+title: Comptage des utilisateurs uniques dans les rapports de chevauchement et les rapports généraux
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Comptabilisation des utilisateurs uniques dans les chevauchements et les rapports généraux{#counting-unique-users-in-overlap-and-general-reports}
+# Comptage des utilisateurs uniques dans les rapports de chevauchement et les rapports généraux{#counting-unique-users-in-overlap-and-general-reports}
 
 Cette page décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même caractéristique et la même période.
 
