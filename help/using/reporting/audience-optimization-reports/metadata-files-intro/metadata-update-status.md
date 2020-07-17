@@ -92,11 +92,11 @@ Les tableaux suivants liste et définissent les clés des sections `Files` et `S
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID enfant figurant dans le nom de fichier. </p> <p>Voir Conventions <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> de dénomination des fichiers</a>de métadonnées. </p> </td> 
+   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID enfant figurant dans le nom de fichier. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’identifiant parent figurant dans le nom de fichier. </p> <p>Voir Conventions <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> de dénomination des fichiers</a>de métadonnées. </p> </td> 
+   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’identifiant parent figurant dans le nom de fichier. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
