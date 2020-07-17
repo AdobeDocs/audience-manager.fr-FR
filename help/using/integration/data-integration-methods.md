@@ -122,7 +122,7 @@ Décrit les raisons techniques et commerciales d’envoi des données au moyen d
 * **Considérations techniques :** La diffusion des données dépend des capacités techniques du partenaire de données. L’Audience Manager peut envoyer/recevoir des données en temps réel à partir du navigateur ou par le biais de mises à jour par lots par le biais de processus de communication serveur à serveur hors ligne.
 * **Considérations commerciales :** Les raisons commerciales de la sélection d’une méthode de diffusion ou d’une autre dépendent des capacités techniques de votre partenaire de destination et de la manière dont vous souhaitez utiliser ces données. En règle générale, les transferts de données synchrones sont utiles lorsque vous devez agir immédiatement sur les données utilisateur. Les transferts de données asynchrones peuvent s’avérer utiles lorsque l’action immédiate n’est pas requise et lorsque vous avez le temps de créer des profils utilisateur plus approfondis pour une utilisation ultérieure.
 
-## Processus de transfert de données en temps réel {#real-time-data-transfer-process}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 Présentation générale de la manière dont l’Audience Manager effectue un échange de données synchrone avec un fournisseur tiers.
 
@@ -144,7 +144,7 @@ Le processus d’intégration des données en temps réel fonctionne comme suit 
 
 ![](assets/rt_reduce70.png)
 
-## Processus de transfert de données par lot {#batch-data-transfer-process}
+## Processus de transfert de données par lots {#batch-data-transfer-process}
 
 Présentation générale de la manière dont l’Audience Manager échange les données de manière synchrone (en temps réel) avec un fournisseur tiers.
 
