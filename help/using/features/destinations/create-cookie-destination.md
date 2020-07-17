@@ -1,6 +1,6 @@
 ---
-description: Une destination de cookie renvoie et écrit des données dans un cookie dans le navigateur de l’utilisateur. Le cookie contient des données qui peuvent être lues par d’autres plateformes qui ont accès à la page. Suivez ces instructions pour créer une destination de cookie avec [ ! UICONTROL Destination Builder].
-seo-description: Une destination de cookie renvoie et écrit des données dans un cookie dans le navigateur de l’utilisateur. Le cookie contient des données qui peuvent être lues par d’autres plateformes qui ont accès à la page. Suivez ces instructions pour créer une destination de cookie avec [ ! UICONTROL Destination Builder].
+description: Une destination de cookie renvoie et écrit des données dans un cookie dans le navigateur de l’utilisateur. Le cookie contient des données qui peuvent être lues par d’autres plateformes qui ont accès à la page. Suivez ces instructions pour créer une destination de cookie avec [!UICONTROL Destination Builder].
+seo-description: Une destination de cookie renvoie et écrit des données dans un cookie dans le navigateur de l’utilisateur. Le cookie contient des données qui peuvent être lues par d’autres plateformes qui ont accès à la page. Suivez ces instructions pour créer une destination de cookie avec [!UICONTROL Destination Builder].
 seo-title: Configuration d’une destination de cookie
 solution: Audience Manager
 title: Configuration d’une destination de cookie
@@ -8,8 +8,8 @@ feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
+source-wordcount: '608'
+ht-degree: 3%
 
 ---
 
