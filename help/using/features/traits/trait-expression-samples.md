@@ -1,21 +1,21 @@
 ---
 description: Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de code Expression Builder.
 seo-description: Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de code Expression Builder.
-seo-title: Exemples d'Expressions avec opérateurs booléens et de comparaison
+seo-title: Exemple d’expressions avec des opérateurs booléens et de comparaison
 solution: Audience Manager
-title: Exemples d'Expressions avec opérateurs booléens et de comparaison
+title: Exemple d’expressions avec des opérateurs booléens et de comparaison
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 
-# Exemples d&#39;Expressions avec opérateurs booléens et de comparaison {#sample-expressions-with-boolean-and-comparison-operators}
+# Exemple d’expressions avec des opérateurs booléens et de comparaison {#sample-expressions-with-boolean-and-comparison-operators}
 
 Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de [!UICONTROL Expression Builder] code.
 
