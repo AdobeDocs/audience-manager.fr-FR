@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ c_segment_segment_overlap.xml
 
  -->
 
-## Aperçu
+## Présentation
 
 Le [!UICONTROL Segment-to-Segment Overlap] rapport peut vous aider à :
 
@@ -78,6 +78,6 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport cont
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explication des icônes et outils du rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapports de chevauchement : Mettre à jour le calendrier et la taille minimale du segment](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Échantillonnage des données et taux d&#39;erreur dans les rapports d&#39;Audience Manager sélectionnés...](../../reporting/report-sampling.md)
+>* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
