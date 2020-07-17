@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -52,7 +52,7 @@ Dans [!UICONTROL Trait Builder], les [!UICONTROL Basic Information] paramètres 
       </ul> </p> </p> <p>Cela permet de réduire les erreurs de traitement lorsque vous configurez un transfert <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> de fichiers de données</a>entrants. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">Description</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Description</span></b> </td> 
    <td colname="col2"> Quelques mots pour décrire l'objectif ou la fonction du trait. Facultatif. </td> 
   </tr> 
   <tr> 
