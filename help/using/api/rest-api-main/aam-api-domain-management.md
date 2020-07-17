@@ -1,21 +1,21 @@
 ---
 description: Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
 seo-description: Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
-seo-title: Méthodes de l'API Gestion des domaines
+seo-title: Méthodes d’API de gestion de domaine
 solution: Audience Manager
-title: Méthodes de l'API Gestion des domaines
+title: Méthodes d’API de gestion de domaine
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Méthodes de l&#39;API Gestion des domaines {#domain-management-api-methods}
+# Méthodes d’API de gestion de domaine {#domain-management-api-methods}
 
 Méthodes de gestion des domaines qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
 
