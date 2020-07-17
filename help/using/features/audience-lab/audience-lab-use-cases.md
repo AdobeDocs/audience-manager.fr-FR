@@ -1,9 +1,9 @@
 ---
 description: Le laboratoire d'Audiences permet d'utiliser plusieurs cas d'utilisation en vous permettant d'utiliser des segments de base pour créer des groupes de tests. Vous pouvez diviser les groupes de tests en plusieurs segments de test mutuellement exclusifs, les mapper à différentes destinations, puis déterminer quels segments sont les plus efficaces pour générer des conversions.
 seo-description: Le laboratoire d'Audiences permet d'utiliser plusieurs cas d'utilisation en vous permettant d'utiliser des segments de base pour créer des groupes de tests. Vous pouvez diviser les groupes de tests en plusieurs segments de test mutuellement exclusifs, les mapper à différentes destinations, puis déterminer quels segments sont les plus efficaces pour générer des conversions.
-seo-title: Cas d'utilisation d'Audience Lab
+seo-title: Cas d’utilisation d’Audience Lab
 solution: Audience Manager
-title: Cas d'utilisation d'Audience Lab
+title: Cas d’utilisation d’Audience Lab
 topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Cas d&#39;utilisation d&#39;Audience Lab {#audience-lab-use-cases}
+# Cas d’utilisation d’Audience Lab {#audience-lab-use-cases}
 
 [!UICONTROL Audience Lab] permet d’utiliser plusieurs cas d’utilisation en vous permettant d’utiliser des segments de base pour créer des groupes de tests. Vous pouvez diviser les groupes de tests en plusieurs segments de test mutuellement exclusifs, les mapper à différentes destinations, puis déterminer quels segments sont les plus efficaces pour générer des conversions.
 
