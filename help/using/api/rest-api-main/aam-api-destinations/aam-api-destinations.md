@@ -1,27 +1,27 @@
 ---
 description: Méthodes qui vous permettent de travailler par programmation avec les fonctions de destination.
 seo-description: Méthodes qui vous permettent de travailler par programmation avec les fonctions de destination.
-seo-title: Méthodes de l'API de destination
+seo-title: 'Méthodes d’API de destination '
 solution: Audience Manager
-title: Méthodes de l'API de destination
+title: 'Méthodes d’API de destination '
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
 
-# Méthodes de l&#39;API de destination {#destination-api-methods}
+# Méthodes d’API de destination {#destination-api-methods}
 
 Méthodes qui vous permettent de travailler par programmation avec les fonctions de destination.
 
 <!-- c_destinations_api.xml -->
 
-En Audience Manager, une destination est tout autre système (serveur publicitaire, [!DNL DSP]réseau publicitaire, échange, cookie propriétaire, etc.) que vous souhaitez partager avec.
+En Audience Manager, une destination est tout autre système (serveur publicitaire, [!DNL DSP]réseau publicitaire, échange, cookie propriétaire, etc.) avec lequel vous souhaitez partager des données.
 
 ## Types de destination : URL et cookie {#destination-types}
 
