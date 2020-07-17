@@ -1,15 +1,15 @@
 ---
 description: Cet article explique comment configurer des Audiences personnalisées Twitter pour les intégrations nouvelles et existantes.
 seo-description: Cet article explique comment configurer des Audiences personnalisées Twitter pour les intégrations nouvelles et existantes.
-seo-title: Configuration d’Audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique
+seo-title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
 solution: Audience Manager
-title: Configuration d’Audiences personnalisées Twitter en tant que destination en libre-service basée sur un périphérique
+title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
