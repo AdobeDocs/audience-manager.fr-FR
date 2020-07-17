@@ -1,21 +1,21 @@
 ---
 description: Le créateur de caractéristiques est une fonctionnalité qui améliore les processus traditionnels de collecte de données en pixels et de création/segmentation d’audiences et de collecte de données en pixels. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
 seo-description: Le créateur de caractéristiques est une fonctionnalité qui améliore les processus traditionnels de collecte de données en pixels et de création/segmentation d’audiences et de collecte de données en pixels. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
-seo-title: A propos du créateur de caractéristiques
+seo-title: À propos du générateur de caractéristiques
 solution: Audience Manager
-title: A propos du créateur de caractéristiques
+title: À propos du générateur de caractéristiques
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# A propos du créateur de caractéristiques {#about-trait-builder}
+# À propos du générateur de caractéristiques {#about-trait-builder}
 
 [!UICONTROL Trait Builder] est une fonctionnalité qui améliore les processus traditionnels de collecte de données en pixels et de création/segmentation d’audiences et de collecte de données en pixels. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
 
