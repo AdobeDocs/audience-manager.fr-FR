@@ -1,17 +1,17 @@
 ---
 description: API et kits d’outils qui vous permettent de travailler par programmation avec l’Audience Manager.
 seo-description: API et kits d’outils qui vous permettent de travailler par programmation avec l’Audience Manager.
-seo-title: Code API et SDK
+seo-title: 'Code de l’API et du SDK '
 keywords: api, api, api, api, api, api, api, api, api, api
 solution: Audience Manager
-title: Code API et SDK
+title: 'Code de l’API et du SDK '
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 1%
+ht-degree: 39%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 1%
 
 Détails:
 
-* [Migration du code de l&#39;API d&#39;Audience Manager](api-swagger-migration.md)
-* [API d’appel de Événement DCS](dcs-intro/dcs-event-calls/dcs-event-calls.md)
-* [API DCS pour les transferts de données serveur à serveur](dcs-intro/dcs-s2s/dcs-s2s.md)
-* [Méthodes de l’API DCS](dcs-intro/dcs-api-reference/dcs-api-methods.md)
-* [Code SDK](/help/using/api/aam-sdk.md)
+* [Migration du code de l’API Audience Manager](api-swagger-migration.md)
+* [API d’appel d’événement DCS](dcs-intro/dcs-event-calls/dcs-event-calls.md)
+* [API DCS pour les transferts de données de serveur à serveur](dcs-intro/dcs-s2s/dcs-s2s.md)
+* [Méthodes d’API DCS](dcs-intro/dcs-api-reference/dcs-api-methods.md)
+* [Code du SDK](/help/using/api/aam-sdk.md)
