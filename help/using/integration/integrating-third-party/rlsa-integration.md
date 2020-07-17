@@ -1,21 +1,21 @@
 ---
 description: Cette procédure nécessite une liste de remarketing AdWords, un code de pixel et une destination URL d’Audience Manager. Elle est également connue sous le nom de liste de marketing de relance pour l’intégration des annonces de recherche (RLSA). S’applique uniquement à la recherche payante.
 seo-description: Cette procédure nécessite une liste de remarketing AdWords, un code de pixel et une destination URL d’Audience Manager. Elle est également connue sous le nom de liste de marketing de relance pour l’intégration des annonces de recherche (RLSA). S’applique uniquement à la recherche payante.
-seo-title: Envoyer des segments à une Liste de remarketing Google AdWords
+seo-title: Envoi de segments vers une liste de remarketing Google AdWords
 solution: Audience Manager
-title: Envoyer des segments à une Liste de remarketing Google AdWords
+title: Envoi de segments vers une liste de remarketing Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 
-# Envoyer des segments à une Liste de remarketing publicitaire Google {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 Cette procédure nécessite une liste [!DNL Google Ads] de marketing de relance, du code de pixel et une Audience Manager [!DNL URL][!DNL destination]. Elle est également connue sous le nom de liste de marketing de relance pour l’intégration des publicités de recherche ([!DNL RLSA]). S’applique uniquement à la recherche payante.
 
@@ -31,7 +31,7 @@ Pour configurer une liste de [!DNL Google Ads] marketing de relance en tant que 
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Dans Audience Manager, [créez une [ !destination URL DNL]](../../features/destinations/create-url-destination.md) ou modifiez une [!DNL destination]URL existante. Utilisez les paramètres suivants lors de la création du [!DNL destination]:
+1. Dans l’Audience Manager, [créez une [!DNL URL destination]](../../features/destinations/create-url-destination.md) ou modifiez une [!DNL destination]instance existante. Utilisez les paramètres suivants lors de la création du [!DNL destination]:
    * Type : URL
    * Sérialiser : Activé
    * Délimiteur : Point-virgule (;)
@@ -72,7 +72,7 @@ Un mappage terminé peut ressembler à ceci :
 >[!MORELIKETHIS]
 >
 >* [[ !Destinations DNL]](../../features/destinations/destinations.md)
->* [Créer une [ !destination URL DNL]](../../features/destinations/create-url-destination.md)
+>* [Créez un [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [A propos des Listes de remarketing AdWords](https://support.google.com/adwords/answer/2472738)
 >* [Fonctionnement du remarketing AdWords](https://support.google.com/adwords/answer/2454000)
 
