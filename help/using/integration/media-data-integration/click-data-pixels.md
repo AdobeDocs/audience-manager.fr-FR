@@ -1,21 +1,21 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Capture des données des clics Campaign par le biais d’appels de pixels
+seo-title: Capture des données de clics de campagne via des appels de pixel
 solution: Audience Manager
-title: Capture des données des clics Campaign par le biais d’appels de pixels
+title: Capture des données de clics de campagne via des appels de pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
 
-# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
+# Capture des données de clics de campagne via des appels de pixel {#capturing-campaign-click-data-via-pixel-calls}
 
 Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers. Comme pour la collecte [des](/help/using/integration/media-data-integration/impression-data-pixels.md)impressions, un appel de événement est envoyé aux serveurs de collecte de données ( [!DNL Audience Manager] )[!DNL DCS]pour traitement. Le visiteur est ensuite redirigé vers l’adresse Web prévue.
 
@@ -23,7 +23,7 @@ Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long d
 >
 >Veuillez contacter votre [!DNL Audience Manager] consultant ou votre responsable de compte pour connaître le [!DNL URL] domaine du client.
 
-## Conditions
+## Exigences
 
 Les appels de suivi des clics nécessitent les paramètres suivants :
 
@@ -97,7 +97,7 @@ Cliquez sur événements pour prendre en charge les macros répertoriées dans l
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Facultatif. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). For more information about the ECID, see <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Facultatif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
