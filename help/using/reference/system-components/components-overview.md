@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -37,6 +37,6 @@ Ce guide cherche à trouver un équilibre entre les descriptions générales et 
 * [Composants de collecte de données](/help/using/reference/system-components/components-data-collection.md)
 * [Composants de traitement des données](/help/using/reference/system-components/components-data-processing.md)
 * [Composants de la gestion des balises](/help/using/reference/system-components/components-tag-management.md)
-* [Architecture Platform : Carte du flux de données](/help/using/reference/system-components/components-platform-architecture.md)
+* [Architecture de Platform : map des flux de données](/help/using/reference/system-components/components-platform-architecture.md)
 * [Présentation du centre de données Edge](/help/using/reference/system-components/components-edge.md)
 
