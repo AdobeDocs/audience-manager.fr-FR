@@ -2,21 +2,21 @@
 description: L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
 keywords: dpm.demdex.net
 seo-description: L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
-seo-title: États d'authentification des Visiteurs dans l'Audience Manager
+seo-title: États d’authentification du visiteur dans Audience Manager
 solution: Audience Manager
-title: États d'authentification des Visiteurs dans l'Audience Manager
+title: États d’authentification du visiteur dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# États d&#39;authentification des Visiteurs dans l&#39;Audience Manager{#visitor-authentication-states-in-audience-manager}
+# États d’authentification du visiteur dans Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
 
