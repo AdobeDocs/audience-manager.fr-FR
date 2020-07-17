@@ -1,21 +1,21 @@
 ---
 description: Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
 seo-description: Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
-seo-title: Ciblage de périphériques avec des clés de niveau Platform
+seo-title: Ciblage des périphériques à l’aide de clés au niveau des plateformes
 solution: Audience Manager
-title: Ciblage de périphériques avec des clés de niveau Platform
+title: Ciblage des périphériques à l’aide de clés au niveau des plateformes
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
+# Ciblage des périphériques à l’aide de clés au niveau des plateformes {#device-targeting-with-platform-level-keys}
 
 Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
 
@@ -49,5 +49,5 @@ L’ [!UICONTROL Data Collection Servers] utilisateur extrait les valeurs de ces
 
 >[!MORELIKETHIS]
 >
->* [Préfixe requis pour les variables clés](../../features/traits/trait-variable-prefixes.md)
+>* [Exigences de préfixe pour les variables clés](../../features/traits/trait-variable-prefixes.md)
 
