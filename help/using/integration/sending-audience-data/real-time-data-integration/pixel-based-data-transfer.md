@@ -1,21 +1,21 @@
 ---
 description: Les pixels simples (qui peuvent être utilisés pour définir les caractéristiques des utilisateurs) effectuent des transferts de données en temps réel. L’interface d’Audience Manager permet aux clients de créer n’importe quel nombre de pixels en libre-service. Les chaînes en pixels se composent d’identifiants simples ou de paires clé-valeur.
 seo-description: Les pixels simples (qui peuvent être utilisés pour définir les caractéristiques des utilisateurs) effectuent des transferts de données en temps réel. L’interface d’Audience Manager permet aux clients de créer n’importe quel nombre de pixels en libre-service. Les chaînes en pixels se composent d’identifiants simples ou de paires clé-valeur.
-seo-title: Transferts de données basés sur des pixels
+seo-title: Transferts de données basées sur des pixels
 solution: Audience Manager
-title: Transferts de données basés sur des pixels
+title: Transferts de données basées sur des pixels
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Transferts de données basés sur des pixels {#pixel-based-data-transfers}
+# Transferts de données basées sur des pixels {#pixel-based-data-transfers}
 
 Les pixels simples (qui peuvent être utilisés pour définir les caractéristiques des utilisateurs) effectuent des transferts de données en temps réel. L’interface d’Audience Manager permet aux clients de créer n’importe quel nombre de pixels en libre-service. Les chaînes en pixels se composent d’identifiants simples ou de paires clé-valeur.
 
