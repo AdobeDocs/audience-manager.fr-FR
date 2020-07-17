@@ -1,21 +1,21 @@
 ---
-description: Méthodes de l’API REST pour gérer les utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
-seo-description: Méthodes de l’API REST pour gérer les utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
-seo-title: Méthodes de l’API de gestion des utilisateurs
+description: Méthodes de l’API REST pour gérer les utilisateurs, y compris la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
+seo-description: Méthodes de l’API REST pour gérer les utilisateurs, y compris la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
+seo-title: Méthodes d’API de gestion des utilisateurs
 solution: Audience Manager
-title: Méthodes de l’API de gestion des utilisateurs
+title: Méthodes d’API de gestion des utilisateurs
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Méthodes de l’API de gestion des utilisateurs {#user-management-api-methods}
+# Méthodes d’API de gestion des utilisateurs {#user-management-api-methods}
 
 Redéfinissez [!DNL API] les méthodes de gestion des utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets d’utilisateur.
 
