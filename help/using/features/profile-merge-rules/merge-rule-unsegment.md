@@ -1,21 +1,21 @@
 ---
 description: La section Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. La possibilité de supprimer un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer une règle de fusion de Profil.
 seo-description: La section Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. La possibilité de supprimer un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer une règle de fusion de Profil.
-seo-title: Règles de fusion des Profils et processus de désegmentation des périphériques
+seo-title: Stratégies de fusion de profils et processus de suppression de la segmentation des appareils
 solution: Audience Manager
-title: Règles de fusion des Profils et processus de désegmentation des périphériques
+title: Stratégies de fusion de profils et processus de suppression de la segmentation des appareils
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Règles de fusion des Profils et processus de désegmentation des périphériques {#profile-merge-rules-and-device-un-segmentation-processes}
+# Stratégies de fusion de profils et processus de suppression de la segmentation des appareils {#profile-merge-rules-and-device-un-segmentation-processes}
 
 La section Unsegmentation décrit les processus qui excluent et suppriment les profils de périphériques des segments. Votre capacité à supprimer un profil de périphérique d’un segment dépend de l’option de périphérique utilisée pour créer un [!UICONTROL Profile Merge Rule]segment.
 
@@ -45,12 +45,12 @@ La section Unsegmentation décrit les processus qui excluent et suppriment les p
 >[!NOTE]
 >
 >**Limite de 100 dispositifs pour l&#39;évaluation et la disqualification**des segments.
->L’Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec une règle de fusion de Profil qui utilise un graphique de périphérique. L’Audience Manager évalue le périphérique actuel et jusqu’à 99 périphériques liés au périphérique actuel par un profil [](../../reference/visitor-authentication-states.md) authentifié (ID inter-périphériques). Si le signal de non-segmentation est émis, le périphérique actuel et les périphériques supplémentaires seront supprimés du segment dans la destination.
+>L’Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec une règle de fusion de Profils qui utilise un graphique de périphérique. L’Audience Manager évalue le périphérique actuel et jusqu’à 99 périphériques liés au périphérique actuel par un profil [](../../reference/visitor-authentication-states.md) authentifié (ID inter-périphériques). Si le signal de non-segmentation est émis, le périphérique actuel et les périphériques supplémentaires seront supprimés du segment dans la destination.
 
 ![](assets/last-device-graph.png)
 
 >[!MORELIKETHIS]
 >
->* [FAQ sur les règles de fusion de Profils et le graphique de périphériques](../../faq/faq-profile-merge.md)
->* [Suppression instantanée inter-périphérique](instant-cross-device-suppression.md)
+>* [FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils](../../faq/faq-profile-merge.md)
+>* [Suppression instantanée multi-appareils](instant-cross-device-suppression.md)
 
