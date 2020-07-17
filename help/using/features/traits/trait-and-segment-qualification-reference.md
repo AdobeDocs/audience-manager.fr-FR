@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Référence sur la qualification des caractéristiques et des segments {#trait-qualification-reference}
+# Référence de qualification des caractéristiques et des segments {#trait-qualification-reference}
 
 La qualification des caractéristiques, ou réalisation des caractéristiques, est traitée différemment en Audience Manager, selon le type de caractéristique. Voir Qualification des [caractéristiques par type](#trait-type) de caractéristique pour plus d’informations sur la qualification de type de caractéristique.
 
@@ -32,7 +32,7 @@ De plus, voir Population des segments en temps [réel et Population](#real-time-
 | Caractéristiques intégrées | La qualification des caractéristiques se produit après le traitement d&#39;un fichier entrant, c&#39;est-à-dire que le fichier entrant est [importé dans l&#39;Audience Manager](../../faq/faq-inbound-data-ingestion.md) et c&#39;est-à-dire lorsque la qualification des caractéristiques se produit. Attendez environ 4 heures après avoir créé une caractéristique intégrée avant de télécharger un fichier entrant en vue de son traitement. Pour les caractéristiques embarquées, le nombre maximal de qualifications pour un profil utilisateur est 1. |
 | Caractéristiques algorithmiques | Pour les caractéristiques algorithmiques, le nombre maximal de qualifications pour un profil utilisateur est 1. |
 | Caractéristiques des dossiers | Une caractéristique de dossier résume les qualités des caractéristiques qu&#39;elle contient. Caractéristiques [des dossiers de lecture : À propos](about-folder-traits.md) de. |
-| Caractéristiques d’Audience actives et caractéristiques synchronisées de la source de données | Une [!UICONTROL Active Audience] caractéristique contient tous les périphériques gérés dans votre compte d’Audience Manager. [!UICONTROL Data Source Synced Traits] effectuez le suivi de tous les utilisateurs associés à une source de données. En savoir plus sur les caractéristiques d’Audience [active et les caractéristiques](client-activity-synced-audience-traits.md)synchronisées de source de données. |
+| Caractéristiques d’audience active et caractéristiques synchronisées de sources de données | Une [!UICONTROL Active Audience] caractéristique contient tous les périphériques gérés dans votre compte d’Audience Manager. [!UICONTROL Data Source Synced Traits] effectuez le suivi de tous les utilisateurs associés à une source de données. En savoir plus sur les caractéristiques d’Audience [active et les caractéristiques](client-activity-synced-audience-traits.md)synchronisées de source de données. |
 
 ## Valorisation des caractéristiques uniques et population totale des caractéristiques {#unique-trait-realizations}
 
