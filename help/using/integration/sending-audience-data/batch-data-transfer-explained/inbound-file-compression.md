@@ -1,21 +1,21 @@
 ---
 description: Vous pouvez également compresser les fichiers de données lors de leur envoi en Audience Manager.
 seo-description: Vous pouvez également compresser les fichiers de données lors de leur envoi en Audience Manager.
-seo-title: Compression de fichiers pour les fichiers de transfert de données entrants
+seo-title: Compression de fichiers pour les fichiers de transfert de données entrants.
 solution: Audience Manager
-title: Compression de fichiers pour les fichiers de transfert de données entrants
+title: Compression de fichiers pour les fichiers de transfert de données entrants.
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Compression de fichiers pour les fichiers de transfert de données entrants{#file-compression-for-inbound-data-transfer-files}
+# Compression de fichiers pour les fichiers de transfert de données entrants{#file-compression-for-inbound-data-transfer-files}.
 
 Vous pouvez compresser les fichiers de données lors de leur envoi à l’Audience Manager.
 
