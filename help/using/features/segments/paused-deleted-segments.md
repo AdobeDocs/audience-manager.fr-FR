@@ -1,21 +1,21 @@
 ---
 description: Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment actif à l’aide du créateur de segments.
 seo-description: Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment actif à l’aide du créateur de segments.
-seo-title: Segments en pause et supprimés
+seo-title: Suspension et suppression des segments
 solution: Audience Manager
-title: Segments en pause et supprimés
+title: Suspension et suppression des segments
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Segments en pause et supprimés {#paused-and-deleted-segments}
+# Suspension et suppression des segments {#paused-and-deleted-segments}
 
 Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment actif à l’aide de [!UICONTROL Segment Builder].
 
