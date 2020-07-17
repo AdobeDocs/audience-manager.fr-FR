@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -47,9 +47,9 @@ Les clients n&#39;ont pas d&#39;accès direct à ces systèmes. Cependant, les c
 
 Il ne s&#39;agit en aucun cas d&#39;une liste globale, mais certains rapports tableaux de bord communs qui [!UICONTROL Snowflake] portent sur :
 
-* [Rapport Variation de caractéristiques quotidiennes](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Rapport de variation des caractéristiques quotidiennes](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * Tous les rapports de chevauchement (voir la section Rapports [](/help/using/reporting/dynamic-reports/dynamic-reports.md) interactifs pour en savoir plus sur chaque rapport de chevauchement).
-* [Rapport Signaux inutilisés](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [Rapport des signaux inutilisés](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
