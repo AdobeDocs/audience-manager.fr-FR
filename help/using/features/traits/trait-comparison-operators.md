@@ -1,21 +1,21 @@
 ---
 description: Cet article décrit les opérateurs de comparaison utilisés par le créateur de caractéristiques.
 seo-description: Cet article décrit les opérateurs de comparaison utilisés par le créateur de caractéristiques.
-seo-title: Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques
+seo-title: Utilisation d’opérateurs de comparaison dans le générateur de caractéristiques
 solution: Audience Manager
-title: Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques
+title: Utilisation d’opérateurs de comparaison dans le générateur de caractéristiques
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Utilisation d’opérateurs de comparaison dans le créateur de caractéristiques {#working-with-comparison-operators-in-trait-builder}
+# Utilisation d’opérateurs de comparaison dans le générateur de caractéristiques {#working-with-comparison-operators-in-trait-builder}
 
 Cet article décrit les opérateurs de comparaison utilisés par [!UICONTROL Trait Builder].
 
@@ -59,5 +59,5 @@ Vous pouvez créer des règles avec les opérateurs nommés suivants :
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
 >* [Présentation des Expressions booléennes dans TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Ordre des opérations dans les Expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
->* [Exemples d&#39;Expressions avec opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
+>* [Exemple d’expressions avec des opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
 
