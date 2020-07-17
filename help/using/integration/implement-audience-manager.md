@@ -1,21 +1,21 @@
 ---
 description: Cette section décrit et explique les processus liés à la prise en main de la plate-forme de data Management d'Audience Manager (DMP). Cette section est conçue pour aider les équipes d'entreprise, les gestionnaires de projets et les gestionnaires de la technologie à comprendre le processus de mise en oeuvre des Audiences Manager. La prise en main de l’Audience Manager peut prendre environ six semaines à trois mois, en fonction de vos besoins de collecte de données.
 seo-description: Cette section décrit et explique les processus liés à la prise en main de la plate-forme de data Management d'Audience Manager (DMP). Cette section est conçue pour aider les équipes d'entreprise, les gestionnaires de projets et les gestionnaires de la technologie à comprendre le processus de mise en oeuvre des Audiences Manager. La prise en main de l’Audience Manager peut prendre environ six semaines à trois mois, en fonction de vos besoins de collecte de données.
-seo-title: Mise en oeuvre de l’Audience Manager
+seo-title: Implémentation d’Audience Manager
 solution: Audience Manager
-title: Mise en oeuvre de l’Audience Manager
+title: Implémentation d’Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Mise en oeuvre de l’Audience Manager {#implementing-audience-manager}
+# Implémentation d’Audience Manager {#implementing-audience-manager}
 
 Cette section décrit et explique les processus liés à la prise en main de la plateforme de data Management d&#39;Audience Manager ([!DNL DMP]). Cette section est conçue pour aider les équipes d&#39;entreprise, les gestionnaires de projets et les gestionnaires de la technologie à comprendre le processus de mise en oeuvre des Audiences Manager. La prise en main de l’Audience Manager peut prendre environ six semaines à trois mois, en fonction de vos besoins de collecte de données.
 
