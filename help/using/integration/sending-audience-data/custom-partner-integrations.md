@@ -1,20 +1,20 @@
 ---
 description: Cette page répertorie les intégrations personnalisées entre Audience Manager et les partenaires de données.
 seo-description: Cette page répertorie les intégrations personnalisées entre Audience Manager et les partenaires de données.
-seo-title: Intégrations de partenaires personnalisées
+seo-title: Intégrations personnalisées des partenaires
 solution: Audience Manager
-title: Intégrations de partenaires personnalisées
+title: Intégrations personnalisées des partenaires
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
 
-# Intégrations de partenaires personnalisées {#custom-partner-integrations}
+# Intégrations personnalisées des partenaires {#custom-partner-integrations}
 
 Cette page répertorie les intégrations personnalisées entre Audience Manager et les partenaires de données.
 
