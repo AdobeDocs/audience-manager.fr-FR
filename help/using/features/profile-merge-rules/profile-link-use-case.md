@@ -1,21 +1,21 @@
 ---
 description: Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le graphique de périphérique Lien de Profil.
 seo-description: Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le graphique de périphérique Lien de Profil.
-seo-title: Cas d'utilisation du graphique de Profil Link
+seo-title: Cas d’utilisation des représentations graphiques des appareils Profile Link
 solution: Audience Manager
-title: Cas d'utilisation du graphique de Profil Link
+title: Cas d’utilisation des représentations graphiques des appareils Profile Link
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Cas d&#39;utilisation du graphique de Profil Link {#profile-link-device-graph-use-cases}
+# Cas d’utilisation des représentations graphiques des appareils Profile Link {#profile-link-device-graph-use-cases}
 
 Recommandations et cas d’utilisation pour le reciblage de segments et la qualification de segment personnalisée avec le [!UICONTROL Profile Link Device Graph].
 
@@ -49,7 +49,7 @@ Cela [!UICONTROL Profile Merge Rule] permet aux spécialistes du marketing de fo
 
 >[!MORELIKETHIS]
 >
->* [Cas d’utilisation graphiques des périphériques externes](external-graph-use-cases.md)
->* [Cas d’utilisation généraux des règles de fusion de Profils](merge-rule-targeting-options.md)
+>* [Cas d’utilisation des représentations graphiques externes des appareils](external-graph-use-cases.md)
+>* [Cas d’utilisation généraux des stratégies de fusion de profils](merge-rule-targeting-options.md)
 >* [FAQ sur les règles de fusion de Profils](../../faq/faq-profile-merge.md)
 
