@@ -1,9 +1,9 @@
 ---
 description: Listes et décrit la syntaxe et les attributs pris en charge (ou paires clé-valeur) que vous pouvez transmettre aux serveurs de collecte de données (DCS). Ces informations peuvent vous aider à formater vos requêtes DCS et à comprendre les paramètres renvoyés par ce système.
 seo-description: Listes et décrit la syntaxe et les attributs pris en charge (ou paires clé-valeur) que vous pouvez transmettre aux serveurs de collecte de données (DCS). Ces informations peuvent vous aider à formater vos requêtes DCS et à comprendre les paramètres renvoyés par ce système.
-seo-title: Attributs pris en charge pour les appels d’API DCS
+seo-title: Attributs pris en charge pour les appels de l’API DCS
 solution: Audience Manager
-title: Attributs pris en charge pour les appels d’API DCS
+title: Attributs pris en charge pour les appels de l’API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -123,7 +123,7 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Indique l’ID d’Experience Cloud défini et utilisé par le service d’ID d’ <span class="keyword"> Experience Cloud</span> . Pour plus d’informations sur l’ECID, voir <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et Service</a>d’identité Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>Indique l’ID d’Experience Cloud défini et utilisé par le service d’ID d’ <span class="keyword"> Experience Cloud</span> . Pour plus d’informations sur l’ECID, voir <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et Service</a>d’identité Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
