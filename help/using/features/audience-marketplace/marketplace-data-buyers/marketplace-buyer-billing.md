@@ -1,9 +1,9 @@
 ---
 description: Les acheteurs de données d’Audience Marketplace s’engagent à signaler toutes les impressions publicitaires diffusées en utilisant les caractéristiques contenues dans le flux de données, dont le prix est fixé par millier d’impressions publicitaires (CPM). L'utilisation du CPM est due le 5ème jour de chaque mois calendaire et inclut les données du mois précédent. Les abonnés à des frais fixes n'ont pas besoin de signaler l'utilisation.
 seo-description: Les acheteurs de données d’Audience Marketplace s’engagent à signaler toutes les impressions publicitaires diffusées en utilisant les caractéristiques contenues dans le flux de données, dont le prix est fixé par millier d’impressions publicitaires (CPM). L'utilisation du CPM est due le 5ème jour de chaque mois calendaire et inclut les données du mois précédent. Les abonnés à des frais fixes n'ont pas besoin de signaler l'utilisation.
-seo-title: Facturation pour les acheteurs de flux de données
+seo-title: Facturation des acheteurs de flux de données
 solution: Audience Manager
-title: Facturation pour les acheteurs de flux de données
+title: Facturation des acheteurs de flux de données
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Facturation pour les acheteurs de flux de données {#billing-for-data-feed-buyers}
+# Facturation des acheteurs de flux de données {#billing-for-data-feed-buyers}
 
 Les acheteurs de données d’Audience Marketplace acceptent de signaler toutes les impressions publicitaires diffusées en utilisant les caractéristiques contenues dans le flux de données, dont le prix est fixé par millier d’impressions publicitaires ([!DNL CPM]). [!DNL CPM] l’utilisation est due le 5e jour de chaque mois calendaire et inclut les données du mois précédent. Les abonnés à des frais fixes n&#39;ont pas besoin de signaler l&#39;utilisation.
 
@@ -181,7 +181,7 @@ Lorsque vous [signalez l’utilisation du CPM au niveau](#feed-level-report)du f
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> ET</span> </p> </td> 
    <td colname="col2"> <p>Appliquez 100 % des totaux d’impression distribués à toutes les caractéristiques du fournisseur dans un segment basé sur des règles qui utilise une condition Boolean <span class="wintitle"> AND</span> . </p> </td> 
   </tr> 
   <tr> 
