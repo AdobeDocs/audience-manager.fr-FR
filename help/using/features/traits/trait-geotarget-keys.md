@@ -1,21 +1,21 @@
 ---
 description: Décrit les paires clé-valeur communes au niveau de la plateforme que vous pouvez utiliser pour cible les utilisateurs avec des variables géographiques sur toutes les propriétés de votre compte d’Audience Manager.
 seo-description: Décrit les paires clé-valeur communes au niveau de la plateforme que vous pouvez utiliser pour cible les utilisateurs avec des variables géographiques sur toutes les propriétés de votre compte d’Audience Manager.
-seo-title: Géociblage avec des clés de niveau Platform
+seo-title: Géociblage à l’aide de clés au niveau des plateformes
 solution: Audience Manager
-title: Géociblage avec des clés de niveau Platform
+title: Géociblage à l’aide de clés au niveau des plateformes
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
+# Géociblage à l’aide de clés au niveau des plateformes {#geotargeting-with-platform-level-keys}
 
 Décrit les paires clé-valeur communes au niveau de la plateforme que vous pouvez utiliser pour cible les utilisateurs avec des variables géographiques sur toutes les propriétés de votre compte d’Audience Manager.
 
@@ -58,5 +58,5 @@ La liste de [tous les signaux](assets/all.txt) basés sur l&#39;emplacement comp
 
 >[!MORELIKETHIS]
 >
->* [Préfixe requis pour les variables clés](../../features/traits/trait-variable-prefixes.md)
+>* [Exigences de préfixe pour les variables clés](../../features/traits/trait-variable-prefixes.md)
 
