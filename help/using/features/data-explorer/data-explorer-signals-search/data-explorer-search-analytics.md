@@ -1,20 +1,20 @@
 ---
 description: Les clients Audiences Manager qui utilisent également Adobe Analytics peuvent tirer parti de l’intégration étroite entre les deux solutions en activant l’option Recherche avancée pour Adobe Analytics.
 seo-description: Les clients Audiences Manager qui utilisent également Adobe Analytics peuvent tirer parti de l’intégration étroite entre les deux solutions en activant l’option Recherche avancée pour Adobe Analytics.
-seo-title: Recherche avancée pour Adobe Analytics
-title: Recherche avancée pour Adobe Analytics
+seo-title: Recherche avancée dans Adobe Analytics
+title: Recherche avancée dans Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Recherche avancée pour Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Recherche avancée dans Adobe Analytics {#advanced-search-for-adobe-analytics}
 
 Les clients Audiences Manager qui utilisent également [!DNL Adobe Analytics] peuvent tirer parti de l’intégration étroite entre les deux solutions en activant l’ [!UICONTROL Advanced Search for Adobe Analytics] option.
 
