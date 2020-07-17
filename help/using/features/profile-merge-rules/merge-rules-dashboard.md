@@ -1,25 +1,25 @@
 ---
 description: Créez et gérez toutes vos règles de fusion à partir du tableau de bord. Vous pouvez créer un maximum de 4 règles de fusion de Profils.
 seo-description: Créez et gérez toutes vos règles de fusion à partir du tableau de bord. Vous pouvez créer un maximum de 4 règles de fusion de Profils.
-seo-title: Tableau de bord de règles de fusion de Profil
+seo-title: Tableau de bord des stratégies de fusion de profils
 solution: Audience Manager
-title: Tableau de bord de règles de fusion de Profil
+title: Tableau de bord des stratégies de fusion de profils
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Tableau de bord de règles de fusion de Profil {#profile-merge-rules-dashboard}
+# Tableau de bord des stratégies de fusion de profils {#profile-merge-rules-dashboard}
 
-Créez et gérez toutes vos règles de fusion à partir du tableau de bord. Vous pouvez créer un maximum de 4 [!UICONTROL Profile Merge Rules].
+Créez et gérez toutes vos règles de fusion à partir du tableau de bord. You can create a maximum of 4 [!UICONTROL Profile Merge Rules].
 
-La quatrième règle de fusion du Profil ([!UICONTROL All Cross-Device Profiles]) n’est disponible que pour les clients qui achètent le [!UICONTROL People-Based Destinations] module complémentaire.
+La quatrième stratégie de fusion de profils ([!UICONTROL All Cross-Device Profiles]) est réservée aux clients qui ont acheté le module complémentaire [!UICONTROL People-Based Destinations].
 
 Le [!UICONTROL Profile Merge Rules] tableau de bord fournit un espace de travail unifié qui vous permet de gérer votre [!UICONTROL Profile Merge Rules]espace de travail. Le tableau de bord se trouve sous **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. Votre tableau de bord de règles peut ressembler à l’exemple ci-dessous.
 
