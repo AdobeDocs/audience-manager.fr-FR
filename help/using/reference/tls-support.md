@@ -1,21 +1,21 @@
 ---
 description: 'Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l''intégrité de l''information transmise entre les systèmes. En mai 2018, il y avait trois versions du protocole TLS en cours d''utilisation : TLS 1.0, 1.1 et 1.2.'
 seo-description: 'Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l''intégrité de l''information transmise entre les systèmes. En mai 2018, il y avait trois versions du protocole TLS en cours d''utilisation : TLS 1.0, 1.1 et 1.2.'
-seo-title: Dépréciation de TLS 1.0 et 1.1
+seo-title: Dépréciation de TLS 1.0 et 1.1
 solution: Audience Manager
-title: Dépréciation de TLS 1.0 et 1.1
+title: Dépréciation de TLS 1.0 et 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
 
-# Dépréciation de TLS 1.0 et 1.1{#tls-deprecation}
+# Dépréciation de TLS 1.0 et 1.1{#tls-deprecation}
 
 Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l&#39;intégrité de l&#39;information transmise entre les systèmes. En mai 2018, trois versions du protocole TLS étaient utilisées : TLS 1.0, 1.1 et 1.2.
 
