@@ -1,21 +1,21 @@
 ---
 description: Pour plus d'informations sur la façon de demander une réponse DCS dans un appel /événement, consultez la section. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
 seo-description: Pour plus d'informations sur la façon de demander une réponse DCS dans un appel /événement, consultez la section. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
-seo-title: Recevoir les données du serveur de collecte de données
+seo-title: Réception de données du DCS
 solution: Audience Manager
-title: Recevoir les données du serveur de collecte de données
+title: Réception de données du DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Recevoir les données du serveur de collecte de données {#receive-data-from-the-dcs}
+# Réception de données du DCS {#receive-data-from-the-dcs}
 
 Pour plus d&#39;informations sur la façon de demander une [!DNL DCS] réponse dans un `/event` appel, consultez la rubrique ici. Cette section comprend un exemple de réponse et des définitions pour les éléments de données courants dans une réponse.
 
@@ -57,7 +57,7 @@ Le tableau ci-dessous liste et définit les paramètres les plus courants que vo
 | `cv` | Les valeurs envoyées à la destination définie par le paramètre &quot;cn&quot;:&quot; nom de destination. |
 | `dcs_region` | Appels [DCS](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)serveur à serveur. |
 | `dests` | Cet objet contient des informations pour toutes les destinations URL configurées dans l’interface utilisateur. La liste de cet objet est dynamique en fonction des actions de l’utilisateur. |
-| `dmn` | Il s’agit du domaine spécifié dans le champ Domaine du cookie pour une destination de cookie. Voir Paramètres [facultatifs pour les destinations](../../../features/destinations/cookie-destination-options.md)de cookies.  Pour les intégrations serveur à serveur, nous vous recommandons d’utiliser un domaine comme `aam-api.com`. |
+| `dmn` | Il s’agit du domaine spécifié dans le champ Domaine du cookie pour une destination de cookie. See [Optional Settings for Cookie Destinations](../../../features/destinations/cookie-destination-options.md).  Pour les intégrations serveur à serveur, nous vous recommandons d’utiliser un domaine comme `aam-api.com`. |
 | `e` | URL sécurisée définie dans une destination d’URL. |
 | `stuff` | Cet objet contient des informations pour toutes les destinations de cookie. La liste de cet objet est dynamique en fonction des actions de l’utilisateur. |
 | `tid` | ID de transaction, qui est un identifiant unique de 12 caractères utilisé à des fins de débogage. Chaque appel /événement au serveur de collecte de données reçoit un appel que vous pouvez référencer dans les demandes d&#39;assistance pour obtenir une réponse plus rapide et plus efficace. |
