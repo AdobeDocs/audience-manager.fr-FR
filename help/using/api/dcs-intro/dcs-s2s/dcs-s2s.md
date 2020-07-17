@@ -1,21 +1,21 @@
 ---
 description: Les API de serveur à serveur (S2S) fournissent du code et des méthodes qui vous permettent d’envoyer et de recevoir des données utilisateur DCS et de travailler avec ces informations sur vos propres systèmes ou applications.
 seo-description: Les API de serveur à serveur (S2S) fournissent du code et des méthodes qui vous permettent d’envoyer et de recevoir des données utilisateur DCS et de travailler avec ces informations sur vos propres systèmes ou applications.
-seo-title: API DCS pour les transferts de données serveur à serveur
+seo-title: API DCS pour les transferts de données de serveur à serveur
 solution: Audience Manager
-title: API DCS pour les transferts de données serveur à serveur
+title: API DCS pour les transferts de données de serveur à serveur
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# API DCS pour les transferts de données serveur à serveur{#dcs-apis-for-server-to-server-data-transfers}
+# API DCS pour les transferts de données de serveur à serveur{#dcs-apis-for-server-to-server-data-transfers}
 
 Les serveurs à serveur ([!UICONTROL S2S]) [!DNL API]fournissent le code et les méthodes qui vous permettent d’envoyer et de recevoir des données [!DNL DCS] utilisateur et de travailler avec ces informations dans vos propres systèmes ou applications.
 
@@ -44,11 +44,11 @@ Actuellement, ce guide traite de la façon suivante :
 
 Nous ajouterons de nouvelles méthodes dès qu&#39;elles seront disponibles. Consultez les sections suivantes pour commencer.
 
-* [Obtention des ID utilisateur et des régions à partir d’une réponse DCS](dcs-aam-ids.md)
+* [Obtention des identifiants et des régions à partir d’une réponse DCS](dcs-aam-ids.md)
 * [Obtenir les ID d&#39;utilisateur et les régions par l&#39;intermédiaire de l&#39;ID d&#39;Experience Cloud...](dcs-mcid-ids.md)
-* [Exécution d’appels d’API DCS serveur à serveur](dcs-s2s-calls.md)
+* [Lancement d’appels d’API DCS serveur à serveur](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >
->* [Référence de l’API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [Référence d’API DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
