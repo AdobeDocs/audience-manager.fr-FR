@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Architecture Platform : Carte du flux de données{#platform-architecture-data-flow-map}
+# Architecture de Platform : map des flux de données{#platform-architecture-data-flow-map}
 
 Cette carte contient les principaux systèmes d&#39;Audience Manager. Il représente visuellement la manière dont les données s’enchaînent dans, en dehors et entre les composants d’Audience Manager.
 
-## Comment lire ce mappage {#compmap}
+## How to read this map {#compmap}
 
 <!-- 
 
