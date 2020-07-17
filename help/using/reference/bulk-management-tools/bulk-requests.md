@@ -1,21 +1,21 @@
 ---
 description: Une requête en bloc renvoie des données que vous pouvez utiliser avec les différents en-têtes des feuilles de calcul Mettre à jour, Créer, Estimer et Supprimer.
 seo-description: Une requête en bloc renvoie des données que vous pouvez utiliser avec les différents en-têtes des feuilles de calcul Mettre à jour, Créer, Estimer et Supprimer.
-seo-title: Demandes en masse
+seo-title: Demandes en bloc
 solution: Audience Manager
-title: Demandes en masse
+title: Demandes en bloc
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Demandes en masse{#bulk-requests}
+# Demandes en bloc{#bulk-requests}
 
 Une requête en bloc renvoie des données que vous pouvez utiliser avec les différents en-têtes des feuilles de calcul Mettre à jour, Créer, Estimer et Supprimer.
 
@@ -41,8 +41,9 @@ Pour effectuer des requêtes en masse, ouvrez la [!UICONTROL Bulk Management Too
    * Signaux dérivés
    * Mappages de destination
    * Caractéristiques algorithmiques, basées sur des règles et intégrées
-   * Segments
+   * Segments 
    * ID des dossiers de caractéristiques et de segments
+
    L&#39; [!DNL Audience Manager] API réécrit les données en vrac dans la [!UICONTROL Request] feuille de calcul.
 
 >[!NOTE]
