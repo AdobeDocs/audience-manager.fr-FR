@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque l
 
 ## Métadonnées du nom de fichier {#file-name-metadata}
 
-Le tableau suivant décrit les conventions d’attribution de noms de fichiers et les extensions de fichiers utilisées dans un fichier .csv de chevauchement. In the examples, *italics* indicates a variable placeholder.
+Le tableau suivant décrit les conventions d’attribution de noms de fichiers et les extensions de fichiers utilisées dans un fichier .csv de chevauchement. Dans les exemples, le texte en *italique* indique un espace réservé de variable.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
