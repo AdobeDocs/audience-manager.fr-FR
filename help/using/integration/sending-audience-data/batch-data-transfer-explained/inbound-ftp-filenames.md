@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# [!DNL FTP] Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants {#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP]Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers que vous devez respecter lors de l’envoi de données à [!DNL Audience Manager]. Définissez les noms et les tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données à un [!DNL FTP] répertoire d’Audiences Manager.
 
 >[!WARNING]
 >
->Nous supprimons progressivement la prise en charge des [!DNL FTP] configurations. Bien que l’assimilation de fichiers de données entrants soit toujours prise en charge dans les [!DNL FTP] intégrations existantes, nous vous recommandons vivement [!DNL Amazon S3] d’utiliser les données hors ligne intégrées pour les nouvelles intégrations. Pour plus d’informations, voir Exigences en matière de nom et de taille de fichier [Amazon S3 pour les fichiers](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de données entrants.
+>We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Pour plus d’informations, consultez [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Gzip est le format de compression autorisé pour un nom de fichier FTP. Si vous utilisez la compression de fichier, assurez-vous que le nom de fichier possède l’extension appropriée. </p> <p>Les fichiers compressés doivent être de 3 Go ou moins. Si vos fichiers sont plus volumineux, contactez le service d’assistance clientèle. Bien que l'Audience Manager puisse gérer des fichiers volumineux, nous pouvons vous aider à réduire la taille de vos fichiers et à rendre les transferts de données plus efficaces. Voir <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Compression de fichiers pour les fichiers</a> de transfert de données entrants. </p> </td> 
+   <td colname="col2"> <p>Gzip est le format de compression autorisé pour un nom de fichier FTP. Si vous utilisez la compression de fichier, assurez-vous que le nom de fichier possède l’extension appropriée. </p> <p>Les fichiers compressés doivent être de 3 Go ou moins. Si vos fichiers sont plus volumineux, contactez le service d’assistance clientèle. Bien que l'Audience Manager puisse gérer des fichiers volumineux, nous pouvons vous aider à réduire la taille de vos fichiers et à rendre les transferts de données plus efficaces. Voir <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Compression de fichiers pour les fichiers de transfert de données entrants</a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
