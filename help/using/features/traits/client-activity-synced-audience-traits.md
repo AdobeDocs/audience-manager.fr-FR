@@ -1,21 +1,21 @@
 ---
 description: Ce sont des caractéristiques spéciales utilisées par les Audiences adressables. Les caractéristiques synchronisées des sources de données et d’Audience actives se trouvent dans Audience Data > Traits > Caractéristiques de l’Audience.
 seo-description: Ce sont des caractéristiques spéciales utilisées par les Audiences adressables. Les caractéristiques synchronisées des sources de données et d’Audience actives se trouvent dans Audience Data > Traits > Caractéristiques de l’Audience.
-seo-title: Caractéristiques d’Audience actives et caractéristiques synchronisées de la source de données
+seo-title: Caractéristiques d’audience active et caractéristiques synchronisées de sources de données
 solution: Audience Manager
-title: Caractéristiques d’Audience actives et caractéristiques synchronisées de la source de données
+title: Caractéristiques d’audience active et caractéristiques synchronisées de sources de données
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Caractéristiques d’Audience actives et caractéristiques synchronisées de la source de données {#active-audience-traits-and-data-source-synced-traits}
+# Caractéristiques d’audience active et caractéristiques synchronisées de sources de données {#active-audience-traits-and-data-source-synced-traits}
 
 Il s&#39;agit de caractères spéciaux utilisés par [!UICONTROL Addressable Audiences]les auteurs. [!UICONTROL Active Audience] et [!UICONTROL Data Source Synced Traits] se trouvent dans [!UICONTROL Audience Data > Traits > Audience Traits].
 
