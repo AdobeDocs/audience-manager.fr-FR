@@ -1,21 +1,21 @@
 ---
 description: Les feuilles de calcul de création et de mise à jour acceptent un en-tête traitRule qui vous permet d’appliquer plusieurs règles en une seule opération. Suivez ces instructions pour effectuer des demandes de règle en bloc.
 seo-description: Les feuilles de calcul de création et de mise à jour acceptent un en-tête traitRule qui vous permet d’appliquer plusieurs règles en une seule opération. Suivez ces instructions pour effectuer des demandes de règle en bloc.
-seo-title: Créer ou mettre à jour des règles de caractéristiques et des règles de segment
+seo-title: Création ou mise à jour de règles de caractéristiques et de segments
 solution: Audience Manager
-title: Créer ou mettre à jour des règles de caractéristiques et des règles de segment
+title: Création ou mise à jour de règles de caractéristiques et de segments
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Créer ou mettre à jour des règles de caractéristiques et des règles de segment{#create-or-update-trait-rules-and-segment-rules}
+# Création ou mise à jour de règles de caractéristiques et de segments{#create-or-update-trait-rules-and-segment-rules}
 
 Les feuilles de calcul de création et de mise à jour acceptent un en-tête traitRule qui vous permet d’appliquer plusieurs règles en une seule opération. Suivez ces instructions pour effectuer des demandes de règle en bloc.
 
@@ -59,6 +59,6 @@ Vous pouvez écrire vos propres règles en dehors de [!UICONTROL Rule Builder]. 
 
 * [Utilisation D’Opérateurs De Comparaison Dans Le Créateur De Caractéristiques](../../features/traits/trait-comparison-operators.md)
 * [Ordre des opérations](../../features/traits/trait-operator-precedence.md)
-* [Préfixe requis pour les variables clés](../../features/traits/trait-variable-prefixes.md)
-* [Exemples d&#39;Expressions avec opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
+* [Exigences de préfixe pour les variables clés](../../features/traits/trait-variable-prefixes.md)
+* [Exemple d’expressions avec des opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
 
