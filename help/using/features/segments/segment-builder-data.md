@@ -1,16 +1,16 @@
 ---
 description: Ajoutez et supprimez des caractéristiques dans le créateur de segments afin d’afficher les populations de caractéristiques réelles ainsi que les données de population de segments réelles et estimées. Les données de taille de population estimée vous aident à créer le segment approprié pour votre campagne.
 seo-description: Ajoutez et supprimez des caractéristiques dans le créateur de segments afin d’afficher les populations de caractéristiques réelles ainsi que les données de population de segments réelles et estimées. Les données de taille de population estimée vous aident à créer le segment approprié pour votre campagne.
-seo-title: Données de population de caractéristiques et de segments dans le créateur de segments
+seo-title: Données sur la population de segment et les caractéristiques dans le créateur de segments
 solution: Audience Manager
-title: Données de population de caractéristiques et de segments dans le créateur de segments
+title: Données sur la population de segment et les caractéristiques dans le créateur de segments
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -88,7 +88,7 @@ Le tableau suivant définit les mesures de population estimées.
 
 ## Définition des données de population de segments existantes (réelles) {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] ont une incidence sur le nombre réel de personnes en temps réel et sur le nombre total de personnes. Ces totaux varient selon que le [!UICONTROL Profile Merge Rule] segment appartient ou non à une option de graphique de périphérique. Voir aussi Définition [des options de règle de fusion](../../features/profile-merge-rules/merge-rule-definitions.md)de Profil.
+[!UICONTROL Profile Merge Rules] ont une incidence sur le nombre réel de personnes en temps réel et sur le nombre total de personnes. Ces totaux varient selon que le [!UICONTROL Profile Merge Rule] segment appartient ou non à une option de graphique de périphérique. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
 ### Segmenter les données de population pour [!UICONTROL Merge Rules] sans [!UICONTROL Device Graph Option]
 
@@ -137,6 +137,6 @@ Actuellement, il existe une limite connue, car notre estimateur de taille de seg
 
 >[!MORELIKETHIS]
 >
->* [FAQ sur les règles de fusion de Profils et le graphique de périphériques](../../faq/faq-profile-merge.md)
->* [Profile Link](../profile-merge-rules/merge-rules-overview.md)
+>* [FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils](../../faq/faq-profile-merge.md)
+>* [Profile Link](../profile-merge-rules/merge-rules-overview.md)
 
