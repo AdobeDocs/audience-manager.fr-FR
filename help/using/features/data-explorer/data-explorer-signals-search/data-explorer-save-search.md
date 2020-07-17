@@ -1,20 +1,20 @@
 ---
 description: Optimisez les efforts de recherche de signaux en enregistrant jusqu’à 10 jeux de critères de recherche à utiliser chaque fois que vous en avez besoin et en effectuant un suivi sur le Tableau de bord. Audience Manager recharge les recherches enregistrées chaque fois que vous chargez le Tableau de bord.
 seo-description: Optimisez les efforts de recherche de signaux en enregistrant jusqu’à 10 jeux de critères de recherche à utiliser chaque fois que vous en avez besoin et en effectuant un suivi sur le Tableau de bord. Audience Manager recharge les recherches enregistrées chaque fois que vous chargez le Tableau de bord.
-seo-title: Enregistrer les critères de recherche
-title: Enregistrer les critères de recherche
+seo-title: Enregistrement des critères de recherche
+title: Enregistrement des critères de recherche
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Enregistrer les critères de recherche {#save-search-criteria}
+# Enregistrement des critères de recherche {#save-search-criteria}
 
 Optimisez les efforts de recherche de signaux en enregistrant jusqu’à 10 jeux de critères de recherche à utiliser chaque fois que vous en avez besoin et en effectuant un suivi sur la page [!UICONTROL Signals Dashboard]. Audience Manager recharge les recherches enregistrées chaque fois que vous chargez le [!UICONTROL Signals Dashboard].
 
