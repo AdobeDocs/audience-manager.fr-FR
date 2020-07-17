@@ -2,21 +2,21 @@
 description: Présentation destinée aux clients techniques et non techniques qui souhaitent mettre en Audience Manager des données provenant d’autres systèmes (hors ligne).
 keywords: inbound, batch, batch upload, batch data
 seo-description: Présentation destinée aux clients techniques et non techniques qui souhaitent mettre en Audience Manager des données provenant d’autres systèmes (hors ligne). Pour ce faire, utilisez l’option de téléchargement par lot dans l’Audience Manager.
-seo-title: Présentation de l'envoi de données par lots à l'Audience Manager
+seo-title: Présentation de l’envoi de données par lots vers Audience Manager
 solution: Audience Manager
-title: Présentation de l'envoi de données par lots à l'Audience Manager
+title: Présentation de l’envoi de données par lots vers Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Envoyer les données du lot à [!DNL Audience Manager] la présentation {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 Présentation destinée aux clients techniques et non techniques qui souhaitent importer des données d’autres systèmes (hors ligne) dans [!DNL Audience Manager].
 
