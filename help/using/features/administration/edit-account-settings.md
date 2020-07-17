@@ -1,9 +1,9 @@
 ---
 description: Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
 seo-description: Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
-seo-title: Modifier les paramètres de votre compte
+seo-title: Modification des paramètres de votre compte
 solution: Audience Manager
-title: Modifier les paramètres de votre compte
+title: Modification des paramètres de votre compte
 topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
 feature: Administration
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Modifier les paramètres de votre compte {#edit-your-account-settings}
+# Modification des paramètres de votre compte {#edit-your-account-settings}
 
 Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
 
