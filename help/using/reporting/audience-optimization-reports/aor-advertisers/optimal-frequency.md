@@ -1,9 +1,9 @@
 ---
 description: Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
 seo-description: Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
-seo-title: 'Rapport sur les fréquences optimales '
+seo-title: Rapport sur les fréquences optimales
 solution: Audience Manager
-title: 'Rapport sur les fréquences optimales '
+title: Rapport sur les fréquences optimales
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Rapport sur les fréquences optimales {#optimal-frequency-report}
+# Rapport sur les fréquences optimales{#optimal-frequency-report}
 
 Le rapport Fréquence optimale vous permet de découvrir l’équilibre optimal entre le nombre d’impressions et de conversions diffusées. Il vous permet d’ajuster le nombre d’impressions que vous souhaitez afficher avant de commencer à voir des retours décroissants.
 
