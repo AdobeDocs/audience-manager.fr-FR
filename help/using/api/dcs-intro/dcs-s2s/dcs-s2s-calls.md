@@ -1,19 +1,19 @@
 ---
-seo-title: Exécution d’appels d’API DCS serveur à serveur
+seo-title: Lancement d’appels d’API DCS serveur à serveur
 solution: Audience Manager
-title: Exécution d’appels d’API DCS serveur à serveur
+title: Lancement d’appels d’API DCS serveur à serveur
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 
-# Exécution d’appels d’API DCS serveur à serveur {#making-server-to-server-dcs-api-calls}
+# Lancement d’appels d’API DCS serveur à serveur {#making-server-to-server-dcs-api-calls}
 
 Les appels nécessitent le nom d’hôte du serveur DCS régional et l’ID utilisateur. Si vous ne disposez pas des ID utilisateur et de région requis, voir [Obtenir des ID utilisateur et des régions à partir d’une réponse](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) DCS et/ou d’un [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Une fois que vous disposez d’ID d’utilisateur et de région, vous pouvez lancer des appels serveur à serveur au serveur de collecte de données. Reportez-vous à cette section pour connaître la syntaxe et les exemples.
 
@@ -50,7 +50,7 @@ Un exemple d’appel ressemble à l’exemple suivant.
    <td colname="col2"> <p>Cette partie de l'appel contient : </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Votre alias de domaine attribué par <span class="keyword"> Audience Manager</span> (par ex. <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Le domaine de destination, qui est toujours <i><code> demdex.net</code></i>défini. Voir <a href="../../../reference/demdex-calls.md">Signification des appels vers le domaine Demdex</a> (Understanding Calls to the Demdex Domain). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Le domaine de destination, qui est toujours <i><code> demdex.net</code></i>défini. Voir <a href="../../../reference/demdex-calls.md">Signification des appels vers le domaine Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -87,4 +87,4 @@ Un exemple d’appel ressemble à l’exemple suivant.
 
 ## Exemple de réponse {#sample-response}
 
-Voir [Réception de données à partir du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
