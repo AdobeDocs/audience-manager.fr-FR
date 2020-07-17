@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -667,7 +667,7 @@ dil-use-cors-only.xml
 
  -->
 
-**Aperçu**
+**Présentation**
 
 `useCORSOnly` est définie sur false par défaut. False signifie que le navigateur peut effectuer des vérifications de ressources avec CORS ou JSONP. Cependant, [!UICONTROL DIL] toujours essaie de demander des ressources avec CORS en premier. Il revient à JSONP sur les navigateurs plus anciens qui ne prennent pas en charge CORS. Si vous devez forcer le navigateur à utiliser uniquement CORS, par exemple pour les sites présentant des exigences de sécurité élevées, définissez `useCORSOnly:true`.
 
@@ -684,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* Nous vous recommandons de définir `useCORSOnly: true` uniquement lorsque vous êtes certain que les visiteurs de votre site disposent de navigateurs prenant en charge cette fonctionnalité.
 >* Quand `useCORSOnly: true`, [!UICONTROL DIL] ne lancera pas d’appels d’ID à partir d’Internet Explorer version 9 ou ultérieure.
+
 >
 
 
@@ -722,7 +723,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [Exigences de nom pour les variables clés](../features/traits/trait-key-name-requirements.md)
->* [Préfixe requis pour les variables clés](../features/traits/trait-variable-prefixes.md)
+>* [Exigences de préfixe pour les variables clés](../features/traits/trait-variable-prefixes.md)
 >* [Fonctions de synchronisation dans Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [Création DIL](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform Identity Service : UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
