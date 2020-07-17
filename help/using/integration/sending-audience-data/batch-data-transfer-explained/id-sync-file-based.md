@@ -135,7 +135,7 @@ Compte tenu du nom et du contenu de l’exemple, les identifiants correspondent 
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l&#39;étape 1 avec l&#39;Audience Manager [!DNL UUID]s. Cette synchronisation des identifiants permettra de synchroniser les [!DNL DPUUID]s de [!DNL DPID] 67890 avec les Audiences Manager [!DNL UUID]de l’étape 1.
+Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l&#39;étape 1 avec l&#39;Audience Manager [!DNL UUID]s. Cette synchronisation des identifiants permettra de synchroniser les [!DNL DPUUID]s à partir du [!DNL DPID] 67890 avec les Audiences Manager [!DNL UUID]à partir de l’étape 1.
 
 <br/>
 
