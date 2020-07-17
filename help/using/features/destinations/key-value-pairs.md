@@ -1,21 +1,21 @@
 ---
 description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
 seo-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
-seo-title: Paires de valeurs clés standard et série
+seo-title: Paires clé-valeur standard et de série
 solution: Audience Manager
-title: Paires de valeurs clés standard et série
+title: Paires clé-valeur standard et de série
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Paires de valeurs clés standard et série {#standard-and-serial-key-value-pairs}
+# Paires clé-valeur standard et de série {#standard-and-serial-key-value-pairs}
 
 Une paire clé-valeur se compose d’éléments connexes : Une clé, qui est une constante qui définit l&#39;ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l&#39;ensemble (par exemple, mâle/femelle, vert, 100). [!UICONTROL Destination Builder] envoie des données formatées en paires clé-valeur.
 
@@ -27,7 +27,7 @@ Entièrement formé, un ensemble de base de paires clé-valeur peut ressembler �
 * `color = green`
 * `price > 100`
 
-## Paires de valeurs clés standard et série {#standard-serial-key-value-pairs}
+## Paires clé-valeur standard et de série {#standard-serial-key-value-pairs}
 
 Les destinations acceptent les données de valeur clé dans *`standard`* ou *`serialized`* le format.
 
