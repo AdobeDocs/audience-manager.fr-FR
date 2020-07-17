@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -37,7 +37,7 @@ Pour en savoir plus sur [!UICONTROL Look-Alike Modeling]cette méthode, voir [Co
 
 [!UICONTROL Predictive Audiences] permet de classer une audience inconnue en différentes personnes, en temps réel, à l’aide de techniques avancées de science des données.
 
-Dans un contexte marketing, une personne est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels, qui partagent un ensemble spécifique de caractéristiques, telles que la démographie, les habitudes de navigation, l’historique des achats, etc.
+Dans un contexte marketing, une persona est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels qui partagent un ensemble spécifique de caractéristiques comme des données démographiques, des habitudes de navigation, un historique des achats, etc.
 
 [!UICONTROL Predictive Audiences] les modèles poussent ce concept encore plus loin, en utilisant les capacités d&#39;apprentissage automatique des Audiences Manager pour classer automatiquement les audiences inconnues en personnes distinctes. L&#39;Audience Manager y parvient en calculant la propension de votre audience inconnue à un ensemble d&#39;audiences connues.
 
