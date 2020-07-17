@@ -1,21 +1,21 @@
 ---
 description: Résumé de la méthodologie d'échantillonnage utilisée pour certains rapports, taux d'erreurs d'échantillonnage et liste de rapports qui renvoient des informations basées sur des données échantillonnées.
 seo-description: Résumé de la méthodologie d'échantillonnage utilisée pour certains rapports, taux d'erreurs d'échantillonnage et liste de rapports qui renvoient des informations basées sur des données échantillonnées.
-seo-title: Échantillonnage de données et taux d'erreur dans les rapports d'Audience Manager sélectionnés
+seo-title: Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés
 solution: Audience Manager
-title: Échantillonnage de données et taux d'erreur dans les rapports d'Audience Manager sélectionnés
+title: Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
 
-# Échantillonnage de données et taux d&#39;erreur dans les rapports d&#39;Audience Manager sélectionnés{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Résumé de la méthodologie d&#39;échantillonnage utilisée pour certains rapports, taux d&#39;erreurs d&#39;échantillonnage et liste de rapports qui renvoient des informations basées sur des données échantillonnées.
 
