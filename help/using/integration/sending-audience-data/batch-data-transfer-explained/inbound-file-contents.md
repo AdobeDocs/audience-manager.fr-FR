@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# Contenu du fichier de données entrantes : Syntaxe, caractères non valides, variables et exemples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et exemples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Champs, syntaxe et règles obligatoires que vous devez suivre lors du formatage d’un fichier de données de caractéristiques entrant.
 
@@ -93,11 +93,11 @@ Le tableau suivant décrit les préfixes qui identifient [!UICONTROL trait] les 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Le <code> d_sid </code> préfixe indique à notre système que l’ID est un ID de <span class="keyword"> caractéristique </span> Audience Manager. Il s’agit du même identifiant que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la <code> GET </code> méthode API. Voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </td>
+   <td colname="col2"> <p>Le <code> d_sid </code> préfixe indique à notre système que l’ID est un ID de <span class="keyword"> caractéristique </span> Audience Manager. Il s’agit du même identifiant que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la <code> GET </code> méthode API. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Les données précédées de <code> d_unsid </code> supprime les utilisateurs de cette caractéristique. Le <code> d_unsid </code> préfixe est ignoré dans un <code> overwrite </code> fichier. </p> <p>Le <code> d_unsid= </code> préfixe indique à notre système que l’ID est un ID de <span class="keyword"> caractéristique </span> Audience Manager. Il s’agit du même identifiant que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la <code> GET </code> méthode API. Voir Méthodes de l’API <a href="../../../api/rest-api-main/api-traits.md"> de caractéristiques </a>. </p> </td>
+   <td colname="col2"> <p>Les données précédées de <code> d_unsid </code> supprime les utilisateurs de cette caractéristique. Le <code> d_unsid </code> préfixe est ignoré dans un <code> overwrite </code> fichier. </p> <p>Le <code> d_unsid= </code> préfixe indique à notre système que l’ID est un ID de <span class="keyword"> caractéristique </span> Audience Manager. Il s’agit du même identifiant que celui qui est affiché dans l’interface utilisateur. Vous pouvez également renvoyer des ID de caractéristiques à l’aide de la <code> GET </code> méthode API. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -276,7 +276,7 @@ Le graphique ci-dessous présente des exemples de la manière appropriée de for
    <td colname="col1"> <p>Votre propre ID CRM (DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Exemple 13 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Exemple 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Exemple 14 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Exemple 15 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Exemple 16 </a> </p> </td> 
   </tr> 
  </tbody> 
@@ -508,5 +508,5 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [Générateur de caractéristiques](../../../features/traits/about-trait-builder.md)
+>* [Générateur de caractéristiques ](../../../features/traits/about-trait-builder.md)
 
