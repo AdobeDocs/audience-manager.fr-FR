@@ -2,21 +2,21 @@
 description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
 keywords: baaam;BAAAM;download baaam
 seo-description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
-seo-title: Prise En Main De La Gestion En Bloc
+seo-title: Prise en main de la gestion en bloc
 solution: Audience Manager
-title: Prise En Main De La Gestion En Bloc
+title: Prise en main de la gestion en bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Getting Started With Bulk Management{#getting-started-with-bulk-management}
+# Prise en main de la gestion en bloc{#getting-started-with-bulk-management}
 
 Vous [!DNL Bulk Management Tools] permet de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser [!DNL Bulk Management Tools] pour travailler avec [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]et .[!UICONTROL traits]
 
@@ -30,13 +30,13 @@ c_bulk_start.xml
 >
 >[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
-Cette fonctionnalité utilise une [!DNL Microsoft Excel] feuille de calcul avec des macros qui effectuent des appels sécurisés et authentifiés aux [!DNL Audience Manager] API. L’API fournit les méthodes et les services qui vous permettent d’apporter des modifications en bloc. Vous n&#39;avez pas besoin de savoir comment coder ou utiliser nos API pour l&#39;utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en masse spécifiques. Pour effectuer des modifications en masse, vous n&#39;avez qu&#39;à ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournir les informations que vous souhaitez modifier en bloc, puis cliquer sur un bouton d&#39;action. La feuille de calcul et les API font le reste du travail pour vous.
+This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. L’API fournit les méthodes et les services qui vous permettent d’apporter des modifications en bloc. Vous n&#39;avez pas besoin de savoir comment coder ou utiliser nos API pour l&#39;utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en masse spécifiques. Pour effectuer des modifications en masse, vous n&#39;avez qu&#39;à ajouter les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournir les informations que vous souhaitez modifier en bloc, puis cliquer sur un bouton d&#39;action. La feuille de calcul et les API font le reste du travail pour vous.
 
 ## Téléchargement {#download}
 
-Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20200502.xlsm)**.
+Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Conditions préalables {#prereqs}
 
@@ -100,11 +100,11 @@ Le tableau ci-dessous liste les opérations que vous pouvez effectuer et les él
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Sources de données</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Signaux dérivés</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinations</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinations </a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modèles</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Dossiers</a> de caractéristiques et dossiers de segments </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segments</a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Caractéristiques</a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segments </a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Caractéristiques </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
