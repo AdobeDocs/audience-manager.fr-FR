@@ -1,21 +1,21 @@
 ---
 description: Présentation générale de la manière dont l’Audience Manager effectue un échange de données par lot asynchrone avec un fournisseur tiers.
 seo-description: Présentation générale de la manière dont l’Audience Manager effectue un échange de données par lot asynchrone avec un fournisseur tiers.
-seo-title: Description du processus de transfert de données par lot
+seo-title: Description du processus de transfert de données par lots
 solution: Audience Manager
-title: Description du processus de transfert de données par lot
+title: Description du processus de transfert de données par lots
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 feature: null
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Description du processus de transfert de données par lot {#batch-data-transfer-process-described}
+# Description du processus de transfert de données par lots {#batch-data-transfer-process-described}
 
 Présentation générale de la manière dont [!DNL Audience Manager] effectue un échange de données par lot asynchrone avec un fournisseur tiers.
 
