@@ -8,8 +8,8 @@ feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
