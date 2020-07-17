@@ -1,21 +1,21 @@
 ---
 description: Méthodes qui vous permettent de vue de la taxonomie commune à l'Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
 seo-description: Méthodes qui vous permettent de vue de la taxonomie commune à l'Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
-seo-title: Méthodes d'API taxonomiques
+seo-title: Méthodes d’API taxonomiques
 solution: Audience Manager
-title: Méthodes d'API taxonomiques
+title: Méthodes d’API taxonomiques
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 
-# Méthodes d&#39;API taxonomiques {#taxonomic-api-methods}
+# Méthodes d’API taxonomiques {#taxonomic-api-methods}
 
 Méthodes qui vous permettent de vue de la taxonomie commune à l&#39;Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
 
