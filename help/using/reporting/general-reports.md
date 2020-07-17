@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Un [!UICONTROL General] rapport renvoie des données de performances sur les caractéristiques, les segments et les destinations.
 
-## Aperçu {#general-reports-overview}
+## Présentation {#general-reports-overview}
 
 <!-- 
 
