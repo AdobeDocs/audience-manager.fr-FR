@@ -1,21 +1,21 @@
 ---
 description: Le nom d’hôte du serveur DCS régional est requis pour effectuer des appels au serveur DCS. En effet, le serveur de collecte de données stocke des informations dans des centres de données situés à proximité géographique des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais serveur de collecte de données, mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une demande de serveur de collecte de données, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et indiquez le nom d’hôte approprié dans votre requête.
 seo-description: Le nom d’hôte du serveur DCS régional est requis pour effectuer des appels au serveur DCS. En effet, le serveur de collecte de données stocke des informations dans des centres de données situés à proximité géographique des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais serveur de collecte de données, mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une demande de serveur de collecte de données, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et indiquez le nom d’hôte approprié dans votre requête.
-seo-title: Identifiants de région DCS, emplacements et noms d’hôtes
+seo-title: Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données
 solution: Audience Manager
-title: Identifiants de région DCS, emplacements et noms d’hôtes
+title: Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
+# Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données {#dcs-region-ids-locations-and-host-names}
 
 Le nom d’hôte du [!DNL DCS] serveur régional est requis pour effectuer des appels vers le [!DNL DCS]. Ceci est dû au fait que les [!DNL DCS] centres de données stockent des informations qui sont géographiquement proches des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez de travers [!DNL DCS], mais ces appels sont inefficaces et peuvent retarder la réponse. Pour faire une [!DNL DCS] demande, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et tapez votre requête avec le nom d’hôte approprié.
 
@@ -71,4 +71,4 @@ Le nom d’hôte du [!DNL DCS] serveur régional est requis pour effectuer des a
  </tbody> 
 </table>
 
-Vous pouvez également utiliser [!DNL API] des méthodes pour obtenir une liste des [!DNL DCS] régions disponibles. Voir Méthodes [d’API de région](../../../api/rest-api-main/aam-api-dcs-regions.md)DCS.
+Vous pouvez également utiliser [!DNL API] des méthodes pour obtenir une liste des [!DNL DCS] régions disponibles. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
