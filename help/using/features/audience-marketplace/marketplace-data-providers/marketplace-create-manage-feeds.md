@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,7 @@ Pour créer un flux de données :
 1. Pour enregistrer et activer un flux de données :
    1. Déplacez le **[!UICONTROL Availability]** curseur vers **[!UICONTROL Active]**.
    1. Cliquez sur **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* Les flux de données enregistrés et activés ne peuvent pas être supprimés.
