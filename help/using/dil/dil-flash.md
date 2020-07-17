@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -158,8 +158,8 @@ s.loadModule(d);
 
 >[!MORELIKETHIS]
 >
->* [Caractéristiques](../features/traits/trait-details-page.md)
+>* [Caractéristiques ](../features/traits/trait-details-page.md)
 >* [Signaux, caractéristiques et segments](../reference/signal-trait-segment.md)
->* [Paires clé-valeur expliquées](../reference/key-value-pairs-explained.md)
->* [Préfixe requis pour les variables clés](../features/traits/trait-variable-prefixes.md)
+>* [Explication des paires clé-valeur](../reference/key-value-pairs-explained.md)
+>* [Exigences de préfixe pour les variables clés](../features/traits/trait-variable-prefixes.md)
 
