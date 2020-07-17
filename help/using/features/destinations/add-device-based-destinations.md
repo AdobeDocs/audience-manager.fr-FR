@@ -1,20 +1,20 @@
 ---
 description: Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur de l’Audience Manager.
 seo-description: Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur de l’Audience Manager.
-seo-title: Ajouter de nouvelles destinations basées sur un périphérique
+seo-title: Ajout de nouvelles destinations basées sur des appareils
 solution: Audience Manager
-title: Ajouter de nouvelles destinations basées sur un périphérique
+title: Ajout de nouvelles destinations basées sur des appareils
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Ajouter de nouvelles destinations basées sur un périphérique {#add-new-device-based-destinations}
+# Ajout de nouvelles destinations basées sur des appareils {#add-new-device-based-destinations}
 
 Cet article explique comment configurer de nouvelles destinations basées sur un périphérique à partir de l’interface utilisateur de l’Audience Manager.
 
@@ -22,7 +22,7 @@ Cet article explique comment configurer de nouvelles destinations basées sur un
 >
 >Actuellement, la plupart des destinations basées sur un périphérique ne sont pas éligibles au flux de travail de configuration en libre-service. Si la destination basée sur le périphérique que vous devez ajouter n’est pas affichée dans la liste de destination, contactez votre conseiller Adobe ou l’assistance clientèle pour obtenir de l’aide.
 
-## Aperçu {#overview}
+## Présentation {#overview}
 
 Le processus d’ajout d’une nouvelle destination basée sur un périphérique comprend deux étapes principales. Tout d&#39;abord, vous devez configurer l&#39;intégration entre l&#39;Audience Manager et le partenaire de destination. Une fois que vous avez effectué cette opération, vous pouvez créer une nouvelle destination basée sur un périphérique.
 
