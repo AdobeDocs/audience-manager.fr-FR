@@ -1,21 +1,21 @@
 ---
 description: Cet article décrit les préfixes que vous devez joindre aux variables clés lors de la création de règles de caractéristiques.
 seo-description: Cet article décrit les préfixes que vous devez joindre aux variables clés lors de la création de règles de caractéristiques.
-seo-title: Préfixe requis pour les variables clés
+seo-title: Exigences de préfixe pour les variables clés
 solution: Audience Manager
-title: Préfixe requis pour les variables clés
+title: Exigences de préfixe pour les variables clés
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Préfixe requis pour les variables clés {#prefix-requirements-for-key-variables}
+# Exigences de préfixe pour les variables clés {#prefix-requirements-for-key-variables}
 
 Cet article décrit les préfixes que vous devez joindre aux variables clés lors de la création de règles de caractéristiques.
 
