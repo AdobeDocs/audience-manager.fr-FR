@@ -1,21 +1,21 @@
 ---
 description: Grâce aux règles de fusion de Profils, vous contrôlez les jeux de données utilisés pour la segmentation et pouvez cible une personne avec précision sur plusieurs périphériques.
 seo-description: Grâce aux règles de fusion de Profils, vous contrôlez les jeux de données utilisés pour la segmentation et pouvez cible une personne avec précision sur plusieurs périphériques.
-seo-title: Présentation des règles de fusion de Profils
+seo-title: Présentation des stratégies de fusion de profils
 solution: Audience Manager
-title: Présentation des règles de fusion de Profils
+title: Présentation des stratégies de fusion de profils
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# [!UICONTROL Profile Merge Rules] Aperçu {#profile-merge-rules-overview}
+# [!UICONTROL Profile Merge Rules] Présentation {#profile-merge-rules-overview}
 
 Vous [!UICONTROL Profile Merge Rules] pouvez ainsi contrôler quels jeux de données sont utilisés pour la segmentation et cible précisément les utilisateurs sur plusieurs périphériques.
 
