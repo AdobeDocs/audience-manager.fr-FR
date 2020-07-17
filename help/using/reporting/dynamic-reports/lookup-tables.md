@@ -1,21 +1,21 @@
 ---
 description: Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
 seo-description: Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
-seo-title: Amélioration des délais de traitement des fichiers journaux avec les tables de recherche
+seo-title: Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance
 solution: Audience Manager
-title: Amélioration des délais de traitement des fichiers journaux avec les tables de recherche
+title: Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
 
-# Amélioration des délais de traitement des fichiers journaux avec les tables de recherche{#improve-log-file-processing-times-with-lookup-tables}
+# Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance{#improve-log-file-processing-times-with-lookup-tables}
 
 Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
 
