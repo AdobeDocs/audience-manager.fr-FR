@@ -1,21 +1,21 @@
 ---
 description: Une estimation en masse renvoie des données de taille de segment basées sur des règles de segmentation. Suivez ces instructions pour effectuer une demande d'estimation en masse.
 seo-description: Une estimation en masse renvoie des données de taille de segment basées sur des règles de segmentation. Suivez ces instructions pour effectuer une demande d'estimation en masse.
-seo-title: Estimations en masse
+seo-title: Estimations en bloc
 solution: Audience Manager
-title: Estimations en masse
+title: Estimations en bloc
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Estimations en masse{#bulk-estimates}
+# Estimations en bloc{#bulk-estimates}
 
 Une estimation en masse renvoie des données de taille de segment basées sur des règles de segmentation. Suivez ces instructions pour effectuer une demande d&#39;estimation en masse.
 
