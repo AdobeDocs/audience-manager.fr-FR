@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -135,7 +135,7 @@ Dans [!UICONTROL Segment Builder]la [!UICONTROL Traits] section, vous pouvez gé
 | Outils | Permet de trouver [!UICONTROL traits] à ajouter à un [!UICONTROL segment]. |
 | Recommandations | Obtenez des recommandations en direct pour des flux similaires [!UICONTROL traits], issus de vos flux de données [!UICONTROL traits] et [!UICONTROL Audience Marketplace] propriétaires auxquels vous êtes abonné. Ajoutez ces recommandations à la [!UICONTROL segment] règle pour développer votre audience. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
 | **[!UICONTROL Marketplace Recommendations]** | Obtenez des recommandations en direct pour des flux de données similaires [!UICONTROL traits], à partir [!UICONTROL Audience Marketplace] desquels vous n’êtes pas abonné. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
-| Données de taille réelle et estimée [!UICONTROL Segment] des données | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
+| Données de taille réelle et estimée [!UICONTROL Segment] des données | Voir [Données sur la population de segments et de caractéristiques dans le créateur de segments](segment-builder-data.md). |
 
 ## Supprimer [!UICONTROL Traits] d’un [!UICONTROL Segment] {#remove-traits}
 
