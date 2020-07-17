@@ -1,21 +1,21 @@
 ---
 description: Créez des destinations avec ces méthodes d’API RESTful.
 seo-description: Créez des destinations avec ces méthodes d’API RESTful.
-seo-title: Créer des destinations
+seo-title: Création de destinations
 solution: Audience Manager
-title: Créer des destinations
+title: Création de destinations
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Créer des destinations {#create-destinations}
+# Création de destinations {#create-destinations}
 
 Créez des destinations avec ces [!UICONTROL RESTful API] méthodes.
 
@@ -412,7 +412,7 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 
 >[!MORELIKETHIS]
 >
->* [Destinations](../../../features/destinations/destinations.md)
+>* [Destinations ](../../../features/destinations/destinations.md)
 >* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
+>* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
 
