@@ -1,33 +1,33 @@
 ---
-description: Les Audiences prédictives vous aident à classer les audiences inconnues en différentes personnes en temps réel, en utilisant la science des données.
-seo-description: Les Audiences prédictives vous aident à classer les audiences inconnues en différentes personnes en temps réel, en utilisant la science des données.
-seo-title: Présentation des Audiences prédictives
+description: Les audiences prédictives vous aident à classer les audiences inconnues en personas distinctes en temps réel à l’aide de la science des données.
+seo-description: Les audiences prédictives vous aident à classer les audiences inconnues en personas distinctes en temps réel à l’aide de la science des données.
+seo-title: Présentation des audiences prédictives
 solution: Audience Manager
-title: Audiences prédictives Audience Manager
+title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# [!UICONTROL Predictive Audiences] Aperçu {#predictive-audiences}
+# [!UICONTROL Predictive Audiences] Présentation {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] permet de classer une audience inconnue en différentes personnes, en temps réel, à l’aide de techniques avancées de science des données.
 
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonction. Rien dans ce document n&#39;est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
 
-Dans un contexte marketing, une personne est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels, qui partagent un ensemble spécifique de caractéristiques, telles que la démographie, les habitudes de navigation, l’historique des achats, etc.
+Dans un contexte marketing, une persona est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels qui partagent un ensemble spécifique de caractéristiques comme des données démographiques, des habitudes de navigation, un historique des achats, etc.
 
-[!UICONTROL Predictive Audiences] les modèles poussent ce concept encore plus loin, en vous permettant d’utiliser les capacités d’apprentissage automatique des Audiences Manager pour classer les audiences inconnues en personnes distinctes. L’Audience Manager vous permet d’y parvenir en calculant la propension de votre audience propriétaire inconnue pour un ensemble d’audiences propriétaires connues.
+Les modèles de [!UICONTROL Predictive Audiences] approfondissent encore ce concept en vous permettant d’utiliser les capacités d’apprentissage automatique d’Audience Manager pour classer les audiences inconnues en différentes personas. Pour ce faire, Audience Manager calcule la propension de votre audience propriétaire inconnue pour un ensemble d’audiences propriétaires connues.
 
 Lorsque vous créez un [!UICONTROL Predictive Audiences] modèle, la première étape consiste à choisir les caractéristiques ou segments de base par lesquels votre audience de cible doit être classée. Ces caractéristiques ou segments définissent vos personnages.
 
-Au cours de la phase d’évaluation, le modèle crée un nouveau [!UICONTROL Predictive Audiences] segment pour chaque caractéristique ou segment que vous avez défini comme ligne de base. La prochaine fois que l’Audience Manager voit un visiteur de votre audience de cible qui n’est pas classé pour une personne (qui ne correspond à aucun de vos traits ou segments de base), le modèle détermine à quel segment de prévision le visiteur doit appartenir et ajoute le visiteur à ce segment. [!UICONTROL Predictive Audiences]
+Pendant la phase d’évaluation, le modèle crée un nouveau [!UICONTROL Predictive Audiences] segment pour chaque caractéristique ou segment que vous avez défini comme ligne de base. La prochaine fois que l’Audience Manager voit un visiteur de votre audience de cible qui n’est pas classé pour une personne (qui ne correspond à aucun de vos traits ou segments de base), le modèle détermine à quel segment de prévision le visiteur doit appartenir et ajoute le visiteur à ce segment. [!UICONTROL Predictive Audiences]
 
 Vous pouvez identifier les segments prédictifs créés par le modèle dans la [!UICONTROL Segments] page. Chaque [!UICONTROL Predictive Audiences] modèle comporte son propre dossier sous le [!UICONTROL Predictive Audiences] dossier et vous pouvez afficher les segments de chaque modèle en cliquant sur le dossier du modèle.
 
@@ -105,7 +105,7 @@ Lors de l’évaluation des audiences propriétaires et de l’attribution de sc
 
 Lors de la configuration de vos [!UICONTROL Predictive Audiences] modèles, gardez à l’esprit les considérations et limitations suivantes :
 
-* Vous pouvez créer jusqu’à 10 [!UICONTROL Predictive Audiences] modèles.
+* Vous pouvez créer jusqu’à 10 modèles [!UICONTROL Predictive Audiences]. 
 * Pour chaque modèle, vous pouvez choisir jusqu’à 50 caractéristiques / segments de base.
 * Actuellement, les données tierces et secondaires ne sont pas prises en charge dans [!UICONTROL Predictive Audiences].
 * La classification des Audiences est effectuée uniquement pour les audiences propriétaires en temps réel. La classification des audiences propriétaires intégrée peut être prise en charge dans une prochaine mise à jour.
