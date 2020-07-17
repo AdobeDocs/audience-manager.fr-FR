@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Caractéristiques des dossiers : A propos {#folder-traits-about}
+# À propos des caractéristiques de dossier {#folder-traits-about}
 
 [!UICONTROL Folder traits] vous permet d’agrégat automatiquement les caractéristiques qui résident dans le même dossier et tous les dossiers enfants dans un segment cible.
 
