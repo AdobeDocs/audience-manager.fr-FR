@@ -1,21 +1,21 @@
 ---
 description: Faites correspondre les segments aux destinations à l’aide de ces méthodes d’API RESTful.
 seo-description: Faites correspondre les segments aux destinations à l’aide de ces méthodes d’API RESTful.
-seo-title: Faire correspondre des segments à une destination
+seo-title: Mise en correspondance de segments avec une destination
 solution: Audience Manager
-title: Faire correspondre des segments à une destination
+title: Mise en correspondance de segments avec une destination
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
 
-# Faire correspondre des segments à une destination {#map-segments-to-a-destination}
+# Mise en correspondance de segments avec une destination {#map-segments-to-a-destination}
 
 Faites correspondre les segments aux destinations à l’aide de ces [!DNL RESTful API] méthodes.
 
@@ -87,7 +87,7 @@ Méthode `POST` permettant de mapper un segment à une [!UICONTROL URL] destinat
 
 ### Exemple de requête
 
-Dans la requête, la valeur correspond à la clé `traitAlias` d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Dans la requête, le correspond à la clé d’une paire clé-valeur. `traitAlias` Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ```
 {
@@ -482,7 +482,7 @@ Renvoie un tableau de mappages créés.
 ]
 ```
 
-## Mettre à jour une destination par ID de destination {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 Méthode `PUT` qui vous permet de mettre à jour une destination existante par `destinationId`.
 
@@ -584,7 +584,7 @@ Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 >[!MORELIKETHIS]
 >
->* [Destinations](../../../features/destinations/destinations.md)
+>* [Destinations ](../../../features/destinations/destinations.md)
 >* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Paires clé-valeur expliquées](../../../reference/key-value-pairs-explained.md)
+>* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
 
