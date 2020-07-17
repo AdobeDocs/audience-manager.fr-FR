@@ -9,14 +9,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
 # Configuration d’une destination Analytics
 
-## Conditions requises {#requirements}
+## Exigences {#requirements}
 
 Pour configurer une destination Analytics, l’utilisateur de votre Audience Manager doit disposer des autorisations d’administrateur. Voir [Création d’utilisateurs](/help/using/features/administration/administration-overview.md#create-users) dans le Guide d’administration. Notez que l’autorisation `CREATE_DESTINATIONS` d’utilisation de [](/help/using/features/administration/administration-overview.md#wild-card-permissions) caractères génériques n’est pas suffisante pour créer des destinations Analytics.
 Pour plus d’informations sur les conditions requises, voir Conditions préalables dans [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html).
@@ -72,7 +72,7 @@ Cette section propose des options qui vous permettent de mapper des segments aut
 
 | Option de mappage | Description |
 |---|---|
-| Mapper automatiquement tous les segments actuels et futurs | Sélectionnée par défaut, cette fonction envoie à Analytics tous les segments pour lesquels un visiteur est admissible, par accès. <br>  Si un visiteur appartient à plus de 150 segments d’Audience Manager sur un seul accès, seuls les 150 segments les plus récemment qualifiés sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire est envoyé à Analytics pour signifier que la liste de segments a été tronquée. Cette action s’affiche sous la forme &quot;limite d’Audience atteinte&quot; dans la dimension Nom des Audiences et &quot;1&quot; dans la dimension ID des Audiences. Consultez la [FAQ](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) pour plus de détails. <br>  Cette option affecte également la disponibilité de la destination dans le créateur [de](/help/using/features/segments/segment-builder.md)segments. Par exemple, si un segment est automatiquement mappé à une destination Analytics, cette destination n’est pas disponible pour la sélection dans la section Mappages [de](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) destination du créateur de segments. La destination Analytics apparaît grisée et affiche &quot;Analytics&quot; dans la colonne Type du navigateur de destination. |
+| Mapper automatiquement tous les segments actuels et futurs | Sélectionnée par défaut, cette fonction envoie tous les segments pour lesquels un visiteur est admissible, par accès, à Analytics. <br>  Si un visiteur appartient à plus de 150 segments d’Audience Manager sur un seul accès, seuls les 150 segments les plus récemment qualifiés sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire est envoyé à Analytics pour signifier que la liste de segments a été tronquée. Cette action s’affiche sous la forme &quot;limite d’Audience atteinte&quot; dans la dimension Nom des Audiences et &quot;1&quot; dans la dimension ID des Audiences. Consultez la [FAQ](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) pour plus de détails. <br>  Cette option affecte également la disponibilité de la destination dans le créateur [de](/help/using/features/segments/segment-builder.md)segments. Par exemple, si un segment est automatiquement mappé à une destination Analytics, cette destination n’est pas disponible pour la sélection dans la section Mappages [de](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) destination du créateur de segments. La destination Analytics apparaît grisée et affiche &quot;Analytics&quot; dans la colonne Type du navigateur de destination. |
 | Mappage manuel des segments | Cette option expose les commandes de recherche et de navigation qui vous permettent de choisir les segments à envoyer à Analytics. <br>  Pour rechercher un segment : <br>  <ol><li>Tapez le nom ou l’identifiant du segment dans le champ de recherche.</li><li>Cliquez sur <b>Ajouter.</b></li><li>Continuez à rechercher et à ajouter des segments ou cliquez sur <b>Terminé</b>.</li></ol><br>  Pour rechercher un segment : <ol><li>Cliquez sur <b>Parcourir tous les segments</b>. Cela expose une liste de segments disponibles.</li><li>Dans la liste, cochez la case du segment à utiliser, puis cliquez sur <b>Ajouter les segments</b>sélectionnés.</li><li>Cliquez sur <b>Enregistrer</b> dans la fenêtre Ajouter des correspondances. Vous ne pouvez pas modifier les mappages, les dates de début ou les dates de fin au cours de la version bêta.</li><li>Continuez à parcourir et à ajouter des segments ou cliquez sur <b>Terminé</b>.</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## Étapes suivantes
