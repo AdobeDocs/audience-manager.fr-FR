@@ -1,20 +1,20 @@
 ---
 description: 'Cette page comprend des instructions détaillées sur la création de segments d’audience à partir de données client hors ligne uniquement et sur leur envoi vers des destinations basées sur les personnes.  '
 seo-description: 'Cette page comprend des instructions détaillées sur la création de segments d’audience à partir de données client hors ligne uniquement et sur leur envoi vers des destinations basées sur les personnes.  '
-seo-title: Workflow B - Personnalisation basée sur les données hors ligne uniquement
+seo-title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
 solution: Audience Manager
-title: Workflow B - Personnalisation basée sur les données hors ligne uniquement
+title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Workflow B - Personnalisation basée sur les données hors ligne uniquement {#workflow-b}
+# Processus B : personnalisation basée sur les données hors ligne uniquement {#workflow-b}
 
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonction. Rien dans ce document n&#39;est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
