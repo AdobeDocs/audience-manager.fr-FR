@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Création d’un modèle similaire {#create-an-algorithmic-model}
+# Création d’un modèle analogue {#create-an-algorithmic-model}
 
 Décrit les étapes requises et facultatives permettant de créer un [!UICONTROL Look-Alike Model].
 
