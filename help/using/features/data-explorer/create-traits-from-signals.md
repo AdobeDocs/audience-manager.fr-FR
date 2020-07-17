@@ -1,20 +1,20 @@
 ---
 description: Créer de nouvelles caractéristiques à partir de tous les signaux, y compris ceux qui sont déjà utilisés dans les caractéristiques, et capturer les audiences futures qui se qualifient après la création de caractéristiques.
 seo-description: Créer de nouvelles caractéristiques à partir de tous les signaux, y compris ceux qui sont déjà utilisés dans les caractéristiques, et capturer les audiences futures qui se qualifient après la création de caractéristiques.
-seo-title: Créer des caractéristiques à partir de signaux
-title: Créer des caractéristiques à partir de signaux
+seo-title: Création de caractéristiques à partir de signaux
+title: Création de caractéristiques à partir de signaux
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Créer des caractéristiques à partir de signaux
+# Création de caractéristiques à partir de signaux
 
 Créer de nouvelles caractéristiques à partir de tous les signaux, y compris ceux qui sont déjà utilisés dans les caractéristiques, et capturer les audiences futures qui se qualifient après la création de caractéristiques. Regardez la vidéo pour une démonstration rapide ou lisez-la pour obtenir des informations détaillées :
 
@@ -22,7 +22,7 @@ Créer de nouvelles caractéristiques à partir de tous les signaux, y compris c
 
 ## Créer des caractéristiques à partir du Tableau de bord de signal {#create-traits-from-signal-dashboard}
 
-Le [!UICONTROL Signal Dashboard] permet de créer de nouvelles caractéristiques à partir des recherches [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals]et enregistrées.
+Le [!UICONTROL Signal Dashboard] permet de créer de nouvelles caractéristiques à partir des [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals]et des recherches enregistrées.
 
 Lorsque vous créez une nouvelle caractéristique, le type de caractéristique est prédéfini en fonction du type de signal :
 
@@ -46,6 +46,7 @@ Recherchez des signaux spécifiques et créez des caractéristiques basées sur 
 2. Identifiez le ou les signaux que vous souhaitez utiliser dans la caractéristique, dans la liste de résultats.
    * Pour créer une caractéristique à partir d’un signal, cliquez sur le lien correspondant **[!UICONTROL Create Rule-Based Trait]** ou **[!UICONTROL Create Onboarded Trait]** le lien correspondant.
    * Pour créer une caractéristique à partir de plusieurs signaux, cochez la case correspondante de chaque signal, puis cliquez sur **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >Vous pouvez seulement créer des caractéristiques à partir de signaux du même type. Vous ne pouvez pas créer une caractéristique basée sur une combinaison d’un signal en temps réel et d’un signal intégré.
    >
