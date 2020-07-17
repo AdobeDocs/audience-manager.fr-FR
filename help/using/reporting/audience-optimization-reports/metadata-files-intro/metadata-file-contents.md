@@ -1,21 +1,21 @@
 ---
 description: Mettez en forme le contenu de votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
 seo-description: Mettez en forme le contenu de votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
-seo-title: Format de contenu pour les fichiers de métadonnées
+seo-title: Format de contenu des fichiers de métadonnées
 solution: Audience Manager
-title: Format de contenu pour les fichiers de métadonnées
+title: Format de contenu des fichiers de métadonnées
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Format de contenu pour les fichiers de métadonnées{#content-format-for-metadata-files}
+# Format de contenu des fichiers de métadonnées{#content-format-for-metadata-files}
 
 Mettez en forme le contenu de votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
 
