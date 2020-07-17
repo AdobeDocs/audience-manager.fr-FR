@@ -1,9 +1,9 @@
 ---
 description: La page de détails d’une caractéristique individuelle fournit un aperçu des informations telles que le nom de la caractéristique, l’ID, les mesures de performances, les expressions qui définissent la caractéristique, les segments auxquels elle appartient et le journal d’audit des caractéristiques. Pour afficher ces détails, accédez à Audience Data > Caractéristiques et cliquez sur le nom de la caractéristique que vous souhaitez utiliser.
 seo-description: La page de détails d’une caractéristique individuelle fournit un aperçu des informations telles que le nom de la caractéristique, l’ID, les mesures de performances, les expressions qui définissent la caractéristique, les segments auxquels elle appartient et le journal d’audit des caractéristiques. Pour afficher ces détails, accédez à Audience Data > Caractéristiques et cliquez sur le nom de la caractéristique que vous souhaitez utiliser.
-seo-title: Page Détails du trait
+seo-title: Page Détails des caractéristiques
 solution: Audience Manager
-title: Page Détails du trait
+title: Page Détails des caractéristiques
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Traits
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ La [!UICONTROL Trait Expression] section présente les critères que les utilisa
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait] Segments {#trait-segments}
+## [!UICONTROL Trait]Segments {#trait-segments}
 
 La [!UICONTROL Segments with this Trait] section liste tous les segments auxquels [!UICONTROL trait] appartient la sélection. Vous pouvez cliquer sur le nom d’un segment pour afficher les détails sur ce segment.
 
