@@ -2,16 +2,16 @@
 description: Fonctionnement des identifiants déclarés, configuration de procédures, d’exemples de code et de variables.
 keywords: id sync
 seo-description: Fonctionnement des identifiants déclarés, configuration de procédures, d’exemples de code et de variables.
-seo-title: ID déclarés
+seo-title: Identifiants déclarés
 solution: Audience Manager
-title: ID déclarés
+title: Identifiants déclarés
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Certains navigateurs et la plupart des périphériques mobiles n’acceptent pas
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Appel Événement</b> </td> 
-   <td colname="col2"> <p>Pour fonctionner, vous avez besoin de <span class="wintitle"> code DIL </span> et du <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> code du service d'identité </a> d'Adobe Experience Platform sur la page. <span class="wintitle"> Le code DIL </span> récupère les identifiants <span class="wintitle"> déclarés </span> de la <code> setVisitorID </code> fonction fournie par le service d'identité de l' <span class="keyword"> Adobe Experience Platform </span> et les transmet à l' d'Audience Manager <span class="keyword"> .</span> </p> </td> 
+   <td colname="col2"> <p>Pour fonctionner, vous avez besoin de <span class="wintitle"> code DIL </span> et du <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html" format="https" scope="external"> code du service d'identité </a> d'Adobe Experience Platform sur la page. <span class="wintitle"> Le code DIL </span> récupère les identifiants <span class="wintitle"> déclarés </span> de la <code> setVisitorID </code> fonction fournie par le service d'identité de l' <span class="keyword"> Adobe Experience Platform </span> et les transmet à l' d'Audience Manager <span class="keyword"> .</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identifiant de correspondance</b> </td> 
@@ -59,7 +59,7 @@ Pour commencer, vous devez configurer le service d’ [!DNL Experience Cloud] ID
 
 ## Appels d’exclusion {#opt-out-calls}
 
-Le [!UICONTROL declared ID] processus respecte les préférences du visiteur du site pour l’exclusion du [!DNL Audience Manager] ciblage par votre site Web. Lorsque [!DNL Audience Manager] reçoit une demande d’exclusion, la [!DNL JSON] valeur renvoyée par le [!DNL DCS] contient le code d’erreur 171, avec le message `Encountered opt out tag`, au lieu de l’ [!DNL Audience Manager] ID utilisateur.
+Le [!UICONTROL declared ID] processus respecte les préférences du visiteur du site pour l’exclusion du [!DNL Audience Manager] ciblage par votre site Web. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] peut transmettre une [!UICONTROL declared ID] exclusion en même temps qu’une [!DNL Audience Manager][!UICONTROL UUID] dans le [!DNL URL].
 * L&#39; [!UICONTROL declared ID] exclusion est stockée dans le serveur de cache de Profil [ !UICONTROL ([!UICONTROL PCS]) par partenaire. Il n’existe pas d’exclusion au niveau de la plateforme utilisant [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] désactive l’utilisateur de cette région spécifique sur le bord (l’exclusion ne s’applique pas à [!DNL DCS] plusieurs régions).
@@ -68,26 +68,26 @@ Voir Confidentialité [des](../overview/data-security-and-privacy/data-privacy.m
 
 ## [!UICONTROL Declared ID] Exemples d’exclusion {#opt-out-examples}
 
-Vous pouvez effectuer des demandes d’ [!UICONTROL declared ID] exclusion avec les paires `d_cid` et `d_cid_ic` clé-valeur. Les paramètres hérités, tels que `d_dpid` et `d_dpuuid` fonctionnent toujours, sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. Les paramètres hérités comme `d_dpid` et `d_dpuuid` fonctionnent toujours, mais sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../reference/cid.md). Dans les exemples, le texte en *italique* indique un espace réservé de variable.
 
 ### Exclusions avec [!UICONTROL CID] et [!UICONTROL CID_IC]
 
-Pour obtenir une description et une syntaxe, voir Variables [d’URL et Syntaxe pour les identifiants](../features/declared-ids.md#variables-and-syntax)déclarés.
+Pour obtenir une description et une syntaxe, consultez les [variables et la syntaxe d’URL pour les identifiants déclarés](../features/declared-ids.md#variables-and-syntax).
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Exclusion à l’aide de </th> 
+   <th colname="col1" class="entry"> Exclusion à l’aide </th> 
    <th colname="col2" class="entry"> Exemple de code </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ID de fournisseur de données et ID d’utilisateur. </p> </td> 
+   <td colname="col1"> <p>d’un identifiant de fournisseur de données et d’un identifiant utilisateur. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Code d’intégration et ID utilisateur. </p> </td> 
+   <td colname="col1"> <p>d’un code d’intégration et d’un identifiant utilisateur. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -165,11 +165,11 @@ Compte tenu de ces paires clé-valeur et de leur syntaxe requise, vous effectuer
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ID de fournisseur de données et ID d’utilisateur. </p> </td> 
+   <td colname="col1"> <p>d’un identifiant de fournisseur de données et d’un identifiant utilisateur. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Code d’intégration et ID utilisateur. </p> </td> 
+   <td colname="col1"> <p>d’un code d’intégration et d’un identifiant utilisateur. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -185,7 +185,7 @@ Décrit les variables de configuration utilisées pour transmettre [!UICONTROL d
 
 ## [!UICONTROL DIL] utilise [!DNL Adobe Experience Platform Identity Service] to Pass [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Lorsqu&#39;il est utilisé avec le service [d&#39;identité de l&#39;](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform, il n&#39;est plus nécessaire de transmettre [!UICONTROL declared IDs] les variables `dpid` et `dpuuid` les variables obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la `visitorService` fonction pour obtenir la [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Vous appellerez `visitorService` dans `DIL.create` comme illustré ci-dessous.
+Lorsqu&#39;il est utilisé avec le service [d&#39;identité de l&#39;](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)Adobe Experience Platform, il n&#39;est plus nécessaire de transmettre [!UICONTROL declared IDs] les variables `dpid` et `dpuuid` les variables obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la `visitorService` fonction pour obtenir la [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Vous appellerez `visitorService` dans `DIL.create` comme illustré ci-dessous.
 
 ```js
 var vDil = DIL.create({
