@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -54,7 +54,7 @@ Créez une destination de cookie pour [!DNL OpenX] en Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-En Audience Manager, une *destination* correspond à tout autre système (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) que vous souhaitez partager avec. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination de l’Audience Manager se trouvent dans *Audience Data > Destinations*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination de l’Audience Manager se trouvent dans *Audience Data > Destinations*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
 
 ### Étape 1 : Informations de base
 
