@@ -1,21 +1,21 @@
 ---
 description: Méthode GET qui renvoie la destination pour l’ID de destination spécifié.
 seo-description: Méthode GET qui renvoie la destination pour l’ID de destination spécifié.
-seo-title: Renvoyer une destination par ID de destination
+seo-title: Renvoi d’une destination par un identifiant de destination
 solution: Audience Manager
-title: Renvoyer une destination par ID de destination
+title: Renvoi d’une destination par un identifiant de destination
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
 
-# Renvoyer une destination par ID de destination {#return-a-destination-by-destination-id}
+# Renvoi d’une destination par un identifiant de destination {#return-a-destination-by-destination-id}
 
 Méthode `GET` qui renvoie la destination pour le `destinationId`champ spécifié.
 
