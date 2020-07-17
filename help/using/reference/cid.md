@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
+# CID remplace DPID et DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Mettez à jour votre code pour l’utiliser `d_cid` ou `d_cid_ic` au lieu de `d_dpid` et `d_dpuuid`. Les variables DPID et DPUUID continueront à fonctionner, mais vous devez les considérer comme obsolètes. Cela inclut les variantes DPID et DPUUID sans le `d_ prefix`.
 
 ## DPID et DPUUID : Une révision {#dpid-dpuuid-review}
 
-Le DPID et le DPUUID sont des paires clé-valeur qui contiennent un ID de fournisseur de données et un ID d’utilisateur. Ces paires clé-valeur lient les ID du fournisseur à ceux de l’utilisateur. Ils envoient des données pendant les appels de événement, pour les événements de synchronisation entrants et pour les appels d’ID. Sans eux, [!DNL Audience Manager]ainsi que d’autres services ou fonctionnalités, n’auraient pas de moyen de faire correspondre et de synchroniser les identifiants. Ces variables sont parfois exprimées avec ou sans le `d_` préfixe, comme illustré ci-dessous. Remarque : dans le code, l’ *italique* indique une balise d’emplacement de variable.
+Le DPID et le DPUUID sont des paires clé-valeur qui contiennent un ID de fournisseur de données et un ID d’utilisateur. Ces paires clé-valeur lient les ID du fournisseur à ceux de l’utilisateur. Ils envoient des données pendant les appels de événement, pour les événements de synchronisation entrants et pour les appels d’ID. Sans eux, [!DNL Audience Manager]ainsi que d’autres services ou fonctionnalités, n’auraient pas de moyen de faire correspondre et de synchroniser les identifiants. Ces variables sont parfois exprimées avec ou sans le `d_` préfixe, comme illustré ci-dessous. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -59,7 +59,7 @@ Les paires clé-valeur CID et CID_IC remplacent DPID et DPUUID. Ils offrent les 
 * Le symbole = sépare la clé de ses valeurs associées.
 * Le caractère ASCII non imprimable %01 sépare les valeurs.
 
-`d_cid` et `d_cid_ic` utilisez la syntaxe illustrée ci-dessous. Remarque : dans le code, l’ *italique* indique une balise d’emplacement de variable.
+`d_cid` et `d_cid_ic` utilisez la syntaxe illustrée ci-dessous. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
