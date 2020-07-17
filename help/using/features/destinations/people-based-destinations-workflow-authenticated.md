@@ -1,20 +1,20 @@
 ---
 description: 'Cette page comprend des instructions détaillées sur la manière de combiner des données de gestion de la relation client hors ligne avec des données comportementales en temps réel pour que les utilisateurs authentifiés puissent créer des segments d’audience, puis envoyer ces segments d’audience vers des destinations basées sur les personnes. '
 seo-description: 'Cette page comprend des instructions détaillées sur la manière de combiner des données de gestion de la relation client hors ligne avec des données comportementales en temps réel pour que les utilisateurs authentifiés puissent créer des segments d’audience, puis envoyer ces segments d’audience vers des destinations basées sur les personnes.  '
-seo-title: Workflow C - Personnalisation basée sur l’Activité authentifiée associée aux données hors ligne
+seo-title: 'Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne'
 solution: Audience Manager
-title: Workflow C - Personnalisation basée sur l’Activité authentifiée associée aux données hors ligne
+title: 'Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Workflow C - Personnalisation basée sur l’Activité authentifiée associée aux données hors ligne {#workflow-c}
+# Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne {#workflow-c}
 
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonction. Rien dans ce document n&#39;est un conseil juridique. Veuillez consulter votre propre conseiller juridique pour obtenir des conseils juridiques.
