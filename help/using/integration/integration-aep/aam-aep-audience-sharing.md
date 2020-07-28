@@ -7,9 +7,9 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
+source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1441'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Présentation {#overview}
 
-La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et l&#39;Adobe Experience Platform vous permet de partager vos caractéristiques et segments d&#39;Audience Manager avec l&#39;Adobe Experience Platform et vice versa. Vous avez besoin du connecteur [](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) d’Audience Manager pour activer le partage des audiences entre l’Audience Manager et l’Adobe Experience Platform.
+La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et l&#39;Adobe Experience Platform vous permet de partager vos caractéristiques et segments d&#39;Audience Manager avec l&#39;Adobe Experience Platform et vice versa. Vous avez besoin du [[ !DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) pour activer le partage des audiences entre l’Audience Manager et l’Adobe Experience Platform.
 
 Vous pouvez utiliser des caractéristiques et des segments d’Audience Manager dans l’Experience Platform pour ajouter des données d’Audience Manager à vos profils clients et pour bénéficier du service [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentation Experience Platform.
 
@@ -141,7 +141,7 @@ Le tableau suivant décrit comment des étiquettes d’exportation de données s
 
 ## Comprendre les différences de population des segments entre l&#39;Audience Manager et l&#39;Experience Platform
 
-Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que le nombre de segments pour des audiences similaires ou identiques devrait être proche, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
+Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que les chiffres des segments pour des audiences similaires ou identiques soient proches, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
 
 ### Évaluation des segments dans l’Experience Platform
 
@@ -149,7 +149,7 @@ L’Audience Manager met à jour les numéros de rapports dans l’interface une
 
 ### Différences entre les règles de fusion de Profils et les stratégies de fusion
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) dans les stratégies d’Audience Manager et de [fusion](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) dans l’Experience Platform fonctionnent différemment, et le graphique d’identité utilisé pour chacun d’eux varie. C’est pourquoi on s’attend à ce que certaines différences entre les populations de segments soient observées.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en Audience Manager et [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) en Experience Platform travaillent différemment, et le graphique d&#39;identité utilisé pour chacun d&#39;eux varie. C’est pourquoi on s’attend à ce que certaines différences entre les populations de segments soient observées.
 
 ### Composition de segments dans l’Experience Platform
 
