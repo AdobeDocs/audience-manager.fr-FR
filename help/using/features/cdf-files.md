@@ -8,9 +8,9 @@ title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ Informations de base sur [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) les 
 
 Un fichier [!UICONTROL CDF] contient les mêmes données que celles envoyées à nos serveurs par un appel d’événement [!DNL Audience Manager] (`/event`). This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Les [!DNL Audience Manager] systèmes internes traitent les données de événement dans un [!UICONTROL CDF] fichier dont le contenu est organisé en champs qui s’affichent dans un ordre défini. [!DNL Audience Manager] essaie de générer [!UICONTROL CDF] des fichiers toutes les heures et de les stocker dans un compartiment sécurisé spécifique au client sur un [!DNL Amazon S3] serveur. Nous fournissons ces fichiers pour que vous puissiez travailler avec [!DNL Audience Manager] des données en dehors des limites imposées par notre interface utilisateur.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Vous ne devez pas utiliser [!UICONTROL CDF] les fichiers comme proxy pour surveiller le trafic des pages, réconcilier les écarts de rapport ou pour la facturation, etc.
+>Notez les restrictions suivantes lorsque vous utilisez des fichiers CDF :
+>
+>* Avant de configurer la diffusion de fichiers CDF, assurez-vous que vous disposez des autorisations appropriées de fournisseurs de données tiers pour l&#39;exportation de caractéristiques tierces.
+>* Vous ne devez pas utiliser [!UICONTROL CDF] les fichiers comme proxy pour surveiller le trafic des pages, réconcilier les écarts de rapport ou pour la facturation, etc.
+
 
 ## Prise en main {#getting-started}
 
@@ -303,7 +307,7 @@ Les tableaux suivants liste et définissent les éléments d’un [!UICONTROL CD
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 ETag. Le nombre suivant le trait d’union indique le nombre de pièces utilisées pour créer le fichier pendant le téléchargement en plusieurs parties. La valeur <code> ETag</code> n'est pas identique à la somme de contrôle MD5 du fichier. </p> </td> 
+   <td colname="col2"> <p>L'Amazon S3 ETag. Le nombre suivant le trait d’union indique le nombre de pièces utilisées pour créer le fichier pendant le téléchargement en plusieurs parties. La valeur <code> ETag</code> n'est pas identique à la somme de contrôle MD5 du fichier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
