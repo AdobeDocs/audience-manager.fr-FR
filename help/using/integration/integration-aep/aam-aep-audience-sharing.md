@@ -7,7 +7,7 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: abe2a63c2ee9ad1028dac0a69ecb006a0fbdd029
+source-git-commit: f9e6aedb408db218c548f469330ece584db75853
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -141,7 +141,7 @@ Le tableau suivant décrit comment des étiquettes d’exportation de données s
 
 ## Comprendre les différences de population des segments entre l&#39;Audience Manager et l&#39;Experience Platform
 
-Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que le nombre de segments pour des audiences similaires ou identiques devrait être proche, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
+Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que les chiffres des segments pour des audiences similaires ou identiques soient proches, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
 
 ### Évaluation des segments dans l’Experience Platform
 
@@ -150,7 +150,6 @@ L’Audience Manager met à jour les numéros de rapports dans l’interface une
 ### Différences entre les règles de fusion de Profils et les stratégies de fusion
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en Audience Manager et [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) en Experience Platform travaillent différemment, et le graphique d&#39;identité utilisé pour chacun d&#39;eux varie. C’est pourquoi on s’attend à ce que certaines différences entre les populations de segments soient observées.
-
 
 ### Composition de segments dans l’Experience Platform
 
