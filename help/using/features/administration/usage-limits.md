@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
+source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Les tableaux liste les limites actuelles par type d&#39;élément. Vous ne pouve
 | [!UICONTROL Look-Alike Models] taille maximale d’audience | 25,000,000.  Notez que cette limite ne peut pas être augmentée. Vous pouvez réduire la taille des audiences en sélectionnant moins de sources de données pour le modèle ou en sélectionnant une fenêtre de recherche plus courte. |
 | Nombre maximal de caractéristiques exclues pour un [!UICONTROL Look-Alike Model] | 500. Voir Exclusion de [caractéristiques dans la modélisation](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algorithmique. |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
-| Nombre maximal de personnages de base pour les [!UICONTROL Predictive Audiences] modèles | 50 |
+| Nombre maximal de personnages de base pour [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### Limites des dossiers
 
