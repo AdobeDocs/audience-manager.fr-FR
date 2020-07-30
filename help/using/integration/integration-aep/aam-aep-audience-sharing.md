@@ -7,7 +7,7 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -139,9 +139,9 @@ Le tableau suivant décrit comment des étiquettes d’exportation de données s
 | Cette destination peut être utilisée pour le ciblage publicitaire sur site. | Publicité sur site |
 | Cette destination peut être utilisée pour la personnalisation des publicités sur site | Personnalisation sur site |
 
-## Comprendre les différences de population des segments entre l&#39;Audience Manager et l&#39;Experience Platform
+## Comprendre les différences de population des segments entre l&#39;Audience Manager et l&#39;Experience Platform {#aep-aam-segment-population-differences}
 
-Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que les chiffres des segments pour des audiences similaires ou identiques soient proches, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
+Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que le nombre de segments pour des audiences similaires ou identiques devrait être proche, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
 
 ### Évaluation des segments dans l’Experience Platform
 
