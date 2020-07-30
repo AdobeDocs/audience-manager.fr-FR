@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ Une fois que vous avez identifié la source de données que vous allez utiliser,
    ![smart-persona-select-audience](assets/predictive-audiences-audience.png)
 1. Cliquez **[!UICONTROL Next]** après avoir choisi votre audience.
 1. Renseignez les détails du modèle :
-   1. **[!UICONTROL Model Name]**: Entrez un nom descriptif pour le modèle, qui vous aidera à l&#39;identifier plus tard. Les noms des segments générés par le modèle s’début avec le nom du modèle.
-   2. **[!UICONTROL Description]**: Entrez une description du modèle qui vous aidera à identifier son cas d&#39;utilisation.
-   3. **[!UICONTROL Data Source]**: Sélectionnez la source de données propriétaire à laquelle vous souhaitez affecter les [!UICONTROL Predictive Audiences] segments de ce modèle.
+   * **[!UICONTROL Model Name]**: Entrez un nom descriptif pour le modèle, qui vous aidera à l&#39;identifier plus tard. Les noms des segments générés par le modèle s’début avec le nom du modèle.
+   * **[!UICONTROL Description]**: Entrez une description du modèle qui vous aidera à identifier son cas d&#39;utilisation.
+   * **[!UICONTROL Data Source]**: Sélectionnez la source de données propriétaire à laquelle vous souhaitez affecter les [!UICONTROL Predictive Audiences] segments de ce modèle.
+   * **[!UICONTROL Profile Merge Rule]**: Sélectionnez le [!UICONTROL Profile Merge Rule] à attribuer pour tous les prédictifs [!UICONTROL segments] créés par ce modèle. Si votre audience de cible sélectionnée est une [!UICONTROL segment], nous vous recommandons de sélectionner la même [!UICONTROL Profile Merge Rule] audience de cible.
       ![prédictive-audiences-save](assets/predictive-audiences-save.png)
 1. Cliquez sur **[!UICONTROL Save]**.
 
