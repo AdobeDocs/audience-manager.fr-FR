@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 67%
 
 ---
 
@@ -66,28 +66,45 @@ Si le modèle ne produit pas de résultats dans les 24 heures, contactez votre 
 
 Les modèles [!UICONTROL Predictive Audiences] peuvent ne produire aucun résultat pour un certain nombre de raisons :
 
-1. Aucun des segments/caractéristiques de persona sélectionnés ne dispose de suffisamment de profils utilisateur. Nous vous recommandons de choisir vos caractéristiques ou segments afin que chaque persona dispose d’au moins quelques centaines de profils utilisateur.
-1. Aucun des segments/caractéristiques de persona sélectionnés ne contient suffisamment de données dans son profil utilisateur (caractéristiques insuffisantes pour l’analyse).
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
 1. La caractéristique ou le segment de l’audience cible ne disposait d’aucun utilisateur actif ou intégré au cours des 30 derniers jours.
 1. Les profils des utilisateurs de l’audience cible qui étaient actifs ou intégrés au cours des 30 derniers jours ne contiennent pas suffisamment de données (caractéristiques insuffisantes pour l’analyse).
+1. Le segment audience de cible utilise un autre segment [!UICONTROL Profile Merge Rule] que celui que vous avez choisi pour le modèle.
+1. Il est possible que la source de données de vos caractéristiques d&#39;audience de cible ne soit pas incluse dans le modèle [!UICONTROL Profile Merge Rule] que vous avez choisi.
 
-Pour obtenir des résultats pertinents, l’algorithme [!UICONTROL Predictive Audiences] évalue les réalisations de caractéristiques et de segments en fonction de l’activité de l’utilisateur en temps réel observée par le serveur de collecte de données. Si vous sélectionnez de nouveaux segments et caractéristiques de base qui ne disposent pas encore de suffisamment d’utilisateurs, l’algorithme peut prendre quelques jours pour classer votre audience.
+To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. Si vous sélectionnez de nouveaux segments et caractéristiques de base qui ne disposent pas encore de suffisamment d’utilisateurs, l’algorithme peut prendre quelques jours pour classer votre audience.
 
 Pour obtenir des résultats optimaux, suivez les instructions proposées dans [Critères de sélection des personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) et [Critères de sélection de l’audience cible](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Pourquoi mon modèle affiche-t-il l’état d’erreur ?**
+**Pourquoi mon modèle affiche-t-il le[!UICONTROL Error]statut ?**
 
-L’exécution du modèle a échoué. Dans ce cas, contactez votre représentant Adobe.
+L’exécution du modèle a échoué. In such cases, please reach out to your [!DNL Adobe] representative.
+
+ 
+
+**Comment puis-je changer le[!UICONTROL Profile Merge Rule]pour un[!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+
+Créez un modèle en sélectionnant les mêmes personnes et audience de cible que votre modèle précédent. Au cours de la création du modèle, affectez un autre [!UICONTROL Profile Merge Rule]modèle.
+
+>[!WARNING]
+> Vous pouvez également utiliser le créateur [de](../features/segments/segment-builder.md) segments pour créer manuellement une variable [!UICONTROL segment] avec une prévision existante [!UICONTROL trait] et lui affecter une [!UICONTROL Profile Merge Rule] valeur de votre choix.
+> 
+> Cependant, nous ne recommandons pas cette pratique, puisque la prédiction [!UICONTROL traits] hérite automatiquement [!UICONTROL Profile Merge Rule] du modèle auquel ils appartiennent, et ils sont construits à partir d&#39;éléments influents [!UICONTROL traits] qui sont conformes à la [!UICONTROL Profile Merge Rule] du modèle.
 
  
 
-**Comment puis-je modifier la stratégie de fusion de profils d’un segment d’audiences prédictives ?**
+**Que[!UICONTROL Profile Merge Rule]devrais-je choisir ?**
 
-Dupliquez le segment [!UICONTROL Predictive Audiences] et modifiez la [!UICONTROL Profile Merge Rule] du segment dupliqué.
+Lorsque vous choisissez le modèle [!UICONTROL Profile Merge Rule] pour votre modèle, analysez attentivement votre cas d’utilisation.
 
- 
+Supposons que votre audience de cible [!UICONTROL segment] utilise une [!UICONTROL Profile Merge Rule] base de profils et de profils authentifiés, et que vous en sélectionniez la même [!DNL Device Graph] pour la prévision [!UICONTROL Profile Merge Rule] [!UICONTROL segments]. Dans ce cas, le niveau du périphérique et le niveau de l&#39;ensemble des périphériques [!UICONTROL traits] seront utilisés pour former le modèle et pour placer l&#39;utilisateur dans une prévision [!UICONTROL segment].
+
+Si, en revanche, vous sélectionnez un périphérique [!UICONTROL Profile Merge Rule] basé uniquement sur les profils du périphérique, aucun de vos périphériques croisés n’ [!UICONTROL traits] aura d’influence et ne contribuera pas à placer les utilisateurs dans une prévision [!UICONTROL segment]. Cela peut nuire à la précision et à la portée du modèle.
+
+Analysez soigneusement votre cas d&#39;utilisation et décidez des [!UICONTROL trait] types dont vous souhaitez que le modèle tire des enseignements et du type de données que vous souhaitez que le modèle utilise pour la classification.
 
 **Un utilisateur de l’audience cible qui ne fait partie d’aucun segment/caractéristique de persona peut-il ne pas être classé ?**
 
