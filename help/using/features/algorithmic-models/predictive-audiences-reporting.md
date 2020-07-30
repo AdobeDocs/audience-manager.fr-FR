@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%
@@ -34,7 +34,7 @@ Le tableau des modèles présente les informations suivantes :
    * **[!UICONTROL Pending]**: le modèle est en train d&#39;être initialisé et il aura début de produire des résultats sous peu ;
    * **[!UICONTROL Active]**: le modèle fonctionne correctement et produit des résultats ;
    * **[!UICONTROL Warning]**: le modèle n&#39;a pas produit de résultats en raison de données insuffisantes (c&#39;est-à-dire d&#39;une faible population de référence, les profils utilisateurs ne sont pas riches);
-   * **[!UICONTROL Error]**: l&#39;exécution du modèle a échoué. Vous devriez contacter votre représentant Adobe.
+   * **[!UICONTROL Error]**: l&#39;exécution du modèle a échoué. Vous devriez contacter votre représentant d&#39;Adobe.
 
 ## Rapport Présentation du modèle{#model-report}
 
@@ -69,7 +69,7 @@ Leur signe indique si la présence de la caractéristique augmente (+) ou diminu
 
 Pour vue les traits d’influence de toutes vos personnalités, cliquez sur [!UICONTROL View All Influential Traits].
 
-La [!UICONTROL Influential Traits] fenêtre affiche les informations suivantes pour chaque personne du modèle sélectionné :
+La [!UICONTROL Influential Traits] fenêtre affiche les informations suivantes, pour chaque personne du modèle sélectionné :
 
 ![caractéristiques influentes](assets/predictive-audiences-influential-traits.png)
 
