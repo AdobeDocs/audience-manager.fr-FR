@@ -8,9 +8,9 @@ title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
+source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Un fichier [!UICONTROL CDF] contient les mêmes données que celles envoyées à
 >
 >Notez les restrictions suivantes lorsque vous utilisez des fichiers CDF :
 >
->* Avant de configurer la diffusion de fichiers CDF, assurez-vous que vous disposez des autorisations appropriées de fournisseurs de données tiers pour l&#39;exportation de caractéristiques tierces.
+>* Avant de configurer la diffusion de fichiers CDF, assurez-vous que vous disposez des autorisations appropriées de fournisseurs de données tiers pour l&#39;exportation de caractéristiques tierces. Actuellement, l&#39;Audience Manager ne prend pas en charge les fonctionnalités de l&#39;interface utilisateur pour demander aux fournisseurs tiers de données l&#39;autorisation d&#39;exporter des diffusions de fichiers CDF. Contactez-les donc indépendamment.
 >* Vous ne devez pas utiliser [!UICONTROL CDF] les fichiers comme proxy pour surveiller le trafic des pages, réconcilier les écarts de rapport ou pour la facturation, etc.
 
 
