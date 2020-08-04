@@ -1,15 +1,15 @@
 ---
-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller Adobe ou le service d’assistance clientèle.
-seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller Adobe ou le service d’assistance clientèle.
+description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller en Adobe ou le service à la clientèle.
+seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller en Adobe ou le service à la clientèle.
 seo-title: Adobe Audience Manager des destinations serveur à serveur
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager des destinations serveur à serveur
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 72%
 
 ---
@@ -22,7 +22,7 @@ Cette page inclut les destinations [!DNL Audience Manager] actuelles basées sur
  
 
 * **Dernière mise à jour** = Affiche la dernière date à laquelle il y a eu une mise à jour pour cette [!UICONTROL device-based destination]application.
-* **Mises à jour** = Indique si [!DNL Audience Manager] les données sont envoyées par lot ou en temps réel (1 jour) à cette [!UICONTROL destination]fonction.
+* **Mises à jour** = Indique si [!DNL Audience Manager] les données sont envoyées en temps réel ou par lot (1 jour) à cette [!UICONTROL destination]fonction.
 * **Unsegment** = Unsegmentation décrit les processus qui excluent et suppriment les profils de périphérique [!UICONTROL segments]. Votre capacité à supprimer un profil de périphérique d&#39;un [!UICONTROL segment] périphérique dépend de l&#39;option de périphérique utilisée pour créer un [!UICONTROL Profile Merge Rule]périphérique. La non-segmentation est également utilisée dans le contexte des requêtes de [!DNL GDPR] suppression. Lisez les règles de fusion des [Profils et les processus](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de désegmentation des périphériques et les partenaires [d&#39;Audience Manager avec des fonctionnalités](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)d&#39;absence de segmentation. [!DNL Audience Manager] envoie les informations de non-segmentation au [!UICONTROL destinations] marqué avec **Oui** ci-dessous.
 * **Recevoir des signaux[!DNL IAB TCF]de** consentement = Permet [!DNL Audience Manager Plug-in for IAB TCF] [!DNL IAB TC] de transférer la chaîne à des partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = Cette colonne liste les partenaires qui prennent en charge [!UICONTROL Instant Cross-Device Suppression]. Lisez la section sur la suppression [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)instantanée de plusieurs périphériques.
@@ -84,7 +84,6 @@ Cette page inclut les destinations [!DNL Audience Manager] actuelles basées sur
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Oui | Oui | Non | Oui |
 | [!DNL Gamut Media] | 03/03/2017 | Temps réel |  | Non | Non |  |
-| [!DNL Google AdsWords Display] | 02/08/2018 | Temps réel | Oui | Oui | Non | Oui |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Temps réel | Oui | Oui | Oui | Oui |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Temps réel | Oui | Oui | Oui | Oui |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | Temps réel | Oui | Oui | Oui | Oui |
