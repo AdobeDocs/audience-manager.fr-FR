@@ -1,15 +1,15 @@
 ---
-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
-seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
+description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
+seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation des noms et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire FTP d’Audience Manager.
 seo-title: Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants
 solution: Audience Manager
 title: Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '894'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de 
 
 Pour connaître les autres formats de nom de fichier acceptés, voir Intégrations [de partenaire](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personnalisé.
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE]
 >
 >[!DNL Audience Manager] uniquement les processus [!DNL ASCII] et les fichiers [!DNL UTF-8] codés.
 
