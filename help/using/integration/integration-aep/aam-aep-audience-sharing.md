@@ -1,13 +1,13 @@
 ---
-description: Cet article décrit comment les audiences sont partagées entre l'Audience Manager et l'Adobe Experience Platform.
-seo-description: Cet article décrit comment les audiences sont partagées entre l'Audience Manager et l'Adobe Experience Platform.
+description: Cet article décrit comment les audiences sont partagées entre Audience Manager et Adobe Experience Platform.
+seo-description: Cet article décrit comment les audiences sont partagées entre Audience Manager et Adobe Experience Platform.
 seo-title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 solution: Audience Manager
 title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -23,11 +23,11 @@ ht-degree: 3%
 
 ## Présentation {#overview}
 
-La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et l&#39;Adobe Experience Platform vous permet de partager vos caractéristiques et segments d&#39;Audience Manager avec l&#39;Adobe Experience Platform et vice versa. Vous avez besoin du [[ !DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) pour activer le partage des audiences entre l’Audience Manager et l’Adobe Experience Platform.
+La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform vous permet de partager vos caractéristiques d&#39;Audience Manager et segments avec Adobe Experience Platform et vice versa. Vous avez besoin du [[ !DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) pour activer le partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform.
 
 Vous pouvez utiliser des caractéristiques et des segments d’Audience Manager dans l’Experience Platform pour ajouter des données d’Audience Manager à vos profils clients et pour bénéficier du service [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentation Experience Platform.
 
-Dans l’Audience Manager, vous pouvez utiliser des segments Experience Platform pour les cas d’utilisation de Platform Data Management, tels que :
+Dans l’Audience Manager, vous pouvez utiliser des segments Experience Platform pour les cas d’utilisation de la plateforme de Data Management, tels que :
 * Ajouter des données [](/help/using/overview/data-types-collected.md#third-party-data) tierces à vos segments ;
 * [Modélisation algorithmique](/help/using/features/algorithmic-models/understanding-models.md);
 * Activez vos segments vers des destinations qui ne sont pas encore prises en charge dans le catalogue [des](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)destinations Experience Platform.
@@ -44,7 +44,7 @@ Consultez le tableau ci-dessous pour une vue d’ensemble des cas d’utilisatio
 
 <br> 
 
-## Segments d’Audience Manager et caractéristiques dans l’Adobe Experience Platform {#aam-segments-traits-in-aep}
+## Segments et caractéristiques des Audiences Manager dans Adobe Experience Platform {#aam-segments-traits-in-aep}
 
 Vos caractéristiques et segments d’Audience Manager apparaissent dans l’Experience Platform en tant qu’ **Audiences** dans le processus des segments. Pour plus d’informations sur les segments et caractéristiques de vos Audiences Manager dans l’Experience Platform, voir :
 
@@ -54,7 +54,7 @@ Vos caractéristiques et segments d’Audience Manager apparaissent dans l’Exp
 
 <br> 
 
-## Segments d’Adobe Experience Platform dans l’Audience Manager {#aep-segments-in-aam}
+## Segments Adobe Experience Platform dans l’Audience Manager {#aep-segments-in-aam}
 
 Les segments que vous créez dans l’Experience Platform apparaissent dans l’interface d’Audience Manager sous la forme de signaux, de caractéristiques et de segments, avec les règles de composition suivantes :
 
@@ -114,8 +114,10 @@ Afin d’assurer la conformité de l’utilisation des données dans l’Experie
 
 Dans le processus de partage des audiences entre l’Audience Manager et l’Experience Platform, tous les contrôles d’exportation de données appliqués aux segments d’Audience Manager sont traduits en étiquettes équivalentes et actions marketing reconnues par la gouvernance des données Experience Platform, et vice versa.
 
->[!NOTE] Pour plus d&#39;informations sur les contrôles des exportations de données, consultez la documentation [sur les contrôles des exportations de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)données.
-Ce document fournit une référence sur la manière dont les contrôles d’exportation des données d’Audience Manager spécifiques correspondent aux étiquettes d’utilisation des données et aux actions marketing dans Platform.
+>[!NOTE]
+>
+>Pour plus d&#39;informations sur les contrôles des exportations de données, consultez la documentation [sur les contrôles des exportations de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)données.
+Ce document fournit une référence sur la manière dont des contrôles d’exportation de données d’Audience Manager spécifiques correspondent aux étiquettes d’utilisation des données et aux actions marketing dans la plateforme.
 
 ### Contrôles d’exportation des données vers les étiquettes d’utilisation des données
 
@@ -141,7 +143,7 @@ Le tableau suivant décrit comment des étiquettes d’exportation de données s
 
 ## Comprendre les différences de population des segments entre l&#39;Audience Manager et l&#39;Experience Platform {#aep-aam-segment-population-differences}
 
-Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que le nombre de segments pour des audiences similaires ou identiques devrait être proche, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
+Les nombres de population de segments peuvent varier selon vos segments d’Audience Manager et d’Experience Platform. Bien que les chiffres des segments pour des audiences similaires ou identiques soient proches, les différences dans les populations peuvent être dues à des facteurs énumérés ci-dessous.
 
 ### Évaluation des segments dans l’Experience Platform
 
@@ -153,7 +155,7 @@ L’Audience Manager met à jour les numéros de rapports dans l’interface une
 
 ### Composition de segments dans l’Experience Platform
 
-L&#39;intégration entre Adobe Experience Platform et Audience Manager partage un certain nombre d&#39;espaces de nommage [d&#39;](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) identité standard pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID, etc. Si vos segments d’Experience Platform utilisent l’un d’eux comme identité principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
+L&#39;intégration entre Adobe Experience Platform et l&#39;Audience Manager partage un certain nombre d&#39;espaces de nommage [d&#39;](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) identité standard pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID, etc. Si vos segments d’Experience Platform utilisent l’un d’eux comme identité Principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
 
 En outre, l’Audience Manager peut enregistrer les réalisations entrantes pour tout espace de nommage d’identité personnalisé que vous utilisez dans les segments Experience Platform si vous disposez déjà d’une source de données correspondante dans l’Audience Manager et que cet identifiant est masqué.
 
