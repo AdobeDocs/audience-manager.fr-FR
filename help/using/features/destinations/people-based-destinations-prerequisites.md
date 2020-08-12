@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Conditions préalables et considérations
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,14 @@ Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vo
 Pour savoir comment modifier vos autorisations d’ [!DNL LinkedIn Campaign Manager] utilisateur, voir [Ajouter, modifier et supprimer des autorisations d’utilisateur sur des comptes](https://www.linkedin.com/help/lms/answer/5753) publicitaires dans la documentation LinkedIn.
 
 Voir [Présentation et configuration de la destination](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) basée sur les personnes LinkedIn pour obtenir des instructions vidéo.
+
+### [!DNL Google Customer Match]
+
+Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] l’envoi de segments d’audience propriétaires vers une [!DNL Google Customer Match] destination, il est obligatoire de [!DNL Google] vous ajouter à leur liste autorisée.
+
+Contactez votre [!DNL Google] représentant et suivez les instructions de liste autorisée décrites dans la section [Utilisation des partenaires de correspondance client pour télécharger votre documentation de données](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] .
+
+Une fois ce processus terminé, vous pouvez créer votre [!UICONTROL People-Based Destination]formulaire.
 
 ## Intégration de données {#data-onboarding}
 
