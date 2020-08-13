@@ -7,9 +7,9 @@ title: Documentation du produit Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 98%
 
 ---
@@ -160,10 +160,10 @@ Ce guide de documentation technique fournit une aide autonome pour Audience Mana
      <br> 
      <p> <b>Dernières fonctionnalités</b> </p> <p> 
      Découvrez les dernières fonctionnalités d’Audience Manager :</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Module d’Audience Manager pour IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiences prédictives</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Rapports d’utilisation des activités</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondance client Google pour les destinations basées sur les personnes</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Module d’Audience Manager pour IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiences prédictives</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Rapports d’utilisation des activités</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Révision de la documentation d’assistance et de confidentialité de la California Consumer Privacy Act (CCPA)</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Recommandations intelligentes des données d’Audience Marketplace, alimentées par Adobe Sensei</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Améliorations des stratégies de fusion de profil</a></li></ul><p>
+     </ul><p>
     </td>
   </tr> 
  </tbody> 
