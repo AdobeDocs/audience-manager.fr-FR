@@ -8,9 +8,9 @@ title: Identifiants déclarés
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1187'
 ht-degree: 10%
 
 ---
@@ -37,8 +37,8 @@ Certains navigateurs et la plupart des périphériques mobiles n’acceptent pas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Appel Événement</b> </td> 
-   <td colname="col2"> <p>Pour fonctionner, vous avez besoin de <span class="wintitle"> code DIL </span> et du <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html" format="https" scope="external"> code du service d'identité </a> d'Adobe Experience Platform sur la page. <span class="wintitle"> Le code DIL </span> récupère les identifiants <span class="wintitle"> déclarés </span> de la <code> setVisitorID </code> fonction fournie par le service d'identité de l' <span class="keyword"> Adobe Experience Platform </span> et les transmet à l' d'Audience Manager <span class="keyword"> .</span> </p> </td> 
+   <td colname="col1"> <b>Appel événement</b> </td> 
+   <td colname="col2"> <p>Pour fonctionner, vous avez besoin du <span class="wintitle"> DIL </span> et du <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html" format="https" scope="external"> code du service d’identité </a> Adobe Experience Platform sur la page. <span class="wintitle"> Le DIL </span> obtient les identifiants <span class="wintitle"> déclarés </span> de la <code> setVisitorID </code> fonction fournie par le service d'identité de Adobe Experience Platform <span class="keyword"> et les transmet à l' d' </span> <span class="keyword"> Audience Manager.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identifiant de correspondance</b> </td> 
@@ -55,14 +55,14 @@ Certains navigateurs et la plupart des périphériques mobiles n’acceptent pas
  </tbody>
 </table>
 
-Pour commencer, vous devez configurer le service d’ [!DNL Experience Cloud] ID et [!UICONTROL DIL] les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir [DIL create](../dil/dil-class-overview/dil-create.md#dil-create) and [Declared ID Variables](../features/declared-ids.md#declared-id-variables).
+Pour commencer, vous devez configurer le service d’ [!DNL Experience Cloud] ID et [!UICONTROL DIL] les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir Variables [](../dil/dil-class-overview/dil-create.md#dil-create) d’ID créées [et](../features/declared-ids.md#declared-id-variables)déclarées par le DIL.
 
 ## Appels d’exclusion {#opt-out-calls}
 
 Le [!UICONTROL declared ID] processus respecte les préférences du visiteur du site pour l’exclusion du [!DNL Audience Manager] ciblage par votre site Web. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] peut transmettre une [!UICONTROL declared ID] exclusion en même temps qu’une [!DNL Audience Manager][!UICONTROL UUID] dans le [!DNL URL].
-* L&#39; [!UICONTROL declared ID] exclusion est stockée dans le serveur de cache de Profil [ !UICONTROL ([!UICONTROL PCS]) par partenaire. Il n’existe pas d’exclusion au niveau de la plateforme utilisant [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] désactive l’utilisateur de cette région spécifique sur le bord (l’exclusion ne s’applique pas à [!DNL DCS] plusieurs régions).
+* L’ [!UICONTROL declared ID] exclusion est stockée dans le [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) partenaire sur une base par partenaire. Il n’existe pas d’exclusion au niveau de la plateforme utilisant [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] désactive l’utilisateur de cette région spécifique sur le bord (l’exclusion ne s’applique pas à [!DNL DCS] plusieurs régions).
 
 Voir Confidentialité [des](../overview/data-security-and-privacy/data-privacy.md) données pour en savoir plus sur l’exclusion de la collecte de données.
 
@@ -115,7 +115,7 @@ Ces méthodes fonctionnent toujours mais sont considérées comme obsolètes. Ce
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exclusion au niveau du partenaire </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Une exclusion au niveau du partenaire est stockée pour la dernière mise en correspondance de cette paire <code> dpid </code> + <code> dpuuid </code> avec un UUID AAM. S’il n’existe aucun mappage existant auparavant, l’Audience Manager vérifie si la requête contient un UUID AAM dans le cookie et, dans ce cas, l’utilise pour stocker l’exclusion. Dans le cas contraire, l’Audience Manager génère un nouvel identifiant UUID AAM et stocke l’exclusion sous-jacente. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Une exclusion au niveau du partenaire est stockée pour la dernière mise en correspondance de cette paire <code> dpid </code> + <code> dpuuid </code> avec un UUID AAM. S’il n’existe aucun mappage existant auparavant, l’Audience Manager vérifie si la requête contient un UUID AAM dans le cookie et, dans ce cas, l’utilise pour stocker l’exclusion. Dans le cas contraire, l’Audience Manager génère un nouvel UUID AAM et stocke l’exclusion sous-jacente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> et explicite <code> d_uuid </code> </p> </td> 
@@ -159,7 +159,7 @@ Compte tenu de ces paires clé-valeur et de leur syntaxe requise, vous effectuer
 <table id="table_4C8E23CC663942BA8FA6BB1EE5929440"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> L'appel de Événement inclut </th> 
+   <th colname="col1" class="entry"> L'appel de événement inclut </th> 
    <th colname="col2" class="entry"> Exemple de code </th> 
   </tr> 
  </thead>
@@ -185,7 +185,7 @@ Décrit les variables de configuration utilisées pour transmettre [!UICONTROL d
 
 ## [!UICONTROL DIL] utilise [!DNL Adobe Experience Platform Identity Service] to Pass [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Lorsqu&#39;il est utilisé avec le service [d&#39;identité de l&#39;](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)Adobe Experience Platform, il n&#39;est plus nécessaire de transmettre [!UICONTROL declared IDs] les variables `dpid` et `dpuuid` les variables obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la `visitorService` fonction pour obtenir la [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Vous appellerez `visitorService` dans `DIL.create` comme illustré ci-dessous.
+Lorsqu’il est utilisé avec le service [d’identité](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)Adobe Experience Platform, vous n’avez plus besoin de transmettre [!UICONTROL declared IDs] les variables `dpid` et `dpuuid` variables obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la `visitorService` fonction pour obtenir la [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Vous appellerez `visitorService` dans `DIL.create` comme illustré ci-dessous.
 
 ```js
 var vDil = DIL.create({
