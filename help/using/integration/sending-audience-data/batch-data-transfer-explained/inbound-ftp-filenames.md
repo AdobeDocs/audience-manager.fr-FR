@@ -7,7 +7,7 @@ title: Exigences en matière de nom et de taille de fichier FTP pour les fichier
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 9%
@@ -82,7 +82,7 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i></code>] </p> </td> 
+   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
    <td colname="col2"> <p>Entier. Utilisé lorsque vous divisez des fichiers volumineux en plusieurs parties afin d’améliorer les temps de traitement. Le numéro indique la partie du fichier d'origine que vous envoyez. </p> <p>Pour un traitement efficace des fichiers, fractionnez vos fichiers de données comme indiqué : </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compressé : 1 Go </li> 
