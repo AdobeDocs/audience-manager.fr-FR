@@ -3,9 +3,10 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
+user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 94%
@@ -338,10 +339,10 @@ ht-degree: 94%
    + Intégration à Adobe Experience Platform {#integration-experience-platform}
       + [Partage d’audiences entre Audience Manager et Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
    + Intégration aux autres solutions Experience Cloud {#integration-other-solutions}
-      + [Intégrer l&#39;Audience Manager à l&#39;Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Intégrer l&#39;Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Comment transférer des données d’Adobe Analytics vers Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publication d’un segment Analytics Adobe sur l’Experience Cloud (ouvre la documentation Adobe Analytics)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Intégrer l&#39;Audience Manager à l&#39;Adobe Campaign (ouvre la documentation de l&#39;Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publication d’un segment Adobe Analytics sur l’Experience Cloud (ouvre la documentation Adobe Analytics)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Intégration de l’Audience Manager à Adobe Campaign (ouvre la documentation Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Référence {#reference}
    + [Présentation des références](reference/reference.md)
    + [À propos d’Amazon S3](reference/amazon-s3.md)
