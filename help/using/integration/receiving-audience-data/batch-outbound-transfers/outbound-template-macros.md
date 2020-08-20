@@ -135,7 +135,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour cons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insère un caractère d’accolade ouvert <code>{</code> . </p> </td> 
+   <td colname="col2"> <p>Insère un caractère d’accolade ouvert {. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
