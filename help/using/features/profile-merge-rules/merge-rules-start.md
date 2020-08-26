@@ -7,9 +7,9 @@ title: Démarrage des stratégies de fusion de profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1304'
 ht-degree: 4%
 
 ---
@@ -87,7 +87,7 @@ Pour compléter la [!UICONTROL Basic Information] section :
 
 [Les contrôles](../data-export-controls.md) d’exportation de données sont des règles de classification facultatives que vous pouvez appliquer à votre [!UICONTROL Profile Merge Rule]application. Ils vous empêchent d’envoyer des données vers une destination lorsque cette action enfreint un accord de confidentialité ou d’utilisation des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
-## Configuration des règles de fusion de Profils {#profile-merge-rule-setup}
+## Configuration des règles de fusion de profils {#profile-merge-rule-setup}
 
 Pour compléter la [!UICONTROL Proflie Merge Rule Setup] section :
 
@@ -103,18 +103,18 @@ Pour compléter la [!UICONTROL Proflie Merge Rule Setup] section :
    * **[!UICONTROL Device Co-op]**
 4. Cliquez sur **[!UICONTROL Save]**.
 
-### Considérations relatives aux destinations d’Adobe Campaign à l’aide d’ID sur plusieurs périphériques en tant que clés d’ID utilisateur {#considerations}
+### Considérations relatives aux destinations Adobe Campaign utilisant des identifiants de plusieurs périphériques comme clés d’ID utilisateur {#considerations}
 
-À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
+À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance d’Audience Manager à compter du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
 
-Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que l’Adobe Campaign, assurez-vous de respecter les exigences suivantes :
+Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que Adobe Campaign, assurez-vous de respecter les exigences suivantes :
 
 1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion des Profils doit utiliser l’ [!UICONTROL Last Authenticated Profile] option, de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
-2. Sélectionnez la source de données d’identifiant déclaré de l’Adobe Campaign dans les paramètres de la règle de fusion de Profils.
+2. Sélectionnez la source de données d’ID déclarés Adobe Campaign dans les paramètres de la règle de fusion de Profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré de l’Adobe Campaign, sans modifier les règles de fusion de Profil pour les autres cas d’utilisation.
+> Si vous avez atteint votre nombre maximum de [!UICONTROL Profile Merge Rules] et avez besoin d’aide pour les configurer en fonction des instructions ci-dessus, contactez le service d’assistance clientèle.
 
 ## Configurer le code de règle de fusion {#configure-merge-rule-code}
 
@@ -126,9 +126,9 @@ Suivez ces instructions pour configurer le code [!UICONTROL Adobe Experience Pla
 
 Vous devez configurer une source [de données](#create-data-source) inter-périphériques et des règles [de fusion de](#create-profile-merge-rule) profils *avant* d’exécuter ces procédures.
 
-## Pour les clients Adobe Experience Platform Identity Service {#id-service-customers}
+## Pour les clients du service d’identité Adobe Experience Platform {#id-service-customers}
 
-Il est recommandé d’utiliser [!UICONTROL Adobe Experience Platform Identity Service] la dernière version de [DIL](../../dil/dil-overview.md) et la dernière version de [!UICONTROL Profile Merge Rules]DIL. Cependant, vous n’avez pas besoin d’utiliser le [!UICONTROL Adobe Experience Platform Identity Service] pour utiliser cette fonctionnalité. Si vous utilisez simplement [!UICONTROL DIL], reportez-vous à la section [DIL](#legacy-dil) héritée ci-dessous.
+Il est recommandé d’utiliser la version [!UICONTROL Adobe Experience Platform Identity Service] et la dernière version du [DIL](../../dil/dil-overview.md) lorsque vous travaillez avec [!UICONTROL Profile Merge Rules]. Cependant, vous n’avez pas besoin d’utiliser le [!UICONTROL Adobe Experience Platform Identity Service] pour utiliser cette fonctionnalité. Si vous utilisez simplement [!UICONTROL DIL], reportez-vous à la section [DIL](#legacy-dil) hérité ci-dessous.
 
 ### Configurer la fonction Définir l’ID de client
 
