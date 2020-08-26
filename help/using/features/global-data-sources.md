@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Sources de données globales
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ Le tableau suivant décrit les sources de données globales prises en charge par
 
 | ID de source de données | Description |
 |---|---|
-| 20914 | **Identifiant** Google Advertising - **** Les GAID représentent les périphériques qui exécutent le système d’ [!DNL Android] exploitation. |
-| 20915 | **Apple ID For Advertising** - **** Les fichiers IDFA représentent les périphériques qui exécutent le système d’ [!DNL iOS] exploitation. |
-| 121963 | **ID Roku pour la publicité** - **** Les RIDA représentent les périphériques [!DNL Roku] de diffusion en continu. |
-| 389146 | **ID** publicitaire Microsoft - **** Les MAID représentent les périphériques exécutant le système d’ [!DNL Windows 10] exploitation. |
-| 404660 | **Les** DUID Samsung représentent des télévisions [!DNL Samsung] intelligentes. |
-| 488258 | **Les** identifiants publicitaires Amazon Fire TV représentent les périphériques exécutant [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** Les identifiants représentent les périphériques qui exécutent le système d&#39; [!DNL Android] exploitation. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Les identifiants représentent les périphériques qui exécutent le système d&#39; [!DNL iOS] exploitation. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** Les identifiants représentent les périphériques de [!DNL Roku] diffusion en continu. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Les identifiants représentent les périphériques exécutant le système d&#39; [!DNL Windows 10] exploitation. |
+| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** Les identifiants représentent les téléviseurs [!DNL Samsung] intelligents. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** représente les périphériques exécutant [!DNL Amazon Fire OS] |
 
 ## Importation de données à partir de sources de données globales
 
@@ -52,7 +52,7 @@ Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) import
 
 ## Stratégie d&#39;expiration d&#39;ID de périphérique
 
-L’Audience Manager supprime automatiquement les identifiants publicitaires des périphériques après 120 jours d’inactivité, comme les [identifiants UUID](../faq/faq-privacy.md)AAM.
+L’Audience Manager supprime automatiquement les identifiants publicitaires des périphériques après 120 jours d’inactivité, comme [AAM](../faq/faq-privacy.md)UUIDs.
 
 ## Demande de nouvelles sources de données globales
 
