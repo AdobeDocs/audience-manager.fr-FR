@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Présentation {#overview}
 
-La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform vous permet de partager vos caractéristiques d&#39;Audience Manager et segments avec Adobe Experience Platform et vice versa. Vous avez besoin du [[ !DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) pour activer le partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform.
+La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform vous permet de partager vos caractéristiques d&#39;Audience Manager et segments avec Adobe Experience Platform et vice versa. Vous avez besoin du [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) pour activer le partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform.
 
 Vous pouvez utiliser des caractéristiques et des segments d’Audience Manager dans l’Experience Platform pour ajouter des données d’Audience Manager à vos profils clients et pour bénéficier du service [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentation Experience Platform.
 
