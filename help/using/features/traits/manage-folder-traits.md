@@ -8,9 +8,9 @@ title: Gestion des caractéristiques de dossier
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -30,13 +30,13 @@ Une [!UICONTROL folder trait] est créée automatiquement lorsque vous créez un
 1. Dans la [!UICONTROL Trait Storage] fenêtre, passez la souris sur :
 
    * Texte &quot;Toutes les caractéristiques&quot; pour ajouter un nouveau dossier de niveau racine.
-   * Un dossier parent existant pour ajouter un nouveau dossier subordonné.
+   * Un dossier parent existant pour ajouter un nouveau dossier Secondaire.
 
    ![](assets/folder_traits_create.PNG)
 
 1. Cliquez sur l’icône + pour créer le dossier. Vous pouvez créer 2 000 dossiers au maximum dans la taxonomie. Pour plus d’informations, consultez la documentation relative aux [limites d’utilisation](../../features/administration/usage-limits.md).
 1. Nommez le dossier et cliquez sur **Enregistrer**. Par exemple, un dossier nommé Electronics aura une caractéristique de dossier nommée &quot;Caractéristique du dossier Electronics&quot;. Vous pouvez vue et sélectionner la nouvelle caractéristique de dossier dans le tableau de bord caractéristiques.
-1. La nouvelle caractéristique de dossier est automatiquement affectée à la source de données [!DNL Audience Manager] générée. Vos utilisateurs disposant des autorisations appropriées de [!UICONTROL Role-Based Contrôle d&#39;accès ([!DNL RBAC])] peuvent modifier la source de données dans le flux de travaux de modification des caractéristiques du dossier. Voir [Modification d’une description](../../features/traits/manage-folder-traits.md#edit-folder-trait)de dossier.
+1. La nouvelle caractéristique de dossier est automatiquement affectée à la source de données [!DNL Audience Manager] générée. Vos utilisateurs disposant des autorisations [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) appropriées peuvent modifier la source de données dans le processus de modification de la caractéristique du dossier. Voir [Modification d’une description](../../features/traits/manage-folder-traits.md#edit-folder-trait)de dossier.
 
 ## Modification d’une description de dossier {#edit-folder-trait}
 
@@ -63,7 +63,7 @@ Supprimez une caractéristique de dossier en supprimant le dossier d’enregistr
 
 <!-- delete-folder-trait.xml -->
 
-1. **Audience Data > Caractéristiques** pour accéder au tableau de bord **Caractéristiques** .
+1. **audience Data > Caractéristiques** pour accéder au tableau de bord **Caractéristiques** .
 1. Dans la [!UICONTROL Trait Storage] fenêtre, supprimez un dossier en le survolant et en cliquant sur l’icône X.
 
    ![Résultat de l’étape](assets/folder_traits_create.PNG)
