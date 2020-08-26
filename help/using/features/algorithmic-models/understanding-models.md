@@ -98,7 +98,7 @@ Planification de la création et de la mise à jour pour les nouveaux programmes
  <tbody>
   <tr> 
    <td colname="col1"> <b>Création ou duplication d’un modèle</b> </td>
-   <td colname="col2"> <p>Pour les nouveaux [ !UICONTROL Look Alike Models] ou clonés, le processus de création s’exécute une fois par jour à l’adresse suivante : 
+   <td colname="col2"> <p>Pour les nouveaux [!UICONTROL Look Alike Models] ou clonés, le processus de création s’exécute une fois par jour à l’adresse suivante : 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 17 h (novembre à mars) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 18h HAE (mars à novembre) </li> 
