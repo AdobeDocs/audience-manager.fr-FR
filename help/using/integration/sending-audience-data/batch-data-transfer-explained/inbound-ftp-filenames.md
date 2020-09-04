@@ -7,9 +7,9 @@ title: Exigences en matière de nom et de taille de fichier FTP pour les fichier
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '863'
 ht-degree: 9%
 
 ---
@@ -92,9 +92,9 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Horodatage UTC UNIX à 10 chiffres en secondes. L’horodatage permet de rendre chaque nom de fichier unique. </p> 
-    <draft-comment> 
-     <p> <p>Remarque :  L’Audience Manager n’utilise pas l’horodatage lors du traitement des fichiers entrants. L’horodatage du nom de fichier a été abandonné en Audience Manager mais est toujours requis pour la compatibilité ascendante. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
