@@ -7,9 +7,9 @@ title: Glossaire des outils de gestion en bloc
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Les signaux sont des bits de données transmis à <span class="keyword"> l’Audience Manager</span> en fonction de l’activité de l’utilisateur. Elles sont transmises sous forme de paires <a href="../../reference/key-value-pairs-explained.md"></a>clé-valeur. La clé source est une constante qui ne change pas. Il permet de classer la valeur source qui peut changer. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </p> </td> 
+   <td colname="col2"> <p>Les signaux sont des bits de données transmis à <span class="keyword"> l’Audience Manager</span> en fonction de l’activité de l’utilisateur. Elles sont transmises sous la forme de paires <a href="../../reference/key-value-pairs-explained.md"></a>clé-valeur. La clé source est une constante qui ne change pas. Il permet de classer la valeur source qui peut changer. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -83,7 +83,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indique quand un segment peut début être envoyé à une destination. Utilise le format <tt>aaaa-mm-jj</tt> . </p> </td> 
+   <td colname="col2"> <p>Indique quand un segment peut début être envoyé à une destination. Utilise <code>yyyy-mm-dd</code> le format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -112,7 +112,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>Pixel déclenché par DIL lorsqu’un utilisateur est admissible pour un segment. </p> </td> 
+   <td colname="col2"> <p>Pixel déclenché par le DIL lorsqu’un utilisateur est admissible pour un segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
