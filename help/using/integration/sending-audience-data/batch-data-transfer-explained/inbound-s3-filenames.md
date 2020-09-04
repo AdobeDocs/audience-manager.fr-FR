@@ -1,16 +1,16 @@
 ---
-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
-seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire Audience Manager / Amazon S3.
+description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers selon ces spécifications lorsque vous envoyez des données à un répertoire Audience Manager / Amazon S3.
+seo-description: Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à l’Audience Manager. Définissez les noms et tailles de vos fichiers selon ces spécifications lorsque vous envoyez des données à un répertoire Audience Manager / Amazon S3.
 seo-title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants
 solution: Audience Manager
 title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 6%
+source-wordcount: '1006'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de 
 
 [!DNL S3] les noms de fichier contiennent les éléments obligatoires et facultatifs suivants :
 
-* **[!DNL S3]préfixe :**`s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]préfixe :**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
 * **Eléments de nom de fichier :**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
@@ -64,13 +64,13 @@ Le tableau définit les éléments d’un nom de [!DNL S3] fichier.
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>L’ID <span class="term"></span> de fournisseur de données (DPID) est un identifiant qui indique à <span class="keyword"> l’Audience Manager</span> si un fichier de données contient vos propres ID d’utilisateur, Android ou iOS. Accepte les options suivantes : </p> <p> <b>ID de partenaire de données</b> </p> <p>Il s’agit d’une Audience Manager d’ID unique attribuée à votre société ou organisation. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> qu’un partenaire doté de l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </p> <p> <b>Identifiants Android (GAID)</b> </p> <p> Utilisez ID 20914 comme DPID dans un nom de fichier de données si le fichier contient des ID Android. Lorsque vous utilisez ID 20914 comme DPID, vous devez toujours identifier votre société à <span class="keyword"> l’Audience Manager</span>. Cela signifie que le nom de fichier doit utiliser le <code><i>_DPID_TARGET_DATA_OWNER</i></code> paramètre pour conserver votre ID de société. Supposons, par exemple, que vous transfériez des fichiers avec des ID Android et que votre ID de fournisseur de données soit 21. Dans ce cas, le nom de fichier ressemble à <code>...ftp_dpm_20914_21_123456789.sync</code>. Cela indique à <span class="keyword"> l’Audience Manager</span> que le fichier contient des ID Android et provient d’un partenaire identifié par l’ID 21. </p> <p> <b>ID iOS (IDFA)</b> </p> <p> Utilisez ID 20915 comme DPID dans un nom de fichier de données si le fichier contient des ID iOS. Lorsque vous utilisez ID 20915 comme DPID, vous devez toujours identifier votre société à <span class="keyword"> l’Audience Manager</span>. Cela signifie que le nom de fichier doit utiliser le <code><i>_DPID_TARGET_DATA_OWNER</i></code> paramètre pour conserver votre ID de société. Supposons, par exemple, que vous transfériez des fichiers avec des ID Android et que votre ID de fournisseur de données soit 21. Dans ce cas, le nom de fichier ressemble à <code>...ftp_dpm_20915_21_123456789.sync</code>. Cela indique à <span class="keyword"> l’Audience Manager</span> que le fichier contient des ID iOS et provient d’un partenaire identifié par l’ID 21. </p> 
-    <draft-comment> 
+    <!-- 
      <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID de partenaire de données :</b> Il s’agit d’une Audience Manager d’ID unique attribuée à votre société ou organisation. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> qu’un partenaire doté de l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Identifiants Android (GAID) :</b> Utilisez l’ID 20914 dans un nom de fichier de données s’il contient un ID Android. Par exemple, <code>...ftp_dpm_20914_21_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> que le fichier de données contient uniquement des ID Android. Remarque : l’ID 21 </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA) :</b> Utilisez l’ID 20915 dans un nom de fichier de données s’il contient des ID iOS. Par exemple, <code>...ftp_dpm_20915_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> que le fichier de données contient uniquement des ID iOS. </li> 
+      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Partner ID:</b> This is a unique ID Audience Manager assigns to your company or organization. Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
+      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android ID. For example, <code>...ftp_dpm_20914_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. Note, the ID 21 </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
      </ul> 
-    </draft-comment> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, n’insérez pas d’ID iOS ou vos propres ID dans le fichier de données. </p> </p><p>Consultez les <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p> <p>Voir aussi l' <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrée ci-dessous. </p> </td> 
+    --> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, n’insérez pas d’ID iOS ou vos propres ID dans le fichier de données. </p> </p><p>Consultez les <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p> <p>Voir aussi l' <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrée ci-dessous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -88,9 +88,9 @@ Le tableau définit les éléments d’un nom de [!DNL S3] fichier.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Horodatage UTC UNIX à 10 chiffres en secondes. L’horodatage permet de rendre chaque nom de fichier unique. </p> 
-    <draft-comment> 
-     <p> <p>Remarque :  L’Audience Manager n’utilise pas l’horodatage lors du traitement des fichiers entrants. L’horodatage du nom de fichier a été abandonné en Audience Manager mais est toujours requis pour la compatibilité ascendante. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
