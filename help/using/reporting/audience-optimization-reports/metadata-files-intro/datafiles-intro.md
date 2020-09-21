@@ -1,15 +1,15 @@
 ---
-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports Optimisation des Audiences et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
-seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports Optimisation des Audiences et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
+description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports d’Audience Optimization et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
+seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports d’Audience Optimization et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
 seo-title: Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques
 solution: Audience Manager
 title: Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1010'
 ht-degree: 5%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques {#data-files-for-audience-optimization-reports}
 
-Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans l&#39;Audience Manager pour les vue dans les rapports [d&#39;optimisation des](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audiences et créer des caractéristiques à l&#39;aide des données par le biais de fichiers [journaux](/help/using/integration/media-data-integration/actionable-log-files.md)utilisables. Mettez en forme vos fichiers de données selon ces spécifications dans cette section.
+Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l&#39;Audience Manager pour les vue dans les rapports [](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) d&#39;Audience Optimization et créer des caractéristiques à l&#39;aide des données par le biais de fichiers [journaux](/help/using/integration/media-data-integration/actionable-log-files.md)utilisables. Mettez en forme vos fichiers de données selon ces spécifications dans cette section.
 
 ## Présentation {#overview}
 
-Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les rapports [Optimisation des](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences. Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré [!DNL Audience Manager] et que vous souhaitez utiliser les données qu’il contient dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
+Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les rapports [](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)d’Audience Optimization. Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré [!DNL Audience Manager] et que vous souhaitez utiliser les données qu’il contient dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
 
 Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées correspond aux informations relatives au fichier de données et aux étiquettes lisibles dans les menus du rapport. Pour plus d’informations, voir [Aperçu et mappages pour les fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)de métadonnées.
 
@@ -29,7 +29,7 @@ Un fichier de données doit être accompagné d’un fichier de métadonnées. L
 
 La syntaxe suivante définit la structure d’un nom de fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable qui change en fonction du contenu du fichier.
 
-**Syntaxe :** <pre><i>type d&#39;événement</i>_<i>yyyyymmdd</i></code></pre>
+**Syntaxe :**`event type_yyyymmdd`
 
 Dans un nom de fichier :
 
@@ -39,15 +39,15 @@ Dans un nom de fichier :
 
 Pour ces raisons, nommez vos fichiers de données en fonction de leur contenu comme suit :
 
-* Données d’impression : <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
-* Données du clic : <pre>clicks_<i>yyyyymmdd</i>.gz</code></pre>
-* Données de conversion : <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Données d’impression : `impressions_yyyymmdd.gz`
+* Données du clic : `clicks_yyyymmdd.gz`
+* Données de conversion : `conversions_yyyymmdd.gz`
 
 ## Content Format for Data Files {#content-format}
 
 La syntaxe suivante définit la structure de contenu dans un fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
 
-**Syntaxe :** <pre><i>libellé d’en-tête 1</i> | <i>étiquette d&#39;en-tête 2</i> ... étiquette d&#39; <i>en-tête n</i> | <i>version</i></code></pre>
+**Syntaxe :**`header label 1 | header label 2 ... header label n | version`
 
 Dans le contenu du fichier :
 
@@ -149,11 +149,11 @@ Téléchargez vos fichiers de données d’impression, de clic ou de conversion 
 >
 > Contactez votre conseiller en Audience Manager ou le service d’assistance clientèle pour commencer et configurer un [!DNL Amazon S3] répertoire pour vos fichiers de données.
 
-**Syntaxe du chemin de Diffusion et exemples**
+**Syntaxe du chemin de diffusion et exemples**
 
 Les données sont stockées dans un espace de nommage distinct pour chaque client dans un [!DNL Amazon S3] annuaire. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
-**Syntaxe :** <pre>.../log_assimilation/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ type <i>de</i>fichier_<i>yyyyymdd</i></code></pre>
+**Syntaxe :**`.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
 
 Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion de fichiers.
 
@@ -167,7 +167,7 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
-   <td colname="col2"> <p>début du chemin d'enregistrement de l'annuaire. Vous recevrez le chemin complet lorsque tout sera configuré. </p> </td> 
+   <td colname="col2"> <p>Début du chemin d'enregistrement de l'annuaire. Vous recevrez le chemin complet lorsque tout sera configuré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
