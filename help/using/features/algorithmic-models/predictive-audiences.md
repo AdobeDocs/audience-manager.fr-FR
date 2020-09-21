@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 8%
+source-wordcount: '1551'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Les modèles de [!UICONTROL Predictive Audiences] approfondissent encore ce conc
 
 Lorsque vous créez un [!UICONTROL Predictive Audiences] modèle, la première étape consiste à choisir les caractéristiques ou segments de base par lesquels votre audience de cible doit être classée. Ces caractéristiques ou segments définissent vos personnages.
 
-Pendant la phase d’évaluation, le modèle crée un nouveau [!UICONTROL Predictive Audiences] segment pour chaque caractéristique ou segment que vous avez défini comme ligne de base. La prochaine fois que l’Audience Manager voit un visiteur de votre audience de cible qui n’est pas classé pour une personne (qui ne correspond à aucun de vos traits ou segments de base), le modèle détermine à quel segment de prévision le visiteur doit appartenir et ajoute le visiteur à ce segment. [!UICONTROL Predictive Audiences]
+Au cours de la phase d’évaluation, le modèle crée un nouveau [!UICONTROL Predictive Audiences] segment pour chaque caractéristique ou segment que vous avez défini comme ligne de base. La prochaine fois que l’Audience Manager voit un visiteur de votre audience de cible qui n’est pas classé pour une personne (qui ne correspond à aucun de vos traits ou segments de base), le modèle détermine à quel segment de prévision le visiteur doit appartenir et ajoute le visiteur à ce segment. [!UICONTROL Predictive Audiences]
 
 Vous pouvez identifier les segments prédictifs créés par le modèle dans la [!UICONTROL Segments] page. Chaque [!UICONTROL Predictive Audiences] modèle comporte son propre dossier sous le [!UICONTROL Predictive Audiences] dossier et vous pouvez afficher les segments de chaque modèle en cliquant sur le dossier du modèle.
 
@@ -114,12 +114,15 @@ Lors de la configuration de vos [!UICONTROL Predictive Audiences] modèles, gard
 * Actuellement, les données tierces et secondaires ne sont pas prises en charge dans [!UICONTROL Predictive Audiences].
 * La classification des Audiences est effectuée uniquement pour les audiences propriétaires en temps réel. La classification des audiences propriétaires intégrée peut être prise en charge dans une prochaine mise à jour.
    >[!IMPORTANT]
+   > Si vous ajoutez une caractéristique prédictive à un segment normal, elle devient un segment prédictif. Par conséquent, tous les profils associés ne sont pas segmentés.
+
+   >[!IMPORTANT]
    > Actuellement, les segments prédictifs ne peuvent être activés que dans les destinations en temps réel. Les segments prédictifs [!UICONTROL Total Segment Population] et [!UICONTROL Addressable Audience] sont affichés sous la forme 0 et les transferts [de données sortantes](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) par lot ne sont pas pris en charge pour [!UICONTROL Predictive Audiences]. Ce comportement changera dans une prochaine mise à jour.
 * [!UICONTROL Predictive Audiences] effectue une classification des audiences en fonction de vos caractéristiques propriétaires, à partir de toutes vos sources de données propriétaires.
 * L’évaluation des segments pour [!UICONTROL Predictive Audiences] utilise la **[!UICONTROL Profile Merge Rule]** méthode choisie lors de la création du modèle. Pour en savoir plus sur [!UICONTROL Profile Merge Rules] consultez la [documentation](../profile-merge-rules/merge-rules-overview.md)qui vous est consacrée.
 * Certaines caractéristiques et certains segments ne sont pas pris en charge en tant que lignes de base ou audiences de cible. [!UICONTROL Predictive Audiences] les modèles ne peuvent pas être enregistrés lorsque vous sélectionnez l&#39;une des audiences suivantes comme lignes de base ou cible :
    * Caractéristiques prédictives et segments créés avec des caractéristiques prédictives ;
-   * [caractéristiques ou segments d&#39;Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
+   * [Caractéristiques ou segments de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
    * Caractéristiques algorithmiques ;
    * Caractéristiques des deuxième et troisième parties.
 
