@@ -7,7 +7,7 @@ title: Conseils de dépannage pour les outils de gestion en bloc
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 5%
@@ -78,5 +78,5 @@ Le tableau suivant liste certains problèmes courants que vous pouvez rencontrer
 
 ## Messages d’erreur
 
-Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en masse. Pour interpréter le message d’erreur, reportez-vous à la section Codes de [réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) dans notre documentation API.
+Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en masse. Pour interpréter le message d’erreur, reportez-vous à la section Codes de [réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined) dans notre documentation API.
 
