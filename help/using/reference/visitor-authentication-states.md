@@ -8,9 +8,9 @@ title: États d’authentification du visiteur dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 5%
 
 ---
@@ -24,25 +24,10 @@ L’état d’authentification du visiteur dans l’Audience Manager détermine 
 
 ## État de l&#39;authentification : INCONNU {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lire</b> les informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Écrire</b> de nouvelles caractéristiques au profil authentifié </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Oui, si la règle de fusion des options authentifiées = "Derniers Profils authentifiés". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Non, les données de caractéristiques sont ajoutées au profil du périphérique. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Non, si la règle de fusion des options authentifiées = "Profils authentifiés actuels" ou "Aucun Profil authentifié". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeur de requête | **Lire** les informations du profil authentifié | **Écrire** de nouvelles caractéristiques au profil authentifié |
+---------|----------|---------
+| 0 | <ul><li>Oui, si la règle de fusion des options authentifiées = &quot;Derniers Profils authentifiés&quot;.</li><li>Non, si la règle de fusion des options authentifiées = &quot;Profils authentifiés actuels&quot; ou &quot;Aucun Profil authentifié&quot;.</li></ul> | Non, les données de caractéristiques sont ajoutées au profil du périphérique. |
+
 
 Exemple d’appel (la valeur de requête correspondant à l’état d’authentification est mise en surbrillance) :
 
@@ -50,25 +35,9 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 ## État de l&#39;authentification : AUTHENTIFIÉ {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lire</b> les informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Écrire</b> de nouvelles caractéristiques au profil authentifié </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Oui, si la règle de fusion des options authentifiées = "Profils authentifiés actuels" ou "Derniers Profils authentifiés". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Oui, les données de caractéristiques sont ajoutées au profil authentifié. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Non, si la règle de fusion des options authentifiées = "Aucun Profil authentifié". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeur de requête | **Lire** les informations du profil authentifié | **Écrire** de nouvelles caractéristiques au profil authentifié |
+---------|----------|---------
+| 1 | <ul><li>Oui, si la règle de fusion des options authentifiées = &quot;Profils authentifiés actuels&quot; ou &quot;Derniers Profils authentifiés&quot;.</li><li>Non, si la règle de fusion des options authentifiées = &quot;Aucun Profil authentifié&quot;.</li></ul> | Oui, les données de caractéristiques sont ajoutées au profil authentifié. |
 
 Exemple d’appel (la valeur de requête correspondant à l’état d’authentification est mise en surbrillance) :
 
@@ -76,25 +45,9 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 ## État de l&#39;authentification : LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lire</b> les informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Écrire</b> de nouvelles caractéristiques au profil authentifié </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Oui, si la règle de fusion des options authentifiées = "Derniers Profils authentifiés" </td> 
-   <td colname="col3" morerows="1"> <p>Non, les données de caractéristiques sont écrites sur le profil du périphérique. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> Non, si la règle de fusion des options authentifiées = "Profils authentifiés actuels" ou "Aucun Profil authentifié" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeur de requête | **Lire** les informations du profil authentifié | **Écrire** de nouvelles caractéristiques au profil authentifié |
+---------|----------|---------
+| 2 | <ul><li>Oui, si la règle de fusion des options authentifiées = &quot;Derniers Profils authentifiés&quot;</li><li>Non, si la règle de fusion des options authentifiées = &quot;Profils authentifiés actuels&quot; ou &quot;Aucun Profil authentifié&quot;</li></ul> | Non, les données de caractéristiques sont écrites sur le profil du périphérique. |
 
 Exemple d’appel (la valeur de requête correspondant à l’état d’authentification est mise en surbrillance) :
 
