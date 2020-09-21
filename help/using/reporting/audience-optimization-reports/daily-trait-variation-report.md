@@ -7,9 +7,9 @@ title: Rapport de variation des caractéristiques quotidiennes
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Ce rapport renvoie une liste de caractéristiques qui ont été réalisées au m
 
 L&#39;écart type mesure la quantité de variation ou de dispersion par rapport à la moyenne (ou la moyenne/valeur attendue). Un écart-type faible indique que les points de données tendent à être très proches de la moyenne. Un écart type élevé indique que les points de données sont répartis sur une grande plage de valeurs.
 
-![](assets/daily_trait_variation.png)
+![rapport de variation de caractéristiques quotidiennes par capture d’écran](assets/daily_trait_variation.png)
 
 Utilisez la [!UICONTROL Date] liste pour sélectionner une ou plusieurs dates pour votre rapport. Un graphique à barres codé par couleur s’affiche au bas de la liste, ce qui permet de représenter visuellement la plage d’écart type pour toutes les caractéristiques sur toutes les dates sélectionnées. La ligne verticale noire indique la moyenne.
 
@@ -33,7 +33,7 @@ La colonne du milieu contient une liste de caractéristiques, identifiée par [!
 
 * **Conserver uniquement :** Supprime toutes les autres caractéristiques du rapport et affiche uniquement les données correspondant à cette caractéristique.
 * **Exclure :** Supprime cette caractéristique du rapport et affiche les données de toutes les autres caractéristiques. Vous pouvez exclure plusieurs caractéristiques.
-* **Données de Vue :** Permet d’afficher les données de cette ligne. Vous pouvez également télécharger toutes les lignes sous la forme d’un fichier texte.
+* **Données de vue :** Permet d’afficher les données de cette ligne. Vous pouvez également télécharger toutes les lignes sous la forme d’un fichier texte.
 
 La [!UICONTROL Standard Deviation] colonne affiche des graphiques à barres codés par couleur qui affichent l’écart type pour chaque caractéristique sur l’intervalle sélectionné. Les barres rouges indiquent les caractéristiques présentant un écart-type négatif (les points de données tendent à être inférieurs à la moyenne). Les barres vertes indiquent les caractéristiques présentant un écart-type positif (les points de données tendent à être supérieurs à la moyenne). Placez le pointeur de la souris sur une barre pour afficher une boîte de dialogue contextuelle contenant davantage d’informations et d’options afin de conserver ou d’exclure cette caractéristique et de vue plus d’informations.
 
@@ -56,8 +56,8 @@ En raison d’une reconfiguration de votre boutique, vous divisez la page des sm
 
 Un mois plus tard, vous lancez le [!UICONTROL Daily Trait Variation] rapport et constatez un écart négatif important sur la `productPage == "smartphones"` caractéristique, bien que le nombre de visiteurs ait augmenté, selon les analyses de votre site. Sur la base de ces informations, vous vous rendez compte que vous n&#39;avez pas mis à jour les caractéristiques de [!DNL Audience Manager] vos nouvelles pages de produits. Vous savez donc que vous devez créer les caractéristiques suivantes :
 
-* productPage == &quot;samsung&quot;
-* productPage == &quot;pomme&quot;
-* productPage == &quot;huawei&quot;
+* `productPage == "samsung"`
+* `productPage == "apple"`
+* `productPage == "huawei"`
 
 Une fois que vous aurez effectué cette opération, votre audience se qualifiera pour les caractéristiques nouvellement créées.
