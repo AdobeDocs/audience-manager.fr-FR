@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 64%
 
 ---
@@ -106,6 +106,8 @@ Si, en revanche, vous sélectionnez un périphérique [!UICONTROL Profile Merge 
 
 Analysez soigneusement votre cas d&#39;utilisation et décidez des [!UICONTROL trait] types dont vous souhaitez que le modèle tire des enseignements et du type de données que vous souhaitez que le modèle utilise pour la classification.
 
+ 
+
 **Un utilisateur de l’audience cible qui ne fait partie d’aucun segment/caractéristique de persona peut-il ne pas être classé ?**
 
 Oui, lorsque le profil de l’utilisateur ne contient aucune caractéristique. Dans ce cas, l’utilisateur obtient une note de correspondance de 0 pour tous les segments/caractéristiques de persona et n’est donc classé dans aucun des segments prédictifs.
@@ -120,7 +122,7 @@ Oui. Étant donné que l’algorithme est formé quotidiennement, il applique le
 
 **Puis-je ajouter des caractéristiques prédictives aux segments réguliers ?**
 
-Lorsque vous ajoutez une caractéristique prédictive à un segment normal, le segment devient un segment prédictif. Par conséquent, tous les profils associés ne sont pas segmentés. Les segments prédictifs peuvent uniquement être envoyés vers des destinations en temps réel.
+Lorsque vous ajoutez une caractéristique prédictive à un segment normal, elle devient un segment prédictif. Par conséquent, tous les profils associés ne sont pas segmentés. Les segments prédictifs peuvent uniquement être envoyés vers des destinations en temps réel.
 
  
 
