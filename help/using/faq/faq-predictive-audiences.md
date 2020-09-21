@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 67%
+source-wordcount: '1024'
+ht-degree: 64%
 
 ---
 
@@ -115,6 +115,12 @@ Oui, lorsque le profil de l’utilisateur ne contient aucune caractéristique. D
 **Un utilisateur qui a été classé dans l’un des segments prédictifs peut-il être reclassé dans un autre segment [!UICONTROL Predictive Audiences] ?**
 
 Oui. Étant donné que l’algorithme est formé quotidiennement, il applique les modifications pour chacune des personas en termes de notation des caractéristiques. Si un utilisateur faisant partie d’un segment [!UICONTROL Predictive Audiences] est actif, les modifications apportées à sa notation des caractéristiques peuvent modifier la classification en fonction de l’activité des 30 derniers jours.
+
+ 
+
+**Puis-je ajouter des caractéristiques prédictives aux segments réguliers ?**
+
+Lorsque vous ajoutez une caractéristique prédictive à un segment normal, le segment devient un segment prédictif. Par conséquent, tous les profils associés ne sont pas segmentés. Les segments prédictifs peuvent uniquement être envoyés vers des destinations en temps réel.
 
  
 
