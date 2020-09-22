@@ -7,9 +7,9 @@ title: Exigences en matière de nom et de taille de fichier FTP pour les fichier
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: d6d15ed68cd70fd7da1037a7cb397a00d252e4dd
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '868'
 ht-degree: 9%
 
 ---
@@ -57,9 +57,9 @@ Le tableau définit les éléments d’un nom de [!DNL FTP] fichier.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Un identifiant qui indique à <span class="keyword"> l’Audience Manager</span> si un fichier de données contient vos propres ID d’utilisateur, Android ou iOS. Accepte les options suivantes : </p> 
+   <td colname="col2"> <p>Un identifiant qui indique à <span class="keyword"> l’Audience Manager</span> si un fichier de données contient vos propres ID d’utilisateur, Android ou iOS. Accepte les options suivantes :</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID de partenaire de données :</b> Il s’agit d’une Audience Manager d’ID unique attribuée à votre société ou organisation. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> qu’un partenaire doté de l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID du fournisseur de données (également appelé ID de source de données) :</b> Il s’agit d’une Audience Manager d’ID unique attribuée à un fournisseur de données. Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> qu’un partenaire doté de l’ID 21 a envoyé le fichier et qu’il contient les ID utilisateur attribués par ce partenaire. </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Identifiants Android (GAID) :</b> Utilisez l’ID 20914 dans un nom de fichier de données s’il contient un ID Android. Par exemple, <code>...ftp_dpm_20914_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> que le fichier de données contient uniquement des ID Android. </li> 
      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA) :</b> Utilisez l’ID 20915 dans un nom de fichier de données s’il contient des ID iOS. Par exemple, <code>...ftp_dpm_20915_123456789.sync</code> indique à <span class="keyword"> l’Audience Manager</span> que le fichier de données contient uniquement des ID iOS. </li> 
     </ul> <p> <p>Remarque :  Ne mélangez pas les types d’ID dans vos fichiers de données. Par exemple, si votre nom de fichier contient l’identifiant Android, n’insérez pas d’ID iOS ou vos propres ID dans le fichier de données. </p> </p> </td> 
