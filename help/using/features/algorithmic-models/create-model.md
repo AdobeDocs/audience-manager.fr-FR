@@ -8,9 +8,9 @@ title: Créer un modèle algorithmique
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: bff108115e7ebd4375d81c1c32ec9bb7d1a207c1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Suivez les étapes ci-dessous pour créer un [!UICONTROL Look-Alike Model]:
 
 Regardez la vidéo ci-dessous pour obtenir un aperçu détaillé du fonctionnement des mesures sur plusieurs périphériques.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## Informations de base sur les modèles algorithmiques {#basic-information}
 
@@ -66,7 +66,7 @@ Dans [!UICONTROL Model Builder], les [!UICONTROL Basic Information] paramètres 
 |---|---|
 | **[!UICONTROL Name]** | Donnez à votre modèle un nom court et logique qui décrit sa fonction ou son objectif. Evitez les abréviations, les caractères spéciaux et les accents. |
 | **[!UICONTROL Description]** | Un champ pour obtenir des informations descriptives supplémentaires sur le modèle. |
-| **[!UICONTROL Status]** | Active ou désactive le modèle (actif par défaut). |
+| **[!UICONTROL Status]** | Active ou désactive le modèle (principal par défaut). |
 
 ## Configuration {#configuration}
 
