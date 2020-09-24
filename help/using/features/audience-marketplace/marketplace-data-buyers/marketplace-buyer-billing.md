@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -30,8 +30,8 @@ Les acheteurs de données d’Audience Marketplace acceptent de signaler toutes 
 
 [!UICONTROL Audience Marketplace] offres de deux façons de signaler [!DNL CPM] l’utilisation :
 
-* **rapports** de niveau segment : il s’agit de la méthode de rapports d’ [!DNL CPM] utilisation recommandée. Lorsque vous signalez [!DNL CPM] l’utilisation au niveau du segment, la section rapports au niveau du flux de données est automatiquement complétée avec les montants d’utilisation correspondants, en fonction des algorithmes décrits dans la section Attribution des [coûts pour les flux](#cost-attribution)de données CPM.
-* **rapports** au niveau du flux de données : cette méthode requiert que vous signaliez individuellement l’ [!DNL CPM] utilisation de chaque flux de données, en fonction des algorithmes décrits dans la section Attribution des [coûts pour les flux](#cost-attribution)de données CPM. Cependant, cette méthode est plus fastidieuse et susceptible aux erreurs que le rapports au niveau du segment.
+* **Rapports** de niveau segment : il s’agit de la méthode de rapports d’ [!DNL CPM] utilisation recommandée. Lorsque vous signalez [!DNL CPM] l’utilisation au niveau du segment, la section rapports au niveau du flux de données est automatiquement complétée avec les montants d’utilisation correspondants, en fonction des algorithmes décrits dans la section Attribution des [coûts pour les flux](#cost-attribution)de données CPM.
+* **Rapports** au niveau du flux de données : cette méthode requiert que vous signaliez individuellement l’ [!DNL CPM] utilisation de chaque flux de données, en fonction des algorithmes décrits dans la section Attribution des [coûts pour les flux](#cost-attribution)de données CPM. Cependant, cette méthode est plus fastidieuse et susceptible aux erreurs que le rapports au niveau du segment.
 
 <br> 
 
@@ -102,9 +102,9 @@ Pour mettre à jour [!DNL CPM] l&#39;utilisation en bloc :
 
 | Message d’erreur | Description | Correction de l’affichage inapproprié comme titre de la valeur |
 | ------------- | -------------| -----|
-| Entrée non valide | [!DNL Audience Manager] a détecté un changement dans le schéma de fichiers, tel que des colonnes manquantes ou des modifications apportées aux titres de colonnes. [!DNL CSV] | Evitez de modifier la structure du tableau. |
+| Entrée non valide | [!DNL Audience Manager] a détecté un changement dans le schéma de fichiers, tel que des colonnes manquantes ou des modifications de titres de colonnes. [!DNL CSV] | Evitez de modifier la structure du tableau. |
 | introuvables | En effet, [!UICONTROL Segment Level Reporting][!DNL Audience Manager] n&#39;a pas pu identifier la [!UICONTROL Segment ID] combinaison et la [!UICONTROL Destination ID] combinaison. En effet, [!UICONTROL Feed Level Reporting][!DNL Audience Manager] n&#39;a pas pu identifier la [!UICONTROL Data Provider Name]combinaison, [!UICONTROL Feed Name]et [!UICONTROL Use Case] . | Pour [!UICONTROL Segment Level Reporting]cela, vérifiez la validité de la [!UICONTROL Segment ID] combinaison et de la [!UICONTROL Destination ID] combinaison. Pour [!UICONTROL Feed Level Reporting], vérifiez la validité de la [!UICONTROL Data Provider Name]combinaison, [!UICONTROL Feed Name]et [!UICONTROL Use Case] . |
-| Enregistrements de Duplicata trouvés | [!DNL Audience Manager] des enregistrements de duplicata détectés avec des valeurs d’impression différentes. | Consultez le rapport et assurez-vous de ne pas signaler des valeurs d’utilisation différentes pour le même flux de données ou segment. |
+| Enregistrements de duplicata trouvés | [!DNL Audience Manager] des enregistrements de duplicata détectés avec des valeurs d’impression différentes. | Consultez le rapport et assurez-vous de ne pas signaler des valeurs d’utilisation différentes pour le même flux de données ou segment. |
 | Valeurs non prises en charge | [!DNL Audience Manager] a détecté des valeurs non numériques dans la [!DNL Audience Manager] colonne. | Consultez le rapport et veillez à n&#39;entrer que des valeurs numériques dans la [!DNL Audience Manager] colonne. |
 | En-têtes des champs obligatoires manquants | [!DNL Audience Manager] des en-têtes de tableau manquants détectés pour les champs obligatoires. Par exemple, [!UICONTROL Segment Level Reporting]les champs obligatoires sont les suivants : [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Par exemple, [!UICONTROL Feed Level Reporting]les champs obligatoires sont les suivants : [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Consultez le rapport et assurez-vous que les en-têtes de tableau n’ont pas été modifiés. |
 
@@ -113,7 +113,7 @@ Pour mettre à jour [!DNL CPM] l&#39;utilisation en bloc :
 
 <br> 
 
-## [!DNL CPM] Bonnes pratiques en matière de Rapports
+## [!DNL CPM] Bonnes pratiques en matière de rapports
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
@@ -126,11 +126,11 @@ Pour mettre à jour [!DNL CPM] l&#39;utilisation en bloc :
   <tr> 
    <td colname="col1"> <p><b>Toujours signaler le nombre total d’impressions</b> </p> </td> 
    <td colname="col2"> <p>Pour les totaux d’impression CPM : </p>
-   <p> Signaler le nombre total d’impressions, sans utiliser de décimales. L’Audience Manager calcule automatiquement le CPM en fonction du nombre total que vous signalez.</p><p>Si vous devez signaler 1 234 567 impressions, signalez-le exactement comme cela. Il n’est pas nécessaire de diviser le nombre total d’impressions par 1 000 pour calculer le CPM.</p><p>Les caractéristiques utilisées pour optimiser le contenu Web ou d’application (Optimisation du contenu) à l’aide d’outils tels que l’Adobe Target ou une destination Analytics ne contribuent pas aux totaux d’utilisation des plans CPM. Les fournisseurs de données sont généralement rémunérés pour l’optimisation du contenu en appliquant des forfaits.</p><p>Pour plus d’informations, voir Attribution de <a href="#cost-attribution">coûts pour les flux</a> de données CPM. </p> </td>
+   <p> Signaler le nombre total d’impressions, sans utiliser de décimales. L’Audience Manager calcule automatiquement le CPM en fonction du nombre total que vous signalez.</p><p>Si vous devez signaler 1 234 567 impressions, signalez-le exactement comme cela. Il n’est pas nécessaire de diviser le nombre total d’impressions par 1 000 pour calculer le CPM.</p><p>Les caractéristiques utilisées pour optimiser le contenu Web ou d’application (Optimisation du contenu) à l’aide d’outils tels que Adobe Target ou une destination Analytics ne contribuent pas aux totaux d’utilisation des plans CPM. Les fournisseurs de données sont généralement rémunérés pour l’optimisation du contenu en appliquant des forfaits.</p><p>Pour plus d’informations, voir Attribution de <a href="#cost-attribution">coûts pour les flux</a> de données CPM. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Se cantonner à l'intervalle de rapports mensuel</b> </p> </td> 
-   <td colname="col2"> <p>Le système de rapports se ferme après le 5 de chaque mois. Si vous ne signalez pas l'utilisation du CPM d'ici là, vous devez ajouter ce montant au rapport pour le mois suivant. Supposons, par exemple, que vous utilisiez 1 000 impressions en octobre, que vous manquiez l’échéance du rapports d’octobre et que vous utilisiez 1 000 impressions en novembre. Dans ce cas, vous signalez le total d’octobre et de novembre (2000) en décembre, entre le 1er et le 5.</p><p><b>Conseil</b>: Vous devez toujours essayer de signaler l'utilisation du CPM pour le mois précédent entre le 1er et le 5e jour du mois suivant.</p><p>Vous pouvez signaler l'utilisation du CPM jusqu'au 5 du nouveau mois calendaire, mais cela n'est pas recommandé. L'utilisation du CPM Rapports avant le 5 de chaque mois donne à l'Audience Manager le temps de vérifier et de traiter les données.</p> </td>
+   <td colname="col2"> <p>Le système de rapports se ferme après le 5 de chaque mois. Si vous ne signalez pas l'utilisation du CPM d'ici là, vous devez ajouter ce montant au rapport pour le mois suivant. Supposons, par exemple, que vous utilisiez 1 000 impressions en octobre, que vous manquiez l’échéance du rapports d’octobre et que vous utilisiez 1 000 impressions en novembre. Dans ce cas, vous signalez le total d’octobre et de novembre (2000) en décembre, entre le 1er et le 5.</p><p><b>Conseil</b>: Vous devez toujours essayer de signaler l'utilisation du CPM pour le mois précédent entre le 1er et le 5e jour du mois suivant.</p><p>Vous pouvez signaler l'utilisation du CPM jusqu'au 5 du nouveau mois calendaire, mais cela n'est pas recommandé. L'utilisation du CPM rapports avant le 5 de chaque mois donne à l'Audience Manager le temps de vérifier et de traiter les données.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,8 @@ Le cas d’ [!UICONTROL Activation] utilisation vous permet d’utiliser des car
 Lorsque vous [signalez l’utilisation du CPM au niveau](#feed-level-report)du flux de données, vous devez allouer les impressions proportionnellement pour chaque flux de données, en fonction des [!DNL Boolean] opérateurs utilisés dans les règles de qualification des caractéristiques. Le tableau suivant liste comment allouer correctement les impressions par règle booléenne ou type de caractéristique.
 
 >[!TIP]
->[Signaler l’utilisation du CPM au niveau](#segment-level-report) du segment pour que l’rapports au niveau du flux de données soit effectué automatiquement par Audience Manager.
+>
+> [Signaler l’utilisation du CPM au niveau](#segment-level-report) du segment pour que l’rapports au niveau du flux de données soit effectué automatiquement par Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -267,6 +268,6 @@ La ventilation en un coup d’oeil par flux de données et cas d’utilisation e
 
 ## Attribution de la facturation et de l’impression pour les flux de données à frais fixes {#billing-flat-fee}
 
-Un flux de données à frais fixes vous facture un montant fixe chaque mois, indépendamment du moment où l’abonnement début ou du nombre d’impressions que vous utilisez. Les frais ne sont pas calculés au prorata pour l’utilisation partielle du mois ou les intervalles. Comme pour la facturation CPM, Adobe génère une facture et vous facture au tarif mensuel forfaitaire pour vos flux de données abonnés.
+Un flux de données à frais fixes vous facture un montant fixe chaque mois, indépendamment du moment où l’abonnement début ou du nombre d’impressions que vous utilisez. Les frais ne sont pas calculés au prorata pour l’utilisation partielle du mois ou les intervalles. Comme pour la facturation CPM, l&#39;Adobe va générer une facture et vous facturer au tarif mensuel forfaitaire pour vos flux de données abonnés.
 
 Supposons, par exemple, que vous ayez décidé d’activer certaines caractéristiques dans un flux au milieu du mois. Vous serez toujours facturé au tarif mensuel complet, quel que soit le moment où vous avez démarré l&#39;abonnement ou activé certaines caractéristiques.
