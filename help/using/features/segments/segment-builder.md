@@ -7,9 +7,9 @@ title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -36,14 +36,14 @@ Début en regardant la vidéo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe
    ![create-segment](assets/create-segment.png)
 
    * Nommez le [!UICONTROL segment]. La longueur maximale d’un [!UICONTROL segment] nom est de 255 caractères.
-   * Définissez l’ [!UICONTROL segment] état (actif par défaut).
-   * Choisis un [!UICONTROL data source]. Utilisez le premier menu déroulant pour filtrer les Audiences Manager [!UICONTROL data sources], les suites de rapports Adobe Analytics, ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre [!UICONTROL data source]option. Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de [!UICONTROL data source] type est désactivé et les sources de données d’Audience Manager par défaut uniquement sont désactivées.
+   * Définissez l’ [!UICONTROL segment] état (principal est la valeur par défaut).
+   * Choisis un [!UICONTROL data source]. Utilisez le premier menu déroulant pour filtrer les Audiences Manager [!UICONTROL data sources], les Report Suites Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre [!UICONTROL data source]option. Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de [!UICONTROL data source] type est désactivé et les sources de données d’Audience Manager par défaut uniquement sont désactivées.
    * Sélectionnez un [!UICONTROL profile merge rule] à utiliser pour [!UICONTROL segment] la qualification.
    * Affectez-la [!UICONTROL segment] à un dossier d’enregistrement.
 
 1. Dans la section [Caractéristiques](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
    ![segment-builder-traits](assets/segment-builder-traits.png)
-   * Recherchez le [!UICONTROL trait] que vous souhaitez ajouter à un segment et cliquez sur **[!UICONTROL Add Trait]**. Ajoutez un autre [!UICONTROL trait] pour créer un [!UICONTROL trait] groupe.
+   * Recherchez le [!UICONTROL trait] que vous souhaitez ajouter à un segment et cliquez sur **[!UICONTROL Add Trait]**. ajoutez un autre [!UICONTROL trait] pour créer un [!UICONTROL trait] groupe.
    * Affichez la [!UICONTROL Advanced Search] modale en cliquant sur **[!UICONTROL Browse All Traits]**. Recherchez [!UICONTROL traits] par nom, identifiant, description ou [!UICONTROL data source]. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer [!UICONTROL traits] par type [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based][!UICONTROL Onboarded]et [!UICONTROL Algorithmic]) ou de population (ID de[périphérique et ID de plusieurs périphériques).](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)
       ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * Obtenez des recommandations [](trait-recommendations.md) de caractéristiques en direct lorsque vous créez votre [!UICONTROL segment]profil.
@@ -59,7 +59,7 @@ Début en regardant la vidéo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe
 
 Regardez la vidéo ci-dessous pour obtenir un aperçu détaillé du fonctionnement des mesures sur plusieurs périphériques.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## [!UICONTROL Segment Builder] Contrôles : [!UICONTROL Basic Information] Section {#segment-builder-controls-basics}
 
@@ -115,9 +115,9 @@ Dans [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] les param�
 | **[!UICONTROL Name]** | Attribuez au segment un nom court et logique qui décrit sa fonction ou son objectif. Evitez les abréviations et les caractères spéciaux. La longueur maximale d’un nom de segment est de 255 caractères. |
 | **[!UICONTROL Description]** | Un champ pour obtenir des informations descriptives supplémentaires sur le segment. |
 | **[!UICONTROL Integration Code]** | Champ d’un identifiant défini par l’utilisateur ou d’autres informations spécifiques à une société. |
-| **[!UICONTROL Data Source]** | Associe le segment à un fournisseur de données spécifique. <br> Utilisez le premier menu déroulant pour filtrer entre les sources de données d’Audience Manager, les Report Suites Adobe Analytics, ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données. <br> Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données d’Audience Manager par défaut sont désactivées uniquement. |
+| **[!UICONTROL Data Source]** | Associe le segment à un fournisseur de données spécifique. <br> Utilisez le premier menu déroulant pour filtrer entre les sources de données d’Audience Manager, les suites de rapports Adobe Analytics ou les deux. Ensuite, utilisez le deuxième menu déroulant pour choisir votre source de données. <br> Si vous n’utilisez pas les suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et les sources de données d’Audience Manager sont désactivées par défaut uniquement. |
 | **[!UICONTROL Profile Merge Rule]** | Sélectionne la règle de fusion de Profils à utiliser pour la qualification de segment. |
-| **[!UICONTROL Status]** | Active ou désactive le segment (actif par défaut). |
+| **[!UICONTROL Status]** | Active ou désactive le segment (principal par défaut). |
 | **Enregistrement de dossier** | Détermine le dossier d’enregistrement auquel appartient le segment. |
 
 ## [!UICONTROL Segment Builder] Contrôles : [!UICONTROL Traits] Section {#segment-builder-controls-traits}
@@ -130,11 +130,11 @@ Dans [!UICONTROL Segment Builder]la [!UICONTROL Traits] section, vous pouvez gé
 
 | Champ | Description |
 |--- |--- |
-| **[!UICONTROL Basic View]** | Cette section fournit des commandes visuelles qui vous permettent d&#39;effectuer les opérations suivantes : <ul><li>Créer et gérer les éléments existants [!UICONTROL segments].</li><li>Supprimez [!UICONTROL traits] d&#39;un [!UICONTROL segment].</li><li>Ajoutez jusqu’à 50 (maximum) [!UICONTROL traits] à un [!UICONTROL segment].</li><li>Faites glisser et déposez [!UICONTROL traits] pour créer des groupes.</li><li>Vue [!UICONTROL traits] et [!UICONTROL trait] groupes dans un [!UICONTROL segment].</li><li>Définissez des critères de qualification avec des expressions booléennes, des opérateurs de comparaison et des paramètres de récence/fréquence.</li></ul> |
+| **[!UICONTROL Basic View]** | Cette section fournit des commandes visuelles qui vous permettent d&#39;effectuer les opérations suivantes : <ul><li>Créer et gérer les éléments existants [!UICONTROL segments].</li><li>Supprimez [!UICONTROL traits] d&#39;un [!UICONTROL segment].</li><li>ajoutez jusqu’à 50 (maximum) [!UICONTROL traits] à un [!UICONTROL segment].</li><li>Faites glisser et déposez [!UICONTROL traits] pour créer des groupes.</li><li>Vue [!UICONTROL traits] et [!UICONTROL trait] groupes dans un [!UICONTROL segment].</li><li>Définissez des critères de qualification avec des expressions booléennes, des opérateurs de comparaison et des paramètres de récence/fréquence.</li></ul> |
 | **[!UICONTROL Code View]** | Ouvre un environnement de développement qui vous permet de créer et de gérer [!UICONTROL traits], des groupes et des exigences de qualification à l’aide du code plutôt que de l’interface visuelle. La vue de code est utile si votre [!UICONTROL segments]: <ul><li>Contient plus de 50 [!UICONTROL traits] dans un individu [!UICONTROL segment]. Remarque : [!UICONTROL Segments] sont limitées à 5000 [!UICONTROL traits] (maximum).</li><li>Contient de nombreux [!UICONTROL trait] groupes.</li><li>Posséder des exigences de qualification complexes.</li></ul> |
 | Outils | Permet de trouver [!UICONTROL traits] à ajouter à un [!UICONTROL segment]. |
-| Recommandations | Obtenez des recommandations en direct pour des flux similaires [!UICONTROL traits], issus de vos flux de données [!UICONTROL traits] et [!UICONTROL Audience Marketplace] propriétaires auxquels vous êtes abonné. Ajoutez ces recommandations à la [!UICONTROL segment] règle pour développer votre audience. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
-| **[!UICONTROL Marketplace Recommendations]** | Obtenez des recommandations en direct pour des flux de données similaires [!UICONTROL traits], à partir [!UICONTROL Audience Marketplace] desquels vous n’êtes pas abonné. Pour en savoir plus, consultez Recommandations [de](trait-recommendations.md)caractéristiques. |
+| Recommandations | Obtenez des recommandations en direct pour des flux similaires [!UICONTROL traits], issus de vos flux de données [!UICONTROL traits] et [!UICONTROL Audience Marketplace] propriétaires auxquels vous êtes abonné. ajoutez ces recommandations à la [!UICONTROL segment] règle pour développer votre audience. Lisez plus dans [Trait Recommendations](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | Obtenez des recommandations en direct pour des flux de données similaires [!UICONTROL traits], à partir [!UICONTROL Audience Marketplace] desquels vous n’êtes pas abonné. Lisez plus dans [Trait Recommendations](trait-recommendations.md). |
 | Données de taille réelle et estimée [!UICONTROL Segment] des données | Voir [Données sur la population de segments et de caractéristiques dans le créateur de segments](segment-builder-data.md). |
 
 ## Supprimer [!UICONTROL Traits] d’un [!UICONTROL Segment] {#remove-traits}
@@ -173,7 +173,7 @@ Dans [!UICONTROL Segment Builder], la boîte de dialogue [!UICONTROL Add Destina
 
 >[!NOTE]
 >
->Les dates de publication sont facultatives. Lorsqu’elle est vide, la destination devient active et n’expire jamais.
+>Les dates de publication sont facultatives. Lorsqu’elle est vide, la destination devient principale et n’expire jamais.
 
 <!-- r_add_mappings_pop.xml -->
 
