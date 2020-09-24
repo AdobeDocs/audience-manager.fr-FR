@@ -7,9 +7,9 @@ title: Création de caractéristiques algorithmiques
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '343'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,12 @@ Pour créer une caractéristique algorithmique, accédez à [!UICONTROL Traits] 
 1. Développez le [!UICONTROL Configuration] volet et cliquez sur **[!UICONTROL Browse All Models]**.
 Une nouvelle fenêtre s’ouvre, vous permettant de sélectionner le modèle à utiliser avec la caractéristique.
 1. Sélectionnez un modèle, puis cliquez sur **[!UICONTROL Add Selected Model to Trait]**.
-Ajouter le modèle expose les paramètres de portée et de précision.
+
+   >[!NOTE]
+   > 
+   > Vous ne pouvez pas remplacer les modèles sélectionnés pour les caractéristiques algorithmiques existantes. Pour utiliser un autre modèle, vous devez créer une caractéristique algorithmique.
+
+   ajouter le modèle expose les paramètres de portée et de précision.
 1. Sélectionnez la portée ou la précision de votre objectif et choisissez une valeur dans les menus déroulants respectifs. Cliquez **[!UICONTROL Save]** une fois terminé.
 
 ## Paramètres de configuration pour les caractéristiques algorithmiques {#configure-settings}
@@ -51,7 +56,7 @@ Dans [!UICONTROL Trait Builder]la section [!UICONTROL Configuration] , vous pouv
 | **[!UICONTROL Select Model for Algorithmic Trait]** | Cliquez sur le **[!UICONTROL Update]** bouton pour ouvrir la fenêtre des modèles. Dans la fenêtre, sélectionnez le modèle algorithmique à utiliser pour créer la caractéristique. |
 | **[!UICONTROL Select Goal Accuracy]** | Sélectionnez cette option pour créer une caractéristique basée sur la précision. La précision est une valeur notée qui indique à quel point les utilisateurs potentiels sont proches de votre ligne de base. L&#39;échelle de précision est comprise entre 0 (la moins précise) et 1 (la plus précise). |
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Située à droite, cette section affiche jusqu’à 21 lignes de données numériques qui affichent la précision et les valeurs de portée de votre modèle. |
-| **[!UICONTROL Reach and Accuracy Slider]** | Situé au bas du graphique, le curseur vous permet de définir une valeur numérique pour vos objectifs de portée ou de précision. Vous pouvez définir le curseur, puis choisir le bouton d’objectif de portée ou de précision pour créer une caractéristique. |
+| **[!UICONTROL Reach and Accuracy Slider]** | Situé au bas du graphique, le curseur vous permet de définir une valeur numérique pour vos objectifs de portée ou de précision. Vous pouvez définir le curseur, puis choisir le bouton d’objectif Portée ou Précision pour créer une caractéristique. |
 
 >[!MORELIKETHIS]
 >
