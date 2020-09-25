@@ -1,15 +1,15 @@
 ---
 description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller en Adobe ou le service à la clientèle.
 seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller en Adobe ou le service à la clientèle.
-seo-title: Adobe Audience Manager des destinations serveur à serveur
+seo-title: Destinations serveur à serveur Adobe Audience Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Adobe Audience Manager des destinations serveur à serveur
+title: Destinations serveur à serveur Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
+source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 72%
 
 ---
@@ -24,7 +24,7 @@ Cette page inclut les destinations [!DNL Audience Manager] actuelles basées sur
 * **Dernière mise à jour** = Affiche la dernière date à laquelle il y a eu une mise à jour pour cette [!UICONTROL device-based destination]application.
 * **Mises à jour** = Indique si [!DNL Audience Manager] les données sont envoyées en temps réel ou par lot (1 jour) à cette [!UICONTROL destination]fonction.
 * **Unsegment** = Unsegmentation décrit les processus qui excluent et suppriment les profils de périphérique [!UICONTROL segments]. Votre capacité à supprimer un profil de périphérique d&#39;un [!UICONTROL segment] périphérique dépend de l&#39;option de périphérique utilisée pour créer un [!UICONTROL Profile Merge Rule]périphérique. La non-segmentation est également utilisée dans le contexte des requêtes de [!DNL GDPR] suppression. Lisez les règles de fusion des [Profils et les processus](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de désegmentation des périphériques et les partenaires [d&#39;Audience Manager avec des fonctionnalités](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)d&#39;absence de segmentation. [!DNL Audience Manager] envoie les informations de non-segmentation au [!UICONTROL destinations] marqué avec **Oui** ci-dessous.
-* **Recevoir des signaux[!DNL IAB TCF]de** consentement = Permet [!DNL Audience Manager Plug-in for IAB TCF] [!DNL IAB TC] de transférer la chaîne à des partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Recevoir des signaux[!DNL IAB TCF]de** consentement = Permet [!DNL Audience Manager Plug-in for IAB TCF] de transférer la [!DNL IAB TC] chaîne à des partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = Cette colonne liste les partenaires qui prennent en charge [!UICONTROL Instant Cross-Device Suppression]. Lisez la section sur la suppression [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)instantanée de plusieurs périphériques.
 * **ID** de périphérique mobile = Cette colonne liste les partenaires qui peuvent recevoir des ID de périphérique mobile [!DNL Audience Manager].
 
@@ -51,6 +51,7 @@ Cette page inclut les destinations [!DNL Audience Manager] actuelles basées sur
 | [!DNL AOL ONE] | 02/03/2017 | Temps réel | Oui | Non | Non | Oui |
 | [!DNL AppNexus] | 02/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Oui | Non | Non | Non |
+| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1xday | Non | Non | Non | Non |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL Avocet] | 06/12/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL Bidtellect] | 03/03/2017 | Temps réel | Oui | Non | Non | Non |
@@ -81,6 +82,7 @@ Cette page inclut les destinations [!DNL Audience Manager] actuelles basées sur
 | [!DNL EyeView Digital] | 14/06/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Fiksu] | 03/03/2017 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Flashtalking] | 02/03/2017 | 1xday | Non | Non | Non | Non |
+| [!DNL Flybits] | 31/07/2020 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Oui | Oui | Non | Oui |
 | [!DNL Gamut Media] | 03/03/2017 | Temps réel |  | Non | Non |  |
