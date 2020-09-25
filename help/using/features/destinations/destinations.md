@@ -1,16 +1,16 @@
 ---
-description: En Audience Manager, une destination est tout système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
+description: En Audience Manager, une destination est tout système tiers (serveur d’annonces, DSP, réseau d’annonces, etc.) avec lequel vous souhaitez partager des données. Utilisez l’outil Créateur de destinations pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: En Audience Manager, une destination est tout système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
+seo-description: En Audience Manager, une destination est tout système tiers (serveur d’annonces, DSP, réseau d’annonces, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 seo-title: 'Destinations '
 solution: Audience Manager
 title: 'Destinations '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # [!UICONTROL Destinations] Présentation {#destinations}
 
-En Audience Manager, un [!UICONTROL destination] est un système tiers (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] est l’outil que vous avez utilisé pour créer et gérer [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
+En Audience Manager, un [!UICONTROL destination] est un système tiers (serveur publicitaire, [!DNL DSP]réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] est l’outil que vous utilisez pour créer et gérer [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
 
 ## Objectif et avantages {#purposes}
 
@@ -26,7 +26,7 @@ En Audience Manager, un [!UICONTROL destination] est un système tiers (serveur 
 
 [!UICONTROL Destinations] et [!UICONTROL Destination Builder] vous permettent de créer [!UICONTROL destinations] et d’envoyer des informations sur les utilisateurs segmentés à votre partenaire de données. Cela vous aide à :
 
-* **Protéger la valeur des données :** Plutôt que d’envoyer toutes les données utilisateur à un [!UICONTROL destination]utilisateur, [!UICONTROL Destination Builder] vous permet de partager uniquement des informations spécifiques sur les utilisateurs qualifiés.
+* **Valeur des données Protect :** Plutôt que d’envoyer toutes les données utilisateur à un [!UICONTROL destination]utilisateur, [!UICONTROL Destination Builder] vous permet de partager uniquement des informations spécifiques sur les utilisateurs qualifiés.
 * **Agissez sur vos données :** L’envoi de données à un [!UICONTROL destination] partenaire les aide à développer et à cible rapidement des segments d’audience qualifiés.
 * **Réduire les frais techniques :** Les utilisateurs professionnels peuvent configurer [!UICONTROL destinations] en toute sécurité dans l’ [!UICONTROL Destination Builder] interface. Cela permet de réduire le temps nécessaire aux tests de pré-déploiement. Avec [!UICONTROL Destination Builder], vous créez, gérez et supprimez [!UICONTROL destinations] à mesure que vos besoins changent, le tout sans passer par un long cycle de développement.
 
@@ -51,5 +51,5 @@ Les exemples du tableau suivant peuvent vous aider à comprendre quand utiliser 
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | Vous devez envoyer des données à d’autres solutions Adobe Experience Cloud. | Envoi de données à Adobe Analytics. |  |
 | **[!UICONTROL People-Based Destinations]** | Vous devez envoyer des segments d’audience à des environnements basés sur des personnes, tels que Facebook. | Fourniture d&#39;offres personnalisées aux clients existants, en fonction de leur historique d&#39;achat | Le ciblage des Audiences s’effectue par le biais d’identifiants hachés. Voir Destinations [basées sur](people-based-destinations-overview.md)les personnes. |
-| **[!UICONTROL Device-Based Destinations]** (**Serveur à Serveur**) | <ul><li>Le transfert immédiat des données n’est pas nécessaire.</li><li>Collecte de données pour créer un grand pool d’audiences d’utilisateurs qualifiés.</li></ul> | Collecte de données au fil du temps (heures ou jours) pour les utiliser dans un jeu de campagnes à exécuter ultérieurement. | <ul><li>Transfère les données sur les nouveaux visiteurs et les anciens  du site. </li><li>Les Visiteurs n&#39;ont pas besoin d&#39;être revus pour être inclus dans d&#39;autres segments.</li></ul> |
-| **[!UICONTROL Custom Destinations]** (**URL** ou **cookie**) | Vous devez transférer les données immédiatement afin qu’une destination puisse agir immédiatement sur un utilisateur qualifié. | Envoi de données à partir d’un site d’achat de tickets. Utilisez un [!UICONTROL URL] ou [!UICONTROL cookie destination] pour qualifier l’utilisateur et redéfinissez immédiatement la cible. | <ul><li>Transfère uniquement les données sur les nouveaux visiteurs. </li><li>Les Visiteurs doivent être de nouveau vus pour être inclus dans le segment.</li></ul> |
+| **[!UICONTROL Device-Based Destinations]** (**Serveur à Serveur**) | <ul><li>Le transfert immédiat des données n’est pas nécessaire.</li><li>Collecte de données pour créer un grand pool d’audiences d’utilisateurs qualifiés.</li></ul> | Collecte de données au fil du temps (heures ou jours) pour les utiliser dans un jeu de campagnes à exécuter ultérieurement. | <ul><li>Transfère les données sur les nouveaux visiteurs et les anciens  du site. </li><li>Les visiteurs n&#39;ont pas besoin d&#39;être revus pour être inclus dans d&#39;autres segments.</li></ul> |
+| **[!UICONTROL Custom Destinations]** (**URL** ou **cookie**) | Vous devez transférer les données immédiatement afin qu’une destination puisse agir immédiatement sur un utilisateur qualifié. | Envoi de données à partir d’un site d’achat de tickets. Utilisez un [!UICONTROL URL] ou [!UICONTROL cookie destination] pour qualifier l’utilisateur et redéfinissez immédiatement la cible. | <ul><li>Transfère uniquement les données sur les nouveaux visiteurs. </li><li>Les visiteurs doivent être de nouveau vus pour être inclus dans le segment.</li></ul> |
