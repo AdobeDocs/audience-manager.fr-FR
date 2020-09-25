@@ -1,5 +1,5 @@
 ---
-description: Décrit les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et la manière dont les données sont transmises dans un appel de événement.
+description: Comprendre les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et comment les données sont transmises dans un appel de événement.
 seo-description: Décrit les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et la manière dont les données sont transmises dans un appel de événement.
 seo-title: Signaux, caractéristiques et segments
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: Signaux, caractéristiques et segments
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Utilisez le diagramme ci-dessous pour garder une note mentale de la relation ent
 
 Les clients gèrent [!UICONTROL traits] et [!UICONTROL segments] utilisent des outils visuels et des éditeurs de code dans l’ [!DNL Audience Manager] interface utilisateur. Les outils visuels vous permettent de créer des règles à l’aide de fonctions de recherche, d’options contextuelles, de menus déroulants et de fonctionnalités de glisser-déposer. Les éditeurs de code offrent aux utilisateurs expérimentés la possibilité de développer par programmation des critères de segmentation des audiences.
 
-**Appels de Événement Envoyer des données à[!DNL Audience Manager]**
+**Appels de événement Envoyer des données à[!DNL Audience Manager]**
 
 Un appel de événement envoie des données de votre site Web à [!DNL Audience Manager]. L’appel contient [!UICONTROL signal], [!UICONTROL trait]et [!UICONTROL segment] des données dans une [!DNL HTTP] requête. Le événement lui-même est tout après la `/event` partie d&#39;une [!DNL URL] chaîne. Comme indiqué dans l’exemple ci-dessous, ce processus ne nécessite qu’un seul appel de événement pour transmettre plusieurs variables à [!DNL Audience Manager].
 
