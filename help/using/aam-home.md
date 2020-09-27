@@ -1,26 +1,26 @@
 ---
 description: Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
 seo-description: Documentation technique et aide autonome pour Audience Manager (AAM). AAM fournit des services à la pointe du secteur pour la gestion des données des audiences en ligne, donnant aux annonceurs et aux éditeurs en numérique les outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
-seo-title: Document technique du produit Adobe Audience Manager
+seo-title: Guide Adobe Audience Manager
 solution: Audience Manager
-title: Documentation du produit Audience Manager
+title: Guide d'Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
+source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
 
 
-# Documentation du produit Audience Manager {#audience-manager-product-documentation}
+# Audience Manager Guide {#audience-manager-product-documentation}
 
 Ce guide de documentation technique fournit une aide autonome pour Audience Manager, un service à la pointe du secteur pour la gestion des données d’audience en ligne. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
 
-## Utilisation de ce guide de documentation du produit
+## Utilisation de ce guide
 
 * Explorez le contenu par rubrique et sous-rubrique dans le **menu de navigation de gauche**.
 * Utilisez le champ de **recherche** en haut de la page si vous savez ce que vous recherchez.
