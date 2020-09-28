@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
+source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 62%
+source-wordcount: '1023'
+ht-degree: 64%
 
 ---
 
@@ -46,6 +46,14 @@ Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**, puis cl
 
  
 
+**Pourquoi certains de mes visiteurs intégrés ne sont-ils pas classés ?**
+
+Actuellement, la classification des audiences ne fonctionne que pour les qualifications en temps réel, à l’exception des utilisateurs authentifiés définis comme faisant partie de [!UICONTROL Profile Merge Rules].
+
+La prise en charge complète des données intégrées sera ajoutée dans une prochaine mise à jour.
+
+ 
+
 **Quand puis-je voir les premiers résultats produits par mon modèle ?**
 
 Les résultats du modèle [!UICONTROL Predictive Audiences] sont disponibles dans les 24 heures suivant la création du modèle, si celui-ci fonctionne correctement.
@@ -60,10 +68,12 @@ Les modèles [!UICONTROL Predictive Audiences] peuvent ne produire aucun résult
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. La caractéristique / le segment d’audience de cible n’a aucun utilisateur principal ou intégré.
+1. La caractéristique ou le segment de l’audience cible ne disposait d’aucun utilisateur actif ou intégré au cours des 30 derniers jours.
 1. Les profils des utilisateurs de l’audience cible qui étaient actifs ou intégrés au cours des 30 derniers jours ne contiennent pas suffisamment de données (caractéristiques insuffisantes pour l’analyse).
 1. Le segment audience de cible utilise un autre segment [!UICONTROL Profile Merge Rule] que celui que vous avez choisi pour le modèle.
 1. Il est possible que la source de données de vos caractéristiques d&#39;audience de cible ne soit pas incluse dans le modèle [!UICONTROL Profile Merge Rule] que vous avez choisi.
+
+To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. Si vous sélectionnez de nouveaux segments et caractéristiques de base qui ne disposent pas encore de suffisamment d’utilisateurs, l’algorithme peut prendre quelques jours pour classer votre audience.
 
 Pour obtenir des résultats optimaux, suivez les instructions proposées dans [Critères de sélection des personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) et [Critères de sélection de l’audience cible](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
