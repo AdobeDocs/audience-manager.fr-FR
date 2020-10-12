@@ -7,9 +7,9 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
+source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1492'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ De plus, vos segments d’Experience Platform sont partagés avec d’autres sol
 >[!IMPORTANT]
 >
 > * Vous avez besoin d’une licence d’Audience Manager pour activer les cas d’utilisation de Data Management Platform mentionnés ci-dessus.
-> * Vous *n’avez pas besoin* d’une licence d’Audience Manager pour partager des segments Experience Platform avec Adobe Ad Cloud, Adobe Target, Adobe Analytics et d’autres solutions Experience Cloud, via l’intégration des services principaux.
+> * Vous *n’avez pas besoin* d’une licence d’Audience Manager pour partager des segments Experience Platform avec Adobe Ad Cloud, Adobe Target, Marketo et d’autres solutions Experience Cloud, via l’intégration des services principaux.
 
 
 <br> 
@@ -46,7 +46,7 @@ Consultez le tableau ci-dessous pour une vue d’ensemble des cas d’utilisatio
 
 | **Cas d’utilisation** | **Adobe Experience Platform** | **Audience Manager** | **Principaux services** |
 ---------|----------|---------|---------
-| **Partage des Audiences** | <ul><li>Enrichir les profils clients avec des données d&#39;Audience Manager</li><li>Utiliser les données d’Audience Manager dans la segmentation des Experience Platform</li></ul> | <ul><li>Ajouter des données tierces aux segments</li><li>Modélisation algorithmique</li><li>Activation vers d’autres destinations</li></ul> | Utilisez des segments Experience Platform dans d’autres solutions Experience Cloud, telles que Adobe Target ou Analytics. |
+| **Partage des Audiences** | <ul><li>Enrichir les profils clients avec des données d&#39;Audience Manager</li><li>Utiliser les données d’Audience Manager dans la segmentation des Experience Platform</li></ul> | <ul><li>Ajouter des données tierces aux segments</li><li>Modélisation algorithmique</li><li>Activation vers d’autres destinations</li></ul> | Utilisez des segments Experience Platform dans d’autres solutions Experience Cloud, telles que Adobe Target, Ad Cloud ou Marketo. |
 
 <br> 
 
@@ -164,7 +164,9 @@ L’Audience Manager met à jour les numéros de rapports dans l’interface une
 
 L&#39;intégration entre Adobe Experience Platform et l&#39;Audience Manager partage un certain nombre d&#39;espaces de nommage [d&#39;](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) identité standard pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID, etc. Si vos segments d’Experience Platform utilisent l’un d’eux comme identité Principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
 
-En outre, l’Audience Manager peut enregistrer les réalisations entrantes pour tout espace de nommage d’identité personnalisé que vous utilisez dans les segments Experience Platform si vous disposez déjà d’une source de données correspondante dans l’Audience Manager et que cet identifiant est masqué.
+En outre, l’Audience Manager peut enregistrer les réalisations entrantes pour tout espace de nommage d’identité personnalisé que vous utilisez dans les segments Experience Platform si :
+* l&#39;identité est marquée comme Principale *et*
+* vous disposez déjà d’une source de données inter-périphériques correspondante en Audience Manager.
 
 >[!NOTE]
 >
