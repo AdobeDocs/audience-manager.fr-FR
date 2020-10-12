@@ -7,15 +7,15 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 3%
+source-wordcount: '1485'
+ht-degree: 2%
 
 ---
 
 
-# Partage d’audiences entre Audience Manager et Adobe Experience Platform {#aam-aep-audience-sharing}
+# Partage de segments Experience Platform avec l’Audience Manager et d’autres solutions Experience Cloud {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## Présentation {#overview}
 
-La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform vous permet de partager vos caractéristiques d&#39;Audience Manager et segments avec Adobe Experience Platform et vice versa. Vous avez besoin du [[ !DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) pour activer le partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform.
+La fonctionnalité de partage d&#39;audiences entre l&#39;Audience Manager et Adobe Experience Platform vous permet de partager vos caractéristiques d&#39;Audience Manager et segments avec Adobe Experience Platform et vice versa. Vous avez besoin de la [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) méthode pour activer le partage des audiences entre l’Audience Manager et Adobe Experience Platform.
 
 Vous pouvez utiliser des caractéristiques et des segments d’Audience Manager dans l’Experience Platform pour ajouter des données d’Audience Manager à vos profils clients et pour bénéficier du service [de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentation Experience Platform.
 
@@ -33,6 +33,12 @@ Dans l’Audience Manager, vous pouvez utiliser des segments Experience Platform
 * Activez vos segments vers des destinations qui ne sont pas encore prises en charge dans le catalogue [des](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)destinations Experience Platform.
 
 De plus, vos segments d’Experience Platform sont partagés avec d’autres solutions d’Experience Cloud, via les services [](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)principaux.
+
+>[!IMPORTANT]
+>
+> * Vous avez besoin d’une licence d’Audience Manager pour activer les cas d’utilisation de Data Management Platform mentionnés ci-dessus.
+> * Vous *n’avez pas besoin* d’une licence d’Audience Manager pour partager des segments Experience Platform avec Adobe Ad Cloud, Adobe Target et d’autres solutions Experience Cloud, via l’intégration des services principaux.
+
 
 <br> 
 
