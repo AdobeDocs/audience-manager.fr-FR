@@ -7,9 +7,9 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ De plus, vos segments d’Experience Platform sont partagés avec d’autres sol
 >[!IMPORTANT]
 >
 > * Vous avez besoin d’une licence d’Audience Manager pour activer les cas d’utilisation de Data Management Platform mentionnés ci-dessus.
-> * Vous *n’avez pas besoin* d’une licence d’Audience Manager pour partager des segments Experience Platform avec Adobe Ad Cloud, Adobe Target et d’autres solutions Experience Cloud, via l’intégration des services principaux.
+> * Vous *n’avez pas besoin* d’une licence d’Audience Manager pour partager des segments Experience Platform avec Adobe Ad Cloud, Adobe Target, Adobe Analytics et d’autres solutions Experience Cloud, via l’intégration des services principaux.
 
 
 <br> 
