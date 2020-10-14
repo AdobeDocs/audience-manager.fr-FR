@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 48bf17a2899fd06c525ba6b4fddb9ec805efb5c3
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 8%
+source-wordcount: '571'
+ht-degree: 7%
 
 ---
 
@@ -46,9 +46,19 @@ Une fois que vous avez identifié la source de données que vous allez utiliser,
       ![prédictive-audiences-save](assets/predictive-audiences-save.png)
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Modification des Audiences prédictives {#edit-predictive-audiences}
+## Clonage et modification de modèles d’Audience prédictifs {#clone-predictive-audiences}
 
-L&#39;Audience Manager ne prend pas en charge la modification des [!UICONTROL Predictive Audiences] modèles existants. Pour modifier la configuration d&#39;un modèle, vous devez créer un nouveau modèle. Si vous avez atteint la limite de 10 [!UICONTROL Predictive Audiences] modèles et devez modifier l&#39;un de vos modèles, vous devez supprimer un modèle et en créer un nouveau.
+L&#39;Audience Manager ne prend pas en charge la modification des [!UICONTROL Predictive Audiences] modèles existants. Pour modifier la configuration d&#39;un modèle, vous pouvez créer un clone d&#39;un modèle existant et le modifier. Voici comment procéder :
+
+1. Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
+2. Cliquez sur le nom du [!UICONTROL Predictive Audiences] modèle à cloner.
+3. Cliquez sur le **[!UICONTROL Clone]** bouton dans l’angle supérieur gauche de l’écran.
+   ![prédictive-audiences-clone](assets/predictive-audiences-clone.png)
+4. Une fois le modèle cloné, vous accédez à la [!DNL Save & Configure] page du modèle cloné. Dans cette page, vous pouvez modifier le modèle [!UICONTROL data source] et l&#39;assignation[!UICONTROL Profile Merge Rule] du modèle. Pour modifier les personnages et l’audience de cible du modèle cloné, utilisez les boutons [!UICONTROL Back] et [!UICONTROL Next] pour naviguer entre les trois onglets ou cliquez sur les trois noms d’onglets.
+
+   ![prédictive-audiences-clone-navigate](assets/predictive-audiences-clone-navigate.png)
+
+5. Lorsque vous avez terminé de modifier un modèle, cliquez sur **[!UICONTROL Save]**.
 
 ## Suppression des Audiences prédictives {#delete-predictive-audiences}
 
