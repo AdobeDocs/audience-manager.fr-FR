@@ -1,5 +1,5 @@
 ---
-description: Comprendre les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et comment les données sont transmises dans un appel de événement.
+description: Comprendre les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et comment les données sont transmises lors d’un appel d’événement.
 seo-description: Décrit les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et la manière dont les données sont transmises dans un appel de événement.
 seo-title: Signaux, caractéristiques et segments
 solution: Audience Manager
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 
 # [!UICONTROL Signals], [!UICONTROL Traits]et [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Décrit les composants d&#39;un [!DNL Audience Manager] [!UICONTROL segment]appel, les expressions utilisées pour définir les critères de qualification des audiences et la manière dont les données sont transmises dans un appel de événement.
+Describes the components of an [!DNL Audience Manager] [!UICONTROL segment], the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 ## Composition et objet
 
@@ -33,7 +33,7 @@ Utilisez le diagramme ci-dessous pour garder une note mentale de la relation ent
 
 ![](assets/signals-traits-segments.png)
 
-**Création[!UICONTROL Traits]et[!UICONTROL Segment]des règles à l&#39;aide des outils visuels et des éditeurs de code**
+**Création [!UICONTROL Traits] et [!UICONTROL Segment] des règles à l&#39;aide des outils visuels et des éditeurs de code**
 
 Les clients gèrent [!UICONTROL traits] et [!UICONTROL segments] utilisent des outils visuels et des éditeurs de code dans l’ [!DNL Audience Manager] interface utilisateur. Les outils visuels vous permettent de créer des règles à l’aide de fonctions de recherche, d’options contextuelles, de menus déroulants et de fonctionnalités de glisser-déposer. Les éditeurs de code offrent aux utilisateurs expérimentés la possibilité de développer par programmation des critères de segmentation des audiences.
 
