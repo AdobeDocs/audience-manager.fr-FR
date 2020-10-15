@@ -1,6 +1,6 @@
 ---
-description: Informations sur les exigences générales, l’authentification, les paramètres de requête facultatifs, les URL de demande et d’autres références.
-seo-description: Informations sur les exigences générales, l’authentification, les paramètres de requête facultatifs, les URL de demande et d’autres références.
+description: Informations sur les configurations requises générales, authentification, paramètres de requête facultatifs, URL de requête et autres références.
+seo-description: Informations sur les configurations requises générales, authentification, paramètres de requête facultatifs, URL de requête et autres références.
 seo-title: Prise en main des API REST
 solution: Audience Manager
 title: Prise en main des API REST
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
 # Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
-Informations sur les exigences générales, l’authentification, les paramètres de requête facultatifs, la demande [!DNL URLs]et d’autres références.
+Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
 <!-- c_rest_api_overview.xml -->
 
@@ -31,7 +31,7 @@ Tenez compte des points suivants lorsque vous utilisez le code de l’API [](htt
 
 * **Paramètres de requête :** tous les paramètres de requête sont requis, sauf indication contraire.
 * **En-têtes** de demande : lorsque vous utilisez des jetons d&#39;E/S [](https://www.adobe.io/) Adobe, vous devez fournir l&#39; `x-api-key` en-tête. Vous pouvez obtenir votre [!DNL API] clé en suivant les instructions de la page d’intégration [du compte](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) de service.
-* **[!DNL JSON]type de contenu :**Spécifiez`content-type: application/json`et **`accept: application/json`dans votre code.
+* **[!DNL JSON]type de contenu :** Spécifiez `content-type: application/json` et ** `accept: application/json` dans votre code.
 * **Demandes et réponses :** Envoie les requêtes sous la forme d’un [!DNL JSON] objet correctement formaté. [!DNL Audience Manager] répond par des données [!DNL JSON] formatées. Les réponses du serveur peuvent contenir des données demandées, un code d’état ou les deux.
 * **Accès :** Votre [!DNL Audience Manager] consultant vous fournira un ID de client et une clé qui vous permettront de faire [!DNL API] des demandes.
 * **Documentation et exemples de code :** Le texte en *italique* représente une variable que vous fournissez ou transmettez lors de la création ou de la réception de [!DNL API] données. Remplacez le texte *en italique* par votre propre code, paramètres ou autres informations requises.
@@ -189,13 +189,13 @@ Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] des méthodes q
 
 | Paramètre | Description |
 |--- |--- |
-| `page` | Renvoie les résultats par numéro de page. débuts de numérotation à 0. |
+| `page` | Renvoie les résultats par numéro de page. Débuts de numérotation à 0. |
 | `pageSize` | Définit le nombre de résultats de réponse renvoyés par la requête (10 est la valeur par défaut). |
 | `sortBy` | Trie et renvoie les résultats selon la [!DNL JSON] propriété spécifiée. |
-| `descending` | Trie et renvoie les résultats dans l’ordre décroissant. `ascending` est défini par défaut. |
+| `descending` | Trie et renvoie les résultats dans l’ordre décroissant. `ascending` est définie par défaut. |
 | `search` | Renvoie des résultats basés sur la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez trouver des résultats pour tous les modèles qui contiennent le mot &quot;Test&quot; dans l’un des champs de valeur de cet élément. Votre exemple de demande peut se présenter comme suit :   `GET https://aam.adobe.io/v1/models/?search=Test`.  Vous pouvez rechercher n’importe quelle valeur renvoyée par une méthode &quot;[!DNL get all]&quot;. |
 | `folderId` | Renvoie tous les ID pour [!UICONTROL traits] le dossier spécifié. Non disponible pour toutes les méthodes. |
-| `permissions` | Renvoie une liste de segments basée sur l’autorisation spécifiée. `READ` est défini par défaut. Les autorisations comprennent :<ul><li>`READ` : Informations de retour et de vue sur un segment.</li><li>`WRITE` : Permet `PUT` de mettre à jour un segment.</li><li>`CREATE` : Utilisez `POST` pour créer un segment.</li><li>`DELETE` : Suppression d’un segment. Nécessite l&#39;accès aux caractéristiques sous-jacentes, le cas échéant. Par exemple, vous aurez besoin de droits pour supprimer les caractéristiques qui appartiennent à un segment si vous souhaitez le supprimer.</li></ul><br>Spécifiez plusieurs autorisations avec des paires clé-valeur distinctes. Par exemple, pour renvoyer une liste de segments avec `READ` et `WRITE` des autorisations uniquement, transmettez `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| `permissions` | Renvoie une liste de segments basée sur l’autorisation spécifiée. `READ` est définie par défaut. Les autorisations comprennent :<ul><li>`READ` : Informations de retour et de vue sur un segment.</li><li>`WRITE` : Permet `PUT` de mettre à jour un segment.</li><li>`CREATE` : Utilisez `POST` pour créer un segment.</li><li>`DELETE` : Suppression d’un segment. Nécessite l&#39;accès aux caractéristiques sous-jacentes, le cas échéant. Par exemple, vous aurez besoin de droits pour supprimer les caractéristiques qui appartiennent à un segment si vous souhaitez le supprimer.</li></ul><br>Spécifiez plusieurs autorisations avec des paires clé-valeur distinctes. Par exemple, pour renvoyer une liste de segments avec `READ` et `WRITE` des autorisations uniquement, transmettez `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Définissez cette variable sur `true` pour renvoyer vos autorisations pour le segment. La valeur par défaut est `false`. |
 
 ### Remarque concernant les options de page
