@@ -1,5 +1,5 @@
 ---
-description: Informations sur les principales fonctions d'une plateforme de Data Management - collecte de données, création d'audiences et activation.
+description: 'Informations sur les principales fonctions d’une plateforme de gestion des données : collecte de données, création d’audiences et activation.'
 seo-description: Informations sur l’historique d’Adobe Audience Manager, les types de données collectées, la segmentation, les rapports, etc.
 seo-title: Présentation d’Audience Manager
 solution: Audience Manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
