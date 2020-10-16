@@ -7,7 +7,7 @@ title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
+source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 4%
@@ -59,7 +59,7 @@ Il s’agit de la méthode recommandée pour configurer et utiliser [!DNL Adobe]
 
 Avant de pouvoir configurer [!DNL JWT] l&#39;authentification, assurez-vous d&#39;avoir accès à la console [de développement des](https://console.adobe.io/) Adobes dans les E/S [](https://www.adobe.io/)Adobes. Contactez l’administrateur de votre organisation pour obtenir des demandes d’accès.
 
-### Authentification
+### Authentification {#auth}
 
 Suivez les étapes ci-dessous pour configurer [!DNL JWT (Service Account)] l’authentification à l’aide [!DNL Adobe I/O]:
 
