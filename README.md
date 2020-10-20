@@ -1,58 +1,65 @@
 ---
-source-git-commit: 36bf8ad65d249dc9e9ec3e5628ce370d256abf46
+source-git-commit: 84deeb062937c7bf46ee0f6f9516f9d49dbf4df6
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '517'
+ht-degree: 11%
 
 ---
 # Article Contribute
 
-Nous somme ouverts aux contributions de notre communauté ainsi que des employés d'Adobe en dehors des équipes de documentation.
+| EXL-PR | EXL | Aperçu | Activer | Publié | Aide |
+|--- |--- |--- |--- |--- |--- |
+| [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/lastBuild/) | [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
-## Code de conduite Adobe Open Source
+Nous accueillons avec plaisir les contributions de notre communauté ainsi que celles des employés d&#39;Adobes de l&#39;extérieur des équipes de documentation.
 
-This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
+## Adobe Code de conduite Open Source
 
-## A propos de vos contributions au contenu Adobe
+Ce projet respecte le [Code de conduite d’Adobe Open Source](code-of-conduct.md) ou le [Code de conduite .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Pour plus d’informations, consultez l’article [Contribution](contributing.md).
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+## A propos de vos contributions au contenu des Adobes
 
-La contribution de Contribute dépend du type et du type de modifications que vous souhaitez effectuer :
+Consultez le Guide [des contributeurs de](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)documents Adobes.
+
+La manière dont vous contribuez dépend de qui vous êtes et du type de changements que vous souhaitez apporter :
 
 ### Modifications mineures
 
-If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Utilisez ensuite l'interface utilisateur github pour effectuer vos mises à jour. See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+Si vous contribuez à des mises à jour mineures par coeur, visitez l&#39;article et cliquez sur le lien **Modifier** dans l&#39;article qui accède à la source GitHub pour l&#39;article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d&#39;informations, consultez le Guide [des contributeurs des documents](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobes généraux.
 
-Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce renvoi sont couvertes par les conditions d'utilisation d'Adobe.
+Les corrections ou clarifications mineures que vous soumettez pour la documentation et les exemples de code dans ce rapport sont couvertes par les conditions d&#39;utilisation de l&#39;Adobe.
 
-### Modifications majeures ou nouveaux articles des membres de la communauté
+### Changements majeurs ou nouveaux articles des membres de la communauté
 
-Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou envoyer des modifications majeures, utilisez l'onglet Problèmes du référentiel Git pour envoyer un problème afin de démarrer une discussion avec l'équipe de documentation. Une fois que vous avez accepté un plan, vous devez travailler avec un employé pour vous aider à placer ce nouveau contenu dans une combinaison de référentiels publics et privés.
+Si vous faites partie de la communauté d&#39;Adobes et souhaitez créer un nouvel article ou soumettre des modifications majeures, utilisez l&#39;onglet Problèmes du référentiel Git pour envoyer un problème au début d&#39;une conversation avec l&#39;équipe de documentation. Une fois que vous aurez accepté un plan, vous devrez travailler avec un employé pour aider à faire entrer ce nouveau contenu grâce à une combinaison de travail dans les référentiels publics et privés.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Changements majeurs par rapport aux employés d'Adobe
+### Principaux changements apportés par les employés de l&#39;Adobe
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Si vous êtes un rédacteur technique, un responsable de programme ou un développeur de l’équipe produit pour une solution Adobe Experience Cloud et que vous avez le devoir de contribuer à ou de créer des articles techniques, vous devez utiliser le référentiel privé [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Outils et configuration
 
-Les contributeurs de communauté peuvent utiliser l'interface utilisateur github pour modifier de base ou dupliquer le référentiel pour apporter des contributions importantes.
+Les contributeurs de la communauté peuvent utiliser l’interface utilisateur GitHub pour effectuer des modifications de base ou effectuer des redirections pour apporter des contributions importantes.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
+Pour plus d&#39;informations, consultez le Guide [des contributeurs](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobes Docs.
 
-## Utilisation des marqueurs pour formater votre rubrique
+## Utilisation des balises pour formater votre rubrique
 
-Tous les articles de ce référentiel utilisent le marquage stylé github. Si vous n'êtes pas familiarisé avec les balises, voir :
+Tous les articles de ce référentiel utilisent le balisage aromatisé GitHub. Si vous n’êtes pas familier avec les balises, voir :
 
-* [Concepts de base des balises](https://help.github.com/articles/markdown-basics/)
-* [Signet d'applet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Notions de base](https://help.github.com/articles/markdown-basics/)
+* [Feuille de calcul de balisage imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Étiquettes
 
-Dans le référentiel public, des étiquettes automatisées sont assignées à des demandes d'extraction afin de nous aider à gérer le processus de demande d'extraction et à vous aider à savoir ce qui se passe avec votre demande d'extraction :
+Dans le référentiel public, des étiquettes automatisées sont attribuées pour extraire les demandes afin de nous aider à gérer le processus de demande d’extraction et pour vous aider à savoir ce qui se passe avec votre demande d’extraction :
 
-* **Modification envoyée à l'auteur**: L'auteur a été informé de la demande d'extraction en attente.
-* **prêt à fusionner**: Prêt à être revue par notre équipe de révision de demande de service financier.
+* **Modification envoyée à l&#39;auteur**: L&#39;auteur a été informé de la demande d&#39;extraction en attente.
+* **prêt à fusionner**: Prêt à être examiné par notre équipe d&#39;examen des demandes de tirage.
 
 
