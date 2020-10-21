@@ -1,5 +1,5 @@
 ---
-description: 'Informations sur les principales fonctions d’une plateforme de gestion des données : collecte de données, création d’audiences et activation.'
+description: Informations sur l’historique d’Adobe Audience Manager, les types de données collectées, la segmentation, les rapports, etc.
 seo-description: Informations sur l’historique d’Adobe Audience Manager, les types de données collectées, la segmentation, les rapports, etc.
 seo-title: Présentation d’Audience Manager
 solution: Audience Manager
@@ -7,9 +7,9 @@ title: Présentation d’Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
