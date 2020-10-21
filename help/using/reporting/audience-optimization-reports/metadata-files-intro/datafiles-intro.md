@@ -7,9 +7,9 @@ title: Fichiers de données pour les rapports Audience Optimization et fichiers 
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Un fichier de données doit être accompagné d’un fichier de métadonnées. L
 
 La syntaxe suivante définit la structure d’un nom de fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable qui change en fonction du contenu du fichier.
 
-**Syntaxe :**`event type_yyyymmdd`
+**Syntaxe :** <pre><i>type d&#39;événement</i>_<i>yyyyymmdd</i></code></pre>
 
 Dans un nom de fichier :
 
@@ -39,15 +39,15 @@ Dans un nom de fichier :
 
 Pour ces raisons, nommez vos fichiers de données en fonction de leur contenu comme suit :
 
-* Données d’impression : `impressions_yyyymmdd.gz`
-* Données du clic : `clicks_yyyymmdd.gz`
-* Données de conversion : `conversions_yyyymmdd.gz`
+* Données d’impression : <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
+* Données du clic : <pre>clicks_<i>yyyyymmdd</i>.gz</code></pre>
+* Données de conversion : <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 La syntaxe suivante définit la structure de contenu dans un fichier de données bien formé. Remarque : *l’italique* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
 
-**Syntaxe :**`header label 1 | header label 2 ... header label n | version`
+**Syntaxe :** <pre><i>libellé d’en-tête 1</i> | <i>étiquette d&#39;en-tête 2</i> ... étiquette d&#39; <i>en-tête n</i> | <i>version</i></code></pre>
 
 Dans le contenu du fichier :
 
@@ -153,7 +153,7 @@ Téléchargez vos fichiers de données d’impression, de clic ou de conversion 
 
 Les données sont stockées dans un espace de nommage distinct pour chaque client dans un [!DNL Amazon S3] annuaire. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
-**Syntaxe :**`.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**Syntaxe :** <pre>.../log_assimilation/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>fichier type</i>_<i>yyyyymdd</i></code></pre>
 
 Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion de fichiers.
 
