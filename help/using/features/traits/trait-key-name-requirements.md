@@ -7,9 +7,9 @@ title: Exigences de nom pour les variables clés
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,6 @@ En [!UICONTROL Expression Builder]effet, le nom d’une variable clé d’une pa
 
 * Noms de clés non valides : `123`, `price!123`.
 
-## Préfixation des variables clés avec c_
+## Préfixation des variables clés avec `c_`
 
 Le `c_` préfixe est *toujours* requis si les paramètres qui envoient des données sur une URL d’appel de événement utilisent cette syntaxe.
