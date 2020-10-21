@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -170,8 +170,7 @@ Le cas d’ [!UICONTROL Activation] utilisation vous permet d’utiliser des car
 Lorsque vous [signalez l’utilisation du CPM au niveau](#feed-level-report)du flux de données, vous devez allouer les impressions proportionnellement pour chaque flux de données, en fonction des [!DNL Boolean] opérateurs utilisés dans les règles de qualification des caractéristiques. Le tableau suivant liste comment allouer correctement les impressions par règle booléenne ou type de caractéristique.
 
 >[!TIP]
->
-> [Signaler l’utilisation du CPM au niveau](#segment-level-report) du segment pour que l’rapports au niveau du flux de données soit effectué automatiquement par Audience Manager.
+>[Signaler l’utilisation du CPM au niveau](#segment-level-report) du segment pour que l’rapports au niveau du flux de données soit effectué automatiquement par Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
