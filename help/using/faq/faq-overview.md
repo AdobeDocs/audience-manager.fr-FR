@@ -6,9 +6,9 @@ solution: Audience Manager
 title: FAQ sur Audience Manager
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,7 @@ Cette section rassemble une liste des catégories de la FAQ concernant les diff�
 * [FAQ sur la rétention des données et la confidentialité](faq-privacy.md)
 * [FAQ sur les destinations basées sur les personnes](faq-people-based-destinations.md)
 * [FAQ sur les fonctions et fonctionnalités de produit](faq-features.md)
-* [FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils](faq-profile-merge.md)
+* [FAQ sur les stratégies de fusion de profils et les représentations graphiques des appareils](faq-profile-merge.md)
+* [FAQ sur les audiences prédictives](faq-predictive-audiences.md)
 * [FAQ sur le ciblage](faq-targeting.md)
 * [FAQ sur la création de rapports](faq-reporting.md)
