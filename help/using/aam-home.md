@@ -1,26 +1,26 @@
 ---
-description: Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
+description: Audience Manager fournit des services de pointe pour la gestion des données d’audience en ligne. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
 seo-description: Documentation technique et aide autonome pour Audience Manager (AAM). AAM fournit des services à la pointe du secteur pour la gestion des données des audiences en ligne, donnant aux annonceurs et aux éditeurs en numérique les outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
-seo-title: Guide Adobe Audience Manager
+seo-title: Document technique du produit Adobe Audience Manager
 solution: Audience Manager
-title: Guide d'Audience Manager
+title: Documentation du produit Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
 
 
-# Audience Manager Guide {#audience-manager-product-documentation}
+# Documentation du produit Audience Manager {#audience-manager-product-documentation}
 
 Ce guide de documentation technique fournit une aide autonome pour Audience Manager, un service à la pointe du secteur pour la gestion des données d’audience en ligne. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
 
-## Utilisation de ce guide
+## Utilisation de ce guide de documentation du produit
 
 * Explorez le contenu par rubrique et sous-rubrique dans le **menu de navigation de gauche**.
 * Utilisez le champ de **recherche** en haut de la page si vous savez ce que vous recherchez.
