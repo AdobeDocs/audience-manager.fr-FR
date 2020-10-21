@@ -1,5 +1,5 @@
 ---
-description: Dans Audience Manager, une destination est un système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Utilisez l’outil Destination Builder pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
+description: Dans Audience Manager, une destination est un système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: Dans Audience Manager, une destination est un système tiers (serveur publicitaire, DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le créateur de destinations est l’outil utilisé pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 seo-title: 'Destinations '
@@ -8,17 +8,17 @@ title: 'Destinations '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 11%
 
 ---
 
 
 # [!UICONTROL Destinations] Présentation {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] est l’outil que vous utilisez pour créer et gérer [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
+In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] est l’outil que vous avez utilisé pour créer et gérer [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
 
 ## Objectif et avantages {#purposes}
 
