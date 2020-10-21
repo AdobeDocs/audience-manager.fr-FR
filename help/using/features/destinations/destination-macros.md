@@ -7,9 +7,9 @@ title: Macros de destination définies
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -54,9 +54,9 @@ Lors de la création d’une [!DNL URL] destination, vous pouvez insérer les ma
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro va remplacer <code> 1</code> par <code> CustomerABC</code>. </p> <p> 
-     <!--
-       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     --> </p> </td> 
+     <draft-comment>
+       Basé sur AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     </draft-comment> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -98,7 +98,7 @@ Lors de la création d’une [!DNL URL] destination, vous pouvez insérer les ma
 
 Les `%rnd%` macros et `%timestamp%` macros insèrent des valeurs uniques dans une [!DNL URL] chaîne pour empêcher la mise en cache du navigateur.
 
-## Mise en cache avec %rnd% et %timestamp% {#dest-cache-busting}
+## Mise en cache avec `%rnd%` et `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ La suppression du cache empêche les navigateurs d’enregistrer et de réutilis
 * `%rnd%`: Insère un nombre aléatoire dans une URL.
 * `%timestamp%`: Insère la date et l’heure Unix dans une URL.
 
-## Comparaison de %rnd% et %timestamp% {#compare-rnd-timestamp}
+## Comparaison `%rnd%` et `%timestamp%` {#compare-rnd-timestamp}
 
 Les deux macros empêchent la mise en cache, mais `%rnd%` peuvent être plus efficaces. Par exemple, `%timestamp%`si plusieurs utilisateurs vue une page simultanément, ils obtiennent la même valeur de date/heure. Par conséquent, le n’ [!DNL URL] est pas unique et plusieurs appels ne sont comptabilisés qu’une seule fois. Cependant, `%rnd%` génère une valeur numérique unique pour chaque appel (même si les utilisateurs voient simultanément la même page). Cela signifie que la [!DNL URL] chaîne contient des valeurs différentes et est comptée comme unique.
 
