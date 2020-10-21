@@ -7,9 +7,9 @@ title: Présentation et correspondances des fichiers de métadonnées
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: f37ba905d603a3b95fda3ab797bb882f94e0066d
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '824'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Tout d&#39;abord, un fichier de métadonnées, ainsi que tous les paramètres r�
 
 Ensuite, vous avez besoin d&#39;un fichier de métadonnées si vous envoyez vos propres données à [!DNL Audience Manager] ou si vous souhaitez afficher les données des rapports d&#39;autres fournisseurs avec lesquels nous ne sommes pas intégrés. Par exemple, [!DNL Audience Manager] dispose d’une intégration avec le Gestionnaire [de Campaign (DCM) de Google avec un](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) Doublon-clic. En raison de cette relation, [!DNL Audience Manager] vous pouvez associer des identifiants aux noms et descriptions utilisés par les options de rapport. Sans intégration, nous pouvons toujours ingérer des données, mais les options de rapport afficheront des identifiants numériques au lieu d’un nom descriptif.
 
-![schéma du menu de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-menu.png)
+![](assets/metadata_menu.png)
 
 ## Correspondances de fichiers {#file-mappings}
 
@@ -112,7 +112,7 @@ Les identifiants transmis par ces paires clé-valeur permettent de créer le nom
 
 Dans cet exemple, nous allons créer un fichier de métadonnées qui introduit des noms créatifs dans un [!UICONTROL Audience Optimization] rapport. Pour ce faire, nous devons extraire des ID de source de données, de campagne et de création à partir d’un appel de événement.
 
-![schéma de événement de fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-event.png)
+![](assets/metadata_file_event.png)
 
 ### Nom de fichier
 
@@ -124,7 +124,7 @@ Dans un nom de fichier :
 
 * Les identifiants de création et de campagne représentent une catégorie plutôt qu’un identifiant réel.
 
-![schéma de nom de fichier de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-name.png)
+![](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 Dans cet exemple, le contenu du fichier reflète les identifiants de création et de campagne transmis lors de l’appel de événement. Le nouvel élément ici est un nom lisible. Une fois traité, le nom de ce fichier s’affiche en tant qu’option dans le menu Créatif d’un [!UICONTROL Audience Optimization] rapport.
 
-![schéma du contenu du fichier de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-contents.png)
+![](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
