@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossaire de la CCPA
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
@@ -55,3 +55,4 @@ Familiarisez-vous avec les termes clés utilisés en matière de CCPA. Voici une
 >[!MORELIKETHIS]
 >
 >[Présentation de la confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md)
+
