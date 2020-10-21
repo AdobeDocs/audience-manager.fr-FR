@@ -1,5 +1,5 @@
 ---
-description: Comprendre les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et comment les données sont transmises lors d’un appel d’événement.
+description: Décrit les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et la manière dont les données sont transmises dans un appel de événement.
 seo-description: Décrit les composants d’un segment d’Audience Manager, les expressions utilisées pour définir les critères de qualification des audiences et la manière dont les données sont transmises dans un appel de événement.
 seo-title: Signaux, caractéristiques et segments
 solution: Audience Manager
@@ -7,10 +7,10 @@ title: Signaux, caractéristiques et segments
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
