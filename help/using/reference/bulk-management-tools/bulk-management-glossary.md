@@ -7,9 +7,9 @@ title: Glossaire des outils de gestion en bloc
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '346'
 ht-degree: 5%
 
 ---
@@ -83,7 +83,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indique quand un segment peut début être envoyé à une destination. Utilise <code>yyyy-mm-dd</code> le format. </p> </td> 
+   <td colname="col2"> <p>Indique quand un segment peut début être envoyé à une destination. Utilise le format <tt>aaaa-mm-jj</tt> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
