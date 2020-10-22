@@ -1,15 +1,15 @@
 ---
-description: valeur nulle
-seo-description: valeur nulle
+description: Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers.
+seo-description: Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de la campagne, car il enregistre l’activité basée sur les clics pour les créatifs tiers.
 seo-title: Capture des données de clics de campagne via des appels de pixel
 solution: Audience Manager
 title: Capture des données de clics de campagne via des appels de pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '686'
 ht-degree: 11%
 
 ---
@@ -48,7 +48,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers ce qui su
 
 ## Macros prises en charge
 
-Cliquez sur événements pour prendre en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité de code autonome qui s’active lorsque la balise publicitaire se charge pour le suivi des campagnes et des utilisateurs. Les macros seront transmises avec la destination [!DNL URL], à condition qu’elles soient marquées au format suivant : `%macro%`. Certaines clés n’ont pas de macros et acceptent plutôt une valeur d’identifiant codée en dur. Les clés qui acceptent les valeurs codées en dur sont nécessaires pour analyser les données dans les rapports [Optimisation des](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences.
+Cliquez sur événements pour prendre en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité de code autonome qui s’active lorsque la balise publicitaire se charge pour le suivi des campagnes et des utilisateurs. Les macros seront transmises avec la destination [!DNL URL], à condition qu’elles soient marquées au format suivant : `%macro%`. Certaines clés n’ont pas de macros et acceptent plutôt une valeur d’identifiant codée en dur. Les clés qui acceptent les valeurs codées en dur sont nécessaires pour analyser les données dans les rapports [](../../reporting/audience-optimization-reports/audience-optimization-reports.md)d’Audience Optimization.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -67,17 +67,17 @@ Cliquez sur événements pour prendre en charge les macros répertoriées dans l
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Aucune macro. </p> <p>Accepte une valeur d’ID codée en dur. </p> </td> 
-   <td colname="col2"> <p>Identifiant publicitaire.</p> <p>Code d’intégration de la source de données de l’annonceur. Notez que ceci n’est pas lié aux sources de données d’Audience Manager.</p> <p> Requis pour les rapports Optimisation <span class="wintitle"> des</span> Audiences. </p> </td> 
+   <td colname="col2"> <p>Identifiant publicitaire.</p> <p>Code d’intégration de la source de données de l’annonceur. Notez que ceci n’est pas lié aux sources de données d’Audience Manager.</p> <p> Requis pour les rapports <span class="wintitle"> d’Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numérique de l'unité opérationnelle. </p> <p> Requis pour les rapports Optimisation <span class="wintitle"> des</span> Audiences. </p> </td> 
+   <td colname="col2"> <p>ID numérique de l'unité opérationnelle. </p> <p> Requis pour les rapports <span class="wintitle"> d’Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>Identifiant de campagne numérique du serveur d’annonces. </p> <p> Requis pour les rapports Optimisation <span class="wintitle"> des</span> Audiences. </p> </td> 
+   <td colname="col2"> <p>Identifiant de campagne numérique du serveur d’annonces. </p> <p> Requis pour les rapports <span class="wintitle"> d’Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -169,10 +169,10 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers ce qui su
 
 ## Autres fonctionnalités - [!UICONTROL Audience Optimization Reports]
 
-Vous pouvez utiliser des appels en pixels pour alimenter les rapports [Optimisation des](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiences. Voir [Aperçu et mappages des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
+Vous pouvez utiliser des appels en pixels pour alimenter les rapports [](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)d’Audience Optimization. Voir [Aperçu et mappages des fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de métadonnées si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
 
 >[!MORELIKETHIS]
 >
->* [Fichiers de données et de métadonnées pour les rapports d’optimisation d’Audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Fichiers de données et de métadonnées pour les rapports d’Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
