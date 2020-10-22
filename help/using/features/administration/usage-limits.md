@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ L’Audience Manager définit une limite maximale sur le nombre de caractéristi
 
 ## Limites de mappage des identifiants {#id-mapping-limits}
 
-Le tableau ci-dessous liste les limites de mappage [des](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) identifiants pour les ID de périphérique. Une fois qu’un ID atteint l’une des limites ci-dessous, l’Audience Manager ajoute de nouveaux mappages d’ID en fonction d’une logique [!DNL FIFO] (première entrée, première sortie), en supprimant le mappage d’ID stocké le plus ancien et en ajoutant le nouveau. Consultez [Index des identifiants](../../reference/ids-in-aam.md) en Audience Manager pour plus d’informations sur les identifiants pris en charge par l’Audience Manager.
+Le tableau ci-dessous liste les limites de mappage [des](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) identifiants pour les ID de périphérique. Une fois qu’un ID atteint l’une des limites ci-dessous, l’Audience Manager ajoute de nouveaux mappages d’ID basés sur une logique FIFO (premier entré, premier sorti), en supprimant le plus ancien mappage d’ID stocké et en ajoutant le nouveau. Consultez [Index des identifiants](../../reference/ids-in-aam.md) en Audience Manager pour plus d’informations sur les identifiants pris en charge par l’Audience Manager.
 
 | Mappage des identifiants | Limite maximale |
 |-----------|-------------- |
@@ -83,7 +83,7 @@ Les tableaux liste les limites actuelles par type d&#39;élément. Vous ne pouve
 | --------------- | ------------- |
 | Signaux dérivés | 50 000. |
 
-### Limite des comptes utilisateur de Société
+### Limite des comptes utilisateur de société
 
 | Élément | Limite maximale |
 | ----------- | ------------- |
