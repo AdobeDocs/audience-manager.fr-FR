@@ -7,9 +7,9 @@ title: Planification de la mise à jour des rapports de chevauchement et taille 
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 5%
 
 # Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Décrit la taille du segment et le temps de création requis par le processus de mise à jour du rapport de chevauchement.
+Décrit la caractéristique, la taille du segment et les exigences en termes de temps de création requises par le processus de mise à jour du rapport sur le chevauchement.
 
 ## Mettre à jour le calendrier et les exigences {#update-schedule}
 
 [!UICONTROL Overlap] les rapports sont mis à jour chaque semaine le dimanche. Le prétraitement des rapports commence le samedi. Cela a une incidence sur la façon dont les segments nouveaux ou existants apparaissent dans un rapport de chevauchement le lundi. À inclure dans un rapport de chevauchement :
 
-* Un segment doit contenir au moins 70 000 utilisateurs en temps réel au total au cours des 14 derniers jours. En savoir plus sur la [configuration Visiteur unique minimale requise pour les caractéristiques et les segments](../../reporting/report-sampling.md#data-sampling-ratio).
+* Un segment doit contenir au moins 70 000 utilisateurs en temps réel au total au cours des 14 derniers jours.
+* Une caractéristique doit contenir 28 000 réalisations [de caractéristiques](/help/using/features/traits/trait-and-segment-qualification-reference.md) uniques au cours des 14 derniers jours.
 * Un segment doit avoir été créé avant 12h00 le jeudi UTC (2 jours complets avant le début du processus de mise à jour hebdomadaire du rapport de chevauchement).
 * Votre société doit être un [!DNL Audience Manager] client complet. Contactez votre [!DNL Audience Manager] conseiller ou le service à la clientèle pour en savoir plus.
 
