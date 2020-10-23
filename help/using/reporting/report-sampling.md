@@ -7,9 +7,9 @@ title: Échantillonnage de données et taux d’erreur dans les rapports Audienc
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ Il est important de noter que nos tests et modèles montrent que le taux d&#39;e
 
 ## Utilisation de la méthodologie d’échantillonnage de hachage {#minhash}
 
-En se basant sur la méthodologie d&#39;échantillonnage [Minhash](https://en.wikipedia.org/wiki/MinHash) , l&#39;Audience Manager utilise une nouvelle méthode pour calculer les estimateurs de caractéristiques et de segments au-dessus d&#39;une esquisse de données de hachage d&#39;une permutation unique. Cette nouvelle méthode produit une variance plus faible que l&#39;estimateur standard pour l&#39;estimateur de similarité Jaccard. Reportez-vous à la section ci-dessous pour les rapports qui utilisent cette méthodologie.
+En se basant sur la méthodologie d&#39;échantillonnage [Minhash](https://en.wikipedia.org/wiki/MinHash) , l&#39;Audience Manager utilise une nouvelle méthode pour calculer les estimateurs de caractéristiques et de segments au-dessus d&#39;une esquisse de données de hachage d&#39;une permutation unique. Cette nouvelle méthode produit une variance plus faible que l&#39;estimateur standard pour la similarité de Jaccard. Reportez-vous à la section ci-dessous pour les rapports qui utilisent cette méthodologie.
 
 <!--
 
