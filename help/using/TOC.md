@@ -6,9 +6,9 @@ user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Audience Manager fournit des services de pointe pour la gestion des données d’audience en ligne.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1772'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 # Guide d’utilisation d’Audience Manager {#user-guide}
 
-+ [Documentation du produit Audience Manager](aam-home.md)
++ [Guide d’Audience Manager](aam-home.md)
 + Présentation {#overview}
    + [Présentation d’Audience Manager](overview/aam-overview.md)
    + [Types de données collectées](overview/data-types-collected.md)
