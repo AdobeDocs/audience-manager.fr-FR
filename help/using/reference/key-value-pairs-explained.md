@@ -8,10 +8,10 @@ title: Explication des paires clé-valeur
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 7%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -54,44 +54,10 @@ Lorsque vous utilisez des données sérialisées, vous devez spécifier les cara
 
 ## Éléments de valeur clé standard et sérialisés {#standard-serialized-key-value-elements}
 
-<table id="table_62B0498441034A719C9DB57276777D40"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type </th> 
-   <th colname="col2" class="entry"> Exemple </th> 
-   <th colname="col3" class="entry"> Clé </th> 
-   <th colname="col4" class="entry"> Séparateur de valeur-clé </th> 
-   <th colname="col5" class="entry"> Délimiteur clé-valeur </th> 
-   <th colname="col6" class="entry"> Séparateur de série </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Clé unique</b> <p>(standard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col4" morerows="3"> = </td> 
-   <td colname="col5" morerows="1"> &amp; </td> 
-   <td colname="col6" morerows="1"> n/d </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Paires clé-valeur</b> <p>(standard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Clé unique</b> <p>(série) </p> </td> 
-   <td colname="col2"> <code> x=1;2;3 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col5"> n/d </td> 
-   <td colname="col6" morerows="1"> ; </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Paires</b> clé-valeur (série) </td> 
-   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-   <td colname="col5"> &amp; </td> 
-  </tr> 
- </tbody> 
-</table>
 
+| Type | Exemple | Clé | Séparateur de valeur-clé | Délimiteur clé-valeur | Séparateur de série |
+---------|----------|---------|---------|----------|---------
+| **Clé** unique (standard) | `x=1&x=2` | `x` | `=` | `&` | n/d |
+| **Paires** clé-valeur (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/d |
+| **Clé** unique (série) | `x=1;2;3` | `x` | `=` | n/d | `;` |
+| **Paires** clé-valeur (série) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
