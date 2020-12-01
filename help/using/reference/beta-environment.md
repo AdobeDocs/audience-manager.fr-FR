@@ -44,14 +44,14 @@ Added re: AAM-30826.
 
 | Service | URL/nom d’hôte | Comment obtenir un accès |
 |--- |--- | --- |
-| S3 | Contactez votre représentant des solutions partenaires d’Audience Manager ou le service d’assistance clientèle | Contactez votre représentant Solutions partenaires d’Audience Manager ou le service d’assistance clientèle pour configurer un compartiment Amazon S3 pour votre instance bêta. Découvrez les [avantages de l’utilisation d’Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Reportez-vous à [Accès au DCS dans l’Environnement](../reference/beta-environment.md#access-dcs-beta-environment)bêta. |
+| S3 | Contactez votre représentant des solutions partenaires d’Audience Manager ou le service d’assistance clientèle | Contactez votre représentant Solutions partenaires d’Audience Manager ou le service d’assistance clientèle pour configurer un compartiment Amazon S3 pour votre instance bêta. Découvrez les [avantages de l&#39;utilisation de Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Voir [Accès au DCS dans l’Environnement bêta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | IU | `https://bank-beta.demdex.com` | Vos informations d’identification d’environnement de production sont valides pour l’environnement bêta. |
-| API | `https://api-beta.demdex.com/...` | Vos informations d’identification d’environnement de production sont valides pour l’environnement bêta. Nous vous recommandons de créer un utilisateur d&#39;API générique, [voir les détails](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Vos informations d’identification d’environnement de production sont valides pour l’environnement bêta. Nous vous recommandons de créer un utilisateur API générique, [voir les détails](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Accès au serveur de collecte de données dans l’Environnement bêta {#access-dcs-beta-environment}
 
-1. Effectuez un appel DCS à l’aide de la [commande curl](https://curl.haxx.se/docs/manpage.html). Curl est un outil permettant de transférer des données depuis ou vers un serveur, en utilisant l&#39;un des nombreux protocoles pris en charge.
+1. Effectuez un appel DCS à l’aide de la commande curl [](https://curl.haxx.se/docs/manpage.html). Curl est un outil permettant de transférer des données depuis ou vers un serveur, en utilisant l&#39;un des nombreux protocoles pris en charge.
 
    Par exemple :
 
