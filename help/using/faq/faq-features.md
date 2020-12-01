@@ -48,9 +48,9 @@ Oui. Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Lors d’une exportation d’ID en vrac vers une destination, certains identifiants de client sont absents. Why does that happen?**
+**Lors d’une exportation d’ID en vrac vers une destination, certains identifiants de client sont absents. Pourquoi cela arrive-t-il ?**
 
-Lorsqu’un ID de périphérique (UUID[](../reference/ids-in-aam.md)AAM) est lié à plusieurs ID de gestion de la relation client ([DPUUID](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’ID de périphérique exportés est peut-être inférieur à ce qui était prévu.
+Lorsqu’un ID de périphérique ([AAM UUID](../reference/ids-in-aam.md)) est lié à plusieurs ID de gestion de la relation client ([DPUUIDs](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’ID de périphérique exportés est peut-être inférieur à ce qui était prévu.
 
  
 
