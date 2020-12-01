@@ -17,16 +17,16 @@ ht-degree: 4%
 
 # Tableau de bord des caractéristiques {#traits-dashboard}
 
-Le tableau de bord [](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) Caractéristiques est un espace de travail centralisé pour la gestion des caractéristiques. Vous pouvez voir le [!UICONTROL Traits] tableau de bord en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
+Le [tableau de bord Caractéristiques](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) est un espace de travail centralisé pour la gestion des caractéristiques. Vous pouvez voir le tableau de bord [!UICONTROL Traits] en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-Le [!UICONTROL Traits] tableau de bord contient des fonctionnalités et des outils qui vous aident à :
+Le tableau de bord [!UICONTROL Traits] contient des fonctionnalités et des outils qui vous aident à :
 
 1. Affichez toutes vos caractéristiques et les détails connexes dans un tableau avec des colonnes que vous pouvez trier.
-2. Examinez et travaillez avec les caractéristiques d’Audience [actives et les caractéristiques](../../features/traits/client-activity-synced-audience-traits.md)synchronisées de source de données.
+2. Examinez et travaillez avec [les caractéristiques d&#39;Audience Principales et les caractéristiques synchronisées de la source de données](../../features/traits/client-activity-synced-audience-traits.md).
 3. Créez, modifiez et supprimez des caractéristiques.
 4. Vue et gestion des dossiers d’enregistrement de caractéristiques.
 5. Recherchez des caractéristiques par nom, identifiant, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers.
