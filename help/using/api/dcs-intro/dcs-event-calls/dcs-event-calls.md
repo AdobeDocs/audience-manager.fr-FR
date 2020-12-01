@@ -17,16 +17,16 @@ ht-degree: 59%
 
 # API d’appel d’événement DCS {#dcs-event-call-apis}
 
-Event calls send information to the [!DNL DCS] in a [!DNL URL] string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!DNL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!DNL DCS] with these event call [!DNL API]s.
+Les appels de événement envoient des informations à [!DNL DCS] dans une chaîne [!DNL URL]. Dans un déploiement d&#39;Audience Manager type, les clients utilisent notre code de collecte de données [!DNL JavaScript] ([!UICONTROL DIL]) pour envoyer des données à [!DNL DCS]. Cependant, il arrive que les clients ne puissent pas placer notre code [!DNL JavaScript] sur leurs pages. Si les stratégies de société ou d&#39;autres problèmes techniques vous empêchent de placer le code [!DNL JavaScript] sur vos pages, vous pouvez continuer à travailler avec l&#39;Audience Manager pour envoyer et renvoyer des données de [!DNL DCS] avec ces appels de événement [!DNL API]s.
 
 ## Prise en main {#dcs-getting-started}
 
 Cette section contient des informations et des références connexes qui vous montrent comment :
 
-* Appelez le [!DNL DCS].
-* Receive data from the [!DNL DCS].
+* Appelez [!DNL DCS].
+* Recevez les données du [!DNL DCS].
 * Mettez en forme les éléments de données dans vos appels.
-* Comprenez les paramètres renvoyés par le [!DNL DCS].
+* Comprenez les paramètres renvoyés par [!DNL DCS].
 
 Pour commencer, consultez les sections ci-dessous. Début avec [Envoyer des données au serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Ensuite, passez à [Recevoir les données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
