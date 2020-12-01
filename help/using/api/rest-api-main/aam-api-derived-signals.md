@@ -21,11 +21,11 @@ ht-degree: 14%
 
 <!-- c_separator.xml -->
 
-Pour plus d’informations sur les signaux dérivés, voir Signaux [](../../features/derived-signals.md)dérivés.
+Pour plus d&#39;informations sur les signaux dérivés, voir [Signaux dérivés](../../features/derived-signals.md).
 
 >[!IMPORTANT]
 >
->Les [!DNL API] méthodes de signaux dérivés ont été réécrites avec [!DNL Swagger] et migrées. Voir :
+>Les méthodes de signaux dérivés [!DNL API] ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
 >* [Documentation de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)
