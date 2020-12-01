@@ -21,11 +21,11 @@ ht-degree: 5%
 
 <!-- c_tb_about.xml -->
 
-Par rapport aux pixels, qui se déclenchent en réponse à de simples conditions &quot;yes&quot; ou &quot;true&quot;, [!UICONTROL Trait Builder] vous permet de :
+Par rapport aux pixels, qui se déclenchent en réponse à de simples conditions &quot;yes&quot; ou &quot;true&quot;, [!UICONTROL Trait Builder] vous permet :
 
-* Collectez *toutes les* données de page afin de pouvoir les utiliser ultérieurement pour créer des caractéristiques pertinentes et utiles.
-* Créez des caractéristiques basées sur des paires [](../../reference/key-value-pairs-explained.md) clé-valeur transmises au cours de la collecte de données.
-* Evaluez des conditions de données complexes à l’aide de règles côté serveur qui fonctionnent avec des expressions [](../../reference/boolean-expressions-tsb.md) booléennes et des opérateurs [](../../features/traits/trait-comparison-operators.md)de comparaison.
+* Collectez *toutes* données de page afin de pouvoir les utiliser ultérieurement pour créer des caractéristiques pertinentes et utiles.
+* Créez des caractéristiques basées sur les [paires clé-valeur](../../reference/key-value-pairs-explained.md) transmises au cours de la collecte de données.
+* Évaluez des conditions de données complexes à l&#39;aide de règles côté serveur qui fonctionnent avec les [expressions booléennes](../../reference/boolean-expressions-tsb.md) et les [opérateurs de comparaison](../../features/traits/trait-comparison-operators.md).
 
 * Réduisez ou éliminez la nécessité de conserver les pixels de collecte de données dans votre inventaire.
-* Surveillez les performances à l’aide de [!DNL Audience Manager] rapports.
+* Surveillez les performances avec des rapports [!DNL Audience Manager].
