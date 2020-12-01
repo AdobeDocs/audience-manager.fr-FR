@@ -17,22 +17,22 @@ ht-degree: 11%
 
 # Chiffrement PGP de fichier pour les types de données entrantes{#file-pgp-encryption-for-inbound-data-types}
 
-Vous pouvez chiffrer des fichiers de données à l’aide d’un [!DNL PGP] chiffrement lors de leur envoi à l’Audience Manager.
+Vous pouvez chiffrer des fichiers de données à l&#39;aide d&#39;un chiffrement [!DNL PGP] lors de leur envoi à l&#39;Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] le chiffrement inclut la compression de fichiers. Lorsque vous envoyez des fichiers [!DNL PGP] chiffrés entrants, veillez à ne pas les [compresser](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) à l’aide de gzip (`.gz`).
+>[!DNL PGP] le chiffrement inclut la compression de fichiers. Lors de l&#39;envoi de [!DNL PGP] fichiers entrants chiffrés, veillez à ne pas les [compresser](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) à l&#39;aide de gzip (`.gz`).
 >
->[!DNL PGP] les fichiers entrants chiffrés qui sont également [compressés](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) ne sont pas valides en Audience Manager.
+>[!DNL PGP] les fichiers entrants chiffrés qui sont également  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) compressés ne sont pas valides en Audience Manager.
 
 Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données entrants.
 
-1. Téléchargez la clé [publique](./assets/adobe_pgp.pub)Audience Manager.
+1. Téléchargez la [clé publique d&#39;Audience Manager](./assets/adobe_pgp.pub).
 2. Importez la clé publique dans votre magasin approuvé.
 
-   Par exemple, si vous utilisez [!DNL GPG], la commande peut être similaire à la commande suivante :
+   Par exemple, si vous utilisez [!DNL GPG], la commande peut être semblable à la suivante :
 
    `gpg --import adobe_pgp.pub`
 
@@ -52,8 +52,8 @@ Suivez les étapes décrites ci-dessous pour chiffrer les fichiers de données e
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Toutes les données chiffrées doivent utiliser `.pgp` ou `.gpg` comme extension de fichier (par ex. `ftp_dpm_100_123456789.sync.pgp` ou `ftp_dpm_100_123456789.overwrite.gpg`).
+   Toutes les données chiffrées doivent utiliser `.pgp` ou `.gpg` comme extension de fichier (ex. `ftp_dpm_100_123456789.sync.pgp` ou `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >L’Audience Manager ne prend en charge que l’algorithme [!DNL Advanced Encryption Standard (AES)] de chiffrement des données. L’Audience Manager prend en charge n’importe quelle taille de clé.
+   >L’Audience Manager ne prend en charge que l’algorithme de chiffrement des données [!DNL Advanced Encryption Standard (AES)]. L’Audience Manager prend en charge n’importe quelle taille de clé.
