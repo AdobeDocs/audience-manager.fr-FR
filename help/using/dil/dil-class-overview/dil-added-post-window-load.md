@@ -1,6 +1,6 @@
 ---
-description: Permet d’indiquer à DIL qu’il est chargé après le chargement de la fenêtre.
-seo-description: Permet d’indiquer à DIL qu’il est chargé après le chargement de la fenêtre.
+description: Permet de faire savoir au DIL qu’il est chargé après le chargement de la fenêtre.
+seo-description: Permet de faire savoir au DIL qu’il est chargé après le chargement de la fenêtre.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Permet d’indiquer à DIL qu’il est chargé après le chargement de la fenêtre.
+Permet de faire savoir au DIL qu’il est chargé après le chargement de la fenêtre.
 
 **Signature de fonction :** `isAddedPostWindowLoad: function()`
 
