@@ -1,8 +1,8 @@
 ---
-description: Utilisez les options du menu Analytics pour vue le tableau de bord et divers rapports.
-seo-description: Utilisez les options du menu Analytics pour vue le tableau de bord et divers rapports dans l’Adobe Audience Manager (AAM).
-seo-title: Présentation du Rapports dans l’Adobe Audience Manager (AAM)
-title: Présentation du Rapports
+description: Utilisez les options du menu Analytics pour vue du tableau de bord et de divers rapports.
+seo-description: Utilisez les options du menu Analytics pour vue du tableau de bord et de divers rapports dans Adobe Audience Manager (AAM).
+seo-title: Présentation du rapports dans Adobe Audience Manager (AAM)
+title: Présentation du rapports
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
@@ -13,19 +13,19 @@ ht-degree: 13%
 ---
 
 
-# Présentation du Rapports
+# Présentation du rapports
 
-Chaque section décrit les rapports disponibles, leurs objectifs et les utilisations typiques. Tous les rapports sont disponibles à partir du [!UICONTROL Analytics] tableau de bord.
+Chaque section décrit les rapports disponibles, leurs objectifs et les utilisations typiques. Tous les rapports sont disponibles à partir du tableau de bord [!UICONTROL Analytics].
 
-Pour plus d’informations sur les périodes pendant lesquelles l’Audience Manager reçoit des informations pour remplir les rapports, voir [Comment la Diffusion de données et les temps de traitement des fichiers affectent les rapports](/help/using/reference/reporting-file-transfer-timeframe.md).
+Pour plus d&#39;informations sur les périodes pendant lesquelles l&#39;Audience Manager reçoit des informations pour remplir les rapports, voir [Comment la Diffusion de données et les temps de traitement des fichiers affectent les rapports](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Rapports d’Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-   Les [!UICONTROL Audience Optimization] rapports utilisent des méthodes de visualisation de données pour renvoyer des informations sur les destinations dans votre compte d’Audience Manager. Dans chaque rapport, vous pouvez cliquer sur presque n’importe quel point de données pour renvoyer des informations détaillées sur cet élément. Ces informations sur l’optimisation des audiences peuvent être appliquées à plusieurs cas d’utilisation dans les canaux de publication et de publicité, mais ne sont pas disponibles par défaut. Contactez votre consultant en Audience Manager pour commencer.
+   Les rapports [!UICONTROL Audience Optimization] utilisent des méthodes de visualisation des données pour renvoyer des informations sur les destinations dans votre compte d&#39;Audience Manager. Dans chaque rapport, vous pouvez cliquer sur presque n’importe quel point de données pour renvoyer des informations détaillées sur cet élément. Ces informations sur l’optimisation des audiences peuvent être appliquées à plusieurs cas d’utilisation dans les canaux de publication et de publicité, mais ne sont pas disponibles par défaut. Contactez votre consultant en Audience Manager pour commencer.
 
 * [Rapports généraux](/help/using/reporting/general-reports.md)
 
-   Un [!UICONTROL General report] renvoie des données de performances sur [!UICONTROL traits], [!UICONTROL segments]et [!UICONTROL destinations].
+   Un [!UICONTROL General report] renvoie des données de performances sur [!UICONTROL traits], [!UICONTROL segments] et [!UICONTROL destinations].
 
 * [Rapports interactifs et de chevauchement](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
@@ -33,23 +33,23 @@ Pour plus d’informations sur les périodes pendant lesquelles l’Audience Man
 
 * [Rapport d&#39;état de l&#39;intégration : A propos](/help/using/reporting/onboarding-status-report.md)
 
-   The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures de synthèse sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans [!UICONTROL Analytics > Onboarding Status Report]. Ce rapport est également disponible lorsque vous créez une source de données entrante.
+   [!UICONTROL Onboarding Status Report] vérifie les taux de réussite et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données dans un graphique à barres interactif et fournit des mesures de synthèse sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous trouverez ce rapport dans [!UICONTROL Analytics > Onboarding Status Report]. Ce rapport est également disponible lorsque vous créez une source de données entrante.
 
 * [Historique des fichiers sortants](/help/using/reporting/outbound-history-report.md)
 
-   Informations sur l&#39;historique des tâches par lot de Vue pour une destination et une période spécifiées. [!UICONTROL outbound]
+   Vue [!UICONTROL outbound] des informations d&#39;historique des tâches par lot pour une destination et une période spécifiées.
 
 * [Rapports de tendances](/help/using/reporting/trend-reports.md)
 
-   Un [!UICONTROL Trend report] renvoie les données de tendance sur [!UICONTROL traits] et [!UICONTROL segments].
+   Un [!UICONTROL Trend report] renvoie des données de tendance sur [!UICONTROL traits] et [!UICONTROL segments].
 
 * [Comptabilisation des utilisateurs uniques dans les rapports de chevauchement et généraux](/help/using/reporting/unique-user-counts.md)
 
-   Décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même période [!UICONTROL trait] et la même période.
+   Décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même [!UICONTROL trait] période et la même période.
 
 * [Tableau de bord de rapports](/help/using/reporting/trend-reports.md)
 
-   Utilisez le Tableau de bord pour vue des informations sur le nombre de visiteurs uniques de vos partenaires ventilé par [!UICONTROL trait] type et [!UICONTROL segments] pour une période spécifiée.
+   Utilisez les informations de Tableau de bord à vue sur le nombre de visiteurs uniques de vos partenaires ventilés par types [!UICONTROL trait] et [!UICONTROL segments] pour une période spécifiée.
 
 * [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés](/help/using/reporting/report-sampling.md)
 
