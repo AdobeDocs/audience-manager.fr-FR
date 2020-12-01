@@ -20,9 +20,9 @@ Renvoi des réalisations de caractéristiques pour capturer les audiences histor
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité haut de gamme qui améliore l&#39;expérience d&#39;Audience Manager en déverrouillant d&#39;autres cas d&#39;utilisation. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients de l’Audience Manager à un coût incrémentiel. Veuillez contacter votre représentant commercial Adobe pour plus de détails.
+>[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité haut de gamme qui améliore l&#39;expérience d&#39;Audience Manager en déverrouillant d&#39;autres cas d&#39;utilisation. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients de l’Audience Manager à un coût incrémentiel. Veuillez contacter votre représentant commercial d&#39;Adobe pour plus de détails.
 
-Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous pouvez choisir de renvoyer les réalisations des caractéristiques sur une période donnée. [!DNL Audience Manager] capture les données historiques sur les audiences qui remplissent les conditions requises pour la nouvelle caractéristique et les stocke sur le profil correspondant. Vous pouvez voir la **[!UICONTROL Backfill Options]** section dans la [!UICONTROL Trait Expression] section du créateur **[de](../../features/traits/about-trait-builder.md)**caractéristiques.
+Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous pouvez choisir de renvoyer les réalisations des caractéristiques sur une période donnée. [!DNL Audience Manager] capture les données historiques sur les audiences qui remplissent les conditions requises pour la nouvelle caractéristique et les stocke sur le profil correspondant. Vous pouvez voir le **[!UICONTROL Backfill Options]** dans la section [!UICONTROL Trait Expression] du **[créateur de caractéristiques](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
@@ -30,13 +30,13 @@ Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous
 
 Voici comment renvoyer des réalisations de caractéristiques :
 
-1. Accédez à [!UICONTROL Audience Data > Signals > Search] amd exécuter une recherche de signaux ou utilisez le Tableau de bord [](../../features/data-explorer/data-explorer-signals-dashboard.md) de signaux pour identifier les signaux à utiliser dans la nouvelle caractéristique.
+1. Accédez à [!UICONTROL Audience Data > Signals > Search] amd exécutez une recherche de signaux ou utilisez le [Tableau de bord de signaux](../../features/data-explorer/data-explorer-signals-dashboard.md) pour identifier les signaux à utiliser dans la nouvelle caractéristique.
 1. Créez une nouvelle caractéristique basée sur les signaux souhaités.
-1. Utilisez la **[!UICONTROL Backfill Options]** section **[!UICONTROL Trait Expression]** pour sélectionner l’intervalle de temps pour lequel vous souhaitez renvoyer les réalisations de caractéristiques. Les intervalles de renvoi prédéfinis incluent 1, 7, 14 et 30 jours. Vous pouvez également choisir une plage de dates personnalisée allant jusqu’à 30 jours.
+1. Utilisez **[!UICONTROL Backfill Options]** dans la section **[!UICONTROL Trait Expression]** pour sélectionner l’intervalle de temps pour lequel vous souhaitez renvoyer les réalisations de caractéristiques. Les intervalles de renvoi prédéfinis incluent 1, 7, 14 et 30 jours. Vous pouvez également choisir une plage de dates personnalisée allant jusqu’à 30 jours.
 
    ![trait-retour](assets/signals-trait-backfill.png)
 
-1. (Facultatif) Cliquez **[!UICONTROL Estimate Realizations]** dans la **[!UICONTROL Estimated Trait Realizations]** section pour afficher l’estimation [!UICONTROL Unique Trait Realizations] et les [!UICONTROL Total Trait Population] valeurs de la caractéristique renversée au cours des 7 derniers jours.
+1. (Facultatif) Cliquez sur **[!UICONTROL Estimate Realizations]** dans la section **[!UICONTROL Estimated Trait Realizations]** pour afficher les valeurs estimées [!UICONTROL Unique Trait Realizations] et [!UICONTROL Total Trait Population] pour la caractéristique retournée au cours des 7 derniers jours.
 
    ![estimation-caractéristiques-réalisations](assets/estimate-trait-realizations.png)
 
@@ -57,9 +57,9 @@ Regardez la vidéo ci-dessous pour découvrir comment renvoyer les caractéristi
 
 ## Latence de renvoi de caractéristiques {#trait-backfilling-latency}
 
-Les caractéristiques nouvellement créées début capturer les audiences deux à trois heures après leur création. Cependant, en raison du volume important de données qui [!DNL Audience Manager] se produisent quotidiennement, la population reconstituée n’est pas immédiatement reflétée dans les [!UICONTROL Unique Trait Realizations] graphiques et les [!UICONTROL Total Trait Population] graphiques.
+Les caractéristiques nouvellement créées début capturer les audiences deux à trois heures après leur création. Cependant, en raison du volume important de données que [!DNL Audience Manager] effectue quotidiennement, la population rétroremplie n&#39;est pas immédiatement reflétée dans les graphiques [!UICONTROL Unique Trait Realizations] et [!UICONTROL Total Trait Population].
 
-L&#39;Audience Manager met à jour la population [!UICONTROL Trait Graph] avec la population dépassée dans les 48 heures suivant la création d&#39;un trait.
+L&#39;Audience Manager met à jour le [!UICONTROL Trait Graph] avec la population dépassée dans les 48 heures suivant la création de la caractéristique.
 
 ## Limite de renvoi de caractéristiques {#trait-backfilling-limit}
 
@@ -71,6 +71,6 @@ L&#39;Audience Manager met à jour la population [!UICONTROL Trait Graph] avec l
 
 ## Impact sur le Rapports {#reporting-impact}
 
-Les réalisations rétroactives des caractéristiques sont reflétées dans les [!UICONTROL Unique Trait Realizations] mesures et [!UICONTROL Total Trait Population] les mesures, à mesure que [!DNL Audience Manager] les signaux historiques deviennent des réalisations des caractéristiques.
+Les réalisations rétroactives des caractéristiques sont reflétées dans les mesures [!UICONTROL Unique Trait Realizations] et [!UICONTROL Total Trait Population], dans la mesure où [!DNL Audience Manager] transforme les signaux historiques en réalisations des caractéristiques.
 
-Toutefois, les éléments [!UICONTROL Trait Graph], [!UICONTROL General Reports]et [!UICONTROL Trend Reports] ne sont pas mis à jour rétroactivement avec des mesures historiques renvoyées avant la date de création de la caractéristique.
+Cependant, les [!UICONTROL Trait Graph], [!UICONTROL General Reports] et [!UICONTROL Trend Reports] ne sont pas mis à jour rétroactivement avec des mesures historiques renvoyées avant la date de création de la caractéristique.
