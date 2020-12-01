@@ -27,7 +27,7 @@ Le processus d&#39;intégration des données par lot enregistre les informations
 
 * Les transferts de données immédiats ne sont pas nécessaires.
 * Collecte de données pour créer un grand groupe d’utilisateurs segmentés.
-* Vous souhaitez réduire les incohérences de données et les `HTTP` appels du navigateur.
+* Vous souhaitez réduire les incohérences de données et les appels `HTTP` à partir du navigateur.
 
 ![](assets/s2s_70.png)
 
@@ -36,5 +36,5 @@ Le processus d&#39;intégration des données par lot enregistre les informations
 1. Un utilisateur visite un site client.
 1. [!DNL Audience Manager] et le fournisseur de données tiers attribue au visiteur un identifiant unique (généralement avec un cookie).
 1. [!DNL Audience Manager] appelle le fournisseur de données tiers pour qu’il corresponde aux ID de visiteur.
-1. Une demande planifiée, généralement à intervalles quotidiens, échange des données de segment de visiteur entre [!DNL Audience Manager] votre fournisseur de données tiers et votre fournisseur de données tiers.
-1. Chaque fois qu&#39;un [!UICONTROL Server-to-Server] fichier entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s&#39;il est configuré, au partenaire. Pour plus d’informations, voir [Exemple de message aux partenaires après le traitement](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)entrant.
+1. Une requête planifiée, généralement à intervalles quotidiens, échange des données de segment de visiteur entre [!DNL Audience Manager] et votre fournisseur de données tiers.
+1. Chaque fois qu&#39;un fichier [!UICONTROL Server-to-Server] entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s&#39;il est configuré, au partenaire. Pour plus d’informations, voir [Exemple de message aux partenaires après le traitement entrant](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
