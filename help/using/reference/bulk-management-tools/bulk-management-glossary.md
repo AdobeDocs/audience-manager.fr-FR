@@ -27,7 +27,7 @@ Libellés d&#39;en-tête de colonne définis.
 
 >[!NOTE]
 >
->[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
+>[Les ](../../features/administration/administration-overview.md) autorisations de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le  [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -39,11 +39,11 @@ Libellés d&#39;en-tête de colonne définis.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>ID d’une source <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> de données</a> que vous souhaitez renvoyer ou affecter en bloc. </p> </td> 
+   <td colname="col2"> <p>ID d'une source de données <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> </a> que vous souhaitez renvoyer ou affecter en bloc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> DEDSignalId</span> </p> </td> 
-   <td colname="col2"> <p>ID de signal <a href="../../features/derived-signals.md"></a> dérivé. </p> </td> 
+   <td colname="col2"> <p>Un <a href="../../features/derived-signals.md"> signal dérivé </a> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> description</span> </p> </td> 
@@ -51,7 +51,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>ID de la destination <a href="../../features/destinations/destinations.md"></a> que vous souhaitez mapper ou supprimer. </p> </td> 
+   <td colname="col2"> <p>ID de la destination <a href="../../features/destinations/destinations.md"> </a> que vous souhaitez mapper ou supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
@@ -75,31 +75,31 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Les signaux sont des bits de données transmis à <span class="keyword"> l’Audience Manager</span> en fonction de l’activité de l’utilisateur. Elles sont transmises sous la forme de paires <a href="../../reference/key-value-pairs-explained.md"></a>clé-valeur. La clé source est une constante qui ne change pas. Il permet de classer la valeur source qui peut changer. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </p> </td> 
+   <td colname="col2"> <p>Les signaux sont des bits de données transmis à <span class="keyword"> Audience Manager</span> en fonction de l’activité de l’utilisateur. Elles sont transmises sous la forme de paires <a href="../../reference/key-value-pairs-explained.md"> clé-valeur</a>. La clé source est une constante qui ne change pas. Il permet de classer la valeur source qui peut changer. Voir <a href="../../features/derived-signals.md"> Signaux dérivés</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>La valeur source est une variable transmise dans le cadre d’une paire <a href="../../reference/key-value-pairs-explained.md"></a>clé-valeur. </p> </td> 
+   <td colname="col2"> <p>La valeur source est une variable transmise dans le cadre d'une paire <a href="../../reference/key-value-pairs-explained.md"> valeur-clé </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indique quand un segment peut début être envoyé à une destination. Utilise le format <i>aaaa-mm-jj</i> . </p> </td> 
+   <td colname="col2"> <p>Indique quand un segment peut début être envoyé à une destination. Utilise le format <i>aaaa-mm-jj</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
-   <td colname="col2">Clé utilisée dans le signal dérivé. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </td> 
+   <td colname="col2">Clé utilisée dans le signal dérivé. Voir <a href="../../features/derived-signals.md"> Signaux dérivés</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
-   <td colname="col2"> <p>Valeur transmise avec une clé de signal dérivée. Voir Signaux <a href="../../features/derived-signals.md"></a>dérivés. </p> </td> 
+   <td colname="col2"> <p>Valeur transmise avec une clé de signal dérivée. Voir <a href="../../features/derived-signals.md"> Signaux dérivés</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Identifiant transmis à une destination sans cookie. Pour une destination basée sur un cookie, il s’agit de la clé d’une paire <a href="../../reference/key-value-pairs-explained.md"></a>clé-valeur. </p> </td> 
+   <td colname="col2"> <p>Identifiant transmis à une destination sans cookie. Pour une destination basée sur un cookie, il s’agit de la clé d’une paire <a href="../../reference/key-value-pairs-explained.md"> valeur-clé</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>Caractéristique ou règle de segment réelle utilisée pour collecter des données. Une requête en bloc renvoie les règles créées en <span class="keyword"> Audience Manager</span> avec le créateur <a href="../../features/traits/about-trait-builder.md"> de règles</a> de caractéristiques ou le créateur <a href="../../features/segments/segment-builder.md"> de règles</a>de segments. Vous pouvez également utiliser ces outils pour créer des règles et les appliquer en bloc lorsque vous mettez à jour un segment ou une caractéristique. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
+   <td colname="col2"> <p>Caractéristique ou règle de segment réelle utilisée pour collecter des données. Une requête en bloc renvoie les règles créées dans <span class="keyword"> Audience Manager</span> avec le créateur de règles de caractéristiques <a href="../../features/traits/about-trait-builder.md"></a> ou le créateur de règles de segment <a href="../../features/segments/segment-builder.md"></a>. Vous pouvez également utiliser ces outils pour créer des règles et les appliquer en bloc lorsque vous mettez à jour un segment ou une caractéristique. </p> <p>Voir aussi <a href="../../reference/bulk-management-tools/bulk-rules.md"> Créer ou mettre à jour des règles de caractéristiques et des règles de segment</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -116,7 +116,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>Clé d’une paire <a href="../../reference/key-value-pairs-explained.md"></a> clé-valeur transmise à une destination de cookie. </p> </td> 
+   <td colname="col2"> <p>Clé d'une paire <a href="../../reference/key-value-pairs-explained.md"> clé-valeur</a> transmise à une destination de cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
