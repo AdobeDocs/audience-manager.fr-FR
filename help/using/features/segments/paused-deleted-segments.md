@@ -1,6 +1,6 @@
 ---
-description: Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment actif à l’aide du créateur de segments.
-seo-description: Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment actif à l’aide du créateur de segments.
+description: Décrit les effets sur les utilisateurs, les données et les destinations segmentés lorsque vous suspendez ou supprimez un segment principal à l’aide du créateur de segments.
+seo-description: Décrit les effets sur les utilisateurs, les données et les destinations segmentés lorsque vous suspendez ou supprimez un segment principal à l’aide du créateur de segments.
 seo-title: Suspension et suppression des segments
 solution: Audience Manager
 title: Suspension et suppression des segments
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Suspension et suppression des segments {#paused-and-deleted-segments}
 
-Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment actif à l’aide de [!UICONTROL Segment Builder].
+Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment principal à l’aide de [!UICONTROL Segment Builder].
 
 ## Accès aux commandes Pause et Supprimer
 
-Passez la souris sur un nom de segment dans la liste de segments pour afficher les **[!UICONTROL pause]** icônes et **[!UICONTROL delete]** (dans la [!UICONTROL Actions] colonne). Ces fonctionnalités affectent les segments comme décrit ci-dessous.
+Passez la souris sur un nom de segment dans la liste de segments pour afficher les icônes **[!UICONTROL pause]** et **[!UICONTROL delete]** (dans la colonne [!UICONTROL Actions]). Ces fonctionnalités affectent les segments comme décrit ci-dessous.
 
 ## Fonctionnalité de segment en pause
 
@@ -46,4 +46,4 @@ Un segment supprimé :
 
 >[!NOTE]
 >
->Vous pouvez également suspendre et supprimer des segments à l’aide d’une [!DNL API] méthode. Pour plus d’informations, voir API [](../../api/rest-api-main/rest-api-main.md)REST.
+>Vous pouvez également suspendre et supprimer des segments à l’aide d’une méthode [!DNL API]. Pour plus d’informations, voir [API REST](../../api/rest-api-main/rest-api-main.md).
