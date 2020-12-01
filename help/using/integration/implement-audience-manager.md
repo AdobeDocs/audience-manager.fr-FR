@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Implémentation d’Audience Manager {#implementing-audience-manager}
 
-Cette section décrit et explique les processus liés à la prise en main de la plateforme de data Management d&#39;Audience Manager ([!DNL DMP]). Cette section est conçue pour aider les équipes d&#39;entreprise, les gestionnaires de projets et les gestionnaires de la technologie à comprendre le processus de mise en oeuvre des Audiences Manager. La prise en main de l’Audience Manager peut prendre environ six semaines à trois mois, en fonction de vos besoins de collecte de données.
+Cette section décrit et explique les processus liés à la prise en main de la plateforme de data Management d’Audience Manager ([!DNL DMP]). Cette section est conçue pour aider les équipes d&#39;entreprise, les gestionnaires de projets et les gestionnaires de la technologie à comprendre le processus de mise en oeuvre des Audiences Manager. La prise en main de l’Audience Manager peut prendre environ six semaines à trois mois, en fonction de vos besoins de collecte de données.
 
 Nos techniques de mise en oeuvre nous aident à créer un partenariat consultatif avec de nouveaux clients. Ce processus vise à :
 
@@ -76,8 +76,8 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
 
 Les produits livrables pour cette phase peuvent inclure les éléments suivants :
 
-* les Documents qui définissent les rôles et les responsabilités;
-* les Documents qui déterminent le champ d&#39;application des travaux ;
+* les documents qui définissent les rôles et les responsabilités ;
+* les documents qui déterminent le champ d&#39;application des travaux ;
 * Un plan pour planifier les réunions et les appels de projets ;
 * Processus de partage des ressources et d’accès.
 
@@ -137,7 +137,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
 Les produits livrables pour cette phase peuvent inclure :
 
 * une stratégie de collecte de données de premier niveau, de deuxième niveau et de tiers ;
-* un plan d&#39;ingestion achevé [!DNL CRM] ou data warehouse;
+* un plan d&#39;assimilation d&#39;un [!DNL CRM] entrepôt de données terminé;
 * les exigences définies en matière d&#39;audience-segmentation ;
 * une taxonomie des données terminée ;
 * Un plan tiers d&#39;intégration des données développé.
@@ -148,13 +148,13 @@ Au cours de la phase de création, de test et de formation, vous passerez en rev
 
 <!-- c_build_test_train.xml -->
 
-Votre stratégie de collecte de données fera l&#39;objet de [!DNL QA] tests de bout en bout. Les solutions partenaires suivront les bogues découverts et coordonneront les résolutions des problèmes avec nos ingénieurs système. La formation des clients peut se début parallèlement à ces autres efforts.
+Votre stratégie de collecte de données fera l&#39;objet de tests de bout en bout [!DNL QA]. Les solutions partenaires suivront les bogues découverts et coordonneront les résolutions des problèmes avec nos ingénieurs système. La formation des clients peut se début parallèlement à ces autres efforts.
 
 Le tableau suivant décrit les principales activités qui ont lieu au cours de cette phase :
 
 | Activité | Objet/Description | Participants |
 |---|---|---|
-| Préparation d’une stratégie de collecte de données | Collaborez avec les équipes techniques Adobe pour élaborer un plan de collecte de données qui réponde aux besoins de votre entreprise | Equipes commerciales et techniques |
+| Préparation d’une stratégie de collecte de données | Collaborez avec les équipes techniques d&#39;Adobe pour élaborer un plan de collecte de données qui réponde aux besoins de votre entreprise | Equipes commerciales et techniques |
 | Déploiement et test du code | Testez la solution proposée dans un environnement d’évaluation et effectuez des tests entre navigateurs. | Équipes techniques |
 | Vérifier les fonctionnalités et résoudre les bogues | Examiner et communiquer les résultats, résoudre les bogues et tester à nouveau | Équipes techniques |
 | Formation des utilisateurs | Fournir des informations et une compréhension sur les fonctionnalités, les outils et les rapports des Audiences Manager | Equipes |
@@ -162,13 +162,13 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
 Les produits livrables pour cette phase peuvent inclure :
 
 * un plan de collecte de données achevé et accepté ;
-* les [!DNL QA] essais de bout en bout ;
+* Test de bout en bout [!DNL QA];
 * Instructions de base sur les fonctions de l&#39;interface utilisateur de l&#39;Audience Manager ;
 * Acceptation et approbation.
 
-## Phase de lancement, de prise en charge et d’optimisation {#launch-support-optimize-phase}
+## Phase de lancement, de prise en charge et d&#39;optimisation {#launch-support-optimize-phase}
 
-Au cours de la phase de lancement, de prise en charge et d’optimisation, la collecte de données et la mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons la formation sur la familiarisation des produits et les stratégies qui peuvent vous aider à augmenter votre [!DNL ROI] utilisation grâce à l&#39;optimisation basée sur les données.
+Au cours de la phase de lancement, de prise en charge et d’optimisation, la collecte de données et la mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons notre formation sur la familiarisation des produits et les stratégies qui peuvent aider à améliorer [!DNL ROI] votre &lt;a0/> grâce à une optimisation basée sur les données.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -184,12 +184,12 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> analyse et optimisation des données </td> 
+   <td colname="col1"> Analyse et optimisation des données </td> 
    <td colname="col2"> Analyser les tendances des données et fournir des recommandations d'optimisation </td> 
    <td colname="col3"> Equipes </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Créer des caractéristiques et des segments </td> 
+   <td colname="col1"> Création de caractéristiques et de segments </td> 
    <td colname="col2">Créez des caractéristiques et des segments réels pour la collecte de données : 
     <ul id="ul_21C7E86A7AF749CD8ECBE129DE2C641A"> 
      <li id="li_4FCCC879B7A44752A55DEAC2D6434220">Créer des caractéristiques et des segments réels </li> 
@@ -211,7 +211,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
  </tbody> 
 </table>
 
-Les Tâches de cette phase peuvent inclure :
+Les tâches de cette phase peuvent inclure :
 
 * Génération et interprétation des données des rapports ;
 * Présentation des rapports personnalisés ;
@@ -221,13 +221,13 @@ Les Tâches de cette phase peuvent inclure :
 
 ## Implémentation du code {#code-implementation}
 
-Bien que le processus de déploiement puisse sembler complexe, l’implémentation du code est aussi simple que l’ajout de quelques lignes de [!DNL JavaScript] côté de la balise de fermeture `</body>` de votre site Web.
+Bien que le processus de déploiement puisse sembler complexe, l’implémentation du code est aussi simple que l’ajout de quelques lignes de [!DNL JavaScript] adjacentes à la balise de fermeture `</body>` de votre site Web.
 
 <!-- c_code.xml -->
 
 ### Déploiement
 
-Le fragment de code d’Audience Manager appelle [!DNL Akamai] à télécharger les règles de fonctionnement configurées précédemment dans l’interface utilisateur. En outre, les navigateurs clients mettent en cache ces informations, ce qui contribue à réduire les temps de chargement des pages et des serveurs. Notre méthodologie de collecte de code et de données est conçue pour gérer l’expérience des utilisateurs dans l’ensemble de votre inventaire.
+Le fragment de code d’Audience Manager appelle [!DNL Akamai] pour télécharger les règles de fonctionnement configurées précédemment dans l’interface utilisateur. En outre, les navigateurs clients mettent en cache ces informations, ce qui contribue à réduire les temps de chargement des pages et des serveurs. Notre méthodologie de collecte de code et de données est conçue pour gérer l’expérience des utilisateurs dans l’ensemble de votre inventaire.
 
 ### Participants
 
@@ -241,4 +241,4 @@ Nos efforts de collaboration ne s&#39;arrêtent pas au déploiement final. Une f
 
 Les gestionnaires de compte offrent des services de soutien et de consultation continus une fois le processus de mise en oeuvre du produit terminé. Vous pouvez vous attendre à des réunions régulières avec votre gestionnaire de compte. Ces réunions vous permettent d’obtenir le maximum d’utilisation et de valeur d’Audience Manager.
 
-Contactez-nous [ici](https://www.adobe.com/products/audiencemanager.html) pour plus d&#39;informations et pour commencer avec l&#39;Audience Manager.
+Contactez-nous [ici](https://www.adobe.com/products/audiencemanager.html) pour plus d&#39;informations et pour commencer à utiliser l&#39;Audience Manager.
