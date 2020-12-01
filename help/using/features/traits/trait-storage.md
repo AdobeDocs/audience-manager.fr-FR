@@ -23,7 +23,7 @@ Les dossiers des enregistrements de caractéristiques stockent et vous aident à
 
 ## Objectif des dossiers d&#39;Enregistrement de caractéristiques
 
-Dans [!UICONTROL Trait Builder], les dossiers d’enregistrement de caractéristiques sont des répertoires qui contiennent et organisent les caractéristiques en groupes logiques que vous créez. Accédez aux dossiers d’enregistrement à partir du [!UICONTROL Traits] tableau de bord ou lors de la création d’une nouvelle caractéristique. N’oubliez pas que vous ne pouvez pas créer une nouvelle caractéristique sans l’affecter à un dossier d’enregistrement.
+Dans [!UICONTROL Trait Builder], les dossiers d’enregistrement de caractéristiques sont des répertoires qui contiennent et organisent les caractéristiques en groupes logiques que vous créez. Accédez aux dossiers d&#39;enregistrement à partir du tableau de bord [!UICONTROL Traits] ou lors de la création d&#39;une nouvelle caractéristique. N’oubliez pas que vous ne pouvez pas créer une nouvelle caractéristique sans l’affecter à un dossier d’enregistrement.
 
 ![](assets/tb_storage.png)
 
@@ -33,15 +33,15 @@ Cette procédure décrit la création d’un dossier d’enregistrements pour vo
 
 <!-- t_tb_create_storage.xml -->
 
-Vous pouvez créer un dossier d’enregistrement dans la [!UICONTROL Basic Information] section lors de la configuration d’une nouvelle caractéristique. En outre, les dossiers peuvent être créés dans [!UICONTROL Trait Storage] la section du tableau de bord de [!UICONTROL Traits] liste principal.
+Vous pouvez créer un dossier d&#39;enregistrement dans la section [!UICONTROL Basic Information] lors de la configuration d&#39;une nouvelle caractéristique. En outre, les dossiers peuvent être créés dans la section [!UICONTROL Trait Storage] du tableau de bord de liste principal [!UICONTROL Traits].
 
 Pour créer un dossier d&#39;enregistrement :
 
-1. Dans la [!UICONTROL Trait Storage] fenêtre, passez la souris sur :
+1. Dans la fenêtre [!UICONTROL Trait Storage], passez la souris sur :
    * **[!UICONTROL All Traits]** pour ajouter un nouveau dossier de niveau racine.
-   * Un dossier parent existant pour ajouter un nouveau dossier subordonné.
+   * Un dossier parent existant pour ajouter un nouveau dossier Secondaire.
 1. Cliquez sur l’icône + pour créer le dossier.
-1. Nommez le dossier, puis cliquez sur **[!UICONTROL Save]**.
+1. Nommez le dossier et cliquez sur **[!UICONTROL Save]**.
 
 ## Renommer ou supprimer un dossier d&#39;Enregistrement de caractéristiques {#rename-delete-trait-storage-folder}
 
@@ -49,7 +49,7 @@ Cette procédure décrit comment renommer ou supprimer un dossier d&#39;enregist
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-Vous pouvez renommer ou supprimer des dossiers d&#39;enregistrement de la [!UICONTROL Trait Storage] section du tableau de bord de [!UICONTROL Traits] liste principal.
+Vous pouvez renommer ou supprimer des dossiers d&#39;enregistrement de la section [!UICONTROL Trait Storage] du tableau de bord de liste principal [!UICONTROL Traits].
 
 * Renommez un dossier en le survolant et en cliquant sur l’icône représentant un crayon.
-* Supprimez un dossier en le survolant et en cliquant sur l’icône **X** .
+* Supprimez un dossier en le survolant et en cliquant sur l&#39;icône **X**.
