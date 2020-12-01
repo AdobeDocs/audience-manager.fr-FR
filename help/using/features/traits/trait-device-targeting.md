@@ -19,15 +19,15 @@ ht-degree: 9%
 
 Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
 
-## Objectif des variables de niveau Platform {#platform-variables}
+## Objet des variables au niveau de la plate-forme {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Les variables de niveau Platform vous permettent de prendre les données transmises à partir d’un site particulier et de les rendre disponibles pour le ciblage sur toutes les propriétés de votre [!DNL Audience Manager] compte. Ces variables sont formées par des paires [](../../reference/key-value-pairs-explained.md) clé-valeur avec la clé préfixe par `d_` , comme illustré ci-dessous.
+Les variables au niveau de la plate-forme vous permettent de prendre les données transmises à partir d&#39;un site particulier et de les rendre disponibles pour le ciblage sur toutes les propriétés de votre compte [!DNL Audience Manager]. Ces variables sont formées par des paires [clé-valeur](../../reference/key-value-pairs-explained.md) avec la clé précédée de `d_` comme indiqué ci-dessous.
 
-## Clés de niveau Platform définies par l&#39;agent utilisateur {#keys-user-agent}
+## Clés de niveau plate-forme définies par l&#39;agent utilisateur {#keys-user-agent}
 
-L’ [!UICONTROL Data Collection Servers] utilisateur extrait les valeurs de ces clés de l’en-tête [de l’agent](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) utilisateur dans `HTTP` les requêtes. Les valeurs représentent des informations au niveau du périphérique provenant de la [!UICONTROL Device Atlas] base de données. Les signaux du tableau ci-dessous sont disponibles, comme extrait de l&#39;exemple de l&#39;agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv)les plus courantes, selon [!UICONTROL Device Atlas] les mesures.
+[!UICONTROL Data Collection Servers] extrait les valeurs de ces clés de l&#39;en-tête de l&#39;agent utilisateur [](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) dans les requêtes `HTTP`. Les valeurs représentent des informations au niveau du périphérique provenant de la base de données [!UICONTROL Device Atlas]. Les signaux du tableau ci-dessous sont disponibles, comme extrait de l&#39;exemple de l&#39;agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv) les plus courantes, selon  [!UICONTROL Device Atlas] les mesures.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -45,7 +45,7 @@ L’ [!UICONTROL Data Collection Servers] utilisateur extrait les valeurs de ces
 
 >[!NOTE]
 >
->Même si un ou plusieurs signaux ne peuvent pas être extraits de l&#39;en-tête de l&#39;agent utilisateur, les autres signaux seront toujours transmis à l&#39; [!UICONTROL Data Collection Servers]utilisateur.
+>Même si un ou plusieurs signaux ne peuvent pas être extraits de l&#39;en-tête de l&#39;agent utilisateur, les autres signaux seront toujours transmis à [!UICONTROL Data Collection Servers].
 
 >[!MORELIKETHIS]
 >
