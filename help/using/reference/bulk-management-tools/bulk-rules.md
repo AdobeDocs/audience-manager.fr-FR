@@ -27,17 +27,17 @@ Les feuilles de calcul de création et de mise à jour acceptent un en-tête tra
 
 >[!NOTE]
 >
->[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
+>[Les ](../../features/administration/administration-overview.md) autorisations de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le  [!UICONTROL Bulk Management Tools].
 
 ## Utilisation des règles de caractéristiques {#trait-rules}
 
 Dans votre feuille de calcul, la colonne de règle de caractéristique renvoie et accepte des règles composées d’expressions booléennes, d’opérateurs de comparaison et d’expressions régulières. Vous pouvez créer des règles avec le créateur de caractéristiques ou de segments dans [!DNL Audience Manager] et les copier dans votre feuille de calcul. Ou, si vous connaissez la syntaxe des règles, vous pouvez écrire des expressions directement dans les feuilles de calcul.
 
-## Exemple de créateur de règles {#rule-builder-example}
+## Exemple du créateur de règles {#rule-builder-example}
 
-Examinons un exemple qui montre comment utiliser [!UICONTROL Segment Builder] pour créer une règle que vous pouvez afficher dans la feuille de calcul en masse. Cependant, il ne s&#39;agit pas d&#39;un ensemble d&#39;instructions étape par étape pour ces outils. Au lieu de cela, nous allons nous mettre en début avec une règle simple qui a déjà été créée. Pour plus d’informations sur l’utilisation des créateurs de règles, voir Créateur [de](../../features/segments/segment-builder.md) segments et Créateur de [caractéristiques](../../features/traits/about-trait-builder.md).
+Examinons un exemple qui montre comment utiliser [!UICONTROL Segment Builder] pour créer une règle que vous pouvez afficher dans la feuille de calcul en masse. Cependant, il ne s&#39;agit pas d&#39;un ensemble d&#39;instructions étape par étape pour ces outils. Au lieu de cela, nous allons nous mettre en début avec une règle simple qui a déjà été créée. Pour savoir comment utiliser les créateurs de règles, voir [Créateur de segments](../../features/segments/segment-builder.md) et [Créateur de caractéristiques](../../features/traits/about-trait-builder.md).
 
-Avec le créateur de règles visuel, nous avons créé une règle de segment avec 3 caractéristiques et un opérateur booléen [!UICONTROL AND] .
+Avec le créateur de règles visuel, nous avons créé une règle de segment avec 3 caractéristiques et un opérateur booléen [!UICONTROL AND].
 
 ![](assets/visualrule.png)
 
@@ -49,7 +49,7 @@ Cliquez sur **[!UICONTROL Code View]** pour obtenir la version textuelle de cett
 
 ![](assets/coderule.png)
 
-Collez la règle dans la [!UICONTROL Bulk Management Tools] feuille de calcul et validez vos modifications pour mettre à jour les règles de segment en bloc.
+Collez la règle dans la feuille de calcul [!UICONTROL Bulk Management Tools] et validez vos modifications pour mettre à jour les règles de segment en bloc.
 
 ![](assets/segmentrule.png)
 
