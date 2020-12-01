@@ -1,6 +1,6 @@
 ---
-description: Un fichier de données contient des données d’impression, de clic ou de conversion que vous pouvez utiliser dans les rapports Optimisation des Audiences et pour les fichiers journaux utilisables. Un fichier de métadonnées contient des noms lisibles qui correspondent à diverses options de rapport et options de menu. Mettez en forme vos fichiers de données et de métadonnées selon les spécifications de cette section.
-seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion que vous pouvez utiliser dans les rapports Optimisation des Audiences et pour les fichiers journaux utilisables. Un fichier de métadonnées contient des noms lisibles qui correspondent à diverses options de rapport et options de menu. Mettez en forme vos fichiers de données et de métadonnées selon les spécifications de cette section.
+description: Un fichier de données contient des données d’impression, de clic ou de conversion que vous pouvez utiliser dans les rapports d’Audience Optimization et pour les fichiers journaux utilisables. Un fichier de métadonnées contient des noms lisibles qui correspondent à diverses options de rapport et options de menu. Mettez en forme vos fichiers de données et de métadonnées selon les spécifications de cette section.
+seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion que vous pouvez utiliser dans les rapports d’Audience Optimization et pour les fichiers journaux utilisables. Un fichier de métadonnées contient des noms lisibles qui correspondent à diverses options de rapport et options de menu. Mettez en forme vos fichiers de données et de métadonnées selon les spécifications de cette section.
 seo-title: Fichiers de données et de métadonnées journaux
 solution: Audience Manager
 title: Fichiers de données et de métadonnées journaux
@@ -26,7 +26,7 @@ Un fichier de métadonnées contient des noms lisibles qui correspondent à dive
 
 >[!IMPORTANT]
 >
->Pour utiliser des fichiers de métadonnées, vos appels de événement doivent inclure *tous les* paramètres répertoriés dans la section [Présentation et mappages](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) .
+>Pour utiliser des fichiers de métadonnées, vos appels de événement doivent inclure *tous* des paramètres répertoriés dans la section [présentation et mappages](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 * [Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Présentation et correspondances des fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
