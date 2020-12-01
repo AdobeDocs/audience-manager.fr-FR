@@ -19,19 +19,19 @@ ht-degree: 6%
 
 Les fichiers de contrôle de transfert ([!DNL .info]) fournissent des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement les transferts de fichiers.
 
-[!DNL Audience Manager] envoie un fichier de contrôle de transfert à un partenaire avec chaque transfert de fichier. En raison de la nature multi-thread de l’ [!DNL FTP] éditeur, le fichier de contrôle de transfert peut être envoyé avant que les fichiers réels ne soient transférés.
+[!DNL Audience Manager] envoie un fichier de contrôle de transfert à un partenaire avec chaque transfert de fichier. En raison de la nature multi-thread de l&#39;éditeur [!DNL FTP], le fichier de contrôle de transfert peut être envoyé avant que les fichiers réels ne soient transférés.
 
-Les métadonnées du [!DNL .info] fichier permettent aux partenaires :
+Les métadonnées du fichier [!DNL .info] permettent aux partenaires :
 
 * déterminer à quel moment un cycle de transfert complet est achevé (le nombre total de fichiers dans la séquence a été livré);
 * déterminer si un fichier donné dans la séquence est complet/correct (en examinant la taille du fichier en octets et le nombre total de lignes);
 * Validez le nombre de lignes dans les fichiers bruts par rapport au nombre de lignes après le chargement des fichiers dans la base de données du côté de réception (taille du fichier dans les lignes).
 
-## Conventions de dénomination des fichiers {#file-naming-conventions}
+## Conventions d&#39;appellation des fichiers {#file-naming-conventions}
 
-Le fichier de contrôle de transfert porte le même nom que la racine du lot/de la séquence avec une extension de [!DNL .info] fichier.s
+Le fichier de contrôle de transfert porte le même nom que la racine du lot/de la séquence avec une extension de fichier [!DNL .info].
 
-Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12345_67890_full_1500727351632-1.sync], le fichier de contrôle sera nommé [!DNL ftp_12345_67890_iter_1500727351632.info].
+Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12345_67890_full_1500727351632-1.sync], le fichier de contrôle serait nommé [!DNL ftp_12345_67890_iter_1500727351632.info].
 
 ## Format du fichier {#file-format}
 
@@ -78,7 +78,7 @@ Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12
 
 >[!NOTE]
 >
-> Les numéros totaux du lot sont exclusifs du [!DNL .info] fichier lui-même. En d’autres termes, les totaux n’incluent pas le [!DNL .info] fichier, sa taille d’octet ou son nombre de lignes.
+> Les numéros totaux du lot sont exclus du fichier [!DNL .info] lui-même. En d’autres termes, les totaux n’incluent pas le fichier [!DNL .info], sa taille d’octet ou son nombre de lignes.
 >
 > Les tailles en octets des fichiers et le nombre de lignes incluent tous les en-têtes et les rangées d’espacement (vierges). Pour obtenir le nombre de lignes/lignes de données réelles, soustrayez les en-têtes.
 >
