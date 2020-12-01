@@ -1,6 +1,6 @@
 ---
-description: Recommandations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut Adobe Experience Cloud Device Co-op et d’autres intégrations qu’Adobe possède avec des sociétés de graphiques de périphériques déterministes ou probabilistes tierces.
-seo-description: Recommandations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut Adobe Experience Cloud Device Co-op et d’autres intégrations qu’Adobe possède avec des sociétés de graphiques de périphériques déterministes ou probabilistes tierces.
+description: Recommendations et utilisation de cas pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut le Adobe Experience Cloud Device Co-op et d'autres Adobes d'intégration avec des sociétés de graphiques de dispositifs déterministes ou probabilistes tierces.
+seo-description: Recommendations et utilisation de cas pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut le Adobe Experience Cloud Device Co-op et d'autres Adobes d'intégration avec des sociétés de graphiques de dispositifs déterministes ou probabilistes tierces.
 seo-title: Cas d’utilisation des représentations graphiques externes des appareils
 solution: Audience Manager
 title: Cas d’utilisation des représentations graphiques externes des appareils
@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # Cas d’utilisation des représentations graphiques externes des appareils {#external-device-graph-use-cases}
 
-Recommandations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut les [!DNL Adobe Experience Cloud Device Co-op] intégrations d&#39;Adobe avec des sociétés de graphiques de dispositifs déterministes ou probabilistes tierces.
+Recommendations et utilisation de cas pour la prospection, le reciblage et la personnalisation pour les utilisateurs inconnus avec un graphique de périphérique externe. Un graphique de périphérique externe est défini comme un graphique de périphérique distinct de l’Audience Manager. Cela inclut l&#39;Adobe [!DNL Adobe Experience Cloud Device Co-op] et d&#39;autres intégrations avec des sociétés de graphiques de dispositifs déterministes ou probabilistes tierces.
 
 ## Recommandations {#recommendations}
 
-Tenez compte des options de graphique de périphériques [!DNL Experience Cloud Device Co-op] et tiers pour les campagnes qui :
+Examinez les options [!DNL Experience Cloud Device Co-op] et les options de graphique de périphérique tiers pour les campagnes qui :
 
-* Posséder un faible niveau d’authentification sur l’ensemble de leurs propriétés numériques. Utilisez le [!UICONTROL Profile Link Device Graph option] si vous avez un grand nombre d’utilisateurs authentifiés.
-* Cible de grandes audiences. Les graphiques des périphériques [!DNL Experience Cloud Device Co-op] et tiers contiennent des données authentifiées et non authentifiées.
+* Posséder un faible niveau d’authentification sur l’ensemble de leurs propriétés numériques. Utilisez [!UICONTROL Profile Link Device Graph option] si vous avez un grand nombre d’utilisateurs authentifiés.
+* Cible de grandes audiences. Les graphiques [!DNL Experience Cloud Device Co-op] et de périphériques tiers contiennent des données authentifiées et non authentifiées.
 * Segmenter les visiteurs authentifiés et/ou non authentifiés au niveau individuel et familial.
 
 ![](assets/merge-rule-triangle1.png)
@@ -99,11 +99,11 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 ## Ciblage étendu des périphériques {#audience-expansion}
 
-Ce cas d’utilisation illustre comment vous pouvez augmenter la taille de votre audience adressable grâce à une personnalisation inter-périphériques précise, par le biais du [!DNL Adobe Co-Op Device Graph] ou d’un autre [!DNL External Device Graphs].
+Ce cas d&#39;utilisation illustre comment vous pouvez augmenter la taille de votre audience adressable avec une personnalisation inter-périphériques précise, via [!DNL Adobe Co-Op Device Graph] ou autre [!DNL External Device Graphs].
 
 Disons que Jane possède trois appareils qu&#39;elle utilise régulièrement pour rechercher des forfaits vacances : son ordinateur portable ([!DNL Device 1]), son smartphone ([!DNL Device 2]) et sa tablette ([!DNL Device 3]). En utilisant l&#39;ordinateur portable, Jane a recherché des vols, des hôtels et des visites guidées. En utilisant son smartphone et sa tablette, elle n&#39;a visité que la page d&#39;accueil de l&#39;agence de voyages.
 
-En utilisant la règle [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] , l&#39;agence de voyages peut fusionner les trois profils de périphériques, puisqu&#39;ils sont liés au même propriétaire par le biais de la [!UICONTROL Adobe Co-op Device Graph].
+En utilisant la règle [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph], l&#39;agence de voyages peut fusionner les trois profils de périphériques, puisqu&#39;ils sont liés au même propriétaire par l&#39;intermédiaire de [!UICONTROL Adobe Co-op Device Graph].
 
 ![audience-expansion-règle](assets/audience-expansion-rule.png)
 
@@ -115,15 +115,15 @@ Grâce à cette règle, le graphique de périphériques a augmenté le nombre de
 
 ## Ciblage avancé sur plusieurs périphériques {#advanced-graph-expansion}
 
-Ce cas d’utilisation montre comment développer le ciblage des audiences pour les visiteurs authentifiés à l’aide de périphériques à partir d’un graphique de périphérique externe ou à partir du [!DNL Adobe Co-Op Device Graph], à l’aide de la **[!UICONTROL Last Authenticated Profiles]** règle + **[!UICONTROL Adobe Co-Op Device Graph]** .
+Ce cas d’utilisation montre comment développer le ciblage des audiences pour les visiteurs authentifiés à l’aide de périphériques à partir d’un graphique de périphérique externe ou de [!DNL Adobe Co-Op Device Graph], en utilisant la règle **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**.
 
 ![dernier-dispositif-graphique](assets/last-device-coop.png)
 
-Dans l&#39;exemple ci-dessous, la société Acme Inc. veut cible tous les ménages dont le revenu est supérieur à 100 000 $ par année, qui ont [!DNL Acme Inc.] des abonnés [!DNL Data Plan A], qui utilisent un [!DNL iPhone 7] appareil.
+Dans l&#39;exemple ci-dessous, la société Acme Inc. veut cible à tous les ménages ayant un revenu supérieur à 100 000 $ par année, qui ont [!DNL Acme Inc.] abonnés sur [!DNL Data Plan A], qui utilisent un dispositif [!DNL iPhone 7].
 
-John utilise son iPhone 7 sur le plan de données A pour s’authentifier sur le site Web d’Acme Inc. Dans le même temps, la grappe [!DNL Co-Op Device Graph] de John contient deux appareils supplémentaires qu&#39;il utilise régulièrement : son ordinateur portable ([!DNL Device 1]) et son smartphone secondaire [!DNL Device 2] (un [!DNL Samsung S7] sur [!DNL Data Plan B]).
+John utilise son iPhone 7 sur le plan de données A pour s’authentifier sur le site Web d’Acme Inc. Dans le même temps, la grappe [!DNL Co-Op Device Graph] de John contient deux périphériques supplémentaires qu&#39;il utilise régulièrement : son ordinateur portable ([!DNL Device 1]) et son smartphone secondaire, [!DNL Device 2] (a [!DNL Samsung S7] sur [!DNL Data Plan B]).
 
-En utilisant le **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, [!DNL Acme Inc.] peut diffuser des messages personnalisés sur les trois périphériques à partir de la grappe graphique de périphériques de John, même si un seul d&#39;entre eux est initialement admissible pour le segment.
+En utilisant **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, [!DNL Acme Inc.] est en mesure de fournir des messages personnalisés aux trois périphériques à partir du cluster graphique de John, même si l&#39;un d&#39;eux seulement est initialement admissible pour le segment.
 
 ![expansion-graphique avancée](assets/advanced-device-graph-expansion.png)
 
@@ -131,5 +131,5 @@ En utilisant le **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Ado
 >
 >* [Cas d’utilisation des représentations graphiques des appareils Profile Link](profile-link-use-case.md)
 >* [Cas d’utilisation généraux des stratégies de fusion de profils](merge-rule-targeting-options.md)
->* [FAQ sur les règles de fusion de Profils](../../faq/faq-profile-merge.md)
+>* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
 
