@@ -21,9 +21,9 @@ Méthodes de gestion des domaines qui vous permettent de créer et de gérer les
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#create-new-domain}
+## Créer un nouveau domaine {#create-new-domain}
 
-Méthode `POST` permettant de créer un nouveau domaine pour (destinations de cookies uniquement).
+Méthode `POST` qui vous permet de créer un nouveau domaine pour (destinations de cookies uniquement).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -41,7 +41,7 @@ Méthode `POST` permettant de créer un nouveau domaine pour (destinations de co
 
 ### Réponse
 
-Une réponse positive est renvoyée `201 created` et le site partenaire, y compris son identifiant unique.
+Une réponse réussie renvoie `201 created` et le site partenaire, y compris son identifiant unique.
 
 ```
 {
@@ -51,9 +51,9 @@ Une réponse positive est renvoyée `201 created` et le site partenaire, y compr
 }
 ```
 
-## Suppression d’un domaine {#delete-domain}
+## Supprimer un domaine {#delete-domain}
 
-Méthode `DELETE` permettant de supprimer un domaine (pour les destinations de cookies uniquement).
+Méthode `DELETE` qui vous permet de supprimer un domaine (pour les destinations de cookies uniquement).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -63,11 +63,11 @@ Méthode `DELETE` permettant de supprimer un domaine (pour les destinations de c
 
 ### Réponse
 
-Une réponse réussie revient `204 no content`. Renvoie `404 not found` si le site partenaire est introuvable.
+Une réponse réussie renvoie `204 no content`. Renvoie `404 not found` si le site partenaire est introuvable.
 
-## Propriétés de retour pour un domaine {#return-props-domain}
+## Propriétés renvoyées pour un domaine {#return-props-domain}
 
-Méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les destinations de cookies uniquement).
+Méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les destinations de cookie uniquement).
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +77,7 @@ Méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les dest
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` des données comme le montre l&#39;exemple ci-dessous. Renvoie `404 Not found` si l&#39;identifiant ou le partenaire du site est introuvable.
+Une réponse réussie renvoie `200 OK` et des données comme indiqué dans l&#39;exemple ci-dessous. Renvoie `404 Not found` si l&#39;ID de site ou le partenaire est introuvable.
 
 ```
 {
@@ -99,7 +99,7 @@ Méthode `GET` qui renvoie des informations sur tous vos domaines (pour les dest
 
 ### Paramètres de Requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] des méthodes qui renvoient *toutes les* propriétés d’un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à la [!DNL API]. Voir Paramètres [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)facultatifs.
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes [!DNL API] qui renvoient les propriétés *all* pour un objet. Définissez ces options dans la chaîne de requête lorsque vous transmettez cette requête à [!DNL API]. Voir [Paramètres facultatifs](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -111,7 +111,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] des méthodes q
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Renvoie les résultats par numéro de page. débuts de numérotation à 0. </td> 
+   <td colname="col2"> Renvoie les résultats par numéro de page. Débuts de numérotation à 0. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
@@ -134,7 +134,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] des méthodes q
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et des données dans un tableau, comme le montre l&#39;exemple ci-dessous. Renvoie `404 Not found` si l&#39;identifiant ou le partenaire du site est introuvable.
+Une réponse réussie renvoie `200 OK` et des données dans un tableau, comme indiqué dans l&#39;exemple ci-dessous. Renvoie `404 Not found` si l&#39;ID de site ou le partenaire est introuvable.
 
 ```
 [
