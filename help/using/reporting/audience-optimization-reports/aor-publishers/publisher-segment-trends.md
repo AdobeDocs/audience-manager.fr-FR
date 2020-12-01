@@ -25,31 +25,31 @@ Comparez les tendances et le volume des mesures sélectionnées pour obtenir une
 
 ## Cas d’utilisation {#use-cases}
 
-Utilisez le [!UICONTROL Segment Trend] rapport pour valider les performances d’un segment au fil du temps et pour identifier les tendances en fonction de performances ou d’une échelle élevées.
+Utilisez le rapport [!UICONTROL Segment Trend] pour valider les performances d’un segment dans le temps et pour identifier les tendances en fonction de performances ou d’une échelle élevées.
 
-Grâce à ce rapport, vous pouvez déterminer quelles propriétés Web présentent une augmentation de creux ou d’erreurs et résoudre les problèmes si nécessaire. Ce rapport constitue l’étape suivante après avoir identifié votre audience d’intérêt pour le [!UICONTROL Segment Performance] rapport, afin de vous assurer que les performances élevées ou médiocres que vous avez constatées dans l’ [!UICONTROL Segment Performance] onglet sont cohérentes au fil du temps.
+Grâce à ce rapport, vous pouvez déterminer quelles propriétés Web présentent une augmentation de creux ou d’erreurs et résoudre les problèmes si nécessaire. Ce rapport constitue l’étape suivante après avoir identifié votre audience d’intérêt pour le rapport [!UICONTROL Segment Performance], afin de vous assurer que les performances élevées ou médiocres que vous avez constatées dans l’onglet [!UICONTROL Segment Performance] sont cohérentes au fil du temps.
 
 ## Utilisation du rapport de tendance des segments {#using-the-report}
 
-Basculez entre **[!UICONTROL Mapped]** et **[!UICONTROL Unmapped]** pour sélectionner les segments qui sont mappés ou non à une destination. Sélectionnez **[!UICONTROL All]** pour inclure tous vos segments dans le rapport.
+Basculez entre **[!UICONTROL Mapped]** et **[!UICONTROL Unmapped]** pour sélectionner les segments mappés ou non à une destination. Sélectionnez **[!UICONTROL All]** pour inclure tous vos segments dans le rapport.
 
-Réglez la fenêtre de recherche arrière à l’aide du **[!UICONTROL Date Through]** curseur.
+Réglez la fenêtre de recherche arrière à l&#39;aide du curseur **[!UICONTROL Date Through]**.
 
-Cliquez sur l’un des segments sous le **[!UICONTROL Date Through]** curseur pour afficher l’option permettant de conserver ou d’exclure uniquement ce segment dans le rapport.
+Cliquez sur l’un des segments sous le curseur **[!UICONTROL Date Through]** pour afficher l’option permettant de conserver uniquement ce segment dans le rapport ou de l’exclure.
 
-Utilisez la **[!UICONTROL Line Item]** liste déroulante pour sélectionner les propriétés de votre portefeuille pour lesquelles vous souhaitez renvoyer des informations.
+Utilisez la liste déroulante **[!UICONTROL Line Item]** pour sélectionner les propriétés de votre portefeuille pour lesquelles vous souhaitez renvoyer des informations.
 
-Dans la **[!UICONTROL Segment Data Source]** liste déroulante, sélectionnez les sources de données contenant les segments à afficher dans le rapport.
+Dans la liste déroulante **[!UICONTROL Segment Data Source]**, sélectionnez les sources de données contenant les segments à afficher dans le rapport.
 
-Utilisez la **[!UICONTROL Segment]** liste déroulante pour sélectionner les segments à afficher dans le rapport.
+Utilisez la liste déroulante **[!UICONTROL Segment]** pour sélectionner les segments à afficher dans le rapport.
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item] les identifiants, comme décrit à l’étape 3 de l’étape [Importer des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que propriété [!UICONTROL Line Item] et non en tant qu’ [!UICONTROL Line Item] identifiant.
+>Lors de l’activation de [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour les [!UICONTROL Line Item] identifiants, comme décrit à l’étape 3 de [Importer des fichiers de données Google Ad Manager (anciennement DFP) en Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous assurez ainsi que le rapport indique la propriété web sous la forme [!UICONTROL Line Item] au lieu de l&#39;identifiant [!UICONTROL Line Item].
 
 ## Interprétation des résultats {#interpreting-results}
 
-Le [!UICONTROL Segment Trend] rapport renvoie des données sur un graphique linéaire pour un intervalle de 14 jours seulement. Dans cet exemple, le rapport affiche les tendances d’impression et de clics publicitaires pour un ensemble de segments mappés et non mappés.
+Le rapport [!UICONTROL Segment Trend] renvoie des données sur un graphique linéaire pour un intervalle de 14 jours seulement. Dans cet exemple, le rapport affiche les tendances d’impression et de clics publicitaires pour un ensemble de segments mappés et non mappés.
 
 Passez la souris sur une ligne pour obtenir plus d’informations sur cette tendance de segment particulière. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
