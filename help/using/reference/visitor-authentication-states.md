@@ -20,7 +20,7 @@ ht-degree: 5%
 
 L’état d’authentification du visiteur dans l’Audience Manager détermine si les informations de nouvelle caractéristique sont écrites au profil authentifié du visiteur ou au profil du périphérique, à partir duquel les données ont été collectées. L’Audience Manager gère de la même manière les états d’authentification de l’ID de visiteur INCONNU et LOGGED_OUT dans les appels de événement.
 
-À partir de la version 1.5 du service [!DNL Experience Cloud] d’ID, la `setCustomerID` méthode inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur état [d’](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)authentification. [!DNL Audience Manager] gère différemment les caractéristiques réalisées, en fonction de l’état d’authentification transmis dans l’appel et de la règle [de fusion](../features/profile-merge-rules/merge-rules-dashboard.md) de Profil que vous utilisez pour la segmentation.
+À partir de [!DNL Experience Cloud] service d’ID v1.5+, la méthode `setCustomerID` comprend l’objet facultatif `AuthState`. `AuthState` identifie les visiteurs en fonction de leur état [ d’](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)authentification. [!DNL Audience Manager] gère différemment les caractéristiques réalisées, en fonction de l’état d’authentification transmis dans l’appel et de la  [règle de fusion du ](../features/profile-merge-rules/merge-rules-dashboard.md) Profil que vous utilisez pour la segmentation.
 
 ## État de l&#39;authentification : INCONNU {#auth-status-unknown}
 
@@ -28,8 +28,8 @@ L’état d’authentification du visiteur dans l’Audience Manager détermine 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lire</b> les informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Écrire</b> de nouvelles caractéristiques au profil authentifié </p> </th> 
+   <th colname="col2" class="entry"> <p> <b></b> Lecture des informations du profil authentifié </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Nouvelles caractéristiques </b> écrites au profil authentifié </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -54,8 +54,8 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lire</b> les informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Écrire</b> de nouvelles caractéristiques au profil authentifié </p> </th> 
+   <th colname="col2" class="entry"> <p> <b></b> Lecture des informations du profil authentifié </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Nouvelles caractéristiques </b> écrites au profil authentifié </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -80,8 +80,8 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Lire</b> les informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Écrire</b> de nouvelles caractéristiques au profil authentifié </p> </th> 
+   <th colname="col2" class="entry"> <p> <b></b> Lecture des informations du profil authentifié </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Nouvelles caractéristiques </b> écrites au profil authentifié </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 >[!NOTE]
 >
->[!DNL Audience Manager] effectue une synchronisation des identifiants entre [CID et UUID](../reference/ids-in-aam.md) dans les trois cas.
+>[!DNL Audience Manager] effectue une synchronisation des identifiants entre  [CID et ](../reference/ids-in-aam.md) UUID dans les trois cas.
 
 >[!MORELIKETHIS]
 >
