@@ -27,21 +27,21 @@ L’Audience Manager prend également en charge les fichiers non compressés.
 
 >[!IMPORTANT]
 >
->Nous ne prenons pas en charge le chiffrement sur les fichiers entrants compressés à l&#39;aide de gzip (`.gz`).
+>Nous ne prenons pas en charge le chiffrement des fichiers entrants compressés à l&#39;aide de gzip (`.gz`).
 >
->Pour chiffrer et compresser les fichiers entrants, utilisez le chiffrement [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] le chiffrement inclut la compression de fichiers.
+>Pour chiffrer et compresser les fichiers entrants, utilisez [chiffrement PGP](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] le chiffrement inclut la compression de fichiers.
 
-## Compression Amazon S3
+## Amazon S3 - Compression
 
-Pour la diffusion [!DNL Amazon S3], vous devez utiliser `.gz` ou non des fichiers compressés. Les fichiers compressés doivent être de 1 Go ou moins. Si les fichiers sont plus volumineux, discutez du processus de transfert et de traitement des fichiers avec le service d’assistance clientèle. Bien qu’il [!DNL Audience Manager] soit possible de gérer des fichiers très volumineux, il peut être possible de réduire la taille du fichier ou de rendre le transfert des données plus efficace.
+Pour la diffusion à [!DNL Amazon S3], vous devez utiliser des fichiers `.gz` ou non compressés. Les fichiers compressés doivent être de 1 Go ou moins. Si les fichiers sont plus volumineux, discutez du processus de transfert et de traitement des fichiers avec le service d’assistance clientèle. Bien que [!DNL Audience Manager] puisse gérer des fichiers très volumineux, il peut être possible de réduire la taille du fichier ou de rendre le transfert des données plus efficace.
 
 >[!IMPORTANT]
 >
->Votre [!DNL FTP] client doit utiliser le mode binaire pour transférer des fichiers compressés ou chiffrés. Les fichiers compressés ou chiffrés envoyés en [!DNL ASCII] mode corrompent le fichier de transfert de données.
+>Votre client [!DNL FTP] doit utiliser le mode binaire pour transférer des fichiers compressés ou chiffrés. Les fichiers compressés ou chiffrés envoyés en mode [!DNL ASCII] corrompent le fichier de transfert de données.
 
 ## Bonnes pratiques
 
-* Les fichiers doivent être [!DNL .gzip] compressés (et avoir une [!DNL .gz] extension de fichier).
-* La taille maximale de fichier compressé pour un fichier `.gz` compressé est de 1 Go.
+* Les fichiers doivent être [!DNL .gzip] compressés (et avoir une extension de fichier [!DNL .gz]).
+* La taille de fichier compressé maximale pour un fichier compressé `.gz` est de 1 Go.
 * Les tailles de fractionnement optimales, pour le traitement le plus rapide/le plus précoce de vos fichiers, sont d&#39;environ 1 Go décompressés ou de 200 à 300 Mo compressés.
 * [!DNL Amazon S3] impose sa propre limite de 5 Go de taille de fichier aux fichiers téléchargés.
