@@ -260,18 +260,18 @@ Oui. La mesure de population totale de segments inclut les appareils supplément
 
 Non.
 
-**Pourquoi est-ce que je vois une population de segments nulle pour les exportations de segments vers l’Adobe Campaign après le 16 mars 2020 ?**
+**Pourquoi est-ce que je vois une population de segments zéro pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
 
 À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
 
-Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que l’Adobe Campaign, assurez-vous de respecter les exigences suivantes :
+Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que Adobe Campaign, assurez-vous de respecter les exigences suivantes :
 
-1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion des Profils doit utiliser l’ [!UICONTROL Last Authenticated Profile] option, de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
-2. Sélectionnez la source de données d’identifiant déclaré de l’Adobe Campaign dans les paramètres de la règle de fusion de Profils.
+1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion du Profil doit utiliser l&#39;option [!UICONTROL Last Authenticated Profile], de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, passez-la à [!UICONTROL Last Authenticated Profile].
+2. Sélectionnez la source de données d’ID déclarés Adobe Campaign dans les paramètres de la règle de fusion de Profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré de l’Adobe Campaign, sans modifier les règles de fusion de Profil pour les autres cas d’utilisation.
+> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de Profils pour les autres cas d’utilisation.
 
 >[!MORELIKETHIS]
 >
