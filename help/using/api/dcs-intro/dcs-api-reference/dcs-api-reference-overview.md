@@ -1,7 +1,7 @@
 ---
 description: Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus de l’API DCS.
 seo-description: Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus de l’API DCS dans Adobe Audience Manager (AAM).
-seo-title: Présentation de la référence de l’API DCS dans l’Adobe Audience Manager (AAM)
+seo-title: Présentation des références d’API DCS dans Adobe Audience Manager (AAM)
 title: Présentation des références d’API DCS
 feature: DCS
 translation-type: tm+mt
@@ -15,11 +15,11 @@ ht-degree: 13%
 
 # Présentation des références d’API DCS
 
-Informations conceptuelles, descriptions et définitions du [!DNL DCS API] code, des méthodes et des processus.
+Informations conceptuelles, descriptions et définitions pour le code, les méthodes et les processus [!DNL DCS API].
 
 * [Méthodes d’API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Envoyez des données à l’ [!DNL DCS API] aide des méthodes GET ou POST.
+   Envoyez des données à [!DNL DCS API] à l&#39;aide de méthodes de GET ou de POST.
 
 * [Codes, messages et exemples d’erreur des serveurs de collecte de données](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
