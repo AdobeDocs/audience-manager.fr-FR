@@ -21,11 +21,11 @@ Méthodes qui vous permettent de travailler par programmation avec les fonctions
 
 <!-- c_destinations_api.xml -->
 
-En Audience Manager, une destination est tout autre système (serveur publicitaire, [!DNL DSP]réseau publicitaire, échange, cookie propriétaire, etc.) avec lequel vous souhaitez partager des données.
+En Audience Manager, une destination est tout autre système (serveur publicitaire, [!DNL DSP], réseau publicitaire, échange, votre propre cookie propriétaire, etc.) avec lequel vous souhaitez partager des données.
 
 ## Types de destination : URL et cookie {#destination-types}
 
-Liste les variables utilisées par le `destinationType` paramètre. Spécifiez `push` ou `ADS` pour travailler avec un [!UICONTROL URL] ou [!UICONTROL cookie destination]un. Vous ne pouvez pas créer [!UICONTROL server-to-server destinations] avec les méthodes de destination disponibles [!DNL API] .
+Liste les variables utilisées par le paramètre `destinationType`. Spécifiez `push` ou `ADS` pour utiliser [!UICONTROL URL] ou [!UICONTROL cookie destination]. Vous ne pouvez pas créer [!UICONTROL server-to-server destinations] avec les méthodes de destination [!DNL API] disponibles.
 
 <!-- r_destination_types.xml -->
 
