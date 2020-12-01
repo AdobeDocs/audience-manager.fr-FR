@@ -21,7 +21,7 @@ Renvoie des données sur le nombre d’utilisateurs uniques partagés entre une 
 
 >[!NOTE]
 >
->Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous pouvez uniquement afficher les segments et les caractéristiques des sources de données auxquelles vous avez accès en fonction du groupe [d’utilisateurs](/help/using/features/administration/administration-overview.md) RBAC auquel vous appartenez.
+>Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous pouvez uniquement afficher les segments et les caractéristiques des sources de données auxquelles vous avez accès en fonction du [groupe d’utilisateurs RBAC](/help/using/features/administration/administration-overview.md) auquel vous appartenez.
 
 <!-- 
 
@@ -31,11 +31,11 @@ c_segment_trait_overlap.xml
 
 ## Présentation
 
-En tant qu’outil d’optimisation, les [!UICONTROL Segment to Trait Overlap] rapports vous aident à créer des segments très ciblés ou à étendre la portée des segments. Par exemple, vous pouvez créer des segments ciblés et des caractéristiques présentant un chevauchement élevé pour atteindre une audience particulière. Cependant, un grand chevauchement peut signifier moins d&#39;utilisateurs uniques (moins de portée). L’exécution de ce rapport permet d’élargir la portée en supprimant les caractéristiques présentant un fort chevauchement de segments et en les remplaçant par des caractéristiques présentant moins de chevauchement.
+En tant qu&#39;outil d&#39;optimisation, les rapports [!UICONTROL Segment to Trait Overlap] vous aident à créer des segments très ciblés ou à étendre la portée des segments. Par exemple, vous pouvez créer des segments ciblés et des caractéristiques présentant un chevauchement élevé pour atteindre une audience particulière. Cependant, un grand chevauchement peut signifier moins d&#39;utilisateurs uniques (moins de portée). L’exécution de ce rapport permet d’élargir la portée en supprimant les caractéristiques présentant un fort chevauchement de segments et en les remplaçant par des caractéristiques présentant moins de chevauchement.
 
 ### Exemple de rapport
 
-L’illustration suivante présente un aperçu général du [!UICONTROL Segment-to-Trait Overlap] rapport.
+L’illustration suivante présente un aperçu général du rapport [!UICONTROL Segment-to-Trait Overlap].
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -84,7 +84,7 @@ L’examen du chevauchement entre les caractéristiques et les segments peut vou
   </tr> 
   <tr> 
    <td colname="col1"><b>Rechercher des segments inefficaces</b> </td> 
-   <td colname="col2"> <p>Si une caractéristique fait partie d’un groupe <span class="wintitle"> ET</span> dans une définition de segment, les visiteurs uniques qui en ont font partie se trouvent déjà dans le segment et ne peuvent pas être ajoutés au segment. Vous pouvez utiliser ce rapport pour trouver des caractéristiques pertinentes avec un faible chevauchement et les ajouter à la définition de segment, augmentant ainsi la portée de ce pool d’audiences de segment. </p> </td> 
+   <td colname="col2"> <p>Si une caractéristique fait partie d’un groupe <span class="wintitle"> ET</span> dans une définition de segment, les visiteurs uniques qui possèdent cette caractéristique se trouvent déjà dans le segment et ne peuvent pas être ajoutés au segment. Vous pouvez utiliser ce rapport pour trouver des caractéristiques pertinentes avec un faible chevauchement et les ajouter à la définition de segment, augmentant ainsi la portée de ce pool d’audiences de segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +99,7 @@ r_s2t_sliders.xml
 
  -->
 
-Le [!UICONTROL Segment-to-Trait overlap] rapport vous permet d’utiliser deux curseurs pour filtrer les données selon le pourcentage de chevauchement par caractéristique ou segment.
+Le rapport [!UICONTROL Segment-to-Trait overlap] vous permet d’utiliser deux curseurs pour filtrer les données selon le pourcentage de chevauchement par caractéristique ou segment.
 
 * **[!UICONTROL Filter Trait Uniques %:]** Filtres les données en fonction du pourcentage de visiteurs uniques partagés entre la caractéristique et le segment.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtres les données selon le pourcentage de visiteurs uniques qui se partagent entre le segment et la caractéristique.
@@ -113,7 +113,7 @@ Le diagramme suivant illustre la différence entre le pourcentage de caractéris
 
 ![](assets/s2t.png)
 
-## Définition des champs de fenêtre contextuelle de données segment-à-caractéristique {#fields-defined}
+## Champs de fenêtres de données de segment à caractéristique définis {#fields-defined}
 
 Décrit les mesures affichées dans la fenêtre contextuelle lorsque vous cliquez sur un point de données individuel.
 
@@ -123,7 +123,7 @@ r_s2t_data_pop.xml
 
  -->
 
-La fenêtre contextuelle du [!UICONTROL Segment-to-Trait Overlap] rapport contient les mesures ci-dessous. Notez que les mesures uniques du tableau représentent vos utilisateurs ** en temps réel.
+La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contient les mesures ci-dessous. Notez que la mesure unique dans le tableau représente vos *utilisateurs en temps réel*.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -138,7 +138,7 @@ La fenêtre contextuelle du [!UICONTROL Segment-to-Trait Overlap] rapport contie
    <td colname="col2"> ID numérique unique du segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Source de données de caractéristiques </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Source de données de caractéristiques  </span></b> </td> 
    <td colname="col2"> Nom du propriétaire de la caractéristique. </td> 
   </tr> 
   <tr> 
