@@ -23,13 +23,13 @@ Méthodes facultatives qui vous permettent d’attribuer des caractéristiques �
 
 >[!NOTE]
 >
->Les méthodes de type de caractéristique n&#39;attribuent pas de caractéristiques aux catégories utilisées par la taxonomie [](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)commune. Considérez ces étiquettes comme des étiquettes distinctes de la taxonomie commune.
+>Les méthodes de type de caractéristique n&#39;attribuent pas de caractéristiques aux catégories utilisées par la taxonomie [commune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considérez ces étiquettes comme des étiquettes distinctes de la taxonomie commune.
 
-Pour la référence visuelle, [!UICONTROL Trait Types] est un contrôle déroulant situé dans le [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Pour référence visuelle, [!UICONTROL Trait Types] est un contrôle déroulant situé dans [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Créer un nouveau type de caractéristique {#create-trait-type}
 
-Méthode `POST` permettant de créer un nouveau type de caractéristique.
+Méthode `POST` qui vous permet de créer un nouveau type de caractéristique.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
