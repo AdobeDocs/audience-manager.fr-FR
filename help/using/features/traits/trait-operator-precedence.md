@@ -37,7 +37,7 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td colname="col1"> Opérateurs de comparaison </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> Inférieur à, supérieur à, inférieur à/égal à, supérieur à/égal à sont évalués ensuite. </td> 
   </tr> 
   <tr> 
@@ -46,12 +46,12 @@ ht-degree: 13%
    <td colname="col3"> Est égal à, n’est pas égal à sont évalués après les opérateurs précédents. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
+   <td colname="col1">Booléen <span class="wintitle"> ET</span> </td> 
    <td colname="col2"><span class="wintitle"> ET</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
+   <td colname="col1">Booléen <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OU</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
