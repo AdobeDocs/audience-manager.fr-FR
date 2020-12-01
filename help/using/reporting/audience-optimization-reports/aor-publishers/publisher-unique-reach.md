@@ -21,25 +21,25 @@ Le rapport Portée de l’utilisateur unique renvoie des données dans un graphi
 
 ## Cas d’utilisation {#use-cases}
 
-Ce [!UICONTROL Unique User Reach] rapport vous permet d&#39;identifier les propriétés de votre portefeuille qui attirent un grand nombre d&#39;utilisateurs uniques.
+Grâce au rapport [!UICONTROL Unique User Reach], vous pouvez identifier les propriétés de votre portefeuille qui attirent un grand nombre d&#39;utilisateurs uniques.
 
 ## Utilisation du rapport Portée unique {#using-the-report}
 
-Utilisez la **[!UICONTROL Dimension Value]** zone pour sélectionner les unités publicitaires à afficher dans le rapport. Cliquez sur **[!UICONTROL All]** pour afficher toutes vos propriétés dans le graphique à bulles.
+Utilisez la zone **[!UICONTROL Dimension Value]** pour sélectionner les unités publicitaires à afficher dans le rapport. Cliquez sur **[!UICONTROL All]** pour afficher toutes vos propriétés dans le graphique à bulles.
 
-Utilisez les commandes Plage **de** jour et **Date jusqu’au début** pour ajuster la plage de recherche en amont.
+Utilisez les commandes **Plage de jour** et **Date jusqu&#39;à** pour ajuster la plage de recherche en amont.
 
 ## Interprétation des résultats {#interpreting-results}
 
 **Exemple de rapport**
 
-Votre [!UICONTROL Unique User Reach] rapport peut ressembler à celui qui suit. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes. Voir la description des informations supplémentaires dans le tableau ci-dessous.
+Votre rapport [!UICONTROL Unique User Reach] peut ressembler à celui ci-dessous. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Élément | Description |
 |--- |--- |
-| Valeur de dimension | Nom de la propriété web. |
-| Type de dimension | Type de dimension d’éditeur. Actuellement, nous ne prenons en charge que les unités publicitaires en tant que type de dimension. |
+| Valeur de Dimension | Nom de la propriété web. |
+| Type de Dimension | Type de dimension d’éditeur. Actuellement, nous ne prenons en charge que les unités publicitaires en tant que type de dimension. |
 | Impressions | Nombre d’impressions qui ont été diffusées pour votre propriété Web au sein de la plage d’analyses précédente spécifiée. |
 | Portée unique | Nombre unique d’utilisateurs atteints par les impressions sur vos propriétés Web. |
