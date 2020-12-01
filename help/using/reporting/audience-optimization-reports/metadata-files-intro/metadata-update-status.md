@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Mises à jour d’état des fichiers de métadonnées{#status-updates-for-metadata-files}
 
-Le répertoire d’état S3 contient un `.info` fichier contenant des informations de réussite et d’échec sur vos fichiers téléchargés. Le fichier contient des données au format JSON avec des résultats d’état dans un tableau.
+Le répertoire d’état S3 contient un fichier `.info` contenant des informations de réussite et d’échec sur vos fichiers téléchargés. Le fichier contient des données au format JSON avec des résultats d’état dans un tableau.
 
-Le contenu de votre `.info` fichier ressemblera à cet exemple.
+Le contenu de votre fichier `.info` ressemblera à celui de cet exemple.
 
 ```js
 //sample file path
@@ -60,9 +60,9 @@ Le contenu de votre `.info` fichier ressemblera à cet exemple.
 }
 ```
 
-## Définition des paires clé-valeur des métadonnées {#key-value-pairs}
+## Définition de paires clé-valeur des métadonnées {#key-value-pairs}
 
-Les tableaux suivants liste et définissent les clés des sections `Files` et `Summary` des sections d’un fichier d’état de métadonnées.
+Les tableaux suivants liste et définissent les clés des sections `Files` et `Summary` d&#39;un fichier d&#39;état de métadonnées.
 
 **Raccourcis clavier dans le tableau Fichiers**
 
@@ -84,19 +84,19 @@ Les tableaux suivants liste et définissent les clés des sections `Files` et `S
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Somme de contrôle MD 5 pour le fichier de métadonnées téléchargé dans votre <code> meta</code> répertoire. </p> </td> 
+   <td colname="col2"> <p>Somme de contrôle MD 5 pour le fichier de métadonnées téléchargé dans votre répertoire <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>nom du fichier de métadonnées téléchargé dans votre <code> meta</code> répertoire. </p> </td> 
+   <td colname="col2"> <p>Nom du fichier de métadonnées téléchargé dans votre répertoire <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID enfant figurant dans le nom de fichier. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID enfant figurant dans le nom de fichier. </p> <p>Voir <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Conventions d’attribution de noms pour les fichiers de métadonnées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’identifiant parent figurant dans le nom de fichier. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’identifiant parent figurant dans le nom de fichier. </p> <p>Voir <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Conventions d’attribution de noms pour les fichiers de métadonnées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -121,7 +121,7 @@ Les tableaux suivants liste et définissent les clés des sections `Files` et `S
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Date de traitement du fichier au <code><i>yyyy-mm-dd</i></code> format. </p> </td> 
+   <td colname="col2"> <p>Date de traitement du fichier au format <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
