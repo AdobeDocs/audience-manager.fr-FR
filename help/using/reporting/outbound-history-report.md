@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Résultat de l’étape](assets/outbound_history.png)
 
-1. Dans la **[!UICONTROL Search for a Destination]** zone, tapez un début et sélectionnez la destination souhaitée.
-1. Dans la **[!UICONTROL Select a Date Range]** zone, indiquez les dates de début et de fin du rapport, puis cliquez sur **[!UICONTROL Apply Date Filter]**.
+1. Dans la zone **[!UICONTROL Search for a Destination]**, saisissez un début et sélectionnez la destination souhaitée.
+1. Dans la zone **[!UICONTROL Select a Date Range]**, indiquez les dates de début et de fin de votre rapport, puis cliquez sur **[!UICONTROL Apply Date Filter]**.
 
    ![Résultat de l’étape](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nom du fichier de synchronisation des données </td> 
-   <td colname="col2"> <p>Liste de tous les fichiers sortants que Adobe <span class="keyword"></span> a générés pour cette destination et qui ont été traités ensemble. </p> </td> 
+   <td colname="col2"> <p>Liste de tous les fichiers sortants générés par <span class="keyword"> Adobe</span> pour cette destination et traités ensemble. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Réussite </td> 
-   <td colname="col2"> <p>Nombre d'enregistrements qui ont été correctement envoyés d' <span class="keyword"> Audience Manager</span> à la destination. </p> </td> 
+   <td colname="col2"> <p>Nombre d'enregistrements qui ont été envoyés avec succès de <span class="keyword"> Audience Manager</span> à la destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Echec </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Enregistrements reçus </td> 
-   <td colname="col2"> <p>Nombre total d'enregistrements <span class="keyword"> Adobe</span> générés dans les fichiers et tentés d'envoyer vers la destination. Dans la plupart des cas, il doit s’agir du nombre total de fichiers réussis et de fichiers ayant échoué. </p> </td> 
+   <td colname="col2"> <p>Nombre total d'enregistrements <span class="keyword"> Adobe</span> générés dans les fichiers et tentant d'envoyer vers la destination. Dans la plupart des cas, il doit s’agir du nombre total de fichiers réussis et de fichiers ayant échoué. </p> </td> 
   </tr> 
  </tbody> 
 </table>
