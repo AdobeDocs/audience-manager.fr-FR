@@ -21,7 +21,7 @@ Renvoie des données sur le nombre d’utilisateurs uniques partagés entre tout
 
 >[!NOTE]
 >
->Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous pouvez uniquement afficher les caractéristiques des sources de données auxquelles vous avez accès en fonction du groupe [d’utilisateurs](/help/using/features/administration/administration-overview.md) RBAC auquel vous appartenez.
+>Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous ne pouvez afficher que les caractéristiques des sources de données auxquelles vous avez accès en fonction du [groupe d’utilisateurs RBAC](/help/using/features/administration/administration-overview.md) auquel vous appartenez.
 
 <!-- 
 
@@ -31,7 +31,7 @@ c_overlap_reports.xml
 
 ## Présentation
 
-Le [!UICONTROL Trait-to-Trait Overlap] rapport renvoie des données sur le pourcentage d&#39;utilisateurs uniques partagés entre vos propres caractéristiques et celles de vos tiers. En tant qu&#39;outil d&#39;optimisation, ce rapport vous aide à :
+Le rapport [!UICONTROL Trait-to-Trait Overlap] renvoie des données sur le pourcentage d&#39;utilisateurs uniques partagés entre vos propres caractéristiques et celles de vos tiers. En tant qu&#39;outil d&#39;optimisation, ce rapport vous aide à :
 
 * Créez des segments présentant un chevauchement élevé ou faible, en fonction de vos besoins. Les caractéristiques avec un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un faible chevauchement peuvent s’avérer utiles pour atteindre un ensemble de visiteurs unique plus grand.
 * Valider les données de caractéristiques tierces : Un fort chevauchement entre des caractéristiques propriétaires et tierces similaires suggère que la caractéristique de votre partenaire de données est précise et fiable. Inversement, un faible chevauchement peut indiquer qu’une caractéristique tierce peut ne pas contenir les mêmes informations que votre propre caractéristique propriétaire similaire.
@@ -39,11 +39,11 @@ Le [!UICONTROL Trait-to-Trait Overlap] rapport renvoie des données sur le pourc
 
 ## Exemple de rapport
 
-L’illustration suivante présente un aperçu général des éléments du [!UICONTROL Trait-to-Trait Overlap] rapport.
+L&#39;illustration suivante présente un aperçu général des éléments du rapport [!UICONTROL Trait-to-Trait Overlap].
 
 >[!NOTE]
 >
->Le [!UICONTROL Trait-to-Trait Overlap] rapport renvoie un champ vide lorsqu&#39;il compare le même trait à lui-même.
+>Le rapport [!UICONTROL Trait-to-Trait Overlap] renvoie un champ vide lorsqu&#39;il compare le même trait à lui-même.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -51,7 +51,7 @@ L’illustration suivante présente un aperçu général des éléments du [!UIC
 
 Sélectionnez un point individuel pour accéder aux détails des données de vue dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
 
-## Définition des champs contextuels de données de chevauchement caractéristiques-caractéristiques {#field-definitions}
+## Champs de la fenêtre contextuelle Données de chevauchement caractéristiques à caractéristiques définis {#field-definitions}
 
 Décrit les mesures affichées dans la fenêtre contextuelle lorsque vous cliquez sur un point de données individuel.
 
@@ -61,7 +61,7 @@ r_t2t_data_pop.xml
 
  -->
 
-La fenêtre contextuelle du [!UICONTROL Trait-to-Trait Overlap] rapport contient les mesures ci-dessous. Notez que les mesures uniques du tableau représentent vos utilisateurs ** en temps réel.
+La fenêtre contextuelle du rapport [!UICONTROL Trait-to-Trait Overlap] contient les mesures ci-dessous. Notez que la mesure unique dans le tableau représente vos *utilisateurs en temps réel*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
