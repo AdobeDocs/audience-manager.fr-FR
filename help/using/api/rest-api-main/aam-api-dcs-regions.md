@@ -17,15 +17,15 @@ ht-degree: 14%
 
 # Méthodes d’API de région DCS {#dcs-region-api-methods}
 
-Méthodes qui vous permettent d’liste par programmation [!DNL DCS] des régions d’Audience Manager.
+Méthodes qui vous permettent d’liste par programmation des régions [!DNL DCS] d’Audience Manager.
 
 <!-- c_rest_api_regions.xml -->
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Pour une liste des régions et de leurs entiers correspondants, voir [Identifiants de région DCS, Emplacements et Noms d&#39;hôtes](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Liste d’une région DCS spécifique {#list-specific-dcs-region}
+## Liste d&#39;une région spécifique du serveur de collecte de données {#list-specific-dcs-region}
 
-Méthode `GET` de liste d’une [!DNL DCS] région spécifique.
+Méthode `GET` permettant de liste une région [!DNL DCS] spécifique.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,11 +51,11 @@ Méthode `GET` de liste d’une [!DNL DCS] région spécifique.
 
 Renvoie `200 OK` en cas de réussite.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Pour une liste des régions et de leurs entiers correspondants, voir [Identifiants de région DCS, Emplacements et Noms d&#39;hôtes](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Régions DCS Liste {#list-dcs-regions}
+## Régions DCS de liste {#list-dcs-regions}
 
-Méthode `GET` de liste des [!DNL DCS] régions.
+Une méthode `GET` à des régions [!DNL DCS] de liste.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -84,4 +84,4 @@ Méthode `GET` de liste des [!DNL DCS] régions.
 
 Renvoie `200 OK` en cas de réussite.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Pour une liste des régions et de leurs entiers correspondants, voir [Identifiants de région DCS, Emplacements et Noms d&#39;hôtes](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
