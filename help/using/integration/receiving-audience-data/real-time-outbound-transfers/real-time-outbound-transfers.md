@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Transferts de données sortantes en temps réel {#real-time-outbound-data-transfers}
 
-Le processus de transfert de données en temps réel sortant fournit des données utilisateur sous la forme d’une série de messages [!DNL JSON] formatés à une plateforme de destination.
+Le processus de transfert de données en temps réel sortant fournit des données utilisateur sous la forme d&#39;une série de [!DNL JSON] messages formatés à une plateforme de destination.
 
 <!-- c_outbound_json.xml -->
 
@@ -25,9 +25,9 @@ Le processus de transfert de données en temps réel sortant fournit des donnée
 
 Pour utiliser cette méthode, la plate-forme de destination doit répondre aux exigences suivantes :
 
-* Il doit fournir un point de terminaison [!DNL URL] pouvant être mis à l&#39;échelle pour recevoir un volume élevé de messages d&#39;Audience Manager ;
-* Il doit accepter les données au [!DNL JSON] format (`Content-type: application/json`);
-* Il doit accepter `HTTPS` des transferts de données sécurisés. [!DNL Audience Manager] n&#39;enverra pas de messages via le `HTTP` protocole non sécurisé.
+* Il doit fournir un point de terminaison [!DNL URL] pouvant être mis à l&#39;échelle pour recevoir un volume élevé de messages de l&#39;Audience Manager ;
+* Il doit accepter les données au format [!DNL JSON] (`Content-type: application/json`);
+* Il doit accepter des transferts de données sécurisés `HTTPS`. [!DNL Audience Manager] n&#39;enverra pas de messages via le  `HTTP` protocole non sécurisé.
 
 ## Fréquence
 
@@ -43,11 +43,11 @@ Aucune limite de débit n&#39;est fixée pour le débit des messages diffusés. 
 
 ## Réponses requises
 
-Par défaut, le serveur destinataire doit renvoyer le `200 OK` code pour indiquer la réception réussie. Les autres codes seront interprétés comme des échecs. Cette réponse est attendue dans les 3 000 millisecondes. En cas d’échec, [!DNL Audience Manager] une seule tentative de réessai est effectuée.
+Par défaut, le serveur de destinataires doit renvoyer le code `200 OK` pour indiquer la réception réussie. Les autres codes seront interprétés comme des échecs. Cette réponse est attendue dans les 3 000 millisecondes. En réponse à un échec, [!DNL Audience Manager] effectue une seule tentative de nouvelle tentative.
 
 ## Paramètres
 
-Le tableau suivant définit les éléments du fichier de [!DNL JSON] données que vous envoyez à la destination.
+Le tableau suivant définit les éléments du fichier de données [!DNL JSON] que vous envoyez à la destination.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -86,7 +86,7 @@ Le tableau suivant définit les éléments du fichier de [!DNL JSON] données qu
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
-   <td colname="col3"> <p>Nombre total d’utilisateurs dans la <code> POST</code> requête. </p> </td> 
+   <td colname="col3"> <p>Nombre total d’utilisateurs dans la requête <code> POST</code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -96,7 +96,7 @@ Le tableau suivant définit les éléments du fichier de [!DNL JSON] données qu
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>UUID <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>L'Audience Manager <span class="keyword"> </span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -106,7 +106,7 @@ Le tableau suivant définit les éléments du fichier de [!DNL JSON] données qu
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Tableau </td> 
-   <td colname="col3"> Identifiant de région <span class="keyword"> d'Audience Manager</span> où nous avons vu cet appareil. Par exemple, si le périphérique avait une certaine activité à Paris (Europe), l’identifiant de région serait <code> 6</code>celui-ci. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données</a> (DCS Region IDs, Locations, and Host Names). </td> 
+   <td colname="col3"> ID de région <span class="keyword"> Audience Manager</span> où nous avons vu ce périphérique. Par exemple, si le périphérique avait une certaine activité à Paris (Europe), l’identifiant de région serait <code> 6</code>. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données</a> (DCS Region IDs, Locations, and Host Names). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -123,15 +123,15 @@ Le tableau suivant définit les éléments du fichier de [!DNL JSON] données qu
    <td colname="col2"> <p>Entier </p> </td> 
    <td colname="col3"> <p>Définit l’état d’un utilisateur dans le segment. Accepte les valeurs suivantes : </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
-     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>: Actif (par défaut) </li> 
+     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>: Principal (par défaut) </li> 
      <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>: Inactif, désactivé ou non segmenté. </li> 
     </ul> <p>Les utilisateurs ne sont pas segmentés lorsqu’ils sont : </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Supprimé d’un segment en fonction de la règle de segment. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Supprimé d’un segment en fonction de l’intervalle <a href="../../../features/traits/segment-ttl-explained.md"> de</a>durée de vie du segment. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Supprimé d’un segment en fonction de l’<a href="../../../features/traits/segment-ttl-explained.md"> intervalle de temps de vie du segment</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Déplacé vers un état inactif s’ils n’ont pas été vus depuis 120 jours. </li>
-     <li>Supprimé en raison d’une demande de modification de la confidentialité (c.-à-d. <span class="keyword"> RMMD</span>)</li>
-    </ul> <p>Tous les identifiants de partenaire synchronisés avec un ID d’ <span class="keyword"> Audience Manager</span> reçoivent l’ <code> "Status":"0"</code> indicateur lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
+     <li>Supprimé en raison d’une demande de modification de la confidentialité (p. ex. <span class="keyword"> RGMD</span></li>
+    </ul> <p>Tous les identifiants de partenaire synchronisés avec un <span class="keyword"> identifiant d'Audience Manager</span> recevront l'indicateur <code> "Status":"0"</code> lorsqu'un utilisateur n'est pas segmenté. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -143,7 +143,7 @@ Le tableau suivant définit les éléments du fichier de [!DNL JSON] données qu
 
 ## Sécurité
 
-Vous pouvez sécuriser votre processus de transfert de données sortant en temps réel en [signant des requêtes](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) HTTP à l’aide de clés privées ou en vous authentifiant [!DNL Audience Manager] via le protocole [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) .
+Vous pouvez sécuriser votre processus de transfert de données sortant en temps réel en [signant des requêtes HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) à l&#39;aide de clés privées ou en vous authentifiant [!DNL Audience Manager] via le protocole [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
 
 ## Demande
 
