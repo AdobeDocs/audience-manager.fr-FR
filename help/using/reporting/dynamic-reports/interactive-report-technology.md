@@ -27,10 +27,10 @@ c_report_technology.xml
 
 ## Les rapports interactifs utilisent la technologie Tableau
 
-[!DNL Audience Manager] utilise le logiciel [Tableau](https://www.tableausoftware.com/) pour afficher les données dans les rapports interactifs. Avec [!DNL Tableau], les [!UICONTROL Delivery and Overlap] rapports utilisent des repères visuels et des symboles qui vous aident à :
+[!DNL Audience Manager] utilise  [](https://www.tableausoftware.com/) Tableausoftware pour afficher les données dans les rapports interactifs. Avec [!DNL Tableau], les rapports [!UICONTROL Delivery and Overlap] utilisent des indices et des symboles visuels qui vous aident à :
 
 * Trouvez des caractéristiques de performances élevées et faibles.
-* Présente les caractéristiques et les segments avec un chevauchement de visiteurs uniques faible et élevé.
+* Présenter les caractéristiques et les segments avec un chevauchement de visiteurs uniques faible et élevé.
 * Utilisez les données de chevauchement pour créer des segments ciblés.
 * Élargissez la portée en identifiant les caractéristiques apparentées avec un faible chevauchement.
 
@@ -72,8 +72,8 @@ Le tableau suivant définit les formes, tailles et couleurs utilisées dans les 
    <td colname="col1"> <b>Couleurs</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Les tons rouges indiquent un <i>faible</i> chevauchement. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Les tons verts indiquent un <i>fort</i> chevauchement. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Les nuances rouges indiquent un chevauchement <i>faible</i>. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Les tons verts indiquent un chevauchement <i>élevé</i>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -85,4 +85,4 @@ Le tableau suivant définit les formes, tailles et couleurs utilisées dans les 
 
 ## Documentation de Tableau {#tableau-documentation}
 
-Pour en savoir plus sur les contrôles Tableau que vous pouvez voir dans nos rapports interactifs, consultez la documentation officielle de [Tableau Server sous Linux 2018.2.](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Pour en savoir plus sur les contrôles Tableau que vous pouvez voir dans nos rapports interactifs, consultez la documentation officielle de [Tableau Server sous Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm).
