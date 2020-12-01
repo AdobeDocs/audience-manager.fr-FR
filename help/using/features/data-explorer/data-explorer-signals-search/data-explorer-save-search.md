@@ -16,21 +16,21 @@ ht-degree: 4%
 
 # Enregistrement des critères de recherche {#save-search-criteria}
 
-Optimisez les efforts de recherche de signaux en enregistrant jusqu’à 10 jeux de critères de recherche à utiliser chaque fois que vous en avez besoin et en effectuant un suivi sur la page [!UICONTROL Signals Dashboard]. Audience Manager recharge les recherches enregistrées chaque fois que vous chargez le [!UICONTROL Signals Dashboard].
+Optimisez les efforts de recherche de signaux en enregistrant jusqu&#39;à 10 jeux de critères de recherche à utiliser lorsque vous en avez besoin et en effectuant un suivi sur le [!UICONTROL Signals Dashboard]. L&#39;Audience Manager recharge les recherches enregistrées chaque fois que vous chargez le [!UICONTROL Signals Dashboard].
 
-1. Accédez à **[!UICONTROL Audience Data > Signals > Search]** et exécutez une **[!UICONTROL Signals Search]** avec les paires clé-valeur et/ou les filtres que vous souhaitez enregistrer pour les recherches futures.
+1. Accédez à **[!UICONTROL Audience Data > Signals > Search]** et exécutez un **[!UICONTROL Signals Search]** avec les paires clé-valeur et/ou les filtres à enregistrer pour les recherches futures.
 1. Cliquez sur **[!UICONTROL Save this Search]** une fois que vous avez obtenu les résultats de la recherche.
 
    ![Résultat de l’étape](assets/save-search-criteria.png)
 1. Entrez un nom suggestif pour la recherche, afin que vous puissiez l&#39;identifier plus tard.
-1. (Facultatif) Activez l’ **[!UICONTROL Track this search result in the dashboard]** option si vous souhaitez que le tableau de bord de signaux inclut les signaux dans le jeu de recherches actuel.
-1. Select the **[!UICONTROL Default Sorting]** criteria:
+1. (Facultatif) Activez l&#39;option **[!UICONTROL Track this search result in the dashboard]** si vous souhaitez que le tableau de bord de signaux inclut les signaux dans le jeu de recherches actuel.
+1. Sélectionnez les critères **[!UICONTROL Default Sorting]** :
    * **[!UICONTROL Total Counts]**
    * **[!UICONTROL Key Name]**
-1. Sélectionnez le **[!UICONTROL Default Sorting]** mode :
+1. Sélectionnez le mode **[!UICONTROL Default Sorting]** :
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. Cliquez sur **[!UICONTROL Save]**. Vous pouvez voir votre recherche enregistrée dans la [!UICONTROL Saved Search] section et l&#39;utiliser à chaque fois que vous en avez besoin.
+1. Cliquez sur **[!UICONTROL Save]**. Vous pouvez voir votre recherche enregistrée dans la section [!UICONTROL Saved Search] et l&#39;utiliser à chaque fois que vous en avez besoin.
 
 ![recherche enregistrée](assets/saved-search.png)
 
