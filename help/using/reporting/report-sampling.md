@@ -19,9 +19,9 @@ ht-degree: 7%
 
 Résumé de la méthodologie d&#39;échantillonnage utilisée pour certains rapports, taux d&#39;erreurs d&#39;échantillonnage et liste de rapports qui renvoient des informations basées sur des données échantillonnées.
 
-## Taux d’échantillonnage des données {#data-sampling-ratio}
+## Taux d&#39;échantillonnage des données {#data-sampling-ratio}
 
-Certains [!DNL Audience Manager] rapports affichent les résultats en fonction d’un ensemble échantillonné de la quantité totale de données disponibles. Le rapport de données échantillonné est de 1:54. Pour les rapports qui utilisent des données échantillonnées, cela signifie que vos résultats sont basés sur un enregistrement sur chaque ensemble de 54 enregistrements.
+Certains rapports [!DNL Audience Manager] affichent des résultats sur la base d’un ensemble échantillonné de la quantité totale de données disponibles. Le rapport de données échantillonné est de 1:54. Pour les rapports qui utilisent des données échantillonnées, cela signifie que vos résultats sont basés sur un enregistrement sur chaque ensemble de 54 enregistrements.
 
 Ces rapports utilisent des données statistiques échantillonnées parce qu&#39;ils ont besoin d&#39;une énorme puissance de calcul pour générer des résultats. L’échantillonnage permet d’équilibrer les exigences informatiques réduites, de maintenir les performances du système et de fournir des résultats précis.
 
@@ -47,20 +47,20 @@ Des erreurs peuvent se produire dans les rapports qui génèrent des données de
 * N&#39;aurait pas dû être inclus dans un rapport, mais a été ajouté de toute façon.
 * Aurait dû être inclus dans un rapport, mais il a été omis.
 
-Il est important de noter que nos tests et modèles montrent que le taux d&#39;erreur *diminue* inversement proportionnellement au nombre d&#39;enregistrements dans votre jeu de données. Les ensembles de données contenant de nombreux enregistrements génèrent moins d’erreurs que les ensembles contenant un petit nombre d’enregistrements. Examinons cette affirmation de manière plus quantitative. Comme le montre le tableau suivant, pour un nombre défini d&#39;enregistrements, 95 % des résultats du rapport seront inférieurs à un taux d&#39;erreur spécifique.
+Il est important de noter que nos tests et modèles montrent que le taux d&#39;erreur *diminue* dans une proportion inverse au nombre d&#39;enregistrements dans votre jeu de données. Les ensembles de données contenant de nombreux enregistrements génèrent moins d’erreurs que les ensembles contenant un petit nombre d’enregistrements. Examinons cette affirmation de manière plus quantitative. Comme le montre le tableau suivant, pour un nombre défini d&#39;enregistrements, 95 % des résultats du rapport seront inférieurs à un taux d&#39;erreur spécifique.
 
 | Nombre d&#39;enregistrements | Taux d’erreurs |
 |--- |--- |
-| 500 - 1,000 | 95 % ont un taux d’erreur de 42 %. |
-| 1,000 - 1,500 | 95 % ont un taux d’erreur de 34 %. |
-| 10,000 - 50,000 | 95 % ont un taux d’erreur de 14 %. |
+| 500 à 1 000 | 95 % ont un taux d’erreur de 42 %. |
+| 1 000 à 1 500 | 95 % ont un taux d’erreur de 34 %. |
+| 10 000 à 50 000 | 95 % ont un taux d’erreur de 14 %. |
 | 50 000 | 95 % ont un taux d’erreur de 6 %. |
-| 100,000 | 95 % ont un taux d’erreur de 4 %. |
+| 100 000 | 95 % ont un taux d’erreur de 4 %. |
 | 500 000 (ou plus) | 95 % ont un taux d’erreur de 2 %. |
 
-## Utilisation de la méthodologie d’échantillonnage de hachage {#minhash}
+## Utilisation de la méthode d&#39;échantillonnage de hachage {#minhash}
 
-En se basant sur la méthodologie d&#39;échantillonnage [Minhash](https://en.wikipedia.org/wiki/MinHash) , l&#39;Audience Manager utilise une nouvelle méthode pour calculer les estimateurs de caractéristiques et de segments au-dessus d&#39;une esquisse de données de hachage d&#39;une permutation unique. Cette nouvelle méthode produit une variance plus faible que l&#39;estimateur standard pour la similarité de Jaccard. Reportez-vous à la section ci-dessous pour les rapports qui utilisent cette méthodologie.
+En se basant sur la méthode d&#39;échantillonnage [Minhash](https://en.wikipedia.org/wiki/MinHash), l&#39;Audience Manager utilise une nouvelle méthode pour calculer les estimateurs de caractéristiques et de segments au-dessus d&#39;une esquisse de données de hachage d&#39;une permutation unique. Cette nouvelle méthode produit une variance plus faible que l&#39;estimateur standard pour la similarité de Jaccard. Reportez-vous à la section ci-dessous pour les rapports qui utilisent cette méthodologie.
 
 <!--
 
@@ -72,7 +72,7 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 ## Rapports utilisant des données échantillonnées {#reports-using-sampled-data}
 
-Les [!DNL Audience Manager] rapports qui utilisent des données statistiques échantillonnées et la méthodologie d&#39;échantillonnage de Minhash comprennent :
+Les rapports [!DNL Audience Manager] qui utilisent des données échantillonnées statistiques et la méthodologie d&#39;échantillonnage de Minhash incluent :
 
 <!--
 
@@ -87,6 +87,6 @@ Reports that use Minhash sampling methodology:
 
 | Échantillonnage statistique | Méthodologie d’échantillonnage au hachage |
 |--- |--- |
-| [Données d’Audience](../features/addressable-audiences.md) adressables (données au niveau du client et du segment). | [Rapports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) de chevauchement (trait à trait, segment à trait et segment à segment) |
-| Mesure [Total des périphériques](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) pour un [!UICONTROL Profile Merge Rule]groupe. | [Recommandations de caractéristiques](/help/using/features/segments/trait-recommendations.md) |
-| [Le Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilise des données échantillonnées dans l’ [!UICONTROL Search] onglet et les [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Données ](../features/addressable-audiences.md) d’audience adressables (données au niveau du client et du segment). | [Rapports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  de chevauchement (trait à trait, segment à trait et segment à segment) |
+| Mesure [Total des périphériques](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) pour un [!UICONTROL Profile Merge Rule]. | [Recommandations de caractéristiques](/help/using/features/segments/trait-recommendations.md) |
+| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorerutilise des données échantillonnées dans l’ [!UICONTROL Search] onglet et les  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
