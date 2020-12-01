@@ -33,7 +33,7 @@ Le tableau suivant décrit les conventions d’attribution de noms de fichiers e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Fichier Extension </p> </td> 
-   <td colname="col2"> <p>Les fichiers de rapport de chevauchement sont compressés par gzip et ont une extension de <code> .gz</code> fichier. Vous devez ajouter l’ <code> .csv</code> extension au fichier après la décompression. </p> </td> 
+   <td colname="col2"> <p>Les fichiers de rapport de chevauchement sont compressés par gzip et ont une extension de fichier <code> .gz</code>. Vous devez ajouter l'extension <code> .csv</code> au fichier après la décompression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nom de fichier </p> </td> 
@@ -83,9 +83,9 @@ Dans le fichier, les données de chaîne sont placées entre guillemets de doubl
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Enregistrements de rapports de segment à segment {#segment-segment-records}
+## Enregistrements de rapport de segment à segment {#segment-segment-records}
 
-Un fichier de données pour votre rapport [Chevauchement de](segment-segment-overlap-report.md) segment à segment contient les enregistrements suivants.
+Un fichier de données pour votre [rapport de chevauchement segment-à-segment](segment-segment-overlap-report.md) contient les enregistrements suivants.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -144,7 +144,7 @@ Un fichier de données pour votre rapport [Chevauchement de](segment-segment-ove
 
 ## Enregistrements de rapport Segment-à-Caractéristique {#segment-trait-records}
 
-Un fichier de données pour votre rapport [](segment-trait-overlap-report.md) Chevauchement de segment à caractéristique contient les enregistrements suivants.
+Un fichier de données pour votre [rapport de chevauchement segment-à-caractéristique](segment-trait-overlap-report.md) contient les enregistrements suivants.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -209,9 +209,9 @@ Un fichier de données pour votre rapport [](segment-trait-overlap-report.md) Ch
  </tbody> 
 </table>
 
-## Enregistrements de rapport caractéristiques-caractéristiques {#trait-trait-records}
+## Enregistrements de rapport de caractéristiques à caractéristiques {#trait-trait-records}
 
-Un fichier de données pour votre rapport [de chevauchement](trait-trait-overlap-report.md) caractéristiques-caractéristiques contient les enregistrements suivants.
+Un fichier de données pour votre [rapport de chevauchement caractéristiques-caractéristiques](trait-trait-overlap-report.md) contient les enregistrements suivants.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
