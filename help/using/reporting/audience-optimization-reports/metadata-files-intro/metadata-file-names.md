@@ -1,6 +1,6 @@
 ---
-description: Nommez votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
-seo-description: Nommez votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
+description: Nommez votre fichier de métadonnées d’Audience Optimization en fonction de ces spécifications.
+seo-description: Nommez votre fichier de métadonnées d’Audience Optimization en fonction de ces spécifications.
 seo-title: Conventions de dénomination des fichiers de métadonnées
 solution: Audience Manager
 title: Conventions de dénomination des fichiers de métadonnées
@@ -17,17 +17,17 @@ ht-degree: 10%
 
 # Conventions de dénomination des fichiers de métadonnées{#naming-conventions-for-metadata-files}
 
-Nommez votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
+Nommez votre fichier de métadonnées d’Audience Optimization en fonction de ces spécifications.
 
 ## Catégories de syntaxe et d’ID {#syntax}
 
-La syntaxe suivante définit la structure d’un nom de fichier de métadonnées bien formé. Note, *italics* indicates a variable placeholder. Les autres éléments sont des constantes et ne changent pas.
+La syntaxe suivante définit la structure d’un nom de fichier de métadonnées bien formé. Remarque : *italics* indique un espace réservé de variable. Les autres éléments sont des constantes et ne changent pas.
 
 **Syntaxe :***`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*N’utilisez pas* d’extensions de fichier dans vos fichiers de métadonnées (.txt ou autre).
+>*N’effectuez* aucune extension de fichier dans vos fichiers de métadonnées (.txt ou autre).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
@@ -43,7 +43,7 @@ Dans le nom du fichier de métadonnées, l’ID enfant est un identifiant qui cl
 1. Emplacement
 1. Exchange
 1. Site
-1. Advertiser (en cas d’utilisation de codes d’intégration dans une source [de](../../../features/manage-datasources.md#details)données)
+1. Advertiser (en cas d’utilisation de codes d’intégration dans une [source de données](../../../features/manage-datasources.md#details))
 1. Ordre d’insertion (E/S)
 1. Vertical (c.-à-d. une catégorie industrielle ou commerciale spécifique telle que &quot;ordinateurs&quot;, &quot;automobiles&quot;, &quot;immobilier&quot;, etc.)
 1. Tactique
