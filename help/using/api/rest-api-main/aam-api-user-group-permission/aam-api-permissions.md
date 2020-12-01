@@ -17,13 +17,13 @@ ht-degree: 14%
 
 # Méthodes d’API de gestion des autorisations {#permissions-management-api-methods}
 
-Redéfinissez [!DNL API] les méthodes de gestion des autorisations pour les objets et les groupes.
+Restez [!DNL API] méthodes pour gérer les autorisations des objets et des groupes.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Types d&#39;objet disponibles pour la Liste {#list-object-types}
+## Types d&#39;objet disponibles de liste {#list-object-types}
 
-Une `GET` méthode permettant de liste les types d&#39;objet disponibles sur lesquels des contrôles d&#39;accès basés sur les rôles peuvent être définis.
+Une méthode `GET` pour liste les types d&#39;objet disponibles sur lesquels des contrôles d&#39;accès basés sur les rôles peuvent être définis.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -37,9 +37,9 @@ Une `GET` méthode permettant de liste les types d&#39;objet disponibles sur les
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## Liste des autorisations disponibles pour un type d’objet {#list-permissions-object-type}
+## Liste des autorisations disponibles pour un type d&#39;objet {#list-permissions-object-type}
 
-Méthode `GET` de liste des autorisations disponibles pour un type d’objet.
+Méthode `GET` permettant de liste les autorisations disponibles pour un type d’objet.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
