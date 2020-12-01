@@ -1,6 +1,6 @@
 ---
-description: L’option Conversion entre Canaux des rapports Optimisation des Audiences vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
-seo-description: L’option Conversion entre Canaux des rapports Optimisation des Audiences vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
+description: L’option Conversion entre Canaux des rapports d’Audience Optimization vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
+seo-description: L’option Conversion entre Canaux des rapports d’Audience Optimization vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
 seo-title: Conversion inter-canaux
 solution: Audience Manager
 title: Conversion inter-canaux
@@ -17,15 +17,15 @@ ht-degree: 4%
 
 # Conversion inter-canaux{#cross-channel-conversion}
 
-L’option Conversion entre Canaux des rapports Optimisation des Audiences vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
+L’option Conversion entre Canaux des rapports d’Audience Optimization vous permet d’attribuer des conversions hors ligne aux impressions ou clics en ligne diffusés.
 
-Les [!UICONTROL Cross Channel Conversion] rapports combinent les résultats de la [!DNL Google Campaign Manager] plateforme avec les caractéristiques de [!DNL Audience Manager] conversion. Vous pouvez ainsi lier des conversions hors ligne à des impressions ou des clics en ligne.
+Les rapports [!UICONTROL Cross Channel Conversion] combinent les résultats de la plateforme [!DNL Google Campaign Manager] avec les caractéristiques de conversion [!DNL Audience Manager]. Vous pouvez ainsi lier des conversions hors ligne à des impressions ou des clics en ligne.
 
-Vous pouvez utiliser le [!UICONTROL Cross Channel Conversion] pour les rapports Performances [des](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segments et Fréquence [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) optimale.
+Vous pouvez utiliser [!UICONTROL Cross Channel Conversion] pour les rapports [Performances du segment](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) et [Fréquence optimale](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md).
 
-Pour vue des [!UICONTROL Cross Channel Conversion] rapports, sélectionnez l’ **[!UICONTROL AAM + Ad Server Name]** élément dans la liste **[!UICONTROL Platform]** déroulante.
+Pour vue des rapports [!UICONTROL Cross Channel Conversion], sélectionnez l&#39;élément **[!UICONTROL AAM + Ad Server Name]** dans la liste déroulante **[!UICONTROL Platform]**.
 
-Le tableau suivant liste les points importants à prendre en compte lors de la configuration [!UICONTROL Cross Channel Conversion]:
+Le tableau suivant liste les points importants à prendre en compte lors de la configuration de [!UICONTROL Cross Channel Conversion] :
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -37,11 +37,11 @@ Le tableau suivant liste les points importants à prendre en compte lors de la c
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Nombre minimum de caractéristiques de conversion </p> </td> 
-   <td colname="col1"> <p>Au moins une caractéristique de conversion doit être attribuée à une source de données pour que les rapports de conversion <span class="wintitle"></span> entre Canaux s’exécutent. Voir Informations <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> de base sur les caractéristiques</a> pour en savoir plus sur les caractéristiques. </p> </td> 
+   <td colname="col1"> <p>Au moins une caractéristique de conversion doit être attribuée à une source de données pour que les rapports de conversion <span class="wintitle"> inter-Canaux</span> s'exécutent. Voir <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Informations de base sur les caractéristiques</a> pour plus d'informations sur les caractéristiques. </p> </td> 
   </tr>
   <tr> 
    <td> <p>Fenêtre Attribution </p> </td> 
-   <td> <p> <b><span class="uicontrol"> La fenêtre d’attribution d’AAM+Google Campaign Manager</span></b> est de 14 jours, ce qui signifie que seules les caractéristiques de conversion exposées au cours des deux dernières semaines sont prises en compte. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> La fenêtre d’attribution AAM+Google Campaign </span></b> Manager est de 14 jours, ce qui signifie que seules les caractéristiques de conversion exposées au cours des deux dernières semaines sont prises en compte. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Méthodologie Dernière touche </p> </td> 
