@@ -1,7 +1,7 @@
 ---
 description: Envoyer à l’Audience Manager les données d’audience provenant d’autres sources.
-seo-description: Envoyer des données d’audience d’autres sources à l’Adobe Audience Manager (AAM).
-seo-title: Envoi de données d’Audience dans un Adobe Audience Manager (AAM)
+seo-description: Envoyer des données d'audience d'autres sources à Adobe Audience Manager (AAM).
+seo-title: Envoi de données d'Audience dans Adobe Audience Manager (AAM)
 title: Envoi de données d’audience
 feature: Inbound Data Transfer
 translation-type: tm+mt
