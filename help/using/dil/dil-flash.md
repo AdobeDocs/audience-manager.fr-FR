@@ -25,9 +25,9 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] est une bibliothèque de [!DNL ActionScript] code qui vous permet de travailler avec les données de lecture vidéo en Audience Manager. [!DNL Flash DIL] fonctionne en capturant le contenu SWF que la bibliothèque Adobe [!UICONTROL AppMeasurement] transmet à Analytics. [!DNL Flash DIL] envoie ces données au module de collecte de données [!UICONTROL DIL] JavaScript distinct, qui les transmet à l’Audience Manager. Données Analytics ( [!UICONTROL Props], [!UICONTROL eVars]événements, etc.) capturé à partir du [!DNL FLA] fichier est disponible en Audience Manager en tant que caractéristiques ou signaux inutilisés.
+[!UICONTROL Flash DIL] est une bibliothèque de  [!DNL ActionScript] code qui vous permet de travailler avec les données de lecture vidéo en Audience Manager. [!DNL Flash DIL] fonctionne en capturant le contenu SWF que la  [!UICONTROL AppMeasurement] bibliothèque d’Adobes transmet à Analytics. [!DNL Flash DIL] envoie ces données au module de collecte de données  [!UICONTROL DIL] JavaScript distinct, qui les transmet à l’Audience Manager. Données Analytics ( [!UICONTROL Props], [!UICONTROL eVars], événements, etc.) capturé à partir du fichier [!DNL FLA] est disponible en Audience Manager en tant que caractéristiques ou signaux inutilisés.
 
-## Conditions requises pour la collecte de données DIL Flash {#requirements}
+## Conditions requises pour la collecte de données des DIL de Flash {#requirements}
 
 Implémentation générale et exigences relatives au code.
 
@@ -41,23 +41,23 @@ c_flash_dil_intro.xml
 
 [!UICONTROL Flash] la collecte de données requiert :
 
-* Bibliothèque de [!UICONTROL DIL] classes ( `dil.swc`). Récupérez la bibliothèque de [!UICONTROL DIL] classes à partir de votre contact Solutions partenaires.
+* Bibliothèque de classes [!UICONTROL DIL] ( `dil.swc`). Récupérez la bibliothèque de classes [!UICONTROL DIL] à partir de votre contact Solutions partenaires.
 
 * Code de collecte de données JavaScript [!UICONTROL DIL] sur la page.
-* [Bibliothèque](../dil/dil-flash.md#flash-dil-actionscript) ActionScript DIL chargée dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
-* La [!DNL AppMeasurement] bibliothèque Adobe [!DNL AS] (version 3.5.2 ou ultérieure) a chargé l’ [!DNL Flash] objet à partir duquel vous souhaitez collecter des données.
+* [ACTIONSCRIPT DIL ](../dil/dil-flash.md#flash-dil-actionscript) chargé dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
+* L’Adobe de la bibliothèque [!DNL AppMeasurement] [!DNL AS] (version 3.5.2 ou ultérieure) a chargé l’objet [!DNL Flash] à partir duquel vous souhaitez collecter des données.
 
-**Définir AllowScriptAccess sur`Always`ou`sameDomain`**
+**Définir AllowScriptAccess sur  `Always` ou`sameDomain`**
 
-Le code HTML `AllowScriptAccess` qui charge un fichier SWF contrôle la possibilité d’effectuer un accès URL sortant à partir du fichier SWF. Lorsque vous configurez une intégration de [!UICONTROL Flash DIL] données, assurez-vous que le paramètre Flash `AllowScriptAccess` est défini sur `always` ou `sameDomain`. [!UICONTROL Flash DIL] la collecte de données ne fonctionnera pas si `AllowScriptAccess` la valeur est définie sur `never`. Voir [Contrôle de l’accès aux scripts ou Page](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)Web hôte.
+Le fichier `AllowScriptAccess` dans le code HTML qui charge un fichier SWF contrôle la capacité d’effectuer l’accès URL sortant à partir du fichier SWF. Lorsque vous configurez une intégration de données [!UICONTROL Flash DIL], assurez-vous que le paramètre Flash `AllowScriptAccess` est défini sur `always` ou `sameDomain`. [!UICONTROL Flash DIL] la collecte de données ne fonctionnera pas si  `AllowScriptAccess` elle est définie sur  `never`. Voir [Contrôle de l&#39;accès aux scripts ou Page Web hôte](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
 
-**Placement du[!UICONTROL DIL]code JS**
+**Emplacement du  [!UICONTROL DIL] code JS**
 
-Essayez de placer le module de collecte de données JS [!UICONTROL DIL] sur la page afin qu’il se charge avant le [!DNL FLA] fichier. Lorsque le [!DNL FLA] fichier est chargé en premier, avant que [!UICONTROL DIL] la collecte des données ne soit prête, vous pouvez rater les signaux de données initiaux qui [!UICONTROL Flash DIL] sont envoyés à ce module. Cependant, une fois instancié, le module de collecte de [!UICONTROL DIL] données capture toutes les données de fichier SWF suivantes transmises par [!UICONTROL Flash DIL].
+Essayez de placer le module de collecte de données JS [!UICONTROL DIL] sur la page afin qu&#39;il se charge avant le fichier [!DNL FLA]. Lorsque le fichier [!DNL FLA] se charge en premier, avant que la collecte de données [!UICONTROL DIL] ne soit prête, vous pouvez ignorer les signaux de données initiaux que [!UICONTROL Flash DIL] envoie à ce module. Cependant, une fois instancié, le module de collecte de données [!UICONTROL DIL] capture toutes les données de fichier SWF suivantes transmises par [!UICONTROL Flash DIL].
 
-## Données collectées par Flash DIL {#data-collected}
+## Données collectées par le DIL de Flash {#data-collected}
 
-[!UICONTROL Flash DIL] capture la vue des pages, le suivi des liens, le suivi des médias et d’autres événements de vue des médias de la bibliothèque Adobe [!UICONTROL AppMeasurement] .
+[!UICONTROL Flash DIL] capture la vue de page, le suivi des liens, le suivi des médias et d’autres événements de vue des médias à partir de la  [!UICONTROL AppMeasurement] bibliothèque d’Adobes.
 
 <!-- 
 
@@ -67,7 +67,7 @@ r_flash_dil_data_collected.xml
 
 **Événements de Vue de page**
 
-Sauf indication contraire `s.trackVars`, [!UICONTROL Flash DIL] collecte les données suivantes depuis Adobe AppMeasurement :
+Sauf indication contraire de `s.trackVars`, [!UICONTROL Flash DIL] collecte les données suivantes à partir de Adobe AppMeasurement :
 
 * `pageName`
 * `channel`
@@ -79,7 +79,7 @@ Sauf indication contraire `s.trackVars`, [!UICONTROL Flash DIL] collecte les don
 
 **Événements de suivi des liens**
 
-Sauf indication contraire `s.linkTrackVars`, [!UICONTROL Flash DIL] collecte les données suivantes depuis Adobe [!UICONTROL AppMeasurement]:
+Sauf indication contraire de `s.linkTrackVars`, [!UICONTROL Flash DIL] collecte les données suivantes de l&#39;Adobe [!UICONTROL AppMeasurement] :
 
 * `pe` (Type de lien de suivi appelé)
 * `pev1` (URL du lien)
@@ -87,7 +87,7 @@ Sauf indication contraire `s.linkTrackVars`, [!UICONTROL Flash DIL] collecte les
 
 **Événements de suivi des médias**
 
-Sauf indication contraire `s.Media.trackVars`, [!UICONTROL Flash DIL] collecte toutes les données énumérées dans la section Événements de Vues de page.
+Sauf indication contraire de `s.Media.trackVars`, [!UICONTROL Flash DIL] collecte toutes les données énumérées dans la section Événements de Vue de page.
 
 **Autres points de données**
 
@@ -95,13 +95,13 @@ Les données issues de ces paramètres sont collectées par défaut :
 
 * `mediaName` (Nom de l’élément média/vidéo)
 * `mediaAdName` (Nom de la publicité)
-* `mediaAdParentName` (Nom du contenu multimédia principal sous lequel la publicité est imbriquée)
-* `mediaAdParentPod` (Paquet ou coupure publicitaire dans le contenu principal où la publicité est lue)
+* `mediaAdParentName` (Nom du contenu multimédia Principal sous lequel la publicité est imbriquée)
+* `mediaAdParentPod` (Paquet ou coupure publicitaire dans le contenu Principal où la publicité est lue)
 * `mediaAdParentPodPos` (Position numérique dans la capsule où la publicité est lue. Plusieurs publicités peuvent être lues dans une capsule.
 
-## Données DIL Flash en Audience Manager {#flash-dil-data}
+## Flash de données DIL dans l&#39;Audience Manager {#flash-dil-data}
 
-Le [!UICONTROL Flash DIL] module transforme les données Adobe AppMeasurement en caractéristiques d’Audience Manager et en signaux inutilisés.
+Le module [!UICONTROL Flash DIL] transforme les données Adobe AppMeasurement en caractéristiques d&#39;Audience Manager et en signaux inutilisés.
 
 <!-- 
 
@@ -109,15 +109,15 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars]et les événements fonctionnent comme des traits en Audience Manager. Les caractéristiques sont des paires clé-valeur et sont utilisées pour créer des segments. Par exemple, dans une prop Analytics telle que `c30=foo`, `c30` est la clé (une constante) et `foo` la valeur (une variable).
+Les analyses [!UICONTROL Props], [!UICONTROL eVars] et les événements fonctionnent comme des caractéristiques en Audience Manager. Les caractéristiques sont des paires clé-valeur et sont utilisées pour créer des segments. Par exemple, dans une prop Analytics telle que `c30=foo`, `c30` est la clé (une constante) et `foo` est la valeur (une variable).
 
 **Correspondance des caractéristiques d’Audience Manager avec les variables Analytics**
 
-Pour utiliser les données Analytics transmises par [!UICONTROL Flash DIL], vous devez créer des caractéristiques d’Audience Manager dont la valeur de clé est précédée `c_`.
+Pour utiliser les données Analytics transmises par [!UICONTROL Flash DIL], vous devez créer des caractéristiques d’Audience Manager dont la valeur de clé est précédée de `c_`.
 
 Consultez le tableau pour obtenir des exemples :
 
-| Élément de données Analytics | Exemple Analytics | En tant que trait d&#39;Audience Manager |
+| Elément de données Analytics | Exemple d’Analytics | En tant que trait d&#39;Audience Manager |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **evar** | `v35=bar` | `c_evar35=bar` |
@@ -125,11 +125,11 @@ Consultez le tableau pour obtenir des exemples :
 
 **Données DIL/Analytics comme signaux inutilisés**
 
-L&#39;Audience Manager accepte l&#39;Analytics [!UICONTROL Props], [!UICONTROL eVars]et les événements, même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristiques et s’affichent dans le rapport [Signaux](../reporting/dynamic-reports/unused-signals.md) inutilisés à la place. Pour tirer le meilleur parti de ces informations, créez des caractéristiques d’Audience Manager qui correspondent aux données Analytics transmises par la [!UICONTROL Flash DIL] bibliothèque.
+L’Audience Manager accepte Analytics [!UICONTROL Props], [!UICONTROL eVars] et les événements même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristiques et s’affichent à la place dans le rapport [Signaux inutilisés](../reporting/dynamic-reports/unused-signals.md). Pour tirer le meilleur parti de ces informations, créez des caractéristiques d’Audience Manager qui correspondent aux données Analytics transmises par la bibliothèque [!UICONTROL Flash DIL].
 
-## Bibliothèque ActionScript DIL Flash {#flash-dil-actionscript}
+## Bibliothèque d&#39;ActionScripts DIL de Flash {#flash-dil-actionscript}
 
-Code de votre [!DNL Flash] objet pour l’envoi de données Analytics à l’Audience Manager.
+Code de votre objet [!DNL Flash] pour envoyer les données Analytics à l’Audience Manager.
 
 <!-- 
 
@@ -139,10 +139,10 @@ r_flash_dil_actionscript.xml
 
 >[!NOTE]
 >
->* Pour chaque [!DNL Flash] objet, le code ne prend en charge qu’une seule instance de partenaire ( `d.partner`).
+>* Pour chaque objet [!DNL Flash], le code ne prend en charge qu&#39;une seule instance de partenaire ( `d.partner`).
    >
    >
-* Requiert la version 3.5.2 ou ultérieure de la [!UICONTROL AppMeasurement] bibliothèque Adobe [!DNL AS] .
+* Nécessite l’Adobe [!UICONTROL AppMeasurement] [!DNL AS] bibliothèque version 3.5.2 ou supérieure.
 
 
 ```js
