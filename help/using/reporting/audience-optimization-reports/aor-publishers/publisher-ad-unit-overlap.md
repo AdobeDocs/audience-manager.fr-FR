@@ -17,27 +17,27 @@ ht-degree: 3%
 
 # Chevauchement d’unité publicitaire{#ad-unit-overlap}
 
-Le **[!UICONTROL Ad Unit Overlap]** rapport s’affiche sous la forme d’un graphique à chaleur qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
+Le rapport **[!UICONTROL Ad Unit Overlap]** s’affiche sous la forme d’un graphique thermique qui met en évidence les chevauchements élevés et faibles entre vos unités publicitaires.
 
 ## Cas d’utilisation {#use-cases}
 
-Le **[!UICONTROL Ad Unit Overlap]** rapport vous permet de savoir où se superpose votre audience sur vos propriétés Web. Le rapport prend en compte vos 100 propriétés les plus liées et vous montre le chevauchement entre elles.
+Avec le rapport **[!UICONTROL Ad Unit Overlap]**, vous pouvez déterminer où se superpose votre audience sur vos propriétés Web. Le rapport prend en compte vos 100 propriétés les plus liées et vous montre le chevauchement entre elles.
 
-## Utilisation du rapport Chevauchement d’unité publicitaire {#using-the-report}
+## Utilisation du rapport Chevauchement d&#39;unité publicitaire {#using-the-report}
 
-Utilisez les **[!UICONTROL Top N Base Ad Units]** commandes et **[!UICONTROL Top N Overlapping Ad Units]** pour sélectionner le nombre d’unités publicitaires souhaité pour le chevauchement. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d’eux.
+Utilisez les commandes **[!UICONTROL Top N Base Ad Units]** et **[!UICONTROL Top N Overlapping Ad Units]** pour sélectionner le nombre d&#39;unités publicitaires souhaité pour le chevauchement. Vous pouvez sélectionner un nombre maximum de 100 éléments pour chacun d’eux.
 
-Utilisez les commandes Plage **de** jour et **Date jusqu’au début** pour ajuster la plage de recherche en amont. Notez que les périodes de 7 et 30 jours de recherche en arrière ne sont disponibles que pour les dates du dimanche.
+Utilisez les commandes **Plage de jour** et **Date jusqu&#39;à** pour ajuster la plage de recherche en amont. Notez que les périodes de 7 et 30 jours de recherche en arrière ne sont disponibles que pour les dates du dimanche.
 
-Utilisez les **[!UICONTROL Base Ad Unit]** commandes et les **[!UICONTROL Overlap Ad Unit]** commandes pour sélectionner les unités publicitaires à afficher dans le rapport de chevauchement.
+Utilisez les commandes **[!UICONTROL Base Ad Unit]** et **[!UICONTROL Overlap Ad Unit]** pour sélectionner les unités publicitaires à afficher dans le rapport de chevauchement.
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Ad Unit] que non pas en tant que [!UICONTROL Ad Unit ID].
+>Lorsque vous activez [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Ad Unit IDs], comme décrit à l&#39;étape 3 de [Importer des fichiers de données Google Ad Manager (anciennement DFP) dans l&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous assurez ainsi que le rapport indique la propriété web sous la forme [!UICONTROL Ad Unit] au lieu de [!UICONTROL Ad Unit ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
-Votre [!UICONTROL Ad Unit Overlap] rapport peut ressembler à celui qui suit. Passez la souris sur une cellule pour obtenir plus d’informations sur ce chevauchement particulier. Voir la description des informations supplémentaires dans le tableau ci-dessous.
+Votre rapport [!UICONTROL Ad Unit Overlap] peut ressembler à celui ci-dessous. Passez la souris sur une cellule pour obtenir plus d’informations sur ce chevauchement particulier. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -67,11 +67,11 @@ Votre [!UICONTROL Ad Unit Overlap] rapport peut ressembler à celui qui suit. Pa
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nombre de chevauchements uniques</span> </p> </td> 
-   <td colname="col2"> <p>Chevauchement entre vos utilisateurs qui ont visité une unité <span class="wintitle"> publicitaire de</span> base et une unité <span class="wintitle"> publicitaire de</span>chevauchement. </p> </td> 
+   <td colname="col2"> <p>Chevauchement entre vos utilisateurs qui ont visité une <span class="wintitle"> Annonce de base</span> et <span class="wintitle"> Annonce de chevauchement</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Pourcentage de chevauchement</span> </p> </td> 
-   <td colname="col2"> <p>Chevauchement entre vos utilisateurs qui ont visité une unité <span class="wintitle"> publicitaire de</span> base et une unité <span class="wintitle"> publicitaire de</span>chevauchement. Il s'agit du nombre <span class="wintitle"> de valeurs uniques de chevauchement</span>, exprimé en pourcentage de l'unité <span class="wintitle"> publicitaire de</span>base. </p> </td> 
+   <td colname="col2"> <p>Chevauchement entre vos utilisateurs qui ont visité une <span class="wintitle"> Annonce de base</span> et <span class="wintitle"> Annonce de chevauchement</span>. Il s'agit du <span class="wintitle"> Overlap Uniques Count</span>, exprimé en pourcentage de l'<span class="wintitle"> Unité d'annonce de base</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
