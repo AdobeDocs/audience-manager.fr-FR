@@ -1,6 +1,6 @@
 ---
-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
-seo-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
+description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
+seo-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
 seo-title: Paires clé-valeur standard et de série
 solution: Audience Manager
 title: Paires clé-valeur standard et de série
@@ -29,10 +29,10 @@ Entièrement formé, un ensemble de base de paires clé-valeur peut ressembler �
 
 ## Paires clé-valeur standard et de série {#standard-serial-key-value-pairs}
 
-Les destinations acceptent les données de valeur clé dans *`standard`* ou *`serialized`* le format.
+Les destinations acceptent les données de valeur de clé au format *`standard`* ou *`serialized`*.
 
 * **Paires clé-valeur standard :** Formate les données de destination en paires clé-valeur distinctes. Chaque clé est explicitement indiquée, même si elle est utilisée de nouveau pour définir une autre valeur.
-* **Paires clé-valeur sérialisées :** Condense plusieurs valeurs en une seule paire clé-valeur. Dans une paire clé-valeur sérialisée, un indicateur spécial sépare les valeurs de l’ensemble clé-valeur.
+* **paires clé-valeur sérialisées :** condense plusieurs valeurs en une seule paire clé-valeur. Dans une paire clé-valeur sérialisée, un indicateur spécial sépare les valeurs de l’ensemble clé-valeur.
 
 Les valeurs clés standard et sérialisées peuvent contenir une ou plusieurs valeurs. Le tableau suivant fournit des exemples de formats de valeur de clé standard et de série.
 
@@ -60,15 +60,15 @@ Les valeurs clés standard et sérialisées peuvent contenir une ou plusieurs va
 
 ## Délimiteurs et séparateurs {#delimiters-separators}
 
-Les caractères qui séparent des valeurs dans et entre des clés et des valeurs sont appelés *`delimiters`* et *`separators`*. Elles deviennent particulièrement importantes lorsque vous envoyez des segments à une destination au format série. La sérialisation vous permet de transmettre plusieurs valeurs à l’aide d’une seule clé et de combiner des paires clé-valeur. Les délimiteurs et les séparateurs sont définis comme suit :
+Les caractères qui séparent les valeurs entre clés et valeurs sont appelés *`delimiters`* et *`separators`*. Elles deviennent particulièrement importantes lorsque vous envoyez des segments à une destination au format série. La sérialisation vous permet de transmettre plusieurs valeurs à l’aide d’une seule clé et de combiner des paires clé-valeur. Les délimiteurs et les séparateurs sont définis comme suit :
 
-* **Séparateur de valeur de clé :** Sépare une clé et une valeur dans une paire clé-valeur.
-* **Délimiteur de valeur de clé :** Sépare les ensembles de paires clé-valeur.
+* **Séparateur clé-valeur :** Sépare une clé et une valeur dans une paire clé-valeur.
+* **Délimiteur clé-valeur :** sépare les ensembles de paires clé-valeur.
 * **Séparateur de série :** Sépare plusieurs valeurs dans des ensembles de paires clé-valeur sérialisées.
 
 ## Exemples {#examples}
 
-Vous [!UICONTROL Destination Builder] pouvez formater les données clé-valeur de plusieurs manières différentes. Examinons quelques exemples de chaque type.
+Avec [!UICONTROL Destination Builder], vous pouvez formater les données clé-valeur de plusieurs manières différentes. Examinons quelques exemples de chaque type.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -91,7 +91,7 @@ Vous [!UICONTROL Destination Builder] pouvez formater les données clé-valeur d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Plusieurs paires</b> clé-valeur (non série) </p> </td> 
+   <td colname="col1"> <p> <b>Plusieurs paires</b>  clé-valeur (non série) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>Ensemble de plusieurs paires clé-valeur qui transmettent des valeurs avec des ensembles clé-valeur distincts. L’exemple contient les éléments suivants : </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
@@ -113,7 +113,7 @@ Vous [!UICONTROL Destination Builder] pouvez formater les données clé-valeur d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Plusieurs paires</b> clé-valeur (série) </p> </td> 
+   <td colname="col1"> <p> <b>Plusieurs paires</b>  clé-valeur (série) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Ensemble de plusieurs paires clé-valeur qui transmettent plusieurs valeurs sur des clés distinctes. L’exemple contient les éléments suivants : </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
@@ -137,4 +137,4 @@ La transmission de données sérialisées permet d’améliorer l’efficacité 
 
 ### Destinations prises en charge
 
-Dans [!DNL Audience Manager], vous pouvez sérialiser et envoyer des données vers n’importe quelle destination que vous souhaitez utiliser. Cependant, avant d&#39;utiliser cette fonctionnalité, vous devez connaître la destination [!DNL URL] et l&#39;endroit où placer certaines macros obligatoires ou facultatives. Récupérez les informations sur l&#39;emplacement des macros auprès de votre partenaire de destination. Voir Définition [des macros de](../../features/destinations/destination-macros.md#destination-macros-defined) destination pour plus d’informations.
+Dans [!DNL Audience Manager], vous pouvez sérialiser et envoyer des données vers n’importe quelle destination avec laquelle vous souhaitez travailler. Cependant, avant d&#39;utiliser cette fonctionnalité, vous devez connaître la destination [!DNL URL] et l&#39;emplacement de certaines macros obligatoires ou facultatives. Récupérez les informations sur l&#39;emplacement des macros auprès de votre partenaire de destination. Voir [Macros de destination définies](../../features/destinations/destination-macros.md#destination-macros-defined) pour plus d&#39;informations.
