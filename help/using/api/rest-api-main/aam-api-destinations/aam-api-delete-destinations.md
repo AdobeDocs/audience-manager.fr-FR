@@ -1,6 +1,6 @@
 ---
-description: Méthodes DELETE et POST permettant de supprimer les destinations et les mappages de segments.
-seo-description: Méthodes DELETE et POST permettant de supprimer les destinations et les mappages de segments.
+description: Méthodes de DELETE et de POST permettant de supprimer les destinations et les mappages de segments.
+seo-description: Méthodes de DELETE et de POST permettant de supprimer les destinations et les mappages de segments.
 seo-title: Suppression de destinations
 solution: Audience Manager
 title: Suppression de destinations
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Suppression de destinations {#delete-destinations}
 
-`DELETE` et `POST` les méthodes permettant de supprimer les destinations et les mappages de segments.
+`DELETE` et  `POST` les méthodes permettant de supprimer les destinations et les mappages de segments.
 
 <!-- r_delete_destinations_all.xml -->
 
@@ -34,7 +34,7 @@ Méthode `DELETE` qui supprime une destination.
 
 ## Destinations de suppression en bloc
 
-Supprimez plusieurs destinations avec cette `POST` méthode. Transmettez les ID de destination ( `destinationId`) avec un tableau dans le corps de la requête.
+Supprimez plusieurs destinations avec cette méthode `POST`. Transmettez les ID de destination ( `destinationId`) avec un tableau dans le corps de la requête.
 
 * Demande: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
 * Réponse : Renvoie le code `204 No Content` en cas de réussite.
