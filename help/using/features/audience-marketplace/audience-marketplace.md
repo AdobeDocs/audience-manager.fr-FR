@@ -21,7 +21,7 @@ ht-degree: 6%
 
 [!UICONTROL Audience Marketplace] permet aux fournisseurs de données et aux acheteurs d’exécuter les transactions de données en libre-service avec un effort minimum. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient selon votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur en même temps. Et, si cela ne pouvait pas être amélioré, [!UICONTROL Audience Marketplace] prend en charge les contrats, la facturation et les paiements entre les fournisseurs de données et les vendeurs.
 
-Talk to your [!DNL Audience Manager] sales specialist to get started. Ils peuvent activer [!UICONTROL Audience Marketplace for you].
+Pour commencer, contactez votre [!DNL Audience Manager] spécialiste des ventes. Ils peuvent activer [!UICONTROL Audience Marketplace for you].
 
 >[!NOTE]
 >
