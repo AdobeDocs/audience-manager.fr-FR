@@ -31,7 +31,7 @@ L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider e
 
 En fonction de la configuration de votre solution, il est possible que vous n’ayez pas accès à certaines des options décrites dans cette documentation. Chaque compte étant unique, reportez-vous à votre contrat pour toute question concernant les tarifs, les échéances et les conditions. Si vous souhaitez augmenter ou modifier votre niveau de service, ou pour toute question concernant votre service actuel, contactez le gestionnaire de compte.
 
-## Mentions légales  {#legal}
+## Mentions légales   {#legal}
 
 Published by Adobe Systems Incorporated.
 
