@@ -28,5 +28,5 @@ Vous pouvez capturer des données provenant de campagnes multimédias à l’aid
 Pour configurer l&#39;assimilation des journaux, lisez les articles suivants :
 
 * [Importer les fichiers de données Google Campaign Manager dans l’Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importation des fichiers de données Google Ad Manager dans l’Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Fichiers](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) de données et de métadonnées de journal pour configurer l’assimilation des journaux pour les fichiers journaux génériques
+* [Importation des fichiers de données Google Ad Manager dans l’Audience Manager  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Enregistrer les données et les ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) fichiers de métadonnées pour configurer l’assimilation des journaux pour les fichiers journaux génériques
