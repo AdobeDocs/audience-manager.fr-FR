@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Transport Layer Security (TLS) est un protocole cryptographique utilisé pour établir un canal de communication sécurisé entre deux systèmes. Il sert à authentifier un ou les deux systèmes et à protéger la confidentialité et l&#39;intégrité de l&#39;information transmise entre les systèmes. En mai 2018, trois versions du protocole TLS étaient utilisées : TLS 1.0, 1.1 et 1.2.
 
-En mars 2019, [!DNL Adobe] le soutien au [!DNL TLS 1.0] protocole a pris fin. La fonctionnalité Adobe Audience Manager ne fonctionne pas pour les utilisateurs finaux qui utilisent des navigateurs qui ne prennent en charge que [!DNL TLS 1.0].
+En mars 2019, [!DNL Adobe] a mis fin à la prise en charge du protocole [!DNL TLS 1.0]. La fonctionnalité Adobe Audience Manager ne fonctionne pas pour les utilisateurs finaux qui utilisent des navigateurs qui prennent uniquement en charge [!DNL TLS 1.0].
 
-En mars 2020, [!DNL Adobe] [!DNL TLS 1.1] le protocole cessera d&#39;être soutenu. La fonctionnalité Adobe Audience Manager cessera de fonctionner pour les utilisateurs finaux qui utilisent des navigateurs qui ne prennent en charge que [!DNL TLS 1.1].
+En mars 2020, [!DNL Adobe] cessera de prendre en charge le protocole [!DNL TLS 1.1]. La fonctionnalité Adobe Audience Manager cessera de fonctionner pour les utilisateurs finaux qui utilisent des navigateurs qui ne prennent en charge que [!DNL TLS 1.1].
 
-L&#39;Adobe recommande vivement l&#39;utilisation de [!DNL TLS 1.2], qui est, au moment de la rédaction du présent rapport, la dernière version du protocole. Tous les navigateurs modernes utilisent [!DNL TLS 1.2]. Nous avons collecté pour vous une liste de navigateurs, de versions et de leur [!DNL TLS] support. Pour plus d&#39;informations sur la prise en charge du navigateur TLS, consultez [le lien](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Wikipédia Transport Layer Security.
+L&#39;Adobe recommande vivement l&#39;utilisation de [!DNL TLS 1.2], qui est, au moment de la rédaction du présent document, la dernière version du protocole. Tous les navigateurs modernes utilisent [!DNL TLS 1.2]. Nous avons collecté pour vous une liste de navigateurs, de versions et leur [!DNL TLS] prise en charge. Pour plus d&#39;informations sur la prise en charge du navigateur TLS, consultez [le lien Wikipedia Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 
