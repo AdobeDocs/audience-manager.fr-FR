@@ -25,7 +25,7 @@ c_dil_use_case.xml
 
  -->
 
-## Envoyer les éléments de données à l’Audience Manager avec le DIL {#send-data-elements-dil}
+## Envoyer les éléments de données à l&#39;Audience Manager avec le DIL {#send-data-elements-dil}
 
 Créez une variable d’objet qui envoie des informations sur les éléments de page à l’Audience Manager. Cela s’avère utile pour la collecte générale des données ou en tant qu’alternative à la collecte de données avec des variables Analytics.
 
@@ -37,11 +37,11 @@ c_dil_send_page_objects.xml
 
 **Description**
 
-Le code suivant montre comment collecter des données de page et les envoyer à l&#39;Audience Manager avec [!UICONTROL DIL]. Ces exemples utilisent une variable pour contenir des éléments de données dans une liste plate ou un tableau. N’oubliez pas que transmettre des variables sous forme de paires [](../reference/key-value-pairs-explained.md)clé-valeur. Notez également le `c_` préfixe avant la clé dans la paire clé-valeur. Ce préfixe [](../features/traits/trait-variable-prefixes.md) requis identifie les informations en tant que données définies par l’utilisateur. Dans le premier exemple, vous devez ajouter manuellement `c_` la clé. Dans le deuxième exemple, [!UICONTROL DIL] faites-le automatiquement.
+Le code suivant montre comment collecter des données de page et les envoyer à l&#39;Audience Manager avec [!UICONTROL DIL]. Ces exemples utilisent une variable pour contenir des éléments de données dans une liste plate ou un tableau. N’oubliez pas que transmettez les variables sous forme de [paires clé-valeur](../reference/key-value-pairs-explained.md). Notez également le préfixe `c_` avant la clé dans la paire clé-valeur. Ce [préfixe requis](../features/traits/trait-variable-prefixes.md) identifie les informations en tant que données définies par l&#39;utilisateur. Dans le premier exemple, vous devez ajouter manuellement `c_` à la clé. Dans le deuxième exemple, [!UICONTROL DIL] effectue cette opération automatiquement.
 
 **Conserver la cohérence des propriétés de valeur**
 
-N’oubliez pas de conserver les propriétés de valeur de la même manière lors de la transmission des données. Par exemple, si vous disposez de deux clés identiques avec des valeurs différentes, la valeur de la dernière paire clé-valeur est prioritaire sur les objets valeur précédents. Par exemple, en transmettant `color:blue` et en `color:red` définissant la valeur renvoyée sur rouge (remplace bleu).
+N’oubliez pas de conserver les propriétés de valeur de la même manière lors de la transmission des données. Par exemple, si vous disposez de deux clés identiques avec des valeurs différentes, la valeur de la dernière paire clé-valeur est prioritaire sur les objets valeur précédents. Par exemple, transmettre `color:blue` et `color:red` définit la valeur renvoyée sur rouge (remplace bleu).
 
 **Exemple 1 : Envoyer des données sous forme de paires clé-valeur**
 
@@ -58,7 +58,7 @@ sample_dil.api.submit();
 
 **Exemple 2 : Envoyer des données dans un objet**
 
-Cet exemple avancé montre comment envoyer des données dans un objet à l&#39;Audience Manager. Lorsque vous utilisez cette méthode, [!UICONTROL DIL] vous permet de transmettre un objet en tant que paramètre de fonction dans la [!DNL signals()] méthode. [!UICONTROL DIL] Votre code peut ressembler à ce qui suit :
+Cet exemple avancé montre comment envoyer des données dans un objet à l&#39;Audience Manager. Lorsque vous utilisez cette méthode, [!UICONTROL DIL] vous permet de transmettre un objet en tant que paramètre de fonction dans la méthode [!DNL signals()]. [!UICONTROL DIL] Votre code peut ressembler à ce qui suit :
 
 <pre class="java"><code>
 var my_object = { 
@@ -137,11 +137,11 @@ Par défaut, `DIL.getSearchReferrer` reconnaît les recherches issues de ces mot
 
 **Description**
 
-Le code suivant montre comment obtenir le parrain de recherche de l&#39;un des moteurs de recherche pris en charge. Dans ce cas, supposons qu&#39;un utilisateur ait recherché le terme &quot;domiciles&quot; au [!DNL Google] Canada ( `www.google.ca`). Ce code vous aidera à capturer ces termes de recherche et à les envoyer à l&#39;Audience Manager.
+Le code suivant montre comment obtenir le parrain de recherche de l&#39;un des moteurs de recherche pris en charge. Dans ce cas, supposons qu’un utilisateur ait recherché le terme &quot;domiciles&quot; à partir du [!DNL Google] Canada ( `www.google.ca`). Ce code vous aidera à capturer ces termes de recherche et à les envoyer à l&#39;Audience Manager.
 
 **Code de base**
 
-Le code de base pour obtenir le parrain de recherche ( `google.com`par exemple) ressemble à ceci :
+Le code de base pour obtenir le parrain de recherche (à partir de `google.com`, par exemple) ressemble à ceci :
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -149,7 +149,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Exemple de code de moteur de recherche répertorié**
 
-Dans ce cas, supposons qu’un utilisateur ait recherché le terme &quot;domiciles&quot; au [!DNL Google] Canada ( `www.google.ca`). Notez comment le code préfixe le `c_` paramètre requis sur le moteur de recherche ( `c_se`) et le terme de recherche ( `c_st`). `c_` est un préfixe [](../features/traits/trait-variable-prefixes.md) obligatoire qui identifie ces variables comme des variables définies par le client à Audience Manager.
+Dans ce cas, supposons qu’un utilisateur ait recherché le terme &quot;domiciles&quot; à partir du [!DNL Google] Canada ( `www.google.ca`). Notez comment le code préfixe le paramètre `c_` requis au moteur de recherche ( `c_se`) et au terme de recherche ( `c_st`). `c_` est un  [préfixe ](../features/traits/trait-variable-prefixes.md) obligatoire qui identifie ces variables comme des variables définies par le client à l’Audience Manager.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -165,7 +165,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Exemple de code de moteur de recherche non répertorié**
 
-Dans ce cas, supposons qu’un utilisateur ait recherché le terme &quot;domiciles&quot; `dogpile.com`. Étant donné que [!DNL Dogpile] la fonction n&#39;est pas prise en charge par défaut, vous pouvez configurer le DIL pour qu&#39;il reconnaisse ce moteur de recherche et qu&#39;il renvoie les termes de recherche à l&#39;Audience Manager. Votre code peut ressembler à ce qui suit :
+Dans ce cas, supposons qu’un utilisateur ait recherché le terme &quot;domiciles&quot; à partir de `dogpile.com`. Comme [!DNL Dogpile] n&#39;est pas pris en charge par défaut, vous pouvez configurer le DIL pour qu&#39;il reconnaisse ce moteur de recherche et renvoie les termes de recherche à l&#39;Audience Manager. Votre code peut ressembler à ce qui suit :
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -194,7 +194,7 @@ c_dil_map_keys.xml
 
 **Description**
 
-Dans une paire clé-valeur, le `c_` préfixe ajouté à la clé identifie le signal comme des données définies par le client. Les données définies par le client sont utilisées pour le ciblage sur le site spécifique qui transmet les données lors d’un appel de événement. Cependant, il arrive que vous souhaitiez que ces informations soient disponibles dans toutes les propriétés de votre compte d’Audience Manager. Pour ce faire, faites correspondre la valeur d’une paire `c_` clé-valeur à une clé de niveau plate-forme. Une clé au niveau de la plate-forme est préfixe `d_` et rend le signal disponible pour le ciblage sur toutes les propriétés de votre compte.
+Dans une paire clé-valeur, le préfixe `c_` ajouté à la clé identifie le signal comme des données définies par le client. Les données définies par le client sont utilisées pour le ciblage sur le site spécifique qui transmet les données lors d’un appel de événement. Cependant, il arrive que vous souhaitiez que ces informations soient disponibles dans toutes les propriétés de votre compte d’Audience Manager. Pour ce faire, mappez la valeur d&#39;une paire `c_` clé-valeur à une clé de niveau plate-forme. Une clé au niveau de la plate-forme est précédée de `d_` et rend le signal disponible pour le ciblage sur toutes les propriétés de votre compte.
 
 Par exemple, vous collectez des données de code postal à partir d’un site particulier mais souhaitez les cible à toutes vos propriétés d’Audience Manager. Pour rendre le code postal disponible au niveau de la plate-forme, vous pouvez mapper votre clé de code postal définie par le client (ex. `c_zip`) à une clé définie par la plateforme, comme illustré ci-dessous.
 
@@ -224,17 +224,17 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Cette procédure suppose que vous disposez d’un [!DNL Google Tag Manager] compte, d’une certaine connaissance pratique de ce produit et de votre `dil.js` fichier d’Audience Manager.
+Cette procédure suppose que vous disposez d&#39;un compte [!DNL Google Tag Manager], d&#39;une connaissance pratique de ce produit et de votre fichier d&#39;Audience Manager `dil.js`.
 
-Pour acheminer le trafic vers le `dil.js` fichier dans GTM :
+Pour acheminer le trafic du fichier `dil.js` dans GTM :
 
 1. Créez un conteneur ou ouvrez un conteneur existant.
 1. Ajoutez une nouvelle balise au conteneur.
 1. Ouvrez la balise pour la modifier et :
 
    * Attribuez un nom à la balise.
-   * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list.
-   * Dans le champ HTML, placez le [!UICONTROL DIL] code (bibliothèque + code personnalisé) entre les balises de script `<script>DIL code</script>`.
+   * Sélectionnez **[!UICONTROL Custom HTML Tag]** dans la liste déroulante **[!UICONTROL Tag Type]**.
+   * Dans le champ HTML, placez le code [!UICONTROL DIL] (bibliothèque + code personnalisé) dans les balises de script `<script>DIL code</script>`.
    * Cliquez sur **[!UICONTROL Save]**.
 
 1. Publiez le conteneur.
