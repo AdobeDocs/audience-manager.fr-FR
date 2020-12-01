@@ -22,20 +22,20 @@ Les signaux sont la plus petite unité d&#39;information au sein de l&#39;Audien
 
 * `page = electronics`
 
-Le Tableau de bord [](../../features/data-explorer/data-explorer-signals-dashboard.md) Signals présente plusieurs types d’attributs de signal que vous pouvez utiliser pour créer de nouvelles caractéristiques. Voici une vue détaillée des propriétés de signal disponibles :
+Le [Tableau de bord Signaux](../../features/data-explorer/data-explorer-signals-dashboard.md) vous montre plusieurs types d&#39;attributs de signal que vous pouvez utiliser pour créer de nouvelles caractéristiques. Voici une vue détaillée des propriétés de signal disponibles :
 
-* *La paire* valeur-clé vous montre la paire clé-valeur du signal reçu par [!DNL Audience Manager].
-* *Le type* de signal décrit la catégorie de chaque signal. Les signaux tombent dans l’une des catégories suivantes :
-   * [Fichiers journaux](/help/using/integration/media-data-integration/actionable-log-files.md)utilisables : les signaux en temps réel reçus de vos fichiers journaux de performances multimédia ;
-   * [!DNL Adobe Analytics]: les signaux en temps réel reçus de votre [!DNL Adobe Analytics] compte ;
-   * Données générales en ligne : les données en temps réel générées par votre activité d&#39;audience et non incluses dans les fichiers journaux et [!DNL Adobe Analytics];
+* *Les* paires clé-valeur vous montrent la paire clé-valeur du signal reçu par  [!DNL Audience Manager].
+* *Les* caractères de signal décrivent la catégorie de chaque signal. Les signaux tombent dans l’une des catégories suivantes :
+   * [Fichiers journaux](/help/using/integration/media-data-integration/actionable-log-files.md) utilisables : les signaux en temps réel reçus de vos fichiers journaux de performances multimédia ;
+   * [!DNL Adobe Analytics]: les signaux en temps réel reçus de votre  [!DNL Adobe Analytics] compte ;
+   * Données générales en ligne : données en temps réel générées par votre activité d&#39;audience et non incluses dans les fichiers journaux exploitables et [!DNL Adobe Analytics];
    * Enregistrements intégrés : données reçues par le biais de transferts de données par lot.
-* *La source* du signal dépend du type de signal :
+* *La* source du signal dépend du type de signal :
    * Pour les signaux embarqués, la source du signal est le nom de la source de données.
    * Pour les signaux provenant de [!DNL Adobe Analytics], la source de données sera toujours une suite de rapports.
    * Pour les fichiers journaux exploitables et les données générales en ligne, aucune information sur la source du signal n’est affichée.
-* *Nombre total de décomptes* indique le nombre total de fois où un signal en temps réel a été reçu [!DNL Audience Manager] au cours des 7 derniers jours.
-* *Inclus dans Caractéristiques* vous indique si le signal fait partie d’une caractéristique. Cliquez sur la flèche pour afficher les caractéristiques qui incluent le signal correspondant. Pour les signaux qui ne font partie d’aucune caractéristique, la valeur de colonne devient [!UICONTROL Create Onboarded Trait] ou [!UICONTROL Create Rule-Based Trait].
+* *Nombre total de* comptage vous montre le nombre total de fois où un signal en temps réel a été reçu par  [!DNL Audience Manager] au cours des 7 derniers jours.
+* *Inclus dans* Traitsindique si le signal fait partie d’une caractéristique. Cliquez sur la flèche pour afficher les caractéristiques qui incluent le signal correspondant. Pour les signaux qui ne font partie d’aucune caractéristique, la valeur de colonne devient [!UICONTROL Create Onboarded Trait] ou [!UICONTROL Create Rule-Based Trait].
 
 ## Fréquence d&#39;actualisation des données de signal
 
