@@ -27,15 +27,15 @@ c_compedge.xml
 
  -->
 
-L&#39;informatique avancée offre de meilleures performances en réponse à une demande diffuse à l&#39;échelle d&#39;Internet, car le &quot;bord&quot; lui-même est une frontière mondiale. Cela signifie qu’il place [!DNL Audience Manager] dynamiquement le traitement le plus proche des sources de demande et qu’il renvoie les données le plus rapidement possible. L&#39;informatique avancée permet de maintenir les performances du site, ce qui, à son tour, préserve l&#39;expérience des utilisateurs sur votre site Web. Le centre de données Edge est une passerelle essentielle pour déplacer les données vers [!DNL Audience Manager]et vers l&#39;extérieur.
+L&#39;informatique avancée offre de meilleures performances en réponse à une demande diffuse à l&#39;échelle d&#39;Internet, car le &quot;bord&quot; lui-même est une frontière mondiale. Cela signifie que [!DNL Audience Manager] place dynamiquement le traitement le plus proche des sources de demande et renvoie les données selon le chemin le plus court possible. L&#39;informatique avancée permet de maintenir les performances du site, ce qui, à son tour, préserve l&#39;expérience des utilisateurs sur votre site Web. Le centre de données Edge est une passerelle clé permettant de déplacer des données dans [!DNL Audience Manager].
 
-Le centre de données [!DNL Audience Manager] Edge comprend :
+Le centre de données Edge [!DNL Audience Manager] comprend :
 
-* **Serveurs principaux :** Ce sont les principaux [!DNL Audience Manager] systèmes. Ils mettent à jour et fournissent des données aux serveurs Edge.
+* **Serveurs principaux :** il s’agit des  [!DNL Audience Manager] systèmes principaux. Ils mettent à jour et fournissent des données aux serveurs Edge.
 
-* **Serveurs Edge :** Il s’agit généralement de serveurs d’applications et/ou Web. Ils s&#39;assoient à la frontière entre [!DNL Audience Manager] et Internet. Les serveurs Edge, tels que les systèmes [!DNL DCS] ou Akamai, gèrent généralement les données et les requêtes entrant et sortant [!DNL Audience Manager].
+* **Serveurs Edge : il s’agit** généralement de serveurs d’applications et/ou Web. Ils se trouvent à la frontière entre [!DNL Audience Manager] et Internet. Les serveurs Edge, tels que les systèmes [!DNL DCS] ou Akamai, gèrent généralement les données et les requêtes qui s&#39;enchaînent à [!DNL Audience Manager] ou en sortent.
 
-* **Équilibrages de charge :** Gérez les exigences inégales en matière de traitement et d&#39;informatique inhérentes aux applications Internet. Ces équilibreurs empêchent les clusters de serveurs d’être surchargés tandis que d’autres restent inactifs.
+* **Équilibrage de charge :** gérez les exigences inégales en matière de calcul et de traitement inhérentes aux applications Internet. Ces équilibreurs empêchent les clusters de serveurs d’être surchargés tandis que d’autres restent inactifs.
 
 Le diagramme suivant illustre l&#39;environnement du centre de données du périmètre de l&#39;Audience Manager.
 
@@ -43,4 +43,4 @@ Le diagramme suivant illustre l&#39;environnement du centre de données du péri
 
 ## Répartition géographique et équilibrage de charge {#geo-dist-balance}
 
-Reportez-vous à la [!DNL DCS] section Composants [de](../../reference/system-components/components-data-collection.md)collecte de données.
+Voir la section [!DNL DCS] dans [Composants de collecte de données](../../reference/system-components/components-data-collection.md).
