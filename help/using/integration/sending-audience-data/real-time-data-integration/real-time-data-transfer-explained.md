@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Real-Time Data Transfer Process Described{#real-time-data-transfer-process-described}
+# Processus de transfert de données en temps réel décrit{#real-time-data-transfer-process-described}
 
 Présentation générale de la manière dont l’Audience Manager effectue des transferts de données en temps réel avec un fournisseur de contenu tiers.
 
@@ -31,7 +31,7 @@ Le processus d’intégration des données en temps réel fonctionne comme suit 
 
 1. Un utilisateur visite le site d’un client qui contient le code d’Audience Manager.
 1. Audience Manager charge un iframe et appelle notre [!UICONTROL Data Collection Server] ( [!DNL DCS]).
-1. Le serveur [!DNL DCS] appelle le serveur tiers (en temps réel) pour vérifier si le fournisseur dispose d’informations de segment sur l’utilisateur.
+1. [!DNL DCS] appelle le serveur tiers (en temps réel) pour vérifier si le fournisseur dispose d&#39;informations de segment sur l&#39;utilisateur.
 1. Le fournisseur de contenu renvoie à l’Audience Manager les informations de segment concernant cet utilisateur.
 1. L’Audience Manager reçoit ces informations de segment et les rend disponibles pour le ciblage et la création de nouvelles caractéristiques et de nouveaux segments.
 
