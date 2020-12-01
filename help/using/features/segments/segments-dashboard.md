@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # Affichage de la liste de segments {#segments-list-view}
 
-Le tableau de bord [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segments est un espace de travail centralisé pour la gestion de vos segments d’audience. Vous pouvez voir le [!UICONTROL Segments] tableau de bord en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+Le [tableau de bord Segments](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) est un espace de travail centralisé pour la gestion de vos segments d&#39;audience. Vous pouvez voir le tableau de bord [!UICONTROL Segments] en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![segments-tableau de bord](assets/segments-dashboard.png)
 
-La [!UICONTROL Segments] page contient des fonctionnalités et des outils qui vous aident à :
+La page [!UICONTROL Segments] contient des fonctionnalités et des outils qui vous aident à :
 
 * Créer de nouveaux segments ;
 * Modifier et supprimer des segments ;
