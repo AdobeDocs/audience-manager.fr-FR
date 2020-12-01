@@ -21,22 +21,22 @@ Avant qu’Audience Manager puisse activer Audience Optimization pour les édi
 
 ## Conditions préalables pour l&#39;importation du journal Google Ad Manager {#prereqs-dfp-ingestion}
 
-Notez que le processus décrit dans cette section doit être terminé *avant* de passer aux conditions préalables à l&#39;importation des journaux.
+Notez que le processus décrit dans cette section doit être terminé *avant* que vous passez aux conditions préalables pour l&#39;activation de l&#39;assimilation des journaux.
 
-Pour utiliser les fichiers journaux [!DNL Google Ad Manager] (anciennement Google DFP) dans [!DNL Audience Manager], vous devez d’abord définir notre identifiant d’utilisateur unique [Audience Manager (UUID)](../../../reference/ids-in-aam.md) dans l’appel de balise publicitaire. Ce faisant, notre ID est inclus dans les [!DNL Google Ad Manager] journaux et nous pouvons faire correspondre les ID entre [!DNL Google Ad Manager] et [!DNL Audience Manager]. Utilisez [!DNL Audience Manager] le [!UICONTROL DIL] code ou [!UICONTROL Audience Management Module] le pour définir l’ [!DNL Audience Manager] UUID dans un cookie propriétaire.
+Pour utiliser les fichiers journaux [!DNL Google Ad Manager] (anciennement Google DFP) dans [!DNL Audience Manager], vous devez d’abord définir notre [identifiant utilisateur unique d’Audience Manager (UUID)](../../../reference/ids-in-aam.md) dans l’appel de balise d’annonce. Ce faisant, notre ID est inclus dans les journaux [!DNL Google Ad Manager] et nous pouvons faire correspondre les ID entre [!DNL Google Ad Manager] et [!DNL Audience Manager]. Utilisez le code [!DNL Audience Manager] [!UICONTROL DIL] ou [!UICONTROL Audience Management Module] pour définir l&#39;UUID [!DNL Audience Manager] dans un cookie propriétaire.
 
-Voici comment définir l’ [!DNL Audience Manager] identifiant dans l’appel de balise d’annonce, comme expliqué dans notre documentation :
+Voici comment définir l&#39;ID [!DNL Audience Manager] dans l&#39;appel de balise publicitaire, comme expliqué dans notre documentation :
 
 * [Via la balise Google Publisher (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Via une destination de cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-Vous devez définir vous-même l&#39; [!DNL Audience Manager] ID et vous pouvez travailler avec [!DNL Audience Manager] un consultant pour vérifier si tout fonctionne. Vous avez correctement défini l’ [!DNL Audience Manager] identifiant si :
+Vous devez définir vous-même l&#39;ID [!DNL Audience Manager] et vous pouvez travailler avec [!DNL Audience Manager] consultant pour vérifier si tout fonctionne. Vous avez correctement défini l&#39;ID [!DNL Audience Manager] si :
 
 * `'aamid'` est la clé utilisée comme identifiant.
-* La valeur ID utilisateur est correctement formatée en tant qu’ [!DNL Audience Manager] UUID, comme décrit dans notre [Index d’ID en Audience Manager](../../../reference/ids-in-aam.md).
-* Vous avez inclus l’ [!DNL Audience Manager] UUID dans un champ défini de vos [!DNL Google Ad Manager] journaux (par exemple, Ciblage personnalisé).
+* La valeur de l&#39;ID utilisateur est correctement formatée en tant que [!DNL Audience Manager] UUID, comme décrit dans notre [index des ID dans Audience Manager](../../../reference/ids-in-aam.md).
+* Vous avez inclus l&#39;[!DNL Audience Manager] UUID dans un champ défini de vos journaux [!DNL Google Ad Manager] (par exemple, Ciblage personnalisé).
 
-## Conditions préalables pour l&#39;activation de la journalisation des embouteillages {#prereqs-ingestion-enablement}
+## Conditions préalables pour l&#39;activation de l&#39;importation de journal {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
@@ -49,14 +49,14 @@ Vous devez définir vous-même l&#39; [!DNL Audience Manager] ID et vous pouvez 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Étape 1 </p> </td> 
-   <td colname="col2"> <p>Confirmer que les étapes requises pour définir l'UUID <span class="keyword"> Audience Manager</span> (décrite ci-dessus) ont été effectuées avant de passer à l'étape 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> du service à la clientèle ou du conseil </p> </td> 
+   <td colname="col2"> <p>Confirmez que les étapes requises pour définir l'Audience Manager <span class="keyword"> </span> UUID (décrites ci-dessus) ont été effectuées avant de passer à l'étape 2. </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience </span> ManagerAssistance clientèle ou conseil </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Étape 2 </p> </td> 
    <td colname="col2"> <p>Votre administrateur Google Ad Manager crée : </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un compte de service pour l’importation de Google Ad Manager se connecte à <span class="keyword"> l’Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un compte de service pour ingérer Google Ad Manager se connecte à <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Nouvelles informations d’identification. <p>Remarque :  Cela peut nécessiter une adresse de messagerie unique spécifique à ce projet et sera utilisé lors de l'attribution de l'accès au compartiment d'Enregistrements Google. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Clé privée (informations d’identification JSON) </li> 
      </ol> </p> </td> 
@@ -91,4 +91,4 @@ Vous devez définir vous-même l&#39; [!DNL Audience Manager] ID et vous pouvez 
 
 ## Modèle de courrier électronique {#email-template}
 
-Pour finaliser l&#39;activation de l&#39;assimilation des journaux, envoyez-nous un courriel à aamsupport@adobe.com. Veuillez utiliser le modèle [de courrier électronique](assets/enable_dfp_ingestion.txt)ci-joint.
+Pour finaliser l&#39;activation de l&#39;assimilation des journaux, envoyez-nous un courriel à aamsupport@adobe.com. Veuillez utiliser le [modèle de courriel ](assets/enable_dfp_ingestion.txt) ci-joint.
