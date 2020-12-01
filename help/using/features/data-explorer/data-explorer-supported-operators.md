@@ -28,18 +28,18 @@ Utilisez les opérateurs logiques pris en charge suivants pour rechercher des pa
 |---|---|
 | **==** | Égal à |
 | **>** | Supérieur à |
-| **&lt;** | Inférieur à |
+| **&lt;>** | Inférieur à |
 | **=>** | Supérieur/égal à |
-| **&lt;=** | Inférieur/égal à |
+| **&lt;>** | Inférieur/égal à |
 
 ### Opérateurs nommés
 
-| Opérateur | Évaluer à [!DNL True] quel moment |
+| Opérateur | Evalue sur [!DNL True] Lorsque |
 |---|---|
-| **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient* des caractères spécifiés par cet opérateur. |
-| **[!UICONTROL Startswith]** | Valeur d’une paire clé-valeur *débuts avec* des caractères spécifiés par cet opérateur. |
-| **[!UICONTROL Endswith]** | La valeur d’une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient* caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Startswith]** | Valeur d’une paire clé-valeur *débuts contenant* caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Endswith]** | La valeur d&#39;une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
 
 ## Opérateurs pris en charge pour le renvoi et l&#39;estimation des caractéristiques {#supported-operators-backfilling}
 
-Vous pouvez renvoyer les caractéristiques qui incluent des expressions contenant l’un des opérateurs pris en charge par [!UICONTROL Signal Search]. Outre ces opérateurs, le renvoi et l&#39;estimation des caractéristiques prennent également en charge les opérateurs [!UICONTROL AND], [!UICONTROL OR]et [!UICONTROL AND NOT] logiques, utilisés pour combiner des paires clé-valeur dans les expressions de caractéristiques renvoyées.
+Vous pouvez renvoyer des caractéristiques qui incluent des expressions contenant n’importe quel opérateur pris en charge par [!UICONTROL Signal Search]. En plus de ces opérateurs, le renvoi et l&#39;estimation des caractéristiques prennent également en charge les opérateurs logiques [!UICONTROL AND], [!UICONTROL OR] et [!UICONTROL AND NOT] utilisés pour combiner des paires clé-valeur dans les expressions de caractéristiques renvoyées.
