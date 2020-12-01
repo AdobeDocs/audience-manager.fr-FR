@@ -17,19 +17,19 @@ ht-degree: 12%
 
 # Exemple d’expressions avec des opérateurs booléens et de comparaison {#sample-expressions-with-boolean-and-comparison-operators}
 
-Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de [!UICONTROL Expression Builder] code.
+Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de code [!UICONTROL Expression Builder].
 
 ## Présentation des exemples de code {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Créez vos propres règles de caractéristiques avec l’éditeur de [!UICONTROL Expression Builder] code. Les exemples suivants peuvent vous aider à démarrer. Certains des exemples préfacent la *`key`* variable avec `c_` pour l’identifier comme variable définie par l’utilisateur. Incluez le `c_` préfixe (ou toute autre convention d’affectation de nom) pour *`key`* la variable si vos appels de événement envoient des données à [!DNL Audience Manager] l’aide de cette syntaxe.
+Créez vos propres règles de caractéristiques avec l&#39;éditeur de code [!UICONTROL Expression Builder]. Les exemples suivants peuvent vous aider à démarrer. Certains des exemples présentent la variable *`key`* avec `c_` pour l’identifier comme variable définie par l’utilisateur. Incluez le préfixe `c_` (ou toute autre convention d’affectation de nom) pour la variable *`key`* si vos appels de événement envoient des données à [!DNL Audience Manager] à l’aide de cette syntaxe.
 
 ## Expressions booléennes {#boolean-expressions}
 
 ### Exemple ET
 
-La règle établit les exigences de qualification des caractéristiques à l’aide [!UICONTROL AND] d’opérateurs booléens.
+La règle établit les exigences de qualification des caractéristiques à l&#39;aide d&#39;opérateurs booléens [!UICONTROL AND].
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -52,7 +52,7 @@ La règle établit les exigences de qualification des caractéristiques à l’a
 
 ### Exemple OU
 
-Cette règle établit les exigences de qualification des caractéristiques à l’aide [!DNL Boolean][!UICONTROL OR] et [!UICONTROL AND] des opérateurs.
+Cette règle établit les exigences de qualification des caractéristiques en utilisant les opérateurs [!DNL Boolean] [!UICONTROL OR] et [!UICONTROL AND].
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
