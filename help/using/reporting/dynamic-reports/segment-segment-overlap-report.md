@@ -21,7 +21,7 @@ Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos 
 
 >[!NOTE]
 >
->Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous ne pouvez afficher que les segments provenant des sources de données auxquelles vous avez accès en fonction du groupe [d’utilisateurs](/help/using/features/administration/administration-overview.md) RBAC auquel vous appartenez.
+>Les rapports de chevauchement en Audience Manager respectent les principes du CCRAC. Vous ne pouvez afficher que les segments provenant des sources de données auxquelles vous avez accès en fonction du [groupe d’utilisateurs RBAC](/help/using/features/administration/administration-overview.md) auquel vous appartenez.
 
 <!-- 
 
@@ -31,18 +31,18 @@ c_segment_segment_overlap.xml
 
 ## Présentation
 
-Le [!UICONTROL Segment-to-Segment Overlap] rapport peut vous aider à :
+Le rapport [!UICONTROL Segment-to-Segment Overlap] peut vous aider à :
 
 * Identifiez les segments présentant un chevauchement élevé ou faible, en fonction de vos besoins. Les caractéristiques avec un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un faible chevauchement peuvent s’avérer utiles pour atteindre un ensemble de visiteurs unique plus grand.
 * Recherchez les chevauchements inattendus et utilisez ces informations pour créer de nouveaux segments hautes performances.
 
 ## Exemple de rapport
 
-L’illustration suivante présente un aperçu général du [!UICONTROL Segment-to-Segment Overlap] rapport.
+L’illustration suivante présente un aperçu général du rapport [!UICONTROL Segment-to-Segment Overlap].
 
 >[!NOTE]
 >
->Le [!UICONTROL Segment-to-Segment Overlap] rapport renvoie un champ vide lorsqu’il compare le même segment à lui-même.
+>Le rapport [!UICONTROL Segment-to-Segment Overlap] renvoie un champ vide lorsqu&#39;il compare le même segment à lui-même.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -50,7 +50,7 @@ L’illustration suivante présente un aperçu général du [!UICONTROL Segment-
 
 Sélectionnez un point individuel pour accéder aux détails des données de vue dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
 
-## Définition des champs contextuels de données de chevauchement segment-à-segment {#fields-defined}
+## Champs de fenêtres contextuelles de données de chevauchement segment-à-segment définis {#fields-defined}
 
 <!-- 
 
@@ -58,7 +58,7 @@ r_s2s_data_pop.xml
 
  -->
 
-La fenêtre contextuelle du [!UICONTROL Segment-to-Segment Overlap] rapport contient les mesures ci-dessous. Notez que les mesures uniques du tableau représentent vos utilisateurs ** en temps réel.
+La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Segment Overlap] contient les mesures ci-dessous. Notez que la mesure unique dans le tableau représente vos *utilisateurs en temps réel*.
 
 | Mesure | Description |
 |---|---|
