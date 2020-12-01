@@ -17,39 +17,39 @@ ht-degree: 7%
 
 # Création d’une destination GPT {#create-a-gpt-destination}
 
-Vous pouvez envoyer des segments qualifiés vers [!DNL Google Ad Manager] via une intégration côté client (côté navigateur) ou une intégration côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur les cookies pour [!DNL Google Publisher Tags] en Audience Manager.
+Vous pouvez envoyer des segments qualifiés à [!DNL Google Ad Manager] via une intégration côté client (côté navigateur) ou côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur un cookie pour [!DNL Google Publisher Tags] en Audience Manager.
 
 ## Destinations 
 
-In Audience Manager, a *`destination`* is any other system (ad server, [!DNL DSP], ad network, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination des Audiences Manager se trouvent dans *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]**et suivez les étapes ci-dessous.
+En Audience Manager, un *`destination`* correspond à tout autre système (serveur publicitaire, [!DNL DSP], réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctions de destination de l&#39;Audience Manager se trouvent dans *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
 
 ## Informations fondamentales
 
-Pour compléter la [!UICONTROL Basic Information] section :
+Pour compléter la section [!UICONTROL Basic Information] :
 
 1. Nommez la destination.
-1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
-1. Cliquez sur **[!UICONTROL Next]** et passez aux [!UICONTROL Configuration] et [!UICONTROL Segment Mappings] sections.
+1. Sélectionnez **[!UICONTROL "Cookie"]** dans la liste déroulante [!UICONTROL Type].
+1. Cliquez sur **[!UICONTROL Next]** et passez aux sections [!UICONTROL Configuration] et [!UICONTROL Segment Mappings].
 
 ## Configuration des cookies
 
-Fournissez les informations suivantes pour remplir la [!UICONTROL Configuration] section (les autres champs sont facultatifs) :
+Fournissez les informations suivantes pour compléter la section [!UICONTROL Configuration] (les autres champs sont facultatifs) :
 
-1. **Nom du cookie :** Donnez un nom court et descriptif à votre cookie.
-1. **Format des données :** Sélectionnez l’ **[!UICONTROL "Single Key"]** option.
-1. **Clé :** Indiquez un nom de clé.
-1. **Sérialiser :** Cochez la **[!UICONTROL Enable]** case.
-1. **Délimiteur série :** Utilisez une virgule uniquement.
+1. **Nom du cookie :** attribuez un nom court et descriptif à votre cookie.
+1. **Format des données :** sélectionnez l’ **[!UICONTROL "Single Key"]** option.
+1. **Clé :** indiquez un nom de clé.
+1. **Sérialiser :** cochez la  **[!UICONTROL Enable]** case.
+1. **Délimiteur de série :** utilisez une virgule uniquement.
 
 ## Mappages de segments
 
 Pour ajouter un segment à une destination de cookie :
 
-1. Rechercher des segments : La [!UICONTROL Segment Mappings] section fournit deux outils de recherche pour aider à localiser les segments. Pour rechercher un segment :
+1. Rechercher des segments : La section [!UICONTROL Segment Mappings] fournit deux outils de recherche pour aider à localiser les segments. Pour rechercher un segment :
 
    * Option 1 : Début de saisie du nom d’un segment dans le champ de recherche. Le champ est automatiquement mis à jour en fonction du texte saisi. Cliquez sur **[!UICONTROL Add]** une fois que vous avez trouvé le segment à utiliser.
-   * Option 2 : Cliquez sur **[!UICONTROL Browse All Segments]** pour ouvrir une fenêtre qui vous permet de rechercher des segments par nom ou emplacement d’enregistrement. Cliquez **[!UICONTROL Add Selected Segments]** une fois terminé.
+   * Option 2 : Cliquez sur **[!UICONTROL Browse All Segments]** pour ouvrir une fenêtre qui vous permet de rechercher des segments par nom ou emplacement d’enregistrement. Cliquez sur **[!UICONTROL Add Selected Segments]** lorsque vous avez terminé.
 
-1. **Mappages des Ajoutes :** Dans la fenêtre Mappages, saisissez l’identifiant du segment dans le champ Mappages, puis cliquez sur **[!UICONTROL Save]**.
+1. **Mappages des Ajoutes :** dans la fenêtre Mappages, saisissez l’identifiant du segment dans le champ Mappages, puis cliquez sur  **[!UICONTROL Save]** Mappages.
 
 1. Cliquez sur **[!UICONTROL Done]**.
