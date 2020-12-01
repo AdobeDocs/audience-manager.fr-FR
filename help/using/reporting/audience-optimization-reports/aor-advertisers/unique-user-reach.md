@@ -25,7 +25,7 @@ Le rapport Portée de l’utilisateur unique vous permet de trouver l’annonceu
 >
 >Gardez à l’esprit que :
 >
->* Le [!UICONTROL Unique User Reach] rapport affiche des informations uniquement pour les utilisateurs disposant de niveaux [!UICONTROL Admin] d’autorisation. Votre [!DNL Audience Manager] conseiller ou le service d’assistance clientèle peut configurer votre compte avec [!UICONTROL Admin] des autorisations.
+>* Le rapport [!UICONTROL Unique User Reach] affiche des informations uniquement pour les utilisateurs disposant de niveaux d&#39;autorisation [!UICONTROL Admin]. Votre [!DNL Audience Manager] consultant ou service à la clientèle peut attribuer à votre compte des autorisations [!UICONTROL Admin].
    >
    >
 * Les périodes de 7 jours et 30 jours de recherche en arrière ne sont disponibles que pour le dimanche.
@@ -33,6 +33,6 @@ Le rapport Portée de l’utilisateur unique vous permet de trouver l’annonceu
 
 ## Exemple de rapport
 
-Votre [!UICONTROL Unique User Reach] rapport peut ressembler à celui qui suit. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes.
+Votre rapport [!UICONTROL Unique User Reach] peut ressembler à celui ci-dessous. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes.
 
 ![](assets/unique-user-reach.png)
