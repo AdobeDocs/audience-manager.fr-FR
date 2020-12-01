@@ -17,13 +17,13 @@ ht-degree: 6%
 
 # Migration du code de l’API Audience Manager {#audience-manager-api-code-migration}
 
-Ici, à l&#39;Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une [!DNL API] documentation fiable et précise. Par conséquent, nous réécrivons notre [!DNL API] contenu dans [!DNL Swagger] et le déplaçons vers un nouvel emplacement. Ces modifications sont conçues pour vous aider à améliorer votre expérience avec le code [!DNL API] d’Audience Manager.
+Ici, à l&#39;Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une documentation [!DNL API] fiable et précise. Par conséquent, nous réécrivons notre contenu [!DNL API] dans [!DNL Swagger] et nous le déplaçons vers un nouvel emplacement. Ces modifications sont conçues pour vous aider à améliorer votre expérience avec le code d&#39;Audience Manager [!DNL API].
 
-## Monter {#code-migration-details}
+## Movin&#39; On Up {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-Le site Docs [de l&#39;API](https://bank.demdex.com/portal/swagger/index.html) Adobe Audience Manager est la nouvelle page d&#39;accueil de notre [!DNL API] contenu révisé. Nous essaierons de réécrire et de déplacer quelques ensembles de [!DNL API] méthodes avec chaque version. Cela signifie que vous devrez archiver à la fois le nouvel emplacement et la documentation de l&#39;API [](../api/rest-api-main/rest-api-main.md) REST pour trouver toutes les méthodes disponibles. Finalement, tous les publics [!DNL API]seront sur le site [!DNL Audience Manager][!DNL API] des docs. Le tableau suivant liste les [!DNL API]rapports révisés et migrés.
+Le site [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) est le nouveau site d&#39;accueil de notre contenu [!DNL API] révisé. Nous essaierons de réécrire et de déplacer quelques ensembles de méthodes [!DNL API] avec chaque version. Cela signifie que vous devrez enregistrer à la fois le nouvel emplacement et la documentation [API REST](../api/rest-api-main/rest-api-main.md) pour trouver toutes les méthodes disponibles. En fin de compte, tous les [!DNL API]s publics seront sur le site [!DNL Audience Manager] [!DNL API] docs. Le tableau suivant liste les [!DNL API]s révisées et migrées.
 
 <!--
 
