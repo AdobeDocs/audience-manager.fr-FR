@@ -25,30 +25,30 @@ La comparaison de ces différents types de segments dans et entre les rapports p
 
 ## Cas d’utilisation {#use-cases}
 
-Grâce au [!UICONTROL Segment Performance] rapport, vous pouvez :
+Avec le rapport [!UICONTROL Segment Performance], vous pouvez :
 
 * Identifiez les segments d’audiences mappés qui génèrent de l’échelle ou des performances.
 * Identifiez les segments non mappés à introduire dans les campagnes futures, en fonction de la contribution d’une audience aux performances passées.
 
 ## Utilisation du rapport de performances des segments {#using-segment-performance-report}
 
-Basculez entre **[!UICONTROL Mapped]** et **[!UICONTROL Unmapped]** pour sélectionner les segments qui sont mappés ou non à une destination. Sélectionnez **[!UICONTROL All]** pour inclure tous vos segments dans le rapport.
+Basculez entre **[!UICONTROL Mapped]** et **[!UICONTROL Unmapped]** pour sélectionner les segments mappés ou non à une destination. Sélectionnez **[!UICONTROL All]** pour inclure tous vos segments dans le rapport.
 
-Utilisez les commandes Plage **de** jour et **Date jusqu’au début** pour ajuster la plage de recherche en amont. Notez que les périodes de 7 et 30 jours de recherche en arrière ne sont disponibles que pour les dates du dimanche.
+Utilisez les commandes **Plage de jour** et **Date jusqu&#39;à** pour ajuster la plage de recherche en amont. Notez que les périodes de 7 et 30 jours de recherche en arrière ne sont disponibles que pour les dates du dimanche.
 
-Utilisez la **[!UICONTROL Line Item]** liste déroulante pour sélectionner les propriétés Web pour lesquelles vous souhaitez renvoyer des informations.
+Utilisez la liste déroulante **[!UICONTROL Line Item]** pour sélectionner les propriétés Web pour lesquelles vous souhaitez renvoyer des informations.
 
-Dans la **[!UICONTROL Segment Data Source]** liste déroulante, sélectionnez les sources de données contenant les segments à afficher dans le rapport.
+Dans la liste déroulante **[!UICONTROL Segment Data Source]**, sélectionnez les sources de données contenant les segments à afficher dans le rapport.
 
-Utilisez la **[!UICONTROL Segment]** liste déroulante pour sélectionner les segments à afficher dans le rapport.
+Utilisez la liste déroulante **[!UICONTROL Segment]** pour sélectionner les segments à afficher dans le rapport.
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Line Item] que non pas en tant que [!UICONTROL Line Item ID].
+>Lorsque vous activez [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item IDs], comme décrit à l&#39;étape 3 de [Importer des fichiers de données Google Ad Manager (anciennement DFP) dans l&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous assurez ainsi que le rapport indique la propriété web sous la forme [!UICONTROL Line Item] au lieu de [!UICONTROL Line Item ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
-Votre [!UICONTROL Segment Performance] rapport peut ressembler à celui qui suit. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes. Voir la description des informations supplémentaires dans le tableau ci-dessous.
+Votre rapport [!UICONTROL Segment Performance] peut ressembler à celui ci-dessous. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes. Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -99,9 +99,9 @@ Pour lire le rapport, il est utile de diviser les résultats en quatre sections 
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## Comment lire les résultats des segments non mappés {#read-unmapped-segment}
+## Comment lire les résultats de votre segment non mappé {#read-unmapped-segment}
 
-La recherche de segments non mappés dans un [!UICONTROL Segment Performance] rapport constitue un excellent moyen de trouver de nouveaux segments que vous n’avez pas pris en compte pour le ciblage. En fait, certains de ces segments peuvent être plus performants que vos segments mappés.
+L’examen de segments non mappés dans un rapport [!UICONTROL Segment Performance] constitue un excellent moyen de trouver de nouveaux segments que vous n’avez pas pris en compte pour le ciblage. En fait, certains de ces segments peuvent être plus performants que vos segments mappés.
 
 Pour lire ce rapport, il est utile de diviser les résultats en quatre sections avec des lignes imaginaires (en rouge) et des catégories illustrées dans l&#39;exemple de rapport ci-dessous.
 
