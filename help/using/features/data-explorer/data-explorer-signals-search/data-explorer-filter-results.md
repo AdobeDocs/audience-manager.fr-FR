@@ -18,12 +18,12 @@ ht-degree: 6%
 
 Filtrez les résultats d&#39;une recherche de signal en fonction du type de signal.
 
-1. Accédez à [!UICONTROL Audience Data > Signals > Search] et exécutez une [!UICONTROL Signals Search] avec les paires clé-valeur souhaitées, ou une recherche plus large, à l’aide des filtres.
-1. Utilisez la **[!UICONTROL Filter by Signal Type]** section pour filtrer vos résultats selon les catégories suivantes :
+1. Accédez à [!UICONTROL Audience Data > Signals > Search] et exécutez [!UICONTROL Signals Search] avec les paires clé-valeur souhaitées, ou une recherche plus large, à l’aide des filtres.
+1. Utilisez la section **[!UICONTROL Filter by Signal Type]** pour filtrer vos résultats en fonction des catégories suivantes :
 
-   * **[!UICONTROL Actionable log files]**: les signaux reçus par le biais de fichiers [!DNL Google][!DNL DCM] journaux ;
-   * **[!DNL Adobe Analytics]**: signaux reçus de votre [!DNL Adobe Analytics] compte. Utilisez le menu **[!UICONTROL Filter by report suites]** déroulant pour sélectionner la suite de rapports à partir de laquelle afficher les signaux.
-   * **[!UICONTROL General online data]**: les données en temps réel générées par vos visiteurs et non incluses dans les fichiers journaux et [!DNL Adobe Analytics];
-   * **[!UICONTROL Onboarded records]**: données reçues par le biais de transferts de données par lot. Utilisez le menu **[!UICONTROL Filter by data source]** déroulant pour sélectionner la source de données à partir de laquelle afficher les signaux.
+   * **[!UICONTROL Actionable log files]**: les signaux reçus au moyen de fichiers  [!DNL Google] [!DNL DCM] journaux ;
+   * **[!DNL Adobe Analytics]**: signaux reçus de votre  [!DNL Adobe Analytics] compte. Utilisez le menu déroulant **[!UICONTROL Filter by report suites]** pour sélectionner la suite de rapports à partir de laquelle afficher les signaux.
+   * **[!UICONTROL General online data]**: les données en temps réel générées par vos visiteurs et non incluses dans les fichiers journaux et  [!DNL Adobe Analytics];
+   * **[!UICONTROL Onboarded records]**: données reçues par le biais de transferts de données par lot. Utilisez le menu déroulant **[!UICONTROL Filter by data source]** pour sélectionner la source de données à partir de laquelle afficher les signaux.
 
-1. Vous pouvez éventuellement [enregistrer des critères](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) de recherche pour une utilisation ultérieure.
+1. Vous pouvez éventuellement [Enregistrer les critères de recherche](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) pour une utilisation ultérieure.
