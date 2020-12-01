@@ -29,7 +29,7 @@ Ces éléments identifient les options de code et les variables utilisées dans 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Les variables s’affichent en <i>italique</i>. Remplacez la valeur appropriée pour le nom de la variable. </p> <p>Pour plus de clarté visuelle, il arrive que des variables et d’autres éléments de code apparaissent entre &lt; &gt; crochets. Il n’est pas nécessaire d’utiliser ces symboles dans votre code. </p> </td> 
+   <td colname="col2"> <p>Les variables apparaissent en <i>italique</i>. Remplacez la valeur appropriée pour le nom de la variable. </p> <p>Pour plus de clarté visuelle, il arrive que des variables et d’autres éléments de code apparaissent entre &lt; &gt; crochets. Il n’est pas nécessaire d’utiliser ces symboles dans votre code. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -37,7 +37,7 @@ Ces éléments identifient les options de code et les variables utilisées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Les éléments entre parenthèses indiquent un choix booléen <span class="wintitle"> OU</span> . </p> </td> 
+   <td colname="col2"> <p>Les éléments entre parenthèses indiquent un choix booléen <span class="wintitle"> OU</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
