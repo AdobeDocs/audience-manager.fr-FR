@@ -1,6 +1,6 @@
 ---
-description: Contient de la documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide.
-seo-description: Contient de la documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide.
+description: Contient une documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide.
+seo-description: Contient une documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide.
 seo-title: 'Référence '
 solution: Audience Manager
 title: 'Référence '
