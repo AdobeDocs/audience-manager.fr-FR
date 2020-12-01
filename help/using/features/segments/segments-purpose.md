@@ -17,11 +17,11 @@ ht-degree: 6%
 
 # Segments : objectif, composition et règles {#segments-purpose-composition-and-rules}
 
-Décrit [!UICONTROL segments]leurs parties constituantes et crée des règles avec [!UICONTROL Segment Builder].
+Décrit [!UICONTROL segments], leurs parties constituantes et la création de règles avec [!UICONTROL Segment Builder].
 
-## Objectif [!UICONTROL Segments]
+## Objectif de [!UICONTROL Segments]
 
-A *`segment`* (or an *`audience`*) is a set of users who share common attributes. En Audience Manager, vous créez [!UICONTROL segments] avec des règles côté serveur. Ces règles vous permettent de créer des groupes d&#39;audiences en fonction des attributs du visiteur du site, tels que :
+Un *`segment`* (ou un *`audience`*) est un ensemble d&#39;utilisateurs qui partagent des attributs communs. En Audience Manager, vous créez [!UICONTROL segments] avec des règles côté serveur. Ces règles vous permettent de créer des groupes d&#39;audiences en fonction des attributs du visiteur du site, tels que :
 
 * Comportement;
 * Données démographiques (âge, sexe, revenu, etc.);
@@ -29,27 +29,27 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 
 ## [!UICONTROL Segment] Composition
 
-Une Audience Manager [!UICONTROL segment] est une règle côté serveur qui comprend des caractéristiques individuelles ou des groupes de caractéristiques. Les caractéristiques sont composées d’éléments de données appelés paires clé-valeur. Outre les règles que vous définissez au [!UICONTROL segment] niveau, ces paires clé-valeur contiennent les critères qui qualifient les visiteurs pour les caractéristiques et l’ [!UICONTROL segment] appartenance.
+Une Audience Manager [!UICONTROL segment] est une règle côté serveur qui comprend des groupes ou des individus de caractéristiques. Les caractéristiques sont composées d’éléments de données appelés paires clé-valeur. Outre les règles que vous définissez au niveau [!UICONTROL segment], ces paires clé-valeur contiennent les critères qui permettent aux visiteurs de bénéficier d’une caractéristique et d’une appartenance [!UICONTROL segment].
 
-## Considérations sur le [!UICONTROL Adobe Analytics][!UICONTROL Segment] mappage
+## Considérations sur le mappage [!UICONTROL Adobe Analytics] [!UICONTROL Segment]
 
-Lors du mappage des suites de rapports [!UICONTROL segments] ou Analytics Adobe à votre organisation Experience Cloud, l’Audience Manager crée automatiquement de nouvelles caractéristiques, correspondantes, en lecture seule [!UICONTROL segments] et en lecture seule. Vous ne pouvez pas modifier ou modifier l’emplacement d’enregistrement de ces [!UICONTROL segments] Audiences Manager. Toutefois, toute modification que vous effectuez sur votre Analytics Adobe mappé [!UICONTROL segments] ou vos suites de rapports est répercutée dans l’Audience Manager.
+Lorsque vous mappez des suites de rapports ou Adobe Analytics [!UICONTROL segments] à votre organisation Experience Cloud, l’Audience Manager crée automatiquement de nouvelles caractéristiques, correspondantes, en lecture seule [!UICONTROL segments] et des caractéristiques. Vous ne pouvez pas modifier ou modifier l&#39;emplacement d&#39;enregistrement de ces [!UICONTROL segments] à partir de l&#39;Audience Manager. Toutefois, toute modification que vous effectuez sur votre Adobe Analytics [!UICONTROL segments] mappée ou vos suites de rapports se reflète dans l’Audience Manager.
 
 >[!TIP]
 >
->L&#39;Audience Manager [!UICONTROL segments] est différente de [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/fr-FR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
+>L&#39;Audience Manager [!UICONTROL segments] est différente de [!DNL Adobe Analytics] [!UICONTROL segments]. Consultez [Présentation des segments dans Analytics et l’Audience Manager](https://docs.adobe.com/content/help/fr-FR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour obtenir une description détaillée des différences.
 
-## Créer des règles basées sur [!UICONTROL Segments] des [!UICONTROL Segment Builder]
+## Créer des règles basées sur [!UICONTROL Segments] avec [!UICONTROL Segment Builder]
 
-Contrairement aux pixels traditionnels qui se déclenchent en réponse à de simples conditions oui/non, [!UICONTROL Segment Builder] vous permet de créer des [!UICONTROL segment] exigences complexes. Comme [!UICONTROL traits], [!UICONTROL segments] évaluez les données à l’aide d’ [!DNL Boolean] expressions ([!DNL AND], [!DNL OR], [!DNL NOT]), d’opérateurs de comparaison (supérieurs, inférieurs, égaux à, etc.) et de critères de récence/fréquence. Ces fonctionnalités vous aident à créer une audience ciblée [!UICONTROL segments] adaptée à vos besoins professionnels.
+Contrairement aux pixels traditionnels qui se déclenchent en réponse à de simples conditions oui/non, [!UICONTROL Segment Builder] vous permet de créer des exigences complexes [!UICONTROL segment]. Comme [!UICONTROL traits], [!UICONTROL segments] évaluent les données à l&#39;aide d&#39;expressions [!DNL Boolean] ([!DNL AND], [!DNL OR], [!DNL NOT]), d&#39;opérateurs de comparaison (supérieurs, inférieurs, égaux à, etc.) et de critères de récence/fréquence. Ces fonctionnalités permettent de créer une audience [!UICONTROL segments] ciblée adaptée à vos besoins professionnels.
 
 ## Avantages
 
 [!UICONTROL Segments] améliorez les processus standard de création/segmentation d’audiences basés sur les pixels, car ils vous permettent d’effectuer les opérations suivantes :
 
-* Créez des éléments pertinents et utiles [!UICONTROL segments] avec des caractéristiques propriétaires et tiers.
+* Créez des [!UICONTROL segments] pertinents et utiles avec des caractéristiques propriétaires et tiers.
 * Créez des règles de segmentation complexes avec des opérateurs booléens, des expressions de comparaison et des critères de récence/fréquence.
-* Envoyer [!UICONTROL segment] des données à un partenaire de destination.
+* Envoyer des données [!UICONTROL segment] à un partenaire de destination.
 * Surveillez les performances à l’aide de rapports d’Audience Manager.
 
 >[!MORELIKETHIS]
