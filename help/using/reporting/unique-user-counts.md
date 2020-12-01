@@ -1,7 +1,7 @@
 ---
 description: Décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même caractéristique et la même période.
-seo-description: Décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même caractéristique et la même période dans l’Adobe Audience Manager.
-seo-title: Comptage des utilisateurs uniques dans le chevauchement et les rapports généraux dans AAM
+seo-description: Décrit la variation des totaux d’utilisateurs uniques entre les rapports pour la même caractéristique et la même période dans Adobe Audience Manager.
+seo-title: Comptabilisation des utilisateurs uniques dans le chevauchement et les rapports généraux dans AAM
 solution: Audience Manager
 title: Comptage des utilisateurs uniques dans les rapports de chevauchement et les rapports généraux
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
@@ -30,8 +30,8 @@ c_unique_user_counts.xml
 Les rapports de chevauchement comptabilisent les utilisateurs comme uniques lorsqu’ils remplissent les critères d’une caractéristique :
 
 * Pendant l&#39;intervalle sélectionné pour le rapport.
-* La valeur de [durée de vie](../features/traits/segment-ttl-explained.md) est supérieure à l’intervalle sélectionné pour le rapport.
-* S’ils sont considérés comme actifs dans notre système (c.-à-d. qualifiés pour toute autre caractéristique, avec une synchronisation des identifiants, etc.) au cours des 60 derniers jours.
+* La valeur [time-to-live](../features/traits/segment-ttl-explained.md) est supérieure à l’intervalle sélectionné pour le rapport.
+* S&#39;ils sont considérés comme principaux dans notre système (c&#39;est-à-dire qu&#39;ils sont qualifiés pour toute autre caractéristique, qu&#39;ils ont une synchronisation des identifiants, etc.) au cours des 60 derniers jours.
 
 ## Rapport général : Nombre d’utilisateurs uniques
 
