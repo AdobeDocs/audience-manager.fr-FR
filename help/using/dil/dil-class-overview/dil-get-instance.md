@@ -1,7 +1,7 @@
 ---
-description: Récupère une instance DIL spécifique au partenaire.
+description: Récupère une instance de DIL spécifique au partenaire.
 keywords: audience manager api;aam api;audience manager apis;aam apis
-seo-description: Récupère une instance DIL spécifique au partenaire.
+seo-description: Récupère une instance de DIL spécifique au partenaire.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 # getDil{#getdil}
 
-Récupère une instance DIL spécifique au partenaire.
+Récupère une instance de DIL spécifique au partenaire.
 
 **Signature de fonction :** `getDil: function (partner, containerNSID) {}`
 
@@ -29,11 +29,11 @@ Récupère une instance DIL spécifique au partenaire.
 | Nom | Type | Description |
 |---|---|---|
 | `partner` | Chaîne | Nom du partenaire à rechercher. |
-| `containerNSID` | Entier | Les valeurs par défaut sont `0`. Le NSID du conteneur que vous recherchez. Facultatif. |
+| `containerNSID` | Entier | La valeur par défaut est `0`. Le NSID du conteneur que vous recherchez. Facultatif. |
 
 ## Réponse
 
-Une correspondance de partenaire et de conteneur NSID renvoie une [!UICONTROL DIL] instance spécifique au partenaire. S&#39;il n&#39;y a pas de correspondance, l&#39;API renvoie (ne renvoie pas) une erreur avec le message &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Une correspondance NSID de partenaire et de conteneur réussie renvoie une instance [!UICONTROL DIL] spécifique au partenaire. S&#39;il n&#39;y a aucune correspondance, l&#39;API renvoie (ne renvoie pas) une erreur avec le message &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;.
 
 ## Exemple de code
 
