@@ -17,9 +17,9 @@ ht-degree: 12%
 
 # Formatage des paires clé-valeur dans les appels DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Lors d’un appel, la fonction [!DNL DCS] accepte les données de valeur de clé dans un format standard ou sérialisé. Consultez cette section pour savoir comment formater les données de valeur de clé standard et sérialisées.
+Lors d’un appel, [!DNL DCS] accepte les données de valeur de clé dans un format standard ou sérialisé. Consultez cette section pour savoir comment formater les données de valeur de clé standard et sérialisées.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## Paires de valeurs clés standard et sérialisées {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
