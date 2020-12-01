@@ -27,7 +27,7 @@ c_reach_slider.xml
 
 **Définir une plage inférieure/supérieure pour les résultats du rapport avec les curseurs de données**
 
-Les curseurs de rapport vous permettent de définir des limites aux données renvoyées par un rapport interactif. Déplacez le curseur de gauche pour exclure les données sous une valeur spécifique. Déplacez le curseur de droite pour exclure les données au-dessus d’une valeur spécifique. Le rapport met à jour et renvoie des données qui se situent dans la plage souhaitée. Utilisez les curseurs pour :
+Les curseurs de rapport vous permettent de définir des limites aux données renvoyées par un rapport interactif. Déplacez le curseur de gauche pour exclure les données sous une valeur spécifique. Déplacez le curseur de droite pour exclure les données au-dessus d’une valeur spécifique. Le rapport met à jour et renvoie les données qui se situent dans la plage souhaitée. Utilisez les curseurs pour :
 
 * Réduire la quantité totale de données renvoyées par les rapports.
 * Concentrez-vous sur les caractéristiques ou les segments qui se situent dans une plage de tailles particulière.
