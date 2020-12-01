@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Paramètres facultatifs pour les destinations de cookie {#optional-settings-cookies}
 
-Dans [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contient les [!UICONTROL Cookie Domain] champs et [!UICONTROL Publish Data To] . Vous pouvez ainsi créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. [!UICONTROL Cookie Domain] et [!UICONTROL Publish Data To] travaillent indépendamment les uns des autres et sont facultatifs. Vous pouvez créer une destination de cookie sans les utiliser.
+Dans [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contient les champs [!UICONTROL Cookie Domain] et [!UICONTROL Publish Data To]. Vous pouvez ainsi créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. [!UICONTROL Cookie Domain] et  [!UICONTROL Publish Data To] travaillent indépendamment les uns des autres et sont facultatifs. Vous pouvez créer une destination de cookie sans les utiliser.
 
 ## Domaine du cookie : Syntaxe et exemples {#cookie-domain-syntax}
 
@@ -32,27 +32,27 @@ Dans [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contie
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Syntaxe</b> </p> </td> 
-   <td colname="col2"> <p>Le champ Domaine <span class="wintitle"> du</span> cookie accepte une chaîne de texte simple qui vous permet de définir des cookies sur un domaine spécifié ou sur tous les domaines. Lors de l’utilisation de cette fonctionnalité : </p> <p> 
+   <td colname="col2"> <p>Le champ <span class="wintitle"> Domaine du cookie</span> accepte une chaîne de texte simple qui vous permet de définir des cookies sur un domaine spécifié ou sur tous les domaines. Lors de l’utilisation de cette fonctionnalité : </p> <p> 
      <ul id="ul_473CB59F2C0C4B358201BE5C8B27D73D"> 
-      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Définissez un seul domaine pour chaque destination de cookie. N’entrez pas plusieurs domaines dans le champ Domaine <span class="wintitle"> du</span> cookie. Créez plutôt une autre <span class="wintitle"> destination</span> . </li> 
+      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Définissez un seul domaine pour chaque destination de cookie. N’entrez pas plusieurs domaines dans le champ <span class="wintitle"> Domaine du cookie</span>. Créez plutôt une autre <span class="wintitle"> destination</span>. </li> 
       <li id="li_AEBF5C5F3C264C5EA4A2A6063C3F377D">N’utilisez pas de caractères génériques. </li> 
-     </ul> </p> <p> Laissez le champ Domaine <span class="wintitle"> du</span> cookie vide pour définir un cookie sur tous les domaines. Il s’agit du paramètre par défaut. </p> <p>Pour définir des cookies sur un domaine et sous-domaines spécifiques : </p> <p> 
+     </ul> </p> <p> Laissez le champ <span class="wintitle"> Domaine du cookie</span> vide pour définir un cookie sur tous les domaines. Il s’agit du paramètre par défaut. </p> <p>Pour définir des cookies sur un domaine et sous-domaines spécifiques : </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
-      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Entrez le nom du domaine dans le champ Domaine <span class="wintitle"> du</span> cookie. </li> 
+      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Tapez le nom du domaine dans le champ <span class="wintitle"> Domaine du cookie</span>. </li> 
       <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Début le nom de domaine avec un point. Par exemple, <code> .somedomain.com</code>. </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">Le préfixe <code> https://www</code> n'est pas requis. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exemple</b> </p> </td> 
-   <td colname="col2"> <p>En guise d'exemple, supposons que nous ayons un site fictif appelé sports.com. Sports.com a des domaines pour le golf, le baseball et le football. Pour définir un cookie dans tous les domaines sportifs, saisissez-le dans la zone Domaine <span class="wintitle"> du</span> cookie, comme indiqué ci-dessous : </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Cela indique à <span class="keyword"> l’Audience Manager</span> de définir un cookie dans tout domaine qui contient le modèle <code><i>something</i></code>.sports.com. Pour obtenir un ensemble d’exemples plus complexe, voir ci-dessous. </p> </td> 
+   <td colname="col2"> <p>En guise d'exemple, supposons que nous ayons un site fictif appelé sports.com. Sports.com a des domaines pour le golf, le baseball et le football. Pour définir un cookie dans tous les domaines sportifs, vous devez le saisir dans la zone <span class="wintitle"> Domaine du cookie</span> comme indiqué ci-dessous : </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Cela indique à <span class="keyword"> l'Audience Manager</span> de définir un cookie dans tout domaine contenant le modèle <code><i>something</i></code>.sports.com. Pour obtenir un ensemble d’exemples plus complexe, voir ci-dessous. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Exemples de domaines de cookies complexes
 
-Ces exemples vous montrent si [!DNL Audience Manager] vous allez définir un cookie en fonction de la configuration de l’ [!UICONTROL Cookie Domain] option.
+Ces exemples montrent si [!DNL Audience Manager] va définir un cookie en fonction de la configuration de l&#39;option [!UICONTROL Cookie Domain].
 
 <table id="table_3A7B9479CDA6493FA8104D8D9841E914"> 
  <thead> 
@@ -91,13 +91,13 @@ Ces exemples vous montrent si [!DNL Audience Manager] vous allez définir un coo
  </tbody> 
 </table>
 
-## Publier les données vers {#publish-data-to}
+## Publier les données dans {#publish-data-to}
 
-Les [!UICONTROL Publish Data To] paramètres renvoient un cookie si le domaine répond aux critères définis par les options sélectionnées. Les options incluent :
+Les paramètres [!UICONTROL Publish Data To] renvoient un cookie si le domaine répond aux critères définis par les options sélectionnées. Les options incluent :
 
-* **[!UICONTROL All of our domains]**: (Valeur par défaut) Renvoie une valeur [!DNL cookie] pour tout domaine.
+* **[!UICONTROL All of our domains]**: (Valeur par défaut) Renvoie une valeur  [!DNL cookie] pour tout domaine.
 * **[!UICONTROL Only the selected domains]**: Renvoie un cookie uniquement pour les domaines sélectionnés dans la liste de domaines.
-* **[!UICONTROL All of our domains except the selected domains]**: Empêche les domaines sélectionnés de recevoir un [!DNL cookie]message. Tous les autres domaines peuvent recevoir un [!DNL cookie].
+* **[!UICONTROL All of our domains except the selected domains]**: Empêche les domaines sélectionnés de recevoir un  [!DNL cookie]message. Tous les autres domaines peuvent recevoir un [!DNL cookie].
 
 >[!MORELIKETHIS]
 >
