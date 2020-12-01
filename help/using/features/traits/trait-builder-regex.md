@@ -17,6 +17,6 @@ ht-degree: 9%
 
 # Utilisation d’expressions régulières dans le générateur de caractéristiques {#using-regular-expressions-in-trait-builder}
 
-Vous pouvez créer vos propres règles de caractéristiques à l’aide de l’éditeur de [!UICONTROL Trait Builder] code. Recherchez l’éditeur de code dans [!UICONTROL Traits > Add New > Rule-based > Trait Expression] et passez à [!UICONTROL Code View]. L’Audience Manager prend en charge tous les éléments d’expression régulière disponibles référencés dans le [!DNL Java Regular Expression Class Pattern]. Vous pouvez valider n’importe quelle expression régulière directement dans le [!DNL Expression Builder].
+Vous pouvez créer vos propres règles de caractéristiques à l’aide de l’éditeur de code [!UICONTROL Trait Builder]. Recherchez l’éditeur de code dans [!UICONTROL Traits > Add New > Rule-based > Trait Expression] et passez à [!UICONTROL Code View]. L&#39;Audience Manager prend en charge tous les éléments d&#39;expression standard disponibles référencés dans [!DNL Java Regular Expression Class Pattern]. Vous pouvez valider l&#39;une des expressions régulières directement dans [!DNL Expression Builder].
 
-Voir aussi Modèles [de classe d&#39;Expression standard](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)Java.
+Voir aussi [Modèles de classe d&#39;Expression régulière Java](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
