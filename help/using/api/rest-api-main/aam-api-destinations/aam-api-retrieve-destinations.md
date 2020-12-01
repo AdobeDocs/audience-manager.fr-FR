@@ -1,6 +1,6 @@
 ---
-description: Méthode GET qui renvoie la destination pour l’ID de destination spécifié.
-seo-description: Méthode GET qui renvoie la destination pour l’ID de destination spécifié.
+description: Méthode de GET qui renvoie la destination pour l’ID de destination spécifié.
+seo-description: Méthode de GET qui renvoie la destination pour l’ID de destination spécifié.
 seo-title: Renvoi d’une destination par un identifiant de destination
 solution: Audience Manager
 title: Renvoi d’une destination par un identifiant de destination
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Renvoi d’une destination par un identifiant de destination {#return-a-destination-by-destination-id}
 
-Méthode `GET` qui renvoie la destination pour le `destinationId`champ spécifié.
+Méthode `GET` qui renvoie la destination pour le `destinationId` spécifié.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -27,7 +27,7 @@ Méthode `GET` qui renvoie la destination pour le `destinationId`champ spécifi�
 
 >[!NOTE]
 >
->Pour remplir le `mappings` champ transmis `includeMappings=true` dans l’URL.
+>Pour renseigner la transmission de champ `mappings` dans `includeMappings=true` dans l’URL.
 
 ## Réponse
 
@@ -69,7 +69,7 @@ Méthode `GET` qui renvoie toutes les destinations pour le partenaire spécifié
 
 >[!NOTE]
 >
->* *(Facultatif)* Transmettez- `containsSegment=<sid>` le pour renvoyer un tableau de toutes les destinations mises en correspondance avec le segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
+>* *(Facultatif)* Transmettez-le  `containsSegment=<sid>` pour renvoyer un tableau de toutes les destinations mises en correspondance avec le segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
    >
    >
 * Ne renvoie pas l’objet de destination complet. Obtenez la destination par ordre de données si vous avez besoin d’un objet entièrement renseigné.
@@ -77,7 +77,7 @@ Méthode `GET` qui renvoie toutes les destinations pour le partenaire spécifié
 
 ### Paramètres de Requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient *toutes les* propriétés d’un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à la [!DNL API]. Voir Paramètres [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)facultatifs.
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d&#39;API qui renvoient les propriétés *all* pour un objet. Définissez ces options dans la chaîne de requête lorsque vous transmettez cette requête à [!DNL API]. Voir [Paramètres facultatifs](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -89,7 +89,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui 
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> Renvoie les résultats par numéro de page. débuts de numérotation à 0. </td>
+   <td colname="col2"> Renvoie les résultats par numéro de page. Débuts de numérotation à 0. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
@@ -144,7 +144,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui 
 
 ## Renvoyer un mappage de destination avec l’ID de mappage {#return-dest-mapping-id}
 
-Méthode `GET` qui renvoie un mappage de destination individuel basé sur le `mappingId`.
+Méthode `GET` qui renvoie un mappage de destination individuel basé sur `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -273,7 +273,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Retourner l&#39;historique des tâches de destination S2S et S2S en bloc {#return-job-history}
 
-Méthode `GET` qui renvoie des informations relatives à l’historique des tâches sortantes [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) et de [!UICONTROL S2S] destination en bloc.
+Méthode `GET` qui renvoie des informations relatives à l&#39;historique des tâches de destination [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) et [!UICONTROL S2S] en bloc.
 
 <!-- r_get_job_history.xml -->
 
@@ -281,7 +281,7 @@ Méthode `GET` qui renvoie des informations relatives à l’historique des tâc
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Paramètres de requête requis : `startDate` = *&lt;`epochtime`>* et `endDate` = *&lt;`epochtime`>*.
+Paramètres de requête requis : `startDate` = *&quot;a2/&quot;* et `endDate` = *&quot;a6/&quot;*.`epochtime``epochtime`
 
 ### Réponse
 
