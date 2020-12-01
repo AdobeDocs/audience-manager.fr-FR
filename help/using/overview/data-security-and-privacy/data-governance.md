@@ -32,7 +32,7 @@ L’adresse [!DNL IP] d’un visiteur sur le site web d’un client est transmis
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
+>Voir [Obscurcissement d’adresse IP](../../features/administration/ip-obfuscation.md) pour savoir comment activer l’obscurcissement d’adresse [!DNL IP] dans l’interface utilisateur de l’Audience Manager.
 
 Regardez la vidéo ci-dessous pour comprendre comment fonctionne l’obscurcissement des adresses [!DNL IP] dans Audience Manager.
 
