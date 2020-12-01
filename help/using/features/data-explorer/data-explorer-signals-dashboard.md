@@ -1,6 +1,6 @@
 ---
-description: Obtenez un aperçu des signaux inutilisés reçus par l'Audience Manager au cours des 7 derniers jours et identifiez les nouvelles caractéristiques potentielles. Les signaux inutilisés atteignent l'Audience Manager de vos propriétés en ligne, mais ne sont utilisés dans aucune de vos caractéristiques existantes. Pour vue au Tableau de bord Signals, accédez à Audience Data > Signals. Le Tableau de bord Signaux vous montre des informations exploitables en fonction de vos signaux inutilisés les plus actifs.
-seo-description: Obtenez un aperçu des signaux inutilisés reçus par l'Audience Manager au cours des 7 derniers jours et identifiez les nouvelles caractéristiques potentielles. Les signaux inutilisés atteignent l'Audience Manager de vos propriétés en ligne, mais ne sont utilisés dans aucune de vos caractéristiques existantes. Pour vue au Tableau de bord Signals, accédez à Audience Data > Signals. Le Tableau de bord Signaux vous montre des informations exploitables en fonction de vos signaux inutilisés les plus actifs.
+description: Obtenez un aperçu des signaux inutilisés reçus par l'Audience Manager au cours des 7 derniers jours et identifiez les nouvelles caractéristiques potentielles. Les signaux inutilisés atteignent l'Audience Manager de vos propriétés en ligne, mais ne sont utilisés dans aucune de vos caractéristiques existantes. Pour vue au Tableau de bord Signals, accédez à Audience Data > Signals. Le Tableau de bord Signals vous présente des informations exploitables basées sur vos signaux les plus principaux et inutilisés.
+seo-description: Obtenez un aperçu des signaux inutilisés reçus par l'Audience Manager au cours des 7 derniers jours et identifiez les nouvelles caractéristiques potentielles. Les signaux inutilisés atteignent l'Audience Manager de vos propriétés en ligne, mais ne sont utilisés dans aucune de vos caractéristiques existantes. Pour vue au Tableau de bord Signals, accédez à Audience Data > Signals. Le Tableau de bord Signals vous présente des informations exploitables basées sur vos signaux les plus principaux et inutilisés.
 seo-title: Tableau de bord des signaux
 title: Tableau de bord des signaux
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
@@ -16,15 +16,15 @@ ht-degree: 2%
 
 # Tableau de bord des signaux {#signals-dashboard}
 
-Obtenez un aperçu des signaux inutilisés reçus par l&#39;Audience Manager au cours des 7 derniers jours et identifiez les nouvelles caractéristiques potentielles. Les signaux inutilisés atteignent l&#39;Audience Manager de vos propriétés en ligne, mais ne sont utilisés dans aucune de vos caractéristiques existantes. Pour vue le [!UICONTROL Signals Dashboard], cliquez sur [!UICONTROL Audience Data] > [!UICONTROL Signals]. Le [!UICONTROL Signals Dashboard] montre les informations exploitables en fonction de vos signaux inutilisés les plus actifs.
+Obtenez un aperçu des signaux inutilisés reçus par l&#39;Audience Manager au cours des 7 derniers jours et identifiez les nouvelles caractéristiques potentielles. Les signaux inutilisés atteignent l&#39;Audience Manager de vos propriétés en ligne, mais ne sont utilisés dans aucune de vos caractéristiques existantes. Pour vue à [!UICONTROL Signals Dashboard], accédez à [!UICONTROL Audience Data] > [!UICONTROL Signals]. Le [!UICONTROL Signals Dashboard] présente des informations exploitables basées sur vos signaux inutilisés les plus principaux.
 
 >[!IMPORTANT]
 >
->Les sections **[!UICONTROL Top Unused Signals]** et **[!UICONTROL New Unused Signals]** affichent uniquement les enregistrements contenant plus de **100 occurrences/heure**. Les signaux en dessous de ce seuil sont inclus dans [!UICONTROL Signals Search].
+>Les sections **[!UICONTROL Top Unused Signals]** et **[!UICONTROL New Unused Signals]** affichent uniquement les enregistrements contenant plus de **100 occurrences/heure**. Les signaux situés en dessous de ce seuil sont inclus dans [!UICONTROL Signals Search].
 
 ## Principaux signaux inutilisés {#top-unused-signals}
 
-Cette section présente les 50 principaux signaux inutilisés (nouveaux et anciens) envoyés [!DNL Audience Manager] au cours des 7 derniers jours, en fonction de leur nombre total. Selon les données [!DNL Audience Manager] reçues, ce tableau peut inclure certaines ou toutes les entrées de la table **Nouveaux signaux** inutilisés.
+Cette section présente les 50 principaux signaux inutilisés (nouveaux et anciens) envoyés à [!DNL Audience Manager] au cours des 7 derniers jours, en fonction de leur nombre total. Selon les données [!DNL Audience Manager] reçues, ce tableau peut inclure certaines ou toutes les entrées de la table **Nouveaux signaux inutilisés**.
 
 ![](assets/signals-top-unused.png)
 
@@ -36,9 +36,9 @@ Cette section présente les 50 nouveaux signaux inutilisés reçus au cours des 
 
 ## Recherches enregistrées {#saved-searches}
 
-[!DNL Audience Manager] affiche toutes les recherches [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) enregistrées sur le [!UICONTROL Dashboard] fichier et les recharge chaque fois que vous chargez le [!UICONTROL Dashboard]fichier.
+[!DNL Audience Manager] affiche toutes les  [recherches ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) enregistrées sur le serveur  [!UICONTROL Dashboard] et les recharge chaque fois que vous chargez le  [!UICONTROL Dashboard]logiciel.
 
 Les recherches enregistrées affichent les 50 premiers résultats des critères correspondants.
 
-Regardez la vidéo ci-dessous pour savoir comment utiliser le [!UICONTROL Signals Dashboard].
+Regardez la vidéo ci-dessous pour savoir comment utiliser [!UICONTROL Signals Dashboard].
 >[!VIDEO](https://video.tv.adobe.com/v/25151/)
