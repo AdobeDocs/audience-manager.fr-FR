@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Facturation pour les fournisseurs de flux de données {#billing-for-data-feed-providers}
 
-Générez un état de [!DNL Audience Marketplace] facturation pour vue de l&#39;utilisation des flux de données du mois précédent pour chacun de vos abonnés. Vous pouvez créer un rapport pour le mois précédent à tout moment. Cependant, le rapport est plus précis lorsque vous le générez le ou après le 10e jour du mois en cours.
+Générez un rapport de facturation [!DNL Audience Marketplace] sur l’utilisation des flux de données de vue pour le mois précédent pour chacun de vos abonnés. Vous pouvez créer un rapport pour le mois précédent à tout moment. Cependant, le rapport est plus précis lorsque vous le générez le ou après le 10e jour du mois en cours.
 
 ## Télécharger un rapport de facturation {#download-billing-report}
 
 Pour télécharger un rapport :
 
-1. Allez à **[!UICONTROL Audience Marketplace > Receivables]**.
+1. Accédez à **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Cliquez sur **[!UICONTROL Generate Billing Report]**.
 
-## Définition des champs d&#39;un rapport {#report-fields-defined}
+## Champs du rapport définis {#report-fields-defined}
 
 Un rapport de facturation contient les informations suivantes.
 
@@ -41,7 +41,7 @@ Un rapport de facturation contient les informations suivantes.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> PID du fournisseur de données</span></b> </p> </td> 
-   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
+   <td colname="col2"> <p>Votre <span class="keyword"> Audience Manager</span> ID de fournisseur de données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nom du fournisseur de données</span></b> </p> </td> 
@@ -70,19 +70,19 @@ Un rapport de facturation contient les informations suivantes.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segments et chevauchements </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modélisation </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>Voir Types de <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> plan pour les flux</a>de données. </p> </td> 
+    </ul> <p>Voir <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Types de plan pour les flux de données</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unité de mesure</span></b> </p> </td> 
    <td colname="col2"> <p>Indique le CPM ou la facturation à frais fixes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Prix Liste</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Prix liste</span></b> </p> </td> 
    <td colname="col2"> <p>Frais d’abonnement pour chaque flux de données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Prix réduit</span></b> </p> </td> 
-   <td colname="col2"> <p>Frais d’abonnement pour un flux de données à tarif réduit. Voir <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Remises pour les fournisseurs</a>de données. </p> </td> 
+   <td colname="col2"> <p>Frais d’abonnement pour un flux de données à tarif réduit. Voir <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Remises pour les fournisseurs de données</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unités</span></b> </p> </td> 
@@ -94,7 +94,7 @@ Un rapport de facturation contient les informations suivantes.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Coût total</span></b> </p> </td> 
-   <td colname="col2"> <p>Le montant de l'Audience Manager <span class="keyword"></span> facture un acheteur. </p> </td> 
+   <td colname="col2"> <p>Le montant <span class="keyword"> Audience Manager</span> facture un acheteur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Période de facturation</span></b> </p> </td> 
@@ -116,8 +116,8 @@ Un rapport de facturation contient les informations suivantes.
    <td colname="col1"> <p><b><span class="uicontrol"> Indicateur</span></b> </p> </td> 
    <td colname="col2"> <p> <i>Pour les flux CPM uniquement</i>. Les options d’indicateur incluent : </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0 : Indique qu’un abonné a signalé des informations d’utilisation à <span class="keyword"> l’Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1 : Indique qu’un abonné n’a pas signalé d’informations d’utilisation à <span class="keyword"> l’Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0 : Indique qu’un abonné a signalé des informations d’utilisation à <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1 : Indique qu’un abonné n’a pas signalé d’informations d’utilisation à <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
