@@ -113,6 +113,6 @@ Vous pouvez utiliser l’intégration [!DNL Facebook] [!DNL WCA] d’Audience Ma
 
 Ces deux intégrations sont complémentaires ; vous pouvez utiliser les deux pour assurer une meilleure couverture d’audience. À titre d’exemple, vous pouvez utiliser [!DNL WCA] à des fins de prospection lorsqu’une société cherche à cibler les visiteurs d’un site web qui ne possèdent pas encore de compte enregistré, tandis que [!DNL People-Based Destinations] peut vous aider à cibler les clients existants qui ont renseigné leur adresse électronique, mais ne se sont peut-être pas encore rendus sur le site web.
 
-**L&#39;[!DNL People-Based Destinations]intégration avec[!DNL Facebook]prise en charge exclut-elle un utilisateur d&#39;une audience alors qu&#39;il n&#39;y a plus de qualification ?**
+**L’ [!DNL People-Based Destinations] intégration avec  [!DNL Facebook] prise en charge exclut-elle un utilisateur d’une audience alors qu’il n’y a plus de qualification ?**
 
-Oui, l’intégration prend en charge la suppression des utilisateurs des [!DNL Facebook] audiences lorsqu’ils ne remplissent plus les conditions requises.
+Oui, l’intégration prend en charge la suppression des utilisateurs des audiences [!DNL Facebook] lorsqu’ils ne remplissent plus les conditions requises.
