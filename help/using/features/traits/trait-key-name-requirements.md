@@ -23,7 +23,7 @@ Cet article décrit les conventions d’affectation de nom utilisées par la var
 
 <!-- c_tb_key_name_requirements.xml -->
 
-En [!UICONTROL Expression Builder]effet, le nom d’une variable clé d’une paire clé-valeur peut être composé de n’importe quel nombre de chiffres suivi de 1 (ou plus) lettre, d’un tiret, d’un trait de soulignement et de chiffres supplémentaires.
+Dans [!UICONTROL Expression Builder], le nom d’une variable clé d’une paire clé-valeur peut être composé de n’importe quel nombre de chiffres suivi de 1 (ou plus) lettres, d’un tiret, d’un trait de soulignement et de chiffres supplémentaires.
 
 * Noms de clés valides : `price123`, `123price`, `price-123`, `c_price123`.
 
@@ -31,4 +31,4 @@ En [!UICONTROL Expression Builder]effet, le nom d’une variable clé d’une pa
 
 ## Préfixation des variables clés avec `c_`
 
-Le `c_` préfixe est *toujours* requis si les paramètres qui envoient des données sur une URL d’appel de événement utilisent cette syntaxe.
+Le préfixe `c_` est *toujours* requis si les paramètres qui envoient des données sur une URL d&#39;appel de événement utilisent cette syntaxe.
