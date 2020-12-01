@@ -16,13 +16,13 @@ ht-degree: 5%
 ---
 
 
-# Attributs pris en charge pour les [!DNL DCS][!DNL API] appels {#supported-attributes-for-dcs-api-calls}
+# Attributs pris en charge pour les appels [!DNL DCS] [!DNL API] {#supported-attributes-for-dcs-api-calls}
 
-Liste et décrit la syntaxe et les attributs pris en charge (ou paires clé-valeur) que vous pouvez transmettre à la [!UICONTROL Data Collection Servers] ([!DNL DCS]). Ces informations peuvent vous aider à formater vos [!DNL DCS] requêtes et à comprendre les paramètres renvoyés par ce système.
+Liste et décrit la syntaxe et les attributs pris en charge (ou paires clé-valeur) que vous pouvez transmettre à [!UICONTROL Data Collection Servers] ([!DNL DCS]). Ces informations peuvent vous aider à formater vos requêtes [!DNL DCS] et à comprendre les paramètres renvoyés par ce système.
 
 ## Préfixes d’attributs {#attribute-prefixes}
 
-Le module [!DNL DCS] repose sur des préfixes spécifiques ajoutés aux clés dans des paires clé-valeur pour classer le type de données que vous transmettez.
+[!DNL DCS] se base sur des préfixes spécifiques ajoutés aux clés dans des paires clé-valeur pour classer le type de données que vous transmettez.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -38,7 +38,7 @@ Le module [!DNL DCS] repose sur des préfixes spécifiques ajoutés aux clés da
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Attributs d’Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Attributs </span> du gestionnaire d’Audiences. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -46,14 +46,14 @@ Le module [!DNL DCS] repose sur des préfixes spécifiques ajoutés aux clés da
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Attributs privés définis par le client. </p> <p> Le serveur de collecte de données accepte vos propres données privées lorsque la clé comporte un <code> p_</code> préfixe. Les données privées sont utilisées pour l'évaluation des caractéristiques, mais elles ne seront ni enregistrées ni stockées dans notre système. Par exemple, supposons que vous ayez une caractéristique définie comme <code> customers = p_age&lt;25</code> et que vous la transmettiez <code> p_age=23</code> dans un appel de événement. Compte tenu de ces conditions, l’utilisateur qui satisfait aux critères de qualification par âge est admissible pour la caractéristique, mais la paire clé-valeur est supprimée après que l’ <span class="keyword"> Audience Manager</span> a reçu la demande et n’a pas été enregistrée. </p> </td>
+   <td colname="col2"> <p>Attributs privés définis par le client. </p> <p> Le serveur de collecte de données accepte vos propres données privées lorsque la clé comporte un préfixe <code> p_</code>. Les données privées sont utilisées pour l'évaluation des caractéristiques, mais elles ne seront ni enregistrées ni stockées dans notre système. Par exemple, supposons que vous ayez une caractéristique définie comme <code> customers = p_age&lt;25</code> et que vous transmettiez <code> p_age=23</code> dans un appel de événement. Dans ces conditions, l’utilisateur qui satisfait aux critères de qualification par âge est admissible pour la caractéristique, mais la paire clé-valeur est supprimée après que l’Audience Manager <span class="keyword"> </span> a reçu la demande et n’est pas enregistrée. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## [!DNL d_] Attributs {#d-attributes}
 
-Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une réponse de la part de la [!DNL DCS]. Si vous souhaitez que le [!DNL DCS] renvoie une réponse, `d_rtbd=json` il est nécessaire.
+Tous ces éléments sont facultatifs, à moins que vous ne souhaitiez obtenir une réponse du [!DNL DCS]. Si vous souhaitez que [!DNL DCS] renvoie une réponse, `d_rtbd=json` est requis.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -65,15 +65,15 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
  <tbody> 
   <tr> 
    <td colname="col1"> <p><code> d_caller</code> </p> </td> 
-   <td colname="col2"> <p>Utilisé pour identifier l’appelant qui effectue l’appel à l’API <span class="wintitle"> DCS</span> . </p> </td> 
+   <td colname="col2"> <p>Utilisé pour identifier l’appelant qui effectue l’appel à l’API <span class="wintitle"> DCS</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p>Spécifie une fonction JavaScript à exécuter à l’aide de la réponse DCS <span class="wintitle"></span> en tant que paramètre de fonction de la fonction de rappel. </p> </td> 
+   <td colname="col2"> <p>Spécifie une fonction JavaScript à exécuter à l'aide de la réponse <span class="wintitle"> DCS</span> en tant que paramètre de fonction de la fonction de rappel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contient une ou plusieurs paires d’ID de fournisseur de données (<code> DPID</code>) et d’ID d’utilisateur de fournisseur de données (<code> DPUUID</code>) attribuées par <span class="keyword"> Audience Manager</span>. Si vous utilisez plusieurs paires de <code> DPID</code>s et <code> DPUUID</code>s, séparez chaque paire par le caractère non imprimable <code> %01</code>. Par exemple: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> remplace <code> d_dpid</code> et <code> d_dpuuid</code>, qui sont obsolètes mais toujours pris en charge. Voir <a href="../../../reference/cid.md">CID remplace DPID et DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contient une ou plusieurs paires d’ID de fournisseur de données (<code> DPID</code>) et d’ID d’utilisateur de fournisseur de données (<code> DPUUID</code>) attribuées par <span class="keyword"> Audience Manager</span>. Si vous utilisez plusieurs paires <code> DPID</code>s et <code> DPUUID</code>s, séparez chaque paire par le caractère non imprimable <code> %01</code>. Par exemple: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> remplace <code> d_dpid</code> et <code> d_dpuuid</code>, qui sont obsolètes mais toujours pris en charge. Voir <a href="../../../reference/cid.md">CID remplace DPID et DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -81,13 +81,13 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Désactiver l’utilisation de cookies tiers afin de se conformer aux règles de protection de l’enfance. Ce paramètre est défini dynamiquement par le service d’identité de l’Adobe Experience Platform Adobe et dépend de la <code> idSyncDisable3rdPartySyncing</code> configuration. Reportez-vous à la section Prise en charge <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA dans Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Désactiver l’utilisation de cookies tiers afin de se conformer aux règles de protection de l’enfance. Ce paramètre est défini dynamiquement par le service d’identité Adobe Experience Platform de l’Adobe et dépend de la configuration <code> idSyncDisable3rdPartySyncing</code>. Voir <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Prise en charge COPPA dans Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Facultatif. Activé sur demande du client. Contactez votre conseiller en Adobe Audience Manager ou le service à la clientèle. </p> <p>Indique que les caractéristiques et les segments doivent être renvoyés dans la <code> JSON</code> réponse. </p> <p> 
+   <td colname="col2"> <p>Facultatif. Activé sur demande du client. Contactez votre conseiller Adobe Audience Manager ou le service d’assistance clientèle. </p> <p>Indique que les caractéristiques et les segments doivent être renvoyés dans la réponse <code> JSON</code>. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> renvoie des ID <a href="../../../reference/ids-in-aam.md"> de segment</a> hérités pour les segments. </p> </li>
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> renvoie <a href="../../../reference/ids-in-aam.md"> ID de segment hérités</a> pour les segments. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> renvoie des ID de segment pour les segments. </p> </li>
      </ul> </p> <p>Un exemple de réponse peut se présenter comme suit : </p> <p>
      <code class="syntax javascript">
@@ -111,19 +111,19 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst=1</code> </p> </td> 
-   <td colname="col2"> <p>Renvoie les données de destination de l’URL dans la <code> JSON</code> réponse. </p> </td> 
+   <td colname="col2"> <p>Renvoie les données de destination de l'URL dans la réponse <code> JSON</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> est un attribut réservé, utilisé dans l’intégration entre Adobe Analytics et l’Audience Manager. </p> <p>Nous vous déconseillons de créer des caractéristiques qui utilisent des attributs réservés. Adobe peut modifier les attributs réservés à tout moment. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> est un attribut réservé, utilisé dans l’intégration entre Adobe Analytics et Audience Manager. </p> <p>Nous vous déconseillons de créer des caractéristiques qui utilisent des attributs réservés. L'Adobe peut modifier les attributs réservés à tout moment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
-   <td colname="col2"> <p>Indique la <code> JSON</code> version à utiliser dans la réponse. Normalement, vous devez définir cette valeur sur <code> d_jsonv=1</code>. La définition <code> d_jsonv=0</code> désactive la synchronisation des identifiants. </p> </td> 
+   <td colname="col2"> <p>Indique la version <code> JSON</code> à utiliser dans la réponse. Normalement, vous devez définir cette valeur sur <code> d_jsonv=1</code>. Le paramètre <code> d_jsonv=0</code> désactive les synchronisations d'ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Indique l’ID d’Experience Cloud défini et utilisé par le service d’ID d’ <span class="keyword"> Experience Cloud</span> . Pour plus d’informations sur l’ECID, voir <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et Service</a>d’identité Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>Spécifie l’ID d’Experience Cloud défini et utilisé par le service d’ID <span class="keyword"> d’Experience Cloud</span>. Pour plus d'informations sur l'ECID, consultez les <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et le service d'identité Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -141,14 +141,14 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>Obsolète. <code> d_rs</code> est un attribut réservé, utilisé dans l’intégration héritée entre <span class="keyword"> Adobe Analytics</span> et <span class="keyword"> Audience Manager</span>. </p> <p>Nous vous déconseillons de créer des caractéristiques qui utilisent des attributs réservés. Adobe peut modifier les attributs réservés à tout moment. </p> </td> 
+   <td colname="col2"> <p>Obsolète. <code> d_rs</code> est un attribut réservé, utilisé dans l’intégration héritée entre  <span class="keyword"> Adobe </span> Analytics et  <span class="keyword"> Audience Manager</span>. </p> <p>Nous vous déconseillons de créer des caractéristiques qui utilisent des attributs réservés. L'Adobe peut modifier les attributs réservés à tout moment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
-   <td colname="col2"> <p>Obligatoire si vous souhaitez obtenir une <code> JSON</code> réponse du <span class="wintitle"> serveur de collecte de données</span>. </p> <p> 
+   <td colname="col2"> <p>Obligatoire si vous souhaitez obtenir une réponse <code> JSON</code> de la DCS <span class="wintitle"> </span>. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si vous l’omettez, le <span class="wintitle"> serveur de collecte de données</span> renvoie un pixel dans l’en-tête. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si vous incluez ceci, le <span class="wintitle"> serveur de collecte de données</span> renvoie un <code> JSON</code> objet dans le corps de la réponse. Consultez l’exemple ci-dessous. Votre réponse pourrait être plus complexe. </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Si vous omettez ce paramètre, le <span class="wintitle"> DCS</span> renvoie un pixel dans l’en-tête. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Si vous incluez ceci, le <span class="wintitle"> DCS</span> renvoie un objet <code> JSON</code> dans le corps de la réponse. Consultez l’exemple ci-dessous. Votre réponse pourrait être plus complexe. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
       {
@@ -161,7 +161,7 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 
-   <td colname="col2"> <p><code> SID</code> correspond à l’ID <span class="term"> de</span>score. Il s’agit d’un identifiant unique pour une caractéristique ou un segment. </p> </td> 
+   <td colname="col2"> <p><code> SID</code> représente <span class="term"> ID de score</span>. Il s’agit d’un identifiant unique pour une caractéristique ou un segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid</code> </p> </td> 
@@ -181,7 +181,7 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid_ic</code> </p> </td> 
-   <td colname="col2"> <p>L'objectif est identique au <code> d_tdpid</code> paramètre décrit ci-dessus. Cependant, dans ce cas, la source de données est transmise à l’aide du code d’intégration. </p> <p>En conservant les caractéristiques décrites ci-dessus, tenez compte de l’appel d’exemple : </p> <p>En effet, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>seul le trait T2 est renvoyé. </p> </td> 
+   <td colname="col2"> <p>L'objectif est identique au paramètre <code> d_tdpid</code> décrit ci-dessus. Cependant, dans ce cas, la source de données est transmise à l’aide du code d’intégration. </p> <p>En conservant les caractéristiques décrites ci-dessus, tenez compte de l’appel d’exemple : </p> <p>Pour <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>, seul le trait T2 est renvoyé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_uuid</code> </p> </td> 
