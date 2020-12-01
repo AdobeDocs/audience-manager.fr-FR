@@ -1,6 +1,6 @@
 ---
-description: Mettez en forme le contenu de votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
-seo-description: Mettez en forme le contenu de votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
+description: Mettez en forme le contenu du fichier de métadonnées de votre Audience Optimization en fonction de ces spécifications.
+seo-description: Mettez en forme le contenu du fichier de métadonnées de votre Audience Optimization en fonction de ces spécifications.
 seo-title: Format de contenu des fichiers de métadonnées
 solution: Audience Manager
 title: Format de contenu des fichiers de métadonnées
@@ -17,13 +17,13 @@ ht-degree: 5%
 
 # Format de contenu des fichiers de métadonnées{#content-format-for-metadata-files}
 
-Mettez en forme le contenu de votre fichier de métadonnées Optimisation des Audiences en fonction de ces spécifications.
+Mettez en forme le contenu du fichier de métadonnées de votre Audience Optimization en fonction de ces spécifications.
 
 ## du lien personnalisé{#syntax}
 
-La syntaxe suivante définit la structure du contenu bien formé dans un fichier de métadonnées. Note, *italics* indicates a variable placeholder.
+La syntaxe suivante définit la structure du contenu bien formé dans un fichier de métadonnées. Remarque : *italics* indique un espace réservé de variable.
 
-**Syntaxe :**  *ID de contenu* | *nom* | *-1*
+**Syntaxe :**  *content ID* |  *name* |  *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
@@ -31,13 +31,13 @@ La troisième colonne **-1** est techniquement l’identifiant parent, qui est u
 
 >[!NOTE]
 >
->Notez qu’un seul fichier de métadonnées par dimension est nécessaire, de sorte que plusieurs fichiers de métadonnées sont attendus dans le compartiment. Les dimensions sont répertoriées dans l’article Conventions de [dénomination des fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)de métadonnées.
+>Notez qu’un seul fichier de métadonnées par dimension est nécessaire, de sorte que plusieurs fichiers de métadonnées sont attendus dans le compartiment. Les dimensions sont répertoriées dans l’article [Conventions d’attribution de noms pour le fichier de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Entrées de fichier distinctes avec ^a (control-A ou ASCII 001)**
 
 Utilisez `^a` (control-A ou ASCII 001) pour séparer le contenu de vos fichiers de métadonnées. Comme il s’agit de caractères non imprimables, l’exemple de syntaxe ci-dessus montre une barre verticale &quot;|&quot; à des fins d’affichage uniquement.
 
-Si nécessaire, vous pouvez télécharger l’exemple de fichier - [20181105_0_1](assets/20181105_0_1.zip). Décompressez-la et modifiez-la dans l’éditeur de votre choix et ajustez-la en fonction de votre contenu réel de métadonnées, car elle contient déjà le délimiteur requis.
+Si nécessaire, vous pouvez télécharger le fichier d’exemple - [20181105_0_1](assets/20181105_0_1.zip). Décompressez-la et modifiez-la dans l’éditeur de votre choix et ajustez-la en fonction de votre contenu réel de métadonnées, car elle contient déjà le délimiteur requis.
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ Si nécessaire, vous pouvez télécharger l’exemple de fichier - [20181105_0_1
 
 ## Exemples {#examples}
 
-Examinons comment structurer le contenu dans un fichier de métadonnées. Une partie de cette structure dépend de la dimension. Les dimensions sont répertoriées dans l’article Conventions de [dénomination des fichiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)de métadonnées.
+Examinons comment structurer le contenu dans un fichier de métadonnées. Une partie de cette structure dépend de la dimension. Les dimensions sont répertoriées dans l’article [Conventions d’attribution de noms pour le fichier de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campaign**
 
