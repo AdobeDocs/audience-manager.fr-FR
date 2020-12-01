@@ -1,6 +1,6 @@
 ---
-description: Méthodes qui vous permettent de travailler par programmation avec la bibliothèque d’intégration de données (DIL).
-seo-description: Méthodes qui vous permettent de travailler par programmation avec la bibliothèque d’intégration de données (DIL).
+description: Méthodes qui vous permettent de travailler par programmation avec le Data Integration Library (DIL).
+seo-description: Méthodes qui vous permettent de travailler par programmation avec le Data Integration Library (DIL).
 seo-title: Méthodes d’API de Data Integration Library
 solution: Audience Manager
 title: Méthodes d’API de Data Integration Library
@@ -17,15 +17,15 @@ ht-degree: 14%
 
 # Méthodes d’API de Data Integration Library {#data-integration-library-api-methods}
 
-Méthodes qui vous permettent de travailler par programmation avec le [!UICONTROL Data Integration Library] ([!UICONTROL DIL]).
+Méthodes qui vous permettent de travailler par programmation avec [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->L&#39;API de la bibliothèque d&#39;intégration de données est obsolète. Cette API a été utilisée pour générer le code DIL, que vous pouvez maintenant télécharger automatiquement ici : [Téléchargement](https://github.com/Adobe-Marketing-Cloud/dil/releases)DIL.
+>L&#39;API du Data Integration Library est obsolète. Cette API a été utilisée pour générer un DIL, que vous pouvez maintenant télécharger automatiquement ici : [Téléchargement du DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Versions renvoyées pour DIL {#return-version-dil}
+## Versions renvoyées pour le DIL {#return-version-dil}
 
 Méthode `GET` qui renvoie une liste de versions triées de la plus ancienne à la plus récente.
 
@@ -43,9 +43,9 @@ Une requête réussie renvoie le code de réponse `["4.0", "4.1"]` comme illustr
 ["4.0", "4.1"]
 ```
 
-## Schéma JSON de retour pour la version {#return-json-schema-version}
+## Retour du Schéma JSON pour la version {#return-json-schema-version}
 
-Méthode `GET` qui renvoie le [!DNL JSON] schéma de la [!UICONTROL DIL] version. Prend en charge l’utilisation d’alias [!UICONTROL LATEST] pour la version afin d’obtenir la dernière version de [!UICONTROL DIL].
+Méthode `GET` qui renvoie le schéma [!DNL JSON] pour la version [!UICONTROL DIL]. Prend en charge l’utilisation de l’alias [!UICONTROL LATEST] pour la version afin d’obtenir la dernière version de [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -379,9 +379,9 @@ Une requête réussie renvoie le code de réponse `["4.0", "4.1"]` et les donné
 } 
 ```
 
-## Générer DIL {#generate-dil}
+## Générer un DIL {#generate-dil}
 
-Une `GET` méthode qui est générée [!UICONTROL DIL] en fonction du corps de la requête transmis à l’aide de la version spécifiée de [!UICONTROL DIL]. Si l’alias `LATEST` est utilisé pour la version dans l’URL, la dernière version de [!UICONTROL DIL] est générée.
+Méthode `GET` qui génère [!UICONTROL DIL] en fonction du corps transmis dans le corps de la requête en utilisant la version spécifiée de [!UICONTROL DIL]. Si l&#39;alias `LATEST` est utilisé pour la version dans l&#39;URL, la dernière version de [!UICONTROL DIL] est générée.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -465,4 +465,4 @@ Une `GET` méthode qui est générée [!UICONTROL DIL] en fonction du corps de l
 
 ### Réponse
 
-Une mise à jour réussie renvoie le code de réponse `201 created` ainsi que le [!UICONTROL DIL] code [!DNL JavaScript] .
+Une mise à jour réussie renvoie le code de réponse `201 created` avec le code [!UICONTROL DIL] [!DNL JavaScript].
