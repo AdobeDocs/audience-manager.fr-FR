@@ -44,7 +44,7 @@ Oui : voir ci-dessous.
 
 | Serveur | Adresses IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
 | ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
@@ -60,13 +60,13 @@ Les serveurs SFTP ci-dessous sont obsolètes. Aucun nouveau compte ne sera confi
 
 **Comment configurer mon instance d’Audience Manager pour utiliser les nouveaux serveurs SFTP ?**
 
-Contactez votre [!DNL Audience Manager] conseiller ou le service d’assistance clientèle pour qu’ils configurent vos nouveaux comptes SFTP.
+Contactez votre [!DNL Audience Manager] consultant ou le service à la clientèle et ils configureront vos nouveaux comptes SFTP.
 
  
 
 **Quelles sont les méthodes d’authentification prises en charge pour les nouveaux serveurs SFTP ?**
 
-Les nouveaux serveurs SFTP (`ftp-in-gtw` et `ftp-out-gtw`) prennent en charge [!DNL OpenSSH Key-Based Authentication]. Nous pouvons générer les [!DNL SSH] clés pour vous, ou vous pouvez nous fournir votre propre clé publique.
+Les nouveaux serveurs SFTP (`ftp-in-gtw` et `ftp-out-gtw`) prennent en charge [!DNL OpenSSH Key-Based Authentication]. Nous pouvons générer les clés [!DNL SSH] pour vous, ou vous pouvez nous fournir votre propre clé publique.
 
  
 
@@ -153,7 +153,7 @@ Oui, [!DNL Audience Manager] peut vous fournir les données collectées pour les
 
 **[!DNL Google Ad Manager]Je souhaite collecter des données sur un site et cibler les utilisateurs au moyen de sur un autre site. Dois-je déployer du code sur l’autre propriété si je ne souhaite pas collecter de données à partir de cet emplacement ?**
 
-Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
+Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. Tant que vous avez accès à l&#39;inventaire du deuxième site via [!DNL Google Ad Manager], vous pouvez utiliser la collecte de données du site initial et de la cible via [!DNL Google Ad Manager].
 
 <br> 
 
