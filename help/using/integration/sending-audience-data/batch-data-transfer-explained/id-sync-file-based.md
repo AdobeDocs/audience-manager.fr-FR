@@ -86,15 +86,15 @@ Les exemples suivants montrent les noms de fichiers correctement formatés. Vos 
 </ul>
 
 >[!NOTE]
-> Pour la dénomination des fichiers de synchronisation des identifiants (préfixe c2c) pour les destinations basées sur les personnes, voir [Workflow A - Personnalisation basée sur toutes les Activités en ligne combinées avec des données](../../../features/destinations/people-based-destinations-workflow-combined.md) hors ligne ou [Workflow B - Personnalisation basée sur des données](../../../features/destinations/people-based-destinations-workflow-offline.md)hors ligne uniquement.
+> Pour la dénomination des fichiers de synchronisation des identifiants (préfixe c2c) pour les destinations basées sur les personnes, voir [Workflow A - Personnalisation basée sur toutes les Activités en ligne combinées avec les données hors ligne](../../../features/destinations/people-based-destinations-workflow-combined.md) ou [Workflow B - Personnalisation basée sur les données hors ligne uniquement](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## Syntaxe du contenu du fichier et exemples {#file-content-syntax}
 
 Le contenu d’un fichier d’ID comprend les éléments suivants :
 
-*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
+*`UUID`* `<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
 
-Le fichier contient des ID d’utilisateur ([!DNL UUID]). Dans chaque ligne, séparez les ID par un onglet. L’exemple suivant montre un fichier d’ID correctement formaté. Votre contenu pourrait avoir l&#39;air similaire.
+Le fichier contient des ID utilisateur ([!DNL UUID]). Dans chaque ligne, séparez les ID par un onglet. L’exemple suivant montre un fichier d’ID correctement formaté. Votre contenu pourrait avoir l&#39;air similaire.
 
 ```
 abc123 def456 ghi789 xyz987
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 ## La synchronisation correspond aux DPUUID aux UUID {#sync-matches-dpuuids-uuids}
 
-Un fichier de synchronisation des identifiants a pour but de synchroniser les [DPUUID](../../../reference/ids-in-aam.md) de vos propres sources de données avec [!DNL Audience Manager] des UUID. La synchronisation mappe les [!DNL DPUUID]s du maître [!DNL DPID] et des [!DNL DPID]s associés aux [!DNL Audience Manager] [!DNL UUID]s. L’emplacement des identifiants dans le nom et le corps du fichier détermine la manière dont ces identifiants sont mappés les uns aux autres. Par exemple, prenez les deux fichiers d’exemple suivants :
+Un fichier de synchronisation des identifiants a pour but de synchroniser les [DPUUIDs](../../../reference/ids-in-aam.md) de vos propres sources de données avec les [!DNL Audience Manager] UUIDs. La synchronisation fait correspondre les [!DNL DPUUID]s du [!DNL DPID] maître et les [!DNL DPID]s qui lui sont associés aux [!DNL Audience Manager] [!DNL UUID]s. L’emplacement des identifiants dans le nom et le corps du fichier détermine la manière dont ces identifiants sont mappés les uns aux autres. Par exemple, prenez les deux fichiers d’exemple suivants :
 
 * **Fichier 1 :** `adobe_id_0_12345_1476312152.sync`
 
@@ -112,20 +112,20 @@ Un fichier de synchronisation des identifiants a pour but de synchroniser les [D
 
 Compte tenu du nom et du contenu de l’exemple, les identifiants correspondent comme suit :
 
-**Fichier 1** ( [Télécharger un exemple de fichier](assets/adobe_id_0_12345_1476312152.sync))
+**Fichier 1**  ( [Télécharger un exemple de fichier](assets/adobe_id_0_12345_1476312152.sync))
 
-| DPID 0 = UUID d&#39;Adobe Audience Manager | DPID 12345 |
+| DPID 0 = UUID Adobe Audience Manager | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-Trj6E4njaMR38 |
-| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
-| 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
+| 6741268208341199572553870443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
+| 8915902479676034373311707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Étape 1 : le processus de synchronisation des identifiants synchronise les [!DNL DPUUID]s à partir de [!DNL DPID] 12345 avec les [!DNL Audience Manager] [!DNL UUID]s dans la colonne de gauche. Notez que le [!DNL DPID] &quot;0&quot; dans le nom de fichier représente [!DNL Audience Manager] [!DNL UUID]s.
+Étape 1 : le processus de synchronisation des identifiants synchronise les [!DNL DPUUID]s de [!DNL DPID] 12345 avec les [!DNL Audience Manager] [!DNL UUID]s dans la colonne de gauche. Notez que le [!DNL DPID] &quot;0&quot; dans le nom de fichier représente [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
-**Fichier 2** ( [Télécharger un exemple de fichier](assets/adobe_id_12345_67890_1477846458.sync))
+**Fichier 2**  (fichier [ d’exemple ](assets/adobe_id_12345_67890_1477846458.sync)Télécharger)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -135,16 +135,16 @@ Compte tenu du nom et du contenu de l’exemple, les identifiants correspondent 
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l&#39;étape 1 avec l&#39;Audience Manager [!DNL UUID]s. Cette synchronisation des identifiants permettra de synchroniser les [!DNL DPUUID]s à partir du [!DNL DPID] 67890 avec les Audiences Manager [!DNL UUID]à partir de l’étape 1.
+Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l&#39;étape 1 avec l&#39;Audience Manager [!DNL UUID]s. Cette synchronisation des identifiants permet de synchroniser les [!DNL DPUUID]s de [!DNL DPID] 67890 avec l&#39;Audience Manager [!DNL UUID]s de l&#39;étape 1.
 
 <br/>
 
-## Autres formats requis {#other-format-reqs}
+## Autres exigences de format {#other-format-reqs}
 
 Les ID utilisateur ne peuvent pas :
 
 * Posséder des onglets dans l’identifiant lui-même. Les onglets ne sont utilisés que pour séparer les ID individuels dans le fichier de données.
-* Contenir des informations d&#39;identification personnelle ([!UICONTROL PII]).
-* Utilisez [!DNL URL] le codage. Transmettez uniquement des ID non codés.
+* Contenir des informations d’identification personnelle ([!UICONTROL PII]).
+* Utilisez le codage [!DNL URL]. Transmettez uniquement des ID non codés.
 
 Les lignes qui se terminent par des tabulations ou des espaces ne seront pas traitées ni réalisées. En règle générale, assurez-vous que la fin des lignes reste claire.
