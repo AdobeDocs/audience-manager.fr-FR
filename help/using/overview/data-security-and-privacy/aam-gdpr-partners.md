@@ -57,7 +57,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Audience Manager User Interface Update - Yahoo/Oath/DataX Integration {#ui-update}
+## Mise à jour de l&#39;interface utilisateur de l&#39;Audience Manager - Intégration de Yahoo/Oath/DataX {#ui-update}
 
 En plus des mises à jour apportées au framework de l’IAB mentionnées ci-dessus, Yahoo/Oath/DataX a ajouté de nouveaux paramètres, **gdpr** et **gdpr_mode**, à sa taxonomie et aux API Audience. Leurs paramètres informent Yahoo/Oath/DataX qu’ils disposent des droits de traiter un certain segment en tant que responsable du traitement des données ou contrôleur de données. Par conséquent, les clients d’Audience Manager qui envoient des segments vers une destination Yahoo/Oath/DataX doivent désigner le paramètre approprié (Responsable du traitement ou Contrôleur), en fonction de leur contrat avec Oath.
 
