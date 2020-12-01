@@ -21,30 +21,30 @@ ht-degree: 1%
 
 ## Présentation {#overview}
 
-[!UICONTROL Data Export Controls] vous permet de classifier les sources [de](../features/datasources-list-and-settings.md#data-sources-list-and-settings) données et les [destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent quand les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité comprend :
+[!UICONTROL Data Export Controls] vous permet de classifier  [les ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) sources de données et  [les destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent quand les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité comprend :
 
 * **[!UICONTROL Data Export Controls]**: Vous pouvez définir des contrôles d’exportation de données sur les sources *de* données. Lorsqu’ils sont définis sur une source de données, ces contrôles limitent la manière dont cette source de données et ses caractéristiques peuvent être utilisées.
-* **[!UICONTROL Data Export Labels]**: Vous pouvez définir des étiquettes d’exportation de données sur *les destinations*. Lorsqu’elles sont définies sur une destination, ces étiquettes permettent d’identifier comment la destination utilise les données. Voir [Ajouter des étiquettes d’exportation de données à une destination](/help/using/features/destinations/add-data-export-labels.md) pour savoir comment ajouter des étiquettes d’exportation à une destination.
+* **[!UICONTROL Data Export Labels]**: Vous pouvez définir des étiquettes d’exportation de données sur  *les destinations*. Lorsqu’elles sont définies sur une destination, ces étiquettes permettent d’identifier comment la destination utilise les données. Voir [Ajouter des étiquettes d’exportation de données à une destination](/help/using/features/destinations/add-data-export-labels.md) pour savoir comment ajouter des étiquettes d’exportation à une destination.
 
 En fonction des classifications appliquées à une source de données et à une destination, les contrôles d’exportation vous empêchent de :
 
 * Ajouter une caractéristique à un segment lorsque la caractéristique appartient à une source de données dont le contrôle d’exportation des données est incompatible avec un libellé d’exportation de données sur une ou plusieurs des destinations auxquelles le segment est mappé.
-Par exemple, supposons qu’un segment soit mappé à une destination avec l’étiquette d’exportation **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Les contrôles d’exportation vous empêchent d’ajouter une caractéristique à ce segment si la source de données à laquelle appartient la caractéristique dispose d’un contrôle d’exportation de données qui indique **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+Par exemple, supposons qu’un segment soit mappé à une destination avec l’étiquette d’exportation **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Les contrôles d’exportation vous empêchent d’ajouter une caractéristique à ce segment si la source de données à laquelle appartient la caractéristique possède un contrôle d’exportation de données qui indique **[!DNL Cannot be tied to personally identifiable information (PII)]**.
 * L’envoi de données à une destination de destination est assorti d’un libellé d’exportation de données bloqué par un contrôle d’exportation de données sur l’un des éléments suivants :
    * la source de données d&#39;une caractéristique incluse ;
    * La source de données d’une caractéristique utilisée dans un segment inclus ;
    * La règle de fusion de profil exploitée par un segment inclus ;
    * Toutes les sources de données utilisées par la règle de fusion de profil d’un segment inclus.
 
-[!UICONTROL Data Export Controls] sont disponibles automatiquement pour tous les clients d’Audience Manager. Toutefois, vous avez besoin d’autorisations d’administrateur pour ajouter des contrôles d’exportation à une source de données. Pour Ajouter des étiquettes d’exportation à une destination, il faut disposer d’autorisations d’administrateur ** ou de droits suffisants pour créer ou modifier une destination.
+[!UICONTROL Data Export Controls] sont disponibles automatiquement pour tous les clients d’Audience Manager. Toutefois, vous avez besoin d’autorisations d’administrateur pour ajouter des contrôles d’exportation à une source de données. Pour Ajouter des étiquettes d’exportation à une destination, l’administrateur doit disposer de droits *ou* suffisants pour créer ou modifier une destination.
 
-## Contrôles et libellés définis {#controls-labels}
+## Contrôles et étiquettes définis {#controls-labels}
 
 [!UICONTROL Data Export Controls] fournissez les contrôles suivants pour vous aider à classifier les sources de données et les destinations.
 
-Pour bloquer la diffusion de données, vous devez classer une source de données avec un contrôle d’exportation et ajouter un libellé d’exportation à une destination. Si vous appliquez des contrôles d’exportation à une source de données ou à une destination uniquement, cette fonction ne limitera pas la diffusion des données. Lorsqu’elles sont définies à la fois sur la source de données *et sur* la destination, les contrôles d’exportation limitent les caractéristiques que vous pouvez ajouter à un segment et empêchent l’envoi des membres du segment vers une destination.
+Pour bloquer la diffusion de données, vous devez classer une source de données avec un contrôle d’exportation et ajouter un libellé d’exportation à une destination. Si vous appliquez des contrôles d’exportation à une source de données ou à une destination uniquement, cette fonction ne limitera pas la diffusion des données. Lorsqu&#39;elles sont définies à la fois sur la source de données *et sur la destination*, les contrôles d&#39;exportation limitent les caractéristiques que vous pouvez ajouter à un segment et empêchent l&#39;envoi des membres du segment vers une destination.
 
-En outre, au moins une étiquette d’exportation doit correspondre à un contrôle d’exportation avant que les restrictions de diffusion des données ne prennent effet. Supposons, par exemple, que vous ajoutiez le contrôle [!UICONTROL PII] d’exportation à une source de données. Ensuite, vous ajoutez le libellé de ciblage sur site à une destination. Dans ce cas, les contrôles d’exportation ne limiteront pas la diffusion des données, car les paramètres ne correspondent pas. Cependant, si vous ajoutez le libellé [!UICONTROL PII] d’exportation à la destination, les contrôles d’exportation bloquent l’exportation.
+En outre, au moins une étiquette d’exportation doit correspondre à un contrôle d’exportation avant que les restrictions de diffusion des données ne prennent effet. Supposons, par exemple, que vous ajoutiez le contrôle d’exportation [!UICONTROL PII] à une source de données. Ensuite, vous ajoutez le libellé de ciblage sur site à une destination. Dans ce cas, les contrôles d’exportation ne limiteront pas la diffusion des données, car les paramètres ne correspondent pas. Cependant, si vous ajoutez le libellé d&#39;exportation [!UICONTROL PII] à la destination, les contrôles d&#39;exportation bloquent l&#39;exportation.
 
 >[!IMPORTANT]
 >
@@ -71,7 +71,7 @@ En outre, au moins une étiquette d’exportation doit correspondre à un contr�
    <td colname="col3"> Par défaut, les restrictions d’exportation ne sont pas définies sur les nouvelles sources de données et destinations. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Ne peut pas être lié à des informations</span></b> d’identification personnelle </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Ne peut pas être lié à des informations</span></b>  d’identification personnelle </td> 
    <td colname="col2"> <b><span class="uicontrol"> Cette destination peut permettre une combinaison avec des informations d’identification personnelle</span></b> </td> 
    <td colname="col3">Lorsque cette option est sélectionnée, vous ne pouvez pas : 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
@@ -93,7 +93,7 @@ En outre, au moins une étiquette d’exportation doit correspondre à un contr�
    <td colname="col2"> <b><span class="uicontrol"> Cette destination peut être utilisée pour le ciblage publicitaire hors site.</span></b> </td> 
    <td colname="col3">Ces restrictions sont généralement utilisées avec Lorsque cette option est sélectionnée, vous ne pouvez pas : 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
-     <li id="li_0F89583A603D4CD8804724954CFD52C6">Ajoutez des caractéristiques aux segments mappés aux destinations qui recible les utilisateurs sur d’autres sites. </li> 
+     <li id="li_0F89583A603D4CD8804724954CFD52C6">Ajoutez des caractéristiques aux segments mappés à des destinations qui recible les utilisateurs sur d’autres sites. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Faites correspondre les segments créés avec une caractéristique de la source de données aux destinations qui recible les utilisateurs sur d’autres sites. </li> 
     </ul> <p>Souvent nécessaire lorsque vous utilisez des données provenant de plateformes de médias sociaux. </p> </td> 
   </tr> 
@@ -102,7 +102,7 @@ En outre, au moins une étiquette d’exportation doit correspondre à un contr�
    <td colname="col2"> <b><span class="uicontrol"> Cette destination peut être utilisée pour la personnalisation des publicités sur site</span></b> </td> 
    <td colname="col3">Lorsque cette option est sélectionnée, vous ne pouvez pas : 
     <ul id="ul_3360EB209E07402A863F0E7473B99D3F"> 
-     <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">Ajoutez des caractéristiques aux segments mappés aux destinations qui personnalisent le contenu en fonction des intérêts des utilisateurs ou de l’historique de navigation Web. </li> 
+     <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">Ajoutez des caractéristiques aux segments mappés à des destinations qui personnalisent le contenu en fonction des intérêts des utilisateurs ou de l’historique de navigation Web. </li> 
      <li id="li_6506254CCE6546039A3D82B60368C8B4">Faites correspondre les segments créés avec une caractéristique de la source de données aux destinations qui personnalisent le contenu en fonction des intérêts des utilisateurs ou de l’historique de navigation Web. </li> 
     </ul> </td> 
   </tr> 
