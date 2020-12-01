@@ -13,21 +13,21 @@ ht-degree: 2%
 ## Table des matières
 
 + `TOC.md` à la racine du guide d’utilisateur fournit l’organisation des rubriques contenues dans le guide de cette solution.
-+ Chaque guide d&#39;utilisateur a son propre nom unique `TOC.md`, dans lequel vous pouvez commander toutes les pages/rubriques si nécessaire.
++ Chaque guide d&#39;utilisateur possède son propre `TOC.md` unique, dans lequel vous pouvez commander toutes les pages/rubriques si nécessaire.
 + La première page de tous les guides d’utilisateur est `overview.md`.
 
 ## Guide de l’utilisateur
 
-+ L’introduction au guide d’utilisation s’appelle `overview.md`
++ L&#39;introduction au guide d&#39;utilisation s&#39;appelle `overview.md`
 + Chaque rubrique du guide d’utilisateur possède son propre répertoire.
    + S’il existe une rubrique dans le guide appelée *Implémentation*, le répertoire correspondant est `/implementation`
-+ Tous les fichiers d’image sont stockés `/assets` à la racine du guide d’utilisateur.
-   + Toutes les images du `/assets` répertoire seront localisées.
-   + Toutes les images du `/no-localize` répertoire ne seront pas localisées (surprise !). Cela permet de s’assurer, dans les versions localisées, que des fichiers spécifiques ne sont pas reproduits inutilement.
++ Tous les fichiers d’image sont stockés dans `/assets` à la racine du guide d’utilisateur.
+   + Toutes les images du répertoire `/assets` seront localisées.
+   + Toutes les images du répertoire `/no-localize` ne seront pas localisées (surprise !). Cela permet de s’assurer, dans les versions localisées, que des fichiers spécifiques ne sont pas reproduits inutilement.
 
 ## Métadonnées du niveau du guide de l’utilisateur
 
-+ Les métadonnées qui décrivent le guide d’utilisateur sont stockées dans le `TOC.md`fichier. Cela inclut :
++ Les métadonnées qui décrivent le guide d’utilisateur sont stockées dans `TOC.md`. Cela inclut :
    + product - nom du produit/de la fonctionnalité.
    + cloud - cloud auquel ce produit appartient.
    + audience - audience ou archétype à qui le guide est ciblé.
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 ## Plus d’informations
 
-Pour plus d&#39;instructions de publication, de guides de style, d&#39;exemples et d&#39;autres ressources, consultez le rapport de documentation [collaboratif](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Pour plus d&#39;instructions de publication, de guides de style, d&#39;exemples et d&#39;autres ressources, consultez le [Rapport de documentation collaborative](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
