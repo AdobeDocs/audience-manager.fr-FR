@@ -29,7 +29,7 @@ Que faire lorsque les feuilles de calcul renvoient une erreur ou que votre requ�
 
 >[!NOTE]
 >
->[Les autorisations](../../features/administration/administration-overview.md) de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le [!UICONTROL Bulk Management Tools].
+>[Les ](../../features/administration/administration-overview.md) autorisations de groupe RBAC attribuées dans l’ [!DNL Audience Manager] interface utilisateur sont respectées dans le  [!UICONTROL Bulk Management Tools].
 
 Des facteurs tels que le trafic réseau important, l’utilisation du serveur et les jeux de données volumineux peuvent entraîner l’échec ou l’expiration d’une demande en bloc. En cas de problème, la feuille de calcul arrête l’écriture des données et affiche un message d’erreur. Dans ce cas, vous devez :
 
@@ -38,7 +38,7 @@ Des facteurs tels que le trafic réseau important, l’utilisation du serveur et
 * Supprimez toutes les lignes déjà mises à jour.
 * Réessayez la demande en bloc.
 
-## Erreurs d’authentification, retards importants ou comportement inactif {#delays-behavior}
+## Erreurs d’authentification, longs délais ou comportement inactif {#delays-behavior}
 
 Le tableau suivant liste certains problèmes courants que vous pouvez rencontrer lors de demandes en masse avec les feuilles de calcul. Essayez de résoudre ces problèmes avec les solutions recommandées. Si les solutions recommandées ne résolvent pas le problème, enregistrez votre travail, redémarrez votre ordinateur, puis réessayez la demande sans lancer ou utiliser d’autres applications.
 
@@ -53,15 +53,15 @@ Le tableau suivant liste certains problèmes courants que vous pouvez rencontrer
   <tr> 
    <td colname="col1"> <b>Erreur d'authentification</b> </td> 
    <td colname="col2"> 
-    <b>Mise à jour vers la dernière version de Microsoft Excel</b>: Lorsqu'une nouvelle version de Microsoft Excel est publiée et que vous utilisez une ancienne version, une erreur d'authentification peut se produire dans la feuille de calcul Gestion en bloc. Mettez à jour vers la dernière version de Microsoft Excel pour résoudre l'erreur d'authentification.
+    <b>Mise à jour vers la dernière version de Microsoft Excel</b> : Lorsqu'une nouvelle version de Microsoft Excel est publiée et que vous utilisez une ancienne version, une erreur d'authentification peut se produire dans la feuille de calcul Gestion en bloc. Mettez à jour vers la dernière version de Microsoft Excel pour résoudre l'erreur d'authentification.
 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Retards longs</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Désactiver le mode</b>de compatibilité : Vérifiez si d'autres feuilles de calcul sont ouvertes en mode de compatibilité Microsoft Excel. Le mode de compatibilité peut augmenter les délais d’exécution. Fermez toutes les feuilles de calcul que vous avez peut-être ouvertes dans ce mode et réessayez votre demande en masse. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Ressources</b>système : Les ressources limitées du système contribuent à de longs retards. Essayez de fermer tous les autres programmes avant d'effectuer une demande en bloc. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Désactiver le mode</b> de compatibilité : Vérifiez si d'autres feuilles de calcul sont ouvertes en mode de compatibilité Microsoft Excel. Le mode de compatibilité peut augmenter les délais d’exécution. Fermez toutes les feuilles de calcul que vous avez peut-être ouvertes dans ce mode et réessayez votre demande en masse. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Ressources</b> système : Les ressources limitées du système contribuent à de longs retards. Essayez de fermer tous les autres programmes avant d'effectuer une demande en bloc. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -78,5 +78,5 @@ Le tableau suivant liste certains problèmes courants que vous pouvez rencontrer
 
 ## Messages d’erreur
 
-Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en masse. Pour interpréter le message d’erreur, reportez-vous à la section Codes de [réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) dans notre documentation API.
+Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en masse. Pour interpréter le message d’erreur, voir [Codes de réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) dans notre documentation API.
 
