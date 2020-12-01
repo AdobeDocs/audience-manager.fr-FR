@@ -22,45 +22,45 @@ Décrit les étapes requises et facultatives permettant de créer un [!UICONTROL
 
 ## Section Créateur de modèles
 
-[!UICONTROL Model Builder] se compose des sections [!UICONTROL Basic Information] et [!UICONTROL Configuration] . Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour début de l’algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois la première exécution des données terminée. Après avoir reçu le courrier électronique, vous pouvez accéder au créateur [de](../../features/traits/about-trait-builder.md) caractéristiques et créer des caractéristiques algorithmiques.
+[!UICONTROL Model Builder] se compose des  [!UICONTROL Basic Information] et  [!UICONTROL Configuration] sections. Pour créer un modèle, renseignez les champs obligatoires de ces deux sections. Enregistrez votre modèle pour début de l’algorithme. [!DNL Audience Manager] vous envoie une notification automatisée une fois la première exécution des données terminée. Après avoir reçu le courrier électronique, vous pouvez accéder à [Créateur de caractéristiques](../../features/traits/about-trait-builder.md) et créer des caractéristiques algorithmiques.
 
 >[!NOTE]
 >
 >* Le processus de modélisation ne s’exécute qu’une seule fois si vous créez un modèle et n’en créez aucune caractéristique.
 >* Créez des modèles à partir de sources de données qui contiennent une quantité significative d’informations. Les modèles avec des données insuffisantes s’exécuteront, mais ils ne retourneront pas de résultats.
->* *Ne créez pas* de modèles avec d’autres caractéristiques ou segments algorithmiques.
+>* *Ne* créez pas de modèles avec d’autres caractéristiques ou segments algorithmiques.
 >* La notification électronique automatisée est envoyée une seule fois (après la première exécution des données).
 
 
 ## Création du modèle
 
-Suivez les étapes ci-dessous pour créer un [!UICONTROL Look-Alike Model]:
+Suivez les étapes ci-dessous pour créer un [!UICONTROL Look-Alike Model] :
 
-1. Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** et cliquez **[!UICONTROL Add New]** dans la [!UICONTROL Look-Alike Modeling] section.
+1. Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** et cliquez sur **[!UICONTROL Add New]** dans la section [!UICONTROL Look-Alike Modeling].
    ![look-like-add](assets/look-alike-add.png)
-1. Dans la section Informations [](../../features/algorithmic-models/create-model.md#basic-information) de base
+1. Dans la section [Informations de base](../../features/algorithmic-models/create-model.md#basic-information)
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
-   * Définissez l&#39;état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s&#39;exécuteront pas et ne produiront aucune donnée.
+   * Définissez l’état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s&#39;exécuteront pas et ne produiront aucune donnée.
       ![apparence-identique-base](assets/look-alike-basic.png)
 1. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
-   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Recherchez des caractéristiques par nom, identifiant, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les caractéristiques par type de caractéristique ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]et [!UICONTROL Algorithmic]) ou type de population (ID[](../../reference/ids-in-aam.md) de périphérique et ID [inter-périphériques).](../../reference/ids-in-aam.md)
+   * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Recherchez des caractéristiques par nom, identifiant, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les caractéristiques par type de caractéristique ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] et [!UICONTROL Algorithmic]) ou type de population ([ID de périphérique](../../reference/ids-in-aam.md) et [ID de plusieurs périphériques](../../reference/ids-in-aam.md)).
       ![navigation-caractéristiques](assets/browse-traits.png)
    * Choisissez une période de recherche en arrière de 30, 60 ou 90 jours. Cela définit une plage de temps pour le modèle.
-   * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Sélectionnez une source de données dans la [!UICONTROL Available Data] liste.
-   * Cliquez **[!UICONTROL Save]** une fois terminé.
+   * L&#39;algorithme [!UICONTROL TraitWeight] est sélectionné par défaut.
+   * Sélectionnez une source de données dans la liste [!UICONTROL Available Data].
+   * Cliquez sur **[!UICONTROL Save]** lorsque vous avez terminé.
       ![configuration à l’identique](assets/look-alike-configuration.png)
 
 Regardez la vidéo ci-dessous pour obtenir un aperçu détaillé du fonctionnement des mesures sur plusieurs périphériques.
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## Informations de base sur les modèles algorithmiques {#basic-information}
+## Informations de base pour les modèles algorithmiques {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-Dans [!UICONTROL Model Builder], les [!UICONTROL Basic Information] paramètres vous permettent de créer ou de modifier des modèles existants. Pour créer un modèle, nommez-le et passez aux [!UICONTROL Configuration] paramètres. Le champ de description est facultatif.
+Dans [!UICONTROL Model Builder], les paramètres [!UICONTROL Basic Information] vous permettent de créer ou de modifier des modèles existants. Pour créer un modèle, nommez-le et passez aux paramètres [!UICONTROL Configuration]. Le champ de description est facultatif.
 
 | Champ | Description |
 |---|---|
@@ -70,13 +70,13 @@ Dans [!UICONTROL Model Builder], les [!UICONTROL Basic Information] paramètres 
 
 ## Configuration {#configuration}
 
-Dans [!UICONTROL Model Builder]la section [!UICONTROL Configuration] , vous pouvez ajouter des caractéristiques ou des segments au modèle. Dans cette section, sélectionnez une caractéristique ou un segment de base, une période de rétrospective et des données provenant de vos sources de données propriétaires et tiers.
+Dans [!UICONTROL Model Builder], la section [!UICONTROL Configuration] permet d&#39;ajouter des caractéristiques ou des segments au modèle. Dans cette section, sélectionnez une caractéristique ou un segment de base, une période de rétrospective et des données provenant de vos sources de données propriétaires et tiers.
 
 <!-- r_model_configuration.xml -->
 
 ### Conditions préalables
 
-Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information] section.
+Renseignez d&#39;abord les champs obligatoires de la section [!UICONTROL Basic Information].
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -90,7 +90,7 @@ Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Sélectionner un segment ou une caractéristique de référence (1)</b> </p> </td> 
-   <td colname="col2"> <p>Cliquez sur la caractéristique ou le bouton de segment pour afficher une liste de toutes vos caractéristiques ou segments. Votre segment ou caractéristique sélectionné devient la ligne de base utilisée par les algorithmes système pour la modélisation. </p> <p> <p><b>Remarque</b>:  Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas. </p> </p> </td> 
+   <td colname="col2"> <p>Cliquez sur la caractéristique ou le bouton de segment pour afficher une liste de toutes vos caractéristiques ou segments. Votre segment ou caractéristique sélectionné devient la ligne de base utilisée par les algorithmes système pour la modélisation. </p> <p> <p><b>Remarque</b> : Sélectionnez une caractéristique intégrée, une caractéristique basée sur des règles ou un segment comme ligne de base. Sinon, vos modèles ne s'exécuteront pas. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Sélectionnez Regarder la période précédente (2)</b> </p> </td> 
@@ -98,7 +98,7 @@ Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Sélectionner un algorithme (3)</b> </p> </td> 
-   <td colname="col2"> <p>Actuellement, Model Builder fonctionne uniquement avec notre algorithme de Poids <span class="keyword"></span> de caractéristiques propriétaire. <span class="keyword"> L’Audience Manager</span> peut ajouter d’autres fonctions algorithmiques dans les versions suivantes. </p> </td>
+   <td colname="col2"> <p>Actuellement, Model Builder fonctionne uniquement avec notre algorithme propriétaire <span class="keyword"> Poids de caractéristiques</span>. <span class="keyword"> Audience </span> Manager peut ajouter d’autres fonctions d’algorithme dans les versions suivantes. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Sélectionner les données du modèle à partir de la source de données (4)</b> </p> </td> 
@@ -106,7 +106,7 @@ Renseignez d’abord les champs obligatoires de la [!UICONTROL Basic Information
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez exclure des caractéristiques des sources de données sélectionnées pour la modélisation. Utilisez la liste <span class="wintitle"> Exclusions</span> et lisez les modèles <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> algorithmiques : Exclusion</a> des caractéristiques pour en savoir plus. </p> </td>
+   <td colname="col2"> <p>Vous pouvez exclure des caractéristiques des sources de données sélectionnées pour la modélisation. Utilisez la liste <span class="wintitle"> Exclusions</span> et lisez <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Modèles algorithmiques : Exclusion des caractéristiques </a> pour en savoir plus. </p> </td>
   </tr> 
  </tbody>
 </table>
