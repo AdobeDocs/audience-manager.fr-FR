@@ -1,6 +1,6 @@
 ---
-description: Présentation du code DIL et de son fonctionnement.
-seo-description: Présentation du code DIL et de son fonctionnement.
+description: Présentation du DIL et de son fonctionnement.
+seo-description: Présentation du DIL et de son fonctionnement.
 seo-title: Présentation de Data Integration Library (DIL)
 keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
@@ -16,44 +16,44 @@ ht-degree: 18%
 ---
 
 
-# Présentation du [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
+# Présentation de [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
-Présentation, prise en main et méthodes de code disponibles dans la bibliothèque de [!DNL Audience Manager DIL] code.
+Présentation, prise en main et méthodes de code disponibles dans la bibliothèque de code [!DNL Audience Manager DIL].
 
 >[!IMPORTANT]
 >
->A compter de la version 8.0 (publiée en août 2018), [!UICONTROL DIL] dépend fortement du service [d&#39;identité de l&#39;](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)Adobe Experience Platform, version 3.3 ou ultérieure. Il s’appuie sur la fonction [!DNL ID Service] de déclenchement des synchronisations d’ID et des destinations URL. Une erreur se produit si la variable [!DNL ID Service] est manquante, ancienne ou non configurée.
+>À compter de la version 8.0 (publiée en août 2018), [!UICONTROL DIL] dépend fortement de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html), version 3.3 ou supérieure. Il utilise [!DNL ID Service] pour déclencher les synchronisations d’ID et les destinations URL. Une erreur se produit si [!DNL ID Service] est manquant, ancien ou non configuré.
 >
->Nous vous recommandons d’utiliser [!DNL Adobe Experience Platform Launch] pour implémenter et gérer vos [!DNL DIL] et [!DNL Adobe Experience Platform Identity Service] bibliothèques.
+>Nous vous recommandons d&#39;utiliser [!DNL Adobe Experience Platform Launch] pour implémenter et gérer vos bibliothèques [!DNL DIL] et [!DNL Adobe Experience Platform Identity Service].
 
-Cependant, vous pouvez également télécharger les derniers Experience Cloud et [!DNL DIL] versions de notre page GitHub. Voir les liens de téléchargement ci-dessous :
+Cependant, vous pouvez également télécharger les dernières versions des Experience Cloud et [!DNL DIL] à partir de notre page GitHub. Voir les liens de téléchargement ci-dessous :
 
-* Download the [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Téléchargez le [service d’identité Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * Télécharger [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Objet du DIL {#purpose-dil}
 
-[!UICONTROL DIL] est une bibliothèque d’API. Vous pouvez le penser comme un corps de code d&#39;aide pour [!DNL Adobe Audience Manager]. Il n&#39;est pas nécessaire de l&#39;utiliser [!DNL Audience Manager], mais les méthodes et fonctions [!UICONTROL DIL] fournissent des moyens pour que vous n&#39;ayez pas à développer votre propre code pour envoyer des données à [!DNL Audience Manager]. En outre, [!UICONTROL DIL] est différent de l&#39;API fournie par le service [d&#39;identité](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)d&#39;Adobe Experience Platform. Ce service est conçu pour gérer l&#39;identité des visiteurs dans différentes [!DNL Experience Cloud] solutions. En revanche, [!UICONTROL DIL] il est conçu pour :
+[!UICONTROL DIL] est une bibliothèque d’API. Vous pouvez le considérer comme un corps de code d&#39;assistance pour [!DNL Adobe Audience Manager]. Il n&#39;est pas nécessaire d&#39;utiliser [!DNL Audience Manager], mais les méthodes et fonctions [!UICONTROL DIL] permettent de ne pas avoir à développer votre propre code pour envoyer des données à [!DNL Audience Manager]. En outre, [!UICONTROL DIL] est différent de l&#39;API fournie par le [Service d&#39;identité de Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/home.html). Ce service est conçu pour gérer l&#39;identité des visiteurs dans différentes solutions [!DNL Experience Cloud]. Par contre, [!UICONTROL DIL] est conçu pour :
 
-* Effectuez des appels de événement et envoyez des données au serveur [de collecte de](../reference/system-components/components-data-collection.md)données.
-* Envoyer des données vers [des destinations](../features/destinations/destinations.md).
+* Appelez le événement et envoyez les données au [serveur de collecte de données](../reference/system-components/components-data-collection.md).
+* Envoyer des données vers [destinations](../features/destinations/destinations.md).
 
-## Obtention et mise en oeuvre du code DIL {#get-implement-dil-code}
+## Obtention et mise en oeuvre du code du DIL {#get-implement-dil-code}
 
-[!UICONTROL DIL] est disponible en téléchargement **[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Veuillez noter qu&#39;à partir de la version 8.0 (publiée en août 2018),[!UICONTROL DIL]il existe une dépendance stricte vis-à-vis du service[d&#39;identité de l&#39;](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)Adobe Experience Platform, version 3.3 ou ultérieure. Il s’appuie sur le[!DNL ID Service]pour déclencher les synchronisations d’identifiants et[!DNL URL destinations]. Une erreur se produit si la variable[!DNL ID Service]est manquante, ancienne ou non configurée.
+[!UICONTROL DIL] est disponible en téléchargement  **[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Veuillez noter qu&#39;à partir de la version 8.0 (publiée en août 2018), [!UICONTROL DIL] dépend fortement du [service d&#39;identité Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/home.html), de la version 3.3 ou supérieure. Il utilise [!DNL ID Service] pour déclencher les synchronisations d&#39;ID et [!DNL URL destinations]. Une erreur se produit si [!DNL ID Service] est manquant, ancien ou non configuré.
 
-Plutôt que de travailler avec [!UICONTROL DIL] et de configurer [!DNL Audience Manager] manuellement, nous vous recommandons d’utiliser le lancement [](https://docs.adobelaunch.com/) d’Adobe Experience Platform à la place. [!DNL Adobe Experience Platform Launch] est l’outil d’implémentation recommandé, car il simplifie le déploiement du code, l’emplacement et la gestion des versions. Pour en savoir plus sur l&#39;extension [](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) d&#39;Audience Manager, consultez [!DNL Adobe Experience Platform Launch].
+Plutôt que de travailler avec [!UICONTROL DIL] et de configurer [!DNL Audience Manager] manuellement, nous vous recommandons d&#39;utiliser [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) à la place. [!DNL Adobe Experience Platform Launch] est l’outil d’implémentation recommandé, car il simplifie le déploiement du code, l’emplacement et la gestion des versions. Pour en savoir plus sur l&#39;[extension d&#39;Audience Manager](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) dans [!DNL Adobe Experience Platform Launch].
 
-[!DNL Adobe Experience Platform Launch] est le successeur de [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
+[!DNL Adobe Experience Platform Launch] est le successeur de l’ [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
 
-## Exemple d’appel {#sample-code}
+## Exemple d&#39;appel {#sample-code}
 
-[!UICONTROL DIL] envoie des données [!DNL Audience Manager] dans un appel de événement. Un appel de événement est une requête HTTP XML provenant de votre page. Il utilise une `POST` méthode pour envoyer des données dans le corps de la requête.
+[!UICONTROL DIL] envoie des données  [!DNL Audience Manager] dans un appel de événement. Un appel de événement est une requête HTTP XML provenant de votre page. Il utilise une méthode `POST` pour envoyer des données dans le corps de la requête.
 
-| Elément d’appel Événement | Description |
+| Elément d’appel événement | Description |
 |--- |--- |
 | URL | Les appels de événement DIL utilisent la syntaxe suivante : `https://adobe.demdex.net/event?_ts =` *`UNIX UTC timestamp`* |
-| Corps | Comme illustré dans l’exemple ci-dessous, DIL transmet les données sous forme de paires clé-valeur. Les caractères de préfixe spéciaux identifient les paires clé-valeur comme variables d’Audience Manager ou de partenaire.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br> |
+| Corps | Comme illustré dans l’exemple ci-dessous, le DIL transmet les données sous forme de paires clé-valeur. Les caractères de préfixe spéciaux identifient les paires clé-valeur comme variables d&#39;Audience Manager ou de partenaire.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br> |
 
 Voir également :
 * [Exigences de préfixe pour les variables clés](../features/traits/trait-variable-prefixes.md)
