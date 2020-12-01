@@ -21,31 +21,31 @@ Les principales caractéristiques inutilisées sont représentées sous forme de
 
 ## Cas d’utilisation {#use-cases}
 
-Le [!UICONTROL Top Unused Traits] rapport vous permet d’analyser et de comparer les performances des caractéristiques propriétaires et tiers qui ne sont pas actuellement mises en correspondance avec un segment. Cette vue peut indiquer les meilleures caractéristiques à utiliser dans un segment d’audience pour l’optimisation de la campagne ou les nouvelles opportunités nettes.
+Avec le rapport [!UICONTROL Top Unused Traits], vous pouvez analyser et comparer les performances des caractéristiques propriétaires et tiers qui ne sont actuellement pas mises en correspondance avec un segment. Cette vue peut indiquer les meilleures caractéristiques à utiliser dans un segment d’audience pour l’optimisation de la campagne ou les nouvelles opportunités nettes.
 
 ## Utilisation du rapport Principales caractéristiques inutilisées {#using-the-report}
 
-Utilisez les **[!UICONTROL Data Provider Type]** contrôles pour basculer entre les caractéristiques propriétaires et tierces. Sélectionnez **[!UICONTROL All]** pour renvoyer les caractéristiques propriétaires et tiers dans le rapport.
+Utilisez les contrôles **[!UICONTROL Data Provider Type]** pour basculer entre les caractéristiques propriétaires et tierces. Sélectionnez **[!UICONTROL All]** pour renvoyer les caractéristiques propriétaires et tiers dans le rapport.
 
-Le **[!UICONTROL Impressions]** curseur vous permet de sélectionner une valeur minimale et maximale pour les impressions renvoyées. Les caractéristiques responsables de moins ou de plus de limites que vous avez définies ne sont pas affichées dans le rapport.
+Le curseur **[!UICONTROL Impressions]** vous permet de sélectionner une valeur minimale et maximale pour les impressions renvoyées. Les caractéristiques responsables de moins ou de plus de limites que vous avez définies ne sont pas affichées dans le rapport.
 
-Utilisez les **[!UICONTROL Day Range]** commandes et **[!UICONTROL Date Through]** pour ajuster la plage de recherche en arrière. Notez que seule la période de recherche en amont de 30 jours est disponible pour ce rapport.
+Utilisez les commandes **[!UICONTROL Day Range]** et **[!UICONTROL Date Through]** pour ajuster la plage de recherche en arrière. Notez que seule la période de recherche en amont de 30 jours est disponible pour ce rapport.
 
-Utilisez la **[!UICONTROL Order]** liste déroulante pour sélectionner les propriétés Web de votre portefeuille pour lesquelles vous souhaitez renvoyer des informations.
+Utilisez la liste déroulante **[!UICONTROL Order]** pour sélectionner les propriétés Web de votre portefeuille pour lesquelles vous souhaitez renvoyer des informations.
 
-Dans la **[!UICONTROL Data Provider]** liste déroulante, sélectionnez les sources de données contenant les caractéristiques à afficher dans le rapport.
+Dans la liste déroulante **[!UICONTROL Data Provider]**, sélectionnez les sources de données contenant les caractéristiques à afficher dans le rapport.
 
-Utilisez la **[!UICONTROL Traits]** liste déroulante pour sélectionner les caractéristiques à afficher dans le rapport.
+Utilisez la liste déroulante **[!UICONTROL Traits]** pour sélectionner les caractéristiques à afficher dans le rapport.
 
 >[!IMPORTANT]
 >
->Lors de l’activation [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Order IDs], comme décrit à l’étape 3 de [l’importation des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous assurez que le rapport détaille la propriété web en tant que telle [!UICONTROL Order] que non comme [!UICONTROL Order ID]la propriété web.
+>Lorsque vous activez [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Order IDs], comme décrit à l&#39;étape 3 de [Importer des fichiers de données Google Ad Manager (anciennement DFP) dans l&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous assurez ainsi que le rapport indique la propriété web sous la forme [!UICONTROL Order] au lieu de [!UICONTROL Order ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
 **Exemple de rapport**
 
-Votre [!UICONTROL Top Unused Traits] rapport peut ressembler à celui qui suit. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes.
+Votre rapport [!UICONTROL Top Unused Traits] peut ressembler à celui ci-dessous. Dans votre rapport, cliquez sur une bulle pour vue des données sous-jacentes.
 
 Voir la description des informations supplémentaires dans le tableau ci-dessous.
 
@@ -90,9 +90,9 @@ Voir la description des informations supplémentaires dans le tableau ci-dessous
 
 La position de vos caractéristiques dans un rapport peut vous en apprendre beaucoup sur les caractéristiques que vous pouvez utiliser pour optimiser les segments d’audience existants.
 
-Les caractéristiques situées plus haut sur l’axe Impressions sont celles que vous souhaitez utiliser dans vos campagnes. Pour les caractéristiques avec un faible nombre d’impressions, il est peu probable que vous atteigniez cette audience sur votre propriété Web, en fonction de vos [!DNL Google Ad Manager] données.
+Les caractéristiques situées plus haut sur l’axe Impressions sont celles que vous souhaitez utiliser dans vos campagnes. Pour les caractéristiques avec un faible nombre d’impressions, il est peu probable que vous atteigniez cette audience sur votre propriété Web, en fonction de vos données [!DNL Google Ad Manager].
 
-Recherchez à gauche de l&#39; [!UICONTROL Unique Trait Realizations] axe des caractéristiques très précises et à droite les caractéristiques qui peuvent conduire à l&#39;échelle.
+Recherchez à gauche de l&#39;axe [!UICONTROL Unique Trait Realizations] des caractéristiques très précises et à droite des caractéristiques qui peuvent conduire à l&#39;échelle.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
