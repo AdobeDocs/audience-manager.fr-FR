@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Message d’exemple aux partenaires après le traitement entrant{#sample-message-to-partners-after-inbound-processing}
 
-Chaque fois qu&#39;un [!UICONTROL Server-to-Server] fichier entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s&#39;il est configuré, au partenaire.
+Chaque fois qu&#39;un fichier [!UICONTROL Server-to-Server] entrant est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s&#39;il est configuré, au partenaire.
 
 <!-- r_inbound_message.xml -->
 
@@ -26,7 +26,7 @@ L’exemple suivant illustre un exemple de message électronique. Le tableau ci-
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>De : aam-noreply@adobe.com </b> </p> <p> <b>Objet : Résultat de traitement Adobe Audience Manager serveur à serveur :</b> </p> <p> <b>Cher partenaire Adobe : (ID:7)</b> <b></b> </p> <p> <b>Nous avons reçu votre diffusion de fichiers Adobe Audience Manager serveur à serveur</b> </p> <p> <b>Nom du fichier :</b> <i></i> </p> <p> <b> s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3 n://&lt;nom_<i>du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Enregistrements reçus : 40669900</b> </p> <p><b>Erreurs de format : 0</b> </p> <p> <b>ID AAM non valide : 112 </b> </p> <p> <b>Aucun ID AAM correspondant : 0 </b> </p> <p> <b>Aucune caractéristique réalisée : 26730823 </b> </p> <p> <b>Enregistrements traités : 40669900 </b> </p> <p> <b>Enregistrements stockés : 13938958 </b> </p> <p> <b>Nombre total de périphériques : 21 </b> </p> <p> <b>Signaux totaux : 918878926 </b> </p> <p> <b>Total des signaux inutilisés : 660348376 </b> </p> <p> <b>Nombre total de caractéristiques réalisées : 258086908 </b> </p> <p> <b>Nombre total de caractères retirés : 0 </b> </p> <p> <b>Échec de la validation du nombre total de caractéristiques : 0 </b> </p> <p> <b>Nombre total d’utilisateurs présentant des caractéristiques dont la validation a échoué : 0 </b> </p> <p> <b>début de la tâche : 2018-05-17 18:07:49 </b> </p> <p> <b>Heure de fin de la tâche : 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>De : aam-noreply@adobe.com  </b> </p> <p> <b>Objet : Résultat de traitement Adobe Audience Manager Server-To-Server :</b> </p> <p> <b>Cher partenaire Adobe : (ID:7)</b> <b></b> </p> <p> <b>Nous avons reçu votre diffusion de fichiers Adobe Audience Manager Server-To-Server</b> </p> <p> <b>Nom du fichier :</b> <i></i> </p> <p> <b> s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3 n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Enregistrements reçus : 40669900</b> </p> <p><b>Erreurs de format : 0</b> </p> <p> <b>ID d'AAM non valide : 112  </b> </p> <p> <b>Aucun ID AAM correspondant : 0  </b> </p> <p> <b>Aucune caractéristique réalisée : 26730823  </b> </p> <p> <b>Enregistrements traités : 40669900  </b> </p> <p> <b>Enregistrements stockés : 13938958  </b> </p> <p> <b>Nombre total de périphériques : 21  </b> </p> <p> <b>Signaux totaux : 918878926  </b> </p> <p> <b>Total des signaux inutilisés : 660348376  </b> </p> <p> <b>Nombre total de caractéristiques réalisées : 258086908  </b> </p> <p> <b>Nombre total de caractères retirés : 0  </b> </p> <p> <b>Échec de la validation du nombre total de caractéristiques : 0  </b> </p> <p> <b>Nombre total d’utilisateurs présentant des caractéristiques dont la validation a échoué : 0  </b> </p> <p> <b>Début de la tâche : 2018-05-17 18:07:49  </b> </p> <p> <b>Heure de fin de la tâche : 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,11 +43,11 @@ Le tableau suivant contient les lignes correspondant aux lignes du message élec
  <tbody> 
   <tr> 
    <td colname="col1"> Nom du fichier </td> 
-   <td colname="col2"> <p>Liste de tous les fichiers entrants reçus par Adobe pour ce partenaire qui ont été traités ensemble. Dans l’exemple de message électronique précédent, l’ID de partenaire est 7 et l’ID de propriétaire des données est 901. </p> <p>Le numéro de queue (1,2,3...) est le numéro fractionné ajouté soit par le client, soit par le distributeur entrant. </p> </td> 
+   <td colname="col2"> <p>Liste de tous les fichiers entrants que l'Adobe a reçus pour ce partenaire qui ont été traités ensemble. Dans l’exemple de message électronique précédent, l’ID de partenaire est 7 et l’ID de propriétaire des données est 901. </p> <p>Le numéro de queue (1,2,3...) est le numéro fractionné ajouté soit par le client, soit par le distributeur entrant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enregistrements reçus </td> 
-   <td colname="col2"> <p>Nombre total d’enregistrements reçus par Adobe dans tous les fichiers. Dans la plupart des cas, il doit s’agir du nombre total de lignes dans les fichiers entrants. </p> </td> 
+   <td colname="col2"> <p>Nombre total d'enregistrements reçus par Adobe dans tous les fichiers. Dans la plupart des cas, il doit s’agir du nombre total de lignes dans les fichiers entrants. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erreurs de format </td> 
@@ -71,7 +71,7 @@ Le tableau suivant contient les lignes correspondant aux lignes du message élec
   </tr> 
   <tr> 
    <td colname="col1"> Enregistrements stockés </td> 
-   <td colname="col2"> <p>Nombre d'enregistrements ayant abouti au chargement des données dans le système = Enregistrements traités - Erreurs de format - ID AAM non valides - Aucun ID AAM correspondant - Aucune caractéristique réalisée. </p> </td> 
+   <td colname="col2"> <p>Nombre d'enregistrements ayant abouti au chargement des données dans le système = Enregistrements traités - Erreurs de format - ID d'AAM non valide - Aucun ID d'AAM correspondant - Aucune caractéristique réalisée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nombre total de périphériques </td> 
@@ -102,7 +102,7 @@ Le tableau suivant contient les lignes correspondant aux lignes du message élec
    <td colname="col2"> <p>Nombre d’enregistrements dont les caractéristiques n’ont pas été validées. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> début de la tâche </td> 
+   <td colname="col1"> Début de la tâche </td> 
    <td colname="col2"> <p>Heure de début de la tâche entrante. </p> </td> 
   </tr> 
   <tr> 
