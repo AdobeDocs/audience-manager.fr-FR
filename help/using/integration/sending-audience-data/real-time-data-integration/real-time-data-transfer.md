@@ -17,15 +17,15 @@ ht-degree: 7%
 
 # Ingestion de données entrantes en temps réel {#real-time-inbound-data-ingestion}
 
-Le processus d’assimilation des données entrantes en temps réel utilise une série de `HTTP` requêtes du navigateur d’un utilisateur pour transmettre des données à l’Audience Manager.
+Le processus d’assimilation des données entrantes en temps réel utilise une série de requêtes `HTTP` provenant du navigateur d’un utilisateur pour transmettre des données à l’Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-Les données entrantes doivent être formatées en tant que paires clé-valeur appelées signaux. En règle générale, chaque signal est mappé à un segment créé ou géré par le biais de l’interface utilisateur ou [!DNL API]de.
+Les données entrantes doivent être formatées en tant que paires clé-valeur appelées signaux. En règle générale, chaque signal est mappé à un segment créé ou géré par le biais de l’interface utilisateur ou [!DNL API].
 
 ## Paramètres de chaîne d’URL et syntaxe {#url-string-syntax}
 
-Le transfert [!DNL URL] de données entrant doit contenir les variables décrites ci-dessous. Pensez à [créer des caractéristiques](../../../features/traits/create-onboarded-rule-based-traits.md) et une structure [de](../../../features/traits/trait-storage.md#create-trait-storage-folder) dossiers dans l’ [!DNL Audience Manager] interface utilisateur avant de configurer des transferts de données en temps réel.
+Le [!DNL URL] pour un transfert de données entrant doit contenir les variables décrites ci-dessous. Pensez à [créer des caractéristiques](../../../features/traits/create-onboarded-rule-based-traits.md) et une structure de dossiers [](../../../features/traits/trait-storage.md#create-trait-storage-folder) dans l&#39;interface utilisateur [!DNL Audience Manager] avant de configurer les transferts de données en temps réel.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Le transfert [!DNL URL] de données entrant doit contenir les variables décrite
 
 ### Syntaxe de l’URL
 
-Lors d’un processus d’assimilation de données entrantes en temps réel, une [!DNL URL] chaîne correctement formatée utilise la syntaxe suivante :
+Lors d’un processus d’assimilation de données entrantes en temps réel, une chaîne [!DNL URL] correctement formatée utilise la syntaxe suivante :
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
