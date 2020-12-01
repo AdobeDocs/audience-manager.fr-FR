@@ -23,7 +23,7 @@ Méthodes qui vous permettent de vue de la taxonomie commune à l&#39;Audience M
 
 >[!NOTE]
 >
->Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classifier les caractéristiques avec ces méthodes. Pour classer une caractéristique, spécifiez la caractéristique appropriée `categoryId` avec une méthode de création ou de mise à jour de caractéristique.
+>Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classifier les caractéristiques avec ces méthodes. Pour classer une caractéristique, spécifiez la `categoryId` appropriée avec une méthode de création ou de mise à jour de la caractéristique.
 
 ## Renvoyer une taxonomie spécifique {#return-specific-taxonomy}
 
