@@ -50,19 +50,19 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
    <td colname="col2"> <p>Fait référence aux méthodes de transfert de données. Les méthodes de transfert comprennent : </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Transfert via SFTP </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Transfert vers <span class="keyword"> AWS Amazon </span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3  </span> - Transfert vers  <span class="keyword"> Amazon AWS  </span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de destination. </p> <p>En <span class="keyword"> Audience Manager </span>, une destination est l’instance de l’intégration où vous pouvez mapper vos segments cibles. Les clients peuvent avoir plusieurs destinations, en fonction des besoins de l’entreprise. </p> </td> 
+   <td colname="col2"> <p>ID de destination. </p> <p>Dans <span class="keyword"> Audience Manager </span>, une destination est l'instance de l'intégration où vous pouvez mapper vos segments cibles. Les clients peuvent avoir plusieurs destinations, en fonction des besoins de l’entreprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>Fournisseur de données ou ID de source de données. Cet identifiant identifie le type d’ID utilisateur présent dans le contenu du fichier. Les clés d’ID utilisateur les plus courantes sont : </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Identifiant publicitaire Google </span> (brut, non haché) </li> 
-      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> ID Apple pour les annonceurs </span> (brut, non haché) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Identifiant Google Advertiser </span> (brut, non haché) </li> 
+      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> ID Apple pour annonceurs </span> (brut, non haché) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fournisseur - ID utilisateur tiers (Web/cookie) </li> 
      </ul> </p> <p>Consultez les <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p></td> 
   </tr> 
@@ -97,7 +97,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
 
 ### Scénario 1
 
-Fichiers envoyés à un [!DNL Amazon S3] emplacement, avec *`PID_ALIAS="XYZCustomer"`* et [!DNL Google Advertiser IDs] dans le contenu du fichier.
+Fichiers envoyés à un emplacement [!DNL Amazon S3], avec *`PID_ALIAS="XYZCustomer"`* et [!DNL Google Advertiser IDs] dans le contenu du fichier.
 
 Par exemple, fichiers incrémentiels :
 
@@ -116,7 +116,7 @@ Par exemple, fichiers complets :
 
 ### Scénario 2
 
-Fichiers envoyés à [!DNL FTP] l’emplacement, sans *`PID_ALIAS`* et avec [!DNL Apple Advertiser IDs] le contenu du fichier :
+Fichiers envoyés à l&#39;emplacement [!DNL FTP], sans *`PID_ALIAS`* et avec [!DNL Apple Advertiser IDs] dans le contenu du fichier :
 
 Par exemple, fichiers incrémentiels :
 
@@ -132,7 +132,7 @@ Par exemple, fichiers complets :
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scénario 3**: Fichiers envoyés à [!DNL FTP] l’emplacement, avec *`PID_ALIAS="XYZCustomer"`* et un ID utilisateur tiers dans le contenu du fichier ( *`Vendor ID=45454`*) :
+**Scénario 3** : Fichiers envoyés à  [!DNL FTP] l’emplacement, avec  *`PID_ALIAS="XYZCustomer"`* et avec un ID utilisateur tiers dans le contenu du fichier (  *`Vendor ID=45454`*) :
 
 Par exemple, fichiers incrémentiels :
 
@@ -191,14 +191,14 @@ Le tableau liste des variables qui définissent le contenu d’un fichier de don
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de segment à partir duquel l’utilisateur a été disqualifié. Séparez plusieurs segments par une virgule. Avec une synchronisation complète, vous pouvez ignorer les segments supprimés car le fichier de données contiendra la liste complète des segments actuels pour l’utilisateur. En règle générale, vous souhaitez connaître les segments auxquels un utilisateur appartient plutôt que ceux dont il a été supprimé. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
+   <td colname="col2"> <p>ID de segment à partir duquel l’utilisateur a été disqualifié. Séparez plusieurs segments par une virgule. Avec une synchronisation complète, vous pouvez ignorer les segments supprimés car le fichier de données contiendra la liste complète des segments actuels pour l’utilisateur. En règle générale, vous souhaitez connaître les segments auxquels un utilisateur appartient plutôt que ceux dont il a été supprimé. Voir aussi <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nom de fichier de données sortantes : Syntaxe et exemples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Exemple : Format de fichier de base
 
-Un fichier de données correctement formaté peut ressembler à l’exemple suivant. Cette entrée de fichier indique qu’un utilisateur est admissible pour les segments 24, 26 et 27. Si nécessaire, un espace sépare les ID `UUID` et les ID de segment. Un autre espace sépare les jeux d’ID de segment. Dans cet exemple, un utilisateur appartient aux segments 24, 26 et 27. Ils ont été supprimés des segments 25 et 28.
+Un fichier de données correctement formaté peut ressembler à l’exemple suivant. Cette entrée de fichier indique qu’un utilisateur est admissible pour les segments 24, 26 et 27. Selon les besoins, un espace sépare les `UUID` ID de segment et les ID de segment. Un autre espace sépare les jeux d’ID de segment. Dans cet exemple, un utilisateur appartient aux segments 24, 26 et 27. Ils ont été supprimés des segments 25 et 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
