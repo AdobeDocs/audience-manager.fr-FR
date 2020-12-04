@@ -7,7 +7,7 @@ title: Gestion des règles de caractéristiques
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -29,13 +29,17 @@ Dans [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] vous permet de 
 
 1. Les champs et les contrôles de cette section vous permettent de créer des signaux à partir de paires clé-valeur et de définir la relation entre eux avec un opérateur de comparaison. Une clé, un opérateur et une valeur sont requis.
 1. Le [!UICONTROL Data Explorer Options] vous permet de renvoyer les réalisations de caractéristiques de vos signaux.
+
    >[!NOTE]
    >
    >Cette option est disponible uniquement pour les clients [!UICONTROL Data Explorer]. Contactez votre consultant en Adobe pour plus de détails.
+
 1. Cette section présente une estimation des réalisations de caractéristiques pour les 7 derniers jours, pour les signaux définis dans [!UICONTROL Expression Builder], pour les caractéristiques renvoyées et non renversées.
+
    >[!NOTE]
    >
    >Cette option est disponible uniquement pour les clients [!UICONTROL Data Explorer]. Contactez votre consultant en Adobe pour plus de détails.
+
 1. Les champs de test vous permettent de valider des combinaisons de règles de signal ou les [!DNL URL]s que vous souhaitez utiliser lors de l’envoi de données à l’Audience Manager.
 
 ## Créer une règle de caractéristiques {#create-trait-rule}
@@ -47,18 +51,23 @@ Les règles (ou expressions) se composent de paires clé-valeur individuelles ou
 Renseignez les champs obligatoires de la section **[!UICONTROL Basic Information]** *avant* de créer des règles de caractéristiques.
 
 1. Développez la section **[!UICONTROL Trait Expression]** et saisissez une clé et un nom de valeur. Cela crée un *`signal`*.
+
    >[!NOTE]
    >
    >Incluez le préfixe `c_` (ou toute autre convention d’affectation de nom) pour la variable clé si vos appels de événement envoient des données à [!DNL Audience Manager] à l’aide de cette syntaxe.
+
 1. Sélectionnez un [opérateur de comparaison](../../features/traits/trait-comparison-operators.md) dans la liste déroulante **[!UICONTROL Operator]**. L’opérateur de comparaison évalue la relation entre les éléments d’un signal.
+
    >[!NOTE]
    >
    >L&#39;opérateur [!DNL Boolean] [!UICONTROL OR] établit la relation entre plusieurs signaux *dans* un groupe et ne peut pas être modifié.
+
 1. Cliquez sur **[!UICONTROL Add Rule]**. La règle enregistrée s&#39;affiche dans l&#39;espace de travail des caractéristiques au-dessus des champs de saisie de données.
 
 ### Exemple {#example-trait-rule}
 
 Dans l’exemple ci-dessous, un utilisateur a créé une nouvelle règle de caractéristiques basée sur l’identifiant du produit. Pour créer cette règle, l’utilisateur a fourni la clé `productkey` associée à un opérateur égal ( `==`) à la valeur `2093`.
+
 ![](assets/tb_sample_rule1.png)
 
 Cliquez sur **[!UICONTROL Add Rule]** pour enregistrer et déplacer la caractéristique dans l&#39;espace de travail [!UICONTROL Expression Builder].
@@ -75,11 +84,14 @@ Votre caractéristique doit contenir au moins deux règles avant de pouvoir cré
 
 1. Placez le curseur sur la règle à déplacer pour la mettre en surbrillance.
 1. Passez la souris sur la bordure de la règle mise en surbrillance.
-Cette opération sépare automatiquement la règle de son groupe actuel et la déplace dans un nouveau groupe.
+
+   Cette opération sépare automatiquement la règle de son groupe actuel et la déplace dans un nouveau groupe.
+
    >[!NOTE]
    >
    >Faites glisser une règle vers son groupe d’origine si vous la déplacez involontairement.
-1. Sélectionnez un opérateur [!DNL Boolean] ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dans le menu déroulant pour définir la relation entre les groupes de règles.
+
+1. Sélectionnez un opérateur [!DNL Boolean] ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dans le menu déroulant pour définir la relation entre les groupes de règles.
 
 ## Déplacer les règles entre les groupes {#move-rules-between-groups}
 
