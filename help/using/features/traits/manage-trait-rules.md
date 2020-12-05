@@ -1,6 +1,6 @@
 ---
-description: Dans le créateur de caractéristiques, le créateur d’Expressions vous permet de créer et de tester des règles qui définissent les exigences de qualification des audiences. Les règles se composent de paires clé-valeur telles que "color == blue" ou "price > 100". Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
-seo-description: Dans le créateur de caractéristiques, le créateur d’Expressions vous permet de créer et de tester des règles qui définissent les exigences de qualification des audiences. Les règles se composent de paires clé-valeur telles que "color == blue" ou "price > 100". Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
+description: Dans le créateur de caractéristiques, le créateur d’Expressions vous permet de créer et de tester des règles qui définissent les exigences de qualification des audiences. Les règles se composent de paires clé-valeur telles que "color == blue" ou "price &gt; 100". Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
+seo-description: Dans le créateur de caractéristiques, le créateur d’Expressions vous permet de créer et de tester des règles qui définissent les exigences de qualification des audiences. Les règles se composent de paires clé-valeur telles que "color == blue" ou "price &gt; 100". Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
 seo-title: Gestion des règles de caractéristiques
 solution: Audience Manager
 title: Gestion des règles de caractéristiques
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
