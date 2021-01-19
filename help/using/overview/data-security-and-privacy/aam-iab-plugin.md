@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Module d’Audience Manager pour le TCF de l’IAB
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 40%
@@ -64,7 +64,7 @@ Les clients qui effectuent la mise à niveau de leur implémentation [!DNL Audie
 Pour utiliser le module externe d’Audience Manager pour IAB TCF avec Audience Manager, vous devez respecter les conditions préalables suivantes :
 
 1. Vous devez utiliser la version 5 ou ultérieure d’Adobe Experience Platform Identity Service (ECID). [Téléchargez](https://github.com/Adobe-Marketing-Cloud/id-service/releases) notre dernière mise à jour d’ECID.
-2. Vous devez utiliser l&#39;Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 ou ultérieure, téléchargeable à partir de [ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Consultez la [documentation d’Audience Manager sur DIL](../..//dil/dil-overview.md). Nous vous recommandons d’utiliser [Adobe Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) pour la mise en oeuvre DIL la plus simple pour l’Audience Manager.
+2. Vous devez utiliser l&#39;Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 ou ultérieure, téléchargeable à partir de [ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Consultez la [documentation d’Audience Manager sur DIL](../../dil/dil-overview.md). Nous vous recommandons d’utiliser [Adobe Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) pour la mise en oeuvre DIL la plus simple pour l’Audience Manager.
 3. Si vous utilisez [!DNL Server-Side Forwarding] (SSF) pour importer des données dans l’Audience Manager, vous devez également effectuer la mise à niveau vers la dernière version d’AppMeasurement. Téléchargez AppMeasurement à l’aide du [gestionnaire de code d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/code-manager-admin.html).
 4. Vous devez utiliser une plateforme de gestion du consentement (CMP), commerciale ou la vôtre, qui est intégrée avec IAB TCF v2.0 et est enregistrée avec IAB TCF. Consultez la liste des [CMP enregistrées dans le framework de l’IAB](https://iabeurope.eu/cmp-list/).
 
