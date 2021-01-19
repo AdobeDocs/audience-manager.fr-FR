@@ -7,15 +7,15 @@ title: Exigences en matière de nom et de taille de fichier Amazon S3 pour les f
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: d6856a54c649d701c3163c1408f84aea256ebdc1
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 6%
+source-wordcount: '1051'
+ht-degree: 5%
 
 ---
 
 
-# [!DNL Amazon S3]Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Décrit les champs obligatoires, la syntaxe, les conventions d’affectation de nom et les tailles de fichiers à respecter lors de l’envoi de données à [!DNL Audience Manager]. Définissez les noms et les tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données dans un répertoire [!DNL Audience Manager] / [!DNL Amazon S3].
 
@@ -41,7 +41,7 @@ Removed  {importance="high"} for ExL
 >
 >[!DNL Audience Manager] traite uniquement  [!DNL ASCII] et  [!DNL UTF-8] les fichiers codés.
 
-### Nommer les éléments
+### Eléments de nom
 
 Le tableau définit les éléments dans un nom de fichier [!DNL S3].
 
@@ -155,9 +155,14 @@ Tenez compte des chiffres ci-dessous pour le traitement le plus rapide/le plus p
  </tbody> 
 </table>
 
+
 >[!NOTE]
 >
 >Le processus de validation des données entrantes marquera les fichiers vides comme non valides et ne les traitera pas.
+
+## Limites de longueur de ligne {#line-limits}
+
+Les fichiers de données entrants ont une longueur de ligne limitée à 10 2400 octets. Les lignes dépassant cette limite sont exclues du transfert.
 
 >[!MORELIKETHIS]
 >
