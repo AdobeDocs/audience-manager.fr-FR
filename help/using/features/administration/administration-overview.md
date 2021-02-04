@@ -1,6 +1,6 @@
 ---
 description: Les options du menu Administration vous permettent de créer des utilisateurs d’Audience Manager et de les affecter à des groupes. Vous pouvez également définir des limites de vue (caractéristiques, segments, destinations et modèles).
-keywords: rbac;RBAC;role based;role-based;role-based access controls
+keywords: rbac;RBAC;rôle-based;role-based;role-based contrôles d'accès
 seo-description: Les options du menu Administration vous permettent de créer des utilisateurs d’Audience Manager et de les affecter à des groupes. Vous pouvez également définir des limites de vue (caractéristiques, segments, destinations et modèles).
 seo-title: Administration
 solution: Audience Manager
@@ -9,10 +9,10 @@ topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 1%
+source-wordcount: '1203'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 1%
 # [!UICONTROL Administration] (Commandes RBAC)  {#administration}
 
 ![](assets/rbac-controls.png)
+
+>[!IMPORTANT]
+>
+> La gestion des comptes utilisateur passe au [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Pour début la migration des utilisateurs, nous demandons à tous les clients Audiences Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers le Admin Console](admin-console-migration.md).
+> 
+> Une fois que tous les clients ont migré, les sections de gestion des utilisateurs de ce document disparaîtront.
+
 
 Les options du menu [!UICONTROL Administration] vous permettent de créer des utilisateurs d&#39;Audience Manager et de les affecter à des groupes. Vous pouvez également définir des limites de vue (caractéristiques, segments, destinations et modèles).
 
@@ -30,6 +37,12 @@ Les clients d&#39;entreprise qui utilisent [!DNL Audience Manager] ont besoin d&
 ## Créer des utilisateurs {#create-users}
 
 <!-- t_create_users.xml -->
+
+>[!IMPORTANT]
+>
+> La gestion des comptes utilisateur passe au [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Pour début la migration des utilisateurs, nous demandons à tous les clients Audiences Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers le Admin Console](admin-console-migration.md).
+> 
+> Une fois que tous les clients ont migré, la section de gestion des utilisateurs de ce document disparaîtra.
 
 Créez des utilisateurs dans [!DNL Audience Manager] et spécifiez les détails utilisateur, l’état de connexion et l’affectation d’utilisateurs à des groupes.
 
@@ -54,6 +67,12 @@ Pour plus d’informations sur les groupes et les autorisations, voir [Création
 
 ## Créez un [!UICONTROL Group] {#create-group}
 
+>[!IMPORTANT]
+>
+> La gestion des comptes utilisateur passe au [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Pour début la migration des utilisateurs, nous conseillons à tous les clients Audiences Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers le Admin Console](admin-console-migration.md).
+> 
+> Une fois que tous les clients ont migré, cette section disparaîtra.
+
 Un *groupe* est un ensemble d&#39;utilisateurs qui partagent des droits d&#39;accès aux objets [!UICONTROL destination], [!UICONTROL segment] et [!UICONTROL trait]. Vous pouvez limiter les groupes à des objets uniques ou leur donner un large accès à des combinaisons d’objets différents.
 
 <!-- t_create_groups.xml -->
@@ -61,18 +80,24 @@ Un *groupe* est un ensemble d&#39;utilisateurs qui partagent des droits d&#39;ac
 Création d’un groupe:
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
-1. Cliquez sur ![](assets/icon_add.png) pour ouvrir la page [!UICONTROL Group Settings].
-1. Dans [!UICONTROL Group Details]:
+2. Cliquez sur ![](assets/icon_add.png) pour ouvrir la page [!UICONTROL Group Settings].
+3. Dans [!UICONTROL Group Details]:
    * Nommez le groupe.
    * Fournissez une brève description du groupe.
-1. Dans [!UICONTROL Group Members], cliquez sur un utilisateur à partir des options **[!UICONTROL Add Users]** pour les ajouter au groupe.
-1. Dans [!UICONTROL Group Permissions], sélectionnez une [caractéristique](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md) ou [destination](../../features/destinations/destinations.md) dans **[!UICONTROL Add Object]**.
+4. Dans [!UICONTROL Group Members], cliquez sur un utilisateur à partir des options **[!UICONTROL Add Users]** pour les ajouter au groupe.
+5. Dans [!UICONTROL Group Permissions], sélectionnez une [caractéristique](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md) ou [destination](../../features/destinations/destinations.md) dans **[!UICONTROL Add Object]**.
 Cette opération ouvre une fenêtre d&#39;autorisations pour l&#39;objet sélectionné.
-1. Cochez la case correspondant aux autorisations que vous souhaitez que les membres du groupe possèdent.
-1. *(Facultatif)* Attribuez des  [autorisations de carte ](../../features/administration/administration-overview.md#wild-card-permissions) générique au groupe.
-1. Cliquez sur **[!UICONTROL Save Group]**.
+6. Cochez la case correspondant aux autorisations que vous souhaitez que les membres du groupe possèdent.
+7. *(Facultatif)* Attribuez des  [autorisations de carte ](../../features/administration/administration-overview.md#wild-card-permissions) générique au groupe.
+8. Cliquez sur **[!UICONTROL Save Group]**.
 
 ## Comprendre [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
+
+>[!IMPORTANT]
+>
+> La gestion des comptes utilisateur passe au [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Pour début la migration des utilisateurs, nous conseillons à tous les clients Audiences Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers le Admin Console](admin-console-migration.md).
+> 
+> Une fois que tous les clients ont migré, cette section disparaîtra.
 
 Simplifiez la gestion des droits de groupe avec [!UICONTROL Wild Card Permissions].
 
@@ -80,7 +105,7 @@ Simplifiez la gestion des droits de groupe avec [!UICONTROL Wild Card Permission
 
 [!UICONTROL Wild Card Permissions] donnent aux membres du groupe un accès automatique à chaque source de données associée à une source  [!UICONTROL segment],  [!UICONTROL destination] ou  [!UICONTROL trait]. Par comparaison, les autorisations régulières vous permettent uniquement d&#39;affecter [!UICONTROL data sources] spécifique à l&#39;un de ces objets. Et, lorsque vous ajoutez de nouvelles [!UICONTROL data sources], les membres du groupe n&#39;ont pas accès à ces nouvelles sources.
 
-Vous devez ouvrir les autorisations de groupe et affecter ces nouvelles [!UICONTROL data sources] au groupe. [!UICONTROL Wild Card Permissions] évitez ce processus de  [!UICONTROL data source] mise à jour manuelle. Les groupes avec [!UICONTROL Wild Card Permissions] ont accès à [!UICONTROL data sources] nouveau &lt;a1/> sans autorisation explicite.
+Vous devez ouvrir les autorisations de groupe et affecter ces nouvelles [!UICONTROL data sources] au groupe. [!UICONTROL Wild Card Permissions] évitez ce processus de  [!UICONTROL data source] mise à jour manuelle. Les groupes avec [!UICONTROL Wild Card Permissions] ont accès à [!UICONTROL data sources] nouveau  sans autorisation explicite.
 
 ![](assets/wild-card.png)
 
