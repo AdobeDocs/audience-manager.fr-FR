@@ -1,6 +1,6 @@
 ---
 description: Créez et gérez les caractéristiques ou les segments utilisés dans la modélisation de l’apparence.
-keywords: relative weight, lookalike
+keywords: poids relatif, ressemblant
 seo-description: Créez et gérez les caractéristiques ou les segments utilisés dans la modélisation de l’apparence.
 seo-title: A propos de la modélisation à l’apparence
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1593'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Pour créer une ligne de base, [!UICONTROL TraitWeight] mesure tous les [!UICONT
 
 ### Étape 2 : Rechercher la même [!UICONTROL Traits] dans le [!UICONTROL Data Source]
 
-Après avoir créé une ligne de base à des fins de comparaison, l’algorithme recherche [!UICONTROL traits] identique dans le [!UICONTROL data sources] &lt;a1/> sélectionné. Au cours de cette étape, [!UICONTROL TraitWeight] effectue un décompte de fréquence de tous les [!UICONTROL traits] découverts et les compare à la ligne de base. Cependant, contrairement à la ligne de base, [!UICONTROL traits] rare est classé plus haut que ceux qui apparaissent plus souvent. On dit que les [!UICONTROL traits] rares présentent un haut degré de spécificité. [!UICONTROL TraitWeight] évalue les combinaisons de lignes de base communes  [!UICONTROL traits] et de lignes de base inhabituelles (très spécifiques)  [!UICONTROL data source] [!UICONTROL traits] comme étant plus influentes ou souhaitables que  [!UICONTROL traits] communes aux deux ensembles de données. En fait, notre modèle reconnaît ces grandes [!UICONTROL traits] communes et n&#39;accorde pas une priorité excessive aux ensembles de données présentant des corrélations élevées. Rare [!UICONTROL traits] a une priorité plus élevée parce qu&#39;ils sont plus susceptibles de représenter de nouveaux utilisateurs uniques que [!UICONTROL traits] avec une communauté élevée dans l&#39;ensemble.
+Après avoir créé une ligne de base à des fins de comparaison, l’algorithme recherche [!UICONTROL traits] identique dans le [!UICONTROL data sources]  sélectionné. Au cours de cette étape, [!UICONTROL TraitWeight] effectue un décompte de fréquence de tous les [!UICONTROL traits] découverts et les compare à la ligne de base. Cependant, contrairement à la ligne de base, [!UICONTROL traits] rare est classé plus haut que ceux qui apparaissent plus souvent. On dit que les [!UICONTROL traits] rares présentent un haut degré de spécificité. [!UICONTROL TraitWeight] évalue les combinaisons de lignes de base communes  [!UICONTROL traits] et de lignes de base inhabituelles (très spécifiques)  [!UICONTROL data source] [!UICONTROL traits] comme étant plus influentes ou souhaitables que  [!UICONTROL traits] communes aux deux ensembles de données. En fait, notre modèle reconnaît ces grandes [!UICONTROL traits] communes et n&#39;accorde pas une priorité excessive aux ensembles de données présentant des corrélations élevées. Rare [!UICONTROL traits] a une priorité plus élevée parce qu&#39;ils sont plus susceptibles de représenter de nouveaux utilisateurs uniques que [!UICONTROL traits] avec une communauté élevée dans l&#39;ensemble.
 
 ### Étape 3 : Attribuer un Poids
 
-À cette étape, [!UICONTROL TraitWeight] classe [!UICONTROL traits] les nouveaux &lt;a1/> par ordre d&#39;influence ou d&#39;opportunité. L&#39;échelle de poids est un pourcentage qui s&#39;étend de 0 % à 100 %. [!UICONTROL Traits] classé plus près de 100 % signifie qu’ils ressemblent davantage à l’audience de votre population de base. En outre, les [!UICONTROL traits] fortement pondérés sont utiles parce qu&#39;ils représentent de nouveaux utilisateurs uniques qui peuvent se comporter de la même manière que votre audience de base établie. N&#39;oubliez pas que [!UICONTROL TraitWeight] considère [!UICONTROL traits] que la ligne de base présente des points communs élevés et que la grande spécificité des sources de données comparées est plus précieuse que [!UICONTROL traits] que ce qui est commun à chaque jeu de données.
+À cette étape, [!UICONTROL TraitWeight] classe [!UICONTROL traits] les nouveaux  par ordre d&#39;influence ou d&#39;opportunité. L&#39;échelle de poids est un pourcentage qui s&#39;étend de 0 % à 100 %. [!UICONTROL Traits] classé plus près de 100 % signifie qu’ils ressemblent davantage à l’audience de votre population de base. En outre, les [!UICONTROL traits] fortement pondérés sont utiles parce qu&#39;ils représentent de nouveaux utilisateurs uniques qui peuvent se comporter de la même manière que votre audience de base établie. N&#39;oubliez pas que [!UICONTROL TraitWeight] considère [!UICONTROL traits] que la ligne de base présente des points communs élevés et que la grande spécificité des sources de données comparées est plus précieuse que [!UICONTROL traits] que ce qui est commun à chaque jeu de données.
 
 ### Étape 4 : Notation des utilisateurs
 
