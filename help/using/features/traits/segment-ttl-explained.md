@@ -46,7 +46,7 @@ Un utilisateur sort d’un segment s’il ne remplit aucune de ses caractéristi
 
 [!DNL TTL] est réinitialisé et l’utilisateur reste dans un segment, s’il remplit les conditions requises pour la caractéristique de ce segment au cours de la période [!DNL TTL]. En outre, comme la plupart des segments contiennent plusieurs caractéristiques avec leurs propres intervalles [!DNL TTL], un utilisateur peut rester dans un segment et réinitialiser l’intervalle [!DNL TTL], tant qu’il reste admissible pour les caractéristiques associées au segment.
 
-Par exemple, supposons que le segment 1 se compose de la caractéristique A (30 jours [!DNL TTL]) et de la caractéristique B (15 jours [!DNL TTL]). En supposant qu’un visiteur ne soit admissible pour chaque caractéristique qu’une seule fois, l’illustration ci-dessous décrit le processus de renouvellement [!DNL TTL] et la durée totale du segment.
+Supposons, par exemple, que le segment 1 soit composé de la caractéristique A (30 jours [!DNL TTL]) et de la caractéristique B (15 jours [!DNL TTL]). En supposant qu’un visiteur ne soit admissible pour chaque caractéristique qu’une seule fois, l’illustration ci-dessous décrit le processus de renouvellement [!DNL TTL] et la durée totale du segment.
 
 ![](assets/ttl-renewal.png)
 
