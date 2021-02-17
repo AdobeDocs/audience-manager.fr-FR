@@ -23,7 +23,7 @@ Ce rapport renvoie une liste de caractéristiques qui ont été réalisées au m
 >
 >Le rapport Quotidien sur les variations de caractéristiques en Audience Manager respecte les principes du CCRAC. Vous ne pouvez afficher que les caractéristiques des sources de données auxquelles vous avez accès en fonction du [groupe d’utilisateurs RBAC](/help/using/features/administration/administration-overview.md) auquel vous appartenez.
 
-L&#39;écart type mesure la quantité de variation ou de dispersion par rapport à la moyenne (ou la moyenne/valeur attendue). Un écart-type faible indique que les points de données tendent à être très proches de la moyenne. Un écart type élevé indique que les points de données sont répartis sur une grande plage de valeurs.
+L&#39;écart type mesure la quantité de variation ou de dispersion par rapport à la moyenne (ou à la valeur moyenne/attendue). Un écart-type faible indique que les points de données tendent à être très proches de la moyenne. Un écart type élevé indique que les points de données sont répartis sur une grande plage de valeurs.
 
 ![](assets/daily_trait_variation.png)
 
