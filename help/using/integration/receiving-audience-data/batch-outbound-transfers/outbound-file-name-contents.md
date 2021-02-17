@@ -62,7 +62,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
    <td colname="col2"> <p>Fournisseur de données ou ID de source de données. Cet identifiant identifie le type d’ID utilisateur présent dans le contenu du fichier. Les clés d’ID utilisateur les plus courantes sont : </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Identifiant Google Advertiser </span> (brut, non haché) </li> 
-      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> ID Apple pour annonceurs </span> (brut, non haché) </li> 
+      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (brut, non haché) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fournisseur - ID utilisateur tiers (Web/cookie) </li> 
      </ul> </p> <p>Consultez les <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p></td> 
   </tr> 
