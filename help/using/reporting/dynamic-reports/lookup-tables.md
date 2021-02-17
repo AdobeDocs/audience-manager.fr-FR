@@ -1,6 +1,6 @@
 ---
-description: Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non-ID dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
-seo-description: Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non-ID dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
+description: Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
+seo-description: Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
 seo-title: Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance
 solution: Audience Manager
 title: Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 # Amélioration des délais de traitement des fichiers journaux avec les tables de correspondance{#improve-log-file-processing-times-with-lookup-tables}
 
-Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non-ID dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
+Placez les données dans les fichiers journaux du rapport Performances des Diffusions dans des tableaux contenant uniquement des ID. Placez les métadonnées non identifiables dans des tables de recherche distinctes pour réduire la taille du fichier et les temps de traitement.
 
 <!-- 
 
@@ -55,7 +55,7 @@ Voici le même fichier journal dont les métadonnées ont été supprimées. Le 
 
 | Identifiant utilisateur | Identifiant de publicité | ID de commande | Identifiant publicitaire |
 |---|---|---|---|
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
 | 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
