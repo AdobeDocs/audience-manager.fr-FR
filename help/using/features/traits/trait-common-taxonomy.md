@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ La taxonomie [!DNL Audience Manager] est une fonction facultative qui classe les
 
 ## Avantages de la classification des caractéristiques
 
-Permettre à nos clients de créer des segments et des modèles de données personnalisés est au coeur du modèle [!DNL Audience Manager] et de votre capacité à capturer de la valeur à partir de notre plateforme. Cependant, il est également nécessaire de disposer d’un moyen robuste et évolutif de communiquer des informations sur les segments à vos clients et partenaires. De plus, cette communication exige que les informations sur les segments soient partagées dans un langage compréhensible et universel tout en protégeant vos caractéristiques et noms de segment propriétaires. La taxonomie commune [!DNL Audience Manager] fournit ce langage et cette fonctionnalité.
+Permettre à nos clients de créer des segments et des modèles de données personnalisés est essentiel au modèle [!DNL Audience Manager] et à votre capacité à capturer de la valeur à partir de notre plateforme. Cependant, il est également nécessaire de disposer d’un moyen robuste et évolutif de communiquer des informations sur les segments à vos clients et partenaires. De plus, cette communication exige que les informations sur les segments soient partagées dans un langage compréhensible et universel tout en protégeant vos caractéristiques et noms de segment propriétaires. La taxonomie commune [!DNL Audience Manager] fournit ce langage et cette fonctionnalité.
 
 ## La taxonomie utilise les Catégories de classification standard du secteur
 
