@@ -58,7 +58,7 @@ Vous créez des règles de qualification de caractéristiques et de segments ave
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> OU</span></b> </p> </td> 
    <td colname="col2"> <p>Exigences de qualification des audiences générales et moins ciblées. </p> </td> 
-   <td colname="col3"> <p>Les utilisateurs <i>peut</i> appartenir à des caractéristiques ou des segments spécifiés. </p> </td> 
+   <td colname="col3"> <p>Les utilisateurs <i>peuvent</i> appartenir à des caractéristiques ou des segments spécifiés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> SAUF</span></b> </p> </td> 
@@ -78,7 +78,7 @@ L&#39;opérateur [!UICONTROL OR] est utile lorsque vous souhaitez créer des sig
 
 **[!UICONTROL AND NOT]Exemple de cas d’utilisation**
 
-L&#39;opérateur [!UICONTROL AND NOT] est utile lorsqu&#39;il est plus facile de définir une audience par *exclusion* que par *inclusion*. Supposons, par exemple, que vous vendiez et que vous souhaitiez segmenter les visiteurs en clients qui étudient uniquement les articles à prix plein. Plutôt que de créer une liste de signaux pour tous les articles admissibles à prix complet ou à prix de vente, il peut être plus facile de qualifier les visiteurs s&#39;ils ont *non* vu un article de prix de vente. Cette méthode est efficace sur le plan administratif, car vous avez généralement moins d&#39;articles à prix de vente que ceux offerts au prix complet. Avec une valeur booléenne [!UICONTROL NOT], les visiteurs *ne doivent pas* présenter le signal de vente pour être admissibles à une audience à prix plein. Par contre, [!UICONTROL AND NOT] est le contraire du cas d&#39;utilisation de [!UICONTROL AND], qui montre comment l&#39;appartenance à l&#39;audience est déterminée par inclusion (c&#39;est-à-dire que le visiteur est qualifié sur la base de 2 signaux explicitement indiqués).
+L&#39;opérateur [!UICONTROL AND NOT] est utile lorsqu&#39;il est plus facile de définir une audience par *exclusion* que *inclusion*. Supposons, par exemple, que vous vendiez et que vous souhaitiez segmenter les visiteurs en clients qui étudient uniquement les articles à prix plein. Plutôt que de créer une liste de signaux pour tous les articles admissibles à prix complet ou à prix de vente, il peut être plus facile de qualifier les visiteurs s&#39;ils ont *non* vu un article de prix de vente. Cette méthode est efficace sur le plan administratif, car vous avez généralement moins d&#39;articles à prix de vente que ceux offerts au prix complet. Avec une valeur booléenne [!UICONTROL NOT], les visiteurs *ne doivent pas* présenter le signal de vente pour être admissibles à une audience à prix plein. Par contre, [!UICONTROL AND NOT] est le contraire du cas d&#39;utilisation de [!UICONTROL AND], qui montre comment l&#39;appartenance à l&#39;audience est déterminée par inclusion (c&#39;est-à-dire que le visiteur est qualifié sur la base de 2 signaux explicitement indiqués).
 
 >[!MORELIKETHIS]
 >
