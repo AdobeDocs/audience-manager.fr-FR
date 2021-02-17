@@ -1,6 +1,6 @@
 ---
 description: Utilisez le lecteur de Profil du Visiteur pour afficher l’état actuel d’un profil d’utilisateur pour le navigateur actuel, y compris ses caractéristiques et segments. Pour chaque caractéristique, vous pouvez vue son SID, son nom, des détails sur la façon dont les caractéristiques du visiteur ont été réalisées (première ou troisième partie), la date de réalisation et la fréquence des reconnaissances. Pour chaque segment, vous pouvez vue son SID, son nom et la date d’adhésion du segment. Vous pouvez également vue le profil du visiteur pour un autre identifiant de profil d’Audience Manager (UUID). Le lecteur de Profil du Visiteur est utile pour la résolution des problèmes.
-keywords: location;location parameter
+keywords: emplacement ; paramètre location
 seo-description: Utilisez le lecteur de Profil du Visiteur pour afficher l’état actuel d’un profil d’utilisateur pour le navigateur actuel, y compris ses caractéristiques et segments. Pour chaque caractéristique, vous pouvez vue son SID, son nom, des détails sur la façon dont les caractéristiques du visiteur ont été réalisées (première ou troisième partie), la date de réalisation et la fréquence des reconnaissances. Pour chaque segment, vous pouvez vue son SID, son nom et la date d’adhésion du segment. Vous pouvez également vue le profil du visiteur pour un autre identifiant de profil d’Audience Manager (UUID). Le lecteur de Profil du Visiteur est utile pour la résolution des problèmes.
 seo-title: Visionneuse de profil du visiteur
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 2%
 
 ---
