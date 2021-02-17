@@ -1,6 +1,6 @@
 ---
 description: Pour créer une source de données, accédez à Audience Data > Data Sources > Ajouter New et suivez les étapes décrites ici pour chaque section. Les autorisations d’administrateur sont requises pour créer une source de données.
-keywords: data sources;manage data source;audience manager data source
+keywords: sources de données ; gérer la source de données ; source de données audience Manager
 seo-description: Pour créer une source de données, accédez à Audience Data > Data Sources > Ajouter New et suivez les étapes décrites ici pour chaque section. Les autorisations d’administrateur sont requises pour créer une source de données.
 seo-title: Création d’une source de données
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '380'
 ht-degree: 5%
 
 ---
