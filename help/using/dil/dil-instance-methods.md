@@ -1,6 +1,6 @@
 ---
 description: Les API de DIL au niveau de l’instance vous permettent de créer et d’utiliser par programmation des objets d’Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
-keywords: create traits;create trait
+keywords: créer des caractéristiques ; créer des caractéristiques
 seo-description: Les API de DIL au niveau de l’instance vous permettent de créer et d’utiliser par programmation des objets d’Audience Manager. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
 seo-title: Méthodes DIL au niveau de l’instance
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1109'
 ht-degree: 13%
 
 ---
