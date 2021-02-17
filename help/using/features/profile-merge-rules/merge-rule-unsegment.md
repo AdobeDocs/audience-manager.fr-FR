@@ -45,7 +45,7 @@ Pour rappel, les [!UICONTROL Device Options] sont disponibles dans la section [!
 >[!NOTE]
 >
 >**Limite de 100 dispositifs pour l&#39;évaluation et la disqualification** des segments.
->L’Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec une règle de fusion de Profil qui utilise un graphique de périphérique. L&#39;Audience Manager évalue le périphérique actuel et jusqu&#39;à 99 périphériques liés au périphérique actuel par un [profil authentifié](../../reference/visitor-authentication-states.md) (ID inter-périphériques). Si le signal de non-segmentation est émis, le périphérique actuel et les périphériques supplémentaires seront supprimés du segment dans la destination.
+>L’Audience Manager fusionne jusqu’à 100 périphériques lors de l’évaluation de segments avec une règle de fusion de Profils qui utilise un graphique de périphérique. L&#39;Audience Manager évalue le périphérique actuel et jusqu&#39;à 99 périphériques liés au périphérique actuel par un [profil authentifié](../../reference/visitor-authentication-states.md) (ID inter-périphériques). Si le signal de non-segmentation est émis, le périphérique actuel et les périphériques supplémentaires seront supprimés du segment dans la destination.
 
 ![](assets/last-device-graph.png)
 
