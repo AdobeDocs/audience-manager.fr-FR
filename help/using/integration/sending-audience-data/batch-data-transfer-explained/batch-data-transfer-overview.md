@@ -1,6 +1,6 @@
 ---
 description: Présentation destinée aux clients techniques et non techniques qui souhaitent mettre en Audience Manager des données provenant d’autres systèmes (hors ligne).
-keywords: inbound, batch, batch upload, batch data
+keywords: entrée, lot, transfert par lot, données de lot
 seo-description: Présentation destinée aux clients techniques et non techniques qui souhaitent mettre en Audience Manager des données provenant d’autres systèmes (hors ligne). Pour ce faire, utilisez l’option de téléchargement par lot dans l’Audience Manager.
 seo-title: Présentation de l’envoi de données par lots vers Audience Manager
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '488'
 ht-degree: 6%
 
 ---
