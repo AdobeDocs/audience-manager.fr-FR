@@ -44,12 +44,12 @@ Ajoutez les caractéristiques recommandées à votre segment pour élargir votre
 * L’Audience Manager présente les caractéristiques de premier niveau dans la section [!UICONTROL Recommendations]. Les recommandations Marketplace provenant de flux publics et privés auxquels vous n’êtes pas abonné sont visibles dans la section [!UICONTROL Recommendations from Marketplace]. Cliquez sur le nom du flux pour accéder à [!UICONTROL Audience Marketplace] et vous abonner.
 * L’Audience Manager affiche un maximum de cinquante caractéristiques similaires à celle de la règle de segment.
 * Vous pouvez filtrer les sources de données à partir desquelles vous ne souhaitez afficher aucune recommandation.
-* Lors du calcul des similitudes, l’Audience Manager prend en compte [UUIDs](../../reference/ids-in-aam.md) qui ont été qualifiés pour la caractéristique au cours des 30 derniers jours.
+* Lors du calcul des similitudes, l’Audience Manager prend en compte [UUIDs](../../reference/ids-in-aam.md) qui se sont qualifiés pour la caractéristique au cours des 30 derniers jours.
 * Si vous voyez le message d&#39;erreur &quot;Aucune caractéristique similaire trouvée. Les caractéristiques peuvent être trop nouvelles.&quot;, cela signifie qu&#39;il n&#39;y a eu aucune activité pour cette caractéristique au cours des 30 derniers jours ou que l&#39;Audience Manager n&#39;a pas encore mis à jour les recommandations pour cette caractéristique. Veuillez réessayer dans 24 heures.
 
 ## Cas d’utilisation
 
-Avec [!UICONTROL Trait Recommendations], vous pouvez améliorer vos workflows en fonction de la manière dont vous utilisez l&#39;Audience Manager :
+Avec [!UICONTROL Trait Recommendations], vous pouvez améliorer vos workflows, en fonction de la manière dont vous utilisez l&#39;Audience Manager :
 
 * En tant que spécialiste du marketing, vous pouvez rapidement trouver des audiences intéressées par des produits complémentaires à l’aide de caractéristiques similaires, afin d’augmenter votre portée.
 * Si vous utilisez l’Audience Manager en tant qu’éditeur, avec [!UICONTROL Trait Recommendations], vous pouvez comprendre le comportement des audiences et créer de meilleurs segments pour les ventes d’annonces ou l’acquisition d’utilisateurs.
