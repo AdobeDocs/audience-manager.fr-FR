@@ -316,7 +316,7 @@ Ce cas d’utilisation vous permet d’évaluer les caractéristiques du fournis
 
 ### Activation
 
-Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination est tout système tiers (serveur publicitaire, [!DNL DSP], [!DNL DMP], exchange, etc.) avec lequel vous souhaitez partager des données. Toutefois, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
+Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination est tout système tiers (serveur publicitaire, [!DNL DSP], [!DNL DMP], exchange, etc.) avec lequel vous souhaitez partager des données. Toutefois, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ou tester les données dans un modèle algorithmique.
 
 >[!MORELIKETHIS]
 >
