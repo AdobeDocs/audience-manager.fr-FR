@@ -1,6 +1,6 @@
 ---
 description: L’Audience Marketplace permet aux fournisseurs de données et aux acheteurs d’exécuter les transactions de données en libre-service avec un effort minimum. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient selon votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur en même temps. Et, si cela ne pouvait pas être amélioré, l'Audience Marketplace s'occupe des contrats, de la facturation et des paiements entre les fournisseurs de données et les vendeurs.
-keywords: Google analytics
+keywords: Analyses Google
 seo-description: L’Audience Marketplace permet aux fournisseurs de données et aux acheteurs d’exécuter les transactions de données en libre-service avec un effort minimum. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient selon votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur en même temps. Et, si cela ne pouvait pas être amélioré, l'Audience Marketplace s'occupe des contrats, de la facturation et des paiements entre les fournisseurs de données et les vendeurs.
 seo-title: Audience Marketplace
 solution: Audience Manager
@@ -11,7 +11,7 @@ feature: Audience Marketplace
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '276'
 ht-degree: 6%
 
 ---
