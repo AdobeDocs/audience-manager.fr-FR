@@ -28,7 +28,7 @@ Suivant les principes de &quot;Confidentialité par conception&quot;, Adobe Audi
 * Avant l&#39;obscurcissement : `255.255.255.255`
 * Après obscurcissement : `255.255.255.0`
 
-Voir aussi Collecte d’adresses IP et Obscurcissement d’adresse IP dans notre [section Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Voir également Collecte d’adresses IP et Obscurcissement d’adresse IP dans notre [section Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ## Exigences d&#39;obscurcissement d&#39;adresse IP {#ip-obfuscation-requirements}
 
