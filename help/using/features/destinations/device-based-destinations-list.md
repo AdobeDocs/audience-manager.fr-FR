@@ -2,15 +2,15 @@
 description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller en Adobe ou le service à la clientèle.
 seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre conseiller en Adobe ou le service à la clientèle.
 seo-title: Destinations serveur à serveur Adobe Audience Manager
-keywords: activation; activation partners, destination, destinations
+keywords: activation ; Partenaires d'activation, destination, destinations
 solution: Audience Manager
 title: Destinations serveur à serveur Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 72%
+source-wordcount: '1121'
+ht-degree: 71%
 
 ---
 
