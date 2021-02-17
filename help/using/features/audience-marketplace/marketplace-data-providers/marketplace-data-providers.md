@@ -1,6 +1,6 @@
 ---
 description: Présentation et flux de travail pour les fournisseurs de données qui souhaitent vendre des données depuis l’Audience Manager.
-keywords: Google analytics
+keywords: Analyses Google
 seo-description: Présentation et flux de travail pour les fournisseurs de données qui souhaitent vendre des données depuis l’Audience Manager.
 seo-title: Audience Marketplace pour les fournisseurs de données
 solution: Audience Manager
@@ -11,8 +11,8 @@ feature: Audience Marketplace
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '452'
+ht-degree: 3%
 
 ---
 
