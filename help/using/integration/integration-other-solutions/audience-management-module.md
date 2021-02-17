@@ -1,6 +1,6 @@
 ---
 description: Ajoutez le module de gestion des Audiences à Adobe Analytics AppMeasurement pour transférer les données Analytics à l’Audience Manager au lieu que le code du Data Integration Library d’Audience Manager (DIL) envoie un pixel de la page.
-keywords: audience analytics; analytics; ssf; server side forwarding
+keywords: analyse des audiences ; analyse; ssf; transfert côté serveur
 seo-description: Ajoutez le module de gestion des Audiences à Adobe Analytics AppMeasurement pour transférer les données Analytics à l’Audience Manager au lieu que le code du Data Integration Library d’Audience Manager (DIL) envoie un pixel de la page.
 seo-title: Mise en oeuvre du module Gestion des Audiences
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Integration with Analytics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '698'
 ht-degree: 5%
 
 ---
