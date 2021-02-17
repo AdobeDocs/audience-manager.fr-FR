@@ -10,7 +10,7 @@ feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vous pouvez identifier les identifiants ajoutés à une liste bloquée par les c
 * 306 : ID de périphérique déclaré bloqué ;
 * 307 : Opération de profil bloquée pour ID.
 
-Voir [Codes d’erreur, messages et exemples du serveur de collecte de données](dcs-error-codes.md) pour plus d’informations sur les codes d’erreur que vous pouvez recevoir.
+Voir [Codes d’erreur, messages et exemples DCS](dcs-error-codes.md) pour plus d’informations sur les codes d’erreur que vous pouvez recevoir.
 
 ## Suppression d’identifiants des listes bloquées
 
