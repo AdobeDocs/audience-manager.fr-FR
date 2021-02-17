@@ -1,6 +1,6 @@
 ---
 description: Réponses aux questions courantes concernant les stratégies de fusion de profils et la représentation graphique des appareils.
-keywords: Organization ID
+keywords: ID d’organisation
 seo-description: Réponses aux questions courantes concernant les stratégies de fusion de profils et la représentation graphique des appareils.
 seo-title: FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
