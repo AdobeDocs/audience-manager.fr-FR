@@ -1,6 +1,6 @@
 ---
-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
-seo-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
+description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
+seo-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
 seo-title: Paires clé-valeur standard et de série
 solution: Audience Manager
 title: Paires clé-valeur standard et de série
