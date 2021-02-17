@@ -3,15 +3,15 @@ description: Ce document décrit le fonctionnement de la gestion du consentement
 seo-description: Ce document décrit le fonctionnement de la gestion du consentement dans Audience Manager.
 seo-title: Gestion du consentement
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy, consent
+keywords: Interface utilisateur GDPR, API GDPR, ACCP, confidentialité, consentement
 title: Gestion du consentement
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 99%
 
 ---
 
