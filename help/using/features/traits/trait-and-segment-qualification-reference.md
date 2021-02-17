@@ -1,6 +1,6 @@
 ---
 description: La qualification des caractéristiques, ou réalisation des caractéristiques, est traitée différemment en Audience Manager, selon le type de caractéristique. Consultez le tableau ci-dessous pour obtenir des informations détaillées sur la qualification des caractéristiques.
-keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
+keywords: qualification de trait ; réalisation de caractéristiques ; Réalisations de caractéristiques uniques ; UTR ; Population totale de caractéristiques ; TTP
 seo-description: La qualification des caractéristiques, ou réalisation des caractéristiques, est traitée différemment en Audience Manager, selon le type de caractéristique. Consultez le tableau ci-dessous pour obtenir des informations détaillées sur la qualification des caractéristiques.
 seo-title: Référence de qualification des traits
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '837'
 ht-degree: 2%
 
 ---
