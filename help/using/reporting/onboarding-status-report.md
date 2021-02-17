@@ -142,7 +142,7 @@ Guide de référence pour les étiquettes et les termes utilisés dans ce rappor
 
 <tr> 
    <td colname="col1"> <p> <b>ID de périphérique non valide</b> </p> </td> 
-   <td colname="col2"> <p>Liste le nombre d’ID de périphérique global mal formatés. Voir <a href="../reference/ids-in-aam.md">Index des identifiants dans Audience Manager</a> et <a href="../features/global-data-sources.md">Sources de données globales</a> pour en savoir plus sur la manière dont les identifiants de périphérique doivent être formatés et sur les sources de données globales que vous devez utiliser, en fonction du type de périphérique.</p>
+   <td colname="col2"> <p>Liste le nombre d’ID de périphérique global mal formatés. Voir <a href="../reference/ids-in-aam.md">Index des identifiants dans Audience Manager</a> et <a href="../features/global-data-sources.md">Sources de données globales</a> pour plus d’informations sur la manière dont les identifiants de périphérique doivent être formatés et sur les sources de données globales que vous devez utiliser, en fonction du type de périphérique.</p>
   <p>La section d'échantillonnage des erreurs du rapport contient des informations détaillées sur les ID de périphérique non valides, telles que :</p>
    <ul>
     <li>ID de source de données correspondant à l'ID de périphérique non valide ;</li>
