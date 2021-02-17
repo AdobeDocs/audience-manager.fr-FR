@@ -73,7 +73,7 @@ Le lien entre l&#39;appareil et l&#39;profil domestique permet à l&#39;Audience
 
 Ce scénario de ciblage n&#39;est disponible que pour les clients qui ont acheté le module complémentaire [!DNL People-Based Destinations]. Cette règle permet aux spécialistes du marketing d’atteindre des clients en fonction de leurs propres données authentifiées.
 
-Supposons qu’un détaillant en ligne souhaite atteindre des clients existants par le biais de plateformes sociales et leur montrer des offres personnalisées en fonction de leurs commandes précédentes. Avec [!UICONTROL People-Based Destinations], ils peuvent assimiler des adresses électroniques hachées de leur [!DNL CRM] &lt;a1/> à l’Audience Manager, créer des segments à partir des données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles ils souhaitent faire de la publicité, en utilisant cet identifiant haché, ce qui optimise leurs dépenses publicitaires.
+Supposons qu’un détaillant en ligne souhaite atteindre des clients existants par le biais de plateformes sociales et leur montrer des offres personnalisées en fonction de leurs commandes précédentes. Avec [!UICONTROL People-Based Destinations], ils peuvent assimiler des adresses électroniques hachées de leur [!DNL CRM]  à l’Audience Manager, créer des segments à partir des données hors ligne et envoyer ces segments aux plateformes sociales sur lesquelles ils souhaitent faire de la publicité, en utilisant cet identifiant haché, ce qui optimise leurs dépenses publicitaires.
 
 Pour en savoir plus sur cette option, voir [Destinations basées sur les personnes](../destinations/people-based-destinations-overview.md).
 
@@ -102,7 +102,7 @@ Le choix d&#39;une option [!UICONTROL device graph] pour une règle [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Options graphiques des périphériques externes </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profil </span> Les règles de fusion créées avec le co <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external">  de périphériques </a> Experience Cloud ou tout graphique de périphériques externes intégré à  <span class="keyword"> Audience </span> Manager sont idéales pour : </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profil </span> Les règles de fusion créées avec le Coco <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> d'appareil </a> Experience Cloud ou tout graphique d'appareil externe intégré à  <span class="keyword"> Audience </span> Manager sont idéales pour : </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriétés numériques présentant un faible niveau d’authentification du client. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagnes de grande envergure sur les marques. </li> 
