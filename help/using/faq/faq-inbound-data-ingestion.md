@@ -1,6 +1,6 @@
 ---
 description: Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
-keywords: ftp or s3;s3 or ftp
+keywords: ftp ou s3;s3 ou ftp
 seo-description: Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
 seo-title: FAQ sur l’ingestion de données client entrantes
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Onboarding Offline Data
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 91%
 
 ---
