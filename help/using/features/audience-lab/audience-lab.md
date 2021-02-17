@@ -63,7 +63,7 @@ L&#39;état d&#39;un groupe de tests peut être principal, planifié, suspendu, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Planifié </span></b> </p> </td> 
-   <td colname="col2"> <p>Un groupe de test <i>planifié</i> n'est pas encore principal mais ne peut plus être modifié. Il deviendra principal à la date du début que vous avez sélectionnée dans l'Assistant <b>Créer des groupes de test</b>. </p> </td> 
+   <td colname="col2"> <p>Un groupe de test <i>planifié</i> n'est pas encore principal mais ne peut plus être modifié. Il deviendra principal à la date de début que vous avez sélectionnée dans l'Assistant <b>Créer des groupes de test</b>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> En pause </span></b> </p> </td> 
