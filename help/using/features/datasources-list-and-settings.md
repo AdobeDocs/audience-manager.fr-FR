@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # [!UICONTROL Data Sources] Liste et paramètres  {#data-sources-list-and-settings}
 
-Vue une liste de votre [!UICONTROL data sources] actuellement configuré, ajoutez [!UICONTROL data sources] nouveau &lt;a1/> et modifiez [!UICONTROL data sources] existant.
+Vue une liste de votre [!UICONTROL data sources] actuellement configuré, ajoutez [!UICONTROL data sources] nouveau  et modifiez [!UICONTROL data sources] existant.
 
 Vous pouvez également gérer [!UICONTROL data sources] à l&#39;aide des méthodes [!DNL API]. Pour plus d’informations, voir [Méthodes d’API de source de données](../api/rest-api-main/aam-api-data-sources.md).
 
