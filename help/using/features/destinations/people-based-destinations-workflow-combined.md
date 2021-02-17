@@ -1,6 +1,6 @@
 ---
-description: 'Cette page comprend des instructions détaillées sur la manière de combiner des données de gestion de la relation client hors ligne avec des données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers des destinations basées sur les personnes.  '
-seo-description: 'Cette page comprend des instructions détaillées sur la manière de combiner des données de gestion de la relation client hors ligne avec des données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers des destinations basées sur les personnes.   '
+description: 'Cette page comprend des instructions détaillées sur la manière de combiner les données de gestion de la relation client hors ligne avec les données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers les destinations basées sur les personnes.  '
+seo-description: 'Cette page comprend des instructions détaillées sur la manière de combiner les données de gestion de la relation client hors ligne avec les données comportementales dont vous disposez déjà en Audience Manager pour créer de nouveaux segments d’audience, puis envoyer ces segments d’audience vers les destinations basées sur les personnes.   '
 seo-title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
 solution: Audience Manager
 title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
