@@ -55,7 +55,7 @@ En tant qu&#39;annonceur, je veux classer mon audience propriétaire en temps r�
 
 ### Cas d’utilisation no 5
 
-En tant que spécialiste du marketing, je veux prédire dans quelle phase de voyage des clients se trouvent mes visiteurs de site Web, tels que la découverte, l&#39;engagement, l&#39;achat ou la rétention, afin que je puisse les cible en conséquence.
+En tant que spécialiste du marketing, je veux prédire dans quelle phase de parcours client se trouvent mes visiteurs de site Web, tels que la découverte, l&#39;engagement, l&#39;achat ou la rétention, afin de pouvoir les cible en conséquence.
 
 ### Cas d’utilisation no 6
 
@@ -74,7 +74,7 @@ Lorsque vous créez un modèle [!UICONTROL Predictive Audiences], vous effectuez
 Vous pouvez choisir l’une de vos caractéristiques ou segments propriétaires pour définir vos personnalités. Cependant, pour des résultats optimaux, voici un ensemble de bonnes pratiques recommandées :
 
 * Choisissez vos caractéristiques ou segments de personnalité afin que chaque personne ait au moins quelques centaines d&#39;ID de périphérique [](../../reference/ids-in-aam.md).
-* Si vos caractéristiques sont basées sur [des ID inter-périphériques](../../reference/ids-in-aam.md), vous pouvez les encapsuler dans des segments avec [des règles de fusion de Profil](../profile-merge-rules/merge-rules-overview.md) qui utilisent [des ID d&#39;unité](../../reference/ids-in-aam.md), par exemple [!UICONTROL Device Graph]. Ainsi, il y aura suffisamment d&#39;[ID de périphérique](../../reference/ids-in-aam.md) dont l&#39;algorithme pourra tirer les leçons.
+* Si vos caractéristiques sont basées sur [des ID inter-périphériques](../../reference/ids-in-aam.md), vous pouvez les encapsuler dans des segments avec [des règles de fusion de Profils](../profile-merge-rules/merge-rules-overview.md) qui utilisent [des ID de périphérique](../../reference/ids-in-aam.md), par exemple [!UICONTROL Device Graph]. Ainsi, il y aura suffisamment d&#39;[ID de périphérique](../../reference/ids-in-aam.md) dont l&#39;algorithme pourra tirer les leçons.
 * Nous vous recommandons de choisir des caractéristiques ou des segments simples pour vos personnages, composés de 1 à 3 caractéristiques.
 * Choisissez des caractéristiques ou des segments de base qui présentent un chevauchement minimal.
 * Assurez-vous de capturer des caractéristiques granulaires sur vos propriétés numériques.
