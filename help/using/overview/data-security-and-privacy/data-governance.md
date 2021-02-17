@@ -3,14 +3,14 @@ description: Ce document explique la manière dont les données client sont gér
 seo-description: Ce document explique la manière dont les données client sont gérées dans Audience Manager.
 seo-title: Gouvernance des données
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
+keywords: Interface utilisateur GDPR, API GDPR, ACCP, confidentialité, consentement, obscurcissement, gouvernance
 title: Gouvernance des données
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 96%
+source-wordcount: '467'
+ht-degree: 94%
 
 ---
 
