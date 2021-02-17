@@ -4,13 +4,13 @@ seo-description: Les acheteurs de données d’Audience Marketplace s’engagent
 seo-title: Facturation des acheteurs de flux de données
 solution: Audience Manager
 title: Facturation des acheteurs de flux de données
-keywords: Segment-level Reporting, segment-level, segment level
+keywords: Rapports au niveau du segment, au niveau du segment, au niveau du segment
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2032'
 ht-degree: 1%
 
 ---
