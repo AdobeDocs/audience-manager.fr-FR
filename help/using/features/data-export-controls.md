@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Présentation {#overview}
 
-[!UICONTROL Data Export Controls] vous permet de classifier  [les ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) sources de données et  [les destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent quand les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité comprend :
+[!UICONTROL Data Export Controls] vous permet de classifier  [les ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) sources de données et les  [destinations](../features/destinations/destinations.md). Les classifications que vous appliquez déterminent quand les données peuvent ou ne peuvent pas être exportées vers une destination. Cette fonctionnalité comprend :
 
 * **[!UICONTROL Data Export Controls]**: Vous pouvez définir des contrôles d’exportation de données sur les sources *de* données. Lorsqu’ils sont définis sur une source de données, ces contrôles limitent la manière dont cette source de données et ses caractéristiques peuvent être utilisées.
 * **[!UICONTROL Data Export Labels]**: Vous pouvez définir des étiquettes d’exportation de données sur  *les destinations*. Lorsqu’elles sont définies sur une destination, ces étiquettes permettent d’identifier comment la destination utilise les données. Voir [Ajouter des étiquettes d’exportation de données à une destination](/help/using/features/destinations/add-data-export-labels.md) pour savoir comment ajouter des étiquettes d’exportation à une destination.
