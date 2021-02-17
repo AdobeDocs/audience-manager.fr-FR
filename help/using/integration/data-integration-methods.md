@@ -21,7 +21,7 @@ Présentation générale de la manière dont l’Audience Manager échange des i
 
 ## Méthodes d’intégration des données prises en charge : Temps réel et [!DNL Server-to-Server] {#supported-methods}
 
-Le choix de la bonne méthode d’intégration dépend de la combinaison des exigences de l’entreprise et des capacités techniques de votre partenaire de données. L’Audience Manager échange des informations du visiteur avec d’autres fournisseurs de données par l’une des méthodes suivantes :
+Le choix de la bonne méthode d’intégration dépend de la combinaison des exigences de l’entreprise et des capacités techniques de votre partenaire de données. L’Audience Manager échange des informations du visiteur avec d’autres fournisseurs de données en utilisant l’une des méthodes suivantes :
 
 * **Temps réel :** transfère les données immédiatement lorsqu’un utilisateur visite votre site. Cette méthode est également appelée intégration *`synchronous`*.
 * **Lot ([!DNL Server-to-Server]) :** transfère les données entre les serveurs selon un calendrier défini après qu’un visiteur ait quitté la page. Cette méthode est également appelée intégration *`out-of-band`* ou *`asynchronous`*.
@@ -38,7 +38,7 @@ Résumé du cas d’utilisation des méthodes d’intégration des données d’
 
 <!-- c_int_types_use_cases.xml -->
 
-Une intégration de données [!DNL server-to-server] en temps réel synchronise rapidement les données utilisateur entre les serveurs d’Audience Manager et un autre système de ciblage. Dans la plupart des cas, l’échange de données a lieu en quelques secondes ou minutes, selon le taux d’actualisation du système de ciblage. Notez toutefois que le système ciblé détermine cet intervalle d’actualisation et non l’Audience Manager. En outre, le taux de rafraîchissement peut varier selon les systèmes. Une intégration [!UICONTROL server-to-server] en temps réel est le type d’intégration préféré pour les échanges de données. L’Audience Manager utilise cette méthode chaque fois que des partenaires de ciblage peuvent la prendre en charge.
+Une intégration de données [!DNL server-to-server] en temps réel synchronise rapidement les données utilisateur entre les serveurs d’Audience Manager et un autre système de ciblage. Dans la plupart des cas, l’échange de données a lieu en quelques secondes ou minutes, selon le taux d’actualisation du système de ciblage. Notez toutefois que le système ciblé détermine cet intervalle d’actualisation, et non l’Audience Manager. En outre, le taux de rafraîchissement peut varier selon les systèmes. Une intégration [!UICONTROL server-to-server] en temps réel est le type d’intégration préféré pour les échanges de données. L’Audience Manager utilise cette méthode chaque fois que des partenaires de ciblage peuvent la prendre en charge.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -59,7 +59,7 @@ Une intégration de données [!DNL server-to-server] en temps réel synchronise 
 
 ### [!DNL Server-to-Server] Intégrations par lots
 
-Une intégration par lot [!DNL server-to-server] regroupe les données et les envoie à d&#39;autres systèmes à intervalles définis plutôt qu&#39;en temps quasi réel. Les intervalles de transfert de données début à partir de 24 heures. Certains fournisseurs de données prennent uniquement en charge ce type d’intégration. Cependant, nous avons observé une tendance générale à l&#39;abandon des intégrations par lots vers des méthodologies d&#39;intégration en temps réel.
+Une intégration par lots [!DNL server-to-server] regroupe les données et les envoie à d&#39;autres systèmes à des intervalles définis plutôt qu&#39;en temps quasi réel. Les intervalles de transfert de données début à partir de 24 heures. Certains fournisseurs de données prennent uniquement en charge ce type d’intégration. Cependant, nous avons observé une tendance générale à l&#39;abandon des intégrations par lots vers des méthodologies d&#39;intégration en temps réel.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
