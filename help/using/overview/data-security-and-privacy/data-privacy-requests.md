@@ -3,14 +3,14 @@ description: Ce document couvre les aspects techniques associés à la conformit
 seo-description: Ce document couvre les aspects techniques associés à la conformité des réglementations en matière de confidentialité des données pour Audience Manager.
 seo-title: Requêtes de confidentialité des données
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy
+keywords: Interface utilisateur GDPR, API GDPR, CCPA, confidentialité
 title: Requêtes de confidentialité des données
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1483'
 ht-degree: 60%
 
 ---
