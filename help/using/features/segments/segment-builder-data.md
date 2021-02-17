@@ -49,7 +49,7 @@ Dans [!UICONTROL Segment Builder], une barre bleue sur les graphiques de populat
 
 * Pour les données de population de segments estimées (en temps réel et total), [!UICONTROL Segment Builder] ne met pas automatiquement à jour les graphiques lorsque vous ajoutez ou supprimez des caractéristiques dans un segment. Cliquez sur **[!UICONTROL Calculate Estimates]** pour afficher (ou actualiser) l’estimation des chiffres de population.
 
-* Pour les données de population de segments réelles (réelles) (temps réel et total), [!UICONTROL Segment Builder] met automatiquement à jour le graphique de segments lorsque vous chargez un segment existant. Pour les nouveaux segments ou lorsque vous ajoutez de nouvelles caractéristiques à un segment existant, les données de population réelles ne sont mises à jour que 24 heures après la création du segment.
+* Pour les données de population de segments réelles (réelles) (en temps réel et total), [!UICONTROL Segment Builder] met automatiquement à jour le graphique de segments lorsque vous chargez un segment existant. Pour les nouveaux segments ou lorsque vous ajoutez de nouvelles caractéristiques à un segment existant, les données de population réelles ne sont mises à jour que 24 heures après la création du segment.
 
 ![](assets/segment-data.png)
 
