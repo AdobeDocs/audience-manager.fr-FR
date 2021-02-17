@@ -4,13 +4,13 @@ seo-description: Listes et décrit la syntaxe et les attributs pris en charge (o
 seo-title: Attributs pris en charge pour les appels de l’API DCS
 solution: Audience Manager
 title: Attributs pris en charge pour les appels de l’API DCS
-keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
+keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tpid_pid
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
