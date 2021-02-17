@@ -48,7 +48,7 @@ Si vous n’activez pas vos segments d’audience dans les canaux basés sur les
 
 **Atteindre les audiences dans les canaux basés sur les personnes sans avoir besoin d&#39;une solution d&#39;intégration de données dédiée ou de workflows personnalisés pour envoyer des audiences.**
 
-La méthode la plus &quot;traditionnelle&quot; de ciblage des audiences sur des canaux basés sur des personnes implique que vous deviez exporter vos données de client dans un format accepté par la plateforme sur laquelle vous souhaitez les publier, puis utiliser la méthode d&#39;intégration des données dédiées de la plate-forme pour apporter vos données de client à votre compte d&#39;annonceur. Il s&#39;agit d&#39;un travail manuel que vous devez effectuer pour chaque plate-forme sur laquelle vous souhaitez faire de la publicité. En outre, différentes plateformes peuvent avoir des exigences de format de données différentes, ce qui rend le processus encore plus fastidieux.
+La méthode la plus &quot;traditionnelle&quot; de ciblage des audiences sur des canaux basés sur des personnes implique que vous deviez exporter vos données de client dans un format accepté par la plateforme sur laquelle vous souhaitez faire de la publicité, puis utiliser la méthode d&#39;intégration des données dédiées de la plate-forme pour apporter vos données de client à votre compte d&#39;annonceur. Il s&#39;agit d&#39;un travail manuel que vous devez effectuer pour chaque plate-forme sur laquelle vous souhaitez faire de la publicité. En outre, différentes plateformes peuvent avoir des exigences de format de données différentes, ce qui rend le processus encore plus fastidieux.
 
 ![pbd-overview](assets/pbd-diagram.png)
 
