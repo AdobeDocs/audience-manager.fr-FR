@@ -1,6 +1,6 @@
 ---
 description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
-keywords: baaam;BAAAM;download baaam
+keywords: baaam ; BAAAM ; download baaam
 seo-description: Les outils de gestion en bloc vous permettent de créer et de gérer plusieurs objets à la fois avec une seule opération. Vous pouvez utiliser les outils de gestion en bloc pour utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques.
 seo-title: Prise en main de la gestion en bloc
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '714'
 ht-degree: 3%
 
 ---
