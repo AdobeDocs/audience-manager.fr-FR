@@ -36,7 +36,7 @@ Veuillez contacter votre représentant d&#39;Adobe pour profiter de cette foncti
 
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer votre audience propriétaire [!UICONTROL segments] à [!DNL Facebook], assurez-vous de respecter les exigences suivantes :
 
-1. L&#39;autorisation [!DNL Facebook] Gérer les campagnes **doit être activée pour votre compte d&#39;utilisateur &lt;a0/> que vous prévoyez d&#39;utiliser.**
+1. L&#39;autorisation [!DNL Facebook] Gérer les campagnes **doit être activée pour votre compte d&#39;utilisateur** que vous prévoyez d&#39;utiliser.
 2. Ajoutez le compte commercial **Adobe Experience Cloud** en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. Voir [Ajouter les partenaires à votre gestionnaire d&#39;entreprise](https://www.facebook.com/business/help/1717412048538897) pour plus d&#39;informations.
    >[!IMPORTANT]
    > Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l&#39;autorisation **Gérer les campagnes**. Ceci est obligatoire pour l’intégration de [!UICONTROL People-Based Destinations].
