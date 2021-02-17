@@ -1,7 +1,7 @@
 ---
 description: Gérez la collecte de données et la création d’audiences à l’aide de caractéristiques basées sur des règles, intégrées, algorithmiques ou de dossiers.
 seo-description: Gérez la collecte de données et la création d’audiences à l’aide de caractéristiques basées sur des règles, intégrées, algorithmiques ou de dossiers.
-keywords: trait; traits; trait overview
+keywords: trait ; les caractéristiques; présentation des caractéristiques
 seo-title: Présentation des caractéristiques
 solution: Audience Manager
 title: Présentation des caractéristiques
@@ -9,8 +9,8 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 39%
+source-wordcount: '75'
+ht-degree: 37%
 
 ---
 
