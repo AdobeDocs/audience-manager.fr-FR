@@ -1,6 +1,6 @@
 ---
 description: Décrit les étapes et fonctionnalités de configuration spécifiques au processus de création de caractéristiques intégré et basé sur des règles.
-keywords: create trait;create traits
+keywords: créer une caractéristique ; créer des caractéristiques
 seo-description: Décrit les étapes et fonctionnalités de configuration spécifiques au processus de création de caractéristiques intégré et basé sur des règles.
 seo-title: Création de caractéristiques basées sur des règles ou intégrées
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 7%
 
 ---
@@ -84,7 +84,7 @@ Dans [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] 
 
 ## Définir un intervalle d&#39;expiration [!UICONTROL Trait] {#set-expiration-interval}
 
-Dans [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] vous permet de définir un intervalle de temps de vie ([!DNL TTL]) pour un [!UICONTROL trait]. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans un  [!UICONTROL trait] (120 jours est par défaut). Lorsqu&#39;elle est définie sur 0, l&#39;abonnement [!UICONTROL trait] n&#39;expire jamais.
+Dans [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] vous permet de définir un intervalle de temps de vie ([!DNL TTL]) pour un [!UICONTROL trait]. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans un  [!UICONTROL trait] (120 jours est par défaut). Lorsqu’elle est définie sur 0, l’adhésion [!UICONTROL trait] n’expire jamais.
 
 <!-- t_tb_ttl.xml -->
 
