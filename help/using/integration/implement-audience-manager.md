@@ -168,7 +168,7 @@ Les produits livrables pour cette phase peuvent inclure :
 
 ## Phase de lancement, de prise en charge et d&#39;optimisation {#launch-support-optimize-phase}
 
-Au cours de la phase de lancement, de prise en charge et d’optimisation, la collecte de données et la mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons notre formation sur la familiarisation des produits et les stratégies qui peuvent aider à améliorer [!DNL ROI] votre &lt;a0/> grâce à une optimisation basée sur les données.
+Au cours de la phase de lancement, de prise en charge et d’optimisation, la collecte de données et la mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons notre formation sur la familiarisation des produits et les stratégies qui peuvent aider à améliorer [!DNL ROI] votre  grâce à une optimisation basée sur les données.
 
 <!-- c_launch_support_optimize.xml -->
 
