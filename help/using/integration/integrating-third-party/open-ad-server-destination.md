@@ -21,7 +21,7 @@ Configurez [!DNL Open Ad Server] comme destination et envoyez les données d&#39
 
 ## Exigences de destination OAS {#oas-requirements}
 
-Normes relatives au placement du code, aux formats de valeur clé pris en charge, aux rapports et au type de données de segment envoyées à [!DNL OAS].
+Normes relatives au placement du code, aux formats de valeur de clé pris en charge, aux rapports et au type de données de segment envoyées à [!DNL OAS].
 
 <!-- aam-oas-requirements.xml -->
 
