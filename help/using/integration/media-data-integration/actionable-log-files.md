@@ -1,6 +1,6 @@
 ---
 description: Les fichiers journaux activables vous permettent de capturer des signaux multimédia à partir de fichiers journaux de serveur publicitaire afin de créer des caractéristiques en Audience Manager. Capturez les impressions, les clics et les conversions à partir des serveurs d’annonces en tant que caractéristiques sans avoir à ajouter de pixels.
-keywords: actionable logs, alf, ALF
+keywords: journaux exploitables, alf, ALF
 seo-description: Les fichiers journaux activables vous permettent de capturer des signaux multimédia à partir de fichiers journaux de serveur publicitaire afin de créer des caractéristiques en Audience Manager. Capturez les impressions, les clics et les conversions à partir des serveurs d’annonces en tant que caractéristiques sans avoir à ajouter de pixels.
 seo-title: Fichiers journaux pratiques
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Log Files
 translation-type: tm+mt
 source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1609'
 ht-degree: 3%
 
 ---
