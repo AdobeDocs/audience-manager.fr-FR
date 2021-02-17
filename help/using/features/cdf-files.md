@@ -1,6 +1,6 @@
 ---
 description: Informations de base sur les fichiers de flux de données client (CDF) et instructions de démarrage. Début ici si vous souhaitez recevoir des fichiers CDF ou simplement plus d'informations.
-keywords: second party data;2nd party;2nd party data;second party
+keywords: données de deuxième partie ; 2e partie ; données de deuxième partie ; seconde partie
 seo-description: Informations de base sur les fichiers de flux de données client (CDF) et instructions de démarrage. Début ici si vous souhaitez recevoir des fichiers CDF ou simplement plus d'informations.
 seo-title: Flux de données client
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1932'
 ht-degree: 4%
 
 ---
