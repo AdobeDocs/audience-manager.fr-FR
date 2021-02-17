@@ -23,7 +23,7 @@ Cet article décrit les préfixes que vous devez joindre aux variables clés lor
 
 ## Objectif des préfixes de variables clés
 
-Lorsque vous créez des règles [!UICONTROL Trait Builder], il est important de préfacer la variable clé avec un préfixe recommandé. Ces préfixes identifient le type de données transmises et permettent d&#39;éviter les conflits d&#39;espace de nommage dans [!DNL Audience Manager]. En règle générale, vous pouvez attribuer n’importe quel nom à une variable, mais les données d’une règle ne sont pas traitées si le nom de la variable clé ne correspond pas au nom de la variable dans un appel de événement.
+Lorsque vous créez des règles [!UICONTROL Trait Builder], il est important de préfacer la variable clé avec un préfixe recommandé. Ces préfixes identifient le type de données transmises et permettent d&#39;éviter les conflits d&#39;espace de nommage dans [!DNL Audience Manager]. En règle générale, vous pouvez donner n’importe quel nom à une variable, mais les données d’une règle ne sont pas traitées si le nom de la variable clé ne correspond pas au nom de la variable dans un appel de événement.
 
 ## Préfixes pour les variables clés
 
