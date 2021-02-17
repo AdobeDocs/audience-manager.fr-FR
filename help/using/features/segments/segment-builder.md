@@ -165,7 +165,7 @@ Le panneau **[!UICONTROL Destination Mappings]** contient les outils de recherch
 | Type de recherche | Description |
 |---|---|
 | **[!UICONTROL Search by Destination Name]** | Permet de rechercher un [!UICONTROL destination] spécifique par nom. Pour effectuer une recherche, tapez un début. Le champ est renseigné automatiquement en fonction des termes recherchés. Cliquez sur **[!UICONTROL Add Destination]** lorsque vous avez terminé. |
-| **[!UICONTROL Browse All Destinations]** | Parcourez la liste *all* [!UICONTROL destinations] disponible pour vous. Sélectionnez [!UICONTROL destinations] et ajoutez [!UICONTROL segment] à votre &lt;a1/> à partir de la liste contextuelle. |
+| **[!UICONTROL Browse All Destinations]** | Parcourez la liste *all* [!UICONTROL destinations] disponible pour vous. Sélectionnez [!UICONTROL destinations] et ajoutez [!UICONTROL segment] à votre  à partir de la liste contextuelle. |
 
 ## Champs dans la fenêtre contextuelle [!UICONTROL Destination Mappings] {#fields-in-dest-mappings}
 
