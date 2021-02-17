@@ -5,12 +5,12 @@ seo-title: Page Détails des caractéristiques
 solution: Audience Manager
 title: Page Détails des caractéristiques
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+keywords: ventilation de type d'identité, ventilation d'identité, rapports d'identité d'audience, inter-périphériques, ID inter-périphériques, ID d'appareil
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
