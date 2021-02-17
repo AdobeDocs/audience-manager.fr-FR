@@ -44,7 +44,7 @@ c_flash_dil_intro.xml
 * Bibliothèque de classes [!UICONTROL DIL] ( `dil.swc`). Récupérez la bibliothèque de classes [!UICONTROL DIL] à partir de votre contact Solutions partenaires.
 
 * Code de collecte de données JavaScript [!UICONTROL DIL] sur la page.
-* [ACTIONSCRIPT DIL ](../dil/dil-flash.md#flash-dil-actionscript) chargé dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
+* [ActionScript DIL ](../dil/dil-flash.md#flash-dil-actionscript) chargé dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
 * L’Adobe de la bibliothèque [!DNL AppMeasurement] [!DNL AS] (version 3.5.2 ou ultérieure) a chargé l’objet [!DNL Flash] à partir duquel vous souhaitez collecter des données.
 
 **Définir AllowScriptAccess sur  `Always` ou`sameDomain`**
