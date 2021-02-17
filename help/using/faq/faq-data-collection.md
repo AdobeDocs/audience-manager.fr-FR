@@ -5,13 +5,13 @@ seo-title: FAQ sur la collecte de données et l’intégration de produit
 solution: Audience Manager
 title: FAQ sur la collecte de données et l’intégration de produit
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
+keywords: SFTP ; adresse SFTP ; adresse IP STFP ; Adresse FTP
 feature: Administration
 translation-type: tm+mt
 source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 87%
+source-wordcount: '1159'
+ht-degree: 86%
 
 ---
 
