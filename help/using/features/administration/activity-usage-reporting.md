@@ -1,6 +1,6 @@
 ---
 description: Le Rapports d’utilisation des Activités vous aide à vue et à suivre l’utilisation des activités pour votre instance d’Audience Manager, afin que vous puissiez comparer votre utilisation réelle à votre engagement contractuel.
-keywords: activity, usage, reporting, commitment
+keywords: activité, utilisation, rapports, engagement
 seo-description: Le Rapports d’utilisation des Activités vous aide à vue et à suivre l’utilisation des activités pour votre instance d’Audience Manager, afin que vous puissiez comparer votre utilisation réelle à votre engagement contractuel.
 seo-title: Rapports d’utilisation des activités
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '665'
 ht-degree: 6%
 
 ---
