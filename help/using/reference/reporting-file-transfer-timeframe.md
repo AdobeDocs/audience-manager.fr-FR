@@ -33,7 +33,7 @@ Le tableau suivant liste et décrit les intervalles de temps dans nos rapports g
 | Type de données | Description |
 |---|---|
 | Données en temps réel | Les nombres en temps réel pour aujourd&#39;hui sont pour les heures 00:00 à 23:59:59 UTC d&#39;hier. |
-| Données générales du rapport | Les données des [Rapports généraux](../reporting/general-reports.md#general-reports-overview) dépendent de la réussite d&#39;autres processus d&#39;emploi et de la quantité de données reçues pour une journée donnée. La plupart du temps, les données [!UICONTROL General Report] doivent être mises à jour à 18 h 00 UTC chaque jour. |
+| Données générales du rapport | Les données des [rapports généraux](../reporting/general-reports.md#general-reports-overview) dépendent de la réussite d&#39;autres processus d&#39;emploi et de la quantité de données reçues pour une journée donnée. La plupart du temps, les données [!UICONTROL General Report] doivent être mises à jour à 18 h 00 UTC chaque jour. |
 
 ## Transferts de fichiers entrants et sortants {#inbound-outbound-file-transfers}
 
