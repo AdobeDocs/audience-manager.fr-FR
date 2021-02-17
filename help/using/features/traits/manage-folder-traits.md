@@ -1,6 +1,6 @@
 ---
 description: Créez, modifiez et supprimez des caractéristiques de dossier.
-keywords: Folder Trait;Folder Traits;folder traits;folder trait
+keywords: Caractéristique du dossier ; Caractéristiques du dossier ; caractéristiques du dossier ; caractéristiques du dossier
 seo-description: Créez, modifiez et supprimez des caractéristiques de dossier.
 seo-title: Gestion des caractéristiques de dossier
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '370'
 ht-degree: 9%
 
 ---
