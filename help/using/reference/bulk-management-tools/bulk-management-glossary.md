@@ -79,7 +79,7 @@ Libellés d&#39;en-tête de colonne définis.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>La valeur source est une variable transmise dans le cadre d'une paire <a href="../../reference/key-value-pairs-explained.md"> valeur-clé </a>. </p> </td> 
+   <td colname="col2"> <p>La valeur source est une variable transmise dans le cadre d'une paire <a href="../../reference/key-value-pairs-explained.md"> valeur-clé</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
