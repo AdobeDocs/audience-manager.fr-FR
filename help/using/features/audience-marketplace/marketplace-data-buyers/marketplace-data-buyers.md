@@ -41,7 +41,7 @@ Dans [!UICONTROL Marketplace], les outils de rapports vous permettent de suivre 
 
 La liste [!UICONTROL Marketplace] contient des informations que vous pouvez trier et rechercher pour trouver le flux de données qui vous convient. Les éléments de la liste de l&#39;acheteur [!UICONTROL Marketplace] sont les suivants :
 
-* **[!UICONTROL Search]**: Recherchez les flux de données par nom ou par description textuelle.
+* **[!UICONTROL Search]**: Recherchez les flux de données par nom ou par description de texte.
 * **[!UICONTROL Similar Traits]**: Indique le nombre de rapports similaires  [!UICONTROL traits] provenant d’un flux de données. Cette colonne s’affiche après avoir saisi [!UICONTROL trait] ou [!UICONTROL segment] pour filtrer par dans la section **[!UICONTROL Similarity To]**.
 * **[!UICONTROL Name]**: Nom du flux de données.
 * **[!UICONTROL Description]**: Informations relatives au contenu d’un flux de données.
@@ -70,7 +70,7 @@ Pour trouver facilement les meilleurs flux de données en fonction de vos besoin
 1. Accédez à **[!UICONTROL Audience Marketplace]** > **[!UICONTROL Marketplace]**.
 2. Utilisez le sélecteur **[!UICONTROL Similarity To]** pour choisir entre un filtrage basé sur [!UICONTROL trait] ou [!UICONTROL segment]. Vous pouvez filtrer en fonction de [!UICONTROL trait]/[!UICONTROL segment] ID ou nom. La zone de recherche affiche automatiquement les suggestions pertinentes en fonction de vos entrées.
 3. Une fois que vous avez identifié la caractéristique ou le segment par lequel vous souhaitez filtrer, cliquez dessus dans la liste de suggestions.
-4. Pour réduire les résultats, utilisez le curseur **[!UICONTROL Similarity Cutoff]** pour passer de [!UICONTROL traits] moins similaire à &lt;a1/> à des résultats plus similaires.
+4. Pour réduire les résultats, utilisez le curseur **[!UICONTROL Similarity Cutoff]** pour passer de [!UICONTROL traits] moins similaire à  à des résultats plus similaires.
 
 Une fois le filtrage terminé, une nouvelle colonne s’affiche dans la page de résultats : **[!UICONTROL Similar Traits]**. Cette colonne indique le nombre de [!UICONTROL traits] similaires à celui par lequel vous avez filtré, pour chaque flux de données qui satisfait aux critères de filtrage.
 
