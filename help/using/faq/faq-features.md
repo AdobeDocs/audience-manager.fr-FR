@@ -1,6 +1,6 @@
 ---
 description: Questions et problèmes courants associés aux produits et aux fonctions.
-keywords: audience manager cookies
+keywords: Cookies du gestionnaire d’audiences
 seo-description: Questions et problèmes courants associés aux produits et aux fonctions.
 seo-title: FAQ sur les fonctions et fonctionnalités de produit
 solution: Audience Manager
@@ -10,8 +10,8 @@ feature: Overview
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 91%
+source-wordcount: '622'
+ht-degree: 90%
 
 ---
 
