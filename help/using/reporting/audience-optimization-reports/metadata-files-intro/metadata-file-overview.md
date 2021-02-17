@@ -23,7 +23,7 @@ Un fichier de métadonnées lie des ID numériques avec des noms lisibles et com
 
 Examen des métadonnées et de leur utilisation. Un fichier de métadonnées doit être accompagné d’un fichier de données. Le contenu du fichier de métadonnées correspond aux informations relatives au fichier de données et aux étiquettes lisibles dans les menus du rapport. Pour plus d’informations, voir [Fichiers de données pour les rapports d’Audience Optimization et les fichiers journaux utilisables](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
-### Les fichiers de métadonnées contiennent des données sur d’autres données.
+### Les Fichiers De Métadonnées Contiennent Des Données Sur D’Autres Données
 
 Un fichier de métadonnées contient des informations sur d’autres types de données. Pour vous aider à comprendre comment cela fonctionne, examinons comment [!DNL Audience Manager] reçoit les données.
 
