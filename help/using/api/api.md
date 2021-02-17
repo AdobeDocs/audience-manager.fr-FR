@@ -2,7 +2,7 @@
 description: API et kits d’outils qui vous permettent de travailler par programmation avec l’Audience Manager.
 seo-description: API et kits d’outils qui vous permettent de travailler par programmation avec l’Audience Manager.
 seo-title: 'Code de l’API et du SDK '
-keywords: api, api, api, api, api, api, api, api, api, api
+keywords: 'api, api, api, api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
 title: 'Code de l’API et du SDK '
 uuid: bf801e84-f914-4efd-8807-c4972474894a
@@ -10,8 +10,8 @@ feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 39%
+source-wordcount: '84'
+ht-degree: 34%
 
 ---
 
