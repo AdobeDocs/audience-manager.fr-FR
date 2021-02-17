@@ -4,13 +4,13 @@ seo-description: L’Audience Manager définit une limite maximale sur le nombre
 seo-title: Limites d’utilisation
 solution: Audience Manager
 title: Limites d’utilisation
-keywords: ID mapping, ID mappings, cookie mappings
+keywords: Mappage des identifiants, mappages des identifiants, mappages des cookies
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
