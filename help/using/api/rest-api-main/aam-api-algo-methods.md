@@ -1,6 +1,6 @@
 ---
 description: Méthodes qui vous permettent de travailler par programmation avec des fonctions de modélisation algorithmique.
-keywords: api getting started;get started api
+keywords: api prise en main ; api prise en main
 seo-description: Méthodes qui vous permettent de travailler par programmation avec des fonctions de modélisation algorithmique.
 seo-title: Méthodes d’API algorithmiques
 solution: Audience Manager
@@ -10,8 +10,8 @@ feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 23%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
 
