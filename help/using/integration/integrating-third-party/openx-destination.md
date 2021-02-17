@@ -25,7 +25,7 @@ Configurez [!DNL OpenX] en tant que destination et envoyez les données de segme
 
 ## Exigences de destination d&#39;OpenX {#openx-requirements}
 
-Normes relatives au placement du code, aux formats de valeur clé pris en charge, aux rapports et au type de données de segment envoyées à [!DNL OpenX].
+Normes relatives au placement du code, aux formats de valeur de clé pris en charge, aux rapports et au type de données de segment envoyées à [!DNL OpenX].
 
 <!-- aam-openx-requirements.xml -->
 
