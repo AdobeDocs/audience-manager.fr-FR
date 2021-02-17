@@ -10,8 +10,8 @@ feature: reference
 translation-type: tm+mt
 source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 6%
+source-wordcount: '278'
+ht-degree: 7%
 
 ---
 
