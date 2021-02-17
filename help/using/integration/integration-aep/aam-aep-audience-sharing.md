@@ -4,12 +4,12 @@ seo-description: Cet article décrit comment les audiences sont partagées entre
 seo-title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 solution: Audience Manager
 title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+keywords: Partage des audiences AEP, segments AEP, segments de plateforme, partage de segments, partage d’audiences, partage de segments
 feature: Integration with Platform
 translation-type: tm+mt
 source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -111,12 +111,12 @@ Pour un exemple de segment créé automatiquement à partir d’un segment Exper
 ---------|----------|---------
 | 1 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans l’Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Créé automatiquement. Toutes les caractéristiques et tous les segments créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion définie dans l’Experience Platform. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion définie dans l’Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | Le segment est constitué de la caractéristique décrite dans la section [Caractéristiques](#aep-segments-as-aam-traits). |
 
 ## Prise en charge du contrôle des exportations de données d&#39;Audience Manager dans l&#39;Experience Platform {#aam-data-export-control-in-aep}
 
-Afin d&#39;assurer la conformité de l&#39;utilisation des données dans l&#39;Experience Platform, tous les jeux de données et champs applicables doivent recevoir des [étiquettes d&#39;utilisation des données](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html) appropriées. En outre, [les stratégies d&#39;utilisation des données](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) doivent être activées pour des actions marketing spécifiques par rapport à ces étiquettes, comme l&#39;indique la [structure d&#39;étiquetage et d&#39;application de l&#39;utilisation des données ](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
+Afin d&#39;assurer la conformité de l&#39;utilisation des données dans l&#39;Experience Platform, tous les jeux de données et champs applicables doivent recevoir des [étiquettes d&#39;utilisation des données](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html) appropriées. En outre, [les stratégies d&#39;utilisation des données](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) doivent être activées pour des actions marketing spécifiques par rapport à ces étiquettes, comme indiqué par la [structure d&#39;étiquetage et d&#39;application de l&#39;utilisation des données (DULE)](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
 
 Dans le processus de partage des audiences entre l’Audience Manager et l’Experience Platform, tous les contrôles d’exportation de données appliqués aux segments d’Audience Manager sont traduits en étiquettes équivalentes et actions marketing reconnues par la gouvernance des données Experience Platform, et vice versa.
 
