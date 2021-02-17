@@ -1,6 +1,6 @@
 ---
 description: Récupère une instance de DIL spécifique au partenaire.
-keywords: audience manager api;aam api;audience manager apis;aam apis
+keywords: api du gestionnaire d’audiences ; api aam ; apis du gestionnaire d’audiences ; apis aam
 seo-description: Récupère une instance de DIL spécifique au partenaire.
 seo-title: getDil
 solution: Audience Manager
@@ -10,8 +10,8 @@ feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 17%
+source-wordcount: '83'
+ht-degree: 15%
 
 ---
 
