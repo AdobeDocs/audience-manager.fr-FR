@@ -1,6 +1,6 @@
 ---
 description: Les caractéristiques des dossiers vous permettent d’agrégat automatiquement les caractéristiques qui résident dans le même dossier et tous les dossiers enfants dans un segment cible.
-keywords: segment size estimator;sse
+keywords: estimateur de taille de segment ; sse
 seo-description: Les caractéristiques des dossiers vous permettent d’agrégat automatiquement les caractéristiques qui résident dans le même dossier et tous les dossiers enfants dans un segment cible.
 seo-title: Caractéristiques du dossier
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
