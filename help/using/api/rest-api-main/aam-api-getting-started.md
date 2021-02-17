@@ -169,7 +169,7 @@ La réponse [!DNL JSON] contient votre nouveau jeton d&#39;accès. La réponse d
 
 ### Code d’autorisation et authentification implicite {#authentication-code-implicit}
 
-[!DNL Audience Manager] [!UICONTROL REST API] prend en charge le code d&#39;autorisation et l&#39;authentification implicite. Pour utiliser ces méthodes d&#39;accès, vos utilisateurs doivent se connecter à `https://api.demdex.com/oauth/authorize` pour accéder à &lt;a0/> et actualiser les jetons.
+[!DNL Audience Manager] [!UICONTROL REST API] prend en charge le code d&#39;autorisation et l&#39;authentification implicite. Pour utiliser ces méthodes d’accès, vos utilisateurs doivent se connecter à `https://api.demdex.com/oauth/authorize` pour accéder à  et actualiser les jetons.
 
 ## Faire des demandes authentifiées [!DNL API] {#authenticated-api-requests}
 
