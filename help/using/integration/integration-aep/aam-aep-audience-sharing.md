@@ -7,9 +7,9 @@ title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: Partage des audiences AEP, segments AEP, segments de plateforme, partage de segments, partage d’audiences, partage de segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
+source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -162,7 +162,7 @@ L’Audience Manager met à jour les numéros de rapports dans l’interface une
 
 ### Composition de segments dans l’Experience Platform
 
-L&#39;intégration entre Adobe Experience Platform et l&#39;Audience Manager partage un certain nombre d&#39;espaces de nommage d&#39;identité [standard](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID, etc. Si vos segments d’Experience Platform utilisent l’un d’eux comme identité Principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
+L&#39;intégration entre Adobe Experience Platform et l&#39;Audience Manager partage un certain nombre d&#39;espaces de nommage d&#39;identité [standard](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID. Si vos segments d’Experience Platform utilisent l’un d’eux comme identité Principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
 
 En outre, l’Audience Manager peut enregistrer les réalisations entrantes pour tout espace de nommage d’identité personnalisé que vous utilisez dans les segments Experience Platform si :
 * l&#39;identité est marquée comme Principale *et*
