@@ -4,11 +4,11 @@ seo-description: 'Cette page comprend des instructions détaillées sur la mani�
 seo-title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
 solution: Audience Manager
 title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
-feature: People-Based Destinations
+feature: Destinations basées sur des personnes
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Supposons que vous souhaitiez faire correspondre vos [DPUUIDs](../../reference/i
 
  
 
-Vous pouvez lier jusqu’à 10 adresses électroniques hachées à un seul [DPUUID](../../reference/ids-in-aam.md). Pour ce faire, séparez les adresses électroniques hachées par une virgule dans le fichier de synchronisation.
+Vous pouvez lier jusqu’à 10 adresses électroniques hachées à un seul [DPUUID](../../reference/ids-in-aam.md). Pour ce faire, séparez les adresses électroniques hachées par un `<TAB>` dans le fichier de synchronisation.
 
 Dans notre exemple, vous disposez désormais de deux sources de données.
 
