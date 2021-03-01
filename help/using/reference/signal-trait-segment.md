@@ -5,11 +5,11 @@ seo-title: Signaux, caractéristiques et segments
 solution: Audience Manager
 title: Signaux, caractéristiques et segments
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-feature: reference
+feature: référence
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 15%
 
 ---
