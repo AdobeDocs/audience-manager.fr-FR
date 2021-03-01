@@ -4,13 +4,13 @@ keywords: code d’intégration, destination, aperçu de la destination, destina
 landing-page-description: Une destination désigne tout système tiers avec lequel partager des données, par exemple un serveur de publicités ou un DSP. Utilisez Destination Builder pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.
 seo-title: 'Destinations '
 solution: Audience Manager
-title: 'Destinations '
+title: Destinations
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: Concepts de base des destinations
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 15%
 
 ---
