@@ -5,11 +5,11 @@ seo-title: Créateur de segments
 solution: Audience Manager
 title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: Segments
+feature: 'Segments '
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1083'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Début en regardant la vidéo [Créer des segments dans l&#39;Audience Manager](
 
 Regardez la vidéo ci-dessous pour obtenir un aperçu détaillé du fonctionnement des mesures sur plusieurs périphériques.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Basic Information] Section  {#segment-builder-controls-basics}
 
