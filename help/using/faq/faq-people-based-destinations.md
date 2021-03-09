@@ -4,12 +4,12 @@ seo-description: 'Réponses aux questions courantes sur les destinations basées
 seo-title: FAQ sur les destinations basées sur les personnes
 solution: Audience Manager
 title: FAQ sur les destinations basées sur les personnes
-feature: People-Based Destinations
+feature: Destinations basées sur des personnes
 translation-type: tm+mt
-source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
+source-git-commit: eb998042acb46fef2b0e407b3565d8ba4769f0bb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1171'
+ht-degree: 94%
 
 ---
 
@@ -78,6 +78,10 @@ Tant que l’adresse électronique est hachée et ingérée correctement, il ne 
 **Je recueille les adresses électroniques professionnelles de mes clients qui sont différentes des adresses électroniques personnelles utilisées sur les réseaux sociaux. Comment faire correspondre les identités avec plusieurs adresses électroniques ?**
 
 Audience Manager peut collecter et envoyer jusqu’à 10 e-mails par utilisateur vers les plateformes de destination, mais les adresses électroniques doivent être capturées dans des fichiers de synchronisation. Lorsqu’Audience Manager envoie les adresses électroniques vers les plateformes de destination, c’est aux plateformes de faire correspondre les adresses électroniques avec leur propre base d’utilisateurs. Certaines plateformes peuvent avoir des graphiques d’adresses électroniques supplémentaires pour faire correspondre les adresses envoyées depuis Audience Manager vers les profils utilisateur.
+
+**Puis-je utiliser  [!DNL People-Based Destinations] dans  [!DNL Audience Lab] ?**
+
+Non. Actuellement, toutes les destinations [!DNL People-Based Destinations] sont exclues de [!DNL Audience Lab]. Étant donné que [!DNL People-Based Destinations] et les plateformes côté demande utilisent des ID différents, vous ne pouvez pas tester et mesurer les performances avec des audiences réparties de manière uniforme entre elles.
 
 ## Contrôles des exportations de données {#data-export-controls}
 
