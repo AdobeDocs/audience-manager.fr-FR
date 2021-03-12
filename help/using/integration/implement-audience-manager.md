@@ -5,11 +5,11 @@ seo-title: Implémentation d’Audience Manager
 solution: Audience Manager
 title: Implémentation d’Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Third Party Integrations
+feature: Intégrations tierces
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1062'
 ht-degree: 1%
 
 ---
@@ -221,13 +221,9 @@ Les tâches de cette phase peuvent inclure :
 
 ## Implémentation du code {#code-implementation}
 
-Bien que le processus de déploiement puisse sembler complexe, l’implémentation du code est aussi simple que l’ajout de quelques lignes de [!DNL JavaScript] adjacentes à la balise de fermeture `</body>` de votre site Web.
+L’Audience Manager utilise le Data Integration Library ([!DNL DIL]) pour recevoir les données d’audience.
 
-<!-- c_code.xml -->
-
-### Déploiement
-
-Le fragment de code d’Audience Manager appelle [!DNL Akamai] pour télécharger les règles de fonctionnement configurées précédemment dans l’interface utilisateur. En outre, les navigateurs clients mettent en cache ces informations, ce qui contribue à réduire les temps de chargement des pages et des serveurs. Notre méthodologie de collecte de code et de données est conçue pour gérer l’expérience des utilisateurs dans l’ensemble de votre inventaire.
+Pour obtenir des instructions détaillées sur l&#39;utilisation de [!DNL DIL], voir [Obtention et implémentation du code du DIL](../dil/dil-overview.md).
 
 ### Participants
 
@@ -236,8 +232,6 @@ Les solutions partenaires peuvent collaborer directement avec vos équipes techn
 ## Prise en charge après la mise en oeuvre {#post-implementation-support}
 
 Nos efforts de collaboration ne s&#39;arrêtent pas au déploiement final. Une fois l’implémentation terminée, notre équipe de gestion de compte prend le relais.
-
-<!-- c_post_implement_support.xml -->
 
 Les gestionnaires de compte offrent des services de soutien et de consultation continus une fois le processus de mise en oeuvre du produit terminé. Vous pouvez vous attendre à des réunions régulières avec votre gestionnaire de compte. Ces réunions vous permettent d’obtenir le maximum d’utilisation et de valeur d’Audience Manager.
 
