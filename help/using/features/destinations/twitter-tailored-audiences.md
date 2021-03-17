@@ -4,11 +4,11 @@ seo-description: Cet article explique comment configurer des Audiences personnal
 seo-title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
 solution: Audience Manager
 title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
-feature: People-Based Destinations
+feature: Destinations basées sur des personnes
 translation-type: tm+mt
-source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
+source-git-commit: 6716c871562cd0203239897fc096033160e2fc13
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '555'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ Après avoir lié l&#39;Audience Manager et votre [!DNL Twitter Tailored Audienc
 Lors du mappage des segments d’audience sur [!UICONTROL Twitter], veillez à respecter les exigences suivantes en matière de nommage des segments :
 
 * Fournissez des noms de mappage de segments lisibles par les utilisateurs. Nous vous recommandons d’utiliser le même nom que celui utilisé pour les segments d’Audience Manager.
-* N’utilisez pas de caractères spéciaux (`,` `%` `:` `;` `@` `/` `=` `?` `$`) dans les noms de mappage de segments et de segments. Si le nom du segment d&#39;Audience Manager contient ces caractères, supprimez-les avant de mapper le segment à une destination [!UICONTROL Twitter].
+* N’utilisez pas de caractères spéciaux (`+` `&` `,` `%` `:` `;` `@` `/` `=` `?` `$`) dans les noms de mappage de segments et de segments. Si le nom du segment d&#39;Audience Manager contient ces caractères, supprimez-les avant de mapper le segment à une destination [!UICONTROL Twitter].
 
 ### Exemple
 
