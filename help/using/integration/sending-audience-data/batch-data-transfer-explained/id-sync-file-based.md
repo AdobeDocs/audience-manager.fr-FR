@@ -5,12 +5,12 @@ seo-title: Exigences en matière de nom et de contenu pour les fichiers de synch
 solution: Audience Manager
 title: Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: Inbound Data Transfers
+feature: Transferts des données entrantes
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 7%
+source-wordcount: '840'
+ht-degree: 6%
 
 ---
 
@@ -99,6 +99,14 @@ Le fichier contient des ID utilisateur ([!DNL UUID]). Dans chaque ligne, sépare
 ```
 abc123 def456 ghi789 xyz987
 ```
+
+### Considérations sur le contenu des fichiers {#considerations}
+
+Lors de la création de vos fichiers entrants, assurez-vous que la première colonne est uniquement remplie avec les ID de périphérique, tels que [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], etc. Voir [Index des identifiants dans Audience Manager](../../../reference/ids-in-aam.md) pour une explication détaillée des identifiants pris en charge par l&#39;Audience Manager.
+
+>[!IMPORTANT]
+>
+>N’utilisez pas [DPUUIDs](../../../reference/ids-in-aam.md) dans la première colonne. Cela peut entraîner une synchronisation incorrecte.
 
 ## La synchronisation correspond aux DPUUID aux UUID {#sync-matches-dpuuids-uuids}
 
