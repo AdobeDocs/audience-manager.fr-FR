@@ -4,11 +4,11 @@ seo-description: Cette page illustre le processus de création de pixels WCA (Au
 seo-title: Intégration Facebook WCA
 solution: Audience Manager
 title: Intégration Facebook WCA
-feature: Third Party Integrations
+feature: Intégrations tierces
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '869'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ Cette page illustre le processus de création de [!DNL Facebook Website Custom A
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 ou ultérieure. Téléchargez la version la plus récente **[ici](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) version 9.0 ou ultérieure, téléchargeable  **[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Si vous utilisez [Transfert côté serveur (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) pour importer des données dans [!DNL Audience Manager], vous devez utiliser AppMeasurement version 2.12 ou ultérieure. Téléchargez [!DNL AppMeasurement] à l’aide du [Gestionnaire de code Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-Nous vous recommandons d’installer ou de mettre à niveau les bibliothèques des étapes 3 et 4 à l’aide de [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) ou [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html).
+Nous vous recommandons d’installer ou de mettre à niveau les bibliothèques des étapes 3 et 4 à l’aide de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) ou [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html).
 
 ## Étape 1 - Créer un [!UICONTROL Facebook Destination] dans [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
