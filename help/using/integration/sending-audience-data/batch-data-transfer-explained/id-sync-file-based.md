@@ -7,9 +7,9 @@ title: Exigences en matière de nom et de contenu pour les fichiers de synchroni
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Transferts des données entrantes
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Les noms de fichiers d’ID contiennent les éléments obligatoires et facultati
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> L’ID de fournisseur de données maître est l’ID parent des DPID dans le nom de fichier. En outre, le premier ID utilisateur du fichier de données correspond à l’ID maître. Les DPID suivants sont d’autres identifiants qui appartiennent au maître. La synchronisation fait correspondre les DPID du nom de fichier aux UUID du fichier. </td> 
+   <td colname="col2"> <p>L’ID de fournisseur de données maître est l’ID parent des DPID dans le nom de fichier. En outre, le premier ID utilisateur du fichier de données correspond à l’ID maître. Les DPID suivants sont d’autres identifiants qui appartiennent au maître. La synchronisation fait correspondre les DPID du nom de fichier aux UUID du fichier.</p> <p>Ce DPID ne doit contenir que des ID de périphérique, tels que AAM UUID, GAID, IDFA, etc. Il ne peut pas contenir de DPUUID. Cela peut entraîner une synchronisation incorrecte.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
