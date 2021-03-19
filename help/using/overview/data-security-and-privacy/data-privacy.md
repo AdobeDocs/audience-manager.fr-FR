@@ -5,12 +5,12 @@ seo-title: Présentation de la confidentialité des données
 solution: Audience Manager
 title: Présentation de la confidentialité des données
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: data governance & privacy
+feature: gouvernance des données et confidentialité
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 78%
+source-wordcount: '489'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ Dans notre soutien continu à ce modèle, [!DNL Audience Manager] demeure déter
 
 ## [!DNL GDPR] {#gdpr}
 
-Le [règlement général sur la protection des données (RGPD)](https://eugdpr.org/) a introduit plusieurs nouveaux droits à la confidentialité des données pour les membres de l’Union européenne, y compris le **droit d’accès** et le **droit à l’oubli**. Cela signifie que tout [!DNL EU] citoyen dont les données personnelles ont été collectées par votre entreprise peut demander à accéder à ses données ou les supprimer à tout moment. Le non-respect de ces requêtes par votre organisation peut être sanctionné par des amendes de plusieurs millions de dollars.
+Le [règlement général sur la protection des données (RGPD)](https://gdpr.eu/data-privacy/) a introduit plusieurs nouveaux droits à la confidentialité des données pour les membres de l’Union européenne, y compris le **droit d’accès** et le **droit à l’oubli**. Cela signifie que tout [!DNL EU] citoyen dont les données personnelles ont été collectées par votre entreprise peut demander à accéder à ses données ou les supprimer à tout moment. Le non-respect de ces requêtes par votre organisation peut être sanctionné par des amendes de plusieurs millions de dollars.
 
 Pour se conformer à [!DNL GDPR], [!DNL Audience Manager] prend en charge l&#39;accès aux données et la suppression des [requêtes](data-privacy-requests.md).
 
