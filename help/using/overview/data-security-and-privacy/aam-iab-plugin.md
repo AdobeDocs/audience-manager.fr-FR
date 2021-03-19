@@ -4,11 +4,11 @@ seo-description: Adobe vous fournit les moyens de gérer et de communiquer les c
 seo-title: Module d’Audience Manager pour le TCF de l’IAB
 solution: Audience Manager
 title: Module d’Audience Manager pour le TCF de l’IAB
-feature: data governance & privacy
+feature: gouvernance des données et confidentialité
 translation-type: tm+mt
-source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2441'
 ht-degree: 40%
 
 ---
@@ -100,7 +100,7 @@ Chaque fournisseur enregistré dans le TCF de l’IAB évalue la chaîne TC de l
 
 ## Objectifs requis par l&#39;Audience Manager {#aam-standard-purposes}
 
-L&#39;Audience Manager évalue les choix des utilisateurs stockés dans la chaîne TC de l&#39;IAB aux fins suivantes, définies dans les [Stratégies de cadre de transparence et de consentement d&#39;IAB Europe](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes). De plus, vous pouvez également trouver les objectifs dans la [liste fournisseur globale](https://vendorlist.consensu.org/vendorlist.json).
+L&#39;Audience Manager évalue les choix des utilisateurs stockés dans la chaîne TC de l&#39;IAB aux fins suivantes, définies dans les [Stratégies de cadre de transparence et de consentement d&#39;IAB Europe](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
 
 * **Objectif 1** : Stocker et/ou accéder aux informations sur un appareil ;
 * **But 10** : Développer et améliorer les produits ;
