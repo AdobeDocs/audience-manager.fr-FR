@@ -5,9 +5,9 @@ seo-title: Modules DIL
 solution: Audience Manager
 title: Modules DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DIL Implementation
+feature: Mise en oeuvre DIL
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 4%
@@ -315,7 +315,7 @@ L’appel de événement d’URL à l’Audience Manager peut ressembler à ceci
 >[!MORELIKETHIS]
 >
 >* [Code de suivi Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Mise à niveau Web complète : ga.js/dc.js à niveau vers analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
+>* [Mise à niveau Web complète : ga.js/dc.js à niveau vers analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Ajouter analytics.js à votre site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [Référence des méthodes d’objet ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
