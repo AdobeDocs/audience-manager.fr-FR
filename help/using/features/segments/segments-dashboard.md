@@ -5,19 +5,19 @@ seo-title: Affichage de la liste de segments
 solution: Audience Manager
 title: Affichage de la liste de segments
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-feature: Segments
+feature: 'Segments '
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 9%
+source-wordcount: '87'
+ht-degree: 11%
 
 ---
 
 
 # Affichage de la liste de segments {#segments-list-view}
 
-Le [tableau de bord Segments](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) est un espace de travail centralisé pour la gestion de vos segments d&#39;audience. Vous pouvez voir le tableau de bord [!UICONTROL Segments] en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+[!UICONTROL Segments dashboard] est un espace de travail centralisé pour la gestion de vos segments d&#39;audience. Vous pouvez voir le tableau de bord [!UICONTROL Segments] en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![segments-tableau de bord](assets/segments-dashboard.png)
 
