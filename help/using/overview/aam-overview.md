@@ -7,7 +7,7 @@ title: Présentation d’Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: de la validation
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -31,13 +31,9 @@ Les fonctions d’une plateforme de gestion des données (DMP) peuvent être ré
 
 Audience Manager collecte des données propriétaires à partir de canaux et d’appareils (analyse web, gestion de la relation client, données d’appareil, e-commerce, etc.).
 
-<br> 
-
 **Création d’audiences**
 
 Unifie les données en profils d’audience, vous donnant un aperçu complet du client sur tous les appareils et canaux. Créez des modèles semblables, des segments d’audience et des groupes de profils et complétez-les par des sources de données secondaires et tierces.
-
-<br> 
 
 **Données en sortie**
 
