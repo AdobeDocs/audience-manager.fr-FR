@@ -5,12 +5,12 @@ seo-title: Glossaire
 solution: Audience Manager
 title: Glossaire
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: reference
+feature: référence
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 100%
+source-wordcount: '1187'
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,6 @@ Utilisez [!UICONTROL Algorithmic Modeling] comme un moyen d’étendre la porté
 
 Voir [Signification des modèles algorithmiques](../features/algorithmic-models/algo-models-overview.md).
 
-<br> 
-
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. Les [!UICONTROL Bulk Management Tools] d’[!DNL Audience Manager] constituent un ensemble d’outils Microsoft Excel qui vous permettent de créer, de modifier ou de supprimer plusieurs objets à la fois au cours d’une seule opération. Vous pouvez utiliser des sources de données, des signaux dérivés, des destinations, des dossiers, des segments et des caractéristiques. Cette fonctionnalité utilise une feuille de calcul Microsoft Excel avec des macros qui effectuent des appels sécurisés et authentifiés aux API [!DNL Audience Manager].
@@ -43,15 +41,13 @@ Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-managem
 
 Voir [Flux de données client](../features/cdf-files.md).
 
-<br> 
-
 **Identifiant CRM**
 
 L’identifiant CRM est l’identifiant par lequel les clients identifient les utilisateurs dans leur propre système CRM. Dans Audience Manager, nous remplaçons la notion d’identifiant CRM par le terme DPUUID.
 
 Voir DPUUID dans l’[Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Audiences adressables au client**
 
@@ -60,25 +56,25 @@ Dans [Audiences adressables](/help/using/features/addressable-audiences.md), cet
    **ET**
 * dont l’identifiant est synchronisé avec la destination sélectionnée, et ce quelle que soit l’heure de la synchronisation.
 
-<br> 
+
 
 **Attributs du client**
 
 Voir [Attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html) dans la documentation du produit [!DNL Experience Cloud Core Services].
 
-<br> 
+
 
 **Taux de correspondance du client**
 
 Audiences adressables du client / audience totale du client, exprimé en %. Voir [Audiences adressables](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Audience totale du client**
 
 Dans [Audiences adressables](/help/using/features/addressable-audiences.md), cette mesure représente le nombre d’appareils qui ont créé soit une caractéristique basée sur des règles sur vos propriétés, soit une caractéristique intégrée à partir de vos fichiers hors ligne pendant la période d’analyse.
 
-<br> 
+
 
 **demdex.net**
 
@@ -86,7 +82,7 @@ Demdex.net est un domaine hérité contrôlé par [!DNL Adobe]. Il reflète le n
 
 Voir [Signification des appels vers le domaine Demdex](../reference/demdex-calls.md).
 
-<br> 
+
 
 **DAID**
 
@@ -94,19 +90,19 @@ Les [!UICONTROL Device Advertising IDs] sont des identifiants d’appareil uniqu
 
 Voir [Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Destination**
 
 Dans [!DNL Audience Manager], une destination correspond à tout autre système (serveur de publicités, plateforme DSP, réseau publicitaire, etc.) avec lequel vous souhaitez partager des données. Le [!UICONTROL Destination Builder] de notre interface utilisateur vous fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion des données. Les fonctionnalités de destination d’[!DNL Audience Manager] se trouvent dans **[!UICONTROL Audience Data > Destinations]**.
 
-<br> 
+
 
 **DIL**
 
 La [!UICONTROL Data Integration Library] constitue une bibliothèque d’API utilisée par [!DNL Audience Manager] pour collecter des données concernant l’interaction de l’utilisateur. Voir [API Data Integration Library (DIL)](../dil/dil-overview.md).
 
-<br> 
+
 
 **dpm**
 
@@ -118,7 +114,7 @@ La [!UICONTROL Data Integration Library] constitue une bibliothèque d’API uti
 
 Anciennement nommé identifiant [!DNL Marketing Cloud] (MID ou MCID), l’identifiant [!DNL Experience Cloud] est au cœur du service d’identification. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir les cookies et l’[Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html).
 
-<br> 
+
 
 **Caractéristique de dossier**
 
@@ -126,7 +122,7 @@ Regroupement automatique des caractéristiques au sein de la taxonomie de votre 
 
 Voir [À propos des caractéristiques de dossier](../features/traits/about-folder-traits.md).
 
-<br> 
+
 
 **Limitation de la fréquence**
 
@@ -140,7 +136,7 @@ Voir [Récence et fréquence](../features/segments/recency-and-frequency.md).
 
 L’identifiant Google Advertising constitue l’identifiant d’appareil unique attribué par Google aux périphériques matériels exécutant le système d’exploitation Android. Voir [Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **GUID**
 
@@ -153,13 +149,13 @@ Voir [Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
 Il s’agit de l’identifiant des annonceurs, l’identifiant d’appareil unique attribué par Apple à ses produits. Voir [Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Entrant**
 
 Le processus par lequel vous pouvez envoyer des données d’audience provenant d’autres sources à [!DNL Audience Manager]. Voir [Envoi de données d’audience](/help/using/integration/sending-audience-data/send-audience-data.md).
 
-<br> 
+
 
 **Code d’intégration**
 
@@ -189,13 +185,13 @@ Voir [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 Voir [Composants de la collecte de données](../reference/system-components/components-data-collection.md).
 
-<br> 
+
 
 **Profile Link**
 
 Voir [Définition des options des stratégies de fusion de profils](../features/profile-merge-rules/merge-rule-definitions.md).
 
-<br> 
+
 
 **Stratégies de fusion de profils**
 
@@ -217,25 +213,25 @@ Un segment (ou une audience) constitue un groupe d’utilisateurs qui partagent 
 
 Voir [Segments : objectif, composition et règles](../features/segments/segments-purpose.md).
 
-<br> 
+
 
 **Audience adressable du segment**
 
 Dans [Audiences adressables](/help/using/features/addressable-audiences.md), cette mesure représente le nombre d’utilisateurs qui ont fait partie du segment au cours de la période d’analyse du rapport et qui disposent d’une synchronisation d’identifiant active sur votre site. Les segments peuvent inclure vos propres données propriétaires ainsi que des données de partenariat et des données tierces, au moyen de caractéristiques acquises dans [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-<br> 
+
 
 **Population totale de segments**
 
 Dans [Audiences adressables](/help/using/features/addressable-audiences.md), cette mesure représente le nombre de tous les appareils qui ont fait partie de votre segment pendant la période d’analyse du rapport.
 
-<br> 
+
 
 **Taux de correspondance du segment**
 
 Audiences adressables du segment / population totale du segment, exprimé en %. Voir [Audiences adressables](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Signal**
 
@@ -243,13 +239,13 @@ Les signaux constituent les plus petites unités de données d’[!DNL Audience 
 
 Voir [Signaux, caractéristiques et segments](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Caractéristique**
 
 Une caractéristique constitue une combinaison d’un ou de plusieurs signaux. Voir [Signaux, caractéristiques et segments](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Population de caractéristiques**
 
@@ -259,7 +255,7 @@ Voir [Données sur la population de segments et de caractéristiques dans le cr�
 
 La durée de vie définit le nombre de jours pendant lesquels un visiteur qualifié fait partie d’une caractéristique. Elle est définie sur les caractéristiques et non sur les segments. Les visiteurs ne font plus partie du segment s’ils ne sont plus qualifiés pour aucune caractéristique avant la fin de la durée de vie. Pour en savoir plus, consultez l’[Explication portant sur la durée de vie des segments et des caractéristiques](/help/using/features/traits/segment-ttl-explained.md).
 
-<br> 
+
 
 ## U-V {#u-v}
 
@@ -267,7 +263,7 @@ La durée de vie définit le nombre de jours pendant lesquels un visiteur qualif
 
 Identifiant utilisateur unique d’[!DNL Audience Manager]. Voir [Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Identifiant visiteur**
 
