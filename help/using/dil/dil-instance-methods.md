@@ -6,11 +6,11 @@ seo-title: Méthodes DIL au niveau de l’instance
 solution: Audience Manager
 title: Méthodes DIL au niveau de l’instance
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL Implementation
+feature: Mise en oeuvre DIL
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1111'
 ht-degree: 13%
 
 ---
