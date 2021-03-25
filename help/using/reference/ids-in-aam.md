@@ -8,7 +8,7 @@ title: Index des identifiants dans Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: référence
 translation-type: tm+mt
-source-git-commit: 5abb131966e0b27e6c628ff992c4c30b89f65ae9
+source-git-commit: 30d18c32f519930703c46046b0c2a413b222c317
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 5%
@@ -45,14 +45,6 @@ Pour comprendre les préfixes utilisés dans les exemples suivants, voir [Attrib
 | [!DNL CRM ID] | Voir `DPUUID`. | Voir `DPUUID`. | Voir `DPUUID`. |
 | [!DNL CID],  [!DNL CID_IC] | [!UICONTROL Customer ID],  [!UICONTROL Customer ID Integration Code]. Les paires [!DNL CID] et [!DNL CID_IC] clé-valeur remplacent [!DNL DPID] et [!DNL DPUUID]. Ils offrent les mêmes fonctions que les [!DNL DPID] et [!DNL DPUUID], mais sont plus efficaces car ils incluent l&#39;ID de fournisseur de données et l&#39;ID d&#39;utilisateur (ou le code d&#39;intégration) dans une seule paire clé-valeur. | Dans les appels [!DNL DCS], ces identifiants sont précédés du préfixe `d_`. <br>Exemple: `d_cid_ic=39217_myIntegrationCode`. | Voir `DPID` et `DPUUID`. |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]. Cet identifiant propre à chaque périphérique est utilisé à des fins de publicité. Généralement fourni par le fabricant du système d’exploitation du périphérique ou du périphérique. | Voir [ID de dispositif global](#global-device-ids). |  |
-
-<!--
-
-Commenting out the table style. Fixed layout works better than auto layout for the index of IDs.
-
-{style="table-layout:auto"}
-
--->
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 
