@@ -5,11 +5,11 @@ seo-title: Document technique du produit Adobe Audience Manager
 solution: Audience Manager
 title: Guide d’Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: de la validation
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 96%
 
 ---
@@ -32,8 +32,6 @@ Ce guide de documentation technique fournit une aide autonome pour Audience Mana
 * Lisez ensuite la section **Prise en main d’Audience Manager** pour vous familiariser avec les concepts d’Audience Manager. Assurez-vous également de consulter les guides d’implémentation technique et commerciale.
 * Consultez les dernières notes de mise à jour d’Audience Manager et apprenez-en davantage sur les dernières fonctionnalités dans la section **Notes de mise à jour et dernières fonctionnalités**.
 * Enfin, vous pouvez explorer plus de ressources d’Experience Cloud comme les forums, les tutoriels vidéo, les programmes de formation en personne et en ligne dans la section **Centre d’apprentissage - Ressources d’Audience Manager et d’Experience Cloud recommandées**.
-
-<br> 
 
 ## Fonctionnalité principale d’Audience Manager
 
@@ -70,8 +68,6 @@ Ce guide de documentation technique fournit une aide autonome pour Audience Mana
    </td>
 </table>
 
-
-<br> 
 
 ## Prise en main d’Audience Manager
 
@@ -148,8 +144,6 @@ Ce guide de documentation technique fournit une aide autonome pour Audience Mana
 
 -->
 
-<br> 
-
 ## Notes de mise à jour et dernières fonctionnalités
 
 <table> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## Centre d’apprentissage - Ressources d’Audience Manager et d’Experience Cloud recommandées
 
