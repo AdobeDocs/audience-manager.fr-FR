@@ -7,9 +7,9 @@ title: Incidence de la diffusion des données et des délais de traitement des f
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: référence
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -44,8 +44,6 @@ Le tableau suivant liste et décrit les intervalles de temps dans nos rapports g
 | Envoi d&#39;un fichier entrant par importation (données hors ligne) | Le traitement des fichiers est exécuté deux fois par jour. Ces procédures assimilent les données et les préparent à la diffusion. Les durées de diffusion des fichiers varient car elles sont affectées par la quantité totale de données client à traiter. Vous devez vous attendre à une latence maximale de 48 heures entre le moment où le fichier est téléchargé en Audience Manager et jusqu’à ce que les données soient disponibles pour le rapports et l’activation. |
 | Fichiers sortants (exportation) | Le traitement des dossiers et la diffusion ont lieu une fois par jour, vers 14h00 UTC. N’oubliez pas que le traitement et la diffusion sont affectés par le nombre total et la taille de ces fichiers. Dans certains cas, le traitement des fichiers peut être retardé jusqu&#39;à 24 heures. Dans ce cas, l&#39;Audience Manager enverra 2 fichiers pour un jour donné au lieu de 1. Nous informerons nos clients dans les rares cas où l&#39;Audience Manager doit arrêter de traiter un fichier. Compte tenu de ces conditions, il est difficile d&#39;estimer le temps de diffusion des données sortantes. Pour déterminer si vous avez reçu un ensemble complet de fichiers, vérifiez l’horodatage et recherchez les jours manquants. Il s’agit d’un horodatage UTC UNIX à 13 chiffres qui enregistre l’heure de création du fichier. Voir [Transferts de données sortants en temps réel](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Fichiers journaux du serveur d’annonces | Le traitement des fichiers est exécuté en temps quasi réel afin d’assimiler les enregistrements de fichiers journaux lorsque les fichiers horaires sont prêts. Le processus de préparation des fichiers pour le rapports est exécuté une fois par jour. Les durées de diffusion des fichiers varient car elles sont affectées par la quantité totale de données client à traiter. Vous devez vous attendre à une latence maximale de 48 heures entre le moment où vous téléchargez le fichier vers l’Audience Manager et le moment où les données sont disponibles pour le rapports et l’activation. |
-
-{style=&quot;table-layout:auto&quot;}
 
 >[!MORELIKETHIS]
 >
