@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Limites d’utilisation
 keywords: Mappage des identifiants, mappages des identifiants, mappages des cookies
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Usage and Billing
+feature: Utilisation et facturation
 translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '591'
 ht-degree: 6%
 
 ---
@@ -45,6 +45,8 @@ Les tableaux liste les limites actuelles par type d&#39;élément. Vous ne pouve
 | En bord | 100 000 |
 | Caractéristiques des dossiers | 2 000 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### Limites de segments
 
 | Type de segment | Limite maximale |
@@ -70,6 +72,8 @@ Les tableaux liste les limites actuelles par type d&#39;élément. Vous ne pouve
 | Nombre maximal de caractéristiques exclues pour un [!UICONTROL Look-Alike Model] | 500. Voir [Exclusion des caractéristiques dans la modélisation algorithmique](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
 | Nombre maximal de personnages de base pour [!UICONTROL Predictive Audiences Models] | 50 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Limites des dossiers
 
