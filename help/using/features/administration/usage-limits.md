@@ -8,9 +8,9 @@ keywords: Mappage des identifiants, mappages des identifiants, mappages des cook
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Utilisation et facturation
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
@@ -45,8 +45,6 @@ Les tableaux liste les limites actuelles par type d&#39;élément. Vous ne pouve
 | En bord | 100 000 |
 | Caractéristiques des dossiers | 2 000 |
 
-{style=&quot;table-layout:auto&quot;}
-
 ### Limites de segments
 
 | Type de segment | Limite maximale |
@@ -70,10 +68,8 @@ Les tableaux liste les limites actuelles par type d&#39;élément. Vous ne pouve
 | Actif [!UICONTROL Look-Alike Models] | 20. L&#39;Audience Manager ne compte que les *modèles algorithmiques principaux* par rapport à la limite. |
 | [!UICONTROL Look-Alike Models] taille maximale d’audience | 25 000 000.  Notez que cette limite ne peut pas être augmentée. Vous pouvez réduire la taille des audiences en sélectionnant moins de sources de données pour le modèle ou en sélectionnant une fenêtre de recherche plus courte. |
 | Nombre maximal de caractéristiques exclues pour un [!UICONTROL Look-Alike Model] | 500. Voir [Exclusion des caractéristiques dans la modélisation algorithmique](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
-| Naximum [!UICONTROL Predictive Audiences Models] | 10 |
-| Nombre maximal de personnages de base pour [!UICONTROL Predictive Audiences Models] | 50 |
-
-{style=&quot;table-layout:auto&quot;}
+| Maximum [!UICONTROL Predictive Audiences Models] | 10 |
+| Nombre maximal de personnages de ligne de base pour [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### Limites des dossiers
 
