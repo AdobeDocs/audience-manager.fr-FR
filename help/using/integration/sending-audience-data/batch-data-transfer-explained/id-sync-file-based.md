@@ -7,9 +7,9 @@ title: Exigences en matière de nom et de contenu pour les fichiers de synchroni
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Transferts des données entrantes
 translation-type: tm+mt
-source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
+source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '873'
 ht-degree: 6%
 
 ---
@@ -130,6 +130,8 @@ Compte tenu du nom et du contenu de l’exemple, les identifiants correspondent 
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
+{style=&quot;table-layout:auto&quot;}
+
 Étape 1 : le processus de synchronisation des identifiants synchronise les [!DNL DPUUID]s de [!DNL DPID] 12345 avec les [!DNL Audience Manager] [!DNL UUID]s dans la colonne de gauche. Notez que le [!DNL DPID] &quot;0&quot; dans le nom de fichier représente [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
@@ -142,6 +144,8 @@ Compte tenu du nom et du contenu de l’exemple, les identifiants correspondent 
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
+
+{style=&quot;table-layout:auto&quot;}
 
 Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l&#39;étape 1 avec l&#39;Audience Manager [!DNL UUID]s. Cette synchronisation des identifiants permet de synchroniser les [!DNL DPUUID]s de [!DNL DPID] 67890 avec l&#39;Audience Manager [!DNL UUID]s de l&#39;étape 1.
 
