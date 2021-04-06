@@ -1,20 +1,20 @@
 ---
 description: La qualification des caractéristiques, ou réalisation des caractéristiques, est traitée différemment en Audience Manager, selon le type de caractéristique. Consultez le tableau ci-dessous pour obtenir des informations détaillées sur la qualification des caractéristiques.
-keywords: qualification de trait ; réalisation de caractéristiques ; Réalisations de caractéristiques uniques ; UTR ; Population totale de caractéristiques ; TTP
+keywords: Qualification des caractéristiques, Réalisation des caractéristiques, Valorisation des caractéristiques uniques, UTR, Population totale des caractéristiques, TTP
 seo-description: La qualification des caractéristiques, ou réalisation des caractéristiques, est traitée différemment en Audience Manager, selon le type de caractéristique. Consultez le tableau ci-dessous pour obtenir des informations détaillées sur la qualification des caractéristiques.
 seo-title: Référence de qualification des traits
 solution: Audience Manager
 title: Référence de qualification des traits
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-feature: Traits
+feature: 'Caractéristiques '
+exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,223f5fc6-c939-4bc6-94a3-5d953abc601a
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e13f81df9b0d59cd958f4c2a615c31df00ce2cc5
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
-
 
 # Référence de qualification des caractéristiques et des segments {#trait-qualification-reference}
 
@@ -75,4 +75,3 @@ Pour enfoncer le clou, si vous avez connu un pic de 10 000 visiteurs en ce momen
 ## Limite de qualification des caractéristiques {#trait-qualification-limit}
 
 Nous appliquons une limite de 150 000 qualifications de caractéristiques pour chaque profil utilisateur, qu’il s’agisse d’un profil authentifié ([DPUUID](../../reference/ids-in-aam.md)) ou d’un ID de périphérique ([UUID](../../reference/ids-in-aam.md)). Notez que si les DPUUID sont propres à une instance spécifique de [!DNL Audience Manager], les UUID sont partagés sur la plate-forme [!DNL Audience Manager]. Pour [!UICONTROL UUID]s, nous imposons une politique d&#39;équité lors du stockage des qualifications relatives aux caractéristiques. Un algorithme garantit qu’une part égale du profil [!UICONTROL UUID] est rendue disponible pour chaque instance de [!DNL Audience Manager].
-
