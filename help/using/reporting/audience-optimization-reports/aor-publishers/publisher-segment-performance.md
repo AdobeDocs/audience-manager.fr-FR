@@ -3,17 +3,17 @@ description: Le rapport Performances des segments compare les segments mappés e
 seo-description: Le rapport Performances des segments compare les segments mappés et non mappés selon les impressions et les uniques de segments en temps réel. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez souhaiter envoyer à une destination pour le ciblage.
 seo-title: Rapport de performances sur les segments
 solution: Audience Manager
-title: Rapport de performances sur les segments
+title: Rapport de performances des segments pour les éditeurs
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: audience optimization reports
+feature: Rapports d'optimisation des audiences
+exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: f5efd2d5032cb6d9fcceaee72d849a9dedcce698
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
-
 
 # Rapport de performances sur les segments{#segment-performance-report}
 
