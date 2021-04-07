@@ -3,17 +3,17 @@ description: Le rapport Portée de l’utilisateur unique renvoie des données d
 seo-description: Le rapport Portée de l’utilisateur unique renvoie des données dans un graphique à bulles. La taille de chaque bulle est proportionnelle au nombre d’utilisateurs uniques pour les unités publicitaires sélectionnées. Une bulle plus importante indique une plus grande portée qu’une bulle plus petite. Le rapport Portée de l’utilisateur unique vous aide à trouver l’unité publicitaire qui offre la portée la plus large possible par rapport à vos utilisateurs ciblés.
 seo-title: Portée de l’utilisateur unique
 solution: Audience Manager
-title: Portée de l’utilisateur unique
+title: Portée utilisateur unique pour les éditeurs
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-feature: audience optimization reports
+feature: Rapports d'optimisation des audiences
+exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '352'
+ht-degree: 3%
 
 ---
-
 
 # Portée de l’utilisateur unique{#unique-user-reach}
 
