@@ -5,10 +5,11 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Audience Manager fournit des services de pointe pour la gestion des données d’audience en ligne.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1789'
 ht-degree: 92%
 
 ---
@@ -146,7 +147,7 @@ ht-degree: 92%
       + [Syntaxe du code utilisé dans l’éditeur d’expressions de segments](features/segments/segment-code-syntax.md)
       + [Données sur la population de segment et les caractéristiques dans le créateur de segments](features/segments/segment-builder-data.md)
       + [Recommandations de caractéristiques](features/segments/trait-recommendations.md)
-      + [Référence de qualification des caractéristiques et des segments](features/traits/trait-and-segment-qualification-reference.md)
+      + [Référence de qualification des caractéristiques et des segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Caractéristiques {#traits}
       + [Présentation des caractéristiques](/help/using/features/traits/traits-overview.md)
       + [Page Détails des caractéristiques](features/traits/trait-details-page.md)
