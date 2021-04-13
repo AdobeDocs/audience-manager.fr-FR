@@ -5,15 +5,15 @@ seo-title: Définition des options des stratégies de fusion de profils
 solution: Audience Manager
 title: Définition des options des stratégies de fusion de profils
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Profile Merge Rules
+feature: Fusion de profil
+exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1031'
 ht-degree: 6%
 
 ---
-
 
 # [!UICONTROL Profile Merge Rules] Options définies  {#profile-merge-rule-options-defined}
 
