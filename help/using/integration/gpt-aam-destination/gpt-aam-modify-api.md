@@ -5,15 +5,15 @@ seo-title: Modification de l’appel API GPT setTargeting
 solution: Audience Manager
 title: Modification de l’appel API GPT setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: Third Party Integrations
+feature: Intégration tierce
+exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 9%
 
 ---
-
 
 # Modifier l&#39;appel d&#39;API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
 
