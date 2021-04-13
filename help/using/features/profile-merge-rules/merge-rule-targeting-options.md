@@ -5,15 +5,15 @@ seo-title: Cas d’utilisation généraux des stratégies de fusion de profils
 solution: Audience Manager
 title: Cas d’utilisation généraux des stratégies de fusion de profils
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-feature: Profile Merge Rules
+feature: Fusion de profil
+exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '999'
 ht-degree: 4%
 
 ---
-
 
 # Cas d’utilisation généraux des stratégies de fusion de profils {#general-use-cases-for-profile-merge-rules}
 
