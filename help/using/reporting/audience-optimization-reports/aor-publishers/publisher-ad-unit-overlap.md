@@ -5,15 +5,15 @@ seo-title: Chevauchement d’unité publicitaire
 solution: Audience Manager
 title: Chevauchement d’unité publicitaire
 uuid: e4467e81-acbf-474e-b501-89d57395651f
-feature: audience optimization reports
+feature: Rapports d’Audience Optimization
+exl-id: 08b219c6-bf0c-4473-9459-83b3657dfb15
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '435'
 ht-degree: 3%
 
 ---
-
 
 # Chevauchement d’unité publicitaire{#ad-unit-overlap}
 
