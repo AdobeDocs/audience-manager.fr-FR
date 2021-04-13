@@ -5,15 +5,15 @@ seo-title: Partage d’audiences entre Audience Manager et Adobe Experience Plat
 solution: Audience Manager
 title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: Partage des audiences AEP, segments AEP, segments de plateforme, partage de segments, partage d’audiences, partage de segments
-feature: Integration with Platform
+feature: Intégration de plateformes
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
-
 
 # Partage de segments Experience Platform avec l’Audience Manager et d’autres solutions Experience Cloud {#aam-aep-audience-sharing}
 
@@ -109,9 +109,9 @@ Pour un exemple de segment créé automatiquement à partir d’un segment Exper
 
 | Numéro d&#39;article | Nom | Description |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans l’Experience Platform. |
+| 3 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans l’Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Créé automatiquement. Toutes les caractéristiques et tous les segments créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion définie dans l’Experience Platform. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion définie dans l’Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | Le segment est constitué de la caractéristique décrite dans la section [Caractéristiques](#aep-segments-as-aam-traits). |
 
 ## Prise en charge du contrôle des exportations de données d&#39;Audience Manager dans l&#39;Experience Platform {#aam-data-export-control-in-aep}
@@ -190,3 +190,4 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [Présentation du service de segmentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Guide de l’utilisateur du créateur de segments Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
