@@ -4,15 +4,15 @@ seo-description: 'Cette page comprend des instructions détaillées sur la créa
 seo-title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
 solution: Audience Manager
 title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
-feature: People-Based Destinations
+feature: Destinations basées sur des personnes
+exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1172'
 ht-degree: 6%
 
 ---
-
 
 # Processus B : personnalisation basée sur les données hors ligne uniquement {#workflow-b}
 
@@ -112,7 +112,7 @@ Pour rappel, vous disposez désormais de deux sources de données :
 | DPUUIDs (ID CRM) | Adresse électronique | Adresse électronique hachée |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff1504 149 |
-| 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
+| 6741268208341199572553870443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 8915902479676034373311707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
  
