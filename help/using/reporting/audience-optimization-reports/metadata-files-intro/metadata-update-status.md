@@ -5,11 +5,11 @@ seo-title: Mises à jour d’état des fichiers de métadonnées
 solution: Audience Manager
 title: Mises à jour d’état des fichiers de métadonnées
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: log files
+feature: Fichiers journaux
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
