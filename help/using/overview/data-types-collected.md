@@ -5,15 +5,15 @@ seo-title: Types de données collectées
 solution: Audience Manager
 title: Types de données collectées
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
-feature: overview
+feature: Présentation
+exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '868'
 ht-degree: 72%
 
 ---
-
 
 # Types de données collectées {#types-of-data-collected}
 
