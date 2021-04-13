@@ -5,15 +5,15 @@ seo-title: Création ou mise à jour de règles de caractéristiques et de segme
 solution: Audience Manager
 title: Création ou mise à jour de règles de caractéristiques et de segments
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-feature: baaam
+feature: BAAAM
+exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 10%
 
 ---
-
 
 # Création ou mise à jour de règles de caractéristiques et de segments{#create-or-update-trait-rules-and-segment-rules}
 
@@ -61,4 +61,3 @@ Vous pouvez écrire vos propres règles en dehors de [!UICONTROL Rule Builder]. 
 * [Ordre des opérations](../../features/traits/trait-operator-precedence.md)
 * [Exigences de préfixe pour les variables clés](../../features/traits/trait-variable-prefixes.md)
 * [Exemple d’expressions avec des opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
-
