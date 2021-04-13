@@ -4,15 +4,15 @@ seo-description: 'Les Destinations basées sur les personnes introduisent la not
 seo-title: Audiences partageables
 solution: Audience Manager
 title: Audiences partageables
-feature: People-Based Destinations
+feature: Destinations basées sur des personnes
+exl-id: 2860c105-1091-4779-bf40-e66faa941af0
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
-
 
 # Audiences partageables {#shareable-audiences}
 
