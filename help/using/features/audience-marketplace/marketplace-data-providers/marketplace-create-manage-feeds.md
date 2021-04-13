@@ -4,17 +4,17 @@ seo-description: Un flux de données nécessite un nom, une description, une sou
 seo-title: Création, tarification et gestion des flux de données
 solution: Audience Manager
 title: Création, tarification et gestion des flux de données
-topic: DIL API
+topic-edit: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
+exl-id: e8605e94-e62a-430c-9aef-875f995fb436
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1306'
 ht-degree: 2%
 
 ---
-
 
 # Création, tarification et gestion des flux de données {#create-price-and-manage-data-feeds}
 
