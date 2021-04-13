@@ -5,15 +5,15 @@ seo-title: Conseils de dépannage pour les outils de gestion en bloc
 solution: Audience Manager
 title: Conseils de dépannage pour les outils de gestion en bloc
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-feature: baaam
+feature: BAAAM
+exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '403'
 ht-degree: 5%
 
 ---
-
 
 # Conseils de dépannage pour les outils de gestion en bloc{#troubleshooting-tips-for-bulk-management-tools}
 
@@ -79,4 +79,3 @@ Le tableau suivant liste certains problèmes courants que vous pouvez rencontrer
 ## Messages d’erreur
 
 Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en masse. Pour interpréter le message d’erreur, voir [Codes de réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) dans notre documentation API.
-
