@@ -5,11 +5,11 @@ seo-title: Partenaires technologiques Adobe Audience Manager
 keywords: activation ; Partenaires d'activation, destination, destinations
 solution: Audience Manager
 title: Partenaires technologiques Adobe Audience Manager
-feature: Third Party Integrations
+feature: Intégration tierce
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 59%
 
 ---
@@ -60,7 +60,7 @@ Cette page comprend les intégrations [serveur à serveur ](/help/using/features
 | Celtra | 02/27/2017 | Oui | Non | Non | Oui |
 | Centro | 02/27/2017 | Non | Non | Non | Oui |
 | ChoiceStream | 02/27/2017 | Non | Non | Non | Non |
-| Clearstream.tv | 02/27/2017 | Oui | Non | Non | Non |
+| Clearstream.tv | 03/27/2017 | Oui | Non | Non | Non |
 | Plateforme AMP collective | 02/27/2017 | Non | Non | Non | Non |
 | Criteo | 02/27/2017 | Non | Oui | Non | Oui |
 | Croisé | 02/27/2017 | Oui | Non | Non | Non |
@@ -158,7 +158,7 @@ Cette page comprend les intégrations [serveur à serveur ](/help/using/features
 | TubeMogul | 03/03/2017 | Oui | Non | Oui | Non |
 | Tourner / Amobe | 03/03/2027 | Non | Non | Non | Oui |
 | Twenga | 10/29/2018 | Oui | Non | Non | Non |
-| Audiences personnalisées Twitter | 02/27/2017 | Oui | Non | Oui | Non |
+| Audiences personnalisées Twitter | 03/27/2017 | Oui | Non | Oui | Non |
 | Sous-ton | 07/11/2017 | Non | Non | Non | Non |
 | Verve | 06/15/2017 | Oui | Non | Non | Oui |
 | VideoAmp | 03/03/2017 | Non | Non | Non | Non |
