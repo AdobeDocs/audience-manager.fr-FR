@@ -5,15 +5,15 @@ seo-title: Optimisation d’audience pour les éditeurs
 solution: Audience Manager
 title: Optimisation d’audience pour les éditeurs
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-feature: audience optimization reports
+feature: Rapports d’Audience Optimization
+exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 36%
 
 ---
-
 
 # Optimisation d’audience pour les éditeurs{#audience-optimization-for-publishers}
 
