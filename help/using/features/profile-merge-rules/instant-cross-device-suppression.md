@@ -4,15 +4,15 @@ seo-description: La fonction de suppression instantanée inter-périphérique pe
 seo-title: Suppression instantanée multi-appareils
 title: Suppression instantanée multi-appareils
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: Profile Merge Rules
+feature: Fusion de profil
+exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '831'
 ht-degree: 15%
 
 ---
-
 
 # Suppression instantanée multi-appareils {#instant-cross-device-suppression}
 
