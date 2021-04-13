@@ -3,15 +3,15 @@ description: Utilisez les options du menu Analytics pour vue du tableau de bord 
 seo-description: Utilisez les options du menu Analytics pour vue du tableau de bord et de divers rapports dans Adobe Audience Manager (AAM).
 seo-title: Présentation du rapports dans Adobe Audience Manager (AAM)
 title: Présentation du rapports
-feature: reporting reference
+feature: Référence de rapports
+exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '415'
 ht-degree: 13%
 
 ---
-
 
 # Présentation du rapports
 
@@ -54,4 +54,3 @@ Pour plus d&#39;informations sur les périodes pendant lesquelles l&#39;Audience
 * [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés](/help/using/reporting/report-sampling.md)
 
    Résumé de la méthodologie d&#39;échantillonnage utilisée pour certains rapports, taux d&#39;erreurs d&#39;échantillonnage et liste de rapports qui renvoient des informations basées sur des données échantillonnées.
-
