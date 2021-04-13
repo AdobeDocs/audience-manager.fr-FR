@@ -4,15 +4,15 @@ seo-description: Vers le 14 octobre 2019, j’ai remarqué que mes populations
 seo-title: Pourquoi mes populations de caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ?
 solution: Audience Manager
 title: Pourquoi mes populations de caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ?
-feature: support
+feature: Support technique
+exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # Pourquoi mes populations de caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ? {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
 
