@@ -5,17 +5,17 @@ seo-description: Présentation et flux de travail pour les fournisseurs de donn�
 seo-title: Audience Marketplace pour les fournisseurs de données
 solution: Audience Manager
 title: Audience Marketplace pour les fournisseurs de données
-topic: DIL API
+topic-edit: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
+exl-id: 10a00bc9-5ee0-4aed-95d7-ace749b75542
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 3%
+source-wordcount: '454'
+ht-degree: 4%
 
 ---
-
 
 # Audience Marketplace pour les fournisseurs de données {#audience-marketplace-for-data-providers}
 
