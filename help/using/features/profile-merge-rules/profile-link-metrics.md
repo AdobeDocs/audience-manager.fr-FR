@@ -5,15 +5,15 @@ seo-title: Mesures des rapports des stratégies de fusion de profils
 solution: Audience Manager
 title: Mesures des rapports des stratégies de fusion de profils
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-feature: Profile Merge Rules
+feature: Fusion de profil
+exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 2%
 
 ---
-
 
 # Mesures des rapports des stratégies de fusion de profils {#report-metrics-for-profile-merge-rules}
 
