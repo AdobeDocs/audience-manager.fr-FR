@@ -5,15 +5,15 @@ seo-title: Composants de collecte de données
 solution: Audience Manager
 title: Composants de collecte de données
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: system components
+feature: 'Composants système '
+exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '764'
 ht-degree: 6%
 
 ---
-
 
 # Composants de collecte de données{#data-collection-components}
 
@@ -79,7 +79,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-[!UICONTROL PCS] efface les caractéristiques si elles sont inactives pendant 17 jours. Ces caractéristiques ne sont pas perdues cependant. Ils sont stockés en Hadoop. Si l’utilisateur est de nouveau vu à un autre moment, Hadoop repousse toutes ses caractéristiques vers [!UICONTROL PCS], généralement dans un délai de 24 heures.
+[!UICONTROL PCS] efface les caractéristiques si elles sont inactives pendant 17 jours. Ces caractéristiques ne sont pas perdues cependant. Ils sont stockés dans un Hadoop. Si l’utilisateur est de nouveau vu à un autre moment, l’Hadoop repousse toutes ses caractéristiques vers [!UICONTROL PCS], généralement dans un délai de 24 heures.
 
 **Autres  [!UICONTROL DCS/PCS] processus : Exclusion de la confidentialité**
 
