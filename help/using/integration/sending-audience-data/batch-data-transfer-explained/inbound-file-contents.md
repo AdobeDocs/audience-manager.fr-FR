@@ -324,7 +324,7 @@ ou
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Exemple 4 {#example-4}
+### Exemple 5 {#example-4}
 
 Utilisez le préfixe `ic` pour envoyer des informations de qualification [!UICONTROL trait] pour [!DNL Audience Manager] [!DNL UUIDs].
 
@@ -338,7 +338,7 @@ ou
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Exemple 5 {#example-5}
+### Exemple 4 {#example-5}
 
 Utilisez [!UICONTROL trait IDs] pour envoyer des informations de qualification [!UICONTROL trait] pour les périphériques [!DNL Android].
 
