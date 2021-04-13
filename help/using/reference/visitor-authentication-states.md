@@ -6,15 +6,15 @@ seo-title: États d’authentification du visiteur dans Audience Manager
 solution: Audience Manager
 title: États d’authentification du visiteur dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: reference
+feature: 'Référence '
+exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 5%
 
 ---
-
 
 # États d’authentification du visiteur dans Audience Manager{#visitor-authentication-states-in-audience-manager}
 
