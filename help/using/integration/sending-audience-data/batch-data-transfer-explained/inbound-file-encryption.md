@@ -5,15 +5,15 @@ seo-title: Chiffrement PGP de fichier pour les types de données entrantes
 solution: Audience Manager
 title: Chiffrement PGP de fichier pour les types de données entrantes
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: Inbound Data Transfers
+feature: Transferts des données entrantes
+exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 11%
+source-wordcount: '192'
+ht-degree: 12%
 
 ---
-
 
 # Chiffrement PGP de fichier pour les types de données entrantes{#file-pgp-encryption-for-inbound-data-types}
 
