@@ -3,15 +3,15 @@ description: Votre entreprise peut souhaiter obscurcir l’adresse IP dans de no
 seo-description: Votre entreprise peut souhaiter obscurcir l’adresse IP dans de nombreux pays en raison de la réglementation mondiale en matière de confidentialité. Audience Manager vous permet d’obsurcir les adresses IP des visiteurs de manière globale ou pays par pays.
 solution: Audience Manager
 title: Obscurcissement des adresses IP
-feature: Data Governance and Privacy
+feature: Gouvernance des données et confidentialité
+exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 22%
 
 ---
-
 
 # Obscurcissement des adresses IP {#ip-obfuscation}
 
@@ -28,7 +28,7 @@ Suivant les principes de &quot;Confidentialité par conception&quot;, Adobe Audi
 * Avant l&#39;obscurcissement : `255.255.255.255`
 * Après obscurcissement : `255.255.255.0`
 
-Voir également Collecte d’adresses IP et Obscurcissement d’adresse IP dans notre [section Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Voir aussi Collecte d’adresses IP et Obscurcissement d’adresse IP dans notre [section Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ## Exigences d&#39;obscurcissement d&#39;adresse IP {#ip-obfuscation-requirements}
 
@@ -60,4 +60,3 @@ Pour désactiver l’obscurcissement d’adresse IP pour des pays spécifiques, 
 * [Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Vidéo sur l&#39;obscurcissement d&#39;adresse IP
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
-
