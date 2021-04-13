@@ -4,15 +4,15 @@ seo-description: Audience Analytics vous permet d’envoyer des segments d’Aud
 seo-title: Configuration d’une destination Analytics
 solution: Audience Manager
 title: Configuration d’une destination Analytics
-feature: Integration with Analytics
+feature: Intégration d’Adobe Analytics
+exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '867'
 ht-degree: 9%
 
 ---
-
 
 # Configuration d’une destination Analytics
 
