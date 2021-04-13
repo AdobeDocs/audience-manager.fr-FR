@@ -1,23 +1,23 @@
 ---
-description: Les composants de traitement de données sont Hadoop, Snowflake, SOLR et Tableau.
-seo-description: Les composants de traitement de données sont Hadoop, Snowflake, SOLR et Tableau.
+description: Les composants de traitement de données comprennent l’Hadoop, le Snowflake, la SOLR et Tableau.
+seo-description: Les composants de traitement de données comprennent l’Hadoop, le Snowflake, la SOLR et Tableau.
 seo-title: Composants de traitement des données
 solution: Audience Manager
 title: Composants de traitement des données
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-feature: system components
+feature: 'Composants système '
+exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 3%
+source-wordcount: '411'
+ht-degree: 4%
 
 ---
 
-
 # Composants de traitement des données{#data-processing-components}
 
-Les composants de traitement de données sont Hadoop, Snowflake, SOLR et Tableau.
+Les composants de traitement de données comprennent l’Hadoop, le Snowflake, la SOLR et Tableau.
 
 <!-- 
 
@@ -29,11 +29,11 @@ L’Audience Manager utilise les composants suivants pour traiter les données :
 
 ## Hadoop {#hadoop}
 
-Dans [!DNL Audience Manager], Hadoop est la base de données principale qui contient tout ce que [!DNL Audience Manager] sait sur un utilisateur. Par exemple, lorsque les serveurs [Profil Cache Server](../../reference/system-components/components-data-collection.md) créent des fichiers journaux contenant des données sur vos utilisateurs, ils les envoient à Hadoop pour enregistrement. Les autres éléments importants de Hadoop sont les suivants :
+Dans [!DNL Audience Manager], Hadoop est la base de données principale qui contient tout ce que [!DNL Audience Manager] sait sur un utilisateur. Par exemple, lorsque les serveurs [Profil Cache Server](../../reference/system-components/components-data-collection.md) créent des fichiers journaux contenant des données sur vos utilisateurs, ils les envoient à l’Hadoop pour enregistrement. Les autres éléments importants de l&#39;Hadoop sont les suivants :
 
-* **Hive :** Entrepôt de données pour Hadoop. Hive gère les requêtes ad hoc aux données stockées dans Hadoop.
+* **Hive :** Entrepôt de données pour Hadoop. Hive gère les requêtes ad hoc aux données stockées dans l’Hadoop.
 
-* **HBase :** une base de données Hadoop très volumineuse. Il traite et gère les données entrantes et sortantes, les règles de caractéristiques, les informations de modélisation algorithmique et exécute de nombreuses autres fonctions liées au stockage et au déplacement des données vers différents systèmes.
+* **HBase :** une base de données d&#39;Hadoops très volumineuse. Il traite et gère les données entrantes et sortantes, les règles de caractéristiques, les informations de modélisation algorithmique et exécute de nombreuses autres fonctions liées au stockage et au déplacement des données vers différents systèmes.
 
 Les clients n&#39;ont pas d&#39;accès direct à ces systèmes. Cependant, les clients travaillent avec eux indirectement, car ces composants stockent des données importantes sur leurs visiteurs de site.
 
@@ -66,4 +66,3 @@ SOLR est une base de données open-source et un système serveur d&#39;Apache. I
 
 
 ![](assets/advertiser_analytics.png)
-
