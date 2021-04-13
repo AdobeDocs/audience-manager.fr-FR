@@ -4,15 +4,15 @@ seo-description: 'Cette page comprend des instructions détaillées sur la mani�
 seo-title: 'Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne'
 solution: Audience Manager
 title: 'Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne'
-feature: People-Based Destinations
+feature: Destinations basées sur des personnes
+exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 5%
 
 ---
-
 
 # Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne {#workflow-c}
 
