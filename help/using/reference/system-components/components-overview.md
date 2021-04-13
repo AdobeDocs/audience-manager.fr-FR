@@ -4,15 +4,15 @@ seo-description: Visite de haut niveau des principaux composants et flux de donn
 seo-title: Présentation des composants système
 title: Présentation des composants système
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
-feature: system components
+feature: 'Composants système '
+exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 16%
+source-wordcount: '190'
+ht-degree: 17%
 
 ---
-
 
 # Présentation des composants système{#system-components-overview}
 
@@ -39,4 +39,3 @@ Ce guide cherche à trouver un équilibre entre les descriptions générales et 
 * [Composants de la gestion des balises](/help/using/reference/system-components/components-tag-management.md)
 * [Architecture de Platform : map des flux de données](/help/using/reference/system-components/components-platform-architecture.md)
 * [Présentation du centre de données Edge](/help/using/reference/system-components/components-edge.md)
-
