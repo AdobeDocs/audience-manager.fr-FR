@@ -6,15 +6,15 @@ seo-title: Explication des paires clé-valeur
 solution: Audience Manager
 title: Explication des paires clé-valeur
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-feature: reference
+feature: 'Référence '
+exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 translation-type: tm+mt
-source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 7%
 
 ---
-
 
 # Explication des paires clé-valeur{#key-value-pairs-explained}
 
