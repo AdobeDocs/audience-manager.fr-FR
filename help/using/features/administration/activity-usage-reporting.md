@@ -5,16 +5,15 @@ seo-description: Le Rapports d’utilisation des Activités vous aide à vue et 
 seo-title: Rapports d’utilisation des activités
 solution: Audience Manager
 title: Rapports d’utilisation des activités
-topic: Activity Usage Reporting
-feature: Usage and Billing
+feature: Utilisation et facturation
+exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '668'
 ht-degree: 6%
 
 ---
-
 
 # [!UICONTROL Activity Usage Reporting] {#activity-usage-reporting}
 
