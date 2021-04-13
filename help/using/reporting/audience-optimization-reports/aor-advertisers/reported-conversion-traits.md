@@ -5,15 +5,15 @@ seo-title: Caractéristiques de conversion rapportées
 solution: Audience Manager
 title: Caractéristiques de conversion rapportées
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
-feature: audience optimization reports
+feature: Rapports d’Audience Optimization
+exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 5%
+source-wordcount: '178'
+ht-degree: 6%
 
 ---
-
 
 # Caractéristiques de conversion rapportées{#reported-conversion-traits}
 
