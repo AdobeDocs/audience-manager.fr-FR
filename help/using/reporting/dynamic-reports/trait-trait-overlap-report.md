@@ -5,15 +5,15 @@ seo-title: Rapport de chevauchement de caractéristiques
 solution: Audience Manager
 title: Rapport de chevauchement de caractéristiques
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-feature: overlap reports
+feature: Rapports de chevauchement
+exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 8%
 
 ---
-
 
 # Rapport de chevauchement de caractéristiques{#trait-to-trait-overlap-report}
 
@@ -122,3 +122,4 @@ La fenêtre contextuelle du rapport [!UICONTROL Trait-to-Trait Overlap] contient
 >* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
+
