@@ -5,14 +5,14 @@ seo-title: 'Processus A : personnalisation basée sur toutes les activités en
 solution: Audience Manager
 title: 'Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne'
 feature: Destinations basées sur des personnes
+exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
 translation-type: tm+mt
-source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 7%
 
 ---
-
 
 # Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne {#workflow-a}
 
