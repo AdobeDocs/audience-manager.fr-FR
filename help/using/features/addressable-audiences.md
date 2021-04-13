@@ -5,12 +5,11 @@ seo-description: Présentation de la fonction d’Audience adressable et des cas
 seo-title: Audiences adressables
 solution: Audience Manager
 title: Audiences adressables
-topic-edit: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Taux de correspondance
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
