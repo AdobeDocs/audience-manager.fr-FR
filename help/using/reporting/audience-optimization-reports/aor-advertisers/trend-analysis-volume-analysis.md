@@ -5,15 +5,15 @@ seo-title: Rapports d’analyses des tendances et des volumes
 solution: Audience Manager
 title: Rapports d’analyses des tendances et des volumes
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: audience optimization reports
+feature: Rapports d’Audience Optimization
+exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
-
 
 # [!UICONTROL Trend Analysis] et  [!UICONTROL Volume Analysis] rapports{#trend-analysis-and-volume-analysis-reports}
 
@@ -38,4 +38,3 @@ Le rapport [!UICONTROL Volume Analysis] renvoie des données sous forme de graph
 >[!TIP]
 >
 >Pour plus d’informations sur les segments mappés et non mappés, voir la documentation [Rapport de performances des segments](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md).
-
