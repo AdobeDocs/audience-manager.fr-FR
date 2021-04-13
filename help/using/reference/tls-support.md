@@ -5,15 +5,15 @@ seo-title: Dépréciation de TLS 1.0 et 1.1
 solution: Audience Manager
 title: Dépréciation de TLS 1.0 et 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-feature: reference
+feature: 'Référence '
+exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 translation-type: tm+mt
-source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '277'
 ht-degree: 3%
 
 ---
-
 
 # Dépréciation de TLS 1.0 et 1.1{#tls-deprecation}
 
