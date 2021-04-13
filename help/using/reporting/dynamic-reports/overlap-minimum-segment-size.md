@@ -5,15 +5,15 @@ seo-title: Planification de la mise à jour des rapports de chevauchement et tai
 solution: Audience Manager
 title: Planification de la mise à jour des rapports de chevauchement et taille minimale du segment
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: overlap reports
+feature: Rapports de chevauchement
+exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 5%
 
 ---
-
 
 # Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum{#overlap-reports-update-schedule-and-minimum-segment-size}
 
