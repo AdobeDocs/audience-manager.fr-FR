@@ -5,15 +5,15 @@ seo-title: Carte du flux de données de l'architecture de plate-forme
 solution: Audience Manager
 title: Carte du flux de données de l'architecture de plate-forme
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
-feature: system components
+feature: 'Composants système '
+exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '199'
+ht-degree: 3%
 
 ---
-
 
 # Architecture de Platform : map des flux de données{#platform-architecture-data-flow-map}
 
@@ -34,4 +34,3 @@ Les couleurs définissent le type de données entrant et sortant de [!DNL Audien
 Pour obtenir des descriptions et des résumés du système, voir les sections [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [traitement](../../reference/system-components/components-data-processing.md) et [gestion des balises](../../reference/system-components/components-tag-management.md).
 
 ![](assets/flowmap.png)
-
