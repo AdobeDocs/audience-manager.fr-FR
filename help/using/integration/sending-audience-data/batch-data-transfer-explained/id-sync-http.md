@@ -5,7 +5,7 @@ seo-title: Synchronisation d’identifiants pour les transferts de données entr
 solution: Audience Manager
 title: Synchronisation d’identifiants pour les transferts de données entrantes
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: Transferts des données entrantes
+feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

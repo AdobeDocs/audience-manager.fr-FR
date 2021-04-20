@@ -5,7 +5,7 @@ seo-title: Exigences en matière de nom et de taille de fichier FTP pour les fic
 solution: Audience Manager
 title: Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Transferts des données entrantes
+feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

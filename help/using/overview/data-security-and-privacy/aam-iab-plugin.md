@@ -4,7 +4,7 @@ seo-description: Adobe vous fournit les moyens de gérer et de communiquer les c
 seo-title: Module d’Audience Manager pour le TCF de l’IAB
 solution: Audience Manager
 title: Module d’Audience Manager pour le TCF de l’IAB
-feature: Gouvernance des données et confidentialité
+feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

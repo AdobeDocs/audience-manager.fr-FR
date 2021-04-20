@@ -5,7 +5,7 @@ seo-title: Rapport de variation des caractéristiques quotidiennes
 solution: Audience Manager
 title: Rapport de variation des caractéristiques quotidiennes
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-feature: Rapports d’Audience Optimization
+feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

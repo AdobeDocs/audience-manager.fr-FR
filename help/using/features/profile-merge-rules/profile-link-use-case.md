@@ -5,7 +5,7 @@ seo-title: Cas d’utilisation des représentations graphiques des appareils Pro
 solution: Audience Manager
 title: Cas d’utilisation des représentations graphiques des appareils Profile Link
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: Fusion de profil
+feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

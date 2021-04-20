@@ -5,7 +5,7 @@ seo-title: Syntaxe du contenu du fichier de données entrant, caractères non va
 solution: Audience Manager
 title: Syntaxe du contenu du fichier de données entrant, caractères non valides, variables et exemples
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Transferts des données entrantes
+feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

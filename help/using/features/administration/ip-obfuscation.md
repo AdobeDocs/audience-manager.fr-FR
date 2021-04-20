@@ -3,7 +3,7 @@ description: Votre entreprise peut souhaiter obscurcir l’adresse IP dans de no
 seo-description: Votre entreprise peut souhaiter obscurcir l’adresse IP dans de nombreux pays en raison de la réglementation mondiale en matière de confidentialité. Audience Manager vous permet d’obsurcir les adresses IP des visiteurs de manière globale ou pays par pays.
 solution: Audience Manager
 title: Obscurcissement des adresses IP
-feature: Gouvernance des données et confidentialité
+feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

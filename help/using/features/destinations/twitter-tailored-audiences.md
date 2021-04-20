@@ -4,7 +4,7 @@ seo-description: Cet article explique comment configurer des Audiences personnal
 seo-title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
 solution: Audience Manager
 title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
-feature: Destinations basées sur des personnes
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

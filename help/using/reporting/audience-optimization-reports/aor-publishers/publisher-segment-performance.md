@@ -5,7 +5,7 @@ seo-title: Rapport de performances sur les segments
 solution: Audience Manager
 title: Rapport de performances des segments pour les éditeurs
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: Rapports d’Audience Optimization
+feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

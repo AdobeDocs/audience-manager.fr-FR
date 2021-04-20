@@ -4,7 +4,7 @@ seo-description: 'Cette page comprend des instructions détaillées sur la créa
 seo-title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
 solution: Audience Manager
 title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
-feature: Destinations basées sur des personnes
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

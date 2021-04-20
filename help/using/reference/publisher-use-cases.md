@@ -5,7 +5,7 @@ seo-title: Cas d’utilisation des éditeurs
 solution: Audience Manager
 title: Cas d’utilisation des éditeurs
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-feature: 'Référence '
+feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: Importer les fichiers de données Google Campaign Manager dans l’Au
 solution: Audience Manager
 title: Importer les fichiers de données Google Campaign Manager dans l’Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
-feature: Rapports d’Audience Optimization
+feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -4,7 +4,7 @@ seo-description: 'Destinations basées sur les personnes offre plusieurs straté
 seo-title: Guide de mise en oeuvre des destinations basées sur les personnes
 solution: Audience Manager
 title: Guide de mise en oeuvre
-feature: Destinations basées sur des personnes
+feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

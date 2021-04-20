@@ -6,7 +6,7 @@ seo-title: Mise en oeuvre du module Gestion des Audiences
 solution: Audience Manager
 title: Mise en oeuvre du module Gestion des Audiences
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
-feature: Intégration d’Adobe Analytics
+feature: Adobe Analytics Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

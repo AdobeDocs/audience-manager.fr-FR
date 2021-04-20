@@ -4,7 +4,7 @@ seo-description: 'Utilisez des destinations basées sur les personnes pour envoy
 seo-title: Présentation et cas d’utilisation des destinations basées sur les personnes
 solution: Audience Manager
 title: Présentation et cas d’utilisation
-feature: Destinations basées sur des personnes
+feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

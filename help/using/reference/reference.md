@@ -4,7 +4,7 @@ seo-description: Contient une documentation technique sur les fonctionnalités d
 seo-title: 'Référence '
 solution: Audience Manager
 title: 'Référence '
-feature: 'Référence '
+feature: Reference
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

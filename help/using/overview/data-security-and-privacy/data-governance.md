@@ -5,7 +5,7 @@ seo-title: Gouvernance des données
 solution: Audience Manager
 keywords: Interface utilisateur GDPR, API GDPR, ACCP, confidentialité, consentement, obscurcissement, gouvernance
 title: Gouvernance des données
-feature: Gouvernance des données & Confidentialité
+feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

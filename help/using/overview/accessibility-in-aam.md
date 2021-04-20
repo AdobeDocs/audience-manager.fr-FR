@@ -4,7 +4,7 @@ seo-description: L'accessibilité se rapporte à une série de fonctions qui ren
 seo-title: Accessibilité dans l'Audience Manager
 solution: Audience Manager
 title: Accessibilité dans l'Audience Manager
-feature: Présentation
+feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815

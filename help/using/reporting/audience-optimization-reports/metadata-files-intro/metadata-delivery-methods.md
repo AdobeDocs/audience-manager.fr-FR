@@ -5,7 +5,7 @@ seo-title: Méthodes de distribution des fichiers de métadonnées
 solution: Audience Manager
 title: Méthodes de distribution des fichiers de métadonnées
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-feature: Fichiers journaux
+feature: Log Files
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

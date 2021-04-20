@@ -4,7 +4,7 @@ seo-description: 'Vous trouverez ci-dessous un aperçu des besoins des clients q
 seo-title: Destinations basées sur les personnes Conditions préalables et considérations
 solution: Audience Manager
 title: Conditions préalables et considérations
-feature: Destinations basées sur des personnes
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

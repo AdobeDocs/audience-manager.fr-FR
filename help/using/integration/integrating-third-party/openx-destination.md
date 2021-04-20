@@ -5,7 +5,7 @@ seo-title: OpenX en tant que destination d’Audience Manager
 solution: Audience Manager
 title: OpenX en tant que destination d’Audience Manager
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
-feature: Intégration tierce
+feature: Third-party Integration
 exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

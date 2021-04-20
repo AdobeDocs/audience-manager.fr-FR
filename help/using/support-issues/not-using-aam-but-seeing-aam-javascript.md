@@ -4,7 +4,7 @@ seo-description: Nous n’utilisons pas, mais nous voyons des appels JavaScript 
 seo-title: Nous n’utilisons pas Audience Manager, mais nous voyons des appels JavaScript Audience Manager dans le débogueur de JavaScript. Pourquoi ?
 solution: Audience Manager
 title: Nous n’utilisons pas Audience Manager, mais nous voyons des appels JavaScript Audience Manager dans le débogueur de JavaScript. Pourquoi ?
-feature: Support technique
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

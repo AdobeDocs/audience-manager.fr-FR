@@ -5,7 +5,7 @@ seo-title: Échantillonnage de données et taux d’erreur dans les rapports Aud
 solution: Audience Manager
 title: Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Référence du rapports
+feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

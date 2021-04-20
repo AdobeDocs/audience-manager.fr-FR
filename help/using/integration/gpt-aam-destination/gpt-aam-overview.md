@@ -3,7 +3,7 @@ description: Présentation de l’intégration de Google Ad Manager à l’aide 
 seo-description: Présentation de l’intégration de Google Ad Manager à l’aide des balises Google Publisher (GPT) dans Adobe Audience Manager (AAM).
 seo-title: Intégration de Google Ad Manager à l’aide des balises Google Publisher (GPT) dans Adobe Audience Manager (AAM)
 title: Intégration de Google Ad Manager à l’aide des balises Google Publisher (GPT)
-feature: Intégration tierce
+feature: Third-party Integration
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -4,7 +4,7 @@ seo-description: Guide de préparation au RGPD pour les clients d’Audience Man
 seo-title: Guide de préparation au RGPD pour les clients d’Audience Manager
 solution: Audience Manager
 title: Guide de préparation au RGPD pour les clients d’Audience Manager
-feature: Gouvernance des données et confidentialité
+feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: Rapports généraux en Audience Manager
 solution: Audience Manager
 title: Rapports généraux
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-feature: Rapports généraux et de tendances
+feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -4,7 +4,7 @@ seo-description: Vers le 14 octobre 2019, j’ai remarqué que mes populations
 seo-title: Pourquoi mes populations de caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ?
 solution: Audience Manager
 title: Pourquoi mes populations de caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ?
-feature: Support technique
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

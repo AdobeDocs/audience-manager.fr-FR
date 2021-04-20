@@ -4,7 +4,7 @@ seo-description: Les audiences prédictives vous aident à classer les audiences
 seo-title: Gestion des Audiences prédictives
 solution: Audience Manager
 title: Prise en main des audiences prédictives
-feature: Modèles algorithmiques
+feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

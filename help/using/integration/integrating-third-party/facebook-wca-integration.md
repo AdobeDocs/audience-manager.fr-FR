@@ -4,7 +4,7 @@ seo-description: Cette page illustre le processus de création de pixels WCA (Au
 seo-title: Intégration Facebook WCA
 solution: Audience Manager
 title: Intégration Facebook WCA
-feature: Intégration tierce
+feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

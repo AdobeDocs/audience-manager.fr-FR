@@ -6,7 +6,7 @@ seo-title: FAQ sur les stratégies de fusion de profils et la représentation gr
 solution: Audience Manager
 title: FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Fusion de profil
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

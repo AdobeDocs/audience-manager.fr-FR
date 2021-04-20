@@ -5,7 +5,7 @@ seo-title: FAQ sur la rétention des données et la confidentialité
 solution: Audience Manager
 title: FAQ sur la rétention des données et la confidentialité
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Gouvernance des données et confidentialité
+feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

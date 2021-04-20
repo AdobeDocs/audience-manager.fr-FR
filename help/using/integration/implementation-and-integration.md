@@ -4,7 +4,7 @@ seo-description: Utilisez les données des solutions Experience Cloud ou d’aut
 seo-title: Utilisez les données des solutions Experience Cloud ou d’autres systèmes externes dans Audience Manager.
 solution: Audience Manager
 title: Guides d’implémentation et d’intégration
-feature: Intégration tierce
+feature: Third-party Integration
 exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
