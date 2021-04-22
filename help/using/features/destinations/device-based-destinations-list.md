@@ -5,21 +5,20 @@ seo-title: Destinations serveur à serveur Adobe Audience Manager
 keywords: activation ; Partenaires d'activation, destination, destinations
 solution: Audience Manager
 title: Destinations serveur à serveur Adobe Audience Manager
-feature: Destination Basics
+feature: Concepts de base des destinations
+exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 71%
+source-wordcount: '1148'
+ht-degree: 72%
 
 ---
 
-
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Cette page comprend les [!DNL Audience Manager] [destinations basées sur un périphérique](/help/using/features/destinations/add-device-based-destinations.md) actuelles uniquement. Dans [!DNL Audience Manager], [!UICONTROL device-based destinations] sont également appelés [!UICONTROL server-to-server destinations]. Pour plus d&#39;informations sur une intégration, consultez sa liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre [!DNL Adobe] consultant ou le service d&#39;assistance clientèle.
+Cette page comprend les [!DNL Audience Manager] [destinations basées sur un périphérique](/help/using/features/destinations/add-device-based-destinations.md) actuelles uniquement. Dans [!DNL Audience Manager], [!UICONTROL device-based destinations] sont également appelés [!UICONTROL server-to-server destinations]. Pour plus d&#39;informations sur une intégration, consultez sa [liste d&#39;échange d&#39;Adobes](https://exchange.adobe.com/experiencecloud.html) (le cas échéant) ou contactez votre [!DNL Adobe] consultant ou le service à la clientèle.
 
- 
 
 * **Dernière mise à jour** = Affiche la dernière date à laquelle il y a eu une mise à jour pour cette  [!UICONTROL device-based destination]application.
 * **Mises à jour** = Indique si  [!DNL Audience Manager] les données sont envoyées par lot ou en temps réel (1 jour supplémentaire) à cette  [!UICONTROL destination]fonction.
@@ -28,10 +27,9 @@ Cette page comprend les [!DNL Audience Manager] [destinations basées sur un pé
 * **[!DNL ICDS]** = Cette colonne liste les partenaires qui prennent en charge  [!UICONTROL Instant Cross-Device Suppression]. Lisez la section [Suppression instantanée de plusieurs périphériques](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID**  de périphérique mobile= Cette colonne liste les partenaires qui peuvent recevoir des ID de périphérique mobile  [!DNL Audience Manager].
 
- 
 
 | Intégration | Dernière mise à jour | Mises à jour | Dissocier | Réception de [!DNL IAB TCF] signaux de consentement | [!DNL ICDS] | Identifiants d’appareil mobile |
-|---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
+|----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 09/26/2018 | 1x jour | Oui | Non | Non | Oui |
 | [!DNL 4info] | 02/09/2017 | 1x jour | Non | Non | Non | Oui |
 | [!DNL AcuityAds] | 02/09/2017 | Temps réel | Oui | Non | Oui | Non |
@@ -51,6 +49,7 @@ Cette page comprend les [!DNL Audience Manager] [destinations basées sur un pé
 | [!DNL AOL ONE] | 03/02/2017 | Temps réel | Oui | Non | Non | Oui |
 | [!DNL AppNexus] | 03/02/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL AppNexus Yieldex] | 08/10/2017 | 1x jour | Oui | Non | Non | Non |
+| [!DNL Artsai] (formerly [!DNL Adxcel]) | 01/27/2020 | 1x jour | Non | Non | Non | Oui |
 | [!DNL Atedra]/[!DNL AdStanding] | 03/02/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL Avocet] | 12/06/2017 | 1x jour | Non | Non | Non | Non |
 | [!DNL Bidtellect] | 03/03/2017 | Temps réel | Oui | Non | Non | Non |
@@ -81,9 +80,11 @@ Cette page comprend les [!DNL Audience Manager] [destinations basées sur un pé
 | [!DNL EyeView Digital] | 06/14/2018 | 1x jour | Oui | Non | Non | Oui |
 | [!DNL Fiksu] | 03/03/2017 | 1x jour | Oui | Non | Non | Oui |
 | [!DNL Flashtalking] | 03/02/2017 | 1x jour | Non | Non | Non | Non |
+| [!DNL Flybits] | 07/31/2020 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL FreakOut] | 03/03/2017 | 1x jour | Oui | Non | Non | Non |
 | [!DNL Freewheel] | 02/27/2017 | 1x jour | Oui | Oui | Non | Oui |
 | [!DNL Gamut Media] | 03/03/2017 | Temps réel |  | Non | Non |  |
+| [!DNL Google AdsWords Display] | 08/02/2018 | Temps réel | Oui | Oui | Non | Oui |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 04/24/2017 | Temps réel | Oui | Oui | Oui | Oui |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 04/24/2017 | Temps réel | Oui | Oui | Oui | Oui |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 04/24/2017 | Temps réel | Oui | Oui | Oui | Oui |
@@ -134,6 +135,7 @@ Cette page comprend les [!DNL Audience Manager] [destinations basées sur un pé
 | [!DNL RocketFuel] | 02/17/2017 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL Rubicon] |  | Temps réel | Oui | Oui | Non |  |
 | [!DNL RUN] | 02/17/2017 | 1x jour | Oui | Non | Non | Non |
+| [!DNL RTB House] | 02/04/2021 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL Sabio Mobile] | 02/17/2017 | 1x jour | Non | Non | Non | Oui |
 | [!DNL Simpli.fi] | 02/17/2017 | 1x jour | Non | Non | Non | Oui |
 | [!DNL Sizmek ad server (Amazon)] | 02/17/2017 | En temps réel | Oui | Non | Non |  |
@@ -150,7 +152,7 @@ Cette page comprend les [!DNL Audience Manager] [destinations basées sur un pé
 | [!DNL Supership]/[!DNL ScaleOut] | 03/03/2017 | 1x/jour | Oui | Non | Non | Non |
 | [!DNL Survata] | 08/09/2017 | 1x jour | Oui | Non | Non | Oui |
 | [!DNL Taboola] | 08/03/2017 | 1x jour | Non | Oui | Non | Non |
-| [!DNL Tapad] | 03/03/2017 | Temps réel | Non | Non | Non | Oui |
+| [!DNL Tapad] | 07/17/2020 | Temps réel | Non | Non | Non | Oui |
 | [!DNL Telaria] | 04/25/2019 | 1x jour | Oui | Non | Non | Oui |
 | [!DNL Telogical Systems] | 03/03/2017 | En temps réel | Oui | Non | Non | Non |
 | [!DNL The Trade Desk] | 03/03/2017 | Temps réel | Oui | Oui | Oui | Oui |
