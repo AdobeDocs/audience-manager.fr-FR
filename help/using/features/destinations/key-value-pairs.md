@@ -1,19 +1,17 @@
 ---
-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
-seo-description: Une paire clé-valeur est constituée d'éléments connexes A key, qui est une constante qui définit l'ensemble de données (p. ex., sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (p. ex., mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
-seo-title: Paires clé-valeur standard et de série
+description: A [!DNL key-value pair] est constitué d'éléments connexes Une clé, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
 solution: Audience Manager
-title: Paires clé-valeur standard et de série
+title: Standard et série  [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: Destination Basics
+feature: Concepts de base des destinations
+exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 4%
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
-
 
 # Paires clé-valeur standard et de série {#standard-and-serial-key-value-pairs}
 
