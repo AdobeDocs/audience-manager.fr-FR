@@ -6,7 +6,7 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Concepts de base des destinations
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
+source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Paires clé-valeur standard et de série {#standard-and-serial-key-value-pairs}
 
-Une paire clé-valeur se compose d’éléments connexes : Une clé, qui est une constante qui définit l&#39;ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l&#39;ensemble (par exemple, mâle/femelle, vert, 100). [!UICONTROL Destination Builder] envoie des données formatées en paires clé-valeur.
+Une paire clé-valeur se compose d’éléments connexes : Une clé, qui est une constante qui définit le jeu de données (par exemple : sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l’ensemble (par exemple, mâle/femelle, vert, 100). [!UICONTROL Destination Builder] envoie des données formatées en paires clé-valeur.
 
 ## Paires de valeurs clés de base {#basic-key-value-pairs}
 
