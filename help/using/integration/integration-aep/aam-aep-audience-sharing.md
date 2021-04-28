@@ -5,13 +5,13 @@ seo-title: Partage d’audiences entre Audience Manager et Adobe Experience Plat
 solution: Audience Manager
 title: Partage d’audiences entre Audience Manager et Adobe Experience Platform
 keywords: Partage des audiences AEP, segments AEP, segments de plateforme, partage de segments, partage d’audiences, partage de segments
-feature: Platform Integration
+feature: Intégration de plateformes
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1465'
+ht-degree: 3%
 
 ---
 
@@ -109,7 +109,7 @@ Pour un exemple de segment créé automatiquement à partir d’un segment Exper
 
 | Numéro d&#39;article | Nom | Description |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans l’Experience Platform. |
+| 1 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’ID de segment dans l’Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Créé automatiquement. Toutes les caractéristiques et tous les segments créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion définie dans l’Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | Le segment est constitué de la caractéristique décrite dans la section [Caractéristiques](#aep-segments-as-aam-traits). |
@@ -164,17 +164,13 @@ L’Audience Manager met à jour les numéros de rapports dans l’interface une
 
 L&#39;intégration entre Adobe Experience Platform et l&#39;Audience Manager partage un certain nombre d&#39;espaces de nommage d&#39;identité [standard](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID. Si vos segments d’Experience Platform utilisent l’un d’eux comme identité Principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
 
-En outre, l’Audience Manager peut enregistrer les réalisations entrantes pour tout espace de nommage d’identité personnalisé que vous utilisez dans les segments Experience Platform si :
-* l&#39;identité est marquée comme Principale *et*
-* vous disposez déjà d’une source de données inter-périphériques correspondante en Audience Manager.
-
 >[!NOTE]
 >
 > Les Audiences en Experience Platform avec des identités effacées des courriels bruts n&#39;apparaissent jamais en Audience Manager.
 
-Par exemple, si vous aviez un segment Experience Platform &quot;Tous mes clients&quot; et que les profils qualifiés seraient des identifiants de gestion de la relation client, ECID, IDFA, des adresses électroniques brutes et hachées, le segment correspondant dans l’Audience Manager inclurait uniquement les profils des identifiants de gestion de la relation client, ECID, IDFA et les adresses électroniques hachées. La population de segments en Audience Manager serait plus petite que celle en Experience Platform.
+Par exemple, si vous aviez un segment Experience Platform &quot;Tous mes clients&quot; et que les profils qualifiés seraient des identifiants de gestion de la relation client, ECID, IDFA, des adresses électroniques brutes et hachées, le segment correspondant dans l’Audience Manager inclurait uniquement les profils extraits de l’ECID, IDFA et les adresses électroniques hachées. La population de segments en Audience Manager serait plus petite que celle en Experience Platform.
 
-![Experience Platform au partage des segments d&#39;Audience Manager - composition des segments](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform au partage des segments d&#39;Audience Manager - composition des segments](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
