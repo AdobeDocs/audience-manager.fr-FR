@@ -6,13 +6,13 @@ seo-title: États d’authentification du visiteur dans Audience Manager
 solution: Audience Manager
 title: États d’authentification du visiteur dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: Reference
+feature: 'Référence '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: '391'
+ht-degree: 7%
 
 ---
 
@@ -24,25 +24,9 @@ L’état d’authentification du visiteur dans l’Audience Manager détermine 
 
 ## État de l&#39;authentification : INCONNU {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Lecture des informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nouvelles caractéristiques </b> écrites au profil authentifié </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Oui, si la règle de fusion des options authentifiées = "Derniers Profils authentifiés". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Non, les données de caractéristiques sont ajoutées au profil du périphérique. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Non, si la règle de fusion des options authentifiées = "Profils authentifiés actuels" ou "Aucun Profil authentifié". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeur de requête | Lire les informations du profil authentifié | Écrire de nouvelles caractéristiques au profil authentifié |
+|---|---|---|
+| 0 | <ul><li>Oui, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Non, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Non, les données de caractéristiques sont ajoutées au profil du périphérique. |
 
 Exemple d’appel (la valeur de requête correspondant à l’état d’authentification est mise en surbrillance) :
 
@@ -50,25 +34,9 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 ## État de l&#39;authentification : AUTHENTIFIÉ {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Lecture des informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nouvelles caractéristiques </b> écrites au profil authentifié </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Oui, si la règle de fusion des options authentifiées = "Profils authentifiés actuels" ou "Derniers Profils authentifiés". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Oui, les données de caractéristiques sont ajoutées au profil authentifié. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Non, si la règle de fusion des options authentifiées = "Aucun Profil authentifié". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeur de requête | Lire les informations du profil authentifié | Écrire de nouvelles caractéristiques au profil authentifié |
+|---|---|---|
+| 1 | <ul><li>Oui, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL Last Authenticated Profiles].</li><li>Non, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Oui, les données de caractéristiques sont ajoutées au profil authentifié. |
 
 Exemple d’appel (la valeur de requête correspondant à l’état d’authentification est mise en surbrillance) :
 
@@ -76,25 +44,9 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 ## État de l&#39;authentification : LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valeur de requête </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Lecture des informations du profil authentifié </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nouvelles caractéristiques </b> écrites au profil authentifié </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Oui, si la règle de fusion des options authentifiées = "Derniers Profils authentifiés" </td> 
-   <td colname="col3" morerows="1"> <p>Non, les données de caractéristiques sont écrites sur le profil du périphérique. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> Non, si la règle de fusion des options authentifiées = "Profils authentifiés actuels" ou "Aucun Profil authentifié" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeur de requête | Lire les informations du profil authentifié | Écrire de nouvelles caractéristiques au profil authentifié |
+|---|---|---|
+| 2 | <ul><li>Oui, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Non, si [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Non, les données de caractéristiques sont écrites sur le profil du périphérique. |
 
 Exemple d’appel (la valeur de requête correspondant à l’état d’authentification est mise en surbrillance) :
 
