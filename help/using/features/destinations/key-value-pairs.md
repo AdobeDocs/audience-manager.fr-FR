@@ -1,14 +1,14 @@
 ---
-description: A [!DNL key-value pair] est constitué d'éléments connexes. Une clé, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
+description: A [!DNL key-value pair] est constitué de  [!DNL related elements]. Une clé, qui est une constante qui définit l'ensemble de données (par exemple, sexe, couleur, prix) et une valeur, qui est une variable qui appartient à l'ensemble (par exemple, mâle/femelle, vert, 100). Le créateur de destinations envoie des données au format clé-valeur.
 solution: Audience Manager
 title: Standard et série  [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Concepts de base des destinations
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
+source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
