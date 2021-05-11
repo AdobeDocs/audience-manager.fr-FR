@@ -7,14 +7,14 @@ title: FAQ sur la collecte de données et l’intégration de produit
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP ; adresse SFTP ; adresse IP STFP ; Adresse FTP
 feature: Administration
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 86%
 
 ---
-
 
 # FAQ sur la collecte de données et l’intégration de produit {#data-collection-and-product-integration-faq}
 
@@ -84,7 +84,7 @@ Il est recommandé de configurer votre intégration [!DNL Audience Manager]— [
 
 * Insérez [!UICONTROL DIL] directement dans le `s_code`.
 
-* Renseignez [!UICONTROL DIL] et le `s_code` dans [!DNL Adobe Experience Platform Launch] ou [!DNL Adobe DTM].
+* Servez [!UICONTROL DIL] et `s_code` à [!DNL Adobe Experience Platform Launch].
 
 Voir [API Data Integration Library (DIL)](../dil/dil-overview.md).
 
