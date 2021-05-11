@@ -1,23 +1,23 @@
 ---
-description: Les composants de la gestion des balises d’Audience Manager incluent le portail client, Adobe Tag Manager (obsolète en faveur de Adobe Dynamic Tag Manager et Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
-seo-description: Les composants de la gestion des balises d’Audience Manager incluent le portail client, Adobe Tag Manager (obsolète en faveur de Adobe Dynamic Tag Manager et Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
+description: Les composants de la gestion des balises d’Audience Manager incluent le portail client, Adobe Tag Manager (obsolète en faveur de Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
+seo-description: Les composants de la gestion des balises d’Audience Manager incluent le portail client, Adobe Tag Manager (obsolète en faveur de Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
 seo-title: Composants de la gestion des balises
 solution: Audience Manager
 title: Composants de la gestion des balises
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: System Components
+feature: 'Composants système '
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
 # Composants de la gestion des balises{#tag-management-components}
 
-Les composants de la gestion des balises d’Audience Manager incluent le portail client, Adobe Tag Manager (obsolète en faveur de Adobe Dynamic Tag Manager et Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
+Les composants de la gestion des balises d’Audience Manager incluent le portail client, Adobe Tag Manager (obsolète en faveur de Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
 
 <!-- 
 
@@ -39,7 +39,7 @@ Le portail client est l’interface utilisateur Principale pour les balises et l
 
 ## CONTENEUR DIL/TIM {#dil-tim}
 
-Le conteneur [!UICONTROL DIL] permet de déployer le code de collecte de données [!DNL Audience Manager] sur votre site Web. [!UICONTROL TIM] est le Gestionnaire d&#39;insertion de balises obsolète. Il n&#39;est plus utilisé par [!DNL Audience Manager]. Vous utilisez plutôt [la gestion dynamique des balises](https://docs.adobe.com/content/help/fr-FR/dtm/using/dtm-home.html) ou l&#39;extension [!DNL Audience Manager] dans [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire. Le conteneur [!UICONTROL DTM] travaille avec [!UICONTROL Data Information Library (DIL)] pour collecter les données de votre site et les envoyer à [!DNL Audience Manager].
+Le conteneur [!UICONTROL DIL] permet de déployer le code de collecte de données [!DNL Audience Manager] sur votre site Web. [!UICONTROL TIM] est le Gestionnaire d&#39;insertion de balises obsolète. Il n&#39;est plus utilisé par [!DNL Audience Manager]. Vous utilisez plutôt l&#39;extension [!DNL Audience Manager] dans [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire.
 
 ##  Data Integration Library (DIL) {#dil}
 
@@ -47,7 +47,7 @@ La [bibliothèque d’informations sur les données](../../dil/dil-overview.md) 
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] utilise l’hôte  [](https://www.akamai.com/us/en/about/) Akamaito et fournit le code de conteneur de notre propre plateforme de gestion des balises, appelée  [!UICONTROL TIM (Tag Insertion Manager)]. Cependant, le déploiement du code avec [!UICONTROL TIM] a été progressivement abandonné en faveur de [!DNL Adobe Dynamic Tag Management] et [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] utilise l’hôte  [](https://www.akamai.com/us/en/about/) Akamaito et fournit le code de conteneur de notre propre plateforme de gestion des balises, appelée  [!UICONTROL TIM (Tag Insertion Manager)]. Cependant, le déploiement du code avec [!UICONTROL TIM] a été progressivement abandonné en faveur de [!DNL Adobe Experience Platform Launch].
 
 ## Base de données de contrôle {#control-database}
 
