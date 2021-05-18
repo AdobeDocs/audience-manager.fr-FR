@@ -7,9 +7,9 @@ title: Codes, messages et exemples d’erreur des serveurs de collecte de donné
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
+source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1547'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Dans les tableaux ci-dessous, *italics* représente un espace réservé de varia
 | 0 | Erreur non spécifiée | Il s’agit d’une erreur fourre-tout qui gère les événements qui ne sont pas couverts par les autres gestionnaires d’erreurs. La résolution de cette erreur est difficile. Elle peut être causée par une variété d&#39;actions ou de événements inconnus. Si vous recevez cette erreur, réessayez votre requête [!DNL DCS]. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 | 1 | Impossible de trouver la configuration du nom d&#39;hôte : `hostname` | Le nom d&#39;hôte envoyé dans la demande n&#39;a pas été configuré par notre équipe de mise en service partenaire. Contactez votre représentant [!DNL Adobe] si ce message d’erreur s’affiche. |
 | 2 | Valeur `d_orgid` non valide (impossible de trouver une configuration pour cet ID d&#39;organisation) : `ID` | L&#39;ID d&#39;organisation est incorrect. Vérifiez votre ID et réessayez. Si vous ne connaissez pas ou ne possédez pas votre ID d&#39;organisation, consultez la section &quot;Page d&#39;administration&quot; [Organisations et liaison de comptes](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) pour savoir comment le trouver. |
-| 10 | Impossible d&#39;évaluer les caractéristiques | Les caractéristiques sur la demande ont été partiellement évaluées ou n&#39;ont pas été évaluées du tout. |
+| 10 | Impossible d&#39;évaluer les caractéristiques | Les caractéristiques sur la demande ont été partiellement évaluées ou n&#39;ont pas été évaluées du tout. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 
 ## Codes d&#39;erreur d&#39;intégration {#integration-error-codes}
 
