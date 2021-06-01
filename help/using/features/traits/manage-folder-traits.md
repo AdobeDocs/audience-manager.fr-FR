@@ -1,26 +1,25 @@
 ---
 description: Créez, modifiez et supprimez des caractéristiques de dossier.
-keywords: Caractéristique du dossier ; Caractéristiques du dossier ; caractéristiques du dossier ; caractéristiques du dossier
+keywords: Caractéristique du dossier;caractéristiques du dossier;caractéristiques du dossier;caractéristique du dossier
 seo-description: Créez, modifiez et supprimez des caractéristiques de dossier.
 seo-title: Gestion des caractéristiques de dossier
 solution: Audience Manager
 title: Gestion des caractéristiques de dossier
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
-feature: Traits
-translation-type: tm+mt
-source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
+feature: 'Caractéristiques '
+exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 9%
 
 ---
-
 
 # Gestion des caractéristiques de dossier {#manage-folder-traits}
 
 Créez, modifiez et supprimez des caractéristiques de dossier.
 
-## Créer une description de dossier {#create-folder-trait}
+## Créer une caractéristique de dossier {#create-folder-trait}
 
 Un [!UICONTROL folder trait] est créé automatiquement lorsque vous créez un dossier dans votre taxonomie.
 
@@ -30,17 +29,17 @@ Un [!UICONTROL folder trait] est créé automatiquement lorsque vous créez un d
 1. Dans la fenêtre [!UICONTROL Trait Storage], passez la souris sur :
 
    * Texte &quot;Toutes les caractéristiques&quot; pour ajouter un nouveau dossier de niveau racine.
-   * Un dossier parent existant pour ajouter un nouveau dossier Secondaire.
+   * Dossier parent existant auquel ajouter un nouveau dossier Secondaire.
 
    ![](assets/folder_traits_create.PNG)
 
 1. Cliquez sur l’icône + pour créer le dossier. Vous pouvez créer 2 000 dossiers au maximum dans la taxonomie. Pour plus d’informations, consultez la documentation relative aux [limites d’utilisation](../../features/administration/usage-limits.md).
-1. Nommez le dossier et cliquez sur **Enregistrer**. Par exemple, un dossier nommé Electronics aura une caractéristique de dossier nommée &quot;Caractéristique du dossier Electronics&quot;. Vous pouvez vue et sélectionner la nouvelle caractéristique de dossier dans le tableau de bord caractéristiques.
-1. La nouvelle caractéristique de dossier est automatiquement affectée à la source de données générée [!DNL Audience Manager]. Vos utilisateurs disposant des autorisations [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) appropriées peuvent modifier la source de données dans le processus de modification de la caractéristique du dossier. Voir [Modification d’une caractéristique de dossier](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Nommez le dossier et cliquez sur **Enregistrer**. Par exemple, un dossier nommé Electronics comporte une caractéristique de dossier nommée &quot;Electronics Folder Trait&quot;. Vous pouvez afficher et sélectionner la nouvelle caractéristique de dossier dans le tableau de bord des caractéristiques.
+1. La nouvelle caractéristique de dossier est automatiquement affectée à la source de données générée [!DNL Audience Manager]. Vos utilisateurs disposant des autorisations [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) appropriées peuvent modifier la source de données dans le processus de modification des caractéristiques du dossier. Voir [Modification d’une caractéristique de dossier](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
-## Modifier une description de dossier {#edit-folder-trait}
+## Modifier une caractéristique de dossier {#edit-folder-trait}
 
-Décrit comment vous pouvez modifier un [!UICONTROL folder trait].
+Décrit comment modifier une balise [!UICONTROL folder trait].
 
 <!-- edit-folder-trait.xml -->
 
@@ -49,25 +48,25 @@ Décrit comment vous pouvez modifier un [!UICONTROL folder trait].
 
    ![](assets/folder_traits_edit_border.png)
 
-1. Le processus **[!UICONTROL Edit]** vous permet de modifier la source de données pour les caractéristiques des dossiers. Sélectionnez la source de données de votre choix, puis cliquez sur **[!UICONTROL Save]**. Les sources de données sont triées numériquement, par [!DNL DPID], dans la liste déroulante.
+1. Le workflow **[!UICONTROL Edit]** vous permet de modifier la source de données pour les caractéristiques du dossier. Sélectionnez la source de données de votre choix et cliquez sur **[!UICONTROL Save]**. Les sources de données sont triées numériquement, par [!DNL DPID], dans la liste déroulante.
 
-   Si votre société utilise [!UICONTROL Role-Based Access Rights (RBAC)], vous ou vos utilisateurs avez besoin de [autorisations d’accès](../../features/traits/about-folder-traits.md#role-based-access-controls) pour définir les sources de données.
+   Si votre société utilise [!UICONTROL Role-Based Access Rights (RBAC)], vous ou vos utilisateurs avez besoin de [autorisations d’accès](../../features/traits/about-folder-traits.md#role-based-access-controls) aux sources de données des caractéristiques.
 
 >[!NOTE]
 >
->Vous ne pouvez pas renommer directement une caractéristique de dossier. [Renommez son ](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) dossier d’enregistrement associé afin de modifier le nom de la caractéristique de dossier.
+>Vous ne pouvez pas renommer directement une caractéristique de dossier. [Renommez le ](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) dossier de stockage associé afin de modifier le nom de la caractéristique du dossier.
 
-## Supprimer une description de dossier {#delete-folder-trait}
+## Suppression d’une caractéristique de dossier {#delete-folder-trait}
 
-Supprimez une caractéristique de dossier en supprimant le dossier d’enregistrement auquel elle appartient.
+Supprimez une caractéristique de dossier en supprimant le dossier de stockage auquel elle appartient.
 
 <!-- delete-folder-trait.xml -->
 
-1. **Audience Data >** Traitspour accéder au  **** tableau de bord Traitsdashboard.
-1. Dans la fenêtre [!UICONTROL Trait Storage], supprimez un dossier en le survolant et en cliquant sur l&#39;icône X.
+1. **Données d’audience >** Caractéristiques pour accéder au tableau de bord  **** Caractéristiques.
+1. Dans la fenêtre [!UICONTROL Trait Storage], supprimez un dossier en le survolant et en cliquant sur l’icône X.
 
    ![Résultat de l’étape](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
->Vous ne pouvez pas supprimer une caractéristique de dossier, si elle est utilisée dans une expression de segment. Accédez à la section [vue de caractéristiques](../../features/traits/trait-details-page.md) pour identifier les segments qui utilisent la caractéristique de dossier. Cliquez ensuite sur le nom du segment pour ouvrir la [vue de résumé du segment](../../features/segments/segment-summary-view.md), qui vous permet de supprimer des caractéristiques des expressions du segment.
+>Vous ne pouvez pas supprimer une caractéristique de dossier si elle est utilisée dans une expression de segment. Accédez à la section [affichage des caractéristiques](../../features/traits/trait-details-page.md) pour voir les segments qui utilisent la caractéristique du dossier. Cliquez ensuite sur le nom du segment pour ouvrir la [vue récapitulative du segment](../../features/segments/segment-summary-view.md), qui vous permet de supprimer des caractéristiques des expressions du segment.
