@@ -1,54 +1,53 @@
 ---
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '329'
 ht-degree: 2%
 
 ---
 # Instructions
 
-**Remarque : Cette page (ou toute autre page readme.md) ne sera pas publiée dans la documentation destinée au client.**
+**Remarque : Cette page (ou toute page readme.md) ne sera pas publiée dans la documentation destinée aux clients.**
 
 ## Table des matières
 
-+ `TOC.md` à la racine du guide d’utilisateur fournit l’organisation des rubriques contenues dans le guide de cette solution.
-+ Chaque guide d&#39;utilisateur possède son propre `TOC.md` unique, dans lequel vous pouvez commander toutes les pages/rubriques si nécessaire.
-+ La première page de tous les guides d’utilisateur est `overview.md`.
++ `TOC.md` à la racine du guide de l’utilisateur fournit l’organisation des rubriques contenues dans le guide de cette solution.
++ Chaque guide de l’utilisateur possède son propre `TOC.md`, dans lequel vous pouvez classer toutes les pages/rubriques selon vos besoins.
++ La première page de tous les guides de l’utilisateur est `overview.md`.
 
 ## Guide de l’utilisateur
 
-+ L&#39;introduction au guide d&#39;utilisation s&#39;appelle `overview.md`
-+ Chaque rubrique du guide d’utilisateur possède son propre répertoire.
++ L’introduction au guide de l’utilisateur est appelée `overview.md`
++ Chaque rubrique du guide de l’utilisateur possède son propre répertoire.
    + S’il existe une rubrique dans le guide appelée *Implémentation*, le répertoire correspondant est `/implementation`
-+ Tous les fichiers d’image sont stockés dans `/assets` à la racine du guide d’utilisateur.
++ Toutes les ressources d’image sont stockées dans `/assets` à la racine du guide de l’utilisateur.
    + Toutes les images du répertoire `/assets` seront localisées.
-   + Toutes les images du répertoire `/no-localize` ne seront pas localisées (surprise !). Cela permet de s’assurer, dans les versions localisées, que des fichiers spécifiques ne sont pas reproduits inutilement.
+   + Les images du répertoire `/no-localize` ne seront pas localisées (surprise !). Cela peut être utilisé pour garantir dans les versions loc que des ressources spécifiques ne sont pas reproduites inutilement.
 
-## Métadonnées du niveau du guide de l’utilisateur
+## Métadonnées au niveau du guide de l’utilisateur
 
-+ Les métadonnées qui décrivent le guide d’utilisateur sont stockées dans `TOC.md`. Cela inclut :
++ Les métadonnées qui décrivent le guide de l’utilisateur sont stockées dans la balise `TOC.md`. Cela inclut :
    + product - nom du produit/de la fonctionnalité.
-   + cloud - cloud auquel ce produit appartient.
-   + audience - audience ou archétype à qui le guide est ciblé.
-   + guide d’utilisateur - nom du guide d’utilisateur.
+   + cloud : cloud auquel ce produit appartient.
+   + audience : audience ou archétype à qui le guide est ciblé.
+   + user-guide - nom du guide de l’utilisateur.
 
 ## Métadonnées au niveau de la page
 
-+ Les métadonnées requises pour décrire un document sont stockées dans le cadre de chaque page. Cela inclut :
-   + title - titre de la page.
++ Les métadonnées requises pour décrire un document sont stockées dans chaque page. Cela inclut :
+   + title : titre de la page.
    + description - description de la page.
-   + seo-title - seo alternative title.
-   + seo-description - titre alternatif à des fins d’optimisation du référencement.
+   + seo-title - autre titre du seo.
+   + seo-description - autre titre à des fins d’optimisation pour les moteurs de recherche.
    + short-title - (champ facultatif).
-   + index - oui / non - la page sera indexée par la plateforme de recherche de l&#39;Adobe.
-   + traduire - oui / non - cette page sera-t-elle localisée.
-   + version - utilisée principalement pour AEM et Campaign, pour désigner la version du produit.
-   + private-feature-pack - utilisé principalement pour les AEM.
-   + bêta - est-ce que ce produit est en bêta ?
-   + redirection : permet de créer une référence à une nouvelle page si nécessaire.
-   + doc-type : référence (par défaut) / dépannage / développeur / tutorial / kb / livre blanc.
+   + index - yes/no - la page sera indexée par la plateforme de recherche d’Adobe.
+   + translate - yes/no - cette page sera localisée.
+   + version : utilisée principalement pour AEM et Campaign, pour indiquer la version du produit.
+   + private-feature-pack - utilisé principalement pour AEM.
+   + beta - ce produit est-il en version bêta ?
+   + redirect : peut être utilisé pour créer une référence à une nouvelle page si nécessaire.
+   + doc-type : référence (par défaut) / dépannage / développeur / tutoriel / kb / livre blanc.
 
 ## Plus d’informations
 
-Pour plus d&#39;instructions de publication, de guides de style, d&#39;exemples et d&#39;autres ressources, consultez le [Rapport de documentation collaborative](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Pour plus d’instructions de publication, de guides de style, d’exemples et d’autres ressources, consultez le [Repo de documentation collaborative](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
