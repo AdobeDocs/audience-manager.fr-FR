@@ -5,10 +5,9 @@ seo-title: FAQ sur la collecte de données et l’intégration de produit
 solution: Audience Manager
 title: FAQ sur la collecte de données et l’intégration de produit
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP ; adresse SFTP ; adresse IP STFP ; Adresse FTP
+keywords: SFTP ; Adresse SFTP ; Adresse IP du protocole STFP ; Adresse FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '1159'
@@ -44,12 +43,12 @@ Oui : voir ci-dessous.
 
 | Serveur | Adresses IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
 | ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
-Les serveurs SFTP ci-dessous sont obsolètes. Aucun nouveau compte ne sera configuré à l&#39;aide de ces serveurs.
+Les serveurs SFTP ci-dessous sont obsolètes. Aucun nouveau compte ne sera configuré à l’aide de ces serveurs.
 
 | Serveur | Adresse IP |
 ---------|----------|
@@ -60,7 +59,7 @@ Les serveurs SFTP ci-dessous sont obsolètes. Aucun nouveau compte ne sera confi
 
 **Comment configurer mon instance d’Audience Manager pour utiliser les nouveaux serveurs SFTP ?**
 
-Contactez votre [!DNL Audience Manager] consultant ou le service à la clientèle et ils configureront vos nouveaux comptes SFTP.
+Contactez votre [!DNL Audience Manager] consultant ou l’assistance clientèle pour qu’ils configurent vos nouveaux comptes SFTP.
 
  
 
@@ -84,7 +83,7 @@ Il est recommandé de configurer votre intégration [!DNL Audience Manager]— [
 
 * Insérez [!UICONTROL DIL] directement dans le `s_code`.
 
-* Servez [!UICONTROL DIL] et `s_code` à [!DNL Adobe Experience Platform Launch].
+* Renseignez [!UICONTROL DIL] et `s_code` par [!DNL Adobe Experience Platform Launch].
 
 Voir [API Data Integration Library (DIL)](../dil/dil-overview.md).
 
@@ -153,7 +152,7 @@ Oui, [!DNL Audience Manager] peut vous fournir les données collectées pour les
 
 **[!DNL Google Ad Manager]Je souhaite collecter des données sur un site et cibler les utilisateurs au moyen de sur un autre site. Dois-je déployer du code sur l’autre propriété si je ne souhaite pas collecter de données à partir de cet emplacement ?**
 
-Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. Tant que vous avez accès à l&#39;inventaire du deuxième site via [!DNL Google Ad Manager], vous pouvez utiliser la collecte de données du site initial et de la cible via [!DNL Google Ad Manager].
+Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. Tant que vous avez accès à l’inventaire sur le deuxième site via [!DNL Google Ad Manager], vous pouvez utiliser la collecte de données du site initial et la cible via [!DNL Google Ad Manager].
 
 <br> 
 
