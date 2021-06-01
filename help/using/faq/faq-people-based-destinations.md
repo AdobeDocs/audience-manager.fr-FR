@@ -4,9 +4,8 @@ seo-description: 'Réponses aux questions courantes sur les destinations basées
 seo-title: FAQ sur les destinations basées sur les personnes
 solution: Audience Manager
 title: FAQ sur les destinations basées sur les personnes
-feature: People-based Destinations
+feature: Destinations basées sur les personnes
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1171'
@@ -79,9 +78,9 @@ Tant que l’adresse électronique est hachée et ingérée correctement, il ne 
 
 Audience Manager peut collecter et envoyer jusqu’à 10 e-mails par utilisateur vers les plateformes de destination, mais les adresses électroniques doivent être capturées dans des fichiers de synchronisation. Lorsqu’Audience Manager envoie les adresses électroniques vers les plateformes de destination, c’est aux plateformes de faire correspondre les adresses électroniques avec leur propre base d’utilisateurs. Certaines plateformes peuvent avoir des graphiques d’adresses électroniques supplémentaires pour faire correspondre les adresses envoyées depuis Audience Manager vers les profils utilisateur.
 
-**Puis-je utiliser  [!DNL People-Based Destinations] dans  [!DNL Audience Lab] ?**
+**Puis-je utiliser  [!DNL People-Based Destinations] dans  [!DNL Audience Lab]?**
 
-Non. Actuellement, toutes les destinations [!DNL People-Based Destinations] sont exclues de [!DNL Audience Lab]. Étant donné que [!DNL People-Based Destinations] et les plateformes côté demande utilisent des ID différents, vous ne pouvez pas tester et mesurer les performances avec des audiences réparties de manière uniforme entre elles.
+Non. Actuellement, toutes les destinations [!DNL People-Based Destinations] sont exclues de [!DNL Audience Lab]. Étant donné que les plateformes [!DNL People-Based Destinations] et côté demande utilisent des identifiants différents, vous ne pouvez pas tester et mesurer les performances avec des audiences divisées uniformément entre elles.
 
 ## Contrôles des exportations de données {#data-export-controls}
 
@@ -117,6 +116,6 @@ Vous pouvez utiliser l’intégration [!DNL Facebook] [!DNL WCA] d’Audience Ma
 
 Ces deux intégrations sont complémentaires ; vous pouvez utiliser les deux pour assurer une meilleure couverture d’audience. À titre d’exemple, vous pouvez utiliser [!DNL WCA] à des fins de prospection lorsqu’une société cherche à cibler les visiteurs d’un site web qui ne possèdent pas encore de compte enregistré, tandis que [!DNL People-Based Destinations] peut vous aider à cibler les clients existants qui ont renseigné leur adresse électronique, mais ne se sont peut-être pas encore rendus sur le site web.
 
-**L’ [!DNL People-Based Destinations] intégration avec  [!DNL Facebook] prise en charge exclut-elle un utilisateur d’une audience alors qu’il n’y a plus de qualification ?**
+**L’ [!DNL People-Based Destinations] intégration avec la  [!DNL Facebook] prise en charge exclut-elle un utilisateur d’une audience lorsqu’il n’y est plus admissible ?**
 
-Oui, l’intégration prend en charge la suppression des utilisateurs des audiences [!DNL Facebook] lorsqu’ils ne remplissent plus les conditions requises.
+Oui, l’intégration prend en charge la suppression des utilisateurs des audiences [!DNL Facebook] lorsqu’ils ne remplissent plus les critères.
