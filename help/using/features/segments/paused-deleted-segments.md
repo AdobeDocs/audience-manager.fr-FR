@@ -5,31 +5,30 @@ seo-title: Suspension et suppression des segments
 solution: Audience Manager
 title: Suspension et suppression des segments
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Segments '
+exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 6%
 
 ---
 
-
 # Suspension et suppression des segments {#paused-and-deleted-segments}
 
-Décrit les effets sur les utilisateurs segmentés, les données et les destinations lorsque vous suspendez ou supprimez un segment principal à l’aide de [!UICONTROL Segment Builder].
+Décrit les effets sur les utilisateurs, les données et les destinations segmentés lorsque vous suspendez ou supprimez un segment principal à l’aide de [!UICONTROL Segment Builder].
 
-## Accès aux commandes Pause et Supprimer
+## Accès aux commandes de mise en pause et de suppression
 
 Passez la souris sur un nom de segment dans la liste de segments pour afficher les icônes **[!UICONTROL pause]** et **[!UICONTROL delete]** (dans la colonne [!UICONTROL Actions]). Ces fonctionnalités affectent les segments comme décrit ci-dessous.
 
-## Fonctionnalité de segment en pause
+## Fonctionnalité de segment suspendue
 
-Segment suspendu (désactivé) :
+Un segment en pause (désactivé) :
 
 * Arrête la segmentation des nouveaux utilisateurs qualifiés.
 * Conserve l’état/l’appartenance de segmentation d’un utilisateur (ne supprime pas un utilisateur du segment).
-* Reste dans la liste de segments et peut être réactivé.
+* Reste dans la liste des segments et peut être réactivé.
 * N’envoie pas de données vers les destinations associées.
 * Renvoie les données des rapports disponibles (jusqu’à la date de désactivation).
 
@@ -39,8 +38,8 @@ Un segment supprimé :
 
 * Arrête la segmentation des nouveaux utilisateurs qualifiés.
 * Supprime les utilisateurs qualifiés de l’adhésion au segment.
-* Est supprimé de la liste de segments.
-* Impossible d&#39;annuler la suppression.
+* Est supprimé de la liste des segments.
+* Impossible d’annuler la suppression.
 * N’envoie pas de données vers les destinations associées.
 * Ne renvoie pas de données dans les rapports disponibles.
 
