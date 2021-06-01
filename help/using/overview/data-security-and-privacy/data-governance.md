@@ -3,11 +3,10 @@ description: Ce document explique la manière dont les données client sont gér
 seo-description: Ce document explique la manière dont les données client sont gérées dans Audience Manager.
 seo-title: Gouvernance des données
 solution: Audience Manager
-keywords: Interface utilisateur GDPR, API GDPR, ACCP, confidentialité, consentement, obscurcissement, gouvernance
+keywords: Interface utilisateur du RGPD, API relative au RGPD, CCPA, confidentialité, consentement, obscurcissement, gouvernance
 title: Gouvernance des données
-feature: Data Governance & Privacy
+feature: Gouvernance des données & Confidentialité
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '470'
@@ -32,7 +31,7 @@ L’adresse [!DNL IP] d’un visiteur sur le site web d’un client est transmis
 
 >[!NOTE]
 >
->Voir [Obscurcissement d’adresse IP](../../features/administration/ip-obfuscation.md) pour savoir comment activer l’obscurcissement d’adresse [!DNL IP] dans l’interface utilisateur de l’Audience Manager.
+>Voir [Obscurcissement des adresses IP](../../features/administration/ip-obfuscation.md) pour savoir comment activer l’obscurcissement des adresses [!DNL IP] dans l’interface utilisateur de l’Audience Manager.
 
 Regardez la vidéo ci-dessous pour comprendre comment fonctionne l’obscurcissement des adresses [!DNL IP] dans Audience Manager.
 
