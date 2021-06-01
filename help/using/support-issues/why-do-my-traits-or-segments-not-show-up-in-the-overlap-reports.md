@@ -4,9 +4,8 @@ seo-description: Raisons pour lesquelles les caractéristiques et les segments p
 seo-title: Pourquoi mes caractéristiques ou segments n’apparaissent-ils pas dans la page Rapports de chevauchement ?
 solution: Audience Manager
 title: Pourquoi mes caractéristiques ou segments n’apparaissent-ils pas dans la page Rapports de chevauchement ?
-feature: Support
+feature: Support technique
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '166'
