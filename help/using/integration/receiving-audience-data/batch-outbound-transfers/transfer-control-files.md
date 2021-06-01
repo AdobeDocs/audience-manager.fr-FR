@@ -5,31 +5,30 @@ seo-title: Fichiers de contrôle de transfert pour les transferts de fichiers jo
 solution: Audience Manager
 title: Fichiers de contrôle de transfert pour les transferts de fichiers journaux
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
+feature: Transferts de données sortantes
+exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 6%
 
 ---
-
 
 # Fichiers de contrôle de transfert pour les transferts de fichiers journaux {#transfer-control-files-for-log-file-transfers}
 
 Les fichiers de contrôle de transfert ([!DNL .info]) fournissent des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement les transferts de fichiers.
 
-[!DNL Audience Manager] envoie un fichier de contrôle de transfert à un partenaire avec chaque transfert de fichier. En raison de la nature multi-thread de l&#39;éditeur [!DNL FTP], le fichier de contrôle de transfert peut être envoyé avant que les fichiers réels ne soient transférés.
+[!DNL Audience Manager] envoie un fichier de contrôle de transfert à un partenaire avec chaque transfert de fichier. En raison de la nature multi-thread de l’éditeur [!DNL FTP], le fichier de contrôle de transfert peut être envoyé avant que les fichiers réels ne soient transférés.
 
 Les métadonnées du fichier [!DNL .info] permettent aux partenaires :
 
-* déterminer à quel moment un cycle de transfert complet est achevé (le nombre total de fichiers dans la séquence a été livré);
-* déterminer si un fichier donné dans la séquence est complet/correct (en examinant la taille du fichier en octets et le nombre total de lignes);
-* Validez le nombre de lignes dans les fichiers bruts par rapport au nombre de lignes après le chargement des fichiers dans la base de données du côté de réception (taille du fichier dans les lignes).
+* Déterminer à quel moment le cycle de transfert complet est terminé (le nombre total de fichiers dans la séquence a été livré) ;
+* Déterminer si un fichier donné de la séquence est complet/correct (en examinant la taille du fichier en octets et le nombre total de lignes) ;
+* Validez le nombre de lignes dans les fichiers bruts par rapport au nombre de lignes après le chargement des fichiers dans la base de données du côté de réception (taille du fichier en lignes).
 
-## Conventions d&#39;appellation des fichiers {#file-naming-conventions}
+## Conventions de dénomination des fichiers {#file-naming-conventions}
 
-Le fichier de contrôle de transfert porte le même nom que la racine du lot/de la séquence avec une extension de fichier [!DNL .info].
+Le fichier de contrôle de transfert porte le même nom que la racine du lot/de la séquence avec une extension de fichier [!DNL .info].s
 
 Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12345_67890_full_1500727351632-1.sync], le fichier de contrôle serait nommé [!DNL ftp_12345_67890_iter_1500727351632.info].
 
@@ -78,8 +77,8 @@ Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12
 
 >[!NOTE]
 >
-> Les numéros totaux du lot sont exclus du fichier [!DNL .info] lui-même. En d’autres termes, les totaux n’incluent pas le fichier [!DNL .info], sa taille d’octet ou son nombre de lignes.
+> Les nombres totaux des lots sont exclusifs au fichier [!DNL .info] lui-même. En d’autres termes, les totaux n’incluent pas le fichier [!DNL .info], sa taille en octets ou son nombre de lignes.
 >
-> Les tailles en octets des fichiers et le nombre de lignes incluent tous les en-têtes et les rangées d’espacement (vierges). Pour obtenir le nombre de lignes/lignes de données réelles, soustrayez les en-têtes.
+> Les tailles d’octet des fichiers et le nombre de lignes incluent tous les en-têtes et espaces (vierges) lignes/lignes. Pour obtenir le nombre de lignes/lignes de données réelles, soustrayez les en-têtes.
 >
-> Le nombre total de lignes dans le lot et la taille totale des octets sont compris dans tous les rangées d’en-tête et d’espace.
+> Les lignes totales du lot et la taille totale des octets incluent tous les rangées d’en-tête et d’espace.
