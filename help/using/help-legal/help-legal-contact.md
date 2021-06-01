@@ -4,15 +4,14 @@ seo-description: Coordonnées permettant de contacter Adobe et informations sur 
 seo-title: Coordonnées et informations juridiques
 solution: Audience Manager
 title: Coordonnées et informations juridiques
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Support technique
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # Coordonnées et informations juridiques {#legal-contact}
 
@@ -31,7 +30,7 @@ L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider e
 
 En fonction de la configuration de votre solution, il est possible que vous n’ayez pas accès à certaines des options décrites dans cette documentation. Chaque compte étant unique, reportez-vous à votre contrat pour toute question concernant les tarifs, les échéances et les conditions. Si vous souhaitez augmenter ou modifier votre niveau de service, ou pour toute question concernant votre service actuel, contactez le gestionnaire de compte.
 
-## Mentions légales   {#legal}
+## Mentions légales  {#legal}
 
 Published by Adobe Systems Incorporated.
 
