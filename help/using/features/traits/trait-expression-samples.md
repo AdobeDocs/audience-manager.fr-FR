@@ -1,19 +1,18 @@
 ---
-description: Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de code Expression Builder.
-seo-description: Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de code Expression Builder.
+description: Exemples de création d’expressions dans l’éditeur de code du Générateur d’expression.
+seo-description: Exemples de création d’expressions dans l’éditeur de code du Générateur d’expression.
 seo-title: Exemple d’expressions avec des opérateurs booléens et de comparaison
 solution: Audience Manager
 title: Exemple d’expressions avec des opérateurs booléens et de comparaison
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Caractéristiques '
+exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 12%
+source-wordcount: '212'
+ht-degree: 13%
 
 ---
-
 
 # Exemple d’expressions avec des opérateurs booléens et de comparaison {#sample-expressions-with-boolean-and-comparison-operators}
 
@@ -23,19 +22,19 @@ Exemples auxquels vous pouvez vous référer pour la création d’expressions d
 
 <!-- r_tb_expression_samples.xml -->
 
-Créez vos propres règles de caractéristiques avec l&#39;éditeur de code [!UICONTROL Expression Builder]. Les exemples suivants peuvent vous aider à démarrer. Certains des exemples présentent la variable *`key`* avec `c_` pour l’identifier comme variable définie par l’utilisateur. Incluez le préfixe `c_` (ou toute autre convention d’affectation de nom) pour la variable *`key`* si vos appels de événement envoient des données à [!DNL Audience Manager] à l’aide de cette syntaxe.
+Créez vos propres règles de caractéristiques avec l’éditeur de code [!UICONTROL Expression Builder]. Les exemples suivants peuvent vous aider à démarrer. Certains des exemples précèdent la variable *`key`* avec `c_` pour l’identifier comme variable définie par l’utilisateur. Insérez le préfixe `c_` (ou toute autre convention d’affectation des noms) pour la variable *`key`* si vos appels d’événement envoient des données à [!DNL Audience Manager] en utilisant cette syntaxe.
 
 ## Expressions booléennes {#boolean-expressions}
 
-### Exemple ET
+### Exemple AND
 
-La règle établit les exigences de qualification des caractéristiques à l&#39;aide d&#39;opérateurs booléens [!UICONTROL AND].
+La règle établit les exigences de qualification des caractéristiques à l’aide d’opérateurs booléens [!UICONTROL AND].
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Exemple de code </th> 
-   <th colname="col2" class="entry"> Pour être admissible, un visiteur doit </th> 
+   <th colname="col2" class="entry"> Pour être admissible, un visiteur doit : </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -44,7 +43,7 @@ La règle établit les exigences de qualification des caractéristiques à l&#39
    <td colname="col2"> 
     <ul id="ul_F1BB5084FB794BE7A3569F9C106FC481"> 
      <li id="li_56E8C3BACF1C4B33A46CF92C51FF2286">Recherchez une marque et un modèle spécifiques. </li> 
-     <li id="li_DD55F053BFCF4B0888B6994013000DB2">Recherchez le produit à partir d’une page de résultats de la recherche (search = "1" ou "true"). </li> 
+     <li id="li_DD55F053BFCF4B0888B6994013000DB2">Recherchez le produit à partir d’une page de résultats de recherche (recherche = "1" ou "true"). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -52,13 +51,13 @@ La règle établit les exigences de qualification des caractéristiques à l&#39
 
 ### Exemple OU
 
-Cette règle établit les exigences de qualification des caractéristiques en utilisant les opérateurs [!DNL Boolean] [!UICONTROL OR] et [!UICONTROL AND].
+Cette règle établit les exigences de qualification des caractéristiques à l’aide des opérateurs [!DNL Boolean] [!UICONTROL OR] et [!UICONTROL AND] .
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Exemple de code </th> 
-   <th colname="col2" class="entry"> Pour être admissible, un visiteur doit </th> 
+   <th colname="col2" class="entry"> Pour être admissible, un visiteur doit : </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -69,21 +68,21 @@ Cette règle établit les exigences de qualification des caractéristiques en ut
  </tbody> 
 </table>
 
-## Exemple de plage avec Plus grand que, Inférieur à, Égal à
+## Exemple de plage avec Supérieur à, Inférieur À, Égal À
 
-Cette règle établit les exigences de qualification des caractéristiques en utilisant une plage.
+Cette règle établit les exigences de qualification de caractéristiques à l’aide d’une plage.
 
 <table id="table_988DE28E35D94348ADD334FB4C9F68D3"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Exemple de code </th> 
-   <th colname="col2" class="entry"> Pour être admissible, un visiteur doit </th> 
+   <th colname="col2" class="entry"> Pour être admissible, un visiteur doit : </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"><code>(price &gt;= 1.00 AND price &lt;= 100.00)</code> </td> 
-   <td colname="col2"> Respectez toutes les conditions de prix comprises entre 1.00 et 100.00. </td> 
+   <td colname="col2"> Respectez toute condition de prix comprise entre 1,00 et 100,00. </td> 
   </tr> 
  </tbody> 
 </table>
