@@ -3,13 +3,12 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
-user-guide-description: Découvrez comment l'Audience Manager vous permet de collecter des informations commercialement pertinentes sur les visiteurs du site, de créer des segments commercialisables et de diffuser des publicités et du contenu ciblés à l'audience appropriée.
+user-guide-description: Découvrez comment l’Audience Manager vous permet de collecter des informations commercialement pertinentes sur les visiteurs du site, de créer des segments commercialisables et de diffuser des publicités et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1806'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +33,11 @@ ht-degree: 0%
          + [Gestion du consentement](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Module d’Audience Manager pour le TCF de l’IAB](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Gouvernance des données](overview/data-security-and-privacy/data-governance.md)
-   + [Accessibilité dans l&#39;Audience Manager](/help/using/overview/accessibility-in-aam.md)
+   + [Accessibilité en Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Fonctionnalités {#features}
    + [Audiences adressables](features/addressable-audiences.md)
    + Administration {#administration}
-      + [Audience Manager de la migration des utilisateurs vers le Admin Console](features/administration/admin-console-migration.md)
+      + [Audience Manager de la migration des utilisateurs vers Admin Console](features/administration/admin-console-migration.md)
       + [Administration](features/administration/administration-overview.md)
       + [Modification des paramètres de votre compte](features/administration/edit-account-settings.md)
       + [Obscurcissement des adresses IP](features/administration/ip-obfuscation.md)
@@ -182,7 +181,7 @@ ht-degree: 0%
       + [Rapports d’Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization pour les annonceurs {#audience-optimization-advertisers}
          + [Présentation d’Audience Optimization pour les annonceurs](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importer les fichiers de données Google Campaign Manager dans l’Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importation des fichiers de données Google Campaign Manager dans Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapport de performances sur les segments](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Rapports d’analyses des tendances et des volumes](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Rapport sur les fréquences optimales](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -191,7 +190,7 @@ ht-degree: 0%
          + [Conversion inter-canaux](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Optimisation d’audience pour les éditeurs {#audience-optimization-publishers}
          + [Présentation d’Audience Optimization pour les éditeurs](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importer des fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importation de fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Rapport de performances sur les segments](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Rapport de tendances sur les segments](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Principales caractéristiques inutilisées](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -219,7 +218,7 @@ ht-degree: 0%
       + [Technologie des rapports](reporting/dynamic-reports/interactive-report-technology.md)
    + [Rapport d’état de l’intégration](reporting/onboarding-status-report.md)
    + [Historique des fichiers sortants](reporting/outbound-history-report.md)
-   + [Comptabilisation des utilisateurs uniques dans les rapports de chevauchement et généraux](reporting/unique-user-counts.md)
+   + [Comptage des utilisateurs uniques dans les rapports de chevauchement et les rapports généraux](reporting/unique-user-counts.md)
    + [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés](reporting/report-sampling.md)
 + Code de l’API et du SDK {#api-and-sdk-code}
    + [Présentation du code de l’API et du SDK](api/api.md)
@@ -287,8 +286,8 @@ ht-degree: 0%
 + Guides d’implémentation et d’intégration {#implementation-integration-guides}
    + [Guides d’implémentation et d’intégration](integration/implementation-and-integration.md)
    + [Méthodes d’intégration des données](integration/data-integration-methods.md)
-   + Intégration de Google Ad Manager à l’aide des balises Google Publisher (GPT){#integrate-dfp-using-gpt}
-      + [Intégration de Google Ad Manager à l’aide de la présentation GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
+   + Intégrer Google Ad Manager à l’aide des Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+      + [Présentation de l’intégration de Google Ad Manager à l’aide de GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envoi de segments à Google Ad Manager à l’aide de GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Création d’une destination GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modification de l’appel API GPT setTargeting](integration/gpt-aam-destination/gpt-aam-modify-api.md)
@@ -297,7 +296,7 @@ ht-degree: 0%
       + [Intégration Facebook WCA](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS en tant que destination d’Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX en tant que destination d’Audience Manager](integration/integrating-third-party/openx-destination.md)
-      + [Google Ad Manager (anciennement DFP) comme destination de l’Audience Manager](integration/aam-dfp.md)
+      + [Google Ad Manager (anciennement DFP) comme destination d’Audience Manager](integration/aam-dfp.md)
       + [Envoi de segments vers une liste de remarketing Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implémentation d’Audience Manager](integration/implement-audience-manager.md)
    + Intégration de données multimédias {#media-data-integration}
@@ -314,10 +313,10 @@ ht-degree: 0%
          + [Intégration OAuth 2.0 pour les transferts sortants en temps réel](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Transferts de données sortantes par lots {#batch-outbound-data-transfers}
          + [Présentation des transferts de données sortantes par lots](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
-         + [Configuration de l’intégration du transfert de données par lot](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
+         + [Configuration de l’intégration du transfert de données par lots](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [Nom du fichier de données sortantes : syntaxe et exemples](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [Fichiers de contrôle de transfert pour les transferts de fichiers journaux](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
-         + [Macros de création de modèles sortants](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md) (en anglais)
+         + [Macros de création de modèles sortants (en anglais)](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [Exemples de macro sortante](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
          + [Utiliser les autorisations de compartiments inter-comptes Amazon S3 pour les fichiers de sortie](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
    + Envoi de données d’audience {#sending-audience-data}
@@ -331,20 +330,20 @@ ht-degree: 0%
          + [Présentation de l’envoi de données par lots vers Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Synchronisation d’identifiants pour les transferts de données entrantes](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Contenus du fichier de données entrant : syntaxe, caractères invalides, variables et exemples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-         + [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+         + [Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et exemples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Chiffrement PGP de fichier pour les types de données entrantes](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
-         + [Compression de fichiers pour les fichiers de transfert de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+         + [Compression de fichiers pour les fichiers de transfert de données entrants.](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Message d’exemple aux partenaires après le traitement entrant](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Intégrations personnalisées des partenaires](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Intégration à Adobe Experience Platform {#integration-experience-platform}
-      + [Partage de segments Experience Platform avec l’Audience Manager et d’autres solutions Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Partage de segments Experience Platform avec Audience Manager et d’autres solutions Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
    + Intégration aux autres solutions Experience Cloud {#integration-other-solutions}
-      + [Intégrer l&#39;Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Intégration de l’Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Comment transférer des données d’Adobe Analytics vers Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publication d’un segment Adobe Analytics sur l’Experience Cloud (ouvre la documentation Adobe Analytics)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Intégration de l’Audience Manager à Adobe Campaign (ouvre la documentation Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publication d’un segment Adobe Analytics sur l’Experience Cloud (la documentation Adobe Analytics s’ouvre)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Intégration de l’Audience Manager à Adobe Campaign (la documentation Adobe Campaign s’ouvre)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Référence {#reference}
    + [Présentation des références](reference/reference.md)
    + [À propos d’Amazon S3](reference/amazon-s3.md)
@@ -366,9 +365,9 @@ ht-degree: 0%
    + [Incidence de la diffusion des données et des délais de traitement des fichiers sur les rapports](reference/reporting-file-transfer-timeframe.md)
    + [Index des identifiants dans Audience Manager](reference/ids-in-aam.md)
    + [Explication des paires clé-valeur](reference/key-value-pairs-explained.md)
-   + [Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés](reference/password-requirements.md).
+   + [Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés](reference/password-requirements.md)
    + [Signaux, caractéristiques et segments](reference/signal-trait-segment.md)
-   + [Navigateurs pris en charge](reference/supported-browsers.md)
+   + [Navigateurs pris en charge ](reference/supported-browsers.md)
    + Composants système {#system-components}
       + [Présentation des composants système](reference/system-components/components-overview.md)
       + [Composants clés du système Audience Manager](reference/system-components/components-stack.md)
@@ -384,7 +383,7 @@ ht-degree: 0%
    + [Signification des appels vers le domaine Demdex](reference/demdex-calls.md)
    + [États d’authentification du visiteur dans Audience Manager](reference/visitor-authentication-states.md)
 + Questions fréquentes {#faqs}
-   + [Aperçu de la foire aux questions d’Audience Manager](faq/faq-overview.md)
+   + [Présentation de la FAQ sur Audience Manager](faq/faq-overview.md)
    + [FAQ sur l’API](faq/faq-api.md)
    + [FAQ sur Audience Lab](faq/faq-audience-lab.md)
    + [FAQ sur le flux de données client](faq/faq-cdf.md)
@@ -393,7 +392,7 @@ ht-degree: 0%
    + [FAQ sur la rétention des données et la confidentialité](faq/faq-privacy.md)
    + [FAQ sur les destinations basées sur les personnes](faq/faq-people-based-destinations.md)
    + [FAQ sur les fonctions et fonctionnalités de produit](faq/faq-features.md)
-   + [FAQ sur les stratégies de fusion de profils et les représentations graphiques des appareils](faq/faq-profile-merge.md)
+   + [FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils](faq/faq-profile-merge.md)
    + [FAQ sur les audiences prédictives](faq/faq-predictive-audiences.md)
    + [FAQ sur le ciblage](faq/faq-targeting.md)
    + [FAQ sur la création de rapports](faq/faq-reporting.md)
@@ -403,17 +402,17 @@ ht-degree: 0%
    + [Coordonnées et informations juridiques](/help/using/help-legal/help-legal-contact.md)
 + Principaux problèmes du service clientèle {#top-support-issues}
    + [Présentation](/help/using/support-issues/support-issues-overview.md)
-   + [Pourquoi les populations des caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [Pourquoi mes caractéristiques ou mes segments ne s’affichent-ils pas sur la page Rapports de chevauchement ?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-   + [Pourquoi nos utilisateurs en lecture seule sont-ils capables de créer, modifier ou supprimer des caractéristiques et des segments ?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
-   + [Nous ne sommes pas clients d’Audience Manager, mais nous pouvons voir des appels JavaScript d’Audience Manager sur notre site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Pourquoi mes populations de caractéristiques intégrées sont-elles tombées à 0 aux alentours du 15 octobre ? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Pourquoi mes caractéristiques ou segments n’apparaissent-ils pas dans la page Rapports de chevauchement ?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Pourquoi les utilisateurs en lecture seule peuvent-ils créer, modifier ou supprimer des caractéristiques et des segments ?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Nous ne sommes pas client d’Audience Manager, mais nous pouvons voir des appels JavaScript d’Audience Manager sur notre site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Mes segments mappés d’Audience Manager Audience Lab doivent-ils apparaître sur la page des détails de destination ?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Mises à jour de la documentation {#documentation-updates}
    + [Mises à jour de la documentation 2021](docs-updates/docs-2021.md)
-   + [Mises à jour de la documentation 2020](docs-updates/docs-2020.md)
-   + [Mises à jour de la documentation 2019](docs-updates/docs-2019.md)
-   + [Mises à jour de la documentation 2018](docs-updates/docs-2018.md)
-   + [Mises à jour de la documentation 2017](docs-updates/docs-2017.md)
-   + [Mises à jour de la documentation 2016](docs-updates/docs-2016.md)
-   + [Mises à jour de la documentation 2015](docs-updates/docs-2015.md)
+   + [Mises à jour de la documentation 2020](docs-updates/docs-2020.md)
+   + [Mises à jour de la documentation 2019](docs-updates/docs-2019.md)
+   + [Mises à jour de la documentation 2018](docs-updates/docs-2018.md)
+   + [Mises à jour de la documentation 2017](docs-updates/docs-2017.md)
+   + [Mises à jour de la documentation 2016](docs-updates/docs-2016.md)
+   + [Mises à jour de la documentation 2015](docs-updates/docs-2015.md)
 + [Glossaire](reference/aam-glossary.md)
