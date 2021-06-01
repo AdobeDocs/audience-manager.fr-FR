@@ -5,9 +5,8 @@ seo-title: Rapports généraux en Audience Manager
 solution: Audience Manager
 title: Rapports généraux
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-feature: General & Trend Reports
+feature: Rapports généraux et de tendances
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '869'
@@ -27,18 +26,18 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager] utilise  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) pour étendre les permissions des groupes d&#39;utilisateurs aux  [!UICONTROL General] rapports. Les utilisateurs ne peuvent afficher que les caractéristiques et segments dans le rapports pour lesquels ils disposent d’autorisations de vue. [!UICONTROL RBAC] permet de contrôler quelles données de rapports les équipes internes peuvent vue. Par exemple, une agence qui gère différents comptes d’annonceurs peut configurer des autorisations de groupe d’utilisateurs afin qu’une équipe qui gère le compte de l’annonceur A ne puisse pas afficher les données de rapports de l’annonceur B.
+[!DNL Audience Manager] utilise  [!UICONTROL Role Based Access Control]  ([!UICONTROL RBAC]) pour étendre les autorisations des groupes d’utilisateurs aux  [!UICONTROL General] rapports. Les utilisateurs ne peuvent afficher que les caractéristiques et les segments dans les rapports qu’ils sont autorisés à afficher. [!UICONTROL RBAC] permet de contrôler les données de rapport que les équipes internes peuvent afficher. Par exemple, une agence qui gère différents comptes publicitaires peut configurer des autorisations de groupe d’utilisateurs de sorte qu’une équipe qui gère le compte de l’annonceur A ne puisse pas consulter les données de rapport de l’annonceur B.
 
 Exécutez un rapport [!UICONTROL General] lorsque vous devez :
 
 * Examinez les performances par caractéristique, segment ou destination.
-* Effectuez le suivi des impressions (totales et uniques) à des intervalles de 1, 7, 14, 30, 60 et 90 jours.
-* Examiner les décomptes de charge totale et unique.
+* Effectuez le suivi des impressions (total et unique) à des intervalles de 1, 7, 14, 30, 60 et 90 jours.
+* Vérifiez le nombre total et le nombre de chargements uniques.
 * Comparer les performances des caractéristiques et des segments.
-* Identifiez les caractéristiques et les segments de performances fortes ou faibles, analysez la demande ou comparez les données de charge/feu aux rapports tiers.
-* Exportez des données (format .csv) pour une analyse et un partage supplémentaires.
+* Identifiez les segments et les caractéristiques de performances fortes ou médiocres, analysez la demande ou comparez les données de charge/feu à des rapports tiers.
+* Exportez des données (format .csv) pour une analyse et un partage plus approfondis.
 
-L&#39;illustration suivante présente un aperçu général des éléments clés du rapport [!UICONTROL General].
+L’illustration suivante présente un aperçu général des éléments clés du rapport [!UICONTROL General].
 
 ![](assets/general_reports.png)
 
@@ -46,15 +45,15 @@ L&#39;illustration suivante présente un aperçu général des éléments clés 
 
    * **Type de rapport :** sélectionnez le type de rapport souhaité (Caractéristique, Segment ou Destination).
 
-   * **Pour Dates jusqu’à :** spécifiez la plage de dates du rapport.
+   * **Pour les dates d’expiration :** spécifiez la période du rapport.
 
 2. Recherchez une caractéristique, un segment ou une destination par nom ou par identifiant.
-3. A partir de la liste de dossiers, faites glisser et déposez les caractéristiques, segments ou destinations que vous souhaitez rapporter dans le panneau [!UICONTROL Selections] situé sur le côté droit.
-4. Générez le rapport à afficher dans un tableau exportable.
+3. Dans la liste des dossiers, effectuez un glisser-déposer des caractéristiques, des segments ou des destinations à signaler dans le panneau [!UICONTROL Selections] sur le côté droit.
+4. Générez le rapport à afficher dans une table exportable.
 
 ## Exécution d’un rapport général {#run-general-report}
 
-Cette section décrit comment exécuter un rapport [!UICONTROL General] et définir l&#39;heure et d&#39;autres options de performances.
+Cette section décrit comment exécuter un rapport [!UICONTROL General] et définir l’heure et d’autres options de performances.
 
 <!-- 
 
@@ -64,47 +63,47 @@ t_run_general_report.xml
 
 1. Dans le tableau de bord **[!UICONTROL Analytics]**, cliquez sur **[!UICONTROL General Reports]**.
 1. Dans la liste déroulante **[!UICONTROL Report Type]**, sélectionnez le type de votre choix : Caractéristique, segment ou destination.
-1. ** ConditionnelCliquez sur la zone de date pour afficher un calendrier, puis sélectionnez la date de fin de votre rapport si vous souhaitez spécifier une date autre qu&#39;aujourd&#39;hui.
+1. ** Conditionnel : cliquez sur la zone de date pour afficher un calendrier, puis sélectionnez la date de fin de votre rapport si vous souhaitez spécifier une date autre qu&#39;aujourd&#39;hui.
 1. Recherchez une caractéristique, un segment ou une destination par nom ou par identifiant.
-1. A partir de la liste de dossiers, faites glisser et déposez les caractéristiques, segments ou destinations que vous souhaitez rapporter dans le panneau [!UICONTROL Selections] situé sur le côté droit.
+1. Dans la liste des dossiers, effectuez un glisser-déposer des caractéristiques, des segments ou des destinations à signaler dans le panneau [!UICONTROL Selections] sur le côté droit.
 1. Cliquez sur **[!UICONTROL Run Report]**.
 
    Les résultats s’affichent dans un tableau exportable. Cliquez sur les en-têtes de colonne pour trier les résultats par ordre croissant ou décroissant.
-1. Sélectionnez le bouton d’option de votre choix en haut du rapport pour filtrer les données par performances ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] ou [!UICONTROL Total Trait Population]) ou par heure (1, 7, 14, 30, 60 ou 90 jours).
+1. Sélectionnez le bouton d’option de votre choix dans la partie supérieure du rapport pour filtrer les données par performances ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] ou [!UICONTROL Total Trait Population]) ou par heure (plage de 1, 7, 14, 30, 60 ou 90 jours).
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] sont calculées pour  [!UICONTROL Rule-based Traits] uniquement.
+   >[!UICONTROL Total Trait Realizations] sont calculées  [!UICONTROL Rule-based Traits] uniquement pour .
 
-1. ** FacultatifCliquez  **[!UICONTROL Export to CSV]**. Cette opération exporte les valeurs [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] et [!UICONTROL Total Trait Population] pour toutes les plages de jours.
+1. ** FacultatifCliquez sur  **[!UICONTROL Export to CSV]**. Cela exporte les valeurs [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] et [!UICONTROL Total Trait Population] pour toutes les plages de jours.
 
-## Rapports généraux Résultats expliqués {#general-reports-explained}
+## Explication des résultats des rapports généraux {#general-reports-explained}
 
-Les nombres de [!UICONTROL General Reports] sont générés directement à partir de notre [!UICONTROL User Profile Store]. Les résultats reflètent le nombre d&#39;utilisateurs que [!DNL Audience Manager] contenait dans l&#39;arrière-plan au moment où ces numéros de rapports ont été générés.
+Les nombres de [!UICONTROL General Reports] sont générés directement à partir de notre [!UICONTROL User Profile Store]. Les résultats reflètent le nombre d’utilisateurs que [!DNL Audience Manager] contenait dans le serveur principal au moment de la génération de ces chiffres de rapport.
 
-* Ces nombres n’incluent pas les identifiants de visiteur avec un trafic excessif. Le trafic des robots est filtré avant d&#39;atteindre notre système principal. En outre, un certain trafic de robots est ignoré lors de l’exécution d’une tâche de nettoyage hebdomadaire en arrière-plan.
-* Si vous embarquez des données par le biais d’un traitement entrant ont désactivé l’UUID [!DNL Audience Manager] et que ces ID incluent des utilisateurs qui ne sont plus principaux dans notre système, ces UUID inactifs [!DNL Audience Manager] n’atteignent jamais l’UUID [!UICONTROL User Profile Store] et ne sont pas signalés.
-* [!UICONTROL Total Trait Realizations] sont calculées pour  [!UICONTROL Rule-based Traits] uniquement.
+* Ces chiffres n’incluent pas les identifiants visiteur avec un trafic excessif. Le trafic des robots est filtré avant d’atteindre notre système principal. En outre, un certain trafic de robots est ignoré lors d’une exécution de tâche de nettoyage hebdomadaire dans le serveur principal.
+* Si vous intégrez des données par le biais d’un traitement entrant à partir de l’UUID [!DNL Audience Manager] et que ces ID incluent des utilisateurs qui ne sont plus principaux dans notre système, ces UUID inactifs [!DNL Audience Manager] n’atteignent jamais la valeur [!UICONTROL User Profile Store] et ne sont pas signalés.
+* [!UICONTROL Total Trait Realizations] sont calculées  [!UICONTROL Rule-based Traits] uniquement pour .
 
-## Rapports généraux Résultats pour les caractéristiques {#general-report-results-traits}
+## Résultats des rapports généraux pour les caractéristiques {#general-report-results-traits}
 
 Les filtres ci-dessous sont disponibles lorsque vous exécutez un rapport général et que vous sélectionnez **[!UICONTROL Trait]** comme type de rapport.
 
 Lors du filtrage des résultats par [!UICONTROL Device ID] :
 
-* [!UICONTROL Unique Trait Realizations] correspond au nombre de visiteurs anonymes de votre périphérique qui ont ajouté la caractéristique à leur profil au cours de la période sélectionnée.
+* [!UICONTROL Unique Trait Realizations] est le nombre de visiteurs de votre appareil anonyme qui ont ajouté la caractéristique à leur profil au cours de la période sélectionnée.
 * [!UICONTROL Total Trait Realization] est le nombre total de réalisations de caractéristiques anonymes au cours de la période sélectionnée.
-* [!UICONTROL Total Trait Population] est le nombre de visiteurs anonymes de votre périphérique qui ont cette caractéristique sur leur profil.
+* [!UICONTROL Total Trait Population] est le nombre de visiteurs de votre appareil anonyme qui ont cette caractéristique sur leur profil.
 
 ![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
 Lors du filtrage des résultats par [!UICONTROL Cross-Device ID] :
 
-* [!UICONTROL Unique Trait Realizations] correspond au nombre de vos visiteurs authentifiés qui ont ajouté la caractéristique à leur profil, au cours de la période sélectionnée.
-* [!UICONTROL Total Trait Realization] représente le nombre total de réalisations de caractéristiques authentifiées au cours de la période sélectionnée.
-* [!UICONTROL Total Trait Population] est le nombre de vos visiteurs authentifiés qui ont cette caractéristique sur leur profil.
+* [!UICONTROL Unique Trait Realizations] est le nombre de visiteurs authentifiés qui ont ajouté la caractéristique à leur profil, au cours de la période sélectionnée.
+* [!UICONTROL Total Trait Realization] est le nombre total de réalisations de caractéristiques authentifiées au cours de la période sélectionnée.
+* [!UICONTROL Total Trait Population] est le nombre de vos visiteurs authentifiés présentant cette caractéristique sur leur profil.
 
-![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
+![general-report-traits-multi-périphérique](assets/general-report-traits-cross-device.png)
 
 <!-- 
 ### Unique Trait Realizations
@@ -124,38 +123,38 @@ The illustration below shows the results of running a general report for the Tra
 ![](assets/general_reports_metrics.png) -->
 
 
-## Rapports généraux Résultats pour les segments {#general-report-results-segments}
+## Résultats des rapports généraux pour les segments {#general-report-results-segments}
 
-Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport Général et sélectionnez **[!UICONTROL Segment]** comme type de rapport :
+Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport général et que vous sélectionnez **[!UICONTROL Segment]** comme type de rapport :
 
 ### Population des segments en temps réel
 
-Cette mesure représente le nombre réel de visiteurs uniques vus en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par Audience Manager.
+Cette mesure représente le nombre réel de visiteurs uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par l’Audience Manager.
 
-### Population totale des segments
+### Population totale de segments
 
-Cette mesure représente le nombre total d’UUID d’Audience Manager qui sont qualifiés pour le segment au cours de la période de recherche précédente que vous avez sélectionnée. Votre population totale de segments d’une journée représente votre base d’utilisateurs la plus précise pour le ciblage.
+Cette mesure représente le nombre total d’UUID d’Audience Manager qualifiés pour le segment au cours de la période d’analyse que vous avez sélectionnée. Votre population totale de segments d’un jour représente votre base d’utilisateurs la plus précise pour le ciblage.
 
 >[!NOTE]
 >
 >Sélectionnez **[!UICONTROL Include Destination Mappings]** pour afficher la ventilation de la population de segments pour les destinations activées.
 
-L&#39;illustration ci-dessous montre les résultats de l&#39;exécution d&#39;un rapport général pour le type de rapport Segment.
+L’illustration ci-dessous présente les résultats de l’exécution d’un rapport général pour le type de rapport Segment .
 
 ![](assets/general_reports_segment_metrics.png)
 
-## Rapports généraux Résultats pour les destinations {#general-report-results-destinations}
+## Résultats des rapports généraux pour les destinations {#general-report-results-destinations}
 
-Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport Général et sélectionnez **[!UICONTROL Destination]** comme type de rapport :
+Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport général et que vous sélectionnez **[!UICONTROL Destination]** comme type de rapport :
 
 **Population des segments en temps réel**
 
-Cette mesure représente le nombre réel de visiteurs uniques vus en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par Audience Manager.
+Cette mesure représente le nombre réel de visiteurs uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils étaient vus par l’Audience Manager.
 
-**Population totale des segments**
+**Population totale de segments**
 
-Cette mesure représente le nombre total d’UUID d’Audience Manager appartenant à un segment au cours de la période de recherche précédente, qui ont été envoyés à une destination.
+Cette mesure représente le nombre total d’UUID d’Audience Manager appartenant à un segment au cours de la période d’analyse, qui ont été envoyés à une destination.
 
-L&#39;illustration ci-dessous montre les résultats de l&#39;exécution d&#39;un rapport général pour le type de rapport Destinations.
+L’illustration ci-dessous présente les résultats de l’exécution d’un rapport général pour le type de rapport Destinations .
 
 ![](assets/general_reports_destinations.png)
