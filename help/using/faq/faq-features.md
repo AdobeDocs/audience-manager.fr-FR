@@ -1,6 +1,6 @@
 ---
 description: Questions et problèmes courants associés aux produits et aux fonctions.
-keywords: Cookies du gestionnaire d’audiences
+keywords: cookies d’audience manager
 seo-description: Questions et problèmes courants associés aux produits et aux fonctions.
 seo-title: FAQ sur les fonctions et fonctionnalités de produit
 solution: Audience Manager
@@ -8,7 +8,6 @@ title: FAQ sur les fonctions et fonctionnalités de produit
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Présentation
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '615'
@@ -48,9 +47,9 @@ Oui. Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Lors d’une exportation d’ID en vrac vers une destination, certains identifiants de client sont absents. Pourquoi cela arrive-t-il ?**
+**Lors d’une exportation d’ID en bloc vers une destination, certains ID de client sont absents. Pourquoi cela se produit-il ?**
 
-Lorsqu’un ID de périphérique ([AAM UUID](../reference/ids-in-aam.md)) est lié à plusieurs ID de gestion de la relation client ([DPUUIDs](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’ID de périphérique exportés est peut-être inférieur à ce qui était prévu.
+Lorsqu’un identifiant d’appareil ([AAM UUID](../reference/ids-in-aam.md)) est lié à plusieurs identifiants CRM ([DPUUIDs](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’identifiants d’appareil exportés est peut-être inférieur à ce qui était prévu.
 
  
 
