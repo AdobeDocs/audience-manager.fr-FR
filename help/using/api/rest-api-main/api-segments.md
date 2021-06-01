@@ -1,27 +1,27 @@
 ---
-description: Méthodes qui vous permettent de travailler par programmation avec des segments.
-seo-description: Méthodes qui vous permettent de travailler par programmation avec des segments.
+description: Méthodes qui vous permettent d’utiliser des segments par programmation.
+seo-description: Méthodes qui vous permettent d’utiliser des segments par programmation.
 seo-title: Méthodes d’API de segment
 solution: Audience Manager
 title: Méthodes d’API de segment
 uuid: a3ab199f-6181-4b36-a1d1-5c2dba7539d3
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: c2ba9992-5d0f-46f7-861d-ae279b37674f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 25%
+source-wordcount: '59'
+ht-degree: 27%
 
 ---
 
-
 # Méthodes d’API de segment {#segment-api-methods}
 
-Méthodes qui vous permettent de travailler par programmation avec des segments.
+Méthodes qui vous permettent d’utiliser des segments par programmation.
 
 >[!IMPORTANT]
 >
->Les méthodes de segment [!DNL API] ont été réécrites avec [!DNL Swagger] et migrées. Voir :
+>Les méthodes [!DNL API] du segment ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
->* [Documentation de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documents de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)
+
