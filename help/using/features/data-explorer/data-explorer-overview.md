@@ -1,53 +1,52 @@
 ---
-description: Utilisez le Data Explorer pour exploiter les audiences historiques en construisant des caractéristiques basées sur des signaux utilisés et inutilisés, et en les remplissant de données historiques afin d'éviter toute perte potentielle d'audiences pertinentes.
-seo-description: Utilisez le Data Explorer pour exploiter les audiences historiques en construisant des caractéristiques basées sur des signaux utilisés et inutilisés, et en les remplissant de données historiques afin d'éviter toute perte potentielle d'audiences pertinentes.
+description: Utilisez Data Explorer pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés et en les remplissant de données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
+seo-description: Utilisez Data Explorer pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés et en les remplissant de données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
 seo-title: Présentation, avantages et cas d’utilisation
 title: Présentation, avantages et cas d’utilisation
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Explorateur de données '
+exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 3%
 
 ---
 
-
 # Explorateur de données : présentation, avantages et cas d’utilisation {#overview-benefits-and-use-cases}
 
-Utilisez [!UICONTROL Data Explorer] pour exploiter les audiences historiques en construisant des caractéristiques basées sur des signaux utilisés et inutilisés, et en les remplissant de données historiques afin d&#39;éviter toute perte potentielle d&#39;audiences pertinentes.
+Utilisez [!UICONTROL Data Explorer] pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés, et les renvoyer avec des données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
 
 ## Présentation {#overview}
 
-La création de caractéristiques basées sur les connaissances existantes liées à votre audience est un processus assez simple, à condition de toujours savoir qui est votre audience. Mais à quelle fréquence cela arrive-t-il ?
+La création de caractéristiques basées sur des insights existants liés à votre audience est un processus assez simple, à condition que vous sachiez toujours qui est votre audience. Mais à quelle fréquence cela arrive-t-il ?
 
-[!UICONTROL Data Explorer] simplifie votre processus de gestion des caractéristiques tout en vous offrant un plus haut degré de flexibilité en matière de gestion de la taxonomie. Deux composants [!UICONTROL Data Explorer] vous aident à réaliser ce résultat :
+[!UICONTROL Data Explorer] simplifie votre processus de gestion des caractéristiques tout en vous offrant une plus grande flexibilité en matière de traitement de taxonomie. Deux composants [!UICONTROL Data Explorer] vous permettent d’obtenir ce résultat :
 
-* [Signals ](../../features/data-explorer/data-explorer-signals-dashboard.md) Dashboard et  [!UICONTROL Signals Search] vous aider à suivre les signaux reçus par  [!DNL Audience Manager] que vous pouvez utiliser pour construire de nouvelles caractéristiques ou ajouter à des caractéristiques existantes.
+* [Signals ](../../features/data-explorer/data-explorer-signals-dashboard.md) Tableau de bord et  [!UICONTROL Signals Search] vous aident à effectuer le suivi des signaux reçus par  [!DNL Audience Manager] que vous pouvez utiliser pour créer de nouvelles caractéristiques ou ajouter à des caractéristiques existantes.
 
-* [Le ](../../features/data-explorer/data-explorer-trait-backfill.md) renvoi de la mise en page des caractéristiques vous permet de qualifier les audiences historiques pour les nouvelles caractéristiques, de sorte que vous puissiez les inclure dans les futurs efforts de ciblage.
+* [Le ](../../features/data-explorer/data-explorer-trait-backfill.md) renvoi de la réalisation des caractéristiques vous permet de qualifier les audiences historiques pour les caractéristiques nouvellement créées, de sorte que vous puissiez les inclure dans les futurs efforts de ciblage.
 
 ## Avantages {#benefits}
 
-Utilisez [!UICONTROL Data Explorer] pour optimiser la création de vos audiences de plusieurs manières :
+Utilisez [!UICONTROL Data Explorer] pour optimiser la création de votre audience de plusieurs façons :
 
-* **Concentrez-vous sur les audiences** à forte valeur ajoutée. Surveillez les changements de tendance dans le comportement de recherche et de navigation sur vos pages, puis créez des caractéristiques spécifiques pour leur comportement. Éliminer la nécessité de créer des caractéristiques &quot;au cas où&quot; et se concentrer sur les signaux pertinents.
-* **Évitez la perte** de données. Renseignez les caractéristiques avec des réalisations historiques afin de ne pas manquer les segments d’audience car vous n’avez pas créé de caractéristiques avant de recevoir les signaux.
-* **Améliorez votre flux de travail**. Découvrez les signaux de tendance et transformez-les rapidement en caractéristiques exploitables.
+* **Concentrez-vous sur les audiences** à forte valeur ajoutée. Surveillez les changements de tendance dans le comportement de recherche et de navigation de vos pages, puis créez des caractéristiques spécifiques pour leur comportement. Éliminez la nécessité de créer des caractéristiques &quot;au cas où&quot; et de se concentrer sur les signaux pertinents.
+* **Évitez de perdre des données**. Renvoi des caractéristiques avec des réalisations historiques afin de ne pas manquer les segments d’audience car vous n’avez pas créé de caractéristiques avant de recevoir les signaux.
+* **Améliorez votre workflow**. Découvrez les signaux de tendance et transformez-les rapidement en caractéristiques exploitables.
 
 ## Cas d’utilisation {#use-cases-data-explorer}
 
 ### Exemple 1
 
-Un détaillant d’électronique mondial reçoit un volume élevé de trafic de visiteurs, mais les taux de conversion sont inférieurs aux prévisions, bien qu’ils aient optimisé le contenu pour plusieurs plates-formes. En utilisant le [Tableau de bord Signaux](../../features/data-explorer/data-explorer-signals-dashboard.md), ils identifient un volume élevé de signaux inutilisés, ce qui indique que les visiteurs recherchent une marque électronique spécifique qui n&#39;est pas actuellement en stock. La société peut tirer parti de cette connaissance en actualisant son stock et en ciblant les visiteurs avec des campagnes personnalisées.
+Un détaillant électronique mondial enregistre un volume élevé de trafic de visiteurs, mais les taux de conversion sont inférieurs aux attentes, bien qu’ils aient optimisé le contenu pour plusieurs plateformes. À l’aide du [tableau de bord des signaux](../../features/data-explorer/data-explorer-signals-dashboard.md), ils identifient un volume élevé de signaux inutilisés, ce qui indique que les visiteurs recherchent une marque électronique spécifique qui n’est pas actuellement en stock. L’entreprise peut tirer parti de cet aperçu en actualisant son stock et en ciblant les visiteurs avec des campagnes personnalisées.
 
 ### Exemple 2
 
-Une fois qu&#39;un prestataire de services de voyage a ajouté de nouvelles destinations à son site Web de réservation, il souhaite les faire connaître aux audiences historiques, bien qu&#39;il n&#39;ait pas créé de caractéristiques pour lui. Ils peuvent utiliser la recherche de signaux pour identifier les signaux inutilisés liés aux nouvelles destinations, les inclure dans de nouvelles caractéristiques et les [renvoyer](../../features/data-explorer/data-explorer-trait-backfill.md) avec des réalisations historiques. Ensuite, créez de nouveaux segments avec les nouvelles caractéristiques et cibles-les immédiatement avec des campagnes dédiées.
+Une fois qu’un prestataire de services de voyage a ajouté de nouvelles destinations à son site web de réservation, il souhaite les faire connaître à des audiences historiques, bien qu’il n’ait créé aucun caractère pour elles. Ils peuvent utiliser la recherche de signaux pour identifier les signaux inutilisés liés aux nouvelles destinations, les inclure dans de nouvelles caractéristiques et les [renvoyer](../../features/data-explorer/data-explorer-trait-backfill.md) avec des réalisations historiques. Créez ensuite de nouveaux segments avec les nouvelles caractéristiques et ciblez-les immédiatement avec des campagnes dédiées.
 
-### Utilisation du Data Explorer pour valider la création de caractéristiques pour vos données intégrées
+### Utilisation de Data Explorer pour valider la création de caractéristiques pour vos données intégrées
 
-L&#39;une des fonctionnalités les plus puissantes de l&#39;Audience Manager est la possibilité d&#39;embarquer des données hors ligne et de les lier à vos données en ligne. Dans la vidéo ci-dessous, apprenez à utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
+L’une des fonctionnalités les plus puissantes de l’Audience Manager est la possibilité d’embarquer des données hors ligne et de les associer à vos données en ligne. Dans la vidéo ci-dessous, découvrez comment utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25149/)
