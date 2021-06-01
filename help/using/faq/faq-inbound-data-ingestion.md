@@ -1,20 +1,19 @@
 ---
 description: Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
-keywords: ftp ou s3;s3 ou ftp
+keywords: ftp ou s3, s3 ou ftp
 seo-description: Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
 seo-title: FAQ sur l’ingestion de données client entrantes
 solution: Audience Manager
 title: FAQ sur l’ingestion de données client entrantes
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Intégration de données hors ligne
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1364'
 ht-degree: 91%
 
 ---
-
 
 # FAQ sur l’ingestion de données client entrantes {#inbound-customer-data-ingestion-faq}
 
@@ -59,7 +58,7 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 **Puis-je charger un fichier de données entrant (fichier [!DNL .sync] ou [!DNL .overwrite]) avant de déployer le code [!DNL Audience Manager] en production ?**
 
-Oui. Tant que vous utilisez [!UICONTROL cross-device data source] pour stocker les données de gestion de la relation client que vous téléchargez, l’Audience Manager stocke toujours les données. En fait, à la suite des améliorations [!UICONTROL Profile Merge Rules] apportées à l&#39;Audience Manager lancée en octobre 2019 qui permettent des cas d&#39;utilisation hors ligne uniquement, vous pouvez transférer et agir sur les données sans déployer le code d&#39;Audience Manager en production. Voir :
+Oui. Tant que vous utilisez une balise [!UICONTROL cross-device data source] pour stocker les données de gestion de la relation client que vous chargez, l’Audience Manager stocke toujours les données. En fait, suite aux améliorations [!UICONTROL Profile Merge Rules] de l’Audience Manager lancée en octobre 2019 qui permettent des cas d’utilisation hors ligne uniquement, vous pouvez charger des données et agir sur celles-ci sans déployer de code d’Audience Manager en production. Voir :
 
 * [Présentation des améliorations apportées aux stratégies de fusion de profils](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
 * [!UICONTROL People-based Destinations] -  [Personnalisation basée sur les données hors ligne uniquement](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
@@ -188,7 +187,7 @@ Les horodatages sont utilisés pour la journalisation et la conservation d’enr
 
  
 
-**Qu&#39;est-ce qu&#39;une  [!DNL Data Provider ID (DPID)] et comment puis-je l&#39;obtenir ?**
+**Qu’est-ce qu’une  [!DNL Data Provider ID (DPID)] et comment puis-je l’obtenir ?**
 
 Votre conseiller Adobe attribuera un [DPID (identifiant de fournisseur de données)](../reference/ids-in-aam.md) à trois ou quatre chiffres à votre source de données particulière. Cet identifiant est unique et ne change pas.
 
@@ -204,14 +203,14 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 Oui, voir :
 
-* [Compression de fichiers pour les fichiers de transfert de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+* [Compression de fichiers pour les fichiers de transfert de données entrants.](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
 **La clé primaire de ma base de données de source de données est une adresse électronique. Est-elle considérée comme une information d’identification personnelle ?**
 
-Oui. [!DNL Audience Manager] ne stocke pas d’adresses électroniques dans sa base de données. Les visiteurs doivent se voir attribuer un identifiant généré de manière aléatoire ou une version avec hachage unique de l’adresse électronique avant d’initier les synchronisations d’identifiants.
+Oui. [!DNL Audience Manager] ne stocke pas d’adresses électroniques dans sa base de données. Les visiteurs doivent se voir attribuer un identifiant généré de manière aléatoire ou une version hachée à sens unique de l’adresse électronique avant d’initier les synchronisations des identifiants.
 
  
 
@@ -227,7 +226,7 @@ Nous recommandons [!DNL Amazon S3], car le processus est plus simple. [!DNL Audi
 
 >[!WARNING]
 >
->Nous supprimons progressivement la prise en charge des configurations FTP. Bien que l’assimilation de fichiers de données entrants soit toujours prise en charge dans les intégrations FTP existantes, nous vous recommandons vivement d’utiliser [!DNL Amazon S3] pour intégrer des données hors ligne pour les nouvelles intégrations. Pour plus d’informations, consultez [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Nous supprimons progressivement la prise en charge des configurations FTP. Bien que l’ingestion de fichiers de données entrants soit toujours prise en charge dans les intégrations FTP existantes, nous vous recommandons vivement d’utiliser [!DNL Amazon S3] pour intégrer des données hors ligne pour les nouvelles intégrations. Pour plus d’informations, consultez [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 
