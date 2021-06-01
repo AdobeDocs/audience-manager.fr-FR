@@ -1,29 +1,28 @@
 ---
-description: Méthodes de l’API REST pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
-seo-description: Méthodes de l’API REST pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
+description: Méthodes d’API REST pour gérer les groupes, notamment créer, mettre à jour, répertorier et supprimer des groupes.
+seo-description: Méthodes d’API REST pour gérer les groupes, notamment créer, mettre à jour, répertorier et supprimer des groupes.
 seo-title: Méthodes d’API de gestion des groupes
 solution: Audience Manager
 title: Méthodes d’API de gestion des groupes
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: b43c8404-1853-4306-8f26-96d9191a2548
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 13%
 
 ---
 
-
 # Méthodes d’API de gestion des groupes {#group-management-api-methods}
 
-Restez [!DNL API] méthodes pour gérer les groupes, notamment créer, mettre à jour, répertorier, supprimer des groupes.
+Redéfinissez les [!DNL API] méthodes pour gérer les groupes, notamment créer, mettre à jour, répertorier et supprimer des groupes.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Création d’un groupe {#create-group}
 
-Méthode `POST` permettant de créer un nouveau groupe d’utilisateurs.
+Une méthode `POST` pour créer un groupe d’utilisateurs.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -56,7 +55,7 @@ Méthode `POST` permettant de créer un nouveau groupe d’utilisateurs.
 
 ## Mettre à jour un groupe {#update-group}
 
-Méthode `PUT` permettant de mettre à jour un groupe d’utilisateurs.
+Une méthode `PUT` pour mettre à jour un groupe d’utilisateurs.
 
 <!--
 r_rest_api_group_update.xml
@@ -89,9 +88,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Groupes de listes {#list-groups}
+## Groupes de liste {#list-groups}
 
-Méthode `GET` pour liste des groupes d’utilisateurs.
+Une méthode `GET` pour répertorier les groupes d’utilisateurs.
 
 <!--
 r_rest_api_group_list.xml
@@ -119,7 +118,7 @@ r_rest_api_group_list.xml
 
 ## Suppression d’un groupe {#delete-groups}
 
-Méthode `DELETE` permettant de supprimer un groupe d&#39;utilisateurs et de supprimer tous les membres de ce groupe.
+Méthode `DELETE` pour supprimer un groupe d’utilisateurs et supprimer tous les membres de ce groupe.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -127,11 +126,11 @@ Méthode `DELETE` permettant de supprimer un groupe d&#39;utilisateurs et de sup
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Renvoie `204 No Content` en cas de réussite. En cas de conflit renvoie `409 Conflict`.
+Renvoie `204 No Content` en cas de réussite. En cas de conflit, renvoie `409 Conflict`.
 
-## Supprimer des groupes en bloc {#delete-groups-bulk}
+## Suppression de groupes en bloc {#delete-groups-bulk}
 
-Méthode `DELETE` permettant de supprimer plusieurs groupes en bloc et de supprimer tous les membres de ce groupe.
+Méthode `DELETE` pour supprimer plusieurs groupes en bloc et supprimer tous les membres de ce groupe.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -139,11 +138,11 @@ Méthode `DELETE` permettant de supprimer plusieurs groupes en bloc et de suppri
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Renvoie `204 No Content` en cas de réussite. En cas de conflit renvoie `409 Conflict`.
+Renvoie `204 No Content` en cas de réussite. En cas de conflit, renvoie `409 Conflict`.
 
 ## Liste de toutes les autorisations pour un groupe {#list-permissions-group}
 
-Méthode `GET` permettant de liste les objets d&#39;autorisation d&#39;un groupe.
+Une méthode `GET` pour répertorier les objets d’autorisation sur un groupe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -173,11 +172,11 @@ Méthode `GET` permettant de liste les objets d&#39;autorisation d&#39;un groupe
 ]
 ```
 
-Renvoie `400 Bad Request` si le groupe est inaccessible.
+Renvoie `400 Bad Request` si le groupe n’est pas accessible.
 
-## Définir des autorisations pour un groupe {#set-permissions-group}
+## Définir les autorisations pour un groupe {#set-permissions-group}
 
-Méthode `PUT` pour mettre à jour les autorisations de groupe. Cette méthode remplace les anciennes autorisations par les nouvelles autorisations.
+Une méthode `PUT` pour mettre à jour les autorisations de groupe. Cette méthode remplace les anciennes autorisations par les nouvelles autorisations.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -210,4 +209,4 @@ Méthode `PUT` pour mettre à jour les autorisations de groupe. Cette méthode r
 
 L’exemple de réponse représente la liste mise à jour des objets d’autorisation.
 
-Renvoie `200 OK` en cas de réussite. Renvoie `400` si une autorisation donnée n&#39;est pas valide. Peut également renvoyer `403` si l’objet n’est pas accessible à l’utilisateur connecté.
+Renvoie `200 OK` en cas de réussite. Renvoie `400` si une autorisation donnée n’est pas valide. Peut également renvoyer `403` si l’objet n’est pas accessible par l’utilisateur connecté.
