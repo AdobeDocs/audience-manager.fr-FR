@@ -1,25 +1,24 @@
 ---
-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (Vue de code) du panneau Caractéristiques pour accéder à cette fonction.
-seo-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (Vue de code) du panneau Caractéristiques pour accéder à cette fonction.
+description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
+seo-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
 seo-title: Syntaxe du code utilisé dans l’éditeur d’expressions de segments
 solution: Audience Manager
 title: Syntaxe du code utilisé dans l’éditeur d’expressions de segments
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Segments '
+exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 11%
 
 ---
 
-
 # Syntaxe du code utilisé dans l’éditeur d’expressions de segments {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l&#39;onglet **[!UICONTROL Segment Expressions (Code View)]** du panneau [!UICONTROL Traits] pour accéder à cette fonction.
+[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet **[!UICONTROL Segment Expressions (Code View)]** du panneau [!UICONTROL Traits] pour accéder à cette fonctionnalité.
 
-## Syntaxe du code du créateur d’Expressions
+## Syntaxe du code du Générateur d’expression
 
 Vous pouvez ajouter des règles de caractéristiques à un segment avec du code au lieu d’utiliser des fonctions de glisser-déposer. Lors du codage, remplacez les éléments en italique de l’exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
 
@@ -30,7 +29,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->Par défaut, les conditions [!DNL Boolean] [!UICONTROL OR] s&#39;appliquent à plusieurs caractéristiques *dans* une expression.
+>Par défaut, les conditions [!DNL Boolean] [!UICONTROL OR] s’appliquent à plusieurs caractéristiques *dans* une expression.
 
 ### Joindre des segments avec des opérateurs booléens
 
@@ -40,18 +39,18 @@ Pour créer des groupes de segments, placez la fonction de fréquence entre pare
 
 >[!NOTE]
 >
->Tous les paramètres sont requis, sauf indication contraire.
+>Tous les paramètres sont obligatoires, sauf indication contraire.
 
 | Nom ou variable | Description |
 |---|---|
-| `FREQUENCY` | Littéral devant précéder l’expression. |
-| ` [`&lt;`traitID`>`T]` | Tableau d&#39;identifiants de caractéristiques suivi de la lettre `T`. Séparez plusieurs caractéristiques par une virgule. Par exemple, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit les règles de récence sur les caractéristiques du segment. La lettre `D` indique la récence en jours. |
+| `FREQUENCY` | Un littéral devant précéder l’expression. |
+| ` [`&lt;`traitID`>`T]` | Tableau d’identifiants de caractéristiques suivi de la lettre `T`. Séparez plusieurs caractéristiques par une virgule. Par exemple, `[123T, 456T]`. |
+| ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit des règles de récence sur les caractéristiques du segment. La lettre `D` indique la récence en jours. |
 | ` <Frequency Operator><Numeric Value>` | Définit des règles de fréquence sur les caractéristiques du segment. |
 
 ### Opérateurs de récence et de fréquence autorisés
 
-Définissez des intervalles [récence et fréquence](../../features/segments/recency-and-frequency.md) avec un opérateur de comparaison et un entier. [!UICONTROL Segment Builder] utilise des expressions standard telles que  &lt;> (supérieur à), == (égal à), etc. Cependant, les types d’opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous liste les opérateurs de récence/fréquence autorisés.
+Définissez des intervalles [récence et fréquence](../../features/segments/recency-and-frequency.md) avec un opérateur de comparaison et un entier. [!UICONTROL Segment Builder] utilise des expressions standard telles que  &lt;> (supérieur à), == (égal à), etc. Toutefois, les types d’opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -80,7 +79,7 @@ Définissez des intervalles [récence et fréquence](../../features/segments/rec
 >[!MORELIKETHIS]
 >
 >* [Récence et fréquence](../../features/segments/recency-and-frequency.md)
->* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
->* [Utilisation d’opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
->* [Ordre des opérations dans les Expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
+* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
+* [Utilisation d’opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
+* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
