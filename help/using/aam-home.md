@@ -5,9 +5,8 @@ seo-title: Document technique du produit Adobe Audience Manager
 solution: Audience Manager
 title: Guide d’Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: Overview
+feature: Présentation
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
 source-wordcount: '653'
@@ -152,7 +151,7 @@ Ce guide de documentation technique fournit une aide autonome pour Audience Mana
      Pour connaître les nouvelles fonctionnalités et les correctifs, voir les dernières <a href="https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html" format="https" scope="external">notes de mises à jour d’Experience Cloud</a>.</p> 
      <p> <b>Dernières fonctionnalités</b> </p> <p> 
      Découvrez les dernières fonctionnalités d’Audience Manager :</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migration des utilisateurs Audiences Manager vers le Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondance client Google pour les destinations basées sur les personnes</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Module d’Audience Manager pour IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiences prédictives</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Rapports d’utilisation des activités</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager de la migration des utilisateurs vers Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondance client Google pour les destinations basées sur les personnes</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Module externe d’Audience Manager pour IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiences prédictives</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Rapports d’utilisation des activités</a></li>
      </ul></p>
     </td>
   </tr> 
