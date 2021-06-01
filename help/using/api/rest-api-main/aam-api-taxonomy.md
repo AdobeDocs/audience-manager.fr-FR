@@ -1,33 +1,32 @@
 ---
-description: Méthodes qui vous permettent de vue de la taxonomie commune à l'Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
-seo-description: Méthodes qui vous permettent de vue de la taxonomie commune à l'Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
+description: Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
+seo-description: Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
 seo-title: Méthodes d’API taxonomiques
 solution: Audience Manager
 title: Méthodes d’API taxonomiques
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 8%
 
 ---
 
-
 # Méthodes d’API taxonomiques {#taxonomic-api-methods}
 
-Méthodes qui vous permettent de vue de la taxonomie commune à l&#39;Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
+Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classifier les caractéristiques avec ces méthodes. Pour classer une caractéristique, spécifiez la `categoryId` appropriée avec une méthode de création ou de mise à jour de la caractéristique.
+>Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classer les caractéristiques avec ces méthodes. Pour classer une caractéristique, spécifiez la `categoryId` appropriée avec une méthode de création ou de mise à jour de caractéristique.
 
-## Renvoyer une taxonomie spécifique {#return-specific-taxonomy}
+## Renvoi d’une taxonomie spécifique {#return-specific-taxonomy}
 
-Méthode `GET` qui renvoie des détails sur la catégorie taxonomique spécifiée.
+Une méthode `GET` qui renvoie des détails sur la catégorie taxonomique spécifiée.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -37,7 +36,7 @@ Méthode `GET` qui renvoie des détails sur la catégorie taxonomique spécifié
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et la catégorie de l&#39;identifiant spécifié. Une requête non réussie renvoie `404 No Content` si l&#39;ID n&#39;existe pas.
+Une réponse réussie renvoie `200 OK` et la catégorie de l’identifiant spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas.
 
 ```
 {
@@ -50,9 +49,9 @@ Une réponse réussie renvoie `200 OK` et la catégorie de l&#39;identifiant sp�
 }
 ```
 
-## Renvoyer toutes les Catégories taxonomiques {#return-all-taxonomy-categories}
+## Renvoi de toutes les catégories taxonomiques {#return-all-taxonomy-categories}
 
-Méthode `GET` qui renvoie une liste des catégories de niveau supérieur dans un tableau.
+Une méthode `GET` qui renvoie une liste des catégories de niveau supérieur dans un tableau.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -62,7 +61,7 @@ Méthode `GET` qui renvoie une liste des catégories de niveau supérieur dans u
 
 ### Réponse
 
-Tronqué pour la brièveté.
+Tronquée pour la concision.
 
 ```
 [
@@ -93,9 +92,9 @@ Tronqué pour la brièveté.
 ]
 ```
 
-## Sous-Catégories taxonomiques de retour {#return-taxonomy-sub-categories}
+## Revenir aux sous-catégories taxonomiques {#return-taxonomy-sub-categories}
 
-Méthode `GET` qui renvoie des sous-catégories pour la catégorie parente spécifiée dans un tableau.
+Une méthode `GET` qui renvoie des sous-catégories pour la catégorie parente spécifiée dans un tableau.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +104,7 @@ Méthode `GET` qui renvoie des sous-catégories pour la catégorie parente spéc
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et la catégorie de l&#39;identifiant spécifié. Une requête non réussie renvoie `404 No Content` si l&#39;ID n&#39;existe pas. Tronqué pour la brièveté.
+Une réponse réussie renvoie `200 OK` et la catégorie de l’identifiant spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas. Tronquée pour la concision.
 
 ```
 [
