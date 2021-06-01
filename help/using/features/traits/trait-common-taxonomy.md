@@ -6,15 +6,14 @@ seo-title: Classification de caractéristiques avec une taxonomie commune
 solution: Audience Manager
 title: Classification de caractéristiques avec une taxonomie commune
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Caractéristiques '
+exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 4%
+source-wordcount: '389'
+ht-degree: 5%
 
 ---
-
 
 # Classification de caractéristiques avec une taxonomie commune {#classifying-traits-with-a-common-taxonomy}
 
@@ -24,28 +23,28 @@ Cet article présente un aperçu général de la classification des caractérist
 
 <!-- c_common_taxonomy_about.xml -->
 
-La taxonomie [!DNL Audience Manager] est une fonction facultative qui classe les caractéristiques en utilisant des conventions d&#39;affectation de nom uniformes, logiques et communément comprises. Il opère au niveau de la plate-forme pour garantir la cohérence des noms dans tout l&#39;écosystème [!DNL Audience Manager]. En fin de compte, la taxonomie commune est conçue pour aligner davantage notre produit sur les normes de l&#39;industrie en ce qui concerne la protection des renseignements personnels des consommateurs et les processus d&#39;exclusion.
+La taxonomie [!DNL Audience Manager] est une fonction facultative qui classe les caractéristiques à l’aide de conventions d’affectation de noms uniformes, logiques et couramment comprises. Il fonctionne au niveau de la plateforme pour garantir la cohérence des noms dans tout l’écosystème [!DNL Audience Manager]. En fin de compte, la taxonomie commune est conçue pour amener notre produit à un plus grand alignement avec les normes de l’industrie concernant la confidentialité des consommateurs et les processus d’exclusion.
 
 ## Avantages de la classification des caractéristiques
 
-Permettre à nos clients de créer des segments et des modèles de données personnalisés est essentiel au modèle [!DNL Audience Manager] et à votre capacité à capturer de la valeur à partir de notre plateforme. Cependant, il est également nécessaire de disposer d’un moyen robuste et évolutif de communiquer des informations sur les segments à vos clients et partenaires. De plus, cette communication exige que les informations sur les segments soient partagées dans un langage compréhensible et universel tout en protégeant vos caractéristiques et noms de segment propriétaires. La taxonomie commune [!DNL Audience Manager] fournit ce langage et cette fonctionnalité.
+Permettre à nos clients de créer des segments et des modèles de données personnalisés est essentiel au modèle [!DNL Audience Manager] et à votre capacité à capturer de la valeur à partir de notre plateforme. Toutefois, il est également nécessaire de disposer d’un moyen robuste et évolutif pour communiquer des informations sur les segments à vos clients et partenaires. En outre, cette communication exige que les informations sur les segments soient partagées dans un langage facile à comprendre et universellement compris, tout en protégeant vos caractéristiques propriétaires et vos noms de segment. La [!DNL Audience Manager] taxonomie courante fournit ce langage et cette fonctionnalité.
 
-## La taxonomie utilise les Catégories de classification standard du secteur
+## La Taxonomie Utilise Les Catégories De Classification Standard Du Secteur.
 
-La taxonomie commune est basée sur les classifications créées par [!DNL Interactive Advertising Bureau (IAB)]. Consultez le [!DNL IAB] site Web [](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) pour plus d&#39;informations sur les directives d&#39;assurance de la qualité pour les réseaux et les échanges.
+La taxonomie courante est basée sur les classifications créées par la balise [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d’informations sur les consignes d’assurance qualité pour les réseaux et les échanges, consultez le [ site Web ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).[!DNL IAB]
 
 ## Organisation taxonomique
 
-La taxonomie [!DNL Audience Manager] organise les données en catégories imbriquées appelées niveaux. Chaque catégorie peut contenir jusqu’à 3 niveaux distincts pour la classification des données. Au niveau le plus élevé, une catégorie de niveau 1 regroupe les données sous sa forme la plus générale (par exemple, la géographie). Les niveaux suivants offrent une plus grande spécificité à la catégorie générale de niveau supérieur (par exemple, *géographie —> États-Unis —> New York*). Cependant, chaque catégorie n&#39;a pas 3 niveaux, certaines n&#39;en utilisent que 2.
+La taxonomie [!DNL Audience Manager] classe les données dans des catégories imbriquées appelées niveaux. Chaque catégorie peut contenir jusqu’à 3 niveaux distincts pour la classification des données. Au niveau le plus élevé, une catégorie de niveau 1 regroupe les données sous leur forme la plus générale (par exemple, la géographie). Les niveaux suivants apportent une plus grande précision à la catégorie générale de niveau supérieur (par exemple, *géographie —> États-Unis —> New York*). Cependant, toutes les catégories n&#39;ont pas 3 niveaux, certaines n&#39;en utilisent que 2.
 
-## Classifier les caractéristiques dans les Catégories de données
+## Classification de caractéristiques dans les catégories de données
 
-Vous affectez des classifications taxonomiques lors de la création ou de la modification de caractéristiques dans le [!UICONTROL Add New Trait Wizard] (situé dans * **[!UICONTROL Audience Data > Traits]***). Pour plus d&#39;informations, consultez la [documentation sur la création de caractéristiques](../../features/traits/create-onboarded-rule-based-traits.md).
+Vous attribuez des classifications taxonomiques lors de la création ou de la modification de caractéristiques dans [!UICONTROL Add New Trait Wizard] (situé dans * **[!UICONTROL Audience Data > Traits]***). Pour plus d’informations, consultez la [documentation sur la création de caractéristiques](../../features/traits/create-onboarded-rule-based-traits.md) .
 
 ## Travailler avec la taxonomie : Considérations supplémentaires
 
-Si vous décidez de classer les caractéristiques selon notre taxonomie commune, il est important de se souvenir :
+Si vous décidez de classer les caractéristiques en fonction de notre taxonomie commune, il est important de vous souvenir :
 
-* La classification est *facultative*.
-* Par défaut, les caractéristiques *ne sont pas* attribuées à une catégorie taxonomique (c&#39;est-à-dire que les caractéristiques ne sont pas classées comme &quot;inconnues&quot; ou &quot;non catégorisées&quot;, etc.).
-* Les caractéristiques peuvent appartenir à *une* catégorie taxonomique uniquement (les classifications multiples et entre catégories ne sont pas autorisées).
+* La classification est *optionnelle*.
+* Les caractéristiques *ne sont pas* attribuées par défaut à une catégorie taxonomique (c’est-à-dire que les caractéristiques ne sont pas classées comme &quot;inconnu&quot; ou &quot;non catégorisées&quot;, etc.).
+* Les caractéristiques ne peuvent appartenir qu’à la catégorie de taxonomie *une* (les classifications multiples et intercatégories ne sont pas autorisées).
