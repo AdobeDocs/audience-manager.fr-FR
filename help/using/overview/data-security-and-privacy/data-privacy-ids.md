@@ -3,11 +3,10 @@ description: Ce document couvre les types d’identifiants Audience Manager que 
 seo-description: Ce document couvre les types d’identifiants Audience Manager que vous pouvez utiliser dans les demandes de confidentialité des données.
 seo-title: Identifiants (ID) Audience Manager
 solution: Audience Manager
-keywords: Interface utilisateur GDPR, API GDPR, CCPA, confidentialité, ID AAM
+keywords: Interface utilisateur du RGPD, API relative au RGPD, CCPA, confidentialité, ID AAM
 title: Identifiants (ID) Audience Manager
-feature: Data Governance & Privacy
+feature: Gouvernance et confidentialité des données
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '264'
