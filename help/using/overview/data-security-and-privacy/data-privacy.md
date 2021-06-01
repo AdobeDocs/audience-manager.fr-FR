@@ -5,9 +5,8 @@ seo-title: Présentation de la confidentialité des données
 solution: Audience Manager
 title: Présentation de la confidentialité des données
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: Data Governance & Privacy
+feature: Gouvernance et confidentialité des données
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '489'
@@ -19,26 +18,26 @@ ht-degree: 77%
 
 ## Présentation
 
-La documentation relative à la confidentialité des données décrit [!DNL Audience Manager] l’intégration et la conformité aux meilleures pratiques généralement admises en matière de confidentialité des données et de procédures d’exclusion des consommateurs.
+La documentation relative à la Confidentialité des données décrit l’intégration de [!DNL Audience Manager] et la conformité aux bonnes pratiques généralement admises en matière de confidentialité des consommateurs et de procédures d’opposition.
 
 [!DNL Audience Manager] reconnaît l’importance des relations entre les consommateurs et les marques en ligne avec lesquelles ils interagissent. Les deux parties bénéficient d’un échange transparent d’éléments de données pseudonymes :
 
 * Les consommateurs reçoivent du contenu personnalisé, des offres de produits à prix réduit et des expériences utilisateur simplifiées.
 * Les marques reçoivent des flux de revenus vitaux qui prennent en charge plusieurs modèles de commerce en ligne.
 
-Dans notre soutien continu à ce modèle, [!DNL Audience Manager] demeure déterminé à vous fournir les outils qui vous aideront à soutenir votre capacité à fournir transparence et contrôle à vos consommateurs, tout en offrant des publicités personnalisées assujetties aux [Principes d&#39;auto-régulation de la publicité comportementale en ligne (OBA)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
+Dans le cadre de la prise en charge continue de ce modèle, [!DNL Audience Manager] s’engage à vous fournir les outils qui vous permettront d’offrir transparence et contrôle à vos clients, tout en proposant des publicités personnalisées soumises aux [principes d’autoréglementation de la publicité comportementale en ligne (OBA)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
 ## [!DNL GDPR] {#gdpr}
 
-Le [règlement général sur la protection des données (RGPD)](https://gdpr.eu/data-privacy/) a introduit plusieurs nouveaux droits à la confidentialité des données pour les membres de l’Union européenne, y compris le **droit d’accès** et le **droit à l’oubli**. Cela signifie que tout [!DNL EU] citoyen dont les données personnelles ont été collectées par votre entreprise peut demander à accéder à ses données ou les supprimer à tout moment. Le non-respect de ces requêtes par votre organisation peut être sanctionné par des amendes de plusieurs millions de dollars.
+Le [règlement général sur la protection des données (RGPD)](https://gdpr.eu/data-privacy/) a introduit plusieurs nouveaux droits à la confidentialité des données pour les membres de l’Union européenne, y compris le **droit d’accès** et le **droit à l’oubli**. Cela signifie que tout citoyen [!DNL EU] dont les données personnelles ont été collectées par votre entreprise peut demander à accéder à ses données ou à les supprimer à tout moment. Le non-respect de ces requêtes par votre organisation peut être sanctionné par des amendes de plusieurs millions de dollars.
 
-Pour se conformer à [!DNL GDPR], [!DNL Audience Manager] prend en charge l&#39;accès aux données et la suppression des [requêtes](data-privacy-requests.md).
+Pour se conformer à [!DNL GDPR], [!DNL Audience Manager] prend en charge l’accès aux données et la suppression des [requêtes](data-privacy-requests.md).
 
 ## [!DNL CCPA] {#ccpa}
 
 La [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), entrée en vigueur le 1er janvier 2020, accorde aux résidents de Californie de nouveaux droits sur leurs informations personnelles et impose des responsabilités en matière de protection des données à certaines entités qui exercent leurs activités en Californie.
 
-[!DNL CCPA]La accorde de nouveaux droits à la confidentialité des données aux résidents de Californie, notamment le droit d’accéder à leurs données personnelles et de les supprimer, mais aussi de savoir si celles-ci sont vendues ou divulguées (et si oui, à qui). Pour se conformer à [!DNL CCPA], [!DNL Audience Manager] prend en charge [!DNL CCPA] l&#39;accès et la suppression des [requêtes](data-privacy-requests.md).
+[!DNL CCPA]La accorde de nouveaux droits à la confidentialité des données aux résidents de Californie, notamment le droit d’accéder à leurs données personnelles et de les supprimer, mais aussi de savoir si celles-ci sont vendues ou divulguées (et si oui, à qui). Pour se conformer à [!DNL CCPA], [!DNL Audience Manager] prend en charge [!DNL CCPA] les demandes d’accès et de suppression [](data-privacy-requests.md).
 
 Pour plus d’informations, consultez le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/fr/privacy/opt-out.html).
 
