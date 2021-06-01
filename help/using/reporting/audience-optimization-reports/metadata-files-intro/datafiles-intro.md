@@ -1,13 +1,12 @@
 ---
-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports d’Audience Optimization et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
-seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans l’Audience Manager et les utiliser dans les rapports d’Audience Optimization et dans les fichiers journaux utilisables. Mettez en forme vos fichiers de données selon les spécifications de cette section.
+description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans Audience Manager et les utiliser dans les rapports d’Audience Optimization et pour les fichiers journaux pratiques. Mettez en forme vos fichiers de données conformément aux spécifications de cette section.
+seo-description: Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans Audience Manager et les utiliser dans les rapports d’Audience Optimization et pour les fichiers journaux pratiques. Mettez en forme vos fichiers de données conformément aux spécifications de cette section.
 seo-title: Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques
 solution: Audience Manager
 title: Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: Log Files
+feature: Fichiers journaux
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1044'
@@ -17,49 +16,49 @@ ht-degree: 5%
 
 # Fichiers de données pour les rapports Audience Optimization et fichiers journaux pratiques {#data-files-for-audience-optimization-reports}
 
-Un fichier de données contient des données d’impression, de clic ou de conversion. Une fois formatées correctement, vous pouvez importer ces données dans l&#39;Audience Manager pour les vue dans les [rapports d&#39;Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) et créer des caractéristiques à l&#39;aide des données par l&#39;intermédiaire de [Fichiers journaux utilisables](/help/using/integration/media-data-integration/actionable-log-files.md). Mettez en forme vos fichiers de données selon ces spécifications dans cette section.
+Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans Audience Manager pour les afficher dans les [rapports d’Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) et créer des caractéristiques à l’aide des données via [Fichiers journaux pratiques](/help/using/integration/media-data-integration/actionable-log-files.md). Mettez en forme vos fichiers de données conformément à ces spécifications dans cette section.
 
 ## Présentation {#overview}
 
-Un fichier de données correctement nommé et formaté vous permet d&#39;importer des données d&#39;impression, de clic ou de conversion dans les [rapports d&#39;Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
+Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clics ou de conversion dans les [rapports d’Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
 
-Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées correspond aux informations relatives au fichier de données et aux étiquettes lisibles dans les menus du rapport. Pour plus d’informations, voir [Aperçu et mappages pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées correspond aux informations du fichier de données aux libellés associés, lisibles par l’utilisateur, dans les menus du rapport. Pour plus d’informations, voir [Présentation et mappages des fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
-## Conventions d&#39;appellation des fichiers de données {#naming-conventions}
+## Conventions de dénomination des fichiers de données {#naming-conventions}
 
-La syntaxe suivante définit la structure d’un nom de fichier de données bien formé. Remarque : *italics* indique un espace réservé de variable qui change en fonction du contenu du fichier.
+La syntaxe suivante définit la structure d’un nom de fichier de données correctement formé. Remarque : *italics* indique un espace réservé variable qui change en fonction du contenu du fichier.
 
-**Syntaxe :** <pre><i>type d&#39;événement</i>_<i>yyyyymmdd</i></code></pre>
+**Syntaxe :** <pre><i>type d’événement</i>_<i>aaammjj</i></code></pre>
 
 Dans un nom de fichier :
 
-* Le type d&#39;événement indique que le fichier contient des impressions, des clics ou des conversions. Créez un fichier distinct pour chaque type d&#39;événement.
-* Un trait de soulignement sépare le type d&#39;événement et l’horodatage de l’année du mois.
-* Avant de télécharger, compressez vos fichiers à l’aide de gzip et enregistrez-les avec l’extension de fichier `.gz`.
+* Le type d’événement indique que le fichier contient des impressions, des clics ou des conversions. Créez un fichier distinct pour chaque type d’événement.
+* Un trait de soulignement sépare le type d’événement d’un horodatage d’un mois d’année.
+* Avant de charger, compressez vos fichiers à l’aide de gzip et enregistrez-les avec l’extension de fichier `.gz`.
 
-Pour ces raisons, nommez vos fichiers de données en fonction de leur contenu comme suit :
+Compte tenu de ces exigences, nommez vos fichiers de données en fonction de leur contenu comme suit :
 
-* Données d’impression : <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
+* Données d’impression : <pre>impressions_<i>aaammjj</i>.gz</code></pre>
 * Données du clic : <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* Données de conversion : <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Données de conversion : <pre>conversions_<i>aaaammdd</i>.gz</code></pre>
 
-## Format de contenu pour les fichiers de données {#content-format}
+## Format de contenu des fichiers de données {#content-format}
 
-La syntaxe suivante définit la structure de contenu dans un fichier de données bien formé. Remarque : *italics* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
+La syntaxe suivante définit la structure de contenu dans un fichier de données correctement formé. Remarque : *italics* indique un espace réservé de variable et est remplacé par un libellé dans un fichier de données réel.
 
-**Syntaxe :** <pre><i>libellé d&#39;en-tête 1</i> |  <i>libellé d&#39;en-tête 2</i> ... libellé d&#39; <i>en-tête n</i> |  <i>version</i></code></pre>
+**Syntaxe :** <pre><i>libellé d’en-tête 1</i> |  <i>libellé d’en-tête 2</i> ..  <i>libellé d’en-tête n</i>  |  <i>version</i></code></pre>
 
 Dans le contenu du fichier :
 
 * Les libellés d’en-tête doivent s’afficher dans l’ordre indiqué dans le tableau ci-dessous. Les impressions et les clics utilisent les mêmes libellés. Les fichiers de conversion contiennent des en-têtes supplémentaires.
-* Si vous ne disposez pas de données pour une colonne particulière, renseignez ce champ avec un `-1`.
+* Si vous ne disposez pas de données pour une colonne particulière, renseignez ce champ avec une balise `-1`.
 
 * Les fichiers *doivent* se terminer par un numéro de version. La version actuelle est 1.1.
-* Séparez les en-têtes de fichier et le contenu avec le caractère ASCII 001 non imprimé. Si vous ne pouvez pas utiliser ASCII 001, séparez les en-têtes et les données par un délimiteur de tabulation. Comme il s’agit de caractères non imprimables, l’exemple de syntaxe ci-dessus montre une barre verticale `"|"` à des fins d’affichage uniquement.
+* Séparez les en-têtes de fichier et le contenu par le caractère non imprimable ASCII 001 . Si vous ne pouvez pas utiliser ASCII 001, séparez les en-têtes et les données par un délimiteur de tabulation. Comme il s’agit de caractères non imprimables, l’exemple de syntaxe ci-dessus illustre une barre verticale `"|"` à des fins d’affichage uniquement.
 
-**Libellés des champs**
+**Libellés de champ**
 
-Le tableau ci-dessous liste et décrit les en-têtes de colonne de votre fichier de données. Les en-têtes sont sensibles à la casse et doivent apparaître selon l’ordre indiqué dans le tableau. Tous les types de données sont des entiers (INT), sauf indication contraire.
+Le tableau ci-dessous répertorie et décrit les en-têtes de colonne de votre fichier de données. Les en-têtes sont sensibles à la casse et doivent apparaître dans l’ordre du tableau. Tous les types de données sont des entiers (INT), sauf indication contraire.
 
 <table id="table_D8C5068741C3460380505F95F3016757"> 
  <thead> 
@@ -71,26 +70,26 @@ Le tableau ci-dessous liste et décrit les en-têtes de colonne de votre fichier
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Horodatage </p> </td> 
-   <td colname="col2"> <p>Date et heure UTC pour le événement d’impression, de clic ou de conversion. Utilisez le format <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
+   <td colname="col2"> <p>Date et heure UTC de l’événement d’impression, de clic ou de conversion. Utilisez le format <code> yyyy-MM-dd HH:mm:ss</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
-   <td colname="col2"> <p>Votre identifiant pour un visiteur de site, également appelé <span class="term"> identifiant utilisateur unique du fournisseur de données</span> ou DPUUID. </p> </td> 
+   <td colname="col2"> <p>Votre identifiant pour un visiteur du site, également appelé <span class="term"> identifiant utilisateur unique du fournisseur de données</span> ou DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
-   <td colname="col2"> <p>ID de source de données ou code d’intégration pour votre annonceur. </p> </td> 
+   <td colname="col2"> <p>L’identifiant de source de données ou le code d’intégration de votre annonceur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>BU-ID </p> </td> 
-   <td colname="col2"> <p>ID de l'unité opérationnelle. </p> </td> 
+   <td colname="col2"> <p>Identifiant de l’unité opérationnelle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campaign-ID </p> </td> 
    <td colname="col2"> <p>ID de campagne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Creative-ID </p> </td> 
+   <td colname="col1"> <p>Creative ID </p> </td> 
    <td colname="col2"> <p>ID d’élément créatif. </p> </td> 
   </tr> 
   <tr> 
@@ -98,20 +97,20 @@ Le tableau ci-dessous liste et décrit les en-têtes de colonne de votre fichier
    <td colname="col2"> <p>ID du site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Emplacement-ID </p> </td> 
-   <td colname="col2"> <p> Identifiant de placement numérique du serveur d’annonces. </p> </td> 
+   <td colname="col1"> <p>Placement-ID </p> </td> 
+   <td colname="col2"> <p> Identifiant d’emplacement numérique du serveur de publicités. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Insertion-Ordre-ID </p> </td> 
-   <td colname="col2"> <p>ID d’ordre d’insertion. </p> </td> 
+   <td colname="col1"> <p>Insertion-Order-ID </p> </td> 
+   <td colname="col2"> <p>Identifiant de l’ordre d’insertion. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID tactique </p> </td> 
    <td colname="col2"> <p>ID tactique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID vertical </p> </td> 
-   <td colname="col2"> <p>ID d’une catégorie ou d’un secteur industriel vertical. </p> </td> 
+   <td colname="col1"> <p>Identifiant vertical </p> </td> 
+   <td colname="col2"> <p>Identifiant pour un secteur industriel vertical ou une catégorie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quantité </p> </td> 
@@ -123,10 +122,10 @@ Le tableau ci-dessous liste et décrit les en-têtes de colonne de votre fichier
   </tr> 
   <tr> 
    <td colname="col1"> <p>Autres données </p> </td> 
-   <td colname="col2"> <p>URL du landing page de conversion. Type de données : chaîne. </p> <p> <i>Pour les fichiers de données de conversion uniquement.</i> </p> </td> 
+   <td colname="col2"> <p>URL de la landing page de conversion. Type de données : chaîne. </p> <p> <i>Pour les fichiers de données de conversion uniquement.</i> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Événement-Type </p> </td> 
+   <td colname="col1"> <p>Event-Type </p> </td> 
    <td colname="col2"> <p>Type de conversion. Indique si une conversion correspond ou non. Les options incluent : </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: Impression </li> 
@@ -141,21 +140,21 @@ Le tableau ci-dessous liste et décrit les en-têtes de colonne de votre fichier
  </tbody> 
 </table>
 
-## Méthodes de diffusion pour les fichiers de données {#delivery-methods}
+## Méthodes de distribution des fichiers de données {#delivery-methods}
 
-Transférez vos fichiers de données d’impression, de clic ou de conversion vers un répertoire Amazon S3 pour votre compte [!DNL Audience Manager]. Reportez-vous à cette section pour obtenir des informations sur les chemins d’accès aux diffusions/répertoires, les délais de traitement des fichiers et les mises à jour.
+Chargez vos fichiers de données d’impression, de clic ou de conversion dans un répertoire Amazon S3 pour votre compte [!DNL Audience Manager]. Reportez-vous à cette section pour plus d’informations sur les chemins de diffusion/répertoire, les temps de traitement des fichiers et les mises à jour.
 
 >[!IMPORTANT]
 >
-> Contactez votre conseiller en Audience Manager ou le service d’assistance clientèle pour commencer et configurer un répertoire [!DNL Amazon S3] pour vos fichiers de données.
+> Contactez votre conseiller en Audience Manager ou l’assistance clientèle pour commencer et configurer un répertoire [!DNL Amazon S3] pour vos fichiers de données.
 
 **Syntaxe du chemin de diffusion et exemples**
 
-Les données sont stockées dans un espace de nommage distinct pour chaque client dans un répertoire [!DNL Amazon S3]. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Remarque : *italics* indique un espace réservé de variable. Les autres éléments sont des constantes ou des clés et ne changent pas.
+Les données sont stockées dans un espace de noms distinct pour chaque client dans un répertoire [!DNL Amazon S3]. Le chemin d’accès au fichier suit la syntaxe illustrée ci-dessous. Remarque : *italics* indique un espace réservé de variable. Les autres éléments sont des constantes ou des clés et ne changent pas.
 
-**Syntaxe :** <pre>.../log_inged/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>type de fichier</i>_<i>yyyymmdd</i></code></pre>
+**Syntaxe :** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>type de fichier</i>_<i>aaaaammdd</i></code></pre>
 
-Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion de fichiers.
+Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion de fichier.
 
 <table id="table_E3DB873D4CB3479AA7173838EB9898CE"> 
  <thead> 
@@ -167,15 +166,15 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
-   <td colname="col2"> <p>Début du chemin d'enregistrement de l'annuaire. Vous recevrez le chemin complet lorsque tout sera configuré. </p> </td> 
+   <td colname="col2"> <p>Il s’agit du début du chemin de stockage du répertoire. Vous recevrez le chemin complet lorsque tout sera configuré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Cette paire clé-valeur contient votre <span class="keyword"> Audience Manager</span> identifiant client. </p> </td> 
+   <td colname="col2"> <p>Cette paire clé-valeur contient votre ID de client <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
-   <td colname="col2"> <p>Cette paire clé-valeur contient l’identifiant de source de données transmis lors d’un appel de événement. Il identifie l'organisme d'où proviennent les données et les lie à un fichier de métadonnées. </p> </td> 
+   <td colname="col2"> <p>Cette paire clé-valeur contient l’identifiant de source de données transmis lors d’un appel d’événement. Il identifie l’agence d’où proviennent les données et les associe à un fichier de métadonnées pris en charge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> logs</code> </p> </td> 
@@ -183,23 +182,23 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
-   <td colname="col2"> <p>Nom de type de fichier qui indique le type de données qu’il contient et un horodatage de diffusion. </p> </td> 
+   <td colname="col2"> <p>Un nom de type de fichier qui indique le type de données qu’il contient et un horodatage de diffusion. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple de chemin de téléchargement et de nom de fichier**
+**Exemple de chemin de téléchargement et nom de fichier**
 
-Lorsque vous téléchargez un fichier, le chemin d’accès se présente comme suit :
+Lorsque vous chargez un fichier, le chemin d’accès se présente comme suit :
 
 `.../log_ingestion/pid=1234/dpid=567/logs/impressions_20150902`
 
-**Heures de traitement des fichiers et mises à jour**
+**Heures et mises à jour de traitement des fichiers**
 
 Les fichiers de données sont traités quatre fois par jour, à intervalles réguliers.
 
-Pour mettre à jour vos données, envoyez un fichier qui contient toutes les impressions, les clics ou les conversions pour un jour donné. Dans ce cas, un jour correspond à la période de 24 heures allant d’un minuit à l’autre. Il est recommandé d’utiliser l’heure UTC pour définir l’intervalle de jour.
+Pour mettre à jour vos données, envoyez un fichier contenant toutes les impressions, clics ou conversions pour un jour spécifique. Dans ce cas, un jour correspond à la période de 24 heures allant d’une minuit à l’autre. Il est recommandé d’utiliser l’heure UTC pour définir l’intervalle de jours.
 
 ## Étapes suivantes {#next-steps}
 
-Examinez les exigences relatives au nommage et à la création de fichiers de métadonnées. Pour commencer, voir [Aperçu et mappages pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Examinez les exigences en matière de dénomination et de création de fichiers de métadonnées. Pour commencer, voir [Présentation et mappages pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
