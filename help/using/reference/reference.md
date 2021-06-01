@@ -4,9 +4,8 @@ seo-description: Contient une documentation technique sur les fonctionnalités d
 seo-title: 'Référence '
 solution: Audience Manager
 title: 'Référence '
-feature: Reference
+feature: 'Référence '
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '65'
@@ -16,7 +15,7 @@ ht-degree: 33%
 
 # Référence 
 
-Cette section contient de la documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide. Certaines pages de cette section sont les suivantes :
+Cette section contient une documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide. Certaines pages de cette section sont les suivantes :
 
 * [Outils de gestion en bloc](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [Composants système ](/help/using/reference/system-components/components-overview.md)
