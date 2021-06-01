@@ -5,9 +5,8 @@ seo-title: FAQ sur la rétention des données et la confidentialité
 solution: Audience Manager
 title: FAQ sur la rétention des données et la confidentialité
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance & Privacy
+feature: Gouvernance et confidentialité des données
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '761'
@@ -56,15 +55,15 @@ Le tableau suivant répertorie les temps de rétention pour différents types de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Serveurs principaux </p> </td> 
-   <td colname="col2"> <p>120 jours </p> <p> Audience Manager supprime les données utilisateur de nos serveurs principaux 120 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> Audience Manager</span> enregistre l'activité des utilisateurs dans ce cycle de 120 jours, nous conserverons ces données pendant 120 jours supplémentaires. </p> </td> 
+   <td colname="col2"> <p>120 jours </p> <p> Audience Manager supprime les données utilisateur de nos serveurs principaux 120 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> l’Audience Manager</span> enregistre une activité utilisateur au cours de ce cycle de 120 jours, nous conserverons ces données pendant 120 jours supplémentaires. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serveurs Edge </p> </td> 
-   <td colname="col2"> <p> 14 jours </p> <p>Audience Manager supprime les données utilisateur de nos serveurs Edge 14 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> Audience Manager</span> enregistre l'activité des utilisateurs dans ce cycle de 14 jours, nous conserverons ces données pendant 14 jours supplémentaires. Si l’utilisateur redevient principal après le cycle de 14 jours, un délai s’écoulera entre cette première nouvelle vue de page et le moment où l’utilisateur pourra agir. Il faut entre 6 et 18 heures pour que le profil complet soit remis au centre de bord après plus de 14 jours d'inactivité. </p> </td> 
+   <td colname="col2"> <p> 14 jours </p> <p>Audience Manager supprime les données utilisateur de nos serveurs Edge 14 jours après la dernière visite d’un utilisateur sur la plateforme Audience Manager. Si <span class="keyword"> l’Audience Manager</span> enregistre une activité utilisateur au cours de ce cycle de 14 jours, nous conserverons ces données pendant 14 jours supplémentaires. Si l’utilisateur redevient principal après le cycle de 14 jours, un délai s’écoulera entre cette première nouvelle page vue et le moment où l’utilisateur deviendra exploitable. Il faut entre 6 et 18 heures pour que le profil complet soit renvoyé au centre Edge après plus de 14 jours d’inactivité. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Journaux bruts </p> </td> 
-   <td colname="col2"> <p>60 jours (après 60 jours sans activité) </p> <p>Les journaux bruts sont des données reçues par un serveur Edge au moyen d’appels HTTP ou à partir de fichiers intégrés envoyés à <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 jours (retirés après 60 jours sans activité) </p> <p>Les journaux bruts sont des données reçues par un serveur Edge au moyen d’appels HTTP ou à partir de fichiers intégrés envoyés à <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Journaux du serveur de publicités </p> </td> 
@@ -72,7 +71,7 @@ Le tableau suivant répertorie les temps de rétention pour différents types de
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profils au niveau CRM (profils authentifiés) </p> </td> 
-   <td colname="col2"> <p>La durée de vie par défaut des profils au niveau CRM (identifiants client) inactifs est de 24 mois. Cependant, vous pouvez utiliser l’interface utilisateur de l’Audience Manager pour réduire ou étendre l’intervalle TTL pour les profils inactifs au niveau de la gestion de la relation client entre un mois et 5 ans. Pour ce faire, vous pouvez créer ou modifier une source de données multi-appareils.</p> <p>Pour plus d’informations, voir les paramètres de source de données dans la <a href="../features/profile-merge-rules/merge-rules-start.md#settings">création d’une source de données multi-appareils</a>.</p> </td> 
+   <td colname="col2"> <p>La durée de vie par défaut des profils au niveau CRM (identifiants client) inactifs est de 24 mois. Cependant, vous pouvez utiliser l’interface utilisateur de l’Audience Manager pour réduire ou étendre l’intervalle TTL pour les profils au niveau CRM inactifs entre un mois et 5 ans. Pour ce faire, vous pouvez créer ou modifier une source de données multi-appareils.</p> <p>Pour plus d’informations, voir les paramètres de source de données dans la <a href="../features/profile-merge-rules/merge-rules-start.md#settings">création d’une source de données multi-appareils</a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiants d’appareil mobile </p> </td> 
