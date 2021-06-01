@@ -1,28 +1,27 @@
 ---
-description: Le nom d’hôte du serveur DCS régional est requis pour effectuer des appels au serveur DCS. En effet, le serveur de collecte de données stocke des informations dans des centres de données situés à proximité géographique des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais serveur de collecte de données, mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une demande de serveur de collecte de données, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et indiquez le nom d’hôte approprié dans votre requête.
-seo-description: Le nom d’hôte du serveur DCS régional est requis pour effectuer des appels au serveur DCS. En effet, le serveur de collecte de données stocke des informations dans des centres de données situés à proximité géographique des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais serveur de collecte de données, mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une demande de serveur de collecte de données, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et indiquez le nom d’hôte approprié dans votre requête.
+description: Le nom d’hôte du serveur DCS régional est requis pour effectuer des appels au serveur DCS. En effet, le serveur de collecte de données stocke des informations dans des centres de données qui sont proches géographiquement des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais serveur de collecte de données, mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une requête DCS, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et créez votre requête avec le nom d’hôte approprié.
+seo-description: Le nom d’hôte du serveur DCS régional est requis pour effectuer des appels au serveur DCS. En effet, le serveur de collecte de données stocke des informations dans des centres de données qui sont proches géographiquement des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais serveur de collecte de données, mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une requête DCS, faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et créez votre requête avec le nom d’hôte approprié.
 seo-title: Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données
 solution: Audience Manager
 title: Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 9%
 
 ---
 
-
 # Identifiants de zone géographique, emplacements et noms d’hôte du serveur de collecte de données {#dcs-region-ids-locations-and-host-names}
 
-Le nom d&#39;hôte de serveur [!DNL DCS] régional est requis pour appeler [!DNL DCS]. En effet, [!DNL DCS] stocke des informations dans des centres de données situés à proximité géographique des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez au mauvais [!DNL DCS], mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une demande [!DNL DCS], faites correspondre l’identifiant de région à son nom d’hôte régional correspondant et formez votre requête avec le nom d’hôte approprié.
+Le [!DNL DCS] nom d’hôte de serveur régional est nécessaire pour effectuer des appels vers le [!DNL DCS]. En effet, la fonction [!DNL DCS] stocke des informations dans des centres de données qui sont proches géographiquement des visiteurs du site. Vos requêtes fonctionneront si vous les envoyez à la mauvaise [!DNL DCS], mais ces appels sont inefficaces et peuvent retarder la réponse. Pour effectuer une requête [!DNL DCS], faites correspondre l’identifiant de région au nom d’hôte régional correspondant et créez votre requête avec le nom d’hôte approprié.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> ID de région DCS (dcs_region) </th> 
+   <th colname="col1" class="entry"> Identifiant de zone géographique du serveur de collecte de données (dcs_region) </th> 
    <th colname="col2" class="entry"> Région (et emplacement) </th> 
    <th colname="col3" class="entry"> Nom d’hôte </th> 
   </tr> 
@@ -50,7 +49,7 @@ Le nom d&#39;hôte de serveur [!DNL DCS] régional est requis pour appeler [!DNL
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID8 </p> </td> 
-   <td colname="col2"> <p>Pacifique Sud / Océanie (Sydney, Australie) </p> </td> 
+   <td colname="col2"> <p>Pacifique Sud/Océanie (Sydney, Australie) </p> </td> 
    <td colname="col3"> <p> <code> apse2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
@@ -71,4 +70,4 @@ Le nom d&#39;hôte de serveur [!DNL DCS] régional est requis pour appeler [!DNL
  </tbody> 
 </table>
 
-Vous pouvez également utiliser les méthodes [!DNL API] pour obtenir une liste des régions [!DNL DCS] disponibles. Voir [Méthodes de l’API de région DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).
+Vous pouvez également utiliser les méthodes [!DNL API] pour obtenir une liste des régions [!DNL DCS] disponibles. Voir [Méthodes d’API de région DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).
