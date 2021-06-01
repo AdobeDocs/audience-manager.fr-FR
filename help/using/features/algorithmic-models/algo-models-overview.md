@@ -1,44 +1,43 @@
 ---
-description: Décrit les modèles algorithmiques disponibles dans l’Audience Manager.
+description: Décrit les modèles algorithmiques disponibles dans Audience Manager.
 keywords: algo, modèles de fonctionnement des audiences prédictives
-seo-description: Décrit les modèles algorithmiques disponibles dans l’Audience Manager.
+seo-description: Décrit les modèles algorithmiques disponibles dans Audience Manager.
 seo-title: Présentation des modèles algorithmiques
 solution: Audience Manager
 title: Présentation des modèles algorithmiques
-feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Modèles algorithmiques
+exl-id: ee5c3392-2756-45c5-b325-41a51d3c494f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 15%
+source-wordcount: '292'
+ht-degree: 16%
 
 ---
 
-
 # Présentation des modèles algorithmiques
 
-## Qu’est-ce que la modélisation algorithmique {#what-algo-modeling}
+## Qu’est-ce que la modélisation algorithmique{#what-algo-modeling}
 
-La modélisation algorithmique dans l’Audience Manager fait référence à l’utilisation de la science de données pour développer vos audiences existantes ou les classer en personnas.
+La modélisation algorithmique dans l’Audience Manager fait référence à l’utilisation de la science des données pour développer vos audiences existantes ou les classer en personas.
 
-Pour ce faire, vous utilisez deux types d’algorithmes : [!UICONTROL Look-Alike Modeling] et [!UICONTROL Predictive Audiences].
+Pour ce faire, vous devez utiliser deux types d’algorithmes : [!UICONTROL Look-Alike Modeling] et [!UICONTROL Predictive Audiences].
 
 ## Modélisation analogue{#lam}
 
-[!UICONTROL Look-Alike Modeling] vous aide à découvrir de nouvelles audiences uniques grâce à l’analyse automatisée des données. Le processus se début lorsque vous sélectionnez une caractéristique ou un segment, un intervalle de temps et des sources de données propriétaires et tiers. Vos choix fournissent les entrées pour le modèle algorithmique. Lorsque le processus d’analyse s’exécute, il recherche les utilisateurs éligibles en fonction de caractéristiques partagées de la population sélectionnée.
+[!UICONTROL Look-Alike Modeling] vous aide à découvrir de nouvelles audiences uniques grâce à l’analyse automatisée des données. Le processus démarre lorsque vous sélectionnez une caractéristique ou un segment, un intervalle de temps et des sources de données propriétaires et tierces. Vos choix fournissent les entrées pour le modèle algorithmique. Lorsque le processus d’analyse s’exécute, il recherche les utilisateurs éligibles en fonction des caractéristiques partagées de la population sélectionnée.
 
-Une fois les données terminées, elles sont disponibles dans [Trait Builder](../../features/traits/about-trait-builder.md) où vous pouvez les utiliser pour créer des caractéristiques basées sur [la précision et la portée](../../features/traits/trait-accuracy-reach.md). De plus, vous pouvez créer des segments qui combinent des caractéristiques algorithmiques avec des caractéristiques basées sur des règles et ajouter d’autres exigences de qualification avec des expressions booléennes et des opérateurs de comparaison.
+Une fois ces données terminées, elles sont disponibles dans le [créateur de caractéristiques](../../features/traits/about-trait-builder.md) où vous pouvez les utiliser pour créer des caractéristiques en fonction de la [précision et de la portée](../../features/traits/trait-accuracy-reach.md). De plus, vous pouvez créer des segments qui combinent des caractéristiques algorithmiques avec des caractéristiques basées sur des règles et ajouter d’autres exigences de qualification avec des expressions booléennes et des opérateurs de comparaison.
 
-[!UICONTROL Look-Alike Modeling] vous permet d’extraire de la valeur de toutes les données de caractéristiques disponibles de manière dynamique.
+[!UICONTROL Look-Alike Modeling] vous offre un moyen dynamique d’extraire de la valeur de toutes vos données de caractéristiques disponibles.
 
-Pour en savoir plus sur [!UICONTROL Look-Alike Modeling], voir [Présentation de la modélisation à l’aspect ](understanding-models.md).
+Pour en savoir plus sur [!UICONTROL Look-Alike Modeling], voir [Présentation de la modélisation analogue](understanding-models.md).
 
 ## Audiences prédictives{#predictive-audiences}
 
-[!UICONTROL Predictive Audiences] permet de classer une audience inconnue en différentes personnes, en temps réel, à l’aide de techniques avancées de science des données.
+[!UICONTROL Predictive Audiences] vous aide à classer en temps réel une audience inconnue en différentes personas à l’aide de techniques avancées de science des données.
 
 Dans un contexte marketing, une persona est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels qui partagent un ensemble spécifique de caractéristiques comme des données démographiques, des habitudes de navigation, un historique des achats, etc.
 
-[!UICONTROL Predictive Audiences] les modèles poussent ce concept encore plus loin, en utilisant les capacités d&#39;apprentissage automatique des Audiences Manager pour classer automatiquement les audiences inconnues en personnes distinctes. L&#39;Audience Manager y parvient en calculant la propension de votre audience inconnue à un ensemble d&#39;audiences connues.
+[!UICONTROL Predictive Audiences] Les modèles approfondissent encore ce concept en utilisant les capacités d’apprentissage automatique d’Audience Manager pour classer automatiquement les audiences inconnues en différentes personas. Pour ce faire, l’Audience Manager calcule la propension de votre audience inconnue pour un ensemble d’audiences connues.
 
-Pour en savoir plus sur [!UICONTROL Predictive Audiences], voir [Aperçu des Audiences prédictives](predictive-audiences.md).
+Pour en savoir plus sur [!UICONTROL Predictive Audiences], voir [Aperçu des audiences prédictives](predictive-audiences.md).
