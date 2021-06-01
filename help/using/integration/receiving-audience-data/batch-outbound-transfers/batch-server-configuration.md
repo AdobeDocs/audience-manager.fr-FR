@@ -1,33 +1,32 @@
 ---
-description: Avant de pouvoir envoyer des données de lot à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers.
-seo-description: Avant de pouvoir envoyer des données de lot à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers.
-seo-title: Configuration de l’intégration des données par lot
+description: Avant d’envoyer des données par lots à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers.
+seo-description: Avant d’envoyer des données par lots à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers.
+seo-title: Configuration de l’intégration des données par lots
 solution: Audience Manager
-title: Configuration de l’intégration du transfert de données par lot
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+title: Configuration de l’intégration du transfert de données par lots
+feature: Transferts de données sortantes
+exl-id: 0ed0f6bc-d4dd-4c6b-bc44-ea5c4ebe600b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
+# Configuration de l’intégration du transfert de données par lots
 
-# Configuration de l’intégration du transfert de données par lot
+Avant d’envoyer des données par lots à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers. Vous pouvez le faire de deux façons :
 
-Avant de pouvoir envoyer des données de lot à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers. Vous pouvez le faire de deux manières :
+## Demandez la configuration de l’aide auprès de votre consultant Adobe {#config-consultant}
 
-## Demander une configuration d&#39;assistance par l&#39;intermédiaire de votre consultant d&#39;Adobe {#config-consultant}
+Si vous travaillez avec un consultant Adobe, il s’occupera de la procédure de configuration pour vous.
 
-Si vous travaillez avec un consultant en Adobe, il s&#39;occupera du processus de configuration pour vous.
+## Demande de configuration de l’assistance via le service clientèle d’Adobe {#config-support}
 
-## Demander une configuration d&#39;assistance par l&#39;intermédiaire de l&#39;assistance clientèle de l&#39;Adobe {#config-support}
-
-Si vous ne travaillez pas avec un conseiller en Adobe, vous pouvez toujours obtenir l’intégration du transfert par lot configurée par le service d’assistance clientèle. Pour plus d’informations, contactez l’assistance clientèle.
+Si vous ne travaillez pas avec un consultant Adobe, vous pouvez toujours obtenir l’intégration du transfert par lots configurée par le service clientèle. Pour plus d’informations, contactez le service clientèle.
 
 >[!IMPORTANT]
 >
->Si vous utilisez l’authentification par clé SSH, le service d’assistance clientèle vous demandera de générer les clés SSH.
+>Si vous utilisez l’authentification par clé SSH, le service clientèle vous demandera de générer les clés SSH.
 >
 > Veillez à générer les clés au format OpenSSH.
