@@ -1,25 +1,24 @@
 ---
-description: Code requis par DART Enterprise (et d’autres types de destination) pour capturer la valeur de l’ID utilisateur unique d’Audience Manager (UUID).
-seo-description: Code requis par DART Enterprise (et d’autres types de destination) pour capturer la valeur de l’ID utilisateur unique d’Audience Manager (UUID).
+description: Code requis par DART Enterprise (et d’autres types de destination) pour capturer la valeur d’identifiant utilisateur unique de l’Audience Manager (UUID).
+seo-description: Code requis par DART Enterprise (et d’autres types de destination) pour capturer la valeur d’identifiant utilisateur unique de l’Audience Manager (UUID).
 seo-title: Code get_aamCookie
 solution: Audience Manager
 title: Code get_aamCookie
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: Concepts de base des destinations
+exl-id: 66e61a4b-908e-4950-8953-37a9920b67b5
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '77'
 ht-degree: 9%
 
 ---
 
-
 # `get_aamCookie` Code {#get-aamcookie-code}
 
-Code requis par [!DNL DART Enterprise] (et d&#39;autres types de destination) pour capturer la valeur de l&#39;ID utilisateur unique de l&#39;Audience Manager ([!DNL UUID]).
+Code requis par [!DNL DART Enterprise] (et d’autres types de destination) pour capturer la valeur d’identifiant utilisateur unique de l’Audience Manager ([!DNL UUID]).
 
-Définissez cette fonction en haut de la page, idéalement dans le bloc de codes `<head>`.
+Définissez cette fonction en haut de la page, idéalement dans le bloc de code `<head>`.
 
 <!-- r_aam_de_cookie.xml -->
 
