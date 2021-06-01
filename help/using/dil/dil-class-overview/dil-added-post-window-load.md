@@ -1,23 +1,22 @@
 ---
-description: Permet de faire savoir au DIL qu’il est chargé après le chargement de la fenêtre.
-seo-description: Permet de faire savoir au DIL qu’il est chargé après le chargement de la fenêtre.
+description: Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
+seo-description: Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
 uuid: 8cdeab00-6ce4-4f07-bb63-41425369a5b7
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Mise en oeuvre du DIL
+exl-id: 955fe0f2-2a64-491f-9098-e5aabcc697db
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '48'
 ht-degree: 10%
 
 ---
 
-
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Permet de faire savoir au DIL qu’il est chargé après le chargement de la fenêtre.
+Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
 
 **Signature de fonction :** `isAddedPostWindowLoad: function()`
 
