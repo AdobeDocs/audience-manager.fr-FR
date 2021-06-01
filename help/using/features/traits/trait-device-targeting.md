@@ -1,33 +1,32 @@
 ---
-description: Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
-seo-description: Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
+description: Décrit les paires clé-valeur courantes au niveau de la plateforme que vous pouvez utiliser pour cibler les utilisateurs avec des variables liées à l’appareil dans toutes les propriétés de votre compte d’Audience Manager.
+seo-description: Décrit les paires clé-valeur courantes au niveau de la plateforme que vous pouvez utiliser pour cibler les utilisateurs avec des variables liées à l’appareil dans toutes les propriétés de votre compte d’Audience Manager.
 seo-title: Ciblage des périphériques à l’aide de clés au niveau des plateformes
 solution: Audience Manager
 title: Ciblage des périphériques à l’aide de clés au niveau des plateformes
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Caractéristiques '
+exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 9%
 
 ---
 
-
 # Ciblage des périphériques à l’aide de clés au niveau des plateformes {#device-targeting-with-platform-level-keys}
 
-Décrit les paires clé-valeur communes au niveau de la plate-forme que vous pouvez utiliser pour cible les utilisateurs avec des variables liées au périphérique sur toutes les propriétés de votre compte d’Audience Manager.
+Décrit les paires clé-valeur courantes au niveau de la plateforme que vous pouvez utiliser pour cibler les utilisateurs avec des variables liées à l’appareil dans toutes les propriétés de votre compte d’Audience Manager.
 
-## Objet des variables au niveau de la plate-forme {#platform-variables}
+## Objectif des variables au niveau de la plateforme {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Les variables au niveau de la plate-forme vous permettent de prendre les données transmises à partir d&#39;un site particulier et de les rendre disponibles pour le ciblage sur toutes les propriétés de votre compte [!DNL Audience Manager]. Ces variables sont formées par des paires [clé-valeur](../../reference/key-value-pairs-explained.md) avec la clé précédée de `d_` comme indiqué ci-dessous.
+Les variables au niveau de la plateforme vous permettent de prendre les données transmises à partir d’un site particulier et de les rendre disponibles pour le ciblage sur toutes les propriétés de votre compte [!DNL Audience Manager]. Ces variables sont formées par des [paires clé-valeur](../../reference/key-value-pairs-explained.md) avec le préfixe clé `d_` comme illustré ci-dessous.
 
-## Clés de niveau plate-forme définies par l&#39;agent utilisateur {#keys-user-agent}
+## Clés au niveau de la plateforme définies par l’agent utilisateur {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers] extrait les valeurs de ces clés de l&#39;en-tête de l&#39;agent utilisateur [](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) dans les requêtes `HTTP`. Les valeurs représentent des informations au niveau du périphérique provenant de la base de données [!UICONTROL Device Atlas]. Les signaux du tableau ci-dessous sont disponibles, comme extrait de l&#39;exemple de l&#39;agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv) les plus courantes, selon  [!UICONTROL Device Atlas] les mesures.
+[!UICONTROL Data Collection Servers] extrait les valeurs de ces clés de l’en-tête [de l’agent utilisateur](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) dans les demandes `HTTP`. Les valeurs représentent des informations au niveau de l’appareil de la base de données [!UICONTROL Device Atlas]. Les signaux du tableau ci-dessous sont disponibles, comme extrait de l’exemple de l’agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv) les plus courantes, selon les  [!UICONTROL Device Atlas] mesures.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -45,7 +44,7 @@ Les variables au niveau de la plate-forme vous permettent de prendre les donnée
 
 >[!NOTE]
 >
->Même si un ou plusieurs signaux ne peuvent pas être extraits de l&#39;en-tête de l&#39;agent utilisateur, les autres signaux seront toujours transmis à [!UICONTROL Data Collection Servers].
+>Même si un ou plusieurs signaux ne peuvent pas être récupérés à partir de l’en-tête de l’agent utilisateur, les autres signaux seront toujours transmis à la balise [!UICONTROL Data Collection Servers].
 
 >[!MORELIKETHIS]
 >
