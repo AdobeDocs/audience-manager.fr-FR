@@ -6,9 +6,8 @@ seo-title: FAQ sur les stratégies de fusion de profils et la représentation gr
 solution: Audience Manager
 title: FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge
+feature: Fusion des profils
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1552'
@@ -260,18 +259,18 @@ Oui. La mesure de population totale de segments inclut les appareils supplément
 
 Non.
 
-**Pourquoi est-ce que je vois une population de segments zéro pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
+**Pourquoi est-ce que je vois une population de segment nulle pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
 
-À la fin de 2019, nous avons publié une série d’améliorations des règles de fusion de Profil afin d’améliorer la précision des fichiers de commandes générés à l’aide d’ID d’ensemble de périphériques. Ces améliorations seront strictement respectées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’un ID inter-périphériques cesseront de produire des exportations dans certaines configurations de règles de fusion de Profil.
+Fin 2019, nous avons publié une série d’améliorations des règles de fusion de profils afin d’améliorer la précision des fichiers de lots générés à l’aide des identifiants multi-appareils. Ces améliorations seront strictement appliquées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’identifiants multi-appareils cesseront de produire des exportations dans certaines configurations de stratégies de fusion de profils.
 
-Pour garantir l’intégration correcte entre votre instance d’Audience Manager et vos destinations à l’aide d’identifiants inter-périphériques, tels que Adobe Campaign, assurez-vous de respecter les exigences suivantes :
+Pour garantir la bonne intégration entre l’instance d’Audience Manager et les destinations à l’aide d’identifiants multi-appareils, tels qu’Adobe Campaign, assurez-vous de respecter les conditions suivantes :
 
-1. Examinez la règle de fusion de Profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La règle de fusion du Profil doit utiliser l&#39;option [!UICONTROL Last Authenticated Profile], de sorte que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de Profil utilise une autre option, passez-la à [!UICONTROL Last Authenticated Profile].
-2. Sélectionnez la source de données d’ID déclarés Adobe Campaign dans les paramètres de la règle de fusion de Profils.
+1. Examinez la règle de fusion de profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La stratégie de fusion de profils doit utiliser l’option [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre stratégie de fusion de profils utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
+2. Sélectionnez la source de données Adobe Campaign Declared ID dans les paramètres de la stratégie de fusion de profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la règle de fusion de Profil de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de Profil dédiée pour les segments mappés à la destination de l’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de Profils pour les autres cas d’utilisation.
+> Nous avons augmenté la limite de la stratégie de fusion de profils de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de profils dédiée pour les segments mappés à la destination d’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de profils pour d’autres cas d’utilisation.
 
 >[!MORELIKETHIS]
 >
