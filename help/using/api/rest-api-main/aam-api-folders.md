@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Méthodes d’API de dossier
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: ab8d6421-ba6a-4eac-9b2b-dbd0a1ef2a64
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 14%
 
 ---
-
 
 # Méthodes d’API de dossier {#folder-api-methods}
 
@@ -23,6 +22,7 @@ Méthodes qui vous permettent de travailler par programmation avec des dossiers 
 
 >[!IMPORTANT]
 >
->Les méthodes de dossier [!DNL API] ont été réécrites avec [!DNL Swagger] et migrées. Voir:  >
->* [Documentation de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>Les méthodes [!DNL API] du dossier ont été réécrites avec [!DNL Swagger] et migrées. Voir:  >
+>* [Documents de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)
+
