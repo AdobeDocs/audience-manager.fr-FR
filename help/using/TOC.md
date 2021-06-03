@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Découvrez comment l’Audience Manager vous permet de collecter des informations commercialement pertinentes sur les visiteurs du site, de créer des segments commercialisables et de diffuser des publicités et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
+source-git-commit: cf9368d4690b61066646054543cc60d390eea021
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 91%
+source-wordcount: '1809'
+ht-degree: 90%
 
 ---
 
@@ -393,6 +393,7 @@ ht-degree: 91%
    + [FAQ sur les destinations basées sur les personnes](faq/faq-people-based-destinations.md)
    + [FAQ sur les fonctions et fonctionnalités de produit](faq/faq-features.md)
    + [FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils](faq/faq-profile-merge.md)
+   + [FAQ sur la modélisation analogue](faq/faq-lookalike-modeling.md)
    + [FAQ sur les audiences prédictives](faq/faq-predictive-audiences.md)
    + [FAQ sur le ciblage](faq/faq-targeting.md)
    + [FAQ sur la création de rapports](faq/faq-reporting.md)
