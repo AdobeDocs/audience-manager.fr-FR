@@ -6,7 +6,7 @@ title: Suppression instantanée multi-appareils
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Fusion des profils
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 15%
@@ -67,4 +67,4 @@ Gardez à l’esprit les aspects suivants liés au traitement :
 Gardez à l’esprit les aspects suivants liés au timing :
 
 * Un segment sera stocké sur l’[Edge](../../reference/system-components/components-edge.md) pendant la même période qu’un profil d’appareil est stocké sur l’[!UICONTROL Edge], c’est-à-dire 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la rétention des données, consultez la [FAQ sur la rétention des données](../../faq/faq-privacy.md#data-retention-faq).
-* La propagation de l’opération de non-segmentation dans les régions [!DNL DCS] prend environ 24 heures. Pour en savoir plus sur nos [!DNL DCS] régions [ici](../..//reference/system-components/components-data-collection.md) et [ici](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* La propagation de l’opération de non-segmentation dans les régions [!DNL DCS] prend environ 24 heures. Pour en savoir plus sur nos [!DNL DCS] régions [ici](../../reference/system-components/components-data-collection.md) et [ici](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
