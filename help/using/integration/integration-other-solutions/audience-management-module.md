@@ -8,7 +8,7 @@ title: Mise en oeuvre du module de gestion de l’audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Intégration d’Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Il existe deux méthodes pour mettre en oeuvre le transfert de données de [!DNL
 
 ### Mise en oeuvre à l’aide de [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] vous recommande d’utiliser l’extension  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Launch pour instrumenter  [!DNL Adobe Analytics] et  [!DNL Audience Manager] sur vos propriétés. Dans ce cas, il n’est pas nécessaire de copier manuellement un code. Vous devez plutôt activer le partage de données dans l’extension [!DNL Analytics Launch], comme illustré dans l’image ci-dessous. Voir également la documentation [Extension Adobe Analytics](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
+[!DNL Adobe] vous recommande d’utiliser l’extension  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launch pour instrumenter  [!DNL Adobe Analytics] et  [!DNL Audience Manager] sur vos propriétés. Dans ce cas, il n’est pas nécessaire de copier manuellement un code. Vous devez plutôt activer le partage de données dans l’extension [!DNL Analytics Launch], comme illustré dans l’image ci-dessous. Voir également la documentation [Extension Adobe Analytics](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
 
 >[!TIP]
 >
