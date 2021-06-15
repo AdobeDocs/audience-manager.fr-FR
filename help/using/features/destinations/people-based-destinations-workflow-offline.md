@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 'Processus B : personnalisation basée sur les données hors ligne uniquement'
 feature: Destinations basées sur les personnes
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Que vos ID de client d’Audience Manager existants ([DPUUIDs](../../reference/i
 
 ### Exemple
 
-Vous souhaitez qualifier les ID de client du tableau ci-dessous pour les ID de caractéristique intégrés correspondants. Supposons que vos [DPUUID](../../reference/ids-in-aam.md) soient stockés dans une source de données avec l’ID 999999, et que votre identifiant de partenaire d’Audience Manager soit 123.
+Vous souhaitez qualifier les ID de client du tableau ci-dessous pour les ID de caractéristique intégrés correspondants. Supposons que vos [DPUUID](../../reference/ids-in-aam.md) soient stockés dans une source de données avec l’ID 999999, et que l’ID de source de données d’Audience Manager soit 123.
 
 | ID de client (DPUUID) | Identifiant de caractéristique intégré |
 | -------------------------------------- | ------------------- |
