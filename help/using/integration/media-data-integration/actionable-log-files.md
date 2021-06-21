@@ -8,7 +8,7 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Fichiers journaux
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 3%
@@ -176,7 +176,7 @@ Le tableau répertorie les signaux exploitables provenant des fichiers journaux 
 
 
 | Nom de l’en-tête dans le fichier journal | Signal | Description |
----------|----------|---------
+|---------|----------|---------|
 | `LineItemId` | `d_lineitem` | Identifiant numérique pour l’élément de ligne Ad Manager diffusé. |
 | `OrderId` | `d_orderid` | Identifiant numérique de la commande du gestionnaire d’annonces qui contenait l’élément de ligne diffusé et le contenu créatif. |
 | `CreativeId` | `d_creative` | Identifiant numérique pour le créatif Ad Manager diffusé. |
