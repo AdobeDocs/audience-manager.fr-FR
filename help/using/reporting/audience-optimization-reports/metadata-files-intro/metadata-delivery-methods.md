@@ -7,7 +7,7 @@ title: Méthodes de distribution des fichiers de métadonnées
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: Fichiers journaux
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 4%
@@ -44,7 +44,7 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion
 
 
 | Paramètre de fichier | Description |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | Il s’agit du début du chemin de stockage du répertoire. Vous recevrez le chemin complet lorsque tout sera configuré. |
 | `pid=<AAM ID>` | Cette paire clé-valeur contient votre ID client d’Audience Manager. |
 | `dpid=<d_src>` | Cette paire clé-valeur contient l’identifiant de source de données transmis lors d’un appel d’événement. L’identifiant de source de données est la valeur qui lie tout le contenu de votre fichier aux données réelles auxquelles il appartient. </br> Supposons, par exemple, que vous ayez un créatif avec l’ID 123 et le nom &quot;Créatif publicitaire A&quot;. Lorsqu’un appel d’événement transmet uniquement l’identifiant, vous devez inclure &quot;Advertiser Creative A&quot; dans le fichier de métadonnées. La campagne et le contenu créatif appartiennent à une source de données. L’identifiant de source de données est ce qui relie ces données et nous permet d’associer précisément le contenu du fichier à un identifiant envoyé lors d’un appel d’événement. Voir [Comment les ID d’appel d’événement déterminent les noms de fichier, le contenu et les chemins de diffusion](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
