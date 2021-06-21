@@ -8,7 +8,7 @@ title: Audiences adressables
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Taux de correspondance
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -47,7 +47,7 @@ La fonction [!UICONTROL Addressable Audience] transforme ce concept abstrait en 
 Les trois mesures que vous pouvez voir sur la page d’entrée [!UICONTROL Addressable Audiences] représentent :
 
 | Mesure | Description |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Cette mesure représente la valeur [!UICONTROL Customer Addressable Audience] (décrite dans le tableau ci-dessus) *pour les 30 derniers jours.* |
 | **[!UICONTROL Match Rate]** | Cette mesure représente la valeur [!UICONTROL Addressable Audience Match Rate] (décrite dans le tableau ci-dessus) *pour les 30 derniers jours*. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | Comptage de tous les appareils qui ont interagi avec tous les clients [!DNL Audience Manager] au niveau de la plateforme pendant la période d’analyse du rapport et qui peuvent être associés à cette [!UICONTROL destination]. Voir [Mesures au niveau de la plateforme](/help/using/features/addressable-audiences.md#platform-level-metrics) pour plus d’informations. |
