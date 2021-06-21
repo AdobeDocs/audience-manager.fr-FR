@@ -7,7 +7,7 @@ title: Données sur la population de segment et les caractéristiques dans le cr
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: 'Segments '
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Le tableau suivant définit les mesures de population de caractéristiques :
 
 
 | Mesure | Description |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | Le nombre d’identifiants uniques dont le profil contient la caractéristique sélectionnée. |
 
 
@@ -122,7 +122,7 @@ Le tableau suivant définit les mesures en temps réel et de population totale l
 
 
 | Colonne A | Colonne B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | Nombre réel d’appareils vus en temps réel avec des profils actuels qui, lorsqu’ils sont fusionnés avec jusqu’à 100 autres profils d’appareils connectés par le graphique d’appareil, contiennent les caractéristiques à remplir pour le segment au moment où il a été vu par l’Audience Manager. |
 | [!UICONTROL Total Population (Existing)] | Nombre total d’appareils avec des profils qui, lorsqu’ils étaient fusionnés avec jusqu’à 100 autres profils d’appareils connectés par la représentation graphique des appareils, étaient tous qualifiés pour le segment. |
 
