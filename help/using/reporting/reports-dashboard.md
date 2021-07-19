@@ -61,7 +61,7 @@ Ce panneau affiche le nombre de visiteurs uniques au cours de la période spéci
 >
 >Le nombre total de visiteurs uniques représente les visiteurs capturés au moyen de caractéristiques basées sur des règles ou intégrées. Cependant, le nombre total de visiteurs uniques n’est pas égal à la somme des visiteurs uniques capturés à l’aide des caractéristiques basées sur des règles et intégrées. Un même utilisateur unique peut être représenté dans l’un de ces deux types de caractéristiques.
 
-## Caractéristiques les plus grandes/Caractéristiques les plus modifiées {#largest-traits}
+## Caractéristiques les plus grandes/caractéristiques les plus modifiées {#largest-traits}
 
 Autorisation requise pour l’affichage : [!UICONTROL View Traits].
 
@@ -92,7 +92,7 @@ Ce panneau contient les onglets suivants :
  </tbody> 
 </table>
 
-## Segments les plus grands/Segments les plus modifiés {#most-changed-segments}
+## Segments les plus grands/segments les plus modifiés {#most-changed-segments}
 
 Autorisation requise pour l’affichage : [!UICONTROL View Segments].
 
