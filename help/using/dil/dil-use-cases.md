@@ -24,7 +24,7 @@ c_dil_use_case.xml
 
  -->
 
-## Envoyer des éléments de données à l’Audience Manager avec DIL {#send-data-elements-dil}
+## Envoi des éléments de données à Audience Manager avec DIL {#send-data-elements-dil}
 
 Créez une variable d’objet qui envoie des informations sur les éléments de page à l’Audience Manager. Cela s’avère utile pour la collecte générale des données ou comme alternative à la collecte de données avec des variables Analytics.
 
@@ -181,7 +181,7 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## Mise en correspondance des valeurs de clés avec d’autres clés {#map-key-values}
+## Mise en correspondance des valeurs clés avec d’autres clés {#map-key-values}
 
 Associez la valeur d’une paire clé-valeur à une autre clé.
 
