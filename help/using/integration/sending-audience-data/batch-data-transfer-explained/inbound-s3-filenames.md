@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# [!DNL Amazon S3] Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Exigences en matière de nom et de taille de fichier pour les fichiers de données entrants {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Décrit les champs, la syntaxe, les conventions de nommage et les tailles de fichier requis à respecter lors de l’envoi de données à [!DNL Audience Manager]. Définissez les noms et les tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données vers un répertoire [!DNL Audience Manager] / [!DNL Amazon S3].
 
@@ -101,7 +101,7 @@ Le tableau définit les éléments dans un nom de fichier [!DNL S3].
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>Entier. Utilisé lorsque vous divisez des fichiers volumineux en plusieurs parties afin d’améliorer les temps de traitement. Le numéro indique la partie du fichier d’origine que vous envoyez. </p> <p>Pour optimiser le traitement des fichiers, divisez vos fichiers de données comme indiqué : </p> 
+   <td colname="col2"> <p>Entier. Utilisé lorsque vous divisez des fichiers volumineux en plusieurs parties afin d’améliorer les temps de traitement. Le numéro indique la partie du fichier d’origine que vous envoyez. </p> <p>Pour un traitement efficace des fichiers, divisez vos fichiers de données comme indiqué : </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Décompressé : 1 Go </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compressé : 200 à 300 Mo </li> 
