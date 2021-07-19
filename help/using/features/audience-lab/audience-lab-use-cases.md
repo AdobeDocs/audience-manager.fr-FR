@@ -44,7 +44,7 @@ Dans ce cas pratique, vous comparez différents modèles. Vous pouvez utiliser d
    * La [vue de rapport Audience Lab](../../features/audience-lab/audience-lab-reporting-view.md) indique le nombre de conversions générées par chaque modèle. Pour les campagnes basées sur les conversions, le segment de test qui génère le plus de conversions correspond au modèle le plus performant.
    * Comme vous disposez de segments de contrôle, vous pouvez également évaluer la manière dont le modèle s’est comporté par rapport au &quot;ciblage standard&quot;. Vous testez non seulement un modèle par rapport à un autre, mais vous vous demandez si ce modèle a fait mieux que les pratiques normales.
 
-## Test des créations sur plusieurs destinations {#testing-creatives}
+## Test de créatifs sur plusieurs destinations {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 
