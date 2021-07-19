@@ -27,7 +27,7 @@ Décrit les caractéristiques et la taille du segment, ainsi que le temps de cr�
 * Un segment doit avoir été créé avant 12h00 jeudi UTC (2 jours complets avant le début du processus de mise à jour hebdomadaire du rapport de chevauchement).
 * Votre société doit être un client complet [!DNL Audience Manager]. Veuillez contacter votre [!DNL Audience Manager] consultant ou l’assistance clientèle pour en savoir plus.
 
-## Taille du segment et/ou durée de création affectent la création de rapports {#segment-size}
+## La taille du segment et/ou le temps de création affectent la création de rapports {#segment-size}
 
 Si un segment ne figure pas dans l’un des rapports [!UICONTROL Overlap], c’est peut-être parce qu’il ne répond pas à ces exigences minimales.
 
