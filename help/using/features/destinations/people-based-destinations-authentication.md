@@ -24,7 +24,7 @@ entre les plateformes d’Audience Manager et basées sur les personnes.
 >[!NOTE]
 >Il s’agit d’une étape obligatoire pour les destinations basées sur les personnes, quel que soit votre scénario d’implémentation.
 
-## Configuration de l’authentification de la plateforme basée sur les personnes {#configure-authentication}
+## Configuration de l’authentification de plateforme basée sur les personnes {#configure-authentication}
 
 1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si vous avez configuré une intégration avec une plateforme sociale, elle doit apparaître dans cette page. Sinon, la page est vide.
    ![intégration basée sur les personnes](assets/pbd-config.png)
