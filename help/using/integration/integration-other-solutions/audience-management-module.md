@@ -15,7 +15,7 @@ ht-degree: 4%
 
 ---
 
-# Comment transférer les données de [!DNL Adobe Analytics] à [!DNL Audience Manager] {#implement-the-audience-management-module}
+# Comment transférer des données de [!DNL Adobe Analytics] à [!DNL Audience Manager] {#implement-the-audience-management-module}
 
 Suivez les étapes de ce tutoriel pour transférer des données [!DNL Analytics] vers [!DNL Audience Manager] au lieu d’avoir le code [!DNL Audience Manager] [!UICONTROL Data Integration Library] ([!DNL DIL]) qui envoie un pixel à partir de la page.
 
