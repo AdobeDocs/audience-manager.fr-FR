@@ -26,7 +26,7 @@ Vous pouvez utiliser les méthodes suivantes pour obtenir vos données dans [!DN
 * [Declared ID Event](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
 * [Synchronisation des identifiants à partir d’une image incorporée de courrier électronique](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## Synchronisation des identifiants `HTTP` Demande {#id-sync-http}
+## Requête de synchronisation des identifiants `HTTP` {#id-sync-http}
 
 Dans un échange d’identifiants, une chaîne [!DNL URL] correctement formatée doit ressembler à ceci :
 
