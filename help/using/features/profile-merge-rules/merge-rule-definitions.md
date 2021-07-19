@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# [!UICONTROL Profile Merge Rules] Options définies  {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Options définies {#profile-merge-rule-options-defined}
 
 Les options [!UICONTROL profile merge rule] vous permettent de contrôler le type de données utilisé par [!DNL Audience Manager] pour la segmentation. Une [!UICONTROL profile merge rule] peut inclure les profils d’appareil mappés par le graphique d’appareil [!UICONTROL Profile Link], le [!UICONTROL Adobe Experience Cloud Device Co-op] et/ou d’autres fournisseurs de graphiques d’appareil tiers intégrés à [!DNL Audience Manager]. Vous pouvez créer un maximum de 4 [!UICONTROL Profile Merge Rules]. Le quatrième [!UICONTROL Profile Merge Rule] est disponible exclusivement pour les clients qui ont acheté le module complémentaire [!UICONTROL People-Based Destinations].
 
@@ -36,7 +36,7 @@ Vous créez une [!UICONTROL Profile Merge Rule] en effectuant une sélection à 
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (inclut  [!UICONTROL Co-op Device Graph]) | Tous les clients | Temps réel et lot | Non | [Ciblage avancé sur plusieurs appareils](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | S.O. | Exclusif aux clients [Destinations basées sur les personnes](../destinations/people-based-destinations-overview.md) | Lot uniquement | Non | [Ciblage des destinations basées sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Évaluation  {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Évaluation {#segment-evaluation}
 
 Selon votre configuration [!UICONTROL Profile Merge Rules] , [!DNL Audience Manager] peut effectuer l’évaluation [!UICONTROL segment] en temps réel, par lot ou les deux.
 
@@ -44,7 +44,7 @@ Selon votre configuration [!UICONTROL Profile Merge Rules] , [!DNL Audience Mana
 * L’évaluation du lot [!UICONTROL segment] est effectuée par rapport aux [!UICONTROL traits] qualifiés précédemment.
 * [!UICONTROL Profile Merge Rules] qui prennent en charge l’ [!UICONTROL segment] évaluation en temps réel et par lots combinent l’activité visiteur en temps réel à l’ [!UICONTROL traits]évaluation qualifiée précédemment.
 
-## [!UICONTROL Profile Merge Rules] Latence des rapports  {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Latence des rapports {#reporting-latency}
 
 L’évaluation [!UICONTROL segment] en temps réel est immédiatement prise en compte dans les rapports [!UICONTROL Profile Merge Rules].
 
