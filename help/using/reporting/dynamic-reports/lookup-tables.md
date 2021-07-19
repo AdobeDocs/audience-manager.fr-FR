@@ -54,9 +54,9 @@ Voici le même fichier journal avec les métadonnées supprimées. Le fichier es
 
 | Identifiant utilisateur | Identifiant de publicité | ID de commande | Identifiant publicitaire |
 |---|---|---|---|
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
