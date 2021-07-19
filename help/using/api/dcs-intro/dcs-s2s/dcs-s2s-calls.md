@@ -21,7 +21,7 @@ Les appels requièrent le nom d’hôte du serveur DCS régional et l’identifi
 >
 >Dans le code et les exemples, *italics* représente un espace réservé de variable. Remplacez la valeur réelle de l’espace réservé lorsque vous effectuez des appels serveur à serveur vers la balise [!DNL DCS].
 
-## Syntaxe de l’appel et exemple {#call-syntax-example}
+## Syntaxe des appels et exemple {#call-syntax-example}
 
 Une requête de base serveur à serveur qui envoie des données à [!DNL DCS] utilise la syntaxe illustrée ci-dessous.
 
