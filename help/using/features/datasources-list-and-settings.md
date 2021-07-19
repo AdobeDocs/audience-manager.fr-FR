@@ -14,7 +14,7 @@ ht-degree: 4%
 
 ---
 
-# [!UICONTROL Data Sources] Liste et paramètres  {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Liste et paramètres {#data-sources-list-and-settings}
 
 Affichez la liste de vos [!UICONTROL data sources] actuellement configurés, ajoutez de nouvelles [!UICONTROL data sources] et modifiez les [!UICONTROL data sources] existantes.
 
@@ -30,7 +30,7 @@ Le tableau de bord [!UICONTROL Data Sources] (**[!UICONTROL Audience Data]** > *
 * Recherchez [!UICONTROL data sources] par nom.
 * Créez, modifiez et supprimez [!UICONTROL data sources].
 
-## [!DNL Data Source] Paramètres et options de menu  {#settings-menu-options}
+## [!DNL Data Source] Paramètres et options de menu {#settings-menu-options}
 
 Les paramètres des différentes sections de l’interface de gestion [!UICONTROL Data Source] identifient votre [!DNL data source], déterminent son utilisation ou son partage, et permettent d’activer le reporting des erreurs pour la [!UICONTROL Onboarding Status Report].
 
