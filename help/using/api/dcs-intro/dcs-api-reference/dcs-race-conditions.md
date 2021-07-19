@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Décrit comment empêcher les conditions de concurrence et la gestion des erreurs [!DNL DCS].
 
-## Prévention des conditions de race {#prevent-race-conditions}
+## Empêcher les conditions de race {#prevent-race-conditions}
 
 Une condition de concurrence peut se produire si vous envoyez plusieurs appels simultanément (ou dans une succession rapide) à la balise [!DNL DCS] avant qu’elle ne finisse de répondre aux requêtes initiales et d’écrire des données dans le cookie de l’utilisateur. Une condition de concurrence n’est pas souhaitable, car elle peut corrompre ou remplacer incorrectement les données de cookie. Pour éviter ce problème, il est recommandé d’utiliser les méthodes suivantes :
 
