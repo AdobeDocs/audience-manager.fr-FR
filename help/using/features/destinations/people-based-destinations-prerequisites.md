@@ -90,7 +90,7 @@ Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICO
 
 Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais de [!DNL Adobe Experience Platform Identity Service (ECID)]. Voir [Prise en charge du hachage SHA-256 pour setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) pour plus d’informations sur l’utilisation de l’ECID pour hacher les ID de client.
 
-## Obtention de l’autorisation de l’utilisateur {#obtaining-user-permission}
+## Obtention de l’autorisation d’utilisateur {#obtaining-user-permission}
 
 Comme [!UICONTROL People-Based Destinations] vous aide à activer les données d’audience propriétaires dans des canaux basés sur des personnes, il vous incombe d’informer vos clients et d’obtenir tout consentement nécessaire de leur part sur la manière dont vous utiliserez leurs données à des fins publicitaires ou autres.
 
@@ -104,7 +104,7 @@ Lorsque vous utilisez [!UICONTROL People-Based Destinations], vous ne pouvez uti
 
 Lors de l’utilisation de [!UICONTROL People-Based Destinations], utilisez [Contrôles des exportations de données](../data-export-controls.md) pour étiqueter vos [!UICONTROL data sources] et [!UICONTROL destinations] selon les directives et les exigences des plateformes de destination et des fournisseurs de données.
 
-## Identifiants hachés authentifiés intégrés par le biais du ciblage des identifiants déclarés {#onboard-authenticated-declared-id}
+## Intégrer les identifiants hachés authentifiés par le biais du ciblage des identifiants déclarés {#onboard-authenticated-declared-id}
 
 Il existe deux manières d’importer vos données hors ligne vers Audience Manager pour [!UICONTROL People-Based Destinations].
 
