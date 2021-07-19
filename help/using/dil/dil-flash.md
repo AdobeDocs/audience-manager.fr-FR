@@ -98,7 +98,7 @@ Les données de ces paramètres sont collectées par défaut :
 * `mediaAdParentPod` (coupure publicitaire ou de capsule dans le contenu Principal où la publicité est lue)
 * `mediaAdParentPodPos` (Position numérique dans la capsule où la publicité est lue. Plusieurs publicités peuvent être lues dans une capsule.
 
-## Flash des données du DIL dans l’Audience Manager {#flash-dil-data}
+## Flash des données DIL dans l’Audience Manager {#flash-dil-data}
 
 Le module [!UICONTROL Flash DIL] transforme les données Adobe AppMeasurement en caractéristiques d’Audience Manager et en signaux inutilisés.
 
@@ -126,7 +126,7 @@ Consultez le tableau pour obtenir des exemples :
 
 L’Audience Manager accepte les événements Analytics [!UICONTROL Props], [!UICONTROL eVars], et même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristiques et apparaissent à la place dans le rapport [Signaux inutilisés](../reporting/dynamic-reports/unused-signals.md) . Pour tirer le meilleur parti de ces informations, créez des caractéristiques d’Audience Manager qui correspondent aux données Analytics transmises par la bibliothèque [!UICONTROL Flash DIL].
 
-## Bibliothèque d’ActionScripts des DIL de Flash {#flash-dil-actionscript}
+## Bibliothèque d’ActionScripts du DIL Flash {#flash-dil-actionscript}
 
 Code de votre objet [!DNL Flash] pour envoyer des données Analytics à l’Audience Manager.
 
