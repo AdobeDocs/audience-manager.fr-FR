@@ -85,7 +85,7 @@ Les nombres de [!UICONTROL General Reports] sont générés directement à parti
 * Si vous intégrez des données par le biais d’un traitement entrant à partir de l’UUID [!DNL Audience Manager] et que ces ID incluent des utilisateurs qui ne sont plus principaux dans notre système, ces UUID inactifs [!DNL Audience Manager] n’atteignent jamais la valeur [!UICONTROL User Profile Store] et ne sont pas signalés.
 * [!UICONTROL Total Trait Realizations] sont calculées  [!UICONTROL Rule-based Traits] uniquement pour .
 
-## Résultats des rapports généraux pour les caractéristiques {#general-report-results-traits}
+## Résultats généraux des rapports pour les caractéristiques {#general-report-results-traits}
 
 Les filtres ci-dessous sont disponibles lorsque vous exécutez un rapport général et que vous sélectionnez **[!UICONTROL Trait]** comme type de rapport.
 
@@ -123,7 +123,7 @@ The illustration below shows the results of running a general report for the Tra
 ![](assets/general_reports_metrics.png) -->
 
 
-## Résultats des rapports généraux pour les segments {#general-report-results-segments}
+## Résultats généraux des rapports pour les segments {#general-report-results-segments}
 
 Les mesures ci-dessous sont disponibles lorsque vous exécutez un rapport général et que vous sélectionnez **[!UICONTROL Segment]** comme type de rapport :
 
