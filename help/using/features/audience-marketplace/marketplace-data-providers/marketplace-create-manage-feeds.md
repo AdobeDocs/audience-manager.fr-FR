@@ -162,7 +162,7 @@ Les options de facturation et de prix contrôlent comment les acheteurs paient p
  </tbody> 
 </table>
 
-## Notes de plan {#plan-notes}
+## Notes de mise à jour {#plan-notes}
 
 Dans le champ **[!UICONTROL Additional Notes]** , prenez le temps de décrire chaque plan de données dans un flux. Une description rapide et précise permet aux acheteurs de comprendre le contenu ou l’objectif de chaque plan dans un flux de données. Les acheteurs peuvent lire les flux de données et planifier des descriptions lorsqu’ils recherchent ou évaluent de nouvelles sources de données.
 
@@ -198,7 +198,7 @@ Dans ces exemples, le vendeur a ajouté une remise de 10 % au flux de données [
 
 ![](assets/detail_requests.png)
 
-## Vérification des flux réduits {#review-discounted-feeds}
+## Vérification de flux réduits {#review-discounted-feeds}
 
 Les fournisseurs de données peuvent voir tous leurs abonnés et flux réduits dans **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
