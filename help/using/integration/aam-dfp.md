@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Google Ad Manager (anciennement DFP) comme destination de l’Audience Manager {#dfp-as-an-audience-manager-destination}
+# Google Ad Manager (anciennement DFP) comme destination d’Audience Manager {#dfp-as-an-audience-manager-destination}
 
 Configurez [!DNL Google Ad Manager] comme destination et envoyez les données de segment d’Audience Manager à cette plateforme.
 
