@@ -103,7 +103,7 @@ Le tableau suivant répertorie les paires clé-valeur qui contiennent les donné
  </tbody> 
 </table>
 
-## Comment les identifiants d’appel d’événement façonnent les noms de fichier, le contenu et les chemins de diffusion {#how-ids-shape-file-names}
+## Comment les identifiants d’appel d’événement façonnent les noms, le contenu et les chemins de diffusion des fichiers {#how-ids-shape-file-names}
 
 Les identifiants transmis par ces paires clé-valeur permettent de créer le nom du fichier de métadonnées et son contenu. Les sections et illustrations suivantes illustrent ce fonctionnement. Ces exemples génèrent un fichier qui contient le nom d’un élément créatif dans une campagne, mais d’autres combinaisons sont possibles.
 
