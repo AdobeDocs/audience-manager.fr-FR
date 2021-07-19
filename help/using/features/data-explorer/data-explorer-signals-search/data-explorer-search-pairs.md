@@ -40,7 +40,7 @@ Cette recherche ne renverra que les résultats qui remplissent les critères des
 
 Les variables clés utilisées par l’Audience Manager et affectées du préfixe `d_` et `h_` ne sont pas affichées par [!UICONTROL Signals Search]. Voir [Exigences de préfixe pour les variables clés](../../traits/trait-variable-prefixes.md) pour plus d’informations.
 
-## Insensibilité à la casse et auto-complétion de recherche {#case-insensitivity}
+## Insensibilité à la casse et auto-complétion de la recherche {#case-insensitivity}
 
 Les champs de recherche de clé et de valeur ne sont pas sensibles à la casse. Le champ de recherche de clés comprend des suggestions complétées automatiquement.
 
