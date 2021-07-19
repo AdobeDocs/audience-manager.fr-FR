@@ -124,7 +124,7 @@ Le tableau suivant décrit les préfixes qui identifient les noms ou identifiant
  </tbody>
 </table>
 
-## Caractères non valides dans [!UICONTROL Trait IDs], [!UICONTROL User IDs] et paires clé-valeur {#invalid-chars}
+## Caractères non valides dans les paires [!UICONTROL Trait IDs], [!UICONTROL User IDs] et clé-valeur {#invalid-chars}
 
 ### [!UICONTROL Trait IDs]
 
