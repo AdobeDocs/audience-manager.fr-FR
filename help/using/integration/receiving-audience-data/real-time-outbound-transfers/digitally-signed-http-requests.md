@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Demandes signées numériquement `HTTP(S)` {#digitally-signed-http-requests}
+# Demandes `HTTP(S)` signées numériquement {#digitally-signed-http-requests}
 
 L’Audience Manager nécessite que les demandes `HTTP(S)` serveur à serveur soient numériquement signées pour la validité. Ce document décrit comment signer des demandes `HTTP(S)` avec des clés privées.
 
