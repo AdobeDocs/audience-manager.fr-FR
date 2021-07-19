@@ -35,7 +35,7 @@ Afin de rendre [!DNL Audience Manager] plus facile à utiliser pour tous, nous a
 
 * Les clés `Return` (`Enter`) et `Space` activent l’élément sélectionné.
 
-## Tri du tableau accessible {#table-sorting}
+## Tri de tableau accessible {#table-sorting}
 
 Les en-têtes de tableau peuvent être sélectionnés lors de la navigation via la clé `Tab`. Vous pouvez modifier l’ordre de tri en appuyant sur `Space`.
 
