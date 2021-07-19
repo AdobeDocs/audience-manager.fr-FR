@@ -90,7 +90,7 @@ Les rapports pour vos [!UICONTROL Addressable Audiences] et [destinations](../fe
 
 Toutes les dates et plages de dates sont définies dans le [!DNL UTC] fuseau horaire. Voir [Fuseaux horaires en Audience Manager](../reference/aam-time-zones.md).
 
-## Données des intervalles de plage de dates {#date-range-intervals}
+## Données aux intervalles de période {#date-range-intervals}
 
 Les mesures [!UICONTROL Addressable Audience] et [!UICONTROL Destination] renvoient un nombre d’utilisateurs uniques pour l’intervalle de temps sélectionné. Par exemple, un visiteur n’est comptabilisé qu’une seule fois, même s’il se rend plusieurs fois sur votre site. La première visite est la visite unique et est enregistrée. Les visites suivantes renvoient des visites et ne sont pas comptabilisées car elles ne sont pas uniques.
 
