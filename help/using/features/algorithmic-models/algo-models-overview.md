@@ -16,7 +16,7 @@ ht-degree: 16%
 
 # Présentation des modèles algorithmiques
 
-## Qu’est-ce que la modélisation algorithmique{#what-algo-modeling}
+## Qu’est-ce que la modélisation algorithmique ?{#what-algo-modeling}
 
 La modélisation algorithmique dans l’Audience Manager fait référence à l’utilisation de la science des données pour développer vos audiences existantes ou les classer en personas.
 
