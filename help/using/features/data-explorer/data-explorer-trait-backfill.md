@@ -54,7 +54,7 @@ Regardez la vidéo ci-dessous pour une présentation vidéo expliquant comment r
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
-## Latence de renvoi des caractéristiques {#trait-backfilling-latency}
+## Latence de renvoi de caractéristiques {#trait-backfilling-latency}
 
 Les caractéristiques nouvellement créées commencent à capturer des audiences deux à trois heures après leur création. Cependant, en raison du volume important de données que [!DNL Audience Manager] exécute quotidiennement, la population de renvoi n’est pas immédiatement reflétée dans les graphiques [!UICONTROL Unique Trait Realizations] et [!UICONTROL Total Trait Population].
 
