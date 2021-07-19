@@ -682,7 +682,7 @@ var dilInstance = DIL.create({
 >[!IMPORTANT]
 >
 >* Nous vous recommandons de définir `useCORSOnly: true` uniquement lorsque vous êtes certain que les visiteurs de votre site disposent de navigateurs prenant en charge cette fonctionnalité.
->* Lorsque `useCORSOnly: true`, [!UICONTROL DIL] n’effectue pas d’appels d’ID depuis Internet Explorer version 9 ou antérieure.
+>* Lorsque `useCORSOnly: true`, [!UICONTROL DIL] n’effectuera pas d’appels d’ID à partir de la version 9 ou antérieure d’Internet Explorer.
 
 >
 
