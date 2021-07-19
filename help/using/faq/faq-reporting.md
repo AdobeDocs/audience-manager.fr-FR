@@ -14,7 +14,7 @@ ht-degree: 99%
 
 ---
 
-# FAQ sur la création de rapports {#reporting-faq}
+# FAQ sur la création de rapports{#reporting-faq}
 
 Questions et problématiques courantes concernant la création de rapports.
 
