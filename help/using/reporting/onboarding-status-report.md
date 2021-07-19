@@ -22,7 +22,7 @@ Le rapport État de l’intégration vérifie les taux de succès et d’échec 
 >
 >Seuls les utilisateurs disposant de droits d’administrateur peuvent afficher ce rapport dans l’interface utilisateur de l’Audience Manager. Vous pouvez demander aux utilisateurs non-administrateurs d’être informés de l’état des fichiers entrants transférés en ajoutant leurs emails au rapport. Voir [Recevoir des notifications par courrier électronique](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
-## Rapport d’état de l’intégration : À propos de {#onboarding-status-about}
+## Rapport d’état de l’intégration : A propos {#onboarding-status-about}
 
 [!UICONTROL Onboarding Status Report] vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport se trouve dans **[!UICONTROL Analytics > Onboarding Status Report]**. Ce rapport est également disponible lorsque vous créez une source de données entrante.
 
@@ -49,13 +49,13 @@ Les rapports d’erreur et l’échantillonnage des erreurs sont deux fonctions 
  </tbody> 
 </table>
 
-## Graphique en barres de rapports d’erreur {#error-report-bar-chart}
+## Graphique à barres de rapports des erreurs {#error-report-bar-chart}
 
 Le rapport d’erreur affiche les taux de succès et d’échec du traitement des enregistrements dans un graphique à barres empilées, comme illustré dans l’exemple suivant. Le graphique est interactif. Cliquez sur une barre pour afficher les mesures récapitulatives pour cette journée dans un tableau sous le graphique.
 
 ![](assets/stacked-graph.png)
 
-## Tableaux de rapport d’erreur {#error-report-tables}
+## Tableaux de rapport d’erreurs {#error-report-tables}
 
 Le rapport d’erreur affiche les données tabulaires sous le graphique à barres. Le tableau affiche les taux de succès et d’échec, ainsi que les totaux et les pourcentages.
 
@@ -81,13 +81,13 @@ Si l’échantillonnage des erreurs est principal, le rapport vous montre les 10
 
 ![](assets/error-samples.png)
 
-## Recevoir des notifications par courrier électronique {#receive-email-notifications}
+## Réception de notifications par courrier électronique {#receive-email-notifications}
 
 Vous pouvez ajouter les adresses email des destinataires que vous souhaitez avertir de l&#39;état des fichiers entrants chargés. Notez que vous pouvez sélectionner différents destinataires pour différentes sources de données.
 
 ![](assets/mail-notifications.png)
 
-## Créer un rapport d’état d’intégration {#create-onboard-status-report}
+## Création d’un rapport d’état d’intégration {#create-onboard-status-report}
 
 Une [!UICONTROL Sample Error Report] renvoie le nombre d’enregistrements d’une source de données traités avec succès et le nombre d’échecs. Pour générer une [!UICONTROL Sample Error Report], procédez comme suit.
 
@@ -107,7 +107,7 @@ create-onboarding-status-report.xml
 
 3. Cliquez sur **[!UICONTROL OK]**.
 
-## Termes et définitions du rapport d’état de l’intégration {#report-terms-conditions}
+## Termes et définitions des rapports d’état d’intégration {#report-terms-conditions}
 
 Guide de référence pour les libellés et les termes utilisés dans ce rapport.
 
