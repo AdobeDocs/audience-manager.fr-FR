@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Cette procédure vous guide tout au long des étapes nécessaires pour créer, modifier ou supprimer un groupe de test dans [!UICONTROL Audience Lab].
 
-## Créer des groupes de test de segment {#create-test-groups}
+## Création de groupes de test de segment {#create-test-groups}
 
 ### Conditions préalables
 
@@ -90,7 +90,7 @@ Pour créer [!UICONTROL Segment Test Group] :
    >* Pour les tests préliminaires, vous pouvez revenir en arrière et modifier les groupes de test en cliquant sur **[!UICONTROL Edit]** dans la carte du groupe de test dans la vue [!UICONTROL Audience Lab] principale.
 
 
-## Modifier les groupes de test de segment {#edit-test-groups}
+## Modifier des groupes de test de segment {#edit-test-groups}
 
 Dans [!UICONTROL Audience Lab], vous ne pouvez modifier que les groupes de test préliminaires. Dans l’assistant [!UICONTROL Create Segment Test Group], vous pouvez enregistrer votre groupe de test en tant que brouillon et reprendre son travail ultérieurement.
 
@@ -98,7 +98,7 @@ Dans [!UICONTROL Audience Lab], vous ne pouvez modifier que les groupes de test 
 1. Recherchez vos groupes de test de brouillon et sélectionnez le contrôle **[!UICONTROL Edit]** dans la carte du groupe de test.
 1. Reprenez l’assistant [Créer un groupe de test de segment](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) et sélectionnez **[!UICONTROL Finalize Group]** lorsque vous avez terminé.
 
-## Supprimer des groupes de test de segment {#delete-test-groups}
+## Suppression de groupes de test de segment {#delete-test-groups}
 
 1. Accédez à la vue principale [!UICONTROL Audience Lab].
 1. Recherchez le groupe de test à supprimer. Vous pouvez effectuer l’une des opérations suivantes :
