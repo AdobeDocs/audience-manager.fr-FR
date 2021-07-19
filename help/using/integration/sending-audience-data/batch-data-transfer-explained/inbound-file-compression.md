@@ -14,7 +14,7 @@ ht-degree: 11%
 
 ---
 
-# Compression de fichiers pour les fichiers de transfert de données entrants{#file-compression-for-inbound-data-transfer-files}.
+# Compression de fichiers pour les fichiers de transfert de données entrants.{#file-compression-for-inbound-data-transfer-files}
 
 Vous pouvez compresser les fichiers de données lors de leur envoi à Audience Manager.
 
