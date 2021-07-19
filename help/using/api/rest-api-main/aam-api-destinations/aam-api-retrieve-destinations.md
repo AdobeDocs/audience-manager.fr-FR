@@ -252,7 +252,7 @@ Une méthode `GET` qui renvoie les mappages pour une destination.
 {
 ```
 
-## Renvoie Toutes Les Plateformes De Destination Disponibles {#return-dest-platforms}
+## Renvoie toutes les plateformes de destination disponibles {#return-dest-platforms}
 
 Une méthode `GET` qui renvoie toutes les plateformes d’appareil disponibles pour les destinations.
 
