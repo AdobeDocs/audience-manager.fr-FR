@@ -23,7 +23,7 @@ Fonctionnement de [!UICONTROL declared IDs], configuration des procédures, des 
 
 Échangez et synchronisez les ID utilisateur avec [!DNL Audience Manager] à partir de périphériques ou de navigateurs qui n’utilisent pas ou n’acceptent pas les mécanismes de stockage persistant, tels que [!DNL cookies] tiers.
 
-## Objectif de [!UICONTROL Declared ID] Ciblage {#declared-id-targeting-purpose}
+## Objectif du ciblage [!UICONTROL Declared ID] {#declared-id-targeting-purpose}
 
 Certains navigateurs et la plupart des périphériques mobiles n’acceptent pas les [!DNL cookies] tiers. Il est ainsi difficile de conserver des informations sur les visiteurs du site ou d’attribuer des identifiants persistants. Pour résoudre ce problème, [!DNL Audience Manager] utilise [!UICONTROL DIL] pour vous permettre de transmettre [!UICONTROL declared IDs] à un appel d’événement. En outre, un [!UICONTROL declared ID] peut agir comme un ID universel qui s’applique au même utilisateur dans toutes les solutions de [!DNL Experience Cloud]. Le tableau suivant décrit le processus de ciblage/correspondance des identifiants :
 
@@ -65,7 +65,7 @@ Le processus [!UICONTROL declared ID] honore les préférences des visiteurs du 
 
 Voir [Confidentialité des données](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur l’exclusion de la collecte de données.
 
-## [!UICONTROL Declared ID] Exemples d’exclusion  {#opt-out-examples}
+## [!UICONTROL Declared ID] Exemples d’exclusion {#opt-out-examples}
 
 Vous pouvez effectuer des demandes d’exclusion [!UICONTROL declared ID] avec les paires `d_cid` et `d_cid_ic` clé-valeur. Les paramètres hérités comme `d_dpid` et `d_dpuuid` fonctionnent toujours, mais sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../reference/cid.md). Dans les exemples, le texte en *italique* indique un espace réservé de variable.
 
@@ -274,7 +274,7 @@ myCallback({
 })
 ```
 
-## Ne pas cibler et ne pas exclure les appels {#do-not-target}
+## Ne pas cibler et exclure les appels {#do-not-target}
 
 Le processus [!UICONTROL declared ID] honore les préférences des visiteurs du site en ce qui concerne l’exclusion du ciblage [!DNL Audience Manager] par votre site Web. Lorsque [!DNL Audience Manager] reçoit une demande d’opposition, [!DNL DCS] renvoie un objet [!DNL JSON] vide au lieu de l’ID utilisateur [!DNL Audience Manager].
 
