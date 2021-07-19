@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés {#password-requirements-locked-accounts-and-forgotten-passwords}
+# Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager peut être configuré de manière à ce que les mots de passe expirent tous les 30 jours. Si vous souhaitez activer l’expiration du mot de passe, adressez-vous à votre conseiller Audience Manager ou à l’assistance clientèle. Consultez cette section pour connaître les exigences en matière de mot de passe et la procédure à suivre pour récupérer un mot de passe perdu ou oublié.
 
