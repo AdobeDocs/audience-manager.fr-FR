@@ -31,7 +31,7 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## État d’authentification : AUTHENTIFIÉ {#auth-status-authenticated}
+## État d’authentification : AUTHENTICATED {#auth-status-authenticated}
 
 | Valeur de la requête | Lecture des informations du profil authentifié | Écrire de nouvelles caractéristiques au profil authentifié |
 |---|---|---|
