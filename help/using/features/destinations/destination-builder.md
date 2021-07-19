@@ -29,7 +29,7 @@ ht-degree: 4%
 | Configuration | Comprend des commandes pour : <br/><ul><li>Transmission de données clé-valeur aux destinations [!DNL URL]. Vous pouvez envoyer des données sous la forme de paires clé-valeur individuelles ou sérialisées. Pour plus d’informations, voir [Sérialisation de destination](../../features/destinations/key-value-pairs.md#destination-serialized) et [Paires clé-valeur standard et série](../../features/destinations/key-value-pairs.md). </li><li>Éléments d’une destination de cookie tels que le nom, le domaine, la taille, l’intervalle d’expiration, le format de données, etc.</li></ul> |
 | Mappages de segments | Permet de: <br/><ul><li>Recherchez, ajoutez et gérez des segments associés à tous les types de destination. </li><li>Définissez les priorités de diffusion sur des segments individuels (pour les segments [!DNL cookie] uniquement).</li></ul> |
 
-## Méthodes de remise de données {#data-delivery-methods}
+## Méthodes de diffusion des données {#data-delivery-methods}
 
 Envoyez des informations à une destination en les transmettant par le biais d’une chaîne [!DNL URL], en écrivant sur un navigateur [!DNL cookie] ou par le biais de transferts de données serveur à serveur hors ligne.
 
