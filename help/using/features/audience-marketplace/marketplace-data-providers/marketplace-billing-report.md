@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Générez un rapport de facturation [!DNL Audience Marketplace] afin d’afficher l’utilisation des flux de données pour le mois précédent pour chacun de vos abonnés. Vous pouvez créer à tout moment un rapport pour le mois précédent. Toutefois, le rapport est plus précis lorsque vous le générez le ou après le 10e jour du mois en cours.
 
-## Télécharger un rapport de facturation {#download-billing-report}
+## Téléchargement d’un rapport de facturation {#download-billing-report}
 
 Pour télécharger un rapport :
 
