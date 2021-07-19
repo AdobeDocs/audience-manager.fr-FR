@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Les clients du service d’ID doivent se référer à cette section pour plus d’informations sur la lecture du cookie visiteur pour les ID requis pour effectuer des appels d’API [!DNL DCS].
 
-## Obtenez l’ID utilisateur à partir du cookie du service d’ID {#get-user-ids-from-service-cookie}
+## Obtention de l’ID utilisateur à partir du cookie du service d’ID {#get-user-ids-from-service-cookie}
 
 Le [service Adobe Experience Platform Identity](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) affecte les identifiants de visiteur et de région aux utilisateurs qui se rendent sur votre site web. Ces identifiants identifient les utilisateurs de toutes les solutions dans [!DNL Experience Cloud] et ils sont nécessaires si vous souhaitez effectuer des appels [!DNL DCS].
 
