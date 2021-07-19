@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ---
 
-# Configurer une balise [!DNL URL Destination] {#configure-url-destination}
+# Configuration d’un [!DNL URL Destination] {#configure-url-destination}
 
 Un [!DNL URL destination] effectue des appels de pixel d’une page vers votre [!DNL destination]. Suivez ces instructions pour créer une [!DNL URL] [!DNL destination] avec [!UICONTROL Destination Builder].
 
