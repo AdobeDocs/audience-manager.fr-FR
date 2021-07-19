@@ -170,7 +170,7 @@ La réponse [!DNL JSON] contient votre nouveau jeton d’accès. La réponse doi
 
 [!DNL Audience Manager] [!UICONTROL REST API] prend en charge le code d’autorisation et l’authentification implicite. Pour utiliser ces méthodes d’accès, vos utilisateurs doivent se connecter à `https://api.demdex.com/oauth/authorize` pour accéder aux jetons et les actualiser.
 
-## Effectuer des demandes authentifiées [!DNL API] {#authenticated-api-requests}
+## Lancer des requêtes [!DNL API] authentifiées {#authenticated-api-requests}
 
 Conditions requises pour appeler les méthodes [!DNL API] après réception d’un jeton d’authentification.
 
@@ -180,7 +180,7 @@ Pour lancer des appels par rapport aux méthodes [!DNL API] disponibles :
 * Lors de l’utilisation de l’authentification [JWT (compte de service)](#jwt), vous devez fournir l’en-tête `x-api-key`, qui sera identique à votre `client_id`. Vous pouvez obtenir votre `client_id` à partir de la page [Intégration des Adobes I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) .
 * Appelez la méthode [!DNL API] requise.
 
-## Facultatif [!DNL API] Paramètres de requête {#optional-api-query-parameters}
+## Paramètres de requête facultatifs [!DNL API] {#optional-api-query-parameters}
 
 Définissez les paramètres facultatifs disponibles pour les méthodes qui renvoient toutes les propriétés d’un objet.
 
@@ -215,7 +215,7 @@ Le tableau suivant répertorie la requête [!DNL URLs] utilisée pour transmettr
 
 Selon la méthode d’authentification que vous utilisez, vous devez ajuster votre requête [!DNL URLs] en fonction des tableaux ci-dessous.
 
-### Demander [!DNL URLs] pour [!DNL JWT] authentification {#request-urls-jwt}
+### Demande [!DNL URLs] d’authentification [!DNL JWT] {#request-urls-jwt}
 
 | [!DNL API] Méthodes | Demande [!DNL URL] |
 |--- |--- |
@@ -231,7 +231,7 @@ Selon la méthode d’authentification que vous utilisez, vous devez ajuster vot
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### Demande [!DNL URLs] pour l’[!DNL OAuth] authentification (obsolète) {#request-urls-oauth}
+### Demande [!DNL URLs] d’authentification [!DNL OAuth] (obsolète) {#request-urls-oauth}
 
 | [!DNL API] Méthodes | Demande [!DNL URL] |
 |--- |--- |
