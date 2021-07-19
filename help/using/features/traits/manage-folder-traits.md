@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Créez, modifiez et supprimez des caractéristiques de dossier.
 
-## Créer une caractéristique de dossier {#create-folder-trait}
+## Création d’une caractéristique de dossier {#create-folder-trait}
 
 Un [!UICONTROL folder trait] est créé automatiquement lorsque vous créez un dossier dans votre taxonomie.
 
@@ -37,7 +37,7 @@ Un [!UICONTROL folder trait] est créé automatiquement lorsque vous créez un d
 1. Nommez le dossier et cliquez sur **Enregistrer**. Par exemple, un dossier nommé Electronics comporte une caractéristique de dossier nommée &quot;Electronics Folder Trait&quot;. Vous pouvez afficher et sélectionner la nouvelle caractéristique de dossier dans le tableau de bord des caractéristiques.
 1. La nouvelle caractéristique de dossier est automatiquement affectée à la source de données générée [!DNL Audience Manager]. Vos utilisateurs disposant des autorisations [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) appropriées peuvent modifier la source de données dans le processus de modification des caractéristiques du dossier. Voir [Modification d’une caractéristique de dossier](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
-## Modifier une caractéristique de dossier {#edit-folder-trait}
+## Modification d’une caractéristique de dossier {#edit-folder-trait}
 
 Décrit comment modifier une balise [!UICONTROL folder trait].
 
