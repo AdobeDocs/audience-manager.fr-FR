@@ -93,7 +93,7 @@ Regardez la vidéo ci-dessous pour découvrir un tutoriel vidéo sur la créatio
 
 >[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
-## Étape 3 - Faire correspondre les DPUUID aux adresses électroniques hachées par le biais de la synchronisation des identifiants basée sur des fichiers {#match-ids-emails}
+## Étape 3 - Faire correspondre les DPUUID aux adresses électroniques hachées via la synchronisation des identifiants basés sur des fichiers {#match-ids-emails}
 
 >[!IMPORTANT]
 >
@@ -150,11 +150,11 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 5. Dans la liste **[!UICONTROL Cross-Device Profile Options]** , sélectionnez la source de données par rapport à laquelle vos caractéristiques sont intégrées.
    ![merge-rule-setup](assets/pbd-pmr.png)
 
-## Étape 5 - Créer des segments d’audience {#create-audience-segments}
+## Étape 5 - Création de segments d’audience {#create-audience-segments}
 
 Pour créer des segments à partir de données hors ligne uniquement, utilisez le [créateur de segments](../segments/segment-builder.md) et veillez à utiliser la nouvelle règle de fusion de profils que vous avez créée à l’étape précédente lors de la création du segment.
 
-## Étape 6 - Configurer l’authentification de la plateforme basée sur les personnes {#configure-authentication}
+## Étape 6 - Configuration de l’authentification de la plateforme basée sur les personnes {#configure-authentication}
 
 1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si vous avez configuré une intégration avec une plateforme sociale, elle doit apparaître dans cette page. Sinon, la page est vide.
    ![intégration basée sur les personnes](assets/pbd-config.png)
