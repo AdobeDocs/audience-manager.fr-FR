@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Audience Lab] Fonctionnalité avancée  {#audience-lab-advanced-functionality}
+# [!DNL Audience Lab] Fonctionnalité avancée {#audience-lab-advanced-functionality}
 
 Cet article décrit deux fonctionnalités avancées de [!DNL Audience Lab] : [!DNL Duplicate Allocation Template] et [!DNL Segment Holdout].
 
@@ -57,7 +57,7 @@ Créez un groupe de test initial, puis sélectionnez **[!UICONTROL Duplicate All
 
 4. Vérifiez les informations que vous avez ajoutées aux étapes précédentes et sélectionnez **[!UICONTROL Finalize Group]**.
 
-## Extraction de segment de test {#test-segment-holdout}
+## Extraction de segment test {#test-segment-holdout}
 
 >[!NOTE]
 >
