@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ---
 
-# Considérations relatives au RGPD pour les destinations {#gdpr-considerations-for-destinations}
+# Considérations relatives au RGPD pour les destinations{#gdpr-considerations-for-destinations}
 
 Cette page présente les informations fournies directement par nos partenaires, au fur et à mesure qu’elles deviennent disponibles, ainsi que les implications associées à votre utilisation d’Audience Manager. Les principales implications des partenaires qui procèdent à ces mises à jour sont les conséquences du RGPD (Règlement général sur la protection des données) entré en vigueur le 25 mai 2018 et du nouveau GDPR Transparency and Consent Framework de l’IAB.
 
