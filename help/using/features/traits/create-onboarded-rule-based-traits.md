@@ -81,7 +81,7 @@ Dans [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] 
  </tbody> 
 </table>
 
-## Définissez un [!UICONTROL Trait] Intervalle d’expiration {#set-expiration-interval}
+## Définir un [!UICONTROL Trait] intervalle d’expiration {#set-expiration-interval}
 
 Dans [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] permet de définir un intervalle de temps de vie ([!DNL TTL]) pour un [!UICONTROL trait]. [!DNL TTL] définit le nombre de jours pendant lesquels un visiteur qualifié reste dans un  [!UICONTROL trait] (120 jours est la valeur par défaut). Lorsqu’elle est définie sur 0, l’appartenance [!UICONTROL trait] n’expire jamais.
 
