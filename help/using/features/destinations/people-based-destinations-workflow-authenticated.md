@@ -55,7 +55,7 @@ Regardez la vidéo ci-dessous pour découvrir un tutoriel vidéo sur la créatio
 
 >[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
-## Étape 2 - Utiliser les identifiants déclarés pour faire correspondre les DPUUID aux adresses électroniques hachées via des appels HTTP en temps réel {#match-email-addresses}
+## Étape 2 - Utilisation des identifiants déclarés pour faire correspondre les DPUUID aux adresses électroniques hachées via des appels HTTP en temps réel {#match-email-addresses}
 
 Pour qualifier les utilisateurs authentifiés pour les caractéristiques basées sur des règles, vous devez envoyer la qualification des caractéristiques par le biais des [identifiants déclarés](../declared-ids.md).
 
@@ -107,7 +107,7 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 
 Pour créer des segments, utilisez le [créateur de segments](../segments/segment-builder.md). Si vous souhaitez envoyer des segments d’audience existants à [!DNL People-Based Destinations], passez à l’[étape 5 - Configuration de l’authentification de la plateforme basée sur les personnes](#configure-authentication).
 
-## Étape 5 - Configurer l’authentification de la plateforme basée sur les personnes {#configure-authentication}
+## Étape 5 - Configuration de l’authentification de la plateforme basée sur les personnes {#configure-authentication}
 
 1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si vous avez configuré une intégration avec une plateforme sociale, elle doit apparaître dans cette page. Sinon, la page est vide.
    ![intégration basée sur les personnes](assets/pbd-config.png)
