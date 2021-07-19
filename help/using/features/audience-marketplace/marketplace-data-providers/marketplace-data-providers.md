@@ -29,7 +29,7 @@ Présentation et workflow pour les fournisseurs de données qui souhaitent vendr
 >* Les utilisateurs peuvent uniquement rechercher et afficher des flux.
 
 
-## Mes données partagées : À propos de {#my-shared-data-about}
+## Mes données partagées : A propos {#my-shared-data-about}
 
 [!UICONTROL My Shared Data] est une  [!UICONTROL Audience Marketplace] fonctionnalité des fournisseurs de données (vendeurs). En tant que fournisseur, il vous permet de regrouper des caractéristiques dans des flux de données et de les vendre à un tarif forfaitaire ou à un [!DNL CPM] taux aux acheteurs de [!DNL Audience Manager]. Lorsqu’il est activé, les acheteurs peuvent s’abonner à un flux en quelques clics de souris. En outre, de simples outils de reporting effectuent le suivi des recettes et de la gestion des abonnés. Enfin, avec [!UICONTROL Audience Marketplace], [!DNL Adobe] s’occupe des factures, de la facturation et des paiements de frais pour vous. Ces fonctionnalités vous permettent de vous concentrer sur la création de flux de données efficaces et rentables que les acheteurs souhaitent.
 
