@@ -15,7 +15,7 @@ ht-degree: 35%
 
 ---
 
-# [!DNL API] et  [!DNL SDK] code  {#api-and-sdk-code}
+# [!DNL API] et  [!DNL SDK] code {#api-and-sdk-code}
 
 [!DNL API]s et kits d’outils qui vous permettent de travailler par programmation avec  [!DNL Audience Manager].
 
