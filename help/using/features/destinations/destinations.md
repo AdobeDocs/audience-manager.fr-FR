@@ -42,7 +42,7 @@ Les décisions commerciales relatives à la sélection d’un mode de diffusion 
 * [!DNL URL]et  [!UICONTROL cookie-based destinations] fonctionnent presque de manière synchrone avec les actions de l’utilisateur sur une page.
 * [!UICONTROL Server-to-server] est utile pour créer des segments d’audience profonds au fil du temps.
 
-## [!UICONTROL Destination] Types et utilisations standard  {#destination-types}
+## [!UICONTROL Destination] Types et utilisations standard {#destination-types}
 
 Les exemples du tableau suivant peuvent vous aider à comprendre quand utiliser une [!UICONTROL destination] spécifique et les différences entre chaque type.
 
