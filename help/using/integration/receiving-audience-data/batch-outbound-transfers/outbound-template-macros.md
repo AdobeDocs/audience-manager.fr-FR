@@ -14,11 +14,11 @@ ht-degree: 3%
 
 ---
 
-# Macros de création de modèles sortants{#outbound-template-macros} (en anglais)
+# Macros de création de modèles sortants (en anglais) {#outbound-template-macros}
 
 Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Il s’agit notamment des macros de nom de fichier, des macros d’en-tête et des macros de contenu.
 
-## Nom de fichier et macros d’en-tête de fichier {#file-name-header-macros}
+## Macros Nom de fichier et En-tête de fichier {#file-name-header-macros}
 
 Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le nom du fichier et pour définir les champs d’en-tête. Pour des exemples de code, voir [Exemples de macro sortante](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
