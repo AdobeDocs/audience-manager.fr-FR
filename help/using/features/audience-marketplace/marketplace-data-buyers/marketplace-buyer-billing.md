@@ -34,7 +34,7 @@ Les acheteurs de données d’Audience Marketplace acceptent de signaler toutes 
 
 <br> 
 
-## Rapport Utilisation du CPM au niveau du segment {#segment-level-report}
+## Rapport sur l’utilisation du CPM au niveau du segment {#segment-level-report}
 
 L’onglet [!UICONTROL Segment Usage] vous permet de créer des rapports sur l’utilisation au niveau du segment, tout en affichant les segments regroupés par destinations auxquelles ils sont associés.
 
@@ -142,7 +142,7 @@ Dans [!UICONTROL Audience Marketplace] , vous devez générer un rapport automat
 
 <!-- marketplace_cpm_billing.xml -->
 
-### Résumé de facturation {#billing-summary}
+### Résumé de la facturation {#billing-summary}
 
 Vous devez envoyer les [!DNL CPM] montants d’impression des flux de données entre le 1er et le 5e jour de chaque mois calendaire. Pour ce faire, nous vous recommandons de [signaler l’utilisation du CPM au niveau du segment](#segment-level-report).
 
@@ -162,7 +162,7 @@ Après avoir reporté le [!DNL CPM] nombre pour le mois civil précédent, [!DNL
 
 <br> 
 
-## Attribuer des impressions au niveau du flux en fonction des règles de qualification des caractéristiques {#assign-impressions}
+## Attribution d’impressions au niveau du flux en fonction des règles de qualification des caractéristiques {#assign-impressions}
 
 Le [!UICONTROL Activation] cas d’utilisation vous permet d’utiliser des caractéristiques dans le flux de données correspondant pour créer des segments dans [Créateur de segments](../../../features/segments/segment-builder.md) et les mapper à une destination. Les opérateurs booléens [!UICONTROL AND], [!UICONTROL OR] et [!UICONTROL NOT] vous permettent de définir les conditions de qualification des caractéristiques et des segments.
 
