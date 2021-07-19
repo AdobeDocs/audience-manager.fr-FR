@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Le rapport [!UICONTROL Segment Performance] compare les segments mappés et non mappés en fonction des impressions et des taux de conversion. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
 
-## Comment lire les résultats du segment mappé {#read-mapped-segment-results}
+## Comment lire les résultats des segments mappés {#read-mapped-segment-results}
 
 Le rapport [!UICONTROL Segment Performance] mappé affiche tous les segments que vous avez créés et envoyés vers une destination à des fins de ciblage. La position de vos segments mappés dans un rapport peut vous en apprendre beaucoup sur les segments qui fonctionnent bien et sur les endroits où vous devrez peut-être apporter des ajustements.
 
@@ -55,7 +55,7 @@ Les libellés de l’exemple et du tableau suivant peuvent vous aider à compren
  </tbody> 
 </table>
 
-## Comment lire vos résultats de segment non mappés {#read-unmapped-segment-results}
+## Comment lire les résultats des segments non mappés {#read-unmapped-segment-results}
 
 L’examen des segments non mappés dans un rapport [!UICONTROL Segment Performance] est un excellent moyen de trouver de nouveaux segments que vous n’avez pas pris en compte pour le ciblage. En fait, certains de ces segments peuvent être plus performants que vos segments mappés. En effet, un segment non mappé doit satisfaire à un ensemble de critères de qualification pour être inclus dans ce rapport. Pour être inclus dans ce rapport, un segment non mappé doit :
 
