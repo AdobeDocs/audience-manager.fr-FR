@@ -52,7 +52,7 @@ Collez la règle dans la feuille de calcul [!UICONTROL Bulk Management Tools] et
 
 ![](assets/segmentrule.png)
 
-## Création de vos propres règles {#create-rules}
+## Créer vos propres règles {#create-rules}
 
 Vous pouvez écrire vos propres règles en dehors de [!UICONTROL Rule Builder]. Avant de commencer, veillez à lire la documentation qui couvre des éléments tels que les opérateurs, l’expression et les variables obligatoires. Nous vous recommandons de consulter les éléments suivants :
 
