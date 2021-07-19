@@ -15,7 +15,7 @@ ht-degree: 16%
 
 ---
 
-# Comprendre [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
+# Comprendre le [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
 Présentation, prise en main et méthodes de code disponibles dans la bibliothèque de code [!DNL Audience Manager DIL].
 
