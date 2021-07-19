@@ -29,7 +29,7 @@ Le choix de la bonne méthode d’intégration dépend de la combinaison des exi
 
 Avant de commencer le processus d’intégration, pensez à [créer des caractéristiques](../features/traits/create-onboarded-rule-based-traits.md) et une [structure de dossiers](../features/traits/trait-storage.md#create-trait-storage-folder) dans l’interface utilisateur de [!DNL Audience Manager]. La taxonomie contiendra tous vos [!UICONTROL traits] organisés dans une hiérarchie logique.
 
-## Cas d’utilisation de l’intégration {#integration-use-cases}
+## Cas d’utilisation d’intégration {#integration-use-cases}
 
 Résumé du cas d’utilisation des méthodes d’intégration des données d’Audience Manager avec les avantages et les inconvénients de chacune d’elles.
 
@@ -143,7 +143,7 @@ Le processus d’intégration des données en temps réel fonctionne comme suit 
 
 ![](assets/rt_reduce70.png)
 
-## Processus de transfert de données par lots {#batch-data-transfer-process}
+## Processus de transfert de données par lots  {#batch-data-transfer-process}
 
 Présentation générale de la manière dont l’Audience Manager échange des données de manière synchrone (en temps réel) avec un fournisseur tiers.
 
