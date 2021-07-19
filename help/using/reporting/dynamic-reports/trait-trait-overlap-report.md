@@ -50,7 +50,7 @@ L’illustration suivante présente un aperçu général des éléments du rappo
 
 Sélectionnez un point individuel pour afficher les détails des données dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
 
-## Champs de fenêtre contextuelle de données de chevauchement de caractéristiques {#field-definitions} définis
+## Définition des champs de fenêtre contextuelle de données de chevauchement de caractéristiques {#field-definitions}
 
 Décrit les mesures affichées dans la fenêtre contextuelle lorsque vous cliquez sur un point de données individuel.
 
