@@ -32,7 +32,7 @@ Les clients d’entreprise utilisant [!DNL Audience Manager] ont besoin d’une 
 
 [!DNL Audience Manager] utilise des groupes pour attribuer des autorisations. Les autorisations ne sont pas affectées au niveau de l’utilisateur. Les autorisations de groupe sont liées aux objets ([!UICONTROL traits], aux segments, etc.) et aux actions que vous pouvez effectuer sur ces objets (édition, affichage, etc.). Ces commandes sont également disponibles via les API REST d’Audience Manager. Voir [Gestion des utilisateurs](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Gestion des groupes](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) et [Gestion des autorisations](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) méthodes de l’API.
 
-## Créer des utilisateurs {#create-users}
+## Création d’utilisateurs {#create-users}
 
 <!-- t_create_users.xml -->
 
