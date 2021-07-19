@@ -42,7 +42,7 @@ L’illustration suivante présente un aperçu général du rapport [!UICONTROL 
 
 Sélectionnez un point individuel pour afficher les détails des données dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
 
-## Comparaison de segments aux caractéristiques {#comparing-segments-to-traits}
+## Comparaison de segments à des caractéristiques {#comparing-segments-to-traits}
 
 Décrit la manière dont vous pouvez comparer les segments et les caractéristiques afin d’obtenir des informations significatives à partir des résultats.
 
@@ -112,7 +112,7 @@ Le diagramme suivant illustre la différence entre les valeurs uniques des carac
 
 ![](assets/s2t.png)
 
-## Champs de pop de données de segment à caractéristique définis {#fields-defined}
+## Définition des champs de variables de données de segment à caractéristique {#fields-defined}
 
 Décrit les mesures affichées dans la fenêtre contextuelle lorsque vous cliquez sur un point de données individuel.
 
