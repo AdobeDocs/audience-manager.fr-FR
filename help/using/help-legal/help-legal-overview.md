@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Assistance et informations juridiques {#help-and-legal}
+# Assistance et informations juridiques{#help-and-legal}
 
 Ressources pour l’assistance clientèle et implications juridiques de l’utilisation de ce produit et de sa documentation.
 
