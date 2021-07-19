@@ -29,7 +29,7 @@ Avec le rapport [!UICONTROL Segment Performance], vous pouvez :
 * Identifiez les segments d’audience mappés qui génèrent une échelle ou des performances.
 * Identifiez les segments non mappés à introduire dans les futures campagnes, en fonction de la contribution d’une audience aux performances antérieures.
 
-## Utilisation du rapport Performance de segment {#using-segment-performance-report}
+## Utilisation du rapport de performances des segments {#using-segment-performance-report}
 
 Basculez entre **[!UICONTROL Mapped]** et **[!UICONTROL Unmapped]** pour sélectionner les segments mappés ou non à une destination. Sélectionnez **[!UICONTROL All]** pour inclure tous vos segments dans le rapport.
 
@@ -90,7 +90,7 @@ Votre rapport [!UICONTROL Segment Performance] pourrait ressembler à celui ci-d
  </tbody> 
 </table>
 
-## Comment lire les résultats du segment mappé {#read-mapped-segment}
+## Comment lire les résultats des segments mappés {#read-mapped-segment}
 
 La position des segments mappés dans un rapport peut vous indiquer de nombreuses informations sur les segments qui fonctionnent bien et où vous devrez peut-être effectuer quelques ajustements.
 
@@ -98,7 +98,7 @@ Pour lire le rapport, il est utile de diviser les résultats en quatre sections 
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## Comment lire vos résultats de segment non mappés {#read-unmapped-segment}
+## Comment lire les résultats des segments non mappés {#read-unmapped-segment}
 
 L’examen des segments non mappés dans un rapport [!UICONTROL Segment Performance] est un excellent moyen de trouver de nouveaux segments que vous n’avez pas pris en compte pour le ciblage. En fait, certains de ces segments peuvent être plus performants que vos segments mappés.
 
