@@ -60,7 +60,7 @@ En tant que marketeur, je souhaite prédire la phase de parcours client dans laq
 
 En tant que société de médias, je souhaite catégoriser mon public, de sorte que je puisse vendre mon espace publicitaire à des prix très élevés, tout en proposant à mes visiteurs des publicités pertinentes.
 
-## Fonctionnement des [!UICONTROL Predictive Audiences] modèles {#how-predictive-audiences-models-work}
+## Fonctionnement des modèles [!UICONTROL Predictive Audiences] {#how-predictive-audiences-models-work}
 
 Lorsque vous créez un modèle [!UICONTROL Predictive Audiences], vous procédez comme suit :
 
@@ -86,14 +86,14 @@ Lors de la sélection de l’audience cible, analysez votre cas d’utilisation 
 
 Il est recommandé de choisir un [!UICONTROL Profile Merge Rule] ayant la même configuration que votre audience cible [!UICONTROL Profile Merge Rule] ou un qui inclut le type de profil (profil de périphérique ou profil authentifié) de votre audience cible.
 
-### [!UICONTROL Predictive Audiences] Phase de formation du modèle  {#model-training}
+### [!UICONTROL Predictive Audiences] Phase de formation du modèle {#model-training}
 
 Avant de pouvoir classer votre audience propriétaire en différentes personnes, l’algorithme doit s’entraîner sur vos données.
 
 Pour chaque personnage que vous définissez, l’algorithme analyse son audience respective et évalue toute activité de caractéristique en temps réel et/ou intégrée pour ses utilisateurs au cours des 30 derniers jours.
 Cette étape se produit une fois toutes les 24 heures pour tenir compte des modifications apportées à votre audience propriétaire.
 
-### [!UICONTROL Predictive Audiences] Phase de classification de modèle  {#model-classification}
+### [!UICONTROL Predictive Audiences] Phase de classification de modèle {#model-classification}
 
 Pour la classification des audiences en temps réel et par lots, le modèle vérifie d’abord si un utilisateur appartient à l’audience cible. Si l’utilisateur est admissible pour l’audience cible et n’appartient à aucune des personnes, le modèle lui affecte un score de qualification de persona.
 
