@@ -26,7 +26,7 @@ ht-degree: 15%
 
 Les détails techniques de la désegmentation en temps réel sont décrits en détail dans [Règles de fusion de profils et processus de suppression de la segmentation des appareils](merge-rule-unsegment.md). Lisez la suite pour la mise en oeuvre pratique des cas d’utilisation décrits ci-dessus.
 
-## Ne pas cibler une fois converti {#do-not-target-once}
+## Ne pas cibler une fois la conversion {#do-not-target-once}
 
 Assurez-vous que vos utilisateurs qui ont déjà converti (acheté un produit, souscrit à un abonnement, etc.) ne verra pas le même message qu’avant la conversion. Vous pouvez obtenir ce résultat à l’aide de la logique [!UICONTROL AND NOT], comme suit.
 
