@@ -14,7 +14,7 @@ ht-degree: 84%
 
 ---
 
-# FAQ sur la rétention des données et la confidentialité {#privacy-and-data-retention-faq}
+# FAQ sur la rétention des données et la confidentialité{#privacy-and-data-retention-faq}
 
 Réponses aux questions et problématiques courantes concernant la confidentialité des données.
 
