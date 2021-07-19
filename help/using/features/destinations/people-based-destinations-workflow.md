@@ -53,7 +53,7 @@ La deuxième étape de la définition de votre stratégie de mise en oeuvre cons
 
 **B) Ciblage de l’audience basé sur toutes les adresses** électroniques associées. Dans ce scénario, plusieurs comptes sont associés à plusieurs adresses électroniques et vous souhaitez les cibler sur toutes les adresses électroniques associées, indépendamment de l’activité authentifiée.
 
-## 3. Identifiez le type d’ID de client (ID CRM) que vous possédez {#identify-customer-id}
+## 3. Identifiez le type d’ID de client (ID CRM) dont vous disposez {#identify-customer-id}
 
 Le ciblage des audiences dans [!DNL People-Based Destinations] nécessite l’envoi de versions [SHA256 hachées](people-based-destinations-prerequisites.md) des adresses électroniques de vos clients. Selon la configuration de votre Audience Manager existante, vous pouvez vous trouver dans l’un des deux scénarios suivants :
 
@@ -61,7 +61,7 @@ Le ciblage des audiences dans [!DNL People-Based Destinations] nécessite l’en
 
 **B) Les ID de client d’Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) ne sont pas des adresses électroniques hachées en minuscules**. Dans ce scénario, vos ID de client existants ne peuvent pas être envoyés à [!DNL People-Based Destinations]. Pour utiliser [!DNL People-Based Destinations], vous devez effectuer une synchronisation des identifiants entre vos ID de client existants et les versions hachées en minuscules de vos adresses électroniques de client. Pour ce faire, procédez soit par [synchronisation des identifiants basée sur un fichier](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md), soit en utilisant [les identifiants déclarés](../declared-ids.md).
 
-## 4. Qualification des caractéristiques {#trait-qualification}
+## 4. Qualification des traits {#trait-qualification}
 
 Pour cibler précisément votre audience dans [!DNL People-Based Destinations], vos utilisateurs doivent être qualifiés pour des caractéristiques basées sur des règles ou intégrées, selon le type de ciblage d’audience que vous souhaitez réaliser.
 
