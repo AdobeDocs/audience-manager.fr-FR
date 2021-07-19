@@ -59,7 +59,7 @@ Le contenu de votre fichier `.info` ressemblera à cet exemple.
 }
 ```
 
-## Paires clé-valeur des métadonnées définies {#key-value-pairs}
+## Définition des paires clé-valeur de métadonnées {#key-value-pairs}
 
 Les tableaux suivants répertorient et définissent les clés des sections `Files` et `Summary` d’un fichier d’état de métadonnées.
 
