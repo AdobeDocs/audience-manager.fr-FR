@@ -58,7 +58,7 @@ Pour terminer la section [!UICONTROL Data Source Details] :
 
 Les champs de texte associés à ces paramètres permettent de renommer la [!UICONTROL Data Source] avec un alias qui apparaît dans les [options de stratégie de fusion de profils](merge-rule-definitions.md). Par exemple, si vous ajoutez un alias à **[!UICONTROL Use as Authenticated Profile]**, ce nom apparaît dans la liste [!UICONTROL Authenticated Profile Options]. Si vous ajoutez un alias à **[!UICONTROL Use as a Device Graph]**, ce nom apparaît dans la liste [!UICONTROL Device Options].
 
-## Créer une stratégie de fusion de profils {#create-profile-merge-rule}
+## Création d’une stratégie de fusion de profils {#create-profile-merge-rule}
 
 Pour créer une [!UICONTROL Profile Merge Rule], accédez à **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** et suivez les étapes de chaque section décrite ici.
 
