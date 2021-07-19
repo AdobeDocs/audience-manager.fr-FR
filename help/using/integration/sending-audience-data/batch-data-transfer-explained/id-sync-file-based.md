@@ -107,7 +107,7 @@ Lors de la création de vos fichiers entrants, assurez-vous que la première col
 >
 >N’utilisez pas [DPUUIDs](../../../reference/ids-in-aam.md) dans la première colonne. Cela peut entraîner une synchronisation incorrecte.
 
-## La synchronisation correspond aux DPUUID aux UUID {#sync-matches-dpuuids-uuids}
+## La synchronisation correspond aux DPUUID vers les UUID {#sync-matches-dpuuids-uuids}
 
 Un fichier de synchronisation des identifiants a pour objectif de synchroniser les [DPUUIDs](../../../reference/ids-in-aam.md) de vos propres sources de données avec les [!DNL Audience Manager] UUID. La synchronisation mappe les [!DNL DPUUID]s du [!DNL DPID] maître et les [!DNL DPID]s associés aux [!DNL Audience Manager] [!DNL UUID]s. L’emplacement où vous placez les identifiants dans le nom de fichier et le corps détermine la façon dont ces identifiants sont mappés les uns aux autres. Par exemple, prenez les deux fichiers d’exemple présentés ici :
 
