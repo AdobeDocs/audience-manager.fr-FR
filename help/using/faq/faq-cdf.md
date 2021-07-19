@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# FAQ sur le flux de données client {#customer-data-feed-faq}
+# FAQ sur le flux de données client{#customer-data-feed-faq}
 
 Questions fréquentes sur les fichiers de flux de données client (CDF).
 
