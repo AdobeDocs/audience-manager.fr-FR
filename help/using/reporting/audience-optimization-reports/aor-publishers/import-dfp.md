@@ -14,11 +14,11 @@ ht-degree: 17%
 
 ---
 
-# Importation de fichiers de données Google Ad Manager (anciennement DFP) en Audience Manager{#import-dfp-data-files-into-audience-manager}
+# Importation de fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager{#import-dfp-data-files-into-audience-manager}
 
 Avant qu’Audience Manager puisse activer Audience Optimization pour les éditeurs, vous devez vous assurer que toutes les conditions préalables décrites dans cet article sont remplies. Contactez l’assistance clientèle après avoir vérifié toutes les conditions préalables.
 
-## Conditions préalables pour l’ingestion du journal Google Ad Manager {#prereqs-dfp-ingestion}
+## Conditions préalables à l’ingestion du journal Google Ad Manager {#prereqs-dfp-ingestion}
 
 Notez que le processus décrit dans cette section doit être terminé *avant* que vous passiez aux conditions préalables à l’activation de l’ingestion des journaux.
 
@@ -35,7 +35,7 @@ Vous devez définir vous-même l’[!DNL Audience Manager] ID et pouvez utiliser
 * La valeur de l’ID utilisateur est correctement formatée en tant qu’UUID [!DNL Audience Manager], comme décrit dans notre [Index des ID en Audience Manager](../../../reference/ids-in-aam.md).
 * Vous avez inclus l’[!DNL Audience Manager] UUID dans un champ défini dans vos journaux [!DNL Google Ad Manager] (par exemple, ciblage personnalisé).
 
-## Conditions préalables pour l’activation de l’ingestion du journal {#prereqs-ingestion-enablement}
+## Conditions préalables pour l’activation de l’ingestion par journal {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
