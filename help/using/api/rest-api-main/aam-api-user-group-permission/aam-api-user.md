@@ -20,7 +20,7 @@ Redéfinissez les [!DNL API] méthodes pour gérer les utilisateurs, notamment l
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Créer un utilisateur {#create-user}
+## Création d’un utilisateur {#create-user}
 
 Une méthode `POST` pour créer un utilisateur.
 
@@ -177,7 +177,7 @@ Une méthode `PUT` pour mettre à jour l’utilisateur actuellement connecté.
 
 Renvoie `200 OK` en cas de réussite. Renvoie `400 Bad Request` si un problème est survenu avec l’un des mots de passe.
 
-## Réinitialiser le mot de passe utilisateur connecté {#reset-logged-in-user-pw}
+## Réinitialisation du mot de passe utilisateur connecté {#reset-logged-in-user-pw}
 
 Une méthode `PUT` pour réinitialiser l’utilisateur actuellement connecté. [!UICONTROL Audience Management] envoie à l’utilisateur un mot de passe généré par le système.
 
@@ -193,7 +193,7 @@ Une méthode `PUT` pour réinitialiser l’utilisateur actuellement connecté. [
 
 Renvoie `200 OK` en cas de réussite.
 
-## Renvoie l’objet utilisateur pour un ID utilisateur {#return-user-object-for-id}
+## Renvoie l’objet utilisateur d’un ID utilisateur {#return-user-object-for-id}
 
 Une méthode `Get` pour renvoyer l’objet utilisateur d’un ID utilisateur.
 
