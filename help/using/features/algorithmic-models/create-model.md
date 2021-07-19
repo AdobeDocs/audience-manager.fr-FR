@@ -55,7 +55,7 @@ Regardez la vidéo ci-dessous pour une vue détaillée du fonctionnement des mes
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## Informations de base pour les modèles algorithmiques {#basic-information}
+## Informations de base des modèles algorithmiques {#basic-information}
 
 <!-- r_model_basic.xml -->
 
