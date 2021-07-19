@@ -26,7 +26,7 @@ Méthodes facultatives qui vous permettent d’affecter des caractéristiques à
 
 À titre de référence visuelle, [!UICONTROL Trait Types] est une liste déroulante située dans [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Créer un nouveau type de caractéristique {#create-trait-type}
+## Création d’un type de caractéristique {#create-trait-type}
 
 Une méthode `POST` qui permet de créer un nouveau type de caractéristique.
 
