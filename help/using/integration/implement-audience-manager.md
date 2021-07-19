@@ -165,7 +165,7 @@ Les éléments livrables pour cette phase peuvent inclure :
 * Instructions de base sur les fonctions de l’interface utilisateur d’Audience Manager ;
 * Acceptation et approbation.
 
-## Lancement, prise en charge et optimisation de la phase {#launch-support-optimize-phase}
+## Phase de lancement, de prise en charge et d’optimisation {#launch-support-optimize-phase}
 
 Au cours de la phase de lancement, de prise en charge et d’optimisation, votre collecte de données et votre mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons notre formation sur la familiarisation des produits et les stratégies qui peuvent contribuer à améliorer votre [!DNL ROI] grâce à une optimisation axée sur les données.
 
@@ -228,7 +228,7 @@ Pour obtenir des instructions détaillées sur l’utilisation de [!DNL DIL], vo
 
 Les solutions partenaires peuvent collaborer directement avec vos équipes techniques pour vous aider à déployer du code, à résoudre les problèmes finaux et à répondre à d’autres exigences.
 
-## Prise en charge de la post-mise en oeuvre {#post-implementation-support}
+## Prise en charge post-implémentation {#post-implementation-support}
 
 Nos efforts collaboratifs ne s&#39;arrêtent pas au déploiement final. Une fois l’implémentation terminée, notre équipe de gestion de compte prend le relais.
 
