@@ -26,7 +26,7 @@ Dans [!UICONTROL Trait Builder], les dossiers de stockage de caractéristiques s
 
 ![](assets/tb_storage.png)
 
-## Créer un dossier de stockage des caractéristiques {#create-trait-storage-folder}
+## Création d’un dossier de stockage de caractéristiques {#create-trait-storage-folder}
 
 Cette procédure explique comment créer un dossier de stockage pour vos caractéristiques.
 
