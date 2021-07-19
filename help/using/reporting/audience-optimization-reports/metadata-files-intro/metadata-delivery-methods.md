@@ -50,7 +50,7 @@ Le tableau suivant définit chacun de ces éléments dans un chemin de diffusion
 | `dpid=<d_src>` | Cette paire clé-valeur contient l’identifiant de source de données transmis lors d’un appel d’événement. L’identifiant de source de données est la valeur qui lie tout le contenu de votre fichier aux données réelles auxquelles il appartient. </br> Supposons, par exemple, que vous ayez un créatif avec l’ID 123 et le nom &quot;Créatif publicitaire A&quot;. Lorsqu’un appel d’événement transmet uniquement l’identifiant, vous devez inclure &quot;Advertiser Creative A&quot; dans le fichier de métadonnées. La campagne et le contenu créatif appartiennent à une source de données. L’identifiant de source de données est ce qui relie ces données et nous permet d’associer précisément le contenu du fichier à un identifiant envoyé lors d’un appel d’événement. Voir [Comment les ID d’appel d’événement déterminent les noms de fichier, le contenu et les chemins de diffusion](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
 | `<yyyymmdd_0_child ID>` | Il s’agit du nom du fichier. Voir [Conventions de dénomination des fichiers de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). |
 
-## Temps de traitement du fichier et mises à jour {#processing-times}
+## Heures et mises à jour de traitement des fichiers {#processing-times}
 
 Les fichiers de métadonnées sont traités quatre fois par jour, à intervalles réguliers.
 
