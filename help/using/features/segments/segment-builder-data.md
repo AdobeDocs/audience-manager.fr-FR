@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Ajoutez et supprimez [!UICONTROL traits] dans [!UICONTROL Segment Builder] pour afficher les populations [!UICONTROL trait] réelles ainsi que les données sur la population de segments réelles et estimées. Les données estimées sur la taille de la population vous aident à créer le segment approprié pour votre campagne.
 
-## [!UICONTROL Trait] Données de population  {#trait-population-data}
+## [!UICONTROL Trait] Données de population {#trait-population-data}
 
 [!UICONTROL Segment Builder] vous présente  [!UICONTROL Total Trait Population] le dernier jour où vous ajoutez une  [!UICONTROL trait] à un segment. Ces données apparaissent dans le champ bleu autour de la [!UICONTROL trait] sélectionnée dans la section [!UICONTROL Basic View].
 
@@ -32,7 +32,7 @@ Le tableau suivant définit les mesures de population de caractéristiques :
 | [!UICONTROL Total Trait Population] | Le nombre d’identifiants uniques dont le profil contient la caractéristique sélectionnée. |
 
 
-## Calcul des populations de segments réel et estimé {#calculating-real-estimated-populations}
+## Calcul des populations de segments réels et estimés {#calculating-real-estimated-populations}
 
 Lorsque vous créez un segment ou modifiez un segment existant, l’Audience Manager prend jusqu’à 24 heures pour afficher les résultats pour les populations réelles de segments en temps réel et totales.
 
