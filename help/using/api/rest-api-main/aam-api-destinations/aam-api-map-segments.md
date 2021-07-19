@@ -313,7 +313,7 @@ Dans la requête, la valeur `traitAlias` correspond à la clé d’une paire cl�
 }
 ```
 
-## Création de mappages de destinations en bloc {#bulk-create}
+## Création en bloc de mappages de destinations {#bulk-create}
 
 Une méthode `POST` qui vous permet de transmettre un tableau de mappages de destination [!UICONTROL cookie] ou [!UICONTROL URL].
 
@@ -481,7 +481,7 @@ Renvoie un tableau de mappages créés.
 ]
 ```
 
-## Mise à jour d’une destination par identifiant de destination {#update-dest-data-order}
+## Mise à jour d’une destination par un ID de destination {#update-dest-data-order}
 
 Une méthode `PUT` qui permet de mettre à jour une destination existante par `destinationId`.
 
@@ -531,7 +531,7 @@ Sauf indication contraire, toutes les valeurs de requête sont requises.
 }
 ```
 
-## Mise à jour d’un mappage sur une destination en mappant l’identifiant {#update-mapping-dest-id}
+## Mise à jour d’un mappage à une destination par mappage d’un identifiant {#update-mapping-dest-id}
 
 Une méthode `PUT` qui permet de mettre à jour un mappage vers une destination par la balise `mappingId` spécifiée.
 
