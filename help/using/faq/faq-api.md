@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# FAQ sur l’API {#api-faq}
+# FAQ sur l’API{#api-faq}
 
 Questions et problématiques courantes liées à l’API.
 
