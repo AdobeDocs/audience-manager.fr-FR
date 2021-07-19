@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Avant d’envoyer des données par lots à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers. Vous pouvez le faire de deux façons :
 
-## Demandez la configuration de l’aide auprès de votre consultant Adobe {#config-consultant}
+## Demande de configuration de l’aide auprès de votre conseiller en Adobe {#config-consultant}
 
 Si vous travaillez avec un consultant Adobe, il s’occupera de la procédure de configuration pour vous.
 
