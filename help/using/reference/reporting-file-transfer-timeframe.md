@@ -18,7 +18,7 @@ ht-degree: 5%
 
 L’Audience Manager reçoit une quantité énorme de données chaque jour. Cela a une incidence sur le temps nécessaire au traitement de vos données et à la génération des résultats des rapports. Le contenu de cette section décrit comment ces intervalles de temps affectent votre compte d’Audience Manager. En outre, les calendriers et les calendriers décrits ici sont des instructions générales uniquement. Ces plannings ne constituent pas des accords de niveau de service ou des engagements liés à la diffusion de données. Adobe se réserve le droit de modifier les calendriers et les plages horaires à tout moment et sans préavis.
 
-## Nombres de rapports {#reporting-numbers}
+## Numéros de création de rapports {#reporting-numbers}
 
 <!-- 
 
@@ -31,7 +31,7 @@ Le tableau suivant répertorie et décrit les intervalles de temps dans nos rapp
 
 | Type de données | Description |
 |---|---|
-| Données en temps réel | Les nombres en temps réel pour aujourd&#39;hui sont de 00:00 à 23:59:59 UTC depuis hier. |
+| Données en temps réel | Les nombres en temps réel pour aujourd’hui sont de 00:00 à 23:59:59 UTC depuis hier. |
 | Données générales du rapport | Les données des [Rapports généraux](../reporting/general-reports.md#general-reports-overview) dépendent de la réussite d’autres processus de tâche et de la quantité de données reçues pour un jour donné. La plupart du temps, les données [!UICONTROL General Report] doivent être mises à jour de 18:00 UTC par jour. |
 
 ## Transferts de fichiers entrants et sortants {#inbound-outbound-file-transfers}
