@@ -22,7 +22,7 @@ ht-degree: 4%
 >
 >Pour obtenir des définitions et des descriptions de ces [!UICONTROL Merge Rule] paramètres, voir [Options des règles de fusion de profils définies](merge-rule-definitions.md).
 
-## Ciblage de périphérique {#device-personalization}
+## Ciblage des périphériques {#device-personalization}
 
 Ce scénario s’applique aux marketeurs qui souhaitent évaluer un profil d’appareil unique pour un segment d’audience défini dans l’Audience Manager, afin de fournir une expérience cohérente à l’appareil à l’aide des plateformes de ciblage qui prennent en charge les identifiants d’appareil (DSP, plateformes de personnalisation sur site et autres plateformes de ciblage basées sur l’appareil), sans tenir compte de l’authentification des utilisateurs.
 
@@ -36,7 +36,7 @@ En utilisant la règle **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL 
 
 ![appareil uniquement](assets/device-management.png)
 
-## Ciblage des appareils partagés {#target-shared-devices}
+## Ciblage des périphériques partagés {#target-shared-devices}
 
 Disons que John et sa femme, Jane, utilisent le même ordinateur portable pour visiter un magasin en ligne et commander divers articles.
 
