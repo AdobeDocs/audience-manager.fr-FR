@@ -35,7 +35,7 @@ Le tableau des modèles présente les informations suivantes :
    * **[!UICONTROL Warning]**: le modèle n’a pas produit de résultats en raison d’un manque de données (c’est-à-dire une population de lignes de base faible, les profils utilisateur ne sont pas riches);
    * **[!UICONTROL Error]**: l’exécution du modèle a échoué. Vous devriez contacter votre représentant Adobe.
 
-## Rapport Aperçu du modèle{#model-report}
+## Rapport Aperçu d’un modèle{#model-report}
 
 Une fois que vous avez sélectionné un modèle, sa page de création de rapports se charge. En haut de la page, vous pouvez voir les 5 segments prédictifs les plus grands, en fonction de la prise de conscience en temps réel d’une journée, selon laquelle le modèle a classé votre audience cible en fonction de . La catégorie **[!UICONTROL Other]** inclut le reste des personas, qui n’étaient pas incluses dans les 5 segments prédictifs les plus grands.
 
