@@ -92,7 +92,7 @@ Tronquée pour la concision.
 ]
 ```
 
-## Revenir aux sous-catégories taxonomiques {#return-taxonomy-sub-categories}
+## Sous-catégories taxonomiques récurrentes {#return-taxonomy-sub-categories}
 
 Une méthode `GET` qui renvoie des sous-catégories pour la catégorie parente spécifiée dans un tableau.
 
