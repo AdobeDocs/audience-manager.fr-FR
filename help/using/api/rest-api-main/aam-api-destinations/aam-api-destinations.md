@@ -14,7 +14,7 @@ ht-degree: 16%
 
 ---
 
-# Méthodes d’API de destination {#destination-api-methods}
+# Méthodes d’API de destination  {#destination-api-methods}
 
 Méthodes qui vous permettent de travailler par programmation avec des fonctionnalités de destination.
 
