@@ -14,7 +14,7 @@ ht-degree: 11%
 
 ---
 
-# Méthode de création de DIL{#dil-create}
+# méthode de création de DIL{#dil-create}
 
 ## Création DIL {#dil-create-new}
 
@@ -159,7 +159,7 @@ var partnerObject2 = DIL.create({
 
 Une réponse réussie renvoie l’instance [!UICONTROL DIL]. Une tentative manquée renvoie un objet d’erreur (non généré) si votre code est mal configuré ou en cas d’erreur.
 
-## Propriétés uuidCookie {#uuidcookie-props}
+## Propriétés du cookie uuid {#uuidcookie-props}
 
 Définit les propriétés utilisées par la variable `uuidCookie`. Cette variable fait partie de la méthode `DIL.create` .
 
