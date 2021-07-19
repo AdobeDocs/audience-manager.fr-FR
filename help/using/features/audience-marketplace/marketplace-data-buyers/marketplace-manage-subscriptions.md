@@ -137,7 +137,7 @@ Dans [!UICONTROL Audience Marketplace], les fournisseurs peuvent offrir aux ache
  </tbody> 
 </table>
 
-## Vérification des flux réduits {#review-discounted-feeds}
+## Vérification de flux réduits {#review-discounted-feeds}
 
 Pour consulter vos flux réduits :
 
@@ -190,7 +190,7 @@ Cela peut être déroutant, voire dérangeant, si un flux auquel vous vous abonn
 >
 >Contactez directement votre fournisseur de données si vous pensez qu’un flux de données a été désactivé par erreur. Votre [!DNL Adobe] consultant peut vous aider avec les coordonnées ou une assistance supplémentaire.
 
-## E-mail de désactivation {#deactivation-email}
+## Courrier électronique de désactivation {#deactivation-email}
 
 Lorsqu’un fournisseur de données désactive l’un de vos flux de données, [!DNL Audience Manager] envoie un courrier électronique aux utilisateurs de votre société disposant des autorisations [!UICONTROL Administrator]. Parfois, les filtres de courrier électronique classent ce message comme indésirable. Par conséquent, cette notification importante peut vous manquer. Pour vous aider à identifier le message de désactivation, cet email contient les éléments suivants :
 
@@ -247,7 +247,7 @@ La liste qui accompagne un email de désactivation contient les champs comme ill
  </tbody> 
 </table>
 
-## Supprimer les caractéristiques désactivées {#remove-deactivated-traits}
+## Suppression des caractéristiques désactivées {#remove-deactivated-traits}
 
 En tant qu’acheteur de données, vous êtes responsable de la suppression des caractéristiques d’un flux annulé de tous vos segments principaux/en cours d’utilisation ou inactifs. Les options de suppression incluent :
 
@@ -261,7 +261,7 @@ En tant qu’acheteur de données, vous êtes responsable de la suppression des 
 
 [Désabonnez-vous du ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) flux de données désactivé après avoir supprimé toutes les caractéristiques révoquées de votre compte. S’il s’agit d’une désactivation temporaire, vous pouvez vous réabonner une fois que le fournisseur de données a terminé d’apporter les modifications requises et réactivé le flux. Comme c’est souvent le cas, une bonne communication avec vos partenaires (le fournisseur de données et [!DNL Adobe]) peut vous aider à mener à bien ce processus.
 
-## Présentation de la page des détails de la formule d’Audience Marketplace{#marketplace-buyer-details} (en anglais)
+## Présentation de la page des détails de la formule d’Audience Marketplace (en anglais) {#marketplace-buyer-details}
 
 Lorsque vous cliquez sur le nom d’un plan de données dans la section [!UICONTROL Marketplace], [!DNL Audience Manager] fournit des informations qui peuvent vous aider à faire des choix éclairés concernant l’abonnement à un flux de données.
 
