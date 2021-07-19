@@ -20,7 +20,7 @@ Envoyez des données à [!DNL DCS] [!DNL API] à l’aide des méthodes `GET` ou
 
 Vous pouvez envoyer des données à [!DNL DCS] à l’aide de l’une des méthodes `GET` ou `POST`. Consultez les exemples d’appels ci-dessous à l’aide de [curl](https://curl.haxx.se/). Dans les trois exemples d’appels, nous ajoutons les signaux `c_likes = famous popstar` et `c_loves = famous actress` au profil de l’appareil `12345678901234567890123456789012345678`.
 
-## Envoi de données par [!DNL GET] {#send-data-via-get}
+## Envoi de données via [!DNL GET] {#send-data-via-get}
 
 Notez que la taille maximale autorisée pour les appels `GET` est de 8 Ko.
 
@@ -28,7 +28,7 @@ Notez que la taille maximale autorisée pour les appels `GET` est de 8 Ko.
 curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
 ```
 
-## Envoi de données par [!DNL POST] {#send-data-via-post}
+## Envoi de données via [!DNL POST] {#send-data-via-post}
 
 Notez les conditions requises pour envoyer des données à l’aide de la méthode `POST` :
 
