@@ -47,7 +47,7 @@ Consultez le tableau ci-dessous pour un aperçu des cas d’utilisation du parta
 
 {style=&quot;table-layout:auto&quot;}
 
-## Segments et caractéristiques d’Audience Manager dans Adobe Experience Platform {#aam-segments-traits-in-aep}
+## Audience Manager de segments et de caractéristiques dans Adobe Experience Platform {#aam-segments-traits-in-aep}
 
 Vos caractéristiques et segments d’Audience Manager apparaissent dans Experience Platform sous la forme **Audiences** dans le processus de segments. Pour plus d’informations sur vos segments et caractéristiques d’Audience Manager dans Experience Platform, voir :
 
@@ -55,7 +55,7 @@ Vos caractéristiques et segments d’Audience Manager apparaissent dans Experie
 * [Guide d’utilisation du créateur de segments Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 * [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
-## Segments Adobe Experience Platform dans l’Audience Manager {#aep-segments-in-aam}
+## Segments Adobe Experience Platform en Audience Manager {#aep-segments-in-aam}
 
 Les segments que vous créez dans Experience Platform apparaissent dans l’interface d’Audience Manager sous la forme de signaux, de caractéristiques et de segments, avec les règles de composition suivantes :
 
@@ -69,7 +69,7 @@ Sélectionnez **[!UICONTROL Audience Data > Signals > General Online Data]** et 
 
 ![Reportez-vous à la section Signaux Experience Platform en Audience Manager dans le tableau de bord Signaux](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
-### Caractéristiques {#aep-segments-as-aam-traits}
+### Caractéristiques  {#aep-segments-as-aam-traits}
 
 Audience Manager crée automatiquement un dossier de caractéristiques appelé **Caractéristiques Experience Platform** dans votre stockage de caractéristiques.
 
@@ -92,7 +92,7 @@ Pour un exemple de caractéristique créée automatiquement à partir d’un seg
 
 {style=&quot;table-layout:auto&quot;}
 
-### Segments {#aep-segments-as-aam-segments}
+### Segments  {#aep-segments-as-aam-segments}
 
 Audience Manager crée automatiquement un dossier de segments appelé **Segments Experience Platform** dans votre stockage de segments.
 
