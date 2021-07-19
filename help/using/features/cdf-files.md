@@ -10,7 +10,7 @@ feature: Flux de données client
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1934'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Les notifications de fichier et les fichiers [!UICONTROL CDF] s’affichent dans
 
 Les sections ci-dessous et la [FAQ sur le flux de données client](../faq/faq-cdf.md) peuvent vous aider à vous familiariser avec ce service.
 
-## [!UICONTROL Customer Data Feed] Contenu défini  {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Contenu défini {#cdf-defined}
 
 Répertorie et définit les éléments de données et les tableaux dans un fichier [!UICONTROL CDF], par ordre d’apparition. Les définitions incluent les types de données, mais ces informations ne font pas partie d’un fichier [!UICONTROL CDF].
 
@@ -123,7 +123,7 @@ Un fichier [!UICONTROL CDF] contient certains ou tous les champs définis ci-des
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Structure de fichier  {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Structure de fichier {#cdf-file-structure}
 
 Répertorie et définit la structure de données d’un fichier [!UICONTROL CDF]. Cela inclut la séquence de données, les délimiteurs et les séparateurs de champ, un mappage de fichier de données et un fichier d’exemple.
 
@@ -168,7 +168,7 @@ Répertorie et définit la structure de données d’un fichier [!UICONTROL CDF]
  </tbody> 
 </table>
 
-## [!UICONTROL CDF] Mappage de fichiers  {#cdf-file-map}
+## [!UICONTROL CDF] Mappage de fichiers {#cdf-file-map}
 
 [!UICONTROL CDF] Les données de fichier s’affichent dans l’ordre indiqué ci-dessous.
 
@@ -184,11 +184,11 @@ Un exemple de fichier [!UICONTROL CDF] peut ressembler à ce qui suit. Nous avon
 
 ![](assets/CDF-sample.png)
 
-## [!UICONTROL Customer Data Feed] Conventions de dénomination des fichiers  {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Conventions de dénomination des fichiers {#cdf-naming-conventions}
 
 Les sections ci-dessous répertorient et définissent les éléments de votre nom de fichier [!UICONTROL CDF].
 
-## [!UICONTROL CDF] Nom du fichier : Syntaxe et exemple  {#cdf-file-name}
+## [!UICONTROL CDF] Nom du fichier : Syntaxe et exemple {#cdf-file-name}
 
 Un nom de fichier [!UICONTROL CDF] type contient les éléments répertoriés ci-dessous. Remarque : *italics* indique un espace réservé variable :
 
@@ -206,7 +206,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 Dans votre compartiment de stockage [!DNL S3], les fichiers sont triés par ordre croissant par identifiant de partenaire ([!UICONTROL PID]), jour et heure.
 
-## [!UICONTROL CDF] Définition des éléments du nom de fichier  {#cdf-file-name-elements}
+## [!UICONTROL CDF] Définition des éléments du nom de fichier {#cdf-file-name-elements}
 
 Le tableau suivant répertorie et définit les éléments d’un nom de fichier [!UICONTROL CDF].
 
@@ -249,7 +249,7 @@ Le tableau suivant répertorie et définit les éléments d’un nom de fichier 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Notifications de traitement de fichier  {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Notifications de traitement de fichier {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] écrit un  `.info` fichier dans votre  [!DNL S3] répertoire pour vous informer du moment où votre  [!UICONTROL Customer Data File] ([!UICONTROL CDF]) est prêt pour le téléchargement. Le fichier `.info` comprend également des métadonnées formatées [!DNL JSON] sur le contenu de vos fichiers [!UICONTROL CDF]. Consultez cette section pour plus d’informations sur la syntaxe et les champs utilisés par ce fichier de notification.
 
@@ -352,11 +352,11 @@ Les tableaux suivants répertorient et définissent les éléments dans un fichi
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Les heures des noms de fichier et les heures du contenu du fichier diffèrent  {#different-processing-times}
+## [!UICONTROL Customer Data Feed] Les heures des noms de fichier et les heures du contenu du fichier diffèrent {#different-processing-times}
 
 Votre fichier [!UICONTROL CDF] contient des horodatages dans le nom de fichier et le contenu du fichier. Ces horodatages enregistrent différents processus d’événement pour le même fichier [!UICONTROL CDF]. Il n’est pas rare de voir des horodatages différents dans le nom et le contenu d’un même fichier. La compréhension de chaque horodatage peut vous aider à éviter les erreurs courantes lorsque vous utilisez ces données ou essayez de les trier par heure.
 
-## Localisation [!UICONTROL CDF] Horodatages du fichier {#locating-timestamps}
+## Localisation des [!UICONTROL CDF] horodatages du fichier {#locating-timestamps}
 
 [!UICONTROL CDF] Les fichiers enregistrent le temps différemment dans 2 emplacements distincts.
 
