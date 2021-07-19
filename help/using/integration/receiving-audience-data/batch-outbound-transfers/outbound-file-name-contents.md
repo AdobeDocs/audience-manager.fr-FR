@@ -92,7 +92,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
  </tbody> 
 </table>
 
-## Exemples de nom de fichier {#file-name-examples}
+## Exemples de noms de fichier {#file-name-examples}
 
 ### Scénario 1
 
