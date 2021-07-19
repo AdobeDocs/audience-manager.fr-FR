@@ -10,7 +10,7 @@ feature: Modèles algorithmiques
 exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1592'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Création et mise à jour des plannings pour [!UICONTROL algorithmic models] nou
  <tbody>
   <tr> 
    <td colname="col1"> <b>Création ou clonage d’un modèle</b> </td>
-   <td colname="col2"> <p>Pour les [!UICONTROL Modèles similaires à l’apparence] nouveaux ou clonés, le processus de création s’exécute une fois par jour à l’adresse : 
+   <td colname="col2"> <p>Pour les [!UICONTROL Look-Alike Models] nouveaux ou clonés, le processus de création s’exécute une fois par jour à l’adresse : 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 17h00 (novembre à mars) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 18h00 (mars à novembre) </li> 
