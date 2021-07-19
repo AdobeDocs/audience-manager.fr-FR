@@ -103,7 +103,7 @@ Les paramètres POST indiquent à [!DNL Experience Cloud] Device Co-op si cett
  </tbody> 
 </table>
 
-## API post-instanciation  {#post-instantiation}
+## API post-instanciation {#post-instantiation}
 
 Ces API permettent de remplacer l’état `isCoopSafe`. Elles sont nécessaires car elles permettent de modifier l’état post-instanciation/post-connexion d’un visiteur sur un site ou dans une application à une seule page dans le cas où la page ne s’actualise pas. Par exemple, vous devrez appeler ces API si un utilisateur s’authentifie auprès de votre site ou de votre application et accepte par la suite une règle des conditions d’utilisation qui autorise Device Co-op à utiliser ses données.
 
