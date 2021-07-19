@@ -53,7 +53,7 @@ Une méthode `POST` pour créer un groupe d’utilisateurs.
   }
 ```
 
-## Mettre à jour un groupe {#update-group}
+## Mise à jour d’un groupe {#update-group}
 
 Une méthode `PUT` pour mettre à jour un groupe d’utilisateurs.
 
@@ -88,7 +88,7 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Groupes de liste {#list-groups}
+## Groupes de listes {#list-groups}
 
 Une méthode `GET` pour répertorier les groupes d’utilisateurs.
 
@@ -140,7 +140,7 @@ Méthode `DELETE` pour supprimer plusieurs groupes en bloc et supprimer tous les
 
 Renvoie `204 No Content` en cas de réussite. En cas de conflit, renvoie `409 Conflict`.
 
-## Liste de toutes les autorisations pour un groupe {#list-permissions-group}
+## Répertorier toutes les autorisations d’un groupe {#list-permissions-group}
 
 Une méthode `GET` pour répertorier les objets d’autorisation sur un groupe.
 
@@ -174,7 +174,7 @@ Une méthode `GET` pour répertorier les objets d’autorisation sur un groupe.
 
 Renvoie `400 Bad Request` si le groupe n’est pas accessible.
 
-## Définir les autorisations pour un groupe {#set-permissions-group}
+## Définition des autorisations d’un groupe {#set-permissions-group}
 
 Une méthode `PUT` pour mettre à jour les autorisations de groupe. Cette méthode remplace les anciennes autorisations par les nouvelles autorisations.
 
