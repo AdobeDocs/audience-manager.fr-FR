@@ -24,7 +24,7 @@ Décrit les paires clé-valeur courantes au niveau de la plateforme que vous pou
 
 Les variables au niveau de la plateforme vous permettent de prendre les données transmises à partir d’un site particulier et de les rendre disponibles pour le ciblage sur toutes les propriétés de votre compte [!DNL Audience Manager]. Ces variables sont formées par des [paires clé-valeur](../../reference/key-value-pairs-explained.md) avec le préfixe clé `d_` comme illustré ci-dessous.
 
-## Clés au niveau de la plateforme définies par l’agent utilisateur {#keys-user-agent}
+## Clés définies par l’agent utilisateur au niveau de la plateforme {#keys-user-agent}
 
 [!UICONTROL Data Collection Servers] extrait les valeurs de ces clés de l’en-tête [de l’agent utilisateur](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) dans les demandes `HTTP`. Les valeurs représentent des informations au niveau de l’appareil de la base de données [!UICONTROL Device Atlas]. Les signaux du tableau ci-dessous sont disponibles, comme extrait de l’exemple de l’agent utilisateur. [Téléchargez une liste des clés](assets/device_keys.csv) les plus courantes, selon les  [!UICONTROL Device Atlas] mesures.
 
