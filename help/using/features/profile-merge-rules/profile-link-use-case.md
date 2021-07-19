@@ -28,7 +28,7 @@ Examinez le graphique de périphérique [!UICONTROL Profile Link] pour les campa
 
 ![](assets/merge-rule-triangle2.png)
 
-## Ciblage sur plusieurs appareils {#cross-device-personalization}
+## Ciblage entre appareils {#cross-device-personalization}
 
 Disons que John possède trois appareils qu&#39;il utilise régulièrement pour rechercher des forfaits de vacances : son ordinateur portable ([!DNL Device 1]), son smartphone ([!DNL Device 2]) et sa tablette ([!DNL Device 3]). Cependant, John utilise ses appareils pour rechercher différents éléments des offres de package :
 
