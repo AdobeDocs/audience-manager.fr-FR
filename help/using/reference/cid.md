@@ -51,7 +51,7 @@ Les DPID et le DPUUID sont des paires clé-valeur qui contiennent un identifiant
 
 Ces paires clé-valeur fonctionnent toujours, mais elles sont obsolètes. Mettez à jour votre code pour utiliser CID ou CID_IC à la place.
 
-## CID et CID_IC : À propos de {#cid-cidic-about}
+## CID et CID_IC : A propos {#cid-cidic-about}
 
 Les paires clé-valeur CID et CID_IC remplacent DPID et DPUUID. Elles fournissent les mêmes fonctions que les DPID et DPUUID, mais sont plus efficaces car elles incluent l’identifiant du fournisseur de données (ou le code d’intégration) et l’identifiant utilisateur dans une seule paire clé-valeur. Dans chaque paire clé-valeur :
 
