@@ -22,7 +22,7 @@ Pour plus d’informations sur les appels `/event` à [!DNL DCS], commencez ici 
 >
 >Dans le code et les exemples, *italics* représente un espace réservé de variable. Remplacez la valeur réelle de l’espace réservé lorsque vous envoyez des données à [!DNL DCS] par cette méthode.
 
-## Syntaxe de l’appel {#dcs-call-syntax}
+## Syntaxe des appels {#dcs-call-syntax}
 
 Une chaîne `URL` de base qui envoie des données à [!DNL DCS] utilise la syntaxe illustrée ci-dessous.
 
