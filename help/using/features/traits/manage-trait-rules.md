@@ -41,7 +41,7 @@ Dans [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] vous permet de 
 
 1. Les champs de test permettent de valider des combinaisons de règles de signal ou des [!DNL URL]s que vous souhaitez utiliser lors de l’envoi de données à Audience Manager.
 
-## Créer une règle de caractéristique {#create-trait-rule}
+## Création d’une règle de caractéristique {#create-trait-rule}
 
 Les règles (ou expressions) se composent d’individus ou de groupes de paires clé-valeur. Les opérateurs de comparaison définissent la relation entre les paires clé-valeur. Pour créer une règle, indiquez une clé, une valeur, sélectionnez un opérateur, puis cliquez sur **[!UICONTROL Add Rule]**.
 
@@ -73,7 +73,7 @@ Cliquez sur **[!UICONTROL Add Rule]** pour enregistrer et déplacer la caractér
 
 ![](assets/tb_sample_rule2.png)
 
-## Créer un groupe de règles {#create-rule-group}
+## Création d’un groupe de règles {#create-rule-group}
 
 Cette procédure décrit la création d’un groupe de règles.
 
@@ -92,11 +92,11 @@ Votre caractéristique doit contenir au moins deux règles avant de pouvoir cré
 
 1. Sélectionnez un opérateur [!DNL Boolean] ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dans le menu déroulant pour définir la relation entre les groupes de règles.
 
-## Déplacer des règles entre les groupes {#move-rules-between-groups}
+## Déplacement de règles entre groupes {#move-rules-between-groups}
 
 Pour déplacer une règle, cliquez dessus et faites-la glisser vers un autre groupe.
 
-## Modifier une caractéristique {#edit-trait}
+## Modification d’une caractéristique {#edit-trait}
 
 Cette procédure décrit la modification d’une caractéristique.
 
@@ -107,7 +107,7 @@ Cette procédure décrit la modification d’une caractéristique.
 
    ![](assets/tb_edit_trait.png)
 
-## Supprimer une règle de caractéristique {#delete-trait}
+## Suppression d’une règle de caractéristique {#delete-trait}
 
 Cette procédure décrit la suppression d’une règle de caractéristique.
 
