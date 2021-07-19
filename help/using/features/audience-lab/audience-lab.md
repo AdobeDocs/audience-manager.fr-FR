@@ -31,7 +31,7 @@ Vous pouvez créer **jusqu’à 10 groupes de test**, chacun avec **jusqu’à 1
 
 ![](assets/test-groups-view.PNG)
 
-## Rechercher et filtrer des groupes de test {#search-and-filter}
+## Recherche et filtrage de groupes de test {#search-and-filter}
 
 Une fois que vous avez commencé à créer plusieurs groupes de test avec plusieurs segments de test, il peut être plus facile d’utiliser la zone de recherche pour trouver un groupe de test spécifique. Vous pouvez rechercher un groupe de tests en procédant comme suit :
 
