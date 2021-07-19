@@ -77,7 +77,7 @@ Une requête réussie renvoie `201 created` et la destination.
 } 
 ```
 
-## Créer une destination d’URL sérialisée {#create-serial-url-dest}
+## Création d’une destination d’URL sérialisée {#create-serial-url-dest}
 
 Méthode `POST` qui permet de créer une destination qui accepte plusieurs valeurs associées à une seule clé (par exemple, `color=blue, red, green`).
 
@@ -202,7 +202,7 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 } 
 ```
 
-## Création d’une destination de cookie : Clé unique, sérialisé {#create-cookie-dest-single-serial}
+## Création d’une destination de cookie : Clé unique, sérialisée {#create-cookie-dest-single-serial}
 
 Méthode `POST` qui permet de créer une destination qui accepte plusieurs valeurs associées à une seule clé (par exemple, `color=blue, red, green`).
 
