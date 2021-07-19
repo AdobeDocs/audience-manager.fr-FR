@@ -14,7 +14,7 @@ ht-degree: 17%
 
 ---
 
-# Intégration de données multimédias {#media-data-integration}
+# Intégration de données multimédias  {#media-data-integration}
 
 Vous pouvez capturer des données provenant de campagnes multimédia à l’aide d’appels de pixel à l’Audience Manager (souvent appelés pixellisation de l’élément créatif) ou en ingérant des fichiers journaux. Lisez les articles de cette section pour comprendre le processus.
 
