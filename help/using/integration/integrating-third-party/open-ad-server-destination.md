@@ -85,7 +85,7 @@ Pour ajouter un segment à une destination de cookie :
 1. **Ajouter des mappages :** dans la fenêtre contextuelle Mappings, saisissez l’identifiant du segment dans le champ mappings et cliquez sur  **[!UICONTROL Save]**.
 1. Cliquez sur **[!UICONTROL Done]**.
 
-## Configuration de l’OAS {#oas-code-setup}
+## Configuration OAS {#oas-code-setup}
 
 Modifiez les paramètres [!DNL OAS] pour qu’ils fonctionnent avec les données de segment d’Audience Manager.
 
