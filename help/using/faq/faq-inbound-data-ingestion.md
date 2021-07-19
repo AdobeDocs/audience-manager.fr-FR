@@ -15,7 +15,7 @@ ht-degree: 91%
 
 ---
 
-# FAQ sur l’ingestion de données client entrantes {#inbound-customer-data-ingestion-faq}
+# FAQ sur l’ingestion de données client entrantes{#inbound-customer-data-ingestion-faq}
 
 Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
 
