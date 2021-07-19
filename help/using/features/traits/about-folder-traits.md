@@ -40,18 +40,18 @@ Une balise [!UICONTROL folder trait] contient toutes les caractéristiques d’u
 Le nombre de fréquences d’une caractéristique de dossier est la somme des réalisations des caractéristiques de son dossier et de ses dossiers enfants. L’illustration ci-dessous présente les caractéristiques A, B et C qui se trouvent dans le dossier Automobile. Considérez que chacune des caractéristiques a les réalisations suivantes :
 
 * Caractéristique A : 5
-* Caractéristique B : 3
-* Caractéristique C : 3
+* Caractéristique B : 1
+* Caractéristique C : 1
 
 Dans ce cas, [!DNL Automobile Folder Trait] comporte 7 réalisations.
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Rapports de caractéristiques de dossier {#folder-traits-reporting}
+## Rapports sur les caractéristiques de dossier {#folder-traits-reporting}
 
 [!UICONTROL Folder traits] capturer tous les utilisateurs à partir des caractéristiques de la structure de dossiers sous-jacente ; Si vous déplacez une caractéristique d’un dossier vers un autre dossier, la modification se propage à nos [serveurs de collecte de données](../../reference/system-components/components-data-collection.md) comme un changement de règle de caractéristique. Les mises à jour des rapports dans le prochain rapport s’exécutent pour refléter cette modification dans les plages de dates des rapports (1, 7, 14, 30, 60, 90). Les anciens nombres de rapports des jours précédents ne changeront pas.
 
-## Autorisations des contrôles d’accès en fonction du rôle {#role-based-access-controls}
+## Autorisations des contrôles d’accès en fonction du rôle (RBAC) {#role-based-access-controls}
 
 Pour les entreprises qui utilisent [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), vos utilisateurs disposant des autorisations [!UICONTROL RBAC] appropriées peuvent modifier la source de données associée à [!UICONTROL folder trait]. Un utilisateur doit appartenir à un groupe ayant l’une des caractéristiques suivantes :
 
