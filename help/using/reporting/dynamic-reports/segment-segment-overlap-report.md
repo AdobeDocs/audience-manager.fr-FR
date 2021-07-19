@@ -49,7 +49,7 @@ L’illustration suivante présente un aperçu général du rapport [!UICONTROL 
 
 Sélectionnez un point individuel pour afficher les détails des données dans une fenêtre contextuelle. Les actions de clic mettent automatiquement à jour les données affichées dans le rapport.
 
-## Champs de fenêtre contextuelle de données de chevauchement de segments définis {#fields-defined}
+## Définition des champs de pop de données de chevauchement de segments {#fields-defined}
 
 <!-- 
 
