@@ -20,7 +20,7 @@ Méthodes de gestion des domaines qui vous permettent de créer et gérer les do
 
 <!-- c_partner_site.xml -->
 
-## Créer un nouveau domaine {#create-new-domain}
+## Création d’un domaine {#create-new-domain}
 
 Méthode `POST` qui permet de créer un domaine pour (destinations de cookie uniquement).
 
@@ -50,7 +50,7 @@ Une réponse réussie renvoie `201 created` et le site du partenaire, y compris 
 }
 ```
 
-## Supprimer un domaine {#delete-domain}
+## Suppression d’un domaine {#delete-domain}
 
 Méthode `DELETE` qui permet de supprimer un domaine (pour les destinations de cookie uniquement).
 
@@ -64,7 +64,7 @@ Méthode `DELETE` qui permet de supprimer un domaine (pour les destinations de c
 
 Une réponse réussie renvoie `204 no content`. Renvoie `404 not found` si le site du partenaire est introuvable.
 
-## Propriétés de retour pour un domaine {#return-props-domain}
+## Renvoi des propriétés d’un domaine {#return-props-domain}
 
 Une méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les destinations de cookie uniquement).
 
