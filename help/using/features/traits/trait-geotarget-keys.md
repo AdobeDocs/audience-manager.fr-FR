@@ -24,7 +24,7 @@ Décrit les paires clé-valeur courantes au niveau de la plateforme que vous pou
 
 Les variables au niveau de la plateforme vous permettent de prendre les données transmises à partir d’un site particulier et de les rendre disponibles pour le ciblage sur toutes les propriétés de votre compte [!DNL Audience Manager]. Ces variables sont formées par des [paires clé-valeur](../../reference/key-value-pairs-explained.md) avec le préfixe clé `d_` comme illustré ci-dessous.
 
-## Ajout de valeurs aux clés au niveau de la plateforme {#adding-values}
+## Ajout de valeurs aux clés au niveau des plateformes {#adding-values}
 
 Pour certaines clés au niveau de la plateforme, vous pouvez spécifier la valeur vous-même. Avec d’autres, les clés sont associées aux adresses [!DNL IP] correspondantes transmises lors d’un appel d’événement. Dans les deux cas, vous devez toujours spécifier la valeur lors de la création de caractéristiques dans [!UICONTROL Trait Builder].
 
@@ -36,7 +36,7 @@ Vous spécifiez la valeur lors de la création de caractéristiques avec ces pai
 |---|---|
 | `d_zx` | Code postal (par exemple, `d_zx=10022`). |
 
-## Clés de niveau plateforme définies par adresse IP {#keys-ip-address}
+## Clés au niveau de la plateforme définies par adresse IP {#keys-ip-address}
 
 Nous travaillons avec [Digital Envoy](https://www.digitalenvoy.com/) pour obtenir et mettre à jour les données démographiques et géographiques des clés ci-dessous. Les valeurs de ces clés sont déterminées en faisant correspondre les adresses [!DNL IP] aux données géographiques et démographiques correspondantes. Cependant, vous devrez toujours saisir le paramètre value lors de la création de la paire clé-valeur dans [!UICONTROL Trait Builder].
 
