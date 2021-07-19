@@ -14,7 +14,7 @@ ht-degree: 3%
 
 ---
 
-# [!UICONTROL Audience Marketplace] pour les acheteurs de données  {#audience-marketplace-for-data-buyers}
+# [!UICONTROL Audience Marketplace] pour les acheteurs de données {#audience-marketplace-for-data-buyers}
 
 Présentation et workflow pour les acheteurs de données qui souhaitent acheter des données tierces dans [!DNL Audience Manager].
 
@@ -25,7 +25,7 @@ Présentation et workflow pour les acheteurs de données qui souhaitent acheter 
 >* Les utilisateurs peuvent uniquement rechercher et afficher des flux.
 
 
-## Le [!UICONTROL Marketplace] : À propos de {#about-marketplace}
+## Le [!UICONTROL Marketplace] : A propos {#about-marketplace}
 
 [!UICONTROL Marketplace] est une fonction [!DNL Audience Manager] destinée aux acheteurs de données qui répertorie les flux de données auxquels vous pouvez vous abonner. Il répertorie les flux de données privés, [!DNL CPM] et de taux plate. Ces flux sont fournis par des fournisseurs tiers qui utilisent [!DNL Audience Manager] pour vendre des données.
 
@@ -61,7 +61,7 @@ Pour trouver facilement les meilleurs flux de données en fonction de vos besoin
 * **[!UICONTROL Plan Use Case]**: Filtrez les flux de données en fonction de leurs cas d’utilisation pris en charge :  **[!UICONTROL Activation]**,  **[!UICONTROL Segments and Overlap]** et  **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filtrez les flux de données en fonction de leur type de tarification.
 
-## Recherche de [!UICONTROL Traits] {#finding-similar-traits}
+## Recherche de [!UICONTROL Traits] similaires {#finding-similar-traits}
 
 [!UICONTROL Audience Marketplace] vous donne la possibilité de rechercher  [!UICONTROL traits] à partir de divers flux de données, en fonction de leur similarité avec vos segments  [!UICONTROL traits] ou existants. Procédez comme suit :
 
