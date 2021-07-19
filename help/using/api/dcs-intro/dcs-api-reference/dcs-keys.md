@@ -168,7 +168,7 @@ Toutes ces options sont facultatives, sauf si vous souhaitez obtenir une répons
      <ul id="ul_6230777E16C14DCB83025A101A4ECA14"> 
       <li id="li_71F3970417BC4B93881A3E12DADE4120"><b>Caractéristique T1</b>  avec : </li> 
       <li id="li_66125E035F524A958C6F4BFAABA2A0D2">Règle de caractéristique : "<code> key1 == val1</code>" </li> 
-      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Source de données (<a href="../../../reference/ids-in-aam.md"> DPID</a>) : 3 </li> 
+      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Source de données (<a href="../../../reference/ids-in-aam.md"> DPID</a>) : 1 </li> 
       <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">Code d’intégration DPID : ic1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 
