@@ -15,7 +15,7 @@ ht-degree: 86%
 
 ---
 
-# FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils {#profile-merge-rules-and-device-graph-faq}
+# FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils{#profile-merge-rules-and-device-graph-faq}
 
 Réponses aux questions courantes concernant les stratégies de fusion de profils et la représentation graphique des appareils.
 
