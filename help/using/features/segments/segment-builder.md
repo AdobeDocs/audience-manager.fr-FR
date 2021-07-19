@@ -60,7 +60,7 @@ Regardez la vidéo ci-dessous pour une vue détaillée du fonctionnement des mes
 
 >[!VIDEO](https://video.tv.adobe.com/v/33445)
 
-## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Basic Information] Section  {#segment-builder-controls-basics}
+## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Basic Information] Section {#segment-builder-controls-basics}
 
 Dans [!UICONTROL Segment Builder], les paramètres [!UICONTROL the Basic Information] vous permettent de créer ou de modifier des caractéristiques existantes. Pour créer un [!UICONTROL segment], indiquez un nom, un [!UICONTROL data source], puis sélectionnez un dossier de stockage. Tous les autres champs sont facultatifs. Passez à la section [!UICONTROL Traits] lorsque vous avez terminé.
 
@@ -119,7 +119,7 @@ Dans [!UICONTROL Segment Builder], les paramètres [!UICONTROL the Basic Informa
 | **[!UICONTROL Status]** | Active ou désactive le segment (principal par défaut). |
 | **Stockage de dossier** | Détermine le dossier de stockage auquel le segment appartient. |
 
-## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Traits] Section  {#segment-builder-controls-traits}
+## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Traits] Section {#segment-builder-controls-traits}
 
 Dans [!UICONTROL Segment Builder], la section [!UICONTROL Traits] permet de gérer [!UICONTROL traits] dans un [!UICONTROL segment], de créer des groupes [!UICONTROL trait] et de définir des critères de qualification. Pour ajouter une balise [!UICONTROL trait] à une balise [!UICONTROL segment], saisissez le nom [!UICONTROL trait] dans le champ de recherche, puis cliquez sur [!UICONTROL Add Trait]. Enregistrez le [!UICONTROL trait] (s’il est terminé) ou passez à [!UICONTROL Destinations Mapping].
 
@@ -147,7 +147,7 @@ Pour supprimer [!UICONTROL traits] d’une [!UICONTROL segment] :
 3. Cliquez sur **Modifier** pour ouvrir [!UICONTROL Segment Builder], puis cliquez sur **Caractéristiques** pour ouvrir le panneau [!UICONTROL traits].
 4. Passez la souris sur la balise [!UICONTROL trait] que vous souhaitez supprimer, puis cliquez sur le X. Cette action supprime immédiatement la balise [!UICONTROL trait] de votre balise [!UICONTROL segment].
 
-## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Destinations Mappings] Section  {#segment-builder-controls-destinations}
+## [!UICONTROL Segment Builder] Contrôles :  [!UICONTROL Destinations Mappings] Section {#segment-builder-controls-destinations}
 
 Dans [!UICONTROL Segment Builder], la section facultative [!UICONTROL Destinations Mapping] vous permet d’envoyer des données [!UICONTROL segment] à un [!DNL cookie] tiers, [!DNL URL] ou [!UICONTROL server-to-server destination]. Pour ajouter une balise [!UICONTROL destination], recherchez (ou parcourez) une balise [!UICONTROL destination], fournissez des informations spécifiques à [!UICONTROL destination], puis cliquez sur **[!UICONTROL Add Destination]**.
 
