@@ -65,7 +65,7 @@ Processus qui assurent la protection des données détenues par des clients indi
 
 **Partitionnement des données dans les rapports :** les identifiants client font partie de la clé d’identification dans tous les tableaux de rapports, et les requêtes de rapport sont filtrées par identifiant. Cela permet d’empêcher l’affichage de vos données dans les rapports d’un autre client d’Audience Manager.
 
-## Transferts entrants serveur à serveur (S2S) {#inbound-s2s}
+## Transferts entrants serveur à serveur (S2S)  {#inbound-s2s}
 
 Adobe Audience Manager prend en charge deux méthodes principales de transfert de fichiers de données intégrés S2S vers nos systèmes :
 
