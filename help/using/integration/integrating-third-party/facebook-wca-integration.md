@@ -36,7 +36,7 @@ Cette page illustre le processus de création de [!DNL Facebook Website Custom A
 
 Nous vous recommandons d’installer ou de mettre à niveau les bibliothèques des étapes 3 et 4 à l’aide de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
-## Étape 1 - Créer un [!UICONTROL Facebook Destination] dans [!DNL Audience Manager] {#step-1-create-facebook-destination}
+## Étape 1 - Créer une [!UICONTROL Facebook Destination] dans [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
 Créez un [!UICONTROL URL Destination] dans [!DNL Audience Manager] et nommez-le [!DNL Facebook Website Custom Audiences]. Utilisez les paramètres ci-dessous lors de la création de la destination. Vous pouvez également vous reporter à la page [Configuration d’une destination d’URL](/help/using/features/destinations/create-url-destination.md) .
 
