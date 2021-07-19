@@ -15,7 +15,7 @@ ht-degree: 82%
 
 ---
 
-# FAQ sur la collecte de données et l’intégration de produit {#data-collection-and-product-integration-faq}
+# FAQ sur la collecte de données et l’intégration de produit{#data-collection-and-product-integration-faq}
 
 Questions et problématiques courantes liées à la collecte et à l’intégration des données.
 
