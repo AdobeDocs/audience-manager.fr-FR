@@ -19,7 +19,7 @@ Créez de nouvelles caractéristiques à partir de tous les signaux, y compris c
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
-## Créer des caractéristiques à partir du tableau de bord des signaux {#create-traits-from-signal-dashboard}
+## Création de caractéristiques à partir du tableau de bord des signaux {#create-traits-from-signal-dashboard}
 
 [!UICONTROL Signal Dashboard] permet de créer de nouvelles caractéristiques à partir de [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals] et de vos recherches enregistrées.
 
@@ -35,7 +35,7 @@ Pour créer de nouvelles caractéristiques à partir de **[!UICONTROL Signal Das
 
 Vous serez redirigé vers le **[créateur de caractéristiques](../../features/traits/about-trait-builder.md)** pour créer vos caractéristiques.
 
-## Créer des caractéristiques à partir de la recherche de signaux {#create-traits-from-signal-search}
+## Création de caractéristiques à partir de la recherche de signaux {#create-traits-from-signal-search}
 
 Créez des caractéristiques basées sur des signaux utilisés ou inutilisés qui ne sont pas affichés dans la balise [!UICONTROL Signal Dashboard].
 
