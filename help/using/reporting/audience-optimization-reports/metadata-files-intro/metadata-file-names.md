@@ -33,7 +33,7 @@ La syntaxe suivante définit la structure d’un nom de fichier de métadonnées
 * Le composant du milieu **0** est techniquement l’identifiant parent, qui est un champ hérité. La valeur doit toujours être définie sur **0**.
 * L’ID enfant peut avoir une valeur comprise entre 1 et 10, selon la dimension. Reportez-vous à l’exemple ci-dessous :
 
-## Dimensions ID enfant {#child-dimension}
+## Dimensions d’ID enfant {#child-dimension}
 
 Dans le nom du fichier de métadonnées, l’ID enfant est un identifiant qui classe le type de données dans un fichier et le place dans une hiérarchie. Vous pouvez baliser l’ID enfant dans le nom de fichier avec les ID de catégorie suivants :
 
