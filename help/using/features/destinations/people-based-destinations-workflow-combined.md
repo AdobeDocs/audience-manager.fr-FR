@@ -69,7 +69,7 @@ Regardez la vidéo ci-dessous pour découvrir un tutoriel vidéo sur la créatio
 >
 > Voir [Intégration de données](people-based-destinations-prerequisites.md#data-onboarding) pour consulter les questions fréquentes sur la manière dont vous devez importer vos données hors ligne dans l’Audience Manager pour les destinations basées sur les personnes.
 
-## Étape 2 - Faire correspondre les DPUUID aux adresses électroniques hachées par le biais de la synchronisation des identifiants basée sur des fichiers {#match-ids-emails}
+## Étape 2 - Faire correspondre les DPUUID aux adresses électroniques hachées via la synchronisation des identifiants basés sur des fichiers {#match-ids-emails}
 
 >[!IMPORTANT]
 >
@@ -137,7 +137,7 @@ L’étape suivante consiste à créer une règle de fusion qui vous aidera à c
 
 Pour créer des segments d’audience, utilisez le [créateur de segments](../segments/segment-builder.md). Si vous souhaitez envoyer des segments d’audience existants à [!DNL People-Based Destinations], passez à l’[étape 5 - Configuration de l’authentification de la plateforme basée sur les personnes](people-based-destinations-workflow-combined.md#configure-authentication).
 
-## Étape 5 - Configurer l’authentification de la plateforme basée sur les personnes {#configure-authentication}
+## Étape 5 - Configuration de l’authentification de la plateforme basée sur les personnes {#configure-authentication}
 
 1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Si vous avez configuré une intégration avec une plateforme sociale, elle doit apparaître dans cette page. Sinon, la page est vide.
    ![intégration basée sur les personnes](assets/pbd-config.png)
