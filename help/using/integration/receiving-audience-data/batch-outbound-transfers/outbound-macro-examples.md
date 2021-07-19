@@ -22,7 +22,7 @@ Exemples d’utilisation de macros courantes pour créer des modèles de fichier
 >
 >Dans les tableaux, le type **boldface** identifie chaque macro avec sa sortie associée. Pour les exemples de format, les symboles `<` `>` ont été ajoutés afin de séparer visuellement chaque macro.
 
-## Macros Nom de fichier {#file-name-macros}
+## Macros de nom de fichier {#file-name-macros}
 
 Pour obtenir la liste des macros et des définitions disponibles, voir [Macros de modèle sortantes](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
@@ -89,7 +89,7 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
  </tbody>
 </table>
 
-## Macros Contenu du fichier {#file-content-macros}
+## Macros de contenu de fichier {#file-content-macros}
 
 Pour obtenir la liste des macros et des définitions disponibles, voir [Macros de modèle sortantes](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
