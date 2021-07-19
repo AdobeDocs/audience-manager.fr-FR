@@ -44,7 +44,7 @@ Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ téléc
 
 Nous comprenons votre implication dans le respect des demandes de confidentialité des données pendant la période définie par la loi.
 
-## Demandes de suppression de données {#delete-data}
+## Demandes de suppression de données  {#delete-data}
 
 Vous pouvez envoyer des demandes de suppression de données par l’[interface utilisateur Privacy Service](https://privacyui.cloud.adobe.io) (documentation [ici](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) ou en appelant l’API du Privacy Service (documentation [ici](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) et [!DNL API] référence [ici](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
@@ -162,7 +162,7 @@ Suite à une exclusion au niveau du partenaire avec un appel d’identifiant d�
 * Les partenaires de destination reçoivent la requête de suppression de la segmentation de l’identifiant de l’appareil. La suppression de la segmentation fonctionne pour les destinations en [temps réel](data-privacy-requests.md#aam-partners-with-unsegmentation) et par lots.
 * Aucune donnée historique n’est supprimée.
 
-## [!DNL Audience Manager] Partenaires Avec Fonctionnalités De Désegmentation  {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Partenaires Avec Fonctionnalités De Désegmentation {#aam-partners-with-unsegmentation}
 
 Afin de vous aider à automatiser vos demandes de confidentialité des données des consommateurs, [!DNL Audience Manager] tentera d’informer les partenaires d’activation des demandes de suppression des titulaires de données en leur envoyant des informations de suppression de segment (ou de suppression de segment).
 
