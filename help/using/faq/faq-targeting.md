@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# FAQ sur le ciblage {#targeting-faq}
+# FAQ sur le ciblage{#targeting-faq}
 
 Questions et problèmes courants concernant le ciblage.
 
