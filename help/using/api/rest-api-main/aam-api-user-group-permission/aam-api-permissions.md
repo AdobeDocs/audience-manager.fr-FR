@@ -20,7 +20,7 @@ Redéfinissez les méthodes [!DNL API] pour gérer les autorisations des objets 
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Liste des types d’objet disponibles {#list-object-types}
+## Liste des types d’objets disponibles {#list-object-types}
 
 Une méthode `GET` pour répertorier les types d’objets disponibles sur lesquels des contrôles d’accès basés sur les rôles peuvent être définis.
 
