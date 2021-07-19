@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Ici à l&#39;Audience Manager, nous sommes des ingénieurs, des développeurs, et des ninjas de code comme vous. Et, comme vous, nous voulons travailler avec une documentation [!DNL API] fiable et précise. Par conséquent, nous réécrivons notre contenu [!DNL API] dans [!DNL Swagger] et nous le déplaçons vers un nouvel emplacement. Ces modifications ont pour but d’améliorer votre expérience avec le code d’Audience Manager [!DNL API].
 
-## Déplacer vers le haut {#code-migration-details}
+## Déplacement en marche {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
