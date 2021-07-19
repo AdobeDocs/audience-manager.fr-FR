@@ -25,11 +25,11 @@ Avant de configurer votre destination [!DNL Twitter Tailored Audiences], vérifi
 2. Votre compte utilisateur [!DNL Twitter] pour lequel vous avez autorisé l’accès en Audience Manager doit disposer de l’autorisation [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) activée.
 3. Lors de la création de la première destination [!DNL Twitter Tailored Audiences] dans votre instance d’Audience Manager, contactez le conseiller d’Adobe ou l’assistance clientèle pour activer la synchronisation des identifiants [!DNL Twitter] (ID de source de données = 1123) pour votre compte. Ceci est nécessaire pour une synchronisation correcte entre l’Audience Manager et [!DNL Twitter].
 
-## Ajouter une nouvelle [!DNL Twitter Tailored Audiences] destination {#add-new-twitter-destination}
+## Ajouter une nouvelle destination [!DNL Twitter Tailored Audiences] {#add-new-twitter-destination}
 
 Cette section décrit les étapes à suivre lors de la configuration d’une nouvelle destination basée sur un appareil pour [!DNL Twitter Tailored Audiences]. Ce scénario suppose qu’aucune destination [!DNL Twitter Tailored Audiences] existante n’est configurée via votre conseiller en Adobe ou l’assistance clientèle.
 
-### Étape 1. Authentifiez-vous avec [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter}
+### Étape 1. Authentifiez avec [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter}
 
 Avant de pouvoir ajouter la destination basée sur l’appareil, vous devez lier l’Audience Manager et votre compte [!DNL Twitter Tailored Audiences]. Procédez comme suit :
 
