@@ -15,11 +15,11 @@ ht-degree: 1%
 
 ---
 
-# [!UICONTROL Trait] Page Détails  {#trait-details-page}
+# [!UICONTROL Trait] Page Détails {#trait-details-page}
 
 La page Détails d’une [!UICONTROL trait] individuelle fournit un aperçu des détails [!UICONTROL trait], tels que le nom [!UICONTROL trait], l’identifiant, les mesures de performances, les expressions qui définissent [!UICONTROL trait], les segments auxquels il appartient et le journal d’audit [!UICONTROL trait]. Pour afficher ces détails, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** et cliquez sur le nom de la balise [!UICONTROL trait] que vous souhaitez utiliser.
 
-## [!UICONTROL Trait] Outils de gestion  {#trait-management-tools}
+## [!UICONTROL Trait] Outils de gestion {#trait-management-tools}
 
 La partie supérieure de la page de détails [!UICONTROL trait] héberge les outils que vous pouvez utiliser pour gérer vos [!UICONTROL traits] :
 
@@ -71,13 +71,13 @@ La section [!UICONTROL Trait Expression] indique les critères que les utilisate
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait]Segments {#trait-segments}
+## [!UICONTROL Trait]Segments  {#trait-segments}
 
 La section [!UICONTROL Segments with this Trait] répertorie tous les segments auxquels la [!UICONTROL trait] sélectionnée appartient. Vous pouvez cliquer sur le nom d’un segment pour en afficher les détails.
 
 ![](assets/traitSegments.png)
 
-## [!UICONTROL Trait] Journal d’audit/d’historique  {#trait-audit-history}
+## [!UICONTROL Trait] Journal d’audit/d’historique {#trait-audit-history}
 
 Pour [!UICONTROL rule-based] et [!UICONTROL onboarded traits], la section [!UICONTROL Trait Expression Change History] présente les 10 dernières modifications apportées aux règles d’expression [!UICONTROL trait] et à leur auteur. Si votre [!UICONTROL trait] comporte plus de 10 modifications, cliquez sur **[!UICONTROL Export to CSV]** pour télécharger l’intégralité du journal d’audit. Le journal d’audit n’est pas disponible pour [!UICONTROL folder] ou [!UICONTROL algorithmic traits].
 
