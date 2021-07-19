@@ -18,13 +18,13 @@ ht-degree: 7%
 
 Ces rapports renvoient des données sur les impressions, les taux de clics publicitaires et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées pour obtenir une meilleure image des performances de votre campagne au fil du temps.
 
-## Exemple de [!UICONTROL Trend Analysis] rapport {#sample-trend-analysis}
+## Exemple de rapport [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
 Le rapport [!UICONTROL Trend Analysis] renvoie les données sous forme de graphique linéaire pour un intervalle de 14 jours uniquement. Dans cet exemple, le rapport affiche les tendances d’impression, de clics publicitaires et de conversion pour un ensemble de segments mappés.
 
 ![](assets/trend-analysis.png)
 
-## Exemple de [!UICONTROL Volume Analysis] rapport {#sample-volume-analysis}
+## Exemple de rapport [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
 Le rapport [!UICONTROL Volume Analysis] renvoie les données d’un graphique à barres pour la période sélectionnée. Dans cet exemple, le rapport affiche les impressions, les clics publicitaires et les conversions par volume pour un ensemble de segments mappés.
 
