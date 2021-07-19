@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Cas d’utilisation des éditeurs {#publisher-use-cases}
+# Cas d’utilisation des éditeurs{#publisher-use-cases}
 
 Un coup d’œil à quelques-uns des besoins courants des éditeurs satisfaits par Adobe Audience Manager.
 
