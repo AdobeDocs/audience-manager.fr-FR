@@ -22,7 +22,7 @@ Le rapport de chevauchement de segments et d’unités publicitaires s’affiche
 
 Grâce au rapport [!UICONTROL Segment to Ad Unit Overlap], vous pouvez déterminer les audiences qui visitent vos propriétés web. Le rapport affiche le chevauchement entre les membres de vos segments [!DNL Audience Manager] et le nombre de visiteurs sur vos propriétés web. Un chevauchement plus élevé signifie que de nombreux membres d’un segment visitent votre propriété web.
 
-## Utilisation du rapport de chevauchement Segment vers unité publicitaire {#using-the-report}
+## Utilisation du rapport de chevauchement de segments et d’unités publicitaires {#using-the-report}
 
 Utilisez les contrôles **[!UICONTROL Top N Ad Units]** et **[!UICONTROL Top N Segments]** pour sélectionner le nombre d’unités publicitaires et de segments souhaité pour le chevauchement. Vous pouvez sélectionner un nombre maximal de 100 éléments pour chaque élément.
 
