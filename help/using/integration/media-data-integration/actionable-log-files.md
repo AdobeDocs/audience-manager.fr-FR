@@ -95,7 +95,7 @@ Le tableau répertorie les signaux exploitables provenant des fichiers journaux 
    <tr> 
    <td colname="col1"> <p> <code>Event Time</code> </p> </td> 
    <td colname="col2"> <p><code>d_time</code> </p> </td> 
-   <td colname="col3">Date et heure UTC de l’événement d’impression, de clic ou de conversion. Représenté en microsecondes depuis 1970-01-01 00:00:00 UTC.</td> 
+   <td colname="col3">Date et heure UTC de l’événement d’impression, de clic ou de conversion. Représenté en microsecondes depuis le 1970-01-01 00:00:00 UTC.</td> 
    <td colname="col4"> <p> <code>1570826763000</code> </p> </td> 
   </tr> 
   <tr> 
@@ -170,7 +170,7 @@ Removed  {importance="high"} for ExL
 
 <br> 
 
-### Signaux pratiques à partir de [!DNL Google Ad Manager] journaux {#ad-manager-logs-signals}
+### Signaux pratiques à partir des journaux [!DNL Google Ad Manager] {#ad-manager-logs-signals}
 
 Le tableau répertorie les signaux exploitables provenant des fichiers journaux [!DNL Google Ad Manager] :
 
