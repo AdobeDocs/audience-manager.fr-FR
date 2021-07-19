@@ -14,7 +14,7 @@ ht-degree: 3%
 
 ---
 
-# Importation de fichiers de données Google Campaign Manager dans l’Audience Manager {#import-dcm-data-files-into-audience-manager}
+# Importation des fichiers de données Google Campaign Manager dans Audience Manager {#import-dcm-data-files-into-audience-manager}
 
 Configurez un groupe [!DNL Google] pour importer vos fichiers de données [!DNL Google Campaign Manager] en Audience Manager. Le contenu de cette section résume le processus d’intégration et vous fournit des liens vers des ressources [!DNL Google Campaign Manager] pour vous aider à démarrer.
 
