@@ -15,7 +15,7 @@ ht-degree: 7%
 
 ---
 
-# Envoyer des données par lots à [!DNL Audience Manager] Aperçu {#send-batch-data-to-audience-manager-overview}
+# Présentation de l’envoi de données par lots à [!DNL Audience Manager] {#send-batch-data-to-audience-manager-overview}
 
 Présentation destinée aux clients techniques et non techniques qui souhaitent importer des données d’autres systèmes (hors ligne) dans [!DNL Audience Manager].
 
