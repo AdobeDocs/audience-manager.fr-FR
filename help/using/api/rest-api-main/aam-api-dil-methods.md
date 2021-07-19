@@ -378,7 +378,7 @@ Une requête réussie renvoie le code de réponse `["4.0", "4.1"]` et les donné
 } 
 ```
 
-## Générer le DIL {#generate-dil}
+## Générer un DIL {#generate-dil}
 
 Méthode `GET` qui génère [!UICONTROL DIL] en fonction du corps de la requête transmis à l’aide de la version spécifiée de [!UICONTROL DIL]. Si l’alias `LATEST` est utilisé pour la version dans l’URL, la dernière version de [!UICONTROL DIL] est générée.
 
