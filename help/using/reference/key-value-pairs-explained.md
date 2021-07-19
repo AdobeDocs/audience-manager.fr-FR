@@ -51,7 +51,7 @@ Lorsque vous utilisez des données sérialisées, vous devez spécifier les cara
 * **Séparateur clé-valeur :** sépare une clé des valeurs dans une paire clé-valeur.
 * **Séparateur de série :** sépare les valeurs individuelles dans des paires clé-valeur sérialisées.
 
-## Éléments clé-valeur standard et sérialisés {#standard-serialized-key-value-elements}
+## Éléments de clé standard et de valeur sérialisée {#standard-serialized-key-value-elements}
 
 
 | Type | Exemple | Clé | Séparateur clé-valeur | Délimiteur clé-valeur | Séparateur de série |
