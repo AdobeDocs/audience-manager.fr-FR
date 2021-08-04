@@ -7,9 +7,9 @@ title: Démarrage des stratégies de fusion de profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Fusion des profils
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1315'
 ht-degree: 4%
 
 ---
@@ -224,7 +224,7 @@ Vérifiez les méthodes de votre code [!DNL SDK] qui vous permettent de transmet
  </tbody>
 </table>
 
-Voir aussi [Méthodes d’Audience Manager pour Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et [Méthodes d’Audience Manager pour iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Voir aussi [Méthodes d’Audience Manager pour Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et [Méthodes d’Audience Manager pour iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
