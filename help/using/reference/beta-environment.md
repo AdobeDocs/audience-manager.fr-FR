@@ -8,9 +8,9 @@ title: Environnement bêta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: 'Référence '
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 4%
 
 ---
@@ -21,25 +21,21 @@ L’environnement bêta permet de tester la mise en oeuvre de votre Audience Man
 
 ## Présentation
 
-L’environnement bêta est une réplique exacte de l’environnement de production, sans aucune fonctionnalité expérimentale ou non publiée. Vos informations de connexion de l’environnement de production sont valides dans l’environnement bêta.
+La fonctionnalité de l’environnement bêta est une réplique exacte de l’environnement de production, sans aucune fonctionnalité expérimentale ou non publiée. Vos informations de connexion de l’environnement de production sont valides dans l’environnement bêta.
 
 **Mettre à jour le planning**
 
 L’environnement bêta est mis à jour à la fin de chaque mois pendant les heures creuses.
 
+>[!IMPORTANT]
+>
+>Notez que vos données client ([signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) ne sont pas synchronisées entre les environnements de production et bêta.
+
 **Trafic sortant**
 
 Le trafic sortant n’est pas activé pour l’environnement bêta.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## Points de fin
-
-
 
 | Service | URL/Nom d’hôte | Comment obtenir un accès |
 |--- |--- | --- |
