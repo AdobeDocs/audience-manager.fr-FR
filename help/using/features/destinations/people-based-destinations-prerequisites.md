@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Conditions préalables et considérations
 feature: Destinations basées sur les personnes
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vo
 
 Pour savoir comment modifier vos [!DNL LinkedIn Campaign Manager] autorisations d’utilisateur, voir [Ajout, modification et suppression des autorisations d’utilisateur sur les comptes Advertising](https://www.linkedin.com/help/lms/answer/5753) dans la documentation LinkedIn.
 
-Voir [Présentation et configuration de la destination basée sur les personnes de LinkedIn](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) pour obtenir des instructions vidéo.
+Voir [Présentation et configuration de la destination basée sur les personnes de LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) pour obtenir des instructions vidéo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -88,7 +88,7 @@ Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais de [!DNL Adobe Experience Platform Identity Service (ECID)]. Voir [Prise en charge du hachage SHA-256 pour setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) pour plus d’informations sur l’utilisation de l’ECID pour hacher les ID de client.
+Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais de [!DNL Adobe Experience Platform Identity Service (ECID)]. Voir [Prise en charge du hachage SHA-256 pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) pour plus d’informations sur l’utilisation de l’ECID pour hacher les ID de client.
 
 ## Obtention de l’autorisation d’utilisateur {#obtaining-user-permission}
 
