@@ -7,10 +7,10 @@ title: FAQ sur la rétention des données et la confidentialité
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Gouvernance et confidentialité des données
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 84%
+source-wordcount: '759'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Réponses aux questions et problématiques courantes concernant la confidentiali
 
 **De quelle manière Audience Manager utilise-t-il les cookies, et quels cookies définit-il ?**
 
-Voir [Cookies d’Audience Manager](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-am.html).
+Voir [Cookies d’Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **Les clients d’Audience Manager situés aux États-Unis peuvent-ils cibler les utilisateurs de propriétés européennes ?**
 
