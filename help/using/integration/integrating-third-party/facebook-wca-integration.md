@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Intégration Facebook WCA
 feature: Intégration tierce
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 5%
+source-wordcount: '851'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Cette page illustre le processus de création de [!DNL Facebook Website Custom A
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segments, prêts à être affectés à votre nouvelle  [!DNL Facebook] destination. Voici [comment créer un segment](/help/using/features/segments/segment-builder.md) dans l’interface utilisateur de [!DNL Audience Manager].
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Version 4.1.0 ou ultérieure. Téléchargez la version la plus récente **[ici](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) version 9.0 ou ultérieure, téléchargeable  **[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Si vous utilisez [Transfert côté serveur (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) pour importer des données dans [!DNL Audience Manager], vous devez utiliser AppMeasurement version 2.12 ou ultérieure. Téléchargez [!DNL AppMeasurement] à l’aide du [Gestionnaire de code Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) version 9.0 ou ultérieure, téléchargeable  **[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Si vous utilisez [Transfert côté serveur (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) pour importer des données dans [!DNL Audience Manager], vous devez utiliser AppMeasurement version 2.12 ou ultérieure. Téléchargez [!DNL AppMeasurement] à l’aide du [Gestionnaire de code Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
 Nous vous recommandons d’installer ou de mettre à niveau les bibliothèques des étapes 3 et 4 à l’aide de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
