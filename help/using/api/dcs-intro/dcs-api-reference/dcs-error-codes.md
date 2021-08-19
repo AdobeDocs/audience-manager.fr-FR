@@ -7,9 +7,9 @@ title: Codes, messages et exemples d’erreur des serveurs de collecte de donné
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Dans les tableaux ci-dessous, *italics* représente un espace réservé de varia
 |---|---|---|
 | 0 | Erreur non spécifiée | Il s’agit d’une erreur fourre-tout qui gère les événements qui ne sont pas couverts par les autres gestionnaires d’erreurs. La résolution de cette erreur est difficile. Elle peut être causée par une variété d’actions ou d’événements inconnus. Si cette erreur s’affiche, réessayez d’envoyer votre requête [!DNL DCS]. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 | 1 | Impossible de trouver la configuration pour le nom d’hôte : `hostname` | Le nom d’hôte envoyé dans la demande n’a pas été configuré par notre équipe de configuration de partenaire. Contactez votre représentant [!DNL Adobe] si ce message d’erreur s’affiche. |
-| 2 | Valeur `d_orgid` non valide (impossible de trouver une configuration pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et relancez la requête. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, reportez-vous à la section &quot;Page d’administration&quot; [Organisations et liaison de comptes](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) pour plus d’informations sur la manière de le trouver. |
+| 2 | Valeur `d_orgid` non valide (impossible de trouver une configuration pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et relancez la requête. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, reportez-vous à la section &quot;Page d’administration&quot; [Organisations et liaison de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) pour plus d’informations sur la manière de le trouver. |
 | 10 | Impossible d’évaluer les caractéristiques | Les caractéristiques de la requête ont été partiellement évaluées ou n’ont pas du tout été évaluées. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 
 ## Codes d’erreur d’intégration {#integration-error-codes}
