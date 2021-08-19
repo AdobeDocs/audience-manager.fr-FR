@@ -7,10 +7,10 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: Mise en oeuvre du DIL
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 77%
+source-wordcount: '540'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Une configuration booléenne facultative permet de déterminer si le code DIL e
 Pour utiliser `isCoopSafe`, vous devez :
 
 * Utilisez [!UICONTROL DIL] v6.11 ou version ultérieure.
-* Participer à [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html). Les membres potentiels de Co-op doivent également consulter cette documentation pour déterminer si `isCoopSafe` peut répondre à des préoccupations concernant la manière dont les données sont utilisées pour créer la coopérative Device Graph.
+* Participer à [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Les membres potentiels de Co-op doivent également consulter cette documentation pour déterminer si `isCoopSafe` peut répondre à des préoccupations concernant la manière dont les données sont utilisées pour créer la coopérative Device Graph.
 
 * Contactez votre consultant [!DNL Adobe] pour définir une liste autorisée ou un indicateur de liste bloquée sur votre compte Device Co-op. Il n’existe pas de chemin d’accès en libre-service pour activer ces indicateurs.
 
