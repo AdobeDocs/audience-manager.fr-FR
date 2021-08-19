@@ -7,10 +7,10 @@ title: Création DIL
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: Mise en oeuvre du DIL
 exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 11%
+source-wordcount: '809'
+ht-degree: 10%
 
 ---
 
@@ -48,12 +48,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
-   <td colname="col3"> <p>Cette propriété définit l’identifiant du conteneur utilisé par <span class="keyword">Audience Manager</span> pour la synchronisation des identifiants. Définissez <code> containerNSID </code> si <span class="wintitle"> DIL </span> est déployé sur plusieurs sites. Chacun de ces sites aura son propre ID de conteneur et sa propre synchronisation des identifiants. Si vous ne disposez que d’un site, l’identifiant du conteneur est 0 par défaut et vous n’avez pas besoin de le définir correctement. Contactez votre consultant pour obtenir la liste de vos sites et de leurs ID de conteneur. </p> <p>Dans le <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html" format="https" scope="external"> service Adobe Experience Platform Identity </a>, la propriété <code> idSyncContainerID </code> correspond à <code> containerNSID </code> dans le DIL </span>. <span class="wintitle"> Notez ce qui suit si vous utilisez <span class="wintitle"> DIL </span> <i>et</i> le service d’ID sur plusieurs sites : </span></p> <p> 
+   <td colname="col3"> <p>Cette propriété définit l’identifiant du conteneur utilisé par <span class="keyword">Audience Manager</span> pour la synchronisation des identifiants. Définissez <code> containerNSID </code> si <span class="wintitle"> DIL </span> est déployé sur plusieurs sites. Chacun de ces sites aura son propre ID de conteneur et sa propre synchronisation des identifiants. Si vous ne disposez que d’un site, l’identifiant du conteneur est 0 par défaut et vous n’avez pas besoin de le définir correctement. Contactez votre consultant pour obtenir la liste de vos sites et de leurs ID de conteneur. </p> <p>Dans le <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> service Adobe Experience Platform Identity </a>, la propriété <code> idSyncContainerID </code> correspond à <code> containerNSID </code> dans le DIL </span>. <span class="wintitle"> Notez ce qui suit si vous utilisez <span class="wintitle"> DIL </span> <i>et</i> le service d’ID sur plusieurs sites : </span></p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Pour chaque site, définissez les mêmes ID de conteneur sur <code> containerNSID </code> et <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF"><span class="wintitle"> DIL </span> et le service d’ID tenteront tous deux d’envoyer des synchronisations d’ID à notre iFrame de collecte de données. Cependant, l’iFrame s’assure que le DIL <span class="wintitle"> </span> ne déclenche pas de synchronisation des identifiants. Cela empêche la duplication. </li> 
       <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">Seul le <span class="wintitle"> DIL </span> envoie des données vers une <a href="../../features/destinations/destinations.md"> destination d’URL </a>. </li> 
-     </ul> </p> <p>Voir aussi <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncontainerid.html" format="https" scope="external"> idSyncContainerID </a>. </p> </td> 
+     </ul> </p> <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncontainerid.html" format="https" scope="external"> idSyncContainerID </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
@@ -63,7 +63,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Identifiant du partenaire de données qui vous a été attribué par  <span class="keyword"> Audience Manager  </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Votre identifiant unique pour un utilisateur. </li> 
-    </ul> <p> <p>Important :  Utilisez uniquement des valeurs non codées pour vos identifiants. Le codage crée des identifiants codés deux fois. </p> </p> <p> <p>Remarque :  Si vous utilisez le <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> service Adobe Experience Platform Identity </a>, définissez les ID de client avec la méthode <code> setCustomerIDs </code> au lieu de <span class="wintitle"> DIL </span>. Voir <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de client et états d’authentification </a>. </p> </p> </td> 
+    </ul> <p> <p>Important :  Utilisez uniquement des valeurs non codées pour vos identifiants. Le codage crée des identifiants codés deux fois. </p> </p> <p> <p>Remarque :  Si vous utilisez le <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> service Adobe Experience Platform Identity </a>, définissez les ID de client avec la méthode <code> setCustomerIDs </code> au lieu de <span class="wintitle"> DIL </span>. Voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID de client et états d’authentification </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -78,12 +78,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>Booléen </p> </td> 
-   <td colname="col3"> <p> <p>Important :  Cet élément a été abandonné avec la version 8.0 <span class="wintitle"> du DIL </span> (publiée en août 2018). Utilisez plutôt la fonction <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> dans le service Adobe Experience Platform Identity. </p> </p> <p> Si <code> true </code>, ne joint pas l’IFRAME de publication de destination au DOM ni aux destinations de déclenchement. La valeur par défaut est <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>Important :  Cet élément a été abandonné avec la version 8.0 <span class="wintitle"> du DIL </span> (publiée en août 2018). Utilisez plutôt la fonction <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> dans le service Adobe Experience Platform Identity. </p> </p> <p> Si <code> true </code>, ne joint pas l’IFRAME de publication de destination au DOM ni aux destinations de déclenchement. La valeur par défaut est <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>Booléen </p> </td> 
-   <td colname="col3"> <p> <p>Important :  Cet élément a été abandonné avec la version 8.0 <span class="wintitle"> du DIL </span> (publiée en août 2018). Utilisez plutôt la fonction <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> dans le service Adobe Experience Platform Identity. </p> </p> <p>Désactive la synchronisation des ID. Vous devez désactiver les synchronisations des identifiants lors de l’utilisation de DIL v6.2+ et du service d’identification des visiteurs. La fonction <code> visitorService </code> (voir l’exemple de code ci-dessous) s’occupe de cette opération. </p> </td> 
+   <td colname="col3"> <p> <p>Important :  Cet élément a été abandonné avec la version 8.0 <span class="wintitle"> du DIL </span> (publiée en août 2018). Utilisez plutôt la fonction <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> dans le service Adobe Experience Platform Identity. </p> </p> <p>Désactive la synchronisation des ID. Vous devez désactiver les synchronisations des identifiants lors de l’utilisation de DIL v6.2+ et du service d’identification des visiteurs. La fonction <code> visitorService </code> (voir l’exemple de code ci-dessous) s’occupe de cette opération. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -93,7 +93,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>Booléen </p> </td> 
-   <td colname="col3"> <p> <p>Important :  Cet élément a été abandonné avec la version 8.0 <span class="wintitle"> du DIL </span> (publiée en août 2018). Utilisez plutôt la fonction <code> visitor.idSyncSSLUseAkamai </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> </a> dans le service Adobe Experience Platform Identity. </p> </p> <p> Indique si le modèle de publication de destination doit utiliser Akamai pour les connexions HTTPS. Activée par partenaire. </p> </td> 
+   <td colname="col3"> <p> <p>Important :  Cet élément a été abandonné avec la version 8.0 <span class="wintitle"> du DIL </span> (publiée en août 2018). Utilisez plutôt la fonction <code> visitor.idSyncSSLUseAkamai </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> </a> dans le service Adobe Experience Platform Identity. </p> </p> <p> Indique si le modèle de publication de destination doit utiliser Akamai pour les connexions HTTPS. Activée par partenaire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
@@ -103,7 +103,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Obligatoire. </p> <p>La paire <code> namespace </code> clé-valeur contient votre <span class="keyword"> ID d’organisation </span> Experience Cloud. Si vous ne possédez pas cet ID, vous pouvez le trouver dans la section <span class="wintitle"> Administration </span> du tableau de bord <span class="keyword"> Experience Cloud </span> . Vous avez besoin des autorisations d’administrateur pour afficher ce tableau de bord. Voir les <a href="../../faq/faq-features.md"> FAQ sur les fonctions et fonctionnalités du produit </a> et <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administration - Gestion des utilisateurs et FAQ </a>. </p> </td> 
+   <td colname="col3"> <p>Obligatoire. </p> <p>La paire <code> namespace </code> clé-valeur contient votre <span class="keyword"> ID d’organisation </span> Experience Cloud. Si vous ne possédez pas cet ID, vous pouvez le trouver dans la section <span class="wintitle"> Administration </span> du tableau de bord <span class="keyword"> Experience Cloud </span> . Vous avez besoin des autorisations d’administrateur pour afficher ce tableau de bord. Voir les <a href="../../faq/faq-features.md"> FAQ sur les fonctions et fonctionnalités du produit </a> et <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Administration - Gestion des utilisateurs et FAQ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
@@ -123,7 +123,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Objet </p> </td> 
-   <td colname="col3"> <p>Obligatoire avec <span class="wintitle"> DIL </span> 6.2 ou version ultérieure. </p> <p> DIL s’appuie sur la fonction <code> setCustomerIDs </code> du <span class="wintitle"> service Adobe Experience Platform Identity </span> pour transmettre les ID déclarés dans l’Audience Manager <span class="keyword"> </span>. Pour plus d’informations, voir <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états de l’authentification.</a> </p> </td> 
+   <td colname="col3"> <p>Obligatoire avec <span class="wintitle"> DIL </span> 6.2 ou version ultérieure. </p> <p> DIL s’appuie sur la fonction <code> setCustomerIDs </code> du <span class="wintitle"> service Adobe Experience Platform Identity </span> pour transmettre les ID déclarés dans l’Audience Manager <span class="keyword"> </span>. Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID de client et états de l’authentification.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
