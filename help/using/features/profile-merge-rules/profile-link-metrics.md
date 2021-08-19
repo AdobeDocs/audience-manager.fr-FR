@@ -7,9 +7,9 @@ title: Mesures des rapports des stratégies de fusion de profils
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Fusion des profils
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Fusionner les mesures de règle {#merge-rule-metrics}
 
-Les rapports renvoient des données dans des graphiques à barres côte à côte lorsque vos règles de fusion utilisent des données provenant de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) ou d’autres graphiques d’appareils tiers auxquels vous avez accès dans [!DNL Audience Manager]. Cela vous permet de comparer vos données propriétaires authentifiées avec les données multi-appareils fournies par la [!UICONTROL Experience Cloud Device Co-op] ou une autre représentation graphique tierce des appareils. Pour plus d’informations sur les données renvoyées par [!UICONTROL Device Co-op], voir [Device Graph : Processus internes et sortie](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Ces données sont mises à jour quotidiennement.
+Les rapports renvoient des données dans des graphiques à barres côte à côte lorsque vos règles de fusion utilisent des données provenant de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html) ou d’autres graphiques d’appareils tiers auxquels vous avez accès dans [!DNL Audience Manager]. Cela vous permet de comparer vos données propriétaires authentifiées avec les données multi-appareils fournies par la [!UICONTROL Experience Cloud Device Co-op] ou une autre représentation graphique tierce des appareils. Pour plus d’informations sur les données renvoyées par [!UICONTROL Device Co-op], voir [Device Graph : Processus internes et sortie](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html). Ces données sont mises à jour quotidiennement.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -35,7 +35,7 @@ Les rapports renvoient des données dans des graphiques à barres côte à côte
    <td colname="col2"> <p>Affiche : </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Principales personnes</span> : Nombre de personnes qui se sont authentifiées sur votre site au cours des 60 derniers jours. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Périphérique</span> croisé : Nombre total d’ <a href="merge-rules-start.md#create-data-source"> identifiants </a> inter-appareils stockés dans la source de  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> données </a> du  <a href="merge-rule-definitions.md"> profil </a> authentifié sélectionné pour la durée de vie de la source de données. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Périphérique</span> croisé : Nombre total d’ <a href="merge-rules-start.md#create-data-source"> identifiants </a> inter-appareils stockés dans la source de  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> données </a> du  <a href="merge-rule-definitions.md"> profil </a> authentifié sélectionné pour la durée de vie de la source de données. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de Principaux</span> : Affiche les personnes  <span class="wintitle"> Principales </span> en %. </li> 
     </ul> <p> <span class="wintitle"> L’</span> activité authentifiée permet de comparer les sources de données par activité, volume et pourcentage. Il peut vous aider à trouver une source de données qui compte un grand nombre de personnes et un pourcentage élevé d’utilisateurs principaux. Vous pouvez également comparer des sources de données présentant une forte proportion d’utilisateurs principaux par rapport à la taille totale de l’audience. Par exemple, il arrive qu’une source de données avec un faible nombre total de durée de vie et une activité élevée ait plus de valeur que celles avec des résultats de durée de vie élevés et un faible nombre d’activités. </p> <p> <p>Remarque : Les mesures <span class="wintitle"> Activité authentifiée</span> contiennent uniquement des données <span class="wintitle"> Lien de profil</span>. Ce rapport n’inclut pas les données <span class="wintitle"> Device Graph</span>. </p> </p> </td> 
   </tr> 
