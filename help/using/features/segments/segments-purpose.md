@@ -7,10 +7,10 @@ title: Segments Objectif, composition et règles
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 feature: 'Segments '
 exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 6%
+source-wordcount: '327'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Lors du mappage des suites de rapports Adobe Analytics [!UICONTROL segments] ou 
 
 >[!TIP]
 >
->L’Audience Manager [!UICONTROL segments] diffère de [!DNL Adobe Analytics] [!UICONTROL segments]. Voir [Présentation des segments dans Analytics et l’Audience Manager](https://docs.adobe.com/content/help/fr-FR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour une description détaillée des différences.
+>L’Audience Manager [!UICONTROL segments] diffère de [!DNL Adobe Analytics] [!UICONTROL segments]. Voir [Présentation des segments dans Analytics et l’Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour une description détaillée des différences.
 
 ## Créer des règles basées sur [!UICONTROL Segments] avec [!UICONTROL Segment Builder]
 
