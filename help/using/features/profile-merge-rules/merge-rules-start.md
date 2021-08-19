@@ -7,10 +7,10 @@ title: Démarrage des stratégies de fusion de profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Fusion des profils
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 4%
+source-wordcount: '1307'
+ht-degree: 3%
 
 ---
 
@@ -151,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Pour plus d’informations, voir [Création d’une source de données multi-appareils](#create-data-source) et [ID de client et états d’authentification](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html).
+Pour plus d’informations, voir [Création d’une source de données multi-appareils](#create-data-source) et [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Configurer la fonction `DIL.create`
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-Dans la paire clé-valeur de l’espace de noms, la variable `*`MCORG`*` est votre [!DNL Experience Cloud] ID d’organisation. Si vous ne possédez pas cet ID, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin des autorisations d’administrateur pour afficher ce tableau de bord. Voir [Administration : Services principaux](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Dans la paire clé-valeur de l’espace de noms, la variable `*`MCORG`*` est votre [!DNL Experience Cloud] ID d’organisation. Si vous ne possédez pas cet ID, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin des autorisations d’administrateur pour afficher ce tableau de bord. Voir [Administration : Services principaux](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuration des SDK
 
@@ -224,7 +224,7 @@ Vérifiez les méthodes de votre code [!DNL SDK] qui vous permettent de transmet
  </tbody>
 </table>
 
-Voir aussi [Méthodes d’Audience Manager pour Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et [Méthodes d’Audience Manager pour iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Voir aussi [Méthodes d’Audience Manager pour Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et [Méthodes d’Audience Manager pour iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
