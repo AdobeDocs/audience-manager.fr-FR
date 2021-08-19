@@ -8,9 +8,9 @@ title: États d’authentification du visiteur dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: 'Référence '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 L’état d’authentification du visiteur dans l’Audience Manager détermine si les nouvelles informations de caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil du périphérique à partir duquel les données ont été collectées. Audience Manager gère de la même manière les états d’authentification de l’identifiant visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
 
-En commençant par [!DNL Experience Cloud] Service d’ID v1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur état  [d’authentification](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, en fonction de l’état d’authentification transmis dans l’appel et de la  [règle de fusion des ](../features/profile-merge-rules/merge-rules-dashboard.md) profils que vous utilisez pour la segmentation.
+En commençant par [!DNL Experience Cloud] Service d’ID v1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur état  [d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, en fonction de l’état d’authentification transmis dans l’appel et de la  [règle de fusion des ](../features/profile-merge-rules/merge-rules-dashboard.md) profils que vous utilisez pour la segmentation.
 
 ## État d’authentification : INCONNU {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 >[!MORELIKETHIS]
 >
->* [ID de client et états d’authentification](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
