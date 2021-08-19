@@ -8,10 +8,10 @@ title: FAQ sur l’ingestion de données client entrantes
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Intégration de données hors ligne
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 89%
 
 ---
 
@@ -60,8 +60,8 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 Oui. Tant que vous utilisez une balise [!UICONTROL cross-device data source] pour stocker les données de gestion de la relation client que vous chargez, l’Audience Manager stocke toujours les données. En fait, suite aux améliorations [!UICONTROL Profile Merge Rules] de l’Audience Manager lancée en octobre 2019 qui permettent des cas d’utilisation hors ligne uniquement, vous pouvez charger des données et agir sur celles-ci sans déployer de code d’Audience Manager en production. Voir :
 
-* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personnalisation basée sur les données hors ligne uniquement](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] -  [Personnalisation basée sur les données hors ligne uniquement](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
