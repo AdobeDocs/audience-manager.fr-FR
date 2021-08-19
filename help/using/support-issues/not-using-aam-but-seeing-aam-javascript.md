@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Nous n’utilisons pas Audience Manager, mais nous voyons des appels JavaScript Audience Manager dans le débogueur de JavaScript. Pourquoi ?
 feature: Support technique
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ Pourquoi cela se produit-il ?
 
 ## Réponse
 
-Il est probable que vous exécutiez [Experience Cloud Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) sur votre propriété. Si tel est le cas, cette référence Audience Manager ne fait pas forcément référence à la propriété exécutant Audience Manager. Cela signifie plutôt qu’Audience Manager alimente ce service.
+Il est probable que vous exécutiez [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) sur votre propriété. Si tel est le cas, cette référence Audience Manager ne fait pas forcément référence à la propriété exécutant Audience Manager. Cela signifie plutôt qu’Audience Manager alimente ce service.
 
-L’appel au serveur Audience Manager est généralement passé pour [synchroniser les identifiants du client](https://docs.adobe.com/content/help/fr-FR/id-service/using/id-service-api/methods/setcustomerids.html).
+L’appel au serveur Audience Manager est généralement passé pour [synchroniser les identifiants du client](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).
