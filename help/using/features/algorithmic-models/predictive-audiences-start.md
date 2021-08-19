@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Prise en main des audiences prédictives
 feature: Modèles algorithmiques
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 ## Création d’un modèle d’audiences prédictives {#create-predictive-audiences}
 
-Avant de créer un modèle [!UICONTROL Predictive Audiences], vous devez déterminer la source de données propriétaire à laquelle vous souhaitez affecter vos caractéristiques et segments [!UICONTROL Predictive Audiences]. Vous pouvez utiliser une source de données propriétaire existante ou en créer une nouvelle. Voir [Gestion des sources de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) pour plus d’informations sur la création d’une source de données propriétaire.
+Avant de créer un modèle [!UICONTROL Predictive Audiences], vous devez déterminer la source de données propriétaire à laquelle vous souhaitez affecter vos caractéristiques et segments [!UICONTROL Predictive Audiences]. Vous pouvez utiliser une source de données propriétaire existante ou en créer une nouvelle. Voir [Gestion des sources de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) pour plus d’informations sur la création d’une source de données propriétaire.
 
 Une fois que vous aurez su quelle source de données vous allez utiliser, procédez comme suit.
 
