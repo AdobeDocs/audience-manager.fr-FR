@@ -7,9 +7,9 @@ title: Syntaxe du nom de fichier de données sortantes et exemples
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Transferts de données sortantes
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '693'
 ht-degree: 6%
 
 ---
@@ -63,7 +63,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Identifiant Google Advertiser </span> (brut, haché) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> ID Apple pour les annonceurs </span> (brut, non haché) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Identifiant du fournisseur - identifiants d’utilisateur tiers (web/cookie) </li> 
-     </ul> </p> <p>Consultez les <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p></td> 
+     </ul> </p> <p>Consultez les <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
