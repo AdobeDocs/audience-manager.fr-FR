@@ -8,9 +8,9 @@ title: Mise en oeuvre du module de gestion de l’audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Intégration d’Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Suivez les étapes de ce tutoriel pour transférer des données [!DNL Analytics]
 Outre l’activation des extensions ou l’implémentation du code décrit dans ce document, vous devez également :
 
 * Mettez en oeuvre le [service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-* Activez [Transfert côté serveur](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) pour les suites de rapports dans la balise [!UICONTROL Adobe Analytics Admin Console].
+* Activez [Transfert côté serveur](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) pour les suites de rapports dans la balise [!UICONTROL Adobe Analytics Admin Console].
 
 ## Mise en œuvre {#implementation}
 
