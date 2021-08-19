@@ -7,7 +7,7 @@ title: Capture des données d’impression de campagne via des appels de pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Intégration Adobe Campaign
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 20%
@@ -31,7 +31,7 @@ L’appel d’un événement collecte les données d’impression et de conversi
 Les appels d’événement se composent de paires clé-valeur qui utilisent la syntaxe suivante :
 
 ```
-http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
 Dans la paire clé-valeur, la variable valeur est un identifiant ou une macro inséré par le serveur de publicités. Au chargement de la balise publicitaire, `%macro%` est remplacé par les valeurs requises, correspondantes. Cet appel ne renvoie pas de réponse.
