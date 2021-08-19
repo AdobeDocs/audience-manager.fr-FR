@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Découvrez comment l’Audience Manager vous permet de collecter des informations commercialement pertinentes sur les visiteurs du site, de créer des segments commercialisables et de diffuser des publicités et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1805'
 ht-degree: 90%
 
 ---
@@ -342,8 +342,8 @@ ht-degree: 90%
    + Intégration aux autres solutions Experience Cloud {#integration-other-solutions}
       + [Intégration de l’Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Comment transférer des données d’Adobe Analytics vers Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publication d’un segment Adobe Analytics sur l’Experience Cloud (la documentation Adobe Analytics s’ouvre)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Intégration de l’Audience Manager à Adobe Campaign (la documentation Adobe Campaign s’ouvre)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publication d’un segment Adobe Analytics sur l’Experience Cloud (la documentation Adobe Analytics s’ouvre)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Intégration de l’Audience Manager à Adobe Campaign (la documentation Adobe Campaign s’ouvre)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Référence {#reference}
    + [Présentation des références](reference/reference.md)
    + [À propos d’Amazon S3](reference/amazon-s3.md)
