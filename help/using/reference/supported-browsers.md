@@ -7,10 +7,10 @@ title: 'Navigateurs pris en charge '
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: 'Référence '
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe prend en charge la dernière version majeure de ces navigateurs :
 
 * **Google Chrome**
 
-   Téléchargez la dernière version de Chrome à l’adresse [https://www.google.com/intl/fr/chrome/](https://www.google.com/intl/fr/chrome/).
+   Téléchargez la dernière version de Chrome à l’adresse [https://www.google.com/chrome](https://www.google.com/chrome).
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ Adobe prend en charge la dernière version majeure de ces navigateurs :
 
 * **Mozilla Firefox**
 
-   Téléchargez la dernière version de Firefox à l’adresse [http://www.mozilla.com/fr-FR/firefox](http://www.mozilla.com/fr-FR/firefox).
+   Téléchargez la dernière version de Firefox à l’adresse [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-   Téléchargez la dernière version de Safari à l’adresse [http://www.apple.com/fr/safari](http://www.apple.com/fr/safari).
+   Téléchargez la dernière version de Safari à l’adresse [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
 
 D’autres navigateurs peuvent fonctionner, mais ne sont pas pris en charge par nos équipes techniques et produit. Si vous rencontrez des problèmes lors de l’utilisation d’[!DNL Audience Manager], assurez-vous d’utiliser un navigateur à jour et pris en charge.
