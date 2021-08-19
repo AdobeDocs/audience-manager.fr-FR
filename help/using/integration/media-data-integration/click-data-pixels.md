@@ -7,10 +7,10 @@ title: Capture des données de clics de campagne via des appels de pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Intégration Adobe Campaign
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 11%
+source-wordcount: '687'
+ht-degree: 9%
 
 ---
 
@@ -96,7 +96,7 @@ Les événements de clic prennent en charge les macros répertoriées dans le ta
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Pour plus d’informations sur l’ECID, voir <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et ID Experience Cloud</a>. </p> <p>Facultatif. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Pour plus d’informations sur l’ECID, voir <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et ID Experience Cloud</a>. </p> <p>Facultatif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
