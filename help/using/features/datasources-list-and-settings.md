@@ -7,10 +7,10 @@ title: Liste et paramètres des sources de données
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Sources de données
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 4%
+source-wordcount: '1116'
+ht-degree: 3%
 
 ---
 
@@ -55,7 +55,7 @@ Outre les champs de texte, la section [!UICONTROL Data Source Details] contient 
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Périphérique</span></b> croisé : Identifiant authentifié fourni par le client. Sélectionnez cette option lorsque vous souhaitez créer : 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Source de données multi-appareils et création d’une <span class="wintitle"> stratégie de fusion de profils</span>. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Source de données qui utilise les liens fournis par la <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> ou un autre graphique d’appareil tiers intégré à l’<span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Source de données qui utilise les liens fournis par la <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> ou un autre graphique d’appareil tiers intégré à l’<span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Cochez la case **[!UICONTROL Inbound]** lorsque votre source de données est con
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID de client</span></b> : Identifie les données entrantes avec un ID de client. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b> d’Audience Manager : Identifie les données entrantes avec un  <span class="keyword"> Audience </span> ManagerID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID Experience Cloud</span></b> : Identifie les données entrantes avec un  <span class="keyword"> Experience </span> Cloud ID. Voir <a href="https://docs.adobe.com/content/help/fr-FR/id-service/using/intro/cookies.html" format="https" scope="external">Cookies et Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID Experience Cloud</span></b> : Identifie les données entrantes avec un  <span class="keyword"> Experience </span> Cloud ID. Voir <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external">Cookies et Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
