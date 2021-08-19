@@ -7,10 +7,10 @@ title: Code du SDK
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 41%
+source-wordcount: '154'
+ht-degree: 42%
 
 ---
 
@@ -30,5 +30,5 @@ Audience Manager fournit des kits de développement logiciel ([!DNL SDK]s) pour 
 
 Les SDK Android et iOS 4.x sont toujours pris en charge. Pour ces bibliothèques de code du SDK, voir :
 
-* [SDK Android](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
-* [SDK iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [SDK Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
+* [SDK iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
