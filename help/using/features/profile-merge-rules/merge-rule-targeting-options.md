@@ -7,10 +7,10 @@ title: Cas d’utilisation généraux des stratégies de fusion de profils
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Fusion des profils
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 4%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -80,7 +80,7 @@ Pour en savoir plus sur cette option, voir [Destinations basées sur les personn
 
 ## Options de Device Graph {#device-graph-options}
 
-Le choix d’une option [!UICONTROL device graph] pour une règle [!UICONTROL Profile Merge] dépend de conditions propres à vos propriétés numériques et à vos objectifs commerciaux. Ces instructions générales peuvent vous aider à savoir quand utiliser un type de graphique ou un autre. Notez que vous devez être membre de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html) ou avoir une relation contractuelle avec un graphique d’appareil externe pour utiliser ces options. Reportez-vous au tableau ci-dessous pour obtenir des instructions générales sur le choix d’une option de représentation graphique des appareils. Pour des cas d’utilisation spécifiques, voir [Cas d’utilisation des représentations graphiques des appareils Profile Link](profile-link-use-case.md) et [Cas d’utilisation des représentations graphiques externes des appareils](external-graph-use-cases.md).
+Le choix d’une option [!UICONTROL device graph] pour une règle [!UICONTROL Profile Merge] dépend de conditions propres à vos propriétés numériques et à vos objectifs commerciaux. Ces instructions générales peuvent vous aider à savoir quand utiliser un type de graphique ou un autre. Notez que vous devez être membre de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) ou avoir une relation contractuelle avec un graphique d’appareil externe pour utiliser ces options. Reportez-vous au tableau ci-dessous pour obtenir des instructions générales sur le choix d’une option de représentation graphique des appareils. Pour des cas d’utilisation spécifiques, voir [Cas d’utilisation des représentations graphiques des appareils Profile Link](profile-link-use-case.md) et [Cas d’utilisation des représentations graphiques externes des appareils](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,7 +101,7 @@ Le choix d’une option [!UICONTROL device graph] pour une règle [!UICONTROL Pr
   </tr> 
   <tr> 
    <td colname="col1"> <p>Options de représentation graphique des appareils externes </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Les </span> règles de profil créées avec  <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a>  ou toute représentation graphique externe des appareils intégrée à  <span class="keyword"> Audience </span> Manager sont idéales pour : </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Les </span> règles de profil créées avec  <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a>  ou toute représentation graphique externe des appareils intégrée à  <span class="keyword"> Audience </span> Manager sont idéales pour : </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriétés numériques présentant un faible niveau d’authentification du client. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagnes de marque de grande envergure. </li> 
