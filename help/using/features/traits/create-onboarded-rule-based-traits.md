@@ -8,9 +8,9 @@ title: Création de caractéristiques basées sur des règles ou intégrées
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: 'Caractéristiques '
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ Dans [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type d’événement</span></b> </td> 
-   <td colname="col2"> Attribue la caractéristique à un type ou à une catégorie, généralement en fonction de sa fonction (par exemple, conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, reportez-vous à la <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">vidéo Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
+   <td colname="col2"> Attribue la caractéristique à un type ou à une catégorie, généralement en fonction de sa fonction (par exemple, conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, reportez-vous à la <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">vidéo Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Code d’intégration</span></b> </td> 
