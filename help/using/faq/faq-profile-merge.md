@@ -8,9 +8,9 @@ title: FAQ sur les stratégies de fusion de profils et la représentation graphi
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Fusion des profils
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
@@ -111,7 +111,7 @@ Oui.
 
 **Les estimations de la taille des segments incluent-elles les appareils qualifiés pour un segment en fonction des connexions fournies par une [!UICONTROL Profile Merge Rule] qui utilise une représentation graphique des appareils ?**
 
-Non. Voir les définitions pour [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans [Données sur les caractéristiques et la population de segments dans le créateur de segments](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Non. Voir les définitions pour [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans [Données sur les caractéristiques et la population de segments dans le créateur de segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
