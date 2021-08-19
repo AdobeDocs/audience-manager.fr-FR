@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Rapports des audiences prédictives
 feature: Modèles algorithmiques
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
 
 # Rapports des audiences prédictives
 
-Après avoir enregistré un modèle [!UICONTROL Predictive Audiences], l’Audience Manager commence à l’entraîner. Dans quelques heures, le modèle calculé commencera à analyser les audiences sur les [serveurs de collecte de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Les rapports seront disponibles le lendemain.
+Après avoir enregistré un modèle [!UICONTROL Predictive Audiences], l’Audience Manager commence à l’entraîner. Dans quelques heures, le modèle calculé commencera à analyser les audiences sur les [serveurs de collecte de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Les rapports seront disponibles le lendemain.
 
 Pour afficher les résultats de votre classification [!UICONTROL Predictive Audiences], accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, puis cliquez sur votre modèle dans la liste.
 
