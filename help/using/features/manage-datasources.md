@@ -8,10 +8,10 @@ title: Gérer les sources de données
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Sources de données
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 6%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Pour terminer la section [!UICONTROL Data Source Details] :
 1. Fournissez un [!UICONTROL integration code]. En règle générale, [!UICONTROL integration codes] est facultatif. Elles sont requises lorsque vous souhaitez :
 
    * [Création d’une source de données multi-appareils](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Utilisez le [service Adobe Experience Platform Identity](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
+   * Utilisez le [service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Utilisation de [stratégies de fusion de profils](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Sélectionnez un **[!UICONTROL ID Type]**. [!UICONTROL ID Type] les options disponibles sont les suivantes :
@@ -72,7 +72,7 @@ Supprimez une balise [!UICONTROL data source] dont vous n’avez plus besoin.
 >Veuillez noter les restrictions suivantes :
 >
 >* Vous ne pouvez pas supprimer une [audience Principale ou une caractéristique synchronisée de source de données](../features/traits/client-activity-synced-audience-traits.md).
->* Pour les clients qui utilisent Adobe Analytics : L’Audience Manager ne vous permet pas de supprimer des sources de données créées automatiquement à partir de vos suites de rapports [!DNL Analytics]. Utilisez le [service principal](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) pour annuler le mappage de ces sources de données.
+>* Pour les clients qui utilisent Adobe Analytics : L’Audience Manager ne vous permet pas de supprimer des sources de données créées automatiquement à partir de vos suites de rapports [!DNL Analytics]. Utilisez le [service principal](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) pour annuler le mappage de ces sources de données.
 
 
 1. Cliquez sur **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
