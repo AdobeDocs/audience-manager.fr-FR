@@ -7,9 +7,9 @@ title: Définition des options des stratégies de fusion de profils
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Fusion des profils
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 6%
 
 ---
@@ -111,11 +111,11 @@ La fonction [!UICONTROL Cross-Device Options] vous permet de sélectionner des u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Graphique d’appareil Co-op</span></b> </p> </td> 
-   <td colname="col2"> <p>Indique à <span class="keyword"> Audience Manager</span> de lire les profils de l’appareil actuel et jusqu’à 100 autres appareils à l’aide des liens fournis par <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p><span class="keyword"> Device Co-op</span> est une coopérative numérique au sein de laquelle les membres partagent des informations au sujet des liaisons de périphériques. <span class="keyword"> Device Co-op</span> traite ces données dans un <span class="term"> Device Graph</span>. Une représentation graphique des appareils relie les appareils à des grappes de périphériques. Ces liens sont construits à partir de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> données probabilistes et déterministes</a>. Les grappes représentent un groupe d’appareils utilisés par une personne inconnue. <span class="keyword">Device Co-op</span> partage ces grappes avec ses membres afin de les aider à proposer à leurs clients des contenus utiles et cohérents sur tous leurs périphériques. </p> <p> Pour plus d’informations sur <span class="wintitle"> Device Co-op</span>, voir : </p> <p> 
+   <td colname="col2"> <p>Indique à <span class="keyword"> Audience Manager</span> de lire les profils de l’appareil actuel et jusqu’à 100 autres appareils à l’aide des liens fournis par <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p><span class="keyword"> Device Co-op</span> est une coopérative numérique au sein de laquelle les membres partagent des informations au sujet des liaisons de périphériques. <span class="keyword"> Device Co-op</span> traite ces données dans un <span class="term"> Device Graph</span>. Une représentation graphique des appareils relie les appareils à des grappes de périphériques. Ces liens sont construits à partir de <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html" format="https" scope="external"> données probabilistes et déterministes</a>. Les grappes représentent un groupe d’appareils utilisés par une personne inconnue. <span class="keyword">Device Co-op</span> partage ces grappes avec ses membres afin de les aider à proposer à leurs clients des contenus utiles et cohérents sur tous leurs périphériques. </p> <p> Pour plus d’informations sur <span class="wintitle"> Device Co-op</span>, voir : </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Présentation de Device Co-op</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Conditions d’adhésion</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Device Graph : Processus internes et sortie</a> </li>
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/home.html" format="https" scope="external"> Présentation de Device Co-op</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/requirements.html" format="https" scope="external"> Conditions d’adhésion</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Device Graph : Processus internes et sortie</a> </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
