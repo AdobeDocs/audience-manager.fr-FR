@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audiences prédictives d’Audience Manager
 feature: Modèles algorithmiques
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -122,11 +122,11 @@ Lors de la configuration de vos modèles [!UICONTROL Predictive Audiences], gard
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Les segments prédictifs créés par les modèles [!UICONTROL Predictive Audiences] héritent des [contrôles des exportations de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) des sources de données propriétaires suivantes :
+Les segments prédictifs créés par les modèles [!UICONTROL Predictive Audiences] héritent des [contrôles des exportations de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) des sources de données propriétaires suivantes :
 
 1. Source de données propriétaire que vous choisissez lors de la création du modèle.
 1. Sources de données propriétaires de votre audience cible. Plus précisément, les contrôles des exportations de données des [!UICONTROL traits] ou [!UICONTROL segments] qui constituent votre audience cible.
-1. [Contrôles des exportations de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) de la [!UICONTROL Profile Merge Rule] que vous avez sélectionnée pour le modèle.
+1. [Contrôles des exportations de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de la [!UICONTROL Profile Merge Rule] que vous avez sélectionnée pour le modèle.
 
 Les [!UICONTROL traits] et [!UICONTROL segments] prédictifs nouvellement créés auront les mêmes restrictions de confidentialité que l’union des sources de données propriétaires décrites ci-dessus.
 
@@ -146,6 +146,6 @@ La sélection d’une balise [!UICONTROL Profile Merge Rule] qui utilise à la f
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Les caractéristiques et les segments que vous choisissez pour les personnages et la classification des audiences sont soumis à l’Audience Manager [Contrôles d’accès en fonction du rôle](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
+Les caractéristiques et les segments que vous choisissez pour les personnages et la classification des audiences sont soumis à l’Audience Manager [Contrôles d’accès en fonction du rôle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Les utilisateurs de l’Audience Manager ne peuvent sélectionner que des caractéristiques ou des segments pour les personnes et les audiences cibles, qu’ils ont la [autorisation d’afficher](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Les utilisateurs de l’Audience Manager ne peuvent sélectionner que des caractéristiques ou des segments pour les personnes et les audiences cibles, qu’ils ont la [autorisation d’afficher](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
