@@ -1,15 +1,15 @@
 ---
 description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, reportez-vous à sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant d’Adobe ou l’assistance clientèle.
-seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, reportez-vous à sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant d’Adobe ou l’assistance clientèle.
-seo-title: Partenaires technologiques Adobe Audience Manager
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Technology Partners
 keywords: activation; partenaires d’activation, destination, destinations
 solution: Audience Manager
 title: Partenaires technologiques Adobe Audience Manager
-feature: Intégration tierce
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+feature: Third-party Integration
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 59%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
