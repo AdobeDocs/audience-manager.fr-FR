@@ -1,46 +1,46 @@
 ---
 description: Cet article explique comment configurer des audiences personnalisées Twitter pour les nouvelles intégrations et les intégrations existantes.
-seo-description: Cet article explique comment configurer des audiences personnalisées Twitter pour les nouvelles intégrations et les intégrations existantes.
-seo-title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
+seo-description: This article explains how to configure Twitter Custom Audiences for both new and existing integrations.
+seo-title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
-title: Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service
-feature: Destinations basées sur les personnes
+title: Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un appareil
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 4%
+source-wordcount: '529'
+ht-degree: 1%
 
 ---
 
-# Configuration de [!DNL Twitter Tailored Audiences] en tant que destination basée sur un appareil en libre-service {#configure-twitter}
+# Configuration de [!DNL Twitter Custom Audiences] en tant que destination basée sur un appareil en libre-service {#configure-twitter}
 
-Cet article explique comment configurer une intégration avec les [audiences personnalisées Twitter](https://business.twitter.com/en/targeting/tailored-audiences.html).
+Cet article explique comment configurer une intégration avec [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
 
 ## Conditions préalables {#prerequisites}
 
-Avant de configurer votre destination [!DNL Twitter Tailored Audiences], vérifiez les conditions préalables Twitter suivantes que vous devez remplir.
+Avant de configurer votre destination [!DNL Twitter Custom Audiences], vérifiez les conditions préalables Twitter suivantes que vous devez remplir.
 
 1. Votre compte [!DNL Twitter Ads] doit être éligible à la publicité. Les nouveaux comptes [!DNL Twitter Ads] ne sont pas éligibles à la publicité dans les 2 premières semaines qui suivent leur création.
 2. Votre compte utilisateur [!DNL Twitter] pour lequel vous avez autorisé l’accès en Audience Manager doit disposer de l’autorisation [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) activée.
-3. Lors de la création de la première destination [!DNL Twitter Tailored Audiences] dans votre instance d’Audience Manager, contactez le conseiller d’Adobe ou l’assistance clientèle pour activer la synchronisation des identifiants [!DNL Twitter] (ID de source de données = 1123) pour votre compte. Ceci est nécessaire pour une synchronisation correcte entre l’Audience Manager et [!DNL Twitter].
+3. Lors de la création de la première destination [!DNL Twitter Custom Audiences] dans votre instance d’Audience Manager, contactez le conseiller d’Adobe ou l’assistance clientèle pour activer la synchronisation des identifiants [!DNL Twitter] (ID de source de données = 1123) pour votre compte. Ceci est nécessaire pour une synchronisation correcte entre l’Audience Manager et [!DNL Twitter].
 
-## Ajouter une nouvelle destination [!DNL Twitter Tailored Audiences] {#add-new-twitter-destination}
+## Ajouter une nouvelle destination [!DNL Twitter Custom Audiences] {#add-new-twitter-destination}
 
-Cette section décrit les étapes à suivre lors de la configuration d’une nouvelle destination basée sur un appareil pour [!DNL Twitter Tailored Audiences]. Ce scénario suppose qu’aucune destination [!DNL Twitter Tailored Audiences] existante n’est configurée via votre conseiller en Adobe ou l’assistance clientèle.
+Cette section décrit les étapes à suivre lors de la configuration d’une nouvelle destination basée sur un appareil pour [!DNL Twitter Custom Audiences]. Ce scénario suppose qu’aucune destination [!DNL Twitter Custom Audiences] existante n’est configurée via votre conseiller en Adobe ou l’assistance clientèle.
 
-### Étape 1. Authentifiez avec [!DNL Twitter Tailored Audiences] {#step1-authenticate-with-twitter}
+### Étape 1. Authentifiez avec [!DNL Twitter Custom Audiences] {#step1-authenticate-with-twitter}
 
-Avant de pouvoir ajouter la destination basée sur l’appareil, vous devez lier l’Audience Manager et votre compte [!DNL Twitter Tailored Audiences]. Procédez comme suit :
+Avant de pouvoir ajouter la destination basée sur l’appareil, vous devez lier l’Audience Manager et votre compte [!DNL Twitter Custom Audiences]. Procédez comme suit :
 
 1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration configurée précédemment avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
 1. Cliquez sur **[!DNL Add Account]**.
-1. Sélectionnez [!DNL Twitter Tailored Audiences] et cliquez sur **[!DNL Confirm]** pour accéder à la page d’authentification.                     ![Plateformes intégrées](assets/dbd-integrated-platforms.png)
+1. Sélectionnez [!DNL Twitter Custom Audiences] et cliquez sur **[!DNL Confirm]** pour accéder à la page d’authentification.                     ![Plateformes intégrées](assets/dbd-integrated-platforms.png)
 1. Une fois que vous êtes authentifié, vous êtes redirigé vers l’Audience Manager dans laquelle vos comptes publicitaires associés doivent apparaître. Sélectionnez le compte de l’annonceur que vous souhaitez utiliser, puis cliquez sur **[!DNL Confirm]**.
 
 ### Étape 2 : Création d’une destination basée sur un appareil {#step2-create-new-destination}
 
-Une fois que vous avez lié l’Audience Manager et votre [!DNL Twitter Tailored Audiences], vous pouvez créer la nouvelle destination. Procédez comme suit :
+Une fois que vous avez lié l’Audience Manager et votre [!DNL Twitter Custom Audiences], vous pouvez créer la nouvelle destination. Procédez comme suit :
 
 >[!NOTE]
 >
@@ -72,4 +72,4 @@ Lors du mappage des segments d’audience sur [!UICONTROL Twitter], assurez-vous
 
 ## Considérations sur les taux de correspondance {#match-rates-considerations}
 
-* L’intégration entre l’Audience Manager et [!UICONTROL Twitter Tailored Audiences] prend en charge les renvoi d’audience historiques. Toutes les qualifications de segment sont envoyées à [!UICONTROL Twitter] lorsque vous créez la destination.
+* L’intégration entre l’Audience Manager et [!UICONTROL Twitter Custom Audiences] prend en charge les renvoi d’audience historiques. Toutes les qualifications de segment sont envoyées à [!UICONTROL Twitter] lorsque vous créez la destination.
