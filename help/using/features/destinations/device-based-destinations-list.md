@@ -1,16 +1,16 @@
 ---
 description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, reportez-vous à sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant d’Adobe ou l’assistance clientèle.
-seo-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, reportez-vous à sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant d’Adobe ou l’assistance clientèle.
-seo-title: Destinations serveur à serveur Adobe Audience Manager
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: activation; partenaires d’activation, destination, destinations
 solution: Audience Manager
 title: Destinations serveur à serveur Adobe Audience Manager
-feature: Concepts de base des destinations
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 72%
+source-wordcount: '1112'
+ht-degree: 74%
 
 ---
 
@@ -162,7 +162,7 @@ Cette page comprend uniquement les [!DNL Audience Manager] [destinations basées
 | [!DNL TubeMogul] | 03/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL Turn] /  [!DNL Amobee] | 03/03/2027 | Temps réel | Non | Non | Non | Oui |
 | [!DNL Twenga] | 29/10/2018 | Temps réel | Oui | Non | Non | Non |
-| [!DNL Twitter Tailored Audiences] | 27/02/2017 | Temps réel | Oui | Non | Oui | Non |
+| [!DNL Twitter Custom Audiences] | 27/02/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL Undertone] | 11/07/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL Verve] | 15/06/2017 | 1xday | Oui | Non | Non | Oui |
 | [!DNL VideoAmp] | 03/03/2017 | Temps réel | Non | Non | Non | Non |
