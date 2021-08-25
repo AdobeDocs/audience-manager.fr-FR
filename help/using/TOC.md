@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Découvrez comment l’Audience Manager vous permet de collecter des informations commercialement pertinentes sur les visiteurs du site, de créer des segments commercialisables et de diffuser des publicités et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 90%
@@ -112,7 +112,7 @@ ht-degree: 90%
          + [Ajout de nouvelles destinations basées sur des appareils](features/destinations/add-device-based-destinations.md)
          + [Liste des destinations basées sur des appareils Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Ajout ou modification de segments pour des destinations serveur à serveur](features/destinations/add-edit-segments.md)
-         + [Configuration d’audiences personnalisées Twitter en tant que destination basée sur un appareil en libre service](features/destinations/twitter-tailored-audiences.md)
+         + [Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un appareil](features/destinations/twitter-tailored-audiences.md)
       + Destinations personnalisées {#custom-destinations}
          + [Configuration d’une destination d’URL](features/destinations/create-url-destination.md)
          + [Configuration d’une destination de cookie](features/destinations/create-cookie-destination.md)
