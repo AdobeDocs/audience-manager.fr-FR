@@ -1,15 +1,15 @@
 ---
 description: Audience Analytics vous permet d’envoyer des segments d’Audience Manager vers Analytics. Pour utiliser cette fonctionnalité, créez une destination Analytics à laquelle vous associez des segments dans Audience Manager.
-seo-description: Audience Analytics vous permet d’envoyer des segments d’Audience Manager vers Analytics. Pour utiliser cette fonctionnalité, créez une destination Analytics à laquelle vous associez des segments dans Audience Manager.
-seo-title: Configuration d’une destination Analytics
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Configuration d’une destination Analytics
-feature: Intégration d’Adobe Analytics
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 9%
+source-wordcount: '807'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Pour plus d’informations sur les exigences, voir Conditions préalables dans [
 
 | Type de destination Analytics | Description |
 |---|---|
-| Par défaut | Le nom de cette destination par défaut est &quot;Adobe Analytics&quot;, que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos segments et caractéristiques d’Audience Manager. <br>  L’Audience Manager crée automatiquement une destination si votre compte comporte :  <br>  <ul><li>Répondez aux exigences décrites dans la documentation [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) .</li><li>Une [suite de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) dans Analytics.</li><li>[Mappage d’une suite de rapports à une organisation](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
+| Par défaut | Le nom de cette destination par défaut est &quot;Adobe Analytics&quot;, que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos segments et caractéristiques d’Audience Manager. <br>  L’Audience Manager crée automatiquement une destination si votre compte comporte :  <br>  <ul><li>Répondez aux exigences décrites dans la documentation [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) .</li><li>Une [suite de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) dans Analytics.</li></ul> |
 | Nouveau | Pour créer de nouvelles destinations Analytics, accédez à Audience Data > Destinations > Créer une destination et suivez les étapes décrites ci-dessous pour chaque section. |
 
 ## Étape 1 : Fournir des informations de base
