@@ -1,16 +1,16 @@
 ---
 description: Informations sur les configurations requises générales, authentification, paramètres de requête facultatifs, URL de requête et autres références.
-seo-description: Informations sur les configurations requises générales, authentification, paramètres de requête facultatifs, URL de requête et autres références.
-seo-title: Prise en main des API REST
+seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
+seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 4%
+source-wordcount: '1942'
+ht-degree: 3%
 
 ---
 
@@ -70,6 +70,18 @@ Suivez les étapes ci-dessous pour configurer l’authentification [!DNL JWT (Se
 >[!NOTE]
 >
 >Pour configurer et utiliser [!DNL Audience Manager] [!DNL REST APIs] de manière automatisée, vous pouvez générer le [!DNL JWT] par programmation. Voir [Authentification JWT (compte de service)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) pour obtenir des instructions détaillées.
+
+### Autorisations RBAC du compte technique
+
+Si votre compte d’Audience Manager utilise le [contrôle d’accès en fonction du rôle](../../features/administration/administration-overview.md), vous devez créer un compte d’utilisateur technique d’Audience Manager et l’ajouter au groupe RBAC d’Audience Manager qui effectuera les appels d’API.
+
+Pour créer un compte d’utilisateur technique et l’ajouter à un groupe RBAC, procédez comme suit :
+
+1. Effectuez un appel `GET` à `https://aam.adobe.io/v1/users/self`. L’appel crée un compte utilisateur technique que vous pouvez voir dans la [!UICONTROL Admin Console], sur la page [!UICONTROL Users].
+
+   ![compte technique](assets/technical-account.png)
+
+1. Connectez-vous à votre compte d’Audience Manager et [ajoutez le compte d’utilisateur technique](../../features/administration/administration-overview.md#create-group) au groupe d’utilisateurs qui effectuera les appels API.
 
 ## [!DNL OAuth] Authentification (obsolète) {#oauth}
 
@@ -287,6 +299,6 @@ De nouvelles versions de ces [!DNL API]s sont publiées régulièrement. Une nou
 >
 >* [Authentification JWT (compte de service)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [Authentification OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-* [OAuth 2.0](https://oauth.net/2/)
-* [OAuth 2 simplifié](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 simplifié](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
