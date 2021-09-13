@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Configuration d’audiences personnalisées Twitter en tant que destination en libre-service basée sur un appareil
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # Configuration de [!DNL Twitter Custom Audiences] en tant que destination basée sur un appareil en libre-service {#configure-twitter}
 
-Cet article explique comment configurer une intégration avec [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
+Cet article explique comment configurer une intégration avec [Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Conditions préalables {#prerequisites}
 
@@ -35,7 +35,10 @@ Avant de pouvoir ajouter la destination basée sur l’appareil, vous devez lier
 
 1. Connectez-vous à votre compte d’Audience Manager et accédez à **[!DNL Administration > Integrated Accounts]**. Si vous disposez d’une intégration configurée précédemment avec une plateforme de destination, elle doit apparaître dans cette page. Sinon, la page est vide.
 1. Cliquez sur **[!DNL Add Account]**.
-1. Sélectionnez [!DNL Twitter Custom Audiences] et cliquez sur **[!DNL Confirm]** pour accéder à la page d’authentification.                     ![Plateformes intégrées](assets/dbd-integrated-platforms.png)
+1. Sélectionnez [!DNL Twitter Custom Audiences] et cliquez sur **[!DNL Confirm]** pour accéder à la page d’authentification.
+
+   ![Plateformes intégrées](assets/dbd-integrated-platforms.png)
+
 1. Une fois que vous êtes authentifié, vous êtes redirigé vers l’Audience Manager dans laquelle vos comptes publicitaires associés doivent apparaître. Sélectionnez le compte de l’annonceur que vous souhaitez utiliser, puis cliquez sur **[!DNL Confirm]**.
 
 ### Étape 2 : Création d’une destination basée sur un appareil {#step2-create-new-destination}
