@@ -1,15 +1,15 @@
 ---
 description: 'Lisez ci-dessous pour une vue d’ensemble des exigences des clients que vous devez satisfaire avant de vous inscrire aux destinations basées sur les personnes.  '
-seo-description: 'Lisez ci-dessous pour une vue d’ensemble des exigences des clients que vous devez satisfaire avant de vous inscrire aux destinations basées sur les personnes.  '
-seo-title: Conditions préalables et considérations relatives aux destinations basées sur les personnes
+seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
+seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: Conditions préalables et considérations
-feature: Destinations basées sur les personnes
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 4%
 
 ---
 
@@ -51,11 +51,9 @@ Voir [Présentation et configuration de la destination basée sur les personnes 
 
 ### [!DNL Google Customer Match] {#gcm}
 
-Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires à une destination [!DNL Google Customer Match], il est obligatoire que [!DNL Google] vous ajoute à leur liste autorisée.
+Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires vers une destination [!DNL Google Customer Match], assurez-vous que votre compte [!DNL Google Ads] est conforme à la [politique de correspondance client Google](https://support.google.com/google-ads/answer/6299717/customer-match-policy).
 
-Contactez votre représentant [!DNL Google] et suivez les instructions de liste autorisée décrites dans la documentation [Utilisation des partenaires de correspondance du client pour télécharger vos données](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] .
-
-Une fois ce processus terminé, vous pouvez créer votre [!UICONTROL People-Based Destination].
+Les clients disposant de comptes conformes sont automatiquement autorisés par Google.
 
 ## Intégration de données {#data-onboarding}
 
