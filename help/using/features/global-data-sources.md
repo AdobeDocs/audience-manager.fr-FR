@@ -1,14 +1,14 @@
 ---
 description: Utilisez les sources de données globales pour importer des identifiants publicitaires d’appareils.
-seo-description: Utilisez les sources de données globales pour importer des identifiants publicitaires d’appareils.
-seo-title: Sources de données globales
+seo-description: Use Global Data Sources to import device advertising IDs.
+seo-title: Global Data Sources
 solution: Audience Manager
 title: Sources de données globales
-feature: Sources de données
+feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 77daa5bd6545914f65e3e0f19b12c750535244e8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
@@ -29,6 +29,8 @@ Le tableau suivant décrit les sources de données globales prises en charge par
 | 389146 | **[!DNL Microsoft Advertising ID]** -  **[!DNL MAID]** Les identifiants représentent les périphériques exécutant le système  [!DNL Windows 10] d’exploitation. |
 | 963906 | **[!DNL Samsung Tizen IDs for Advertising]** -  **[!DNL TIFA]** Les identifiants représentent les téléviseurs  [!DNL Samsung] intelligents. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** représente les périphériques en cours d’exécution  [!DNL Amazon Fire OS] |
+| 1171485 | **[!DNL LG webOS TV ID]** -  **[!DNL LGUDID]** représente les périphériques exécutant le système  [!DNL LG webOS] d’exploitation. |
+| 1171489 | **[!DNL Vizio ID for Advertising]** -  **[!DNL IFA]** représente les périphériques exécutant les systèmes d’exploitation de télévision dynamique Vizio. |
 
 ## Importation de données à partir de sources de données globales
 
