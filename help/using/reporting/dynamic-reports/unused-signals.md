@@ -1,15 +1,15 @@
 ---
 description: Ce rapport renvoie un nombre de fréquences de toutes les informations inutilisées collectées dans votre inventaire et envoyées à l’Audience Manager.
-seo-description: Ce rapport renvoie un nombre de fréquences de toutes les informations inutilisées collectées dans votre inventaire et envoyées à l’Audience Manager.
-seo-title: Rapport des signaux inutilisés
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: Rapport des signaux inutilisés
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: Rapports de chevauchement
+feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Ce rapport renvoie un nombre de fréquences de toutes les informations inutilis�
 
 Un signal est une information provenant de votre site web transmise à [!DNL Audience Manager] sous la forme de [paires clé-valeur](../../reference/key-value-pairs-explained.md) (par exemple, `color=blue, price>100, gender=female`, etc.).
 
-Les signaux inutilisés se composent de données que vous collectez mais qui n’ont pas été mappées à une caractéristique. Le rapport [!UICONTROL Unused Signals] affiche les données dans un tableau par date, clé, valeur et nombre de fréquences. Tout signal non mappé transmis à [!DNL Audience Manager] au moins 100 fois par jour est admissible pour le rapport [!UICONTROL Unused Signals].
+Les signaux inutilisés se composent de données que vous collectez mais qui n’ont pas été mappées à une caractéristique. Le rapport [!UICONTROL Unused Signals] affiche les données dans un tableau par date, clé, valeur et nombre de fréquences. Tout signal non mappé transmis à [!DNL Audience Manager] au moins 100 fois par jour est admissible pour le rapport [!UICONTROL Unused Signals]. Les signaux inutilisés sont stockés pendant 45 jours, puis ignorés.
 
 Consultez ce rapport pour identifier les signaux orphelins qui peuvent être mappés à des caractéristiques nouvelles ou existantes.
 
