@@ -1,22 +1,22 @@
 ---
 description: Les composants de la gestion des balises d’Audience Manager comprennent le portail client, Adobe Tag Manager (obsolète en faveur d’Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
-seo-description: Les composants de la gestion des balises d’Audience Manager comprennent le portail client, Adobe Tag Manager (obsolète en faveur d’Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
-seo-title: Composants de la gestion des balises
+seo-description: Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Launch), DIL, Akamai, and the control database.
+seo-title: Tag Management Components
 solution: Audience Manager
 title: Composants de la gestion des balises
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: 'Composants système '
+feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 4%
+source-wordcount: '318'
+ht-degree: 3%
 
 ---
 
 # Composants de la gestion des balises{#tag-management-components}
 
-Les composants de la gestion des balises d’Audience Manager comprennent le portail client, Adobe Tag Manager (obsolète en faveur d’Adobe Experience Platform Launch), DIL, Akamai et la base de données de contrôle.
+Les composants de la gestion des balises d’Audience Manager comprennent le portail client, Adobe Tag Manager (obsolète en faveur des balises Adobe Experience Platform), DIL, Akamai et la base de données de contrôle.
 
 <!-- 
 
@@ -38,15 +38,15 @@ Le portail client est la Principale interface utilisateur (IU) de la gestion des
 
 ## Conteneur DIL/TIM {#dil-tim}
 
-Le conteneur [!UICONTROL DIL] permet de déployer le code de collecte de données [!DNL Audience Manager] sur votre site web. [!UICONTROL TIM] est le gestionnaire d’insertion de balises obsolète. Il n’est plus utilisé par [!DNL Audience Manager]. Vous utilisez plutôt l’extension [!DNL Audience Manager] dans [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire.
+Le [!UICONTROL DIL] conteneur aide à déployer [!DNL Audience Manager] code de collecte de données sur votre site web. [!UICONTROL TIM] est le gestionnaire d’insertion de balises obsolète. Il n’est plus utilisé par [!DNL Audience Manager]. À la place, vous utilisez le [!DNL Audience Manager] extension dans [Balises Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) pour configurer et générer le code conteneur que vous placez sur les pages de votre inventaire.
 
 ## Bibliothèque d’intégration de données (DIL) {#dil}
 
-La [Data Information Library](../../dil/dil-overview.md) (DIL) est un module d’API autonome qui collecte des données de votre site web. [!UICONTROL DIL] aide à éliminer la nécessité d’écrire du code spécial pour la collecte de données, l’intégration, la lecture des valeurs de cookie et la récupération des données de page. [!UICONTROL DIL] exécute ces actions automatiquement. En outre, [!UICONTROL DIL] est compact. Il s’agit d’une bibliothèque de code autonome qui aide à réduire la quantité de code nécessaire pour collecter des informations. Enfin, [!UICONTROL DIL] vous aide à intégrer [!DNL Audience Manager] à d’autres produits dans l’Experience Cloud [!DNL Adobe].
+Le [Bibliothèque d’informations sur les données](../../dil/dil-overview.md) (DIL) est un module d’API autonome qui collecte des données de votre site web. [!UICONTROL DIL] aide à éliminer la nécessité d’écrire du code spécial pour la collecte de données, l’intégration, la lecture des valeurs de cookie et la récupération des données de page. [!UICONTROL DIL] exécute ces actions automatiquement. En outre, [!UICONTROL DIL] est compacte. Il s’agit d’une bibliothèque de code autonome qui aide à réduire la quantité de code nécessaire pour collecter des informations. Enfin, [!UICONTROL DIL] vous aide à intégrer [!DNL Audience Manager] avec d’autres produits dans la variable [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] utilise l’hôte  [](https://www.akamai.com/us/en/about/) Akamaito et diffusez le code de conteneur depuis notre propre plateforme de gestion des balises appelée  [!UICONTROL TIM (Tag Insertion Manager)]. Cependant, le déploiement du code avec [!UICONTROL TIM] a été supprimé progressivement au profit de [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] uses [Akamai](https://www.akamai.com/us/en/about/) pour héberger et diffuser du code de conteneur à partir de notre propre plateforme de gestion des balises, connue sous le nom de [!UICONTROL TIM (Tag Insertion Manager)]. Cependant, le déploiement du code avec [!UICONTROL TIM] a été progressivement retiré en faveur de [!DNL Adobe Experience Platform Tags].
 
 ## Base de données de contrôle {#control-database}
 

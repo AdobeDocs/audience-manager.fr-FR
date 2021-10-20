@@ -1,16 +1,16 @@
 ---
 description: Questions et problématiques courantes liées à la collecte et à l’intégration des données.
-seo-description: Questions et problématiques courantes liées à la collecte et à l’intégration des données.
-seo-title: FAQ sur la collecte de données et l’intégration de produit
+seo-description: Common data collection and integration questions and issues.
+seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: FAQ sur la collecte de données et l’intégration de produit
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP ; Adresse SFTP ; Adresse IP du protocole STFP ; Adresse FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1198'
 ht-degree: 82%
 
 ---
@@ -59,13 +59,13 @@ Les serveurs SFTP ci-dessous sont obsolètes. Aucun nouveau compte ne sera confi
 
 **Comment configurer mon instance d’Audience Manager pour utiliser les nouveaux serveurs SFTP ?**
 
-Contactez votre [!DNL Audience Manager] consultant ou l’assistance clientèle pour qu’ils configurent vos nouveaux comptes SFTP.
+Contactez votre [!DNL Audience Manager] consultant ou assistance clientèle ; il configurera vos nouveaux comptes SFTP.
 
  
 
 **Quelles sont les méthodes d’authentification prises en charge pour les nouveaux serveurs SFTP ?**
 
-Les nouveaux serveurs SFTP (`ftp-in-gtw` et `ftp-out-gtw`) prennent en charge [!DNL OpenSSH Key-Based Authentication]. Nous pouvons générer les clés [!DNL SSH] pour vous, ou vous pouvez nous fournir votre propre clé publique.
+Les nouveaux serveurs SFTP (`ftp-in-gtw` et `ftp-out-gtw`) [!DNL OpenSSH Key-Based Authentication]. Nous pouvons générer la variable [!DNL SSH] des clés pour vous, ou vous pouvez nous fournir votre propre clé publique.
 
  
 
@@ -83,7 +83,7 @@ Il est recommandé de configurer votre intégration [!DNL Audience Manager]— [
 
 * Insérez [!UICONTROL DIL] directement dans le `s_code`.
 
-* Renseignez [!UICONTROL DIL] et `s_code` par [!DNL Adobe Experience Platform Launch].
+* Serve [!UICONTROL DIL] et le `s_code` through [!DNL Adobe Experience Platform Tags].
 
 Voir [API Data Integration Library (DIL)](../dil/dil-overview.md).
 
@@ -152,7 +152,7 @@ Oui, [!DNL Audience Manager] peut vous fournir les données collectées pour les
 
 **[!DNL Google Ad Manager]Je souhaite collecter des données sur un site et cibler les utilisateurs au moyen de sur un autre site. Dois-je déployer du code sur l’autre propriété si je ne souhaite pas collecter de données à partir de cet emplacement ?**
 
-Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. Tant que vous avez accès à l’inventaire sur le deuxième site via [!DNL Google Ad Manager], vous pouvez utiliser la collecte de données du site initial et la cible via [!DNL Google Ad Manager].
+Non. Si la collecte de données sur le deuxième site n’est pas nécessaire, vous n’avez pas besoin d’y déployer DIL. Tant que vous avez accès à l’inventaire sur le deuxième site via [!DNL Google Ad Manager], vous pouvez utiliser la collecte de données du site initial et cibler via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -210,6 +210,6 @@ La synchronisation d’un profil utilisateur dans les régions prend en généra
 
 **Qu’advient-il des clés d’accès utilisateur Amazon S3 inactives ?**
 
-Adobe fournit aux clients d’Audience Manager des clés d’accès utilisateur pour les compartiments d’Audience Manager [!DNL Amazon S3]. Pour des raisons de sécurité, les clés sont automatiquement désactivées après 100 jours d’inactivité.
+Adobe fournit aux clients d’Audience Manager des clés d’accès utilisateur pour l’Audience Manager [!DNL Amazon S3] des compartiments. Pour des raisons de sécurité, les clés sont automatiquement désactivées après 100 jours d’inactivité.
 
 Pour réactiver vos clés d’accès ou en demander de nouvelles, contactez le service clientèle.

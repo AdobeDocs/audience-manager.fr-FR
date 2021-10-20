@@ -1,15 +1,15 @@
 ---
 description: Adobe vous fournit les moyens de gérer et de communiquer les choix de confidentialité de vos utilisateurs via la fonctionnalité d’accord préalable et la prise en charge du Transparency and Consent Framework (TCF) de l’IAB. Cet article décrit les cas d’utilisation d’Audience Manager qui prennent en charge le TCF de l’IAB et l’implémentation de la prise en charge du TCF de l’IAB dans Audience Manager.
-seo-description: Adobe vous fournit les moyens de gérer et de communiquer les choix de confidentialité de vos utilisateurs via la fonctionnalité d’accord préalable et la prise en charge du Transparency and Consent Framework (TCF) de l’IAB. Cet article décrit les cas d’utilisation d’Audience Manager qui prennent en charge le TCF de l’IAB et l’implémentation de la prise en charge du TCF de l’IAB dans Audience Manager.
-seo-title: Module d’Audience Manager pour le TCF de l’IAB
+seo-description: Adobe provides you with the means to manage and communicate your users' privacy choices through the Opt-in functionality and through IAB Transparency and Consent Framework (TCF) support. This article describes the Audience Manager use cases that support the IAB TCF and how to implement IAB TCF support in Audience Manager.
+seo-title: Audience Manager Plug-in for IAB TCF
 solution: Audience Manager
 title: Module d’Audience Manager pour le TCF de l’IAB
-feature: Gouvernance et confidentialité des données
+feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '2421'
-ht-degree: 36%
+source-wordcount: '2367'
+ht-degree: 34%
 
 ---
 
@@ -25,7 +25,7 @@ Cet article décrit les cas d’utilisation d’Audience Manager qui prennent en
 
 >[!IMPORTANT]
 >
->L’Audience Manager est enregistrée dans le [TCF de l’IAB](https://iabeurope.eu/tcf-for-vendors/) avec l’identifiant du fournisseur 565.
+>L’Audience Manager est enregistrée dans la variable [IAB TCF](https://iabeurope.eu/tcf-for-vendors/) avec l’identifiant du fournisseur 565.
 
 Le module d’Audience Manager pour le TCF de l’IAB utilise la [fonctionnalité d’accord préalable](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html), qui fait à son tour partie de la bibliothèque [ Experience Platform Identity Service (ECID)](https://experienceleague.adobe.com/docs/id-service/using/home.html) d’Adobe.
 
@@ -46,7 +46,7 @@ Actuellement, Audience Manager ne prend pas en charge :
 
 ## Mise à niveau vers [!DNL IAB TCF v2.0] {#upgrading}
 
-Les clients qui mettent à niveau leur mise en oeuvre [!DNL Audience Manager Plug-in for IAB TCF] de [!DNL IAB TCF] v1.1 à [!DNL IAB TCF] v2.0, ou qui activent [!DNL IAB TCF] v2.0 pour la première fois, doivent tous suivre les mêmes directives sur les conditions préalables et la mise en oeuvre, comme décrit ci-dessous.
+Clients qui mettent à niveau leur [!DNL Audience Manager Plug-in for IAB TCF] implémentation depuis [!DNL IAB TCF] v1.1 à [!DNL IAB TCF] v2.0 ou activation [!DNL IAB TCF] v2.0 pour la première fois, doit tous suivre les mêmes directives sur les conditions préalables et la mise en oeuvre, comme décrit ci-dessous.
 
 ## Conditions préalables {#prerequisites}
 
@@ -56,60 +56,60 @@ Les clients qui mettent à niveau leur mise en oeuvre [!DNL Audience Manager Plu
 >
 >La prise en charge du TCF 1.1 de l’IAB prendra fin le 15 août 2020.
 >
-> Les clients qui souhaitent continuer à utiliser le module d’Audience Manager pour le TCF de l’IAB pour la gestion du consentement doivent effectuer une mise à niveau vers la dernière version de [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) pour une prise en charge continue.
+> Les clients qui souhaitent continuer à utiliser le module d’Audience Manager pour le TCF de l’IAB pour la gestion du consentement doivent effectuer une mise à niveau vers la dernière version de [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) pour un soutien continu.
 >
-> Après la mise à niveau vers la dernière version [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases), les chaînes de consentement IAB TCF v1.1 ne seront plus prises en charge. Veillez donc à mettre à jour votre CMP avant de passer à la dernière version d’ECID.
+> Après la mise à niveau vers la dernière version [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) Les chaînes de consentement IAB TCF v1.1 ne seront plus prises en charge. Veillez donc à mettre à jour votre CMP avant d’effectuer la mise à niveau vers la dernière version d’ECID.
 
 Pour utiliser avec Audience Manager le module externe d’Audience Manager pour IAB TCF, vous devez respecter les conditions préalables suivantes :
 
 1. Vous devez utiliser la version 5 ou ultérieure d’Adobe Experience Platform Identity Service (ECID). [Téléchargez](https://github.com/Adobe-Marketing-Cloud/id-service/releases) notre dernière mise à jour d’ECID.
-2. Vous devez utiliser l’Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 ou ultérieure, téléchargeable à partir de [ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Consultez la [documentation d’Audience Manager sur DIL](../../dil/dil-overview.md). Nous vous recommandons d’utiliser [Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) pour la mise en oeuvre de DIL la plus simple pour l’Audience Manager.
+2. Vous devez utiliser l’Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 ou ultérieure, téléchargeable depuis [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Consultez la [documentation d’Audience Manager sur DIL](../../dil/dil-overview.md). Il est recommandé d’utiliser la variable [Extension de balise Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) pour la mise en oeuvre DIL la plus simple de l’Audience Manager.
 3. Si vous utilisez [!DNL Server-Side Forwarding] (SSF) pour importer des données dans Audience Manager, vous devez effectuer la mise à niveau vers la dernière version d’AppMeasurement. Téléchargez AppMeasurement à l’aide du [gestionnaire de code d’Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 4. Vous devez utiliser une plateforme de gestion du consentement (CMP), commerciale ou personnelle, qui est intégrée à IAB TCF v2.0 et qui est enregistrée auprès du TCF de l’IAB. Consultez la liste des [CMP enregistrées dans le framework de l’IAB](https://iabeurope.eu/cmp-list/).
 
 >[!WARNING]
 >
->Si vous utilisez une plateforme de gestion du consentement (CMP) qui ne prend pas en charge IAB TCF v.2.0, l’Audience Manager enverra automatiquement le paramètre `gdpr=0` dans les synchronisations des identifiants, même si vos visiteurs se trouvent dans l’Union européenne. Pour déterminer si la validation du RGPD est principale, nous vous recommandons de confirmer auprès de votre plateforme de gestion du consentement (CMP) qu’elle prend en charge IAB TCF v2.0.
+>Si vous utilisez une plateforme de gestion du consentement (CMP) qui ne prend pas en charge IAB TCF v.2.0, l’Audience Manager enverra automatiquement la variable `gdpr=0` dans les synchronisations des identifiants, même si vos visiteurs se trouvent dans l’Union européenne. Pour déterminer si la validation du RGPD est principale, nous vous recommandons de confirmer auprès de votre plateforme de gestion du consentement (CMP) qu’elle prend en charge IAB TCF v2.0.
 
 ## Recommandations et méthode d’implémentation {#recommendations}
 
 Pour activer la prise en charge du TCF de l’IAB dans Audience Manager, lisez notre documentation sur [la configuration de l’IAB avec accord préalable](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html).
 
-Pour ce faire, la méthode la plus simple consiste à utiliser [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) pour ajouter [!DNL ECID Opt-in] à vos propriétés. Lisez la documentation de l’[extension d’accord préalable d’ECID](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) pour apprendre à configurer l’extension Launch.
+Pour ce faire, la méthode la plus simple consiste à utiliser [Balises Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) ajouter [!DNL ECID Opt-in] sur vos propriétés. Lisez la documentation de la section [Extension Opt-in ECID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) pour savoir comment configurer l’extension Balises.
 
 ## Workflow des choix des utilisateurs lors de l’utilisation du framework de l’IAB {#user-choice-workflow}
 
 Lors de la visite d’une propriété web, vos utilisateurs peuvent indiquer leurs choix concernant l’utilisation de leurs données par l’éditeur et par les fournisseurs tiers avec lesquels l’éditeur travaille.
 
-Les utilisateurs fournissent leurs choix sous la forme *consentement* et *intérêt légitime* aux fins de l’IAB à *fournisseurs tiers* enregistrés dans la liste globale de fournisseurs.
+Les utilisateurs fournissent leurs choix sous la forme *consentement* et *intérêt légitime* aux fins de l’IAB : *fournisseurs tiers* enregistré dans la liste globale des fournisseurs.
 
 L’image ci-dessous représente un exemple de dialogue de CMP, présenté au nouveau visiteur d’un site web. Gardez à l’esprit que ce dialogue peut avoir un aspect très différent, en fonction de l’implémentation des clients.
 
 ![Dialogue de CMP](assets/cmp-example.png)
 
-Vous trouverez des détails sur les différents objectifs et autorisations inclus dans le TCF de l’IAB v2.0 dans la section [Stratégies du Transparency &amp; Consent Framework de l’IAB Europe](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
+Vous trouverez des informations détaillées sur les différents objectifs et autorisations inclus dans IAB TCF v2.0 dans la section [Stratégies du framework de transparence et de consentement de l’IAB Europe](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
 Les utilisateurs peuvent accorder leur consentement ou des intérêts légitimes (le cas échéant) à une combinaison d’objectifs et de fournisseurs. Par exemple, les utilisateurs peuvent accorder leur consentement pour stocker des informations sur un appareil, développer et améliorer des produits, et accorder leur consentement à tous les fournisseurs tiers affichés par la CMP.
 
 Ou, dans un autre exemple, ils pourraient accorder leur consentement ou des intérêts légitimes à tous les usages, mais uniquement accorder le consentement ou des intérêts légitimes à quelques-uns des fournisseurs affichés par la CMP.
 
-Une fois que l’utilisateur sélectionne ses choix de confidentialité, les choix de l’utilisateur sont enregistrés dans la chaîne IAB TC. La chaîne IAB TC stocke la combinaison d’objectifs et de fournisseurs approuvés, ainsi que d’autres informations de métadonnées (voir la [page IAB](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string) pour plus d’informations).
+Une fois que l’utilisateur sélectionne ses choix de confidentialité, les choix de l’utilisateur sont enregistrés dans la chaîne IAB TC. La chaîne IAB TC stocke la combinaison d’objectifs et de fournisseurs approuvés, ainsi que d’autres informations de métadonnées (voir [page IAB](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string) pour plus d’informations).
 
 Chaque fournisseur enregistré dans le TCF de l’IAB évalue la chaîne du TC de l’IAB et prend des décisions en fonction des choix de confidentialité des utilisateurs. Gardez à l’esprit que les choix de confidentialité des utilisateurs sont valides pour tous les fournisseurs enregistrés auprès du TCF de l’IAB.
 
 ## Objectifs requis par l’Audience Manager {#aam-standard-purposes}
 
-Audience Manager évalue les choix des utilisateurs stockés dans la chaîne IAB TC aux fins suivantes, définis dans les [Stratégies du Transparency &amp; Consent Framework de l’IAB Europe](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
+Audience Manager évalue les choix des utilisateurs stockés dans la chaîne IAB TC aux fins suivantes, définis dans la variable [Stratégies du framework de transparence et de consentement de l’IAB Europe](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
 
-* **Objectif 1** : Stocker et/ou accéder aux informations sur un appareil ;
-* **Objectif 10** : développer et améliorer les produits ;
-* **Objectif spécial 1** : Assurez la sécurité, évitez les fraudes et déboguez.
+* **Objectif 1**: Stocker et/ou accéder aux informations sur un appareil ;
+* **Objectif 10**: développer et améliorer les produits ;
+* **Objectif spécial 1**: Assurez la sécurité, évitez les fraudes et déboguez.
 
 >[!IMPORTANT]
 >
 >L’Audience Manager nécessite un consentement pour les points 1 et 10, ainsi que le consentement du fournisseur, afin de déployer des cookies et lancer ou honorer les synchronisations des identifiants.
 >
->Conformément aux [règlements de l’IAB](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), Objectif spécial 1 (S’assurer que la sécurité, la prévention de la fraude et le débogage sont toujours acceptés, et que les utilisateurs ne peuvent pas s’y opposer.
+>Par [Règlements de l’IAB](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), Objectif spécial 1 (assurer la sécurité, prévenir la fraude et déboguer) est toujours accepté et les utilisateurs ne peuvent pas s’y opposer.
 
 ## Le comportement d’Audience Manager dépend de l’attribution ou non du consentement de l’utilisateur {#aam-behavior-consent}
 
@@ -119,7 +119,7 @@ Nous vérifions également le consentement de l’utilisateur pour toutes les de
 
 | Lorsque votre utilisateur *donne son consentement*, Audience Manager : | Lorsque votre utilisateur *refuse de donner* son consentement, Audience Manager : |
 |---|---|
-| <ul><li>met en œuvre tous les cas d’utilisation d’Audience Manager que vous avez demandés ;</li><li>Transmet le consentement aux tiers dans les synchronisations des identifiants (en transmettant `gdpr = 1` et la chaîne de consentement sous la forme `gdpr_consent` dans les appels de synchronisation des identifiants).</li><li>évalue et honore le consentement transmis à partir des pixels du serveur de publicités ;</li><li>honore les synchronisations des identifiants initiées par les partenaires.</li></ul> | <ul><li>ne stocke aucune nouvelle donnée utilisateur dans votre instance. Cela inclut les identifiants des partenaires, les signaux, les caractéristiques ou les données de pixel ;</li><li>n’initie pas les synchronisations des identifiants tiers ;</li><li>n’honore pas les synchronisations des identifiants initiées par les partenaires.</li><li>Exclut l’utilisateur de la collecte de données ultérieure.</li></ul> |
+| <ul><li>met en œuvre tous les cas d’utilisation d’Audience Manager que vous avez demandés ;</li><li>Transmet le consentement aux tiers dans les synchronisations des identifiants (en transmettant `gdpr = 1` et la chaîne de consentement en tant que `gdpr_consent` lors des appels de synchronisation des identifiants).</li><li>évalue et honore le consentement transmis à partir des pixels du serveur de publicités ;</li><li>honore les synchronisations des identifiants initiées par les partenaires.</li></ul> | <ul><li>ne stocke aucune nouvelle donnée utilisateur dans votre instance. Cela inclut les identifiants des partenaires, les signaux, les caractéristiques ou les données de pixel ;</li><li>n’initie pas les synchronisations des identifiants tiers ;</li><li>n’honore pas les synchronisations des identifiants initiées par les partenaires.</li><li>Exclut l’utilisateur de la collecte de données ultérieure.</li></ul> |
 
 ## Cas d’utilisation des éditeurs {#publisher-use-case}
 
@@ -127,15 +127,15 @@ En mettant en oeuvre le module d’Audience Manager pour IAB TCF, vous n’êtes
 
 1. Un utilisateur visite l’une de vos propriétés web. Tant que vous utilisez les dernières versions des bibliothèques ECID et DIL (voir [Conditions préalables](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#prerequisites)), le flux d’accord préalable est déclenché.
 2. Audience Manager vérifie si le flux de l’IAB s’applique (`isIabContext=true`). Voir [Recommandations et méthode d’implémentation](aam-iab-plugin.md#recommendations).
-3. Audience Manager vérifie si le RGPD s’applique (`gdpr = 1`) et s’il existe une CMP, enregistrée auprès du TCF de l’IAB, sur votre propriété web. Par exemple, cela s’applique aux visiteurs provenant de l’Union européenne. Notez qu’il vous incombe, en tant qu’éditeur, de définir l’indicateur du RGPD.
-4. Si le RGPD s’applique, l’Audience Manager vérifie le consentement requis dans la chaîne IAB TC, transmise dans le paramètre `gdpr_consent`. L’Audience Manager nécessite un consentement pour stocker et/ou accéder aux informations sur un appareil ([IAB TCF objectif 1](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)), pour développer et améliorer des produits ([IAB TCF objectif 10](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)), ainsi que le consentement du fournisseur d’Audience Manager pour stocker, traiter ou activer des données.
-5. Si la chaîne IAB TC est présente et contient le consentement requis, l’Audience Manager la transmet à nos [serveurs de collecte de données](../../reference/system-components/components-data-collection.md) (DCS).
-6. L’Audience Manager répond en définissant un [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) sur le navigateur, puis initie et honore les synchronisations des identifiants tiers.
+3. L’Audience Manager vérifie si le RGPD s’applique (`gdpr = 1`) et s’il existe une CMP, enregistrée auprès du TCF de l’IAB, sur votre propriété web. Par exemple, cela s’applique aux visiteurs provenant de l’Union européenne. Notez qu’il vous incombe, en tant qu’éditeur, de définir l’indicateur du RGPD.
+4. Si le RGPD s’applique, l’Audience Manager vérifie la chaîne IAB TC, transmise dans `gdpr_consent` pour le consentement requis. Audience Manager nécessite un consentement pour le stockage et/ou l’accès aux informations sur un appareil ([Objectif 1 du TCF de l’IAB](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)), développement et amélioration des produits ([Objectif 10 du TCF de l’IAB](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)), plus le consentement du fournisseur d’Audience Manager pour stocker, traiter ou activer des données.
+5. Si la chaîne IAB TC est présente et contient le consentement requis, l’Audience Manager la transmet à notre [serveurs de collecte de données](../../reference/system-components/components-data-collection.md) (DCS).
+6. L’Audience Manager répond en définissant une [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) sur le navigateur et initie et honore les synchronisations des identifiants tiers.
 7. Si la chaîne du TC de l’IAB transmise à l’étape 4 ne contient pas toutes les autorisations nécessaires, l’Audience Manager ne collecte, ne traite ou n’active aucune donnée utilisateur et n’honore ni n’initie de synchronisation des identifiants. En outre, il exclut l’utilisateur des destinations avec lesquelles vous travaillez.
 
 >[!IMPORTANT]
 >
->Si vous travaillez avec des partenaires de destination d’Audience Manager qui ont besoin des paramètres IAB TCF, mais que vous ne disposez pas d’une CMP prenant en charge IAB TCF sur votre site web, alors l’Audience Manager envoie `gdpr=0` dans les synchronisations des identifiants. Cela signifie que le RGPD ne s’applique pas à ces utilisateurs.
+>Si vous travaillez avec des partenaires de destination d’Audience Manager qui ont besoin de paramètres IAB TCF, mais que vous n’avez pas de CMP prenant en charge IAB TCF sur votre site web, alors l’Audience Manager envoie `gdpr=0` dans les synchronisations des identifiants. Cela signifie que le RGPD ne s’applique pas à ces utilisateurs.
 >
 > Si cela n’est pas souhaité, vous devez activer la fonctionnalité IAB TCF en Audience Manager pour envoyer les chaînes IAB TC appropriées aux partenaires de destination.
 
@@ -160,10 +160,10 @@ https://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstri
 
 Le cas d’utilisation est décrit dans l’image et dans les étapes ci-dessous. Commencez à gauche de l’image :
 
-1. Une impression est diffusée à votre utilisateur via un serveur de publicités. Cela se traduit par un [appel de pixel](../../integration/media-data-integration/impression-data-pixels.md) à nos serveurs de collecte de données (DCS).
-2. Audience Manager vérifie si l’indicateur du RGPD s’applique. Dans le cas contraire, Audience Manager stocke les données transmises dans les variables `gdpr` et `gdpr_consent` dans des appels de pixel.
-3. Si la chaîne IAB TC est présente et contient les autorisations requises, Audience Manager stocke les données transmises dans les variables `gdpr` et `gdpr_consent` dans les appels de pixel.
-4. Si la chaîne IAB TC est manquante ou ne dispose pas des autorisations requises, l’Audience Manager supprime les données transmises dans les variables `gdpr` et `gdpr_consent` dans les appels de pixel.
+1. Une impression est diffusée à votre utilisateur via un serveur de publicités. Cela se traduit par une [appel de pixel](../../integration/media-data-integration/impression-data-pixels.md) à nos serveurs de collecte de données (DCS).
+2. Audience Manager vérifie si l’indicateur du RGPD s’applique. Dans le cas contraire, l’Audience Manager stocke les données transmises dans la variable `gdpr` et `gdpr_consent` dans les appels de pixel.
+3. Si la chaîne IAB TC est présente et contient les autorisations requises, l’Audience Manager stocke les données transmises dans la variable `gdpr` et `gdpr_consent` dans les appels de pixel.
+4. Si la chaîne IAB TC est manquante ou ne dispose pas des autorisations requises, l’Audience Manager supprime les données transmises dans la variable `gdpr` et `gdpr_consent` dans les appels de pixel.
 
 ![Cas d’utilisation des annonceurs](assets/advertiser-use-case.png)
 
@@ -173,9 +173,9 @@ Le plug-in d’Audience Manager pour IAB TCF vous permet de transférer la chaî
 
 ## Ajout du consentement aux URL envoyées aux destinations d’URL
 
-L’intégration de l’Audience Manager avec IAB TCF v2.0 prend en charge l’ajout de consentement aux informations envoyées aux [destinations d’URL](../../features/destinations/create-url-destination.md) intégrées à IAB TCF v2.0. Cependant, ce processus n’est pas effectué automatiquement par Audience Manager, afin d’éviter de rompre des formats d’URL spécifiques.
+L’intégration d’Audience Manager avec IAB TCF v2.0 prend en charge l’ajout de consentement aux informations envoyées à [Destinations d’URL](../../features/destinations/create-url-destination.md) qui sont intégrés avec IAB TCF v2.0. Cependant, ce processus n’est pas effectué automatiquement par Audience Manager, afin d’éviter de rompre des formats d’URL spécifiques.
 
-Les clients qui souhaitent ajouter leur consentement aux données envoyées à [!DNL URL destinations] doivent ajouter manuellement les macros `${GDPR}` et `${GDPR_CONSENT_XXXX}` au format de l’URL, en remplaçant `XXXX` par l’identifiant du partenaire de destination.
+Clients qui souhaitent ajouter un consentement aux données envoyées à [!DNL URL destinations] doit ajouter manuellement la variable `${GDPR}` et `${GDPR_CONSENT_XXXX}` à leur format d’URL, en remplaçant `XXXX` avec l’identifiant du partenaire de destination.
 
 Exemple: `https://yourdomain.com?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_1234}`.
 
@@ -183,11 +183,11 @@ Voir [Macros de destination définies](../../features/destinations/destination-m
 
 ## Gestion du consentement entre appareils
 
-Le module d’Audience Manager du TCF de l’IAB désinscrit automatiquement les identifiants présents sur une demande, lorsque les visiteurs de votre site ne fournissent pas les autorisations appropriées. Si la requête contient un [identifiant multi-appareils (ID CRM)](../../reference/ids-in-aam.md), l’Audience Manager exclut l’identifiant, ainsi que le dernier appareil lié à cet [identifiant multi-appareils (ID CRM)](../../reference/ids-in-aam.md).
+Le module d’Audience Manager du TCF de l’IAB désinscrit automatiquement les identifiants présents sur une demande, lorsque les visiteurs de votre site ne fournissent pas les autorisations appropriées. Si la requête contient une [ID multi-appareils (ID CRM)](../../reference/ids-in-aam.md), l’Audience Manager désinscrit l’ID, ainsi que le dernier appareil associé à celui-ci. [ID multi-appareils (ID CRM)](../../reference/ids-in-aam.md).
 
 ## Test de votre implémentation de l’IAB {#test-iab-implementation}
 
-Pour vérifier que vous avez correctement mis en oeuvre le module d’Audience Manager pour IAB TCF, consultez [Cas d’utilisation 4 de la validation du service Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88).
+Pour vérifier que vous avez correctement mis en oeuvre le module d’Audience Manager pour IAB TCF, lisez [Cas d’utilisation 4 de la validation du service Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88).
 
 ## IAB et exclusion dans Audience Manager. Ordre de priorité. {#iab-and-optout}
 
