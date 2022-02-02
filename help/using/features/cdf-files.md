@@ -8,9 +8,9 @@ title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1914'
 ht-degree: 3%
 
 ---
@@ -146,12 +146,11 @@ Répertorie et définit la structure de données d’une [!UICONTROL CDF] fichie
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII) <code> 001</code> ou <code> ^A</code>) sépare les données de champs individuels par un indicateur d’espace non imprimable. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII) <code> 002</code> ou <code> ^B</code>) sépare les données d’un tableau et les paramètres de requête. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C (ASCII) <code> 003</code> ou <code> ^C</code>) définit les paires clé-valeur. </li> 
-      <li> Nouveau séparateur de ligne (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Séquence de champ </p> </td> 
-   <td colname="col2"> <p> <p>Important : <span class="keyword"> Audience Manager</span> se réserve le droit d’ajouter de nouveaux champs à la fin du fichier CDF dans les prochaines versions. Cela signifie que la conception technique de votre système d’analyse de fichiers ne doit pas supposer un nombre fixe de colonnes (bien qu’elle puisse supposer un ordre fixe pour les colonnes existantes). </p> </p> <p>Les données de votre fichier CDF apparaissent dans l’ordre indiqué ci-dessous. </p> <p> 
+   <td colname="col2"> <p> <p>Important : <span class="keyword"> Audience Manager</span> se réserve le droit d’ajouter de nouveaux champs à la fin du fichier CDF dans les prochaines versions. Cela signifie que la conception technique de votre système d’analyse de fichiers ne doit pas supposer un nombre fixe de colonnes (bien qu’elle puisse supposer un ordre fixe pour les colonnes existantes).</p> </p> <p>Les données de votre fichier CDF apparaissent dans l’ordre indiqué ci-dessous. /N peut apparaître à la place de l’un de ces champs, indiquant une valeur nulle.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Heure de l’événement </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device  </li> 
