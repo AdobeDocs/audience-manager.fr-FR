@@ -4,9 +4,10 @@ solution: Audience Manager
 title: Partage de segments Experience Platform avec Audience Manager et d’autres solutions Experience Cloud
 keywords: Partage d’audiences AEP, segments AEP, segments Platform, partage de segments, partage d’audiences, partage de segments, partage de segments AAM partage de segments AEP
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ Les nombres de population de segments peuvent varier entre vos segments d’Audi
 
 ### Évaluation des segments dans Experience Platform
 
-L’Audience Manager met à jour les numéros des rapports dans l’interface une fois par jour.   Le délai de cette mise à jour s’aligne rarement sur le moment de l’évaluation du segment dans Experience Platform.
+L’Audience Manager met à jour les numéros des rapports dans l’interface une fois par jour. Le délai de cette mise à jour s’aligne rarement sur le moment de l’évaluation du segment dans Experience Platform.
 
 ### Différences entre les stratégies de fusion de profils et les stratégies de fusion
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) en Audience Manager et [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) dans Experience Platform fonctionnent différemment, et le graphique d’identités utilisé pour chacun d’eux varie. Pour cette raison, des différences entre les populations de segments sont attendues.
+
+>[!NOTE]
+>
+> Lors du partage de segments de l’Experience Platform vers l’Audience Manager, votre organisation Platform [stratégie de fusion par défaut](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) a la priorité sur [stratégie de fusion utilisée par le segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) partagé avec l’Audience Manager. Par exemple, si la stratégie de fusion du segment partagé autorise [Combinaison d’identifiants](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), mais la stratégie de fusion par défaut de l’organisation ne le fait pas, cela peut entraîner des différences de population entre Platform et l’Audience Manager.
 
 ### Composition de segment dans l’Experience Platform
 
