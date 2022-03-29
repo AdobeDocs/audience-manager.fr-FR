@@ -7,10 +7,10 @@ title: Exigences en matière de nom et de taille de fichier FTP pour les fichier
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: 534f7c3a04861ad6daba2f168c275bbac8395d37
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 7%
+source-wordcount: '1097'
+ht-degree: 6%
 
 ---
 
@@ -66,7 +66,7 @@ Le tableau définit les éléments d’une [!DNL FTP] nom du fichier.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Ce champ indique à l’Audience Manager à quelle source de données intégrer les données. Ce champ est obligatoire si vous définissez le DPID sur un Android ID ou un iOS ID ou un autre ID appartenant à des sources de données globales. Cette variable permet de <span class="keyword"> Audience Manager</span> liez les données de fichier à votre organisation. <br> Cette source de données cible doit appartenir à votre entreprise. À des fins de partage de données de deuxième niveau, pour ingérer des données dans une source de données cible appartenant à une autre entreprise, vous devez disposer d’un mappage d’accès entre votre entreprise et la source de données cible. Contactez votre conseiller en Adobe ou le service clientèle pour configurer le mappage.</p> <p>Par exemple : </p> 
+   <td colname="col2"> <p>Ce champ indique à l’Audience Manager à quelle source de données intégrer les données. Ce champ est obligatoire si vous définissez le DPID sur un Android ID ou un iOS ID ou un autre ID appartenant à des sources de données globales. Cette variable permet de <span class="keyword"> Audience Manager</span> liez les données de fichier à votre organisation. <br> Cette source de données cible doit appartenir à votre entreprise. À des fins de partage de données de deuxième niveau, pour ingérer des données dans une source de données cible appartenant à une autre entreprise, vous devez disposer d’un mappage d’accès entre votre entreprise et la source de données cible. Contactez votre conseiller en Adobe ou le service clientèle pour configurer le mappage.</p><p><b>Remarque importante :</b> You <i>ne pas</i> Vous devez demander un mappage pour les relations de partage de données existantes (pour les sources de données cibles appartenant à d’autres sociétés dans lesquelles vous avez intégré des données avant le 14 mars 2022). Le mappage n’est pas non plus requis lors de l’intégration de données dans des sources de données cibles appartenant à votre PID. </p> <p>Par exemple : </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> indique à l’Audience Manager que vous qualifiez des ID de client appartenant à la source de données 33 pour des caractéristiques ou des signaux appartenant à la source de données 21. </li> 
      <li> <b>Identifiants Android (GAID) :</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> indique <span class="keyword"> Audience Manager</span> que le fichier de données contient uniquement des identifiants Android et que ces identifiants doivent correspondre aux caractéristiques appartenant à la source de données 21.</li> 
