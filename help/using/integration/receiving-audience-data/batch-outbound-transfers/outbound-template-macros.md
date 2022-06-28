@@ -1,15 +1,15 @@
 ---
 description: Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Il s’agit notamment des macros de nom de fichier, des macros d’en-tête et des macros de contenu.
-seo-description: Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Il s’agit notamment des macros de nom de fichier, des macros d’en-tête et des macros de contenu.
-seo-title: Macros de création de modèles sortants (en anglais)
+seo-description: Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
+seo-title: Outbound Template Macros
 solution: Audience Manager
 title: Macros de création de modèles sortants (en anglais)
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-feature: Transferts de données sortantes
+feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '710'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Répertorie les macros que vous pouvez utiliser pour créer des modèles sortant
 
 ## Macros Nom de fichier et En-tête de fichier {#file-name-header-macros}
 
-Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le nom du fichier et pour définir les champs d’en-tête. Pour des exemples de code, voir [Exemples de macro sortante](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le nom du fichier et pour définir les champs d’en-tête. Pour consulter des exemples de code, voir [Exemples de macro sortante](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -86,7 +86,7 @@ Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le no
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Horodatage à 10 chiffres, UTC, Unix. </p> <p>Il peut également être formaté sous la forme <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> suivant les règles de formatage de date/horodatage Java. </p> </td> 
+   <td colname="col2"> <p>Horodatage à 10 chiffres, UTC, Unix. </p> <p>Il peut également être formaté en tant que <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> suivant les règles de mise en forme de date/horodatage Java. </p> </td> 
   </tr>
 
 </tbody> 
@@ -94,7 +94,7 @@ Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le no
 
 ## Macros de contenu {#content-macros}
 
-Macros utilisées pour formater le contenu d’un fichier de données. Pour des exemples de code, voir [Exemples de macro sortante](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Macros utilisées pour formater le contenu d’un fichier de données. Pour consulter des exemples de code, voir [Exemples de macro sortante](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -106,11 +106,11 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insère une accolade proche <code>}</code> . </p> </td> 
+   <td colname="col2"> <p>Insère une accolade proche <code>}</code> caractère. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identifiant utilisateur unique du fournisseur de données  </span>. </p> <p>Il s’agit de l’identifiant du partenaire de données auquel vous envoyez des données dans un fichier sortant. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identifiant utilisateur unique du fournisseur de données </span>. </p> <p>Il s’agit de l’identifiant du partenaire de données auquel vous envoyez des données dans un fichier sortant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -122,7 +122,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>La sortie de cette macro mappe l’ID de fournisseur de données (DPID) aux ID d’utilisateur uniques associés (DPUUID). Cette macro doit avoir une chaîne de formatage pour contrôler sa sortie. L’exemple de sortie ressemblerait à ce qui suit : </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>Le paramètre <code> maxMappings </code> détermine le nombre de mappages que la macro doit renvoyer. Lorsque <code> maxMappings=0 </code>, cette macro renvoie tous les mappages pour chaque DPID spécifié. Les données sont triées par horodatage (le plus récent en premier) et renvoie d’abord les résultats avec l’horodatage le plus grand. </p> </td> 
+   <td colname="col2"> <p>La sortie de cette macro mappe l’ID de fournisseur de données (DPID) aux ID d’utilisateur uniques associés (DPUUID). Cette macro doit avoir une chaîne de formatage pour contrôler sa sortie. L’exemple de sortie ressemblerait à ce qui suit : </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>Le <code> maxMappings </code> détermine le nombre de mappages à renvoyer pour la macro. When <code> maxMappings=0 </code>, cette macro renvoie tous les mappages pour chaque DPID spécifié. Les données sont triées par horodatage (le plus récent en premier) et renvoie d’abord les résultats avec l’horodatage le plus grand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -134,7 +134,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insère une accolade ouverte <code>{</code> . </p> </td> 
+   <td colname="col2"> <p>Insère une accolade ouverte <code>{</code> caractère. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -150,7 +150,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Renvoie <code> 1 </code> en tant que valeur statique codée en dur. </p> </td> 
+   <td colname="col2"> <p>Renvoie <code> 1 </code> comme valeur statique et codée en dur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -171,9 +171,10 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Identifiant du segment. Obsolète. Utilisez <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Identifiant du segment client. Obsolète. Utilisez <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Identifiant de segment </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Renvoie  <code> 5 </code>, une valeur statique codée en dur qui identifie les données en tant que données de segment. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsolète. N’utilisez pas . </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Horodatage Unix indiquant la dernière fois où un segment a été réalisé. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Renvoie <code> 5 </code>, une valeur statique codée en dur qui identifie les données comme des données de segment. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsolète. N’utilisez pas . </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Horodatage Unix indiquant l’état de la dernière mise à jour de l’adhésion au segment. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: Horodatage Unix indiquant la dernière fois où un segment a été réalisé. </li>
     </ul> <p>Placez ces variables entre accolades après la macro. Par exemple, ce code sépare les résultats par une barre verticale "|" : <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
@@ -216,7 +217,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID  </span> utilisateur de l’Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ID utilisateur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
