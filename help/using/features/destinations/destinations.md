@@ -1,7 +1,7 @@
 ---
-description: Découvrez les avantages, les types et les utilisations des destinations - tout système tiers, tel qu’un serveur d’annonces ou un DSP, où vous partagez des données. Utilisez Destination Builder pour créer et gérer des cookies, des URL ou des destinations serveur à serveur.
+description: 'Découvrez les avantages, les types et les utilisations des destinations : tout système tiers, tel qu’un serveur de publicités ou un DSP, où vous partagez des données. Utilisez Destination Builder pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.'
 keywords: code d’intégration, destination, présentation de destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-landing-page-description: Découvrez les avantages, les types et les utilisations des destinations - tout système tiers, tel qu’un serveur d’annonces ou un DSP, où vous partagez des données. Utilisez Destination Builder pour créer et gérer des cookies, des URL ou des destinations serveur à serveur.
+landing-page-description: 'Découvrez les avantages, les types et les utilisations des destinations : tout système tiers, tel qu’un serveur de publicités ou un DSP, où vous partagez des données. Utilisez Destination Builder pour créer et gérer des destinations de cookie, d’URL ou de serveur à serveur.'
 seo-title: Destinations
 solution: Audience Manager
 title: 'Destinations '
@@ -11,7 +11,7 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
