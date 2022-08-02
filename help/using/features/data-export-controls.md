@@ -7,9 +7,9 @@ title: Contrôles des exportations de données
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ En outre, au moins un libellé d’exportation doit correspondre à un contrôle
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ne peut pas être utilisé pour le ciblage des publicités hors site</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> Cette destination peut être utilisée pour le ciblage des publicités hors site.</span></b> </td> 
-   <td colname="col3">Ces restrictions sont généralement utilisées avec Lorsque cette option est sélectionnée, vous ne pouvez pas : 
+   <td colname="col3">Lorsque cette option est sélectionnée, vous ne pouvez pas : 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Ajoutez des caractéristiques aux segments mappés aux destinations qui reciblent les utilisateurs sur d’autres sites. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Mappez les segments créés avec une caractéristique de la source de données vers les destinations qui reciblent les utilisateurs sur d’autres sites. </li> 
