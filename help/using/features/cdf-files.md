@@ -8,9 +8,9 @@ title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1989'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,10 @@ Les sections ci-dessous et le [FAQ sur le flux de données client](../faq/faq-cd
 
 Répertorie et définit les éléments de données et les tableaux dans une [!UICONTROL CDF] par ordre d’apparition. Les définitions incluent les types de données, mais ces informations ne font pas partie d’une [!UICONTROL CDF] fichier .
 
+>[!IMPORTANT]
+>
+>Les pixels d’événement sont exclus par défaut dans les configurations CDF. Assurez-vous de spécifier dans votre requête au service à la clientèle si vous souhaitez que les pixels d’événement soient inclus dans vos fichiers CDF. Chaque pixel d’événement est renseigné comme une ligne unique dans vos fichiers CDF.
+
 ## Définitions {#definitions}
 
 A [!UICONTROL CDF] comprend certains ou tous les champs définis ci-dessous. Pour plus d’informations sur l’organisation interne des fichiers, voir [Structure de fichier de flux de données client](#cdf-file-structure).
@@ -78,7 +82,7 @@ A [!UICONTROL CDF] comprend certains ou tous les champs définis ci-dessous. Pou
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numérique </p> </td> 
-   <td colname="col3"> <p>L’identifiant du conteneur qui déclenche les synchronisations des identifiants. </p> </td> 
+   <td colname="col3"> <p>L’identifiant du conteneur qui déclenche les synchronisations des identifiants. Ce champ n’est renseigné que si vous définissez l’ID de conteneur dans la variable <i>d_nsid</i> dans l’implémentation de votre site. Sinon, la valeur par défaut de 0 ne sera pas incluse dans les fichiers CDF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
