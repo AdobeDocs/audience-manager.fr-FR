@@ -7,10 +7,10 @@ title: Présentation d’Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Audience Manager vous permet de rassembler vos ressources de données d’audience, et ainsi de collecter facilement des informations commercialement pertinentes sur les visiteurs du site, de créer des segments pouvant faire l’objet d’un marketing et de diffuser des publicités et du contenu ciblés auprès de la bonne audience. En outre, Audience Manager offre une gestion et un déploiement aisés des balises grâce à une collecte, un contrôle et une protection des données fiables.
 
-Avec Audience Manager, vous n’êtes pas lié à une plateforme de vendeur de données, d’échange ou côté demande. De plus, Audience Manager est entièrement indépendant par rapport aux ressources de données de nos partenaires. Grâce à l’accès à plusieurs sources de données, Audience Manager offre aux éditeurs numériques la possibilité d’utiliser une grande variété de données tierces ainsi que notre Co-op de données privées. Contactez notre équipe de solutions partenaires pour obtenir de l’aide afin de prendre des décisions intelligentes et précises concernant votre audience cible.
+Avec Audience Manager, vous n’êtes pas lié à une plateforme de vendeur de données, d’échange ou côté demande. En outre, l’Audience Manager est complètement indépendante en ce qui concerne les ressources de données de nos partenaires. Grâce à l’accès à plusieurs sources de données, Audience Manager offre aux éditeurs numériques la possibilité d’utiliser un large éventail de données tierces. Contactez notre équipe de solutions partenaires pour obtenir de l’aide afin de prendre des décisions intelligentes et précises concernant votre audience cible.
 
 ## Trois fonctions d’une plateforme de gestion des données (DMP) {#dmp-three-functions}
 

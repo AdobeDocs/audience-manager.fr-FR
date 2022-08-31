@@ -1,17 +1,17 @@
 ---
 description: Réponses aux questions courantes concernant les stratégies de fusion de profils et la représentation graphique des appareils.
 keywords: ID d’organisation
-seo-description: Réponses aux questions courantes concernant les stratégies de fusion de profils et la représentation graphique des appareils.
-seo-title: FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils
+seo-description: Answers to common Profile Merge Rule and device graph questions.
+seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: FAQ sur les stratégies de fusion de profils et la représentation graphique des appareils
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Fusion des profils
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 86%
+source-wordcount: '1530'
+ht-degree: 82%
 
 ---
 
@@ -31,13 +31,13 @@ La représentation graphique des appareils est un ensemble de mappages d’ident
 
 **Qu’est-ce que la représentation graphique externe des appareils ?**
 
-La représentation graphique externe des appareils constitue toute représentation graphique d’appareil dans [!DNL Audience Manager] qui n’a pas été créée exclusivement à partir de vos propres sources de données multi-appareils. Par exemple, lorsque vous créez une [stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-start.md) et que vous sélectionnez les options de représentation graphique des appareils [!UICONTROL Co-op Device Graph] ou tiers, vous travaillez avec une représentation graphique externe des appareils. Voir [Options d’appareil](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+La représentation graphique externe des appareils constitue toute représentation graphique d’appareil dans [!DNL Audience Manager] qui n’a pas été créée exclusivement à partir de vos propres sources de données multi-appareils. Par exemple, lorsque vous créez une [Stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-start.md) et choisissez les options de représentation graphique des appareils tiers. vous travaillez avec une représentation graphique externe des appareils. Voir [Options d’appareil](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Quels sont les cas d’utilisation courants d’une représentation graphique externe des appareils dans une [!UICONTROL Profile Merge Rule] ?**
 
-L’objectif principal de l’utilisation d’une représentation graphique des appareils dans une [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une même personne ou à un même foyer pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations : par exemple, le ciblage d’une audience de prospects avec une publicité diffusée par un DSP ou la personnalisation de l’expérience sur site d’un client au moyen d’une plateforme de personnalisation sur site. Voir [Cas d’utilisation des représentations graphiques externes des appareils](../features/profile-merge-rules/external-graph-use-cases.md).
+L’objectif principal de l’utilisation d’une représentation graphique des appareils dans une [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une même personne ou à un même foyer pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations, par exemple, le ciblage d’une audience de prospects avec une publicité diffusée par un DSP ou la personnalisation de l’expérience sur site d’un client via une plateforme de personnalisation sur site. Voir [Cas d’utilisation des représentations graphiques externes des appareils](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -265,12 +265,12 @@ Fin 2019, nous avons publié une série d’améliorations des règles de fusion
 
 Pour garantir la bonne intégration entre l’instance d’Audience Manager et les destinations à l’aide d’identifiants multi-appareils, tels qu’Adobe Campaign, assurez-vous de respecter les conditions suivantes :
 
-1. Examinez la règle de fusion de profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La stratégie de fusion de profils doit utiliser l’option [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre stratégie de fusion de profils utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
+1. Examinez la règle de fusion de profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La stratégie de fusion de profils doit utiliser la variable [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre stratégie de fusion de profils utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
 2. Sélectionnez la source de données Adobe Campaign Declared ID dans les paramètres de la stratégie de fusion de profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la stratégie de fusion de profils de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une règle de fusion de profils dédiée pour les segments mappés à la destination d’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de profils pour d’autres cas d’utilisation.
+> Nous avons augmenté la limite de la stratégie de fusion de profils de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une stratégie de fusion de profils dédiée pour les segments mappés à la destination d’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de profils pour d’autres cas d’utilisation.
 
 >[!MORELIKETHIS]
 >
