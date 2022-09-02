@@ -8,7 +8,7 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 869bbe657072255e5ea3f0e68294f8f0e6cc966a
+source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 3%
@@ -62,7 +62,8 @@ Les signaux sont les [unités de données les plus petites](../../reference/sign
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] sont pris en charge pour les serveurs d’annonces suivants :
-> 
+> <br>
+>
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashtalking et Sizmek](#generic-logs-signals)
@@ -202,13 +203,14 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >L’horodatage de l’événement fourni dans la variable [!DNL Google Ad Manager] les journaux seront honorés et transmis au [!UICONTROL Data Collection Servers].
 >
+>
 >* Si aucun horodatage n’est disponible pour une ligne de données dans la variable [!DNL Google Ad Manager] fichier journal, nous utilisons l’heure de la variable `HTTP` comme horodatage de l’événement.
 >* Si la ligne de données de la variable [!DNL Google Ad Manager] Le fichier journal contient un horodatage incorrect. Nous ignorons la ligne entière.
 
 
 <br> 
 
-### Signaux actifs provenant des journaux de Adobe Advertising Cloud, Flashtalking et du serveur d’annonces Sizmek {#generic-logs-signals}
+### Signaux pratiques à partir des journaux de Adobe Advertising Cloud, Flashtalking et du serveur d’annonces Sizmek {#generic-logs-signals}
 
 Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans nos compartiments Amazon S3. Pour ce faire, lisez [Fichiers de données pour les rapports d’Audience Optimization et les fichiers journaux pratiques](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *et* contactez votre [!DNL Audience Manager] consultant. Le tableau répertorie les signaux exploitables provenant des fichiers journaux du serveur de publicités :
 
