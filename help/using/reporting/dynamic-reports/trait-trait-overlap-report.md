@@ -1,16 +1,16 @@
 ---
 description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre toutes vos caractéristiques propriétaires et tierces.
-seo-description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre toutes vos caractéristiques propriétaires et tierces.
-seo-title: Rapport de chevauchement de caractéristiques
+seo-description: Returns data on the number of unique users shared among all your first and third-party traits.
+seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
 title: Rapport de chevauchement de caractéristiques
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-feature: Rapports de chevauchement
+feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 8%
+source-wordcount: '497'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ Renvoie des données sur le nombre d’utilisateurs uniques partagés entre tout
 
 >[!NOTE]
 >
->Les rapports de chevauchement d’Audience Manager respectent les principes du reporting RBAC. Vous ne pouvez afficher que les caractéristiques des sources de données auxquelles vous avez accès en fonction du [groupe d’utilisateurs RBAC](/help/using/features/administration/administration-overview.md) auquel vous appartenez.
+>Les rapports de chevauchement d’Audience Manager respectent les principes du reporting RBAC. Vous ne pouvez afficher que les caractéristiques des sources de données auxquelles vous avez accès en fonction de la variable [Groupe d’utilisateurs RBAC](/help/using/features/administration/administration-overview.md) à qui vous appartenez.
 
 <!-- 
 
@@ -30,7 +30,7 @@ c_overlap_reports.xml
 
 ## Présentation
 
-Le rapport [!UICONTROL Trait-to-Trait Overlap] renvoie des données sur le pourcentage d’utilisateurs uniques partagés entre vos propres caractéristiques et vos caractéristiques tierces. En tant qu’outil d’optimisation, ce rapport vous aide à :
+Le [!UICONTROL Trait-to-Trait Overlap] Le rapport renvoie des données sur le pourcentage d’utilisateurs uniques partagés entre toutes vos propres caractéristiques et vos caractéristiques tierces. En tant qu’outil d’optimisation, ce rapport vous aide à :
 
 * Créez des segments avec un chevauchement élevé ou faible, en fonction de vos besoins. Les caractéristiques avec un chevauchement élevé vous donnent une audience ciblée, mais moins de visiteurs uniques. Les caractéristiques présentant un faible chevauchement peuvent s’avérer utiles pour atteindre un ensemble de visiteurs plus grand et unique.
 * Validation de données de caractéristiques tierces : Un fort chevauchement entre des caractéristiques propriétaires et tierces similaires suggère que la caractéristique de votre partenaire de données est exacte et fiable. Inversement, un faible chevauchement peut indiquer qu’une caractéristique tierce peut ne pas réellement contenir les mêmes informations que votre propre caractéristique propriétaire similaire.
@@ -38,11 +38,15 @@ Le rapport [!UICONTROL Trait-to-Trait Overlap] renvoie des données sur le pourc
 
 ## Exemple de rapport
 
-L’illustration suivante présente un aperçu général des éléments du rapport [!UICONTROL Trait-to-Trait Overlap].
+L’illustration suivante présente un aperçu général des éléments de la variable [!UICONTROL Trait-to-Trait Overlap] rapport.
 
 >[!NOTE]
 >
->Le rapport [!UICONTROL Trait-to-Trait Overlap] renvoie un champ vide lorsqu’il compare la même caractéristique à elle-même.
+>Le [!UICONTROL Trait-to-Trait Overlap] renvoie un champ vide lorsqu’il compare la même caractéristique à elle-même.
+
+>[!NOTE]
+>
+>Les caractéristiques de dossier ne sont pas disponibles pour la comparaison dans les rapports de chevauchement de caractéristiques à caractéristiques. En créant un segment à l’aide d’une caractéristique de dossier spécifique, vous pouvez effectuer une analyse via la fonction [rapport de chevauchement de segments et de caractéristiques](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -60,7 +64,7 @@ r_t2t_data_pop.xml
 
  -->
 
-La fenêtre contextuelle du rapport [!UICONTROL Trait-to-Trait Overlap] contient les mesures ci-dessous. Notez que la mesure uniques dans le tableau représente vos *utilisateurs en temps réel*.
+La fenêtre contextuelle pour la variable [!UICONTROL Trait-to-Trait Overlap] Ce rapport contient les mesures ci-dessous. Notez que la mesure des uniques dans le tableau représente votre *utilisateurs en temps réel*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -116,9 +120,9 @@ La fenêtre contextuelle du rapport [!UICONTROL Trait-to-Trait Overlap] contient
 >[!MORELIKETHIS]
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
-* [Formes, couleurs et tailles utilisées dans les rapports dynamiques](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [Explication des icônes et outils de rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
-* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Formes, couleurs et tailles utilisées dans les rapports dynamiques](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Explication des icônes et outils de rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
+>* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
 
