@@ -1,22 +1,22 @@
 ---
 description: Le processus de transfert de données en temps réel sortant renvoie les données utilisateur sous la forme d’une série d’objets JSON transmis avec une méthode de POST.
-seo-description: Le processus de transfert de données en temps réel sortant renvoie les données utilisateur sous la forme d’une série d’objets JSON transmis avec une méthode de POST.
-seo-title: Transferts de données sortantes en temps réel
+seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
 title: Transferts de données sortantes en temps réel
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-feature: Transferts de données sortantes
+feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '674'
 ht-degree: 5%
 
 ---
 
 # Transferts de données sortantes en temps réel {#real-time-outbound-data-transfers}
 
-Le processus de transfert de données en temps réel sortant fournit des données utilisateur sous la forme d’une série de [!DNL JSON] messages formatés vers une plateforme de destination.
+Le processus de transfert de données en temps réel sortant fournit des données utilisateur sous la forme d’une série de [!DNL JSON] messages mis en forme vers une plateforme de destination.
 
 <!-- c_outbound_json.xml -->
 
@@ -24,9 +24,9 @@ Le processus de transfert de données en temps réel sortant fournit des donnée
 
 Pour utiliser cette méthode, la plateforme de destination doit répondre aux exigences suivantes :
 
-* Il doit fournir un point de terminaison [!DNL URL] pouvant être mis à l’échelle pour recevoir un volume élevé de messages d’Audience Manager ;
-* Il doit accepter les données au format [!DNL JSON] (`Content-type: application/json`);
-* Il doit accepter les transferts de données `HTTPS` sécurisés. [!DNL Audience Manager] n’enverra pas de messages par le biais du  `HTTP` protocole non sécurisé.
+* Il doit fournir un point de terminaison [!DNL URL] qui peuvent s&#39;adapter pour recevoir un volume élevé de messages de l&#39;Audience Manager ;
+* Elle doit accepter les données de [!DNL JSON] format (`Content-type: application/json`);
+* Elle doit accepter la sécurité `HTTPS` transferts de données. [!DNL Audience Manager] n’enverra pas de messages par l’intermédiaire d’un opérateur non sécurisé. `HTTP` protocole .
 
 ## Fréquence
 
@@ -42,11 +42,11 @@ Aucune limite de débit n’est définie sur le débit des messages diffusés. L
 
 ## Réponses requises
 
-Par défaut, le serveur destinataire doit renvoyer le code `200 OK` pour indiquer la réception réussie. Les autres codes seront interprétés comme des échecs. Cette réponse est attendue dans les 3 000 millisecondes. En réponse à un échec, [!DNL Audience Manager] effectue une seule tentative de reprise.
+Par défaut, le serveur destinataire doit renvoyer la variable `200 OK` pour indiquer un reçu réussi. Les autres codes seront interprétés comme des échecs. Cette réponse est attendue dans les 3 000 millisecondes. En réponse à un échec, [!DNL Audience Manager] effectue une seule tentative de reprise.
 
 ## Paramètres
 
-Le tableau suivant définit les éléments du fichier de données [!DNL JSON] que vous envoyez à la destination.
+Le tableau suivant définit les éléments de la variable [!DNL JSON] fichier de données que vous envoyez à la destination.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -68,7 +68,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
    <td colname="col3"> <p>Identifiant qui indique le type d’ID d’appareil contenu dans le message, dans la propriété User.DataPartner_UUID . </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
      <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Identifiants Android (GAID) : <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">ID iOS (IDFA) : <code> 20915</code> </li>
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID (IDFA) : <code> 20915</code> </li>
      <li>ID de cookie/web : varie selon la plateforme de destination</li>
     </ul> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
-   <td colname="col3"> <p>Nombre total d’utilisateurs dans la requête <code> POST</code>. </p> </td> 
+   <td colname="col3"> <p>Nombre total d’utilisateurs dans la variable <code> POST</code> requête. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -95,7 +95,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>Le <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Tableau </td> 
-   <td colname="col3"> Identifiant de région <span class="keyword"> de l’Audience Manager</span> où nous avons vu cet appareil. Par exemple, si l’appareil avait une certaine activité à Paris (Europe), l’identifiant de région serait <code> 6</code>. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données</a> (DCS Region IDs, Locations, and Host Names). </td> 
+   <td colname="col3"> Le <span class="keyword"> Audience Manager</span> ID de région où nous avons vu cet appareil. Par exemple, si l’appareil avait une certaine activité à Paris (Europe), l’identifiant de région serait <code> 6</code>. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données</a> (DCS Region IDs, Locations, and Host Names). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -113,7 +113,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
    <td colname="col3"> <p>Tableau d’objets de segment. Pour les messages en temps réel, le tableau contient tous les segments auxquels appartient l’utilisateur. Pour les messages par lots, le tableau contient uniquement les modifications de segment depuis le dernier lot.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Entier </p> </td> 
    <td colname="col3"> <p>Identifiant du segment. Dans la plupart des cas, il s’agit de l’identifiant de segment généré par l’Audience Manager (un entier). Dans certains cas, si la plateforme de destination le permet, les clients peuvent définir l’identifiant du segment dans l’interface utilisateur de l’Audience Manager (champ de texte ouvert), qui refléterait alors dans cette propriété. </p> </td> 
   </tr> 
@@ -127,10 +127,10 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
     </ul> <p>Les utilisateurs ne sont pas segmentés lorsqu’ils sont : </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Supprimée d’un segment en fonction de la règle de segment. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Supprimée d’un segment en fonction de l’ <a href="../../../features/traits/segment-ttl-explained.md"> intervalle de temps de vie du segment</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Supprimé d’un segment en fonction de la variable <a href="../../../features/traits/segment-ttl-explained.md"> intervalle de temps de vie</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Déplacement vers un état inactif s’ils n’ont pas été vus pendant les 120 derniers jours. </li>
      <li>Suppression en raison d’une demande de modification de la confidentialité (c.-à-d. <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Tous les identifiants de partenaire synchronisés avec un <span class="keyword"> identifiant d’Audience Manager</span> recevront l’indicateur <code> "Status":"0"</code> lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
+    </ul> <p>Tous les identifiants de partenaire synchronisés avec une <span class="keyword"> Audience Manager</span> L’identifiant recevra la variable <code> "Status":"0"</code> Indicateur lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,7 +142,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
 
 ## Sécurité
 
-Vous pouvez sécuriser votre processus de transfert de données sortantes en temps réel en [signant des requêtes HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) à l’aide de clés privées ou en vous authentifiant [!DNL Audience Manager] via le protocole [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
+Vous pouvez sécuriser votre processus de transfert de données sortantes en temps réel en procédant comme suit : [signature de requêtes HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) à l’aide de clés privées ou en [!DNL Audience Manager] vous authentifier via le [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocole .
 
 ## Demande
 
