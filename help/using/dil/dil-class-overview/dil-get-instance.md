@@ -1,21 +1,29 @@
 ---
 description: Récupère une instance de DIL spécifique au partenaire.
 keywords: api d’audience manager;api aam;api d’audience manager;api aam
-seo-description: Récupère une instance de DIL spécifique au partenaire.
+seo-description: Retrieves a partner-specific DIL instance.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
-feature: Mise en oeuvre du DIL
+feature: DIL Implementation
 exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '155'
+ht-degree: 7%
 
 ---
 
 # getDil{#getdil}
+
+>[!WARNING]
+>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
+><br><br>
+>Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
+><br><br>
+>Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Récupère une instance de DIL spécifique au partenaire.
 
@@ -32,7 +40,7 @@ Récupère une instance de DIL spécifique au partenaire.
 
 ## Réponse
 
-Une correspondance NSID de conteneur et de partenaire réussie renvoie une instance [!UICONTROL DIL] spécifique au partenaire. S’il n’y a aucune correspondance, l’API renvoie (ne renvoie pas) une erreur avec le message &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;.
+Une correspondance NSID de conteneur et de partenaire réussie renvoie un partenaire spécifique [!UICONTROL DIL] instance. Si aucune correspondance n’est trouvée, l’API renvoie (ne renvoie pas) une erreur avec le message : &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Exemple de code
 

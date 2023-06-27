@@ -1,20 +1,29 @@
 ---
 description: Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
-seo-description: Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
+seo-description: Used to let DIL know that it is loaded after the window loads.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
 uuid: 8cdeab00-6ce4-4f07-bb63-41425369a5b7
-feature: Mise en oeuvre du DIL
+feature: DIL Implementation
 exl-id: 955fe0f2-2a64-491f-9098-e5aabcc697db
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
+
 # isAddedPostWindowLoad{#isaddedpostwindowload}
+
+>[!WARNING]
+>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
+><br><br>
+>Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
+><br><br>
+>Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
 

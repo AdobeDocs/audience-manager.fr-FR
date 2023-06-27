@@ -1,22 +1,30 @@
 ---
 description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
-seo-description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
-seo-title: Outils DIL
+seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
+seo-title: DIL Tools
 solution: Audience Manager
 title: Outils DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: Mise en oeuvre du DIL
+feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 5%
+source-wordcount: '355'
+ht-degree: 3%
 
 ---
 
 # Outils DIL
 
-Décrit les méthodes dans l’espace de noms `DIL.tools`. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
+>[!WARNING]
+>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
+><br><br>
+>Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
+><br><br>
+>Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
+
+Décrit les méthodes de la méthode `DIL.tools` espace de noms. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
 
 <!-- 
 
@@ -36,7 +44,7 @@ r_dil_get_search_referrer.xml
 
 ### Objectif de `getSearchReferrer`
 
-Dans DIL, `getSearchReferrer` renvoie les résultats de la recherche (noms et mots-clés) utilisés pour atteindre votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser rechercher par défaut les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] et [!DNL Yahoo]) par rapport à `document.referrer`.
+En DIL, `getSearchReferrer` renvoie les résultats de la recherche (noms et mots-clés) utilisés pour accéder à votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser rechercher dans les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], et [!DNL Yahoo]) contre `document.referrer` par défaut.
 
 ### Signature de fonction
 
@@ -46,8 +54,8 @@ Signature de fonction : `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accepte :
 
-* *`{string}`*:  *(Facultatif)* Chaîne contenant l’URL de recherche (utilisée  `document.referrer` si non définie).
-* *`{object}`*:  *(Facultatif)* Objet contenant la configuration pour  `hostPattern`,  `queryParam` ou  `queryPattern`.
+* *`{string}`*: *(Facultatif)* Chaîne contenant l’URL de recherche (utilise `document.referrer` si non défini).
+* *`{object}`*: *(Facultatif)* Un objet contenant la configuration pour la propriété `hostPattern`, `queryParam`ou `queryPattern`.
 
 Et renvoie :
 
@@ -113,7 +121,7 @@ Et renvoie :
 
 ## décomposerURI
 
-Dissocie un identifiant de ressource unique ( [!DNL URI]) en ses composants constitutifs : `hash`, `host`, `href`, `pathname`, `protocol`, `search` et `[!DNL uriParams]`.
+Dissocie un identifiant de ressource unique ( [!DNL URI]) dans ses composants constitutifs : `hash`, `host`, `href`, `pathname`, `protocol`, `search`, et `[!DNL uriParams]`.
 
 <!-- 
 
@@ -127,7 +135,7 @@ Signature de fonction : `DIL.tools.decomposeURI`
 
 `decomposeURI` accepte :
 
-* *`uri {string}`*:  *(Facultatif)* Chaîne contenant l’URI. La valeur par défaut est `document.location.href` si elle n’est pas spécifiée.
+* *`uri {string}`*: *(Facultatif)* Chaîne contenant l’URI. La valeur par défaut est `document.location.href` si non spécifié.
 
 Et renvoie :
 
@@ -173,7 +181,7 @@ Signature de fonction : `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Exemple de code
 
-<pre class="&ldquo;javascript&rdquo;"><code>
+<pre class="javascript"><code>
 var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
