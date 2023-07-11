@@ -8,9 +8,9 @@ title: Administration
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 2%
 > 
 > Une fois tous les clients migrés, les sections de gestion des utilisateurs de ce document disparaîtront.
 
+>[!IMPORTANT]
+>
+> Avant d’utiliser [!DNL RBAC], cette fonctionnalité doit être activée par Adobe pour votre organisation. Contactez l’équipe de votre compte pour demander. [!DNL RBAC] ou contactez l’assistance clientèle.
+
 
 Les options situées sous la propriété [!UICONTROL Administration] vous permet de créer des utilisateurs d’Audience Manager et de les affecter à des groupes. Vous pouvez également afficher les limites (caractéristiques, segments, destinations et modèles).
 
@@ -38,9 +42,10 @@ Clients d’entreprise utilisant [!DNL Audience Manager] nécessitent une platef
 
 >[!IMPORTANT]
 >
-> La gestion des comptes d’utilisateurs se déplace vers le [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Pour commencer la migration des utilisateurs, nous demandons à tous les clients d’Audience Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers Admin Console](admin-console-migration.md).
+> La gestion des comptes d’utilisateurs se déplace vers le [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Pour commencer la migration des utilisateurs, nous demandons à tous les clients d’Audience Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers Admin Console](admin-console-migration.md).
 > 
 > Une fois tous les clients migrés, la section de gestion des utilisateurs de ce document disparaîtra.
+> 
 Création d’utilisateurs dans [!DNL Audience Manager] et spécifiez les détails de l’utilisateur, l’état de connexion et affectez des utilisateurs à des groupes.
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
@@ -66,7 +71,7 @@ Pour plus d’informations sur les groupes et les autorisations, voir [Création
 
 >[!IMPORTANT]
 >
-> La gestion des comptes d’utilisateurs se déplace vers le [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Pour lancer la migration des utilisateurs, nous conseillons à tous les clients d’Audience Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers Admin Console](admin-console-migration.md).
+> La gestion des comptes d’utilisateurs se déplace vers le [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Pour lancer la migration des utilisateurs, nous conseillons à tous les clients d’Audience Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers Admin Console](admin-console-migration.md).
 > 
 > Une fois tous les clients migrés, cette section disparaîtra.
 
@@ -92,7 +97,7 @@ Une fenêtre d’autorisation s’ouvre alors pour l’objet sélectionné.
 
 >[!IMPORTANT]
 >
-> La gestion des comptes d’utilisateurs se déplace vers le [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Pour lancer la migration des utilisateurs, nous conseillons à tous les clients d’Audience Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers Admin Console](admin-console-migration.md).
+> La gestion des comptes d’utilisateurs se déplace vers le [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Pour lancer la migration des utilisateurs, nous conseillons à tous les clients d’Audience Manager de prendre immédiatement les mesures nécessaires décrites dans cet article : [Audience Manager de la migration des utilisateurs vers Admin Console](admin-console-migration.md).
 > 
 > Une fois tous les clients migrés, cette section disparaîtra.
 
