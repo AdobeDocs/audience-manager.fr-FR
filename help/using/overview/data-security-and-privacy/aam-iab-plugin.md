@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Module d’Audience Manager pour le TCF de l’IAB
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 8b370a64d80b40124abee91351cbef09711243d4
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 35%
@@ -69,7 +69,7 @@ Pour utiliser avec Audience Manager le module externe d’Audience Manager pour 
 
 >[!WARNING]
 >
->Si vous utilisez une plateforme de gestion du consentement (CMP) qui ne prend pas en charge IAB TCF v.2.0, l’Audience Manager enverra automatiquement la variable `gdpr=0` dans les synchronisations des identifiants, même si vos visiteurs se trouvent dans l’Union européenne. Pour déterminer si la validation du RGPD est principale, nous vous recommandons de confirmer auprès de votre plateforme de gestion du consentement (CMP) qu’elle prend en charge IAB TCF v2.2.
+>Si vous utilisez une plateforme de gestion du consentement (CMP) qui ne prend pas en charge IAB TCF v2.2, l’Audience Manager envoie automatiquement la variable `gdpr=0` dans les synchronisations des identifiants, même si vos visiteurs se trouvent dans l’Union européenne. Pour déterminer si la validation du RGPD est principale, nous vous recommandons de confirmer auprès de votre plateforme de gestion du consentement (CMP) qu’elle prend en charge IAB TCF v2.2.
 
 ## Recommandations et méthode d’implémentation {#recommendations}
 
