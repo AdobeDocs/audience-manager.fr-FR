@@ -8,7 +8,7 @@ title: Méthodes DIL au niveau de l’instance
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 13%
@@ -19,10 +19,10 @@ ht-degree: 13%
 
 >[!WARNING]
 >
->Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
-><br>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et la variable [!DNL DIL] extension .
+>
 >Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
-><br>
+>
 >Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Au niveau de l’instance [!UICONTROL DIL] Les API vous permettent de créer et d’utiliser des objets d’Audience Manager par programmation. Les méthodes au niveau de l’instance améliorent la fonctionnalité de l’API établie par les méthodes au niveau de la classe.
@@ -78,7 +78,7 @@ Les clés de requête suivantes sont réservées et ne peuvent pas être remplac
 
 | Nom | Type | Description |
 |---|---|---|
-| `obj` | Objet | Objet représentant les paires clé-valeur pour les mappages au niveau de la plateforme. Le paramètre accepte les chaînes et les tableaux comme valeurs de propriété dans l’objet . |
+| `obj` | Objet | Objet représentant les paires clé-valeur pour les mappages au niveau de la plateforme. Le paramètre accepte les chaînes et les tableaux en tant que valeurs de propriété dans l’objet . |
 | `prefix` | Chaîne | Facultatif. La valeur string préfixée à chaque clé d’objet (remplace la clé d’origine). |
 | `return` | DIL.api | Renvoie l’objet API de l’instance de DIL actuelle. |
 
@@ -503,7 +503,7 @@ r_dil_idsync.xml
 
 **Signature de fonction :**
 
-Fonctionne avec [!UICONTROL DIL] versions 2.10 et 3.1 ou ultérieures.
+fonctionne avec [!UICONTROL DIL] versions 2.10 et 3.1 ou ultérieures.
 
 <table id="table_ADC7501511914805A6A6B24B2DFEBA51"> 
  <thead> 
@@ -519,12 +519,12 @@ Fonctionne avec [!UICONTROL DIL] versions 2.10 et 3.1 ou ultérieures.
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Lorsque vous connaissez déjà l’identifiant utilisateur et que vous souhaitez l’envoyer à l’Audience Manager. </p> <p> <p><b>Important :</b>  Cette méthode est obsolète. Veuillez utiliser la variable <code> idSyncByDataSource </code> de l’instance de service Adobe Experience Platform Identity. </p> </p> </td> 
+   <td colname="col2"> <p>Lorsque vous connaissez déjà l’identifiant utilisateur et souhaitez l’envoyer à l’Audience Manager. </p> <p> <p><b>Important :</b>  Cette méthode est obsolète. Veuillez utiliser la variable <code> idSyncByDataSource </code> de l’instance de service Adobe Experience Platform Identity. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Éléments idSync**
+**Eléments idSync**
 
 `idSync` peut se composer des éléments suivants :
 
@@ -689,12 +689,12 @@ var dilInstance = DIL.create({
 >[!IMPORTANT]
 >
 >* Nous vous recommandons de définir `useCORSOnly: true` uniquement lorsque vous êtes certain que les visiteurs de votre site disposent de navigateurs prenant en charge cette fonctionnalité.
->* When `useCORSOnly: true`, [!UICONTROL DIL] ne lancera pas d’appels d’ID à partir d’Internet Explorer version 9 ou antérieure.
+>* When `useCORSOnly: true`, [!UICONTROL DIL] n’effectuera pas d’appels d’ID à partir d’Internet Explorer version 9 ou antérieure.
 >
 
 ## useImageRequest {#useimagerequest}
 
-Modifie le type de requête en image. `<img>` à partir du script `<src>`.
+Modifie le type de demande en image. `<img>` à partir du script `<src>`.
 
 <!-- 
 

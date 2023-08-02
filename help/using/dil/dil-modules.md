@@ -7,7 +7,7 @@ title: Modules DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 4%
@@ -18,10 +18,10 @@ ht-degree: 4%
 
 >[!WARNING]
 >
->Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
-><br>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et la variable [!DNL DIL] extension .
+>
 >Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
-><br>
+>
 >Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Décrit les méthodes de la méthode `DIL.modules` espace de noms. Ces modules permettent de collecter des données par programmation et d’utiliser des objets d’Audience Manager.
@@ -34,13 +34,13 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Fonctionne avec [!UICONTROL DIL] envoyer [!DNL Analytics] éléments de balise (variables, props, eVars, etc.) à l’Audience Manager. Renvoie les données d’une liste séparée par des virgules. Disponible dans la version 2.6.
+fonctionne avec [!UICONTROL DIL] envoyer [!DNL Analytics] éléments de balise (variables, props, eVars, etc.) à l’Audience Manager. Renvoie les données d’une liste séparée par des virgules. Disponible dans la version 2.6.
 
 **Signature de fonction :** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
 >[!NOTE]
 >
->Vous devez placer ce code sur la page. *before* la valeur `s.t();` fonction .
+>Vous devez placer ce code sur la page. *before* la valeur `s.t();` de la fonction
 
 <!-- 
 
@@ -62,7 +62,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> Chaîne </td> 
-   <td colname="col3"> <p>Un tableau de chaînes qui contient des chaînes non énumérées <span class="keyword"> Analytics </span> variables comme <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, etc. </p> </td> 
+   <td colname="col3"> <p>Un tableau de chaînes qui contient des chaînes non énumérées <span class="keyword"> Analytics </span> des variables comme <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, etc. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
@@ -149,7 +149,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-Le `GA.submitUniversalAnalytics();` envoie des données à partir de Google. [!DNL Universal Analytics] à l’Audience Manager. Ceci [!UICONTROL DIL] est conçue pour fonctionner avec `analytics.js`, qui est la dernière bibliothèque de code pour Google. [!DNL Universal Analytics].
+La variable `GA.submitUniversalAnalytics();` envoie des données depuis Google. [!DNL Universal Analytics] à l’Audience Manager. Ceci [!UICONTROL DIL] est conçue pour fonctionner avec `analytics.js`, qui est la dernière bibliothèque de code pour Google. [!DNL Universal Analytics].
 
 <!-- 
 
@@ -160,7 +160,7 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] ne dispose d’aucun aperçu ou contrôle sur Google `analytics.js` bibliothèque de code. Vous devez vérifier que la variable [!UICONTROL DIL] la collecte de données fonctionne toujours si Google publie de nouvelles versions de `analytics.js`.
+>* [!DNL Audience Manager] ne dispose d’aucun aperçu ou contrôle sur Google `analytics.js` bibliothèque de code. Vous devez vérifier que [!UICONTROL DIL] la collecte de données fonctionne toujours si Google publie de nouvelles versions de `analytics.js`.
 >
 >* Vous ne pouvez pas utiliser `GA.submitUniversalAnalytics();` si vous utilisez toujours Google pour  le code de suivi des analyses héritées (par exemple, `ga.js` ou `dc.js`). Voir [GA.init](../dil/dil-modules.md#ga-init) au lieu de .
 >
@@ -169,7 +169,7 @@ dil-google-universal-analytics.xml
 
 **Propriétés**
 
-Le `GA.submitUniversalAnalytics();` accepte les propriétés suivantes.
+La variable `GA.submitUniversalAnalytics();` accepte les propriétés suivantes.
 
 <table id="table_8E0C1E4B17D541259E72B88F02BE4503"> 
  <thead> 
@@ -181,7 +181,7 @@ Le `GA.submitUniversalAnalytics();` accepte les propriétés suivantes.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>La variable globale pour votre instance de <span class="keyword"> Google Analytics </span>. Ceci est généralement <code> ga </code> par défaut, sauf si vous avez personnalisé la variable <span class="keyword"> Google Analytics </span> code. </p> </td> 
+   <td colname="col2"> <p>La variable globale pour votre instance de <span class="keyword"> Google Analytics </span>. Ceci est généralement <code> ga </code> par défaut, sauf si vous avez personnalisé votre <span class="keyword"> Google Analytics </span> code. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -210,7 +210,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-Le `GA.init()` envoie des données à partir de la version héritée/obsolète de [!DNL Google Analytics] à l’Audience Manager.
+La variable `GA.init()` envoie des données à partir de la version héritée/obsolète de [!DNL Google Analytics] à l’Audience Manager.
 
 <!-- 
 
@@ -244,7 +244,7 @@ Par défaut, `GA.init` capture les données à partir des fonctions suivantes :
 
 **DIL crée des clés pour les données GA**
 
-L’Audience Manager accepte les données sous la forme de paires clé-valeur, tandis que la disponibilité générale fonctionne avec les éléments d’un tableau. Pour utiliser les données GA, [!UICONTROL DIL] crée automatiquement une paire clé-valeur et forme une clé comme celle-ci : `c_ <key name>`. En outre, les éléments des tableaux GA apparaissent dans un ordre spécifique. Par conséquent, vous devez fournir tous les paramètres dans cet ordre, même s’ils ne contiennent aucune donnée. [!UICONTROL DIL] mappe les clés pour les méthodes GA suivantes :
+L’Audience Manager accepte les données sous la forme de paires clé-valeur, tandis que la disponibilité générale fonctionne avec les éléments d’un tableau. Pour utiliser les données de disponibilité générale, [!UICONTROL DIL] crée automatiquement une paire clé-valeur et forme une clé comme celle-ci : `c_ <key name>`. En outre, les éléments des tableaux GA apparaissent dans un ordre spécifique. Par conséquent, vous devez fournir tous les paramètres dans cet ordre, même s’ils ne contiennent aucune donnée. [!UICONTROL DIL] mappe les clés pour les méthodes GA suivantes :
 
 ```js
 // Tracking Social Interactions 
@@ -318,6 +318,6 @@ L’appel d’événement d’URL à l’Audience Manager peut ressembler à cec
 >[!MORELIKETHIS]
 >
 >* [Code de suivi des Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Terminer la mise à niveau Web : ga.js/dc.js à analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
+>* [Mise à niveau Web complète : ga.js/dc.js vers analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Ajout d’analytics.js à votre site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [Référence des méthodes d’objet ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

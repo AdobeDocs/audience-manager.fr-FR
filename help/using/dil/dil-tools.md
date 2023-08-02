@@ -7,7 +7,7 @@ title: Outils DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -18,10 +18,10 @@ ht-degree: 3%
 
 >[!WARNING]
 >
->Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
-><br>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et la variable [!DNL DIL] extension .
+>
 >Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
-><br>
+>
 >Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Décrit les méthodes de la méthode `DIL.tools` espace de noms. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
@@ -55,7 +55,7 @@ Signature de fonction : `DIL.tools.getSearchReferrer(uri, initConfig)`
 `getSearchReferrer` accepte :
 
 * *`{string}`*: *(Facultatif)* Chaîne contenant l’URL de recherche (utilise `document.referrer` si non défini).
-* *`{object}`*: *(Facultatif)* Un objet contenant la configuration pour la propriété `hostPattern`, `queryParam`ou `queryPattern`.
+* *`{object}`*: *(Facultatif)* Un objet contenant la configuration pour la propriété `hostPattern`, `queryParam`, ou `queryPattern`.
 
 Et renvoie :
 
@@ -135,11 +135,11 @@ Signature de fonction : `DIL.tools.decomposeURI`
 
 `decomposeURI` accepte :
 
-* *`uri {string}`*: *(Facultatif)* Chaîne contenant l’URI. La valeur par défaut est `document.location.href` si non spécifié.
+* *`uri {string}`*: *(Facultatif)* Chaîne contenant l’URI. La valeur par défaut est `document.location.href` si elle n’est pas spécifiée.
 
 Et renvoie :
 
-* *`{object}`*: Objet contenant des noms et des mots-clés valides.
+* *`{object}`*: objet contenant des noms et des mots-clés valides.
 
 ### Exemple de code
 

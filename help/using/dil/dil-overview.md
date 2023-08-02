@@ -8,7 +8,7 @@ title: Présentation de Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 10%
@@ -19,10 +19,10 @@ ht-degree: 10%
 
 >[!WARNING]
 >
->Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
-><br>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et la variable [!DNL DIL] extension .
+>
 >Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
-><br>
+>
 >Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Présentation, prise en main et méthodes de code disponibles dans [!DNL Audience Manager DIL] bibliothèque de code.
@@ -33,7 +33,7 @@ Présentation, prise en main et méthodes de code disponibles dans [!DNL Audienc
 >
 >Nous vous recommandons d’utiliser [!DNL Adobe Experience Platform Tags] pour mettre en oeuvre et gérer vos [!DNL DIL] et [!DNL Adobe Experience Platform Identity Service] bibliothèques.
 
-Cependant, vous pouvez également télécharger le dernier Experience Cloud et [!DNL DIL] versions de notre page GitHub. Voir les liens de téléchargement ci-dessous :
+Vous pouvez toutefois télécharger le dernier Experience Cloud et [!DNL DIL] versions de notre page GitHub. Voir les liens de téléchargement ci-dessous :
 
 * Téléchargez la [Service Adobe Experience Platform Identity](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * Télécharger [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
@@ -42,7 +42,7 @@ Cependant, vous pouvez également télécharger le dernier Experience Cloud et [
 
 [!UICONTROL DIL] est une bibliothèque d’API. Vous pouvez le penser comme un corps de code d’assistance pour [!DNL Adobe Audience Manager]. Il n’est pas nécessaire d’utiliser [!DNL Audience Manager], mais les méthodes et fonctions [!UICONTROL DIL] fournit signifie que vous n’avez pas à développer votre propre code pour envoyer des données à [!DNL Audience Manager]. En outre, [!UICONTROL DIL] est différent de l’API fournie par la variable [Service Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). Ce service est conçu pour gérer l’identité des visiteurs sur différents [!DNL Experience Cloud] solutions. En revanche, [!UICONTROL DIL] est conçu pour :
 
-* Lancer des appels d’événement et envoyer des données à la variable [Serveur de collecte de données](../reference/system-components/components-data-collection.md).
+* Effectuez des appels d’événement et envoyez des données à la variable [Serveur de collecte de données](../reference/system-components/components-data-collection.md).
 * Envoi de données à [destinations](../features/destinations/destinations.md).
 
 ## Obtention et mise en oeuvre du code du DIL {#get-implement-dil-code}

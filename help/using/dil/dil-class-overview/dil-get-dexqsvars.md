@@ -7,7 +7,7 @@ title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
 feature: DIL Implementation
 exl-id: 814268bc-4387-4e06-ae94-eda86993a967
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 8%
@@ -18,10 +18,10 @@ ht-degree: 8%
 
 >[!WARNING]
 >
->Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et le [!DNL DIL] extension .
-><br>
+>Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et la variable [!DNL DIL] extension .
+>
 >Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
-><br>
+>
 >Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
 
 Récupère une valeur spécifique d’un serveur de publicités.
@@ -40,7 +40,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Chaîne | Nom de la variable pour laquelle vous souhaitez obtenir une valeur. |
 | `partner` | Chaîne | Nom du partenaire à rechercher. |
-| `containerNSID` | Entier | Le [!DNL NSID] du conteneur que vous recherchez. La valeur par défaut est `0`. |
+| `containerNSID` | Entier | La variable [!DNL NSID] du conteneur que vous recherchez. La valeur par défaut est `0`. |
 
 **Réponse**
 
