@@ -3,9 +3,9 @@ description: Découvrez comment activer le partage de données et comment les au
 solution: Audience Manager
 title: Partage de segments Experience Platform avec Audience Manager et d’autres solutions Experience Cloud
 keywords: Partage d’audiences AEP, segments AEP, segments Platform, partage de segments, partage d’audiences, partage de segments, partage de segments AAM partage de segments AEP
-feature: Platform Integration
+feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: f0e5541e4a72d81ab9c587a8daaed6af5e2b89d9
+source-git-commit: d21d0574ee0338dbd5e11c60e0d64042182aa18b
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 La fonctionnalité de partage d’audience entre Audience Manager et Adobe Experience Platform vous permet de partager vos caractéristiques et segments d’Audience Manager avec Adobe Experience Platform et les segments Experience Platform avec Audience Manager.
 
-Vous avez besoin de la variable [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) et le [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) destination dans Experience Platform pour activer le partage d’audiences entre Audience Manager et Adobe Experience Platform.
+Vous avez besoin de [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) et la variable [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) destination dans Experience Platform pour activer le partage d’audiences entre Audience Manager et Adobe Experience Platform.
 
 Vous pouvez utiliser les caractéristiques et segments d’Audience Manager dans Experience Platform pour ajouter des données d’Audience Manager à vos profils client et bénéficier de l’Experience Platform. [service de segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
@@ -33,7 +33,6 @@ De plus, vos segments Experience Platform sont partagés avec d’autres solutio
 >
 > * Vous avez besoin d’une licence d’Audience Manager pour activer les cas d’utilisation de Data Management Platform mentionnés ci-dessus.
 > * You *ne doivent pas* une licence d’Audience Manager permettant de partager des segments Experience Platform avec Adobe Advertising Cloud, Adobe Target, Marketo et d’autres solutions Experience Cloud, via l’intégration des services principaux.
-
 
 Consultez le tableau ci-dessous pour un aperçu des cas d’utilisation du partage d’audience :
 
@@ -56,7 +55,7 @@ Pour envoyer des segments et des caractéristiques d’Audience Manager à l’E
 
 >[!IMPORTANT]
 >
->Adobe encourage les clients à configurer la connexion sans sélectionner la variable **[!UICONTROL Select all segments]** et **[!UICONTROL Select all traits]** , comme illustré ci-dessous. L’ingestion de populations de segments d’Audience Manager importantes a un impact direct sur le nombre total de profils lorsque vous envoyez un segment d’Audience Manager pour la première fois à Platform à l’aide de la source d’Audience Manager. Cela signifie que la sélection de tous les segments peut potentiellement entraîner un nombre de profils supérieur à vos droits d’utilisation de licence.
+>Adobe encourage les clients à configurer la connexion sans sélectionner la variable **[!UICONTROL Select all segments]** et **[!UICONTROL Select all traits]** , comme illustré ci-dessous. L’ingestion de populations de segments d’Audience Manager de taille importante a un impact direct sur le nombre total de profils lorsque vous envoyez un segment d’Audience Manager pour la première fois à Platform à l’aide de la source d’Audience Manager. Cela signifie que la sélection de tous les segments peut potentiellement entraîner un nombre de profils supérieur à vos droits d’utilisation de licence.
 >
 >![Capture d&#39;écran montrant les options Sélectionner tous les segments et Sélectionner toutes les caractéristiques non cochées dans le workflow pour se connecter au connecteur source d&#39;Audience Manager.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
@@ -75,7 +74,7 @@ Les sections ci-dessous décrivent comment activer le partage de données d’Ex
 
 >[!IMPORTANT]
 >
-> Cette section décrit l’intégration du partage de segment hérité de Experience Platform à Audience Manager. Vous pouvez désormais configurer cette intégration sans l’aide des représentants des clients d’Adobe. Pour plus d’informations, reportez-vous à la section [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) documentation de destination.
+> Cette section décrit l’intégration du partage de segment hérité de Experience Platform à Audience Manager. Vous pouvez désormais configurer cette intégration sans l’aide des représentants des clients d’Adobe. Pour plus d’informations, consultez la section [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) documentation de destination.
 
 >[!NOTE]
 >
@@ -89,13 +88,13 @@ Veillez à partager les plans relatifs aux données allant de Platform à l’Au
 
 Les segments que vous créez dans Experience Platform apparaissent dans l’interface d’Audience Manager sous la forme de signaux, de caractéristiques et de segments, avec les règles de composition suivantes :
 
-* Signal : Pour chaque segment d’Experience Platform, vous devriez voir des signaux dans le formulaire. `segID = segment ID`.
-* Caractéristique : La règle de caractéristique est l’identifiant du segment Experience Platform.
-* Segment : Le segment se compose de la caractéristique décrite ci-dessus.
+* Signal : pour chaque segment Experience Platform, les signaux doivent s’afficher dans le formulaire. `segID = segment ID`.
+* Caractéristique : la règle de caractéristique est l’identifiant du segment Experience Platform.
+* Segment : le segment se compose de la caractéristique décrite ci-dessus.
 
 ### Signaux {#aep-segments-as-aam-signals}
 
-Sélectionner **[!UICONTROL Audience Data > Signals > General Online Data]** et rechercher par `SegId` pour trouver des signaux provenant d’un Experience Platform. Vous pouvez utiliser cet écran à des fins de débogage pour vérifier si l’intégration entre Experience Platform et Audience Manager a été configurée correctement.
+Sélectionner **[!UICONTROL Audience Data > Signals > General Online Data]** et rechercher par `SegId` pour trouver les signaux provenant d’un Experience Platform. Vous pouvez utiliser cet écran à des fins de débogage pour vérifier si l’intégration entre Experience Platform et Audience Manager a été configurée correctement.
 
 ![Reportez-vous à la section Signaux Experience Platform en Audience Manager dans le tableau de bord Signaux](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
@@ -115,7 +114,7 @@ Pour un exemple de caractéristique créée automatiquement à partir d’un seg
 | Numéro de l’élément | Nom | Description |
 |---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Les caractéristiques créées à partir de segments Experience Platform sont créées en tant que caractéristiques intégrées dans Audience Manager. |
-| 2 | [!UICONTROL Data Source] | Créé automatiquement. Toutes les caractéristiques et tous les segments créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données. **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
+| 2 | [!UICONTROL Data Source] | Créé automatiquement. Tous les segments et caractéristiques créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données. **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’identifiant de segment dans Experience Platform. |
 | 4 | [!UICONTROL Trait Expression] | L’expression de caractéristique est `segID = segment ID in Experience Platform`. |
 | 5 | [!UICONTROL Segments with this Trait] | Un segment créé automatiquement qui utilise cette caractéristique comme composition. |
@@ -135,7 +134,7 @@ Pour un exemple de segment créé automatiquement à partir d’un segment Exper
 | Numéro de l’élément | Nom | Description |
 |---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | Le code d’intégration correspond à l’identifiant de segment dans Experience Platform. |
-| 2 | [!UICONTROL Data Source] | Créé automatiquement. Toutes les caractéristiques et tous les segments créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données. **[!DNL Adobe Experience Platform Audience Sharing]**. |
+| 2 | [!UICONTROL Data Source] | Créé automatiquement. Tous les segments et caractéristiques créés automatiquement à partir de segments Experience Platform sont stockés dans la source de données. **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indique que les segments créés automatiquement suivent la stratégie de fusion configurée dans Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | Le segment se compose de la caractéristique décrite dans la variable [Section Caractéristiques](#aep-segments-as-aam-traits). |
 
@@ -159,7 +158,7 @@ Le tableau suivant décrit la manière dont les contrôles des exportations de d
 
 | Contrôle de l’exportation des données | Libellé d’utilisation des données |
 | --- | --- |
-| Ne peut pas être utilisé avec des informations d’identification personnelle | C3 : Les données ne peuvent pas être combinées ou utilisées d’une autre manière avec des informations directement identifiables. |
+| Ne peut pas être utilisé avec des informations d’identification personnelle | C3 : les données ne peuvent pas être combinées ou utilisées d’une autre manière avec des informations directement identifiables. |
 | Ne peut pas être utilisé pour le ciblage des publicités hors site | C5 : Les données ne peuvent pas être utilisées pour le ciblage intersite de contenu ou de publicités en fonction des intérêts |
 | Ne peut pas être utilisé pour le ciblage des publicités sur site | C6 : Les données ne peuvent pas être utilisées pour le ciblage des publicités sur site |
 | Ne peut pas être utilisé pour la personnalisation sur site | C7 : Les données ne peuvent pas être utilisées pour le ciblage de contenu sur site |
@@ -179,9 +178,9 @@ Le tableau suivant décrit la manière dont des libellés d’exportation de don
 
 {style="table-layout:auto"}
 
-## Comprendre les différences de population de segment entre l’Audience Manager et l’Experience Platform {#aep-aam-segment-population-differences}
+## Comprendre les différences de population de segment entre Audience Manager et Experience Platform {#aep-aam-segment-population-differences}
 
-Les nombres de population de segments peuvent varier entre vos segments d’Audience Manager et Experience Platform. Bien que les numéros de segments pour des audiences similaires ou identiques doivent être proches, les différences de populations peuvent être dues à des facteurs répertoriés ci-dessous.
+Les nombres de population de segments peuvent varier entre vos segments d’Audience Manager et Experience Platform. Bien que les nombres de segments pour des audiences similaires ou identiques doivent être proches, les différences de populations peuvent être dues à des facteurs répertoriés ci-dessous.
 
 ### Évaluation des segments dans Experience Platform
 
@@ -193,17 +192,17 @@ L’Audience Manager met à jour les numéros des rapports dans l’interface un
 
 >[!NOTE]
 >
-> Lors du partage de segments de l’Experience Platform vers l’Audience Manager, votre organisation Platform [stratégie de fusion par défaut](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) a la priorité sur [stratégie de fusion utilisée par le segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) partagé avec l’Audience Manager. Par exemple, si la stratégie de fusion du segment partagé autorise [Combinaison d’identifiants](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), mais la stratégie de fusion par défaut de l’organisation ne le fait pas, cela peut entraîner des différences de population entre Platform et l’Audience Manager.
+> Lors du partage de segments de l’Experience Platform vers l’Audience Manager, votre organisation Platform [stratégie de fusion par défaut](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) a la priorité sur [stratégie de fusion utilisée par le segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) partagé avec l’Audience Manager. Par exemple, si la stratégie de fusion du segment partagé autorise [Combinaison d’identifiants](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), mais pas la stratégie de fusion par défaut de l’organisation, cela peut entraîner des différences de population entre Platform et l’Audience Manager.
 
 ### Composition de segment dans l’Experience Platform
 
-L’intégration entre Adobe Experience Platform et l’Audience Manager partage un certain nombre de [espaces de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#identity-types) pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID. Si vos segments Experience Platform utilisent l’une d’elles comme identité Principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments d’Audience Manager.
+L’intégration entre Adobe Experience Platform et l’Audience Manager partage un certain nombre de [espaces de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#identity-types) pour tous les clients : ECID, IDFA, GAID, adresses électroniques hachées (EMAIL_LC_SHA256), AdCloud ID. Si vos segments Experience Platform utilisent l’une de ces identités comme identité principale pour les profils qualifiés, les profils sont comptabilisés dans les caractéristiques et les segments de l’Audience Manager.
 
 >[!NOTE]
 >
 > Dans Experience Platform, les audiences dont les identités sont masquées à partir d’emails bruts n’apparaissent jamais dans l’Audience Manager.
 
-Par exemple, si vous aviez un segment Experience Platform &quot;Tous mes clients&quot; et que les profils qualifiés seraient des identifiants CRM, ECID, IDFA, des adresses électroniques brutes et hachées, le segment correspondant dans l’Audience Manager inclurait uniquement les profils masqués à l’extérieur de l’ECID, de l’IDFA et des adresses électroniques hachées. La population du segment en Audience Manager serait plus petite que celle en Experience Platform.
+Si, par exemple, vous disposez d’un segment Experience Platform &quot;Tous mes clients&quot; et que les profils qualifiés sont des identifiants CRM, ECID, IDFA, des adresses électroniques brutes et hachées, le segment correspondant dans l’Audience Manager inclut uniquement les profils masqués à l’extérieur de l’ECID, de l’IDFA et des adresses électroniques hachées. La population du segment en Audience Manager serait plus petite que celle en Experience Platform.
 
 ![Experience Platform à l’Audience Manager du partage de segments - composition de segments](assets/AEP-to-AAM-profiles.png)
 
@@ -221,4 +220,3 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [Présentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 >* [Guide d’utilisation du créateur de segments Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
