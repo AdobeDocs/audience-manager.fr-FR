@@ -8,10 +8,10 @@ title: Prise en main de la gestion en bloc
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
+source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Télécharger la dernière feuille de calcul **[here](assets/BAAAM_V2_20210609.x
 Pour utiliser la variable [!DNL Bulk Management Tools], vous avez besoin des éléments suivants :
 
 * Votre [!DNL Experience Cloud] connectez-vous. En tant que client, vous devriez déjà disposer de ces informations d’identification.
-* La variable [!DNL Bulk Management Tools] de la feuille de calcul. [Téléchargement de la feuille de calcul](assets/BAAAM_V2_20200502.xlsm) pour obtenir la dernière version.
+* La variable [!DNL Bulk Management Tools] de la feuille de calcul. [Téléchargement de la feuille de calcul](assets/BAAAM_V2_20210609.xlsm) pour obtenir la dernière version.
 * [!DNL Microsoft Excel] en cours d’exécution [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Nous vous recommandons d’utiliser la dernière version de [!DNL Microsoft Excel].
 * Lors de l’ouverture de la feuille de calcul, vous devez **Activation des macros** pour le [!DNL Bulk Management Tools] au travail.
 
@@ -70,7 +70,7 @@ Lorsque vous effectuez des modifications en bloc, vous devrez toujours confirmer
 
 L’authentification de domaine vous permet de tester les demandes en bloc ou de les appliquer directement à votre compte de production. Apporter des modifications en masse à l’environnement bêta n’affecte pas votre compte de production. Les modifications apportées à la production prennent effet immédiatement. La feuille de gestion en bloc vous permet de travailler dans les environnements suivants :
 
-* bêta
+* Beta
 * Production
 
 ## Actions et opérations {#actions-ops}
@@ -104,11 +104,11 @@ Le tableau ci-dessous répertorie les opérations que vous pouvez effectuer et l
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Sources de données</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Signaux dérivés</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinations </a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinations</a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modèles</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Dossiers de caractéristiques</a> et dossiers de segments </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segments </a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Caractéristiques </a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segments</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Caractéristiques</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
