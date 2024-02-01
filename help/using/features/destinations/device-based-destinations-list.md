@@ -2,15 +2,15 @@
 description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, reportez-vous à sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant d’Adobe ou l’assistance clientèle.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Server-to-Server Destinations
-keywords: activation; partenaires d’activation, destination, destinations
+keywords: activation ; partenaires d’activation, destination, destinations
 solution: Audience Manager
 title: Destinations serveur à serveur Adobe Audience Manager
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
+source-git-commit: a9a9e7c7813fa70b22e17a2f7b3cf67c0953ede2
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 74%
+source-wordcount: '1268'
+ht-degree: 46%
 
 ---
 
@@ -21,8 +21,8 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 
 * **Dernière mise à jour** = Affiche la dernière date à laquelle il y a eu une mise à jour pour cette [!UICONTROL device-based destination].
 * **Mises à jour** = Indique si [!DNL Audience Manager] envoie des données en temps réel ou par lots (14 h) à cette [!UICONTROL destination].
-* **Dissocier** = Unsegmentation décrit les processus qui excluent et suppriment les profils d’appareil de [!UICONTROL segments]. Votre capacité à supprimer un profil d’appareil d’un [!UICONTROL segment] dépend de l’option de périphérique utilisée pour créer une [!UICONTROL Profile Merge Rule]. La suppression de la segmentation est également utilisée dans le contexte de [!DNL GDPR] requêtes de suppression. Lecture [Stratégies de fusion de profils et processus de suppression de la segmentation des appareils](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) et [Partenaires D’Audience Manager Avec Fonctionnalités De Désegmentation](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] envoie des informations non segmentées à la variable [!UICONTROL destinations] marqué avec **Oui** ci-dessous.
-* **Réception [!DNL IAB TCF] signaux de consentement** = La variable [!DNL Audience Manager Plug-in for IAB TCF] vous permet de transférer la variable [!DNL IAB TC] Chaîne aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Lecture [Module d’Audience Manager pour le TCF de l’IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Dissocier** = Unsegmentation décrit les processus qui excluent et suppriment les profils d’appareil de [!UICONTROL segments]. Votre capacité à supprimer un profil d’appareil d’un [!UICONTROL segment] dépend de l’option de périphérique utilisée pour créer une [!UICONTROL Profile Merge Rule]. La suppression de la segmentation est également utilisée dans le contexte de [!DNL GDPR] requêtes de suppression. Lecture [Stratégies de fusion de profils et processus de suppression de la segmentation des appareils](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) et [Partenaires D’Audience Manager Avec Fonctionnalités De Désegmentation](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] envoie des informations non segmentées à la variable [!UICONTROL destinations] marqué avec **Oui** ci-dessous
+* **Réception [!DNL IAB TCF] signaux de consentement** = La variable [!DNL Audience Manager Plug-in for IAB TCF] vous permet de transférer la variable [!DNL IAB TC] chaîne aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Lecture [Module externe d’Audience Manager pour IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = Cette colonne répertorie les partenaires qui prennent en charge [!UICONTROL Instant Cross-Device Suppression]. En savoir plus [Suppression instantanée inter-périphérique](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Identifiants d’appareil mobile** = Cette colonne répertorie les partenaires qui peuvent recevoir des ID d’appareils mobiles de [!DNL Audience Manager].
 
@@ -43,12 +43,12 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Adtheorent] | 22/02/2017 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Affinio] | 03/04/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Aki] | 21/06/2018 | 1xday | Non | Non | Non | Oui |
-| [!DNL Amazon Advertising] | 15/06/2017 | 1xday | Oui | Non | Non | Non |
+| [!DNL Amazon Advertising] | 01/02/2024 | 1xday | Oui | Non | Non | Non |
 | [!DNL AOL AdLearn] | 02/03/2017 | Temps réel | Non | Non | Non | Oui |
 | [!DNL AOL ONE] | 02/03/2017 | Temps réel | Oui | Non | Non | Oui |
 | [!DNL AppNexus] | 02/03/2017 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Oui | Non | Non | Non |
-| [!DNL Artsai] (formerly [!DNL Adxcel]) | 27/01/2020 | 1xday | Non | Non | Non | Oui |
+| [!DNL Artsai] (anciennement [!DNL Adxcel]) | 27/01/2020 | 1xday | Non | Non | Non | Oui |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL Avocet] | 06/12/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL Bidtellect] | 03/03/2017 | Temps réel | Oui | Non | Non | Non |
@@ -66,7 +66,7 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Crosswise] | 27/02/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL D.A.C. AudienceOne] | 27/02/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL DataXu] | 11/20/2017 | Temps réel | Non | Non | Non | Oui |
-| [!DNL Digilant] | 02/03/2017 | Temps réel |  | Non | Non | Non |
+| [!DNL Digilant] | 02/03/2017 | Temps réel |           | Non | Non | Non |
 | [!DNL DistrictM] | 02/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL DoubleVerify] | 06/09/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Drawbridge] | 02/03/2017 | Temps réel | Non | Non | Non | Oui |
@@ -82,7 +82,7 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Flybits] | 31/07/2020 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Oui | Oui | Non | Oui |
-| [!DNL Gamut Media] | 03/03/2017 | Temps réel |  | Non | Non |  |
+| [!DNL Gamut Media] | 03/03/2017 | Temps réel |           | Non | Non |                   |
 | [!DNL Google AdsWords Display] | 02/08/2018 | Temps réel | Oui | Oui | Non | Oui |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Temps réel | Oui | Oui | Oui | Oui |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Temps réel | Oui | Oui | Oui | Oui |
@@ -99,7 +99,7 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Krux] | 30/06/2017 | 1xday | Non | Non | Non | Oui |
 | [!DNL Liftoff.io] | 09/11/2017 | 1xday | Oui | Non | Non | Oui |
 | [!DNL LiveIntent] | 17/07/2017 | 1xday | Oui | Non | Non | Non |
-| [!DNL LiveRail] | 20/01/2017 | 1xday |  | Non | Non |  |
+| [!DNL LiveRail] | 20/01/2017 | 1xday |           | Non | Non |                   |
 | [!DNL Logicad] | 22/06/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL Lotame] | 30/06/2017 | 1xday | Oui | Non | Non | Oui |
 | [!DNL MaxPoint Interactive] | 27/02/2017 | 1xday | Non | Non | Non | Non |
@@ -132,15 +132,15 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Resonate] | 17/02/2017 | 1x/day | Oui | Non | Non | Non |
 | [!DNL RevJet] | 17/02/2017 | 1x/day | Non | Non | Non | Non |
 | [!DNL RocketFuel] | 17/02/2017 | Temps réel | Oui | Non | Oui | Oui |
-| [!DNL Rubicon] |  | Temps réel | Oui | Oui | Non |  |
+| [!DNL Rubicon] |            | Temps réel | Oui | Oui | Non |                   |
 | [!DNL RUN] | 17/02/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL RTB House] | 04/02/2021 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL Sabio Mobile] | 17/02/2017 | 1xday | Non | Non | Non | Oui |
 | [!DNL Simpli.fi] | 17/02/2017 | 1xday | Non | Non | Non | Oui |
-| [!DNL Sizmek ad server (Amazon)] | 17/02/2017 | En temps réel | Oui | Non | Non |  |
+| [!DNL Sizmek ad server (Amazon)] | 17/02/2017 | En temps réel | Oui | Non | Non |                   |
 | [!DNL Slickdeals] | 04/09/2018 | Temps réel | Oui | Non | Non | Oui |
 | [!DNL Smart Adserver] | 31/07/2017 | Temps réel | Oui | Non | Oui | Oui |
-| [!DNL So-net Media Networks Logicad] |  | 1x/day | Oui | Non | Non |  |
+| [!DNL So-net Media Networks Logicad] |            | 1x/day | Oui | Non | Non |                   |
 | [!DNL Sonobi] | 28/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL SpecificMedia] | 03/03/2017 | Temps réel | Non | Non | Non | Non |
 | [!DNL SpongeCell] | 03/03/2017 | Temps réel | Oui | Non | Oui | Oui |
@@ -155,7 +155,7 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Telaria] | 25/04/2019 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Telogical Systems] | 03/03/2017 | En temps réel | Oui | Non | Non | Non |
 | [!DNL The Trade Desk] | 03/03/2017 | Temps réel | Oui | Oui | Oui | Oui |
-| [!DNL Thnk Realtime] | 05/02/2016 | Temps réel |  | Non | Non |  |
+| [!DNL Thnk Realtime] | 05/02/2016 | Temps réel |           | Non | Non |                   |
 | [!DNL Tremor Video] | 03/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Triple Lift] | 03/03/2017 | Temps réel | Non | Oui | Non | Non |
 | [!DNL TrueX] | 11/01/2018 | Temps réel | Oui | Non | Non | Oui |
@@ -169,12 +169,12 @@ Cette page comprend la [!DNL Audience Manager] [destinations basées sur les app
 | [!DNL Videology] | 03/03/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL VisualIQ] | 24/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Wikibuy] | 04/08/2018 | Temps réel | Oui | Non | Non | Oui |
-| [!DNL X+1] | 05/02/2016 | 1xday |  | Non | Non |  |
+| [!DNL X+1] | 05/02/2016 | 1xday |           | Non | Non |                   |
 | [!DNL Xaxis] | 03/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL Yahoo DataX] | 03/03/2017 | Temps réel | Oui | Oui | Oui | Oui |
 | [!DNL Yahoo! Japan] | 03/03/2017 | Temps réel | Non | Non | Non | Non |
 | [!DNL Yandex] | 28/11/2018 | 1xday | Oui | Non | Non | Oui |
-| [!DNL Yieldex] | 21/08/2017 | Varie | Oui | Non | Non | Non |
+| [!DNL Yieldex] | 21/08/2017 | Variable | Oui | Non | Non | Non |
 | [!DNL YieldMo] | 03/03/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL Yume] | 31/05/2017 | 1xday | Non | Non | Non | Non |
 | [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel] | 17/02/2017 | Temps réel | Oui | Non | Oui | Oui |
