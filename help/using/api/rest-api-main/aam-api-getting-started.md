@@ -7,9 +7,9 @@ title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
+source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2558'
 ht-degree: 1%
 
 ---
@@ -382,6 +382,8 @@ Vous pouvez utiliser ces paramètres facultatifs avec [!DNL API] méthodes renvo
 | `permissions` | Renvoie une liste de segments basée sur l’autorisation spécifiée. `READ` est la valeur par défaut. Les autorisations incluent :<ul><li>`READ` : renvoie et affiche des informations sur un segment.</li><li>`WRITE` : utilisez  `PUT`  pour mettre à jour un segment.</li><li>`CREATE` : utilisez  `POST`  pour créer un segment.</li><li>`DELETE` : permet de supprimer un segment. Nécessite l’accès aux caractéristiques sous-jacentes, le cas échéant. Par exemple, vous aurez besoin de droits pour supprimer les caractéristiques qui appartiennent à un segment si vous souhaitez le supprimer.</li></ul><br>Spécifiez plusieurs autorisations avec des paires clé-valeur distinctes. Par exemple, pour renvoyer une liste de segments avec  `READ`  et  `WRITE`  autorisations uniquement, transmettre  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Défini sur `true` pour renvoyer vos autorisations pour le segment. Par défaut : `false`. |
 
+{style="table-layout:auto"}
+
 ### Remarque À Propos Des Options De Page
 
 Lorsque des informations sur la page *n’est pas* spécifié, la requête renvoie plain [!DNL JSON] donne un tableau. Si des informations sur la page *is* spécifié, alors la liste renvoyée est encapsulée dans une [!DNL JSON] contenant des informations sur le résultat total et la page active. Votre exemple de requête utilisant les options de page peut ressembler à ceci :
@@ -400,7 +402,7 @@ Le tableau suivant répertorie la requête. [!DNL URLs] utilisé pour transmettr
 
 Selon la méthode d’authentification que vous utilisez, vous devez ajuster votre requête. [!DNL URLs] selon les tableaux ci-dessous.
 
-### Requête [!DNL URLs] pour [!DNL JWT] Authentification {#request-urls-jwt}
+### Requête [!DNL URLs] pour le [!BADGE Recommandé]{type=positive}[!BADGE Obsolète]{type=negative}[!DNL JWT] Authentification via Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] Méthodes | Requête [!DNL URL] |
 |--- |--- |
@@ -416,7 +418,9 @@ Selon la méthode d’authentification que vous utilisez, vous devez ajuster vot
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### Requête [!DNL URLs] pour [!DNL OAuth] Authentification (obsolète) {#request-urls-oauth}
+{style="table-layout:auto"}
+
+### Requête [!DNL URLs] pour le [!BADGE Obsolète]{type=negative}[!DNL OAuth] Authentification {#request-urls-oauth}
 
 | [!DNL API] Méthodes | Requête [!DNL URL] |
 |--- |--- |
@@ -431,6 +435,8 @@ Selon la méthode d’authentification que vous utilisez, vous devez ajuster vot
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
 | [!DNL Trait Types] | `https://api.demdex.com/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://api.demdex.com/v1/taxonomies/0/` |
+
+{style="table-layout:auto"}
 
 ## Environnements {#environments}
 
