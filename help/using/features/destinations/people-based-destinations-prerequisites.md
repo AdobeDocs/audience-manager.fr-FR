@@ -1,24 +1,25 @@
 ---
-description: 'Lisez ci-dessous pour une vue d’ensemble des exigences des clients que vous devez satisfaire avant de vous inscrire aux destinations basées sur les personnes.  '
+description: Lisez ci-dessous pour une vue d’ensemble des exigences des clients que vous devez satisfaire avant de vous inscrire aux destinations basées sur les personnes.
 seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
 seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: Conditions préalables et considérations
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
+
 
 # Conditions préalables et considérations {#prerequisites-considerations}
 
 >[!IMPORTANT]
 >Cet article contient la documentation du produit destinée à vous guider tout au long de la configuration et de l’utilisation de cette fonctionnalité. Rien dans le présent article n&#39;est un avis juridique. Veuillez consulter votre propre service juridique pour obtenir des conseils juridiques.
 
-Lisez ci-dessous pour une vue d’ensemble des exigences du client que vous devez satisfaire avant de vous abonner à [!UICONTROL People-Based Destinations].
+Lisez ci-dessous pour une vue d’ensemble des exigences du client que vous devez satisfaire avant de vous inscrire à [!UICONTROL People-Based Destinations].
 
 >[!IMPORTANT]
 > Lisez attentivement cet article avant de passer à la phase de mise en oeuvre.
@@ -37,13 +38,15 @@ Avant d’utiliser [!UICONTROL People-Based Destinations] pour envoyer votre aud
 
 1. Votre [!DNL Facebook] Le compte utilisateur doit avoir la variable **Gestion des campagnes** autorisation activée pour le compte publicitaire que vous prévoyez d’utiliser.
 2. Ajoutez la variable **Adobe Experience Cloud** compte commercial en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. Voir [Ajout de partenaires à votre compte Business Manager](https://www.facebook.com/business/help/1717412048538897) pour plus d’informations.
+
    >[!IMPORTANT]
-   > Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’option **Gestion des campagnes** autorisation. Ceci est obligatoire pour l’intégration de [!UICONTROL People-Based Destinations].
-3. Lisez et signez le [!DNL Facebook Custom Audiences] Conditions d’utilisation. Pour ce faire, accédez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
+   >Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’option **Gestion des campagnes** autorisation. Ceci est obligatoire pour l’intégration de [!UICONTROL People-Based Destinations].
+
+3. Lire et signer [!DNL Facebook Custom Audiences] Conditions d’utilisation. Pour ce faire, accédez à `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, où `accountID` est votre [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn] {#linkedin}
 
-Avant d’utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires à [!DNL LinkedIn], assurez-vous que [!DNL LinkedIn Campaign Manager] Le compte a la variable [!DNL Creative Manager] ou niveau d’autorisation supérieur.
+Avant d’utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires à [!DNL LinkedIn], assurez-vous que [!DNL LinkedIn Campaign Manager] Le compte a la propriété [!DNL Creative Manager] ou niveau d’autorisation supérieur.
 
 Pour savoir comment modifier votre [!DNL LinkedIn Campaign Manager] autorisations utilisateur, voir [Ajout, modification et suppression des autorisations d’utilisateur sur les comptes Advertising](https://www.linkedin.com/help/lms/answer/5753) dans la documentation de LinkedIn.
 
@@ -53,15 +56,23 @@ Voir [Présentation et configuration de la destination basée sur les personnes 
 
 Avant d’utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires à un [!DNL Google Customer Match] destination, veillez à lire et à respecter la politique de Google pour l’utilisation de [!DNL Customer Match], comme indiqué dans la section [Documentation de prise en charge de Google](https://support.google.com/google-ads/answer/6299717).
 
-Ensuite, assurez-vous que la variable [!DNL Google] compte configuré pour un [!DNL Standard] ou niveau d’autorisation supérieur. Voir [Documentation sur Google Ads](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&amp;rd=1) pour plus d’informations.
+Ensuite, assurez-vous que la variable [!DNL Google] est configuré pour un compte [!DNL Standard] ou niveau d’autorisation supérieur. Voir [Documentation sur Google Ads](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&amp;rd=1) pour plus d’informations.
 
 Les clients disposant de comptes conformes sont automatiquement autorisés à être répertoriés par Google.
 
 ## Intégration de données {#data-onboarding}
 
-Ingestion de données pour [!UICONTROL People-Based Destinations] prend actuellement en charge jusqu’à 10 adresses électroniques hachées liées à un ID de client ([!DNL CRM ID]), par transfert par lot. Le téléchargement de plus de 10 adresses électroniques hachées liées à un ID de client entraîne l’Audience Manager d’en ingérer 10, sans ordre spécifique.
+>[!IMPORTANT]
+>
+>Tous les clients d’Audience Manager peuvent ingérer des courriers électroniques hachés sans s’abonner à [!UICONTROL People-Based Destinations].
+
+Ingestion de données pour [!UICONTROL People-Based Destinations] prend actuellement en charge jusqu’à 10 adresses électroniques hachées liées à un ID de client ([!DNL CRM ID]), par transfert par lot.
 
 Le chargement de plus de 10 adresses électroniques hachées liées à un ID de client dans plusieurs transferts par lots entraîne l’Audience Manager à conserver les 10 adresses électroniques ajoutées les plus récentes.
+
+Pour ingérer des identifiants hachés, [créer une source de données multi-appareils pour les identifiants hachés ;](../create-data-source-hashed-emails.md) et activez la variable **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** .
+
+![Image de l’interface utilisateur d’Audience Manager montrant l’option de partage des identifiants multi-appareils associés dans des destinations basées sur des personnes et/ou des workflows de messagerie hachée](assets/data-source-share-ids.png)
 
 ## Confidentialité des données {#data-privacy}
 
@@ -77,7 +88,7 @@ Le hachage est une fonction unidirectionnelle qui fait défiler l’entrée pour
 
 Lors du hachage des adresses email, veillez à respecter les exigences suivantes :
 
-* Rogner tous les espaces de début et de fin de la chaîne de courrier électronique ; exemple : `johndoe@example.com`, not `<space>johndoe@example.com<space>`;
+* Rogner tous les espaces de début et de fin de la chaîne d’email ; par exemple : `johndoe@example.com`, not `<space>johndoe@example.com<space>`;
 * Lors du hachage des chaînes d’email, veillez à mettre la chaîne en minuscules par hachage.
    * Exemple : `example@email.com`, not `EXAMPLE@EMAIL.COM`;
 * Assurez-vous que la chaîne hachée est entièrement en minuscules.
@@ -100,9 +111,9 @@ Si vos clients souhaitent se désinscrire des campagnes publicitaires, reportez-
 
 ## Application de l’activation des données propriétaires {#enforcing-first-party-activation}
 
-Lors de l’utilisation de [!UICONTROL People-Based Destinations], vous pouvez uniquement utiliser des données propriétaires pour activer les segments d’audience dans des canaux basés sur les personnes. Vous ne pouvez pas utiliser de données de deuxième ou de troisième niveau pour l’activation de l’audience dans des canaux basés sur des personnes.
+Lorsque vous utilisez [!UICONTROL People-Based Destinations], vous pouvez uniquement utiliser des données propriétaires pour activer les segments d’audience dans des canaux basés sur les personnes. Vous ne pouvez pas utiliser de données de deuxième ou de troisième niveau pour l’activation de l’audience dans des canaux basés sur des personnes.
 
-Lors de l’utilisation de [!UICONTROL People-Based Destinations], utilisez [Contrôles des exportations de données](../data-export-controls.md) pour étiqueter votre [!UICONTROL data sources] et [!UICONTROL destinations] selon les directives et les exigences des plateformes de destination et des fournisseurs de données.
+Lorsque vous utilisez [!UICONTROL People-Based Destinations], utilisez [Contrôles des exportations de données](../data-export-controls.md) pour étiqueter votre [!UICONTROL data sources] et [!UICONTROL destinations] selon les directives et les exigences des plateformes de destination et des fournisseurs de données.
 
 ## Intégrer les identifiants hachés authentifiés par le biais du ciblage des identifiants déclarés {#onboard-authenticated-declared-id}
 
