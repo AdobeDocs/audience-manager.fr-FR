@@ -1,7 +1,7 @@
 ---
 title: Migration de l’extension de balise d’Audience Manager vers l’extension de balise du SDK Web
 description: Découvrez les étapes à suivre pour mettre à jour votre bibliothèque de collecte de données en vue de l’Audience Manager depuis l’extension de balise d’Audience Manager vers l’extension de balise du SDK Web.
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Une fois la mise en oeuvre de votre balise entièrement migrée vers le SDK Web,
 +++
 
 À ce stade, la mise en oeuvre de votre Audience Manager est entièrement migrée vers le SDK Web et est prête à passer à Real-Time CDP à l’avenir.
+
