@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Découvrez comment utiliser Adobe Audience Manager pour collecter des informations commerciales pertinentes sur les visiteurs du site et créer des segments commercialisables. Vous trouverez également des détails sur la manière de diffuser de la publicité et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
+source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 25%
+source-wordcount: '1865'
+ht-degree: 24%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 25%
 
 + [Guide d’Audience Manager](aam-home.md)
 + [Guide d’évolution vers Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Migration vers le SDK Web{#migrate-to-web-sdk}
+   + [Migration de l’extension de balise Adobe Audience Manager vers l’extension de balise SDK Web](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [Migration de la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript du SDK Web](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Présentation {#overview}
    + [Présentation d’Audience Manager](overview/aam-overview.md)
    + [Types de données collectées](overview/data-types-collected.md)
