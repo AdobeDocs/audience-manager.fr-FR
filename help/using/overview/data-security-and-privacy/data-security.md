@@ -1,16 +1,16 @@
 ---
 description: Audience Manager prend très au sérieux la sécurité et la confidentialité des données. Nous nous efforçons d’assurer la sécurité de nos systèmes et de protéger vos données importantes.
-seo-description: Audience Manager prend très au sérieux la sécurité et la confidentialité des données. Nous nous efforçons d’assurer la sécurité de nos systèmes et de protéger vos données importantes.
-seo-title: Sécurité des données dans Audience Manager
+seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
 title: Sécurité des données dans Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: Gouvernance et confidentialité des données
+feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 94%
+source-wordcount: '988'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,7 @@ Processus qui assurent la sécurité de notre système et de vos données.
 
 **Accès sécurisé :** Audience Manager requiert des mots de passe difficiles à deviner pour se connecter au système. Voir les [exigences en matière de mot de passe](../../reference/password-requirements.md).
 
-## Confidentialité et informations d’identification personnelle (PII) {#pii}
+## Confidentialité et informations d’identification personnelle {#pii}
 
 Processus qui assurent la protection des informations personnelles. Pour plus d’informations sur la confidentialité, voir le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/fr/privacy/experience-cloud.html).
 
@@ -61,11 +61,11 @@ Processus qui assurent la protection des informations personnelles. Pour plus d�
 
 Processus qui assurent la protection des données détenues par des clients individuels.
 
-**Partitionnement des données de caractéristiques :**  vos données ([!UICONTROL traits], identifiants, etc.) sont partitionnées par client. Cela permet d’éviter l’exposition accidentelle de différents clients aux informations. Par exemple, les données de caractéristiques des cookies sont partitionnées par client et stockées dans un sous-domaine spécifique au client. Elles ne peuvent pas être lues ni utilisées accidentellement par un autre client d’Audience Manager. En outre, les données de caractéristiques stockées dans les [!UICONTROL Profile Cache Servers (PCS)] sont également partitionnées par client. Cela empêche d’autres clients d’utiliser accidentellement vos données dans un appel d’événement ou une autre requête.
+**Partitionnement des données de caractéristiques :** Vos données ([!UICONTROL traits], identifiants, etc.) sont partitionnées par client. Cela permet d’éviter l’exposition accidentelle de différents clients aux informations. Par exemple, les données de caractéristiques des cookies sont partitionnées par client et stockées dans un sous-domaine spécifique au client. Elles ne peuvent pas être lues ni utilisées accidentellement par un autre client d’Audience Manager. En outre, les données de caractéristiques stockées dans les [!UICONTROL Profile Cache Servers (PCS)] sont également partitionnées par client. Cela empêche d’autres clients d’utiliser accidentellement vos données dans un appel d’événement ou une autre requête.
 
 **Partitionnement des données dans les rapports :** les identifiants client font partie de la clé d’identification dans tous les tableaux de rapports, et les requêtes de rapport sont filtrées par identifiant. Cela permet d’empêcher l’affichage de vos données dans les rapports d’un autre client d’Audience Manager.
 
-## Transferts entrants serveur à serveur (S2S)  {#inbound-s2s}
+## Transferts entrants serveur à serveur (S2S) {#inbound-s2s}
 
 Adobe Audience Manager prend en charge deux méthodes principales de transfert de fichiers de données intégrés S2S vers nos systèmes :
 
@@ -73,7 +73,7 @@ Les deux méthodes sont conçues en tenant compte de la sécurité des données 
 
 **SFTP :** pour l’option SFTP, la plupart des clients choisissent de diffuser des fichiers au moyen du protocole sécurisé FTP (SFTP), qui utilise le protocole SSH (Secure Shell). Cette méthode garantit que les fichiers sont chiffrés pendant leur transfert entre les systèmes du client et ceux d’Adobe. Pour chaque client, nous créons un emplacement de dépôt sécurisé sur nos serveurs SFTP, lié à un compte d’utilisateur sur ce système. Seuls les utilisateurs privilégiés du système interne disposant des informations d’identification du client peuvent accéder à cet emplacement de dépôt sécurisé. Cet emplacement de dépôt n’est accessible à aucun autre client.
 
-**[!UICONTROL Amazon Web Services S3]via HTTPS :** pour l&#39;option de diffusion S3, nous recommandons à tous les clients de configurer leurs clients S3 pour utiliser la méthode de cryptage HTTPS pour les transferts de fichiers (il ne s&#39;agit pas de la méthode par défaut, elle doit donc être explicitement configurée). L’option HTTPS est prise en charge à la fois par l’outil de ligne de commande s3cmd et par les bibliothèques S3 disponibles dans tous les langages de programmation fréquemment employés. Une fois cette option HTTPS activée, les données du client sont chiffrées pendant leur transfert vers nos systèmes. Pour chaque client, nous créons un sous-répertoire de compartiment S3 distinct accessible uniquement par les informations d’identification de ce client et celles des utilisateurs de notre système interne.
+**[!UICONTROL Amazon Web Services S3]via HTTPS :** Pour l’option de diffusion S3, nous recommandons à tous les clients de configurer leurs clients S3 pour utiliser la méthode de cryptage HTTPS pour les transferts de fichiers (il ne s’agit pas de la méthode par défaut, elle doit donc être explicitement configurée). L’option HTTPS est prise en charge à la fois par l’outil de ligne de commande s3cmd et par les bibliothèques S3 disponibles dans tous les langages de programmation fréquemment employés. Une fois cette option HTTPS activée, les données du client sont chiffrées pendant leur transfert vers nos systèmes. Pour chaque client, nous créons un sous-répertoire de compartiment S3 distinct accessible uniquement par les informations d’identification de ce client et celles des utilisateurs de notre système interne.
 
 Pour ajouter un chiffrement PGP à vos fichiers de données, voir [Chiffrement PGP de fichier pour les types de données entrants](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
@@ -81,7 +81,7 @@ Pour ajouter un chiffrement PGP à vos fichiers de données, voir [Chiffrement P
 
 Il faut souligner que [!DNL Audience Manager] n’échappe pas les données sortantes pour les protéger contre un éventuel script intersite (XSS), etc. L’échappement des données entrantes relève de la responsabilité du client.
 
-## HTTP Strict Transport Security {#hsts}
+## HTTP Strict-Transport-Security {#hsts}
 
 [!DNL HTTP Strict-Transport-Security (HSTS)] est un mécanisme de sécurité web employé dans tout le secteur qui améliore la protection contre le détournement de session et les attaques par rétrogradation.
 
@@ -91,6 +91,6 @@ Cette politique améliore la sécurité des données entre les clients et les se
 
 ### Exemple {#hsts-example}
 
-Supposons que le domaine `yourcompany.demdex.com` envoie du trafic vers la balise [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] surclasse les appels de manière à ce qu’ils utilisent [!DNL HTTPS] à la place, et tous les appels [!DNL DCS] ultérieurs provenant de `yourcompany.demdex.com` utiliseront [!DNL HTTPS] à la place de [!DNL HTTP].
+Supposons que le domaine `yourcompany.demdex.com` envoie du trafic vers [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] surclasse les appels de manière à ce qu’ils utilisent [!DNL HTTPS] à la place, et tous les appels [!DNL DCS] ultérieurs provenant de `yourcompany.demdex.com` utiliseront [!DNL HTTPS] à la place de [!DNL HTTP].
 
 Pour plus d’informations sur HSTS, consultez [HTTP Strict Transport Security — Wikipédia](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security).

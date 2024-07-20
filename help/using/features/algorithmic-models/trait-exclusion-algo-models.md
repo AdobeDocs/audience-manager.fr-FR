@@ -1,19 +1,19 @@
 ---
 description: L’exclusion de caractéristiques fournit des contrôles supplémentaires dans votre workflow de modélisation, ce qui vous permet d’ajouter les rails de garde nécessaires au modèle, en fonction de votre expertise de domaine et des exigences réglementaires. Utilisez l’option Exclusions pour sélectionner les caractéristiques à ignorer lors de la création de modèles à partir d’une ou de plusieurs sources de données.
-seo-description: L’exclusion de caractéristiques fournit des contrôles supplémentaires dans votre workflow de modélisation, ce qui vous permet d’ajouter les rails de garde nécessaires au modèle, en fonction de votre expertise de domaine et des exigences réglementaires. Utilisez l’option Exclusions pour sélectionner les caractéristiques à ignorer lors de la création de modèles à partir d’une ou de plusieurs sources de données.
-seo-title: Exclusion des caractéristiques des modèles algorithmiques
+seo-description: Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
+seo-title: Algorithmic Models  Trait Exclusion
 title: Exclusion des caractéristiques des modèles algorithmiques
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-feature: Modèles algorithmiques
+feature: Algorithmic Models
 exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 1%
+source-wordcount: '633'
+ht-degree: 0%
 
 ---
 
-# Modélisation analogue : exclusion de caractéristiques {#algorithmic-models-trait-exclusion}
+# Modélisation analogue : exclusion de caractéristiques {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] fournit des contrôles supplémentaires dans votre workflow de modélisation, ce qui vous permet d’ajouter les rails de garde nécessaires au modèle, en fonction de votre expertise de domaine et des exigences réglementaires. Utilisez l’option [!UICONTROL Exclusions] pour sélectionner les caractéristiques à ignorer lors de la création de modèles à partir d’une ou de plusieurs sources de données.
 
@@ -27,7 +27,7 @@ Voici quelques cas d’utilisation que vous pouvez traiter avec [!UICONTROL Trai
 
 >[!IMPORTANT]
 >
->Remarque importante sur le troisième cas d’utilisation. Si le fournisseur de données tiers ajoute une nouvelle caractéristique démographique au flux de données *après avoir créé le modèle*, la caractéristique est automatiquement sélectionnée par le modèle. Vous ne pouvez pas exclure les caractéristiques de la modélisation après la création du modèle. Voir [Aspects et limites importants](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Soyez prudent lorsque vous utilisez cette fonction et travaillez avec le fournisseur de données pour vous assurer que vous êtes informé des modifications apportées à la structure du flux.
+>Remarque importante sur le troisième cas d’utilisation. Si le fournisseur de données tiers ajoute une nouvelle caractéristique démographique au flux de données *après la création du modèle*, la caractéristique est automatiquement sélectionnée par le modèle. Vous ne pouvez pas exclure les caractéristiques de la modélisation après la création du modèle. Voir [Aspects et limites importants](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Soyez prudent lorsque vous utilisez cette fonction et travaillez avec le fournisseur de données pour vous assurer que vous êtes informé des modifications apportées à la structure du flux.
 
 ![](assets/lam_exclude_traits.png)
 
@@ -41,7 +41,7 @@ Utilisez le workflow [Créer un modèle](../../features/algorithmic-models/creat
 4. Vous pouvez filtrer les caractéristiques par type de caractéristique, type de population de caractéristiques ([ID d’appareil](../../reference/ids-in-aam.md) et [ID multi-appareils](../../reference/ids-in-aam.md)) ou parcourir les dossiers de caractéristiques. Notez que les dossiers de caractéristiques affichent uniquement les caractéristiques associées à vos sources de données sélectionnées.
 5. Appuyez sur **[!UICONTROL Exclude Selected Traits]**.
 
-![caractéristiques-exclusions](assets/trait-exclusions-browse-traits.png)
+![ trait-exclusions](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
@@ -69,11 +69,11 @@ Veuillez prendre note des aspects et limitations suivants liés à [!UICONTROL T
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Caractéristiques exclues dans la vue récapitulative des modèles </p> </td>
-   <td colname="col2"> <p>Les caractéristiques <i>exclues n’apparaissent pas</i> dans la vue Résumé des modèles. Vous ne pouvez afficher les caractéristiques exclues que dans le workflow <b><span class="uicontrol"> Modifier le modèle</span></b> . </p> </td>
+   <td colname="col2"> <p>Les caractéristiques exclues <i>n’apparaissent pas</i> dans la vue Résumé des modèles. Vous ne pouvez afficher les caractéristiques exclues que dans le workflow <b><span class="uicontrol"> Modifier le modèle</span></b> . </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contrôles d’accès en fonction du rôle (RBAC) </p> </td>
-   <td colname="col2"> <p>Notez les limites suivantes pour les entreprises qui utilisent <a href="../../features/administration/administration-overview.md#administration"> RBAC</a> : </p> <p>
+   <td colname="col2"> <p>Notez les limites suivantes pour les entreprises utilisant <a href="../../features/administration/administration-overview.md#administration"> RBAC</a> : </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
       <li id="li_2624FB35581F4807B8530910D63FFDBF">Si vous n’avez pas accès à l’affichage d’une caractéristique, vous <i>ne pouvez pas</i> sélectionner cette caractéristique à exclure du modèle. </li>
       <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Si vous n’avez pas accès à l’affichage d’une caractéristique, vous <i>ne pouvez pas</i> afficher cette caractéristique dans la liste des caractéristiques exclues. </li>
@@ -81,7 +81,7 @@ Veuillez prendre note des aspects et limitations suivants liés à [!UICONTROL T
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modification des caractéristiques exclues après l’enregistrement du modèle </p> </td>
-   <td colname="col2"> <p>Vous ne pouvez pas modifier les caractéristiques exclues après avoir créé et enregistré un modèle. Si vous souhaitez ajuster les résultats, vous pouvez cloner le modèle et modifier les caractéristiques exclues. </p> </td>
+   <td colname="col2"> <p>Vous ne pouvez pas modifier les caractéristiques exclues une fois que vous avez créé et enregistré un modèle. Si vous souhaitez ajuster les résultats, vous pouvez cloner le modèle et modifier les caractéristiques exclues. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nombre maximal de caractéristiques que vous pouvez exclure </p> </td>
@@ -94,7 +94,7 @@ Veuillez prendre note des aspects et limitations suivants liés à [!UICONTROL T
  </tbody>
 </table>
 
-Regardez la vidéo ci-dessous pour savoir comment et pourquoi exclure des caractéristiques spécifiques d’une [!UICONTROL Look-Alike Model].
+Regardez la vidéo ci-dessous pour savoir comment et pourquoi exclure des caractéristiques spécifiques d’un [!UICONTROL Look-Alike Model].
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/)
 

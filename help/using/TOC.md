@@ -16,10 +16,10 @@ ht-degree: 24%
 # Guide d’utilisation d’Audience Manager {#user-guide}
 
 + [Guide d’Audience Manager](aam-home.md)
-+ [Guide d’évolution vers Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Guide de l’évolution vers Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Migration vers le SDK Web{#migrate-to-web-sdk}
    + [Migration de l’extension de balise Adobe Audience Manager vers l’extension de balise SDK Web](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [Migration de la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript du SDK Web](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
+   + [Migration de la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript SDK Web](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Présentation {#overview}
    + [Présentation d’Audience Manager](overview/aam-overview.md)
    + [Types de données collectées](overview/data-types-collected.md)
@@ -93,8 +93,8 @@ ht-degree: 24%
    + [Contrôles des exportations de données](features/data-export-controls.md)
    + Sources de données {#data-sources}
       + [Liste et paramètres des sources de données](features/datasources-list-and-settings.md)
-      + [Création d’une source de données](features/manage-datasources.md)
-      + [Configuration d’une source de données pour les processus de courrier électronique haché](features/create-data-source-hashed-emails.md)
+      + [Création d’une Source de données](features/manage-datasources.md)
+      + [Configuration d’une Source de données pour les processus de courrier électronique haché](features/create-data-source-hashed-emails.md)
       + [Sources de données globales](features/global-data-sources.md)
    + [Identifiants déclarés](features/declared-ids.md)
    + [Signaux dérivés](features/derived-signals.md)
@@ -108,9 +108,9 @@ ht-degree: 24%
          + [Conditions préalables et considérations](features/destinations/people-based-destinations-prerequisites.md)
          + Guide d’implémentation {#implementation-guide}
             + [Présentation de l’implémentation](features/destinations/people-based-destinations-workflow.md)
-            + [Processus A : personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne](features/destinations/people-based-destinations-workflow-combined.md)
-            + [Processus B : personnalisation basée sur les données hors ligne uniquement](features/destinations/people-based-destinations-workflow-offline.md)
-            + [Processus C : personnalisation basée sur l’activité authentifiée associée aux données hors ligne](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [Processus A : Personalization basé sur toutes les activités en ligne combinées aux données hors ligne](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Processus B : Personalization basé sur les données hors ligne uniquement](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Processus C : Personalization basé sur l’activité authentifiée associée aux données hors ligne](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [Authentification avec des plateformes basées sur des personnes](features/destinations/people-based-destinations-authentication.md)
          + [Audiences partageables](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinations basées sur des appareils (serveur à serveur) {#device-based}
@@ -156,7 +156,7 @@ ht-degree: 24%
       + [Présentation des caractéristiques](/help/using/features/traits/traits-overview.md)
       + [Page Détails des caractéristiques](features/traits/trait-details-page.md)
       + [Tableau de bord des caractéristiques](features/traits/trait-dashboard.md)
-      + [Caractéristiques d’audience active et caractéristiques synchronisées de sources de données](features/traits/client-activity-synced-audience-traits.md)
+      + [Caractéristiques d’audience active et caractéristiques synchronisées de Data Source](features/traits/client-activity-synced-audience-traits.md)
       + [À propos des caractéristiques de dossier](features/traits/about-folder-traits.md)
       + [Gestion des caractéristiques de dossier](features/traits/manage-folder-traits.md)
       + Générateur de caractéristiques {#trait-builder}
@@ -291,7 +291,7 @@ ht-degree: 24%
 + Guides d’implémentation et d’intégration {#implementation-integration-guides}
    + [Guides d’implémentation et d’intégration](integration/implementation-and-integration.md)
    + [Méthodes d’intégration des données](integration/data-integration-methods.md)
-   + Intégration de Google Ad Manager à l’aide des balises de l’éditeur Google (GPT){#integrate-dfp-using-gpt}
+   + Intégration de Google Ad Manager à l’aide des balises Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
       + [Présentation de l’intégration de Google Ad Manager à l’aide de GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envoi de segments à Google Ad Manager à l’aide de GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Création d’une destination GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -335,27 +335,27 @@ ht-degree: 24%
          + [Présentation de l’envoi de données par lots à l’Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Synchronisation des identifiants pour les transferts de données entrantes](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et exemples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et   Exemples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Exigences en matière de nom et de taille de fichier FTP pour les fichiers de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Chiffrement PGP de fichier pour les types de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [Compression de fichiers pour les fichiers de transfert de données entrants](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Message d’exemple aux partenaires après le traitement entrant](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [Utiliser les autorisations de compartiments inter-comptes Amazon S3 pour les fichiers entrants](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+         + [ Utiliser les autorisations de compartiments inter-comptes Amazon S3 pour vos fichiers entrants ](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Intégrations personnalisées des partenaires](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Intégration à Adobe Experience Platform {#integration-experience-platform}
       + [Partage de segments Experience Platform avec Audience Manager et d’autres solutions Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Intégration à d’autres applications Experience Cloud {#integration-other-solutions}
+   + Intégration avec d’autres applications Experience Cloud {#integration-other-solutions}
       + [Intégration de l’Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Transfert de données d’Adobe Analytics vers l’Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publication d’un segment Adobe Analytics sur l’Experience Cloud (la documentation Adobe Analytics s’ouvre)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Intégration de l’Audience Manager à Adobe Campaign (la documentation Adobe Campaign s’ouvre)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publish et segment Adobe Analytics à l’Experience Cloud (ouvre la documentation Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Intégrer l’Audience Manager à Adobe Campaign (ouvre la documentation Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Référence {#reference}
    + [Présentation des références](reference/reference.md)
    + [Amazon S3 : À propos](reference/amazon-s3.md)
    + [Cas d’utilisation des annonceurs](reference/advertiser-use-cases.md)
    + [Cas d’utilisation des éditeurs](reference/publisher-use-cases.md)
-   + [Environnement bêta](reference/beta-environment.md)
+   + [Environnement Beta](reference/beta-environment.md)
    + [Expressions booléennes dans le créateur de caractéristiques et de segments](reference/boolean-expressions-tsb.md)
    + Outils de gestion en bloc {#bulk-management-tools}
       + [Prise en main de la gestion en bloc](reference/bulk-management-tools/bulk-management-intro.md)

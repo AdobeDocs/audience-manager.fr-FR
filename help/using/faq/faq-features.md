@@ -10,8 +10,8 @@ feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 84%
+source-wordcount: '574'
+ht-degree: 87%
 
 ---
 
@@ -47,9 +47,9 @@ Oui. Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Lors d’une exportation d’ID en bloc vers une destination, certains ID de client sont absents. Pourquoi cela arrive-t-il ?**
+**Lors d’une exportation d’ID en bloc vers une destination, certains ID de client sont absents. Pourquoi cela se produit-il ?**
 
-Lorsqu’un identifiant d’appareil ([UUID AAM](../reference/ids-in-aam.md)) est lié à plusieurs identifiants CRM ([DPUUID](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’identifiants d’appareil exportés est peut-être inférieur à ce qui était prévu.
+Lorsqu’un identifiant d’appareil ([AAM UUID](../reference/ids-in-aam.md)) est lié à plusieurs identifiants CRM ([DPUUIDs](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’identifiants d’appareil exportés est peut-être inférieur à ce qui était prévu.
 
  
 

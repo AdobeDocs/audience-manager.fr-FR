@@ -1,22 +1,22 @@
 ---
 description: Décrit les modèles algorithmiques disponibles dans Audience Manager.
 keywords: algo, modèles de fonctionnement des audiences prédictives
-seo-description: Décrit les modèles algorithmiques disponibles dans Audience Manager.
-seo-title: Présentation des modèles algorithmiques
+seo-description: Describes the algorithmic models available in Audience Manager.
+seo-title: Algorithmic Models Overview
 solution: Audience Manager
 title: Présentation des modèles algorithmiques
-feature: Modèles algorithmiques
+feature: Algorithmic Models
 exl-id: ee5c3392-2756-45c5-b325-41a51d3c494f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 16%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
 # Présentation des modèles algorithmiques
 
-## Qu’est-ce que la modélisation algorithmique ?{#what-algo-modeling}
+## Qu’est-ce que la modélisation algorithmique{#what-algo-modeling}
 
 La modélisation algorithmique dans l’Audience Manager fait référence à l’utilisation de la science des données pour développer vos audiences existantes ou les classer en personas.
 
@@ -36,8 +36,8 @@ Pour en savoir plus sur [!UICONTROL Look-Alike Modeling], voir [Présentation de
 
 [!UICONTROL Predictive Audiences] vous aide à classer en temps réel une audience inconnue en différentes personas à l’aide de techniques avancées de science des données.
 
-Dans un contexte marketing, une persona est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels qui partagent un ensemble spécifique de caractéristiques comme des données démographiques, des habitudes de navigation, un historique des achats, etc.
+Dans un contexte marketing, une persona est un segment d’audience défini par des visiteurs, des utilisateurs ou des acheteurs potentiels, qui partagent un ensemble spécifique de caractéristiques, telles que la démographie, les habitudes de navigation, l’historique d’achats, etc.
 
-[!UICONTROL Predictive Audiences] Les modèles approfondissent encore ce concept en utilisant les capacités d’apprentissage automatique d’Audience Manager pour classer automatiquement les audiences inconnues en différentes personas. Pour ce faire, l’Audience Manager calcule la propension de votre audience inconnue pour un ensemble d’audiences connues.
+Les modèles [!UICONTROL Predictive Audiences] approfondissent encore ce concept en utilisant les fonctionnalités d’apprentissage automatique de l’Audience Manager pour classer automatiquement les audiences inconnues en différentes personas. Pour ce faire, l’Audience Manager calcule la propension de votre audience inconnue pour un ensemble d’audiences connues.
 
-Pour en savoir plus sur [!UICONTROL Predictive Audiences], voir [Aperçu des audiences prédictives](predictive-audiences.md).
+Pour en savoir plus sur [!UICONTROL Predictive Audiences], consultez la [présentation des audiences prédictives](predictive-audiences.md).

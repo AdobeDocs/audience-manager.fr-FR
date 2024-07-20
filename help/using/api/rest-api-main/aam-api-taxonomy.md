@@ -1,7 +1,7 @@
 ---
 description: Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
-seo-description: Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
-seo-title: Méthodes d’API taxonomiques
+seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
+seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: Méthodes d’API taxonomiques
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
@@ -9,8 +9,8 @@ feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
@@ -30,13 +30,13 @@ Une méthode `GET` qui renvoie des détails sur la catégorie taxonomique spéci
 
 <!-- r_rest_api_taxonomy.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/taxonomies/0/`*`<categoryId>`*
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et la catégorie de l’identifiant spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas.
+Une réponse réussie renvoie `200 OK` et la catégorie de l’ID spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas.
 
 ```
 {
@@ -55,7 +55,7 @@ Une méthode `GET` qui renvoie une liste des catégories de niveau supérieur da
 
 <!-- r_rest_api_taxonomies.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/taxonomies/0/`
 
@@ -98,13 +98,13 @@ Une méthode `GET` qui renvoie des sous-catégories pour la catégorie parente s
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/taxonomies/0/`*`<categoryId>`*`/childCategories/`
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et la catégorie de l’identifiant spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas. Tronquée pour la concision.
+Une réponse réussie renvoie `200 OK` et la catégorie de l’ID spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas. Tronquée pour la concision.
 
 ```
 [

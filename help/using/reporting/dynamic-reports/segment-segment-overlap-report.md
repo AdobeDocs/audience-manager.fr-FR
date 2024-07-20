@@ -1,16 +1,16 @@
 ---
 description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos segments.
-seo-description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre vos segments.
-seo-title: Rapport de chevauchement de segments
+seo-description: Returns data on how many unique users are shared between your segments.
+seo-title: Segment-to-Segment Overlap Report
 solution: Audience Manager
 title: Rapport de chevauchement de segments
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-feature: Rapports de chevauchement
+feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 11%
+source-wordcount: '360'
+ht-degree: 6%
 
 ---
 
@@ -68,16 +68,15 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Segment Overlap] cont
 | **[!UICONTROL Base Segment Uniques]** | Le nombre de visiteurs uniques dans votre segment de base. |
 | **[!UICONTROL Base Segment Uniques]** | Nombre de visiteurs uniques dans votre segment qui chevauche. |
 | **[!UICONTROL Overlapping Uniques]** | Nombre de visiteurs uniques partagés entre les segments comparés. |
-| **[!UICONTROL Overlap %]** | Pour obtenir le % de chevauchement, l’Audience Manager utilise la formule suivante : Chevauchement des uniques / (Uniques de segment de base + Uniques de segments qui se chevauchent - Uniques qui se chevauchent) |
+| **[!UICONTROL Overlap %]** | Pour obtenir le % de chevauchement, l’Audience Manager utilise la formule suivante : Chevauchement des uniques / (Uniques de segments de base + Uniques de segments qui se chevauchent - Uniques qui se chevauchent) |
 
 
 
 >[!MORELIKETHIS]
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
-* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [Explication des icônes et outils de rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
-* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
-
+>* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Explication des icônes et outils de rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [ Échantillonnage de données et taux d’erreur dans les rapports d’Audience Manager sélectionnés...](../../reporting/report-sampling.md)
+>* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)

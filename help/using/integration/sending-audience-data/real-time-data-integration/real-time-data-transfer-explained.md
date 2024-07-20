@@ -1,15 +1,15 @@
 ---
 description: Présentation générale de la manière dont l’Audience Manager effectue des transferts de données en temps réel avec un fournisseur de contenu tiers.
-seo-description: Présentation générale de la manière dont l’Audience Manager effectue des transferts de données en temps réel avec un fournisseur de contenu tiers.
-seo-title: Description du processus de transfert de données en temps réel
+seo-description: A general overview of how Audience Manager performs real-time data transfers with a third-party content provider.
+seo-title: Real-Time Data Transfer Process Described
 solution: Audience Manager
 title: Description du processus de transfert de données en temps réel
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Transferts des données entrantes
+feature: Inbound Data Transfers
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 

@@ -1,34 +1,34 @@
 ---
-description: Le rapport État de l’intégration vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport est disponible dans Analytics > Rapport État de l’intégration . Ce rapport est également disponible lorsque vous créez une source de données entrante.
-seo-description: Le rapport État de l’intégration vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport est disponible dans Analytics > Rapport État de l’intégration . Ce rapport est également disponible lorsque vous créez une source de données entrante.
-seo-title: Rapport d’état de l’intégration
+description: Le rapport État de l’intégration vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Elle comprend également une option qui échantillonne les fichiers pour un intervalle de temps fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport est disponible dans Analytics > Rapport État de l’intégration . Ce rapport est également disponible lorsque vous créez une source de données entrante.
+seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
+seo-title: Onboarding Status Report
 solution: Audience Manager
-title: Rapport d’état de l’intégration
+title: Rapport d’état d’intégration
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: Rapports entrants et sortants
+feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 7%
+source-wordcount: '1421'
+ht-degree: 0%
 
 ---
 
-# Rapport d’état de l’intégration{#onboarding-status-report-about}
+# Rapport d’état d’intégration{#onboarding-status-report-about}
 
-Le rapport État de l’intégration vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport est disponible dans Analytics > Rapport État de l’intégration . Ce rapport est également disponible lorsque vous créez une source de données entrante.
+Le rapport État de l’intégration vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Elle comprend également une option qui échantillonne les fichiers pour un intervalle de temps fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport est disponible dans Analytics > Rapport État de l’intégration . Ce rapport est également disponible lorsque vous créez une source de données entrante.
 
 >[!NOTE]
 >
 >Seuls les utilisateurs disposant de droits d’administrateur peuvent afficher ce rapport dans l’interface utilisateur de l’Audience Manager. Vous pouvez demander aux utilisateurs non-administrateurs d’être informés de l’état des fichiers entrants transférés en ajoutant leurs emails au rapport. Voir [Recevoir des notifications par courrier électronique](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
-## Rapport d’état de l’intégration : A propos {#onboarding-status-about}
+## Rapport État de l’intégration : À propos {#onboarding-status-about}
 
-[!UICONTROL Onboarding Status Report] vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Il comporte également une option qui échantillonne les fichiers pendant une période fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Ce rapport se trouve dans **[!UICONTROL Analytics > Onboarding Status Report]**. Ce rapport est également disponible lorsque vous créez une source de données entrante.
+Le [!UICONTROL Onboarding Status Report] vérifie les taux de succès et d’échec du traitement des enregistrements dans vos fichiers de source de données entrants. Ce rapport affiche les données sous forme d’un graphique à barres interactif et fournit des mesures récapitulatives sous forme de tableau. Elle comprend également une option qui échantillonne les fichiers pour un intervalle de temps fixe et affiche les erreurs les plus courantes pour chaque type d’erreur. Vous pouvez trouver ce rapport dans **[!UICONTROL Analytics > Onboarding Status Report]**. Ce rapport est également disponible lorsque vous créez une source de données entrante.
 
 ## Rapport d’erreurs et échantillonnage d’erreurs {#error-reporting-sampling}
 
-Les rapports d’erreur et l’échantillonnage des erreurs sont deux fonctions distinctes du rapport [!UICONTROL Onboarding Status].
+Les rapports d’erreur et l’échantillonnage des erreurs sont deux fonctionnalités distinctes du rapport [!UICONTROL Onboarding Status].
 
 <table id="table_4706D891D4C545E8BF9D8A0CC052CC48"> 
  <thead> 
@@ -44,7 +44,7 @@ Les rapports d’erreur et l’échantillonnage des erreurs sont deux fonctions 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Échantillonnage d’erreurs</b> </p> </td>
-   <td colname="col2"> <p>L’échantillonnage d’erreurs analyse le contenu de vos fichiers de données et renvoie les 10 erreurs les plus courantes pour chaque type d’erreur. Les erreurs de vos fichiers de données entrants empêchent le traitement des enregistrements individuels. Utilisez ce rapport comme outil de dépannage pour réduire le nombre d’erreurs de fichier et améliorer les taux de traitement. </p> <p>Vous devez activer manuellement l’échantillonnage des erreurs. Il s’exécute pendant 14 jours à compter du jour de l’activation, puis s’éteint. Vous pouvez réactiver l’échantillonnage d’erreurs après l’expiration de l’intervalle de 14 jours. Vous activez l’échantillonnage des erreurs lorsque vous <a href="../features/manage-datasources.md#create-data-source"> créez une source de données entrante</a> ou en cochant la case <b><span class="uicontrol"> Échantillonnage des erreurs</span></b> dans la section <span class="wintitle"> Paramètres de source de données</span> d’une source de données entrante existante. </p> <p>L’échantillonnage d’erreurs est un processus exigeant en calcul. Par conséquent, elle ne renvoie que 10 premières erreurs pour chaque catégorie d’erreur. Il n’est pas conçu pour renvoyer toutes les erreurs contenues dans une source de données entrante. Ces erreurs constituent un exemple représentatif d’un groupe potentiellement plus important d’erreurs similaires. Recherchez dans votre fichier entier les types d’erreurs que ce rapport signale, reformétez le fichier et renvoyez-le. </p> <p>Voir <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenu du fichier de données entrant : Syntaxe, variables et exemples</a> pour plus d’informations sur la manière de formater correctement un fichier de données pour une source de données entrante. </p> </td> 
+   <td colname="col2"> <p>L’échantillonnage d’erreurs analyse le contenu de vos fichiers de données et renvoie les 10 erreurs les plus courantes pour chaque type d’erreur. Les erreurs de vos fichiers de données entrants empêchent le traitement des enregistrements individuels. Utilisez ce rapport comme outil de dépannage pour réduire le nombre d’erreurs de fichier et améliorer les taux de traitement. </p> <p>Vous devez activer manuellement l’échantillonnage des erreurs. Il s’exécute pendant 14 jours à compter du jour de l’activation, puis s’éteint. Vous pouvez réactiver l’échantillonnage d’erreurs après l’expiration de l’intervalle de 14 jours. Vous activez l’échantillonnage d’erreurs lorsque vous <a href="../features/manage-datasources.md#create-data-source"> créez une source de données entrante</a> ou en cochant la case <b><span class="uicontrol"> Échantillonnage d’erreurs</span></b> de la section <span class="wintitle"> Paramètres de Source de données</span> d’une source de données entrante existante. </p> <p>L’échantillonnage d’erreurs est un processus exigeant en calcul. Par conséquent, elle ne renvoie que 10 premières erreurs pour chaque catégorie d’erreur. Il n’est pas conçu pour renvoyer toutes les erreurs contenues dans une source de données entrante. Ces erreurs constituent un exemple représentatif d’un groupe potentiellement plus important d’erreurs similaires. Recherchez dans votre fichier entier les types d’erreurs que ce rapport signale, reformétez le fichier et renvoyez-le. </p> <p>Voir <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenu du fichier de données entrant : syntaxe, variables et exemples</a> pour plus d’informations sur la manière de formater correctement un fichier de données pour une source de données entrante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ Cliquez sur **[!UICONTROL Totals & Percentages]** pour voir quel pourcentage de 
 
 ## Rapport d’échantillonnage d’erreurs pendant 14 jours {#error-reporting-14-days}
 
-Si l’échantillonnage des erreurs est principal, le rapport vous montre les 10 premières erreurs pour chaque type d’erreur. Cliquez sur un bouton de type erreur dans la partie supérieure du rapport pour afficher chaque jeu de données échantillonnées.
+Lorsque l’échantillonnage d’erreurs est actif, le rapport affiche les 10 premières erreurs pour chaque type d’erreur. Cliquez sur un bouton de type erreur dans la partie supérieure du rapport pour afficher chaque jeu de données échantillonnées.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Vous pouvez ajouter les adresses email des destinataires que vous souhaitez aver
 
 ## Création d’un rapport d’état d’intégration {#create-onboard-status-report}
 
-Une [!UICONTROL Sample Error Report] renvoie le nombre d’enregistrements d’une source de données traités avec succès et le nombre d’échecs. Pour générer une [!UICONTROL Sample Error Report], procédez comme suit.
+Un [!UICONTROL Sample Error Report] renvoie le nombre d’enregistrements d’une source de données traités avec succès et le nombre d’échecs. Suivez ces étapes pour générer un [!UICONTROL Sample Error Report].
 
 <!-- 
 
@@ -100,16 +100,16 @@ create-onboarding-status-report.xml
 
 1. Accédez à **[!UICONTROL Analytics > Onboarding Status Report]**. Recherchez une source de données ou sélectionnez-en une dans la liste.
 
-2. Sélectionnez une période. Les options incluent :
+2. Sélectionnez une plage de dates. Les options incluent :
 
    * Ensemble d’intervalles de rapport fixes.
    * Widgets de calendrier qui vous permettent de créer une période personnalisée.
 
-3. Cliquez sur **[!UICONTROL OK]**.
+3. Cliquez sur **[!UICONTROL OK]**.
 
 ## Termes et définitions des rapports d’état d’intégration {#report-terms-conditions}
 
-Guide de référence pour les libellés et les termes utilisés dans ce rapport.
+Un guide de référence pour les libellés et les termes utilisés dans ce rapport.
 
 <table id="table_1D44A2E6B4C847848B818190DD336841"> 
  <thead> 
@@ -120,19 +120,19 @@ Guide de référence pour les libellés et les termes utilisés dans ce rapport.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Nom du fichier de synchronisation des données</b> </p> </td> 
-   <td colname="col2"> <p>Répertorie les fichiers que <span class="keyword"> Audience Manager</span> a reçus et traités de la source de données entrante que vous avez sélectionnée. </p> <p>Le traitement des fichiers échoue si le nom de fichier n’est pas correctement formaté. Les exigences en matière de nom de fichier varient selon la manière dont vous envoyez ces données à <span class="keyword"> Audience Manager</span>. Les méthodes de diffusion incluent <span class="keyword"> Amazon S3</span> et FTP. Pour plus d’informations sur le nom de vos fichiers, voir : </p> <p> 
+   <td colname="col1"> <p> <b>Nom de fichier de synchronisation des données</b> </p> </td> 
+   <td colname="col2"> <p>Répertorie les fichiers que l’ <span class="keyword"> Audience Manager</span> a reçus et traités de la source de données entrante sélectionnée. </p> <p>Le traitement des fichiers échoue si le nom de fichier n’est pas correctement formaté. Les exigences en matière de nom de fichier varient selon la manière dont vous envoyez ces données à l’ <span class="keyword"> Audience Manager</span>. Les méthodes de diffusion incluent <span class="keyword"> Amazon S3</span> et FTP. Pour plus d’informations sur le nom de vos fichiers, voir : </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Exigences en matière de nom Amazon S3 pour les fichiers de données entrants </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Erreurs de format</b> </p> </td> 
-   <td colname="col2"> <p>Répertorie le nombre d’enregistrements dont le traitement a échoué car ils ne correspondaient pas à la syntaxe ou aux exigences de formatage. Voir <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenu du fichier de données entrant : Syntaxe, variables et exemples</a> pour plus d’informations sur la manière de formater vos données. </p> </td> 
+   <td colname="col2"> <p>Répertorie le nombre d’enregistrements dont le traitement a échoué car ils ne correspondaient pas à la syntaxe ou aux exigences de formatage. Voir <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenu du fichier de données entrant : syntaxe, variables et exemples</a> pour plus d’informations sur la manière de formater vos données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>ID d’AAM non valide</b> </p> </td> 
-   <td colname="col2"> <p>Répertorie le nombre d’identifiants d’utilisateur (UUID) mal formatés <span class="keyword"> Audience Manager</span>. En règle générale, cela indique les identifiants : </p> 
+   <td colname="col2"> <p>Répertorie le nombre d'identifiants utilisateur <span class="keyword"> d'Audience Manager </span> mal formatés (UUID). En règle générale, cela indique les identifiants : </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">Ne correspondait pas au format de 38 chiffres attendu. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Contient des caractères alphabétiques. Les identifiants doivent être des nombres uniquement. </li> 
@@ -140,8 +140,8 @@ Guide de référence pour les libellés et les termes utilisés dans ce rapport.
   </tr>
 
 <tr> 
-   <td colname="col1"> <p> <b>ID de périphérique non valide</b> </p> </td> 
-   <td colname="col2"> <p>Répertorie le nombre d’identifiants d’appareils globaux mal formatés. Voir <a href="../reference/ids-in-aam.md">Index des ID en Audience Manager</a> et <a href="../features/global-data-sources.md">Sources de données globales</a> pour plus d’informations sur la manière dont les ID d’appareil doivent être formatés et sur les sources de données globales que vous devez utiliser, en fonction du type d’appareil.</p>
+   <td colname="col1"> <p> <b>ID d’appareil non valide</b> </p> </td> 
+   <td colname="col2"> <p>Répertorie le nombre d’identifiants d’appareils globaux mal formatés. Voir <a href="../reference/ids-in-aam.md">Index des identifiants en Audience Manager</a> et <a href="../features/global-data-sources.md">Sources de données globales</a> pour plus d’informations sur la manière dont les identifiants d’appareil doivent être formatés et sur les sources de données globales que vous devez utiliser, en fonction du type d’appareil.</p>
   <p>La section d’échantillonnage d’erreurs du rapport contient des informations détaillées sur les identifiants d’appareil non valides, telles que :</p>
    <ul>
     <li>L’identifiant de source de données correspondant à l’identifiant d’appareil non valide ;</li>
@@ -154,7 +154,7 @@ Guide de référence pour les libellés et les termes utilisés dans ce rapport.
 
 <tr> 
    <td colname="col1"> <p> <b>Aucun identifiant d’AAM correspondant</b> </p> </td> 
-   <td colname="col2"> <p>Il s’agit d’identifiants intégrés <span class="keyword"> que l’Audience Manager</span> ne peut pas correspondre à un identifiant existant. Les identifiants intégrés peuvent avoir cet état lorsque <span class="keyword"> l’Audience Manager</span> n’a pas encore effectué de synchronisation des identifiants ou qu’elle ne peut toujours pas correspondre à l’identifiant même après une synchronisation. </p> <p>Dans le cas d’identifiants mobiles sans correspondance, <span class="keyword"> Audience Manager</span> : </p> 
+   <td colname="col2"> <p>Il s’agit d’identifiants intégrés <span class="keyword"> et l’Audience Manager </span> ne peut pas correspondre à un identifiant existant. Les identifiants intégrés peuvent avoir cet état lorsque <span class="keyword"> Audience Manager</span> n’a pas encore effectué de synchronisation des identifiants ou qu’il ne peut toujours pas correspondre à l’identifiant même après une synchronisation. </p> <p>Dans le cas d'identifiants mobiles sans correspondance, <span class="keyword"> Audience Manager</span> : </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Continuez à stocker et à essayer de synchroniser cet identifiant. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Enregistrez-le comme <span class="wintitle"> Enregistrement stocké</span> dans le rapport si l’ID ne peut pas être synchronisé. </li> 
@@ -164,8 +164,8 @@ Guide de référence pour les libellés et les termes utilisés dans ce rapport.
    <td colname="col1"> <p> <b>Aucune caractéristique réalisée</b> </p> </td> 
    <td colname="col2"> <p>Répertorie les caractéristiques que <span class="keyword"> Audience Manager</span> ne peut pas correspondre à une caractéristique intégrée. Cela peut être le résultat de : </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">Caractéristiques mal formatées dans votre fichier de données entrant. Pour savoir comment formater votre fichier de données, voir <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenu du fichier de données entrant : Syntaxe, variables et exemples</a>. </li> 
-     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Caractéristiques qui n’ont pas encore été définies dans <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">Caractéristiques mal formatées dans votre fichier de données entrant. Pour savoir comment formater votre fichier de données, voir <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Contenu du fichier de données entrant : syntaxe, variables et exemples</a>. </li> 
+     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Caractéristiques qui n’ont pas encore été définies dans l’ <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -178,15 +178,15 @@ Guide de référence pour les libellés et les termes utilisés dans ce rapport.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Enregistrements stockés</b> </p> </td> 
-   <td colname="col2"> <p>Nombre d'enregistrements stockés avec succès. En raison d’erreurs de format de fichier, certains enregistrements reçus peuvent ne pas être stockés par <span class="keyword"> Audience Manager</span>. Le nombre d'enregistrements stockés peut être inférieur au nombre d'enregistrements reçus. </p> </td> 
+   <td colname="col2"> <p>Nombre d'enregistrements stockés avec succès. En raison d’erreurs de format de fichier, certains enregistrements reçus peuvent ne pas être stockés par l’Audience Manager <span class="keyword"></span>. Le nombre d'enregistrements stockés peut être inférieur au nombre d'enregistrements reçus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Nombre total de caractéristiques réalisées</b> </p> </td> 
-   <td colname="col2"> <p>Nombre de caractéristiques pour tous les utilisateurs dans tous les fichiers entrants stockés dans la plateforme <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p> <b>Total des caractéristiques traduites</b> </p> </td> 
+   <td colname="col2"> <p>Le nombre de caractéristiques pour tous les utilisateurs sur tous les fichiers entrants stockés dans la plateforme <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total des signaux inutilisés</b> </p> </td> 
-   <td colname="col2"> <p>Nombre total de signaux inutilisés reçus dans le rapport. Ce total est basé sur le nombre total d’enregistrements stockés avec succès. </p> <p>Voir <a href="../reporting/dynamic-reports/unused-signals.md"> Rapport Signaux inutilisés</a> pour plus d’informations. </p> </td> 
+   <td colname="col2"> <p>Nombre total de signaux inutilisés reçus dans le rapport. Ce total est basé sur le nombre total d’enregistrements stockés avec succès. </p> <p>Pour plus d’informations, voir <a href="../reporting/dynamic-reports/unused-signals.md"> Rapport de signaux inutilisés </a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

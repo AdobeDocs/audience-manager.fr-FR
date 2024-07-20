@@ -10,14 +10,14 @@ feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 3%
+source-wordcount: '1601'
+ht-degree: 2%
 
 ---
 
 # Fichiers journaux pratiques {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] vous permettent de capturer des données multimédia à partir de fichiers journaux du serveur d’annonces et d’utiliser les données pour créer des caractéristiques dans Audience Manager. Capturer les impressions, les clics et les conversions à partir des serveurs d’annonces en tant que caractéristiques sans avoir à ajouter [pixels](../../integration/media-data-integration/impression-data-pixels.md).
+[!UICONTROL Actionable Log Files] vous permet de capturer des données multimédia à partir de fichiers journaux du serveur d’annonces et d’utiliser les données pour créer des caractéristiques dans Audience Manager. Capturez les impressions, les clics et les conversions à partir des serveurs d’annonces en tant que caractéristiques sans avoir à ajouter [pixels](../../integration/media-data-integration/impression-data-pixels.md).
 
 >[!NOTE]
 >
@@ -25,17 +25,17 @@ ht-degree: 3%
 
 ## Rôle {#purpose}
 
-[!UICONTROL Actionable Log Files] rationaliser la manière dont vous capturez les impressions, les clics et les conversions à partir des serveurs d’annonces. Utilisez ces informations pour la segmentation des utilisateurs sans avoir à utiliser manuellement des supports de pixel pour envoyer des attributs de campagne à [!DNL Audience Manager].
+[!UICONTROL Actionable Log Files] rationalisez la manière dont vous capturez les impressions, les clics et les conversions à partir des serveurs d’annonces. Utilisez ces informations pour la segmentation des utilisateurs sans avoir à envoyer manuellement des médias pixels pour envoyer des attributs de campagne à [!DNL Audience Manager].
 
 ## Prise en main {#getting-started}
 
-Pour commencer à utiliser [!UICONTROL Actionable Log Files], vous devez importer des données de journal dans [!DNL Audience Manager]. Les liens suivants vous aideront à démarrer :
+Pour commencer avec [!UICONTROL Actionable Log Files], vous devez importer les données de journal dans [!DNL Audience Manager]. Les liens suivants vous aideront à démarrer :
 
-* Pour [!UICONTROL Google Campaign Manager] journaux, voir [Importation des fichiers de données Google Campaign Manager dans Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *et* contactez votre [!DNL Audience Manager] consultant.
-* Pour [!UICONTROL Google Ad Manager] (anciennement Google DFP), voir [Importation de fichiers de données Google Ad Manager dans Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *et* contactez votre [!DNL Audience Manager] consultant.
-* Pour consulter d’autres journaux de serveur d’annonces, voir [Fichiers de données et de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *et* contactez votre [!DNL Audience Manager] consultant.
+* Pour les [!UICONTROL Google Campaign Manager] journaux, reportez-vous à la section [ Importation de fichiers de données du gestionnaire de campagne Google dans l’Audience Manager ](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *et* contactez votre consultant [!DNL Audience Manager].
+* Pour les [!UICONTROL Google Ad Manager] journaux (anciennement Google DFP), reportez-vous à la section [Importation de fichiers de données Google Ad Manager dans l’Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *et* contactez votre consultant [!DNL Audience Manager].
+* Pour consulter d’autres journaux de serveur d’annonces, reportez-vous à la section [Fichiers de données et de métadonnées](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *et* contactez votre consultant [!DNL Audience Manager].
 
-Si vous importez déjà des données de journal dans [!DNL Audience Manager], demandez à [!DNL Audience Manager] consultant ou [Assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) pour activer [!UICONTROL Actionable Log Files] pour vous.
+Si vous importez déjà des données de journal dans [!DNL Audience Manager], demandez à votre [!DNL Audience Manager] consultant ou à l&#39;[assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) d&#39;activer [!UICONTROL Actionable Log Files] pour vous.
 
 <!--
 
@@ -47,33 +47,32 @@ Si vous importez déjà des données de journal dans [!DNL Audience Manager], de
 
 ## Utilisation de fichiers journaux pratiques {#working-with-actionable-log-files}
 
-Avec [!UICONTROL Actionable Log Files], les informations des journaux du serveur de publicités sont capturées dans [!DNL Audience Manager] de la même manière que vous capturez des données à partir d’interactions web en temps réel. [!DNL Audience Manager] se connecte à votre stockage de journaux de serveur d’annonces, analyse les informations des journaux et envoie les données de journaux sous forme de signaux pratiques à notre [Serveurs de collecte de données](../../reference/system-components/components-data-collection.md#dcs-pcs).
+Avec [!UICONTROL Actionable Log Files], les informations des journaux du serveur de publicités sont capturées dans [!DNL Audience Manager] de la même manière que vous le feriez pour capturer des données provenant d’interactions web en temps réel. [!DNL Audience Manager] se connecte à votre stockage de journaux de serveur de publicités, analyse les informations des journaux et envoie les données de journal sous forme de signaux exploitables à nos [ serveurs de collecte de données](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-Vous devez toujours configurer des caractéristiques basées sur des règles pour capturer les signaux exploitables. Découvrez comment configurer des caractéristiques basées sur des règles dans le [Interface utilisateur de l’Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ou en utilisant notre [Outils de gestion en bloc](../../reference/bulk-management-tools/bulk-create.md). Faites défiler l’écran vers le bas jusqu’à [Signaux pratiques](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) pour obtenir une liste de toutes les clés que vous pouvez utiliser dans les caractéristiques basées sur des règles.
+Vous devez toujours configurer des caractéristiques basées sur des règles pour capturer les signaux exploitables. Découvrez comment configurer des caractéristiques basées sur des règles dans l’ [interface utilisateur d’Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ou à l’aide de nos [outils de gestion en bloc](../../reference/bulk-management-tools/bulk-create.md). Faites défiler l’écran jusqu’à la section [Signaux actifs](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) pour obtenir la liste de toutes les clés que vous pouvez utiliser dans les caractéristiques basées sur des règles.
 
 >[!IMPORTANT]
 >
->Nous vous recommandons de mettre en oeuvre [!UICONTROL Actionable Log Files] *au lieu de*  [Appels de pixel](../../integration/media-data-integration/impression-data-pixels.md). Nous décourageons l’utilisation des deux options, car cela entraîne une augmentation du nombre de fréquences pour les caractéristiques.
+>Nous vous recommandons d’implémenter [!UICONTROL Actionable Log Files] *au lieu des* [appels de pixel](../../integration/media-data-integration/impression-data-pixels.md). Nous décourageons l’utilisation des deux options, car cela entraîne une augmentation du nombre de fréquences pour les caractéristiques.
 
 ## Signaux pratiques {#actionable-signals}
 
-Les signaux sont les [unités de données les plus petites](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] vous permettent de capturer des valeurs d’annonceur, d’unité opérationnelle, de créatif et de campagne dans des événements d’impression, des événements de clic et des événements de conversion en tant que signaux provenant de journaux de serveur d’annonces.
+Les signaux sont les [ plus petites unités de données](../../reference/signal-trait-segment.md) de [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] vous permet de capturer des valeurs d’annonceur, d’unité opérationnelle, de créatif et de campagne dans des événements d’impression, des événements de clic et des événements de conversion comme signaux provenant des journaux du serveur de publicités.
 
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] sont pris en charge pour les serveurs d’annonces suivants :
 > <br>
 >
-> * [Google Campaign Manager](#dcm-logs-signals)
+> * [Gestionnaire de campagnes Google](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashtalking et Sizmek](#generic-logs-signals)
-
 
 N’oubliez pas que pour utiliser ces informations pour la création et la segmentation d’audiences, vous devez configurer vous-même les caractéristiques basées sur des règles.
 
 ### Signaux pratiques à partir des journaux de Google Campaign Manager {#dcm-logs-signals}
 
-Le tableau répertorie les signaux exploitables provenant de [!DNL Google Campaign Manager] fichiers journaux :
+Le tableau répertorie les signaux exploitables provenant des fichiers journaux [!DNL Google Campaign Manager] :
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -88,7 +87,7 @@ Le tableau répertorie les signaux exploitables provenant de [!DNL Google Campai
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Représente l’identifiant numérique de l’activité de conversion dans Google Campaign Manager. Ce champ correspond à l’ID d’activité du Gestionnaire de campagnes Google. </p> <p> <p>Conseil : Vous pouvez capturer plusieurs activités de conversion ou des activités spécifiques à partir du Gestionnaire de campagnes Google. Création de caractéristiques à l’aide de <code> d_conversion = activity ID</code> pour chaque activité de conversion depuis Google Campaign Manager. </p> </p> </td> 
+   <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Représente l’identifiant numérique de l’activité de conversion dans Google Campaign Manager. Ce champ correspond à l’ID d’activité du Gestionnaire de campagnes Google. </p> <p> <p>Conseil : Vous pouvez capturer plusieurs activités de conversion ou des activités spécifiques à partir du Gestionnaire de campagnes Google. Créez des caractéristiques à l’aide de <code> d_conversion = activity ID</code> pour chaque activité de conversion à partir du Gestionnaire de campagnes Google. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -96,8 +95,8 @@ Le tableau répertorie les signaux exploitables provenant de [!DNL Google Campai
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
    <td colname="col3"> <p>Disponible uniquement pour les événements de conversion. </p> <p>Ce champ correspond à l’ID de conversion dans le Gestionnaire de campagnes Google. Indique l’activité précédant la conversion de l’utilisateur à partir du Gestionnaire de campagnes Google. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
-      <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> pour les conversions après clic. </li> 
-      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> pour les conversions après impression. </li> 
+      <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> pour les conversions post-clic. </li> 
+      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> pour les conversions post-impression. </li> 
       <li id="li_81007A984F554932AC3354E41A42D57B"> <code> 0</code> pour les conversions sans correspondance. La conversion ne peut pas être mise en correspondance avec une activité précédente. </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> <code> 0,1,2</code> </p> </td> 
@@ -105,7 +104,7 @@ Le tableau répertorie les signaux exploitables provenant de [!DNL Google Campai
    <tr> 
    <td colname="col1"> <p> <code>Event Time</code> </p> </td> 
    <td colname="col2"> <p><code>d_time</code> </p> </td> 
-   <td colname="col3">Date et heure UTC de l’événement d’impression, de clic ou de conversion. Représenté en microsecondes depuis 1970-01-01 00:00:00 UTC.</td> 
+   <td colname="col3">Date et heure UTC de l’événement d’impression, de clic ou de conversion. Représenté en microsecondes depuis le 1970-01-01 00:00:00 UTC.</td> 
    <td colname="col4"> <p> <code>1570826763000</code> </p> </td> 
   </tr> 
   <tr> 
@@ -152,19 +151,19 @@ Le tableau répertorie les signaux exploitables provenant de [!DNL Google Campai
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>L’identifiant de la source de données que vous utilisez pour capturer les données du Gestionnaire de campagnes Google. Voir <a href="../../features/manage-datasources.md#create-data-source"> Création d’une source de données</a>. </p> </td> 
+   <td colname="col3"> <p>L’identifiant de la source de données que vous utilisez pour capturer les données du Gestionnaire de campagnes Google. Voir <a href="../../features/manage-datasources.md#create-data-source"> Comment créer un Source de données</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-Les signaux décrits dans le tableau sont capturés dans [!DNL Audience Manager] comme un temps réel `HTTP` appelez . L’exemple d’appel ci-dessous contient des informations sur un événement de conversion en provenance de [!DNL Google Campaign Manager]. Les appels ne doivent pas nécessairement inclure *all* les signaux de l’exemple d’appel.
+Les signaux décrits dans la table sont capturés dans [!DNL Audience Manager] comme un appel `HTTP` en temps réel. L’exemple d’appel ci-dessous contient des informations sur un événement de conversion de [!DNL Google Campaign Manager]. Les appels ne doivent pas nécessairement inclure *all* les signaux dans l’exemple d’appel.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-Pour une taille moyenne [!DNL Google Campaign Manager] fichier journal de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées environ une heure après le traitement des logs.
+Pour un fichier journal de taille moyenne de 2 millions de lignes, toutes les caractéristiques créées à partir de signaux exploitables sont réalisées environ une heure après le traitement des journaux.[!DNL Google Campaign Manager]
 
 <!--
 Removed  {importance="high"} for ExL
@@ -172,17 +171,16 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->L’horodatage de l’événement fourni dans la variable [!DNL Google Campaign Manager] les journaux seront honorés et transmis au [!UICONTROL Data Collection Servers].
+>L’horodatage de l’événement fourni dans les journaux [!DNL Google Campaign Manager] sera respecté et transmis à [!UICONTROL Data Collection Servers].
 >
->* Si aucun horodatage n’est disponible pour une ligne de données dans la variable [!DNL Google Campaign Manager] fichier journal, nous utilisons l’heure de la variable `HTTP` comme horodatage de l’événement.
->* Si la ligne de données de la variable [!DNL Google Campaign Manager] Le fichier journal contient un horodatage incorrect. Nous ignorons la ligne entière.
-
+>* Si aucun horodatage n’est disponible pour une ligne de données dans le fichier journal [!DNL Google Campaign Manager], nous utilisons l’heure de l’appel `HTTP` comme horodatage de l’événement.
+>* Si la ligne de données du fichier journal [!DNL Google Campaign Manager] contient un horodatage incorrect, nous ignorons la ligne entière.
 
 <br> 
 
-### Signaux pratiques de [!DNL Google Ad Manager] logs {#ad-manager-logs-signals}
+### Signaux pratiques à partir des journaux [!DNL Google Ad Manager] {#ad-manager-logs-signals}
 
-Le tableau répertorie les signaux exploitables provenant de [!DNL Google Ad Manager] fichiers journaux :
+Le tableau répertorie les signaux exploitables provenant des fichiers journaux [!DNL Google Ad Manager] :
 
 
 | Nom de l’en-tête dans le fichier journal | Signal | Description |
@@ -190,8 +188,8 @@ Le tableau répertorie les signaux exploitables provenant de [!DNL Google Ad Man
 | `LineItemId` | `d_lineitem` | Identifiant numérique pour l’élément de ligne Ad Manager diffusé. |
 | `OrderId` | `d_orderid` | Identifiant numérique de la commande du gestionnaire d’annonces qui contenait l’élément de ligne diffusé et le contenu créatif. |
 | `CreativeId` | `d_creative` | Identifiant numérique pour le créatif Ad Manager diffusé. |
-| `-` | `d_event` | Indique le type d’événement. L’Audience Manager lit le type d’événement à partir du nom du fichier journal du gestionnaire d’annonces publicitaires et le transforme en signal exploitable. Les valeurs acceptées sont les suivantes : <br> <ul><li>d_event = imp pour les impressions.</li><li>d_event = clic pour les clics.</li><li>d_event = conv pour les conversions et les activités.</li></ul> |
-| `-` | `d_src` | L’identifiant de la source de données que vous utilisez pour capturer les données Ad Manager. Voir [Création d’une source de données](/help/using/features/manage-datasources.md). |
+| `-` | `d_event` | Indique le type d’événement. L’Audience Manager lit le type d’événement à partir du nom du fichier journal du gestionnaire d’annonces publicitaires et le transforme en signal exploitable. Les valeurs acceptées sont : <br> <ul><li>d_event = imp pour les impressions.</li><li>d_event = clic pour les clics.</li><li>d_event = conv pour les conversions et les activités.</li></ul> |
+| `-` | `d_src` | L’identifiant de la source de données que vous utilisez pour capturer les données Ad Manager. Voir [Création d’un Source de données](/help/using/features/manage-datasources.md). |
 
 Les signaux décrits dans le tableau sont capturés en Audience Manager comme un appel HTTP en temps réel. L’exemple d’appel ci-dessous contient des informations sur un événement de conversion de Google Ad Manager. Les appels ne doivent pas nécessairement inclure tous les signaux dans l’exemple d’appel.
 
@@ -201,18 +199,17 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 >[!NOTE]
 >
->L’horodatage de l’événement fourni dans la variable [!DNL Google Ad Manager] les journaux seront honorés et transmis au [!UICONTROL Data Collection Servers].
+>L’horodatage de l’événement fourni dans les journaux [!DNL Google Ad Manager] sera respecté et transmis à [!UICONTROL Data Collection Servers].
 >
 >
->* Si aucun horodatage n’est disponible pour une ligne de données dans la variable [!DNL Google Ad Manager] fichier journal, nous utilisons l’heure de la variable `HTTP` comme horodatage de l’événement.
->* Si la ligne de données de la variable [!DNL Google Ad Manager] Le fichier journal contient un horodatage incorrect. Nous ignorons la ligne entière.
-
+>* Si aucun horodatage n’est disponible pour une ligne de données dans le fichier journal [!DNL Google Ad Manager], nous utilisons l’heure de l’appel `HTTP` comme horodatage de l’événement.
+>* Si la ligne de données du fichier journal [!DNL Google Ad Manager] contient un horodatage incorrect, nous ignorons la ligne entière.
 
 <br> 
 
 ### Signaux pratiques à partir des journaux de Adobe Advertising Cloud, Flashtalking et du serveur d’annonces Sizmek {#generic-logs-signals}
 
-Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans nos compartiments Amazon S3. Pour ce faire, lisez [Fichiers de données pour les rapports d’Audience Optimization et les fichiers journaux pratiques](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *et* contactez votre [!DNL Audience Manager] consultant. Le tableau répertorie les signaux exploitables provenant des fichiers journaux du serveur de publicités :
+Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans nos compartiments Amazon S3. Pour ce faire, lisez [Fichiers de données pour les rapports d’Audience Optimization et les fichiers journaux pratiques](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *et* contactez votre consultant [!DNL Audience Manager]. Le tableau répertorie les signaux exploitables provenant des fichiers journaux du serveur de publicités :
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -230,7 +227,7 @@ Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans no
    <td colname="col3"> <p>Indique si une conversion correspond ou non. Les options incluent : </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 0</code> Impression </li> 
-      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 1</code> Cliquez sur </li> 
+      <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 1</code> Click </li> 
       <li id="li_81007A984F554932AC3354E41A42D57B"> <code> -1</code> Non attribué ou inconnu </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> <code> 0,1,-1</code> </p> </td> 
@@ -238,13 +235,13 @@ Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans no
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Date et heure UTC de l’événement d’impression, de clic ou de conversion. Utilisez la variable <code>yyyy-MM-dd HH:mm:ss</code> format. </p></td> 
+   <td colname="col3"> <p> Date et heure UTC de l’événement d’impression, de clic ou de conversion. Utilisez le format <code>yyyy-MM-dd HH:mm:ss</code> . </p></td> 
    <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Code d’intégration de la source de données de votre annonceur. Notez que ce champ n’est pas lié à <a href="../../features/datasources-list-and-settings.md">Audience Manager de sources de données.</a></p></td> 
+   <td colname="col3"> <p>Code d’intégration de la source de données de votre annonceur. Notez que ce champ n’est pas lié aux <a href="../../features/datasources-list-and-settings.md">sources de données d’Audience Manager.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -274,7 +271,7 @@ Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans no
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indique le type d’événement. L’Audience Manager lit le type d’événement à partir du nom du fichier journal et le transforme en signal exploitable. Voir <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">conventions de dénomination des fichiers journaux</a>. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
+   <td colname="col3"> <p>Indique le type d’événement. L’Audience Manager lit le type d’événement à partir du nom du fichier journal et le transforme en signal exploitable. Voir <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions"> conventions d’appellation des fichiers journaux </a>. </p> <p>Les valeurs acceptées sont les suivantes : </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> pour les impressions. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> pour les clics. </li> 
@@ -285,13 +282,13 @@ Tout d’abord, vous devez déposer vos journaux de serveur d’annonces dans no
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>L’identifiant de la source de données que vous utilisez pour capturer les données de journal. Voir <a href="../../features/manage-datasources.md#create-data-source"> Création d’une source de données</a>. </p> </td> 
+   <td colname="col3"> <p>L’identifiant de la source de données que vous utilisez pour capturer les données de journal. Voir <a href="../../features/manage-datasources.md#create-data-source"> Comment créer un Source de données</a>. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-Les signaux décrits dans le tableau sont capturés dans [!DNL Audience Manager] comme un temps réel `HTTP` appelez . Les appels ne doivent pas nécessairement inclure *all* les signaux de l’exemple d’appel.
+Les signaux décrits dans la table sont capturés dans [!DNL Audience Manager] comme un appel `HTTP` en temps réel. Les appels ne doivent pas nécessairement inclure *all* les signaux dans l’exemple d’appel.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
@@ -299,53 +296,52 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Utilisation de signaux pratiques dans l’interface utilisateur de l’Audience Manager {#actionable-signals-in-ui}
 
-Vous pouvez afficher vos signaux activables entrants dans la variable [Recherche de signaux](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) .
+Vous pouvez afficher vos signaux activables entrants dans l’interface [Recherche de signaux](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md).
 
-Accédez à **Données d’audience** (1) > **Signaux** (2) > **Rechercher** (3) et sélectionnez la variable **Fichiers journaux pratiques** (4).
+Accédez à **Audience Data** (1) > **Signals** (2) > **Search** (3) et sélectionnez le filtre **Actionable Log Files** (4).
 
-![Signaux pratiques dans l’interface utilisateur](/help/using/integration/assets/alf-in-signals.png)
+![Signaux actifs dans l’interface utilisateur](/help/using/integration/assets/alf-in-signals.png)
 
-Pour créer des caractéristiques basées sur des règles à l’aide de vos signaux exploitables, sélectionnez **Fichiers journaux pratiques** (1), sélectionnez les signaux exploitables que vous souhaitez utiliser comme règles de caractéristiques (2), puis appuyez sur **Création d’une caractéristique à partir de signaux sélectionnés** (3).
+Pour créer des caractéristiques basées sur des règles à l’aide de vos signaux exploitables, sélectionnez **Fichiers journaux pratiques** (1), sélectionnez les signaux exploitables que vous souhaitez utiliser comme règles de caractéristiques (2), puis appuyez sur **Créer une caractéristique à partir de signaux sélectionnés** (3).
 
-![Création de caractéristiques à partir de signaux](/help/using/integration/assets/alf-create-trait.png)
+![Créer des caractéristiques à partir de signaux](/help/using/integration/assets/alf-create-trait.png)
 
 
 ## Cas d’utilisation {#use-cases}
 
-Un avantage de la mise en oeuvre [!UICONTROL Actionable Log Files] est l’option à appliquer [récence et fréquence](../../features/segments/recency-and-frequency.md) contrôle de n’importe quel [caractéristiques basées sur des règles](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) qui contiennent des signaux exploitables. Cela vous permet, par exemple, de limiter la fréquence à laquelle un utilisateur voit apparaître un élément créatif particulier dans une campagne multimédia. Lecture [Suppression instantanée inter-périphérique](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) pour apprendre à le faire. Voici d’autres cas pratiques :
+L’un des avantages de l’implémentation de [!UICONTROL Actionable Log Files] est l’option d’application des contrôles [récence et fréquence](../../features/segments/recency-and-frequency.md) à toutes les [ caractéristiques basées sur des règles ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) qui contiennent des signaux exploitables. Cela vous permet, par exemple, de limiter la fréquence à laquelle un utilisateur voit apparaître un élément créatif particulier dans une campagne multimédia. Lisez la section [Suppression instantanée multi-appareils](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) pour apprendre à le faire. Voici d’autres cas pratiques :
 
 ### Utilisateurs de Reciblage
 
 Reciblez les utilisateurs qui ont vu creative 123 mais n’ont pas cliqué ni converti et leur ont présenté creative 456. Procédez comme suit :
 
-1. Créez une caractéristique pour capturer les utilisateurs qui ont vu le contenu créatif. Disons que vous nommez le trait [!DNL Creative Trait 123]. Utilisez la règle de caractéristique :
+1. Créez une caractéristique pour capturer les utilisateurs qui ont vu le contenu créatif. Supposons que vous nommiez la caractéristique [!DNL Creative Trait 123]. Utilisez la règle de caractéristique :
 
    `d_creative == 123 AND d_event == imp`
 
-2. Créez une caractéristique pour capturer les utilisateurs qui cliquent ou convertissent. Disons que vous nommez celui-ci. [!DNL Click and Converter]. Utilisez la règle de caractéristique :
+2. Créez une caractéristique pour capturer les utilisateurs qui cliquent ou convertissent. Disons que vous nommez celui-ci [!DNL Click and Converter]. Utilisez la règle de caractéristique :
 
    `d_event == click OR d_event=conv`
 
-3. Créez un segment à remplir avec les utilisateurs qui ont vu creative 123 mais n’ont pas cliqué ni converti. Nommez-le [!DNL Retarget Users] et utilisez la règle de segment :
+3. Créez un segment à remplir avec les utilisateurs qui ont vu creative 123 mais n’ont ni cliqué ni converti. Nommez-le [!DNL Retarget Users] et utilisez la règle de segment :
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-4. Mappage du segment [!DNL Retarget Users] à une destination et ciblez les utilisateurs dans la destination avec creative 456.
+4. Faites correspondre le segment [!DNL Retarget Users] à une destination et ciblez les utilisateurs dans la destination avec creative 456.
 
 ### Utilisation de l’activité Floodlight de Google Campaign Manager dans les rapports d’Audience Optimization ou dans Audience Lab
 
-[Balises Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permettre aux annonceurs de suivre les conversions des utilisateurs. Avec [!UICONTROL Actionable Log Files], vous pouvez effectuer le suivi de la variable [!DNL Google Campaign Manager] conversions dans le [Rapports sur les Audiences Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md) ou [Audience Lab](../../features/audience-lab/audience-lab.md):
+[Les balises Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permettent aux annonceurs de suivre les conversions des utilisateurs. Avec [!UICONTROL Actionable Log Files], vous pouvez effectuer le suivi des conversions [!DNL Google Campaign Manager] dans les [ rapports d’Audience Optimization ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) ou dans [Audience Lab](../../features/audience-lab/audience-lab.md) :
 
 1. Créez une caractéristique et utilisez la règle de caractéristique suivante pour capturer une conversion à partir des journaux du serveur d’annonces :
 
    `d_event == conv AND d_conversion == 123`
 
-   Lors de la création de la caractéristique dans l’Audience Manager [!UICONTROL UI], sélectionnez [!UICONTROL Conversion] comme la propriété [!UICONTROL Event Type].
+   Lors de la création de la caractéristique dans l’Audience Manager [!UICONTROL UI], sélectionnez [!UICONTROL Conversion] comme [!UICONTROL Event Type].
 
-2. Une fois que vous avez créé la caractéristique, la conversion commence à faire l’objet d’un rapport dans la variable [!UICONTROL Audience Optimization Reports] et dans [!UICONTROL Audience Lab].
+2. Une fois que vous avez créé la caractéristique, la conversion commencera à être signalée dans les [!UICONTROL Audience Optimization Reports] et dans [!UICONTROL Audience Lab].
 
 >[!MORELIKETHIS]
 >
->* [Importation des fichiers de données Google Campaign Manager dans Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Importer des fichiers de données Google Campaign Manager en Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Rapports d’Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
-

@@ -1,16 +1,16 @@
 ---
 description: Chaque fois qu’un fichier entrant de serveur à serveur est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s’il est configuré, au partenaire.
-seo-description: Chaque fois qu’un fichier entrant de serveur à serveur est traité, un reçu est envoyé par courrier électronique aux solutions partenaires et, s’il est configuré, au partenaire.
-seo-title: Message d’exemple aux partenaires après le traitement entrant
+seo-description: Whenever an inbound Server-to-Server file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
+seo-title: Sample Message to Partners after Inbound Processing
 solution: Audience Manager
 title: Message d’exemple aux partenaires après le traitement entrant
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
-feature: Transferts des données entrantes
+feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 3%
+source-wordcount: '636'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ L’exemple suivant est un exemple de message électronique. Le tableau ci-desso
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>De : aam-noreply@adobe.com  </b> </p> <p> <b>Objet : Adobe Audience Manager Server-To-Server Processing Result :</b> </p> <p> <b>Cher partenaire Adobe : (ID:7)</b> <b></b> </p> <p> <b>Nous avons reçu votre diffusion de fichier de serveur à serveur Adobe Audience Manager.</b> </p> <p> <b>Nom du fichier :</b> <i></i> </p> <p> <b> s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;nom_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Enregistrements reçus : 40669900</b> </p> <p><b>Erreurs de format : 0</b> </p> <p> <b>ID AAM non valide : 112  </b> </p> <p> <b>Aucun identifiant d’AAM correspondant : 0  </b> </p> <p> <b>Aucune caractéristique réalisée : 26730823  </b> </p> <p> <b>Enregistrements traités : 40669900  </b> </p> <p> <b>Enregistrements stockés : 13938958  </b> </p> <p> <b>Nombre total d’appareils : 21  </b> </p> <p> <b>Signaux totaux : 918878926  </b> </p> <p> <b>Nombre total de signaux inutilisés : 660348376  </b> </p> <p> <b>Nombre total de caractéristiques réalisées : 258086908  </b> </p> <p> <b>Nombre total de caractéristiques supprimées : 0  </b> </p> <p> <b>Échec de la validation du nombre total de caractéristiques : 0  </b> </p> <p> <b>Nombre total d’utilisateurs qui ont des caractéristiques dont la validation a échoué : 0  </b> </p> <p> <b>Heure de début de la tâche : 2018-05-17 18:07:49  </b> </p> <p> <b>Heure de fin de la tâche : 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>De : aam-noreply@adobe.com </b> </p> <p> <b>Objet : Résultat de traitement de serveur à serveur Adobe Audience Manager :</b> </p> <p> <b>Cher partenaire en Adobe : (ID:7)</b> <b></b> </p> <p> <b>Nous avons reçu votre diffusion de fichier de serveur à serveur Adobe Audience Manager</b> </p> <p> <b>Nom de fichier :</b> <i></i> </p> <p> <b> s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>nom_du_compartiment&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Enregistrements reçus : 40669900</b> </p> <p><b>Erreurs de format : 0</b> </p> <p> <b>ID d’AAM non valide : 112 </b> </p> <p> <b>Aucun identifiant d’AAM correspondant : 0 </b> </p> <p> <b>Aucune caractéristique réalisée : 26730823 </b> </p> <p> <b>Enregistrements traités : 40669900 </b> </p> <p> <b>Enregistrements stockés : 13938958 </b> </p> <p> <b>Nombre total d'appareils : 21 </b> </p> <p> <b>Signaux totaux : 918878926 </b> </p> <p> <b>Nombre total de signaux inutilisés : 660348376 </b> </p> <p> <b>Nombre total de caractéristiques réalisées : 258086908 </b> </p> <p> <b>Nombre total de caractéristiques supprimées : 0 </b> </p> <p> <b>Nombre total de caractéristiques non validées : 0 </b> </p> <p> <b>Nombre total d’utilisateurs ayant des caractéristiques dont la validation a échoué : 0 </b> </p> <p> <b>Heure de début de la tâche : 2018-05-17 18:07:49 </b> </p> <p> <b>Heure de fin de la tâche : 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,7 @@ Le tableau suivant contient les lignes correspondant aux lignes du message élec
   </tr> 
   <tr> 
    <td colname="col1"> Enregistrements traités </td> 
-   <td colname="col2"> <p>Nombre total d'enregistrements traités dans l'Audience Manager. Dans la plupart des cas, ce nombre doit être identique à "Enregistrements reçus". </p> </td> 
+   <td colname="col2"> <p>Nombre total d'enregistrements traités lors de l'Audience Manager. Dans la plupart des cas, ce nombre doit être identique à "Enregistrements reçus". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Enregistrements stockés </td> 

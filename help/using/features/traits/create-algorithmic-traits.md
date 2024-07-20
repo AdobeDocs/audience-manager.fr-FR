@@ -1,16 +1,16 @@
 ---
 description: Décrit les étapes et les fonctionnalités de configuration uniques au processus de création de caractéristiques algorithmiques.
-seo-description: Décrit les étapes et les fonctionnalités de configuration uniques au processus de création de caractéristiques algorithmiques.
-seo-title: Création de caractéristiques algorithmiques
+seo-description: Describes set up steps and features unique to the algorithmic trait creation process.
+seo-title: Create Algorithmic Traits
 solution: Audience Manager
 title: Création de caractéristiques algorithmiques
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
-feature: 'Caractéristiques '
+feature: Traits
 exl-id: dc799688-e38b-469b-bc55-507df0d28f43
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 1%
 
 ---
 
@@ -33,15 +33,15 @@ L’ajout du modèle expose les paramètres de portée et de précision.
 
 ## Paramètres de configuration des caractéristiques algorithmiques {#configure-settings}
 
-Dans [!UICONTROL Trait Builder], la section [!UICONTROL Configuration] permet d’associer un modèle algorithmique à une caractéristique. Pour terminer le processus de création de caractéristiques algorithmiques, sélectionnez un modèle et choisissez un objectif de portée ou de précision.
+Dans [!UICONTROL Trait Builder], la section [!UICONTROL Configuration] vous permet d’associer un modèle algorithmique à une caractéristique. Pour terminer le processus de création de caractéristiques algorithmiques, sélectionnez un modèle et choisissez un objectif de portée ou de précision.
 
 ### Conditions préalables
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Création d’un modèle analogue](../../features/algorithmic-models/create-model.md).
+* [Créez un modèle analogue](../../features/algorithmic-models/create-model.md).
 * Attendez que l’email de notification qui vous permet de savoir que l’exécution des données du modèle est terminée.
-* Renseignez les champs obligatoires de la section [Informations de base](../../features/traits/create-onboarded-rule-based-traits.md) .
+* Renseignez les champs obligatoires de la section [Informations de base](../../features/traits/create-onboarded-rule-based-traits.md).
 
 ### Champs et paramètres de configuration
 
@@ -55,4 +55,3 @@ Dans [!UICONTROL Trait Builder], la section [!UICONTROL Configuration] permet d�
 >[!MORELIKETHIS]
 >
 >* [Précision et portée](../../features/traits/trait-accuracy-reach.md)
-

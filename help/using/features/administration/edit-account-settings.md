@@ -1,7 +1,7 @@
 ---
 description: Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
-seo-description: Les utilisateurs non-administrateurs peuvent modifier leurs propres profils, y compris modifier leurs adresses électroniques et réinitialiser leurs mots de passe.
-seo-title: Modification des paramètres de votre compte
+seo-description: Non-admin users can edit their own profiles, including changing their email addresses and resetting their passwords.
+seo-title: Edit Your Account Settings
 solution: Audience Manager
 title: Modification des paramètres de votre compte
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
@@ -9,8 +9,8 @@ feature: Administration
 exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 7%
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Les utilisateurs administrateurs peuvent créer des utilisateurs et les ajouter 
 1. Dans le champ **[!UICONTROL Email Address]** , indiquez votre nouvelle adresse électronique, si nécessaire. L’Audience Manager n’envoie pas de notification régulière aux utilisateurs. Les administrateurs d’Audience Manager ont accès aux adresses électroniques des utilisateurs et peuvent envoyer manuellement des adresses électroniques aux utilisateurs, si nécessaire. Par exemple, si un utilisateur oublie son mot de passe, l’adresse électronique indiquée dans ce champ est utilisée pour envoyer un mot de passe temporaire et des instructions pour réinitialiser le mot de passe.
 1. Pour réinitialiser votre mot de passe, indiquez le nouveau mot de passe, puis confirmez le nouveau mot de passe.
 Voir aussi [Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés](../../reference/password-requirements.md).
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Save]**.

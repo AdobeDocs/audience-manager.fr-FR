@@ -1,16 +1,16 @@
 ---
 description: Décrit les champs, la syntaxe et les conventions d’appellation requis utilisés pour la synchronisation des identifiants basée sur les fichiers. Nommez et organisez le contenu de vos fichiers en fonction de ces spécifications.
-seo-description: Décrit les champs, la syntaxe et les conventions d’appellation requis utilisés pour la synchronisation des identifiants basée sur les fichiers. Nommez et organisez le contenu de vos fichiers en fonction de ces spécifications.
-seo-title: Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants
+seo-description: Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
+seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
 title: Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: Transferts des données entrantes
+feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 6%
+source-wordcount: '782'
+ht-degree: 3%
 
 ---
 
@@ -85,7 +85,7 @@ Les exemples suivants présentent des noms de fichiers correctement formatés. V
 </ul>
 
 >[!NOTE]
-> Pour l’attribution d’un nom de fichier de synchronisation des identifiants (préfixe c2c) pour les destinations basées sur les personnes, voir [Processus A - Personnalisation basée sur toutes les activités en ligne combinées avec les données hors ligne](../../../features/destinations/people-based-destinations-workflow-combined.md) ou [Processus B - Personnalisation basée sur les données hors ligne uniquement](../../../features/destinations/people-based-destinations-workflow-offline.md).
+> Pour l’affectation de nom de fichier de synchronisation des identifiants (préfixe c2c) pour les destinations basées sur les personnes, voir [Workflow A - Personalization basé sur toutes les activités en ligne combinées avec les données hors ligne](../../../features/destinations/people-based-destinations-workflow-combined.md) ou [Workflow B - Personalization basé sur les données hors ligne uniquement](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## Syntaxe du contenu du fichier et exemples {#file-content-syntax}
 
@@ -101,7 +101,7 @@ abc123 def456 ghi789 xyz987
 
 ### Considérations sur le contenu des fichiers {#considerations}
 
-Lors de la création de vos fichiers entrants, assurez-vous que la première colonne est uniquement remplie avec les identifiants d’appareil, tels que [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], etc. Voir [Index des ID en Audience Manager](../../../reference/ids-in-aam.md) pour une explication détaillée des ID pris en charge par l’Audience Manager.
+Lors de la création de vos fichiers entrants, assurez-vous que la première colonne est uniquement remplie avec les identifiants d’appareil, tels que [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], etc. Pour obtenir une explication détaillée des ID pris en charge par l’Audience Manager, reportez-vous à la section [Index des ID en Audience Manager](../../../reference/ids-in-aam.md) .
 
 >[!IMPORTANT]
 >
@@ -109,17 +109,17 @@ Lors de la création de vos fichiers entrants, assurez-vous que la première col
 
 ## La synchronisation correspond aux DPUUID vers les UUID {#sync-matches-dpuuids-uuids}
 
-Un fichier de synchronisation des identifiants a pour objectif de synchroniser les [DPUUIDs](../../../reference/ids-in-aam.md) de vos propres sources de données avec les [!DNL Audience Manager] UUID. La synchronisation mappe les [!DNL DPUUID]s du [!DNL DPID] maître et les [!DNL DPID]s associés aux [!DNL Audience Manager] [!DNL UUID]s. L’emplacement où vous placez les identifiants dans le nom de fichier et le corps détermine la façon dont ces identifiants sont mappés les uns aux autres. Par exemple, prenez les deux fichiers d’exemple présentés ici :
+Un fichier de synchronisation des identifiants a pour but de synchroniser les [DPUUIDs](../../../reference/ids-in-aam.md) de vos propres sources de données avec les [!DNL Audience Manager] UUIDs. La synchronisation mappe les [!DNL DPUUID] du maître [!DNL DPID] et des [!DNL DPID] associés aux [!DNL Audience Manager] [!DNL UUID]. L’emplacement où vous placez les identifiants dans le nom de fichier et le corps détermine la façon dont ces identifiants sont mappés les uns aux autres. Par exemple, prenez les deux fichiers d’exemple présentés ici :
 
 * **Fichier 1 :** `adobe_id_0_12345_1476312152.sync`
 
-* **Fichier 2 :**  `adobe_id_12345_67890_1476312876.sync`
+* **Fichier 2 :** `adobe_id_12345_67890_1476312876.sync`
 
 <br/>
 
 Compte tenu de l’exemple de nom et de contenu, les identifiants sont mappés comme suit :
 
-**Fichier 1**  (  [Télécharger un exemple de fichier](assets/adobe_id_0_12345_1476312152.sync))
+**Fichier 1** ( [Télécharger un exemple de fichier ](assets/adobe_id_0_12345_1476312152.sync))
 
 | DPID 0 = UID Adobe Audience Manager | DPID 12345 |
 |---|---|
@@ -129,10 +129,10 @@ Compte tenu de l’exemple de nom et de contenu, les identifiants sont mappés c
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Étape 1 : le processus de synchronisation des identifiants synchronise les [!DNL DPUUID]s de [!DNL DPID] 12345 avec les [!DNL Audience Manager] [!DNL UUID]dans la colonne de gauche. Notez que la valeur [!DNL DPID] &quot;0&quot; dans le nom de fichier représente [!DNL Audience Manager] [!DNL UUID]s.
+Étape 1 : le processus de synchronisation des identifiants synchronise les [!DNL DPUUID]s de [!DNL DPID] 12345 avec les [!DNL Audience Manager] [!DNL UUID]s dans la colonne de gauche. Notez que le [!DNL DPID] &quot;0&quot; dans le nom de fichier représente [!DNL Audience Manager] [!DNL UUID].
 <br/>
 
-**Fichier 2**  (  [Télécharger un exemple de fichier](assets/adobe_id_12345_67890_1477846458.sync))
+**Fichier 2** ( [Télécharger un exemple de fichier ](assets/adobe_id_12345_67890_1477846458.sync))
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -142,7 +142,7 @@ Compte tenu de l’exemple de nom et de contenu, les identifiants sont mappés c
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l’étape 1 avec l’Audience Manager [!DNL UUID]s. Cette synchronisation des identifiants effectue une synchronisation des [!DNL DPUUID]s de [!DNL DPID] 67890 avec les [!DNL UUID]Audiences Manager de l’étape 1.
+Étape 2 : les [!DNL DPUUID]s de [!DNL DPID] 12345 ont été synchronisés à l’étape 1 avec l’Audience Manager [!DNL UUID]. Cette synchronisation des identifiants synchronise les [!DNL DPUUID]s de [!DNL DPID] 67890 avec l&#39;Audience Manager [!DNL UUID] de l&#39;étape 1.
 
 <br/>
 
@@ -152,6 +152,6 @@ Les ID utilisateur ne peuvent pas :
 
 * Posséder des onglets dans l’identifiant lui-même. Les onglets ne sont utilisés que pour séparer les identifiants individuels dans le fichier de données.
 * Contenir des informations d’identification personnelle ([!UICONTROL PII]).
-* Utilisez le codage [!DNL URL]. Transmettez uniquement les identifiants non codés.
+* Utilisez l&#39;encodage [!DNL URL]. Transmettez uniquement les identifiants non codés.
 
 Les lignes qui se terminent par des onglets ou des espaces ne seront ni traitées ni réalisées. En règle générale, assurez-vous que la fin des lignes reste claire.

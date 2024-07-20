@@ -1,26 +1,26 @@
 ---
 description: Le rapport Performances des segments compare les segments mappés et non mappés en fonction des impressions et des taux de conversion. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
-seo-description: Le rapport Performances des segments compare les segments mappés et non mappés en fonction des impressions et des taux de conversion. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
-seo-title: Rapport de performances sur les segments
+seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and conversion rates. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+seo-title: Segment Performance Report
 solution: Audience Manager
 title: Rapport de performances sur les segments
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
-feature: Rapports d’Audience Optimization
+feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 1%
+source-wordcount: '567'
+ht-degree: 0%
 
 ---
 
 # Rapport de performances sur les segments{#segment-performance-report}
 
-Le rapport [!UICONTROL Segment Performance] compare les segments mappés et non mappés en fonction des impressions et des taux de conversion. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
+Le rapport [!UICONTROL Segment Performance] compare les segments mappés et non mappés par les impressions et les taux de conversion. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
 
 ## Comment lire les résultats des segments mappés {#read-mapped-segment-results}
 
-Le rapport [!UICONTROL Segment Performance] mappé affiche tous les segments que vous avez créés et envoyés vers une destination à des fins de ciblage. La position de vos segments mappés dans un rapport peut vous en apprendre beaucoup sur les segments qui fonctionnent bien et sur les endroits où vous devrez peut-être apporter des ajustements.
+Le rapport [!UICONTROL Segment Performance] mappé affiche tous les segments que vous avez créés et envoyés vers une destination à des fins de ciblage. La position de vos segments mappés dans un rapport peut vous en apprendre beaucoup sur les segments qui fonctionnent bien et sur les endroits où vous devrez peut-être effectuer des ajustements.
 
 Pour lire le rapport, il est utile de diviser les résultats en 4 sections avec des lignes imaginaires (en rouge) et les catégories affichées dans l&#39;exemple de rapport ci-dessous.
 
@@ -37,11 +37,11 @@ Les libellés de l’exemple et du tableau suivant peuvent vous aider à compren
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Haut à gauche</b> </p> </td> 
+   <td colname="col1"> <p> <b>Haut gauche</b> </p> </td> 
    <td colname="col2"> <p>De bons taux de conversion. </p> <p>Vous pouvez obtenir plus de conversions en augmentant les impressions. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Bas à gauche</b> </p> </td> 
+   <td colname="col1"> <p> <b>Bas gauche</b> </p> </td> 
    <td colname="col2"> <p>Faibles taux de conversion. </p> <p>Vous pouvez éviter de cibler ces segments. Les segments de cette section sont des candidats idéaux pour la comparaison avec ceux des résultats de segments non mappés. Certains de vos segments non mappés peuvent être plus performants que les segments que vous ciblez déjà. </p> </td> 
   </tr> 
   <tr> 
@@ -70,4 +70,4 @@ Dans ce rapport, vous souhaitez simplement vous concentrer sur les segments non 
 
 >[!NOTE]
 >
->Les périodes d’analyse de 7 jours et de 30 jours ne sont disponibles que pour les dates du dimanche **[!UICONTROL Date Through]**.
+>Les périodes d’analyse de 7 jours et 30 jours ne sont disponibles que pour les dates du dimanche **[!UICONTROL Date Through]**.

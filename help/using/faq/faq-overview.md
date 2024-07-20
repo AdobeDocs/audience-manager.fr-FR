@@ -1,19 +1,19 @@
 ---
 description: Questions et problématiques courantes liées à Audience Manager.
-seo-description: Questions et problématiques courantes liées à Audience Manager.
-seo-title: FAQ sur Audience Manager
+seo-description: Common Audience Manager questions and issues.
+seo-title: Audience Manager FAQ
 solution: Audience Manager
 title: FAQ sur Audience Manager
-feature: Présentation
+feature: Overview
 exl-id: 2777fdf1-df79-4111-9fe4-d2638ee10395
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 94%
 
 ---
 
-# Présentation de la FAQ sur Audience Manager {#audience-manager-faq}
+# FAQ sur l’Audience Manager {#audience-manager-faq}
 
 Cette section rassemble une liste des catégories de la FAQ concernant les différentes fonctionnalités d’Audience Manager.
 

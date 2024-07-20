@@ -1,22 +1,22 @@
 ---
 description: Cet article décrit deux fonctionnalités qui fournissent des fonctionnalités avancées pour le modèle d’attribution en double d’Audience Lab et l’exclusion de segments.
-seo-description: Cet article décrit deux fonctionnalités qui fournissent des fonctionnalités avancées pour le modèle d’attribution en double d’Audience Lab et l’exclusion de segments.
-seo-title: Fonctionnalités avancées d’Audience Lab
+seo-description: This article describes two features which provide advanced functionality for Audience Lab  Duplicate Allocation Template and Segment Holdout.
+seo-title: Audience Lab Advanced Functionality
 solution: Audience Manager
-title: Fonctionnalités avancées d’Audience Lab
+title: Fonctionnalité avancée d’Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
-feature: 'Audience Lab '
+feature: Audience Lab
 exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 0%
 
 ---
 
 # [!DNL Audience Lab] Fonctionnalité avancée {#audience-lab-advanced-functionality}
 
-Cet article décrit deux fonctionnalités avancées de [!DNL Audience Lab] : [!DNL Duplicate Allocation Template] et [!DNL Segment Holdout].
+Cet article décrit deux fonctionnalités avancées pour [!DNL Audience Lab] : [!DNL Duplicate Allocation Template] et [!DNL Segment Holdout].
 
 ## Dupliquer le modèle d’attribution {#duplicate-allocation-template}
 
@@ -24,14 +24,14 @@ Cet article décrit deux fonctionnalités avancées de [!DNL Audience Lab] : [!D
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
 
-Dans [!DNL Audience Lab], [!DNL Allocation Template] représente les différentes sélections que vous effectuez lors de la création d’un groupe de test :
+Dans [!DNL Audience Lab], le [!DNL Allocation Template] représente les différentes sélections que vous effectuez lors de la création d’un groupe de test :
 
 * la répartition des appareils entre les segments de test ;
 * le mappage des segments de test aux destinations ;
 * la ou les caractéristiques de conversion que vous utilisez pour un groupe de test ;
 * La période au cours de laquelle le groupe de test publie sur les destinations sélectionnées.
 
-En dupliquant un modèle d’attribution, vous pouvez réutiliser la même distribution de segments et de destinations de test pour un segment de base différent, dans un nouveau groupe de test. Un exemple de modèle d&#39;attribution est illustré ci-dessous. L’image est extraite de l’étape [!UICONTROL Summary & Finalize] du workflow **Créer un groupe de test**.
+En dupliquant un modèle d’attribution, vous pouvez réutiliser la même distribution de segments et de destinations de test pour un segment de base différent, dans un nouveau groupe de test. Un exemple de modèle d&#39;attribution est illustré ci-dessous. L’image est extraite de l’étape [!UICONTROL Summary & Finalize] du workflow **Créer un groupe de test** .
 
 ![](assets/allocation_template_3.png)
 
@@ -74,10 +74,10 @@ Utilisez cette fonction pour empêcher une partie de l’audience d’être incl
 1. Créez un groupe de test à l’aide de l’assistant [!UICONTROL Create Test Group].
 1. À l’étape **[!UICONTROL Allocate Test Segment]**, vous pouvez sélectionner une partie de l’audience à exclure du test.
 
-   ![Élément de liste](assets/test-segment-holdout.png)
+   ![Elément de liste](assets/test-segment-holdout.png)
 
 1. Utilisez le curseur pour ajuster le nombre d’appareils que vous souhaitez retirer du test. Notez que les segments 1 et 2 de test ne représentent désormais que 70 % du total des appareils.
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Suivez les autres étapes du workflow **[!UICONTROL Create Test Group]** et sélectionnez **[!UICONTROL Finalize Group]** lorsque vous êtes satisfait de votre sélection. Vous disposez maintenant d’un groupe de test avec une partie de l’audience refusée du test.
+1. Passez en revue les autres étapes du workflow **[!UICONTROL Create Test Group]** et sélectionnez **[!UICONTROL Finalize Group]** lorsque vous êtes satisfait de votre sélection. Vous disposez désormais d’un groupe de test dont une partie de l’audience est refusée par le test.

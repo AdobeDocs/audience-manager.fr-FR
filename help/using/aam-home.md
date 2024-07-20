@@ -1,5 +1,5 @@
 ---
-description: Audience Manager fournit des services de pointe pour la gestion des données d’audience en ligne. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
+description: Audience Manager fournit des services de pointe de gestion des données d’audience. Grâce à nos produits et services, les annonceurs et éditeurs en numérique disposent des outils dont ils ont besoin pour contrôler leurs ressources de données et en tirer profit pour stimuler leurs ventes.
 seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
 seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
@@ -9,8 +9,8 @@ feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
 source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 87%
+source-wordcount: '547'
+ht-degree: 92%
 
 ---
 

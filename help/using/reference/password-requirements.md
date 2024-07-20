@@ -1,15 +1,15 @@
 ---
 description: Audience Manager peut être configuré de manière à ce que les mots de passe expirent tous les 30 jours. Si vous souhaitez activer l’expiration du mot de passe, adressez-vous à votre conseiller Audience Manager ou à l’assistance clientèle. Consultez cette section pour connaître les exigences en matière de mot de passe et la procédure à suivre pour récupérer un mot de passe perdu ou oublié.
-seo-description: Audience Manager peut être configuré de manière à ce que les mots de passe expirent tous les 30 jours. Si vous souhaitez activer l’expiration du mot de passe, adressez-vous à votre conseiller Audience Manager ou à l’assistance clientèle. Consultez cette section pour connaître les exigences en matière de mot de passe et la procédure à suivre pour récupérer un mot de passe perdu ou oublié.
-seo-title: Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: 'Référence '
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -80,5 +80,4 @@ Cliquez sur le lien **[!UICONTROL Forgot password]** de la page de connexion pou
 >[!MORELIKETHIS]
 >
 >* [Sécurité des données](../overview/data-security-and-privacy/data-security.md)
-* [Sécurité des données](../overview/data-security-and-privacy/data-privacy.md)
-
+>* [Sécurité des données](../overview/data-security-and-privacy/data-privacy.md)

@@ -1,14 +1,14 @@
 ---
 description: Avant d’envoyer des données par lots à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers.
-seo-description: Avant d’envoyer des données par lots à des fournisseurs de contenu tiers, vous devez configurer l’intégration entre l’Audience Manager et le fournisseur de contenu tiers.
-seo-title: Configuration de l’intégration des données par lots
+seo-description: Before you can send batch data to third-party content providers, you need to configure the integration between Audience Manager and the third-party content provider.
+seo-title: Configure batch data integration
 solution: Audience Manager
 title: Configuration de l’intégration du transfert de données par lots
-feature: Transferts de données sortantes
+feature: Outbound Data Transfers
 exl-id: 0ed0f6bc-d4dd-4c6b-bc44-ea5c4ebe600b
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---

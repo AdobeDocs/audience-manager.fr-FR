@@ -1,20 +1,20 @@
 ---
 description: Exemples de création d’expressions dans l’éditeur de code du Générateur d’expression.
-seo-description: Exemples de création d’expressions dans l’éditeur de code du Générateur d’expression.
-seo-title: Exemple d’expressions avec des opérateurs booléens et de comparaison
+seo-description: Examples you can refer to for creating expressions in the Expression Builder code editor.
+seo-title: Sample Expressions With Boolean and Comparison Operators
 solution: Audience Manager
-title: Exemple d’expressions avec des opérateurs booléens et de comparaison
+title: Exemples d’expressions avec des opérateurs booléens et de comparaison
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-feature: 'Caractéristiques '
+feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 13%
+source-wordcount: '193'
+ht-degree: 3%
 
 ---
 
-# Exemple d’expressions avec des opérateurs booléens et de comparaison {#sample-expressions-with-boolean-and-comparison-operators}
+# Exemples d’expressions avec des opérateurs booléens et de comparaison {#sample-expressions-with-boolean-and-comparison-operators}
 
 Exemples auxquels vous pouvez vous référer pour la création d’expressions dans l’éditeur de code [!UICONTROL Expression Builder].
 
@@ -22,7 +22,7 @@ Exemples auxquels vous pouvez vous référer pour la création d’expressions d
 
 <!-- r_tb_expression_samples.xml -->
 
-Créez vos propres règles de caractéristiques avec l’éditeur de code [!UICONTROL Expression Builder]. Les exemples suivants peuvent vous aider à démarrer. Certains des exemples précèdent la variable *`key`* avec `c_` pour l’identifier comme variable définie par l’utilisateur. Insérez le préfixe `c_` (ou toute autre convention d’affectation des noms) pour la variable *`key`* si vos appels d’événement envoient des données à [!DNL Audience Manager] en utilisant cette syntaxe.
+Créez vos propres règles de caractéristiques avec l’éditeur de code [!UICONTROL Expression Builder]. Les exemples suivants peuvent vous aider à démarrer. Certains des exemples précèdent la variable *`key`* avec `c_` pour l’identifier comme variable définie par l’utilisateur. Insérez le préfixe `c_` (ou toute autre convention d&#39;affectation des noms) pour la variable *`key`* si vos appels d&#39;événement envoient des données à [!DNL Audience Manager] en utilisant cette syntaxe.
 
 ## Expressions booléennes {#boolean-expressions}
 

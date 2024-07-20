@@ -1,7 +1,7 @@
 ---
 description: Lors d’un appel, le serveur de collecte de données accepte les données clé-valeur dans un format standard ou sérialisé. Consultez cette section pour plus d’informations sur la manière de formater les données clé-valeur standard et sérialisées.
-seo-description: Lors d’un appel, le serveur de collecte de données accepte les données clé-valeur dans un format standard ou sérialisé. Consultez cette section pour plus d’informations sur la manière de formater les données clé-valeur standard et sérialisées.
-seo-title: Formatage des paires clé-valeur dans les appels DCS
+seo-description: When making a call, the DCS accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
+seo-title: Formatting Key-Value Pairs in DCS Calls
 solution: Audience Manager
 title: Formatage des paires clé-valeur dans les appels DCS
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
@@ -9,14 +9,14 @@ feature: DCS
 exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 12%
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
 # Formatage des paires clé-valeur dans les appels DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Lors d’un appel, la fonction [!DNL DCS] accepte les données clé-valeur dans un format standard ou sérialisé. Consultez cette section pour plus d’informations sur la manière de formater les données clé-valeur standard et sérialisées.
+Lors d’un appel, [!DNL DCS] accepte les données clé-valeur dans un format standard ou sérialisé. Consultez cette section pour plus d’informations sur la manière de formater les données clé-valeur standard et sérialisées.
 
 ## Paires clé-valeur standard et sérialisées {#standard-serialized}
 
@@ -71,6 +71,5 @@ Avec les paires clé-valeur sérialisées, vous devez spécifier les marqueurs q
 >[!MORELIKETHIS]
 >
 >* [Envoi de données au DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
-* [Préfixes et variables clé-valeur pris en charge par le serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
-* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
-
+>* [Préfixes de valeur de clé et variables pris en charge par le DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)

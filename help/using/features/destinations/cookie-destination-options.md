@@ -1,23 +1,23 @@
 ---
-description: Dans le créateur de destinations, la section Configuration contient les champs Domaine du cookie et Publier les données vers . Ils vous permettent de créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. Domaine du cookie et Publier les données Pour travailler indépendamment les uns des autres et sont facultatifs. Vous pouvez créer une destination de cookie sans utiliser l’un d’eux.
-seo-description: Dans le créateur de destinations, la section Configuration contient les champs Domaine du cookie et Publier les données vers . Ils vous permettent de créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. Domaine du cookie et Publier les données Pour travailler indépendamment les uns des autres et sont facultatifs. Vous pouvez créer une destination de cookie sans utiliser l’un d’eux.
-seo-title: Paramètres facultatifs pour les destinations de cookie
+description: Dans le créateur de destinations, la section Configuration contient les champs Domaine du cookie et Données de Publish vers . Ils vous permettent de créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. Domaine du cookie et données Publish Pour travailler indépendamment les unes des autres et sont facultatives. Vous pouvez créer une destination de cookie sans utiliser l’un d’eux.
+seo-description: In Destination Builder, the Configuration section contains the Cookie Domain and Publish Data To fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. Cookie Domain and Publish Data To work independently of each other and are optional. You can create a cookie destination without using either of them.
+seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
 title: Paramètres facultatifs pour les destinations de cookie
-feature: Concepts de base des destinations
+feature: Destination Basics
 exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 7%
+source-wordcount: '399'
+ht-degree: 4%
 
 ---
 
 # Paramètres facultatifs pour les destinations de cookie {#optional-settings-cookies}
 
-Dans [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contient les champs [!UICONTROL Cookie Domain] et [!UICONTROL Publish Data To]. Ils vous permettent de créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. [!UICONTROL Cookie Domain] et  [!UICONTROL Publish Data To] fonctionnent indépendamment les uns des autres et sont facultatifs. Vous pouvez créer une destination de cookie sans utiliser l’un d’eux.
+Dans [!UICONTROL Destination Builder], le [!UICONTROL Configuration section] contient les champs [!UICONTROL Cookie Domain] et [!UICONTROL Publish Data To]. Ils vous permettent de créer des règles pour déterminer si une destination définit un cookie ou renvoie un cookie. [!UICONTROL Cookie Domain] et [!UICONTROL Publish Data To] fonctionnent indépendamment les uns des autres et sont facultatifs. Vous pouvez créer une destination de cookie sans utiliser l’un d’eux.
 
-## Domaine du cookie : Syntaxe et exemples {#cookie-domain-syntax}
+## Domaine du cookie : syntaxe et exemples {#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -44,14 +44,14 @@ Dans [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contie
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exemple</b> </p> </td> 
-   <td colname="col2"> <p>Par exemple, supposons que nous ayons un site fictif appelé sports.com. Sports.com possède des domaines pour le golf, le baseball et le football. Pour définir un cookie dans tous les domaines sportifs, saisissez-le dans la zone <span class="wintitle"> Domaine du cookie</span> comme illustré ci-dessous : </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Cela indique à <span class="keyword"> l’Audience Manager</span> de définir un cookie dans n’importe quel domaine contenant le modèle <code><i>something</i></code>.sports.com. Voir ci-dessous pour un ensemble d’exemples plus complexe. </p> </td> 
+   <td colname="col2"> <p>Par exemple, imaginons un site fictif appelé sports.com. Sports.com a des domaines pour le golf, le base-ball et le football. Pour définir un cookie dans tous les domaines sportifs, saisissez-le dans la zone <span class="wintitle"> Domaine du cookie</span> comme illustré ci-dessous : </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Cela indique à <span class="keyword"> l'Audience Manager</span> de définir un cookie dans n'importe quel domaine contenant le modèle <code><i>something</i></code>.sports.com. Voir ci-dessous pour un ensemble d’exemples plus complexe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Exemples de domaines de cookies complexes
 
-Ces exemples montrent si [!DNL Audience Manager] définit un cookie en fonction de la configuration de l’option [!UICONTROL Cookie Domain].
+Ces exemples vous montrent si [!DNL Audience Manager] définira un cookie en fonction de la configuration de l’option [!UICONTROL Cookie Domain].
 
 <table id="table_3A7B9479CDA6493FA8104D8D9841E914"> 
  <thead> 
@@ -59,7 +59,7 @@ Ces exemples montrent si [!DNL Audience Manager] définit un cookie en fonction 
    <th colname="col1" class="entry"> Site Web </th> 
    <th colname="col2" class="entry">Domaine du cookie : .sports.com <p>Jeu de cookies </p> </th> 
    <th colname="col3" class="entry">Domaine du cookie : .golf.sports.com <p>Jeu de cookies </p> </th> 
-   <th colname="col4" class="entry">Domaine du cookie : Vide <p>Jeu de cookies </p> </th> 
+   <th colname="col4" class="entry">Domaine du cookie : vierge <p>Jeu de cookies </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -90,15 +90,14 @@ Ces exemples montrent si [!DNL Audience Manager] définit un cookie en fonction 
  </tbody> 
 </table>
 
-## Publier Les Données Sur {#publish-data-to}
+## Données Publish à {#publish-data-to}
 
 Les paramètres [!UICONTROL Publish Data To] renvoient un cookie si le domaine répond aux critères définis par les options que vous sélectionnez. Les options incluent :
 
-* **[!UICONTROL All of our domains]**: (Par défaut) Renvoie une valeur  [!DNL cookie] pour n’importe quel domaine.
-* **[!UICONTROL Only the selected domains]**: Renvoie un cookie uniquement pour les domaines sélectionnés dans la liste des domaines.
-* **[!UICONTROL All of our domains except the selected domains]**: Empêche les domaines sélectionnés de recevoir un  [!DNL cookie]. Tous les autres domaines peuvent recevoir un [!DNL cookie].
+* **[!UICONTROL All of our domains]** : (valeur par défaut) renvoie un [!DNL cookie] pour n’importe quel domaine.
+* **[!UICONTROL Only the selected domains]** : renvoie un cookie uniquement pour les domaines sélectionnés dans la liste des domaines.
+* **[!UICONTROL All of our domains except the selected domains]** : empêche les domaines sélectionnés de recevoir un [!DNL cookie]. Tous les autres domaines peuvent recevoir un [!DNL cookie].
 
 >[!MORELIKETHIS]
 >
 >* [Création d’une destination de cookie](../../features/destinations/create-cookie-destination.md)
-

@@ -1,15 +1,15 @@
 ---
 description: Définitions et liens vers d’autres documentations.
-seo-description: Définitions et liens vers d’autres documentations.
-seo-title: Glossaire
+seo-description: Definitions and links to further reading.
+seo-title: Glossary
 solution: Audience Manager
 title: Glossaire
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: 'Référence '
+feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ Voir DPUUID dans l’[Index des identifiants dans Audience Manager](../reference
 
 Dans [Audiences adressables](/help/using/features/addressable-audiences.md), cette mesure représente les appareils :
 * qui ont créé soit une caractéristique basée sur des règles soit une caractéristique intégrée pendant la période d’analyse
-   **ET**
+  **ET**
 * dont l’identifiant est synchronisé avec la destination sélectionnée, et ce quelle que soit l’heure de la synchronisation.
 
 

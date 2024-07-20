@@ -1,7 +1,7 @@
 ---
 description: Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou à une catégorie défini par l’utilisateur, généralement en fonction ou pour vos propres processus de création de rapports internes.
-seo-description: Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou à une catégorie défini par l’utilisateur, généralement en fonction ou pour vos propres processus de création de rapports internes.
-seo-title: Méthodes de type de caractéristique
+seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
+seo-title: Trait Type Methods
 solution: Audience Manager
 title: Méthodes de type de caractéristique
 uuid: 082931d5-457b-4622-817b-86303f38c26a
@@ -9,8 +9,8 @@ feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 10%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
 
@@ -24,15 +24,15 @@ Méthodes facultatives qui vous permettent d’affecter des caractéristiques à
 >
 >Les méthodes de type caractéristique n’attribuent pas de caractéristiques aux catégories utilisées par la [taxonomie commune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considérez-les comme des étiquettes distinctes de la taxonomie commune.
 
-À titre de référence visuelle, [!UICONTROL Trait Types] est une liste déroulante située dans [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Pour une référence visuelle, [!UICONTROL Trait Types] est un contrôle déroulant situé dans le [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Création d’un type de caractéristique {#create-trait-type}
 
-Une méthode `POST` qui permet de créer un nouveau type de caractéristique.
+Une méthode `POST` qui vous permet de créer un nouveau type de caractéristique.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/customer-trait-types`
 
@@ -65,7 +65,7 @@ Une méthode `GET` qui renvoie des détails sur le type de caractéristique spé
 
 <!-- r_rest_api_get_trait_type.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/customer-trait-types/`*`<customerTraitTypeId>`*
 
@@ -90,7 +90,7 @@ Une méthode `GET` qui renvoie des détails sur tous vos types de caractéristiq
 
 <!-- r_rest_api_get_trait_types.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/customer-trait-types/`
 

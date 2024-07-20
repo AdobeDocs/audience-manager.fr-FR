@@ -1,7 +1,7 @@
 ---
 description: Méthodes qui vous permettent de travailler par programmation avec le Data Integration Library (DIL).
-seo-description: Méthodes qui vous permettent de travailler par programmation avec le Data Integration Library (DIL).
-seo-title: Méthodes d’API de Data Integration Library
+seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
+seo-title: Data Integration Library API Methods
 solution: Audience Manager
 title: Méthodes d’API de Data Integration Library
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
@@ -9,18 +9,18 @@ feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 15%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
 # Méthodes d’API de Data Integration Library {#data-integration-library-api-methods}
 
-Méthodes qui vous permettent de travailler par programmation avec la balise [!UICONTROL Data Integration Library] ([!UICONTROL DIL]).
+Méthodes qui vous permettent de travailler par programmation avec [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->L’API du Data Integration Library a été abandonnée. Cette API utilisée pour générer le DIL, que vous pouvez désormais télécharger automatiquement ici : [Téléchargement du DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>L’API du Data Integration Library a été abandonnée. Cette API a été utilisée pour générer le DIL, que vous pouvez désormais télécharger automatiquement ici : [Téléchargement du DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
@@ -30,7 +30,7 @@ Une méthode `GET` qui renvoie une liste de versions classées du plus ancien au
 
 <!-- r_api_return_versions_dil.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/dil/`
 
@@ -48,7 +48,7 @@ Une méthode `GET` qui renvoie le schéma [!DNL JSON] pour la version [!UICONTRO
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/dil/`*`<version>`*
 
@@ -380,11 +380,11 @@ Une requête réussie renvoie le code de réponse `["4.0", "4.1"]` et les donné
 
 ## Générer un DIL {#generate-dil}
 
-Méthode `GET` qui génère [!UICONTROL DIL] en fonction du corps de la requête transmis à l’aide de la version spécifiée de [!UICONTROL DIL]. Si l’alias `LATEST` est utilisé pour la version dans l’URL, la dernière version de [!UICONTROL DIL] est générée.
+Une méthode `GET` qui génère [!UICONTROL DIL] en fonction du corps de la requête transmis à l’aide de la version spécifiée de [!UICONTROL DIL]. Si l’alias `LATEST` est utilisé pour la version dans l’URL, la dernière version de [!UICONTROL DIL] est générée.
 
 <!-- r_api_generate_dil.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/dil/`*`<version>`*`/generate`
 

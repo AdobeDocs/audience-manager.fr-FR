@@ -1,14 +1,14 @@
 ---
 description: Cette section inclut les principaux problèmes signalés à l’assistance clientèle d’Audience Manager.
-seo-description: Cette section inclut les principaux problèmes signalés à l’assistance clientèle d’Audience Manager.
-seo-title: Aperçu des problèmes d’assistance
+seo-description: This section includes the top issues reported to Audience Manager Customer Care.
+seo-title: Support Issues Overview
 solution: Audience Manager
 title: Aperçu des problèmes d’assistance
-feature: Support technique
+feature: Support
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '103'
 ht-degree: 100%
 
 ---

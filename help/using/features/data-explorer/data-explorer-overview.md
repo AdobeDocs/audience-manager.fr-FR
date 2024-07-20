@@ -1,38 +1,38 @@
 ---
 description: Utilisez Data Explorer pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés et en les remplissant de données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
-seo-description: Utilisez Data Explorer pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés et en les remplissant de données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
-seo-title: Présentation, avantages et cas d’utilisation
+seo-description: Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+seo-title: Overview, Benefits, and Use Cases
 title: Présentation, avantages et cas d’utilisation
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-feature: 'Explorateur de données '
+feature: Data Explorer
 exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 3%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 
-# Explorateur de données : présentation, avantages et cas d’utilisation {#overview-benefits-and-use-cases}
+# Data Explorer - Aperçu, avantages et cas d’utilisation {#overview-benefits-and-use-cases}
 
-Utilisez [!UICONTROL Data Explorer] pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés, et les renvoyer avec des données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
+Utilisez [!UICONTROL Data Explorer] pour capitaliser sur les audiences historiques en créant des caractéristiques basées sur des signaux utilisés et inutilisés, et en les renvoyant avec des données historiques afin d’éviter toute perte potentielle d’audiences pertinentes.
 
 ## Présentation {#overview}
 
 La création de caractéristiques basées sur des insights existants liés à votre audience est un processus assez simple, à condition que vous sachiez toujours qui est votre audience. Mais à quelle fréquence cela arrive-t-il ?
 
-[!UICONTROL Data Explorer] simplifie votre processus de gestion des caractéristiques tout en vous offrant une plus grande flexibilité en matière de traitement de taxonomie. Deux composants [!UICONTROL Data Explorer] vous permettent d’obtenir ce résultat :
+[!UICONTROL Data Explorer] simplifie votre processus de gestion des caractéristiques tout en vous offrant une plus grande flexibilité en matière de traitement de taxonomie. Deux composants [!UICONTROL Data Explorer] vous permettent d’accomplir ce qui suit :
 
-* [Signals ](../../features/data-explorer/data-explorer-signals-dashboard.md) Tableau de bord et  [!UICONTROL Signals Search] vous aident à effectuer le suivi des signaux reçus par  [!DNL Audience Manager] que vous pouvez utiliser pour créer de nouvelles caractéristiques ou ajouter à des caractéristiques existantes.
+* [Tableau de bord des signaux](../../features/data-explorer/data-explorer-signals-dashboard.md) et [!UICONTROL Signals Search] vous aident à effectuer le suivi des signaux reçus par [!DNL Audience Manager] que vous pouvez utiliser pour créer de nouvelles caractéristiques ou ajouter à des caractéristiques existantes.
 
-* [Le ](../../features/data-explorer/data-explorer-trait-backfill.md) renvoi de la réalisation des caractéristiques vous permet de qualifier les audiences historiques pour les caractéristiques nouvellement créées, de sorte que vous puissiez les inclure dans les futurs efforts de ciblage.
+* [Renvoi de réalisation de caractéristiques](../../features/data-explorer/data-explorer-trait-backfill.md) permet de qualifier les audiences historiques pour les caractéristiques nouvellement créées, de sorte que vous puissiez les inclure dans les futures actions de ciblage.
 
 ## Avantages {#benefits}
 
 Utilisez [!UICONTROL Data Explorer] pour optimiser la création de votre audience de plusieurs façons :
 
-* **Concentrez-vous sur les audiences** à forte valeur ajoutée. Surveillez les changements de tendance dans le comportement de recherche et de navigation de vos pages, puis créez des caractéristiques spécifiques pour leur comportement. Éliminez la nécessité de créer des caractéristiques &quot;au cas où&quot; et de se concentrer sur les signaux pertinents.
-* **Évitez de perdre des données**. Renvoi des caractéristiques avec des réalisations historiques afin de ne pas manquer les segments d’audience car vous n’avez pas créé de caractéristiques avant de recevoir les signaux.
+* **Concentrez-vous sur les audiences à valeur élevée**. Surveillez les changements de tendance dans le comportement de recherche et de navigation de vos pages, puis créez des caractéristiques spécifiques pour leur comportement. Éliminez la nécessité de créer des caractéristiques &quot;au cas où&quot; et de se concentrer sur les signaux pertinents.
+* **Évitez la perte de données**. Renvoi des caractéristiques avec des réalisations historiques afin de ne pas manquer les segments d’audience car vous n’avez pas créé de caractéristiques avant de recevoir les signaux.
 * **Améliorez votre workflow**. Découvrez les signaux de tendance et transformez-les rapidement en caractéristiques exploitables.
 
 ## Cas d’utilisation {#use-cases-data-explorer}
@@ -47,6 +47,6 @@ Une fois qu’un prestataire de services de voyage a ajouté de nouvelles destin
 
 ### Utilisation de Data Explorer pour valider la création de caractéristiques pour vos données intégrées
 
-L’une des fonctionnalités les plus puissantes de l’Audience Manager est la possibilité d’embarquer des données hors ligne et de les associer à vos données en ligne. Dans la vidéo ci-dessous, découvrez comment utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
+L’une des fonctionnalités les plus puissantes de l’Audience Manager est la possibilité d’embarquer des données hors ligne et de les associer à vos données en ligne. Dans la vidéo ci-dessous, apprenez à utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25149/)

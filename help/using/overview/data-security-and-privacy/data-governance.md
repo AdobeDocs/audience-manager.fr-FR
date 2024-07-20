@@ -1,16 +1,16 @@
 ---
 description: Ce document explique la manière dont les données client sont gérées dans Audience Manager.
-seo-description: Ce document explique la manière dont les données client sont gérées dans Audience Manager.
-seo-title: Gouvernance des données
+seo-description: TThis document explains how customer data is governed in Audience Manager.
+seo-title: Data Governance
 solution: Audience Manager
 keywords: Interface utilisateur du RGPD, API relative au RGPD, CCPA, confidentialité, consentement, obscurcissement, gouvernance
 title: Gouvernance des données
-feature: Gouvernance des données & Confidentialité
+feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ L’adresse [!DNL IP] d’un visiteur sur le site web d’un client est transmis
 
 >[!NOTE]
 >
->Voir [Obscurcissement des adresses IP](../../features/administration/ip-obfuscation.md) pour savoir comment activer l’obscurcissement des adresses [!DNL IP] dans l’interface utilisateur de l’Audience Manager.
+>Voir [ Obscurcissement des adresses IP ](../../features/administration/ip-obfuscation.md) pour apprendre à activer l’obscurcissement des adresses [!DNL IP] dans l’interface utilisateur de l’Audience Manager.
 
 Regardez la vidéo ci-dessous pour comprendre comment fonctionne l’obscurcissement des adresses [!DNL IP] dans Audience Manager.
 
@@ -39,7 +39,7 @@ Regardez la vidéo ci-dessous pour comprendre comment fonctionne l’obscurcisse
 
 **Segmentation géographique :** si vous activez l’obscurcissement des adresses [!DNL IP], les octets restants de l’adresse [!DNL IP] peuvent toujours être utilisés pour la géosegmentation et la création de rapports dans Audience Manager. Si vous n’activez pas l’obscurcissement des adresses [!DNL IP], Audience Manager utilise l’adresse [!DNL IP] complète. Vous pouvez dans les deux cas utiliser la fonctionnalité de segmentation géographique qui vous permet d’identifier un emplacement [!DNL IP] selon sa zone géographique, mais l’obscurcissement des adresses [!DNL IP] en diminuera la précision. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement des adresses [!DNL IP], tandis que l’obtention des informations sur les régions et les pays ne sera que légèrement entravée. Les données de segmentation géographique sont alors détaillées au niveau des villes ou des codes postaux uniquement, mais pas au niveau individuel. En savoir plus sur le [géociblage](../../features/traits/trait-geotarget-keys.md) et la configuration de caractéristiques avec des variables géographiques.
 
-## Rétention des données dans Audience Manager {#data-retention}
+## Rétention des données en Audience Manager {#data-retention}
 
 L’application de stratégies appropriées, sécurisées et opportunes de rétention des données pour vos données est primordiale dans le respect des réglementations en matière de confidentialité des données. Les clients d’Audience Manager peuvent définir des périodes de rétention personnalisées sur les caractéristiques et les segments en définissant la durée de vie requise. Pour plus d’informations sur les périodes de rétention, reportez-vous à la [FAQ sur la rétention des données](../../faq/faq-privacy.md).
 

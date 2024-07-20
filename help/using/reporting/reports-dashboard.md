@@ -1,20 +1,20 @@
 ---
 description: Utilisez le tableau de bord pour afficher des informations sur le nombre de visiteurs uniques de vos partenaires ventilé par types de caractéristiques et par segments pendant une période spécifiée.
-seo-description: Utilisez le tableau de bord pour afficher des informations sur le nombre de visiteurs uniques de vos partenaires ventilé par types de caractéristiques et par segments pendant une période spécifiée.
-seo-title: Tableau de bord de rapports
+seo-description: Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
+seo-title: Reports Dashboard
 solution: Audience Manager
-title: Tableau de bord de rapports
+title: Tableau de bord des rapports
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
-feature: Référence de création de rapports
+feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
-# Tableau de bord de rapports {#reports-dashboard}
+# Tableau de bord des rapports {#reports-dashboard}
 
 Utilisez le tableau de bord pour afficher des informations sur le nombre de visiteurs uniques ventilé par types de caractéristiques et par segments, pour une période spécifiée.
 
@@ -24,30 +24,30 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] utilise  [!UICONTROL Role Based Access Control]  ([!UICONTROL RBAC]) pour étendre les autorisations des groupes d’utilisateurs à  [!UICONTROL Dashboard]. Les utilisateurs ne peuvent afficher que les informations du tableau de bord qu’ils sont autorisés à afficher. [!UICONTROL RBAC] permet de contrôler les données de rapport que les équipes internes peuvent afficher.
+[!DNL Audience Manager] utilise [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) pour étendre les autorisations de groupe d’utilisateurs à [!UICONTROL Dashboard]. Les utilisateurs ne peuvent afficher que les informations du tableau de bord qu’ils sont autorisés à afficher. La fonctionnalité [!UICONTROL RBAC] vous permet de contrôler les données de rapport que les équipes internes peuvent afficher.
 
 Par exemple, une agence qui gère différents comptes publicitaires peut configurer des autorisations de groupe d’utilisateurs de sorte qu’une équipe qui gère le compte de l’annonceur A ne puisse pas consulter les données de rapport de l’annonceur B. Ce tableau de bord peut être utilisé pour résoudre les problèmes de diffusion des données.
 
-Par exemple, si vous constatez une baisse ou un pic du nombre total d’utilisateurs uniques avec la ventilation du type d’utilisateur unique (basé sur des règles ou intégré), vous disposez d’un meilleur point de départ pour détecter un problème potentiel de remise des données. Si vous constatez un creux dans le nombre total d’utilisateurs uniques et d’utilisateurs uniques intégrés, vous pouvez accéder au rapport [!UICONTROL On-boarding Status] pour voir si un problème s’est produit avec un fichier entrant.
+Par exemple, si vous constatez une baisse ou un pic du nombre total d’utilisateurs uniques avec la ventilation du type d’utilisateur unique (basé sur des règles ou intégré), vous disposez d’un meilleur point de départ pour détecter un problème potentiel de remise des données. Si vous constatez un creux dans le nombre total d’utilisateurs uniques et d’utilisateurs uniques intégrés, vous pouvez accéder au rapport [!UICONTROL On-boarding Status] pour voir s’il y a eu un problème avec un fichier entrant.
 
 **Pour accéder au tableau de bord :**
 
 1. Dans le menu de navigation supérieur, cliquez sur **[!UICONTROL Dashboard]**.
-2. ** Facultatif : sélectionnez la période souhaitée à partir de la date du dernier rapport dans la liste déroulante (7 jours, 14 jours (valeur par défaut), 30 jours ou 60 jours).
+2. *Facultatif* Sélectionnez la période souhaitée à partir de la date du dernier rapport dans la liste déroulante (7 jours, 14 jours (valeur par défaut), 30 jours ou 60 jours).
 
-   Selon la période sélectionnée, le changement différentiel dans les panneaux [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] et [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] affiche le changement dans les visiteurs uniques de l’audience sur la période se terminant aujourd’hui par rapport à la période précédente de même durée. Si, par exemple, vous sélectionnez 7 jours, le delta compare les visiteurs uniques des sept jours se terminant aujourd’hui par rapport aux visiteurs uniques des sept jours se terminant il y a sept jours.
+   Selon la période sélectionnée, le changement différentiel dans les panneaux [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] et [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] affiche le changement dans les visiteurs uniques de l’audience au cours de la période se terminant aujourd’hui par rapport à la période précédente de la même durée. Si, par exemple, vous sélectionnez 7 jours, le delta compare les visiteurs uniques des sept jours se terminant aujourd’hui par rapport aux visiteurs uniques des sept jours se terminant il y a sept jours.
 
    >[!NOTE]
    >
-   >Vous pouvez étudier une modification delta qui semble hors de l’ordinaire en exécutant un rapport [!UICONTROL Trend]. Par exemple, si vous constatez une modification delta inhabituellement importante au cours des sept derniers jours, vous pouvez exécuter un rapport [!UICONTROL Trend] pour les 14 derniers jours (2 x 7) afin de mieux comprendre les chiffres.
+   >Vous pouvez étudier une modification delta qui semble hors de l’ordinaire en exécutant un rapport [!UICONTROL Trend]. Par exemple, si vous constatez une modification delta inhabituellement importante au cours des sept derniers jours, vous pouvez exécuter un rapport [!UICONTROL Trend] sur les 14 derniers jours (2 x 7) pour mieux comprendre les chiffres.
 
    Selon les autorisations de l’utilisateur connecté, les panneaux suivants s’affichent :
 
    * [Partenaires uniques](../reporting/reports-dashboard.md#partner-uniques)
-   * [Caractéristiques les plus grandes/caractéristiques les plus modifiées](../reporting/reports-dashboard.md#largest-traits)
+   * [ Caractéristiques les plus grandes/Caractéristiques les plus modifiées ](../reporting/reports-dashboard.md#largest-traits)
    * [Segments les plus grands/segments les plus modifiés](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. ** FacultatifCliquez  **[!UICONTROL Normalize]** au-dessus d’un graphique pour afficher toutes les données à la même échelle. Vous pouvez également placer le pointeur de la souris sur un point de données pour afficher plus d’informations.
+3. *Facultatif* Cliquez sur **[!UICONTROL Normalize]** au-dessus d’un graphique pour afficher toutes les données à la même échelle. Vous pouvez également placer le pointeur de la souris sur un point de données pour afficher plus d’informations.
 
 ## Partenaires uniques {#partner-uniques}
 
@@ -82,7 +82,7 @@ Ce panneau contient les onglets suivants :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Caractéristiques les plus grandes</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Caractéristiques les plus grandes </span> </p> </td> 
    <td colname="col2"> <p>Affiche des informations sur le nombre de visiteurs uniques triés par nombre (du plus élevé au plus faible) et répertorie également le changement différentiel de visiteurs uniques au cours de la période spécifiée. </p> </td> 
   </tr> 
   <tr> 
@@ -111,11 +111,11 @@ Ce panneau contient les onglets suivants :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segments les plus volumineux</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> segments les plus grands</span> </p> </td> 
    <td colname="col2"> <p>Affiche des informations sur le nombre de visiteurs uniques et le changement différentiel de visiteurs uniques au cours de la période spécifiée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segments les plus modifiés</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segments les plus modifiés </span> </p> </td> 
    <td colname="col2"> <p>Affiche des informations sur le nombre de visiteurs uniques triés selon le changement différentiel. </p> </td> 
   </tr> 
  </tbody> 

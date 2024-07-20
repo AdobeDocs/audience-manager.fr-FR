@@ -7,8 +7,8 @@ feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 14%
+source-wordcount: '509'
+ht-degree: 12%
 
 ---
 
@@ -24,14 +24,14 @@ Votre entreprise peut souhaiter obscurcir l’adresse IP dans de nombreux pays e
 
 Conformément aux principes de &quot;Confidentialité dès la conception&quot;, Adobe Audience Manager permet aux clients d’activer l’obscurcissement des adresses IP à partir de l’interface utilisateur, dans l’ensemble des régions géographiques ou pour des pays spécifiques. Lorsque vous activez ce paramètre, le dernier octet (la dernière partie) de l’adresse IP est immédiatement ignoré lorsque l’adresse IP est ingérée dans Audience Manager. L’Audience Manager ignore cette partie de l’adresse IP avant le traitement (y compris avant toute recherche géographique ou journalisation facultative de l’adresse IP). Par exemple :
 
-* Avant obscurcissement : `255.255.255.255`
-* Après obscurcissement : `255.255.255.0`
+* Avant l’obscurcissement : `255.255.255.255`
+* Après l’obscurcissement : `255.255.255.0`
 
-Voir aussi Collecte d’adresses IP et Obscurcissement des adresses IP dans notre [Section Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Voir aussi Collecte d’adresses IP et Obscurcissement des adresses IP dans notre [section Confidentialité des données](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ### Précédence d’obscurcissement d’IP {#precedence}
 
-[Obscurcissement de l’adresse IP au niveau du flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) a la priorité sur toute option d’obscurcissement d’IP définie dans Audience Manager et elle est appliquée à toutes les adresses IP. Toute recherche de géolocalisation effectuée par l’Audience Manager est impactée par le niveau du flux de données. [!UICONTROL IP obfuscation] . Une recherche de géolocalisation dans l’Audience Manager, basée sur une adresse IP complètement obscurcie, entraînera une région inconnue et aucun segment basé sur les données de géolocalisation résultantes ne sera réalisé.
+[L’obscurcissement de l’adresse IP au niveau du flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) a la priorité sur toute option d’obscurcissement de l’adresse IP définie dans l’Audience Manager, et il est appliqué à toutes les adresses IP. Toute recherche de géolocalisation effectuée par l’Audience Manager est affectée par l’option de niveau de la banque de données [!UICONTROL IP obfuscation]. Une recherche de géolocalisation dans l’Audience Manager, basée sur une adresse IP complètement obscurcie, entraînera une région inconnue et aucun segment basé sur les données de géolocalisation résultantes ne sera réalisé.
 
 ## Exigences d’obscurcissement des adresses IP {#ip-obfuscation-requirements}
 
@@ -45,18 +45,18 @@ L’obscurcissement des adresses IP n’est disponible que pour les comptes d’
 
 Suivez les étapes ci-dessous pour configurer l’obscurcissement des adresses IP.
 
-1. Connectez-vous à une Audience Manager avec un compte administrateur et accédez à **Administration > Confidentialité**.
+1. Connectez-vous à Audience Manager avec un compte administrateur et accédez à **Administration > Confidentialité**.
 2. Sélectionnez le type d’obscurcissement d’IP à utiliser.
    1. **Obscurcir toutes les adresses IP :** sélectionnez cette option pour que l’Audience Manager obscurcisse le dernier octet de toutes les adresses IP du visiteur, quelle que soit la région d’où il provient.
-   2. **Obscurcir les adresses IP pour des pays spécifiques :** sélectionnez cette option pour masquer le dernier octet d’adresses IP du visiteur pour des pays spécifiques. Utilisez la variable **Liste des pays** ou le **Rechercher** pour rechercher les pays pour lesquels activer l’obscurcissement des adresses IP, puis cliquez sur l’icône + pour les ajouter au **Sélectionné pour l’obscurcissement** liste. Une fois que vous avez ajouté tous les pays requis au **Sélectionné pour l’obscurcissement** liste, cliquez sur **Enregistrer**.
+   2. **Obscurcir les adresses IP pour des pays spécifiques :** sélectionnez cette option pour que l’Audience Manager obscurcisse le dernier octet d’adresses IP du visiteur pour des pays spécifiques. Utilisez le champ **Liste des pays** ou le champ **Rechercher** correspondant pour trouver les pays pour lesquels activer l’obscurcissement d’IP, puis cliquez sur l’icône + pour les ajouter à la liste **Sélectionné pour l’obscurcissement**. Une fois que vous avez ajouté tous les pays requis à la liste **Sélectionné pour l’obscurcissement**, cliquez sur **Enregistrer**.
 
 ![](assets/ip-obfuscation.png)
 
 ## Désactiver l’obscurcissement des adresses IP {#disable-ip-obfuscation}
 
-Pour désactiver globalement l’obscurcissement des adresses IP, accédez à **Administration > Confidentialité**, sélectionnez **Ne pas obscurcir les adresses IP**, puis cliquez sur **Enregistrer**.
+Pour désactiver globalement l&#39;obscurcissement des adresses IP, accédez à **Administration > Confidentialité**, sélectionnez **Ne pas obscurcir les adresses IP**, puis cliquez sur **Enregistrer**.
 
-Pour désactiver l’obscurcissement des adresses IP pour des pays spécifiques, recherchez les pays dans la variable **Sélectionné pour l’obscurcissement** liste, puis cliquez sur la **X** Icône Cliquez sur **Enregistrer** lorsque vous avez fini.
+Pour désactiver l’obscurcissement des adresses IP pour des pays spécifiques, recherchez les pays dans la liste **Sélectionné pour l’obscurcissement**, puis cliquez sur l’icône **X** correspondante. Cliquez sur **Enregistrer** lorsque vous avez terminé.
 
 ## Concepts associés {#related-concepts}
 

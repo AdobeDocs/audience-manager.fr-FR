@@ -1,16 +1,16 @@
 ---
 description: Le rapport Performances des segments compare les segments mappés et non mappés par impression et par unité de segments en temps réel. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
-seo-description: Le rapport Performances des segments compare les segments mappés et non mappés par impression et par unité de segments en temps réel. Un segment mappé est un segment que vous créez et envoyez à une destination pour le ciblage. Un segment non mappé est un segment que vous avez créé mais que vous n’avez pas envoyé à une destination pour le ciblage. La comparaison de ces différents types de segments dans et entre les rapports vous permet d’optimiser les campagnes existantes et de trouver les segments négligés que vous pouvez envoyer à une destination pour le ciblage.
-seo-title: Rapport de performances sur les segments
+seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+seo-title: Segment Performance Report
 solution: Audience Manager
 title: Rapport de performances des segments pour les éditeurs
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: Rapports d’Audience Optimization
+feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Avec le rapport [!UICONTROL Segment Performance], vous pouvez :
 
 Basculez entre **[!UICONTROL Mapped]** et **[!UICONTROL Unmapped]** pour sélectionner les segments mappés ou non à une destination. Sélectionnez **[!UICONTROL All]** pour inclure tous vos segments dans le rapport.
 
-Utilisez les commandes **Période** et **Date d’expiration** pour ajuster la période d’analyse. Notez que les périodes d’analyse de 7 et 30 jours ne sont disponibles que pour les dates du dimanche.
+Utilisez les commandes **Plage du jour** et **Date jusqu’à** pour ajuster la plage de recherche arrière. Notez que les périodes d’analyse de 7 et 30 jours ne sont disponibles que pour les dates du dimanche.
 
 Utilisez la liste déroulante **[!UICONTROL Line Item]** pour sélectionner les propriétés web pour lesquelles vous souhaitez renvoyer des informations.
 
@@ -43,7 +43,7 @@ Utilisez la liste déroulante **[!UICONTROL Segment]** pour sélectionner les se
 
 >[!IMPORTANT]
 >
->Lors de l’activation de [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item IDs], comme décrit à l’étape 3 de la section [Importation de fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Vous pouvez ainsi vous assurer que le rapport présente la propriété web sous la forme [!UICONTROL Line Item] au lieu de [!UICONTROL Line Item ID].
+>Lors de l’activation de [!UICONTROL Audience Optimization for Publishers], vous devez inclure des métadonnées descriptives pour [!UICONTROL Line Item IDs], comme décrit à l’étape 3 de la section [ Importation de fichiers de données Google Ad Manager (anciennement DFP) dans l’Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ce faisant, vous pouvez vous assurer que le rapport détaille la propriété web en [!UICONTROL Line Item] au lieu de [!UICONTROL Line Item ID].
 
 ## Interprétation des résultats {#interpreting-results}
 
@@ -81,11 +81,11 @@ Votre rapport [!UICONTROL Segment Performance] pourrait ressembler à celui ci-d
   </tr> 
   <tr> 
    <td colname="col1"> <p>CTR </p> </td> 
-   <td colname="col2"> <p>Le taux de clics publicitaires. </p> <p>Cette mesure représente le pourcentage d’impressions suivies par les clics. Divisez les clics par impressions pour obtenir cette mesure. </p> </td> 
+   <td colname="col2"> <p>Taux de clics. </p> <p>Cette mesure représente le pourcentage d’impressions suivies par les clics. Divisez les clics par impressions pour obtenir cette mesure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Population des segments en temps réel </p> </td> 
-   <td colname="col2"> <p>Nombre réel de visiteurs uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils ont été vus par <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Nombre réel de visiteurs uniques affichés en temps réel pendant la période spécifiée et qui étaient qualifiés pour le segment au moment où ils ont été vus par l’Audience Manager <span class="keyword"></span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

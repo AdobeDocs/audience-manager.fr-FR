@@ -1,16 +1,16 @@
 ---
 description: Questions fréquentes sur les fichiers de flux de données client (CDF).
-seo-description: Questions fréquentes sur les fichiers de flux de données client (CDF).
-seo-title: FAQ sur le flux de données client
+seo-description: Frequently asked questions about Customer Data Feed (CDF) files.
+seo-title: Customer Data Feed FAQ
 solution: Audience Manager
 title: FAQ sur le flux de données client
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
-feature: Flux de données client
+feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Questions fréquentes sur les fichiers de flux de données client (CDF).
 
-## Stockage Amazon S3 {#amazon-s3-storage}
+## Stockage Amazon S3 {#amazon-s3-storage}
 
 **Où est stocké mon fichier CDF sur [!DNL Amazon] ?**
 
@@ -87,4 +87,3 @@ Vous ne pouvez générer des fichiers CDF que pour les 8 derniers jours. Il est
 >[!MORELIKETHIS]
 >
 >* [Flux de données client](../features/cdf-files.md)
-

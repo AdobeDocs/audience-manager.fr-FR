@@ -1,26 +1,26 @@
 ---
 description: Une méthode de GET qui renvoie la destination pour l’ID de destination spécifié.
-seo-description: Une méthode de GET qui renvoie la destination pour l’ID de destination spécifié.
-seo-title: Renvoi d’une destination par un identifiant de destination
+seo-description: A GET method that returns the destination for the specified destinationId.
+seo-title: Return A Destination by Destination ID
 solution: Audience Manager
-title: Renvoi d’une destination par un identifiant de destination
+title: Renvoi d’une destination par un ID de destination
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
-# Renvoi d’une destination par un identifiant de destination {#return-a-destination-by-destination-id}
+# Renvoi d’une destination par un ID de destination {#return-a-destination-by-destination-id}
 
-Une méthode `GET` qui renvoie la destination de la balise `destinationId` spécifiée.
+Une méthode `GET` qui renvoie la destination pour le `destinationId` spécifié.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
-## Demande
+## Requête
 
 `GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 
@@ -62,21 +62,19 @@ Une méthode `GET` qui renvoie toutes les destinations pour le partenaire spéci
 
 <!-- r_get_all_destinations.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/destinations`
 
 >[!NOTE]
 >
->* *(Facultatif)* Transmet  `containsSegment=<sid>` pour renvoyer un tableau de toutes les destinations mappées au segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
-   >
-   >
-* Ne renvoie pas l’objet de destination complet. Obtenez la destination selon l’ordre des données si vous avez besoin d’un objet entièrement renseigné.
-
+>* *(Facultatif)* Transmettez `containsSegment=<sid>` pour renvoyer un tableau de toutes les destinations mappées au segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
+>
+>* Ne renvoie pas l’objet de destination complet. Obtenez la destination selon l’ordre des données si vous avez besoin d’un objet entièrement renseigné.
 
 ### Paramètres de requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renvoient les propriétés *all* d’un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à [!DNL API]. Voir [Paramètres facultatifs](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renvoient les propriétés *all* pour un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à [!DNL API]. Voir [Paramètres facultatifs](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -147,7 +145,7 @@ Une méthode `GET` qui renvoie un mappage de destination individuel basé sur `m
 
 <!-- r_get_destination_trait_data_order.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`*`<destinationMappingId>`*
 
@@ -188,7 +186,7 @@ Une méthode `GET` qui renvoie les mappages pour une destination.
 >
 >Le mappage renvoyé est spécifique au type et à la configuration de destination.
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings`
 
@@ -254,11 +252,11 @@ Une méthode `GET` qui renvoie les mappages pour une destination.
 
 ## Renvoie toutes les plateformes de destination disponibles {#return-dest-platforms}
 
-Une méthode `GET` qui renvoie toutes les plateformes d’appareil disponibles pour les destinations.
+Une méthode `GET` qui renvoie toutes les plateformes d’appareils disponibles pour les destinations.
 
 <!-- r_get_dest_platforms.xml -->
 
-### Demande
+### Requête
 
 `GET /destinations/configurations/available-platforms/`
 
@@ -272,15 +270,15 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Renvoi de l’historique des tâches de destination S2S et S2S en bloc {#return-job-history}
 
-Une méthode `GET` qui renvoie les [!UICONTROL Server-to-Server] sortantes ( [!UICONTROL S2S]) et les [!UICONTROL S2S] informations d’historique des tâches de destination en masse.
+Une méthode `GET` qui renvoie les informations d’historique des tâches de destination [!UICONTROL Server-to-Server] sortantes ( [!UICONTROL S2S]) et [!UICONTROL S2S] en masse.
 
 <!-- r_get_job_history.xml -->
 
-### Demande
+### Requête
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Paramètres de requête requis : `startDate` = *&quot;a2/>* et `endDate` = *&quot;a6/>*.`epochtime``epochtime`
+Paramètres de requête requis : `startDate` = *&lt;`epochtime`>* et `endDate` = *&lt;`epochtime`>*.
 
 ### Réponse
 

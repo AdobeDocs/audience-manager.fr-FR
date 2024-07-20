@@ -1,16 +1,16 @@
 ---
 description: Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d’aide. En règle générale, vous n’incluez pas ces symboles ou éléments de style dans votre code ou vos fichiers de données. Ce ne sont que des indicateurs visuels.
-seo-description: Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d’aide. En règle générale, vous n’incluez pas ces symboles ou éléments de style dans votre code ou vos fichiers de données. Ce ne sont que des indicateurs visuels.
-seo-title: Conventions de style pour les éléments de code et de texte
+seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
+seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Conventions de style pour les éléments de code et de texte
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: 'Référence '
+feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 10%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Ces éléments identifient les options de code et les variables utilisées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Les éléments entre parenthèses indiquent un choix booléen <span class="wintitle"> OU</span>. </p> </td> 
+   <td colname="col2"> <p>Les éléments entre parenthèses indiquent un choix booléen <span class="wintitle"> OR</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

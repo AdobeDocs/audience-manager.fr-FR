@@ -1,32 +1,32 @@
 ---
 description: Lors de la publication de segments vers la destination du partenaire via une intégration serveur à serveur en temps réel, l’Audience Manager peut être configurée pour s’authentifier à l’aide d’OAuth 2.0 lors de l’exécution des requêtes. Cela permet d’émettre des requêtes authentifiées de l’Audience Manager vers votre point de terminaison.
-seo-description: Lors de la publication de segments vers la destination du partenaire via une intégration serveur à serveur en temps réel, l’Audience Manager peut être configurée pour s’authentifier à l’aide d’OAuth 2.0 lors de l’exécution des requêtes. Cela permet d’émettre des requêtes authentifiées de l’Audience Manager vers votre point de terminaison.
-seo-title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
+seo-description: When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using OAuth 2.0 when making the requests. This presents the ability to issue authenticated requests from Audience Manager to your endpoint.
+seo-title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 solution: Audience Manager
-title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
+title: Intégration OAuth 2.0 pour les transferts sortants en temps réel
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
-feature: Transferts de données sortantes
+feature: Outbound Data Transfers
 exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 2%
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
 # [!DNL OAuth 2.0] Intégration pour les transferts sortants en temps réel{#oauth-integration-for-real-time-outbound-transfers}
 
-Lors de la publication de segments vers la destination du partenaire via une intégration serveur à serveur en temps réel, l’Audience Manager peut être configurée pour s’authentifier à l’aide de [!DNL OAuth 2.0] lors de l’exécution des requêtes. Cela permet d’émettre des requêtes authentifiées de l’Audience Manager vers votre point de terminaison.
+Lors de la publication de segments vers la destination partenaire via une intégration serveur à serveur en temps réel, l’Audience Manager peut être configurée pour s’authentifier à l’aide de [!DNL OAuth 2.0] lors de l’exécution des requêtes. Cela permet d’émettre des requêtes authentifiées de l’Audience Manager vers votre point de terminaison.
 
 ## Flux d’authentification {#auth-flow}
 
-L’implémentation de l’authentification [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) est basée sur le flux d’octroi des informations d’identification du client et suit les étapes suivantes :
+L’implémentation de l’authentification [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) est basée sur le flux d’octroi des informations d’identification client et suit les étapes suivantes :
 
 1. Vous devez nous fournir les éléments suivants :
-   * Le point de terminaison [!DNL OAuth 2.0] qui génère le jeton d’authentification.
+   * Le point d’entrée [!DNL OAuth 2.0] qui génère le jeton d’authentification.
    * Les informations d’identification utilisées pour générer un jeton.
-1. Un [!DNL Audience Manager] consultant configure la [destination](../../../features/destinations/destinations.md) à l’aide des informations que vous avez fournies.
-1. Une fois qu’un segment est mappé sur cette destination, notre système de transfert de données en temps réel, [IRIS](../../../reference/system-components/components-data-action.md#iris), émet une requête `POST` au point de terminaison du jeton pour échanger les informations d’identification contre un jeton porteur.
+1. Un consultant [!DNL Audience Manager] configure la [destination](../../../features/destinations/destinations.md) à l’aide des informations que vous avez fournies.
+1. Une fois qu’un segment est mappé sur cette destination, notre système de transfert de données en temps réel, [IRIS](../../../reference/system-components/components-data-action.md#iris), émet une requête `POST` au point de terminaison du jeton pour exchange les informations d’identification d’un jeton porteur.
 1. Pour chaque requête de publication de segment sur le point de terminaison partenaire, [!UICONTROL IRIS] utilise le jeton porteur pour s’authentifier.
 
 ![](assets/oauth2-iris.png)
@@ -40,7 +40,7 @@ En tant que partenaire [!DNL Audience Manager], les points de terminaison suivan
 Ce point de terminaison accepte les informations d’identification fournies à l’étape 1 et génère un jeton porteur qui sera utilisé pour les requêtes suivantes.
 
 * Le point de terminaison doit accepter les requêtes `HTTP POST`.
-* Le point de terminaison doit accepter et consulter l’en-tête [!DNL Authorization]. La valeur de cet en-tête est : `Basic <credentials_provided_by_partner>`.
+* Le point de terminaison doit accepter et consulter l’en-tête [!DNL Authorization]. La valeur de cet en-tête sera : `Basic <credentials_provided_by_partner>`.
 * Le point de terminaison doit consulter l’en-tête [!DNL Content-type] et vérifier que sa valeur est `application/x-www-form-urlencoded ; charset=UTF-8`.
 * Le corps de la requête sera `grant_type=client_credentials`.
 
@@ -75,7 +75,7 @@ Content-Length: 121
 
 [!DNL Audience Manager] envoie des données vers ce point de terminaison en temps quasi réel, car les utilisateurs remplissent les critères des segments. En outre, cette méthode peut envoyer des lots de données hors ligne ou intégrées aussi fréquemment que toutes les 24 heures.
 
-Le jeton porteur généré par le point de terminaison 1 est utilisé pour émettre des requêtes vers ce point de terminaison. Le [!DNL Audience Manager] système de transfert de données en temps réel, [IRIS](../../../reference/system-components/components-data-action.md#iris), construit une requête HTTPS normale et inclut un en-tête d’autorisation. La valeur de cet en-tête est : Porteur `<bearer token from step 1>`.
+Le jeton porteur généré par le point de terminaison 1 est utilisé pour émettre des requêtes vers ce point de terminaison. Le système de transfert de données [!DNL Audience Manager] en temps réel, [IRIS](../../../reference/system-components/components-data-action.md#iris), construit une requête HTTPS normale et inclut un en-tête d’autorisation. La valeur de cet en-tête sera : porteur `<bearer token from step 1>`.
 
 ### Exemple de réponse du point de terminaison partenaire
 
@@ -114,7 +114,7 @@ Accept-Encoding: gzip
 
 ### Les jetons sont des mots de passe
 
-Les informations d’identification présentées par le partenaire et les jetons obtenus par [!DNL Audience Manager] lors de l’authentification à l’aide du flux [!DNL OAuth 2.0] sont des informations sensibles qui ne doivent pas être partagées avec des tiers.
+Les informations d’identification présentées par le partenaire et les jetons obtenus par [!DNL Audience Manager] lors de l’authentification à l’aide du flux [!DNL OAuth 2.0] sont des informations sensibles et ne doivent pas être partagées avec des tiers.
 
 ### [!DNL SSL] est requis
 

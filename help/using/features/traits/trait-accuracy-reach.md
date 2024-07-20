@@ -1,16 +1,16 @@
 ---
 description: Décrit la relation entre la précision et la portée dans les caractéristiques algorithmiques.
-seo-description: Décrit la relation entre la précision et la portée dans les caractéristiques algorithmiques.
-seo-title: Précision et portée
+seo-description: Describes the relationship between accuracy and reach in algorithmic traits.
+seo-title: Accuracy and Reach
 solution: Audience Manager
 title: Précision et portée
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
-feature: 'Caractéristiques '
+feature: Traits
 exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Décrit la relation entre la précision et la portée dans les caractéristiques
 
 <!-- c_accuracy_reach.xml -->
 
-## Précision et portée : A propos
+## Précision et portée : À propos
 
 Il est important de comprendre la relation entre la précision et la portée lorsque vous utilisez des caractéristiques algorithmiques. La précision est représentée par une valeur notée qui reflète la ressemblance entre les utilisateurs et votre ligne de base. L’échelle de précision est comprise entre 0 (la moins précise) et 1 (la plus précise). La portée est simplement une valeur qui représente le nombre d’utilisateurs uniques que vous souhaitez inclure dans une caractéristique. La portée et la précision sont inversement liées. Les caractéristiques précises atteignent moins d’utilisateurs et les caractéristiques ayant une plus grande portée sont moins précises. L’image suivante illustre ce concept.
 

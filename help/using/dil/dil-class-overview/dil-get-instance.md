@@ -10,8 +10,8 @@ feature: DIL Implementation
 exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->Depuis juillet 2023, l’Adobe a cessé de développer la [!DNL Data Integration Library (DIL)] et la variable [!DNL DIL] extension .
+>Depuis juillet 2023, Adobe a arrêté le développement de l’extension [!DNL Data Integration Library (DIL)] et [!DNL DIL].
 >
->Les clients existants peuvent continuer à utiliser leurs [!DNL DIL] implémentation. Cependant, l’Adobe ne se développera pas. [!DNL DIL] au-delà de ce point. Les clients sont encouragés à évaluer [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
+>Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, l’Adobe ne développera pas [!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer le [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
 >
->Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) au lieu de .
+>Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) à la place.
 
 Récupère une instance de DIL spécifique au partenaire.
 
@@ -40,7 +40,7 @@ Récupère une instance de DIL spécifique au partenaire.
 
 ## Réponse
 
-Une correspondance NSID de conteneur et de partenaire réussie renvoie un partenaire spécifique [!UICONTROL DIL] instance. Si aucune correspondance n’est trouvée, l’API renvoie (ne renvoie pas) une erreur avec le message : &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Une correspondance NSID de conteneur et de partenaire réussie renvoie une instance [!UICONTROL DIL] spécifique à un partenaire. S’il n’existe aucune correspondance, l’API renvoie (ne renvoie pas) une erreur avec le message &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;.
 
 ## Exemple de code
 

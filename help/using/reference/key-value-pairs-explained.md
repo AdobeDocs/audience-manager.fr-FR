@@ -1,17 +1,17 @@
 ---
 description: Définit et décrit des paires clé-valeur standard et sérialisées.
-keywords: integration code
-seo-description: Définit et décrit des paires clé-valeur standard et sérialisées.
-seo-title: Explication des paires clé-valeur
+keywords: code d’intégration
+seo-description: Defines and describes standard and serialized key-value pairs.
+seo-title: Key-Value Pairs Explained
 solution: Audience Manager
 title: Explication des paires clé-valeur
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-feature: 'Référence '
+feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ c_key_value_explained.xml
 
  -->
 
-Une paire clé-valeur se compose de deux éléments de données associés : Une clé, qui est une constante qui définit le jeu de données (par exemple, le sexe, la couleur, le prix), et une valeur, qui est une variable qui appartient à l’ensemble (par exemple, mâle/femelle, vert, 100). En forme complète, une paire clé-valeur peut se présenter comme suit :
+Une paire clé-valeur se compose de deux éléments de données associés : une clé, qui est une constante qui définit le jeu de données (par exemple, le genre, la couleur, le prix), et une valeur, qui est une variable qui appartient à l’ensemble (par exemple, masculin/féminin, vert, 100). En forme complète, une paire clé-valeur peut se présenter comme suit :
 
 * `gender = male`
 * `color = green`
@@ -46,9 +46,9 @@ Les destinations acceptent les données clé-valeur au format *`standard`* ou *`
 
 Lorsque vous utilisez des données sérialisées, vous devez spécifier les caractères qui séparent les valeurs *dans* et *entre* les paires clé-valeur. Les éléments des paires clé-valeur sont définis comme suit :
 
-* **Clé :** identifiant unique dans la paire clé-valeur.
-* **Délimiteur de valeur :** sépare les paires clé-valeur individuelles.
-* **Séparateur clé-valeur :** sépare une clé des valeurs dans une paire clé-valeur.
+* **Clé :** Identifiant unique dans la paire clé-valeur.
+* **Délimiteur de valeur :** sépare des paires clé-valeur individuelles.
+* **Séparateur clé-valeur :** Sépare une clé des valeurs dans une paire clé-valeur.
 * **Séparateur de série :** sépare les valeurs individuelles dans des paires clé-valeur sérialisées.
 
 ## Éléments de clé standard et de valeur sérialisée {#standard-serialized-key-value-elements}
@@ -56,7 +56,7 @@ Lorsque vous utilisez des données sérialisées, vous devez spécifier les cara
 
 | Type | Exemple | Clé | Séparateur clé-valeur | Délimiteur clé-valeur | Séparateur de série |
 |---------|----------|---------|---------|----------|---------|
-| **Clé unique**  (standard) | `x=1&x=2` | `x` | `=` | `&` | n/d |
-| **Paires clé-valeur**  (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/d |
-| **Clé unique**  (série) | `x=1;2;3` | `x` | `=` | n/d | `;` |
-| **Paires clé-valeur**  (série) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
+| **Clé unique** (standard) | `x=1&x=2` | `x` | `=` | `&` | n/d |
+| **Paires clé-valeur** (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/d |
+| **Clé unique** (série) | `x=1;2;3` | `x` | `=` | n/d | `;` |
+| **Paires clé-valeur** (série) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |

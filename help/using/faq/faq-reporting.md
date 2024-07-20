@@ -9,8 +9,8 @@ feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Pour réduire la demande de puissance de calcul, les résultats de ces rapports 
 
 **Si je lance une campagne de marketing par courriel, comment puis-je déterminer si des utilisateurs redirigés sont venus sur mon site à partir de cette campagne ou à partir d’autres sources ?**
 
-Ajoutez une chaîne de requête spécifique à une campagne à l’URL de la section de site à surveiller. Ensuite, configurez une règle de caractéristique pour capturer cette variable. Par exemple, si votre URL transmet un identifiant de campagne similaire à `www.test123.com/electronics?campaign=123`, créez une règle de caractéristique pour capturer ces données de la variable `h_referer` avec une règle de caractéristique qui recherche un en-tête similaire à `h_referer = 'campaign=123'`.
+Ajoutez une chaîne de requête spécifique à une campagne à l’URL de la section de site à surveiller. Ensuite, configurez une règle de caractéristique pour capturer cette variable. Par exemple, si votre URL transmet un identifiant de campagne comme celui-ci, `www.test123.com/electronics?campaign=123`, créez une règle de caractéristique pour capturer ces données de la variable `h_referer` avec une règle de caractéristique qui recherche un en-tête comme `h_referer = 'campaign=123'`.
 
 <br> 
 

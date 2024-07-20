@@ -1,16 +1,16 @@
 ---
 description: Affichez les informations de l’historique des tâches par lots sortantes pour une destination et une période spécifiées.
-seo-description: Affichez les informations de l’historique des tâches par lots sortantes pour une destination et une période spécifiées.
-seo-title: Historique des fichiers sortants
+seo-description: View outbound batch job history information for a specified destination and time period.
+seo-title: Outbound File History
 solution: Audience Manager
 title: Historique des fichiers sortants
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: Rapports entrants et sortants
+feature: Inbound and Outbound Reports
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ t_reports_outbound_history.xml
 
    ![Résultat de l’étape](assets/outbound_history.png)
 
-1. Dans la zone **[!UICONTROL Search for a Destination]**, commencez à saisir et sélectionnez la destination souhaitée.
+1. Dans la zone **[!UICONTROL Search for a Destination]**, commencez à taper et sélectionnez la destination souhaitée.
 1. Dans la zone **[!UICONTROL Select a Date Range]**, indiquez les dates de début et de fin de votre rapport, puis cliquez sur **[!UICONTROL Apply Date Filter]**.
 
    ![Résultat de l’étape](assets/outbound_history_stats.png)
@@ -49,7 +49,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Réussite </td> 
-   <td colname="col2"> <p>Nombre d’enregistrements envoyés avec succès de <span class="keyword"> l’Audience Manager</span> vers la destination. </p> </td> 
+   <td colname="col2"> <p>Nombre d’enregistrements qui ont été envoyés avec succès de l’Audience Manager <span class="keyword"> vers la destination.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Echec </td> 

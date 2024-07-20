@@ -1,16 +1,16 @@
 ---
 description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre une caractéristique particulière et un segment entier.
-seo-description: Renvoie des données sur le nombre d’utilisateurs uniques partagés entre une caractéristique particulière et un segment entier.
-seo-title: Rapport de chevauchement de segments et de caractéristiques
+seo-description: Returns data on the number of unique users shared between a particular trait and an entire segment.
+seo-title: Segment-to-Trait Overlap Report
 solution: Audience Manager
 title: Rapport de chevauchement de segments et de caractéristiques
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: Rapports de chevauchement
+feature: Overlap Reports
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 5%
+source-wordcount: '831'
+ht-degree: 3%
 
 ---
 
@@ -52,7 +52,7 @@ c_compare_s2t.xml
 
  -->
 
-### Comparaison des uniques de caractéristiques et de segments : Exemple
+### Comparaison des uniques de caractéristiques et de segments : un exemple
 
 À première vue, il peut sembler illogique de comparer les segments aux caractéristiques et d’essayer de tirer des conclusions des résultats. Après tout, les segments et les caractéristiques sont différents, alors comment les données dérivées d’éléments disparates peuvent-elles avoir un sens ? Cependant, dans ce cas, nous ne comparons pas les caractéristiques et les segments, mais le nombre de visiteurs uniques partagés entre eux. Le nombre de visiteurs uniques partagés fournit la valeur commune qui rend possible une comparaison entre les segments et les caractéristiques.
 
@@ -82,15 +82,15 @@ L’examen du chevauchement entre les caractéristiques et les segments peut vou
    <td colname="col2"> <p>Pour déterminer le pool de visiteurs disponible, additionnez la différence entre le total des caractéristiques (moins de chevauchement) et le total des segments (moins de chevauchement). </p> <p>Cette combinaison segment-caractéristique peut atteindre jusqu’à 1 004 nouveaux utilisateurs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Recherche de segments inefficaces</b> </td> 
-   <td colname="col2"> <p>Si une caractéristique fait partie d’un groupe <span class="wintitle"> ET</span> dans une définition de segment, les visiteurs uniques qui possèdent cette caractéristique sont déjà dans le segment et ne sont pas disponibles pour l’ajout au segment. Vous pouvez utiliser ce rapport pour rechercher des caractéristiques pertinentes avec faible chevauchement et les ajouter à la définition de segment, augmentant ainsi la portée de ce pool d’audiences de ce segment. </p> </td> 
+   <td colname="col1"><b>Rechercher des segments inefficaces</b> </td> 
+   <td colname="col2"> <p>Si une caractéristique fait partie d’un groupe <span class="wintitle"> ET</span> dans une définition de segment, les visiteurs uniques qui possèdent cette caractéristique sont déjà dans le segment et ne peuvent pas être ajoutés au segment. Vous pouvez utiliser ce rapport pour rechercher des caractéristiques pertinentes avec faible chevauchement et les ajouter à la définition de segment, augmentant ainsi la portée de ce pool d’audiences de ce segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Présentation des filtres de données dans le rapport de chevauchement de segments et de caractéristiques {#data-filters-s2t-report}
 
-Décrit le fonctionnement des curseurs % de chevauchement uniques de caractéristiques et de segments.
+Décrit le fonctionnement des curseur de pourcentage de chevauchement de caractéristiques et de segments uniques.
 
 <!-- 
 
@@ -133,15 +133,15 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contie
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Identifiant de segment</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Identifiant de segment </span></b> </td> 
    <td colname="col2"> Identifiant numérique unique du segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Source de données de caractéristiques  </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Data Source </span></b> </td> 
    <td colname="col2"> Nom du propriétaire de la caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Type de source de données</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Type de Source de données </span></b> </td> 
    <td colname="col2">Définit le type de fournisseur auquel appartient une caractéristique. Peut être : 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Propriétaire (votre propre caractéristique). </li> 
@@ -149,23 +149,23 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contie
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID de caractéristique</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> ID de caractéristique </span></b> </td> 
    <td colname="col2"> Identifiant numérique unique de la caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nom de la caractéristique</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Nom de caractéristique </span></b> </td> 
    <td colname="col2"> Nom de la caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % de chevauchement des caractéristiques uniques</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Chevauchement des caractéristiques uniques %</span></b> </td> 
    <td colname="col2"> % des visiteurs uniques qu’une caractéristique partage avec le segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % de chevauchement des segments uniques</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Chevauchement de segments uniques %</span></b> </td> 
    <td colname="col2"> % des visiteurs uniques qu’un segment partage avec une caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Chevauchement des uniques</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Uniques de chevauchement</span></b> </td> 
    <td colname="col2"> Nombre de visiteurs uniques partagés entre le segment et la caractéristique. </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contie
    <td colname="col2"> Nombre de visiteurs uniques dans le segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Caractéristiques uniques</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Uniques de caractéristiques</span></b> </td> 
    <td colname="col2"> Nombre de visiteurs uniques dans la caractéristique. </td> 
   </tr> 
  </tbody> 
@@ -182,9 +182,8 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contie
 >[!MORELIKETHIS]
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
-* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [Explication des icônes et outils de rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [Échantillonnage de données et taux d’erreur dans les rapports Audience Manager sélectionnés...](../../reporting/report-sampling.md)
-* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)
-
+>* [Formes, couleurs et tailles utilisées dans les rapports interactifs](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Explication des icônes et outils de rapport](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [ Échantillonnage de données et taux d’erreur dans les rapports d’Audience Manager sélectionnés...](../../reporting/report-sampling.md)
+>* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)

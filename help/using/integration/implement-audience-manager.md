@@ -1,20 +1,20 @@
 ---
 description: Cette section décrit et explique les processus liés à la prise en main de la plateforme de gestion des données d’Audience Manager (DMP). Cette section est conçue pour aider les équipes commerciales, les chefs de projet et les gestionnaires de technologie à comprendre le processus de mise en oeuvre de l’Audience Manager. La prise en main de l’Audience Manager peut prendre entre six semaines et trois mois, selon vos besoins en termes de collecte de données.
-seo-description: Cette section décrit et explique les processus liés à la prise en main de la plateforme de gestion des données d’Audience Manager (DMP). Cette section est conçue pour aider les équipes commerciales, les chefs de projet et les gestionnaires de technologie à comprendre le processus de mise en oeuvre de l’Audience Manager. La prise en main de l’Audience Manager peut prendre entre six semaines et trois mois, selon vos besoins en termes de collecte de données.
-seo-title: Implémentation d’Audience Manager
+seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
+seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Implémentation d’Audience Manager
+title: Implémentation de l’Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Intégration tierce
+feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 0%
 
 ---
 
-# Implémentation d’Audience Manager {#implementing-audience-manager}
+# Implémentation de l’Audience Manager {#implementing-audience-manager}
 
 Cette section décrit et explique les processus liés à la prise en main de la plateforme de gestion des données d’Audience Manager ([!DNL DMP]). Cette section est conçue pour aider les équipes commerciales, les chefs de projet et les gestionnaires de technologie à comprendre le processus de mise en oeuvre de l’Audience Manager. La prise en main de l’Audience Manager peut prendre entre six semaines et trois mois, selon vos besoins en termes de collecte de données.
 
@@ -44,7 +44,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
   <tr valign="top"> 
    <th colname="col1" class="entry"> Activité </th> 
    <th colname="col2" class="entry"> Objectif/description </th> 
-   <th colname="col3" class="entry"> Participants proposés </th> 
+   <th colname="col3" class="entry"> Suggestions de participants </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -93,7 +93,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
   <tr> 
    <th colname="col1" class="entry"> Activité </th> 
    <th colname="col2" class="entry"> Objectif/description </th> 
-   <th colname="col3" class="entry"> Participants proposés </th> 
+   <th colname="col3" class="entry"> Suggestions de participants </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -117,7 +117,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Rechercher des destinations </td> 
-   <td colname="col2"> Découvrez si le client envoie des données à d’autres serveurs de publicités, DSP, réseaux ou échanges </td> 
+   <td colname="col2"> Découvrez si le client envoie des données à d’autres serveurs de publicités, DSP, réseaux ou exchange </td> 
    <td colname="col3"> Entreprises </td> 
   </tr> 
   <tr valign="top"> 
@@ -136,7 +136,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
 Les éléments livrables pour cette phase peuvent inclure :
 
 * une stratégie de collecte de données tierce, tierce et propriétaire achevée ;
-* un plan d’ingestion [!DNL CRM] ou d’entrepôt de données complété ;
+* un plan d’ingestion [!DNL CRM] ou d’entrepôt de données terminé ;
 * les exigences définies en matière de segmentation de l’audience ;
 * une taxonomie des données terminée ;
 * Un plan d’intégration des données tiers développé.
@@ -147,7 +147,7 @@ Pendant les phases de création, de test et de formation, vous passerez en revue
 
 <!-- c_build_test_train.xml -->
 
-Votre stratégie de collecte de données fera l’objet de tests [!DNL QA] de bout en bout. Les solutions partenaires suivront les bogues découverts et coordonneront les solutions aux problèmes avec nos ingénieurs système. La formation des clients peut commencer parallèlement à ces autres efforts.
+Votre stratégie de collecte de données fera l’objet de tests de bout en bout [!DNL QA]. Les solutions partenaires suivront les bogues découverts et coordonneront les solutions aux problèmes avec nos ingénieurs système. La formation des clients peut débuter parallèlement à ces autres efforts.
 
 Le tableau suivant décrit les principales activités qui ont lieu au cours de cette phase :
 
@@ -161,13 +161,13 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
 Les éléments livrables pour cette phase peuvent inclure :
 
 * un plan de collecte de données complété et accepté;
-* test de bout en bout [!DNL QA]
+* Test de bout en bout [!DNL QA] ;
 * Instructions de base sur les fonctions de l’interface utilisateur d’Audience Manager ;
 * Acceptation et approbation.
 
 ## Phase de lancement, de prise en charge et d’optimisation {#launch-support-optimize-phase}
 
-Au cours de la phase de lancement, de prise en charge et d’optimisation, votre collecte de données et votre mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons notre formation sur la familiarisation des produits et les stratégies qui peuvent contribuer à améliorer votre [!DNL ROI] grâce à une optimisation axée sur les données.
+Au cours de la phase de lancement, de prise en charge et d’optimisation, votre collecte de données et votre mise en oeuvre de prototypes passent du développement à un environnement de production actif. Nous poursuivrons la formation sur la familiarisation des produits et les stratégies qui peuvent contribuer à augmenter votre [!DNL ROI] grâce à l’optimisation basée sur les données.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -210,7 +210,7 @@ Le tableau suivant décrit les principales activités qui ont lieu au cours de c
  </tbody> 
 </table>
 
-Les tâches de cette phase peuvent inclure :
+Les tâches pour cette phase peuvent inclure :
 
 * Génération et interprétation des données du rapport ;
 * Comprendre les rapports personnalisés ;
@@ -222,7 +222,7 @@ Les tâches de cette phase peuvent inclure :
 
 Audience Manager utilise le Data Integration Library ([!DNL DIL]) pour recevoir les données d’audience.
 
-Pour obtenir des instructions détaillées sur l’utilisation de [!DNL DIL], voir [Obtention et implémentation du code du DIL](../dil/dil-overview.md).
+Pour obtenir des instructions détaillées sur l’utilisation de [!DNL DIL], voir [Obtention et mise en oeuvre du code du DIL](../dil/dil-overview.md).
 
 ### Participants
 

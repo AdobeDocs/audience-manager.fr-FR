@@ -1,7 +1,7 @@
 ---
 description: Envoyez des données à l’API DCS à l’aide de méthodes de GET ou de POST.
-seo-description: Envoyez des données à l’API DCS à l’aide de méthodes de GET ou de POST.
-seo-title: Méthodes d’API DCS
+seo-description: Send data to the DCS API using GET or POST methods.
+seo-title: DCS API Methods
 solution: Audience Manager
 title: Méthodes d’API DCS
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
@@ -9,8 +9,8 @@ feature: DCS
 exl-id: 258994e1-6b15-4ae1-9e1f-c6e0685350c1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 0%
 
 ---
 

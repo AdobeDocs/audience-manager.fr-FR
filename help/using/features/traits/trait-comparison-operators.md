@@ -1,16 +1,16 @@
 ---
 description: Cet article décrit les opérateurs de comparaison utilisés par le créateur de caractéristiques.
-seo-description: Cet article décrit les opérateurs de comparaison utilisés par le créateur de caractéristiques.
-seo-title: Utilisation d’opérateurs de comparaison dans le générateur de caractéristiques
+seo-description: This article describes the comparison operators used by Trait Builder.
+seo-title: Working with Comparison Operators in Trait Builder
 solution: Audience Manager
 title: Utilisation d’opérateurs de comparaison dans le générateur de caractéristiques
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-feature: 'Caractéristiques '
+feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 12%
+source-wordcount: '339'
+ht-degree: 6%
 
 ---
 
@@ -37,26 +37,25 @@ Vous pouvez créer des règles avec les opérateurs de comparaison suivants :
 | **==** | Égal à |
 | **!=** | Différent de |
 | **>** | Supérieur à |
-| **&lt;>** | Inférieur à |
+| **&lt;** | Inférieur à |
 | **=>** | Supérieur/égal à |
-| **&lt;>** | Inférieur/égal à |
+| **&lt;=** | Inférieur/égal à |
 
 ## Opérateurs nommés
 
 Vous pouvez créer des règles avec les opérateurs nommés suivants :
 
-| Opérateur | Évalue sur [!DNL True] Lorsque |
+| Opérateur | Évalue sur [!DNL True] lorsque |
 |---|---|
-| **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient les caractères* spécifiés par cet opérateur. |
+| **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient* caractères spécifiés par cet opérateur. |
 | **[!UICONTROL Matcheswords]** | La valeur d’une paire clé-valeur *correspond* au modèle spécifié par cet opérateur. |
-| **[!UICONTROL Startswith]** | La valeur d’une paire clé-valeur *commence par les caractères* spécifiés par cet opérateur. |
+| **[!UICONTROL Startswith]** | La valeur d’une paire clé-valeur *commence par* caractères spécifiés par cet opérateur. |
 | **[!UICONTROL Endswith]** | La valeur d’une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
-| **[!UICONTROL Matchesregex]** | La valeur d’une paire clé-valeur *correspond* au modèle spécifié par une expression régulière. [En savoir ](../../features/traits/trait-builder-regex.md) plus sur l’utilisation d’expressions régulières dans  [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | La valeur d’une paire clé-valeur *correspond* au modèle spécifié par une expression régulière. [En savoir plus](../../features/traits/trait-builder-regex.md) sur l’utilisation des expressions régulières dans [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
-* [Présentation des expressions booléennes dans TraitBuilder](../../reference/boolean-expressions-tsb.md)
-* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
-* [Exemple d’expressions avec des opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)
-
+>* [Comprendre les expressions booléennes dans TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
+>* [Exemple d’expressions avec des opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)

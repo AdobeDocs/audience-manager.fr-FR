@@ -1,17 +1,17 @@
 ---
 description: Ce document décrit le fonctionnement de la gestion du consentement dans Audience Manager.
-seo-description: Ce document décrit le fonctionnement de la gestion du consentement dans Audience Manager.
-seo-title: Gestion du consentement
+seo-description: This document explains how consent management works in Audience Manager.
+seo-title: Consent Management
 solution: Audience Manager
 keywords: Interface utilisateur RGPD, API RGPD, CCPA, confidentialité, consentement
 title: Gestion du consentement
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Gouvernance et confidentialité des données
+feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 94%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Les clients d’Audience Manager peuvent stocker le consentement des utilisateur
 
 ## Gestion de l’exclusion/Retrait du consentement
 
-Vous pouvez gérer l’exclusion pour Adobe Experience Cloud via la page [Vos choix en matière de confidentialité](https://www.adobe.com/fr/privacy/opt-out.html#customeruse). Les fonctionnalités en un clic permettent aux utilisateurs finaux de contrôler la collecte de données et de ne pas y participer grâce aux solutions publicitaires d’Adobe Experience Cloud (y compris Audience Manager). Plus précisément, consultez la [section client professionnel](https://www.adobe.com/privacy/opt-out.html#customeruse) de la page Choix de confidentialité. Pour les navigateurs qui ne prennent pas en charge les cookies tiers, consultez [Ciblage des identifiants déclarés](../../features/declared-ids.md#declared-id-targeting). Pour les appareils mobiles, récupérez les identifiants d’Audience Manager appropriés et appelez les API d’exclusion d’Audience Manager comme mentionné dans les [exemples d’exclusion d’identifiants déclarés](../../features/declared-ids.md#opt-out-examples). Ensuite, vous pouvez suspendre la collecte de données pour les utilisateurs disposant des API d’exclusion du SDK Mobile. Consultez [Appareils Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) et [Appareils iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Vous trouverez des informations supplémentaires sur l’exclusion dans la [documentation sur les requêtes de confidentialité des données](../../overview/data-security-and-privacy/data-privacy-requests.md).
+Vous pouvez gérer l’exclusion pour Adobe Experience Cloud via la page [Vos choix en matière de confidentialité](https://www.adobe.com/fr/privacy/opt-out.html#customeruse). Les fonctionnalités en un clic permettent aux utilisateurs finaux de contrôler la collecte de données et de ne pas y participer grâce aux solutions publicitaires d’Adobe Experience Cloud (y compris Audience Manager). Plus précisément, consultez la [section client professionnel](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) de la page Choix de confidentialité. Pour les navigateurs qui ne prennent pas en charge les cookies tiers, consultez [Ciblage des identifiants déclarés](../../features/declared-ids.md#declared-id-targeting). Pour les appareils mobiles, récupérez les identifiants d’Audience Manager appropriés et appelez les API d’exclusion d’Audience Manager comme mentionné dans les [exemples d’exclusion d’identifiants déclarés](../../features/declared-ids.md#opt-out-examples). Ensuite, vous pouvez suspendre la collecte de données pour les utilisateurs disposant des API d’exclusion du SDK Mobile. Consultez [Appareils Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) et [Appareils iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html). Vous trouverez des informations supplémentaires sur l’exclusion dans la [documentation sur les requêtes de confidentialité des données](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Gestion du consentement pour les partenaires secondaires
 

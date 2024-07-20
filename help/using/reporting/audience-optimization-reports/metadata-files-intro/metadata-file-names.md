@@ -1,16 +1,16 @@
 ---
 description: Nommez votre fichier de métadonnées d’Audience Optimization en fonction de ces spécifications.
-seo-description: Nommez votre fichier de métadonnées d’Audience Optimization en fonction de ces spécifications.
-seo-title: Conventions de dénomination des fichiers de métadonnées
+seo-description: Name your Audience Optimization metadata file according to these specifications.
+seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
 title: Conventions de dénomination des fichiers de métadonnées
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: Fichiers journaux
+feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 10%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
@@ -22,15 +22,15 @@ Nommez votre fichier de métadonnées d’Audience Optimization en fonction de c
 
 La syntaxe suivante définit la structure d’un nom de fichier de métadonnées correctement formé. Remarque : *italics* indique un espace réservé de variable. Les autres éléments sont des constantes et ne changent pas.
 
-**Syntaxe :***`yyyymmdd_0_childID`*
+**Syntaxe :** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*N’utilisez* pas d’extensions de fichier dans vos fichiers de métadonnées (.txt ou autre).
+>*N’utilisez pas* d’extensions de fichier dans vos fichiers de métadonnées (.txt ou autre).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Le composant du milieu **0** est techniquement l’identifiant parent, qui est un champ hérité. La valeur doit toujours être définie sur **0**.
+* Le composant central **0** est techniquement l’identifiant parent, qui est un champ hérité. La valeur doit toujours être définie sur **0**.
 * L’ID enfant peut avoir une valeur comprise entre 1 et 10, selon la dimension. Reportez-vous à l’exemple ci-dessous :
 
 ## Dimensions d’ID enfant {#child-dimension}
@@ -44,7 +44,7 @@ Dans le nom du fichier de métadonnées, l’ID enfant est un identifiant qui cl
 1. Site
 1. Annonceur (en cas d’utilisation de codes d’intégration dans une [source de données](../../../features/manage-datasources.md#details))
 1. Ordre d’insertion (IO)
-1. Vertical (c’est-à-dire un secteur ou une catégorie d’entreprise spécifique comme &quot;ordinateurs&quot;, &quot;automobiles&quot;, &quot;immobilier&quot;, etc.)
+1. Vertical (c’est-à-dire un secteur ou une catégorie spécifique comme &quot;ordinateurs&quot;, &quot;automobiles&quot;, &quot;immobilier&quot;, etc.)
 1. Tactique
 1. Unité ou marque commerciale
 

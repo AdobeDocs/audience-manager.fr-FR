@@ -1,14 +1,14 @@
 ---
 description: Le répertoire d’état S3 contient un fichier .info contenant des informations de réussite et d’échec sur vos fichiers chargés. Le fichier contient des données au format JSON avec des résultats d’état dans un tableau.
-seo-description: Le répertoire d’état S3 contient un fichier .info contenant des informations de réussite et d’échec sur vos fichiers chargés. Le fichier contient des données au format JSON avec des résultats d’état dans un tableau.
-seo-title: Mises à jour d’état des fichiers de métadonnées
+seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
+seo-title: Status Updates for Metadata Files
 solution: Audience Manager
 title: Mises à jour d’état des fichiers de métadonnées
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: Fichiers journaux
+feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Mises à jour d’état des fichiers de métadonnées{#status-updates-for-metadata-files}
 
-Le répertoire d’état S3 contient un fichier `.info` contenant des informations de réussite et d’échec sur vos fichiers chargés. Le fichier contient des données au format JSON avec des résultats d’état dans un tableau.
+Le répertoire d’état S3 contient un fichier `.info` contenant des informations de succès et d’échec sur vos fichiers chargés. Le fichier contient des données au format JSON avec des résultats d’état dans un tableau.
 
 Le contenu de votre fichier `.info` ressemblera à cet exemple.
 
@@ -63,7 +63,7 @@ Le contenu de votre fichier `.info` ressemblera à cet exemple.
 
 Les tableaux suivants répertorient et définissent les clés des sections `Files` et `Summary` d’un fichier d’état de métadonnées.
 
-**Raccourcis clavier dans le tableau Fichiers**
+**Clés dans le tableau de fichiers**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -83,7 +83,7 @@ Les tableaux suivants répertorient et définissent les clés des sections `File
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Somme de contrôle MD 5 pour le fichier de métadonnées téléchargé dans votre répertoire <code> meta</code>. </p> </td> 
+   <td colname="col2"> <p>La somme de contrôle MD 5 pour le fichier de métadonnées téléchargé dans votre répertoire <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
@@ -91,11 +91,11 @@ Les tableaux suivants répertorient et définissent les clés des sections `File
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID enfant du nom de fichier. </p> <p>Voir <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Conventions de dénomination des fichiers de métadonnées</a>. </p> </td> 
+   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID enfant du nom de fichier. </p> <p>Voir <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Conventions de dénomination pour les fichiers de métadonnées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID parent dans le nom de fichier. </p> <p>Voir <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Conventions de dénomination des fichiers de métadonnées</a>. </p> </td> 
+   <td colname="col2"> <p>Nom lisible par l’utilisateur pour le type de données que votre fichier contient. Il est basé sur l’ID parent dans le nom de fichier. </p> <p>Voir <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Conventions de dénomination pour les fichiers de métadonnées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -108,7 +108,7 @@ Les tableaux suivants répertorient et définissent les clés des sections `File
  </tbody> 
 </table>
 
-**Raccourcis clavier dans l’objet de résumé**
+**Clés dans l’objet de résumé**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 

@@ -1,7 +1,7 @@
 ---
 description: Commencez ici pour plus d’informations sur les appels /event au serveur de collecte de données. Cette section contient des informations sur la syntaxe des appels, les paramètres, le formatage et un exemple de requête.
-seo-description: Commencez ici pour plus d’informations sur les appels /event au serveur de collecte de données. Cette section contient des informations sur la syntaxe des appels, les paramètres, le formatage et un exemple de requête.
-seo-title: Envoi de données au DCS
+seo-description: Start here for information about making /event calls to the DCS. This section includes information about call syntax, parameters, formatting, and a request example.
+seo-title: Send Data to the DCS
 solution: Audience Manager
 title: Envoi de données au DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
@@ -9,18 +9,18 @@ feature: DCS
 exl-id: 8a6798c3-aafd-48c8-acd7-a0e29e04dc8e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 6%
+source-wordcount: '392'
+ht-degree: 1%
 
 ---
 
 # Envoi de données au DCS {#send-data-to-the-dcs}
 
-Pour plus d’informations sur les appels `/event` à [!DNL DCS], commencez ici . Cette section contient des informations sur la syntaxe des appels, les paramètres, le formatage et un exemple de requête.
+Commencez ici pour plus d’informations sur les appels `/event` à [!DNL DCS]. Cette section contient des informations sur la syntaxe des appels, les paramètres, le formatage et un exemple de requête.
 
 >[!NOTE]
 >
->Dans le code et les exemples, *italics* représente un espace réservé de variable. Remplacez la valeur réelle de l’espace réservé lorsque vous envoyez des données à [!DNL DCS] par cette méthode.
+>Dans le code et les exemples, *italics* représente un espace réservé de variable. Remplacez une valeur réelle pour l’espace réservé lorsque vous envoyez des données à [!DNL DCS] avec cette méthode.
 
 ## Syntaxe des appels {#dcs-call-syntax}
 
@@ -51,7 +51,7 @@ Le tableau suivant définit les composants de base d’un appel [!DNL DCS] simpl
    <td colname="col2"> <p>Cette partie de l’appel contient : </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Votre alias de domaine attribué par <span class="keyword"> Audience Manager</span> (par exemple, <code> my_domain.demdex.net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Domaine de destination, qui est toujours <code> demdex.net</code>. Voir <a href="../../../reference/demdex-calls.md">Signification des appels vers le domaine Demdex</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Domaine de destination, qui est toujours <code> demdex.net</code>. Voir <a href="../../../reference/demdex-calls.md"> Signification des appels vers le domaine Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Le tableau suivant définit les composants de base d’un appel [!DNL DCS] simpl
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>Une valeur de variable qui appartient à un jeu défini par une clé dans la paire clé-valeur. </p> <p>Lorsque vous utilisez des valeurs : </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Placez les données de chaîne entre guillemets doubles (par exemple, <code> age="41 to 55"</code>). </li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Ajoutez des données de chaîne entre guillemets doubles (par exemple, <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Vous pouvez transmettre plusieurs clés sur une seule valeur (par exemple, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
      </ul> </p> <p>Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatage des paires clé-valeur dans les appels DCS</a>. </p> </td>
   </tr> 
@@ -88,7 +88,7 @@ Le tableau suivant définit les composants de base d’un appel [!DNL DCS] simpl
 
 ## Exemple d’appel {#dcs-sample-call}
 
-Cet exemple présente la société fictive [!DNL Acme, Inc.] envoyant des données à [!DNL DCS] via un appel [!DNL HTTP]. Notez que cet appel comprend les paramètres facultatifs `d_dst=1`, `d_rtbd=json` et `d_cb=callback`. Elles indiquent que [!DNL Acme] souhaite recevoir une réponse [!DNL JSON] de [!DNL DCS] avec une fonction de rappel. Rappelez-vous, ce n&#39;est qu&#39;un exemple. Ne coupez pas et ne collez pas ce code.
+Cet exemple montre la société fictive [!DNL Acme, Inc.] qui envoie des données à [!DNL DCS] via un appel [!DNL HTTP]. Notez que cet appel comprend les paramètres facultatifs `d_dst=1`, `d_rtbd=json` et `d_cb=callback`. Elles indiquent que [!DNL Acme] souhaite recevoir une réponse [!DNL JSON] de [!DNL DCS] avec une fonction de rappel. Rappelez-vous, ce n&#39;est qu&#39;un exemple. Ne coupez pas et ne collez pas ce code.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -96,9 +96,8 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Étapes suivantes {#dcs-next-steps}
 
-Maintenant que vous êtes familiarisé avec l’envoi de données à [!DNL DCS], il est temps d’examiner comment récupérer des données et d’analyser ces informations. Voir [Réception de données du DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Maintenant que vous êtes familiarisé avec l’envoi de données à [!DNL DCS], il est temps d’examiner comment récupérer des données à partir de celle-ci et d’analyser ces informations. Voir [Recevoir des données du DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
 >* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
-

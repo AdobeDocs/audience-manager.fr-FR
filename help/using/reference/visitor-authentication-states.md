@@ -1,25 +1,25 @@
 ---
 description: L’état d’authentification du visiteur dans l’Audience Manager détermine si les nouvelles informations de caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil du périphérique à partir duquel les données ont été collectées. Audience Manager gère de la même manière les états d’authentification de l’identifiant visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
 keywords: dpm.demdex.net
-seo-description: L’état d’authentification du visiteur dans l’Audience Manager détermine si les nouvelles informations de caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil du périphérique à partir duquel les données ont été collectées. Audience Manager gère de la même manière les états d’authentification de l’identifiant visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
-seo-title: États d’authentification du visiteur dans Audience Manager
+seo-description: The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.
+seo-title: Visitor Authentication States in Audience Manager
 solution: Audience Manager
-title: États d’authentification du visiteur dans Audience Manager
+title: États d’authentification du visiteur en Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: 'Référence '
+feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
-# États d’authentification du visiteur dans Audience Manager{#visitor-authentication-states-in-audience-manager}
+# États d’authentification du visiteur en Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 L’état d’authentification du visiteur dans l’Audience Manager détermine si les nouvelles informations de caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil du périphérique à partir duquel les données ont été collectées. Audience Manager gère de la même manière les états d’authentification de l’identifiant visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
 
-En commençant par [!DNL Experience Cloud] Service d’ID v1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur état  [d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, en fonction de l’état d’authentification transmis dans l’appel et de la  [règle de fusion des ](../features/profile-merge-rules/merge-rules-dashboard.md) profils que vous utilisez pour la segmentation.
+À partir de [!DNL Experience Cloud] ID service v1.5+, la méthode `setCustomerID` comprend l’objet facultatif `AuthState`. `AuthState` identifie les visiteurs en fonction de leur [état d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, selon l’état d’authentification transmis dans l’appel et la [stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
 
 ## État d’authentification : INCONNU {#auth-status-unknown}
 
@@ -53,9 +53,8 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 >[!NOTE]
 >
->[!DNL Audience Manager] effectue une synchronisation des identifiants entre  [CID et ](../reference/ids-in-aam.md) UUID dans les trois cas.
+>[!DNL Audience Manager] effectue une synchronisation des identifiants entre [CID et UUID](../reference/ids-in-aam.md) dans les trois cas.
 
 >[!MORELIKETHIS]
 >
 >* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
-

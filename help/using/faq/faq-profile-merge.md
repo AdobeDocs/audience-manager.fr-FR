@@ -10,8 +10,8 @@ feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 82%
+source-wordcount: '1583'
+ht-degree: 81%
 
 ---
 
@@ -31,7 +31,7 @@ La représentation graphique des appareils est un ensemble de mappages d’ident
 
 **Qu’est-ce que la représentation graphique externe des appareils ?**
 
-La représentation graphique externe des appareils constitue toute représentation graphique d’appareil dans [!DNL Audience Manager] qui n’a pas été créée exclusivement à partir de vos propres sources de données multi-appareils. Par exemple, lorsque vous créez une [Stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-start.md) et choisissez les options de représentation graphique des appareils tiers. vous travaillez avec une représentation graphique externe des appareils. Voir [Options d’appareil](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+La représentation graphique externe des appareils constitue toute représentation graphique d’appareil dans [!DNL Audience Manager] qui n’a pas été créée exclusivement à partir de vos propres sources de données multi-appareils. Par exemple, lorsque vous créez une [stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-start.md) et que vous choisissez les options de représentation graphique des appareils tiers, vous travaillez avec une représentation graphique externe des appareils. Voir [Options d’appareil](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
@@ -53,7 +53,7 @@ Une fois par semaine.
 
  
 
-## Représentations graphiques des appareils et stratégies de fusion de profils {#device-graph-profile-merge-rules}
+## Graphiques de périphérique et stratégies de fusion de profils {#device-graph-profile-merge-rules}
 
 **Comment [!DNL Audience Manager] utilise-t-il une représentation graphique des appareils ?**
 
@@ -259,13 +259,13 @@ Oui. La mesure de population totale de segments inclut les appareils supplément
 
 Non.
 
-**Pourquoi est-ce que je vois une population de segment nulle pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
+**Pourquoi est-ce que je vois aucune population de segment pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
 
 Fin 2019, nous avons publié une série d’améliorations des règles de fusion de profils afin d’améliorer la précision des fichiers de lots générés à l’aide des identifiants multi-appareils. Ces améliorations seront strictement appliquées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’identifiants multi-appareils cesseront de produire des exportations dans certaines configurations de stratégies de fusion de profils.
 
 Pour garantir la bonne intégration entre l’instance d’Audience Manager et les destinations à l’aide d’identifiants multi-appareils, tels qu’Adobe Campaign, assurez-vous de respecter les conditions suivantes :
 
-1. Examinez la règle de fusion de profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La stratégie de fusion de profils doit utiliser la variable [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre stratégie de fusion de profils utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
+1. Examinez la règle de fusion de profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La stratégie de fusion de profils doit utiliser l’option [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre stratégie de fusion de profils utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
 2. Sélectionnez la source de données Adobe Campaign Declared ID dans les paramètres de la stratégie de fusion de profils.
 
 >[!NOTE]
@@ -275,4 +275,3 @@ Pour garantir la bonne intégration entre l’instance d’Audience Manager et l
 >[!MORELIKETHIS]
 >
 >* [Profile Link](../features/profile-merge-rules/profile-link-use-case.md)
-

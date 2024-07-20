@@ -1,16 +1,16 @@
 ---
 description: Cet article décrit les conventions de dénomination utilisées par la variable clé dans une paire clé-valeur.
-seo-description: Cet article décrit les conventions de dénomination utilisées par la variable clé dans une paire clé-valeur.
-seo-title: Exigences de nom pour les variables clés
+seo-description: This article describes the naming conventions used by the key variable in a key-value pair.
+seo-title: Name Requirements for Key Variables
 solution: Audience Manager
 title: Exigences de nom pour les variables clés
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
-feature: 'Caractéristiques '
+feature: Traits
 exl-id: 5d1e5842-bebc-4d75-958f-078ba0061dfa
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,6 @@ Dans [!UICONTROL Expression Builder], le nom d’une variable clé d’une paire
 
 * Noms de clés non valides : `123`, `price!123`.
 
-## Ajout d’un préfixe aux variables clés avec `c_`
+## Ajout de préfixes de variables clés avec `c_`
 
 Le préfixe `c_` est *always* requis si les paramètres qui envoient des données sur une URL d’appel d’événement utilisent cette syntaxe.

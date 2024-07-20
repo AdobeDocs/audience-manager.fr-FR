@@ -1,14 +1,14 @@
 ---
 description: L’assistance clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Fournissez autant d’informations que possible lorsque vous contactez l’assistance clientèle. Cela permettra à l’équipe de comprendre et de résoudre votre problème.
-seo-description: L’assistance clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Fournissez autant d’informations que possible lorsque vous contactez l’assistance clientèle. Cela permettra à l’équipe de comprendre et de résoudre votre problème.
-seo-title: En cas de problème
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: En cas de problème
-feature: Support technique
+feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Pour tout problème technique ou pour signaler un bogue, contactez l’[assistan
 
 * **Téléphone :** 1 800 497 0335
 
-   Pour obtenir des numéros gratuits en dehors des États-Unis, consultez notre site [numéros de téléphone régionaux de l’assistance clientèle](https://helpx.adobe.com/fr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 4 pour contacter l’équipe d’[!DNL Audience Manager].
+  Pour obtenir des numéros gratuits en dehors des États-Unis, consultez notre site [numéros de téléphone régionaux de l’assistance clientèle](https://helpx.adobe.com/fr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 4 pour contacter l’équipe d’[!DNL Audience Manager].
 
 * **Courrier électronique :** amsupport@adobe.com
 

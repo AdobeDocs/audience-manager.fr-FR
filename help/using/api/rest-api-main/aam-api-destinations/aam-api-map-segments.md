@@ -1,36 +1,36 @@
 ---
 description: Mappage de segments aux destinations à l’aide de ces méthodes d’API RESTful.
-seo-description: Mappage de segments aux destinations à l’aide de ces méthodes d’API RESTful.
-seo-title: Mise en correspondance de segments avec une destination
+seo-description: Map segments to destinations with these RESTful API methods.
+seo-title: Map Segments to a Destination
 solution: Audience Manager
-title: Mise en correspondance de segments avec une destination
+title: Mappage de segments à une destination
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 11%
+source-wordcount: '494'
+ht-degree: 6%
 
 ---
 
-# Mise en correspondance de segments avec une destination {#map-segments-to-a-destination}
+# Mappage de segments à une destination {#map-segments-to-a-destination}
 
-Mappez des segments aux destinations à l’aide de ces méthodes [!DNL RESTful API].
+Mappez des segments aux destinations avec ces méthodes [!DNL RESTful API].
 
 <!-- c_api_map_seg_dest.xml -->
 
 ## Types de destinations pris en charge : URL et cookie uniquement
 
-Les méthodes `POST` disponibles vous permettent de mapper des segments uniquement sur [!UICONTROL URL] et [!UICONTROL cookie destinations]. Actuellement, vous ne pouvez pas mapper les segments à [!UICONTROL server-to-server destinations] avec ces méthodes [!DNL REST API]. Utilisez plutôt l’interface utilisateur . Toutefois, les méthodes `GET` de destination associées vous permettent de récupérer des informations sur [!UICONTROL server-to-server destinations] créées dans l’interface utilisateur.
+Les méthodes `POST` disponibles vous permettent de mapper des segments uniquement sur [!UICONTROL URL] et [!UICONTROL cookie destinations]. Actuellement, vous ne pouvez pas mapper les segments à [!UICONTROL server-to-server destinations] avec ces méthodes [!DNL REST API]. Utilisez plutôt l’interface utilisateur . Toutefois, les méthodes `GET` de destination connexes vous permettent de récupérer des informations sur [!UICONTROL server-to-server destinations] créées dans l’interface utilisateur.
 
 ## Mappage d’un segment à une destination d’URL non sérialisée {#map-segment-non-serial}
 
-Méthode `POST` qui permet de mapper un segment à une destination [!UICONTROL URL] non série.
+Méthode `POST` qui vous permet de mapper un segment à une destination [!UICONTROL URL] non série.
 
 <!-- r_map_noserial_url.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
@@ -76,17 +76,17 @@ Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ## Mappage d’un segment à une destination d’URL sérialisée {#map-segment-serial}
 
-Méthode `POST` qui permet de mapper un segment à une destination [!UICONTROL URL] sérialisée.
+Méthode `POST` qui vous permet de mapper un segment à une destination [!UICONTROL URL] sérialisée.
 
 <!-- r_map_serialized_url.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<dataOrderId>`*`/traits/`
 
 ### Exemple de requête
 
-Dans la requête, la valeur `traitAlias` correspond à la clé d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Dans la requête, `traitAlias` correspond à la clé d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ```
 {
@@ -124,19 +124,19 @@ Dans la requête, la valeur `traitAlias` correspond à la clé d’une paire cl�
 }
 ```
 
-## Mappage d’un segment à une destination de cookie : Clé unique, non sérialisée {#map-segment-cookie-noserial}
+## Mappage d’un segment à une destination de cookie : à clé unique, non sérialisé {#map-segment-cookie-noserial}
 
-Méthode `POST` qui vous permet de mapper un segment à une seule clé, non sérialisée [!UICONTROL cookie] destination.
+Méthode `POST` qui vous permet de mapper un segment à une destination [!UICONTROL cookie] non sérialisée à clé unique.
 
 <!-- r_map_cookie_noserial.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Exemple de requête
 
-Dans la requête, la valeur `valueAlias` correspond à la valeur d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Dans la requête, `valueAlias` correspond à la valeur d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ```
 {
@@ -171,19 +171,19 @@ Dans la requête, la valeur `valueAlias` correspond à la valeur d’une paire c
 }
 ```
 
-## Mappage d’un segment à une destination de cookie : Multi-clé, non sérialisé {#map-segment-cookie-multi-noserial}
+## Mappage d’un segment à une destination de cookie : multiclé, non sérialisé {#map-segment-cookie-multi-noserial}
 
-Méthode `POST` qui vous permet de mapper un segment à une destination [!UICONTROL cookie] multi-clé et non sérialisée.
+Méthode `POST` qui vous permet de mapper un segment à une destination [!UICONTROL cookie] non sérialisée à plusieurs clés.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Exemple de requête
 
-Dans la requête, `traitAlias` et `valueAlias` définissent la clé et la valeur respectivement dans une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Dans la requête, les `traitAlias` et `valueAlias` définissent la clé et la valeur respectivement dans une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ```
 {
@@ -219,19 +219,19 @@ Dans la requête, `traitAlias` et `valueAlias` définissent la clé et la valeur
 }
 ```
 
-## Mappage d’un segment à une destination de cookie : Multi-clé, sérialisé {#map-segment-cookie-multi-serial}
+## Mappage d’un segment à une destination de cookie : multi-clé, sérialisé {#map-segment-cookie-multi-serial}
 
-Méthode `POST` qui permet de mapper un segment à un [!UICONTROL cookie destination] multi-clé sérialisé.
+Méthode `POST` qui vous permet de mapper un segment à un [!UICONTROL cookie destination] sérialisé à plusieurs clés.
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Exemple de requête
 
-Dans la requête, `traitAlias` et `valueAlias` définissent la clé et la valeur dans une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Dans la requête, les `traitAlias` et `valueAlias` définissent la clé et la valeur dans une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ```
 {
@@ -269,17 +269,17 @@ Dans la requête, `traitAlias` et `valueAlias` définissent la clé et la valeur
 
 ## Mappage d’un segment à une destination serveur à serveur {#map-segment-s2s}
 
-Méthode `POST` qui permet de mapper un segment à une destination [!UICONTROL server-to-server] existante. Notez toutefois que vous ne pouvez pas créer de destinations [!UICONTROL server-to-server] avec ces méthodes [!DNL API] actuellement disponibles.
+Une méthode `POST` qui vous permet de mapper un segment à une destination [!UICONTROL server-to-server] existante. Notez toutefois que vous ne pouvez pas créer de destinations [!UICONTROL server-to-server] avec ces méthodes [!DNL API] actuellement disponibles.
 
 <!-- r_map_segment_s2s.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
 
 ### Exemple de requête
 
-Dans la requête, la valeur `traitAlias` correspond à la clé d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Dans la requête, `traitAlias` correspond à la clé d’une paire clé-valeur. Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ```
 {
@@ -319,7 +319,7 @@ Une méthode `POST` qui vous permet de transmettre un tableau de mappages de des
 
 <!-- r_bulk_create.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/bulk-create`
 
@@ -399,11 +399,11 @@ Une réponse réussie renvoie le tableau des mappages créés.
 
 ## Ajout de plusieurs segments à une destination {#add-segments-dest}
 
-Méthode `POST` qui permet de mapper plusieurs segments à une destination.
+Une méthode `POST` qui vous permet de mapper plusieurs segments à une destination.
 
 <!-- r_add_segments_to_destination.xml -->
 
-### Demande
+### Requête
 
 `POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`bulk-create`
 
@@ -483,11 +483,11 @@ Renvoie un tableau de mappages créés.
 
 ## Mise à jour d’une destination par un ID de destination {#update-dest-data-order}
 
-Une méthode `PUT` qui permet de mettre à jour une destination existante par `destinationId`.
+Une méthode `PUT` qui vous permet de mettre à jour une destination existante par `destinationId`.
 
 <!-- r_update_destination_data_order_id.xml -->
 
-### Demande
+### Requête
 
 `PUT https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 
@@ -533,11 +533,11 @@ Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 ## Mise à jour d’un mappage à une destination par mappage d’un identifiant {#update-mapping-dest-id}
 
-Une méthode `PUT` qui permet de mettre à jour un mappage vers une destination par la balise `mappingId` spécifiée.
+Une méthode `PUT` qui vous permet de mettre à jour un mappage vers une destination par le `mappingId` spécifié.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
-### Demande
+### Requête
 
 `PUT https://api.demdex.com/v1/destinations/mappings/`*`<mappingId>`*
 
@@ -583,7 +583,6 @@ Sauf indication contraire, toutes les valeurs de requête sont requises.
 
 >[!MORELIKETHIS]
 >
->* [Destinations ](../../../features/destinations/destinations.md)
-* [Sérialisation des destinations](../../../features/destinations/key-value-pairs.md#destination-serialized)
-* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)
-
+>* [Destinations](../../../features/destinations/destinations.md)
+>* [Sérialisation de destination](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Explication des paires clé-valeur](../../../reference/key-value-pairs-explained.md)

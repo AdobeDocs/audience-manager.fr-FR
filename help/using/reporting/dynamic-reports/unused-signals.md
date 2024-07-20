@@ -3,20 +3,20 @@ description: Ce rapport renvoie un nombre de fréquences de toutes les informati
 seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
 seo-title: Unused Signals Report
 solution: Audience Manager
-title: Rapport des signaux inutilisés
+title: Rapport Signaux inutilisés
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
 source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '612'
+ht-degree: 1%
 
 ---
 
-# Rapport des signaux inutilisés{#unused-signals-report}
+# Rapport Signaux inutilisés{#unused-signals-report}
 
-Ce rapport renvoie un nombre de fréquences de toutes les informations inutilisées collectées dans votre inventaire et envoyées à l’Audience Manager. Pour accéder à ce rapport, accédez à **Analytics > Rapports d’audience > Autres rapports > Signaux inutilisés**.
+Ce rapport renvoie un nombre de fréquences de toutes les informations inutilisées collectées dans votre inventaire et envoyées à l’Audience Manager. Pour accéder à ce rapport, sélectionnez **Analytics > Rapports d’audience > Autres rapports > Signaux inutilisés**.
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ Ce rapport renvoie un nombre de fréquences de toutes les informations inutilis�
 
 ## Présentation
 
-Un signal est une information provenant de votre site web transmise à [!DNL Audience Manager] sous la forme de [paires clé-valeur](../../reference/key-value-pairs-explained.md) (par exemple, `color=blue, price>100, gender=female`, etc.).
+Un signal est une information de votre site web transmise à [!DNL Audience Manager] sous la forme de [paires clé-valeur](../../reference/key-value-pairs-explained.md) (par exemple, `color=blue, price>100, gender=female`, etc.).
 
-Les signaux inutilisés se composent de données que vous collectez mais qui n’ont pas été mappées à une caractéristique. Le rapport [!UICONTROL Unused Signals] affiche les données dans un tableau par date, clé, valeur et nombre de fréquences. Tout signal non mappé transmis à [!DNL Audience Manager] au moins 100 fois par jour est admissible pour le rapport [!UICONTROL Unused Signals]. Les signaux inutilisés sont stockés pendant 45 jours, puis ignorés.
+Les signaux inutilisés se composent de données que vous collectez mais qui n’ont pas été mappées à une caractéristique. Le rapport [!UICONTROL Unused Signals] présente les données d’un tableau par date, clé, valeur et nombre de fréquence. Tout signal non mappé transmis à [!DNL Audience Manager] au moins 100 fois par jour est admissible pour le rapport [!UICONTROL Unused Signals]. Les signaux inutilisés sont stockés pendant 45 jours, puis ignorés.
 
 Consultez ce rapport pour identifier les signaux orphelins qui peuvent être mappés à des caractéristiques nouvelles ou existantes.
 
@@ -47,12 +47,12 @@ Consultez ce rapport pour identifier les signaux orphelins qui peuvent être map
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Garantir l’unité des caractéristiques ou ajouter des valeurs associées à une seule clé</b> </p> </td> 
-   <td colname="col2"> <p>Consultez le rapport afin de tenir compte de différentes variations de valeur pour un signal particulier. </p> <p>Par exemple, supposons que vous ayez une caractéristique pour l’état "Caroline du Nord" définie dans une paire clé-valeur <code> c_state = North Carolina</code>. Le rapport peut vous aider à trouver des variantes de nom et à les ajouter à la caractéristique (par exemple, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Vous pouvez également repérer les variantes de nom avec le rapport et les remplacer par une valeur uniforme sur tous les sites. </p> <p> </p> </td> 
+   <td colname="col1"> <p><b> Garantir l’unité des caractéristiques ou Ajouter des valeurs associées à une clé unique</b> </p> </td> 
+   <td colname="col2"> <p>Consultez le rapport afin de tenir compte de différentes variations de valeur pour un signal particulier. </p> <p>Par exemple, supposons que vous ayez une caractéristique pour l’état "Caroline du Nord" définie dans une paire clé-valeur comme <code> c_state = North Carolina</code>. Le rapport peut vous aider à trouver des variantes de nom et à les ajouter à la caractéristique (par exemple, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Vous pouvez également repérer les variantes de nom avec le rapport et les remplacer par une valeur uniforme sur tous les sites. </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Création de caractéristiques</b> </p> </td> 
-   <td colname="col2"> <p>Consultez le rapport pour savoir quelles nouvelles valeurs sont transmises sur une clé spécifique. Vous pouvez créer de nouvelles paires clé-valeur en fonction de ces nouvelles valeurs. </p> <p> <p>Remarque :  Consultez le rapport toutes les deux semaines pour connaître les valeurs qui changent fréquemment (par exemple, les programmes, les campagnes, les célébrités, etc.). </p> </p> </td> 
+   <td colname="col1"> <p><b>Créer de nouvelles caractéristiques</b> </p> </td> 
+   <td colname="col2"> <p>Consultez le rapport pour savoir quelles nouvelles valeurs sont transmises sur une clé spécifique. Vous pouvez créer de nouvelles paires clé-valeur en fonction de ces nouvelles valeurs. </p> <p> <p>Remarque : Consultez le rapport toutes les deux semaines pour connaître les valeurs qui changent fréquemment (par exemple, les programmes, les campagnes, les célébrités, etc.). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Rechercher des valeurs non mappées</b> </p> </td> 
@@ -75,7 +75,7 @@ Exécutez et vérifiez le rapport [!UICONTROL Unused Signals] :
 * T(v=1 [!UICONTROL AND NOT] (a=23))
 * T(v=1 [!UICONTROL AND] (a!=23))
 * Les deux exemples présentent une caractéristique qui contient deux paires clé-valeur v et a. La première expression se traduit par : la caractéristique contient la clé v avec la valeur 1 [!UICONTROL AND NOT] la clé a avec la valeur 23. La seconde expression contient la clé v avec la valeur 1 [!UICONTROL AND] la clé a avec la valeur [!UICONTROL NOT EQUAL] 23.
-* En tenant compte des deux expressions différentes ci-dessus, supposons que vous recherchiez dans la balise [!UICONTROL Unused Signals Report] les valeurs transmises à la clé a avec une valeur différente de 23, vous obtiendrez uniquement des résultats dans le premier cas, car les valeurs de la clé n’ont pas été envoyées À TOUT. Dans le deuxième cas, des valeurs différentes de 23 ont été envoyées, de sorte que la clé a n’est pas inutilisée.
+* En tenant compte des deux expressions différentes ci-dessus, supposons que vous recherchiez dans le [!UICONTROL Unused Signals Report] les valeurs transmises à la clé a avec une valeur différente de 23, vous obtiendrez uniquement des résultats dans le premier cas, car les valeurs de la clé n’ont pas été envoyées À TOUS. Dans le deuxième cas, des valeurs différentes de 23 ont été envoyées, de sorte que la clé a n’est pas inutilisée.
 
 ## Création de caractéristiques en bloc
 

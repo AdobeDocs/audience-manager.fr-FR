@@ -9,8 +9,8 @@ feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Que faire lorsque les feuilles de calcul renvoient une erreur ou que votre requ�
 
 >[!NOTE]
 >
->[Autorisations des groupes RBAC](../../features/administration/administration-overview.md) affecté dans la variable [!DNL Audience Manager] L’interface utilisateur est honorée dans la [!UICONTROL Bulk Management Tools].
+>[Les autorisations de groupe RBAC ](../../features/administration/administration-overview.md) attribuées dans l’interface utilisateur de [!DNL Audience Manager] sont honorées dans le [!UICONTROL Bulk Management Tools].
 
 Des facteurs tels qu’un trafic réseau important, l’utilisation du serveur et des jeux de données volumineux peuvent entraîner l’échec ou l’expiration d’une demande en bloc. En cas de problème, la feuille de calcul cesse d’écrire des données et affiche un message d’erreur. Lorsque cela se produit, vous devez :
 
@@ -54,15 +54,15 @@ Le tableau suivant répertorie certains problèmes courants que vous pouvez renc
   <tr> 
    <td colname="col1"> <b>Erreur d’authentification</b> </td> 
    <td colname="col2"> 
-    <b>Mise à jour vers la dernière version de Microsoft Excel</b>: lorsqu’une nouvelle version de Microsoft Excel est publiée et que vous utilisez une ancienne version, il se peut que vous rencontriez une erreur d’authentification dans la feuille de calcul Gestion en bloc. Mettez à jour vers la dernière version de Microsoft Excel pour résoudre l’erreur d’authentification.
+    <b>Mise à jour vers la dernière version de Microsoft Excel</b> : lorsqu’une nouvelle version de Microsoft Excel est publiée et que vous utilisez une ancienne version, une erreur d’authentification peut se produire dans la feuille de calcul de gestion en bloc. Mettez à jour vers la dernière version de Microsoft Excel pour résoudre l’erreur d’authentification.
 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Longs délais</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Désactivation du mode de compatibilité</b>: vérifiez si d’autres feuilles de calcul sont ouvertes dans le mode de compatibilité de Microsoft Excel. Le mode de compatibilité peut augmenter les exécutions. Fermez toutes les feuilles de calcul que vous avez ouvertes dans ce mode et réessayez votre demande en bloc. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Ressources système</b>: des ressources système limitées entraînent de longs délais. Essayez de fermer tous les autres programmes avant d’effectuer une requête en bloc. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Désactivez le mode de compatibilité</b> : vérifiez si d’autres feuilles de calcul sont ouvertes dans le mode de compatibilité de Microsoft Excel. Le mode de compatibilité peut augmenter les exécutions. Fermez toutes les feuilles de calcul que vous avez ouvertes dans ce mode et réessayez votre demande en bloc. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Ressources système</b> : les ressources système limitées entraînent de longs délais. Essayez de fermer tous les autres programmes avant d’effectuer une requête en bloc. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -79,4 +79,4 @@ Le tableau suivant répertorie certains problèmes courants que vous pouvez renc
 
 ## Messages d’erreur
 
-Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en bloc. Pour interpréter le message d’erreur, voir [Codes de réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) dans la documentation de l’API.
+Parfois, vous pouvez recevoir des messages d’erreur lorsque vous effectuez des modifications en bloc. Pour interpréter le message d’erreur, reportez-vous à la section [Codes de réponse définis](/help/using/api/rest-api-main/aam-api-getting-started.md) de notre documentation API.

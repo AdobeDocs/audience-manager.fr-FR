@@ -1,16 +1,16 @@
 ---
 description: Décrit le logiciel sous-jacent qui alimente les rapports interactifs et le planning de mise à jour des données.
-seo-description: Décrit le logiciel sous-jacent qui alimente les rapports interactifs et le planning de mise à jour des données.
-seo-title: Technologie des rapports
+seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
+seo-title: Report Technology
 solution: Audience Manager
 title: Technologie des rapports
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
-feature: Rapports de chevauchement
+feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## Les rapports interactifs utilisent la technologie Tableau
 
-[!DNL Audience Manager] utilise  [](https://www.tableausoftware.com/) un logiciel tableaus pour afficher les données dans les rapports interactifs. Avec [!DNL Tableau], les rapports [!UICONTROL Delivery and Overlap] utilisent des repères visuels et des symboles qui vous aident à :
+[!DNL Audience Manager] utilise le logiciel [Tableau](https://www.tableausoftware.com/) pour afficher les données dans les rapports interactifs. Avec [!DNL Tableau], les rapports [!UICONTROL Delivery and Overlap] utilisent des repères visuels et des symboles qui vous aident à :
 
 * Recherchez des caractéristiques de performances élevées et faibles.
 * Présenter les caractéristiques et les segments avec un chevauchement de visiteurs uniques faible et élevé.
@@ -71,8 +71,8 @@ Le tableau suivant définit les formes, tailles et couleurs utilisées dans les 
    <td colname="col1"> <b>Couleurs</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Les nuances rouges indiquent <i>faible</i> chevauchement. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Les nuances vertes indiquent un <i>chevauchement </i> élevé. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Les nuances rouges indiquent un chevauchement <i>faible</i>. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Les nuances vertes indiquent un chevauchement <i>élevé</i>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -82,6 +82,6 @@ Le tableau suivant définit les formes, tailles et couleurs utilisées dans les 
  </tbody> 
 </table>
 
-## Documentation Tableau {#tableau-documentation}
+## Documentation de Tableau {#tableau-documentation}
 
-Pour en savoir plus sur les contrôles Tableau que vous pouvez voir dans nos rapports interactifs, consultez la documentation officielle pour [Serveur Tableau sous Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Pour en savoir plus sur les contrôles Tableau que vous pouvez voir dans nos rapports interactifs, reportez-vous à la documentation officielle de [Serveur Tableau sous Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)

@@ -1,14 +1,14 @@
 ---
 description: Coordonnées permettant de contacter Adobe et informations sur les implications juridiques lorsque vous utilisez ce produit et sa documentation.
-seo-description: Coordonnées permettant de contacter Adobe et informations sur les implications juridiques lorsque vous utilisez ce produit et sa documentation.
-seo-title: Coordonnées et informations juridiques
+seo-description: Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
+seo-title: Contact and Legal Information
 solution: Audience Manager
 title: Coordonnées et informations juridiques
-feature: Support technique
+feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '243'
 ht-degree: 100%
 
 ---

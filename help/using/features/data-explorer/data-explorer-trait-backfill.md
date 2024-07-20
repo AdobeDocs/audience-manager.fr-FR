@@ -1,27 +1,27 @@
 ---
 description: Renvoi des réalisations de caractéristiques pour capturer des audiences historiques et éviter la perte de données pertinentes avant la date de création d’une caractéristique.
-seo-description: Renvoi des réalisations de caractéristiques pour capturer des audiences historiques et éviter la perte de données pertinentes avant la date de création d’une caractéristique.
-seo-title: Renvoi des rapprochements de caractéristiques
-title: Renvoi des rapprochements de caractéristiques
+seo-description: Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
+seo-title: Backfill Trait Realizations
+title: Renvoi des performances des caractéristiques
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-feature: 'Explorateur de données '
+feature: Data Explorer
 exl-id: 6be54999-eeeb-48cd-a630-021f17289431
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
-# Renvoi des rapprochements de caractéristiques {#backfill-trait-realizations}
+# Renvoi des performances des caractéristiques {#backfill-trait-realizations}
 
 Renvoi des réalisations de caractéristiques pour capturer des audiences historiques et éviter la perte de données pertinentes avant la date de création d’une caractéristique.
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité premium qui améliore l’expérience de l’Audience Manager en déverrouillant des cas d’utilisation supplémentaires. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients d’Audience Manager à un coût incrémentiel. Pour plus d’informations, contactez votre représentant commercial Adobe.
+>[!UICONTROL Data Explorer Trait Backfill] est une fonctionnalité premium qui améliore l’expérience d’Audience Manager en déverrouillant des cas d’utilisation supplémentaires. Le renvoi nécessite une puissance de traitement supplémentaire et est disponible pour tous les clients d’Audience Manager à un coût incrémentiel. Pour plus d’informations, contactez votre représentant commercial Adobe.
 
-Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous pouvez choisir de renvoyer les réalisations des caractéristiques sur une période spécifique. [!DNL Audience Manager] capture les données historiques sur les audiences qui remplissent les critères pour la nouvelle caractéristique et les stocke dans le profil correspondant. Vous pouvez voir **[!UICONTROL Backfill Options]** dans la section [!UICONTROL Trait Expression] du **[créateur de caractéristiques](../../features/traits/about-trait-builder.md)**.
+Lorsque vous créez des caractéristiques à partir de signaux inutilisés, vous pouvez choisir de renvoyer les réalisations des caractéristiques sur une période spécifique. [!DNL Audience Manager] capture les données historiques sur les audiences qui remplissent les critères de la nouvelle caractéristique et les stocke dans le profil correspondant. Vous pouvez voir le **[!UICONTROL Backfill Options]** dans la section [!UICONTROL Trait Expression] du **[créateur de caractéristiques](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Voici comment renvoyer des réalisations de caractéristiques :
 
 1. Accédez à [!UICONTROL Audience Data > Signals > Search] et exécutez une recherche de signaux ou utilisez le [tableau de bord des signaux](../../features/data-explorer/data-explorer-signals-dashboard.md) pour identifier les signaux à utiliser dans la nouvelle caractéristique.
 1. Créez une nouvelle caractéristique en fonction des signaux souhaités.
-1. Utilisez **[!UICONTROL Backfill Options]** dans la section **[!UICONTROL Trait Expression]** pour sélectionner l’intervalle de temps pour lequel vous souhaitez renvoyer les réalisations de caractéristiques. Les intervalles de renvoi prédéfinis comprennent 1, 7, 14 et 30 jours. Vous pouvez également choisir une période personnalisée allant jusqu’à 30 jours.
+1. Utilisez le **[!UICONTROL Backfill Options]** de la section **[!UICONTROL Trait Expression]** pour sélectionner l’intervalle de temps pour lequel vous souhaitez renvoyer les réalisations de caractéristiques. Les intervalles de renvoi prédéfinis comprennent 1, 7, 14 et 30 jours. Vous pouvez également choisir une période personnalisée allant jusqu’à 30 jours.
 
    ![trait-backfill](assets/signals-trait-backfill.png)
 
@@ -45,7 +45,6 @@ Voici comment renvoyer des réalisations de caractéristiques :
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
-
 1. Créez la caractéristique.
 
 Une fois la création de la caractéristique terminée, vous verrez ses réalisations renvoyées incluses dans les statistiques de réalisation.
@@ -70,6 +69,6 @@ L’Audience Manager met à jour [!UICONTROL Trait Graph] avec la population ren
 
 ## Impact sur les rapports {#reporting-impact}
 
-Les réalisations de caractéristiques renvoyées sont reflétées dans les mesures [!UICONTROL Unique Trait Realizations] et [!UICONTROL Total Trait Population], car [!DNL Audience Manager] transforme les signaux historiques en réalisations de caractéristiques.
+Les réalisations de caractéristiques renvoyées sont répercutées dans les mesures [!UICONTROL Unique Trait Realizations] et [!UICONTROL Total Trait Population], car [!DNL Audience Manager] transforme les signaux historiques en réalisations de caractéristiques.
 
-Toutefois, les valeurs [!UICONTROL Trait Graph], [!UICONTROL General Reports] et [!UICONTROL Trend Reports] ne sont pas mises à jour rétroactivement avec des mesures historiques renvoyées avant la date de création de la caractéristique.
+Toutefois, les [!UICONTROL Trait Graph], [!UICONTROL General Reports] et [!UICONTROL Trend Reports] ne sont pas mis à jour rétroactivement avec des mesures historiques renvoyées avant la date de création de la caractéristique.

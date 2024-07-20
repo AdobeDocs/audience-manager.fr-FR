@@ -1,32 +1,32 @@
 ---
 description: Méthodes d’API REST pour gérer les utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
-seo-description: Méthodes d’API REST pour gérer les utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
-seo-title: Méthodes d’API de gestion des utilisateurs
+seo-description: Rest API methods to manage users, including creating, updating, listing, deleting, and returning user objects.
+seo-title: User Management API Methods
 solution: Audience Manager
-title: Méthodes d’API de gestion des utilisateurs
+title: Méthodes d’API User Management
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 7%
+source-wordcount: '347'
+ht-degree: 1%
 
 ---
 
-# Méthodes d’API de gestion des utilisateurs {#user-management-api-methods}
+# Méthodes d’API User Management {#user-management-api-methods}
 
-Redéfinissez les [!DNL API] méthodes pour gérer les utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
+Redéfinissez les méthodes [!DNL API] pour gérer les utilisateurs, notamment la création, la mise à jour, la liste, la suppression et le renvoi d’objets utilisateur.
 
 <!-- c_rest_api_user_man_user.xml -->
 
 ## Création d’un utilisateur {#create-user}
 
-Une méthode `POST` pour créer un utilisateur.
+Méthode `POST` pour créer un utilisateur.
 
 <!-- r_rest_api_user_create.xml -->
 
-### Demande
+### Requête
 
 `POST /api/v1/users/`
 
@@ -75,7 +75,7 @@ Une méthode `PUT` pour mettre à jour un utilisateur.
 
 <!-- r_rest_api_user_update.xml -->
 
-### Demande
+### Requête
 
 `PUT /api/v1/users/`*`<userId>`*
 
@@ -120,9 +120,9 @@ Une méthode `PUT` pour mettre à jour l’utilisateur actuellement connecté.
 
 >[!NOTE]
 >
->Alors que la plupart des [!DNL API] méthodes ne peuvent être appelées que par des administrateurs de partenaire, cette méthode est accessible par les utilisateurs non-administrateurs.
+>Alors que la plupart des méthodes [!DNL API] ne peuvent être appelées que par des administrateurs de partenaire, cette méthode peut l’être par des utilisateurs non-administrateurs.
 
-### Demande
+### Requête
 
 `PUT /self/update`
 
@@ -163,9 +163,9 @@ Une méthode `PUT` pour mettre à jour l’utilisateur actuellement connecté.
 
 >[!NOTE]
 >
->Alors que la plupart des [!DNL API] méthodes ne peuvent être appelées que par des administrateurs de partenaire, cette méthode est accessible par les utilisateurs non-administrateurs.
+>Alors que la plupart des méthodes [!DNL API] ne peuvent être appelées que par des administrateurs de partenaire, cette méthode peut l’être par des utilisateurs non-administrateurs.
 
-### Demande
+### Requête
 
 `POST /users/self/update-password`
 
@@ -175,7 +175,7 @@ Une méthode `PUT` pour mettre à jour l’utilisateur actuellement connecté.
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Renvoie `200 OK` en cas de réussite. Renvoie `400 Bad Request` si un problème est survenu avec l’un des mots de passe.
+Renvoie `200 OK` en cas de réussite. Renvoie `400 Bad Request` si un problème survient avec l&#39;un ou l&#39;autre des mots de passe.
 
 ## Réinitialisation du mot de passe utilisateur connecté {#reset-logged-in-user-pw}
 
@@ -185,9 +185,9 @@ Une méthode `PUT` pour réinitialiser l’utilisateur actuellement connecté. [
 
 >[!NOTE]
 >
->Alors que la plupart des [!DNL API] méthodes ne peuvent être appelées que par des administrateurs de partenaire, cette méthode est accessible par les utilisateurs non-administrateurs.
+>Alors que la plupart des méthodes [!DNL API] ne peuvent être appelées que par des administrateurs de partenaire, cette méthode peut l’être par des utilisateurs non-administrateurs.
 
-### Demande
+### Requête
 
 `POST /self/reset-password`
 
@@ -195,11 +195,11 @@ Renvoie `200 OK` en cas de réussite.
 
 ## Renvoie l’objet utilisateur d’un ID utilisateur {#return-user-object-for-id}
 
-Une méthode `Get` pour renvoyer l’objet utilisateur d’un ID utilisateur.
+Une méthode `Get` pour renvoyer l’objet utilisateur pour un ID utilisateur.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
-### Demande
+### Requête
 
 `GET /api/v1/users/`*`<userId>`*
 
@@ -229,9 +229,9 @@ Une méthode `Get` pour renvoyer l’objet utilisateur pour l’utilisateur actu
 
 >[!NOTE]
 >
->Alors que la plupart des [!DNL API] méthodes ne peuvent être appelées que par des administrateurs de partenaire, cette méthode est accessible par les utilisateurs non-administrateurs.
+>Alors que la plupart des méthodes [!DNL API] ne peuvent être appelées que par des administrateurs de partenaire, cette méthode peut l’être par des utilisateurs non-administrateurs.
 
-### Demande
+### Requête
 
 `GET /api/v1/users/self`
 
@@ -259,7 +259,7 @@ Une méthode `GET` pour répertorier les utilisateurs.
 
 <!-- r_rest_api_user_list.xml -->
 
-### Demande
+### Requête
 
 `GET /api/v1/users/`
 
@@ -289,11 +289,11 @@ Cette requête renvoie une liste de tous les utilisateurs des groupes spécifié
 
 ## Suppression d’un utilisateur {#delete-users}
 
-Une méthode `DELETE` pour supprimer un utilisateur.
+Méthode `DELETE` pour supprimer un utilisateur.
 
 <!-- r_rest_api_user_delete.xml -->
 
-### Demande
+### Requête
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
@@ -305,7 +305,7 @@ Une méthode `POST` pour supprimer plusieurs utilisateurs en bloc.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 
-### Demande
+### Requête
 
 `POST /api/v1/users/bulk-delete`
 

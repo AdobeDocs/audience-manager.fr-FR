@@ -1,20 +1,20 @@
 ---
 description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
-seo-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
-seo-title: Syntaxe du code utilisé dans l’éditeur d’expressions de segments
+seo-description: Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
+seo-title: Code Syntax Used in the Segment Expression Editor
 solution: Audience Manager
-title: Syntaxe du code utilisé dans l’éditeur d’expressions de segments
+title: Syntaxe du code utilisé dans l’éditeur d’expression de segment
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-feature: 'Segments '
+feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 11%
+source-wordcount: '297'
+ht-degree: 4%
 
 ---
 
-# Syntaxe du code utilisé dans l’éditeur d’expressions de segments {#code-syntax-used-in-the-segment-expression-editor}
+# Syntaxe du code utilisé dans l’éditeur d’expression de segment {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet **[!UICONTROL Segment Expressions (Code View)]** du panneau [!UICONTROL Traits] pour accéder à cette fonctionnalité.
 
@@ -50,7 +50,7 @@ Pour créer des groupes de segments, placez la fonction de fréquence entre pare
 
 ### Opérateurs de récence et de fréquence autorisés
 
-Définissez des intervalles [récence et fréquence](../../features/segments/recency-and-frequency.md) avec un opérateur de comparaison et un entier. [!UICONTROL Segment Builder] utilise des expressions standard telles que  &lt;> (supérieur à), == (égal à), etc. Toutefois, les types d’opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
+Définissez des intervalles [récence et fréquence](../../features/segments/recency-and-frequency.md) avec un opérateur de comparaison et un entier. [!UICONTROL Segment Builder] utilise des expressions standard telles que &lt; (inférieur à), > (supérieur à), == (égal à), etc. Toutefois, les types d’opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -64,12 +64,12 @@ Définissez des intervalles [récence et fréquence](../../features/segments/rec
    <td colname="col1"> 
     <ul id="ul_66D11A34097648A997BA5C6CCC38503A"> 
      <li id="li_EA0B607E58834E62B427C0B7626C2BD1">&gt;= (supérieur/égal à) </li> 
-     <li id="li_CFE3D2DBEF424093A0497A70324D5B31">&lt;&gt; </li> 
+     <li id="li_CFE3D2DBEF424093A0497A70324D5B31">&lt;= (inférieur/égal à) </li> 
     </ul> </td> 
    <td colname="col2"> 
     <ul id="ul_A5A38BCD71B844F0B5FB28256069F87E"> 
      <li id="li_EA17C353214E4C2EA2B70169C94A2E53">&gt;= (supérieur/égal à) </li> 
-     <li id="li_87CE5CCC6B44446BB2FD0AAD47712368">&lt;&gt; </li> 
+     <li id="li_87CE5CCC6B44446BB2FD0AAD47712368">&lt;= (inférieur/égal à) </li> 
      <li id="li_7E922AEF3A524E78A18A9F6ECBF7460B">== (égal à) </li> 
     </ul> </td> 
   </tr> 
@@ -79,7 +79,6 @@ Définissez des intervalles [récence et fréquence](../../features/segments/rec
 >[!MORELIKETHIS]
 >
 >* [Récence et fréquence](../../features/segments/recency-and-frequency.md)
-* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
-* [Utilisation d’opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
-* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
-
+>* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
+>* [Utilisation d’opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
+>* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)

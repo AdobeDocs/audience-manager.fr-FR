@@ -1,22 +1,22 @@
 ---
-description: Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque le rapport en question atteint sa limite de 1-million de dossiers. Un rapport peut avoir atteint cette limite lorsqu’un message "Une erreur inattendue s’est produite" s’affiche. Contactez l’assistance clientèle pour demander un fichier .csv compressé, que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
-seo-description: Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque le rapport en question atteint sa limite de 1-million de dossiers. Un rapport peut avoir atteint cette limite lorsqu’un message "Une erreur inattendue s’est produite" s’affiche. Contactez l’assistance clientèle pour demander un fichier .csv compressé, que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
-seo-title: Fichiers CSV pour les rapports de chevauchement
+description: Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque ce rapport atteint sa limite de 1-million d’enregistrements. Un rapport peut avoir atteint cette limite lorsqu’un message "Erreur inattendue survenue" s’affiche. Contactez l’assistance clientèle pour demander un fichier .csv compressé, que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
+seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
+seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
-title: Fichiers CSV pour les rapports de chevauchement
+title: Fichiers CSV pour les rapports de chevauchement
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-feature: Rapports de chevauchement
+feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 9%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
-# Fichiers CSV pour les rapports de chevauchement{#csv-files-for-overlap-reports}
+# Fichiers CSV pour les rapports de chevauchement{#csv-files-for-overlap-reports}
 
-Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque le rapport en question atteint sa limite de 1-million de dossiers. Un rapport peut avoir atteint cette limite lorsqu’un message &quot;Une erreur inattendue s’est produite&quot; s’affiche. Contactez l’assistance clientèle pour demander un fichier .csv compressé, que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
+Vous pouvez demander un fichier .csv pour un rapport de chevauchement lorsque ce rapport atteint sa limite de 1-million d’enregistrements. Un rapport peut avoir atteint cette limite lorsqu’un message &quot;Erreur inattendue survenue&quot; s’affiche. Contactez l’assistance clientèle pour demander un fichier .csv compressé, que vous pouvez importer et utiliser dans votre propre système de base de données. Les fichiers sont disponibles pour les rapports de chevauchement segment à segment, segment à caractéristique et caractéristique à caractéristique.
 
 ## Métadonnées du nom de fichier {#file-name-metadata}
 
@@ -31,7 +31,7 @@ Le tableau suivant répertorie et décrit les conventions d’appellation et les
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Fichier Extension </p> </td> 
+   <td colname="col1"> <p>Extension de fichier </p> </td> 
    <td colname="col2"> <p>Les fichiers de rapport de chevauchement sont compressés par gzip et ont une extension de fichier <code> .gz</code>. Vous devez ajouter l’extension <code> .csv</code> au fichier après la décompression. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Dans le fichier, les données de chaîne sont entourées de guillemets doubles. 
 
 ## Enregistrements de rapport de segment à segment {#segment-segment-records}
 
-Un fichier de données pour votre [rapport de chevauchement de segments](segment-segment-overlap-report.md) contient les enregistrements suivants.
+Un fichier de données pour votre [ rapport de chevauchement de segments](segment-segment-overlap-report.md) contient les enregistrements suivants.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -112,10 +112,10 @@ Un fichier de données pour votre [rapport de chevauchement de segments](segment
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez obtenir des rapports pour des intervalles de recherche en amont de 7 et 30 jours. La valeur <code> rangeid</code> correspond aux intervalles de temps affichés ci-dessous. </p> <p> 
+   <td colname="col2"> <p>Vous pouvez obtenir des rapports pour des intervalles de recherche en amont de 7 et 30 jours. <code> rangeid</code> correspond aux intervalles de temps affichés ci-dessous. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
-      <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 jours </li> 
-      <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 jours </li> 
+      <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code> : 7 jours </li> 
+      <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code> : 30 jours </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Un fichier de données pour votre [rapport de chevauchement de segments](segment
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Comptage total du chevauchement des utilisateurs uniques entre le segment de ligne de base et les autres segments sélectionnés pour la comparaison. </p> </td> 
+   <td colname="col2"> <p>Comptage total du chevauchement des utilisateurs uniques entre le segment de base et les autres segments sélectionnés pour la comparaison. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Overlap_perc</code> </p> </td> 
@@ -175,10 +175,10 @@ Un fichier de données pour votre [rapport de chevauchement de segments et de ca
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez obtenir des rapports pour des intervalles de recherche en amont de 7 et 30 jours. La valeur <code> rangeid</code> correspond aux intervalles de temps affichés ci-dessous. </p> <p> 
+   <td colname="col2"> <p>Vous pouvez obtenir des rapports pour des intervalles de recherche en amont de 7 et 30 jours. <code> rangeid</code> correspond aux intervalles de temps affichés ci-dessous. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
-      <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 jours </li> 
-      <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 jours </li> 
+      <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code> : 7 jours </li> 
+      <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code> : 30 jours </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -250,10 +250,10 @@ Un fichier de données pour votre [rapport de chevauchement de caractéristiques
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez obtenir des rapports pour des intervalles de recherche en amont de 7 et 30 jours. La valeur <code> rangeid</code> correspond aux intervalles de temps affichés ci-dessous. </p> <p> 
+   <td colname="col2"> <p>Vous pouvez obtenir des rapports pour des intervalles de recherche en amont de 7 et 30 jours. <code> rangeid</code> correspond aux intervalles de temps affichés ci-dessous. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
-      <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 jours </li> 
-      <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 jours </li> 
+      <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code> : 7 jours </li> 
+      <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code> : 30 jours </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
