@@ -7,7 +7,7 @@ title: Geotargeting avec clés au niveau de la plateforme
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
-source-git-commit: 366589d51601f438999bfdc6a10c306eb1186742
+source-git-commit: 2de7aba53e3c88d31270f2acb4fa29389f940312
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 2%
@@ -58,3 +58,4 @@ La liste de [tous les signaux basés sur l&#39;emplacement](assets/all.txt) comp
 >[!MORELIKETHIS]
 >
 >* [Exigences de préfixe pour les variables clés](../../features/traits/trait-variable-prefixes.md)
+
