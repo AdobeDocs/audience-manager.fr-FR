@@ -2,9 +2,9 @@
 title: Mettez à jour votre bibliothèque de collecte de données pour Audience Manager de la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript du SDK Web.
 description: Découvrez les étapes à suivre pour mettre à jour votre bibliothèque de collecte de données en vue de l’Audience Manager depuis la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript SDK Web.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: 3ba980e97763866d82bdf94109068f1f1f8f63d2
+source-git-commit: f8d8eb722e7b5cc4371f400a76fbd548a1318668
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2589'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,18 @@ Votre flux de données est maintenant prêt à recevoir et à transmettre des do
 1. Sélectionnez **[!UICONTROL Save]**.
 
 Votre flux de données est maintenant prêt à envoyer des données à l’Audience Manager et à transmettre les réponses de l’Audience Manager au SDK Web.
+
++++
+
++++**4. Ajout d’ID de client à la carte d’identité**
+
+La plupart des mises en oeuvre d’Audience Manager utilisent des [règles de fusion de profils](../features/profile-merge-rules/merge-rules-overview.md) dans des scénarios de personnalisation multi-appareils et pour aider à contrôler les segments que les visiteurs peuvent qualifier en fonction de leur état d’authentification (connecté ou déconnecté). Les règles de fusion de profils nécessitent qu’un identifiant détenu par le client (identifiant CRM, numéro de compte, etc.) soit envoyé à l’Audience Manager à chaque appel de collecte de données après l’authentification. Auparavant, la fonction `setCustomerIDs` du service d’identification des visiteurs ([!DNL visitor.js]) était utilisée pour ajouter des ID de client à chaque appel de collecte de données Analytics, qui était ensuite transféré à l’Audience Manager.
+
+Avec Web SDK, ces identités doivent désormais être envoyées à l’Edge Network à l’aide d’un concept XDM spécial appelé [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap).
+
+La transmission correcte des identités dans un mappage d’identités nécessite la compréhension des [espaces de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces) et une attention particulière aux identités à transmettre, en particulier lors de l’envoi de données à un environnement de test Experience Platform. [Cet article](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) décrit ces considérations et instructions.
+
+Une fois que vous avez déterminé les identités à transmettre et à quel moment, suivez les guides d’utilisation de l’élément de données [!UICONTROL Identity map] **[!UICONTROL Identity map]** [ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) dans Balises ou définissez-le manuellement comme indiqué dans la [présentation des données d’identité](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) pour vous aligner sur votre stratégie de déploiement Web SDK.
 
 +++
 
