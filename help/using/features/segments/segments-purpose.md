@@ -36,7 +36,7 @@ Lors du mappage d’Adobe Analytics [!UICONTROL segments] ou de suites de rappor
 
 >[!TIP]
 >
->L&#39;Audience Manager [!UICONTROL segments] diffère de [!DNL Adobe Analytics] [!UICONTROL segments]. Lisez la section [Présentation des segments dans Analytics et l’Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour obtenir une description détaillée des différences.
+>L&#39;Audience Manager [!UICONTROL segments] diffère de [!DNL Adobe Analytics] [!UICONTROL segments]. Lisez la section [Présentation des segments dans Analytics et l’Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=fr) pour obtenir une description détaillée des différences.
 
 ## Créer [!UICONTROL Segments] basé sur des règles avec [!UICONTROL Segment Builder]
 

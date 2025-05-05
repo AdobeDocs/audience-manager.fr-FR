@@ -82,7 +82,7 @@ Vous devez définir vous-même l’ID [!DNL Audience Manager] et pouvez travaill
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etape 6 </p> </td> 
-   <td colname="col2"> <p>Compilez les conditions préalables et ouvrez un ticket d’assistance en suivant les instructions détaillées <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">ici</a> pour lancer le processus d’ingestion des journaux. </p> </td> 
+   <td colname="col2"> <p>Compilez les conditions préalables et ouvrez un ticket d’assistance en suivant les instructions détaillées <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=fr">ici</a> pour lancer le processus d’ingestion des journaux. </p> </td> 
    <td colname="col3"> <p>Vous, ou <span class="keyword"> Audience Manager </span> Consulting en votre nom </p> </td> 
   </tr> 
  </tbody> 

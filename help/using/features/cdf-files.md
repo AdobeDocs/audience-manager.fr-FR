@@ -111,7 +111,7 @@ Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-des
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>L’ <span class="keyword"> Experience Cloud</span> ID (MID) attribué au visiteur du site. Voir aussi <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>L’ <span class="keyword"> Experience Cloud</span> ID (MID) attribué au visiteur du site. Voir aussi <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> Cookies et Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ Les fichiers [!UICONTROL CDF] ne contiennent pas de colonnes ou d’en-têtes de
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Paramètres de requête </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Référent </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Adresse IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de périphérique Experience Cloud (ou MID). Voir aussi <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et service Adobe Experience Platform Identity</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de périphérique Experience Cloud (ou MID). Voir aussi <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> Cookies et service Adobe Experience Platform Identity</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tous les segments </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Toutes les caractéristiques </li> 
      </ol> </p> <p>Pour consulter la description des champs, voir <a href="#cdf-defined"> Contenu du flux de données client défini</a>. </p> </td> 

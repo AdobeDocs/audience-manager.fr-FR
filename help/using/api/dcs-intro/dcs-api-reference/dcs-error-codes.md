@@ -23,7 +23,7 @@ Dans les tableaux ci-dessous, *italics* représente un espace réservé de varia
 |---|---|---|
 | 0 | Erreur non spécifiée | Il s’agit d’une erreur fourre-tout qui gère les événements qui ne sont pas couverts par les autres gestionnaires d’erreurs. La résolution de cette erreur est difficile. Elle peut être causée par une variété d’actions ou d’événements inconnus. Si cette erreur s’affiche, réessayez d’effectuer votre requête [!DNL DCS]. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 | 1 | Impossible de trouver la configuration pour le nom d’hôte : `hostname` | Le nom d’hôte envoyé dans la demande n’a pas été configuré par notre équipe de configuration de partenaire. Contactez votre représentant [!DNL Adobe] si ce message d’erreur s’affiche. |
-| 2 | Valeur `d_orgid` non valide (impossible de trouver une configuration pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et relancez la requête. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, reportez-vous à la section &quot;Page d’administration&quot; [Organisations et liaison de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) pour plus d’informations sur la manière de le trouver. |
+| 2 | Valeur `d_orgid` non valide (impossible de trouver une configuration pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et relancez la requête. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, reportez-vous à la section &quot;Page d’administration&quot; [Organisations et liaison de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr) pour plus d’informations sur la manière de le trouver. |
 | 10 | Impossible d’évaluer les caractéristiques | Les caractéristiques de la requête ont été partiellement évaluées ou n’ont pas du tout été évaluées. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 
 ## Codes d’erreur d’intégration {#integration-error-codes}
@@ -151,7 +151,7 @@ Dans les tableaux ci-dessous, *italics* représente un espace réservé de varia
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de client non autorisé <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Renvoyée lorsque la source de données de l’ID de client n’est pas détenue par l’ID d’organisation actuel. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, reportez-vous à la section "Trouver votre ID d’organisation" dans <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisations et liaison de comptes</a> pour plus d’informations sur la manière de le trouver. </p> </td> 
+   <td colname="col3"> <p>Renvoyée lorsque la source de données de l’ID de client n’est pas détenue par l’ID d’organisation actuel. Si vous ne connaissez pas ou ne possédez pas votre ID d’organisation, reportez-vous à la section "Trouver votre ID d’organisation" dans <a href="https://experiencecloud.adobe.com/resources/help/fr_FR/mcloud/organizations.html" format="https" scope="external"> Organisations et liaison de comptes</a> pour plus d’informations sur la manière de le trouver. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 

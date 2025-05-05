@@ -122,11 +122,11 @@ Lors de la configuration de vos modèles [!UICONTROL Predictive Audiences], gard
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Les segments prédictifs créés par les modèles [!UICONTROL Predictive Audiences] héritent des [contrôles des exportations de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) des sources de données propriétaires suivantes :
+Les segments prédictifs créés par les modèles [!UICONTROL Predictive Audiences] héritent des [contrôles des exportations de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) des sources de données propriétaires suivantes :
 
 1. Source de données propriétaire que vous choisissez lors de la création du modèle.
 1. Sources de données propriétaires de votre audience cible. Plus précisément, les contrôles d’exportation des données des [!UICONTROL traits] ou [!UICONTROL segments] qui constituent votre audience cible.
-1. Les [contrôles des exportations de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) des [!UICONTROL Profile Merge Rule] sélectionnés pour le modèle.
+1. Les [contrôles des exportations de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) des [!UICONTROL Profile Merge Rule] sélectionnés pour le modèle.
 
 Le nouveau prédictif [!UICONTROL traits] et [!UICONTROL segments] aura les mêmes restrictions de confidentialité que l’union des sources de données propriétaires décrites ci-dessus.
 
@@ -146,6 +146,6 @@ La sélection d’un [!UICONTROL Profile Merge Rule] qui utilise à la fois les 
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Les caractéristiques et les segments que vous choisissez pour les personnages et la classification des audiences sont soumis à l’Audience Manager [Contrôles d’accès basés sur le rôle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
+Les caractéristiques et les segments que vous choisissez pour les personnages et la classification des audiences sont soumis à l’Audience Manager [Contrôles d’accès basés sur le rôle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=fr).
 
-Les utilisateurs d’Audience Manager ne peuvent sélectionner que des caractéristiques ou des segments pour les personnes et les audiences cibles, qu’ils ont l’autorisation [ d’afficher ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Les utilisateurs d’Audience Manager ne peuvent sélectionner que des caractéristiques ou des segments pour les personnes et les audiences cibles, qu’ils ont l’autorisation [ d’afficher ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=fr#wild-card-permissions).

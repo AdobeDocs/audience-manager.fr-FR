@@ -38,7 +38,7 @@ Le portail client est l’interface utilisateur principale de la gestion des bal
 
 ## Conteneur DIL/TIM {#dil-tim}
 
-Le conteneur [!UICONTROL DIL] permet de déployer le code de collecte de données [!DNL Audience Manager] sur votre site web. [!UICONTROL TIM] est le gestionnaire d’insertion de balises obsolète. Il n’est plus utilisé par [!DNL Audience Manager]. À la place, vous utilisez l’extension [!DNL Audience Manager] dans [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire.
+Le conteneur [!UICONTROL DIL] permet de déployer le code de collecte de données [!DNL Audience Manager] sur votre site web. [!UICONTROL TIM] est le gestionnaire d’insertion de balises obsolète. Il n’est plus utilisé par [!DNL Audience Manager]. À la place, vous utilisez l’extension [!DNL Audience Manager] dans [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=fr) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire.
 
 ## Bibliothèque d’intégration de données (DIL) {#dil}
 

@@ -60,8 +60,8 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 Oui. Tant que vous utilisez un [!UICONTROL cross-device data source] pour stocker les données de gestion de la relation client que vous chargez, l’Audience Manager stocke toujours les données. En fait, à la suite des améliorations [!UICONTROL Profile Merge Rules] de l’Audience Manager lancée en octobre 2019 qui permettent des cas d’utilisation hors ligne uniquement, vous pouvez télécharger et agir sur les données sans déployer de code d’Audience Manager en production. Voir :
 
-* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalization basé sur les données hors ligne uniquement](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=fr)
+* [!UICONTROL People-based Destinations] - [Personalization basé sur les données hors ligne uniquement](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=fr)
 
 <br> 
 

@@ -60,7 +60,7 @@ Dans [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type d’événement </span></b> </td> 
-   <td colname="col2"> Attribue la caractéristique à un type ou à une catégorie, généralement en fonction de sa fonction (par exemple, conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, reportez-vous à la vidéo <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
+   <td colname="col2"> Attribue la caractéristique à un type ou à une catégorie, généralement en fonction de sa fonction (par exemple, conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, reportez-vous à la vidéo <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=fr">Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Code d’intégration </span></b> </td> 

@@ -50,7 +50,7 @@ Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vo
 
 Pour savoir comment modifier vos autorisations d’utilisateur [!DNL LinkedIn Campaign Manager], voir [Ajout, modification et suppression d’autorisations d’utilisateur sur des comptes Advertising](https://www.linkedin.com/help/lms/answer/5753) dans la documentation LinkedIn.
 
-Voir [Présentation et configuration de la destination basée sur les personnes de LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) pour obtenir des instructions vidéo.
+Voir [Présentation et configuration de la destination basée sur les personnes de LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=fr) pour obtenir des instructions vidéo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -99,7 +99,7 @@ Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais de [!DNL Adobe Experience Platform Identity Service (ECID)]. Voir [Prise en charge du hachage SHA-256 pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) pour obtenir des informations détaillées sur l’utilisation de l’ECID pour hacher les ID de client.
+Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais de [!DNL Adobe Experience Platform Identity Service (ECID)]. Voir [Prise en charge du hachage SHA-256 pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=fr) pour obtenir des informations détaillées sur l’utilisation de l’ECID pour hacher les ID de client.
 
 ## Obtention de l’autorisation d’utilisateur {#obtaining-user-permission}
 

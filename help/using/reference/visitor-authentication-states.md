@@ -19,7 +19,7 @@ ht-degree: 2%
 
 L’état d’authentification du visiteur dans l’Audience Manager détermine si les nouvelles informations de caractéristique sont écrites dans le profil authentifié du visiteur ou dans le profil du périphérique à partir duquel les données ont été collectées. Audience Manager gère de la même manière les états d’authentification de l’identifiant visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
 
-À partir de [!DNL Experience Cloud] ID service v1.5+, la méthode `setCustomerID` comprend l’objet facultatif `AuthState`. `AuthState` identifie les visiteurs en fonction de leur [état d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, selon l’état d’authentification transmis dans l’appel et la [stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
+À partir de [!DNL Experience Cloud] ID service v1.5+, la méthode `setCustomerID` comprend l’objet facultatif `AuthState`. `AuthState` identifie les visiteurs en fonction de leur [état d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). [!DNL Audience Manager] gère différemment les caractéristiques réalisées, selon l’état d’authentification transmis dans l’appel et la [stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
 
 ## État d’authentification : INCONNU {#auth-status-unknown}
 
@@ -57,4 +57,4 @@ Exemple d’appel (la valeur de requête correspondant à l’état d’authenti
 
 >[!MORELIKETHIS]
 >
->* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
+>* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr)

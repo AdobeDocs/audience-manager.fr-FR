@@ -112,7 +112,7 @@ Cochez la case **[!UICONTROL Inbound]** lorsque votre source de données est con
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID de client </span></b> : identifie les données entrantes avec un ID de client. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID d’Audience Manager</span></b> : identifie les données entrantes avec un ID <span class="keyword"> d’Audience Manager</span>. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID Experience Cloud</span></b> : identifie les données entrantes avec un <span class="keyword"> ID Experience Cloud</span>. Voir <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies et ID Experience Cloud </a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID Experience Cloud</span></b> : identifie les données entrantes avec un <span class="keyword"> ID Experience Cloud</span>. Voir <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> Cookies et ID Experience Cloud </a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

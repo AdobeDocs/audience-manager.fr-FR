@@ -29,7 +29,7 @@ L’environnement bêta est mis à jour à la fin de chaque mois pendant les heu
 
 >[!IMPORTANT]
 >
->Notez que vos données client ([signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) ne sont pas synchronisées entre les environnements de production et bêta.
+>Notez que vos données client ([signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=fr)) ne sont pas synchronisées entre les environnements de production et bêta.
 
 ## Trafic entrant
 

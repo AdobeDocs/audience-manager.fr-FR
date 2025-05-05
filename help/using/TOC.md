@@ -16,7 +16,7 @@ ht-degree: 24%
 # Guide d’utilisation d’Audience Manager {#user-guide}
 
 + [Guide d’Audience Manager](aam-home.md)
-+ [Guide d’évolution de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Guide d’évolution de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=fr)
 + Migrer vers Web SDK{#migrate-to-web-sdk}
    + [Migration de l’extension de balise Adobe Audience Manager vers l’extension de balise Web SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Migration de votre bibliothèque de collecte de données d’AppMeasurement vers Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -151,7 +151,7 @@ ht-degree: 24%
       + [Syntaxe du code utilisé dans l’éditeur d’expression de segment](features/segments/segment-code-syntax.md)
       + [Données de population de caractéristiques et de segments dans le créateur de segments](features/segments/segment-builder-data.md)
       + [Recommandations de caractéristiques](features/segments/trait-recommendations.md)
-      + [Référence de qualification des caractéristiques et des segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
+      + [Référence de qualification des caractéristiques et des segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=fr)
    + Caractéristiques {#traits}
       + [Présentation des caractéristiques](/help/using/features/traits/traits-overview.md)
       + [Page de détails des caractéristiques](features/traits/trait-details-page.md)
@@ -348,8 +348,8 @@ ht-degree: 24%
    + Intégration à d’autres applications Experience Cloud {#integration-other-solutions}
       + [Intégration d’Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Comment transférer des données d’Adobe Analytics vers Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publication d’un segment Adobe Analytics dans Experience Cloud (ouvre la documentation Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Intégration d’Audience Manager à Adobe Campaign (ouverture de la documentation Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publication d’un segment Adobe Analytics dans Experience Cloud (ouvre la documentation Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=fr)
+      + [Intégration d’Audience Manager à Adobe Campaign (ouverture de la documentation Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=fr)
 + Référence {#reference}
    + [Présentation de la référence](reference/reference.md)
    + [Amazon S3 : À propos](reference/amazon-s3.md)
