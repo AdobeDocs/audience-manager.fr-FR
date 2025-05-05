@@ -62,7 +62,7 @@ Cette section prépare votre balise pour l’essentiel de l’effort de migratio
 
 1. Les paramètres de configuration de l’extension s’affichent. Recherchez la section **[!UICONTROL Datastreams]** et sélectionnez l’environnement de test que vous utilisez ainsi que le flux de données que vous avez créé à l’étape précédente.
 
-   ![ {sélection de flux de données](assets/datastream-select.png) {style="border:1px solid lightslategray"}
+   ![ &lbrace;sélection de flux de données](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Sélectionnez **[!UICONTROL Save]**.
 

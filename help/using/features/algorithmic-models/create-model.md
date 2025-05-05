@@ -40,14 +40,17 @@ Suivez les étapes ci-dessous pour créer un [!UICONTROL Look-Alike Model] :
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
    * Définissez l’état du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécuteront pas et ne produiront aucune donnée.
+
      ![look-alike-basic](assets/look-alike-basic.png)
 1. Dans la section [Configuration](../../features/algorithmic-models/create-model.md#configuration) :
    * Cliquez sur **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** pour sélectionner une caractéristique ou un segment à modéliser. Recherchez des caractéristiques par nom, identifiant, description ou source de données. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les caractéristiques par type de caractéristique ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] et [!UICONTROL Algorithmic]) ou type de population ([ID de périphérique](../../reference/ids-in-aam.md) et [ID multi-appareils](../../reference/ids-in-aam.md)).
+
      ![browse-traits](assets/browse-traits.png)
    * Choisissez une période de recherche arrière de 30, 60 ou 90 jours. Cela définit une période pour le modèle.
    * L’algorithme [!UICONTROL TraitWeight] est sélectionné par défaut.
    * Sélectionnez une source de données dans la liste [!UICONTROL Available Data].
    * Cliquez sur **[!UICONTROL Save]** lorsque vous avez terminé.
+
      ![configuration analogue](assets/look-alike-configuration.png)
 
 Regardez la vidéo ci-dessous pour une vue détaillée du fonctionnement des mesures sur plusieurs appareils.

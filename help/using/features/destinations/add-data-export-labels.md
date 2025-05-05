@@ -33,6 +33,7 @@ Pour ajouter des libellés d’exportation à une destination :
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Les restrictions d’exportation ne fonctionneront pas, sauf si vous définissez un [contrôle d’exportation correspondant](../../features/data-export-controls.md) sur une source de données.

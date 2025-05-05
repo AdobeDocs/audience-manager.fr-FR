@@ -177,6 +177,7 @@ Pour créer des segments à partir de données hors ligne uniquement, utilisez l
    * **[!UICONTROL Type]** : basé sur les personnes ;
    * **[!UICONTROL Platform]** : sélectionnez la plateforme basée sur les personnes à laquelle vous souhaitez envoyer des segments d’audience ;
    * **[!UICONTROL Account]** : sélectionnez le compte publicitaire souhaité associé à la plateforme sélectionnée.
+
      ![create-destination](assets/pbd-create-destination.png)
 1. Cliquez sur **[!UICONTROL Next]**.
 1. Sélectionnez le **[!UICONTROL Data Export Labels]** que vous souhaitez définir pour cette destination.

@@ -106,7 +106,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insère une accolade de fermeture <code>}</code> . </p> </td> 
+   <td colname="col2"> <p>Insère une accolade de fermeture <code>&rbrace;</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -134,7 +134,7 @@ Macros utilisées pour formater le contenu d’un fichier de données. Pour des 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insère un caractère d’accolade ouvert <code>{</code>. </p> </td> 
+   <td colname="col2"> <p>Insère un caractère d’accolade ouvert <code>&lbrace;</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

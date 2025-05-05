@@ -28,7 +28,7 @@ Un fichier de données doit être accompagné d’un fichier de métadonnées. L
 
 La syntaxe suivante définit la structure d’un nom de fichier de données correctement formé. Remarque : *italics* indique un espace réservé de variable qui change en fonction du contenu du fichier.
 
-**Syntaxe :** <pre><code><i> {type d’événement</i>_<i>yyymmdd</i></code></pre>
+**Syntaxe :** <pre><code><i> &lbrace;type d’événement</i>_<i>yyymmdd</i></code></pre>
 
 Dans un nom de fichier :
 

@@ -47,7 +47,7 @@ Pour plus d’informations, consultez le [Centre de traitement des données pers
 
 Ce service fournit une [!DNL RESTful API] et une interface utilisateur pour vous aider à gérer les requêtes de données des consommateurs. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) vous permet d’envoyer des requêtes d’accès aux données personnelles et de suppression de celles-ci, sur la base d’une requête individuelle de consommateur, ce qui contribue à automatiser cette partie de vos obligations de conformité.
 
-Bien que les demandes d’accès et de suppression des données soient gérées par le Privacy Service, les [demandes d’exclusion](data-privacy-requests.md#opt-out-requests) sont actuellement prises en charge par le biais de l’ [’}API DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Pour plus d’informations, consultez [Requêtes de confidentialité des données](data-privacy-requests.md).
+Bien que les demandes d’accès et de suppression des données soient gérées par le Privacy Service, les [demandes d’exclusion](data-privacy-requests.md#opt-out-requests) sont actuellement prises en charge par le biais de l’ [’&rbrace;API DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Pour plus d’informations, consultez [Requêtes de confidentialité des données](data-privacy-requests.md).
 
 ## Concepts associés {#related-concepts}
 

@@ -34,7 +34,7 @@ Dans [!UICONTROL Marketplace], les outils de création de rapports vous permette
 >
 >Utilisez l’ **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** pour trouver des flux de données de haute qualité auxquels vous pouvez vous abonner. Ensuite, revenez dans l’interface utilisateur de [!DNL Audience Manager] ou utilisez l’ [API Audience Marketplace Buyer](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) pour vous abonner aux flux que vous avez trouvés.
 
-![}acheteur-marketplace-overview](assets/buyer-marketplace-overview.png)
+![&rbrace;acheteur-marketplace-overview](assets/buyer-marketplace-overview.png)
 
 La liste [!UICONTROL Marketplace] contient des informations que vous pouvez trier et rechercher pour trouver le flux de données qui vous convient. Les éléments de la liste des acheteurs [!UICONTROL Marketplace] incluent :
 

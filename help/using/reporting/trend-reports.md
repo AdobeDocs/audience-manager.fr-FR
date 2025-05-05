@@ -95,7 +95,7 @@ Lors du filtrage des résultats par [!UICONTROL Cross-Device ID] :
 * [!UICONTROL Total Trait Realization] est le nombre total de réalisations de caractéristiques authentifiées au cours de la période sélectionnée.
 * [!UICONTROL Total Trait Population] est le nombre de visiteurs authentifiés ayant cette caractéristique sur leur profil.
 
-![}tend-report-traits](assets/trend-report-traits.png)
+![&rbrace;tend-report-traits](assets/trend-report-traits.png)
 
 Les zéros indiquent que [!DNL Audience Manager] n’a pas collecté de données pour cette journée. Les entrées vides indiquent que la caractéristique n’existait pas.
 
@@ -110,4 +110,4 @@ Les filtres ci-dessous sont disponibles lorsque vous exécutez un [!UICONTROL Tr
 * **[!UICONTROL Real-time Segment Population]** : nombre de visiteurs qualifiés pour le segment au cours de la période sélectionnée.
 * **[!UICONTROL Total Segment Population]** : nombre total de visiteurs qualifiés pour le segment.
 
-![}tend-report-segments](assets/trend-report-segments.png)
+![&rbrace;tend-report-segments](assets/trend-report-segments.png)

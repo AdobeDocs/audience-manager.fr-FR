@@ -160,6 +160,7 @@ Pour créer des segments d’audience, utilisez le [créateur de segments](../se
    * **[!UICONTROL Type]** : basé sur les personnes ;
    * **[!UICONTROL Platform]** : sélectionnez la plateforme basée sur les personnes à laquelle vous souhaitez envoyer des segments d’audience ;
    * **[!UICONTROL Account]** : sélectionnez le compte publicitaire souhaité associé à la plateforme sélectionnée.
+
      ![create-destination](assets/pbd-create-destination.png)
 1. Cliquez sur **[!UICONTROL Next]**.
 1. Sélectionnez le **[!UICONTROL Data Export Labels]** que vous souhaitez définir pour cette destination.
