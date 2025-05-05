@@ -113,7 +113,7 @@ Le choix d’une option [!UICONTROL device graph] pour une règle [!UICONTROL Pr
 
 Regardez la vidéo ci-dessous pour un aperçu des cas d’utilisation possibles pour [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/)
+>[!VIDEO](https://video.tv.adobe.com/v/32183?captions=fre_fr)
 
 >[!MORELIKETHIS]
 >

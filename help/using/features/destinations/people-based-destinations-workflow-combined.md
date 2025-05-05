@@ -63,7 +63,7 @@ Dans ce cas, vous devez créer une source de données multi-appareils qui stocke
 
 Regardez la vidéo ci-dessous pour découvrir un tutoriel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/32186?captions=fre_fr)
 
 >[!NOTE]
 >

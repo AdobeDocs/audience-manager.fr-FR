@@ -59,7 +59,7 @@ Commencez par regarder la vidéo [Créer des segments dans l’Audience Manager]
 
 Regardez la vidéo ci-dessous pour une vue détaillée du fonctionnement des mesures sur plusieurs appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36727?captions=fre_fr)
 
 ## [!UICONTROL Segment Builder] Contrôles : [!UICONTROL Basic Information] Section {#segment-builder-controls-basics}
 

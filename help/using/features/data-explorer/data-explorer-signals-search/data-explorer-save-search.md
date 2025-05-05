@@ -35,4 +35,4 @@ Optimisez les efforts de recherche de signaux en enregistrant jusqu’à 10 ense
 
 Regardez la vidéo ci-dessous pour savoir comment enregistrer des recherches de signaux.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/30145?captions=fre_fr)

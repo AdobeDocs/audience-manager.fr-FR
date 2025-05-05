@@ -49,4 +49,4 @@ Une fois qu’un prestataire de services de voyage a ajouté de nouvelles destin
 
 L’une des fonctionnalités les plus puissantes de l’Audience Manager est la possibilité d’embarquer des données hors ligne et de les associer à vos données en ligne. Dans la vidéo ci-dessous, apprenez à utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/330363?captions=fre_fr)

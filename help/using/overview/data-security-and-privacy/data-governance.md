@@ -35,7 +35,7 @@ L’adresse [!DNL IP] d’un visiteur sur le site web d’un client est transmis
 
 Regardez la vidéo ci-dessous pour comprendre comment fonctionne l’obscurcissement des adresses [!DNL IP] dans Audience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/34978?captions=fre_fr)
 
 **Segmentation géographique :** si vous activez l’obscurcissement des adresses [!DNL IP], les octets restants de l’adresse [!DNL IP] peuvent toujours être utilisés pour la géosegmentation et la création de rapports dans Audience Manager. Si vous n’activez pas l’obscurcissement des adresses [!DNL IP], Audience Manager utilise l’adresse [!DNL IP] complète. Vous pouvez dans les deux cas utiliser la fonctionnalité de segmentation géographique qui vous permet d’identifier un emplacement [!DNL IP] selon sa zone géographique, mais l’obscurcissement des adresses [!DNL IP] en diminuera la précision. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement des adresses [!DNL IP], tandis que l’obtention des informations sur les régions et les pays ne sera que légèrement entravée. Les données de segmentation géographique sont alors détaillées au niveau des villes ou des codes postaux uniquement, mais pas au niveau individuel. En savoir plus sur le [géociblage](../../features/traits/trait-geotarget-keys.md) et la configuration de caractéristiques avec des variables géographiques.
 

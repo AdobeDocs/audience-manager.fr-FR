@@ -114,7 +114,7 @@ Renseignez d’abord les champs requis de la section [!UICONTROL Basic Informati
 
 Regardez la vidéo ci-dessous pour savoir comment créer un modèle analogue propriétaire, afin que vous puissiez trouver d’autres visiteurs qui ressemblent à vos convertisseurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/328091?captions=fre_fr)
 
 >[!MORELIKETHIS]
 >

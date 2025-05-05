@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL Profile Merge Rules] vous permet de contrôler les jeux de données utilisés pour la segmentation et de cibler les utilisateurs avec précision sur plusieurs appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/28974)
+>[!VIDEO](https://video.tv.adobe.com/v/32184?captions=fre_fr)
 
 ## Collecte de données et ciblage avec profils anonymes et authentifiés {#data-collection-targeting}
 

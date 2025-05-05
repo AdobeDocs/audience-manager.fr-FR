@@ -51,7 +51,7 @@ Une fois la création de la caractéristique terminée, vous verrez ses réalisa
 
 Regardez la vidéo ci-dessous pour une présentation vidéo expliquant comment renvoyer des caractéristiques.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/327526?captions=fre_fr)
 
 ## Latence de renvoi de caractéristiques {#trait-backfilling-latency}
 
