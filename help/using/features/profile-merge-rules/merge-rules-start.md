@@ -223,7 +223,7 @@ Vérifiez les méthodes de votre code [!DNL SDK] qui vous permettent de transmet
  </tbody>
 </table>
 
-Voir aussi [Méthodes d’Audience Manager pour Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et [Méthodes d’Audience Manager pour iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Voir aussi [Méthodes d’Audience Manager pour Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=fr) et [Méthodes d’Audience Manager pour iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=fr).
 
 >[!MORELIKETHIS]
 >
