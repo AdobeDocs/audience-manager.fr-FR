@@ -43,9 +43,9 @@ Pour plus d’informations, consultez le [Centre de traitement des données pers
 
 ## Conformité aux réglementations {#compliance}
 
-[!DNL Audience Manager] vous aide à respecter vos obligations en matière de confidentialité par le biais d’outils tels que [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) pour les demandes d’accès et de suppression de données.
+[!DNL Audience Manager] vous aide à respecter vos obligations en matière de confidentialité par le biais d’outils tels que [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr) pour les demandes d’accès et de suppression de données.
 
-Ce service fournit une [!DNL RESTful API] et une interface utilisateur pour vous aider à gérer les requêtes de données des consommateurs. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) vous permet d’envoyer des requêtes d’accès aux données personnelles et de suppression de celles-ci, sur la base d’une requête individuelle de consommateur, ce qui contribue à automatiser cette partie de vos obligations de conformité.
+Ce service fournit une [!DNL RESTful API] et une interface utilisateur pour vous aider à gérer les requêtes de données des consommateurs. [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr) vous permet d’envoyer des requêtes d’accès aux données personnelles et de suppression de celles-ci, sur la base d’une requête individuelle de consommateur, ce qui contribue à automatiser cette partie de vos obligations de conformité.
 
 Bien que les demandes d’accès et de suppression de données soient gérées via Privacy Service, les [demandes de désinscription](data-privacy-requests.md#opt-out-requests) sont actuellement prises en charge via l’[API DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Pour plus d’informations, consultez [Requêtes de confidentialité des données](data-privacy-requests.md).
 

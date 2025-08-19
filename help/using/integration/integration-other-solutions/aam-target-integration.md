@@ -20,7 +20,7 @@ Cette intégration vous permet d’envoyer des segments Audience Manager à Adob
 
 Une intégration Audience Manager - [!DNL Target] nécessite :
 
-* Le service [Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). Si vous n’utilisez pas ce service, reportez-vous aux [guides d’implémentation](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) pour commencer.
+* Le service [Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Si vous n’utilisez pas ce service, reportez-vous aux [guides d’implémentation](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr) pour commencer.
 * [!DNL Profiles and Audiences]. Si vous ne disposez pas des privilèges d’accès pour [!DNL Profiles and Audiences], contactez l’assistance clientèle pour commencer.
 
 Tous vos segments Audience Manager apparaîtront dans [!DNL Target] peu de temps après avoir suivi ces étapes dans le processus d’implémentation. Regarder en **[!UICONTROL Audiences > Audience List]** pour voir vos segments Audience Manager dans [!DNL Target]. Identifiez les segments Audience Manager par Experience Cloud dans la colonne **[!UICONTROL Source]** et par `aam-integration-user@adobe.com` dans la colonne **[!UICONTROL Modified]**.

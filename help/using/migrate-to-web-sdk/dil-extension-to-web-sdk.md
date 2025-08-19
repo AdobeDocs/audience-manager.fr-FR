@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Audience prévue
 
-Cette page est destinée aux clients Audience Manager qui utilisent l’extension de balise [Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) pour importer des données de collecte web dans Audience Manager. Pour les clients qui utilisent la bibliothèque AppMeasurement JavaScript, veuillez lire le guide sur la mise à jour de votre bibliothèque de collecte de données pour Audience Manager [de la bibliothèque AppMeasurement JavaScript à la bibliothèque Web SDK JavaScript](appmeasurement-to-web-sdk.md).
+Cette page est destinée aux clients Audience Manager qui utilisent l’extension de balise [Audience Manager](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/audience-manager/overview) pour importer des données de collecte web dans Audience Manager. Pour les clients qui utilisent la bibliothèque AppMeasurement JavaScript, veuillez lire le guide sur la mise à jour de votre bibliothèque de collecte de données pour Audience Manager [de la bibliothèque AppMeasurement JavaScript à la bibliothèque Web SDK JavaScript](appmeasurement-to-web-sdk.md).
 
 ## Avantages et inconvénients de ce chemin de mise en œuvre
 

@@ -111,7 +111,7 @@ Oui.
 
 **Les estimations de la taille des segments incluent-elles les appareils qualifiés pour un segment en fonction des connexions fournies par une [!UICONTROL Profile Merge Rule] qui utilise une représentation graphique des appareils ?**
 
-Non. Voir les définitions pour [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans [Données sur les caractéristiques et la population de segments dans le créateur de segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Non. Voir les définitions pour [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans [Données sur les caractéristiques et la population de segments dans le créateur de segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr).
 
  
 

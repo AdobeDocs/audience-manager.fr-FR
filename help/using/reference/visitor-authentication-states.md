@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Le statut d’authentification du visiteur dans Audience Manager détermine si les nouvelles informations de caractéristiques sont écrites dans le profil authentifié du visiteur ou sur le profil de l’appareil à partir duquel les données ont été collectées. Audience Manager gère de la même manière les statuts d’authentification des identifiants visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
 
-À partir [!DNL Experience Cloud] service d’ID version 1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur [statut d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] traite les caractéristiques réalisées différemment, selon le statut d’authentification transmis dans l’appel et la [règle de fusion de profil](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
+À partir [!DNL Experience Cloud] service d’ID version 1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur [statut d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). [!DNL Audience Manager] traite les caractéristiques réalisées différemment, selon le statut d’authentification transmis dans l’appel et la [règle de fusion de profil](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
 
 ## Statut d’authentification : INCONNU {#auth-status-unknown}
 
@@ -57,4 +57,4 @@ Exemple d’appel (la valeur de requête correspondant au statut d’authentific
 
 >[!MORELIKETHIS]
 >
->* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
+>* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr)

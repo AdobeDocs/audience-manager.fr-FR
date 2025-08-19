@@ -31,7 +31,7 @@ Consultez également la section Collecte d’adresses IP et obscurcissement d’
 
 ### Priorité d’obscurcissement des adresses IP {#precedence}
 
-L’[obscurcissement de l’adresse IP au niveau du flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) est prioritaire par rapport à toute option d’obscurcissement d’adresse IP définie dans Audience Manager et s’applique à toutes les adresses IP. Toute recherche de géolocalisation effectuée par Audience Manager est affectée par l’option de [!UICONTROL IP obfuscation] au niveau du train de données. Une recherche de géolocalisation dans Audience Manager, basée sur une adresse IP entièrement obscurcie, entraîne la création d’une région inconnue et les segments basés sur les données de géolocalisation obtenues ne sont pas réalisés.
+L’[obscurcissement de l’adresse IP au niveau du flux de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr#create) est prioritaire par rapport à toute option d’obscurcissement d’adresse IP définie dans Audience Manager et s’applique à toutes les adresses IP. Toute recherche de géolocalisation effectuée par Audience Manager est affectée par l’option de [!UICONTROL IP obfuscation] au niveau du train de données. Une recherche de géolocalisation dans Audience Manager, basée sur une adresse IP entièrement obscurcie, entraîne la création d’une région inconnue et les segments basés sur les données de géolocalisation obtenues ne sont pas réalisés.
 
 ## Exigences en matière d’obscurcissement des adresses IP {#ip-obfuscation-requirements}
 

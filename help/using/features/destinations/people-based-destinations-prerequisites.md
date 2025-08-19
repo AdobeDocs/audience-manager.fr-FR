@@ -50,7 +50,7 @@ Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vo
 
 Pour savoir comment modifier vos autorisations d’utilisateur [!DNL LinkedIn Campaign Manager], voir [Ajouter, modifier et supprimer des autorisations d’utilisateur sur les comptes Advertising](https://www.linkedin.com/help/lms/answer/5753) dans la documentation LinkedIn.
 
-Consultez [Présentation et configuration de la destination LinkedIn basée sur les personnes](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) pour obtenir des instructions vidéo.
+Consultez [Présentation et configuration de la destination LinkedIn basée sur les personnes](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=fr) pour obtenir des instructions vidéo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -99,7 +99,7 @@ Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais du [!DNL Adobe Experience Platform Identity Service (ECID)]. Consultez [SHA256 Prise en charge du hachage pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) pour plus d’informations sur l’utilisation d’ECID pour hacher les ID client.
+Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais du [!DNL Adobe Experience Platform Identity Service (ECID)]. Consultez [SHA256 Prise en charge du hachage pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=fr) pour plus d’informations sur l’utilisation d’ECID pour hacher les ID client.
 
 ## Obtention des autorisations utilisateur {#obtaining-user-permission}
 

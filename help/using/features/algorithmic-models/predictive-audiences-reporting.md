@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Rapports Prédictifs Sur Les Audiences
 
-Après avoir enregistré un modèle [!UICONTROL Predictive Audiences], Audience Manager commence à l’entraîner. Dans quelques heures, le modèle calculé commencera à analyser les audiences sur les [serveurs de collecte de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Les rapports seront disponibles le lendemain.
+Après avoir enregistré un modèle [!UICONTROL Predictive Audiences], Audience Manager commence à l’entraîner. Dans quelques heures, le modèle calculé commencera à analyser les audiences sur les [serveurs de collecte de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=fr#dcs-pcs). Les rapports seront disponibles le lendemain.
 
 Pour afficher les résultats de votre classification [!UICONTROL Predictive Audiences], accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, puis cliquez sur votre modèle dans la liste.
 
