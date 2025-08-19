@@ -21,11 +21,11 @@ Obtenez des recommandations de caractéristiques en direct à mesure que vous cr
 
 Commencez par regarder la vidéo [!UICONTROL Trait Recommendations] ci-dessous, puis poursuivez la lecture pour plus d’informations. La démonstration vidéo vous explique comment utiliser les recommandations de vos propres caractéristiques propriétaires, ainsi que les recommandations de caractéristiques de [!UICONTROL Audience Marketplace] flux de données auxquels *vous êtes déjà abonné*.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/40839?captions=fre_fr)
 
 La vidéo suivante décrit le workflow de [!UICONTROL Marketplace Recommendations] et vous montre comment ajouter des caractéristiques à vos segments, en fonction des recommandations des flux de données dans [!UICONTROL Audience Marketplace]. Ces recommandations sont basées sur des flux de données auxquels *vous n’êtes pas abonné*.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/33197?captions=fre_fr)
 
 ## Présentation
 

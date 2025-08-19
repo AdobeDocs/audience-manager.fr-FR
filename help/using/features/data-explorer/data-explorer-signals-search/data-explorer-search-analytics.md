@@ -31,4 +31,4 @@ Cette intégration vous permet de voir les noms conviviaux des paires clé-valeu
 
 La vidéo ci-dessous montre comment utiliser [!UICONTROL Data Explorer] pour découvrir et utiliser vos données Adobe Analytics, notamment la recherche de signaux utilisés et inutilisés, la création de caractéristiques Analytics et la compréhension des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/330361?captions=fre_fr)

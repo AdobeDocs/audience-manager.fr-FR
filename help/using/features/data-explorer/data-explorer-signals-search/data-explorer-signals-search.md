@@ -22,4 +22,4 @@ Recherche des signaux utilisés et inutilisés reçus sur des périodes de temps
 * [Filtrer les résultats de la recherche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Enregistrer les critères de recherche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/25148/)
+>[!VIDEO](https://video.tv.adobe.com/v/330362?captions=fre_fr)

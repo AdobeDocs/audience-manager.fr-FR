@@ -58,7 +58,7 @@ Commencez par regarder la [vidéo Créer des segments dans Audience Manager](htt
 
 Regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures inter-appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36727?captions=fre_fr)
 
 ## Contrôles [!UICONTROL Segment Builder] : section [!UICONTROL Basic Information] {#segment-builder-controls-basics}
 

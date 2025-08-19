@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Créer des caractéristiques à partir de tous les signaux, y compris ceux déjà utilisés dans les caractéristiques, et capturer les audiences futures qui seront qualifiées après la création de la caractéristique. Regardez la vidéo pour une démonstration rapide ou lisez la suite pour obtenir des informations détaillées :
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/327526/?quality=12&captions=fre_fr)
 
 ## Créer des caractéristiques à partir du tableau de bord du signal {#create-traits-from-signal-dashboard}
 

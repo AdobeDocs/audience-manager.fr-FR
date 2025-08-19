@@ -91,7 +91,7 @@ Dans ce cas, vous devez créer une nouvelle source de données inter-appareils q
 
 Regardez la vidéo ci-dessous pour un tutoriel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/32186?captions=fre_fr)
 
 ## Étape 3 - Correspondance des DPUUID aux adresses e-mail hachées via la synchronisation d’identifiants basée sur des fichiers {#match-ids-emails}
 

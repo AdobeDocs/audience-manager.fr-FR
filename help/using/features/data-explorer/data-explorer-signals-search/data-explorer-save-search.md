@@ -35,4 +35,4 @@ Optimisez les efforts de recherche de signal en enregistrant jusqu’à 10 jeux 
 
 Regardez la vidéo ci-dessous pour savoir comment enregistrer les recherches de signaux.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/30145?captions=fre_fr)

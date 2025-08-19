@@ -62,4 +62,4 @@ Pour désactiver l’obscurcissement des adresses IP pour des pays spécifiques,
 
 * [ Confidentialité des données ](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Démonstration vidéo de l’obscurcissement des adresses IP
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/34978?captions=fre_fr)
