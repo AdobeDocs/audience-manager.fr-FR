@@ -35,12 +35,12 @@ Présentation, prise en main et méthodes de code disponibles dans la bibliothè
 
 Cependant, vous pouvez également télécharger les dernières versions d’Experience Cloud et de [!DNL DIL] à partir de notre page GitHub. Voir les liens de téléchargement ci-dessous :
 
-* Télécharger le service d’identités Adobe Experience Platform [](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Télécharger le service d’identités Adobe Experience Platform [&#128279;](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * Télécharger [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Objectif de DIL {#purpose-dil}
 
-[!UICONTROL DIL] est une bibliothèque d’API. Vous pouvez le considérer comme un corps de code d’assistance pour [!DNL Adobe Audience Manager]. Il n’est pas nécessaire d’utiliser [!DNL Audience Manager], mais les méthodes et fonctions fournies par [!UICONTROL DIL] vous permettent de ne pas avoir à développer votre propre code pour envoyer des données à [!DNL Audience Manager]. En outre, [!UICONTROL DIL] est différent de l’API fournie par le service d’identités Adobe Experience Platform [](https://experienceleague.adobe.com/docs/id-service/using/home.html). Ce service est conçu pour gérer l’identité des visiteurs dans différentes solutions [!DNL Experience Cloud]. En revanche, [!UICONTROL DIL] est conçu pour :
+[!UICONTROL DIL] est une bibliothèque d’API. Vous pouvez le considérer comme un corps de code d’assistance pour [!DNL Adobe Audience Manager]. Il n’est pas nécessaire d’utiliser [!DNL Audience Manager], mais les méthodes et fonctions fournies par [!UICONTROL DIL] vous permettent de ne pas avoir à développer votre propre code pour envoyer des données à [!DNL Audience Manager]. En outre, [!UICONTROL DIL] est différent de l’API fournie par le service d’identités Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html). Ce service est conçu pour gérer l’identité des visiteurs dans différentes solutions [!DNL Experience Cloud]. En revanche, [!UICONTROL DIL] est conçu pour :
 
 * Effectuer des appels d’événement et envoyer des données au [serveur de collecte de données](../reference/system-components/components-data-collection.md).
 * Envoyez les données aux [destinations](../features/destinations/destinations.md).

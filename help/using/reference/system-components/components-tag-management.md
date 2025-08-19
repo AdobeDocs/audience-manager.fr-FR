@@ -27,7 +27,7 @@ c_comptag.xml
 Audience Manager contient les composants suivants :
 
 * [Portail client](../../reference/system-components/components-tag-management.md#client-portal)
-* Conteneur DIL/TIM [](../../reference/system-components/components-tag-management.md#dil-tim)
+* Conteneur DIL/TIM [&#128279;](../../reference/system-components/components-tag-management.md#dil-tim)
 * [Bibliothèque d’informations sur les données (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [ Akamai ](../../reference/system-components/components-tag-management.md#akamai)
 * [Base de données de contrôle](../../reference/system-components/components-tag-management.md#control-database)

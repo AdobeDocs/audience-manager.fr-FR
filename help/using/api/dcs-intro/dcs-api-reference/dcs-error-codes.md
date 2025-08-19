@@ -181,7 +181,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>L’ID de client a été ignoré car il dépassait la limite pour un espace de noms donné. L’ID de l’espace de noms est <code><i>ID</i></code>, l’ID du client est <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Ce code d’erreur est renvoyé si plus de 3 ID client ont été déclarés pour le même espace de noms (<code> DPID</code>) lors d’un <span class="wintitle"> appel de DCS</span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Dans cet exemple <span class="wintitle"> requête DCS</span>, il existe 4 identifiants déclarés pour le même espace de noms (avec le code d’intégration un). L'un des ID est ignoré et l'erreur 310 est renvoyée. </p> </td> 
+   <td colname="col3"> <p>Ce code d’erreur est renvoyé si plus de 3 ID client ont été déclarés pour le même espace de noms (<code> DPID</code>) lors d’un <span class="wintitle"> appel de DCS</span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>Dans cet exemple <span class="wintitle"> requête DCS</span>, il existe 4 identifiants déclarés pour le même espace de noms (avec le code d’intégration un). L'un des ID est ignoré et l'erreur 310 est renvoyée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La requête contient un ID d’appareil global non valide </p> </td> 
    <td colname="col3"> <p>Le <span class="wintitle">DCS</span> renvoie ce code d’erreur lorsque la requête contient un identifiant global d’appareil non valide. DCS ignore l’ID non valide et renvoie une erreur 312 avec les erreurs spécifiques de l’ID non valide. Consultez les sections <a href="../../../features/global-data-sources.md" format="dita" scope="local">Sources de données globales</a> et <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index des identifiants dans Audience Manager</a> pour obtenir des informations détaillées sur les formats d’identifiant publicitaire d’appareil corrects et les sources de données globales correspondantes.</p>
-   <p>Exemple d’appel incorrect : <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Exemple d’appel incorrect : <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explication : un <span class="keyword">IDFA (20915 DPID)</span> doit être un identifiant en majuscules. L’identifiant fourni dans la requête est en minuscules.</p>
    </td>
   </tr>

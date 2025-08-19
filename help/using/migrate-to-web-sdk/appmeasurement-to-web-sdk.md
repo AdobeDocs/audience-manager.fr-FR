@@ -22,7 +22,7 @@ Reportez-vous au tableau ci-dessous pour obtenir des conseils sur les étapes de
 |---------|----------|
 | Bibliothèque JavaScript [!DNL AppMeasurement] avec le module AudienceManagement | Suivez les instructions de ce guide. |
 | [!DNL Audience Manager] [extension de balise](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Suivez les instructions de la section [mise à jour de votre bibliothèque de collecte de données de l’extension de balise Audience Manager à l’extension de balise Web SDK](dil-extension-to-web-sdk.md). |
-| [!DNL AppMeasurement] bibliothèque JavaScript + bibliothèque DIL autonome [!DNL Audience Manager] [](../dil/dil-overview.md) | Suivez les instructions de la section [mise à jour de votre bibliothèque de collecte de données de l’extension de balise Audience Manager à l’extension de balise Web SDK](dil-extension-to-web-sdk.md). |
+| [!DNL AppMeasurement] bibliothèque JavaScript + bibliothèque DIL autonome [!DNL Audience Manager] [&#128279;](../dil/dil-overview.md) | Suivez les instructions de la section [mise à jour de votre bibliothèque de collecte de données de l’extension de balise Audience Manager à l’extension de balise Web SDK](dil-extension-to-web-sdk.md). |
 
 ## Présentation de la migration {#overview}
 
@@ -71,7 +71,7 @@ Edge Network transforme les données de l’appareil et du navigateur de la payl
 
 ## Nœud `data.__adobe.audiencemanager` {#data-note}
 
-Le nœud `data.__adobe.audiencemanager` est utilisé pour les implémentations d’Audience Manager qui ne dépendent pas d’Analytics. Il stocke les paires clé/valeur Audience Manager personnalisées qui ont été précédemment envoyées via la bibliothèque [DIL](../dil/dil-overview.md), comme décrit dans le guide de migration de l’extension de balise [](dil-extension-to-web-sdk.md).
+Le nœud `data.__adobe.audiencemanager` est utilisé pour les implémentations d’Audience Manager qui ne dépendent pas d’Analytics. Il stocke les paires clé/valeur Audience Manager personnalisées qui ont été précédemment envoyées via la bibliothèque [DIL](../dil/dil-overview.md), comme décrit dans le guide de migration de l’extension de balise [&#128279;](dil-extension-to-web-sdk.md).
 
 Bien que le nœud `data.__adobe.audiencemanager` ne soit pas nécessaire pour la migration décrite dans ce guide, le nouveau flux de données expliqué ici permet d’envoyer des données à Audience Manager sans les enregistrer dans Analytics.
 

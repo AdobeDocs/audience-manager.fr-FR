@@ -50,7 +50,7 @@ Une fois votre rapport chargé, vous pouvez voir une répartition de vos [!UICON
 [!UICONTROL Activities] définir le total agrégé de toutes les interactions sur site et hors site avec Audience Manager, divisé en les catégories suivantes :
 
 * **[!UICONTROL Server Calls]** : tout événement de collecte ou de récupération de données envoyé à Audience Manager à partir de sites web, de serveurs, d’e-mails, d’applications mobiles ou d’autres systèmes.
-* **[!UICONTROL Pixel Calls](anciennement appelé [!UICONTROL Impression Server Calls])** : données collectées à partir d’annonces (telles que le volume d’impression d’une plateforme de ciblage) ou d’appels d’impressions d’e-mail effectués vers Audience Manager. Ceux-ci nécessitent la présence du paramètre `d_event` dans la chaîne de requête.
+* **[!UICONTROL Pixel Calls] (anciennement appelé [!UICONTROL Impression Server Calls])** : données collectées à partir d’annonces (telles que le volume d’impression d’une plateforme de ciblage) ou d’appels d’impressions d’e-mail effectués vers Audience Manager. Ceux-ci nécessitent la présence du paramètre `d_event` dans la chaîne de requête.
 * **[!UICONTROL On-Boarded Records]** : enregistrements uniques ingérés à partir de votre propre système de gestion de la relation client (CRM) ou d’autres fichiers de données hors ligne, tels que les enregistrements du centre d’appels, les identifiants d’appareil et les flux de données personnalisés de fournisseurs de données externes.
 * **[!UICONTROL Log File Records]** : enregistrements uniques de fichiers journaux ingérés dans Audience Manager à partir d’une plateforme de ciblage.
 

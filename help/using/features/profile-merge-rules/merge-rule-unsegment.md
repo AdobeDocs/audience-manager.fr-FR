@@ -44,7 +44,7 @@ Pour rappel, les [!UICONTROL Device Options] sont disponibles dans la section [!
 >[!NOTE]
 >
 >**limite de 100 appareils pour l’évaluation et la disqualification des segments**.
->>Audience Manager fusionne jusqu’à 100 appareils lors de l’évaluation de segments avec une règle de fusion de profil qui utilise un graphique d’appareil. Audience Manager évalue l’appareil actuel et jusqu’à 99 appareils liés à l’appareil actuel par un [profil authentifié](../../reference/visitor-authentication-states.md) (identifiant sur l’ensemble des appareils). Si le signal unsegment est émis, l’appareil actuel et les appareils supplémentaires sont supprimés du segment dans la destination.
+>&#x200B;>Audience Manager fusionne jusqu’à 100 appareils lors de l’évaluation de segments avec une règle de fusion de profil qui utilise un graphique d’appareil. Audience Manager évalue l’appareil actuel et jusqu’à 99 appareils liés à l’appareil actuel par un [profil authentifié](../../reference/visitor-authentication-states.md) (identifiant sur l’ensemble des appareils). Si le signal unsegment est émis, l’appareil actuel et les appareils supplémentaires sont supprimés du segment dans la destination.
 
 ![](assets/last-device-graph.png)
 

@@ -35,7 +35,7 @@ Pour remplir la section [!UICONTROL Data Source Details], renseignez les champs 
 1. **[!UICONTROL Description]** (facultatif) : saisissez une description de votre source de données pour vous aider à définir le rôle ou l’objectif de la source de données.
 1. **[!UICONTROL Integration Code]** (facultatif) : saisissez un code d’intégration. Ces codes sont requis lorsque vous souhaitez effectuer les opérations suivantes :
    * [Créer une source de données entre appareils](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Utilisez le service d’identités Adobe Experience Platform [](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+   * Utilisez le service d’identités Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Utiliser les [règles de fusion de profil](../features/profile-merge-rules/merge-rules-start.md).
 1. **[!UICONTROL Namespace]** (lecture seule) : ce champ est en lecture seule et est généré automatiquement lorsque vous enregistrez la source de données. Si vous souhaitez exporter des segments d’Audience Manager vers Experience Platform, vous devez créer un [espace de noms d’identité](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) correspondant dans Experience Platform, en utilisant la valeur générée automatiquement comme espace de noms [symbole d’identité](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) dans Experience Platform.
 1. **[!UICONTROL ID Type]** : sélectionnez le type d’identifiants que cette source de données contiendra :

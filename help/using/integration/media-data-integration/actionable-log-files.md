@@ -62,7 +62,7 @@ Les signaux sont les [plus petites unités de données](../../reference/signal-t
 >[!IMPORTANT]
 >
 >Les [!UICONTROL Actionable Log Files] sont pris en charge pour les serveurs de publicités suivants :
->> <br>
+>&#x200B;> <br>
 >
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)

@@ -132,7 +132,7 @@ Après avoir obtenu votre jeton du porteur d’authentification, effectuez un ap
 
    ![Autoriser les appels API](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. Effectuez un appel GET au point d’entrée de l’API `/datasources` pour récupérer une liste de toutes les sources de données disponibles globalement, comme indiqué dans la documentation de référence de l’API [](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Sélectionnez **[!UICONTROL Try it out]**, puis **[!UICONTROL Execute]**, comme illustré ci-dessous.
+3. Effectuez un appel GET au point d’entrée de l’API `/datasources` pour récupérer une liste de toutes les sources de données disponibles globalement, comme indiqué dans la documentation de référence de l’API [&#128279;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Sélectionnez **[!UICONTROL Try it out]**, puis **[!UICONTROL Execute]**, comme illustré ci-dessous.
 
    ![Effectuer des appels API](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -402,7 +402,7 @@ Le tableau suivant répertorie les [!DNL URLs] de requête utilisés pour transm
 
 Selon la méthode d’authentification que vous utilisez, vous devez ajuster le [!DNL URLs] de votre requête en fonction des tableaux ci-dessous.
 
-### [!DNL URLs] de requête pour l’authentification [!BADGE  OAuth ]{type=positive}recommandée[!BADGE  serveur à serveur et ]{type=negative}obsolète[!DNL JWT] via Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] de requête pour l’authentification [!BADGE &#x200B; OAuth &#x200B;]{type=positive}recommandée[!BADGE &#x200B; serveur à serveur et &#x200B;]{type=negative}obsolète[!DNL JWT] via Adobe Developer {#request-urls-jwt}
 
 | Méthodes [!DNL API] | [!DNL URL] de la demande |
 |--- |--- |

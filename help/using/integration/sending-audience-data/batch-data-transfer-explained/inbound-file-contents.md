@@ -201,30 +201,30 @@ Des noms de valeurs mal formatés dans une paire clé-valeur entraînent égalem
    <td colname="col1"> <p>Avec <code> d_sid </code> ou <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Ce fichier de données montre un utilisateur qualifié pour les caractéristiques 24, 26, 27 et a été supprimé des caractéristiques 28 et 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>Remarque :  <p>Au lieu d_unsid, vous pouvez également supprimer des caractéristiques des profils utilisateur à l’aide de la syntaxe suivante : </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avec <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>Ces caractéristiques ont été ajoutées à une règle de caractéristique avec le préfixe <code> ic </code>. Vous pouvez donc les ajouter au fichier de données en les séparant par des virgules, comme illustré ci-dessous. Un onglet sépare l’UUID et les identifiants de caractéristique. Le préfixe <code> ic </code> n’est pas requis dans le fichier . </p> <p><b>Identifiants numériques</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>ID de chaîne</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avec des paires clé-valeur </p> </td> 
    <td colname="col2"> Ces données de fichier utilisent des paires clé-valeur pour transmettre des données à <span class="keyword">’</span> Audience Manager. <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 

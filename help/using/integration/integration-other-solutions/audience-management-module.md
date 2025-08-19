@@ -27,7 +27,7 @@ Suivez les étapes de ce tutoriel pour transférer des données [!DNL Analytics]
 
 Outre l’activation des extensions ou l’implémentation du code décrit dans ce document, vous devez également :
 
-* Mettre en œuvre le service d’identités Adobe Experience Platform [](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Mettre en œuvre le service d’identités Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 * Activez le [transfert côté serveur](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) pour les suites de rapports dans le [!UICONTROL Adobe Analytics Admin Console].
 
 ## Mise en œuvre {#implementation}
