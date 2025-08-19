@@ -45,7 +45,7 @@ Pour réduire la demande de puissance de calcul, les résultats de ces rapports 
 
 **Si je lance une campagne de marketing par courriel, comment puis-je déterminer si des utilisateurs redirigés sont venus sur mon site à partir de cette campagne ou à partir d’autres sources ?**
 
-Ajoutez une chaîne de requête spécifique à une campagne à l’URL de la section de site à surveiller. Ensuite, configurez une règle de caractéristique pour capturer cette variable. Par exemple, si votre URL transmet un identifiant de campagne comme celui-ci, `www.test123.com/electronics?campaign=123`, créez une règle de caractéristique pour capturer ces données de la variable `h_referer` avec une règle de caractéristique qui recherche un en-tête comme `h_referer = 'campaign=123'`.
+Ajoutez une chaîne de requête spécifique à une campagne à l’URL de la section de site à surveiller. Ensuite, configurez une règle de caractéristique pour capturer cette variable. Par exemple, si votre URL transmet un identifiant de campagne comme celui-ci, `www.test123.com/electronics?campaign=123`, puis créez une règle de caractéristique pour capturer ces données à partir de la variable `h_referer` avec une règle de caractéristique qui recherche un en-tête comme `h_referer = 'campaign=123'`.
 
 <br> 
 

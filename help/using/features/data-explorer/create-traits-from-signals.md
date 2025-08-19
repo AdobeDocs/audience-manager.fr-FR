@@ -1,8 +1,8 @@
 ---
-description: Créez de nouvelles caractéristiques à partir de tous les signaux, y compris celles qui sont déjà utilisées dans les caractéristiques, et capturez les futures audiences qui remplissent les critères après la création d’une caractéristique.
+description: Créer des caractéristiques à partir de tous les signaux, y compris ceux déjà utilisés dans les caractéristiques, et capturer les audiences futures qui seront qualifiées après la création de la caractéristique.
 seo-description: Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation.
 seo-title: Create Traits from Signals
-title: Création de caractéristiques à partir de signaux
+title: Créer des caractéristiques à partir de signaux
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
@@ -13,41 +13,41 @@ ht-degree: 0%
 
 ---
 
-# Création de caractéristiques à partir de signaux
+# Créer des caractéristiques à partir de signaux
 
-Créez de nouvelles caractéristiques à partir de tous les signaux, y compris celles qui sont déjà utilisées dans les caractéristiques, et capturez les futures audiences qui remplissent les critères après la création d’une caractéristique. Regardez la vidéo pour une démonstration rapide ou lisez la vidéo pour plus d’informations :
+Créer des caractéristiques à partir de tous les signaux, y compris ceux déjà utilisés dans les caractéristiques, et capturer les audiences futures qui seront qualifiées après la création de la caractéristique. Regardez la vidéo pour une démonstration rapide ou lisez la suite pour obtenir des informations détaillées :
 
->[!VIDEO](https://video.tv.adobe.com/v/327526/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
-## Création de caractéristiques à partir du tableau de bord des signaux {#create-traits-from-signal-dashboard}
+## Créer des caractéristiques à partir du tableau de bord du signal {#create-traits-from-signal-dashboard}
 
-[!UICONTROL Signal Dashboard] vous permet de créer de nouvelles caractéristiques à partir de [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals] et de vos recherches enregistrées.
+Le [!UICONTROL Signal Dashboard] vous permet de créer des caractéristiques à partir des [!UICONTROL Top Unused Signals], des [!UICONTROL New Unused Signals] et des recherches enregistrées.
 
-Lorsque vous créez une nouvelle caractéristique, le type de caractéristique est prédéfini en fonction du type de signal :
+Lorsque vous créez une caractéristique, le type de caractéristique est prédéfini en fonction du type de signal :
 
-* **[!UICONTROL Rule-based]** caractéristiques pour les signaux en temps réel, les fichiers journaux exploitables et les signaux [!DNL Adobe Analytics] ;
+* **[!UICONTROL Rule-based]** des caractéristiques pour les signaux en temps réel, les fichiers journaux exploitables et les signaux [!DNL Adobe Analytics] ;
 
-* **[!UICONTROL Onboarded]** caractéristiques pour les signaux intégrés.
+* **[!UICONTROL Onboarded]** des caractéristiques pour les signaux intégrés.
 
-Pour créer de nouvelles caractéristiques à partir de **[!UICONTROL Signal Dashboard]**, identifiez le signal que vous souhaitez utiliser dans la caractéristique, puis cliquez sur le lien **[!UICONTROL Create Rule-Based Trait]** ou **[!UICONTROL Create Onboarded Trait]** correspondant.
+Pour créer de nouvelles caractéristiques à partir de la **[!UICONTROL Signal Dashboard]**, identifiez le signal que vous souhaitez utiliser dans la caractéristique, puis cliquez sur le lien **[!UICONTROL Create Rule-Based Trait]** ou **[!UICONTROL Create Onboarded Trait]** correspondant.
 
 ![](assets/signals-create-trait.png)
 
-Vous serez redirigé vers le **[créateur de caractéristiques](../../features/traits/about-trait-builder.md)** pour créer votre ou vos nouvelles caractéristiques.
+Vous serez redirigé vers le **[créateur de caractéristiques](../../features/traits/about-trait-builder.md)** pour créer vos nouvelles caractéristiques.
 
-## Création de caractéristiques à partir de la recherche de signaux {#create-traits-from-signal-search}
+## Création de caractéristiques à partir de la recherche Signal {#create-traits-from-signal-search}
 
 Créez des caractéristiques basées sur des signaux utilisés ou inutilisés qui ne sont pas affichés dans le [!UICONTROL Signal Dashboard].
 
 Recherchez des signaux spécifiques et créez des caractéristiques basées sur des règles ou intégrées en fonction des résultats. Procédez comme suit :
 
-1. Accédez à **[!UICONTROL Audience Data > Signals > Search]** et exécutez une recherche en fonction des paires clé-valeur que vous recherchez, ou cliquez sur **[!UICONTROL Search]** sans entrer de paire clé-valeur pour afficher tous les résultats.
+1. Accédez à **[!UICONTROL Audience Data > Signals > Search]** et lancez une recherche basée sur les paires clé-valeur recherchées, ou cliquez sur **[!UICONTROL Search]** sans saisir de paire clé-valeur pour afficher tous les résultats.
 2. Identifiez le ou les signaux que vous souhaitez utiliser dans la caractéristique, dans la liste des résultats.
    * Pour créer une caractéristique à partir d’un signal, cliquez sur le lien **[!UICONTROL Create Rule-Based Trait]** ou **[!UICONTROL Create Onboarded Trait]** correspondant.
    * Pour créer une caractéristique à partir de plusieurs signaux, cochez la case correspondante de chaque signal, puis cliquez sur **[!UICONTROL Create Trait from Multiple Signals]**.
 
    >[!NOTE]
-   >Vous pouvez uniquement créer des caractéristiques à partir de signaux du même type. Vous ne pouvez pas créer de caractéristique basée sur une combinaison d’un signal en temps réel et d’un signal intégré.
+   >Vous ne pouvez créer des traits qu&#39;à partir de signaux du même type. Vous ne pouvez pas créer de caractéristique à partir d’une combinaison d’un signal en temps réel et d’un signal intégré.
    >
    > ![](assets/signals-create-trait-search.png)
    >Vous pouvez également créer des caractéristiques à partir de signaux utilisés. Les signaux déjà utilisés dans les caractéristiques ont le nombre de caractéristiques affichées dans la colonne **[!UICONTROL Included in Traits]**. Cliquez sur la flèche pour afficher les caractéristiques qui incluent le signal.

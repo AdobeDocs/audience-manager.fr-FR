@@ -1,9 +1,9 @@
 ---
-description: Décrit les méthodes dans l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
+description: Décrit les méthodes de l’espace de noms DIL.tools. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
 seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
 seo-title: DIL Tools
 solution: Audience Manager
-title: Outils de DIL
+title: Outils DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 ---
 
-# Outils de DIL
+# Outils DIL
 
 >[!WARNING]
 >
->Depuis juillet 2023, Adobe a arrêté le développement de l’extension [!DNL Data Integration Library (DIL)] et [!DNL DIL].
+>Depuis juillet 2023, Adobe a interrompu le développement du [!DNL Data Integration Library (DIL)] et de l’extension [!DNL DIL].
 >
->Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, l’Adobe ne développera pas [!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer le [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) pour leur stratégie de collecte de données à long terme.
+>Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, Adobe ne développera pas d’[!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
 >
->Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) à la place.
+>Les clients qui souhaitent implémenter de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) à la place.
 
-Décrit les méthodes dans l’espace de noms `DIL.tools`. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
+Décrit les méthodes de l’espace de noms `DIL.tools`. Ces fonctions d’utilitaire vous aident à effectuer des tâches spécifiques.
 
 <!-- 
 
@@ -42,20 +42,20 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Objectif de `getSearchReferrer`
+### But de la `getSearchReferrer`
 
-En DIL, `getSearchReferrer` renvoie les résultats de la recherche (noms et mots-clés) utilisés pour accéder à votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser rechercher par défaut les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] et [!DNL Yahoo]) par rapport à `document.referrer`.
+Dans DIL, `getSearchReferrer` renvoie les résultats de recherche (noms et mots-clés) utilisés pour accéder à votre site. Vous pouvez transmettre des termes de recherche spécifiques à cette fonction ou la laisser rechercher les moteurs de recherche pris en charge ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] et [!DNL Yahoo]) par `document.referrer` par défaut.
 
 ### Signature de fonction
 
 Signature de fonction : `DIL.tools.getSearchReferrer(uri, initConfig)`
 
-### Paramètres de fonction
+### Paramètres de la fonction
 
 `getSearchReferrer` accepte :
 
-* *`{string}`* : *(Facultatif)* Chaîne contenant l’URL de recherche (utilise `document.referrer` s’il n’est pas défini).
-* *`{object}`* : *(Facultatif)* Objet contenant la configuration pour `hostPattern`, `queryParam` ou `queryPattern`.
+* *`{string}`* : *(facultatif)* chaîne contenant l’URL de recherche (utilise `document.referrer` si elle n’est pas définie).
+* *`{object}`* : *(facultatif)* objet contenant la configuration de l’`hostPattern`, du `queryParam` ou de l’`queryPattern`.
 
 Et renvoie :
 
@@ -76,7 +76,7 @@ Et renvoie :
    <td> Recherche par défaut</td> 
    <td> Renvoie les termes de recherche par mot-clé utilisés par les moteurs de recherche AOL, Ask, Bing, Google et Yahoo. </td> 
    <td>
-      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -90,29 +90,29 @@ Et renvoie :
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Faire correspondre le nom d’hôte de l’URL avec un regex personnalisé</b></td> 
+   <td> <b>Faire correspondre le nom d’hôte de l’URL avec une expression régulière personnalisée</b></td> 
    <td> Transmettez une expression régulière personnalisée pour correspondre au nom d’hôte de l’URL de référence. </td> 
    <td> 
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",&lbrace; 
+      search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      &rbrace;); 
+      }); 
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Faire correspondre des modèles de recherche avec un regex personnalisé</b> </td> 
+   <td> <b>Faire correspondre des modèles de recherche avec une expression régulière personnalisée</b> </td> 
    <td> Transmettez une expression régulière personnalisée pour effectuer une recherche personnalisée. </td> 
    <td> 
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      &lbrace;
+      {
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      &rbrace;);
+      });
     </code>
    </td> 
   </tr> 
@@ -121,7 +121,7 @@ Et renvoie :
 
 ## décomposerURI
 
-Déassemble un identifiant de ressource unique ( [!DNL URI]) en ses composants constitutifs : `hash`, `host`, `href`, `pathname`, `protocol`, `search` et `[!DNL uriParams]`.
+Désassemble un identifiant de ressource uniforme ([!DNL URI]) en ses composants constitutifs : `hash`, `host`, `href`, `pathname`, `protocol`, `search` et `[!DNL uriParams]`.
 
 <!-- 
 
@@ -131,11 +131,11 @@ r_dil_decompose.xml
 
 Signature de fonction : `DIL.tools.decomposeURI`
 
-### Paramètres de fonction
+### Paramètres de la fonction
 
 `decomposeURI` accepte :
 
-* *`uri {string}`* : *(Facultatif)* Chaîne contenant l’URI. La valeur par défaut est `document.location.href` si elle n’est pas spécifiée.
+* *`uri {string}`* : *(facultatif)* chaîne contenant l’URI. La valeur par défaut est `document.location.href` si elle n’est pas spécifiée.
 
 Et renvoie :
 
@@ -163,7 +163,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 
 ## getMetaTags
 
-Recherche du contenu spécifique défini dans les balises META d’une page web et renvoie ces données dans un objet.
+Recherche du contenu spécifique défini dans les balises de métadonnées sur une page web et renvoie ces données dans un objet .
 
 <!-- 
 
@@ -175,26 +175,26 @@ r_dil_get_metatags.xml
 
 Signature de fonction : `DIL.tools.getMetaTags( 1 or more parameters)`
 
-### Paramètres de fonction
+### Paramètres de la fonction
 
 `getMetaTags` accepte un ou plusieurs paramètres de nom (type chaîne) à rechercher. Elle renvoie un objet composé de paires clé-valeur.
 
 ### Exemple de code
 
 <pre class="javascript"><code>
-var dataLib = DIL.create(&lbrace; 
+var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create(&lbrace; 
-     partner: <i>&grave;partnerName'</i>, 
+var dataLib = DIL.create({ 
+     partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>

@@ -22,7 +22,7 @@ Cet article explique les concepts et la terminologie employés par le règlement
 
 Le RGPD est entré en vigueur le 25 mai 2018 et a pour principaux objectifs d’accorder aux citoyens de l’UE (sujets des données) un meilleur contrôle de leurs données personnelles et de simplifier l’environnement réglementaire pour les entreprises internationales en unifiant davantage la réglementation au sein de l’UE. Dans le cadre de la préparation d’Adobe au RGPD, l’équipe d’Adobe Audience Manager a amélioré les services et les processus en fonction des besoins afin de prendre en charge les requêtes d’accès et de suppression provenant des sujets de données (vos clients).
 
-Assurez-vous de vous informer également sur le RGPD dans la [présentation des réglementations de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr) pour une meilleure compréhension du fonctionnement du RGPD en Experience Cloud.
+Pour mieux comprendre le fonctionnement du RGPD dans Experience Cloud[ consultez également la section ](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) Présentation des réglementations relatives à la confidentialité .
 
 ## Glossaire du RGPD {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ Familiarisez-vous avec les termes clés employés en rapport avec le RGPD. Voici
 
  
 
-**Identifiants (ID) Audience Manager :** Adobe Audience Manager stocke plusieurs types d’identifiants. La page [Identifiants Audience Manager](data-privacy-ids.md) fournit un résumé de ces identifiants, leurs sources de données correspondantes et de brèves descriptions. Lors de l’envoi de requêtes à [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr), référencez ces identifiants afin d’effectuer des requêtes de suppression ou d’accès pour vos sujets des données.
+**Identifiants (ID) Audience Manager :** Adobe Audience Manager stocke plusieurs types d’identifiants. La page [Identifiants Audience Manager](data-privacy-ids.md) fournit un résumé de ces identifiants, leurs sources de données correspondantes et de brèves descriptions. Lors de l’envoi de requêtes à [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), référencez ces identifiants afin d’effectuer des requêtes de suppression ou d’accès pour vos sujets des données.
 
  
 

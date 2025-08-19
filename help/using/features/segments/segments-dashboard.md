@@ -3,7 +3,7 @@ description: Le tableau de bord Segments est un espace de travail centralisé po
 seo-description: The Segments dashboard is a centralized workspace for managing destinations.
 seo-title: Segments List View
 solution: Audience Manager
-title: Mode Liste des segments
+title: Vue Liste des segments
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 feature: Segments
 exl-id: 983ce119-52af-40fb-9d64-3063e85f2b3d
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Mode Liste des segments {#segments-list-view}
+# Vue Liste des segments {#segments-list-view}
 
-[!UICONTROL Segments dashboard] est un espace de travail centralisé pour la gestion de vos segments d’audience. Vous pouvez voir le tableau de bord [!UICONTROL Segments] en accédant à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+L’[!UICONTROL Segments dashboard] est un espace de travail centralisé pour gérer vos segments d’audience. Pour afficher le tableau de bord [!UICONTROL Segments], accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-![segments-dashboard](assets/segments-dashboard.png)
+![tableau de bord des segments](assets/segments-dashboard.png)
 
-La page [!UICONTROL Segments] contient des fonctionnalités et des outils qui vous aident à :
+La page [!UICONTROL Segments] contient des fonctionnalités et des outils qui vous permettent d’effectuer les opérations suivantes :
 
-* créer de nouveaux segments ;
+* Créer de nouveaux segments ;
 * Modifier et supprimer des segments ;
 * Cloner (dupliquer) les segments existants ;
-* Afficher tous vos segments dans un tableau avec des colonnes triables ;
-* gérer le stockage des segments ;
+* Voir tous vos segments dans un tableau avec des colonnes triables ;
+* Gérer le stockage des segments ;
 * Recherchez des segments par nom.

@@ -3,7 +3,7 @@ description: Cette section décrit comment analyser une réponse du serveur de c
 seo-description: This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
 seo-title: Get User IDs and Regions From a DCS Response
 solution: Audience Manager
-title: Obtention des identifiants et des régions à partir d’une réponse DCS
+title: Obtention des identifiants de région et d’utilisateur à partir d’une réponse DCS
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
 exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
@@ -14,18 +14,18 @@ ht-degree: 7%
 
 ---
 
-# Obtention des identifiants et des régions à partir d’une réponse DCS {#get-user-ids-and-regions-from-a-dcs-response}
+# Obtention des identifiants de région et d’utilisateur à partir d’une réponse DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
-Cette section décrit comment analyser une réponse [!DNL DCS] pour récupérer les identifiants de visiteur et de région requis pour effectuer des appels en temps réel vers [!DNL DCS].
+Cette section décrit comment analyser une réponse [!DNL DCS] pour récupérer les identifiants de visiteur et de région requis pour effectuer des appels en temps réel vers le [!DNL DCS].
 
-## Identifiants d’utilisateur et de région {#user-region-ids}
+## ID d’utilisateur et de région {#user-region-ids}
 
-Une réponse [!DNL DCS] contient des données sur les visiteurs de votre site. Vous avez besoin de l’identifiant visiteur et de région avant de pouvoir effectuer des appels serveur à serveur vers le [!DNL DCS].
+Une réponse [!DNL DCS] contient des données sur les visiteurs de votre site. Vous avez besoin de l’identifiant visiteur et de l’identifiant de région avant de pouvoir effectuer des appels serveur à serveur vers le [!DNL DCS].
 
-* L’identifiant utilisateur est requis pour identifier et associer des données à un visiteur particulier.
-* L’identifiant de région est requis car il est lié à un nom de serveur régional, que vous devez envoyer des données à [!DNL DCS]. [!DNL DCS] stocke des informations dans des centres de données qui sont géographiquement les plus proches des visiteurs du site. Voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (DCS Region IDs, Locations, and Host Names).
+* L’ID utilisateur est nécessaire pour identifier et associer des données à un visiteur particulier.
+* L’ID de région est obligatoire, car il est lié à un nom de serveur régional, auquel vous devez envoyer des données au [!DNL DCS]. Le [!DNL DCS] stocke les informations dans les centres de données géographiquement les plus proches des visiteurs du site. Voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md) (DCS Region IDs, Locations, and Host Names).
 
-Ces paramètres sont décrits ci-dessous. Le code de *italics* représente un espace réservé de variable.
+Ces paramètres sont décrits ci-dessous. Le code en *italique* représente un espace réservé de variable.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -51,7 +51,7 @@ Ces paramètres sont décrits ci-dessous. Le code de *italics* représente un es
 
 ## Exemple de réponse {#sample-response}
 
-Cette réponse simple affiche le `UUID` et la région `ID`. Notez qu’il s’agit uniquement d’exemples de données. Vos fichiers journaux peuvent être plus longs et plus complexes.
+Cette réponse simple affiche les `UUID` de `ID` et de région. Notez qu’il s’agit uniquement de données d’exemple. Vos fichiers journaux peuvent être plus longs et plus complexes.
 
 ```js
 {
@@ -64,4 +64,4 @@ Cette réponse simple affiche le `UUID` et la région `ID`. Notez qu’il s’ag
 
 ## Étapes suivantes {#next-steps}
 
-Une fois que vous disposez de l’identifiant utilisateur et du nom du serveur régional, vous pouvez commencer à envoyer et recevoir des données [!DNL DCS]. Voir [Lancement d’appels d’API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Une fois que vous disposez de l’identifiant utilisateur et du nom de serveur régional, vous pouvez commencer à envoyer et à recevoir des données [!DNL DCS]. Voir [Effectuer des appels API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

@@ -1,5 +1,5 @@
 ---
-description: Recherchez les signaux utilisés et inutilisés reçus reçus pendant des périodes spécifiques. Pour rechercher des signaux, accédez à Audience Data > Signals > Search.
+description: Recherche des signaux utilisés et inutilisés reçus sur des périodes de temps spécifiques. Pour rechercher des signaux, accédez à Données d’audience > Signaux > Recherche.
 seo-description: Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
 seo-title: Signals Search
 title: Recherche de signaux
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Présentation de la recherche de signaux {#signals-search}
+# Vue d&#39;ensemble de la recherche de signaux {#signals-search}
 
-Recherchez les signaux utilisés et inutilisés reçus reçus pendant des périodes spécifiques. Pour rechercher des signaux, accédez à Audience Data > Signals > Search.
+Recherche des signaux utilisés et inutilisés reçus sur des périodes de temps spécifiques. Pour rechercher des signaux, accédez à Données d’audience > Signaux > Recherche.
 
-* [Recherche de signaux par paires clé-valeur](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
-* [Recherche de signaux par filtres](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
-* [Recherche avancée dans Adobe Analytics](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
-* [Filtrage des résultats de recherche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
+* [Rechercher des signaux par paires clé-valeur](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
+* [Rechercher des signaux par filtres](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
+* [Recherche avancée pour Adobe Analytics](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
+* [Filtrer les résultats de la recherche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Enregistrer les critères de recherche](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/330362?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

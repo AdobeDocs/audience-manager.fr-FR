@@ -1,9 +1,9 @@
 ---
-description: Recommendations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour des utilisateurs inconnus avec une représentation graphique externe des appareils. Une représentation graphique externe des appareils est définie comme une représentation graphique des appareils distincte de l’Audience Manager. Cela inclut l’Adobe d’intégration avec des sociétés de représentation graphique des appareils déterministes ou probabilistes tierces.
+description: Recommandations et cas pratiques pour la prospection, le reciblage et la personnalisation des utilisateurs inconnus avec un graphique d’appareil externe. Un graphique d’appareil externe est défini comme un graphique d’appareil distinct d’Audience Manager. Cela inclut les intégrations d’Adobe à des sociétés tierces de création de graphiques déterministes ou probabilistes des appareils.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
-title: Cas d’utilisation graphiques des appareils externes
+title: Cas d’utilisation du graphique d’appareil externe
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 ---
 
-# Cas d’utilisation graphiques des appareils externes {#external-device-graph-use-cases}
+# Cas d’utilisation du graphique d’appareil externe {#external-device-graph-use-cases}
 
-Recommendations et cas d’utilisation pour la prospection, le reciblage et la personnalisation pour des utilisateurs inconnus avec une représentation graphique externe des appareils. Une représentation graphique externe des appareils est définie comme une représentation graphique des appareils distincte de l’Audience Manager. Cela inclut l’Adobe d’intégration avec des sociétés de représentation graphique des appareils déterministes ou probabilistes tierces.
+Recommandations et cas pratiques pour la prospection, le reciblage et la personnalisation des utilisateurs inconnus avec un graphique d’appareil externe. Un graphique d’appareil externe est défini comme un graphique d’appareil distinct d’Audience Manager. Cela inclut les intégrations d’Adobe à des sociétés tierces de création de graphiques déterministes ou probabilistes des appareils.
 
 ## Recommandations {#recommendations}
 
-Tenez compte des options de représentation graphique des appareils tiers pour les campagnes qui :
+Tenez compte des options graphiques d’appareils tiers pour les campagnes qui :
 
-* disposer d’un faible niveau d’authentification sur l’ensemble de leurs propriétés numériques ; Utilisez le [!UICONTROL Profile Link Device Graph option] si vous avez un grand nombre d’utilisateurs authentifiés.
-* Ciblez les audiences volumineuses. Les graphiques des appareils tiers contiennent des données authentifiées et non authentifiées.
-* Segmenter les visiteurs authentifiés et/ou non authentifiés au niveau individuel et familial.
+* disposer d’un faible niveau d’authentification sur leurs propriétés numériques. Utilisez l’[!UICONTROL Profile Link Device Graph option] si vous disposez d’un grand nombre d’utilisateurs authentifiés.
+* Ciblez de grandes audiences. Les graphiques d’appareils tiers contiennent des données authentifiées et non authentifiées.
+* Segmenter les visiteurs authentifiés et/ou non authentifiés au niveau individuel et domestique.
 
 ![](assets/merge-rule-triangle1.png)
 <!-- 
@@ -112,17 +112,17 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ![audience-expansion](assets/audience-expansion.png) -->
 
-## Ciblage avancé sur plusieurs appareils {#advanced-graph-expansion}
+## Ciblage avancé sur l’ensemble des appareils {#advanced-graph-expansion}
 
-Ce cas pratique montre comment développer le ciblage des audiences pour les visiteurs authentifiés avec des appareils provenant d’une représentation graphique externe des appareils, à l’aide de la règle **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**.
+Ce cas pratique montre comment vous pouvez étendre le ciblage d’audience pour les visiteurs authentifiés disposant d’appareils à partir d’un graphique d’appareil externe, à l’aide de la règle **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**.
 
 ![last-device-graph](assets/last-profile-link.png)
 
-Dans l’exemple ci-dessous, la société Acme Inc. souhaite cibler tous les ménages dont les revenus sont supérieurs à 100 000 $ par an et qui ont des abonnés [!DNL Acme Inc.] sur [!DNL Data Plan A], qui utilisent un appareil [!DNL iPhone 7].
+Dans l&#39;exemple ci-dessous, l&#39;entreprise Acme Inc. souhaite cibler tous les ménages dont le revenu est supérieur à 100 000 $ par année, qui ont [!DNL Acme Inc.] abonnés sur [!DNL Data Plan A] et qui utilisent un appareil [!DNL iPhone 7].
 
-John utilise son iPhone 7 sur le plan de données A pour s’authentifier sur le site web d’Acme Inc. En même temps, la grappe [!DNL Profile Link Device Graph] de John contient deux appareils supplémentaires qu’il utilise régulièrement : son ordinateur portable ([!DNL Device 1]) et son smartphone secondaire, [!DNL Device 2] (un [!DNL Samsung S7] sur [!DNL Data Plan B]).
+John utilise son iPhone 7 sur le plan de données A pour s’authentifier sur le site web d’Acme Inc. Dans le même temps, le cluster [!DNL Profile Link Device Graph] de John contient deux appareils supplémentaires qu&#39;il utilise régulièrement : son ordinateur portable ([!DNL Device 1]) et son smartphone secondaire, [!DNL Device 2] (un [!DNL Samsung S7] sur [!DNL Data Plan B]).
 
-En utilisant **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] peut envoyer des messages personnalisés aux trois appareils à partir de la grappe graphique d’appareils de John, même si un seul d’entre eux est initialement admissible pour le segment.
+En utilisant le **[!UICONTROL Last Authenticated Profiles]** **[!UICONTROL Profile Link Device Graph]** + , [!DNL Acme Inc.] est en mesure de diffuser des messages personnalisés aux trois appareils à partir du cluster de graphiques des appareils de John, même si un seul d’entre eux est initialement qualifié pour le segment.
 
 ![advanced-graph-extension](assets/advanced-device-graph-expansion.png)
 
@@ -130,4 +130,4 @@ En utilisant **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profil
 >
 >* [Cas d’utilisation des représentations graphiques des appareils Profile Link](profile-link-use-case.md)
 >* [Cas d’utilisation généraux des stratégies de fusion de profils](merge-rule-targeting-options.md)
->* [FAQ sur les règles de fusion de profils](../../faq/faq-profile-merge.md)
+>* [FAQ sur les règles de fusion de profil](../../faq/faq-profile-merge.md)

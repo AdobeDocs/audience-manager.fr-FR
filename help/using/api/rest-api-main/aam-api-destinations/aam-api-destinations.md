@@ -1,9 +1,9 @@
 ---
-description: Méthodes qui vous permettent de travailler par programmation avec des fonctionnalités de destination.
+description: Méthodes qui vous permettent de travailler par programmation avec les fonctionnalités de destination.
 seo-description: Methods that let you work programmatically with destination features.
 seo-title: Destination API Methods
 solution: Audience Manager
-title: Méthodes API de destination
+title: Méthodes d’API de destination
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 feature: API
 exl-id: 38dea854-2b7b-417e-9d56-919b65807628
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Méthodes API de destination {#destination-api-methods}
+# Méthodes d’API de destination {#destination-api-methods}
 
-Méthodes qui vous permettent de travailler par programmation avec des fonctionnalités de destination.
+Méthodes qui vous permettent de travailler par programmation avec les fonctionnalités de destination.
 
 <!-- c_destinations_api.xml -->
 
-En Audience Manager, une destination correspond à tout autre système (serveur de publicités, [!DNL DSP], réseau publicitaire, exchange, votre propre cookie propriétaire, etc.) avec lequel vous souhaitez partager des données.
+Dans Audience Manager, une destination est tout autre système (serveur de publicités, [!DNL DSP], réseau publicitaire, exchange, votre propre cookie propriétaire, etc.) avec lequel vous souhaitez partager des données.
 
-## Types de destination : URL et cookie {#destination-types}
+## Types de destinations : URL et cookie {#destination-types}
 
-Répertorie les variables utilisées par le paramètre `destinationType`. Spécifiez `push` ou `ADS` pour travailler avec un [!UICONTROL URL] ou [!UICONTROL cookie destination]. Vous ne pouvez pas créer [!UICONTROL server-to-server destinations] avec les méthodes [!DNL API] de destination disponibles.
+Répertorie les variables utilisées par le paramètre `destinationType`. Spécifiez les `push` ou `ADS` à utiliser avec un [!UICONTROL URL] ou un [!UICONTROL cookie destination]. Vous ne pouvez pas créer de [!UICONTROL server-to-server destinations] avec les méthodes de [!DNL API] de destination disponibles.
 
 <!-- r_destination_types.xml -->
 
@@ -35,4 +35,4 @@ Répertorie les variables utilisées par le paramètre `destinationType`. Spéci
 
 >[!MORELIKETHIS]
 >
->* [Comment choisir un type de destination](../../../features/destinations/destinations.md)
+>* [Comment choisir un type de destination ](../../../features/destinations/destinations.md)

@@ -18,16 +18,16 @@ ht-degree: 0%
 
 Cet article décrit les conventions de dénomination utilisées par la variable clé dans une paire clé-valeur.
 
-## Exigences d’attribution de noms pour les clés
+## Exigences de dénomination pour les clés
 
 <!-- c_tb_key_name_requirements.xml -->
 
-Dans [!UICONTROL Expression Builder], le nom d’une variable clé d’une paire clé-valeur peut être composé de n’importe quel nombre de chiffres suivis par 1 (ou plus) lettres, un tiret, un trait de soulignement et des chiffres supplémentaires.
+En [!UICONTROL Expression Builder], le nom d’une variable clé dans une paire clé-valeur peut se composer d’un nombre illimité de chiffres suivis d’une ou de plusieurs lettres, d’un tiret, d’un trait de soulignement et de chiffres supplémentaires.
 
 * Noms de clés valides : `price123`, `123price`, `price-123`, `c_price123`.
 
 * Noms de clés non valides : `123`, `price!123`.
 
-## Ajout de préfixes de variables clés avec `c_`
+## Préfixe des variables clés avec `c_`
 
-Le préfixe `c_` est *always* requis si les paramètres qui envoient des données sur une URL d’appel d’événement utilisent cette syntaxe.
+Le préfixe `c_` est *toujours* requis si les paramètres qui envoient des données sur une URL d’appel d’événement utilisent cette syntaxe.

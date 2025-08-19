@@ -1,5 +1,5 @@
 ---
-description: Méthodes d’API qui vous permettent de gérer les sources de données associées à votre compte.
+description: Méthodes d’API permettant de gérer les sources de données associées à votre compte.
 seo-description: API methods that let you manage data sources associated with your account.
 seo-title: Data Source API Methods
 solution: Audience Manager
@@ -16,14 +16,14 @@ ht-degree: 26%
 
 # Méthodes d’API des sources de données {#data-source-api-methods}
 
-[!DNL API] qui vous permettent de gérer les sources de données associées à votre compte.
+[!DNL API] des méthodes qui vous permettent de gérer les sources de données associées à votre compte.
 
 <!-- c_rest_data_sources.xml -->
 
 >[!IMPORTANT]
 >
->Les méthodes [!DNL API] de la source de données ont été réécrites avec [!DNL Swagger] et migrées. Voir :
+>Les méthodes de [!DNL API] de la source de données ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
->* [Documents sur l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documents d’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)
 >

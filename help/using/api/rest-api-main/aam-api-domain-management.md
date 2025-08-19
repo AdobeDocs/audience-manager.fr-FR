@@ -1,9 +1,9 @@
 ---
-description: Méthodes de gestion des domaines qui vous permettent de créer et gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
+description: Méthodes de gestion de domaine qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookie uniquement).
 seo-description: Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
 seo-title: Domain Management API Methods
 solution: Audience Manager
-title: Méthodes d’API de gestion de domaine
+title: Méthodes de l’API Domain Management
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 ---
 
-# Méthodes d’API de gestion de domaine {#domain-management-api-methods}
+# Méthodes de l’API Domain Management {#domain-management-api-methods}
 
-Méthodes de gestion des domaines qui vous permettent de créer et gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookies uniquement).
+Méthodes de gestion de domaine qui vous permettent de créer et de gérer les domaines auxquels vous souhaitez envoyer des données (pour les destinations de cookie uniquement).
 
 <!-- c_partner_site.xml -->
 
-## Création d’un domaine {#create-new-domain}
+## Créer un domaine {#create-new-domain}
 
 Une méthode `POST` qui vous permet de créer un domaine pour (destinations de cookie uniquement).
 
@@ -40,7 +40,7 @@ Une méthode `POST` qui vous permet de créer un domaine pour (destinations de c
 
 ### Réponse
 
-Une réponse réussie renvoie `201 created` et le site du partenaire, y compris son identifiant unique.
+Une réponse réussie renvoie `201 created` et le site partenaire, y compris son identifiant unique.
 
 ```
 {
@@ -62,9 +62,9 @@ Méthode `DELETE` qui permet de supprimer un domaine (pour les destinations de c
 
 ### Réponse
 
-Une réponse réussie renvoie `204 no content`. Renvoie `404 not found` si le site du partenaire est introuvable.
+Une réponse réussie renvoie `204 no content`. Renvoie `404 not found` si le site partenaire est introuvable.
 
-## Propriétés de retour pour un domaine {#return-props-domain}
+## Renvoyer les propriétés d’un domaine {#return-props-domain}
 
 Une méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les destinations de cookie uniquement).
 
@@ -76,7 +76,7 @@ Une méthode `GET` qui renvoie des détails sur le domaine spécifié (pour les 
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et des données comme illustré dans l’exemple ci-dessous. Renvoie `404 Not found` si l&#39;identifiant du site ou le partenaire est introuvable.
+Une réponse réussie renvoie des `200 OK` et des données comme illustré dans l’exemple ci-dessous. Renvoie `404 Not found` si l’ID de site ou le partenaire est introuvable.
 
 ```
 {
@@ -86,7 +86,7 @@ Une réponse réussie renvoie `200 OK` et des données comme illustré dans l’
 }
 ```
 
-## Propriétés de retour pour tous les domaines {#return-props-all-domains}
+## Renvoyer les propriétés de tous les domaines {#return-props-all-domains}
 
 Une méthode `GET` qui renvoie des informations sur tous vos domaines (pour les destinations de cookie uniquement).
 
@@ -98,7 +98,7 @@ Une méthode `GET` qui renvoie des informations sur tous vos domaines (pour les 
 
 ### Paramètres de requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes [!DNL API] qui renvoient *toutes* propriétés pour un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à [!DNL API]. Voir [Paramètres facultatifs](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes [!DNL API] qui renvoient des propriétés *all* pour un objet . Définissez ces options dans la chaîne de requête lors de la transmission de cette requête au [!DNL API]. Voir [ Paramètres facultatifs ](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -114,7 +114,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes [!DNL API] q
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
-   <td colname="col2"> Définit le nombre de résultats de réponse renvoyés par la requête (10 est la valeur par défaut). </td>
+   <td colname="col2"> Définit le nombre de résultats de réponse renvoyés par la requête (10 est le nombre par défaut). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td> 
@@ -122,18 +122,18 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes [!DNL API] q
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. La valeur ascendante est la valeur par défaut. </td>
+   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. L’ordre croissant est la valeur par défaut. </td>
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Renvoie des résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Par exemple, supposons que vous souhaitiez trouver des résultats pour tous les modèles ayant le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de requête peut ressembler à ceci : <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Vous pouvez effectuer une recherche sur n’importe quelle valeur renvoyée par une méthode "get all". </p> </td>
+   <td colname="col2">Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez trouver des résultats pour tous les modèles qui contiennent le mot « Test » dans l’un des champs de valeur de cet élément. Votre exemple de requête pourrait ressembler à ceci : <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Vous pouvez effectuer une recherche sur n’importe quelle valeur renvoyée par une méthode « get all ». </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et des données dans un tableau comme illustré dans l’exemple ci-dessous. Renvoie `404 Not found` si l&#39;identifiant du site ou le partenaire est introuvable.
+Une réponse réussie renvoie des `200 OK` et des données dans un tableau, comme illustré dans l’exemple ci-dessous. Renvoie `404 Not found` si l’ID de site ou le partenaire est introuvable.
 
 ```
 [

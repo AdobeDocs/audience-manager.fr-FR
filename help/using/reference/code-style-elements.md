@@ -1,5 +1,5 @@
 ---
-description: Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d’aide. En règle générale, vous n’incluez pas ces symboles ou éléments de style dans votre code ou vos fichiers de données. Ce ne sont que des indicateurs visuels.
+description: Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d’aide. En règle générale, vous n’incluez pas ces symboles ou éléments de style dans vos fichiers de code ou de données. Ce ne sont que des indicateurs visuels.
 seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
 seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Conventions de style pour les éléments de code et de texte{#style-conventions-for-code-and-text-elements}
 
-Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d’aide. En règle générale, vous n’incluez pas ces symboles ou éléments de style dans votre code ou vos fichiers de données. Ce ne sont que des indicateurs visuels.
+Ces éléments identifient les options de code et les variables utilisées dans toute la documentation d’aide. En règle générale, vous n’incluez pas ces symboles ou éléments de style dans vos fichiers de code ou de données. Ce ne sont que des indicateurs visuels.
 
 <table id="table_EBEF9490D90041BD8B7ABE3AF1AF35B6"> 
  <thead> 
@@ -28,7 +28,7 @@ Ces éléments identifient les options de code et les variables utilisées dans 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Les variables apparaissent en <i>italics</i>. Remplacez la valeur appropriée pour le nom de la variable. </p> <p>Pour plus de clarté visuelle, il arrive que des variables et d’autres éléments de code apparaissent entre &lt; &gt; crochets. Vous n’avez pas besoin d’utiliser ces symboles dans votre code. </p> </td> 
+   <td colname="col2"> <p>Les variables apparaissent en <i>italique</i>. Remplacez le nom de variable par la valeur appropriée. </p> <p>Pour plus de clarté visuelle, il arrive que des variables et d’autres éléments de code apparaissent entre &lt; &gt; crochets. Vous n’avez pas besoin d’utiliser ces symboles dans votre code. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -36,15 +36,15 @@ Ces éléments identifient les options de code et les variables utilisées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Les éléments entre parenthèses indiquent un choix booléen <span class="wintitle"> OR</span>. </p> </td> 
+   <td colname="col2"> <p>Les éléments entre parenthèses indiquent un choix BOOLÉEN <span class="wintitle"> OU</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
-   <td colname="col2"> <p>Insérez du texte ou du code exactement comme indiqué. </p> </td> 
+   <td colname="col2"> <p>Incluez le texte ou le code exactement comme indiqué. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> &lt; &gt;</code> </p> </td> 
-   <td colname="col2"> <p>Parfois, des variables et d’autres éléments de code apparaissent entre &lt; &gt; crochets. Ils sont utilisés pour améliorer la clarté dans les blocs de code longs. Sauf indication contraire, n’incluez pas ces symboles dans le nom d’un fichier de données ou dans son contenu. </p> </td> 
+   <td colname="col2"> <p>Parfois, des variables et d’autres éléments de code apparaissent entre &lt; &gt; crochets. Ils sont utilisés pour améliorer la clarté dans les blocs de code longs. Sauf indication contraire, n’incluez pas ces symboles dans le nom d’un fichier de données ou son contenu. </p> </td> 
   </tr> 
  </tbody> 
 </table>

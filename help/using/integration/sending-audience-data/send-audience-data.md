@@ -1,5 +1,5 @@
 ---
-description: Envoyez à l’Audience Manager des données d’audience provenant d’autres sources.
+description: Envoyez les données d’audience d’autres sources à Audience Manager.
 seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
 seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: Envoi de données d’audience
@@ -14,16 +14,16 @@ ht-degree: 15%
 
 # Envoi de données d’audience
 
-Envoyez à l’Audience Manager des données d’audience provenant d’autres sources.
+Envoyez les données d’audience d’autres sources à Audience Manager.
 
-* [Intégration de données entrantes en temps réel](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
+* [Intégration Des Données Entrantes En Temps Réel](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-  Informations sur l’intégration de l’Audience Manager en temps réel.
+  Informations sur l’intégration de Real-Time Audience Manager.
 
 * [Description du processus de transfert de données par lots](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
-  Présentation générale de la manière dont Audience Manager effectue un exchange de données par lots asynchrone avec un fournisseur tiers.
+  Présentation générale de la manière dont Audience Manager effectue un échange asynchrone de données par lots avec un fournisseur tiers.
 
-* [Intégrations personnalisées des partenaires](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+* [Intégrations de partenaires personnalisées](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
 
   Cette page répertorie les intégrations personnalisées entre Audience Manager et les partenaires de données.

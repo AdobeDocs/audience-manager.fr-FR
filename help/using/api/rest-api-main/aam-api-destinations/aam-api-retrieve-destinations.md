@@ -1,9 +1,9 @@
 ---
-description: Une méthode de GET qui renvoie la destination pour l’ID de destination spécifié.
+description: Une méthode GET qui renvoie la destination pour l’ID de destination spécifié.
 seo-description: A GET method that returns the destination for the specified destinationId.
 seo-title: Return A Destination by Destination ID
 solution: Audience Manager
-title: Renvoi d’une destination par un ID de destination
+title: Renvoyer une destination par ID de destination
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 ---
 
-# Renvoi d’une destination par un ID de destination {#return-a-destination-by-destination-id}
+# Renvoyer une destination par ID de destination {#return-a-destination-by-destination-id}
 
-Une méthode `GET` qui renvoie la destination pour le `destinationId` spécifié.
+Une méthode `GET` qui renvoie la destination pour la `destinationId` spécifiée.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ Une méthode `GET` qui renvoie la destination pour le `destinationId` spécifié
 
 >[!NOTE]
 >
->Pour renseigner le champ `mappings` transmis dans `includeMappings=true` dans l’URL.
+>Pour renseigner le champ `mappings`, transmettez `includeMappings=true` dans l’URL.
 
 ## Réponse
 
@@ -56,7 +56,7 @@ Une méthode `GET` qui renvoie la destination pour le `destinationId` spécifié
 }
 ```
 
-## Renvoie toutes les destinations {#return-all-destinations}
+## Renvoyer toutes les destinations {#return-all-destinations}
 
 Une méthode `GET` qui renvoie toutes les destinations pour le partenaire spécifié.
 
@@ -68,13 +68,13 @@ Une méthode `GET` qui renvoie toutes les destinations pour le partenaire spéci
 
 >[!NOTE]
 >
->* *(Facultatif)* Transmettez `containsSegment=<sid>` pour renvoyer un tableau de toutes les destinations mappées au segment spécifié. Par exemple, votre requête peut ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
+>* *(Facultatif)* Transmettez `containsSegment=<sid>` pour renvoyer un tableau de toutes les destinations mappées au segment spécifié. Par exemple, votre requête pourrait ressembler à ceci : `GET .../destinations/?containsSegment=4321`.
 >
->* Ne renvoie pas l’objet de destination complet. Obtenez la destination selon l’ordre des données si vous avez besoin d’un objet entièrement renseigné.
+>* Ne renvoie pas l’objet de destination complet. Obtenez la destination par ordre de données si vous avez besoin d’un objet entièrement renseigné.
 
 ### Paramètres de requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renvoient les propriétés *all* pour un objet. Définissez ces options dans la chaîne de requête lors de la transmission de cette requête à [!DNL API]. Voir [Paramètres facultatifs](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient des propriétés *all* pour un objet . Définissez ces options dans la chaîne de requête lors de la transmission de cette requête au [!DNL API]. Voir [ Paramètres facultatifs ](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -90,19 +90,19 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renv
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
-   <td colname="col2"> Définit le nombre de résultats de réponse renvoyés par la requête (10 est la valeur par défaut). </td>
+   <td colname="col2"> Définit le nombre de résultats de réponse renvoyés par la requête (10 est le nombre par défaut). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Trie et renvoie les résultats en fonction de la propriété <span class="keyword"> JSON</span> spécifiée. </td>
+   <td colname="col2">Trie et renvoie les résultats en fonction de la propriété JSON<span class="keyword"> </span> spécifiée. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. La valeur ascendante est la valeur par défaut. </td>
+   <td colname="col2"> Trie et renvoie les résultats dans l’ordre décroissant. L’ordre croissant est la valeur par défaut. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Renvoie des résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Par exemple, supposons que vous souhaitiez trouver des résultats pour tous les modèles ayant le mot "Test" dans l’un des champs de valeur de cet élément. Votre exemple de requête peut ressembler à ceci : <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Vous pouvez effectuer une recherche sur n’importe quelle valeur renvoyée par une méthode "get all". </p> </td>
+   <td colname="col2">Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez trouver des résultats pour tous les modèles qui contiennent le mot « Test » dans l’un des champs de valeur de cet élément. Votre exemple de requête pourrait ressembler à ceci : <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>Vous pouvez effectuer une recherche sur n’importe quelle valeur renvoyée par une méthode « get all ». </p> </td>
   </tr>
  </tbody>
 </table>
@@ -139,9 +139,9 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes API qui renv
 ]
 ```
 
-## Renvoi d’un mappage de destination avec l’ID de mappage {#return-dest-mapping-id}
+## Renvoyer un mappage de destination avec l’identifiant de mappage {#return-dest-mapping-id}
 
-Une méthode `GET` qui renvoie un mappage de destination individuel basé sur `mappingId`.
+Une méthode `GET` qui renvoie un mappage de destination individuel en fonction du `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -176,9 +176,9 @@ Une méthode `GET` qui renvoie un mappage de destination individuel basé sur `m
 }
 ```
 
-## Mappages de destination des retours {#return-dest-mappings}
+## Mappages de destination de retour {#return-dest-mappings}
 
-Une méthode `GET` qui renvoie les mappages pour une destination.
+Méthode `GET` qui renvoie les mappages d’une destination.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -250,9 +250,9 @@ Une méthode `GET` qui renvoie les mappages pour une destination.
 {
 ```
 
-## Renvoie toutes les plateformes de destination disponibles {#return-dest-platforms}
+## Renvoyer Toutes Les Plateformes De Destination Disponibles {#return-dest-platforms}
 
-Une méthode `GET` qui renvoie toutes les plateformes d’appareils disponibles pour les destinations.
+Une méthode `GET` qui renvoie toutes les plateformes d’appareil disponibles pour les destinations.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -268,9 +268,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Renvoi de l’historique des tâches de destination S2S et S2S en bloc {#return-job-history}
+## Retour de l’historique des tâches de destination S2S et S2S en bloc {#return-job-history}
 
-Une méthode `GET` qui renvoie les informations d’historique des tâches de destination [!UICONTROL Server-to-Server] sortantes ( [!UICONTROL S2S]) et [!UICONTROL S2S] en masse.
+Une méthode `GET` qui renvoie des [!UICONTROL Server-to-Server] sortantes ( [!UICONTROL S2S]) et des informations d’historique de tâches de destination de [!UICONTROL S2S] en masse.
 
 <!-- r_get_job_history.xml -->
 

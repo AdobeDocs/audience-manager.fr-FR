@@ -23,7 +23,7 @@ Réponses aux questions courantes sur [!DNL People-Based Destinations].
 
 [!DNL People-Based Destinations] est une fonctionnalité premium Audience Manager disponible à l’achat. Veuillez contacter votre représentant commercial Adobe pour obtenir des informations sur son prix et sa disponibilité.
 
-## Intégration de données {#data-onboarding}
+## Intégration des données {#data-onboarding}
 
 **Comment puis-je intégrer des adresses électroniques de clients dans Audience Manager afin de pouvoir les utiliser dans [!DNL People-Based Destinations] ?**
 
@@ -80,7 +80,7 @@ Audience Manager peut collecter et envoyer jusqu’à 10 e-mails par utilisateu
 
 **Puis-je utiliser [!DNL People-Based Destinations] dans [!DNL Audience Lab] ?**
 
-Non. Actuellement, toutes les destinations [!DNL People-Based Destinations] sont exclues de [!DNL Audience Lab]. Étant donné que [!DNL People-Based Destinations] et les plateformes côté demande utilisent des identifiants différents, vous ne pouvez pas tester et mesurer les performances avec des audiences divisées uniformément entre elles.
+Non. Actuellement, toutes les destinations [!DNL People-Based Destinations] sont exclues des [!DNL Audience Lab]. Étant donné que les plateformes [!DNL People-Based Destinations] et côté demande utilisent des identifiants différents, vous ne pouvez pas tester et mesurer les performances avec des audiences uniformément réparties entre elles.
 
 ## Contrôles des exportations de données {#data-export-controls}
 
@@ -88,7 +88,7 @@ Non. Actuellement, toutes les destinations [!DNL People-Based Destinations] sont
 
 [!DNL Data Export Controls] bloquera tout segment contenant des données de deuxième et de troisième niveau que les utilisateurs tentent d’envoyer vers [!DNL People-Based Destinations]. [!DNL People-Based Destinations] autorise uniquement l’utilisation des données de premier niveau à des fins de ciblage. [!DNL Data Export Controls] bloque également les segments utilisant [!DNL Profile Merge Rules] avec des représentations graphiques des appareils. [!DNL People-Based Destinations] sont créées avec les étiquettes d’exportation des données appropriées vérifiées et vous ne pouvez pas remplacer les paramètres d’exportation.
 
-## Questions spécifiques au partenaire {#partner-specific-questions}
+## Questions spécifiques aux partenaires {#partner-specific-questions}
 
 ### [!DNL Facebook]
 
@@ -116,6 +116,6 @@ Vous pouvez utiliser l’intégration [!DNL Facebook] [!DNL WCA] d’Audience Ma
 
 Ces deux intégrations sont complémentaires ; vous pouvez utiliser les deux pour assurer une meilleure couverture d’audience. À titre d’exemple, vous pouvez utiliser [!DNL WCA] à des fins de prospection lorsqu’une société cherche à cibler les visiteurs d’un site web qui ne possèdent pas encore de compte enregistré, tandis que [!DNL People-Based Destinations] peut vous aider à cibler les clients existants qui ont renseigné leur adresse électronique, mais ne se sont peut-être pas encore rendus sur le site web.
 
-**L&#39;intégration [!DNL People-Based Destinations] à [!DNL Facebook] prend-elle en charge l&#39;exclusion d&#39;un utilisateur d&#39;une audience lorsqu&#39;il n&#39;est plus admissible pour cette audience ?**
+**L’intégration [!DNL People-Based Destinations] à [!DNL Facebook] prend-elle en charge l’exclusion d’un utilisateur d’une audience lorsqu’il n’est plus éligible ?**
 
-Oui, l’intégration prend en charge la suppression des utilisateurs des audiences [!DNL Facebook] lorsqu’ils ne remplissent plus les critères.
+Oui, l’intégration prend en charge la suppression des utilisateurs des audiences [!DNL Facebook] lorsqu’ils ne sont plus qualifiés pour celles-ci.

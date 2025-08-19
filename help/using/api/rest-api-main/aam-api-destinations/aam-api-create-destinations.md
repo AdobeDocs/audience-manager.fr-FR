@@ -16,17 +16,17 @@ ht-degree: 6%
 
 # Création de destinations {#create-destinations}
 
-Créez des destinations avec ces méthodes [!UICONTROL RESTful API].
+Créez des destinations avec ces méthodes de [!UICONTROL RESTful API].
 
 <!-- c_create_destinations.xml -->
 
-## Types de destinations pris en charge : URL et cookie uniquement
+## Types de destination pris en charge : URL et cookie uniquement
 
-Les méthodes `POST` disponibles vous permettent de créer [!UICONTROL URL] et [!UICONTROL cookie destinations] uniquement. Actuellement, vous ne pouvez pas créer [!UICONTROL server-to-server destinations] avec ces méthodes [!DNL REST API]. Toutefois, les méthodes `GET` de destination connexes vous permettent de récupérer des informations sur [!UICONTROL server-to-server destinations] créées dans l’interface utilisateur.
+Les méthodes de `POST` disponibles vous permettent de créer des [!UICONTROL URL] et des [!UICONTROL cookie destinations] uniquement. Actuellement, vous ne pouvez pas créer de [!UICONTROL server-to-server destinations] avec ces méthodes de [!DNL REST API]. Toutefois, les méthodes de `GET` de destination associées vous permettent de récupérer des informations sur les [!UICONTROL server-to-server destinations] créées dans l’interface utilisateur.
 
 ## Création d’une destination d’URL non série {#create-nonserial-dest}
 
-Méthode `POST` qui vous permet de créer une destination qui accepte les segments composés de paires clé-valeur uniques (par exemple, `gender=male` ou `gender=female`).
+Une méthode `POST` qui vous permet de créer une destination qui accepte les segments composés de paires clé-valeur uniques (par exemple, `gender=male` ou `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -36,7 +36,7 @@ Méthode `POST` qui vous permet de créer une destination qui accepte les segmen
 
 ### Exemple de requête
 
-Cette requête crée une destination unique. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Cette requête crée une destination unique. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 { 
@@ -79,7 +79,7 @@ Une requête réussie renvoie `201 created` et la destination.
 
 ## Créer une destination d’URL sérialisée {#create-serial-url-dest}
 
-Méthode `POST` qui permet de créer une destination qui accepte plusieurs valeurs associées à une seule clé (par exemple, `color=blue, red, green`).
+Une méthode `POST` qui vous permet de créer une destination qui accepte plusieurs valeurs associées à une seule clé (par exemple, `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -89,7 +89,7 @@ Méthode `POST` qui permet de créer une destination qui accepte plusieurs valeu
 
 ### Exemple de requête
 
-Spécifiez le délimiteur sécurisé [!DNL URL] pour la paire clé-valeur transmise à la destination. Sauf indication contraire, toutes les valeurs de requête sont requises.
+Spécifiez le [!DNL URL] sécurisé et le délimiteur pour la paire clé-valeur transmise à la destination. Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 { 
@@ -135,7 +135,7 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 
 ## Création d’une destination de cookie : clé unique, non sérialisée {#create-cookie-dest-single}
 
-Méthode `POST` qui vous permet de créer un [!UICONTROL cookie destination] qui accepte les segments composés de paires clé-valeur uniques (par exemple, `gender=male` ou `gender=female`).
+Une méthode `POST` qui vous permet de créer une [!UICONTROL cookie destination] qui accepte les segments composés de paires clé-valeur uniques (par exemple, `gender=male` ou `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -145,7 +145,7 @@ Méthode `POST` qui vous permet de créer un [!UICONTROL cookie destination] qui
 
 ### Exemple de requête
 
-Sauf indication contraire, toutes les valeurs de requête sont requises.
+Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 { 
@@ -204,7 +204,7 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 
 ## Création d’une destination de cookie : clé unique, sérialisée {#create-cookie-dest-single-serial}
 
-Méthode `POST` qui permet de créer une destination qui accepte plusieurs valeurs associées à une seule clé (par exemple, `color=blue, red, green`).
+Une méthode `POST` qui vous permet de créer une destination qui accepte plusieurs valeurs associées à une seule clé (par exemple, `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -214,7 +214,7 @@ Méthode `POST` qui permet de créer une destination qui accepte plusieurs valeu
 
 ### Exemple de requête
 
-Sauf indication contraire, toutes les valeurs de requête sont requises.
+Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 { 
@@ -273,9 +273,9 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 }
 ```
 
-## Création d’une destination de cookie : multi-clé, non sérialisé {#create-cookie-dest-multi}
+## Création d’une destination de cookie : multi-clé, non sérialisée {#create-cookie-dest-multi}
 
-Méthode `POST` qui vous permet de créer une destination qui accepte les segments qui contiennent plusieurs clés avec des valeurs différentes (par exemple, `gender=male; gender=female; color=blue; color=red`).
+Une méthode `POST` qui vous permet de créer une destination qui accepte des segments contenant plusieurs clés avec des valeurs différentes (par exemple, `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -285,7 +285,7 @@ Méthode `POST` qui vous permet de créer une destination qui accepte les segmen
 
 ### Exemple de requête
 
-Sauf indication contraire, toutes les valeurs de requête sont requises.
+Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 { 
@@ -342,7 +342,7 @@ Une mise à jour réussie renvoie le code de réponse `201 created` et la destin
 
 ## Création d’une destination de cookie : multi-clé, sérialisé {#create-cookie-dest-multi-serial}
 
-Méthode `POST` qui vous permet de créer une destination qui accepte les segments qui contiennent plusieurs clés et valeurs (par exemple, `gender=male, female; color=blue, red, green`).
+Une méthode `POST` qui vous permet de créer une destination qui accepte des segments contenant plusieurs clés et valeurs (par exemple, `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -352,7 +352,7 @@ Méthode `POST` qui vous permet de créer une destination qui accepte les segmen
 
 ### Exemple de requête
 
-Sauf indication contraire, toutes les valeurs de requête sont requises.
+Toutes les valeurs de requête sont requises, sauf indication contraire.
 
 ```
 { 

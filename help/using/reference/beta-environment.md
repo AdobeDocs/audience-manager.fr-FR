@@ -1,5 +1,5 @@
 ---
-description: L’environnement bêta est utilisé pour tester la mise en oeuvre de votre Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. Contactez votre représentant Partenaires en solutions d’Audience Manager si vous souhaitez utiliser l’environnement bêta.
+description: L’environnement bêta sert à tester votre implémentation Audience Manager. Les modifications apportées en version bêta n’affectent pas les données de production. Contactez votre représentant Audience Manager Partner Solutions si vous souhaitez utiliser l’environnement bêta.
 keywords: sandbox
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
@@ -17,40 +17,40 @@ ht-degree: 2%
 
 # Environnement Beta {#beta-environment}
 
-L’environnement bêta est utilisé pour tester la mise en oeuvre de votre Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. Contactez votre représentant Partenaires en solutions d’Audience Manager si vous souhaitez utiliser l’environnement bêta.
+L’environnement bêta sert à tester votre implémentation Audience Manager. Les modifications apportées en version bêta n’affectent pas les données de production. Contactez votre représentant Audience Manager Partner Solutions si vous souhaitez utiliser l’environnement bêta.
 
 ## Présentation
 
-La fonctionnalité de l’environnement bveta est une réplique exacte de l’environnement de production, sans aucune fonctionnalité expérimentale ou non publiée. Vos informations de connexion de l’environnement de production sont valides dans l’environnement bêta.
+La fonctionnalité de l’environnement bêta est une réplique exacte de l’environnement de production, sans fonctionnalités expérimentales ou non publiées. Vos informations de connexion de l’environnement de production sont valides dans l’environnement bêta.
 
-**Mettre à jour la planification**
+**Mettre à jour le planning**
 
 L’environnement bêta est mis à jour à la fin de chaque mois pendant les heures creuses.
 
 >[!IMPORTANT]
 >
->Notez que vos données client ([signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=fr)) ne sont pas synchronisées entre les environnements de production et bêta.
+>Notez que les données de vos clients ([signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) ne sont pas synchronisées entre les environnements de production et bêta.
 
 ## Trafic entrant
 
-L’environnement bêta ne prend en charge le trafic entrant que pour la validation du nom de fichier et de la syntaxe du contenu. Comme aucun mappage d’ID n’a lieu dans l’environnement bêta, les clients ne verront aucune population de segments.
+L’environnement Beta prend en charge le trafic entrant uniquement à des fins de validation du nom de fichier et de la syntaxe du contenu. Puisqu’aucun mappage d’ID n’a lieu sur l’environnement bêta, les clients ne verront aucune population de segments.
 
-Par conséquent, la page [!UICONTROL Onboarding Status] signale toujours [!UICONTROL No matching AAM ID] lors de l’ingestion de fichiers dans l’environnement bêta.
+Par conséquent, la page [!UICONTROL Onboarding Status] signale toujours les [!UICONTROL No matching AAM ID] lors de l’ingestion du fichier dans l’environnement bêta.
 
-Nous conseillons à tous les clients d’effectuer des tests entrants sur leur environnement de production.
+Nous conseillons à tous les clients d’effectuer des tests entrants dans leur environnement de production.
 
 ## Trafic sortant
 
-Le trafic sortant n’est pas activé pour l’environnement bêta.
+Le trafic sortant n’est pas activé pour l’environnement Beta.
 
-## Points de fin
+## Points d’entrée
 
-| Service | URL/Nom d’hôte | Comment obtenir un accès |
+| Service | URL/nom d&#39;hôte | Accès |
 |--- |--- | --- |
-| S3 | Contactez votre représentant des solutions partenaires pour votre Audience Manager ou l’assistance clientèle. | Contactez votre représentant des solutions partenaires d’Audience Manager ou l’assistance clientèle pour configurer un compartiment Amazon S3 pour votre instance bêta. Découvrez les [avantages de l’utilisation d’Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Voir [Accès au DCS dans l’environnement Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Contactez votre représentant Audience Manager Partner Solutions ou l’assistance clientèle | Contactez votre représentant Audience Manager Partner Solutions ou l’assistance clientèle pour configurer un compartiment Amazon S3 pour votre instance bêta. Découvrez les [avantages de l’utilisation d’Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Voir [Accès au serveur de collecte de données dans l’environnement Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | IU | `https://bank-beta.demdex.com` | Les informations d’identification de votre environnement de production sont valides pour l’environnement bêta. |
-| API | `https://api-beta.demdex.com/...` | Les informations d’identification de votre environnement de production sont valides pour l’environnement bêta. Nous vous recommandons de créer un utilisateur API générique, [voir les détails](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Les informations d’identification de votre environnement de production sont valides pour l’environnement bêta. Nous vous recommandons de créer un utilisateur d’API générique, [voir les détails](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Accès au serveur de collecte de données dans l’environnement Beta {#access-dcs-beta-environment}
 
@@ -60,7 +60,7 @@ Le trafic sortant n’est pas activé pour l’environnement bêta.
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Vérifiez que votre requête a été traitée par le serveur de collecte de données bêta en recherchant &quot;sandbox&quot; dans l’en-tête de réponse du serveur de collecte de données.
+1. Vérifiez que votre requête a été diffusée par le serveur de collecte de données Beta en recherchant « sandbox » dans l’en-tête de réponse du serveur de collecte de données.
 
    Par exemple :
 

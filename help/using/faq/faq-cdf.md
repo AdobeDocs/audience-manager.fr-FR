@@ -50,7 +50,7 @@ Voir [Notifications de traitement des fichiers de flux de données client](../fe
 
 <br> 
 
-## Tailles de fichiers {#file-sizes}
+## Tailles de fichier {#file-sizes}
 
 **À quel type de tailles de fichiers dois-je m’attendre ? Quelle est la taille moyenne d’un fichier CDF ?**
 
@@ -72,7 +72,7 @@ Encore une fois, cela est difficile à estimer. Toutefois, il est utile d’êtr
 
 <br> 
 
-## Rétention des données {#data-retension}
+## Conservation des données {#data-retension}
 
 **Quelle est la durée de conservation des fichiers CDF ?**
 

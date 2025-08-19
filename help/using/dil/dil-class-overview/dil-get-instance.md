@@ -1,6 +1,6 @@
 ---
-description: Récupère une instance de DIL spécifique au partenaire.
-keywords: api d’audience manager;api aam;api d’audience manager;api aam
+description: Récupère une instance DIL spécifique au partenaire.
+keywords: api audience manager;api aam;api audience manager;api aam
 seo-description: Retrieves a partner-specific DIL instance.
 seo-title: getDil
 solution: Audience Manager
@@ -19,13 +19,13 @@ ht-degree: 6%
 
 >[!WARNING]
 >
->Depuis juillet 2023, Adobe a arrêté le développement de l’extension [!DNL Data Integration Library (DIL)] et [!DNL DIL].
+>Depuis juillet 2023, Adobe a interrompu le développement du [!DNL Data Integration Library (DIL)] et de l’extension [!DNL DIL].
 >
->Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, l’Adobe ne développera pas [!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer le [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) pour leur stratégie de collecte de données à long terme.
+>Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, Adobe ne développera pas d’[!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
 >
->Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) à la place.
+>Les clients qui souhaitent implémenter de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) à la place.
 
-Récupère une instance de DIL spécifique au partenaire.
+Récupère une instance DIL spécifique au partenaire.
 
 **Signature de fonction :** `getDil: function (partner, containerNSID) {}`
 
@@ -36,11 +36,11 @@ Récupère une instance de DIL spécifique au partenaire.
 | Nom | Type | Description |
 |---|---|---|
 | `partner` | Chaîne | Nom du partenaire à rechercher. |
-| `containerNSID` | Entier | La valeur par défaut est `0`. Le NSID du conteneur que vous recherchez. Facultatif. |
+| `containerNSID` | Entier | La valeur par défaut est `0`. NSID du conteneur que vous recherchez. Facultatif. |
 
 ## Réponse
 
-Une correspondance NSID de conteneur et de partenaire réussie renvoie une instance [!UICONTROL DIL] spécifique à un partenaire. S’il n’existe aucune correspondance, l’API renvoie (ne renvoie pas) une erreur avec le message &quot;`The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;.
+Une correspondance NSID de partenaire et de conteneur réussie renvoie une instance [!UICONTROL DIL] spécifique au partenaire. S’il n’existe aucune correspondance, l’API renvoie (ne renvoie pas) une erreur avec le message « `The DIL instance with partner <name> and containerNSID <ID> was not found.` »
 
 ## Exemple de code
 

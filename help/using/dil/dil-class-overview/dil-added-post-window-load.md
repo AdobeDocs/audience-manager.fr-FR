@@ -1,5 +1,5 @@
 ---
-description: Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
+description: Permet d’indiquer à DIL qu’il est chargé après le chargement de la fenêtre.
 seo-description: Used to let DIL know that it is loaded after the window loads.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->Depuis juillet 2023, Adobe a arrêté le développement de l’extension [!DNL Data Integration Library (DIL)] et [!DNL DIL].
+>Depuis juillet 2023, Adobe a interrompu le développement du [!DNL Data Integration Library (DIL)] et de l’extension [!DNL DIL].
 >
->Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, l’Adobe ne développera pas [!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer le [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) pour leur stratégie de collecte de données à long terme.
+>Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, Adobe ne développera pas d’[!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
 >
->Les clients qui souhaitent mettre en oeuvre de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [SDK Web Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) à la place.
+>Les clients qui souhaitent implémenter de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) à la place.
 
-Utilisé pour informer le DIL qu’il est chargé après le chargement de la fenêtre.
+Permet d’indiquer à DIL qu’il est chargé après le chargement de la fenêtre.
 
 **Signature de fonction :** `isAddedPostWindowLoad: function()`
 

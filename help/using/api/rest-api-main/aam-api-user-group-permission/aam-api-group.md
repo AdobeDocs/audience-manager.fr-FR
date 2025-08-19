@@ -1,9 +1,9 @@
 ---
-description: Méthodes d’API REST pour gérer les groupes, notamment créer, mettre à jour, répertorier et supprimer des groupes.
+description: Méthodes de l’API REST pour gérer les groupes, notamment la création, la mise à jour, la liste et la suppression de groupes.
 seo-description: Rest API methods to manage groups, including creating, updating, listing, deleting groups.
 seo-title: Group Management API Methods
 solution: Audience Manager
-title: Méthodes d’API de gestion des groupes
+title: Méthodes d’API de gestion de groupe
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 exl-id: b43c8404-1853-4306-8f26-96d9191a2548
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 ---
 
-# Méthodes d’API de gestion des groupes {#group-management-api-methods}
+# Méthodes d’API de gestion de groupe {#group-management-api-methods}
 
-Redéfinissez les méthodes [!DNL API] pour gérer les groupes, notamment créer, mettre à jour, répertorier et supprimer des groupes.
+Méthodes de [!DNL API] Rest pour gérer les groupes, y compris la création, la mise à jour, la liste et la suppression de groupes.
 
 <!-- c_rest_api_user_man_group.xml -->
 
@@ -53,9 +53,9 @@ Méthode `POST` pour créer un groupe d’utilisateurs.
   }
 ```
 
-## Mise à jour d’un groupe {#update-group}
+## Mettre à jour un groupe {#update-group}
 
-Une méthode `PUT` pour mettre à jour un groupe d’utilisateurs.
+Méthode `PUT` pour mettre à jour un groupe d’utilisateurs.
 
 <!--
 r_rest_api_group_update.xml
@@ -88,9 +88,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Groupes de listes {#list-groups}
+## Liste des groupes {#list-groups}
 
-Une méthode `GET` pour répertorier les groupes d’utilisateurs.
+Méthode `GET` pour répertorier les groupes d’utilisateurs.
 
 <!--
 r_rest_api_group_list.xml
@@ -128,9 +128,9 @@ Méthode `DELETE` pour supprimer un groupe d’utilisateurs et supprimer tous le
 
 Renvoie `204 No Content` en cas de réussite. En cas de conflit, renvoie `409 Conflict`.
 
-## Suppression de groupes en bloc {#delete-groups-bulk}
+## Supprimer des groupes en bloc {#delete-groups-bulk}
 
-Une méthode `DELETE` pour supprimer plusieurs groupes en bloc et supprimer tous les membres de ce groupe.
+Méthode `DELETE` pour supprimer plusieurs groupes en bloc et supprimer tous les membres de ce groupe.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -140,9 +140,9 @@ Une méthode `DELETE` pour supprimer plusieurs groupes en bloc et supprimer tous
 
 Renvoie `204 No Content` en cas de réussite. En cas de conflit, renvoie `409 Conflict`.
 
-## Répertorier toutes les autorisations d’un groupe {#list-permissions-group}
+## Liste de toutes les autorisations pour un groupe {#list-permissions-group}
 
-Une méthode `GET` pour répertorier les objets d’autorisation sur un groupe.
+Méthode `GET` pour répertorier les objets d’autorisation dans un groupe.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -172,11 +172,11 @@ Une méthode `GET` pour répertorier les objets d’autorisation sur un groupe.
 ]
 ```
 
-Renvoie `400 Bad Request` si le groupe n’est pas accessible.
+Renvoie `400 Bad Request` si le groupe est inaccessible.
 
-## Définition des autorisations d’un groupe {#set-permissions-group}
+## Définition des autorisations pour un groupe {#set-permissions-group}
 
-Une méthode `PUT` pour mettre à jour les autorisations de groupe. Cette méthode remplace les anciennes autorisations par les nouvelles autorisations.
+Méthode `PUT` pour mettre à jour les autorisations de groupe. Cette méthode remplace les anciennes autorisations par les nouvelles.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -209,4 +209,4 @@ Une méthode `PUT` pour mettre à jour les autorisations de groupe. Cette métho
 
 L’exemple de réponse représente la liste mise à jour des objets d’autorisation.
 
-Renvoie `200 OK` en cas de réussite. Renvoie `400` si une autorisation donnée n&#39;est pas valide. Peut également renvoyer `403` si l’objet n’est pas accessible pour l’utilisateur connecté.
+Renvoie `200 OK` en cas de réussite. Renvoie `400` si une autorisation donnée n’est pas valide. Peut également renvoyer des `403` si l’objet n’est pas accessible par l’utilisateur connecté.

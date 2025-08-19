@@ -1,5 +1,5 @@
 ---
-description: Méthodes d’API REST pour gérer les autorisations des objets et des groupes.
+description: Méthodes de l’API REST pour gérer les autorisations des objets et des groupes
 seo-description: Rest API methods to manage permissions for objects and groups.
 seo-title: Permissions Management API Methods
 solution: Audience Manager
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # Méthodes d’API de gestion des autorisations {#permissions-management-api-methods}
 
-Redéfinissez les méthodes [!DNL API] pour gérer les autorisations des objets et des groupes.
+Les méthodes Rest [!DNL API] permettent de gérer les autorisations pour les objets et les groupes.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## Liste des types d’objets disponibles {#list-object-types}
+## Répertorier les types d’objets disponibles {#list-object-types}
 
-Une méthode `GET` pour répertorier les types d’objets disponibles sur lesquels des contrôles d’accès basés sur les rôles peuvent être définis.
+Une méthode `GET` pour répertorier les types d’objets disponibles sur lesquels les contrôles d’accès basés sur les rôles peuvent être définis.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -38,7 +38,7 @@ Une méthode `GET` pour répertorier les types d’objets disponibles sur lesque
 
 ## Liste des autorisations disponibles pour un type d’objet {#list-permissions-object-type}
 
-Une méthode `GET` pour répertorier les autorisations disponibles pour un type d’objet.
+Méthode `GET` pour répertorier les autorisations disponibles pour un type d’objet.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -57,4 +57,4 @@ Une méthode `GET` pour répertorier les autorisations disponibles pour un type 
 
 >[!NOTE]
 >
->Les types d’objet BALISES et SIGNAUX DÉRIVÉS ne disposent pas d’autorisations régulières à utiliser. Les contrôles sur ces types d’objets sont modifiés uniquement par les autorisations génériques All (Tout ou Rien).
+>Les types d&#39;objet TAGS et DERIVED SIGNALS n&#39;ont pas d&#39;autorisations régulières à utiliser. Les contrôles sur ces types d&#39;objets sont modifiés uniquement par les autorisations de caractères génériques Tout ou Rien.

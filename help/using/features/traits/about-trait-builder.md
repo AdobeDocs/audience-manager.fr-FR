@@ -1,5 +1,5 @@
 ---
-description: Le créateur de caractéristiques est une fonctionnalité qui améliore la collecte de données pixel traditionnelle et les processus de création/segmentation d’audience. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
+description: Le créateur de caractéristiques est une fonctionnalité qui améliore la collecte de données traditionnelle basée sur les pixels et les processus de création/segmentation d’audience. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
 seo-description: Trait Builder is a feature that improves upon traditional pixel-based data collection and audience creation/segmentation processes. It works by processing page data with server-side rules you create in the user interface.
 seo-title: About Trait Builder
 solution: Audience Manager
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # À propos du créateur de caractéristiques {#about-trait-builder}
 
-[!UICONTROL Trait Builder] est une fonctionnalité qui améliore la collecte de données pixel traditionnelle et les processus de création/segmentation d’audience. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
+[!UICONTROL Trait Builder] est une fonctionnalité qui améliore la collecte de données traditionnelle basée sur les pixels et les processus de création/segmentation d’audience. Il fonctionne en traitant les données de page avec les règles côté serveur que vous créez dans l’interface utilisateur.
 
 <!-- c_tb_about.xml -->
 
-Par rapport aux pixels, qui se déclenchent en réponse à de simples conditions &quot;oui&quot; ou &quot;true&quot;, [!UICONTROL Trait Builder] vous permet :
+Par rapport aux pixels, qui se déclenchent en réponse à des conditions « oui » ou « vrai » simples, [!UICONTROL Trait Builder] vous permet d’effectuer les opérations suivantes :
 
-* Collectez les données de page *all* afin de pouvoir les utiliser ultérieurement pour créer des caractéristiques pertinentes et utiles.
-* Créez des caractéristiques basées sur les [paires clé-valeur](../../reference/key-value-pairs-explained.md) transmises lors de la collecte de données.
-* Évaluez les conditions de données complexes avec des règles côté serveur qui fonctionnent avec les [expressions booléennes](../../reference/boolean-expressions-tsb.md) et les [opérateurs de comparaison](../../features/traits/trait-comparison-operators.md).
+* Collectez *toutes* les données de page afin de les utiliser ultérieurement pour créer des caractéristiques pertinentes et utiles.
+* Créer des caractéristiques basées sur des [paires clé-valeur](../../reference/key-value-pairs-explained.md) transmises lors de la collecte de données.
+* Évaluez des conditions de données complexes avec des règles côté serveur qui fonctionnent avec les [expressions booléennes](../../reference/boolean-expressions-tsb.md) et [opérateurs de comparaison](../../features/traits/trait-comparison-operators.md).
 
-* Réduisez ou éliminez la nécessité de conserver les pixels de collecte de données dans votre inventaire.
-* Surveillez les performances avec des rapports [!DNL Audience Manager].
+* Réduisez ou éliminez la nécessité de conserver des pixels de collecte de données dans votre inventaire.
+* Surveillez les performances à l’aide de rapports [!DNL Audience Manager].

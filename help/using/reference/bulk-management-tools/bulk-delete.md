@@ -1,5 +1,5 @@
 ---
-description: La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations à l’aide d’une seule opération. Suivez ces instructions pour effectuer une requête de suppression en bloc.
+description: La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une requête de suppression en bloc.
 seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 seo-title: Bulk Delete
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Suppression en bloc{#bulk-delete}
 
-La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations à l’aide d’une seule opération. Suivez ces instructions pour effectuer une requête de suppression en bloc.
+La suppression en bloc vous permet de supprimer plusieurs segments, caractéristiques, dossiers, signaux dérivés, sources de données, modèles et destinations avec une seule opération. Suivez ces instructions pour effectuer une requête de suppression en bloc.
 
 >[!IMPORTANT]
 >
->Les outils de gestion en bloc ne sont pas une offre d’Adobe officiellement prise en charge. Le dépannage et l’assistance par l’intermédiaire de l’assistance clientèle seront gérés au cas par cas.
+>Les outils de gestion en bloc ne sont pas une offre Adobe officiellement prise en charge. Le dépannage et l’assistance par l’intermédiaire de l’assistance clientèle seront gérés au cas par cas.
 
 <!-- 
 
@@ -30,23 +30,23 @@ La suppression en bloc vous permet de supprimer plusieurs segments, caractérist
 
 >[!NOTE]
 >
->[Les autorisations de groupe RBAC ](../../features/administration/administration-overview.md) attribuées dans l’interface utilisateur de [!DNL Audience Manager] sont honorées dans le [!UICONTROL Bulk Management Tools].
+>Les [autorisations de groupe RBAC](../../features/administration/administration-overview.md) attribuées dans l’interface utilisateur de [!DNL Audience Manager] sont respectées dans la [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
->Une suppression en bloc des mappages de destination échoue si des segments sont mappés à la destination. Supprimez vos segments de cette destination dans l’interface utilisateur avant de tenter de supprimer des destinations en masse. En outre, les dossiers de caractéristiques et de segments doivent être vides avant de pouvoir les supprimer.
+>Une suppression en bloc pour les mappages de destination échoue si des segments sont mappés à la destination. Supprimez vos segments de cette destination dans l’interface utilisateur avant de tenter de supprimer des destinations en bloc. En outre, les dossiers de caractéristiques et de segments doivent être vides avant de pouvoir les supprimer.
 
 Pour supprimer plusieurs éléments, ouvrez la feuille de calcul [!UICONTROL Bulk Management Tools] et :
 
-1. Cliquez sur l’onglet **[!UICONTROL Headers]** et copiez les en-têtes de création de l’élément à ajouter.
+1. Cliquez sur l’onglet **[!UICONTROL Headers]** et copiez les en-têtes de création pour l’élément que vous souhaitez ajouter.
 2. Cliquez sur l’onglet **[!UICONTROL Delete]** .
 3. Collez les en-têtes de suppression dans la première ligne de la feuille de calcul de mise à jour.
-4. Collez ou saisissez les identifiants des objets que vous souhaitez supprimer dans la colonne située sous l’en-tête.
-5. Fournissez les [informations de connexion](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) requises et cliquez sur **[!UICONTROL Submit]**.
+4. Collez ou saisissez les identifiants des objets à supprimer dans la colonne située sous l’en-tête.
+5. Fournissez les [informations de connexion](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) requises, puis cliquez sur **[!UICONTROL Submit]**.
 
    La feuille de calcul crée une colonne [!UICONTROL Results]. La colonne [!UICONTROL Results] renvoie un message indiquant si l’élément a été supprimé ou un message d’erreur.
-Avant de saisir des données, votre feuille de calcul de mise à jour en masse doit ressembler à ce qui suit :
+Avant de saisir des données, votre feuille de calcul de mise à jour en bloc doit ressembler à ce qui suit :
 
 ![](assets/delete.png)
 
-Si votre mise à jour en masse renvoie une erreur ou échoue, reportez-vous à la section [Dépannage des outils de gestion en bloc](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Si votre mise à jour en bloc renvoie une erreur ou échoue, consultez [Dépannage pour les outils de gestion en bloc](../../reference/bulk-management-tools/bulk-troubleshooting.md).

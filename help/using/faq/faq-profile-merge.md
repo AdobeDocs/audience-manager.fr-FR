@@ -21,7 +21,7 @@ Réponses aux questions courantes concernant les stratégies de fusion de profil
 
 <!-- profile-merge-faq.xml -->
 
-## Concepts de base de la représentation graphique des appareils {#device-graph-basics}
+## Principes de base des graphiques des appareils {#device-graph-basics}
 
 **Qu’est-ce que la représentation graphique des appareils ?**
 
@@ -31,13 +31,13 @@ La représentation graphique des appareils est un ensemble de mappages d’ident
 
 **Qu’est-ce que la représentation graphique externe des appareils ?**
 
-La représentation graphique externe des appareils constitue toute représentation graphique d’appareil dans [!DNL Audience Manager] qui n’a pas été créée exclusivement à partir de vos propres sources de données multi-appareils. Par exemple, lorsque vous créez une [stratégie de fusion de profils](../features/profile-merge-rules/merge-rules-start.md) et que vous choisissez les options de représentation graphique des appareils tiers, vous travaillez avec une représentation graphique externe des appareils. Voir [Options d’appareil](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+La représentation graphique externe des appareils constitue toute représentation graphique d’appareil dans [!DNL Audience Manager] qui n’a pas été créée exclusivement à partir de vos propres sources de données multi-appareils. Par exemple, lorsque vous créez une [Règle de fusion de profil](../features/profile-merge-rules/merge-rules-start.md) et choisissez les options de graphique d’appareil tiers, vous utilisez un graphique d’appareil externe. Voir [Options d’appareil](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Quels sont les cas d’utilisation courants d’une représentation graphique externe des appareils dans une [!UICONTROL Profile Merge Rule] ?**
 
-L’objectif principal de l’utilisation d’une représentation graphique des appareils dans une [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une même personne ou à un même foyer pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations, par exemple, le ciblage d’une audience de prospects avec une publicité diffusée par un DSP ou la personnalisation de l’expérience sur site d’un client via une plateforme de personnalisation sur site. Voir [Cas d’utilisation des représentations graphiques externes des appareils](../features/profile-merge-rules/external-graph-use-cases.md).
+L’objectif principal de l’utilisation d’une représentation graphique des appareils dans une [!UICONTROL Profile Merge Rule] est d’évaluer et de qualifier plusieurs appareils appartenant à une même personne ou à un même foyer pour un segment spécifique. Le segment lui-même peut avoir plusieurs utilisations. Par exemple, il peut cibler une audience de prospects avec une annonce diffusée par un DSP ou personnaliser l’expérience sur site d’un client à l’aide d’une plateforme de personnalisation sur site. Voir [Cas d’utilisation des représentations graphiques externes des appareils](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -53,7 +53,7 @@ Une fois par semaine.
 
  
 
-## Graphiques de périphérique et stratégies de fusion de profils {#device-graph-profile-merge-rules}
+## Graphiques d’appareil et règles de fusion de profil {#device-graph-profile-merge-rules}
 
 **Comment [!DNL Audience Manager] utilise-t-il une représentation graphique des appareils ?**
 
@@ -89,7 +89,7 @@ Les appareils fusionnés et lus par [!DNL Audience Manager] sont les mêmes que 
 
  
 
-## Segments, représentations graphiques des appareils et stratégies de fusion de profils {#segments-device-graphs-rules}
+## Segments, graphiques d’appareils et règles de fusion de profils {#segments-device-graphs-rules}
 
 **Comment [!DNL Audience Manager] supprime-t-il la segmentation d’un appareil lorsqu’il n’est plus qualifié pour un segment avec une [!UICONTROL Profile Merge Rule] qui utilise une représentation graphique des appareils ?**
 
@@ -111,7 +111,7 @@ Oui.
 
 **Les estimations de la taille des segments incluent-elles les appareils qualifiés pour un segment en fonction des connexions fournies par une [!UICONTROL Profile Merge Rule] qui utilise une représentation graphique des appareils ?**
 
-Non. Voir les définitions pour [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans [Données sur les caractéristiques et la population de segments dans le créateur de segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr).
+Non. Voir les définitions pour [!UICONTROL Estimated Real-Time Population] et [!UICONTROL Estimated Total Population] dans [Données sur les caractéristiques et la population de segments dans le créateur de segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
@@ -127,7 +127,7 @@ Oui. Audience Manager ne comptabilisera pas les caractéristiques stockées sur 
 
  
 
-## Fréquence des caractéristiques, représentations graphiques des appareils et stratégies de fusion de profils {#trait-freq-device-rules}
+## Fréquence des caractéristiques, graphiques d’appareil et règles de fusion de profil {#trait-freq-device-rules}
 
 **Comment [!DNL Audience Manager] calcule-t-il la fréquence des caractéristiques avec une [!UICONTROL Profile Merge Rule] qui utilise une représentation graphique des appareils ?**
 
@@ -167,7 +167,7 @@ La fréquence des caractéristiques est définie par la somme du nombre de quali
 
  
 
-## Rapports, représentations graphiques des appareils et stratégies de fusion de profils {#reports-device-graphs-rules}
+## Rapports, graphiques d’appareils et règles de fusion de profils {#reports-device-graphs-rules}
 
 **Puis-je consulter le nombre d’appareils accessibles par une [!UICONTROL Profile Merge Rule] qui utilise une représentation graphique des appareils ?**
 
@@ -259,18 +259,18 @@ Oui. La mesure de population totale de segments inclut les appareils supplément
 
 Non.
 
-**Pourquoi est-ce que je vois aucune population de segment pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
+**Pourquoi n’ai-je aucune population de segments pour les exportations de segments vers Adobe Campaign après le 16 mars 2020 ?**
 
-Fin 2019, nous avons publié une série d’améliorations des règles de fusion de profils afin d’améliorer la précision des fichiers de lots générés à l’aide des identifiants multi-appareils. Ces améliorations seront strictement appliquées dans votre instance d’Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’identifiants multi-appareils cesseront de produire des exportations dans certaines configurations de stratégies de fusion de profils.
+Fin 2019, nous avons publié une série d’améliorations des règles de fusion de profils pour améliorer la précision des fichiers de lots générés à l’aide d’identifiants entre appareils. Ces améliorations seront strictement appliquées à votre instance Audience Manager à partir du lundi 16 mars 2020. Par conséquent, les segments mappés à une destination à l’aide d’identifiants sur plusieurs appareils cesseront de produire des exportations dans certaines configurations de règles de fusion de profils.
 
-Pour garantir la bonne intégration entre l’instance d’Audience Manager et les destinations à l’aide d’identifiants multi-appareils, tels qu’Adobe Campaign, assurez-vous de respecter les conditions suivantes :
+Pour garantir la bonne intégration entre votre instance Audience Manager et les destinations à l’aide d’identifiants entre appareils, tels qu’Adobe Campaign, assurez-vous de respecter les exigences suivantes :
 
-1. Examinez la règle de fusion de profils utilisée par les segments mappés à votre destination d’identifiant déclaré Adobe Campaign. La stratégie de fusion de profils doit utiliser l’option [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre stratégie de fusion de profils utilise une autre option, basculez-la sur [!UICONTROL Last Authenticated Profile].
-2. Sélectionnez la source de données Adobe Campaign Declared ID dans les paramètres de la stratégie de fusion de profils.
+1. Examinez la Règle de fusion de profils utilisée par les segments mappés à votre destination Adobe Campaign avec identifiant Declared ID. La règle de fusion de profils doit utiliser l’option [!UICONTROL Last Authenticated Profile] afin que tous les profils authentifiés puissent être inclus dans les exportations. Si votre règle de fusion de profils utilise une autre option, passez-la à [!UICONTROL Last Authenticated Profile].
+2. Sélectionnez la source de données Adobe Campaign Declared ID dans les paramètres de la règle de fusion de profils.
 
 >[!NOTE]
 >
-> Nous avons augmenté la limite de la stratégie de fusion de profils de 1 pour les clients confrontés à cette situation, de sorte que vous puissiez créer une stratégie de fusion de profils dédiée pour les segments mappés à la destination d’identifiant déclaré Adobe Campaign, sans modifier les règles de fusion de profils pour d’autres cas d’utilisation.
+> Nous avons augmenté la limite de la règle de fusion de profils de 1 pour les clients confrontés à cette situation, afin que vous puissiez créer une règle de fusion de profils dédiée pour les segments mappés à la destination Adobe Campaign Declared ID, sans modifier les règles de fusion de profils pour d’autres cas d’utilisation.
 
 >[!MORELIKETHIS]
 >

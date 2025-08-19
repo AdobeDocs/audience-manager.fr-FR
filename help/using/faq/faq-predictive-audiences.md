@@ -57,43 +57,43 @@ Si le modèle ne produit pas de résultats dans les 24 heures, contactez votre 
 
 Les modèles [!UICONTROL Predictive Audiences] peuvent ne produire aucun résultat pour un certain nombre de raisons :
 
-1. Aucun des personnages sélectionnés [!UICONTROL traits] / [!UICONTROL segments] ne dispose de suffisamment de profils utilisateur. Nous vous recommandons de choisir vos [!UICONTROL traits] ou [!UICONTROL segments] afin que chaque persona dispose d’au moins quelques centaines de profils utilisateur.
-1. Aucun des personnages sélectionnés [!UICONTROL traits] / [!UICONTROL segments] ne dispose de suffisamment de données dans leurs profils utilisateur (caractéristiques insuffisantes pour l’analyse).
-1. La caractéristique ou le segment de l’audience cible n’a aucun utilisateur actif ou intégré.
+1. Aucun des [!UICONTROL traits]/[!UICONTROL segments] de persona sélectionnés ne dispose de suffisamment de profils utilisateur. Nous vous recommandons de choisir votre [!UICONTROL traits] ou votre [!UICONTROL segments] afin que chaque personne dispose d’au moins quelques centaines de profils utilisateur.
+1. Aucun des [!UICONTROL traits]/[!UICONTROL segments] de persona sélectionnés n’a suffisamment de données dans ses profils utilisateur (pas assez de caractéristiques à analyser).
+1. Le segment/caractéristique de l’audience cible ne comporte aucun utilisateur actif ou intégré.
 1. Les profils des utilisateurs de l’audience cible qui étaient actifs ou intégrés au cours des 30 derniers jours ne contiennent pas suffisamment de données (caractéristiques insuffisantes pour l’analyse).
-1. Le segment d’audience cible utilise un [!UICONTROL Profile Merge Rule] différent de celui que vous avez choisi pour le modèle.
-1. La source de données de vos caractéristiques d’audience cible peut ne pas être incluse dans le [!UICONTROL Profile Merge Rule] que vous avez choisi pour le modèle.
+1. Le segment ciblé utilise une [!UICONTROL Profile Merge Rule] différente de celle que vous avez choisie pour le modèle.
+1. La source de données des caractéristiques de votre audience cible peut ne pas être incluse dans le [!UICONTROL Profile Merge Rule] que vous avez choisi pour le modèle.
 
 Pour obtenir des résultats optimaux, suivez les instructions proposées dans [Critères de sélection des personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) et [Critères de sélection de l’audience cible](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Pourquoi mon modèle affiche-t-il l’état [!UICONTROL Error] ?**
+**Pourquoi mon modèle affiche-t-il le statut [!UICONTROL Error] ?**
 
-L’exécution du modèle a échoué. Dans ce cas, contactez votre représentant [!DNL Adobe].
+L’exécution du modèle a échoué. Dans ce cas, veuillez contacter votre représentant [!DNL Adobe].
 
  
 
-**Comment puis-je modifier le [!UICONTROL Profile Merge Rule] pour un [!UICONTROL Predictive Audiences] [!UICONTROL segment] ?**
+**Comment puis-je modifier le [!UICONTROL Profile Merge Rule] d’un [!UICONTROL Predictive Audiences] [!UICONTROL segment] ?**
 
-Créez un modèle en sélectionnant les mêmes personnes et l’audience cible que votre modèle précédent. Lors de la création du modèle, affectez un [!UICONTROL Profile Merge Rule] différent.
+Créez un modèle en sélectionnant les mêmes personnes et la même audience cible que votre modèle précédent. Lors de la création du modèle, affectez un autre [!UICONTROL Profile Merge Rule].
 
 >[!WARNING]
-> Vous pouvez également utiliser le [créateur de segments](../features/segments/segment-builder.md) pour créer manuellement un [!UICONTROL segment] avec un prédictif existant [!UICONTROL trait] et lui attribuer un [!UICONTROL Profile Merge Rule] de votre choix.
+> Vous pouvez également utiliser le [créateur de segments](../features/segments/segment-builder.md) pour créer manuellement un [!UICONTROL segment] avec un [!UICONTROL trait] prédictif existant et lui attribuer un [!UICONTROL Profile Merge Rule] de votre choix.
 > 
-> Cependant, nous ne recommandons pas cette pratique, puisque la variable prédictive [!UICONTROL traits] hérite automatiquement de la [!UICONTROL Profile Merge Rule] du modèle auquel elle appartient et qu’elle est construite à partir de l’influent [!UICONTROL traits] conforme au [!UICONTROL Profile Merge Rule] du modèle.
+> Toutefois, nous ne recommandons pas cette pratique, car les [!UICONTROL traits] prédictifs héritent automatiquement des [!UICONTROL Profile Merge Rule] du modèle auquel ils appartiennent et sont construits à partir de [!UICONTROL traits] influents qui respectent les [!UICONTROL Profile Merge Rule] du modèle.
 
  
 
-**Que dois-je choisir [!UICONTROL Profile Merge Rule] ?**
+**Quel [!UICONTROL Profile Merge Rule] dois-je choisir ?**
 
-Lorsque vous choisissez le [!UICONTROL Profile Merge Rule] pour votre modèle, analysez attentivement votre cas d’utilisation.
+Lorsque vous choisissez la [!UICONTROL Profile Merge Rule] de votre modèle, analysez attentivement votre cas d’utilisation.
 
-Supposons que votre audience cible [!UICONTROL segment] utilise un [!UICONTROL Profile Merge Rule] basé sur des profils authentifiés + [!DNL Device Graph] et que vous sélectionniez le même [!UICONTROL Profile Merge Rule] pour le prédictif [!UICONTROL segments]. Dans ce cas, les niveaux appareil et multi-appareils [!UICONTROL traits] seront utilisés pour former le modèle et pour placer l’utilisateur dans une prédiction [!UICONTROL segment].
+Supposons que votre audience cible utilise [!UICONTROL segment] un [!UICONTROL Profile Merge Rule] basé sur les profils authentifiés + profils [!DNL Device Graph] et que vous sélectionniez le même [!UICONTROL Profile Merge Rule] pour le [!UICONTROL segments] prédictif. Dans ce cas, les [!UICONTROL traits] au niveau de l’appareil et au niveau de l’ensemble des appareils seront utilisées pour entraîner le modèle et pour placer l’utilisateur dans un [!UICONTROL segment] prédictif.
 
-Si, toutefois, vous sélectionnez un [!UICONTROL Profile Merge Rule] basé uniquement sur les profils d’appareils, aucun de vos [!UICONTROL traits] multi-appareils ne deviendra influent et ne contribuera pas au placement des utilisateurs dans un [!UICONTROL segment] prédictif. Cela peut avoir une incidence négative sur la précision et la portée du modèle.
+Cependant, si vous sélectionnez un [!UICONTROL Profile Merge Rule] basé uniquement sur les profils d’appareil, aucun de vos [!UICONTROL traits] entre appareils ne deviendra influent et ne contribuera pas au placement des utilisateurs dans un [!UICONTROL segment] prédictif. Cela peut avoir un impact négatif sur la précision et la portée du modèle.
 
-Analysez soigneusement votre cas d’utilisation et décidez des [!UICONTROL trait] types à partir desquels le modèle doit apprendre et du type de données que vous souhaitez que le modèle utilise pour la classification.
+Analysez attentivement votre cas d’utilisation et décidez des types de [!UICONTROL trait] dont vous souhaitez que le modèle tire des enseignements et du type de données que vous souhaitez que le modèle utilise pour la classification.
 
 **Un utilisateur de l’audience cible qui ne fait partie d’aucun segment/caractéristique de persona peut-il ne pas être classé ?**
 
@@ -115,9 +115,9 @@ Oui, vous pouvez voir toutes les caractéristiques influentes pour toutes les li
 
 **Puis-je modifier la durée de vie (TTL) des caractéristiques prédictives ?**
 
-La durée de vie prédictive de la caractéristique est définie sur 0 (durée de vie) et ne peut pas être modifiée. [!UICONTROL Predictive Audiences] ne peut dissocier les utilisateurs des segments prédictifs que s’ils remplissent les critères du segment de base ou s’ils sont reclassés dans un autre segment prédictif.
+Le TTL de caractéristique prédictive est défini sur 0 (durée de vie) et ne peut pas être modifié. [!UICONTROL Predictive Audiences] ne pouvez désegmenter les utilisateurs des segments prédictifs que s’ils remplissent les critères pour le segment de base ou s’ils sont reclassés dans un autre segment prédictif.
 
-Si nécessaire, vous pouvez contourner cette fonctionnalité en créant un nouveau segment qui contient à la fois une caractéristique prédictive et une caractéristique d’activité avec une durée de vie spécifiée.
+Si nécessaire, vous pouvez contourner cette fonctionnalité en créant un segment qui contient à la fois une caractéristique prédictive et une caractéristique d’activité avec une durée de vie spécifiée.
 
  
 

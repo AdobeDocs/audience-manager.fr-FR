@@ -1,9 +1,9 @@
 ---
-description: Le Marketplace est l’endroit où les acheteurs de données se rendent pour la recherche et s’abonnent aux flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
+description: Le Marketplace est l’endroit où les acheteurs de données vont pour effectuer des recherches et s’abonner aux flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
 seo-description: The Marketplace is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.
 seo-title: Manage Data Feed Subscriptions
 solution: Audience Manager
-title: Gestion des abonnements aux flux de données
+title: Gérer Les Abonnements Aux Flux De Données
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Gestion des abonnements aux flux de données {#manage-data-feed-subscriptions}
+# Gérer Les Abonnements Aux Flux De Données {#manage-data-feed-subscriptions}
 
-[!UICONTROL Marketplace] est l’endroit où les acheteurs de données se rendent pour la recherche et s’abonnent aux flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
+L’[!UICONTROL Marketplace] est l’endroit où les acheteurs de données vont pour effectuer des recherches et s’abonner à des flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
 
 ## Abonnement à un flux de données public {#subscript-public-data-feed}
 
-[!UICONTROL Marketplace] est l’endroit où les acheteurs de données se rendent pour la recherche et s’abonnent aux flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
+L’[!UICONTROL Marketplace] est l’endroit où les acheteurs de données vont pour effectuer des recherches et s’abonner à des flux de données publics et privés. Pour vous abonner à un flux de données public, procédez comme suit.
 
 <!-- t_subscribe_feed.xml -->
 
@@ -28,77 +28,77 @@ Pour vous abonner à un flux de données public :
 
 1. Accédez à **[!UICONTROL Audience Marketplace > Marketplace]**. Utilisez la fonction de recherche ou parcourez la liste pour trouver un flux de données.
 
-   ![subscribe](assets/subscribe1.png)
+   ![s&#39;abonner](assets/subscribe1.png)
 
-1. Cliquez sur le nom du flux de données à utiliser. Cela ouvre la [page des détails du plan](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) pour le flux sélectionné.
+1. Cliquez sur le nom du flux de données à utiliser. Cette action ouvre la page [Détails du plan](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) pour le flux sélectionné.
 
    ![plan-details](assets/plan-details.png)
 
-1. Sélectionnez un cas pratique dans la table des abonnements et :
+1. Choisissez un cas d’utilisation dans le tableau des abonnements et :
    * Déplacez le curseur **[!UICONTROL Subscription]** vers **[!UICONTROL On]**.
-   * Cliquez sur **[!UICONTROL Review & Subscribe]**. Cela ouvre la fenêtre [!UICONTROL Terms and Conditions].
+   * Cliquez sur **[!UICONTROL Review & Subscribe]**. La fenêtre de [!UICONTROL Terms and Conditions] s’ouvre.
 
-   ![subscribe](assets/subscribe3.png)
+   ![s&#39;abonner](assets/subscribe3.png)
 
 1. Dans la fenêtre [!UICONTROL Terms and Conditions] :
 
-   * **Important :** Laissez la case **[!UICONTROL ID sync]** cochée. Ce paramètre permet d’améliorer les taux de correspondance avec votre fournisseur de données.
-   * Cochez la case Conditions générales et cliquez sur **[!UICONTROL Accept]** pour terminer le processus d&#39;abonnement.
+   * **Important :** laissez la case à cocher **[!UICONTROL ID sync]** activée. Ce paramètre permet d’améliorer les taux de correspondance avec votre fournisseur de données.
+   * Cochez la case Termes et conditions et cliquez sur **[!UICONTROL Accept]** pour terminer le processus d’abonnement.
 
-   ![subscribe](assets/subscribe4.png)
+   ![s&#39;abonner](assets/subscribe4.png)
 
 ### Étapes suivantes
 
 Après vous être abonné à un flux de données :
 
-* Vérifiez l’abonnement en vérifiant votre dossier [!UICONTROL Traits]. Voir [Stockage pour les flux de données abonnés](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
+* Vérifiez l’abonnement en vérifiant votre dossier [!UICONTROL Traits]. Voir [Stockage des flux de données auxquels vous êtes abonné](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
 
-* Consultez la documentation sur la facturation et le paiement. Reportez-vous aux liens connexes ci-dessous.
+* Consultez les documents de facturation et de paiement. Consultez les liens connexes ci-dessous.
 
 ### Bonnes pratiques {#best-practices}
 
-Voici un ensemble de bonnes pratiques que nous vous recommandons de suivre lorsque vous utilisez [!UICONTROL Audience Marketplace] :
+Voici un ensemble des bonnes pratiques que nous vous recommandons de suivre lorsque vous utilisez des [!UICONTROL Audience Marketplace] :
 
-Lors de l’exploration de nouveaux jeux de données tiers et secondaires via [!UICONTROL Audience Marketplace], la première étape que nous recommandons est d’activer les flux de données pour [!UICONTROL Segments & Overlap]. Cela permet aux utilisateurs d’explorer les données en créant des segments pour évaluer la taille de l’audience et en exécutant des rapports de chevauchement pour obtenir des informations initiales sur l’audience. La plupart des fournisseurs de données proposent gratuitement ce cas pratique. Vous pouvez donc effectuer cette analyse sans frais supplémentaires.
+Lors de l’exploration de nouveaux jeux de données tiers et secondaires par le biais de [!UICONTROL Audience Marketplace], la première étape que nous recommandons est d’activer les flux de données pour [!UICONTROL Segments & Overlap]. Cela permet aux utilisateurs d’explorer les données en créant des segments pour évaluer la taille de l’audience et en exécutant des rapports de chevauchement pour obtenir des informations initiales sur l’audience. La plupart des fournisseurs de données proposent ce cas d’utilisation gratuitement. Vous pouvez donc effectuer cette analyse sans frais supplémentaires.
 
 Lors de l’exécution de rapports de chevauchement, suivez ces bonnes pratiques pour vous assurer que vous obtenez des résultats utiles.
 
-1. Assurez-vous que vos jeux de données qui se chevauchent sont similaires en termes de type de données et de méthodologies de collecte, telles que :
-   * Géographie du visiteur
-   * Cookie et identifiants mobiles
-   * Intervalle de recherche en amont
+1. Assurez-vous que vos jeux de données qui se chevauchent sont similaires en termes de type de données et de méthodologies de collecte de données, telles que :
+   * Géographie des visiteurs
+   * Cookies par rapport aux ID mobiles
+   * Période de recherche rétroactive
    * Activité hors ligne ou en ligne
    * Fréquence à laquelle le fournisseur de données actualise les données
 
-1. Le chevauchement peut légèrement augmenter au fil du temps. Dès lors, veillez à prévoir jusqu’à 30 jours avant d’exécuter les rapports de chevauchement pour permettre la synchronisation des données.
+1. Les chevauchements peuvent légèrement augmenter au fil du temps. Veillez donc à patienter jusqu’à 30 jours avant d’exécuter des rapports de chevauchement pour permettre la synchronisation des données.
 1. Le chevauchement peut augmenter si vous utilisez les données d’un fournisseur de données dans plusieurs campagnes marketing.
-et les initiatives. Cela permet aux utilisateurs des deux jeux de données de se synchroniser davantage.
-1. Il n’y a aucune garantie qu’il y aura un chevauchement entre vos jeux de données. Pour qu’un chevauchement soit valide, un utilisateur de l’ensemble de données du client doit être associé aux données
-ensemble de données du fournisseur pendant la période de création de rapports. Si les données multimédia du client n’ont pas été diffusées aux utilisateurs dans l’ensemble de données du fournisseur de données, il n’y aura jamais de chevauchement.
-1. Ne pensez pas que les faibles chevauchements sont une mauvaise chose. Tirez parti d’un faible chevauchement pour prospect et impliquer de nouveaux utilisateurs.
+et les initiatives. Cela permet aux utilisateurs des deux jeux de données d’avoir plus d’occasions de synchroniser.
+1. Rien ne garantit qu’il y aura un chevauchement entre vos jeux de données. Pour qu’un chevauchement soit valide, un utilisateur du jeu de données du client doit être associé aux données
+données du fournisseur définies pendant la période de création de rapports. Si les données multimédia du client n’ont pas été diffusées aux utilisateurs dans le jeu de données du fournisseur de données, il n’y aura jamais de chevauchement.
+1. Ne pensez pas qu&#39;un faible chevauchement est une mauvaise chose. Tirez parti d’un faible chevauchement pour prospecter et impliquer de nouveaux utilisateurs.
 
 ## Abonnement à un flux de données privé {#subscript-private-data-feed}
 
-Les acheteurs s’abonnent à des flux de données privés et à des plans dans **[!UICONTROL Audience Marketplace > Marketplace]**.
+Les acheteurs s&#39;abonnent aux flux et plans de données privés en **[!UICONTROL Audience Marketplace > Marketplace]**.
 
 <!-- t_private_feed.xml -->
 
 >[!TIP]
 >
->Parfois, les fournisseurs de données peuvent offrir une remise sur un flux de données privé. Vous pouvez demander une remise lors de l’envoi de votre demande d’abonnement.
+>Parfois, les fournisseurs de données peuvent offrir une remise sur un flux de données privé. Vous souhaiterez peut-être demander une remise lors de la soumission de votre demande d’abonnement.
 
 Pour vous abonner à un flux de données privé :
 
 1. Cliquez sur le nom du flux de données dans le [!UICONTROL Marketplace].
-1. Cliquez sur **[!UICONTROL Request Access]**. La boîte de dialogue de requête s’ouvre alors.
-1. Dans la boîte de dialogue de demande, écrivez au fournisseur une note exprimant votre intérêt pour son flux de données, puis cliquez sur **[!UICONTROL Send]**. Le vendeur examinera votre message et approuvera ou rejettera votre demande. En attendant l’approbation, &quot;Demandé&quot; apparaît dans la liste [!UICONTROL Marketplace] pour ce flux de données.
+1. Cliquez sur **[!UICONTROL Request Access]**. La boîte de dialogue de requête s’ouvre.
+1. Dans la boîte de dialogue de requête, écrivez au fournisseur une note exprimant votre intérêt pour son flux de données et cliquez sur **[!UICONTROL Send]**. Le vendeur examinera votre message et approuvera ou rejettera votre demande. En attente d’approbation, le statut « Demandé » apparaît dans la liste [!UICONTROL Marketplace] de ce flux de données.
 
-   * **[!UICONTROL Request approved]** : l’état de la liste [!UICONTROL Marketplace] devient &quot;Accès accordé&quot; et vous recevrez une notification automatisée. À ce stade, vous pouvez vous abonner au flux. Voir [Abonnement à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) pour obtenir des instructions.
-   * **[!UICONTROL Request denied]** : le texte &quot;Demandé&quot; est supprimé de la liste [!UICONTROL Marketplace] pour le flux. Vous pouvez essayer de vous abonner à nouveau ou choisir un autre flux.
+   * **[!UICONTROL Request approved]** : le statut dans la liste [!UICONTROL Marketplace] passe à « Accès accordé » et vous recevrez une notification automatique. À ce stade, vous pouvez vous abonner au flux. Consultez [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) pour obtenir des instructions.
+   * **[!UICONTROL Request denied]** : le texte « Demandé » est supprimé de la liste des [!UICONTROL Marketplace] du flux. Vous pouvez réessayer de vous abonner ou choisir un autre flux.
 
 ## Remises sur les flux de données pour les acheteurs {#buyer-discount}
 
-Dans [!UICONTROL Audience Marketplace], les fournisseurs peuvent offrir aux acheteurs une remise sur le prix publié d’un flux de données [!DNL CPM] ou à taux fixe. Toutefois, les montants de remise ne sont pas visibles par les acheteurs dans la liste de flux [!DNL Marketplace]. Vous pouvez également demander une remise lorsque vous vous abonnez à un flux de données privé ou lorsque vous demandez plus d’informations sur un flux particulier.
+En [!UICONTROL Audience Marketplace], les fournisseurs peuvent offrir aux acheteurs une remise sur le prix publié d&#39;un flux de données [!DNL CPM] ou à taux forfaitaire. Toutefois, les montants de remise ne sont pas visibles pour les acheteurs dans la liste de flux [!DNL Marketplace]. Cependant, vous pouvez également demander une remise lorsque vous vous abonnez à un flux de données privé ou lorsque vous demandez plus d’informations sur un flux particulier.
 
 ## Demander une remise {#request-discount}
 
@@ -107,7 +107,7 @@ Dans [!UICONTROL Audience Marketplace], les fournisseurs peuvent offrir aux ache
 <table id="table_3C6E58F593BA48EC89ACBD9A26E4E74F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> État de l’acheteur </th> 
+   <th colname="col1" class="entry"> Statut de l'acheteur </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -116,45 +116,45 @@ Dans [!UICONTROL Audience Marketplace], les fournisseurs peuvent offrir aux ache
    <td colname="col1"> <p> <b>Abonnés actuels</b> </p> </td> 
    <td colname="col2"> <p>Si vous êtes déjà abonné à un flux de données privé et souhaitez demander une remise : </p> 
     <ol id="ol_A58D419EBB9349E9B1225202535130F6"> 
-     <li id="li_D0DDC8AC6E9C4675AA4630D63FE8F071"> <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe"> Se désabonner</a> du flux de données. </li> 
+     <li id="li_D0DDC8AC6E9C4675AA4630D63FE8F071"> <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe"> Se désabonner </a> flux de données. </li> 
      <li id="li_05A5379F2A944FB28AB39C196DDE3A1D">Contactez le fournisseur de données et demandez un prix réduit. </li> 
-     <li id="li_B1B5AA6F6CC64512A02D5E8861A5F266">Si le fournisseur vous accorde une remise, réabonnez-vous au flux le jour 1<sup>st</sup> du mois suivant. </li> 
+     <li id="li_B1B5AA6F6CC64512A02D5E8861A5F266">Si le fournisseur vous accorde une réduction, réabonnez-vous au flux le 1<sup>er </sup> du mois suivant. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b> Nouveaux abonnés aux flux de données privés </b> </p> </td> 
-   <td colname="col2"> <p>Demandez une remise dans votre demande d'abonnement. Voir <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> Abonnement à un flux de données privé </a>. </p> </td>
+   <td colname="col1"> <p> <b>Nouveaux Abonnés Aux Flux De Données Privés</b> </p> </td> 
+   <td colname="col2"> <p>Demandez une réduction dans votre demande d’abonnement. Voir <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> S’abonner à un flux de données privé</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Abonnés potentiels</b> </p> </td> 
-   <td colname="col2"> <p>Un <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> abonné potentiel</a> est un acheteur de données qui a demandé l’accès à un flux de données privé, a reçu l’approbation du vendeur, mais ne s’est pas abonné au flux. Pour demander une remise en tant qu'abonné potentiel : </p> 
+   <td colname="col2"> <p>Un <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> abonné potentiel est un acheteur de données qui a demandé l’accès à un flux de données privé, qui a reçu l’approbation du vendeur</a> mais qui ne s’est pas abonné au flux. Pour demander une remise en tant qu'abonné potentiel : </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
      <li id="li_618B64160CF24549AFCA73E006DCA35A">Accédez à <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Cliquez sur le nom du flux pour lequel vous avez été approuvé. </li> 
-     <li id="li_763C050AC9464BE380D00F6085B6E540">Cliquez sur <b><span class="uicontrol"> Demander plus de détails</span></b>. Demandez au vendeur une remise dans votre demande de détails. </li> 
+     <li id="li_763C050AC9464BE380D00F6085B6E540">Cliquez <b><span class="uicontrol"> Demander Plus De Détails</span></b>. Demandez une réduction dans votre demande de détails au vendeur. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Vérification de flux réduits {#review-discounted-feeds}
+## Consulter les flux à prix réduit {#review-discounted-feeds}
 
-Pour consulter vos flux réduits :
+Pour consulter vos flux à prix réduit :
 
 1. Accédez à **[!UICONTROL Audience Marketplace > Marketplace]**.
 1. Cliquez sur le nom d’un flux auquel vous êtes déjà abonné.
-1. Examinez les colonnes [!UICONTROL Price] et [!UICONTROL Your Price] de la table [!UICONTROL Plan Details]. Si le flux est actualisé :
+1. Examinez les colonnes [!UICONTROL Price] et [!UICONTROL Your Price] du tableau [!UICONTROL Plan Details]. Si le flux est actualisé :
 
    * Le prix d&#39;origine est marqué d&#39;une ligne rouge.
    * Les frais de la colonne [!UICONTROL Your Price] seront inférieurs aux frais de la colonne [!UICONTROL Price].
 
-Dans l’exemple, l’acheteur obtient une remise de 10 % sur le plan [!UICONTROL Segments and Overlap] dans le **[!UICONTROL Software Audience Feed]**.
+Dans cet exemple, l’acheteur bénéficie d’une remise de 10 % sur le plan de [!UICONTROL Segments and Overlap] de l’**[!UICONTROL Software Audience Feed]**.
 
 ![](assets/buyer-discount.png)
 
-## Recherche de données de flux abonnés {#find-subscribed-data-fee}
+## Recherche des données de flux avec abonnement {#find-subscribed-data-fee}
 
-Les données (caractéristiques) de vos flux de données apparaissent dans leurs propres dossiers de stockage de caractéristiques. Accédez à **[!UICONTROL Audience Data > Traits]** et développez le dossier **[!UICONTROL 3rd-Party Data]** pour afficher et utiliser les caractéristiques de vos flux abonnés. Recherchez le sous-dossier nommé en fonction de votre fournisseur de données. Ils contiennent des dossiers nommés d’après les caractéristiques individuelles du flux de données et de liste fournies par le flux.
+Les données (caractéristiques) de vos flux de données apparaissent dans leurs propres dossiers de stockage des caractéristiques. Accédez à **[!UICONTROL Audience Data > Traits]** et développez le dossier **[!UICONTROL 3rd-Party Data]** pour afficher et utiliser les caractéristiques des flux auxquels vous êtes abonné. Recherchez le sous-dossier nommé d’après votre fournisseur de données. Ils contiennent des dossiers nommés en fonction du flux de données individuel et répertorient les caractéristiques fournies par le flux.
 
 <!-- marketplace-feed-storage.xml -->
 
@@ -169,40 +169,40 @@ Les acheteurs de données se désabonnent des flux de données et des plans dans
 Pour vous désabonner d’un flux de données :
 
 1. Cliquez sur le nom du flux de données dans le [!UICONTROL Marketplace].
-1. Dans la section [!UICONTROL Use Case] , recherchez le plan que vous souhaitez utiliser et déplacez le curseur **[!UICONTROL Subscription]** vers **[!UICONTROL Off]**.
+1. Dans la section [!UICONTROL Use Case], recherchez le plan à utiliser, puis déplacez le curseur **[!UICONTROL Subscription]** vers **[!UICONTROL Off]**.
 
-## Désactivation des flux de données : pourquoi et comment réagir {#data-feed-deactivation-reasons}
+## Désactivation des flux de données : pourquoi et comment répondre {#data-feed-deactivation-reasons}
 
-Dans [!UICONTROL Audience Marketplace], les fournisseurs de données peuvent révoquer l’accès à vos flux de données abonnés. Ne soyez pas alarmée si ça vous arrive. Nous vous avons couvert. Consultez cette section pour connaître les processus et les procédures liés aux désactivations des flux de données.
+Dans [!UICONTROL Audience Marketplace], les fournisseurs de données peuvent révoquer l’accès aux flux de données auxquels vous êtes abonné. Ne t&#39;inquiète pas si ça t&#39;arrive. On t&#39;a couvert. Consultez cette section pour connaître les processus et procédures liés à la désactivation des flux de données.
 
 ## Raisons courantes de la désactivation des flux de données {#reasons-for-deactivation}
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
-Cela peut être déroutant, voire dérangeant, si un flux auquel vous vous abonnez est désactivé. Les fournisseurs de données peuvent toutefois désactiver un flux de données pour diverses raisons. Voici quelques raisons courantes :
+Cela peut être déroutant ou même dérangeant si un flux auquel vous êtes abonné est arrêté. Cependant, les fournisseurs de données peuvent désactiver un flux de données pour diverses raisons. Voici quelques raisons courantes :
 
-* **Facturation :** Les fournisseurs de données désactivent un flux si vous êtes régulièrement en retard avec le paiement de frais ou si vous ne payez pas vos frais.
-* **Mises à jour du flux :** Les fournisseurs de données doivent désactiver les flux lorsqu’ils mettent à jour leur taxonomie de flux ou leurs structures de coûts.
-* **Acheteurs inactifs :** Les fournisseurs de données se réservent le droit de désactiver les flux si les abonnés n’affichent pas de dépenses sur une longue période.
-* **Vendeurs inactifs :** Les fournisseurs de données qui quittent [!UICONTROL Audience Marketplace] désactivent et suppriment tous leurs flux de données.
+* **Facturation :** les fournisseurs de données désactivent un flux si vous êtes constamment en retard dans le paiement des frais ou si vous ne payez pas vos frais.
+* **Mises à jour des flux :** les fournisseurs de données doivent désactiver les flux lorsqu’ils mettent à jour leur taxonomie de flux ou leurs structures de coûts.
+* **Acheteurs inactifs :** les fournisseurs de données se réservent le droit de désactiver les flux si les abonnés n’indiquent aucune dépense sur une période prolongée.
+* **Vendeurs inactifs :** les fournisseurs de données qui quittent [!UICONTROL Audience Marketplace] désactivent et suppriment tous leurs flux de données.
 
 >[!TIP]
 >
->Contactez directement votre fournisseur de données si vous pensez qu’un flux de données a été désactivé par erreur. Votre consultant [!DNL Adobe] peut vous aider avec des coordonnées ou une assistance supplémentaire.
+>Contactez directement votre fournisseur de données si vous pensez qu’un flux de données a été désactivé par erreur. Votre consultant [!DNL Adobe] peut vous aider en vous fournissant des coordonnées ou une assistance supplémentaire.
 
-## Courrier électronique de désactivation {#deactivation-email}
+## E-mail de désactivation {#deactivation-email}
 
-Lorsqu’un fournisseur de données désactive l’un de vos flux de données, [!DNL Audience Manager] envoie un courrier électronique aux utilisateurs de votre entreprise disposant des autorisations [!UICONTROL Administrator]. Parfois, les filtres de courrier électronique classent ce message en tant que spam. Par conséquent, cette notification importante peut vous manquer. Pour vous aider à identifier le message de désactivation, cet email contient les éléments suivants :
+Lorsqu’un fournisseur de données désactive l’un de vos flux de données, [!DNL Audience Manager] envoie un e-mail aux utilisateurs de votre société qui disposent des autorisations [!UICONTROL Administrator]. Parfois, les filtres d’e-mail classent ce message comme spam. Par conséquent, il se peut que vous ne receviez pas cette notification importante. Pour vous aider à identifier le message de désactivation, cet e-mail contient les éléments suivants :
 
-* **De :** L’email de désactivation provient de `aam-noreply@adobe.com`. Conseil : ne répondez pas à cet email.
+* **De :** l’e-mail de désactivation provient de `aam-noreply@adobe.com`. Conseil : Ne pas répondre à cet e-mail.
 
-* **Objet :** L’abonnement à *nom du flux de données ici* est annulé.
+* **Objet :** l’abonnement au *nom du flux de données ici* est annulé.
 
-* **Pièces jointes :** Le courrier électronique contient une pièce jointe intitulée &quot; `list-of-affected-entities-by-feed-revocation.csv`&quot;. Il s’agit d’une manière alambiquée de dire que la pièce jointe répertorie toutes les caractéristiques incluses dans le flux annulé. En tant qu’acheteur de données, vous devez examiner cette pièce jointe. Elle vous aidera à trouver et supprimer les caractéristiques désactivées de vos segments et [modèles algorithmiques](../../../features/algorithmic-models/understanding-models.md).
+* **Pièces jointes :** l’e-mail comprend une pièce jointe intitulée « `list-of-affected-entities-by-feed-revocation.csv` ». C&#39;est une façon alambiquée de dire que la pièce jointe répertorie toutes les caractéristiques incluses dans le flux annulé. En tant qu’acheteur de données, vous devez examiner cette pièce jointe. Il vous aidera à trouver et à supprimer les caractéristiques désactivées de vos segments et [modèles algorithmiques](../../../features/algorithmic-models/understanding-models.md).
 
 ## Liste des caractéristiques désactivées {#deactivation-trait-list}
 
-La liste qui accompagne un email de désactivation contient les champs comme illustré ci-dessous.
+La liste qui accompagne un e-mail de désactivation contient les champs comme illustré ci-dessous.
 
 <table id="table_5C3800F9D8AA43EFAB4690959A721F63"> 
  <thead> 
@@ -213,114 +213,114 @@ La liste qui accompagne un email de désactivation contient les champs comme ill
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> ID de flux de données</span></b> </p> </td> 
-   <td colname="col2"> <p>Identifiant du flux de données désactivé. </p> </td> 
+   <td colname="col1"> <p>ID <b><span class="uicontrol"> flux de données </span></b> </p> </td> 
+   <td colname="col2"> <p>ID du flux de données désactivé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Nom du flux de données </span></b> </p> </td> 
+   <td colname="col1"> <p>Nom <b><span class="uicontrol"> flux de données </span></b> </p> </td> 
    <td colname="col2"> <p>Nom du flux de données désactivé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Trait SID</span></b> </p> </td> 
+   <td colname="col1"> <p>SID du caractère <b><span class="uicontrol"></span></b> </p> </td> 
    <td colname="col2"> <p>ID de caractéristique désactivés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Nom de caractéristique </span></b> </p> </td> 
+   <td colname="col1"> <p>Nom de la caractéristique <b><span class="uicontrol"></span></b> </p> </td> 
    <td colname="col2"> <p>Noms de caractéristiques désactivés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> SID de segment </span></b> </p> </td> 
-   <td colname="col2"> <p>Identifiant du segment contenant les caractéristiques désactivées. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> le SID du segment</span></b> </p> </td> 
+   <td colname="col2"> <p>Identifiant du segment qui contient des caractéristiques désactivées. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Nom de segment </span></b> </p> </td> 
-   <td colname="col2"> <p>Nom du segment qui contient des caractéristiques désactivées. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> le nom du segment</span></b> </p> </td> 
+   <td colname="col2"> <p>Nom du segment qui contient les caractéristiques désactivées. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> ID de modèle d’album </span></b> </p> </td> 
+   <td colname="col1"> <p>ID <b><span class="uicontrol"> modèle Algo</span></b> </p> </td> 
    <td colname="col2"> <p>Identifiant du modèle algorithmique contenant les caractéristiques désactivées. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Nom du modèle d’album </span></b> </p> </td> 
-   <td colname="col2"> <p>Les noms des modèles algorithmiques qui contiennent des caractéristiques désactivées. </p> </td> 
+   <td colname="col1"> <p>Nom <b><span class="uicontrol"> modèle Algo</span></b> </p> </td> 
+   <td colname="col2"> <p>Noms des modèles algorithmiques qui contiennent des caractéristiques désactivées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Suppression des caractéristiques désactivées {#remove-deactivated-traits}
+## Supprimer les caractéristiques désactivées {#remove-deactivated-traits}
 
-En tant qu’acheteur de données, vous êtes responsable de la suppression des caractéristiques d’un flux annulé de tous vos segments actifs/en cours d’utilisation ou inactifs. Les options de suppression incluent :
+En tant qu’acheteur de données, vous êtes responsable de la suppression des caractéristiques d’un flux annulé de tous vos segments actifs/en cours d’utilisation ou inactifs. Les options de suppression sont les suivantes :
 
 * Suppression en bloc avec les [API REST](../../../api/rest-api-main/rest-api-main.md) ou les [outils de gestion en bloc](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
-* Recherchez manuellement les segments affectés et supprimez les caractéristiques désactivées à l’aide de [!UICONTROL Segment Builder]. Voir [Suppression de caractéristiques d’un segment](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
+* Recherchez manuellement les segments affectés et supprimez les caractéristiques désactivées à l’aide de [!UICONTROL Segment Builder]. Voir [Supprimer des caractéristiques d’un segment](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
 
 >[!NOTE]
 >
->La suppression des caractéristiques des modèles ou destinations algorithmiques actifs affecte l’échelle et la précision du ciblage. Si possible, essayez de remplacer les caractéristiques révoquées par de nouvelles caractéristiques actives.
+>La suppression de caractéristiques des modèles algorithmiques actifs ou des destinations affecte l’échelle et la précision du ciblage. Essayez de remplacer les caractéristiques révoquées par de nouvelles caractéristiques actives si possible.
 
-[ Se désabonner du flux de données désactivé](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) après avoir supprimé toutes les caractéristiques révoquées de votre compte. S’il s’agit d’une désactivation temporaire, vous pouvez vous réabonner une fois que le fournisseur de données a terminé d’apporter les modifications requises et réactivé le flux. Comme pour la plupart des autres choses, une bonne communication avec vos partenaires (le fournisseur de données et [!DNL Adobe]) peut vous aider à mener à bien ce processus.
+[Se désabonner du flux de données désactivé](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) après avoir supprimé toutes les caractéristiques révoquées de votre compte. S’il s’agit d’une désactivation temporaire, vous pouvez vous réabonner une fois que le fournisseur de données a terminé d’apporter les modifications requises et réactive le flux. Comme dans la plupart des cas, une bonne communication avec vos partenaires (le fournisseur de données et le [!DNL Adobe]) peut vous aider à traverser ce processus.
 
 ## Présentation de la page Détails du plan dans Audience Marketplace {#marketplace-buyer-details}
 
-Lorsque vous cliquez sur le nom d’un plan de données dans le [!UICONTROL Marketplace], [!DNL Audience Manager] fournit des informations qui peuvent vous aider à faire des choix éclairés concernant l’abonnement à un flux de données.
+Lorsque vous cliquez sur le nom d’un plan de données dans le [!UICONTROL Marketplace], [!DNL Audience Manager] fournit des informations qui peuvent vous aider à faire des choix éclairés lors de l’abonnement à un flux de données.
 
 <!-- marketplace-buyer-details.xml -->
 
 ![](assets/plan-details-numbered.png)
 
-Cette page vous donne les informations suivantes :
+Cette page contient les informations suivantes :
 
 1. **Informations de base sur le plan**. Cela inclut des informations sur les flux, telles que :
-   * Nom du flux de données. Par exemple, comme illustré ci-dessus, le nom de ce flux est &quot;Exemple de flux de données&quot;.
-   * le nom du fournisseur de données ;
-   * Identifiant du flux de données ;
-   * Description;
-   * Nombre de caractéristiques du flux ;
+   * Nom du flux de données. Par exemple, comme illustré ci-dessus, le nom de ce flux est « Flux de données d’exemple ».
+   * Le nom du fournisseur de données ;
+   * ID de flux de données ;
+   * Description ;
+   * Nombre de caractéristiques dans l’aliment pour animaux ;
 
-1. Boutons Informations sur la planification .
-   * Cliquez sur **[!UICONTROL Explore All Traits]** pour afficher des détails sur toutes les caractéristiques du flux de données sélectionné.
-   * Cliquez sur **[!UICONTROL Request More Details]** pour poser des questions au fournisseur de données au sujet du flux de données sélectionné ou pour demander une remise. Cette fonctionnalité envoie directement vos commentaires et vos questions au fournisseur de données.
+1. Boutons Informations sur le plan.
+   * Cliquez sur **[!UICONTROL Explore All Traits]** pour afficher les détails de toutes les caractéristiques du flux de données sélectionné.
+   * Cliquez sur **[!UICONTROL Request More Details]** pour poser au fournisseur de données des questions sur le flux de données sélectionné ou pour demander une remise. Cette fonctionnalité envoie directement vos commentaires et questions au fournisseur de données.
 
-1. Mesures du rapport Flux de données. Le diagramme de Venn (et les mesures associées) montre les données de chevauchement des caractéristiques des 30 derniers jours. Pour plus d’informations, voir [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) .
-   * **[!UICONTROL 30 Day Overlapped Uniques]** : nombre d’utilisateurs uniques dans votre compte qui chevauchent les utilisateurs dans le compte du fournisseur. Pour obtenir une définition des utilisateurs uniques, voir AAM UUID dans l’ [Index des identifiants dans l’Audience Manager](/help/using/reference/ids-in-aam.md).
+1. Mesures de rapport sur les flux de données. Le diagramme de Venn (et les mesures associées) vous montre les données de chevauchement des caractéristiques pour les 30 derniers jours. Pour plus d’informations, consultez [La marketplace : À propos](marketplace-data-buyers.md#about-marketplace) .
+   * **[!UICONTROL 30 Day Overlapped Uniques]** : nombre d’utilisateurs uniques dans votre compte qui se chevauchent avec les utilisateurs du compte du fournisseur. Pour une définition des utilisateurs uniques, voir UUID AAM dans l’[Index des ID dans Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]** : nombre d’utilisateurs uniques provenant du compte du fournisseur.
    * **[!UICONTROL Your Unique Users]** : nombre d’utilisateurs uniques provenant de votre compte.
 
-1. **[!UICONTROL Plan Details]** Table. Ce tableau présente les cas d’utilisation pour lesquels vous pouvez vous abonner au flux de données, ainsi que son modèle de tarification. Voir [Présentation des cas d’utilisation des flux de données](#use-cases).
+1. Table **[!UICONTROL Plan Details]**. Ce tableau présente les cas d’utilisation pour lesquels vous pouvez vous abonner au flux de données, ainsi que son modèle de tarification. Voir [Comprendre les cas d’utilisation des flux de données](#use-cases).
 
-1. Boutons Planifier l’action.
+1. Boutons d’action de plan.
    * Cliquez sur **[!UICONTROL Cancel]** pour quitter la page sans apporter de modifications.
-   * Cliquez sur **[!UICONTROL Review & Subscribe]** pour vous abonner à un flux de données. Ce bouton est grisé jusqu’à ce que vous basculez un bouton [!UICONTROL Subscription] sur [!UICONTROL On]. Voir aussi [Abonnement à un flux de données public](#subscript-public-data-feed) et [Abonnement à un flux de données privé](#subscript-private-data-feed).
+   * Cliquez sur **[!UICONTROL Review & Subscribe]** pour vous abonner à un flux de données. Ce bouton est grisé jusqu’à ce que vous basculiez un bouton [!UICONTROL Subscription] sur [!UICONTROL On]. Voir aussi [S’abonner à un flux de données public](#subscript-public-data-feed) et [S’abonner à un flux de données privé](#subscript-private-data-feed).
 
-## Présentation des cas d’utilisation des flux de données {#use-cases}
+## Comprendre les cas d’utilisation des flux de données {#use-cases}
 
-En tant qu’acheteur de données [!UICONTROL Audience Marketplace], vous pouvez acheter des données pour des cas d’utilisation de chevauchement, de modélisation et d’activation. Chaque cas d’utilisation est conçu à des fins spécifiques et limite ce que vous pouvez faire avec les données. Ces descriptions de cas d’utilisation peuvent vous aider à prendre la bonne décision concernant le type de plan de données à acheter.
+En tant qu’acheteur de données [!UICONTROL Audience Marketplace], vous pouvez acheter des données pour les cas d’utilisation de chevauchement, de modélisation et d’activation. Chaque cas d’utilisation est conçu pour un objectif spécifique et limite ce que vous pouvez faire avec les données. Ces descriptions de cas d’utilisation peuvent vous aider à prendre la bonne décision concernant le type de plan de données à acheter.
 
-## Comparaison avec des segments et des plans de chevauchement {#comparisons}
+## Comparer avec les segments et les plans de chevauchement {#comparisons}
 
 <!-- c_use_cases_for_buyers.xml -->
 
 ### Segments et chevauchement
 
-Ce cas pratique vous permet de comparer vos caractéristiques avec celles du fournisseur dans un rapport de chevauchement [caractéristique-à-caractéristique.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment-à-caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment-à-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchement peuvent vous aider :
+Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un rapport de chevauchement [ caractéristique à caractéristique.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
 
-* **Étendre la portée de l’audience :** Un faible chevauchement suggère que vos caractéristiques contiennent des utilisateurs que vous n’avez jamais vus auparavant. Vous souhaitez peut-être que ces caractéristiques tentent d’atteindre de nouveaux utilisateurs.
-* **Améliorer les audiences existantes :** Un chevauchement élevé suggère que vos caractéristiques sont similaires à celles détenues par le fournisseur de données. Vous souhaitez peut-être que ces caractéristiques aident à apporter des améliorations ciblées et incrémentielles à une audience déjà développée.
+* **Étendre la portée de l’audience :** un faible chevauchement suggère que vos caractéristiques contiennent des utilisateurs que vous n’avez jamais vus auparavant. Vous souhaiterez peut-être que ces caractéristiques essaient d’atteindre de nouveaux utilisateurs.
+* **Améliorer les audiences existantes :** un chevauchement élevé suggère que vos caractéristiques sont similaires à celles du fournisseur de données. Vous pouvez avoir besoin de ces caractéristiques pour apporter des améliorations ciblées et incrémentielles à une audience déjà développée.
 
 ### Modèles algorithmiques
 
-Ce cas pratique vous permet d’évaluer les caractéristiques du fournisseur par rapport à vos caractéristiques avec la [modélisation algorithmique](../../../features/algorithmic-models/understanding-models.md#understanding-models). Par exemple, notre système de modélisation algorithmique utilise l’une de vos caractéristiques comme base de comparaison par rapport à une caractéristique du fournisseur. Lorsque le modèle s’exécute, il peut indiquer si les audiences des caractéristiques du fournisseur partagent des attributs de conversion similaires à vos caractéristiques.
+Ce cas pratique vous permet d’évaluer les caractéristiques du fournisseur par rapport à vos caractéristiques avec la [modélisation algorithmique](../../../features/algorithmic-models/understanding-models.md#understanding-models). Par exemple, notre système de modélisation algorithmique utilise l’une de vos caractéristiques comme base de comparaison avec une caractéristique du fournisseur. Lorsque le modèle s’exécute, il peut indiquer si les audiences des caractéristiques du fournisseur partagent des attributs de conversion similaires à vos caractéristiques.
 
 ### Activation
 
-Ce cas pratique vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination est un système tiers (serveur publicitaire, [!DNL DSP], [!DNL DMP], exchange, etc.) avec lequel vous souhaitez partager des données. Toutefois, avec un cas d’utilisation de [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ou tester les données dans un modèle algorithmique.
+Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination correspond à tout système tiers (serveur de publicités, [!DNL DSP], [!DNL DMP], échange, etc.) avec lequel vous souhaitez partager des données. Cependant, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
 
 >[!MORELIKETHIS]
 >
->* [Affectation de facturation et d’impression pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [ Affectation de facturation et d’impressions pour les flux de données de flux plats](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Comment signaler l’utilisation du CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
->* [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Facturation et affectation des impressions pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Facturation et affectation d’impressions pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Comment signaler l’utilisation de CPM ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Abonnement à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 >* [Remises pour les acheteurs de données](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
->* [The Marketplace : À Propos](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+>* [Le Marché : À Propos ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)

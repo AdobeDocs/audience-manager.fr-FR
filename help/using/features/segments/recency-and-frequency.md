@@ -1,5 +1,5 @@
 ---
-description: Dans le créateur de segments, la récence et la fréquence vous permettent de segmenter les visiteurs selon des actions qui se produisent ou se répètent au cours d’un intervalle quotidien défini.
+description: Dans le créateur de segments, la récence et la fréquence vous permettent de segmenter les visiteurs en fonction d’actions qui se produisent ou se répètent sur un intervalle quotidien défini.
 seo-description: In Segment Builder, recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
 seo-title: Recency and Frequency
 solution: Audience Manager
@@ -16,22 +16,22 @@ ht-degree: 1%
 
 # Récence et fréquence {#recency-and-frequency}
 
-Dans [!UICONTROL Segment Builder], la récence et la fréquence vous permettent de segmenter les visiteurs en fonction d&#39;actions qui se produisent ou se répètent sur un intervalle journalier défini.
+Dans [!UICONTROL Segment Builder], la récence et la fréquence vous permettent de segmenter les visiteurs et visiteuses en fonction d’actions qui se produisent ou se répètent sur un intervalle quotidien défini.
 
-L’Audience Manager définit [!DNL recency] et [!DNL frequency] comme suit :
+Audience Manager définit [!DNL recency] et [!DNL frequency] comme suit :
 
-* **[!UICONTROL Recency]:** Récemment, un utilisateur a consulté ou qualifié pour un (ou plusieurs) [!UICONTROL traits].
-* **[!UICONTROL Frequency]:** Taux auquel un utilisateur a consulté ou qualifié pour une (ou plusieurs) [!UICONTROL traits].
+* **[!UICONTROL Recency]:** date à laquelle un utilisateur a consulté un (ou plusieurs) [!UICONTROL traits] ou s’est qualifié pour celui-ci.
+* **[!UICONTROL Frequency]:** taux auquel un utilisateur a consulté ou s’est qualifié pour une (ou plusieurs) [!UICONTROL traits].
 
-Les paramètres [!UICONTROL Recency] et [!UICONTROL Frequency] vous aident à segmenter les visiteurs en fonction de leur niveau d’intérêt réel (ou perçu) pour un site, une section ou un élément créatif particulier. Par exemple, les utilisateurs qui remplissent les critères d’un segment avec des exigences de récence/fréquence élevée peuvent être plus intéressés par un site ou un produit que les utilisateurs qui visitent moins souvent ou moins fréquemment.
+Les paramètres [!UICONTROL Recency] et [!UICONTROL Frequency] vous permettent de segmenter les visiteurs et visiteuses en fonction de leur niveau d’intérêt réel (ou perçu) pour un site, une section ou une création particulière. Par exemple, les utilisateurs et utilisatrices qui remplissent les critères d’un segment avec des exigences de récence/fréquence élevées peuvent être plus intéressés par un site ou un produit que les utilisateurs et utilisatrices qui visitent moins souvent ou moins fréquemment.
 
 ## Emplacement des paramètres [!UICONTROL Recency and Frequency] {#location}
 
-Dans [!UICONTROL Segment Builder], les paramètres [!UICONTROL Recency] et [!UICONTROL Frequency] se trouvent dans la section [!UICONTROL Basic View] du panneau [!UICONTROL Traits]. Cliquez sur l’icône de l’horloge pour afficher ces commandes.
+En [!UICONTROL Segment Builder], les paramètres [!UICONTROL Recency] et [!UICONTROL Frequency] se trouvent dans la section [!UICONTROL Basic View] du panneau [!UICONTROL Traits]. Cliquez sur l’icône d’horloge pour afficher ces commandes.
 
 ![](assets/recency_frequency.png)
 
-## Limites et règles {#limitations-rules}
+## Restrictions et règles {#limitations-rules}
 
 Examinez et comprenez ces limites et règles lorsque vous souhaitez appliquer la récence et la fréquence aux caractéristiques de vos segments.
 
@@ -51,11 +51,11 @@ Examinez et comprenez ces limites et règles lorsque vous souhaitez appliquer la
   </tr>
   <tr> 
    <td colname="col1"> <p> <b>Types de caractéristiques</b> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez appliquer des contrôles de récence uniquement aux caractéristiques basées sur des règles et des dossiers. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez appliquer des contrôles de récence aux caractéristiques de dossiers et basées sur des règles uniquement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Caractéristiques tierces</b> </p> </td> 
-   <td colname="col2"> <p>Vous ne pouvez pas définir de règles de récence sur des caractéristiques tierces individuelles ou des groupes de caractéristiques qui contiennent des caractéristiques tierces. La récence et la fréquence s’appliquent uniquement à vos propres caractéristiques. </p> </td> 
+   <td colname="col2"> <p>Vous ne pouvez pas définir de règles de récence sur des caractéristiques tierces individuelles ou des groupes de caractéristiques contenant des caractéristiques tierces. La récence et la fréquence s’appliquent uniquement à vos propres caractéristiques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,55 +72,55 @@ Examinez et comprenez ces limites et règles lorsque vous souhaitez appliquer la
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Caractéristiques tierces</b> </p> </td> 
-   <td colname="col2"> <p>Vous ne pouvez pas définir de règles de fréquence sur des caractéristiques tierces individuelles ou des groupes de caractéristiques qui contiennent des caractéristiques tierces. La récence et la fréquence s’appliquent uniquement à vos propres caractéristiques. </p> </td> 
+   <td colname="col2"> <p>Vous ne pouvez pas définir de règles de fréquence sur des caractéristiques tierces individuelles ou des groupes de caractéristiques contenant des caractéristiques tierces. La récence et la fréquence s’appliquent uniquement à vos propres caractéristiques. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Types de caractéristiques</b> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez appliquer des contrôles de fréquence uniquement aux caractéristiques basées sur des règles et des dossiers. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez appliquer des contrôles de fréquence aux caractéristiques basées sur des règles et des dossiers uniquement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Conditions de récence</b> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez configurer les exigences de fréquence <i>sans </i> configurer les exigences de récence. Définissez simplement une valeur de fréquence et laissez le champ de récence vide. </p> </td> 
+   <td colname="col1"> <p> <b>Exigences de récence</b> </p> </td> 
+   <td colname="col2"> <p>Vous pouvez configurer les exigences de fréquence <i>sans</i> configurer les exigences de récence. Définissez simplement une valeur de fréquence et laissez le champ Récence vide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Stratégies de fusion de profils</b> </p> </td> 
-   <td colname="col2"> <p>Voir <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Fréquence des caractéristiques, représentations graphiques externes des appareils et stratégies de fusion de profils </a>. </p> </td> 
+   <td colname="col2"> <p>Voir Fréquence des caractéristiques <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules">, Graphiques d’appareil externe et Règles de fusion de profil</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples de récence {#recency-examples}
 
-Voici deux exemples de fonctionnement de la récence, selon votre sélection dans l’interface utilisateur :
+Voici deux exemples de fonctionnement de la récence, en fonction de votre sélection dans l’interface utilisateur :
 
-### Utiliser un opérateur inférieur ou égal à (&lt;=)
+### Utilisation d’un opérateur inférieur ou égal à (&lt;=)
 
-![Inférieur à égal à](assets/less-than-equal-to.png)
+![Inférieur ou égal à](assets/less-than-equal-to.png)
 
-Dans cet exemple, vous sélectionnez l’opérateur &lt;=, comme illustré dans la capture d’écran. Cela qualifie votre utilisateur pour le [!UICONTROL segment] s’il est admissible pour l’un des trois [!UICONTROL traits] au moins trois fois au cours des cinq derniers jours. La chronologie ci-dessous montre la qualification [!UICONTROL segment] au moment de la création de [!UICONTROL segment], le 1er octobre et dix jours plus tard.
+Dans cet exemple, vous sélectionnez l’opérateur &lt;= , comme illustré dans la capture d’écran. Cela qualifie votre utilisateur pour le [!UICONTROL segment] s’il est éligible à l’un des trois [!UICONTROL traits] au moins trois fois au cours des cinq derniers jours. La chronologie ci-dessous montre la qualification du [!UICONTROL segment] au moment de la création du [!UICONTROL segment], le 1er octobre et dix jours plus tard.
 
-![Derniers-cinq-jours](assets/last-5-days.png)
+![Cinq derniers jours](assets/last-5-days.png)
 
-### Utiliser un opérateur supérieur ou égal à (=>)
+### Utilisation d’un opérateur supérieur ou égal à (=>)
 
-![Supérieur-égal à](assets/greater-than-equal-to.png)
+![Supérieur ou égal à](assets/greater-than-equal-to.png)
 
-Dans cet exemple, vous sélectionnez l&#39;opérateur =>, comme illustré dans la capture d&#39;écran. Cela qualifie votre utilisateur pour le [!UICONTROL segment] s’il est admissible pour l’un des trois [!UICONTROL traits] au moins trois fois à tout moment entre sa première qualification sur la plateforme d’Audience Manager et l’heure d’interruption il y a cinq jours. La chronologie ci-dessous montre la qualification [!UICONTROL segment] au moment de la création de [!UICONTROL segment], le 1er octobre et dix jours plus tard.
+Dans cet exemple, vous sélectionnez l’opérateur =>, comme illustré dans la capture d’écran. Cela qualifie votre utilisateur pour la [!UICONTROL segment] s’il est éligible à l’une des trois [!UICONTROL traits] au moins trois fois à tout moment entre sa première qualification sur la plateforme Audience Manager et la date limite fixée il y a cinq jours. La chronologie ci-dessous montre la qualification du [!UICONTROL segment] au moment de la création du [!UICONTROL segment], le 1er octobre et dix jours plus tard.
 
-![Ancienne qualification](assets/earlier-qualification.png)
+![Qualification antérieure](assets/earlier-qualification.png)
 
 
-## Exemples de limitation de fréquence {#frequency-capping}
+## Exemples de limitation de la fréquence {#frequency-capping}
 
-Les expressions de limitation de fréquence incluent tous les utilisateurs dont le nombre de réalisations [!UICONTROL trait] est inférieur à la valeur souhaitée. Voici quelques exemples de droite et de mauvaise qualité :
+Les expressions de limitation de la fréquence incluent tous les utilisateurs dont le nombre de réalisations [!UICONTROL trait] est inférieur à une valeur souhaitée. Voici quelques exemples réels et erronés :
 
-* Erreur : l’expression `frequency([1000T]) <= 5` inclut tous les utilisateurs qui ont réalisé le [!UICONTROL trait] avec l’ID &quot;1000&quot; au maximum cinq fois, mais inclut également les utilisateurs qui n’ont pas réalisé le [!UICONTROL trait]. Par conséquent, l’Audience Manager ne valide pas cette expression pour des raisons de performances, car elle qualifierait trop d’utilisateurs pour l’ [!UICONTROL segment].
+* Erreur - L’expression `frequency([1000T]) <= 5` inclut tous les utilisateurs qui ont réalisé l’[!UICONTROL trait] avec l’ID « 1 000 » un maximum de cinq fois, mais inclut également les utilisateurs qui n’ont pas réalisé l’[!UICONTROL trait]. Par conséquent, Audience Manager ne valide pas cette expression pour des raisons de performances, car elle qualifierait trop d’utilisateurs pour la [!UICONTROL segment].
 
-* Droite : si vous souhaitez inclure cinq fois au maximum tous les utilisateurs qui ont réalisé le [!UICONTROL trait] avec l’ID &quot;1000&quot;, ajoutez une autre condition à l’expression, afin de vous assurer que les utilisateurs sont qualifiés pour le [!UICONTROL trait] au moins une fois : `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+* Droite : si vous souhaitez inclure tous les utilisateurs qui ont réalisé l’[!UICONTROL trait] avec l’ID « 1 000 » cinq fois au maximum, ajoutez une autre condition à l’expression, pour vous assurer que les utilisateurs se sont qualifiés pour l’[!UICONTROL trait] au moins une fois : `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
-* Droit : lorsque vous avez besoin que les exigences de récence/fréquence soient inférieures à un nombre spécifique de fois ou de jours, joignez cet [!UICONTROL trait] à un autre avec un opérateur `AND`. En utilisant l’exemple du premier point de puce, cette expression devient valide lorsqu’elle est associée à un autre [!UICONTROL trait] comme illustré ici : `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* À droite : lorsque vous avez besoin que les exigences en matière de récence/fréquence soient inférieures à un nombre spécifique de fois ou de jours, joignez ce [!UICONTROL trait] à un autre avec un opérateur `AND`. En reprenant l’exemple du premier point, cette expression devient valide lorsqu’elle est jointe à une autre [!UICONTROL trait], comme illustré ici : `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* Droit - Pour les cas d’utilisation de limitation de la fréquence des publicités, vous pouvez créer une règle [!UICONTROL segment] similaire à celle-ci : `(frequency([1000T] <= 2D) >= 5)`. Cette expression inclut tous les utilisateurs qui ont réalisé [!UICONTROL trait] avec l’ID &quot;1000&quot; au cours des 2 derniers jours au moins cinq fois. Définissez la limitation de la fréquence en envoyant cet [!UICONTROL segment] au serveur d’annonces avec un `NOT` défini sur le [!UICONTROL segment] dans le serveur d’annonces. Cette approche permet d’obtenir de meilleures performances dans [!DNL Audience Manager] tout en poursuivant le même objectif pour le plafonnement de la fréquence.
+* Droite : pour les cas d’utilisation de limitation de la fréquence de la publicité, vous pouvez créer une règle de [!UICONTROL segment] similaire à celle-ci : `(frequency([1000T] <= 2D) >= 5)`. Cette expression inclut tous les utilisateurs qui ont réalisé le [!UICONTROL trait] avec l’ID « 1 000 » au cours des 2 derniers jours au moins cinq fois. Définissez le capping de la fréquence en envoyant ce [!UICONTROL segment] au serveur d’annonces avec un `NOT` défini sur le [!UICONTROL segment] du serveur d’annonces. Cette approche permet d&#39;obtenir de meilleures performances en [!DNL Audience Manager] tout en poursuivant le même objectif de limitation de fréquence.
 
 >[!MORELIKETHIS]
 >

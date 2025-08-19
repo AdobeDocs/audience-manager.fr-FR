@@ -1,6 +1,6 @@
 ---
 description: Questions et problèmes courants associés aux produits et aux fonctions.
-keywords: cookies d’audience manager
+keywords: cookies audience manager
 seo-description: Common product and function-related questions and issues.
 seo-title: Product Features and Functions FAQ
 solution: Audience Manager
@@ -33,7 +33,7 @@ L’*`Organization ID`* est un identifiant unique qui identifie votre organisati
 
 Par exemple, un *`Organization ID`* ressemble à ceci : `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-L’*`Organization ID`* est utilisé par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), et d’autres solutions [!DNL Experience Cloud]. Les utilisateurs possédant des autorisations d’administrateur peuvent trouver l’*`Organization ID`* dans [!DNL Adobe Admin Console]. Voir la [FAQ Administration - Gestion des utilisateurs](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+L’*`Organization ID`* est utilisé par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), et d’autres solutions [!DNL Experience Cloud]. Les utilisateurs possédant des autorisations d’administrateur peuvent trouver l’*`Organization ID`* dans [!DNL Adobe Admin Console]. Voir la [FAQ Administration - Gestion des utilisateurs](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -47,9 +47,9 @@ Oui. Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Lors d’une exportation d’ID en bloc vers une destination, certains ID de client sont absents. Pourquoi cela se produit-il ?**
+**Lors de l’exportation d’un ID en bloc vers une destination , certains ID de client sont manquants. Pourquoi cela arrive-t-il ?**
 
-Lorsqu’un identifiant d’appareil ([AAM UUID](../reference/ids-in-aam.md)) est lié à plusieurs identifiants CRM ([DPUUIDs](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi le nombre d’identifiants d’appareil exportés est peut-être inférieur à ce qui était prévu.
+Lorsqu’un ID d’appareil ([UUID AAM](../reference/ids-in-aam.md)) est lié à plusieurs ID de CRM ([DPUUID](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi vous pourriez voir un nombre d’identifiants d’appareil exportés inférieur à celui prévu.
 
  
 
@@ -67,7 +67,7 @@ Votre flux de données et toutes les caractéristiques contenues dans les flux a
 
 **Qu’est-ce que [!UICONTROL Tag Insertion Manager (TIM)] ?**
 
-Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. Cette fonction est obsolète et a été remplacée par [!UICONTROL Dynamic Tag Manager (DTM)], puis par [!DNL Adobe Experience Platform Tags]. Pour plus d’informations, voir [Balises Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
+Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. Cette fonction est obsolète et a été remplacée par [!UICONTROL Dynamic Tag Manager (DTM)], puis par [!DNL Adobe Experience Platform Tags]. Pour plus d&#39;informations, voir [Balises Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 
@@ -95,4 +95,4 @@ Vous devez utiliser les recommandations de caractéristiques lorsque :
 
 **Y a-t-il une différence entre les segments Adobe Analytics et Audience Manager ?**
 
-Oui, veuillez lire [Présentation des segments dans Analytics et Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=fr) pour une description approfondie des différences.
+Oui, veuillez lire [Présentation des segments dans Analytics et Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour une description approfondie des différences.

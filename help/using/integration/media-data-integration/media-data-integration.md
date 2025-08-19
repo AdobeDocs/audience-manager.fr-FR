@@ -1,9 +1,9 @@
 ---
-description: Vous pouvez capturer des données provenant de campagnes multimédia à l’aide d’appels de pixel à l’Audience Manager (souvent appelés pixellisation de l’élément créatif) ou en ingérant des fichiers journaux.
+description: Vous pouvez capturer des données à partir de campagnes multimédia à l’aide d’appels de pixels à Audience Manager (souvent appelés pixellisation de la création) ou en ingérant des fichiers journaux.
 seo-description: You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files.
 seo-title: Media Data Integration
 solution: Audience Manager
-title: Intégration de données multimédia
+title: Intégration des données multimédia
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
 feature: Adobe Campaign Integration
 exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
@@ -14,18 +14,18 @@ ht-degree: 2%
 
 ---
 
-# Intégration de données multimédia {#media-data-integration}
+# Intégration des données multimédia {#media-data-integration}
 
-Vous pouvez capturer des données provenant de campagnes multimédia à l’aide d’appels de pixel à l’Audience Manager (souvent appelés pixellisation de l’élément créatif) ou en ingérant des fichiers journaux. Lisez les articles de cette section pour comprendre le processus.
+Vous pouvez capturer des données à partir de campagnes multimédia à l’aide d’appels de pixels à Audience Manager (souvent appelés pixellisation de la création) ou en ingérant des fichiers journaux. Lisez les articles de cette section pour comprendre le processus.
 
 <!-- c_camp_data_int.xml -->
 
 * [Fichiers journaux pratiques](/help/using/integration/media-data-integration/actionable-log-files.md)
-* [Capture des données d’impression de campagne via des appels de pixel](/help/using/integration/media-data-integration/impression-data-pixels.md)
-* [Capture des données de clic de campagne via des appels de pixel](/help/using/integration/media-data-integration/click-data-pixels.md)
+* [Capture de données d’impression de campagne par le biais d’appels de pixels](/help/using/integration/media-data-integration/impression-data-pixels.md)
+* [Capture des données de clics Campaign via des appels de pixels](/help/using/integration/media-data-integration/click-data-pixels.md)
 
-Pour configurer l’ingestion de journaux, lisez les articles suivants :
+Pour configurer l’ingestion du journal, lisez les articles suivants :
 
-* [Importation des fichiers de données Google Campaign Manager dans Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importation de fichiers de données Google Ad Manager dans Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Fichiers de données et de métadonnées journaux](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) pour configurer l’ingestion de journaux pour les fichiers journaux génériques
+* [Importer Les Fichiers De Données Google Campaign Manager Dans Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Importer Les Fichiers De Données Google Ad Manager Dans Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Fichiers de métadonnées et de données de journal](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) pour configurer l’ingestion de journaux pour les fichiers journaux génériques

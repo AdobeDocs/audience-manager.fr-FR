@@ -37,7 +37,7 @@ Certains navigateurs et la plupart des appareils mobiles n’acceptent pas les [
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Appel d’événement</b> </td> 
-   <td colname="col2"> <p>Pour fonctionner, vous avez besoin <span class="wintitle"> code de </span> DIL et du </a> Adobe Experience Platform Identity Service <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr" format="https" scope="external"> sur la page. <span class="wintitle"> </span> DIL obtient <span class="wintitle"> identifiants déclarés </span> à partir de la fonction <code> setVisitorID </code> fournie par le </span> du service d’identités de Adobe Experience Platform <span class="keyword"> et le transmet à <span class="keyword">’</span> Audience Manager. </p> </td> 
+   <td colname="col2"> <p>Pour fonctionner, vous avez besoin <span class="wintitle"> code de </span> DIL et du <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> sur la page. <span class="wintitle"> </span> DIL obtient <span class="wintitle"> identifiants déclarés </span> à partir de la fonction <code> setVisitorID </code> fournie par le <span class="keyword"> du service d’identités de Adobe Experience Platform </span> et le transmet à <span class="keyword">’</span> Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de correspondance</b> </td> 
@@ -60,7 +60,7 @@ Pour commencer, vous devez configurer le service d’ID de [!DNL Experience Clou
 
 Le processus [!UICONTROL declared ID] respecte les préférences des visiteurs du site pour leur permettre de se désabonner du ciblage [!DNL Audience Manager] par votre site web. Lorsqu&#39;[!DNL Audience Manager] reçoit une demande d&#39;opt-out, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d&#39;erreur 171, avec le message `Encountered opt out tag`, au lieu de l&#39;identifiant utilisateur [!DNL Audience Manager].
 
-* [!DNL Audience Manager] pouvez transmettre un opt-out [!UICONTROL declared ID] avec un [!UICONTROL UUID] [!DNL Audience Manager] dans le [!DNL URL].
+* [!DNL Audience Manager] pouvez transmettre un opt-out [!UICONTROL declared ID] avec un [!DNL Audience Manager] [!UICONTROL UUID] dans le [!DNL URL].
 * Le processus d’opt-out [!UICONTROL declared ID] est stocké dans le [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) sur une base par partenaire. Il n’existe aucune désinscription au niveau de la plateforme à l’aide de [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] exclut l’utilisateur de cette région particulière sur le serveur Edge (l’exclusion ne traverse pas les régions [!DNL DCS]).
 
 Consultez [ Confidentialité des données ](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur le droit d’opposition à la collecte de données.
@@ -184,7 +184,7 @@ Décrit les variables de configuration utilisées pour transmettre des [!UICONTR
 
 ## [!UICONTROL DIL] utilise l’[!DNL Adobe Experience Platform Identity Service] pour transmettre des [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Lorsqu’il est utilisé avec le service d’identités [Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), vous n’avez plus besoin de transmettre des [!UICONTROL declared IDs] avec les variables `dpid` et `dpuuid` obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la fonction `visitorService` pour obtenir le [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. Pour plus d’informations, voir [ ID de client et états d’authentification ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). Vous pouvez appeler `visitorService` en `DIL.create`, comme illustré ci-dessous.
+Lorsqu’il est utilisé avec le service d’identités [Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html), vous n’avez plus besoin de transmettre des [!UICONTROL declared IDs] avec les variables `dpid` et `dpuuid` obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la fonction `visitorService` pour obtenir le [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. Pour plus d’informations, voir [ ID de client et états d’authentification ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Vous pouvez appeler `visitorService` en `DIL.create`, comme illustré ci-dessous.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-Dans la paire clé-valeur `namespace`, `MCORG` correspond à l’ID d’organisation [!DNL Experience Cloud]. Si vous ne disposez pas de cet identifiant, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin d’autorisations d’administrateur pour afficher ce tableau de bord. Voir [Prise en main des services Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/getting-started).
+Dans la paire clé-valeur `namespace`, `MCORG` correspond à l’ID d’organisation [!DNL Experience Cloud]. Si vous ne disposez pas de cet identifiant, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin d’autorisations d’administrateur pour afficher ce tableau de bord. Voir [Prise en main des services Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Fonctions obsolètes {#deprecated-functions}
 
@@ -248,7 +248,7 @@ DIL.create({
 
 >[!NOTE]
 >
->Si vous effectuez un appel [!DNL API] avec une autre combinaison de `declaredID`, la nouvelle combinaison sera utilisée uniquement pour cet appel. D’autres appels d’événement réguliers utiliseront la combinaison de `declaredID` `DIL.create` d’origine.
+>Si vous effectuez un appel [!DNL API] avec une autre combinaison de `declaredID`, la nouvelle combinaison sera utilisée uniquement pour cet appel. D’autres appels d’événement réguliers utiliseront la combinaison de `DIL.create` `declaredID` d’origine.
 
 ```js
 DIL.getDil('partner name').api.signals({...}).declaredId({

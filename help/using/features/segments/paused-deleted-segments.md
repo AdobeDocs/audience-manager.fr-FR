@@ -16,31 +16,31 @@ ht-degree: 0%
 
 # Segments en pause et supprimés {#paused-and-deleted-segments}
 
-Décrit les effets sur les utilisateurs, les données et les destinations segmentés lorsque vous suspendez ou supprimez un segment actif à l’aide de [!UICONTROL Segment Builder].
+Décrit les effets sur des utilisateurs, des données et des destinations segmentés lorsque vous mettez en pause ou supprimez un segment actif à l’aide de [!UICONTROL Segment Builder].
 
-## Accès aux commandes de mise en pause et de suppression
+## Accès aux commandes de pause et de suppression
 
-Passez la souris sur un nom de segment dans la liste de segments pour afficher les icônes **[!UICONTROL pause]** et **[!UICONTROL delete]** (dans la colonne [!UICONTROL Actions]). Ces fonctionnalités affectent les segments comme décrit ci-dessous.
+Passez la souris sur un nom de segment de la liste pour afficher les icônes de **[!UICONTROL pause]** et de **[!UICONTROL delete]** (dans la colonne [!UICONTROL Actions]). Ces fonctionnalités affectent les segments comme décrit ci-dessous.
 
-## Fonctionnalité de segment suspendue
+## Fonctionnalité De Segment En Pause
 
 Un segment en pause (désactivé) :
 
-* Arrête la segmentation des nouveaux utilisateurs qualifiés.
-* Conserve l’état/l’appartenance de segmentation d’un utilisateur (ne supprime pas un utilisateur du segment).
+* Arrête la segmentation des nouveaux utilisateurs et utilisatrices qualifiés.
+* Conserve le statut/l’appartenance de segmentation d’un utilisateur (ne supprime pas un utilisateur du segment).
 * Reste dans la liste des segments et peut être réactivé.
-* N’envoie pas de données vers les destinations associées.
+* N’envoie pas de données aux destinations associées.
 * Renvoie les données des rapports disponibles (jusqu’à la date de désactivation).
 
-## Fonctionnalité de segment supprimée
+## Fonctionnalité de segment supprimé
 
 Un segment supprimé :
 
-* Arrête la segmentation des nouveaux utilisateurs qualifiés.
-* Supprime les utilisateurs qualifiés de l’adhésion au segment.
+* Arrête la segmentation des nouveaux utilisateurs et utilisatrices qualifiés.
+* Supprime les utilisateurs qualifiés de l’appartenance à un segment.
 * Est supprimé de la liste des segments.
 * Impossible d’annuler la suppression.
-* N’envoie pas de données vers les destinations associées.
+* N’envoie pas de données aux destinations associées.
 * Ne renvoie pas de données dans les rapports disponibles.
 
 >[!NOTE]

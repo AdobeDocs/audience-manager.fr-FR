@@ -1,9 +1,9 @@
 ---
-description: Méthodes qui permettent de répertorier par programmation les régions DCS d’Audience Manager.
+description: Méthodes vous permettant de répertorier par programmation les régions Audience Manager DCS.
 seo-description: Methods that let you programmatically list Audience Manager DCS regions.
 seo-title: DCS Region API Methods
 solution: Audience Manager
-title: Méthodes d’API de région DCS
+title: Méthodes d’API de la région DCS
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 feature: API
 exl-id: 3cd1700e-6914-46be-a0be-a870c472343e
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 ---
 
-# Méthodes d’API de région DCS {#dcs-region-api-methods}
+# Méthodes d’API de la région DCS {#dcs-region-api-methods}
 
-Méthodes qui permettent de répertorier par programmation les régions d’Audience Manager [!DNL DCS].
+Méthodes vous permettant de répertorier par programmation les régions Audience Manager [!DNL DCS].
 
 <!-- c_rest_api_regions.xml -->
 
-Pour obtenir la liste des régions et de leurs nombres entiers correspondants, voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Pour obtenir la liste des régions et leurs entiers correspondants, voir [ID de région, emplacements et noms d’hôte du serveur de collecte de données](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## Liste d’une région DCS spécifique {#list-specific-dcs-region}
 
-Une méthode `GET` pour répertorier une région [!DNL DCS] spécifique.
+Méthode `GET` pour répertorier une région [!DNL DCS] spécifique.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -50,7 +50,7 @@ Une méthode `GET` pour répertorier une région [!DNL DCS] spécifique.
 
 Renvoie `200 OK` en cas de réussite.
 
-Pour obtenir la liste des régions et de leurs nombres entiers correspondants, voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Pour obtenir la liste des régions et leurs entiers correspondants, voir [ID de région, emplacements et noms d’hôte du serveur de collecte de données](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## Liste des régions DCS {#list-dcs-regions}
 
@@ -83,4 +83,4 @@ Une méthode `GET` pour répertorier les régions [!DNL DCS].
 
 Renvoie `200 OK` en cas de réussite.
 
-Pour obtenir la liste des régions et de leurs nombres entiers correspondants, voir [ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Pour obtenir la liste des régions et leurs entiers correspondants, voir [ID de région, emplacements et noms d’hôte du serveur de collecte de données](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

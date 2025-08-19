@@ -48,6 +48,6 @@ Dans ce cas, [!UICONTROL Audience Lab] comptabilise trois conversions : une pou
 
 Reportez-vous à la [Création d’un groupe de test de segments](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) pour en savoir plus sur la manière d’utiliser [!UICONTROL Audience Lab] avec des privilèges [!UICONTROL RBAC].
 
-**Puis-je utiliser [!UICONTROL Audience Lab] conjointement avec [!UICONTROL Profile Link Device Graph] et les représentations graphiques externes des appareils ( Tapad Device Graph, Liveramp Device Graph) ?**
+**Puis-je utiliser [!UICONTROL Audience Lab] conjointement avec les graphiques d’appareils [!UICONTROL Profile Link Device Graph] et externes ( graphique d’appareil Tapad, graphique d’appareil Liveramp) ?**
 
 Pour l’instant, [!UICONTROL Audience Lab] peut uniquement fractionner les populations de segments selon les appareils connectés à un appareil qualifié, en utilisant le [!UICONTROL Profile Link Device Graph]. L’ajout de la prise en charge d’autres représentations graphiques des appareils par [!UICONTROL Audience Lab] est en cours ; vous serez informé dès qu’elle sera disponible.

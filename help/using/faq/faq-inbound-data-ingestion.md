@@ -1,6 +1,6 @@
 ---
 description: Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
-keywords: ftp ou s3, s3 ou ftp
+keywords: ftp ou s3 ; s3 ou ftp
 seo-description: Frequently asked questions about bringing offline data into Audience Manager.
 seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
@@ -35,9 +35,9 @@ Le processus d’intégration comprend deux étapes décrites dans la [présenta
 Nous recommandons de procéder comme suit :
 
 * Contactez votre fournisseur de données pour formater le fichier de données entrant quotidien en fonction des spécifications d’Adobe. Consultez la documentation suivante pour connaître les exigences en matière de dénomination et de syntaxe des fichiers :
-   * [Exigences en matière de nom et de contenu pour les fichiers de synchronisation d’identifiants](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+   * [Nom et contenu requis pour les fichiers de synchronisation des identifiants](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
    * [Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et exemples](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-   * [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+   * [Exigences relatives au nom et à la taille de fichier Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * Contactez votre conseiller [!DNL Adobe] afin de transférer un fichier de données de test vers [!DNL Adobe] pour la vérification du format.
 * Contactez votre conseiller [!DNL Adobe] pour produire une taxonomie adaptée à l’interprétation du contenu du fichier de données.
 * Dans l’environnement d’évaluation/de développement, vérifiez que la synchronisation des identifiants est configurée de manière à récupérer correctement l’identifiant visiteur du fournisseur de données et à le transférer aux serveurs [!DNL Audience Manager] en temps réel.
@@ -58,10 +58,10 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 **Puis-je charger un fichier de données entrant (fichier [!DNL .sync] ou [!DNL .overwrite]) avant de déployer le code [!DNL Audience Manager] en production ?**
 
-Oui. Tant que vous utilisez un [!UICONTROL cross-device data source] pour stocker les données de gestion de la relation client que vous chargez, l’Audience Manager stocke toujours les données. En fait, à la suite des améliorations [!UICONTROL Profile Merge Rules] de l’Audience Manager lancée en octobre 2019 qui permettent des cas d’utilisation hors ligne uniquement, vous pouvez télécharger et agir sur les données sans déployer de code d’Audience Manager en production. Voir :
+Oui. Tant que vous utilisez un [!UICONTROL cross-device data source] pour stocker les données CRM que vous chargez, Audience Manager stocke toujours les données. En fait, suite aux améliorations [!UICONTROL Profile Merge Rules] apportées par Audience Manager en octobre 2019 qui permettent des cas d’utilisation hors ligne uniquement, vous pouvez charger et agir sur les données sans déployer le code Audience Manager en production. Voir :
 
-* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=fr)
-* [!UICONTROL People-based Destinations] - [Personalization basé sur les données hors ligne uniquement](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=fr)
+* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalization Basé sur des données hors ligne uniquement](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -169,7 +169,7 @@ Les cas d’utilisation suivants montrent comment ces types de fichiers affecten
 
 Pour plus d’informations sur les types de fichiers complets et incrémentiels, voir :
 
-* [Exigences en matière de nom et de taille de fichier Amazon S3 pour les données entrantes...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Exigences relatives au nom et à la taille de fichier Amazon S3 pour les données entrantes...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -183,11 +183,11 @@ Pendant le traitement, [!DNL Audience Manager] ignore cet enregistrement et pass
 
 Les horodatages sont utilisés pour la journalisation et la conservation d’enregistrements. Ils sont requis par la syntaxe utilisée pour un nom de fichier entrant correctement formaté. Voir :
 
-* [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Exigences de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**Qu’est-ce qu’un [!DNL Data Provider ID (DPID)] et comment puis-je l’obtenir ?**
+**Qu’est-ce qu’un [!DNL Data Provider ID (DPID)] et comment l’obtenir ?**
 
 Votre conseiller Adobe attribuera un [DPID (identifiant de fournisseur de données)](../reference/ids-in-aam.md) à trois ou quatre chiffres à votre source de données particulière. Cet identifiant est unique et ne change pas.
 
@@ -203,14 +203,14 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 Oui, voir :
 
-* [Compression de fichiers pour les fichiers de transfert de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [Exigences en matière de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Compression des fichiers pour le transfert de données entrantes](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+* [Exigences de nom Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
 **La clé primaire de ma base de données de source de données est une adresse électronique. Est-elle considérée comme une information d’identification personnelle ?**
 
-Oui. [!DNL Audience Manager] ne stocke pas d’adresses électroniques dans sa base de données. Les visiteurs doivent se voir attribuer un identifiant généré de manière aléatoire ou une version hachée à sens unique de l’adresse électronique avant d’initier les synchronisations des identifiants.
+Oui. [!DNL Audience Manager] ne stocke pas d’adresses électroniques dans sa base de données. Avant de lancer la synchronisation des identifiants, les visiteurs doivent se voir attribuer un identifiant généré de manière aléatoire ou une version à usage unique de l’adresse e-mail.
 
  
 
@@ -226,7 +226,7 @@ Nous recommandons [!DNL Amazon S3], car le processus est plus simple. [!DNL Audi
 
 >[!WARNING]
 >
->Nous supprimons progressivement la prise en charge des configurations FTP. Bien que l’ingestion de fichiers de données entrants soit toujours prise en charge dans les intégrations FTP existantes, nous vous recommandons vivement d’utiliser [!DNL Amazon S3] pour intégrer des données hors ligne pour les nouvelles intégrations. Pour plus d’informations, consultez [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Nous supprimons progressivement la prise en charge des configurations FTP. Bien que l’ingestion de fichiers de données entrants soit toujours prise en charge dans les intégrations FTP existantes, nous vous recommandons vivement d’utiliser [!DNL Amazon S3] pour intégrer des données hors ligne dans le cadre de nouvelles intégrations. Pour plus d’informations, consultez [Exigences en matière de nom et de taille de fichier Amazon S3 pour les fichiers de données entrants](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 

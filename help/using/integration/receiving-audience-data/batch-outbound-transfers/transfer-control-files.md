@@ -1,5 +1,5 @@
 ---
-description: Les fichiers de contrôle de transfert (.info) fournissent des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement les transferts de fichiers.
+description: Les fichiers de contrôle des transferts (.info) fournissent des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier qu’Audience Manager a géré correctement les transferts de fichiers.
 seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 # Fichiers de contrôle de transfert pour les transferts de fichiers journaux {#transfer-control-files-for-log-file-transfers}
 
-Les fichiers de contrôle de transfert ([!DNL .info]) fournissent des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement les transferts de fichiers.
+Les fichiers de contrôle de transfert ([!DNL .info]) fournissent des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier qu’Audience Manager a géré correctement les transferts de fichiers.
 
-[!DNL Audience Manager] envoie un fichier de contrôle de transfert à un partenaire avec chaque transfert de fichier. En raison de la nature multi-thread de l’éditeur [!DNL FTP], le fichier de contrôle de transfert peut être envoyé avant que les fichiers réels ne soient transférés.
+[!DNL Audience Manager] envoie un fichier de contrôle de transfert à un partenaire à chaque transfert de fichier. En raison de la nature multi-thread de l’éditeur [!DNL FTP], le fichier de contrôle de transfert peut être envoyé avant que le transfert des fichiers ne soit terminé.
 
-Les métadonnées du fichier [!DNL .info] permettent aux partenaires :
+Les métadonnées du fichier [!DNL .info] permettent aux partenaires de :
 
-* Déterminer à quel moment le cycle de transfert complet est terminé (le nombre total de fichiers dans la séquence a été livré) ;
-* Déterminer si un fichier donné de la séquence est complet/correct (en examinant la taille du fichier en octets et le nombre total de lignes) ;
-* Validez le nombre de lignes dans les fichiers bruts par rapport au nombre de lignes après le chargement des fichiers dans la base de données du côté de réception (taille du fichier en lignes).
+* Déterminez à quel moment un cycle complet de transfert est terminé (le nombre total de fichiers dans la séquence a été livré);
+* déterminer si un fichier donné de la séquence est complet/correct (en examinant la taille du fichier en octets et le nombre total de lignes);
+* Validez le nombre de lignes dans les fichiers bruts par rapport au nombre de lignes une fois les fichiers chargés dans la base de données à la réception (taille du fichier dans les lignes).
 
 ## Conventions de dénomination des fichiers {#file-naming-conventions}
 
-Le fichier de contrôle de transfert porte le même nom que la racine du lot/de la séquence avec une extension de fichier [!DNL .info].s
+Le fichier de contrôle de transfert porte le même nom que la racine du lot/de la séquence avec une extension de fichier [!DNL .info].
 
-Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12345_67890_full_1500727351632-1.sync], le fichier de contrôle sera nommé [!DNL ftp_12345_67890_iter_1500727351632.info].
+Par exemple, si le premier fichier de la séquence était nommé : [!DNL ftp_12345_67890_full_1500727351632-1.sync], le fichier de contrôle serait nommé [!DNL ftp_12345_67890_iter_1500727351632.info].
 
 ## Format du fichier {#file-format}
 
@@ -77,8 +77,8 @@ Par exemple, si le premier fichier de la séquence a été nommé : [!DNL ftp_12
 
 >[!NOTE]
 >
-> Les nombres totaux des lots sont exclusifs au fichier [!DNL .info]. En d’autres termes, les totaux n’incluent pas le fichier [!DNL .info], sa taille en octets ou son nombre de lignes.
+> Les nombres totaux des lots ne comprennent pas le fichier [!DNL .info] lui-même. En d’autres termes, les totaux n’incluent pas le fichier [!DNL .info], sa taille en octets ou son nombre de lignes.
 >
-> Les tailles d’octet des fichiers et le nombre de lignes incluent tous les en-têtes et espaces (vierges) lignes/lignes. Pour obtenir le nombre de lignes/lignes de données réelles, soustrayez les en-têtes.
+> Les tailles en octets des fichiers et le nombre de lignes incluent les lignes/lignes d’en-tête et d’espacement (vides). Pour obtenir le nombre de lignes/lignes de données réelles, soustrayez des en-têtes.
 >
-> Les lignes totales du lot et la taille totale des octets incluent n’importe quelle rangée d’en-tête et d’espace.
+> Le nombre total de lignes dans le lot et la taille totale des octets incluent les lignes d’en-tête et d’espace.

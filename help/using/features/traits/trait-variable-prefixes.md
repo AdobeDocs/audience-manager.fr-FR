@@ -1,5 +1,5 @@
 ---
-description: Cet article décrit les préfixes que vous devez joindre aux variables clés lors de la création de règles de caractéristiques.
+description: Cet article décrit les préfixes que vous devez attacher aux variables clés lors de la création de règles de caractéristique.
 seo-description: This article describes the prefixes you must attach to key variables when creating trait rules.
 seo-title: Prefix Requirements for Key Variables
 solution: Audience Manager
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Exigences de préfixe pour les variables clés {#prefix-requirements-for-key-variables}
 
-Cet article décrit les préfixes que vous devez joindre aux variables clés lors de la création de règles de caractéristiques.
+Cet article décrit les préfixes que vous devez attacher aux variables clés lors de la création de règles de caractéristique.
 
 <!-- r_tb_variable_prefixes.xml -->
 
 ## Objectif des préfixes de variables clés
 
-Lorsque vous créez des règles [!UICONTROL Trait Builder], il est important de préfacer la variable clé avec un préfixe recommandé. Ces préfixes identifient le type de données transmises et permettent d&#39;éviter les conflits d&#39;espace de noms dans [!DNL Audience Manager]. En règle générale, vous pouvez donner un nom à une variable, mais les données d’une règle ne seront pas traitées si le nom de la variable clé ne correspond pas au nom de la variable dans un appel d’événement.
+Lorsque vous créez des règles de [!UICONTROL Trait Builder], il est important de faire précéder la variable clé d’un préfixe recommandé. Ces préfixes identifient le type de données transmis et permettent d’éviter les conflits d’espace de noms dans [!DNL Audience Manager]. En règle générale, vous pouvez donner un nom à une variable, mais les données d’une règle ne sont pas traitées si le nom de la variable clé ne correspond pas au nom de la variable dans un appel d’événement.
 
-## Préfixes pour les variables clés
+## Préfixes des variables clés
 
-Le tableau suivant définit les préfixes communs utilisés par [!UICONTROL Trait Builder].
+Le tableau suivant définit les préfixes courants utilisés par [!UICONTROL Trait Builder].
 
 <table id="table_CFEFA1DBDF904736B6EA2640B7AD26E5"> 
  <thead> 
@@ -38,19 +38,19 @@ Le tableau suivant définit les préfixes communs utilisés par [!UICONTROL Trai
  <tbody> 
   <tr> 
    <td colname="col1"><code> c_</code> </td> 
-   <td colname="col2"> <p>Comme spécifique au client. Il s’agit de données clés envoyées à partir de vos propres propriétés. </p> </td> 
+   <td colname="col2"> <p>En tant que client spécifique. Il s’agit de données clés envoyées à partir de vos propres propriétés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Au niveau de l’ <span class="keyword"> Audience Manager</span> . Ces données sont uniformes dans l’écosystème <span class="keyword"> Audience Manager</span>. Voir <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Attributs pris en charge pour les appels de l’API DCS</a> pour obtenir une liste plus complète.</p> </td> 
+   <td colname="col2"> <p>Au niveau <span class="keyword"> Audience Manager</span>. Ces données sont uniformes dans l’écosystème <span class="keyword"> Audience Manager</span>. Consultez <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Attributs pris en charge pour les appels API DCS</a> pour une liste plus complète.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Contient des informations <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> sur l’en-tête HTTP</a>. Inclut des paramètres d’en-tête tels que <code> referer</code>,<code> IP</code>, <code> accept-language</code>, etc. </p> <p> <p>Remarque : Pour les clients utilisant des versions de DIL antérieures à la version 9.0, la collecte de données à l’aide du signal <code> h_referer</code> ne fonctionnera pas sur les navigateurs Safari. Avec l’introduction de <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, les navigateurs Safari peuvent classer le domaine demdex.net comme outil de suivi et tronqueront le référent sur la demande de collecte de données pour qu’il contienne uniquement l’origine au lieu de l’URL complète. Voir <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtention et mise en oeuvre du code du DIL</a> pour obtenir la dernière version du DIL.<p>Les signaux utilisant ce préfixe ne sont pas affichés dans <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Recherche de signaux</a>.</p></p> </p> </td> 
+   <td colname="col2"> <p>Contient <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> en-tête HTTP </a> informations. Inclut des paramètres d’en-tête tels que <code> referer</code>, <code> IP</code>, <code> accept-language</code>, etc. </p> <p> <p>Remarque : pour les clients utilisant des versions de DIL antérieures à la version 9.0, la collecte de données à l’aide du signal <code> h_referer</code> ne fonctionne pas sur les navigateurs Safari. Avec l’introduction d’<a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, les navigateurs Safari peuvent classer le domaine demdex.net en tant que suivi et tronqueront le référent sur la demande de collecte de données pour ne contenir que l’origine au lieu de l’URL complète. Voir <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtention et implémentation du code DIL</a> pour la dernière version de DIL.<p>Les signaux utilisant ce préfixe ne sont pas affichés dans <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Recherche de signaux</a>.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Nos <span class="wintitle"> serveurs de collecte de données </span> permettent la transmission de paramètres privés. Fondamentalement, tout paramètre commençant par <code> p_</code> sera utilisé pour l’évaluation des caractéristiques, mais il ne sera pas consigné en aval ni stocké. </p> <p>Exemple : étant donné <code> /event?p_age=23</code> et une caractéristique telle que <code> YoungPeople = p_age &lt; 25</code>, la caractéristique sera réalisée, mais la paire clé-valeur <code> p_age=23</code> sera supprimée après la requête et ne sera pas consignée. </p> </td> 
+   <td colname="col2"> <p>Nos serveurs de collecte de données <span class="wintitle"></span> permettent la transmission de paramètres privés. Fondamentalement, tout paramètre commençant par <code> p_</code> sera utilisé pour l’évaluation des caractéristiques, mais il ne sera pas consigné en aval ni stocké. </p> <p>Exemple : étant donné la <code> /event?p_age=23</code> et une caractéristique comme <code> YoungPeople = p_age &lt; 25</code>, la caractéristique sera réalisée, mais la paire clé-valeur <code> p_age=23</code> sera abandonnée après la demande et ne sera pas consignée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
+description: Méthodes qui permettent d’afficher la taxonomie commune Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
 seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
 seo-title: Taxonomic API Methods
 solution: Audience Manager
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 # Méthodes d’API taxonomiques {#taxonomic-api-methods}
 
-Méthodes permettant d’afficher la taxonomie commune de l’Audience Manager. Ce schéma de classification facultatif classe les caractéristiques dans des catégories standard du secteur.
+Méthodes qui permettent d’afficher la taxonomie commune Audience Manager. Ce schéma de classification facultatif organise les caractéristiques en catégories standard du secteur.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classer les caractéristiques avec ces méthodes. Pour classer une caractéristique, spécifiez la `categoryId` appropriée avec une méthode de création ou de mise à jour de caractéristique.
+>Vous ne pouvez pas créer de nouvelles catégories taxonomiques ni classer les caractéristiques à l’aide de ces méthodes. Pour classer une caractéristique, spécifiez la `categoryId` appropriée avec une méthode de création ou de mise à jour de caractéristique.
 
-## Renvoi d’une taxonomie spécifique {#return-specific-taxonomy}
+## Renvoyer une taxonomie spécifique {#return-specific-taxonomy}
 
-Une méthode `GET` qui renvoie des détails sur la catégorie taxonomique spécifiée.
+Méthode `GET` qui renvoie des détails sur la catégorie taxonomique spécifiée.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -36,7 +36,7 @@ Une méthode `GET` qui renvoie des détails sur la catégorie taxonomique spéci
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et la catégorie de l’ID spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas.
+Une réponse réussie renvoie `200 OK` et la catégorie de l’identifiant spécifié. Une requête infructueuse renvoie `404 No Content` si l’identifiant n’existe pas.
 
 ```
 {
@@ -49,7 +49,7 @@ Une réponse réussie renvoie `200 OK` et la catégorie de l’ID spécifié. Un
 }
 ```
 
-## Renvoi de toutes les catégories taxonomiques {#return-all-taxonomy-categories}
+## Renvoyer toutes les catégories taxonomiques {#return-all-taxonomy-categories}
 
 Une méthode `GET` qui renvoie une liste des catégories de niveau supérieur dans un tableau.
 
@@ -61,7 +61,7 @@ Une méthode `GET` qui renvoie une liste des catégories de niveau supérieur da
 
 ### Réponse
 
-Tronquée pour la concision.
+Tronqué pour des raisons de concision.
 
 ```
 [
@@ -92,9 +92,9 @@ Tronquée pour la concision.
 ]
 ```
 
-## Sous-catégories taxonomiques récurrentes {#return-taxonomy-sub-categories}
+## Renvoyer les sous-catégories taxonomiques {#return-taxonomy-sub-categories}
 
-Une méthode `GET` qui renvoie des sous-catégories pour la catégorie parente spécifiée dans un tableau.
+Une méthode `GET` qui renvoie des sous-catégories pour la catégorie parent spécifiée dans un tableau.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -104,7 +104,7 @@ Une méthode `GET` qui renvoie des sous-catégories pour la catégorie parente s
 
 ### Réponse
 
-Une réponse réussie renvoie `200 OK` et la catégorie de l’ID spécifié. Une requête manquée renvoie `404 No Content` si l’ID n’existe pas. Tronquée pour la concision.
+Une réponse réussie renvoie `200 OK` et la catégorie de l’identifiant spécifié. Une requête infructueuse renvoie `404 No Content` si l’identifiant n’existe pas. Tronqué pour des raisons de concision.
 
 ```
 [

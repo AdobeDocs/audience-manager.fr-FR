@@ -1,5 +1,5 @@
 ---
-description: Les API RESTful vous permettent de travailler par programmation avec l’Audience Manager.
+description: Les API RESTful vous permettent de travailler par programmation avec Audience Manager.
 seo-description: RESTful APIs let you work programmatically with Audience Manager.
 seo-title: REST APIs
 solution: Audience Manager
@@ -18,8 +18,8 @@ ht-degree: 2%
 
 [!UICONTROL RESTful APIs] vous permet de travailler par programmation avec [!DNL Audience Manager].
 
-[!DNL Audience Manager] [!DNL REST API] suit les normes [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) de formatage des données envoyées et reçues. L’un des principaux avantages de [!DNL JSON] est qu’il permet aux [!DNL API] requêtes d’écrire, de lire et d’analyser facilement par les développeurs et les machines.
+Le [!DNL Audience Manager] [!DNL REST API] suit les normes [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) pour le formatage des données envoyées et reçues. L’un des principaux avantages de [!DNL JSON] est qu’il permet aux développeurs et aux machines d’écrire, de lire et d’analyser facilement des requêtes [!DNL API].
 
-Pour simplifier encore plus votre travail, nous migrons notre [!DNL REST APIs] vers [Swagger](https://swagger.io/solutions/api-documentation/). Pour plus d’informations, voir [Migration du code de l’API d’Audience Manager](/help/using/api/api-swagger-migration.md).
+Pour simplifier davantage votre travail, nous effectuons une migration de nos [!DNL REST APIs] vers [Swagger](https://swagger.io/solutions/api-documentation/). Pour plus d’informations, voir [Migration du code de l’API Audience Manager](/help/using/api/api-swagger-migration.md).
 
-Passez en revue la documentation [Prise en main](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) avant d’utiliser les méthodes [!DNL Audience Manager] [!DNL API] .
+Consultez le document [Prise en main](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) avant d’utiliser les méthodes de [!DNL Audience Manager] [!DNL API].

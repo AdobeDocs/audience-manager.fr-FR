@@ -1,10 +1,10 @@
 ---
 seo-title: Making Server-to-Server DCS API Calls
 solution: Audience Manager
-title: Lancement d’appels d’API DCS serveur à serveur
+title: Effectuer des appels API DCS serveur à serveur
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
-description: Appel de la syntaxe, de l’exemple et des paramètres lors des appels de l’API DCS serveur à serveur
+description: Syntaxe d’appel, exemple, et paramètres lors d’appels de l’API DCS serveur à serveur
 exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 ---
 
-# Lancement d’appels d’API DCS serveur à serveur {#making-server-to-server-dcs-api-calls}
+# Effectuer des appels API DCS serveur à serveur {#making-server-to-server-dcs-api-calls}
 
-Les appels requièrent le nom d’hôte du serveur DCS régional et l’identifiant utilisateur. Si vous ne disposez pas des identifiants utilisateur et de région requis, voir [Obtention des identifiants d’utilisateur et de région à partir d’une réponse DCS](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) et/ou [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Une fois que vous disposez des identifiants d’utilisateur et de région, vous pouvez effectuer des appels serveur à serveur vers le serveur de collecte de données. Reportez-vous à cette section pour consulter la syntaxe et les exemples.
+Les appels nécessitent le nom d’hôte du serveur DCS régional et l’ID utilisateur. Si vous ne disposez pas des ID d’utilisateur et de région requis, voir [Obtenir les ID d’utilisateur et de région à partir d’une réponse DCS](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) et/ou [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Une fois que vous disposez d’identifiants d’utilisateur et de région, vous pouvez effectuer des appels serveur à serveur vers le serveur de collecte de données. Reportez-vous à cette section pour consulter la syntaxe et des exemples.
 
 >[!NOTE]
 >
->Dans le code et les exemples, *italics* représente un espace réservé de variable. Remplacez la valeur réelle de l’espace réservé lorsque vous effectuez des appels serveur à serveur vers le [!DNL DCS].
+>Dans le code et les exemples, l’*italique* représente un espace réservé de variable. Remplacez l’espace réservé par une valeur réelle lorsque vous effectuez des appels serveur à serveur vers le [!DNL DCS] .
 
-## Syntaxe des appels et exemple {#call-syntax-example}
+## Syntaxe d’appel et exemple {#call-syntax-example}
 
-Une requête de base serveur à serveur qui envoie des données à [!DNL DCS] utilise la syntaxe illustrée ci-dessous.
+Une requête de base serveur à serveur qui envoie des données à l’[!DNL DCS] utilise la syntaxe affichée ci-dessous.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -47,31 +47,31 @@ Un exemple d’appel ressemble à l’exemple suivant.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>Cette partie de l’appel contient : </p> <p> 
+   <td colname="col2"> <p>Cette partie de l'appel contient : </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Votre alias de domaine attribué par <span class="keyword"> Audience Manager</span> (par exemple, <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Domaine de destination, qui est toujours <i><code> demdex.net</code></i>. Voir <a href="../../../reference/demdex-calls.md"> Signification des appels vers le domaine Demdex</a>. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Alias de domaine attribué par <span class="keyword"> Audience Manager</span> (par exemple, <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Le domaine de destination, toujours <i><code> demdex.net</code></i>. Voir <a href="../../../reference/demdex-calls.md"> Signification des appels vers le domaine Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>Le paramètre http header host qui affiche le nom du serveur régional <span class="wintitle"> DCS</span>. Le nom d’hôte est lié à un identifiant de région. C’est pourquoi vous en avez besoin avant d’effectuer ce type d’appels. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID de zone géographique, emplacements et noms d’hôte du serveur de collecte de données </a>. </p> </td> 
+   <td colname="col2"> <p>Le paramètre d’hôte d’en-tête http qui affiche le nom du serveur DCS<span class="wintitle"> </span> régional. Le nom d’hôte est lié à un ID de région, c’est pourquoi vous en avez besoin avant d’effectuer ces types d’appels. Voir <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> des identifiants de zone géographique, des emplacements et des noms d’hôte du serveur de collecte de données</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
    <td colname="col2"> <p>Cette partie de l’appel : </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
-      <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifie l’appel en tant qu’appel d’événement. </li> 
-      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Définit le début de la chaîne d’URL qui contient les données que vous souhaitez envoyer au serveur de collecte de données. </li> 
+      <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifie l’appel comme un appel d’événement. </li> 
+      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Définit le début de la chaîne d’URL qui contient les données à envoyer au serveur de collecte de données. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Il s’agit de la clé d’identifiant utilisateur unique qui contient la valeur d’identifiant utilisateur <span class="keyword"> Audience Manager</span> dans une paire clé-valeur. </p> <p>Utilisez <code><i>d_uuid</i></code> si vous transmettez l’identifiant utilisateur <span class="keyword"> Audience Manager</span>. </p> </td>
+   <td colname="col2"> <p>Il s’agit de la clé d’ID utilisateur unique qui contient la valeur d’ID utilisateur <span class="keyword"> Audience Manager</span> dans une paire clé-valeur. </p> <p>Utilisez <code><i>d_uuid</i></code> si vous transmettez l’ID utilisateur <span class="keyword"> Audience Manager</span>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Il s’agit de la clé d’identifiant utilisateur unique qui contient la valeur d’identifiant utilisateur <span class="keyword"> Experience Cloud</span> dans une paire clé-valeur. Voir aussi <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obtention de l’ID utilisateur à partir du cookie du service d’ID</a>. </p> <p>Utilisez <i><code> d_mid</code></i> si vous transmettez un ID <span class="keyword"> Experience Cloud</span> capturé à partir du service <span class="keyword"> Experience Cloud</span> ID. </p> </td> 
+   <td colname="col2"> <p>Il s’agit de la clé d’ID utilisateur unique qui contient la valeur d’ID utilisateur <span class="keyword"> Experience Cloud</span> dans une paire clé-valeur. Voir aussi <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obtenir l’ID utilisateur à partir du cookie du service d’ID</a>. </p> <p>Utilisez <i><code> d_mid</code></i> si vous transmettez un identifiant Experience Cloud<span class="keyword"> </span> capturé à partir du service d’identification Experience Cloud<span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -87,4 +87,4 @@ Un exemple d’appel ressemble à l’exemple suivant.
 
 ## Exemple de réponse {#sample-response}
 
-Voir [Recevoir des données du DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Voir [ Recevoir des données du serveur de collecte de données ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

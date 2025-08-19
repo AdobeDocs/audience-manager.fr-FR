@@ -2,7 +2,7 @@
 description: Utilisez des opérateurs logiques pour regrouper les paires clé-valeur et les caractéristiques de renvoi.
 seo-description: Use logical operators to group key-value pairs and backfill traits.
 seo-title: Supported Logical Operators
-title: Opérations logiques prises en charge
+title: Opérateurs logiques pris en charge
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
 exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Opérations logiques prises en charge {#supported-logical-operators}
+# Opérateurs logiques pris en charge {#supported-logical-operators}
 
 Utilisez des opérateurs logiques pour regrouper les paires clé-valeur et les caractéristiques de renvoi.
 
@@ -33,12 +33,12 @@ Utilisez les opérateurs logiques pris en charge suivants pour rechercher des pa
 
 ### Opérateurs nommés
 
-| Opérateur | Évalue sur [!DNL True] lorsque |
+| Opérateur | Est évalué sur [!DNL True] lorsque |
 |---|---|
-| **[!UICONTROL Contains]** | La valeur d’une paire clé-valeur *contient* caractères spécifiés par cet opérateur. |
-| **[!UICONTROL Startswith]** | La valeur d’une paire clé-valeur *commence par* caractères spécifiés par cet opérateur. |
-| **[!UICONTROL Endswith]** | La valeur d’une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Contains]** | La valeur dans une paire clé-valeur *contient* caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Startswith]** | La valeur d’une paire clé-valeur *commence par* les caractères spécifiés par cet opérateur. |
+| **[!UICONTROL Endswith]** | La valeur dans une paire clé-valeur *se termine par* les caractères spécifiés par cet opérateur. |
 
-## Opérateurs pris en charge pour le renvoi et l’estimation des caractéristiques {#supported-operators-backfilling}
+## Opérateurs pris en charge pour le remplissage et l’estimation des caractéristiques {#supported-operators-backfilling}
 
-Vous pouvez renvoyer les caractéristiques qui incluent des expressions contenant l’un des opérateurs pris en charge par [!UICONTROL Signal Search]. Outre ces opérateurs, le renvoi et l’estimation des caractéristiques prennent également en charge les opérateurs logiques [!UICONTROL AND], [!UICONTROL OR] et [!UICONTROL AND NOT], utilisés pour combiner des paires clé-valeur dans les expressions de caractéristiques renvoyées.
+Vous pouvez renvoyer des caractéristiques qui incluent des expressions contenant l’un des opérateurs pris en charge par [!UICONTROL Signal Search]. Outre ces opérateurs, le remplissage et l’estimation des caractéristiques prennent également en charge les opérateurs logiques [!UICONTROL AND], [!UICONTROL OR] et [!UICONTROL AND NOT], utilisés pour combiner des paires clé-valeur dans les expressions de caractéristique renvoyées.

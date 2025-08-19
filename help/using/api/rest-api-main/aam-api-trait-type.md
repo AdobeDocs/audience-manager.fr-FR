@@ -1,5 +1,5 @@
 ---
-description: Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou à une catégorie défini par l’utilisateur, généralement en fonction ou pour vos propres processus de création de rapports internes.
+description: Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou à une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de création de rapports internes.
 seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 seo-title: Trait Type Methods
 solution: Audience Manager
@@ -16,19 +16,19 @@ ht-degree: 3%
 
 # Méthodes de type de caractéristique {#trait-type-methods}
 
-Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou à une catégorie défini par l’utilisateur, généralement en fonction ou pour vos propres processus de création de rapports internes.
+Méthodes facultatives qui vous permettent d’affecter des caractéristiques à un type ou à une catégorie défini par l’utilisateur, généralement en fonction de la fonction ou pour vos propres processus de création de rapports internes.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->Les méthodes de type caractéristique n’attribuent pas de caractéristiques aux catégories utilisées par la [taxonomie commune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considérez-les comme des étiquettes distinctes de la taxonomie commune.
+>Les méthodes de type de caractéristique n’attribuent pas de caractéristiques aux catégories utilisées par la [taxonomie commune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considérez-les comme des libellés distincts de la taxonomie commune.
 
-Pour une référence visuelle, [!UICONTROL Trait Types] est un contrôle déroulant situé dans le [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
+À titre de référence visuelle, [!UICONTROL Trait Types] est un contrôle déroulant situé dans le [!DNL UI] sous **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Création d’un type de caractéristique {#create-trait-type}
 
-Une méthode `POST` qui vous permet de créer un nouveau type de caractéristique.
+Une méthode `POST` qui permet de créer un nouveau type de caractéristique.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -59,7 +59,7 @@ Une méthode `POST` qui vous permet de créer un nouveau type de caractéristiqu
 }
 ```
 
-## Propriétés de retour pour un type de caractéristique {#return-props}
+## Renvoyer les propriétés d’un type de caractéristique {#return-props}
 
 Une méthode `GET` qui renvoie des détails sur le type de caractéristique spécifié.
 

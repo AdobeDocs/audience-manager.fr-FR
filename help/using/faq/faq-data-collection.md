@@ -191,7 +191,7 @@ Non, vous ne pouvez pas vous en remettre aux [!UICONTROL General Reports] et aux
 
 Les rapports calculent les populations en fonction des enregistrements de profil non authentifiés (UUID) détectés dans le serveur principal au moment de la génération des rapports.
 
-Lors d’un premier appel à [!DNL DCS], les identifiants déclarés ne sont liés à *aucun* UUID (c.-à-d. qu’aucun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=fr) n’est présent côté client). Le [!DNL DCS] génère de manière aléatoire un UUID, définit un cookie [!DNL demdex] et le transmet dans l’appel de réponse, mais il ne transmet pas l’UUID au serveur principal.
+Lors d’un premier appel à [!DNL DCS], les identifiants déclarés ne sont liés à *aucun* UUID (c.-à-d. qu’aucun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) n’est présent côté client). Le [!DNL DCS] génère de manière aléatoire un UUID, définit un cookie [!DNL demdex] et le transmet dans l’appel de réponse, mais il ne transmet pas l’UUID au serveur principal.
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
-description: L’Audience Marketplace permet aux fournisseurs de données et aux acheteurs d’exécuter des transactions sur les données en libre-service avec un effort minimal. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient en fonction de votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur en même temps. Et, si cela ne pouvait pas être amélioré, l’Audience Marketplace s’occupe des contrats, de la facturation et des paiements entre les fournisseurs de données et les vendeurs.
-keywords: Google Analytics
+description: Audience Marketplace permet aux fournisseurs et aux acheteurs de données d’exécuter des transactions de données en libre-service avec un effort minimal. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient selon votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être à la fois acheteur et vendeur. Et comme si cela ne pouvait pas être mieux, Audience Marketplace s’occupe des contrats, de la facturation et des paiements entre les fournisseurs de données et les vendeurs.
+keywords: Google analytics
 seo-description: Audience Marketplace lets data providers and buyers execute data deals in a self-service manner with minimum effort. It does this by providing specialized features that vary depending on your role as a data buyer or data seller. In fact, you can even be a buyer and a seller at the same time. And, if this couldn’t get any better, Audience Marketplace takes care of contracts, billing, and payments between data providers and sellers.
 seo-title: Audience Marketplace
 solution: Audience Manager
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] permet aux fournisseurs de données et aux acheteurs d’exécuter des transactions sur les données en libre-service avec un effort minimal. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient en fonction de votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être un acheteur et un vendeur en même temps. Et, si cela n’a pas pu être amélioré, [!UICONTROL Audience Marketplace] s’occupe des contrats, de la facturation et des paiements entre les fournisseurs de données et les vendeurs.
+[!UICONTROL Audience Marketplace] permet aux fournisseurs et aux acheteurs de données d’exécuter des transactions de données en libre-service avec un effort minimal. Pour ce faire, il fournit des fonctionnalités spécialisées qui varient selon votre rôle en tant qu’acheteur ou vendeur de données. En fait, vous pouvez même être à la fois acheteur et vendeur. Et si cela ne pouvait pas être mieux, [!UICONTROL Audience Marketplace] s’occupe des contrats, de la facturation et des paiements entre les fournisseurs de données et les vendeurs.
 
-Pour commencer, contactez votre spécialiste des ventes [!DNL Audience Manager]. Ils peuvent activer [!UICONTROL Audience Marketplace for you].
+Adressez-vous à votre spécialiste des ventes [!DNL Audience Manager] pour commencer. Ils peuvent activer des [!UICONTROL Audience Marketplace for you].
 
 >[!NOTE]
 >

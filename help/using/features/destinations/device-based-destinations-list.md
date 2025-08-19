@@ -1,10 +1,10 @@
 ---
-description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, reportez-vous à sa liste d’Adobes Exchange (le cas échéant) ou contactez votre consultant d’Adobe ou l’assistance clientèle.
+description: Cette page comprend uniquement les intégrations serveur à serveur actuelles. Pour plus d’informations sur une intégration, consultez sa liste Adobe Exchange (le cas échéant) ou contactez votre consultant Adobe ou l’assistance clientèle.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: activation ; partenaires d’activation, destination, destinations
 solution: Audience Manager
-title: Destinations serveur à serveur Adobe Audience Manager
+title: Destinations de serveur à serveur Adobe Audience Manager
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 source-git-commit: a9a9e7c7813fa70b22e17a2f7b3cf67c0953ede2
@@ -16,18 +16,18 @@ ht-degree: 46%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Cette page comprend uniquement les [!DNL Audience Manager] [destinations basées sur un appareil](/help/using/features/destinations/add-device-based-destinations.md) actuelles. Dans [!DNL Audience Manager], [!UICONTROL device-based destinations] sont également appelés [!UICONTROL server-to-server destinations]. Pour plus d&#39;informations sur une intégration, consultez sa liste [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant [!DNL Adobe] ou l&#39;assistance clientèle.
+Cette page inclut uniquement les [!DNL Audience Manager] actuelles [destinations basées sur des appareils](/help/using/features/destinations/add-device-based-destinations.md). En [!DNL Audience Manager], les [!UICONTROL device-based destinations] sont également appelés [!UICONTROL server-to-server destinations]. Pour plus d’informations sur une intégration, reportez-vous à sa liste [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant [!DNL Adobe] ou l’assistance clientèle.
 
 
-* **Dernière mise à jour** = Affiche la date de dernière mise à jour pour cette [!UICONTROL device-based destination].
-* **Mises à jour** = Indique si [!DNL Audience Manager] envoie des données en temps réel ou par lot (1 xday) à cet [!UICONTROL destination].
-* **Unsegment** = Unsegmentation décrit les processus qui disqualifient et suppriment les profils d’appareil de [!UICONTROL segments]. Votre capacité à supprimer un profil d’appareil d’un [!UICONTROL segment] dépend de l’option d’appareil utilisée pour créer un [!UICONTROL Profile Merge Rule]. La suppression de la segmentation est également utilisée dans le contexte des demandes de suppression [!DNL GDPR]. Lisez les sections [Stratégies de fusion de profils et processus de suppression de la segmentation des appareils](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) et [Partenaires d’Audience Manager avec fonctionnalités de suppression de la segmentation](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] envoie des informations de non-segmentation à [!UICONTROL destinations] marqué avec **Oui** ci-dessous.
-* **Recevoir [!DNL IAB TCF] signaux de consentement** = [!DNL Audience Manager Plug-in for IAB TCF] permet de transférer la chaîne [!DNL IAB TC] aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Lisez [Module d’Audience Manager pour IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **[!DNL ICDS]** = Cette colonne répertorie les partenaires qui prennent en charge [!UICONTROL Instant Cross-Device Suppression]. Découvrez la [suppression instantanée inter-périphérique](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Dernière mise à jour** = affiche la dernière date à laquelle une mise à jour a été effectuée pour ce [!UICONTROL device-based destination].
+* **Mises à jour** = Indique si [!DNL Audience Manager] envoie des données en temps réel ou par lots (1xday) à ce [!UICONTROL destination].
+* **Unsegment** = Unsegmentation décrit les processus qui disqualifient et suppriment les profils d’appareils de la [!UICONTROL segments]. Votre capacité à supprimer un profil d’appareil d’un [!UICONTROL segment] dépend de l’option d’appareil utilisée pour créer un [!UICONTROL Profile Merge Rule]. La non-segmentation est également utilisée dans le contexte des requêtes de suppression [!DNL GDPR]. Lisez [Règles de fusion de profils et processus d’annulation de segmentation d’appareils](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) et [Audience Manager s’associe à des fonctionnalités d’annulation de segmentation](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] envoie les informations non segmentées aux [!UICONTROL destinations] marquées avec **Oui** ci-dessous.
+* **Recevoir des signaux de consentement [!DNL IAB TCF]** = Le [!DNL Audience Manager Plug-in for IAB TCF] vous permet de transférer la chaîne de [!DNL IAB TC] aux partenaires d’activation tout en respectant les choix de confidentialité des utilisateurs. Lisez [Plug-in Audience Manager pour IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = Cette colonne répertorie les partenaires qui prennent en charge [!UICONTROL Instant Cross-Device Suppression]. En savoir plus sur [la suppression instantanée sur plusieurs appareils](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID d’appareil mobile** = Cette colonne répertorie les partenaires qui peuvent recevoir des ID d’appareil mobile de [!DNL Audience Manager].
 
 
-| Intégration | Dernière mise à jour | Mises à jour | Dissocier | Réception de signaux de consentement [!DNL IAB TCF] | [!DNL ICDS] | Identifiants d’appareil mobile |
+| Intégration | Dernière mise à jour | Mises à jour | Désegmenter | Recevoir des signaux de consentement [!DNL IAB TCF] | [!DNL ICDS] | Identifiants d’appareil mobile |
 |----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26/09/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL 4info] | 09/02/2017 | 1xday | Non | Non | Non | Oui |
@@ -109,7 +109,7 @@ Cette page comprend uniquement les [!DNL Audience Manager] [destinations basées
 | [!DNL mPlatform China] | 06/08/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Narrative I/O] | 12/01/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Native Touch] | 02/03/2017 | 1xday | Oui | Non | Non | Oui |
-| [!DNL Nativo] | 27/02/2017 | 2x/day | Oui | Non | Non | Non |
+| [!DNL Nativo] | 27/02/2017 | 2x/jour | Oui | Non | Non | Non |
 | [!DNL Mail.ru] | 29/04/2019 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Mobile Professionals] | 25/05/2018 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Netmining] | 02/03/2017 | Temps réel | Non | Non | Non | Non |
@@ -129,8 +129,8 @@ Cette page comprend uniquement les [!DNL Audience Manager] [destinations basées
 | [!DNL Quantcast] | 13/02/2017 | Temps réel | Oui | Non | Non | Non |
 | [!DNL RhythmOne / RadiumOne] | 13/02/2017 | Temps réel | Oui | Non | Non | Oui |
 | [!DNL Remerge] | 31/05/2017 | Temps réel | Oui | Non | Oui | Oui |
-| [!DNL Resonate] | 17/02/2017 | 1x/day | Oui | Non | Non | Non |
-| [!DNL RevJet] | 17/02/2017 | 1x/day | Non | Non | Non | Non |
+| [!DNL Resonate] | 17/02/2017 | 1x/jour | Oui | Non | Non | Non |
+| [!DNL RevJet] | 17/02/2017 | 1x/jour | Non | Non | Non | Non |
 | [!DNL RocketFuel] | 17/02/2017 | Temps réel | Oui | Non | Oui | Oui |
 | [!DNL Rubicon] |            | Temps réel | Oui | Oui | Non |                   |
 | [!DNL RUN] | 17/02/2017 | 1xday | Oui | Non | Non | Non |
@@ -140,7 +140,7 @@ Cette page comprend uniquement les [!DNL Audience Manager] [destinations basées
 | [!DNL Sizmek ad server (Amazon)] | 17/02/2017 | En temps réel | Oui | Non | Non |                   |
 | [!DNL Slickdeals] | 04/09/2018 | Temps réel | Oui | Non | Non | Oui |
 | [!DNL Smart Adserver] | 31/07/2017 | Temps réel | Oui | Non | Oui | Oui |
-| [!DNL So-net Media Networks Logicad] |            | 1x/day | Oui | Non | Non |                   |
+| [!DNL So-net Media Networks Logicad] |            | 1x/jour | Oui | Non | Non |                   |
 | [!DNL Sonobi] | 28/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL SpecificMedia] | 03/03/2017 | Temps réel | Non | Non | Non | Non |
 | [!DNL SpongeCell] | 03/03/2017 | Temps réel | Oui | Non | Oui | Oui |
@@ -148,7 +148,7 @@ Cette page comprend uniquement les [!DNL Audience Manager] [destinations basées
 | [!DNL Stroer] | 03/03/2017 | 1xday | Oui | Non | Non | Non |
 | [!DNL SundaySky] | 03/03/2017 | Temps réel | Oui | Non | Oui | Non |
 | [!DNL StartApp] | 25/05/2018 | 1xday | Oui | Non | Non | Oui |
-| [!DNL Supership]/[!DNL ScaleOut] | 03/03/2017 | 1x/day | Oui | Non | Non | Non |
+| [!DNL Supership]/[!DNL ScaleOut] | 03/03/2017 | 1x/jour | Oui | Non | Non | Non |
 | [!DNL Survata] | 09/08/2017 | 1xday | Oui | Non | Non | Oui |
 | [!DNL Taboola] | 03/08/2017 | 1xday | Non | Oui | Non | Non |
 | [!DNL Tapad] | 17/07/2020 | Temps réel | Non | Non | Non | Oui |

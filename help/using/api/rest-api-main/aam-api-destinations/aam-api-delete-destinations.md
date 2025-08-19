@@ -1,9 +1,9 @@
 ---
-description: Méthodes de DELETE et de POST qui vous permettent de supprimer des destinations et des mappages de segments.
+description: Les méthodes DELETE et POST qui vous permettent de supprimer des destinations et des mappages de segments.
 seo-description: DELETE and POST methods that let you remove destinations and segment mappings.
 seo-title: Delete Destinations
 solution: Audience Manager
-title: Suppression de destinations
+title: Supprimer les destinations
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 feature: API
 exl-id: eaac3908-75ab-42d2-93bd-e8979f8b2427
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Suppression de destinations {#delete-destinations}
+# Supprimer les destinations {#delete-destinations}
 
-Les méthodes `DELETE` et `POST` qui vous permettent de supprimer des destinations et des mappages de segments.
+`DELETE` et méthodes de `POST` qui vous permettent de supprimer des destinations et des mappages de segments.
 
 <!-- r_delete_destinations_all.xml -->
 
@@ -28,19 +28,19 @@ Une méthode `DELETE` qui supprime une destination.
 >
 >Vous devez supprimer tous les mappages de segments avant de pouvoir supprimer une destination.
 
-* Requête : `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
+* Demande : `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 * Réponse : renvoie le code `204 No Content` en cas de réussite.
 
-## Suppression de destinations en bloc
+## Supprimer des destinations en bloc
 
 Supprimez plusieurs destinations avec cette méthode `POST`. Transmettez les identifiants de destination ( `destinationId`) avec un tableau dans le corps de la requête.
 
-* Requête : `POST https://api.demdex.com/v1/destinations/bulk-delete/`
+* Demande : `POST https://api.demdex.com/v1/destinations/bulk-delete/`
 * Réponse : renvoie le code `204 No Content` en cas de réussite.
 
-## Suppression des mappages de destinations par identifiant de mappage de segment
+## Supprimer les mappages de destination par identifiant de mappage de segments
 
 Une méthode `POST` qui supprime les mappages de destination en fonction de l’identifiant de segment spécifié.
 
-* Requête : `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* Demande : `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
 * Réponse : renvoie le code `204 No Content` en cas de réussite.

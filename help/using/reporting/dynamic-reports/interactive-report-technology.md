@@ -3,7 +3,7 @@ description: Décrit le logiciel sous-jacent qui alimente les rapports interacti
 seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
 seo-title: Report Technology
 solution: Audience Manager
-title: Technologie des rapports
+title: Technologie de rapports
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Technologie des rapports{#report-technology}
+# Technologie de rapports{#report-technology}
 
 Décrit le logiciel sous-jacent qui alimente les rapports interactifs et le planning de mise à jour des données.
 
@@ -28,18 +28,18 @@ c_report_technology.xml
 
 [!DNL Audience Manager] utilise le logiciel [Tableau](https://www.tableausoftware.com/) pour afficher les données dans les rapports interactifs. Avec [!DNL Tableau], les rapports [!UICONTROL Delivery and Overlap] utilisent des repères visuels et des symboles qui vous aident à :
 
-* Recherchez des caractéristiques de performances élevées et faibles.
-* Présenter les caractéristiques et les segments avec un chevauchement de visiteurs uniques faible et élevé.
+* Recherchez les caractéristiques de performances élevées et faibles.
+* Repérer les caractéristiques et les segments avec un chevauchement faible et élevé des visiteurs uniques.
 * Utilisez les données de chevauchement pour créer des segments ciblés.
-* Développez la portée en identifiant les caractéristiques associées avec un faible chevauchement.
+* Élargissez la portée en identifiant les caractéristiques associées avec un faible chevauchement.
 
-## Planification de la mise à jour des données
+## Planning de mise à jour des données
 
-Les données du rapport sont mises à jour chaque dimanche. La mise à jour traite les données du samedi (veille) au dimanche précédent.
+Les données du rapport sont mises à jour chaque dimanche. La mise à jour traite les données du samedi (jour précédent) au dimanche précédent.
 
 ## Formes, couleurs et tailles utilisées dans les rapports interactifs {#shapes-colors-sizes}
 
-La plupart des rapports interactifs affichent les résultats sous la forme de formes de tailles et de couleurs différentes. Ce format d’affichage est conçu pour vous aider à donner un sens aux données visuellement, sans avoir à parcourir les lignes et les colonnes de nombres.
+La plupart des rapports interactifs affichent les résultats sous forme de formes de tailles et de couleurs différentes. Ce format d’affichage est conçu pour vous aider à donner un sens aux données visuellement, sans avoir à parcourir des lignes et des colonnes de nombres.
 
 <!-- 
 
@@ -68,20 +68,20 @@ Le tableau suivant définit les formes, tailles et couleurs utilisées dans les 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Couleurs</b> </td> 
+   <td colname="col1"> <b> Couleurs </b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Les nuances rouges indiquent un chevauchement <i>faible</i>. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Les nuances vertes indiquent un chevauchement <i>élevé</i>. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Les tons rouges indiquent un chevauchement <i> faible </i>. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Les tons verts indiquent un chevauchement <i>élevé</i>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Taille</b> </td> 
-   <td colname="col2"> La taille augmente ou diminue en proportion directe à atteindre (le nombre ou le pourcentage de clics ou d’utilisateurs uniques dans une caractéristique ou un segment). </td> 
+   <td colname="col2"> La taille augmente ou diminue en proportion directe par rapport à l’atteinte (nombre ou pourcentage de clics ou d’utilisateurs et utilisatrices uniques sur une caractéristique ou un segment). </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Documentation de Tableau {#tableau-documentation}
+## Documentation Tableau {#tableau-documentation}
 
-Pour en savoir plus sur les contrôles Tableau que vous pouvez voir dans nos rapports interactifs, reportez-vous à la documentation officielle de [Serveur Tableau sous Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Pour en savoir plus sur les contrôles Tableau visibles dans nos rapports interactifs, reportez-vous à la documentation officielle de [Tableau Server sous Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)

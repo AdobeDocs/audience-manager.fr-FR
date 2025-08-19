@@ -1,5 +1,5 @@
 ---
-description: Le créateur de segments permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions de segment (affichage du code) du panneau Caractéristiques pour accéder à cette fonction.
+description: Le créateur de segments vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet Expressions du segment (Affichage du code) dans le panneau Caractéristiques pour accéder à cette fonctionnalité.
 seo-description: Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
 seo-title: Code Syntax Used in the Segment Expression Editor
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 4%
 
 # Syntaxe du code utilisé dans l’éditeur d’expression de segment {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] vous permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet **[!UICONTROL Segment Expressions (Code View)]** du panneau [!UICONTROL Traits] pour accéder à cette fonctionnalité.
+[!UICONTROL Segment Builder] permet de créer des règles de caractéristiques pour un segment à l’aide d’un éditeur de code. Cliquez sur l’onglet **[!UICONTROL Segment Expressions (Code View)]** dans le panneau [!UICONTROL Traits] pour accéder à cette fonctionnalité.
 
-## Syntaxe du code du Générateur d’expression
+## Syntaxe Du Code Du Générateur D’Expression
 
-Vous pouvez ajouter des règles de caractéristiques à un segment avec du code au lieu d’utiliser des fonctions de glisser-déposer. Lors du codage, remplacez les éléments en italique de l’exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
+Vous pouvez ajouter des règles de caractéristique à un segment avec du code au lieu d’utiliser des fonctionnalités de glisser-déposer. Lors du codage, remplacez les éléments en italique dans l’exemple par une expression ou une valeur réelle. Le code de base utilise la syntaxe suivante :
 
 ```
 FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
@@ -29,7 +29,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->Par défaut, les conditions [!DNL Boolean] [!UICONTROL OR] s’appliquent à plusieurs caractéristiques *dans* une expression.
+>Par défaut, [!DNL Boolean] conditions de [!UICONTROL OR] s’appliquent à plusieurs caractéristiques *dans* une expression.
 
 ### Joindre des segments avec des opérateurs booléens
 
@@ -39,23 +39,23 @@ Pour créer des groupes de segments, placez la fonction de fréquence entre pare
 
 >[!NOTE]
 >
->Tous les paramètres sont obligatoires, sauf indication contraire.
+>Tous les paramètres sont requis, sauf indication contraire.
 
 | Nom ou variable | Description |
 |---|---|
-| `FREQUENCY` | Un littéral devant précéder l’expression. |
-| ` [`&lt;`traitID`>`T]` | Tableau d’identifiants de caractéristiques suivi de la lettre `T`. Séparez plusieurs caractéristiques par une virgule. Par exemple, `[123T, 456T]`. |
+| `FREQUENCY` | Un littéral qui doit précéder l’expression. |
+| ` [`&lt;`traitID`>`T]` | Tableau d’ID de caractéristique suivis de la lettre `T`. Séparez les caractéristiques multiples par une virgule. Par exemple, `[123T, 456T]`. |
 | ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit des règles de récence sur les caractéristiques du segment. La lettre `D` indique la récence en jours. |
 | ` <Frequency Operator><Numeric Value>` | Définit des règles de fréquence sur les caractéristiques du segment. |
 
-### Opérateurs de récence et de fréquence autorisés
+### Opérateurs Récence et Fréquence autorisés
 
 Définissez des intervalles [récence et fréquence](../../features/segments/recency-and-frequency.md) avec un opérateur de comparaison et un entier. [!UICONTROL Segment Builder] utilise des expressions standard telles que &lt; (inférieur à), > (supérieur à), == (égal à), etc. Toutefois, les types d’opérateurs autorisés varient lorsque vous définissez la récence ou la fréquence. Le tableau ci-dessous répertorie les opérateurs de récence/fréquence autorisés.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Opérateurs de récence </th> 
+   <th colname="col1" class="entry"> Opérateurs Récents </th> 
    <th colname="col2" class="entry"> Opérateurs de fréquence </th> 
   </tr> 
  </thead>
@@ -80,5 +80,5 @@ Définissez des intervalles [récence et fréquence](../../features/segments/rec
 >
 >* [Récence et fréquence](../../features/segments/recency-and-frequency.md)
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
->* [Utilisation d’opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
->* [Ordre des opérations dans les expressions TraitBuilder](../../features/traits/trait-operator-precedence.md)
+>* [Utilisation des opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
+>* [ Ordre des opérations dans les expressions TraitBuilder ](../../features/traits/trait-operator-precedence.md)

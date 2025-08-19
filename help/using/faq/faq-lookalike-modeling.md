@@ -17,49 +17,49 @@ ht-degree: 0%
 
 ## Présentation {#overview}
 
-Cet article fournit des réponses aux questions les plus fréquemment posées sur [!UICONTROL Look-Alike Modeling].
+Cet article répond aux questions les plus fréquemment posées sur [!UICONTROL Look-Alike Modeling].
 
 ## Questions {#questions}
 
 **Pourquoi ai-je un graphique [!UICONTROL Accuracy & Reach] plat ?**
 
-Un graphique [!UICONTROL Accuracy & Reach] plat signifie que presque chaque utilisateur a reçu le même score par le modèle. Cela peut se produire lorsque vous incluez la caractéristique du visiteur du site dans les sources de données sur lesquelles vous avez exécuté le modèle. Pour éviter cela, supprimez la caractéristique générique de l’entrée de modèle lors de l’étape de création du modèle, à l’aide du champ [!UICONTROL Exclusions] .
+Un graphique [!UICONTROL Accuracy & Reach] plat signifie que presque tous les utilisateurs ont reçu le même score par le modèle. Cela peut se produire lorsque vous incluez la caractéristique du visiteur du site dans les sources de données sur lesquelles vous avez exécuté le modèle. Pour éviter cela, supprimez la caractéristique générique de l’entrée du modèle au cours de l’étape de création du modèle, à l’aide du champ [!UICONTROL Exclusions] .
 
  
 
-**Pourquoi certaines de mes principales caractéristiques influentes ont-elles de très petites audiences ?**
+**Pourquoi certaines de mes caractéristiques les plus influentes ont-elles de très petites audiences ?**
 
-L’algorithme sélectionne les caractéristiques qui sont fortement corrélées avec la caractéristique de base. Par exemple, si une caractéristique donnée se chevauche à 100 % avec la caractéristique de base, elle aura un poids très élevé, même si le nombre d’utilisateurs de cette caractéristique est faible.
+L’algorithme sélectionne des caractéristiques qui sont fortement corrélées à la caractéristique de base. Par exemple, si une caractéristique donnée se chevauche à 100 % avec la caractéristique de base, elle aura un poids très élevé, même si le nombre d’utilisateurs et d’utilisatrices de cette caractéristique est faible.
 
  
 
-**Pourquoi mon modèle n’est-il pas exécuté/réexécuté ?**
+**Pourquoi mon modèle n’a-t-il pas été exécuté/réexécuté ?**
 
-Les modèles qui ont généré des résultats continueront à s’exécuter uniquement si vous avez créé au moins une caractéristique algorithmique active et que vous l’avez mappée à un segment actif et à une destination.
+Les modèles qui ont produit des résultats continueront à s’exécuter uniquement si vous avez créé au moins une caractéristique algorithmique active et que vous l’avez mappée à un segment actif et à une destination.
 
  
 
 **Pourquoi mon modèle n’a-t-il produit aucun résultat ?**
 
-Cela est généralement dû au fait que les caractéristiques ne chevauchent pas suffisamment la population de base et la population dans les sources de données sélectionnées.
+Cela est généralement dû au fait que les caractéristiques ne se chevauchent pas de manière significative entre la population de base et la population des sources de données sélectionnées.
 
  
 
-**Existe-t-il une recommandation sur la caractéristique ou la taille de segment de base ?**
+**Y a-t-il une recommandation sur la caractéristique de base ou la taille de segment ?**
 
-Quelques milliers d’utilisateurs devraient suffire à exécuter le modèle, étant donné qu’il existe un chevauchement significatif des caractéristiques entre la population de base et la population dans les sources de données sélectionnées. [!UICONTROL Look-Alike Modeling] produit des résultats plus précis, plus la ligne de base est grande.
+Quelques milliers d’utilisateurs devraient suffire pour exécuter le modèle, étant donné qu’il y a un chevauchement significatif des caractéristiques entre la population de base et la population dans les sources de données sélectionnées. [!UICONTROL Look-Alike Modeling] produit des résultats plus précis, plus la ligne de base est grande.
 
  
 
 **Quelles sources de données tierces dois-je choisir pour mon modèle ?**
 
-Utilisez des sources de données qui présentent au moins un chevauchement avec votre caractéristique/segment de base, mais qui, en même temps, amènent des utilisateurs supplémentaires. Vous devez également tenir compte du coût associé à chaque flux de données. Les modèles de coûts et de prix varient selon les fournisseurs de données dans [!UICONTROL Audience Marketplace].
+Utilisez des sources de données qui se chevauchent au moins partiellement avec votre caractéristique/segment de base, mais qui font en même temps appel à d’autres utilisateurs. Vous devez également tenir compte du coût associé à chaque flux de données. Les modèles de coût et de tarification varient d’un fournisseur de données à l’[!UICONTROL Audience Marketplace].
 
  
 
-**L&#39;utilisation de données tierces pour la modélisation coûte-t-elle ?**
+**L’utilisation de données tierces pour la modélisation coûte-t-elle cher ?**
 
-Cela dépend du modèle de tarification du flux de données sélectionné. Certains flux permettent la modélisation sans frais, tandis que d’autres vous facturent des frais. Pour plus d’informations, voir [Facturation pour les acheteurs de flux de données](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) .
+Cela dépend du modèle de tarification du flux de données sélectionné. Certains flux permettent la modélisation sans frais, tandis que d’autres vous facturent des frais. Pour plus d’informations, consultez [Facturation pour les acheteurs de flux de données](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md).
 
  
 
@@ -69,6 +69,6 @@ Actuellement, vous pouvez créer jusqu’à 20 modèles algorithmiques et 50 car
 
  
 
-**Quelle est la fréquence d’actualisation de la formation de modèle et de la population de caractéristiques algorithmiques ?**
+**Quelle est la fréquence d’actualisation de la population d’entraînement du modèle et de caractéristiques algorithmiques ?**
 
-Le modèle se retire une fois tous les 8 jours et actualise la population de caractéristiques algorithmiques.
+Le modèle se reforme une fois tous les 8 jours, en actualisant la population de caractéristiques algorithmiques.

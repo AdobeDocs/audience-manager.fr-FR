@@ -38,7 +38,7 @@ c_bulk_start.xml
 
 Cette fonctionnalité utilise une feuille de calcul [!DNL Microsoft Excel] avec des macros qui effectuent des appels authentifiés sécurisés vers les API [!DNL Audience Manager]. L’API fournit les méthodes et services qui vous permettent d’apporter des modifications en bloc. Vous n’avez pas besoin de savoir comment coder ou utiliser nos API pour l’utiliser. La feuille de calcul contient des en-têtes de colonne et des onglets qui exécutent des fonctions de modification en bloc spécifiques. Pour apporter des modifications en bloc, ajoutez simplement les en-têtes prédéfinis à des feuilles de calcul spécifiques, fournissez les informations à modifier en bloc, puis cliquez sur un bouton d’action. La feuille de calcul et les API effectuent le reste du travail à votre place.
 
-## Téléchargement {#download}
+## Télécharger {#download}
 
 Téléchargez la dernière feuille de calcul **[ici](assets/BAAAM_V2_20210609.xlsm)** (dernière mise à jour : juin 2021).
 
@@ -100,7 +100,7 @@ Le tableau ci-dessous répertorie les opérations que vous pouvez effectuer et l
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimation </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Supprimer </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Les objets que vous pouvez modifier en bloc se trouvent sous l’onglet En-têtes </span></b> <b><span class="uicontrol"> et comprennent : </p> <p> 
+   <td colname="col2"> <p>Les objets que vous pouvez modifier en bloc se trouvent sous l’onglet En-têtes <b><span class="uicontrol"> </span></b> et comprennent : </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> des sources de données</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> signaux dérivés</a> </li> 

@@ -1,5 +1,5 @@
 ---
-description: Présentation générale de la manière dont Audience Manager effectue un exchange de données par lots asynchrone avec un fournisseur tiers.
+description: Présentation générale de la manière dont Audience Manager effectue un échange asynchrone de données par lots avec un fournisseur tiers.
 seo-description: A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
 seo-title: Batch Data Transfer Process Described
 solution: Audience Manager
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Description du processus de transfert de données par lots {#batch-data-transfer-process-described}
 
-Présentation générale de la manière dont [!DNL Audience Manager] effectue un exchange de données par lots asynchrone avec un fournisseur tiers.
+Présentation générale de la manière dont [!DNL Audience Manager] effectue un échange asynchrone de données par lots avec un fournisseur tiers.
 
 ## Intégration de données par lots
 
 <!-- c_async.xml -->
 
-Le processus d’intégration des données par lots enregistre les informations sur les visiteurs sur nos serveurs et synchronise ce matériel avec les données envoyées par un fournisseur à intervalles réguliers. Le processus de transfert de données asynchrone est utile dans les cas suivants :
+Le processus d&#39;intégration des données par lots permet d&#39;enregistrer les informations sur les visiteurs sur nos serveurs et de les synchroniser avec les données envoyées par un fournisseur à intervalles réguliers. Le processus de transfert de données asynchrone est utile lorsque :
 
 * Les transferts de données immédiats ne sont pas requis.
-* Collecte de données pour créer un grand groupe d’utilisateurs segmentés.
-* Vous souhaitez réduire les incohérences de données et les appels `HTTP` depuis le navigateur.
+* Collecte de données pour créer un grand pool d’utilisateurs segmentés.
+* Vous souhaitez réduire les incohérences de données et les appels `HTTP` du navigateur.
 
 ![](assets/s2s_70.png)
 
@@ -35,5 +35,5 @@ Le processus d’intégration des données par lots enregistre les informations 
 1. Un utilisateur visite un site client.
 1. [!DNL Audience Manager] et le fournisseur de données tiers attribuent au visiteur un identifiant unique (généralement avec un cookie).
 1. [!DNL Audience Manager] appelle le fournisseur de données tiers pour qu’il corresponde aux identifiants visiteur.
-1. Une requête planifiée, généralement sur un intervalle quotidien, exchange les données de segmentation des visiteurs entre [!DNL Audience Manager] et votre fournisseur de données tiers.
-1. Chaque fois qu&#39;un fichier [!UICONTROL Server-to-Server] entrant est traité, un reçu est envoyé par email aux solutions partenaires et, s&#39;il est configuré, au partenaire. Pour plus d’informations, voir [Exemple de message aux partenaires après traitement entrant](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
+1. Une requête planifiée, généralement à intervalle quotidien, échange des données de segment visiteur entre [!DNL Audience Manager] et votre fournisseur de données tiers.
+1. Chaque fois qu’un fichier [!UICONTROL Server-to-Server] entrant est traité, un accusé de réception est envoyé par e-mail aux solutions partenaires et, s’il est configuré, au partenaire. Pour plus d’informations, voir [Exemple de message à l’attention des partenaires après le traitement entrant](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).

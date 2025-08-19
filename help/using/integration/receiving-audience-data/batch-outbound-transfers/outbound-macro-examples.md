@@ -1,5 +1,5 @@
 ---
-description: Exemples d’utilisation de macros courantes pour créer des modèles de fichiers sortants.
+description: Exemples d’utilisation de certaines des macros courantes pour créer des modèles de fichiers sortants.
 seo-description: Examples of how some of the common macros are used to create outbound file templates.
 seo-title: Outbound Macro Examples
 solution: Audience Manager
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # Exemples de macro sortante {#outbound-macro-examples}
 
-Exemples d’utilisation de macros courantes pour créer des modèles de fichiers sortants.
+Exemples d’utilisation de certaines des macros courantes pour créer des modèles de fichiers sortants.
 
 >[!NOTE]
 >
->Dans les tableaux, le type **boldface** identifie chaque macro avec sa sortie associée. Pour les exemples de format, les symboles `<` `>` ont été ajoutés afin de séparer visuellement chaque macro.
+>Dans les tableaux, le type **gras** identifie chaque macro avec sa sortie associée. Pour les exemples de format, les symboles `<` `>` ont été ajoutés pour aider à séparer visuellement chaque macro.
 
 ## Macros de nom de fichier {#file-name-macros}
 
-Pour obtenir la liste des macros et des définitions disponibles, voir [Macros de modèles sortants](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Pour obtenir la liste des macros et définitions disponibles, voir [Macros de modèle sortant](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -70,9 +70,9 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
  </tbody> 
 </table>
 
-## Macros Rangée d’en-tête {#header-macros}
+## Macros de ligne d&#39;en-tête {#header-macros}
 
-Pour obtenir la liste des macros et des définitions disponibles, voir [Macros de modèles sortants](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Pour obtenir la liste des macros et définitions disponibles, voir [Macros de modèle sortant](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -84,14 +84,14 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format : <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Sortie : <code> 888 full.sync </code> </p> <p>Dans la sortie, le caractère de tabulation non imprimable sépare chaque élément. </p> </td>
+   <td colname="col2"> <p>Format : <code> &lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Sortie : <code> 888 full.sync </code> </p> <p>Dans la sortie, le caractère de tabulation hors impression sépare chaque élément. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## Macros de contenu de fichier {#file-content-macros}
 
-Pour obtenir la liste des macros et des définitions disponibles, voir [Macros de modèles sortants](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Pour obtenir la liste des macros et définitions disponibles, voir [Macros de modèle sortant](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -111,7 +111,7 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>Consultez la section distincte ci-dessous. </p> </td> 
+   <td colname="col2"> <p>Voir la section distincte ci-dessous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
@@ -128,7 +128,7 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Sortie :</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Remarque : Dans le premier exemple, la macro renvoie uniquement des données pour <code> SEGMENT_LIST </code>, car <code> REMOVED_SEGMENT_LIST </code> est vide. Le deuxième exemple renvoie des données pour les deux macros. </p> </p> </td> 
+     </code></p> <p> <p>Remarque : dans le premier exemple, la macro renvoie uniquement des données pour <code> SEGMENT_LIST </code>, car <code> REMOVED_SEGMENT_LIST </code> est vide. Le deuxième exemple renvoie des données pour les deux macros. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -136,7 +136,7 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format : <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Sortie : <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>Dans la sortie, le caractère de tabulation non imprimable sépare chaque élément. </p> </td> 
+   <td colname="col2"> <p>Format : <code> &lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Sortie : <code> 123456 UUID1 UUID2 UUID3 </code> </p> <p>Dans la sortie, le caractère de tabulation hors impression sépare chaque élément. </p> </td> 
   </tr>
   <tr>
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
@@ -145,38 +145,38 @@ Pour obtenir la liste des macros et des définitions disponibles, voir [Macros d
  </tbody> 
 </table>
 
-### `DPUUID` Exemples
+### Exemples `DPUUID`
 
-Pour vous aider à comprendre comment la macro `DPUUID` génère des données, supposons que nous avons 2 `DPID`s mappés à `DPUUID` comme illustré ci-dessous :
+Pour vous aider à comprendre comment la macro `DPUUID` génère des données, supposons que nous ayons 2 `DPID` mappés à des `DPUUID`, comme illustré ci-dessous :
 
-* Le DPID `1111` correspond aux DPUUID `AAAA` (horodatage = 1) et `BBBB` (horodatage = 2).
-* Le DPID `2222` correspond au DPUUID `CCCC`.
+* DPID `1111` mappe vers les DPUUID `AAAA` (horodatage = 1) et `BBBB` (horodatage = 2).
+* DPID `2222` mappe vers DPUUID `CCCC`.
 
-Dans ces conditions, le tableau suivant énumère certaines chaînes de format possibles et leur sortie.
+Compte tenu de ces conditions, le tableau suivant énumère certaines chaînes de format possibles et leur sortie.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Condition de mappage </th> 
+   <th colname="col1" class="entry"> Condition De Mappage </th> 
    <th colname="col2" class="entry"> Format de macro </th> 
    <th colname="col3" class="entry"> Sortie </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Renvoie tous les mappages pour un seul DPID </p> </td> 
+   <td colname="col1"> <p>Renvoyer tous les mappages pour un seul DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111|maxMappings=0|format=json"&gt; </code> </p> </td> 
    <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Renvoie un mappage maximal de 1 pour tous les DPID </p> </td> 
+   <td colname="col1"> <p>Renvoyer un mappage maximum de 1 pour tous les DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Pour le DPID <code> 1111 </code>, la macro correspond uniquement au DPUUID <code> BBBB </code>, car cet ID possède un horodatage plus grand. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Pour les <code> 1111 </code> DPID, la macro correspond à DPUUID <code> BBBB </code> uniquement parce que cet identifiant a la date et l’heure les plus importantes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Renvoie un maximum de 2 mappages pour un seul DPID </p> </td> 
+   <td colname="col1"> <p>Renvoyer un maximum de 2 mappages pour un seul DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Même si <code> maxMappings=2 </code>, cette macro renvoie uniquement 1 mapping DPID vers DPUUID, car le DPID spécifié n’a qu’un seul DPUUID. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Bien que <code> maxMappings=2 </code>, cette macro renvoie uniquement 1 DPID au mappage DPUUID, car le DPID spécifié ne comporte qu’un seul DPUUID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

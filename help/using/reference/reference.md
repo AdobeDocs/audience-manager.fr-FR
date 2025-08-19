@@ -1,5 +1,5 @@
 ---
-description: Contient une documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide.
+description: Contient la documentation technique sur les fonctionnalités du système, l’intégration de données et les fichiers d’aide.
 seo-description: Contains technical documentation about system functionality, data integration, and help files.
 seo-title: Reference
 solution: Audience Manager
@@ -15,11 +15,11 @@ ht-degree: 19%
 
 # Référence
 
-Cette section contient une documentation technique sur les fonctionnalités du système, l’intégration des données et les fichiers d’aide. Certaines pages de cette section sont les suivantes :
+Cette section contient de la documentation technique sur les fonctionnalités du système, l’intégration de données et les fichiers d’aide. Voici quelques-unes des pages de cette section :
 
 * [Outils de gestion en bloc](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [Composants système](/help/using/reference/system-components/components-overview.md)
 * [Environnement Beta](/help/using/reference/beta-environment.md)
 * [Glossaire](/help/using/reference/aam-glossary.md)
-* [Index des identifiants en Audience Manager](/help/using/reference/ids-in-aam.md)
+* [Index des identifiants dans Audience Manager](/help/using/reference/ids-in-aam.md)
 * [Signaux, caractéristiques et segments](/help/using/reference/signal-trait-segment.md)
