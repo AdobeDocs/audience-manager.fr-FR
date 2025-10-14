@@ -74,7 +74,7 @@ Une méthode `GET` qui renvoie toutes les destinations pour le partenaire spéci
 
 ### Paramètres de requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient des propriétés *all* pour un objet . Définissez ces options dans la chaîne de requête lors de la transmission de cette requête au [!DNL API]. Voir [ Paramètres facultatifs ](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient des propriétés *all* pour un objet . Définissez ces options dans la chaîne de requête lors de la transmission de cette requête au [!DNL API]. Voir [&#x200B; Paramètres facultatifs &#x200B;](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

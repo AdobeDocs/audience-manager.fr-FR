@@ -102,7 +102,7 @@ Les paramètres [!UICONTROL Use Case] permettent aux vendeurs de contrôler la m
 
 ### Segments et chevauchement
 
-Un cas d’utilisation **[!UICONTROL Segments and Overlap]** crée un plan qui permet aux acheteurs de comparer les données des caractéristiques dans un [ rapport de chevauchement des caractéristiques](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). De plus, les acheteurs peuvent ajouter vos données aux segments et effectuer des comparaisons avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md).
+Un cas d’utilisation **[!UICONTROL Segments and Overlap]** crée un plan qui permet aux acheteurs de comparer les données des caractéristiques dans un [&#x200B; rapport de chevauchement des caractéristiques](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). De plus, les acheteurs peuvent ajouter vos données aux segments et effectuer des comparaisons avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md).
 
 Chaque flux de données doit inclure au moins un cas d’utilisation [!UICONTROL Segments and Overlap]. Les acheteurs ne peuvent pas s’abonner à d’autres plans dans un flux de données si le flux ne contient pas de cas d’utilisation [!UICONTROL Segments and Overlap], seul ou en combinaison avec un autre cas d’utilisation.
 

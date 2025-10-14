@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Affichez une liste de vos [!UICONTROL data sources] actuellement configurés, ajoutez de nouveaux [!UICONTROL data sources] et modifiez les [!UICONTROL data sources] existants.
 
-Vous pouvez également gérer les [!UICONTROL data sources] à l’aide de méthodes [!DNL API]. Pour plus d’informations, voir [ Méthodes de l’API Data Source ](../api/rest-api-main/aam-api-data-sources.md).
+Vous pouvez également gérer les [!UICONTROL data sources] à l’aide de méthodes [!DNL API]. Pour plus d’informations, voir [&#x200B; Méthodes de l’API Data Source &#x200B;](../api/rest-api-main/aam-api-data-sources.md).
 
 ## Vue Liste [!UICONTROL Data Sources] {#list-view}
 
@@ -72,7 +72,7 @@ Outre les champs de texte, la section [!UICONTROL Data Source Details] contient 
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-Les [ Contrôles d’exportation de données ](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à un [!UICONTROL data source] et à un [!UICONTROL destination]. Elles vous empêchent d’envoyer des données à un [!UICONTROL destination] lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
+Les [&#x200B; Contrôles d’exportation de données &#x200B;](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à un [!UICONTROL data source] et à un [!UICONTROL destination]. Elles vous empêchent d’envoyer des données à un [!UICONTROL destination] lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >

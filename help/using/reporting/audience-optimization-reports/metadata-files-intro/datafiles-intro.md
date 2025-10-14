@@ -201,4 +201,4 @@ Pour mettre à jour vos données, envoyez un fichier contenant toutes les impres
 
 ## Étapes suivantes {#next-steps}
 
-Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [ Présentation et mappages des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

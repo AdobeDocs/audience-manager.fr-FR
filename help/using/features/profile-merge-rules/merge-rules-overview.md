@@ -26,14 +26,14 @@ En règle générale, la segmentation et le ciblage des audiences reposent sur l
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] modifie fondamentalement la manière dont [!DNL Audience Manager] collecte les données et segmente les utilisateurs pour le ciblage. Il vous permet de travailler avec 2 types de profils distincts, un profil d’appareil et un [ profil authentifié ](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules] modifie fondamentalement la manière dont [!DNL Audience Manager] collecte les données et segmente les utilisateurs pour le ciblage. Il vous permet de travailler avec 2 types de profils distincts, un profil d’appareil et un [&#x200B; profil authentifié &#x200B;](../../reference/visitor-authentication-states.md).
 
 | Type de profil | Description |
 |---|---|
 | [!UICONTROL Device Profile] | Un [!UICONTROL device profile] est lié à un ID pour un appareil donné, tel qu’un ID de [!UICONTROL cookie] ou un ID d’appareil mobile.<br><br> Il comprend :<ul><li>[!UICONTROL Rule-based traits] réalisé lorsqu’un utilisateur n’est pas authentifié.</li><li>[!UICONTROL Onboarded traits] liées à un ID d’appareil tel que des [!UICONTROL cookie-based], des données tierces.</li></ul> |
 | [!UICONTROL Authenticated Profile] | Le [!UICONTROL authenticated profile] est lié à un ID utilisateur transmis lorsqu’une personne se connecte à votre site.<br><br>Il comprend :<ul><li>[!UICONTROL Rule-based traits] collectées sur plusieurs appareils lorsqu’un utilisateur est authentifié.</li><li>[!UICONTROL Onboarded traits] dans un fichier hors ligne lié au même identifiant utilisateur.</li></ul> |
 
-Ces différents profils contrôlent les données que vous pouvez utiliser pour la segmentation. Par exemple, avec un [profil authentifié](../../reference/visitor-authentication-states.md), vous pouvez créer des [!UICONTROL segments] précis basés sur des données provenant de plusieurs appareils pour un seul utilisateur. Cela signifie que vous pouvez offrir une expérience de marque cohérente aux clients sur plusieurs appareils. [!DNL Audience Manager] y parvient en stockant le mappage des différents appareils qu’une personne utilise pour ses activités en ligne sur son [ profil authentifié ](../../reference/visitor-authentication-states.md). Ces mappages sont appelés [!UICONTROL Profile Link Device Graph].
+Ces différents profils contrôlent les données que vous pouvez utiliser pour la segmentation. Par exemple, avec un [profil authentifié](../../reference/visitor-authentication-states.md), vous pouvez créer des [!UICONTROL segments] précis basés sur des données provenant de plusieurs appareils pour un seul utilisateur. Cela signifie que vous pouvez offrir une expérience de marque cohérente aux clients sur plusieurs appareils. [!DNL Audience Manager] y parvient en stockant le mappage des différents appareils qu’une personne utilise pour ses activités en ligne sur son [&#x200B; profil authentifié &#x200B;](../../reference/visitor-authentication-states.md). Ces mappages sont appelés [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 

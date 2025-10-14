@@ -24,7 +24,7 @@ De plus, vous pouvez télécharger le [!UICONTROL Activity Usage Report] quand v
 
 ## Considérations {#considerations}
 
-Le [!UICONTROL Activity Usage Report] est disponible pour tous les utilisateurs d’Audience Manager disposant de [ privilèges d’administrateur ](edit-account-settings.md).
+Le [!UICONTROL Activity Usage Report] est disponible pour tous les utilisateurs d’Audience Manager disposant de [&#x200B; privilèges d’administrateur &#x200B;](edit-account-settings.md).
 
 >[!IMPORTANT]
 >

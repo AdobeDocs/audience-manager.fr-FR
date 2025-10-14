@@ -96,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Étapes suivantes {#dcs-next-steps}
 
-Maintenant que vous connaissez l’envoi de données au [!DNL DCS], il est temps d’examiner comment récupérer les données et analyser ces informations. Voir [ Recevoir des données du serveur de collecte de données ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Maintenant que vous connaissez l’envoi de données au [!DNL DCS], il est temps d’examiner comment récupérer les données et analyser ces informations. Voir [&#x200B; Recevoir des données du serveur de collecte de données &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >

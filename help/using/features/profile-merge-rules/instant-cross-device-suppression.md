@@ -66,5 +66,5 @@ Gardez à l’esprit les aspects suivants liés au traitement :
 
 Gardez à l’esprit les aspects suivants liés au minutage :
 
-* Un segment sera stocké sur [Edge](../../reference/system-components/components-edge.md) pendant la même période que le profil d’appareil stocké sur le [!UICONTROL Edge], soit 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la conservation des données, consultez notre [ FAQ sur la conservation des données ](../../faq/faq-privacy.md#data-retention-faq).
+* Un segment sera stocké sur [Edge](../../reference/system-components/components-edge.md) pendant la même période que le profil d’appareil stocké sur le [!UICONTROL Edge], soit 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la conservation des données, consultez notre [&#x200B; FAQ sur la conservation des données &#x200B;](../../faq/faq-privacy.md#data-retention-faq).
 * Il faut environ 24 heures pour que l’opération d’annulation de segment se propage dans les régions [!DNL DCS]. Pour en savoir plus sur nos [!DNL DCS] régions [ici](../../reference/system-components/components-data-collection.md) et [ici](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

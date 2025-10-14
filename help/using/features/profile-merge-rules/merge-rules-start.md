@@ -44,7 +44,7 @@ Pour remplir la section [!UICONTROL Data Source Details] :
 
 ## Contrôles des exportations de données {#export-controls}
 
-Les [ Contrôles d’exportation de données ](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
+Les [&#x200B; Contrôles d’exportation de données &#x200B;](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 ## Paramètres du Source de données {#settings}
 
@@ -84,7 +84,7 @@ Pour remplir la section [!UICONTROL Basic Information] :
 
 ## Contrôles des exportations de données {#data-export-controls}
 
-Les [ Contrôles d’exportation de données ](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à vos [!UICONTROL Profile Merge Rule]. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
+Les [&#x200B; Contrôles d’exportation de données &#x200B;](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à vos [!UICONTROL Profile Merge Rule]. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 ## Configuration de la règle de fusion de profils {#profile-merge-rule-setup}
 
@@ -94,7 +94,7 @@ Pour remplir la section [!UICONTROL Proflie Merge Rule Setup] :
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
-2. Sélectionnez une **[!UICONTROL Authenticated Profile Option]** (jusqu’à 3, maximum). Il s’agit des [ sources de données inter-appareils](merge-rules-start.md) que vous avez créées précédemment.
+2. Sélectionnez une **[!UICONTROL Authenticated Profile Option]** (jusqu’à 3, maximum). Il s’agit des [&#x200B; sources de données inter-appareils](merge-rules-start.md) que vous avez créées précédemment.
 3. Sélectionnez un **[!UICONTROL Device Option]**. Les options incluent :
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**

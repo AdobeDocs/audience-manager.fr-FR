@@ -49,7 +49,7 @@ Dans ce cas, vous devez créer une nouvelle source de données inter-appareils q
 
    >[!NOTE]
    >
-   > Consultez [ Intégration de données ](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
+   > Consultez [&#x200B; Intégration de données &#x200B;](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
 
 Regardez la vidéo ci-dessous pour un tutoriel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 

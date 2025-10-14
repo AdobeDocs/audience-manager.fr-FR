@@ -20,7 +20,7 @@ Répertorie les macros que vous pouvez utiliser pour créer des modèles sortant
 
 ## Nom de fichier et macros d’en-tête de fichier {#file-name-header-macros}
 
-Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le nom de fichier et pour définir les champs d’en-tête. Pour obtenir des exemples de code, voir [ Exemples de macro sortante ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le nom de fichier et pour définir les champs d’en-tête. Pour obtenir des exemples de code, voir [&#x200B; Exemples de macro sortante &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -94,7 +94,7 @@ Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le no
 
 ## Macros de contenu {#content-macros}
 
-Macros utilisées pour formater le contenu d&#39;un fichier de données. Pour obtenir des exemples de code, voir [ Exemples de macro sortante ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Macros utilisées pour formater le contenu d&#39;un fichier de données. Pour obtenir des exemples de code, voir [&#x200B; Exemples de macro sortante &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 

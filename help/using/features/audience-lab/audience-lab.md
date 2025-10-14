@@ -20,7 +20,7 @@ Créez des segments de test qui s’excluent mutuellement dans [!UICONTROL Segme
 
 ## Présentation {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utilise [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md) pour alimenter les tests entre appareils. Cela permet de s’assurer qu’un utilisateur est qualifié pour le même segment de test et reçoit le même traitement sur tous les appareils. Les segments de test des groupes de test hériteront de la [ Règle de fusion de profil ](../../features/profile-merge-rules/merge-rules-dashboard.md) qui leur est affectée par le segment de base.
+[!UICONTROL Audience Lab] utilise [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md) pour alimenter les tests entre appareils. Cela permet de s’assurer qu’un utilisateur est qualifié pour le même segment de test et reçoit le même traitement sur tous les appareils. Les segments de test des groupes de test hériteront de la [&#x200B; Règle de fusion de profil &#x200B;](../../features/profile-merge-rules/merge-rules-dashboard.md) qui leur est affectée par le segment de base.
 
 La vue par défaut [!UICONTROL Audience Lab] affiche une carte pour chacun des groupes de test. Cliquez sur une carte pour accéder à la vue **[!UICONTROL Test Group]**. Cette vue contient les informations suivantes :
 

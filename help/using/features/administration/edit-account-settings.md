@@ -26,5 +26,5 @@ Les utilisateurs administrateurs peuvent créer des utilisateurs et les ajouter 
 1. Cliquez sur **[!UICONTROL Account Settings]**, puis sur **[!UICONTROL Edit]** pour afficher la page [!UICONTROL My Account].
 1. Dans le champ **[!UICONTROL Email Address]** , indiquez votre nouvelle adresse e-mail, si nécessaire. Audience Manager n’envoie pas de notification régulière aux utilisateurs. Les administrateurs d’Audience Manager ont accès aux adresses électroniques des utilisateurs et peuvent envoyer manuellement des e-mails aux utilisateurs selon les besoins. Par exemple, si un utilisateur oublie son mot de passe, l’adresse e-mail spécifiée dans ce champ est utilisée pour envoyer un mot de passe temporaire et des instructions pour réinitialiser le mot de passe.
 1. Pour réinitialiser votre mot de passe, indiquez votre mot de passe actuel, indiquez le nouveau mot de passe, puis confirmez le nouveau mot de passe.
-Voir aussi [ Exigences relatives aux mots de passe, comptes verrouillés et mots de passe oubliés](../../reference/password-requirements.md).
+Voir aussi [&#x200B; Exigences relatives aux mots de passe, comptes verrouillés et mots de passe oubliés](../../reference/password-requirements.md).
 1. Cliquez sur **[!UICONTROL Save]**.

@@ -22,7 +22,7 @@ Utilisez [!DNL People-Based Destinations] pour envoyer des segments d’audience
 
 ## Présentation {#overview}
 
-[!DNL People-Based Destinations] vous permet d’appliquer une segmentation sur les données en ligne et hors ligne afin de créer des segments d’audience basés sur des identifiants [ hachés](people-based-destinations-prerequisites.md#hashing-requirements) tels que des adresses e-mail. Ensuite, vous pouvez envoyer ces segments vers des « jardins clos » tels que [!DNL Facebook], où vous pouvez cibler votre audience sur les plateformes sociales. [!DNL People-Based Destinations] peut vous aider à :
+[!DNL People-Based Destinations] vous permet d’appliquer une segmentation sur les données en ligne et hors ligne afin de créer des segments d’audience basés sur des identifiants [&#x200B; hachés](people-based-destinations-prerequisites.md#hashing-requirements) tels que des adresses e-mail. Ensuite, vous pouvez envoyer ces segments vers des « jardins clos » tels que [!DNL Facebook], où vous pouvez cibler votre audience sur les plateformes sociales. [!DNL People-Based Destinations] peut vous aider à :
 
 * Ciblez des audiences hors ligne et en ligne sur des plateformes telles que [!DNL Facebook], en fonction d’adresses e-mail hachées.
 * compléter les fonctionnalités existantes de ciblage des appareils et des cookies d’Audience Manager ;

@@ -36,7 +36,7 @@ Pour créer un [!UICONTROL Look-Alike Model], procédez comme suit :
 
 1. Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** et cliquez sur **[!UICONTROL Add New]** dans la section [!UICONTROL Look-Alike Modeling] .
    ![ajout-similaire](assets/look-alike-add.png)
-1. Dans la section [ Informations de base ](../../features/algorithmic-models/create-model.md#basic-information)
+1. Dans la section [&#x200B; Informations de base &#x200B;](../../features/algorithmic-models/create-model.md#basic-information)
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
    * Définissez le statut du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécutent pas et ne produisent aucune donnée.

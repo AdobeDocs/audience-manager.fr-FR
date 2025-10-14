@@ -70,7 +70,7 @@ Pour créer un [!UICONTROL Segment Test Group] :
    * Faites glisser et déposez des segments vers les destinations.
    * Après avoir déposé un segment dans une destination , remplissez le **[!UICONTROL Destination Mapping Value]** à l’aveugle.
    * Vous pouvez envoyer le même segment de test à plusieurs destinations et vous pouvez ajouter plusieurs segments de test à une seule destination.
-   * Les destinations sont grisées si elles ne sont pas disponibles pour un certain segment de test en fonction des [ Contrôles d’exportation de données ](../../features/data-export-controls.md).
+   * Les destinations sont grisées si elles ne sont pas disponibles pour un certain segment de test en fonction des [&#x200B; Contrôles d’exportation de données &#x200B;](../../features/data-export-controls.md).
    * Les utilisateurs verront uniquement les destinations auxquelles ils ont accès en fonction du [Groupe d’utilisateurs RBAC](../../features/administration/administration-overview.md) auquel ils appartiennent.
    * Enfin, vous devez sélectionner une date de début pour votre groupe de test. Cette date marque le début de la période au cours de laquelle votre groupe de test sera publié vers les destinations. Sélectionnez **Aucune date de fin** pour une comparaison indéfinie des segments de test.
 

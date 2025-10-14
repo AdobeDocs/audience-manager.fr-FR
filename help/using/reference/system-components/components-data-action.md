@@ -28,7 +28,7 @@ Les composants d’action sont des systèmes et des processus qui vous permetten
 
 ## Flux de données client (CDF) {#cdf}
 
-[!UICONTROL CDF] fichiers sont envoyés toutes les heures aux clients. Ils contiennent des identifiants d’utilisateur ainsi que les identifiants de segment, les identifiants de caractéristique et d’autres données associées. Pour plus d’informations, voir [ Présentation des flux de données client ](../../features/cdf-files.md).
+[!UICONTROL CDF] fichiers sont envoyés toutes les heures aux clients. Ils contiennent des identifiants d’utilisateur ainsi que les identifiants de segment, les identifiants de caractéristique et d’autres données associées. Pour plus d’informations, voir [&#x200B; Présentation des flux de données client &#x200B;](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 

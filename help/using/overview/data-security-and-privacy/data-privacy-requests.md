@@ -40,7 +40,7 @@ Vous pouvez envoyer des demandes d’accès aux données individuelles par le bi
 
 L’[interface utilisateur de Privacy Service](https://privacyui.cloud.adobe.io/) vous permet de créer de nouvelles requêtes de tâche, soit en utilisant le [!UICONTROL Request Builder] soit en chargeant un fichier [!DNL JSON].
 
-Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
+Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [&#x200B; télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
 
 Nous comprenons votre implication dans le respect des demandes de confidentialité des données pendant la période définie par la loi.
 
@@ -50,7 +50,7 @@ Vous pouvez envoyer des demandes de suppression de données par le biais de l’
 
 L’[interface utilisateur de Privacy Service](https://privacyui.cloud.adobe.io/) vous permet de créer de nouvelles requêtes de tâche, soit en utilisant le [!UICONTROL Request Builder] soit en chargeant un fichier [!DNL JSON].
 
-Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
+Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [&#x200B; télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
 
 Adobe comprend votre implication dans le respect des demandes de confidentialité des données des clients dans les 30 jours. Pour cette raison, [!DNL Adobe] s’engage à traiter votre demande de suppression de données dès que possible.
 
@@ -127,7 +127,7 @@ Suite à une exclusion au niveau du partenaire avec un appel d’identifiant dé
 * [!UICONTROL Destination] partenaires reçoivent la requête d’annulation de segment pour l’identifiant de [!DNL CRM] et le dernier identifiant d’appareil. La suppression de la segmentation fonctionne pour les destinations en [temps réel](data-privacy-requests.md#aam-partners-with-unsegmentation) et par lots.
 * Aucune donnée historique n’est supprimée.
 
-Lorsqu’[!DNL Audience Manager] reçoit une demande d’exclusion au niveau du partenaire, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d’erreur [ 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), avec le message [!UICONTROL "Encountered opt out tag"], au lieu de l’ID d’utilisateur [!DNL Audience Manager].
+Lorsqu’[!DNL Audience Manager] reçoit une demande d’exclusion au niveau du partenaire, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d’erreur [&#x200B; 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), avec le message [!UICONTROL "Encountered opt out tag"], au lieu de l’ID d’utilisateur [!DNL Audience Manager].
 
 Vous pouvez faire une demande d’exclusion d’identifiant déclaré avec les paires clé-valeur `d_cid` et `d_cid_ic`. Les paramètres hérités comme `d_dpid` et `d_dpuuid` fonctionnent toujours, mais sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../../reference/cid.md). Dans les exemples, le texte en *italique* indique un espace réservé de variable.
 
@@ -179,4 +179,4 @@ Consultez la [liste des destinations basées sur des appareils](/help/using/feat
 
 Étant donné que [!DNL Audience Manager] n’est pas la source des données, la correction des données a un rôle limité dans la [!DNL Audience Manager]. La correction peut signifier que le consommateur a demandé à être exclu d&#39;un [!UICONTROL trait]/[!UICONTROL segment] incorrect ou qualifié selon le [!UICONTROL trait]/[!UICONTROL segment] souhaité.
 
-[!DNL Audience Manager] clients peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils utilisateur et d’envoyer ces informations à [ par le biais de ](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)ingestion de données hors ligne[!DNL Audience Manager]. Veuillez noter que l’utilisateur continuera à être qualifié pour l’[!UICONTROL trait] d’origine et [!UICONTROL segments] s’il répète son comportement.
+[!DNL Audience Manager] clients peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils utilisateur et d’envoyer ces informations à [&#x200B; par le biais de &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)ingestion de données hors ligne[!DNL Audience Manager]. Veuillez noter que l’utilisateur continuera à être qualifié pour l’[!UICONTROL trait] d’origine et [!UICONTROL segments] s’il répète son comportement.

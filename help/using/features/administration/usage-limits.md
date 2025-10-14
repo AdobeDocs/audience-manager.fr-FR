@@ -21,7 +21,7 @@ Audience Manager limite le nombre de caractéristiques, de segments, de destinat
 
 ## Limites de mappage des identifiants {#id-mapping-limits}
 
-Le tableau ci-dessous répertorie les limites [mappage des identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) pour les identifiants d’appareil. Une fois qu’un ID atteint l’une des limites ci-dessous, Audience Manager ajoute de nouveaux mappages d’ID en fonction d’une logique FIFO (premier entré, premier sorti), en supprimant le mappage d’ID stocké le plus ancien et en ajoutant le nouveau. Pour plus d’informations sur les identifiants pris en charge par Audience Manager[ voir la section ](../../reference/ids-in-aam.md)Index des identifiants dans Audience Manager .
+Le tableau ci-dessous répertorie les limites [mappage des identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) pour les identifiants d’appareil. Une fois qu’un ID atteint l’une des limites ci-dessous, Audience Manager ajoute de nouveaux mappages d’ID en fonction d’une logique FIFO (premier entré, premier sorti), en supprimant le mappage d’ID stocké le plus ancien et en ajoutant le nouveau. Pour plus d’informations sur les identifiants pris en charge par Audience Manager[&#x200B; voir la section &#x200B;](../../reference/ids-in-aam.md)Index des identifiants dans Audience Manager .
 
 | Mappage d’ID | Limite Maximale |
 |-----------|-------------- |

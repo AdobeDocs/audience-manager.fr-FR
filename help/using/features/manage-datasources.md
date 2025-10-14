@@ -49,7 +49,7 @@ Pour remplir la section [!UICONTROL Data Source Details], renseignez les champs 
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-Les [ Contrôles d’exportation de données ](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à un [!UICONTROL data source] et à un [!UICONTROL destination]. Elles vous empêchent d’envoyer des données à un [!UICONTROL destination] lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
+Les [&#x200B; Contrôles d’exportation de données &#x200B;](../features/data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à un [!UICONTROL data source] et à un [!UICONTROL destination]. Elles vous empêchent d’envoyer des données à un [!UICONTROL destination] lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 ## [!UICONTROL Data Source] Settings {#settings}
 

@@ -21,7 +21,7 @@ ht-degree: 1%
 Pour créer une caractéristique algorithmique, accédez à [!UICONTROL Traits] et procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Create New Trait]** et sélectionnez **[!UICONTROL Algorithmic]** dans le menu déroulant.
-1. Dans la section [ Informations de base ](../../features/traits/create-onboarded-rule-based-traits.md)
+1. Dans la section [&#x200B; Informations de base &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md)
    * Nommez la caractéristique.
    * Sélectionnez une source de données.
    * Choisissez un dossier de stockage.

@@ -60,6 +60,6 @@ Pour désactiver l’obscurcissement des adresses IP pour des pays spécifiques,
 
 ## Concepts associés {#related-concepts}
 
-* [ Confidentialité des données ](/help/using/overview/data-security-and-privacy/data-privacy.md)
+* [&#x200B; Confidentialité des données &#x200B;](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Démonstration vidéo de l’obscurcissement des adresses IP
 >[!VIDEO](https://video.tv.adobe.com/v/34978?captions=fre_fr)

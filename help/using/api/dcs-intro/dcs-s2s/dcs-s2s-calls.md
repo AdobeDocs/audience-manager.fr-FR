@@ -87,4 +87,4 @@ Un exemple d’appel ressemble à l’exemple suivant.
 
 ## Exemple de réponse {#sample-response}
 
-Voir [ Recevoir des données du serveur de collecte de données ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Voir [&#x200B; Recevoir des données du serveur de collecte de données &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

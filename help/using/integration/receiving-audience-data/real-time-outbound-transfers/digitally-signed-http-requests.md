@@ -27,7 +27,7 @@ Audience Manager exige que les requêtes serveur à serveur `HTTP(S)` soient sig
 * **Authenticité** : seul l&#39;expéditeur possédant la clé privée ([!UICONTROL IRIS]) peut envoyer des messages `HTTP(S)` valides au partenaire.
 * **Intégrité des messages** : grâce à cette approche, même sur `HTTP`, vous êtes protégé contre un homme au milieu de l&#39;attaque où les messages sont déformés.
 
-[!UICONTROL IRIS] dispose d’une prise en charge intégrée de la rotation des clés sans temps d’arrêt, comme illustré dans la section [ Rotation de la clé privée ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) ci-dessous.
+[!UICONTROL IRIS] dispose d’une prise en charge intégrée de la rotation des clés sans temps d’arrêt, comme illustré dans la section [&#x200B; Rotation de la clé privée &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) ci-dessous.
 
 ## Informations à fournir {#info-to-provide}
 

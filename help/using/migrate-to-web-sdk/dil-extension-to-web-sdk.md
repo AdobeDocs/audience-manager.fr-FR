@@ -136,7 +136,7 @@ La publication des règles mises à jour suit le même workflow que toute autre 
 1. Testez les modifications apportées à votre environnement de développement pour vous assurer que toutes les règles se déclenchent correctement et que l’objet de données est renseigné avec les valeurs attendues.
 1. Une fois prête, envoyez la bibliothèque pour approbation, créez-la vers l’évaluation, puis approuvez-la et publiez-la en production.
 
-   ![ Flux de publication ](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; Flux de publication &#x200B;](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

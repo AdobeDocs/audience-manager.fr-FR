@@ -35,4 +35,4 @@ Répertorie les variables utilisées par le paramètre `destinationType`. Spéci
 
 >[!MORELIKETHIS]
 >
->* [Comment choisir un type de destination ](../../../features/destinations/destinations.md)
+>* [Comment choisir un type de destination &#x200B;](../../../features/destinations/destinations.md)

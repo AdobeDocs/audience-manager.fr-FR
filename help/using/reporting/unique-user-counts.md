@@ -38,5 +38,5 @@ Le rapport Général comptabilise les visiteurs du site comme uniques s’ils re
 
 >[!MORELIKETHIS]
 >
->* [ Rapports interactifs ](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
+>* [&#x200B; Rapports interactifs &#x200B;](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [Rapports généraux](../reporting/general-reports.md#general-reports-overview)

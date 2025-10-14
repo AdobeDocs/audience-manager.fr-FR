@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les sections individuelles décrivent les rapports disponibles, leurs objectifs et leurs utilisations standard. Tous les rapports sont disponibles à partir du tableau de bord [!UICONTROL Analytics].
 
-Pour plus d’informations sur les délais de réception des informations par Audience Manager afin de renseigner les rapports, voir [Comment les délais de diffusion des données et de traitement des fichiers affectent-ils les rapports ](/help/using/reference/reporting-file-transfer-timeframe.md).
+Pour plus d’informations sur les délais de réception des informations par Audience Manager afin de renseigner les rapports, voir [Comment les délais de diffusion des données et de traitement des fichiers affectent-ils les rapports &#x200B;](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Rapports Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 

@@ -16,7 +16,7 @@ ht-degree: 43%
 
 # Partenaires d’activation d’Audience Manager
 
-Cette page comprend uniquement les [ Audience Manager actuelles](/help/using/features/destinations/add-edit-segments.md) intégrations serveur à serveur.  Pour plus d’informations sur une intégration, consultez sa liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant Adobe ou l’assistance clientèle.
+Cette page comprend uniquement les [&#x200B; Audience Manager actuelles](/help/using/features/destinations/add-edit-segments.md) intégrations serveur à serveur.  Pour plus d’informations sur une intégration, consultez sa liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant Adobe ou l’assistance clientèle.
 
 <br> 
 

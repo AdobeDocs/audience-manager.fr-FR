@@ -250,5 +250,5 @@ Pour transférer le fichier `dil.js` dans GTM, procédez comme suit :
 >[!MORELIKETHIS]
 >
 >* [Centre D’Aide Du Gestionnaire De Balises Google](https://support.google.com/tagmanager#topic=3441530)
->* [Signaux ](../dil/dil-instance-methods.md#signals)
+>* [Signaux &#x200B;](../dil/dil-instance-methods.md#signals)
 >* [Exigences de préfixe pour les variables clés](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=fr#prefix-requirements-for-key-variables)

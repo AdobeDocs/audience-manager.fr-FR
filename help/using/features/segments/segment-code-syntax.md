@@ -81,4 +81,4 @@ Définissez des intervalles [récence et fréquence](../../features/segments/rec
 >* [Récence et fréquence](../../features/segments/recency-and-frequency.md)
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
 >* [Utilisation des opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
->* [ Ordre des opérations dans les expressions TraitBuilder ](../../features/traits/trait-operator-precedence.md)
+>* [&#x200B; Ordre des opérations dans les expressions TraitBuilder &#x200B;](../../features/traits/trait-operator-precedence.md)

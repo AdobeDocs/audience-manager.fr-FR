@@ -86,6 +86,6 @@ Reports that use Minhash sampling methodology:
 
 | Échantillonnage statistique | Méthodologie d’échantillonnage de Minhash |
 |--- |--- |
-| [ Audience adressable ](../features/addressable-audiences.md) données (données au niveau du client et du segment). | [ Rapports de chevauchement ](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait à trait, segment à trait et segment à segment) |
+| [&#x200B; Audience adressable &#x200B;](../features/addressable-audiences.md) données (données au niveau du client et du segment). | [&#x200B; Rapports de chevauchement &#x200B;](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait à trait, segment à trait et segment à segment) |
 | La mesure [Nombre total d’appareils](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) pour un [!UICONTROL Profile Merge Rule]. | [Recommandations de caractéristiques](/help/using/features/segments/trait-recommendations.md) |
 | [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilise des données échantillonnées dans l’onglet [!UICONTROL Search] et tout [!UICONTROL Saved Searches] | [Recommandations Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

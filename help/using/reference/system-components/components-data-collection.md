@@ -57,7 +57,7 @@ Dans un appel d’événement, l’emplacement géographique est capturé dans u
 
 ![](assets/dcs-map.png)
 
-En tant que client, vous interagissez avec le [!DNL DCS] indirectement par le biais de notre code de collecte de données. Vous pouvez également travailler directement avec le [!DNL DCS] par le biais d’un ensemble d’API. Voir [ Méthodes et code de l’API Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+En tant que client, vous interagissez avec le [!DNL DCS] indirectement par le biais de notre code de collecte de données. Vous pouvez également travailler directement avec le [!DNL DCS] par le biais d’un ensemble d’API. Voir [&#x200B; Méthodes et code de l’API Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 

@@ -122,11 +122,11 @@ Lors de la configuration de vos modèles [!UICONTROL Predictive Audiences], gard
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Les segments prédictifs créés par [!UICONTROL Predictive Audiences] modèles héritent des [ Contrôles d’exportation de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) des sources de données propriétaires suivantes :
+Les segments prédictifs créés par [!UICONTROL Predictive Audiences] modèles héritent des [&#x200B; Contrôles d’exportation de données &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) des sources de données propriétaires suivantes :
 
 1. Source de données propriétaire que vous choisissez lors de la création du modèle.
 1. Les sources de données propriétaires de votre audience cible. Plus précisément, les contrôles d’exportation des données des [!UICONTROL traits] ou [!UICONTROL segments] qui constituent votre audience cible.
-1. Les [ Contrôles d’exportation de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) du [!UICONTROL Profile Merge Rule] que vous avez sélectionné pour le modèle.
+1. Les [&#x200B; Contrôles d’exportation de données &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) du [!UICONTROL Profile Merge Rule] que vous avez sélectionné pour le modèle.
 
 Les nouveaux [!UICONTROL traits] prédictifs et [!UICONTROL segments] auront les mêmes restrictions de confidentialité que l’union des sources de données propriétaires décrites ci-dessus.
 

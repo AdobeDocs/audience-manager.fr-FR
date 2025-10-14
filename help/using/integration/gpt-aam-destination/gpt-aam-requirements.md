@@ -54,4 +54,4 @@ Adressez-vous à votre consultant Audience Manager ou à l’assistance clientè
 
 >[!MORELIKETHIS]
 >
->* [ Guide de référence de l’API GPT ](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
+>* [&#x200B; Guide de référence de l’API GPT &#x200B;](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

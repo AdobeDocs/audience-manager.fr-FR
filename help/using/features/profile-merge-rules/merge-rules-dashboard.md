@@ -28,7 +28,7 @@ Lorsque vous utilisez des [!UICONTROL Profile Merge Rules], vous pouvez :
 
 * Créez un maximum de 4 [!UICONTROL Profile Merge Rules] à partir de vos sources de données inter-appareils. Voir [Création d’une Source de données entre appareils](merge-rules-start.md#create-data-source).
 * Désignez une règle de fusion par défaut. Le [créateur de segments](../segments/segment-builder.md) applique automatiquement la règle par défaut à tous les nouveaux segments que vous créez.
-* Appliquez [ Contrôles d’exportation de données ](../data-export-controls.md) à une règle de fusion. [!UICONTROL Data Export Controls] vous empêchent d’envoyer des données vers des destinations lorsque cela enfreint la confidentialité des données ou les accords d’utilisation.
+* Appliquez [&#x200B; Contrôles d’exportation de données &#x200B;](../data-export-controls.md) à une règle de fusion. [!UICONTROL Data Export Controls] vous empêchent d’envoyer des données vers des destinations lorsque cela enfreint la confidentialité des données ou les accords d’utilisation.
 * Effectuez le suivi du nombre moyen d’appareils pour chaque utilisateur.
 * Utiliser des commandes de base pour créer, modifier et supprimer des règles. Seuls les administrateurs peuvent gérer les règles, mais d’autres utilisateurs peuvent les afficher et les appliquer aux segments. Voir [Options de règle de fusion de profil définies](merge-rule-definitions.md) et [Cas d’utilisation des règles de fusion](merge-rule-targeting-options.md).
 

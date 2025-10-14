@@ -36,7 +36,7 @@ La colonne du milieu contient une liste de caractéristiques, identifiées par [
 
 La colonne [!UICONTROL Standard Deviation] affiche des graphiques à barres avec code-couleur qui indiquent l’écart type de chaque caractéristique sur l’intervalle sélectionné. Les barres rouges indiquent les caractéristiques avec un écart type négatif (les points de données ont tendance à être inférieurs à la moyenne). Les barres vertes indiquent les caractéristiques avec un écart type positif (les points de données ont tendance à être supérieurs à la moyenne). Placez le pointeur de la souris sur une barre pour afficher une boîte de dialogue pop-up contenant plus d’informations et d’options permettant de conserver ou d’exclure cette caractéristique et d’afficher plus d’informations.
 
-Des icônes s’affichent au bas du rapport pour vous permettre d’exporter des données dans divers formats, d’annuler les modifications que vous avez apportées au rapport (telles que l’exclusion de caractéristiques), d’activer ou de désactiver les mises à jour automatiques et d’actualiser les données du rapport. Voir [ Présentation des icônes de rapport et des outils](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+Des icônes s’affichent au bas du rapport pour vous permettre d’exporter des données dans divers formats, d’annuler les modifications que vous avez apportées au rapport (telles que l’exclusion de caractéristiques), d’activer ou de désactiver les mises à jour automatiques et d’actualiser les données du rapport. Voir [&#x200B; Présentation des icônes de rapport et des outils](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
 ## Cas d’utilisation {#use-cases}
 

@@ -46,7 +46,7 @@ L’illustration suivante présente de manière générale les éléments du rap
 
 >[!NOTE]
 >
->Les caractéristiques de dossier ne peuvent pas être comparées dans les rapports de chevauchement des caractéristiques. En créant un segment à l’aide d’une caractéristique de dossier particulière, vous pouvez effectuer une analyse via le [ rapport de chevauchement segment-à-caractéristique ](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+>Les caractéristiques de dossier ne peuvent pas être comparées dans les rapports de chevauchement des caractéristiques. En créant un segment à l’aide d’une caractéristique de dossier particulière, vous pouvez effectuer une analyse via le [&#x200B; rapport de chevauchement segment-à-caractéristique &#x200B;](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 

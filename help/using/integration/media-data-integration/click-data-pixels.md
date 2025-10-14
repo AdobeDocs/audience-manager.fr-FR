@@ -168,7 +168,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers le [!DNL 
 
 ## Fonctionnalités supplémentaires - [!UICONTROL Audience Optimization Reports]
 
-Vous pouvez utiliser des appels de pixels pour alimenter les [rapports Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [ Présentation et mappages des fichiers de métadonnées ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
+Vous pouvez utiliser des appels de pixels pour alimenter les [rapports Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
 
 >[!MORELIKETHIS]

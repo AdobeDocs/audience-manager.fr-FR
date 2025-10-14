@@ -49,7 +49,7 @@ Dans ce cas, le [!DNL Automobile Folder Trait] a 7 réalisations.
 
 ## Rapports sur les caractéristiques du dossier {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] capturer tous les utilisateurs à partir des caractéristiques de la structure de dossiers située sous eux. Si vous déplacez une caractéristique d’un dossier vers un autre dossier, la modification se propage à nos [ serveurs de collecte de données ](../../reference/system-components/components-data-collection.md) comme un changement de règle de caractéristique. Les mises à jour des rapports de la prochaine exécution de création de rapports reflètent cette modification sur les périodes de création de rapports (1, 7, 14, 30, 60, 90). Les anciens nombres de rapports des jours précédents ne changeront pas.
+[!UICONTROL Folder traits] capturer tous les utilisateurs à partir des caractéristiques de la structure de dossiers située sous eux. Si vous déplacez une caractéristique d’un dossier vers un autre dossier, la modification se propage à nos [&#x200B; serveurs de collecte de données &#x200B;](../../reference/system-components/components-data-collection.md) comme un changement de règle de caractéristique. Les mises à jour des rapports de la prochaine exécution de création de rapports reflètent cette modification sur les périodes de création de rapports (1, 7, 14, 30, 60, 90). Les anciens nombres de rapports des jours précédents ne changeront pas.
 
 ## Autorisations des contrôles d’accès basés sur les rôles {#role-based-access-controls}
 

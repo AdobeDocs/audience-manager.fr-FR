@@ -20,7 +20,7 @@ Avant de configurer votre destination [!DNL Amazon Advertising], veillez à resp
 
 * Votre compte [!DNL Amazon] doit être éligible à la publicité.
 * Lors de la création de la première destination [!DNL Amazon Advertising] dans votre instance Audience Manager, contactez Adobe Consulting ou l’assistance clientèle pour activer la synchronisation des identifiants [!DNL Amazon] (identifiant de Source de données = 139200) pour votre compte. Cela est nécessaire à la synchronisation correcte entre Audience Manager et [!DNL Amazon].
-* Une fois les nouvelles audiences de fournisseur de données créées, vous devez [mettre à jour leurs métadonnées](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) et ajouter les **[!DNL audience fees]**. Pour cette opération, vous pouvez utiliser l’API [Amazon Ads ou ](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access)’interface utilisateur [Amazon Advertising](https://advertising.amazon.com/).
+* Une fois les nouvelles audiences de fournisseur de données créées, vous devez [mettre à jour leurs métadonnées](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) et ajouter les **[!DNL audience fees]**. Pour cette opération, vous pouvez utiliser l’API [Amazon Ads ou &#x200B;](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access)’interface utilisateur [Amazon Advertising](https://advertising.amazon.com/).
 
 ## Ajouter une nouvelle destination [!DNL Amazon Advertising] {#add-new-amazon-destination}
 

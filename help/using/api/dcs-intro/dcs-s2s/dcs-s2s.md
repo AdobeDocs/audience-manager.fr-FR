@@ -49,4 +49,4 @@ Nous ajouterons de nouvelles méthodes au fur et à mesure qu’elles seront dis
 
 >[!MORELIKETHIS]
 >
->* [ Référence de l’API DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [&#x200B; Référence de l’API DCS &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

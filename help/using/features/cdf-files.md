@@ -53,7 +53,7 @@ Répertorie et définit les éléments de données et les tableaux d’un fichie
 
 ## Définitions {#definitions}
 
-Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-dessous. Pour plus d’informations sur l’organisation interne des fichiers, voir [ Structure de fichier du flux de données client ](#cdf-file-structure).
+Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-dessous. Pour plus d’informations sur l’organisation interne des fichiers, voir [&#x200B; Structure de fichier du flux de données client &#x200B;](#cdf-file-structure).
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 

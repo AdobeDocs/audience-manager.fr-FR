@@ -123,9 +123,9 @@ Dans un nom de fichier :
 
 * Les identifiants de contenu créatif et de campagne représentent une catégorie plutôt qu’un identifiant réel.
 
-![comment un nom de fichier est-il créé ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
+![comment un nom de fichier est-il créé &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-Voir [ Conventions de dénomination pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+Voir [&#x200B; Conventions de dénomination pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Contenu du fichier
 
@@ -137,7 +137,7 @@ Voir [Format de contenu pour les fichiers de métadonnées](../../../reporting/a
 
 ### Diffusion de fichier
 
-Après avoir nommé et ajouté des données à un fichier, vous l’envoyez à un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir [ Méthodes de diffusion des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Après avoir nommé et ajouté des données à un fichier, vous l’envoyez à un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir [&#x200B; Méthodes de diffusion des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >

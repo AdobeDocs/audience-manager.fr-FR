@@ -41,7 +41,7 @@ Cette section contient des champs et des options qui démarrent le processus de 
 Cette section contient des options qui appliquent des [contrôles d’exportation de données](../../features/data-export-controls.md) à une destination de cookie. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Data Export Labels]** pour afficher les contrôles.
-2. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [ Ajouter des libellés d’exportation à une destination ](/help/using/features/destinations/add-data-export-labels.md) pour plus de détails).
+2. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [&#x200B; Ajouter des libellés d’exportation à une destination &#x200B;](/help/using/features/destinations/add-data-export-labels.md) pour plus de détails).
 3. Cliquez sur **[!UICONTROL Save]**.
 
 ## Configuration {#configuration}

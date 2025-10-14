@@ -303,7 +303,7 @@ En tant qu’acheteur de données [!UICONTROL Audience Marketplace], vous pouvez
 
 ### Segments et chevauchement
 
-Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un rapport de chevauchement [ caractéristique à caractéristique.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
+Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un rapport de chevauchement [&#x200B; caractéristique à caractéristique.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
 
 * **Étendre la portée de l’audience :** un faible chevauchement suggère que vos caractéristiques contiennent des utilisateurs que vous n’avez jamais vus auparavant. Vous souhaiterez peut-être que ces caractéristiques essaient d’atteindre de nouveaux utilisateurs.
 * **Améliorer les audiences existantes :** un chevauchement élevé suggère que vos caractéristiques sont similaires à celles du fournisseur de données. Vous pouvez avoir besoin de ces caractéristiques pour apporter des améliorations ciblées et incrémentielles à une audience déjà développée.
@@ -320,7 +320,7 @@ Ce cas d’utilisation vous permet d’envoyer des données vers une [destinatio
 >
 >* [Facturation et affectation des impressions pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Facturation et affectation d’impressions pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Comment signaler l’utilisation de CPM ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Comment signaler l’utilisation de CPM &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 >* [Abonnement à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 >* [Remises pour les acheteurs de données](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
->* [Le Marché : À Propos ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+>* [Le Marché : À Propos &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)

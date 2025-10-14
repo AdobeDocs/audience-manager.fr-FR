@@ -26,6 +26,6 @@ Pour ajouter ou modifier des mappages de segments pour une destination [!DNL S2S
    * Dans la zone de **[!UICONTROL Search and Add Segments]**, commencez à saisir le nom d’un segment ou cliquez **[!UICONTROL Browse All Segments]** parcourir une liste de segments disponibles.
    * Cliquez sur **[!UICONTROL Add Selected Segments]** lorsque vous trouvez le segment que vous souhaitez utiliser. L’ajout d’un segment ouvre la fenêtre de [!UICONTROL Edit Mapping].
    * En [!UICONTROL Edit Mapping] :
-      * **[!UICONTROL Mappings]** : définissez une valeur pour la [ paire clé-valeur ](../../features/destinations/key-value-pairs.md) utilisée par cette destination.
+      * **[!UICONTROL Mappings]** : définissez une valeur pour la [&#x200B; paire clé-valeur &#x200B;](../../features/destinations/key-value-pairs.md) utilisée par cette destination.
       * **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** : choisissez des dates de début et de fin pour la destination. Si la date de fin est vide, la destination n’expire jamais.
 3. Cliquez sur **[!UICONTROL Save]**, puis sur **[!UICONTROL Done]**.

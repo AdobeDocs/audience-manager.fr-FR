@@ -47,7 +47,7 @@ Les clients n’ont pas d’accès direct à ces systèmes. Cependant, les clien
 Il ne s’agit en aucun cas d’une liste complète, mais certains rapports de tableau de bord courants dont [!UICONTROL Snowflake] est responsable incluent :
 
 * [Rapport de variation des caractéristiques quotidiennes](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* Tous les rapports de chevauchement (voir la section [ Rapports interactifs ](/help/using/reporting/dynamic-reports/dynamic-reports.md) pour plus d’informations sur chaque rapport de chevauchement).
+* Tous les rapports de chevauchement (voir la section [&#x200B; Rapports interactifs &#x200B;](/help/using/reporting/dynamic-reports/dynamic-reports.md) pour plus d’informations sur chaque rapport de chevauchement).
 * [Rapport Signaux inutilisés](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}

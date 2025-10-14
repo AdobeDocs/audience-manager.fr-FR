@@ -67,7 +67,7 @@ Regardez la vidéo ci-dessous pour un tutoriel vidéo sur la création d’une s
 
 >[!NOTE]
 >
-> Consultez [ Intégration de données ](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
+> Consultez [&#x200B; Intégration de données &#x200B;](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
 
 ## Étape 2 - Correspondance des DPUUID aux adresses e-mail hachées via la synchronisation d’identifiants basée sur des fichiers {#match-ids-emails}
 

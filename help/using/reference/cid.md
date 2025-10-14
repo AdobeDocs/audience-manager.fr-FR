@@ -79,7 +79,7 @@ Les paires clé-valeur CID et CID_IC remplacent DPID et DPUUID. Ils fournissent 
  </tbody> 
 </table>
 
-Voir aussi [ Variables d’URL et syntaxe pour les identifiants déclarés](../features/declared-ids.md#variables-and-syntax).
+Voir aussi [&#x200B; Variables d’URL et syntaxe pour les identifiants déclarés](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >

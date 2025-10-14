@@ -132,7 +132,7 @@ Consultez le tableau pour obtenir des exemples :
 
 **Les données DIL/Analytics sont des signaux inutilisés**
 
-Audience Manager accepte les [!UICONTROL Props], [!UICONTROL eVars] et événements Analytics même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristique et apparaissent à la place dans le rapport [ Signaux inutilisés ](../reporting/dynamic-reports/unused-signals.md). Pour tirer le meilleur parti de ces informations, créez des caractéristiques Audience Manager correspondant aux données Analytics transmises par la bibliothèque [!UICONTROL Flash DIL].
+Audience Manager accepte les [!UICONTROL Props], [!UICONTROL eVars] et événements Analytics même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristique et apparaissent à la place dans le rapport [&#x200B; Signaux inutilisés &#x200B;](../reporting/dynamic-reports/unused-signals.md). Pour tirer le meilleur parti de ces informations, créez des caractéristiques Audience Manager correspondant aux données Analytics transmises par la bibliothèque [!UICONTROL Flash DIL].
 
 ## Bibliothèque Flash DIL ActionScript {#flash-dil-actionscript}
 

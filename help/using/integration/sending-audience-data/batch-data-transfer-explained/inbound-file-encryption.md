@@ -24,7 +24,7 @@ Vous pouvez chiffrer les fichiers de données avec un chiffrement [!DNL PGP] lor
 >
 >Le chiffrement [!DNL PGP] inclut la compression de fichiers. Lorsque vous envoyez [!DNL PGP] fichiers entrants chiffrés, veillez à ne pas les [compresser](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) à l’aide de gzip (`.gz`).
 >
->[!DNL PGP] fichiers entrants chiffrés qui sont également [ compressés ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) ne sont pas valides dans Audience Manager.
+>[!DNL PGP] fichiers entrants chiffrés qui sont également [&#x200B; compressés &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) ne sont pas valides dans Audience Manager.
 
 Pour chiffrer les fichiers de données entrants, procédez comme suit.
 

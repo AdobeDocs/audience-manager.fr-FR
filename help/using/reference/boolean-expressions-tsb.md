@@ -82,4 +82,4 @@ L’opérateur [!UICONTROL AND NOT] est utile lorsqu’il est plus facile de dé
 >[!MORELIKETHIS]
 >
 >* [Utilisation des opérateurs de comparaison dans TraitBuilder](../features/traits/trait-comparison-operators.md)
->* [ Ordre des opérations dans les expressions TraitBuilder ](../features/traits/trait-operator-precedence.md)
+>* [&#x200B; Ordre des opérations dans les expressions TraitBuilder &#x200B;](../features/traits/trait-operator-precedence.md)

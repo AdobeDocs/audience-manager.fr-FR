@@ -39,7 +39,7 @@ A **Ciblage des audiences en fonction de l’activité combinée des utilisateur
 
 Votre entreprise, une compagnie aérienne, a différents niveaux de clients (Bronze, Argent et Or) et vous souhaitez fournir à chacun des niveaux des offres personnalisées via des plateformes sociales. Vous utilisez Audience Manager pour analyser l’activité des clients sur votre site web. Cependant, tous les clients n&#39;utilisent pas l&#39;application mobile de la compagnie aérienne et certains d&#39;entre eux ne se sont pas connectés au site Web de la compagnie. Les données de vos clients se limitent principalement aux identifiants d’abonnement et aux adresses e-mail.
 
-Pour les cibler sur les médias sociaux et les canaux similaires basés sur les personnes, vous pouvez importer vos adresses e-mail [ hachées](people-based-destinations-prerequisites.md) dans Audience Manager et les combiner avec vos caractéristiques d’activité en ligne existantes, afin de créer de nouveaux segments d’audience. Vous pouvez ensuite utiliser ces segments pour cibler votre audience par le biais de [!DNL People-Based Destinations].
+Pour les cibler sur les médias sociaux et les canaux similaires basés sur les personnes, vous pouvez importer vos adresses e-mail [&#x200B; hachées](people-based-destinations-prerequisites.md) dans Audience Manager et les combiner avec vos caractéristiques d’activité en ligne existantes, afin de créer de nouveaux segments d’audience. Vous pouvez ensuite utiliser ces segments pour cibler votre audience par le biais de [!DNL People-Based Destinations].
 
 **B) Le ciblage d’audience basé exclusivement sur votre activité utilisateur hors ligne**. Dans ce scénario, votre système [!DNL CRM] contient les adresses e-mail de vos clients et d’autres attributs du client, mais les clients n’ont pas du tout interagi avec votre site web, de sorte que vous n’avez aucune activité client dans Audience Manager. Voici un exemple illustrant ce scénario :
 
@@ -55,7 +55,7 @@ A **Ciblage de l’audience en fonction de vos adresses e-mail authentifiées**.
 
 ## &#x200B;3. Identifier le type d’ID de client (ID CRM) dont vous disposez {#identify-customer-id}
 
-Pour cibler des audiences dans [!DNL People-Based Destinations], vous devez envoyer des versions hachées [SHA256 de vos adresses e-mail ](people-based-destinations-prerequisites.md) client. Selon la configuration d’Audience Manager que vous possédez déjà, il se peut que vous vous trouviez dans l’un des deux scénarios suivants :
+Pour cibler des audiences dans [!DNL People-Based Destinations], vous devez envoyer des versions hachées [SHA256 de vos adresses e-mail &#x200B;](people-based-destinations-prerequisites.md) client. Selon la configuration d’Audience Manager que vous possédez déjà, il se peut que vous vous trouviez dans l’un des deux scénarios suivants :
 
 **A) Vos ID de client Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) sont déjà des adresses e-mail hachées en minuscules**. Dans ce scénario, vous pouvez utiliser ces identifiants existants pour cibler vos audiences dans [!DNL People-Based Destinations].
 

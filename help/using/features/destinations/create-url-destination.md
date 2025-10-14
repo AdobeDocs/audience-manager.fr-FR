@@ -41,7 +41,7 @@ Cette section contient des champs et des options qui lancent le processus de cr�
 Cette section contient des options qui appliquent des [contrôles d’exportation de données](../../features/data-export-controls.md) à une destination [!DNL URL]. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Data Export Labels]** pour afficher les contrôles.
-2. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [ Ajouter des libellés d’exportation à une destination ](/help/using/features/destinations/add-data-export-labels.md) pour plus de détails).
+2. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [&#x200B; Ajouter des libellés d’exportation à une destination &#x200B;](/help/using/features/destinations/add-data-export-labels.md) pour plus de détails).
 3. Cliquez sur **[!UICONTROL Save]**.
 
 ## Configuration {#configure-base-data}
@@ -56,7 +56,7 @@ Vous pouvez ainsi envoyer les segments à un [!DNL destination] de manière séq
 | Champ | Description |
 |--- |--- |
 | [!UICONTROL Base URL] | Partie de base d’un `HTTP` standard [!DNL URL] qui ne change pas. Vous devez également placer la `%ALIAS%` [macro d’espace réservé](../../features/destinations/destination-macros.md#destination-macros-defined) dans l’URL de base. Exemple : `https://www.myCompany.com/%alias%...` |
-| [!UICONTROL Secure URL] | La partie de base d’un `HTTPS` sécurisé [!DNL URL] qui ne change pas. En outre, vous devez placer le `%ALIAS%`   [ macro d’espace réservé ](../../features/destinations/destination-macros.md#destination-macros-defined) dans l’URL de base. Exemple : `https://www.myCompany.com/%alias%...` |
+| [!UICONTROL Secure URL] | La partie de base d’un `HTTPS` sécurisé [!DNL URL] qui ne change pas. En outre, vous devez placer le `%ALIAS%`   [&#x200B; macro d’espace réservé &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) dans l’URL de base. Exemple : `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Delimiter] | Symbole qui sépare les variables de segment dans la chaîne [!DNL URL]. Il s’agit généralement d’une virgule ou d’un point-virgule. Obtenez ces informations auprès de votre partenaire de destination. |
 
 ## [!UICONTROL Segment Mappings] {#segment-mappings}

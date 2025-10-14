@@ -52,7 +52,7 @@ Le tableau ci-dessous répertorie et définit les paramètres les plus courants 
 | Paramètre | Description |
 |--- |--- |
 | `c` | Une URL qui a été définie comme [destination URL](../../../features/destinations/create-url-destination.md). |
-| `cn` | Nom ou ID défini dans le champ nom du cookie d’une [ destination de cookie ](../../../features/destinations/create-cookie-destination.md). |
+| `cn` | Nom ou ID défini dans le champ nom du cookie d’une [&#x200B; destination de cookie &#x200B;](../../../features/destinations/create-cookie-destination.md). |
 | `cv` | Les valeurs envoyées à la destination définie par le paramètre « cn »:« nom de destination ». |
 | `dcs_region` | Les [appels DCS serveur à serveur](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Cet objet contient des informations pour toutes les destinations d’URL configurées dans l’interface utilisateur. La liste de cet objet est dynamique en fonction des actions de l’utilisateur. |

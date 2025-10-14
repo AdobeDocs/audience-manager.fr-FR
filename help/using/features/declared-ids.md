@@ -54,7 +54,7 @@ Certains navigateurs et la plupart des appareils mobiles n’acceptent pas les [
  </tbody>
 </table>
 
-Pour commencer, vous devez configurer le service d’ID de [!DNL Experience Cloud] et les [!UICONTROL DIL] sur les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir les sections [Création ](../dil/dil-class-overview/dil-create.md#dil-create) DIL et [Variables d’ID déclarées](../features/declared-ids.md#declared-id-variables).
+Pour commencer, vous devez configurer le service d’ID de [!DNL Experience Cloud] et les [!UICONTROL DIL] sur les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir les sections [Création &#x200B;](../dil/dil-class-overview/dil-create.md#dil-create) DIL et [Variables d’ID déclarées](../features/declared-ids.md#declared-id-variables).
 
 ## Appels d’opt-out {#opt-out-calls}
 
@@ -63,7 +63,7 @@ Le processus [!UICONTROL declared ID] respecte les préférences des visiteurs d
 * [!DNL Audience Manager] pouvez transmettre un opt-out [!UICONTROL declared ID] avec un [!DNL Audience Manager] [!UICONTROL UUID] dans le [!DNL URL].
 * Le processus d’opt-out [!UICONTROL declared ID] est stocké dans le [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) sur une base par partenaire. Il n’existe aucune désinscription au niveau de la plateforme à l’aide de [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] exclut l’utilisateur de cette région particulière sur le serveur Edge (l’exclusion ne traverse pas les régions [!DNL DCS]).
 
-Consultez [ Confidentialité des données ](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur le droit d’opposition à la collecte de données.
+Consultez [&#x200B; Confidentialité des données &#x200B;](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur le droit d’opposition à la collecte de données.
 
 ## Exemples d’opt-out [!UICONTROL Declared ID] {#opt-out-examples}
 
@@ -184,7 +184,7 @@ Décrit les variables de configuration utilisées pour transmettre des [!UICONTR
 
 ## [!UICONTROL DIL] utilise l’[!DNL Adobe Experience Platform Identity Service] pour transmettre des [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Lorsqu’il est utilisé avec le service d’identités [Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), vous n’avez plus besoin de transmettre des [!UICONTROL declared IDs] avec les variables `dpid` et `dpuuid` obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la fonction `visitorService` pour obtenir le [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. Pour plus d’informations, voir [ ID de client et états d’authentification ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). Vous pouvez appeler `visitorService` en `DIL.create`, comme illustré ci-dessous.
+Lorsqu’il est utilisé avec le service d’identités [Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), vous n’avez plus besoin de transmettre des [!UICONTROL declared IDs] avec les variables `dpid` et `dpuuid` obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la fonction `visitorService` pour obtenir le [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. Pour plus d’informations, voir [&#x200B; ID de client et états d’authentification &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). Vous pouvez appeler `visitorService` en `DIL.create`, comme illustré ci-dessous.
 
 ```js
 var vDil = DIL.create({

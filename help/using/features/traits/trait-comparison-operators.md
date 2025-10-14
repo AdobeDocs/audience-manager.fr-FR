@@ -57,5 +57,5 @@ Vous pouvez créer des règles avec les opérateurs nommés suivants :
 >
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
 >* [Présentation des expressions booléennes dans TraitBuilder](../../reference/boolean-expressions-tsb.md)
->* [ Ordre des opérations dans les expressions TraitBuilder ](../../features/traits/trait-operator-precedence.md)
+>* [&#x200B; Ordre des opérations dans les expressions TraitBuilder &#x200B;](../../features/traits/trait-operator-precedence.md)
 >* [Exemple d’expressions avec des opérateurs booléens et de comparaison](../../features/traits/trait-expression-samples.md)

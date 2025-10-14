@@ -24,7 +24,7 @@ Pour connaître les autres conditions requises, voir Conditions préalables dans
 
 | Type de destination Analytics | Description |
 |---|---|
-| Par défaut | Le nom de cette destination par défaut est « Adobe Analytics », que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos caractéristiques et segments Audience Manager. <br>  Audience Manager crée automatiquement une destination si votre compte possède : <br>  <ul><li>Respectez les exigences décrites dans la documentation d’[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).</li><li>Une [ suite de rapports ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) dans Analytics.</li></ul> |
+| Par défaut | Le nom de cette destination par défaut est « Adobe Analytics », que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos caractéristiques et segments Audience Manager. <br>  Audience Manager crée automatiquement une destination si votre compte possède : <br>  <ul><li>Respectez les exigences décrites dans la documentation d’[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).</li><li>Une [&#x200B; suite de rapports &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) dans Analytics.</li></ul> |
 | Nouveau | Pour créer de nouvelles destinations Analytics, accédez à Données d’audience > Destinations > Créer une nouvelle destination et suivez les étapes de chaque section décrite ci-dessous. |
 
 ## Qualifications des segments Audience Manager dans Adobe Analytics {#segment-qualifications}
@@ -58,10 +58,10 @@ Cette section contient des champs et des options qui démarrent le processus de 
 
 ## Étape 2 : Configurer Les Contrôles D’Exportation De Données
 
-Cette section contient des options qui s’appliquent [ Contrôles d’exportation de données ](/help/using/features/data-export-controls.md) à une destination Analytics. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
+Cette section contient des options qui s’appliquent [&#x200B; Contrôles d’exportation de données &#x200B;](/help/using/features/data-export-controls.md) à une destination Analytics. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
 
 1. Cliquez sur **Contrôles d’exportation de données** pour afficher les contrôles.
-1. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [ Ajouter des libellés d’exportation des données à une destination ](/help/using/features/destinations/add-data-export-labels.md) ). Pour les destinations Analytics, la case à cocher PII est sélectionnée par défaut.
+1. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [&#x200B; Ajouter des libellés d’exportation des données à une destination &#x200B;](/help/using/features/destinations/add-data-export-labels.md) ). Pour les destinations Analytics, la case à cocher PII est sélectionnée par défaut.
 1. Cliquez sur **Enregistrer**.
 
 ![contrôles des exportations](assets/exportControls.png)

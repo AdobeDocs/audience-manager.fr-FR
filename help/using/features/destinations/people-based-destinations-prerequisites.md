@@ -56,7 +56,7 @@ Consultez [Présentation et configuration de la destination LinkedIn basée sur 
 
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires vers une destination [!DNL Google Customer Match], veillez à lire et à respecter la politique de Google relative à l’utilisation de [!DNL Customer Match], décrite dans la [documentation de prise en charge de Google](https://support.google.com/google-ads/answer/6299717).
 
-Ensuite, assurez-vous que votre compte [!DNL Google] est configuré pour un niveau d’autorisation [!DNL Standard] ou supérieur. Pour plus d’informations[ consultez la documentation sur les Google Ads ](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1).
+Ensuite, assurez-vous que votre compte [!DNL Google] est configuré pour un niveau d’autorisation [!DNL Standard] ou supérieur. Pour plus d’informations[&#x200B; consultez la documentation sur les Google Ads &#x200B;](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1).
 
 Les clients disposant de comptes conformes sont automatiquement placés sur la liste autorisée par Google.
 
