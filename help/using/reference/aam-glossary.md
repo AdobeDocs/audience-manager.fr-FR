@@ -61,7 +61,7 @@ Dans [Audiences adressables](/help/using/features/addressable-audiences.md), cet
 
 **Attributs du client**
 
-Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) dans la documentation du produit [!DNL Experience Cloud Core Services].
+Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans la documentation du produit [!DNL Experience Cloud Core Services].
 
 
 
@@ -113,7 +113,7 @@ La [!UICONTROL Data Integration Library] constitue une bibliothèque d’API uti
 
 **Experience Cloud ID (ECID)**
 
-Anciennement nommé identifiant [!DNL Marketing Cloud] (MID ou MCID), l’identifiant [!DNL Experience Cloud] est au cœur du service d’identification. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir les cookies et l’[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Anciennement nommé identifiant [!DNL Marketing Cloud] (MID ou MCID), l’identifiant [!DNL Experience Cloud] est au cœur du service d’identification. Il s’agit d’un identifiant unique et persistant pour les visiteurs de votre site. Voir les cookies et l’[Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
 
 
 
@@ -270,6 +270,6 @@ Identifiant utilisateur unique d’[!DNL Audience Manager]. Voir [Index des iden
 
 Le service d’identification d’[!DNL Experience Cloud] (anciennement identifiant visiteur) fournit un identifiant persistant et universel qui identifie vos visiteurs dans toutes les solutions [!DNL Experience Cloud].
 
-Voir la [documentation d’Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+Voir la [documentation d’Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
 ## W-X-Y-Z {#w-z}

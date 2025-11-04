@@ -80,7 +80,7 @@ Tous ces éléments sont facultatifs, à moins que vous ne souhaitiez une répon
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Désactivez l’utilisation des cookies tiers afin de respecter les réglementations relatives à la protection des enfants. Ce paramètre est défini de manière dynamique par le service d’identités d’Adobe Adobe Experience Platform et dépend de la configuration <code> idSyncDisable3rdPartySyncing</code>. Voir Prise <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> charge de la loi COPPA dans le service d’identités Adobe Experience Platform</a>. </p> </td>
+   <td colname="col2"> <p>Désactivez l’utilisation des cookies tiers afin de respecter les réglementations relatives à la protection des enfants. Ce paramètre est défini de manière dynamique par le service d’identités d’Adobe Adobe Experience Platform et dépend de la configuration <code> idSyncDisable3rdPartySyncing</code>. Voir Prise <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=fr" format="https" scope="external"> charge de la loi COPPA dans le service d’identités Adobe Experience Platform</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Tous ces éléments sont facultatifs, à moins que vous ne souhaitiez une répon
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Spécifie l'Experience Cloud ID défini et utilisé par le service <span class="keyword"> Experience Cloud</span> ID. Pour plus d’informations sur l’ECID, voir Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> et service d’identités Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Spécifie l'Experience Cloud ID défini et utilisé par le service <span class="keyword"> Experience Cloud</span> ID. Pour plus d’informations sur l’ECID, voir Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et service d’identités Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -195,7 +195,7 @@ Ces en-têtes contiennent des informations telles que des demandes de données e
 
 | Attribut | Description |
 | --- | --- |
-| `h_host` | Il est défini sur le nom d’hôte de collecte de données spécifique du client. Il apparaît comme `host name .demdex.net`. Voir [Signification des appels vers le domaine Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
+| `h_host` | Il est défini sur le nom d’hôte de collecte de données spécifique du client. Il apparaît comme `host name .demdex.net`. Voir [Signification des appels vers le domaine Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr). |
 | `h_user-agent` | Définissez sur la valeur de l’en-tête `User-Agent`. |
 | `h_accept-language` | Définissez sur la valeur de l’en-tête `Accept-Language`. |
 | `h_referer` | Définissez sur la valeur de l’en-tête `Referer`. |
