@@ -50,7 +50,7 @@ Sous les outils de gestion des segments, vous trouverez les informations sur les
 
    Regardez la vidéo ci-dessous pour un aperçu de [!UICONTROL Identity Type Breakdown].
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+   >[!VIDEO](https://video.tv.adobe.com/v/32077?captions=fre_fr)
 
 1. **[!UICONTROL Segment Rules]:** répertorie les caractéristiques du segment avec les règles de qualification.
 1. **[!UICONTROL Destination Mappings]:** répertorie les mappages de destination pour le segment.
