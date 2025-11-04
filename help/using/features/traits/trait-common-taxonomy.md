@@ -31,7 +31,7 @@ Permettre à nos clients de créer des segments et des modèles de données pers
 
 ## La Taxonomie Utilise Les Catégories De Classification Standard Du Secteur
 
-La taxonomie commune est basée sur les classifications créées par le [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d&#39;informations sur les lignes directrices relatives à l&#39;assurance de la qualité pour les réseaux et les échanges[!DNL IAB] consultez le [site Web du ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+La taxonomie commune est basée sur les classifications créées par le [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d&#39;informations sur les lignes directrices relatives à l&#39;assurance de la qualité pour les réseaux et les échanges[!DNL IAB] consultez le [site Web du &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## Organisation taxonomique
 
