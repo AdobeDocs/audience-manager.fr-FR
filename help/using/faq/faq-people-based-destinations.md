@@ -6,10 +6,10 @@ solution: Audience Manager
 title: FAQ sur les destinations basées sur les personnes
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Il existe deux manières d’importer vos données hors ligne vers Audience Mana
 
 **Puis-je collecter des adresses électroniques hachées depuis un formulaire web ou une application mobile ou doivent-elles être regroupées sur un fichier de lot ?**
 
-Vous pouvez collecter des adresses électroniques hachées grâce à l’authentification web à l’aide de [!DNL ECID] avec les [identifiants déclarés](../features/declared-ids.md). Le fichier de lot vous permet également de collecter des adresses électroniques hachées qui ne peuvent pas être envoyées par authentification (par exemple, des utilisateurs inactifs dans votre ([!DNL CRM]) et de les activer dans des destinations basées sur des personnes).
+Vous pouvez collecter des adresses électroniques hachées grâce à l’authentification web à l’aide de [!DNL ECID] avec les [identifiants déclarés](../features/declared-ids.md). Le fichier de commandes vous permet également de collecter des adresses e-mail hachées qui ne peuvent pas être envoyées par le biais de l’authentification (par exemple, les utilisateurs inactifs dans votre ([!DNL CRM]) et de les activer dans les destinations basées sur les personnes.
 
 **En quoi l’ingestion des adresses électroniques hachées par des formulaires web est-elle différente du chargement d’adresses électroniques hachées par des fichiers de lot ?**
 
@@ -60,6 +60,7 @@ Oui. Les clients qui achètent [!DNL People-Based Destinations] se voient égale
 Cela dépend de votre cas d’utilisation. Si vous prévoyez d’activer des segments de premier niveau existants dans des canaux basés sur les personnes, vous n’avez pas à créer de nouveaux segments. Vous pouvez simplement faire correspondre les segments à une destination basée sur les personnes.
 
 Si vous prévoyez d’activer de nouvelles audiences hors ligne sur des canaux basés sur des personnes, vous avez besoin de créer de nouveaux segments de premier niveau à l’aide de la stratégie de fusion [!DNL All Cross-Device Profiles].
+
 >[!NOTE]
 >
 > Vous pouvez uniquement faire correspondre des segments avec des données de premier niveau vers [!DNL People-Based Destinations]. Nos plateformes de destination n’acceptent pas les segments possédant des données de deuxième et de troisième niveau.
@@ -72,7 +73,7 @@ Non. Lorsque vous envoyez des segments d’audience vers [!DNL People-Based Dest
 
 **Comment les taux de correspondance utilisant [!DNL People-Based Destinations] de manière théorique se compareraient-ils à d’autres méthodes d’envoi d’audiences vers les plateformes de destination ?**
 
-Tant que l’adresse électronique est hachée et ingérée correctement, il ne devrait pas y avoir de différence de taux de correspondance entre [!DNL People-Based Destinations] et les autres méthodes. La seule raison pour laquelle un taux de correspondance pourrait être inférieur à 100 % serait dans le cas où il serait impossible de faire correspondre les adresses électroniques importées dans Audience Manager avec une adresse électronique dans la base d’utilisateurs de la plateforme de destination.
+Tant que l’adresse électronique est hachée et ingérée correctement, il ne devrait pas y avoir de différence de taux de correspondance entre [!DNL People-Based Destinations] et les autres méthodes. La seule raison pour laquelle un taux de correspondance serait inférieur à 100 % est si les adresses e-mail importées dans Audience Manager ne peuvent pas être associées à une adresse e-mail dans la base d’utilisateurs de la plateforme de destination.
 
 **Je recueille les adresses électroniques professionnelles de mes clients qui sont différentes des adresses électroniques personnelles utilisées sur les réseaux sociaux. Comment faire correspondre les identités avec plusieurs adresses électroniques ?**
 
@@ -106,13 +107,13 @@ Avant de pouvoir utiliser [!DNL People-Based Destinations] pour envoyer des segm
 
 **[!DNL People-Based Destinations] prend-il en charge le ciblage des audiences dans d’autres applications [!DNL Facebook], telles que [!DNL Instagram] ?**
 
-Vous pouvez utiliser [!DNL People-Based Destinations] sur la famille d’applications [!DNL Facebook] prises en charge par [!DNL Custom Audiences], notamment [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] et [!DNL Messenger]. La sélection de l’application sur laquelle vous souhaitez exécuter la campagne est indiquée au niveau de l’emplacement dans [!DNL Facebook Ads Manager].
+Vous pouvez utiliser des [!DNL People-Based Destinations] dans la famille d’applications de [!DNL Facebook] prises en charge par [!DNL Custom Audiences], notamment [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] et [!DNL Messenger]. La sélection de l’application sur laquelle vous souhaitez exécuter la campagne est indiquée au niveau de l’emplacement dans [!DNL Facebook Ads Manager].
 
-**Quelle est la différence entre [!DNL People-Based Destinations] et [!DNL Website Custom Audiences] ?**
+**Quelle est la différence entre [!DNL People-Based Destinations] et [!DNL Website Custom Audiences] ?**
 
 [!DNL People-Based Destinations] tire profit de l’intégration de [!DNL Custom Audiences (CA)] à [!DNL Facebook]. La différence entre les intégrations [!DNL WCA] et [!DNL CA] est la clé que les clients utilisent lorsqu’ils envoient des audiences vers [!DNL Facebook]. [!DNL WCA] utilise le pixel [!DNL Facebook] (qui serait un identifiant d’utilisateur de site web), tandis que [!DNL People-Based Destinations] utilise des adresses électroniques hachées pour s’intégrer à [!DNL CA].
 
-Vous pouvez utiliser l’intégration [!DNL Facebook] [!DNL WCA] d’Audience Manager via la fonctionnalité [!DNL URL Destinations] sans frais supplémentaires.
+Vous pouvez utiliser l’intégration d’Audience Manager [!DNL Facebook] [!DNL WCA] via la fonction [!DNL URL Destinations] sans frais supplémentaires.
 
 Ces deux intégrations sont complémentaires ; vous pouvez utiliser les deux pour assurer une meilleure couverture d’audience. À titre d’exemple, vous pouvez utiliser [!DNL WCA] à des fins de prospection lorsqu’une société cherche à cibler les visiteurs d’un site web qui ne possèdent pas encore de compte enregistré, tandis que [!DNL People-Based Destinations] peut vous aider à cibler les clients existants qui ont renseigné leur adresse électronique, mais ne se sont peut-être pas encore rendus sur le site web.
 

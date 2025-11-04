@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Authentification avec les plateformes basées sur les personnes
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -52,7 +52,9 @@ Voici comment ajouter des adresses e-mail aux intégrations existantes :
 Lorsqu’un jeton d’authentification expire, l’intégration entre Audience Manager et la plateforme sociale correspondante est interrompue, de sorte qu’Audience Manager ne peut plus envoyer de segments d’audience vers la destination. La page [!UICONTROL Integrated Accounts] vous indique le statut d’expiration de chaque intégration dans la colonne [!UICONTROL Expiration] et vous permet de renouveler l’authentification à tout moment.
 
 Voici comment renouveler une authentification arrivée à expiration ou sur le point d’expirer :
+
 1. Connectez-vous à votre compte Audience Manager et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identifiez l’intégration pour laquelle vous devez renouveler l’authentification. Les authentifications arrivées à expiration sont marquées comme [!UICONTROL Expired], tandis que celles qui sont sur le point d’arriver à expiration indiquent le nombre de jours d’authentification restants.
 1. Cliquez sur l’icône de **[!UICONTROL Renew]** correspondante dans la colonne [!UICONTROL Expiration] . Cela déclenche le workflow **[!UICONTROL Renew Account]**, qui vous ramène à la page d’authentification de la plateforme sociale. Une fois que vous vous authentifiez, le jeton est renouvelé avec la nouvelle date d’expiration.
+
    ![pbd-refresh](assets/pbd-renew.png)

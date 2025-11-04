@@ -8,7 +8,7 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: répartition des types d’identité, répartition des identités, rapports d’identité d’audience, entre appareils, ID entre appareils, ID d’appareil
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -36,11 +36,11 @@ La partie supérieure de la page des détails du segment héberge les outils que
 Sous les outils de gestion des segments, vous trouverez les informations sur les segments suivantes :
 
 1. **[!UICONTROL Basic Information]:** affiche les détails obligatoires et facultatifs spécifiés lors de la création du segment. Consultez [Créateur de segments](segment-builder.md) pour une présentation détaillée de la signification de ces champs.
-2. **[!UICONTROL Segment Graph]:** affiche les données de performances sous forme graphique et pour des intervalles fixes de 1, 7, 14, 30, 60 et 90 jours. Nous expliquons les nombres de population de segments dans un [article distinct](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** affiche les données de performances sous forme graphique et pour des intervalles fixes de 1, 7, 14, 30, 60 et 90 jours. Nous expliquons les nombres de population de segments dans un [article distinct](../../features/segments/segment-builder-data.md).
 
    ![segment-graph](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown]:** le rapport indique le nombre de personnes ou de foyers qui remplissent les critères d’un segment en comptant le nombre d’identifiants sur plusieurs appareils et/ou d’identifiants de graphique d’appareil externe liés aux appareils qui remplissent les critères pour le segment (affichés par la [!UICONTROL Total Segment Population]). Les identifiants entre appareils et les identifiants du graphique d’appareil externe affichés dans ce rapport sont utilisés pour fusionner des profils avec la règle de fusion de profil utilisée par le segment. Ce rapport s’affiche uniquement si vous avez sélectionné une source de données entre appareils ou un graphique d’appareil externe dans la règle de fusion de profils utilisée par le segment.
+1. **[!UICONTROL Identity Type Breakdown]:** le rapport indique le nombre de personnes ou de foyers qui remplissent les critères d’un segment en comptant le nombre d’identifiants sur plusieurs appareils et/ou d’identifiants de graphique d’appareil externe liés aux appareils qui remplissent les critères pour le segment (affichés par la [!UICONTROL Total Segment Population]). Les identifiants entre appareils et les identifiants du graphique d’appareil externe affichés dans ce rapport sont utilisés pour fusionner des profils avec la règle de fusion de profil utilisée par le segment. Ce rapport s’affiche uniquement si vous avez sélectionné une source de données entre appareils ou un graphique d’appareil externe dans la règle de fusion de profils utilisée par le segment.
 
    ![segment-graph](assets/segment-type.png)
 
@@ -49,8 +49,9 @@ Sous les outils de gestion des segments, vous trouverez les informations sur les
    >Audience Manager n’affiche le rapport [!UICONTROL Identity Type Breakdown] que si vous disposez de plusieurs identifiants d’appareil qualifiés pour le segment.
 
    Regardez la vidéo ci-dessous pour un aperçu de [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/32077?captions=fre_fr)
 
-4. **[!UICONTROL Segment Rules]:** répertorie les caractéristiques du segment avec les règles de qualification.
-5. **[!UICONTROL Destination Mappings]:** répertorie les mappages de destination pour le segment.
-6. **[!UICONTROL Management Tools]:** contrôles qui vous permettent de créer, modifier, cloner et supprimer des segments.
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+
+1. **[!UICONTROL Segment Rules]:** répertorie les caractéristiques du segment avec les règles de qualification.
+1. **[!UICONTROL Destination Mappings]:** répertorie les mappages de destination pour le segment.
+1. **[!UICONTROL Management Tools]:** contrôles qui vous permettent de créer, modifier, cloner et supprimer des segments.

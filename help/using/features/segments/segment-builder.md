@@ -7,7 +7,7 @@ title: Créateur de segments
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 2%
@@ -58,7 +58,7 @@ Commencez par regarder la [vidéo Créer des segments dans Audience Manager](htt
 
 Regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures inter-appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/36727?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## Contrôles [!UICONTROL Segment Builder] : section [!UICONTROL Basic Information] {#segment-builder-controls-basics}
 
@@ -110,7 +110,7 @@ En [!UICONTROL Segment Builder], les paramètres [!UICONTROL the Basic Informati
 -->
 
 | Champ | Description |
----------|----------
+|---------|----------|
 | **[!UICONTROL Name]** | Attribuez au segment un nom court et logique qui décrit sa fonction ou son objectif. Évitez les abréviations et les caractères spéciaux. La longueur maximale d’un nom de segment est de 255 caractères. |
 | **[!UICONTROL Description]** | Champ permettant d’obtenir des informations descriptives supplémentaires sur le segment. |
 | **[!UICONTROL Integration Code]** | Champ pour un ID défini par l’utilisateur ou d’autres informations spécifiques à la société. |

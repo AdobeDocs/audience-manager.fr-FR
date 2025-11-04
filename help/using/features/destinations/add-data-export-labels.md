@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ajout de contrôles d’exportation de données à une destination
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 2%
@@ -26,16 +26,21 @@ ht-degree: 2%
 Pour ajouter des libellés d’exportation à une destination :
 
 1. Cliquez **[!UICONTROL Audience Data]** :
+
    * Pour les nouvelles destinations : cliquez sur **[!UICONTROL Create New Destination]**. Renseignez la section [!UICONTROL Basic Information] avant de sélectionner un libellé d’exportation de données. Voir [Création d’une destination de cookie](../../features/destinations/create-cookie-destination.md) ou [Création d’une destination d’URL](../../features/destinations/create-url-destination.md) pour plus d’informations.
    * Pour les destinations existantes : utilisez la zone de [!DNL Search] pour trouver votre destination ou faites défiler la liste et cliquez sur le nom de la destination pour l’ouvrir.
+
 1. Sélectionnez un [!DNL Data Export Label]. Ne cochez pas ces cases si vous ne souhaitez pas définir de restrictions d’exportation. Les libellés d’exportation incluent les options suivantes :
+
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Les restrictions d&#39;exportation ne fonctionneront que si vous définissez un [contrôle d&#39;exportation correspondant](../../features/data-export-controls.md) sur une source de données.
+
 1. Cliquez sur **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]

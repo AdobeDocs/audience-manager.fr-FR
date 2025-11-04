@@ -8,7 +8,7 @@ title: Fichiers journaux pratiques
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Si vous importez déjà des données de journal dans [!DNL Audience Manager], de
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
@@ -49,11 +49,11 @@ Si vous importez déjà des données de journal dans [!DNL Audience Manager], de
 
 Avec [!UICONTROL Actionable Log Files], les informations des journaux du serveur de publicités sont capturées de [!DNL Audience Manager] même manière que vous le feriez pour capturer des données à partir d’interactions de sites web en temps réel. [!DNL Audience Manager] se connecte au stockage des journaux de votre serveur de publicités, analyse les informations des journaux et envoie les données des journaux en tant que signaux exploitables à nos serveurs de collecte de données [Data Collection Servers](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-Vous devez encore configurer des caractéristiques basées sur des règles pour capturer les signaux exploitables. Découvrez comment configurer des caractéristiques basées sur des règles dans l’interface utilisateur d’[Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ou à l’aide de nos [outils de gestion en bloc](../../reference/bulk-management-tools/bulk-create.md). Faites défiler l’écran jusqu’à la section [&#x200B; Signaux exploitables &#x200B;](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) pour obtenir la liste de toutes les clés que vous pouvez utiliser dans les caractéristiques basées sur des règles.
+Vous devez encore configurer des caractéristiques basées sur des règles pour capturer les signaux exploitables. Découvrez comment configurer des caractéristiques basées sur des règles dans l’interface utilisateur d’[Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ou à l’aide de nos [outils de gestion en bloc](../../reference/bulk-management-tools/bulk-create.md). Faites défiler l’écran jusqu’à la section [ Signaux exploitables ](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) pour obtenir la liste de toutes les clés que vous pouvez utiliser dans les caractéristiques basées sur des règles.
 
 >[!IMPORTANT]
 >
->Nous vous recommandons d’implémenter [!UICONTROL Actionable Log Files] *au lieu* [&#x200B; Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). Nous déconseillons l’utilisation des deux options, car cela entraîne une augmentation des décomptes de fréquence pour les caractéristiques.
+>Nous vous recommandons d’implémenter [!UICONTROL Actionable Log Files] *au lieu* [ Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). Nous déconseillons l’utilisation des deux options, car cela entraîne une augmentation des décomptes de fréquence pour les caractéristiques.
 
 ## Signaux exploitables {#actionable-signals}
 
@@ -62,7 +62,7 @@ Les signaux sont les [plus petites unités de données](../../reference/signal-t
 >[!IMPORTANT]
 >
 >Les [!UICONTROL Actionable Log Files] sont pris en charge pour les serveurs de publicités suivants :
->&#x200B;> <br>
+> <br>
 >
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
@@ -296,11 +296,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Utilisation de signaux exploitables dans l’interface utilisateur d’Audience Manager {#actionable-signals-in-ui}
 
-Vous pouvez afficher vos signaux activables entrants dans l’interface [&#x200B; Recherche de signaux &#x200B;](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md).
+Vous pouvez afficher vos signaux activables entrants dans l’interface [ Recherche de signaux ](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md).
 
 Accédez à **Données d’audience** (1) > **Signaux** (2) > **Rechercher** (3) et sélectionnez le filtre **Fichiers journaux exploitables** (4).
 
-![&#x200B; Signaux exploitables dans l’interface utilisateur &#x200B;](/help/using/integration/assets/alf-in-signals.png)
+![ Signaux exploitables dans l’interface utilisateur ](/help/using/integration/assets/alf-in-signals.png)
 
 Pour créer des caractéristiques basées sur des règles à l’aide de vos signaux activables, sélectionnez **Fichiers journaux activables** (1), sélectionnez les signaux activables que vous souhaitez utiliser comme règles de caractéristique (2), puis appuyez sur **Créer une caractéristique à partir des signaux sélectionnés** (3).
 

@@ -7,7 +7,7 @@ title: Contrôles des exportations de données
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -48,6 +48,7 @@ En outre, au moins un libellé d’exportation doit correspondre à un contrôle
 >[!IMPORTANT]
 >
 >Vous ne pouvez pas bloquer l’exportation d’un segment en plaçant un contrôle d’exportation des données sur la source de données du segment. Vous devez définir le contrôle sur l’une des options suivantes :
+>
 > * les sources de données des caractéristiques utilisées dans le segment ;
 > * Règle de fusion de profils utilisée par le segment ;
 > * Toute source de données utilisée par la règle de fusion de profils du segment.

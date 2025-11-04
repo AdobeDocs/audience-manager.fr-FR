@@ -6,7 +6,7 @@ title: Suppression Instantanée Sur Plusieurs Appareils
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 6%
@@ -42,11 +42,13 @@ Vos visiteurs sont qualifiés pour le segment tant qu’ils n’ont pas effectu�
 Vous pouvez veiller à ne pas inonder vos utilisateurs de la même créativité en définissant des contrôles de récence et de fréquence. Dans ce scénario, créez un segment avec deux caractéristiques, comme indiqué dans les étapes ci-dessous.
 
 1. Créez un segment à l’aide de deux caractéristiques et utilisez la logique [!UICONTROL AND], comme illustré dans l’image ci-dessous. Vous devez utiliser une caractéristique basée sur des règles pour définir l’événement d’impression afin que l’annulation de segment soit déclenchée en temps réel. En savoir plus sur la façon de [créer des caractéristiques basées sur des règles](../traits/create-onboarded-rule-based-traits.md).
+
    >[!NOTE]
    >
    >Vous pouvez utiliser [!UICONTROL Actionable Log Files] ou [!UICONTROL Pixel Calls] pour créer des caractéristiques en fonction des impressions des utilisateurs. En savoir plus sur les [Fichiers journaux exploitables](../../integration/media-data-integration/actionable-log-files.md) et [Appels de pixels](../../integration/media-data-integration/impression-data-pixels.md).
-2. Appliquez des contrôles de fréquence à la deuxième caractéristique. Si vous le souhaitez, vous pouvez également ajouter des contrôles de récence. En savoir plus sur [comment appliquer des contrôles de récence et de fréquence](../segments/recency-and-frequency.md).
-3. Mappez le segment à un nombre illimité de destinations serveur à serveur en temps réel. Découvrez comment ajouter des segments aux [destinations serveur à serveur](../destinations/add-edit-segments.md).
+
+1. Appliquez des contrôles de fréquence à la deuxième caractéristique. Si vous le souhaitez, vous pouvez également ajouter des contrôles de récence. En savoir plus sur [comment appliquer des contrôles de récence et de fréquence](../segments/recency-and-frequency.md).
+1. Mappez le segment à un nombre illimité de destinations serveur à serveur en temps réel. Découvrez comment ajouter des segments aux [destinations serveur à serveur](../destinations/add-edit-segments.md).
 
 Dans ce scénario, une fois que vos utilisateurs ont accumulé plus de trois impressions, ils sont supprimés de ce segment et ne verront plus cette création particulière.
 
@@ -66,5 +68,5 @@ Gardez à l’esprit les aspects suivants liés au traitement :
 
 Gardez à l’esprit les aspects suivants liés au minutage :
 
-* Un segment sera stocké sur [Edge](../../reference/system-components/components-edge.md) pendant la même période que le profil d’appareil stocké sur le [!UICONTROL Edge], soit 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la conservation des données, consultez notre [&#x200B; FAQ sur la conservation des données &#x200B;](../../faq/faq-privacy.md#data-retention-faq).
+* Un segment sera stocké sur [Edge](../../reference/system-components/components-edge.md) pendant la même période que le profil d’appareil stocké sur le [!UICONTROL Edge], soit 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la conservation des données, consultez notre [ FAQ sur la conservation des données ](../../faq/faq-privacy.md#data-retention-faq).
 * Il faut environ 24 heures pour que l’opération d’annulation de segment se propage dans les régions [!DNL DCS]. Pour en savoir plus sur nos [!DNL DCS] régions [ici](../../reference/system-components/components-data-collection.md) et [ici](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

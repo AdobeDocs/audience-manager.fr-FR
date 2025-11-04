@@ -8,7 +8,7 @@ title: Classification des caractéristiques avec une taxonomie commune
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Permettre à nos clients de créer des segments et des modèles de données pers
 
 ## La Taxonomie Utilise Les Catégories De Classification Standard Du Secteur
 
-La taxonomie commune est basée sur les classifications créées par le [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d&#39;informations sur les lignes directrices relatives à l&#39;assurance de la qualité pour les réseaux et les échanges[!DNL IAB] consultez le [site Web du &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+La taxonomie commune est basée sur les classifications créées par le [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d&#39;informations sur les lignes directrices relatives à l&#39;assurance de la qualité pour les réseaux et les échanges[!DNL IAB] consultez le [site Web du ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## Organisation taxonomique
 
@@ -39,7 +39,7 @@ La taxonomie [!DNL Audience Manager] organise les données en catégories imbriq
 
 ## Classer les caractéristiques dans des catégories de données
 
-Vous attribuez des classifications taxonomiques lors de la création ou de la modification de caractéristiques dans le [!UICONTROL Add New Trait Wizard] (situé dans * **[!UICONTROL Audience Data > Traits]***). Reportez-vous à la [documentation sur la création de caractéristiques](../../features/traits/create-onboarded-rule-based-traits.md) pour plus d’informations.
+Vous attribuez des classifications taxonomiques lors de la création ou de la modification de caractéristiques dans le [!UICONTROL Add New Trait Wizard] (situé dans ***[!UICONTROL Audience Data > Traits]***). Reportez-vous à la [documentation sur la création de caractéristiques](../../features/traits/create-onboarded-rule-based-traits.md) pour plus d’informations.
 
 ## Utilisation de la taxonomie : considérations supplémentaires
 

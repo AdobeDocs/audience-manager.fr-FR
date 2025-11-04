@@ -7,7 +7,7 @@ title: Syntaxe du code utilisé dans l’éditeur d’expression de segment
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 4%
@@ -44,9 +44,9 @@ Pour créer des groupes de segments, placez la fonction de fréquence entre pare
 | Nom ou variable | Description |
 |---|---|
 | `FREQUENCY` | Un littéral qui doit précéder l’expression. |
-| ` [`&lt;`traitID`>`T]` | Tableau d’ID de caractéristique suivis de la lettre `T`. Séparez les caractéristiques multiples par une virgule. Par exemple, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Facultatif)* Définit des règles de récence sur les caractéristiques du segment. La lettre `D` indique la récence en jours. |
-| ` <Frequency Operator><Numeric Value>` | Définit des règles de fréquence sur les caractéristiques du segment. |
+| `[`&lt;`traitID`>`T]` | Tableau d’ID de caractéristique suivis de la lettre `T`. Séparez les caractéristiques multiples par une virgule. Par exemple, `[123T, 456T]`. |
+| `<Recency Operator><Numeric Value>D` | *(Facultatif)* Définit des règles de récence sur les caractéristiques du segment. La lettre `D` indique la récence en jours. |
+| `<Frequency Operator><Numeric Value>` | Définit des règles de fréquence sur les caractéristiques du segment. |
 
 ### Opérateurs Récence et Fréquence autorisés
 
@@ -81,4 +81,4 @@ Définissez des intervalles [récence et fréquence](../../features/segments/rec
 >* [Récence et fréquence](../../features/segments/recency-and-frequency.md)
 >* [Expressions booléennes dans le créateur de caractéristiques et de segments](../../reference/boolean-expressions-tsb.md)
 >* [Utilisation des opérateurs de comparaison dans TraitBuilder](../../features/traits/trait-comparison-operators.md)
->* [&#x200B; Ordre des opérations dans les expressions TraitBuilder &#x200B;](../../features/traits/trait-operator-precedence.md)
+>* [ Ordre des opérations dans les expressions TraitBuilder ](../../features/traits/trait-operator-precedence.md)

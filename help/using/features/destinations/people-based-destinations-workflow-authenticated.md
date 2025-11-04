@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 'Workflow C : Personalization basé sur l’activité authentifiée associée aux données hors ligne'
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 1%
@@ -41,6 +41,7 @@ Dans ce cas, vous devez créer une nouvelle source de données inter-appareils q
 1. Dans le menu déroulant **[!UICONTROL ID Type]**, sélectionnez **[!UICONTROL Cross Device]**.
 1. Dans la section **[!UICONTROL Data Source Settings]**, sélectionnez les options **[!UICONTROL Inbound]** et **[!UICONTROL Outbound]**, puis activez l’option **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Utilisez le menu déroulant pour sélectionner le libellé de **[!UICONTROL Emails(SHA256, lowercased)]** de cette source de données.
+
    >[!IMPORTANT]
    >
    >Cette option étiquette uniquement la source de données comme contenant des données hachées avec cet algorithme spécifique. Audience Manager ne hache pas les données à cette étape. Assurez-vous que les adresses e-mail que vous prévoyez de stocker dans cette source de données sont déjà hachées avec l’algorithme [!DNL SHA256]. Sinon, vous ne pourrez pas l&#39;utiliser pour les [!DNL People-Based Destinations].
@@ -49,11 +50,11 @@ Dans ce cas, vous devez créer une nouvelle source de données inter-appareils q
 
    >[!NOTE]
    >
-   > Consultez [&#x200B; Intégration de données &#x200B;](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
+   > Consultez [ Intégration de données ](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
 
 Regardez la vidéo ci-dessous pour un tutoriel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32186?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Étape 2 - Utilisation des identifiants déclarés pour faire correspondre les DPUUID aux adresses e-mail hachées via des appels HTTP en temps réel {#match-email-addresses}
 

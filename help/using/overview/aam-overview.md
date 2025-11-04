@@ -8,7 +8,7 @@ title: Présentation d’Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 85%
@@ -42,6 +42,7 @@ Active les segments d’audience en les orientant vers les plateformes DSP (Dema
 ## Plus d’informations {#more-information}
 
 Consultez les ressources suivantes pour obtenir plus d’informations :
+
 * [Présentation d’Audience Manager](https://www.adobe.com/fr/analytics/audience-manager.html)
 * [Avantages d’Audience Manager](https://www.adobe.com/fr/analytics/audience-manager/benefits.html)
 * [Fonctionnalités d’Audience Manager](https://www.adobe.com/fr/analytics/audience-manager/features.html)
