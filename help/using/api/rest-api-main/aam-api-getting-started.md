@@ -20,10 +20,10 @@ Informations sur les conditions requises générales, authentification, paramèt
 
 ## Exigences et recommandations relatives aux API {#api-requirements-recommendations}
 
-Notez ce qui suit lorsque vous utilisez le code de l’API [Audience Manager ](https://bank.demdex.com/portal/swagger/index.html#/) :
+Notez ce qui suit lorsque vous utilisez le code de l’API [Audience Manager &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/) :
 
 * **Paramètres de requête :** tous les paramètres de requête sont requis, sauf indication contraire.
-* **En-têtes de requête** : lors de l’utilisation de jetons [Adobe Developer](https://www.adobe.io/), vous devez fournir l’en-tête de `x-api-key`. Vous pouvez obtenir votre clé [!DNL API] en suivant les instructions de la page [ Intégration de compte de service ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+* **En-têtes de requête** : lors de l’utilisation de jetons [Adobe Developer](https://www.adobe.io/), vous devez fournir l’en-tête de `x-api-key`. Vous pouvez obtenir votre clé [!DNL API] en suivant les instructions de la page [&#x200B; Intégration de compte de service &#x200B;](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 * **[!DNL JSON]le type de contenu :** spécifiez `content-type: application/json` *et* `accept: application/json` dans votre code.
 * **Demandes et réponses :** envoyez les demandes sous la forme d’un objet [!DNL JSON] correctement formaté. [!DNL Audience Manager] répond avec des données formatées [!DNL JSON]. Les réponses du serveur peuvent contenir les données demandées, un code d’état, ou les deux.
 * **Accès :** votre consultant [!DNL Audience Manager] vous fournira un identifiant client et une clé qui vous permettront d’effectuer des demandes de [!DNL API].
@@ -132,7 +132,7 @@ Après avoir obtenu votre jeton du porteur d’authentification, effectuez un ap
 
    ![Autoriser les appels API](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. Effectuez un appel GET au point d’entrée de l’API `/datasources` pour récupérer une liste de toutes les sources de données disponibles globalement, comme indiqué dans la documentation de référence de l’API [](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Sélectionnez **[!UICONTROL Try it out]**, puis **[!UICONTROL Execute]**, comme illustré ci-dessous.
+3. Effectuez un appel GET au point d’entrée de l’API `/datasources` pour récupérer une liste de toutes les sources de données disponibles globalement, comme indiqué dans la documentation de référence de l’API [&#128279;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Sélectionnez **[!UICONTROL Try it out]**, puis **[!UICONTROL Execute]**, comme illustré ci-dessous.
 
    ![Effectuer des appels API](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -246,7 +246,7 @@ Pour créer un compte d’utilisateur technique et l’ajouter à un groupe RBAC
 
 1. Appelez-`GET` `https://aam.adobe.io/v1/users/self`. L’appel crée un compte d’utilisateur technique que vous pouvez voir dans le [!UICONTROL Admin Console], dans la page [!UICONTROL Users] .
 
-   ![compte technique ](assets/technical-account.png)
+   ![compte technique &#x200B;](assets/technical-account.png)
 
 1. Connectez-vous à votre compte Audience Manager et [ajoutez le compte d’utilisateur technique](../../features/administration/administration-overview.md#create-group) au groupe d’utilisateurs qui effectuera les appels API.
 
@@ -402,7 +402,7 @@ Le tableau suivant répertorie les [!DNL URLs] de requête utilisés pour transm
 
 Selon la méthode d’authentification que vous utilisez, vous devez ajuster le [!DNL URLs] de votre requête en fonction des tableaux ci-dessous.
 
-### [!DNL URLs] de requête pour l’authentification [!BADGE  OAuth ]{type=positive}recommandée[!BADGE  serveur à serveur et ]{type=negative}obsolète[!DNL JWT] via Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] de requête pour l’authentification [!BADGE &#x200B; OAuth &#x200B;]{type=positive}recommandée[!BADGE &#x200B; serveur à serveur et &#x200B;]{type=negative}obsolète[!DNL JWT] via Adobe Developer {#request-urls-jwt}
 
 | Méthodes [!DNL API] | [!DNL URL] de la demande |
 |--- |--- |
@@ -477,6 +477,6 @@ De nouvelles versions de ces [!DNL API] sont publiées régulièrement. Une nouv
 >[!MORELIKETHIS]
 >
 >* [Authentification JWT (compte de service)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
->* [ Authentification OAuth ](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [&#x200B; Authentification OAuth &#x200B;](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 >* [OAuth 2.0](https://oauth.net/2/)
->* [ OAuth 2 simplifié ](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [&#x200B; OAuth 2 simplifié &#x200B;](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
