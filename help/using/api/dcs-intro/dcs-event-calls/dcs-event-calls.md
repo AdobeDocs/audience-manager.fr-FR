@@ -27,11 +27,11 @@ Cette section contient des informations et des références connexes qui vous mo
 * Mettre en forme les éléments de données dans vos appels.
 * Comprenez les paramètres renvoyés par le [!DNL DCS].
 
-Pour commencer, reportez-vous aux sections ci-dessous. Commencez par [&#x200B; Envoyer des données au serveur de collecte de données &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Ensuite, passez à [Recevoir des données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Pour commencer, reportez-vous aux sections ci-dessous. Commencez par [ Envoyer des données au serveur de collecte de données ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Ensuite, passez à [Recevoir des données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 * [Envoyer des données au serveur de collecte de données](dcs-url-send.md)
 * [Recevoir des données du serveur de collecte de données](dcs-url-receive.md)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Référence de l’API DCS &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [ Référence de l’API DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
