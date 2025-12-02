@@ -101,7 +101,7 @@ Les zéros indiquent que [!DNL Audience Manager] n’a pas collecté de données
 
 Regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures inter-appareils.
 
-[Compréhension des mesures inter-appareils dans Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Compréhension des mesures inter-appareils dans Audience Manager](https://experienceleague.adobe.com/fr/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Résultats du rapport de tendances pour les segments {#segment-report-results-traits}
 
