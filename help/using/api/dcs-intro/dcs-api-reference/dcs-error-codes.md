@@ -23,7 +23,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
 |---|---|---|
 | 0 | Erreur non spécifiée | Il s’agit d’une erreur fourre-tout qui gère des événements qui ne sont pas couverts par les autres gestionnaires d’erreur. Le dépannage de cette erreur est difficile. Elle peut être causée par diverses actions ou événements inconnus. Si vous recevez cette erreur, effectuez à nouveau votre requête [!DNL DCS]. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 | 1 | Configuration du nom d&#39;hôte introuvable : `hostname` | Le nom d’hôte envoyé dans la demande n’a pas été configuré par notre équipe d’approvisionnement de partenaires. Contactez votre représentant [!DNL Adobe] si ce message d’erreur s’affiche. |
-| 2 | Valeur de `d_orgid` non valide (configuration introuvable pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et effectuez une nouvelle requête. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Page d’administration » [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) pour plus d’informations sur la manière de le trouver. |
+| 2 | Valeur de `d_orgid` non valide (configuration introuvable pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et effectuez une nouvelle requête. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Page d’administration » [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr) pour plus d’informations sur la manière de le trouver. |
 | 10 | Impossible d’évaluer les caractéristiques | Les caractéristiques de la requête ont été évaluées en partie ou n’ont pas du tout été évaluées. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 
 ## Codes d&#39;erreur d&#39;intégration {#integration-error-codes}
@@ -151,7 +151,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de client non autorisé <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Renvoyé lorsque la source de données de l’ID client n’appartient pas à l’ID d’organisation actuel. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, reportez-vous à la section « Rechercher votre identifiant d’organisation » de la section Liaison d’organisations et de comptes <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"></a> pour savoir comment le trouver. </p> </td> 
+   <td colname="col3"> <p>Renvoyé lorsque la source de données de l’ID client n’appartient pas à l’ID d’organisation actuel. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, reportez-vous à la section « Rechercher votre identifiant d’organisation » de la section Liaison d’organisations et de comptes <a href="https://experiencecloud.adobe.com/resources/help/fr_FR/mcloud/organizations.html" format="https" scope="external"></a> pour savoir comment le trouver. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
