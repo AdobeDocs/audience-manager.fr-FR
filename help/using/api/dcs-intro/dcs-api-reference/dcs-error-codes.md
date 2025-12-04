@@ -4,7 +4,7 @@ title: Codes d’erreur DCS, messages et exemples
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
 |---|---|---|
 | 0 | Erreur non spécifiée | Il s’agit d’une erreur fourre-tout qui gère des événements qui ne sont pas couverts par les autres gestionnaires d’erreur. Le dépannage de cette erreur est difficile. Elle peut être causée par diverses actions ou événements inconnus. Si vous recevez cette erreur, effectuez à nouveau votre requête [!DNL DCS]. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 | 1 | Configuration du nom d&#39;hôte introuvable : `hostname` | Le nom d’hôte envoyé dans la demande n’a pas été configuré par notre équipe d’approvisionnement de partenaires. Contactez votre représentant [!DNL Adobe] si ce message d’erreur s’affiche. |
-| 2 | Valeur de `d_orgid` non valide (configuration introuvable pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et effectuez une nouvelle requête. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Page d’administration » [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr) pour plus d’informations sur la manière de le trouver. |
+| 2 | Valeur de `d_orgid` non valide (configuration introuvable pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et effectuez une nouvelle requête. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Page d’administration » [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) pour plus d’informations sur la manière de le trouver. |
 | 10 | Impossible d’évaluer les caractéristiques | Les caractéristiques de la requête ont été évaluées en partie ou n’ont pas du tout été évaluées. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 
 ## Codes d&#39;erreur d&#39;intégration {#integration-error-codes}
@@ -151,7 +151,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de client non autorisé <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Renvoyé lorsque la source de données de l’ID client n’appartient pas à l’ID d’organisation actuel. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, reportez-vous à la section « Rechercher votre identifiant d’organisation » de la section Liaison d’organisations et de comptes <a href="https://experiencecloud.adobe.com/resources/help/fr_FR/mcloud/organizations.html" format="https" scope="external"></a> pour savoir comment le trouver. </p> </td> 
+   <td colname="col3"> <p>Renvoyé lorsque la source de données de l’ID client n’appartient pas à l’ID d’organisation actuel. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, reportez-vous à la section « Rechercher votre identifiant d’organisation » de la section Liaison d’organisations et de comptes <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"></a> pour savoir comment le trouver. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -181,7 +181,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>L’ID de client a été ignoré car il dépassait la limite pour un espace de noms donné. L’ID de l’espace de noms est <code><i>ID</i></code>, l’ID du client est <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Ce code d’erreur est renvoyé si plus de 3 ID client ont été déclarés pour le même espace de noms (<code> DPID</code>) lors d’un <span class="wintitle"> appel de DCS</span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>Dans cet exemple <span class="wintitle"> requête DCS</span>, il existe 4 identifiants déclarés pour le même espace de noms (avec le code d’intégration un). L'un des ID est ignoré et l'erreur 310 est renvoyée. </p> </td> 
+   <td colname="col3"> <p>Ce code d’erreur est renvoyé si plus de 3 ID client ont été déclarés pour le même espace de noms (<code> DPID</code>) lors d’un <span class="wintitle"> appel de DCS</span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Dans cet exemple <span class="wintitle"> requête DCS</span>, il existe 4 identifiants déclarés pour le même espace de noms (avec le code d’intégration un). L'un des ID est ignoré et l'erreur 310 est renvoyée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La requête contient un ID d’appareil global non valide </p> </td> 
    <td colname="col3"> <p>Le <span class="wintitle">DCS</span> renvoie ce code d’erreur lorsque la requête contient un identifiant global d’appareil non valide. DCS ignore l’ID non valide et renvoie une erreur 312 avec les erreurs spécifiques de l’ID non valide. Consultez les sections <a href="../../../features/global-data-sources.md" format="dita" scope="local">Sources de données globales</a> et <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index des identifiants dans Audience Manager</a> pour obtenir des informations détaillées sur les formats d’identifiant publicitaire d’appareil corrects et les sources de données globales correspondantes.</p>
-   <p>Exemple d’appel incorrect : <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Exemple d’appel incorrect : <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explication : un <span class="keyword">IDFA (20915 DPID)</span> doit être un identifiant en majuscules. L’identifiant fourni dans la requête est en minuscules.</p>
    </td>
   </tr>
@@ -213,8 +213,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
    <td colname="col3"> <p>Lorsqu’aucun consentement n’est fourni, le module externe Audience Manager pour IAB TCF désinscrit l’utilisateur de la collecte de données supplémentaire ou interrompt complètement l’appel si aucun contexte de partenaire n’est détecté.</p>
    </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
 ## Exemples de messages de code d’erreur {#sample-error-codes}
