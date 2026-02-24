@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVÉ
 
-Ce référentiel est migré vers <https://github.com/Adobe-Enterprise-Docs/audience-manager.en>.
+Ce référentiel est migré vers <https://github.com/Adobe-Enterprise-Docs/audience-manager.fr-FR>.
