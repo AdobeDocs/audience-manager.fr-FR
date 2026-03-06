@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Découvrez comment utiliser Adobe Audience Manager pour collecter des informations commerciales pertinentes sur les visiteurs du site et créer des segments commercialisables. Vous trouverez également des détails sur la manière de diffuser de la publicité et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 16%
@@ -66,7 +66,7 @@ ht-degree: 16%
       + [Fonctionnalités avancées d’Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [Optimisation d’Audience Marketplace](features/audience-marketplace/audience-marketplace-optimization.md)
+      + [hide-from-tocOptimisation d’Audience Marketplace &#x200B;](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace pour les fournisseurs de données{#audience-marketplace-for-data-providers}
          + [Audience Marketplace pour les fournisseurs de données](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Création, tarification et gestion des flux de données](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
