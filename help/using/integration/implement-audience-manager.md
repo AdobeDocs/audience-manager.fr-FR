@@ -247,4 +247,4 @@ Nos efforts de collaboration ne s&#39;arrêtent pas au déploiement final. Une f
 
 Les chargés de compte fournissent un support continu et des services de consultation une fois le processus de mise en œuvre du produit terminé. Vous pouvez vous attendre à avoir des réunions régulières avec votre gestionnaire de compte. Ces réunions vous permettent de tirer le meilleur parti d’Audience Manager.
 
-Contactez-nous [ici](https://www.adobe.com/products/audiencemanager.html) pour plus d’informations et pour commencer à utiliser Audience Manager.
+Contactez-nous [ici](https://www.adobe.com/fr/products/audiencemanager.html) pour plus d’informations et pour commencer à utiliser Audience Manager.
