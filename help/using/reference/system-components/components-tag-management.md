@@ -7,9 +7,14 @@ title: Composants Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+TQID: https://experienceleague.adobe.com/iOniWbVTajyhGmIl3IDdxrP5dZ-ULKkA-9ySOXniqUI
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 306
 ht-degree: 1%
 
 ---
@@ -27,9 +32,9 @@ c_comptag.xml
 Audience Manager contient les composants suivants :
 
 * [Portail client](../../reference/system-components/components-tag-management.md#client-portal)
-* Conteneur DIL/TIM [&#128279;](../../reference/system-components/components-tag-management.md#dil-tim)
+* Conteneur DIL/TIM [](../../reference/system-components/components-tag-management.md#dil-tim)
 * [Bibliothèque d’informations sur les données (DIL)](../../reference/system-components/components-tag-management.md#dil)
-* [&#x200B; Akamai &#x200B;](../../reference/system-components/components-tag-management.md#akamai)
+* [ Akamai ](../../reference/system-components/components-tag-management.md#akamai)
 * [Base de données de contrôle](../../reference/system-components/components-tag-management.md#control-database)
 
 ## Portail client {#client-portal}
@@ -38,7 +43,7 @@ Le portail client est l’interface utilisateur principale pour la gestion des b
 
 ## Conteneur DIL/TIM {#dil-tim}
 
-Le conteneur [!UICONTROL DIL] permet de déployer [!DNL Audience Manager] code de collecte de données sur votre site web. [!UICONTROL TIM] est le gestionnaire d’insertion de balises obsolète. Il n’est plus utilisé par les [!DNL Audience Manager]. Au lieu de cela, vous utilisez l’extension [!DNL Audience Manager] dans [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=fr) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire.
+Le conteneur [!UICONTROL DIL] permet de déployer [!DNL Audience Manager] code de collecte de données sur votre site web. [!UICONTROL TIM] est le gestionnaire d’insertion de balises obsolète. Il n’est plus utilisé par les [!DNL Audience Manager]. Au lieu de cela, vous utilisez l’extension [!DNL Audience Manager] dans [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) pour configurer et générer le code de conteneur que vous placez sur les pages de votre inventaire.
 
 ## Bibliothèque d’intégration de données (DIL) {#dil}
 

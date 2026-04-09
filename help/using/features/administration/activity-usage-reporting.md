@@ -7,9 +7,14 @@ solution: Audience Manager
 title: Rapports d’utilisation des activités
 feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/eJpKJkVCytgiV68bDxt-Tmk1s2W3SWkpmb6BZZ5jBCk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: a99472c1-6aae-4c7a-8aa0-f60636369620id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d12f0729-c5e9-4a4a-bb39-687f9ab4a97cid: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: 638
 ht-degree: 5%
 
 ---
@@ -24,7 +29,7 @@ De plus, vous pouvez télécharger le [!UICONTROL Activity Usage Report] quand v
 
 ## Considérations {#considerations}
 
-Le [!UICONTROL Activity Usage Report] est disponible pour tous les utilisateurs d’Audience Manager disposant de [&#x200B; privilèges d’administrateur &#x200B;](edit-account-settings.md).
+Le [!UICONTROL Activity Usage Report] est disponible pour tous les utilisateurs d’Audience Manager disposant de [ privilèges d’administrateur ](edit-account-settings.md).
 
 >[!IMPORTANT]
 >
@@ -50,7 +55,7 @@ Une fois votre rapport chargé, vous pouvez voir une répartition de vos [!UICON
 [!UICONTROL Activities] définir le total agrégé de toutes les interactions sur site et hors site avec Audience Manager, divisé en les catégories suivantes :
 
 * **[!UICONTROL Server Calls]** : tout événement de collecte ou de récupération de données envoyé à Audience Manager à partir de sites web, de serveurs, d’e-mails, d’applications mobiles ou d’autres systèmes.
-* **[!UICONTROL Pixel Calls] (anciennement appelé [!UICONTROL Impression Server Calls])** : données collectées à partir d’annonces (telles que le volume d’impression d’une plateforme de ciblage) ou d’appels d’impressions d’e-mail effectués vers Audience Manager. Ceux-ci nécessitent la présence du paramètre `d_event` dans la chaîne de requête.
+* **[!UICONTROL Pixel Calls](anciennement appelé [!UICONTROL Impression Server Calls])** : données collectées à partir d’annonces (telles que le volume d’impression d’une plateforme de ciblage) ou d’appels d’impressions d’e-mail effectués vers Audience Manager. Ceux-ci nécessitent la présence du paramètre `d_event` dans la chaîne de requête.
 * **[!UICONTROL On-Boarded Records]** : enregistrements uniques ingérés à partir de votre propre système de gestion de la relation client (CRM) ou d’autres fichiers de données hors ligne, tels que les enregistrements du centre d’appels, les identifiants d’appareil et les flux de données personnalisés de fournisseurs de données externes.
 * **[!UICONTROL Log File Records]** : enregistrements uniques de fichiers journaux ingérés dans Audience Manager à partir d’une plateforme de ciblage.
 

@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Configuration d’une destination Analytics
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: ef8cca16c8c9478f8558c26bf6f3ae95cd72e7ac
+TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: 866
 ht-degree: 4%
 
 ---
@@ -18,13 +23,13 @@ ht-degree: 4%
 ## Exigences {#requirements}
 
 Pour configurer une destination Analytics, l’utilisateur d’Audience Manager doit disposer des autorisations d’administrateur. Voir [Créer des utilisateurs](/help/using/features/administration/administration-overview.md#create-users) dans le Guide d’administration. Notez que disposer de l’autorisation `CREATE_DESTINATIONS` [caractère générique](/help/using/features/administration/administration-overview.md#wild-card-permissions) n’est pas suffisant pour créer des destinations Analytics.
-Pour connaître les autres conditions requises, voir Conditions préalables dans [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).
+Pour connaître les autres conditions requises, voir Conditions préalables dans [](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 ## Votre destination Analytics par défaut et vos nouvelles destinations Analytics
 
 | Type de destination Analytics | Description |
 |---|---|
-| Par défaut | Le nom de cette destination par défaut est « Adobe Analytics », que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos caractéristiques et segments Audience Manager. <br>  Audience Manager crée automatiquement une destination si votre compte possède : <br>  <ul><li>Respectez les exigences décrites dans la documentation d’[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).</li><li>Une [&#x200B; suite de rapports &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) dans Analytics.</li></ul> |
+| Par défaut | Le nom de cette destination par défaut est « Adobe Analytics », que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos caractéristiques et segments Audience Manager. <br>  Audience Manager crée automatiquement une destination si votre compte possède : <br>  <ul><li>Respectez les exigences décrites dans la documentation d’[](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).</li><li>Une [ suite de rapports ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) dans Analytics.</li></ul> |
 | Nouveau | Pour créer de nouvelles destinations Analytics, accédez à Données d’audience > Destinations > Créer une nouvelle destination et suivez les étapes de chaque section décrite ci-dessous. |
 
 ## Qualifications des segments Audience Manager dans Adobe Analytics {#segment-qualifications}
@@ -58,10 +63,10 @@ Cette section contient des champs et des options qui démarrent le processus de 
 
 ## Étape 2 : Configurer Les Contrôles D’Exportation De Données
 
-Cette section contient des options qui s’appliquent [&#x200B; Contrôles d’exportation de données &#x200B;](/help/using/features/data-export-controls.md) à une destination Analytics. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
+Cette section contient des options qui s’appliquent [ Contrôles d’exportation de données ](/help/using/features/data-export-controls.md) à une destination Analytics. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
 
 1. Cliquez sur **Contrôles d’exportation de données** pour afficher les contrôles.
-1. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [&#x200B; Ajouter des libellés d’exportation des données à une destination &#x200B;](/help/using/features/destinations/add-data-export-labels.md) ). Pour les destinations Analytics, la case à cocher PII est sélectionnée par défaut.
+1. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [ Ajouter des libellés d’exportation des données à une destination ](/help/using/features/destinations/add-data-export-labels.md) ). Pour les destinations Analytics, la case à cocher PII est sélectionnée par défaut.
 1. Cliquez sur **Enregistrer**.
 
 ![contrôles des exportations](assets/exportControls.png)
@@ -82,9 +87,9 @@ Cette section propose des options permettant de mapper les segments automatiquem
 
 | Option de mappage | Description |
 |---|---|
-| Mapper automatiquement tous les segments actuels et futurs | Sélectionnée par défaut, cette fonctionnalité envoie à Analytics, par accès, tous les segments pour lesquels un visiteur est qualifié. <br>  Si un visiteur appartient à plus de 150 segments Audience Manager sur un seul accès, seuls les 150 segments les plus récemment qualifiés sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire est envoyé à Analytics, ce qui signifie que la liste de segments a été tronquée. Cette action s’affiche sous la forme « Limite d’audience atteinte » dans la dimension Nom des audiences et « 1 » dans la dimension ID des audiences. Voir la [FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=fr) pour plus d’informations. <br>  En outre, cette option affecte la disponibilité de la destination dans [Créateur de segments](/help/using/features/segments/segment-builder.md). Par exemple, si un segment est mappé automatiquement à une destination Analytics, cette destination ne peut pas être sélectionnée dans la section [mappages de destination](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) du créateur de segments. La destination Analytics apparaît grisée et affiche « Analytics » dans la colonne Type du navigateur de destination. |
+| Mapper automatiquement tous les segments actuels et futurs | Sélectionnée par défaut, cette fonctionnalité envoie à Analytics, par accès, tous les segments pour lesquels un visiteur est qualifié. <br>  Si un visiteur appartient à plus de 150 segments Audience Manager sur un seul accès, seuls les 150 segments les plus récemment qualifiés sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire est envoyé à Analytics, ce qui signifie que la liste de segments a été tronquée. Cette action s’affiche sous la forme « Limite d’audience atteinte » dans la dimension Nom des audiences et « 1 » dans la dimension ID des audiences. Voir la [FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) pour plus d’informations. <br>  En outre, cette option affecte la disponibilité de la destination dans [Créateur de segments](/help/using/features/segments/segment-builder.md). Par exemple, si un segment est mappé automatiquement à une destination Analytics, cette destination ne peut pas être sélectionnée dans la section [mappages de destination](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) du créateur de segments. La destination Analytics apparaît grisée et affiche « Analytics » dans la colonne Type du navigateur de destination. |
 | Mappage manuel des segments | Cette option expose les contrôles de recherche et de navigation qui vous permettent de choisir les segments à envoyer à Analytics. <br>  Pour rechercher un segment : <br>  <ol><li>Saisissez le nom ou l’identifiant du segment dans le champ de recherche.</li><li>Cliquez sur <b>Ajouter.</b></li><li>Continuez à rechercher et à ajouter des segments ou cliquez sur <b>Terminé</b>.</li></ol><br>  Pour rechercher un segment : <ol><li>Cliquez sur <b> Parcourir tous les segments </b>. Une liste de segments disponibles est ainsi exposée.</li><li>Dans la liste, cochez la case du segment à utiliser et cliquez sur <b>Ajouter les segments sélectionnés</b>.</li><li>Cliquez sur <b>Enregistrer</b> dans la fenêtre Ajouter des mappages . Vous ne pouvez pas modifier les mappages, les dates de début ou de fin pendant la version bêta.</li><li>Continuez à parcourir et à ajouter des segments ou cliquez sur <b> Terminé </b>.</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## Étapes suivantes
 
-Après avoir créé et enregistré une destination, vous pouvez utiliser ces données dans Analytics. Cependant, il peut s’écouler quelques heures avant que les données ne soient disponibles dans les suites de rapports sélectionnées. Voir [Utilisation des données d’audience dans Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html?lang=fr).
+Après avoir créé et enregistré une destination, vous pouvez utiliser ces données dans Analytics. Cependant, il peut s’écouler quelques heures avant que les données ne soient disponibles dans les suites de rapports sélectionnées. Voir [Utilisation des données d’audience dans Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html).

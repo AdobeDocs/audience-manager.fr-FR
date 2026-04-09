@@ -4,9 +4,13 @@ title: Codes d’erreur DCS, messages et exemples
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
+TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: 1519
 ht-degree: 3%
 
 ---
@@ -23,7 +27,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
 |---|---|---|
 | 0 | Erreur non spécifiée | Il s’agit d’une erreur fourre-tout qui gère des événements qui ne sont pas couverts par les autres gestionnaires d’erreur. Le dépannage de cette erreur est difficile. Elle peut être causée par diverses actions ou événements inconnus. Si vous recevez cette erreur, effectuez à nouveau votre requête [!DNL DCS]. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 | 1 | Configuration du nom d&#39;hôte introuvable : `hostname` | Le nom d’hôte envoyé dans la demande n’a pas été configuré par notre équipe d’approvisionnement de partenaires. Contactez votre représentant [!DNL Adobe] si ce message d’erreur s’affiche. |
-| 2 | Valeur de `d_orgid` non valide (configuration introuvable pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et effectuez une nouvelle requête. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Page d’administration » [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr) pour plus d’informations sur la manière de le trouver. |
+| 2 | Valeur de `d_orgid` non valide (configuration introuvable pour cet ID d’organisation) : `ID` | L’ID d’organisation est incorrect. Vérifiez votre ID et effectuez une nouvelle requête. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Page d’administration » [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) pour plus d’informations sur la manière de le trouver. |
 | 10 | Impossible d’évaluer les caractéristiques | Les caractéristiques de la requête ont été évaluées en partie ou n’ont pas du tout été évaluées. Contactez votre représentant [!DNL Adobe] si le problème persiste. |
 
 ## Codes d&#39;erreur d&#39;intégration {#integration-error-codes}
@@ -102,7 +106,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
    <td colname="col2"> <p> Impossible de lire les ID d’appareil à partir du cache de profil pour l’ID de client : <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Renvoyé lorsque l’ID d’appareil <a href="../../../reference/ids-in-aam.md"></a> ne peut pas être récupéré pour une règle de fusion de lien de profil. </p> </td> 
+   <td colname="col3"> <p>Renvoyé lorsque l’ID d’appareil <a href="../../../reference/ids-in-aam.md"> ne peut pas être récupéré pour une règle de fusion de lien de profil.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
@@ -133,7 +137,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
 | --- | --- | --- |
 | 300 | ID de client non valide `_ID_` | L’ID de client n’est pas valide (valeurs manquantes pour la source de données, codes d’intégration manquants, format non valide pour les sources de données, ID de client bloqué, ID de client vide, tentative d’accès non autorisée à une source de données qui n’appartient pas au partenaire). |
 | 301 | Nombre maximal d’ID de client dépassé. Le maximum autorisé est de `_maximum allowed_`. `_maximum found_` trouvé. | Le nombre d’ID de client associés à une source de données entre appareils dépasse le nombre autorisé d’ID entre appareils par requête. Ces ID incluent des ID sur l’ensemble des appareils, des appareils mobiles ou des cookies. La limite est actuellement définie sur 10. |
-| 302 | ID de client non autorisé `_ID_` | Renvoyé lorsque la source de données de l’ID client n’appartient pas à l’ID d’organisation actuel. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Rechercher votre identifiant d’organisation » dans [Liaisons d’organisations et de comptes](https://experiencecloud.adobe.com/resources/help/fr_FR/mcloud/organizations.html) pour plus d’informations sur la manière de le trouver. |
+| 302 | ID de client non autorisé `_ID_` | Renvoyé lorsque la source de données de l’ID client n’appartient pas à l’ID d’organisation actuel. Si vous ne connaissez pas votre identifiant d’organisation ou si vous ne l’avez pas, consultez la section « Rechercher votre identifiant d’organisation » dans [Liaisons d’organisations et de comptes](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) pour plus d’informations sur la manière de le trouver. |
 | 303 | ID de client bloqué `_ID_` | Renvoyé lorsque l’ID de client a été identifié comme malveillant et a été ajouté à une liste bloquée. |
 | 304 | ID de source de données bloqué `_ID_` | Renvoyé lorsque l’ID de la source de données a été identifié comme malveillant et a été ajouté à une liste bloquée |
 | 306 | ID d’appareil déclaré bloqué `_ID_` | L’ID d’appareil a été identifié comme malveillant et a été ajouté à une liste bloquée. Cela peut se produire lorsque nous recevons un nombre extrême de requêtes DCS contenant cet ID d’appareil en peu de temps. |

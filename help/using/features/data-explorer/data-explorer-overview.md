@@ -6,9 +6,13 @@ title: Présentation, avantages et cas d’utilisation
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 feature: Data Explorer
 exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/7fLW4VhM4gUlbH6tkYIhEondTn4mopushMeFcJxzpPs
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: 463
 ht-degree: 1%
 
 ---
@@ -49,4 +53,4 @@ Une fois qu’un prestataire de services de voyage ajoute de nouvelles destinati
 
 L’une des fonctionnalités les plus puissantes d’Audience Manager est la possibilité d’intégrer des données hors ligne et de les lier à vos données en ligne. Dans la vidéo ci-dessous, découvrez comment utiliser [!UICONTROL Data Explorer] pour vérifier que vous avez créé toutes les caractéristiques nécessaires pour exploiter ces données intégrées.
 
->[!VIDEO](https://video.tv.adobe.com/v/330363?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

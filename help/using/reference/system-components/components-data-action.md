@@ -7,9 +7,13 @@ title: Composants de l’action de données
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: System Components
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/LVKtT4nllMAY2JbRXknJV-fwluR-e9huiFLlU38H4Kc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 658
 ht-degree: 1%
 
 ---
@@ -28,7 +32,7 @@ Les composants d’action sont des systèmes et des processus qui vous permetten
 
 ## Flux de données client (CDF) {#cdf}
 
-[!UICONTROL CDF] fichiers sont envoyés toutes les heures aux clients. Ils contiennent des identifiants d’utilisateur ainsi que les identifiants de segment, les identifiants de caractéristique et d’autres données associées. Pour plus d’informations, voir [&#x200B; Présentation des flux de données client &#x200B;](../../features/cdf-files.md).
+[!UICONTROL CDF] fichiers sont envoyés toutes les heures aux clients. Ils contiennent des identifiants d’utilisateur ainsi que les identifiants de segment, les identifiants de caractéristique et d’autres données associées. Pour plus d’informations, voir [ Présentation des flux de données client ](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 

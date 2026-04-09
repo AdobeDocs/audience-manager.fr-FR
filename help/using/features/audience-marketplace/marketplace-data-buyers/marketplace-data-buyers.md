@@ -7,9 +7,14 @@ title: Audience Marketplace pour les acheteurs de données
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/7rX24xDAh7PEcN29jLv-b1z0EhSp2Ku5-KlVoBVi4CA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 724
 ht-degree: 1%
 
 ---
@@ -32,7 +37,7 @@ Dans le [!UICONTROL Marketplace], les outils de création de rapports vous perme
 
 >[!TIP]
 >
->Utilisez l’outil de recherche d’audiences **[Adobe](https://www.adobe-audience-finder.com/)** pour trouver des flux de données de haute qualité auxquels vous pouvez vous abonner. Ensuite, revenez à l’interface utilisateur [!DNL Audience Manager] ou utilisez [l’API Audience Marketplace Buyer](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) pour vous abonner aux flux trouvés.
+>Utilisez l’outil de recherche d’audiences **[](https://www.adobe-audience-finder.com/)** pour trouver des flux de données de haute qualité auxquels vous pouvez vous abonner. Ensuite, revenez à l’interface utilisateur [!DNL Audience Manager] ou utilisez [l’API Audience Marketplace Buyer](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) pour vous abonner aux flux trouvés.
 
 ![présentation-marketplace-acheteur](assets/buyer-marketplace-overview.png)
 
@@ -55,7 +60,7 @@ La liste [!UICONTROL Marketplace] contient des informations que vous pouvez trie
 Pour trouver facilement les flux de données qui répondent le mieux à vos besoins, utilisez les filtres suivants disponibles sur le côté gauche de la page [!UICONTROL Marketplace] :
 
 * **[!UICONTROL Similarity To]** : filtrez les flux de données en fonction de leur similarité avec un [!UICONTROL trait] ou un [!UICONTROL segment] de votre choix. Lors de la saisie du [!UICONTROL trait] ou du segment auquel effectuer la comparaison, vous pouvez utiliser l’ID de [!UICONTROL trait] ou de [!UICONTROL segment], ou leurs noms respectifs.
-* **[!UICONTROL Similarity Cutoff]** : faites glisser le curseur pour filtrer les flux de données en fonction de la similitude de leurs [!UICONTROL traits] avec les [!UICONTROL trait] ou [!UICONTROL segment] sélectionnés. Pour en savoir plus sur [!UICONTROL trait] scores de similarité, voir [&#x200B; Score de similarité de caractéristique &#x200B;](../../segments/trait-recommendations.md#trait-similarity-score)
+* **[!UICONTROL Similarity Cutoff]** : faites glisser le curseur pour filtrer les flux de données en fonction de la similitude de leurs [!UICONTROL traits] avec les [!UICONTROL trait] ou [!UICONTROL segment] sélectionnés. Pour en savoir plus sur [!UICONTROL trait] scores de similarité, voir [ Score de similarité de caractéristique ](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]** : filtrez les flux de données en fonction du statut de votre abonnement.
 * **[!UICONTROL Plan Use Case]** : filtrez les flux de données en fonction de leurs cas d’utilisation pris en charge : **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** et **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]** : filtrez les flux de données en fonction de leur type de tarification.

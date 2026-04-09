@@ -6,9 +6,14 @@ solution: Audience Manager
 title: 'Workflow B : Personalization basé sur des données hors ligne uniquement'
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/QwP7cagUrIQ-jkLNzulJSoxKTT6VuNXAptoLTSpvCDM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: 1123
 ht-degree: 1%
 
 ---
@@ -26,7 +31,7 @@ La première étape de création des segments d’audience dans ce scénario con
 
 >[!IMPORTANT]
 >
-> Avant de poursuivre, assurez-vous que l’activité du client que vous êtes sur le point d’intégrer est déjà définie dans Audience Manager avec les caractéristiques intégrées [&#x200B; correspondantes](../traits/trait-and-segment-qualification-reference.md).
+> Avant de poursuivre, assurez-vous que l’activité du client que vous êtes sur le point d’intégrer est déjà définie dans Audience Manager avec les caractéristiques intégrées [ correspondantes](../traits/trait-and-segment-qualification-reference.md).
 
 Que vos ID de client Audience Manager existants ([DPUUID](../../reference/ids-in-aam.md)) soient des e-mails hachés ou non, vous devez effectuer l’intégration des caractéristiques à la source de données qui contient vos [DPUUID](../../reference/ids-in-aam.md).
 
@@ -88,11 +93,11 @@ Dans ce cas, vous devez créer une nouvelle source de données inter-appareils q
 
    >[!NOTE]
    >
-   > Consultez [&#x200B; Intégration de données &#x200B;](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
+   > Consultez [ Intégration de données ](people-based-destinations-prerequisites.md#data-onboarding) pour obtenir des questions fréquentes sur la manière d’importer vos données hors ligne dans Audience Manager pour les destinations basées sur les personnes.
 
 Regardez la vidéo ci-dessous pour un tutoriel vidéo sur la création d’une source de données pour [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32186?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Étape 3 - Correspondance des DPUUID aux adresses e-mail hachées via la synchronisation d’identifiants basée sur des fichiers {#match-ids-emails}
 

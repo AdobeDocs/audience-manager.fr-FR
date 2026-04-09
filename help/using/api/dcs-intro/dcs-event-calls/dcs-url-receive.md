@@ -7,9 +7,13 @@ title: Recevoir des données du serveur de collecte de données
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
 exl-id: c6a87e5a-63cc-44d7-b6f0-ac8ee845fd00
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/ka7bfv02tL4ZjX09D2gO6CW4u2VAGLwKl1c3BX2LTJE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: 385
 ht-degree: 1%
 
 ---
@@ -52,7 +56,7 @@ Le tableau ci-dessous répertorie et définit les paramètres les plus courants 
 | Paramètre | Description |
 |--- |--- |
 | `c` | Une URL qui a été définie comme [destination URL](../../../features/destinations/create-url-destination.md). |
-| `cn` | Nom ou ID défini dans le champ nom du cookie d’une [&#x200B; destination de cookie &#x200B;](../../../features/destinations/create-cookie-destination.md). |
+| `cn` | Nom ou ID défini dans le champ nom du cookie d’une [ destination de cookie ](../../../features/destinations/create-cookie-destination.md). |
 | `cv` | Les valeurs envoyées à la destination définie par le paramètre « cn »:« nom de destination ». |
 | `dcs_region` | Les [appels DCS serveur à serveur](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Cet objet contient des informations pour toutes les destinations d’URL configurées dans l’interface utilisateur. La liste de cet objet est dynamique en fonction des actions de l’utilisateur. |

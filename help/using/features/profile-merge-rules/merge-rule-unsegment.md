@@ -7,9 +7,11 @@ title: Règles de fusion de profils et processus d’annulation de segmentation 
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 2%
 
 ---
@@ -44,7 +46,7 @@ Pour rappel, les [!UICONTROL Device Options] sont disponibles dans la section [!
 >[!NOTE]
 >
 >**limite de 100 appareils pour l’évaluation et la disqualification des segments**.
->&#x200B;>Audience Manager fusionne jusqu’à 100 appareils lors de l’évaluation de segments avec une règle de fusion de profil qui utilise un graphique d’appareil. Audience Manager évalue l’appareil actuel et jusqu’à 99 appareils liés à l’appareil actuel par un [profil authentifié](../../reference/visitor-authentication-states.md) (identifiant sur l’ensemble des appareils). Si le signal unsegment est émis, l’appareil actuel et les appareils supplémentaires sont supprimés du segment dans la destination.
+>Audience Manager fusionne jusqu’à 100 appareils lors de l’évaluation de segments avec une règle de fusion de profil qui utilise un graphique d’appareil. Audience Manager évalue l’appareil actuel et jusqu’à 99 appareils liés à l’appareil actuel par un [profil authentifié](../../reference/visitor-authentication-states.md) (identifiant sur l’ensemble des appareils). Si le signal unsegment est émis, l’appareil actuel et les appareils supplémentaires sont supprimés du segment dans la destination.
 
 ![](assets/last-device-graph.png)
 

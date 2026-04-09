@@ -8,9 +8,14 @@ title: ID déclarés
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
+TQID: https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: 1151
 ht-degree: 8%
 
 ---
@@ -37,7 +42,7 @@ Certains navigateurs et la plupart des appareils mobiles n’acceptent pas les [
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Appel d’événement</b> </td> 
-   <td colname="col2"> <p>Pour fonctionner, vous avez besoin <span class="wintitle"> code de </span> DIL et du <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr" format="https" scope="external"> Adobe Experience Platform Identity Service </a> sur la page. <span class="wintitle"> </span> DIL obtient <span class="wintitle"> identifiants déclarés </span> à partir de la fonction <code> setVisitorID </code> fournie par le <span class="keyword"> du service d’identités de Adobe Experience Platform </span> et le transmet à <span class="keyword">’</span> Audience Manager. </p> </td> 
+   <td colname="col2"> <p>Pour fonctionner, vous avez besoin <span class="wintitle"> code de </span> DIL et du <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> sur la page. <span class="wintitle"> </span> DIL obtient <span class="wintitle"> identifiants déclarés </span> à partir de la fonction <code> setVisitorID </code> fournie par le <span class="keyword"> du service d’identités de Adobe Experience Platform </span> et le transmet à <span class="keyword">’</span> Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de correspondance</b> </td> 
@@ -54,7 +59,7 @@ Certains navigateurs et la plupart des appareils mobiles n’acceptent pas les [
  </tbody>
 </table>
 
-Pour commencer, vous devez configurer le service d’ID de [!DNL Experience Cloud] et les [!UICONTROL DIL] sur les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir les sections [Création &#x200B;](../dil/dil-class-overview/dil-create.md#dil-create) DIL et [Variables d’ID déclarées](../features/declared-ids.md#declared-id-variables).
+Pour commencer, vous devez configurer le service d’ID de [!DNL Experience Cloud] et les [!UICONTROL DIL] sur les pages de votre site que vous souhaitez utiliser pour la collecte de données. Voir les sections [Création ](../dil/dil-class-overview/dil-create.md#dil-create) DIL et [Variables d’ID déclarées](../features/declared-ids.md#declared-id-variables).
 
 ## Appels d’opt-out {#opt-out-calls}
 
@@ -63,7 +68,7 @@ Le processus [!UICONTROL declared ID] respecte les préférences des visiteurs d
 * [!DNL Audience Manager] pouvez transmettre un opt-out [!UICONTROL declared ID] avec un [!DNL Audience Manager] [!UICONTROL UUID] dans le [!DNL URL].
 * Le processus d’opt-out [!UICONTROL declared ID] est stocké dans le [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) sur une base par partenaire. Il n’existe aucune désinscription au niveau de la plateforme à l’aide de [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] exclut l’utilisateur de cette région particulière sur le serveur Edge (l’exclusion ne traverse pas les régions [!DNL DCS]).
 
-Consultez [&#x200B; Confidentialité des données &#x200B;](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur le droit d’opposition à la collecte de données.
+Consultez [ Confidentialité des données ](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur le droit d’opposition à la collecte de données.
 
 ## Exemples d’opt-out [!UICONTROL Declared ID] {#opt-out-examples}
 
@@ -184,7 +189,7 @@ Décrit les variables de configuration utilisées pour transmettre des [!UICONTR
 
 ## [!UICONTROL DIL] utilise l’[!DNL Adobe Experience Platform Identity Service] pour transmettre des [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Lorsqu’il est utilisé avec le service d’identités [Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), vous n’avez plus besoin de transmettre des [!UICONTROL declared IDs] avec les variables `dpid` et `dpuuid` obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la fonction `visitorService` pour obtenir le [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. Pour plus d’informations, voir [&#x200B; ID de client et états d’authentification &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). Vous pouvez appeler `visitorService` en `DIL.create`, comme illustré ci-dessous.
+Lorsqu’il est utilisé avec le service d’identités [](https://experienceleague.adobe.com/docs/id-service/using/home.html), vous n’avez plus besoin de transmettre des [!UICONTROL declared IDs] avec les variables `dpid` et `dpuuid` obsolètes. Au lieu de cela, les versions actuelles de [!UICONTROL DIL] reposent sur la fonction `visitorService` pour obtenir le [!UICONTROL declared IDs] de la fonction `setCustomerIDs` dans le [!UICONTROL Adobe Experience Platform Identity Service]. Pour plus d’informations, voir [ ID de client et états d’authentification ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Vous pouvez appeler `visitorService` en `DIL.create`, comme illustré ci-dessous.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +200,7 @@ var vDil = DIL.create({
 });
 ```
 
-Dans la paire clé-valeur `namespace`, `MCORG` correspond à l’ID d’organisation [!DNL Experience Cloud]. Si vous ne disposez pas de cet identifiant, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin d’autorisations d’administrateur pour afficher ce tableau de bord. Voir [Prise en main des services Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/getting-started).
+Dans la paire clé-valeur `namespace`, `MCORG` correspond à l’ID d’organisation [!DNL Experience Cloud]. Si vous ne disposez pas de cet identifiant, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin d’autorisations d’administrateur pour afficher ce tableau de bord. Voir [Prise en main des services Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Fonctions obsolètes {#deprecated-functions}
 

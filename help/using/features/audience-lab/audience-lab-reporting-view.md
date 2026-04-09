@@ -7,9 +7,14 @@ title: Rapports de groupe de test
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 feature: Audience Lab
 exl-id: 5d959002-e904-44df-87e6-e4c85838b076
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/c4wC46SA8lwM8Rvniun2kB7zqwW3g-rN7ZYLc4KF6mk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: 337
 ht-degree: 0%
 
 ---
@@ -44,7 +49,7 @@ La section de rapport sur le groupe de test renvoie des informations sur les con
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> les populations de segments de test</span></b> </p> </td> 
-   <td colname="col2"> <p>Renvoie le nombre d’appareils appartenant aux segments de test. Basculez entre <b><span class="uicontrol"> population totale</span></b> ou <b><span class="uicontrol"> population en temps réel</span></b>. La différence est expliquée dans la FAQ sur les rapports d’<a href="../../faq/faq-reporting.md"></a> . </p> </td>
+   <td colname="col2"> <p>Renvoie le nombre d’appareils appartenant aux segments de test. Basculez entre <b><span class="uicontrol"> population totale</span></b> ou <b><span class="uicontrol"> population en temps réel</span></b>. La différence est expliquée dans la FAQ sur les rapports d’<a href="../../faq/faq-reporting.md"> .</a> </p> </td>
   </tr>
  </tbody>
 </table>

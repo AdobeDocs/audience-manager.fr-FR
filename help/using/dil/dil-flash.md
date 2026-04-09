@@ -7,9 +7,14 @@ title: DIL Flash
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/E8oHRJTLe4gItbAxv9aI7ltGJ0sn7qda-DDtVWoP2bY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 686
 ht-degree: 2%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 2%
 >
 >Depuis juillet 2023, Adobe a interrompu le développement du [!DNL Data Integration Library (DIL)] et de l’extension [!DNL DIL].
 >
->Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, Adobe ne développera pas d’[!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) pour leur stratégie de collecte de données à long terme.
+>Les clients existants peuvent continuer à utiliser leur implémentation [!DNL DIL]. Cependant, Adobe ne développera pas d’[!DNL DIL] au-delà de ce point. Nous recommandons aux clients d’évaluer [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) pour leur stratégie de collecte de données à long terme.
 >
->Les clients qui souhaitent implémenter de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) à la place.
+>Les clients qui souhaitent implémenter de nouvelles intégrations de collecte de données après juillet 2023 doivent utiliser [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) à la place.
 
 Collectez les données envoyées des fichiers FLA à Analytics et utilisez-les dans Audience Manager.
 
@@ -51,12 +56,12 @@ c_flash_dil_intro.xml
 * Bibliothèque de classes [!UICONTROL DIL] (`dil.swc`). Obtenez la bibliothèque de classes [!UICONTROL DIL] auprès de votre contact Partner Solutions.
 
 * JavaScript [!UICONTROL DIL] le code de collecte de données sur la page.
-* [Bibliothèque ActionScript de DIL](../dil/dil-flash.md#flash-dil-actionscript) chargée dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
+* [Bibliothèque ActionScript de ](../dil/dil-flash.md#flash-dil-actionscript) chargée dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
 * La bibliothèque [!DNL AppMeasurement] Adobe [!DNL AS] (version 3.5.2 ou ultérieure) a chargé l’objet [!DNL Flash] à partir duquel vous souhaitez collecter des données.
 
 **Définir AllowScriptAccess sur `Always` ou`sameDomain`**
 
-Le code `AllowScriptAccess` dans HTML qui charge un fichier SWF contrôle la possibilité d’effectuer l’accès aux URL sortantes à partir du fichier SWF. Lorsque vous configurez une intégration de données [!UICONTROL Flash DIL], assurez-vous que le paramètre `AllowScriptAccess` Flash est défini sur `always` ou `sameDomain`. [!UICONTROL Flash DIL] collecte de données ne fonctionnera pas si `AllowScriptAccess` est définie sur `never`. Voir [Contrôler l’accès aux scripts ou à la page web hôte](https://helpx.adobe.com/fr/flash/kb/control-access-scripts-host-web.html).
+Le code `AllowScriptAccess` dans HTML qui charge un fichier SWF contrôle la possibilité d’effectuer l’accès aux URL sortantes à partir du fichier SWF. Lorsque vous configurez une intégration de données [!UICONTROL Flash DIL], assurez-vous que le paramètre `AllowScriptAccess` Flash est défini sur `always` ou `sameDomain`. [!UICONTROL Flash DIL] collecte de données ne fonctionnera pas si `AllowScriptAccess` est définie sur `never`. Voir [Contrôler l’accès aux scripts ou à la page web hôte](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
 
 **Emplacement du code [!UICONTROL DIL] JS**
 
@@ -132,7 +137,7 @@ Consultez le tableau pour obtenir des exemples :
 
 **Les données DIL/Analytics sont des signaux inutilisés**
 
-Audience Manager accepte les [!UICONTROL Props], [!UICONTROL eVars] et événements Analytics même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristique et apparaissent à la place dans le rapport [&#x200B; Signaux inutilisés &#x200B;](../reporting/dynamic-reports/unused-signals.md). Pour tirer le meilleur parti de ces informations, créez des caractéristiques Audience Manager correspondant aux données Analytics transmises par la bibliothèque [!UICONTROL Flash DIL].
+Audience Manager accepte les [!UICONTROL Props], [!UICONTROL eVars] et événements Analytics même sans caractéristique correspondante. Dans ce cas, les données ne sont pas disponibles pour la création de caractéristique et apparaissent à la place dans le rapport [ Signaux inutilisés ](../reporting/dynamic-reports/unused-signals.md). Pour tirer le meilleur parti de ces informations, créez des caractéristiques Audience Manager correspondant aux données Analytics transmises par la bibliothèque [!UICONTROL Flash DIL].
 
 ## Bibliothèque Flash DIL ActionScript {#flash-dil-actionscript}
 

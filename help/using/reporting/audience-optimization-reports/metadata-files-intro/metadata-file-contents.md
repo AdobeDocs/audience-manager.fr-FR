@@ -7,9 +7,12 @@ title: Format de contenu des fichiers de métadonnées
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/h5fvnoFsB5Q-9w2GcoU2HNJrdPGUjFKAwFXaYuSMMwU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: 299
 ht-degree: 1%
 
 ---
@@ -22,7 +25,7 @@ Mettez en forme le contenu de votre fichier de métadonnées Audience Optimizati
 
 La syntaxe suivante définit la structure d’un contenu correctement formé dans un fichier de métadonnées. Notez que *l’italique* indique un espace réservé de variable.
 
-**Syntaxe :** *Identifiant du contenu* | *name* | *-1*
+**Syntaxe :** *ID de contenu* | *name* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
@@ -61,7 +64,7 @@ Dans cet exemple, le titre du fichier est 20180921_0_1 et les trois colonnes du 
 333 Campaign C -1
 ```
 
-**Creative**
+****
 
 Dans cet exemple, le titre du fichier est 20180827_0_2 et les trois colonnes du fichier sont les suivantes : Creative ID, Name et Parent ID.
 

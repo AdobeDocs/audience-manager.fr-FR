@@ -7,9 +7,11 @@ title: Gestion des règles de caractéristiques
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 0%
 
 ---
@@ -61,7 +63,7 @@ Renseignez les champs obligatoires de la section **[!UICONTROL Basic Information
    >
    >L’opérateur [!DNL Boolean] [!UICONTROL OR] établit la relation entre plusieurs signaux *au sein* d’un groupe et ne peut pas être modifié.
 
-1. Cliquez sur **[!UICONTROL Add Rule]**. La règle enregistrée s’affiche dans l’espace de travail des caractéristiques au-dessus des champs de saisie de données.
+1. Cliquez sur **[!UICONTROL Add Rule]**. La règle enregistrée s’affiche dans l’espace de travail des caractéristiques au-dessus des champs de saisie de données.
 
 ### Exemple {#example-trait-rule}
 

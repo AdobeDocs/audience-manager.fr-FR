@@ -6,13 +6,16 @@ solution: Audience Manager
 title: Conditions préalables et considérations
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
+TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 996
 ht-degree: 2%
 
 ---
-
 
 # Conditions préalables et considérations {#prerequisites-considerations}
 
@@ -37,7 +40,7 @@ Contactez votre représentant ou représentante Adobe pour tirer parti de cette 
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos [!UICONTROL segments] d’audience propriétaires à [!DNL Facebook], assurez-vous de respecter les exigences suivantes :
 
 1. Votre compte utilisateur [!DNL Facebook] doit disposer de l’autorisation **Gérer les campagnes** activée pour le compte publicitaire que vous prévoyez d’utiliser.
-2. Ajoutez le compte professionnel **Adobe Experience Cloud** en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. Voir [Ajouter des partenaires à votre Business Manager](https://www.facebook.com/business/help/1717412048538897) pour plus d’informations.
+2. Ajoutez le compte professionnel **** en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. Voir [Ajouter des partenaires à votre Business Manager](https://www.facebook.com/business/help/1717412048538897) pour plus d’informations.
 
    >[!IMPORTANT]
    >Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’autorisation **Gérer les campagnes**. Ceci est obligatoire pour l’intégration de [!UICONTROL People-Based Destinations].
@@ -50,13 +53,13 @@ Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vo
 
 Pour savoir comment modifier vos autorisations d’utilisateur [!DNL LinkedIn Campaign Manager], voir [Ajouter, modifier et supprimer des autorisations d’utilisateur sur les comptes Advertising](https://www.linkedin.com/help/lms/answer/5753) dans la documentation LinkedIn.
 
-Consultez [Présentation et configuration de la destination LinkedIn basée sur les personnes](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=fr) pour obtenir des instructions vidéo.
+Consultez [Présentation et configuration de la destination LinkedIn basée sur les personnes](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) pour obtenir des instructions vidéo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires vers une destination [!DNL Google Customer Match], veillez à lire et à respecter la politique de Google relative à l’utilisation de [!DNL Customer Match], décrite dans la [documentation de prise en charge de Google](https://support.google.com/google-ads/answer/6299717).
 
-Ensuite, assurez-vous que votre compte [!DNL Google] est configuré pour un niveau d’autorisation [!DNL Standard] ou supérieur. Pour plus d’informations[&#x200B; consultez la documentation sur les Google Ads &#x200B;](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1).
+Ensuite, assurez-vous que votre compte [!DNL Google] est configuré pour un niveau d’autorisation [!DNL Standard] ou supérieur. Pour plus d’informations[ consultez la documentation sur les Google Ads ](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1).
 
 Les clients disposant de comptes conformes sont automatiquement placés sur la liste autorisée par Google.
 
@@ -99,7 +102,7 @@ Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais du [!DNL Adobe Experience Platform Identity Service (ECID)]. Consultez [SHA256 Prise en charge du hachage pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=fr) pour plus d’informations sur l’utilisation d’ECID pour hacher les ID client.
+Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais du [!DNL Adobe Experience Platform Identity Service (ECID)]. Consultez [SHA256 Prise en charge du hachage pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) pour plus d’informations sur l’utilisation d’ECID pour hacher les ID client.
 
 ## Obtention des autorisations utilisateur {#obtaining-user-permission}
 

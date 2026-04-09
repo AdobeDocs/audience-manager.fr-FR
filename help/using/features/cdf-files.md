@@ -8,9 +8,13 @@ title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 89137248aa47573f5b65e387a152f651419da827
+TQID: https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: 1988
 ht-degree: 2%
 
 ---
@@ -53,7 +57,7 @@ Répertorie et définit les éléments de données et les tableaux d’un fichie
 
 ## Définitions {#definitions}
 
-Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-dessous. Pour plus d’informations sur l’organisation interne des fichiers, voir [&#x200B; Structure de fichier du flux de données client &#x200B;](#cdf-file-structure).
+Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-dessous. Pour plus d’informations sur l’organisation interne des fichiers, voir [ Structure de fichier du flux de données client ](#cdf-file-structure).
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -111,7 +115,7 @@ Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-des
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Identifiant <span class="keyword"> Experience Cloud</span> (MID) attribué au visiteur du site. Voir aussi Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>Identifiant <span class="keyword"> Experience Cloud</span> (MID) attribué au visiteur du site. Voir aussi Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> et Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +167,7 @@ Les fichiers [!UICONTROL CDF] ne contiennent pas de colonnes ou d’en-têtes de
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Paramètres de requête </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Référent </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Adresse IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Identifiant de l’appareil Experience Cloud (ou MID). Voir aussi Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et service d’identités Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Identifiant de l’appareil Experience Cloud (ou MID). Voir aussi Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> et service d’identités Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tous les segments </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Toutes les caractéristiques </li> 
      </ol> </p> <p>Pour obtenir la description des champs, voir <a href="#cdf-defined"> du contenu du flux de données client défini</a>. </p> </td> 

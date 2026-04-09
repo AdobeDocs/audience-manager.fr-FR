@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Configuration d’une destination de cookie
 feature: Destination Basics
 exl-id: 32b8de66-e12d-48ec-82cf-9b0d335ae834
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/NelSsN2oH-jL166POOWAyx-HNPZgverTgKq4NhBBdzE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: 565
 ht-degree: 1%
 
 ---
@@ -41,7 +45,7 @@ Cette section contient des champs et des options qui démarrent le processus de 
 Cette section contient des options qui appliquent des [contrôles d’exportation de données](../../features/data-export-controls.md) à une destination de cookie. Ignorez cette étape si vous n’utilisez pas de contrôles d’exportation des données. Pour remplir cette section, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Data Export Labels]** pour afficher les contrôles.
-2. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [&#x200B; Ajouter des libellés d’exportation à une destination &#x200B;](/help/using/features/destinations/add-data-export-labels.md) pour plus de détails).
+2. Sélectionnez un libellé qui correspond au contrôle d’exportation des données appliqué à la destination (voir [ Ajouter des libellés d’exportation à une destination ](/help/using/features/destinations/add-data-export-labels.md) pour plus de détails).
 3. Cliquez sur **[!UICONTROL Save]**.
 
 ## Configuration {#configuration}

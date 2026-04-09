@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Ajouter ou modifier des segments pour les destinations de serveur à serveur
 feature: Destination Basics
 exl-id: 20124779-e14b-4d17-be4b-9f17ee0dc19e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/3bcMGBGMb4HtnPA8yFvO4UzfGXmpvM2Drs427ztfWDc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -26,6 +30,6 @@ Pour ajouter ou modifier des mappages de segments pour une destination [!DNL S2S
    * Dans la zone de **[!UICONTROL Search and Add Segments]**, commencez à saisir le nom d’un segment ou cliquez **[!UICONTROL Browse All Segments]** parcourir une liste de segments disponibles.
    * Cliquez sur **[!UICONTROL Add Selected Segments]** lorsque vous trouvez le segment que vous souhaitez utiliser. L’ajout d’un segment ouvre la fenêtre de [!UICONTROL Edit Mapping].
    * En [!UICONTROL Edit Mapping] :
-      * **[!UICONTROL Mappings]** : définissez une valeur pour la [&#x200B; paire clé-valeur &#x200B;](../../features/destinations/key-value-pairs.md) utilisée par cette destination.
+      * **[!UICONTROL Mappings]** : définissez une valeur pour la [ paire clé-valeur ](../../features/destinations/key-value-pairs.md) utilisée par cette destination.
       * **[!UICONTROL Start Date]** et **[!UICONTROL End Date]** : choisissez des dates de début et de fin pour la destination. Si la date de fin est vide, la destination n’expire jamais.
 3. Cliquez sur **[!UICONTROL Save]**, puis sur **[!UICONTROL Done]**.

@@ -8,9 +8,13 @@ title: Surveillance et Liste bloquée des identifiants
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 0%
 
 ---
@@ -49,6 +53,6 @@ Lorsqu’un appel à identifiants multiples inclut également un identifiant pla
 
 La cause la plus fréquente de l’ajout d’identifiants aux listes bloquées est l’intégration incorrecte entre l’infrastructure client et Audience Manager. Lorsque vous identifiez un identifiant placé sur la liste bloquée, veillez à passer en revue minutieusement vos intégrations Audience Manager. Consultez les **Guides de mise en œuvre et d’intégration** pour obtenir des explications détaillées sur la manière de configurer Audience Manager pour qu’il fonctionne avec d’autres solutions Experience Cloud ou systèmes externes.
 
-Les robots d’indexation (robots d’exploration web) sont une autre cause fréquente d’ajout d’identifiants aux listes bloquées. Cela entraîne généralement une augmentation du trafic, ce qui entraîne l’envoi multiple des mêmes identifiants au [!DNL DCS]. Si vous identifiez les robots d’indexation comme la raison pour laquelle des identifiants sont ajoutés aux listes bloquées, vous devez restreindre l’accès des robots à votre site web.
+Les robots d’indexation (robots d&#39;exploration web) sont une autre cause fréquente d’ajout d’identifiants aux listes bloquées. Cela entraîne généralement une augmentation du trafic, ce qui entraîne l’envoi multiple des mêmes identifiants au [!DNL DCS]. Si vous identifiez les robots d’indexation comme la raison pour laquelle des identifiants sont ajoutés aux listes bloquées, vous devez restreindre l’accès des robots à votre site web.
 
 Si vous avez du mal à identifier les problèmes d’intégration, n’hésitez pas à contacter le service clientèle. Avant d’ouvrir une demande d’assistance, veillez à conserver l’archive `.har` `HTTP` de votre navigateur prête. Cette archive permet à l’équipe d’assistance d’identifier la raison pour laquelle l’ID a été ajouté à une liste bloquée.

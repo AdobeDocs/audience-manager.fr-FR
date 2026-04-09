@@ -8,9 +8,11 @@ title: Création d’un modèle algorithmique
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
+TQID: https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 639
 ht-degree: 0%
 
 ---
@@ -36,7 +38,7 @@ Pour créer un [!UICONTROL Look-Alike Model], procédez comme suit :
 
 1. Accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** et cliquez sur **[!UICONTROL Add New]** dans la section [!UICONTROL Look-Alike Modeling] .
    ![ajout-similaire](assets/look-alike-add.png)
-1. Dans la section [&#x200B; Informations de base &#x200B;](../../features/algorithmic-models/create-model.md#basic-information)
+1. Dans la section [ Informations de base ](../../features/algorithmic-models/create-model.md#basic-information)
    * Nommez le modèle.
    * *(Facultatif)* Fournissez une brève description du modèle.
    * Définissez le statut du modèle sur **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Les modèles inactifs ne s’exécutent pas et ne produisent aucune donnée.
@@ -111,7 +113,7 @@ Renseignez d’abord les champs obligatoires de la section [!UICONTROL Basic Inf
 
 Regardez la vidéo ci-dessous pour savoir comment créer un modèle similaire propriétaire, afin que vous puissiez trouver davantage de vos propres visiteurs qui ressemblent à vos convertisseurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/328091?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

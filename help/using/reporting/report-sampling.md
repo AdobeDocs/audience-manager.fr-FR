@@ -7,9 +7,14 @@ title: Échantillonnage des données et taux d’erreur dans les rapports Audien
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/VGqto9hCroCmKygXvwZNOiAYnsV9CmdPzAoEvKnkV90
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a2c6d65b-635d-4454-a9cc-9771ed501bb4id: a49258d4-867f-4130-b875-d72c001bdf6cid: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 449
 ht-degree: 0%
 
 ---
@@ -86,6 +91,6 @@ Reports that use Minhash sampling methodology:
 
 | Échantillonnage statistique | Méthodologie d’échantillonnage de Minhash |
 |--- |--- |
-| [&#x200B; Audience adressable &#x200B;](../features/addressable-audiences.md) données (données au niveau du client et du segment). | [&#x200B; Rapports de chevauchement &#x200B;](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait à trait, segment à trait et segment à segment) |
+| [ Audience adressable ](../features/addressable-audiences.md) données (données au niveau du client et du segment). | [ Rapports de chevauchement ](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait à trait, segment à trait et segment à segment) |
 | La mesure [Nombre total d’appareils](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) pour un [!UICONTROL Profile Merge Rule]. | [Recommandations de caractéristiques](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilise des données échantillonnées dans l’onglet [!UICONTROL Search] et tout [!UICONTROL Saved Searches] | [Recommandations Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilise des données échantillonnées dans l’onglet [!UICONTROL Search] et tout [!UICONTROL Saved Searches] | [Recommandations ](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

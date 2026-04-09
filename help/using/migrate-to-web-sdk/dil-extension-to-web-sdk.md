@@ -2,9 +2,13 @@
 title: Migration de l’extension de balise Audience Manager vers l’extension de balise Web SDK
 description: Découvrez les étapes à suivre pour mettre à jour votre bibliothèque de collecte de données pour Audience Manager de l’extension de balise Audience Manager à l’extension de balise Web SDK
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
-source-git-commit: a50aaeb5e384685100dc3ecc1d6d45f1c41461d0
+TQID: https://experienceleague.adobe.com/onqgwnCIZMdiZz6nGRWy7bpbXpMF1zizqyQOQjSkGTc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1309
 ht-degree: 0%
 
 ---
@@ -13,7 +17,7 @@ ht-degree: 0%
 
 ## Audience prévue
 
-Cette page est destinée aux clients Audience Manager qui utilisent l’extension de balise [Audience Manager](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/audience-manager/overview) pour importer des données de collecte web dans Audience Manager. Pour les clients qui utilisent la bibliothèque AppMeasurement JavaScript, veuillez lire le guide sur la mise à jour de votre bibliothèque de collecte de données pour Audience Manager [de la bibliothèque AppMeasurement JavaScript à la bibliothèque Web SDK JavaScript](appmeasurement-to-web-sdk.md).
+Cette page est destinée aux clients Audience Manager qui utilisent l’extension de balise [Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) pour importer des données de collecte web dans Audience Manager. Pour les clients qui utilisent la bibliothèque AppMeasurement JavaScript, veuillez lire le guide sur la mise à jour de votre bibliothèque de collecte de données pour Audience Manager [de la bibliothèque AppMeasurement JavaScript à la bibliothèque Web SDK JavaScript](appmeasurement-to-web-sdk.md).
 
 ## Avantages et inconvénients de ce chemin de mise en œuvre
 
@@ -136,11 +140,11 @@ La publication des règles mises à jour suit le même workflow que toute autre 
 1. Testez les modifications apportées à votre environnement de développement pour vous assurer que toutes les règles se déclenchent correctement et que l’objet de données est renseigné avec les valeurs attendues.
 1. Une fois prête, envoyez la bibliothèque pour approbation, créez-la vers l’évaluation, puis approuvez-la et publiez-la en production.
 
-   ![&#x200B; Flux de publication &#x200B;](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+   ![ Flux de publication ](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
-+++**6. Désactivez l’extension Audience Manager**
++++**6. Désactivez l’extension**
 
 Une fois la migration complète de votre implémentation de balises vers le Web SDK terminée, vous pouvez désactiver l’extension Audience Manager.
 

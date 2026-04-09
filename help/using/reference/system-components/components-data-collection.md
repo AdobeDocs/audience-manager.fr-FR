@@ -7,9 +7,14 @@ title: Composants de la collecte de données
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 736
 ht-degree: 3%
 
 ---
@@ -57,7 +62,7 @@ Dans un appel d’événement, l’emplacement géographique est capturé dans u
 
 ![](assets/dcs-map.png)
 
-En tant que client, vous interagissez avec le [!DNL DCS] indirectement par le biais de notre code de collecte de données. Vous pouvez également travailler directement avec le [!DNL DCS] par le biais d’un ensemble d’API. Voir [&#x200B; Méthodes et code de l’API Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+En tant que client, vous interagissez avec le [!DNL DCS] indirectement par le biais de notre code de collecte de données. Vous pouvez également travailler directement avec le [!DNL DCS] par le biais d’un ensemble d’API. Voir [ Méthodes et code de l’API Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
@@ -82,11 +87,11 @@ Le [!UICONTROL PCS] vide les caractéristiques si elles sont inactives pendant 1
 
 **Autres processus de [!UICONTROL DCS/PCS] : désinscription de la confidentialité**
 
-Ces systèmes de serveur gèrent les demandes de confidentialité et de désinscription des utilisateurs. Les informations de cookie utilisateur ne sont pas collectées dans le fichier journal si un utilisateur s’est opposé à la collecte de données. Pour plus d’informations sur nos politiques de confidentialité, consultez le [Centre de traitement des données personnelles Adobe](https://www.adobe.com/fr/privacy/experience-cloud.html).
+Ces systèmes de serveur gèrent les demandes de confidentialité et de désinscription des utilisateurs. Les informations de cookie utilisateur ne sont pas collectées dans le fichier journal si un utilisateur s’est opposé à la collecte de données. Pour plus d’informations sur nos politiques de confidentialité, consultez le [Centre de traitement des données personnelles ](https://www.adobe.com/fr/privacy/experience-cloud.html).
 
 ## Bibliothèque d’intégration de données (DIL) {#dil}
 
-[!UICONTROL DIL] code que vous placez sur la page pour la collecte de données. Consultez la section [API DIL](../../dil/dil-overview.md) pour plus d’informations sur les services et méthodes disponibles.
+[!UICONTROL DIL] code que vous placez sur la page pour la collecte de données. Consultez la section [API ](../../dil/dil-overview.md) pour plus d’informations sur les services et méthodes disponibles.
 
 ## Réception serveur à serveur {#inbound-outbound-server}
 

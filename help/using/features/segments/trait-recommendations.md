@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Recommandations de caractéristiques
 feature: Segments
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
+TQID: https://experienceleague.adobe.com/QlyZ0ihE6gw5qBsQ3RATUwOJYms0xyt0dwJRS-jfBU0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ecid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: 1584
 ht-degree: 5%
 
 ---
@@ -21,11 +26,11 @@ Obtenez des recommandations de caractéristiques en direct à mesure que vous cr
 
 Commencez par regarder la vidéo [!UICONTROL Trait Recommendations] ci-dessous, puis poursuivez la lecture pour plus d’informations. La démonstration vidéo vous explique comment utiliser les recommandations de vos propres caractéristiques propriétaires, ainsi que les recommandations de caractéristiques de [!UICONTROL Audience Marketplace] flux de données auxquels *vous êtes déjà abonné*.
 
->[!VIDEO](https://video.tv.adobe.com/v/40839?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
 La vidéo suivante décrit le workflow de [!UICONTROL Marketplace Recommendations] et vous montre comment ajouter des caractéristiques à vos segments, en fonction des recommandations des flux de données dans [!UICONTROL Audience Marketplace]. Ces recommandations sont basées sur des flux de données auxquels *vous n’êtes pas abonné*.
 
->[!VIDEO](https://video.tv.adobe.com/v/33197?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## Présentation
 
