@@ -6,9 +6,19 @@ title: Exclusion des caractéristiques des modèles algorithmiques
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 feature: Algorithmic Models
 exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/E629v49xWYBTIP5wPBYeJY6ts1f2P0WDAhtNOPUuEKQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: 633
 ht-degree: 0%
 
 ---
@@ -49,11 +59,11 @@ Utilisez le workflow [Créer un modèle](../../features/algorithmic-models/creat
 
 Si vous préférez des tutoriels vidéo, regardez notre démonstration vidéo pour l’exclusion des caractéristiques :
 
->[!VIDEO](https://video.tv.adobe.com/v/38132/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/38132/?captions=fre_fr&quality=12)
 
 De plus, regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures sur l’ensemble des appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/36727/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/36727/?captions=fre_fr&quality=12)
 
 ## Aspects importants et limites {#important-aspects-and-limitations}
 
@@ -89,7 +99,7 @@ Veuillez prendre note des aspects et limites suivants liés à [!UICONTROL Trait
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exclure la caractéristique de base </p> </td>
-   <td colname="col2"> <p>La caractéristique de ligne de base est exclue par défaut ; elle n’apparaît donc pas dans la liste des exclusions de la <b><span class="uicontrol"></span></b> lors de la création du modèle. </p> </td>
+   <td colname="col2"> <p>La caractéristique de ligne de base est exclue par défaut ; elle n’apparaît donc pas dans la liste des exclusions de la <b><span class="uicontrol"> lors de la création du modèle.</span></b> </p> </td>
   </tr>
  </tbody>
 </table>

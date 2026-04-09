@@ -2,13 +2,27 @@
 title: Mettez à jour votre bibliothèque de collecte de données pour Audience Manager de la bibliothèque AppMeasurement JavaScript vers la bibliothèque Web SDK JavaScript.
 description: Découvrez les étapes à suivre pour mettre à jour votre bibliothèque de collecte de données pour Audience Manager de la bibliothèque AppMeasurement JavaScript à la bibliothèque Web SDK JavaScript.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: f180e423d4bdf5535d8dcc000e1d0f908bc54d7b
+TQID: https://experienceleague.adobe.com/mxctgUDMvqrSgS0PLsQ7GTwiFMIogo2nL-yZZsnbS40
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: 3385
 ht-degree: 0%
 
 ---
-
 
 # Mettre à jour votre bibliothèque de collecte de données pour Audience Manager d’AppMeasurement vers Web SDK
 
@@ -126,7 +140,7 @@ Votre flux de données est maintenant prêt à recevoir et à transmettre des do
 
 +++
 
-+++**3. Activez les synchronisations des identifiants tiers et définissez l’identifiant de conteneur Audience Manager**
++++**3. Activez les synchronisations des identifiants tiers et définissez l’identifiant de conteneur**
 
 1. Accédez à [experience.adobe.com](https://experience.adobe.com) et connectez-vous à l’aide de vos informations d’identification.
 1. Utilisez la page d’accueil ou le sélecteur de produits en haut à droite pour accéder à **[!UICONTROL Data Collection]**.
@@ -168,7 +182,7 @@ Pour définir le cookie, vous devez saisir un nom de cookie dans le champ **[!UI
 
 Si vous constatez que votre implémentation nécessite que ce cookie `aam_uuid` continue à être défini après la migration vers Web SDK, vous pouvez récupérer l’UUID Audience Manager de deux manières.
 
-1. Chaque réponse du point d’entrée d’interaction [Edge Network](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) contient une payload avec des nœuds `id`. Le nœud `id` de la payload de l’espace de noms `CORE` contient l’UUID Audience Manager.
+1. Chaque réponse du point d’entrée d’interaction [&#128279;](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) contient une payload avec des nœuds `id`. Le nœud `id` de la payload de l’espace de noms `CORE` contient l’UUID Audience Manager.
 
 2. Utilisez la commande [getIdentity](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/getidentity) du SDK Web pour la récupérer. Utilisez l’espace de noms `CORE` comme indiqué dans la documentation et récupérez la valeur du champ `identity.CORE` dans la réponse.
 
@@ -184,7 +198,7 @@ La réponse est non. Vous ne devez pas désactiver ce paramètre pour les raison
 
 1. Lorsque le service Audience Manager est activé sur un flux de données, Edge Network ajoute la variable `cm.ssf` à toutes les requêtes de collecte de données envoyées à Analytics. Cela empêche également l’envoi des données Analytics à Audience Manager. Tous les journaux Assurance utilisés pour valider la migration d’Analytics affichent la variable `cm.ssf=1` lorsque le service Audience Manager est activé sur le flux de données. Pour plus d’informations, consultez la page [Analytics et conformité au RGPD axée sur le transfert côté serveur](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr).
 
-1. Ce paramètre permet également le flux de données pour l’intégration [!DNL Audience Analytics]. Comme indiqué dans la présentation d’[Audience Analytics](https://experienceleague.adobe.com/fr/docs/analytics/integration/audience-analytics/mc-audiences-aam), le transfert côté serveur est requis pour cette intégration, car la réponse d’Audience Manager au serveur de collecte de données Analytics est ajoutée à l’accès Analytics avant traitement. Un processus similaire se produit dans Edge Network. Lorsque le transfert côté serveur est activé, Edge Network ajoute les segments nécessaires de la réponse d’Audience Manager aux données envoyées à Analytics.
+1. Ce paramètre permet également le flux de données pour l’intégration [!DNL Audience Analytics]. Comme indiqué dans la présentation d’[&#128279;](https://experienceleague.adobe.com/fr/docs/analytics/integration/audience-analytics/mc-audiences-aam), le transfert côté serveur est requis pour cette intégration, car la réponse d’Audience Manager au serveur de collecte de données Analytics est ajoutée à l’accès Analytics avant traitement. Un processus similaire se produit dans Edge Network. Lorsque le transfert côté serveur est activé, Edge Network ajoute les segments nécessaires de la réponse d’Audience Manager aux données envoyées à Analytics.
 
 En résumé, il est important que ce paramètre reste activé pour qu’Audience Analytics continue à fonctionner avec une implémentation de Web SDK et qu’aucune donnée ne soit comptabilisée deux fois dans Audience Manager.
 

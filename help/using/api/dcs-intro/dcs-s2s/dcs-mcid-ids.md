@@ -7,9 +7,20 @@ title: Obtention des identifiants de région et d’utilisateur via Adobe Experi
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
-source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
+TQID: https://experienceleague.adobe.com/7UuzQe1yy6pAK8GxBgmcTGqn08gFLWbArbHAr87aXFg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: 613
 ht-degree: 2%
 
 ---
@@ -43,7 +54,7 @@ Le code en *italique* représente un espace réservé de variable.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. Configurez le service <span class="keyword"> ID </span></b> </p> </td> 
-   <td colname="col2"> <p>Le service d’ID de <span class="keyword"></span> se compose d’un code JavaScript qui est placé sur chaque page que vous souhaitez utiliser pour la collecte de données. Pour plus d’informations<a href="https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr" format="https" scope="external"> consultez les guides de mise en œuvre du </a> du service d’ID . </p> </td> 
+   <td colname="col2"> <p>Le service d’ID de <span class="keyword"> se compose d’un code JavaScript qui est placé sur chaque page que vous souhaitez utiliser pour la collecte de données. </span> Pour plus d’informations<a href="https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr" format="https" scope="external"> consultez les guides de mise en œuvre du </a> du service d’ID . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Lisez le cookie <span class="keyword"> service d’ID </span> </b> </p> </td> 

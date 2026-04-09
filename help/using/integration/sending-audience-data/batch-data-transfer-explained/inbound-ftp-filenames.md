@@ -7,9 +7,16 @@ title: Nom FTP et taille de fichier requise pour les fichiers de données entran
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
+TQID: https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: 1105
 ht-degree: 3%
 
 ---
@@ -88,7 +95,7 @@ Le tableau définit les éléments dans un nom de fichier [!DNL FTP].
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compressé : 1 Go </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Comprimé : 200 à 300 Mo </li> 
-    </ul> <p>Consultez les 2 premiers exemples de noms de fichier <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"></a> ci-dessous. </p> </td> 
+    </ul> <p>Consultez les 2 premiers exemples de noms de fichier <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> ci-dessous.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 

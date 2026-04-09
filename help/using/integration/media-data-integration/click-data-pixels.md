@@ -7,9 +7,22 @@ title: Capture des données de clics Campaign via des appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/LzQsKoBZYRyfg8F87yWhT2CB2ojlydELPKRfy4xjXHo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 639
 ht-degree: 6%
 
 ---
@@ -47,7 +60,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers le [!DNL 
 
 ## Macros prises en charge
 
-Les événements Click prennent en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité de code autonome qui s’active lors du chargement de la balise publicitaire pour le suivi de la campagne et des utilisateurs. Les macros sont transmises avec les [!DNL URL] de destination, à condition qu’elles soient marquées avec le format suivant : `%macro%`. Certaines clés ne comportent pas de macros et acceptent plutôt une valeur d’identifiant codée en dur. Les clés qui acceptent des valeurs codées en dur sont requises si vous souhaitez analyser les données dans les [rapports Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Les événements Click prennent en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité de code autonome qui s’active lors du chargement de la balise publicitaire pour le suivi de la campagne et des utilisateurs. Les macros sont transmises avec les [!DNL URL] de destination, à condition qu’elles soient marquées avec le format suivant : `%macro%`. Certaines clés ne comportent pas de macros et acceptent plutôt une valeur d’identifiant codée en dur. Les clés qui acceptent des valeurs codées en dur sont requises si vous souhaitez analyser les données dans les [rapports &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -168,7 +181,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers le [!DNL 
 
 ## Fonctionnalités supplémentaires - [!UICONTROL Audience Optimization Reports]
 
-Vous pouvez utiliser des appels de pixels pour alimenter les [rapports Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
+Vous pouvez utiliser des appels de pixels pour alimenter les [rapports &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
 
 >[!MORELIKETHIS]

@@ -7,9 +7,23 @@ title: DIL Flash
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/E8oHRJTLe4gItbAxv9aI7ltGJ0sn7qda-DDtVWoP2bY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 686
 ht-degree: 2%
 
 ---
@@ -51,7 +65,7 @@ c_flash_dil_intro.xml
 * Bibliothèque de classes [!UICONTROL DIL] (`dil.swc`). Obtenez la bibliothèque de classes [!UICONTROL DIL] auprès de votre contact Partner Solutions.
 
 * JavaScript [!UICONTROL DIL] le code de collecte de données sur la page.
-* [Bibliothèque ActionScript de DIL](../dil/dil-flash.md#flash-dil-actionscript) chargée dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
+* [Bibliothèque ActionScript de &#x200B;](../dil/dil-flash.md#flash-dil-actionscript) chargée dans l&#39;objet Flash à partir duquel vous souhaitez collecter des données.
 * La bibliothèque [!DNL AppMeasurement] Adobe [!DNL AS] (version 3.5.2 ou ultérieure) a chargé l’objet [!DNL Flash] à partir duquel vous souhaitez collecter des données.
 
 **Définir AllowScriptAccess sur `Always` ou`sameDomain`**

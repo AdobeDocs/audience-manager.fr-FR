@@ -7,9 +7,22 @@ title: Liste et paramètres des sources de données
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/DmanqiC6h-sY52uykeAw-LiqTUbx7qfgE2rEwmLtT28
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: 1070
 ht-degree: 0%
 
 ---
@@ -54,14 +67,14 @@ Outre les champs de texte, la section [!UICONTROL Data Source Details] contient 
       <li id="li_4B2C9A7F2A5D49448E6D0A2B354D7EE7"> Identifiant Advertising de l’appareil <b><span class="uicontrol"></span></b> : identifiant de l’appareil mobile. Sélectionnez cette option lorsque la source de données est un appareil mobile ou un appareil compatible avec Internet. </li> 
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> sur l’ensemble des appareils </span></b> : identifiant authentifié fourni par le client. Sélectionnez cette option lorsque vous souhaitez créer : 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
-        <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Une source de données sur plusieurs appareils et créez une règle de fusion de profil <span class="wintitle"></span>. </li> 
+        <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Une source de données sur plusieurs appareils et créez une règle de fusion de profil <span class="wintitle">.</span> </li> 
         <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Source de données qui utilise des liens fournis par un graphique d’appareil tiers intégré à <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Définition de l’ID de <b><span class="uicontrol"></span></b> </p> </td> 
-   <td colname="col2"> <p>Les options Définition de l’ID de <b><span class="uicontrol"></span></b> définissent la relation d’une source de données avec un ID utilisateur (UUID) Audience Manager<span class="keyword"> </span> et les appareils associés liés par un graphique d’appareil tiers intégré à <span class="keyword"> Audience Manager</span>. Les options incluent : </p> <p> 
+   <td colname="col2"> <p>Les options Définition de l’ID de <b><span class="uicontrol"> définissent la relation d’une source de données avec un ID utilisateur (UUID) Audience Manager</span></b> <span class="keyword"> et les appareils associés liés par un graphique d’appareil tiers intégré à </span> Audience Manager<span class="keyword">. </span> Les options incluent : </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> une personne :</span></b> ID utilisé pour définir une seule personne. Cet identifiant peut être mappé à plusieurs identifiants <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> Ménage <b><span class="uicontrol"> : </span></b> identifiant utilisé pour définir un groupe de personnes. Cet identifiant peut être mappé à plusieurs identifiants Audience Manager. </li> 
@@ -142,15 +155,15 @@ Cochez la case **[!UICONTROL Inbound]** lorsque la source de données est conçu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> utiliser comme profil authentifié</span></b> </p> </td> 
-   <td colname="col2"> <p>La source de données entre appareils contient un identifiant authentifié. Un identifiant authentifié est collecté et synchronisé avec un identifiant Audience Manager<span class="keyword"> </span> lors d’un événement d’authentification (par exemple, un utilisateur se connecte sur site, in-app, etc.). L’identifiant authentifié peut être utilisé pour intégrer des données provenant d’autres sources qui stockent cet identifiant. Il peut également être utilisé pour lier plusieurs identifiants d’appareil dans <span class="wintitle"> lien de profil</span>. </p> <p>Cette option expose un champ de texte qui permet de renommer la source de données avec un alias. Si vous utilisez un alias, ce nouveau nom remplace le nom de la source de données et apparaît dans les <span class="wintitle"> Options de profil authentifié</span> lorsque vous <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> créer une règle de fusion de profils</a>. </p> </td> 
+   <td colname="col2"> <p>La source de données entre appareils contient un identifiant authentifié. Un identifiant authentifié est collecté et synchronisé avec un identifiant <span class="keyword"> </span> lors d’un événement d’authentification (par exemple, un utilisateur se connecte sur site, in-app, etc.). L’identifiant authentifié peut être utilisé pour intégrer des données provenant d’autres sources qui stockent cet identifiant. Il peut également être utilisé pour lier plusieurs identifiants d’appareil dans <span class="wintitle"> lien de profil</span>. </p> <p>Cette option expose un champ de texte qui permet de renommer la source de données avec un alias. Si vous utilisez un alias, ce nouveau nom remplace le nom de la source de données et apparaît dans les <span class="wintitle"> Options de profil authentifié</span> lorsque vous <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> créer une règle de fusion de profils</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Utiliser comme graphique d’appareil</span></b> </p> </td> 
-   <td colname="col2"> <p>Crée une source de données sous forme de graphique d’appareil que vous pouvez fournir à d’autres clients <span class="keyword"> Audience Manager</span>. Avant de sélectionner cette option, indiquez à votre consultant <span class="keyword"> Audience Manager</span> avec quels clients ce <span class="wintitle"> Data Source</span> doit être partagé. Votre consultant devra approvisionner ces entreprises par le biais de nos processus internes. </p> <p>Cette option expose un champ de texte qui permet de renommer la source de données avec un alias. Si vous utilisez un alias, ce nouveau nom remplace le nom de la source de données et apparaît dans les Options de l’appareil <span class="wintitle"></span> lorsque vous <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> créer une règle de fusion de profils</a>. </p> </td> 
+   <td colname="col2"> <p>Crée une source de données sous forme de graphique d’appareil que vous pouvez fournir à d’autres clients <span class="keyword"> Audience Manager</span>. Avant de sélectionner cette option, indiquez à votre consultant <span class="keyword"> Audience Manager</span> avec quels clients ce <span class="wintitle"> Data Source</span> doit être partagé. Votre consultant devra approvisionner ces entreprises par le biais de nos processus internes. </p> <p>Cette option expose un champ de texte qui permet de renommer la source de données avec un alias. Si vous utilisez un alias, ce nouveau nom remplace le nom de la source de données et apparaît dans les Options de l’appareil <span class="wintitle"> lorsque vous </span> créer une règle de fusion de profils<a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule">.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Partager les identifiants de visiteur ou d’appareil associés avec des clients Audience Manager spécifiques</span></b> </p> </td> 
-   <td colname="col2"> <p>La source de données entre appareils contient des identifiants provenant d’un graphique d’appareil. Un graphique d’appareil est un ensemble d’identifiants qui correspondent à un ou plusieurs identifiants Audience Manager<span class="keyword"> </span> à un cluster. Ce groupe représente généralement une personne ou un groupe familial plus important. Disponible uniquement pour les comptes répertoriés comme « Fournisseur de données ». </p> </td> 
+   <td colname="col2"> <p>La source de données entre appareils contient des identifiants provenant d’un graphique d’appareil. Un graphique d’appareil est un ensemble d’identifiants qui correspondent à un ou plusieurs identifiants <span class="keyword"> </span> à un cluster. Ce groupe représente généralement une personne ou un groupe familial plus important. Disponible uniquement pour les comptes répertoriés comme « Fournisseur de données ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Partager les ID de visiteur ou d’appareil associés sur la plateforme Audience Manager</span></b> </p> </td> 

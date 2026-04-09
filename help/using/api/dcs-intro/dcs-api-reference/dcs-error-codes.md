@@ -4,9 +4,18 @@ title: Codes d’erreur DCS, messages et exemples
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
+TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: 1519
 ht-degree: 3%
 
 ---
@@ -102,7 +111,7 @@ Dans les tableaux ci-dessous, l’*italique* représente un espace réservé de 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
    <td colname="col2"> <p> Impossible de lire les ID d’appareil à partir du cache de profil pour l’ID de client : <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Renvoyé lorsque l’ID d’appareil <a href="../../../reference/ids-in-aam.md"></a> ne peut pas être récupéré pour une règle de fusion de lien de profil. </p> </td> 
+   <td colname="col3"> <p>Renvoyé lorsque l’ID d’appareil <a href="../../../reference/ids-in-aam.md"> ne peut pas être récupéré pour une règle de fusion de lien de profil.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 

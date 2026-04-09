@@ -7,9 +7,18 @@ title: Glossaire du RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 96%
 
 ---
@@ -22,7 +31,7 @@ Cet article explique les concepts et la terminologie employés par le règlement
 
 Le RGPD est entré en vigueur le 25 mai 2018 et a pour principaux objectifs d’accorder aux citoyens de l’UE (sujets des données) un meilleur contrôle de leurs données personnelles et de simplifier l’environnement réglementaire pour les entreprises internationales en unifiant davantage la réglementation au sein de l’UE. Dans le cadre de la préparation d’Adobe au RGPD, l’équipe d’Adobe Audience Manager a amélioré les services et les processus en fonction des besoins afin de prendre en charge les requêtes d’accès et de suppression provenant des sujets de données (vos clients).
 
-Pour mieux comprendre le fonctionnement du RGPD dans Experience Cloud[&#x200B; consultez également la section &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr) Présentation des réglementations relatives à la confidentialité .
+Pour mieux comprendre le fonctionnement du RGPD dans [&#x200B; consultez également la section &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr) Présentation des réglementations relatives à la confidentialité .
 
 ## Glossaire du RGPD {#gdpr-glossay}
 

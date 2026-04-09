@@ -7,9 +7,16 @@ title: Composants de traitement de données
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: System Components
 exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/pDRgRUAn6HDsZdibVzPS8mDRdyO3Hd7RdQItI-hOw7U
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: 395
 ht-degree: 1%
 
 ---
@@ -38,7 +45,7 @@ Les clients n’ont pas d’accès direct à ces systèmes. Cependant, les clien
 
 ## Snowflake {#snowflake}
 
-[Snowflake](https://www.snowflake.net/) est une base de données cloud volumineuse. Il fournit des données à de nombreux graphiques de tableaux de bord et aux zones de texte associées qui affichent le pourcentage de modification pour chaque élément du graphique. Si vous utilisez [!DNL Audience Manager] et consultez les rapports de tableau de bord, vous interagissez avec les données fournies par [!UICONTROL Snowflake].
+[&#128279;](https://www.snowflake.net/) est une base de données cloud volumineuse. Il fournit des données à de nombreux graphiques de tableaux de bord et aux zones de texte associées qui affichent le pourcentage de modification pour chaque élément du graphique. Si vous utilisez [!DNL Audience Manager] et consultez les rapports de tableau de bord, vous interagissez avec les données fournies par [!UICONTROL Snowflake].
 
 
 

@@ -7,9 +7,26 @@ title: Prise en main des API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
+TQID: https://experienceleague.adobe.com/9-lmPI7-mjYo3AUgFi7L3kB-F0sZsOOVPI7r-sS21Mk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: c2c33729-f309-4bc2-92ba-87c475259df3
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: 2563
 ht-degree: 1%
 
 ---
@@ -61,7 +78,7 @@ Avant de pouvoir configurer l’authentification [!DNL OAuth Server-to-Server], 
 
 Pour configurer l’authentification [!DNL OAuth Server-to-Server] à l’aide de [!DNL Adobe Developer], procédez comme suit :
 
-1. Connectez-vous à [Adobe Developer Console](https://developer.adobe.com/console/home).
+1. Connectez-vous à [&#128279;](https://developer.adobe.com/console/home).
 1. Suivez les étapes du guide d’implémentation des informations d’identification de serveur à serveur [OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
    * Au cours de [Étape 2 : ajouter une API à votre projet à l’aide de l’authentification du compte de service](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), choisissez l’option [!DNL Audience Manager] [!DNL API] .
 1. Testez la connexion en effectuant votre premier appel [!DNL API] en fonction des instructions de l’[étape 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
@@ -72,7 +89,7 @@ Pour configurer l’authentification [!DNL OAuth Server-to-Server] à l’aide d
 
 ### Ajouter l’API Audience Manager à un projet {#add-aam-api-to-project}
 
-Accédez à [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) et connectez-vous avec votre Adobe ID. Suivez ensuite les étapes décrites dans le tutoriel sur la [création d’un projet vide](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) dans la documentation de Adobe Developer Console.
+Accédez à [&#128279;](https://www.adobe.com/go/devs_console_ui) et connectez-vous avec votre Adobe ID. Suivez ensuite les étapes décrites dans le tutoriel sur la [création d’un projet vide](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) dans la documentation de Adobe Developer Console.
 
 Une fois que vous avez créé un projet, sélectionnez **[!UICONTROL Add API]** dans l’écran **[!UICONTROL Project Overview]**.
 
@@ -229,7 +246,7 @@ Avant de pouvoir configurer l’authentification [!DNL JWT], vérifiez que vous 
 
 Pour configurer l’authentification [!DNL JWT (Service Account)] à l’aide de [!DNL Adobe Developer], procédez comme suit :
 
-1. Connectez-vous à [Adobe Developer Console](https://console.adobe.io/).
+1. Connectez-vous à [&#128279;](https://console.adobe.io/).
 1. Suivez les étapes de la section [Connexion au compte de service](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
    * Au cours de [Étape 2 : ajouter une API à votre projet à l’aide de l’authentification du compte de service](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), choisissez l’option [!DNL Audience Manager] [!DNL API] .
 1. Testez la connexion en effectuant votre premier appel [!DNL API] en fonction des instructions de l’[étape 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
@@ -447,7 +464,7 @@ Selon la méthode d’authentification que vous utilisez, vous devez ajuster les
 | Environnement | Nom d’hôte pour l’authentification [!DNL JWT] | Nom d’hôte pour l’authentification [!DNL OAuth] |
 |---|---|---|
 | **Production** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
-| **Beta** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+| **&#x200B;**&#x200B;| `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]
 >

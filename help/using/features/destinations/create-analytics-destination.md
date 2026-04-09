@@ -6,9 +6,20 @@ solution: Audience Manager
 title: Configuration d’une destination Analytics
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: ef8cca16c8c9478f8558c26bf6f3ae95cd72e7ac
+TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: 866
 ht-degree: 4%
 
 ---
@@ -18,13 +29,13 @@ ht-degree: 4%
 ## Exigences {#requirements}
 
 Pour configurer une destination Analytics, l’utilisateur d’Audience Manager doit disposer des autorisations d’administrateur. Voir [Créer des utilisateurs](/help/using/features/administration/administration-overview.md#create-users) dans le Guide d’administration. Notez que disposer de l’autorisation `CREATE_DESTINATIONS` [caractère générique](/help/using/features/administration/administration-overview.md#wild-card-permissions) n’est pas suffisant pour créer des destinations Analytics.
-Pour connaître les autres conditions requises, voir Conditions préalables dans [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).
+Pour connaître les autres conditions requises, voir Conditions préalables dans [&#128279;](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).
 
 ## Votre destination Analytics par défaut et vos nouvelles destinations Analytics
 
 | Type de destination Analytics | Description |
 |---|---|
-| Par défaut | Le nom de cette destination par défaut est « Adobe Analytics », que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos caractéristiques et segments Audience Manager. <br>  Audience Manager crée automatiquement une destination si votre compte possède : <br>  <ul><li>Respectez les exigences décrites dans la documentation d’[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).</li><li>Une [&#x200B; suite de rapports &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) dans Analytics.</li></ul> |
+| Par défaut | Le nom de cette destination par défaut est « Adobe Analytics », que vous pouvez modifier. Les identifiants de suite de rapports mappés apparaissent dans le stockage de dossiers pour vos caractéristiques et segments Audience Manager. <br>  Audience Manager crée automatiquement une destination si votre compte possède : <br>  <ul><li>Respectez les exigences décrites dans la documentation d’[&#128279;](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr).</li><li>Une [&#x200B; suite de rapports &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr) dans Analytics.</li></ul> |
 | Nouveau | Pour créer de nouvelles destinations Analytics, accédez à Données d’audience > Destinations > Créer une nouvelle destination et suivez les étapes de chaque section décrite ci-dessous. |
 
 ## Qualifications des segments Audience Manager dans Adobe Analytics {#segment-qualifications}

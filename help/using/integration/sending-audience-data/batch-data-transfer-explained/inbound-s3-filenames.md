@@ -7,9 +7,16 @@ title: Exigences relatives au nom et à la taille de fichier Amazon S3 pour les 
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
+TQID: https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -106,7 +113,7 @@ Le tableau définit les éléments dans un nom de fichier [!DNL S3].
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compressé : 1 Go </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Comprimé : 200 à 300 Mo </li> 
-    </ul> <p>Consultez les 2 premiers exemples de noms de fichier <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"></a> ci-dessous. </p> </td> 
+    </ul> <p>Consultez les 2 premiers exemples de noms de fichier <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> ci-dessous.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 

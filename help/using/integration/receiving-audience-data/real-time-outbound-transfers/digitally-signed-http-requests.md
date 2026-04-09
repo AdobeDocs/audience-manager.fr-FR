@@ -7,9 +7,18 @@ title: Requêtes HTTP(S) Signées Numériquement
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 520
 ht-degree: 0%
 
 ---
@@ -85,7 +94,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-La RFC pour l’implémentation du hachage [!DNL HMAC] est [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Un site de test : [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (notez que vous devez [convertir](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) le codage hex en base64).
+La RFC pour l’implémentation du hachage [!DNL HMAC] est [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Un site de test : [&#128279;](https://asecuritysite.com/encryption/hmac) (notez que vous devez [convertir](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) le codage hex en base64).
 
 ## Rotation de la clé privée {#rotate-private-key}
 

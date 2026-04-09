@@ -7,9 +7,19 @@ title: Migration du code de l’API Audience Manager
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
 exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/cMjjldcPRN8BEcRD-YEf1eaDwQp78-3Td06Ut6CVfUw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 248
 ht-degree: 4%
 
 ---
@@ -22,7 +32,7 @@ Chez Audience Manager, nous sommes des ingénieurs, des développeurs et des nin
 
 <!-- api-swagger-migration.xml -->
 
-Le site [Documents de l’API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html) est la nouvelle page d’accueil de notre contenu [!DNL API] révisé. Nous essaierons de réécrire et de déplacer quelques ensembles de méthodes [!DNL API] avec chaque version. Cela signifie que vous devrez archiver à la fois le nouvel emplacement et la documentation [API REST](../api/rest-api-main/rest-api-main.md) pour trouver toutes les méthodes disponibles. En fin de compte, tous les [!DNL API] publics seront disponibles sur le site de documents [!DNL Audience Manager] [!DNL API]. Le tableau suivant répertorie les [!DNL API] révisées et migrées.
+Le site [Documents de l’API &#x200B;](https://bank.demdex.com/portal/swagger/index.html) est la nouvelle page d’accueil de notre contenu [!DNL API] révisé. Nous essaierons de réécrire et de déplacer quelques ensembles de méthodes [!DNL API] avec chaque version. Cela signifie que vous devrez archiver à la fois le nouvel emplacement et la documentation [API REST](../api/rest-api-main/rest-api-main.md) pour trouver toutes les méthodes disponibles. En fin de compte, tous les [!DNL API] publics seront disponibles sur le site de documents [!DNL Audience Manager] [!DNL API]. Le tableau suivant répertorie les [!DNL API] révisées et migrées.
 
 <!--
 

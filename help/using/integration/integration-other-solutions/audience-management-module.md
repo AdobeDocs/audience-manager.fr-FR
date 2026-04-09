@@ -8,9 +8,21 @@ title: Mise en œuvre du module de gestion de l’audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+TQID: https://experienceleague.adobe.com/ESsyIKzybXiGpDmxQrLsAHskzlcRizZVRmO761MeBww
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: 457
 ht-degree: 1%
 
 ---
@@ -36,7 +48,7 @@ Il existe deux méthodes pour implémenter le transfert de données de [!DNL Ado
 
 ### Implémentation à l’aide de [!DNL Adobe Experience Platform Tags]
 
-[!DNL Adobe] vous recommande d’utiliser l’extension [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) pour instrumenter les [!DNL Adobe Analytics] et les [!DNL Audience Manager] sur vos propriétés. Dans ce cas, vous n’avez pas besoin de copier manuellement le code. Vous devez plutôt activer le partage de données dans l’extension [!DNL Analytics], comme illustré dans l’image ci-dessous. Consultez également la documentation de l’[extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr#adobe-audience-manager).
+[!DNL Adobe] vous recommande d’utiliser l’extension [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) pour instrumenter les [!DNL Adobe Analytics] et les [!DNL Audience Manager] sur vos propriétés. Dans ce cas, vous n’avez pas besoin de copier manuellement le code. Vous devez plutôt activer le partage de données dans l’extension [!DNL Analytics], comme illustré dans l’image ci-dessous. Consultez également la documentation de l’[extension &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr#adobe-audience-manager).
 
 >[!TIP]
 >
