@@ -7,9 +7,14 @@ title: Présentation et cas d’utilisation
 feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 TQID: https://experienceleague.adobe.com/7c9eNzUQp0XujQJ0xIalHp7Sgn3Aas2o4yM5DPIiY1Y
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 865
@@ -26,7 +31,7 @@ Utilisez [!DNL People-Based Destinations] pour envoyer des segments d’audience
 
 ## Présentation {#overview}
 
-[!DNL People-Based Destinations] vous permet d’appliquer une segmentation sur les données en ligne et hors ligne afin de créer des segments d’audience basés sur des identifiants [ hachés](people-based-destinations-prerequisites.md#hashing-requirements) tels que des adresses e-mail. Ensuite, vous pouvez envoyer ces segments vers des « jardins clos » tels que [!DNL Facebook], où vous pouvez cibler votre audience sur les plateformes sociales. [!DNL People-Based Destinations] peut vous aider à :
+[!DNL People-Based Destinations] vous permet d’appliquer une segmentation sur les données en ligne et hors ligne afin de créer des segments d’audience basés sur des identifiants [&#x200B; hachés](people-based-destinations-prerequisites.md#hashing-requirements) tels que des adresses e-mail. Ensuite, vous pouvez envoyer ces segments vers des « jardins clos » tels que [!DNL Facebook], où vous pouvez cibler votre audience sur les plateformes sociales. [!DNL People-Based Destinations] peut vous aider à :
 
 * Ciblez des audiences hors ligne et en ligne sur des plateformes telles que [!DNL Facebook], en fonction d’adresses e-mail hachées.
 * compléter les fonctionnalités existantes de ciblage des appareils et des cookies d’Audience Manager ;

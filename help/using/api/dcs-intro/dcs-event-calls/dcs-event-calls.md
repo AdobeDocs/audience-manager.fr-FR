@@ -8,10 +8,14 @@ uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 feature: DCS
 exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
 TQID: https://experienceleague.adobe.com/HYo7px3KGsoBVDcJDXZbX0lrbLW2YunUY265BUdGous
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 227
@@ -32,11 +36,11 @@ Cette section contient des informations et des références connexes qui vous mo
 * Mettre en forme les éléments de données dans vos appels.
 * Comprenez les paramètres renvoyés par le [!DNL DCS].
 
-Pour commencer, reportez-vous aux sections ci-dessous. Commencez par [ Envoyer des données au serveur de collecte de données ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Ensuite, passez à [Recevoir des données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Pour commencer, reportez-vous aux sections ci-dessous. Commencez par [&#x200B; Envoyer des données au serveur de collecte de données &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Ensuite, passez à [Recevoir des données du serveur de collecte de données](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 * [Envoyer des données au serveur de collecte de données](dcs-url-send.md)
 * [Recevoir des données du serveur de collecte de données](dcs-url-receive.md)
 
 >[!MORELIKETHIS]
 >
->* [ Référence de l’API DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [&#x200B; Référence de l’API DCS &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

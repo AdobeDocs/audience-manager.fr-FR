@@ -8,7 +8,8 @@ uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: Reference
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
 TQID: https://experienceleague.adobe.com/27NYNoRz6aZJyKYXVxiUNMyj3nJFAwH37DPAQSchvUw
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 155
@@ -40,10 +41,10 @@ Adobe prend en charge la dernière version majeure de ces navigateurs :
 
 * **Mozilla Firefox**
 
-  Obtenez la dernière version de Firefox sur [](https://www.mozilla.com/en-US/firefox).
+  Obtenez la dernière version de Firefox sur [&#128279;](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-  Obtenez la dernière version de Safari sur [](https://www.apple.com/safari/download).
+  Obtenez la dernière version de Safari sur [&#128279;](https://www.apple.com/safari/download).
 
 D’autres navigateurs peuvent fonctionner, mais ne sont pas pris en charge par nos équipes techniques et produit. Si vous rencontrez des problèmes lors de l’utilisation d’[!DNL Audience Manager], assurez-vous d’utiliser un navigateur à jour et pris en charge.

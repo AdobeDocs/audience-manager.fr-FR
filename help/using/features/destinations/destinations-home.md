@@ -7,9 +7,12 @@ title: Gérer les destinations
 feature: Destination Basics
 exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
 TQID: https://experienceleague.adobe.com/vwAk8ULY-tf0B1uvZ68mNtE51TJEa9epePHUJr74w9Y
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 173
@@ -28,7 +31,7 @@ La page de destination [!UICONTROL Destination] répertorie toutes vos destinati
 La page de destination par défaut répertorie vos destinations, en fonction du type. Vous pouvez filtrer les destinations à l’aide des quatre onglets disponibles :
 
 * **Tous** : affiche tous les types de destinations.
-* **** : affiche les destinations qui envoient des données à d’autres solutions Adobe Experience Cloud. Actuellement, la seule option prise en charge est Adobe Analytics. Voir [Configuration d’une destination Analytics](/help/using/features/destinations/create-analytics-destination.md).
+* **&#x200B;**&#x200B;: affiche les destinations qui envoient des données à d’autres solutions Adobe Experience Cloud. Actuellement, la seule option prise en charge est Adobe Analytics. Voir [Configuration d’une destination Analytics](/help/using/features/destinations/create-analytics-destination.md).
 * **Plateformes intégrées** : affiche les destinations basées sur les personnes et les appareils (également appelées destinations de serveur à serveur).
 * **Personnalisé** : affiche les destinations de cookie et d’URL.
 

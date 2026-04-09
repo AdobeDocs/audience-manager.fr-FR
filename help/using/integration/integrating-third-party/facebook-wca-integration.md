@@ -7,9 +7,15 @@ title: Intégration WCA Facebook
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 TQID: https://experienceleague.adobe.com/vHNM6HEpL4efGeanvzjDaNfFPqaGwqy84lnvc21-ufA
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 808
@@ -78,7 +84,7 @@ Exemple de pixel déclenché depuis la page. Cet exemple montre un utilisateur q
 | Paramètre | Description |
 |---------|----------|
 | `id` | Identifiant en pixels [!DNL Facebook], que vous pouvez trouver dans l’interface utilisateur [!DNL Facebook Ad Manager] lors de la création de pixels d’audience. |
-| `ev` | Événement. Il s’agit d’une valeur arbitraire qui apparaîtra dans l’interface utilisateur [!DNL Facebook Ad Manager] une fois que le pixel commencera à se déclencher sur le site. Pour plus d’informations[!UICONTROL Include] reportez-vous à l’élément [ à l’étape ](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) 3. |
+| `ev` | Événement. Il s’agit d’une valeur arbitraire qui apparaîtra dans l’interface utilisateur [!DNL Facebook Ad Manager] une fois que le pixel commencera à se déclencher sur le site. Pour plus d’informations[!UICONTROL Include] reportez-vous à l’élément [&#x200B; à l’étape &#x200B;](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) 3. |
 | `cd[segID]` | Un paramètre supplémentaire, qui commencera à être renseigné dans l’interface utilisateur [!DNL Facebook Ad Manager] une fois que le pixel commencera à se déclencher sur le site. `segID` est également arbitraire. |
 | `%ALIAS%` | Une macro [!DNL Audience Manager], qui sera remplacée dynamiquement par les identifiants de [!DNL Audience Manager] [!UICONTROL segment] pour lesquels le visiteur du site est éligible, délimités par une virgule , |
 
@@ -90,7 +96,7 @@ Enregistrez le [!UICONTROL destination]. Vous pouvez ensuite passer à l’étap
 
 ## Étape 2 - Mappages de segments - Mapper un segment à la destination {#step-2-segment-mappings}
 
-Dans le workflow [ Configurer la destination de l’URL ](/help/using/features/destinations/create-url-destination.md), mappez le segment applicable à votre [!UICONTROL destination] nouvellement créé. Notez que la valeur de mappage est automatiquement renseignée avec le [!DNL Audience Manager] [!UICONTROL segment ID].
+Dans le workflow [&#x200B; Configurer la destination de l’URL &#x200B;](/help/using/features/destinations/create-url-destination.md), mappez le segment applicable à votre [!UICONTROL destination] nouvellement créé. Notez que la valeur de mappage est automatiquement renseignée avec le [!DNL Audience Manager] [!UICONTROL segment ID].
 
 Saisissez une date de fin, le cas échéant, ou laissez le champ vide sans date de fin.
 

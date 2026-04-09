@@ -7,9 +7,12 @@ feature: DCS
 description: Syntaxe d’appel, exemple, et paramètres lors d’appels de l’API DCS serveur à serveur
 exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
 TQID: https://experienceleague.adobe.com/rJ-QjiRGIw2Jc8v0LHDotrWN4VKyZAIcoqEiyjWMknI
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 350
@@ -91,4 +94,4 @@ Un exemple d’appel ressemble à l’exemple suivant.
 
 ## Exemple de réponse {#sample-response}
 
-Voir [ Recevoir des données du serveur de collecte de données ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Voir [&#x200B; Recevoir des données du serveur de collecte de données &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).

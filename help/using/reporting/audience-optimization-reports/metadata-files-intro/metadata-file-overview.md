@@ -8,9 +8,15 @@ uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: Log Files
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
 TQID: https://experienceleague.adobe.com/apsyqkjRH9pOVzNMek0NfnLJ3AjgY9iqY-6l-oOVZkg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 810
@@ -42,7 +48,7 @@ Cependant, un fichier de métadonnées correctement formaté peut lier ce conten
 
 ### Quand avez-vous besoin d’un fichier de métadonnées ?
 
-Tout d’abord, un fichier de métadonnées et tous les paramètres répertoriés ci-dessous sont requis dans un appel d’événement lorsque vous souhaitez utiliser les [rapports ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Tout d’abord, un fichier de métadonnées et tous les paramètres répertoriés ci-dessous sont requis dans un appel d’événement lorsque vous souhaitez utiliser les [rapports &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 Deuxièmement, vous avez besoin d’un fichier de métadonnées si vous envoyez vos propres données à [!DNL Audience Manager] ou si vous souhaitez voir des données dans les rapports d’autres fournisseurs avec lesquels nous ne sommes pas intégrés. Par exemple, [!DNL Audience Manager] dispose d’une intégration avec le [Double-cliquez sur Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) de Google. Grâce à cette relation, [!DNL Audience Manager] pouvez associer des identifiants aux noms et descriptions utilisés par les options de rapport. Sans intégration, nous pouvons toujours ingérer des données, mais les options de rapport afficheront des identifiants numériques au lieu de noms descriptifs.
 
@@ -127,9 +133,9 @@ Dans un nom de fichier :
 
 * Les identifiants de contenu créatif et de campagne représentent une catégorie plutôt qu’un identifiant réel.
 
-![comment un nom de fichier est-il créé ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
+![comment un nom de fichier est-il créé &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-Voir [ Conventions de dénomination pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+Voir [&#x200B; Conventions de dénomination pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Contenu du fichier
 
@@ -141,7 +147,7 @@ Voir [Format de contenu pour les fichiers de métadonnées](../../../reporting/a
 
 ### Diffusion de fichier
 
-Après avoir nommé et ajouté des données à un fichier, vous l’envoyez à un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir [ Méthodes de diffusion des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Après avoir nommé et ajouté des données à un fichier, vous l’envoyez à un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir [&#x200B; Méthodes de diffusion des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >

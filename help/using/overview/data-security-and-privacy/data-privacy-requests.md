@@ -9,10 +9,20 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1324
@@ -41,21 +51,21 @@ Lors de l’envoi de demandes individuelles de confidentialité des données, vo
 
 ## Demandes d’accès aux données {#access-data}
 
-Vous pouvez envoyer des demandes d’accès aux données individuelles par le biais de l’interface utilisateur de [](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Vous pouvez envoyer des demandes d’accès aux données individuelles par le biais de l’interface utilisateur de [&#128279;](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 L’[interface utilisateur de Privacy Service](https://privacyui.cloud.adobe.io/) vous permet de créer de nouvelles requêtes de tâche, soit en utilisant le [!UICONTROL Request Builder] soit en chargeant un fichier [!DNL JSON].
 
-Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
+Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [&#x200B; télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
 
 Nous comprenons votre implication dans le respect des demandes de confidentialité des données pendant la période définie par la loi.
 
 ## Demandes de suppression de données {#delete-data}
 
-Vous pouvez envoyer des demandes de suppression de données par le biais de l’interface utilisateur de [](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Vous pouvez envoyer des demandes de suppression de données par le biais de l’interface utilisateur de [&#128279;](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 L’[interface utilisateur de Privacy Service](https://privacyui.cloud.adobe.io/) vous permet de créer de nouvelles requêtes de tâche, soit en utilisant le [!UICONTROL Request Builder] soit en chargeant un fichier [!DNL JSON].
 
-Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
+Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [&#x200B; télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
 
 Adobe comprend votre implication dans le respect des demandes de confidentialité des données des clients dans les 30 jours. Pour cette raison, [!DNL Adobe] s’engage à traiter votre demande de suppression de données dès que possible.
 
@@ -76,7 +86,7 @@ Reportez-vous à notre [documentation sur la liste des destinations basées sur 
 
 [!DNL Audience Manager] prend en charge les normes du secteur en ce qui concerne la gestion des désinscriptions. Lisez la suite pour obtenir des informations complètes sur les types de désinscription pris en charge par [!DNL Audience Manager].
 
-Bien que les demandes d’accès et de suppression de données soient gérées via [](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), les demandes d’exclusion sont actuellement prises en charge via [!DNL DCS API]. Lisez la suite pour savoir à quoi doivent ressembler les appels de [!DNL API] d’opt-out.
+Bien que les demandes d’accès et de suppression de données soient gérées via [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), les demandes d’exclusion sont actuellement prises en charge via [!DNL DCS API]. Lisez la suite pour savoir à quoi doivent ressembler les appels de [!DNL API] d’opt-out.
 
 ### Demandes d’exclusion globales
 
@@ -132,7 +142,7 @@ Suite à une exclusion au niveau du partenaire avec un appel d’identifiant dé
 * [!UICONTROL Destination] partenaires reçoivent la requête d’annulation de segment pour l’identifiant de [!DNL CRM] et le dernier identifiant d’appareil. La suppression de la segmentation fonctionne pour les destinations en [temps réel](data-privacy-requests.md#aam-partners-with-unsegmentation) et par lots.
 * Aucune donnée historique n’est supprimée.
 
-Lorsqu’[!DNL Audience Manager] reçoit une demande d’exclusion au niveau du partenaire, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d’erreur [ 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), avec le message [!UICONTROL "Encountered opt out tag"], au lieu de l’ID d’utilisateur [!DNL Audience Manager].
+Lorsqu’[!DNL Audience Manager] reçoit une demande d’exclusion au niveau du partenaire, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d’erreur [&#x200B; 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), avec le message [!UICONTROL "Encountered opt out tag"], au lieu de l’ID d’utilisateur [!DNL Audience Manager].
 
 Vous pouvez faire une demande d’exclusion d’identifiant déclaré avec les paires clé-valeur `d_cid` et `d_cid_ic`. Les paramètres hérités comme `d_dpid` et `d_dpuuid` fonctionnent toujours, mais sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../../reference/cid.md). Dans les exemples, le texte en *italique* indique un espace réservé de variable.
 
@@ -184,4 +194,4 @@ Consultez la [liste des destinations basées sur des appareils](/help/using/feat
 
 Étant donné que [!DNL Audience Manager] n’est pas la source des données, la correction des données a un rôle limité dans la [!DNL Audience Manager]. La correction peut signifier que le consommateur a demandé à être exclu d&#39;un [!UICONTROL trait]/[!UICONTROL segment] incorrect ou qualifié selon le [!UICONTROL trait]/[!UICONTROL segment] souhaité.
 
-[!DNL Audience Manager] clients peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils utilisateur et d’envoyer ces informations à [ par le biais de ](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)ingestion de données hors ligne[!DNL Audience Manager]. Veuillez noter que l’utilisateur continuera à être qualifié pour l’[!UICONTROL trait] d’origine et [!UICONTROL segments] s’il répète son comportement.
+[!DNL Audience Manager] clients peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils utilisateur et d’envoyer ces informations à [&#x200B; par le biais de &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)ingestion de données hors ligne[!DNL Audience Manager]. Veuillez noter que l’utilisateur continuera à être qualifié pour l’[!UICONTROL trait] d’origine et [!UICONTROL segments] s’il répète son comportement.

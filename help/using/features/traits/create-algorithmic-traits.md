@@ -8,7 +8,8 @@ uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 exl-id: dc799688-e38b-469b-bc55-507df0d28f43
 TQID: https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 309
@@ -23,7 +24,7 @@ ht-degree: 1%
 Pour créer une caractéristique algorithmique, accédez à [!UICONTROL Traits] et procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Create New Trait]** et sélectionnez **[!UICONTROL Algorithmic]** dans le menu déroulant.
-1. Dans la section [ Informations de base ](../../features/traits/create-onboarded-rule-based-traits.md)
+1. Dans la section [&#x200B; Informations de base &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md)
    * Nommez la caractéristique.
    * Sélectionnez une source de données.
    * Choisissez un dossier de stockage.

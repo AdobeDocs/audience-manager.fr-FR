@@ -8,8 +8,10 @@ uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
 TQID: https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 279
@@ -29,4 +31,4 @@ ht-degree: 4%
 >[!MORELIKETHIS]
 >
 >* [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)
->* [Cookies ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)
+>* [Cookies &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)

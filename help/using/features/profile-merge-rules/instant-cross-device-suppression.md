@@ -7,9 +7,14 @@ uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 778
@@ -65,12 +70,12 @@ Gardez à l’esprit les aspects suivants liés au traitement :
 * Pour que la fonctionnalité d’annulation de segment en temps réel fonctionne, vous devez mapper les segments souhaités aux destinations serveur à serveur en temps réel.
 * Pour les appareils connectés à un appareil par un [graphique d’appareil](profile-link-use-case.md#recommendations), nous appliquons une limite de quatre appareils concernant l’évaluation et la non-segmentation. Cette limitation est décrite dans [Options du graphique de l’appareil et Dissegmentation de l’appareil](merge-rule-unsegment.md#device-graph-options-unsegmentation). &#x200B;
 * La commande unsegment est incluse dans un fichier par lot, qui est envoyé aux destinations toutes les 24 heures, pour plusieurs appareils connectés par le graphique d’appareil.
-* L’appareil doit être affiché en temps réel (dans l’[](../../reference/system-components/components-edge.md) pour inviter à l’évaluation des segments en temps réel. Pour les caractéristiques qui ont un [!UICONTROL time-to-live (TTL)] lorsque le [!DNL TTL] de caractéristique est satisfait, l’appareil sera automatiquement non segmenté dans les 24 heures via le fichier de commandes&#x200B; En savoir plus sur comment [Définir un intervalle d’expiration de caractéristique](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* L’appareil doit être affiché en temps réel (dans l’[&#128279;](../../reference/system-components/components-edge.md) pour inviter à l’évaluation des segments en temps réel. Pour les caractéristiques qui ont un [!UICONTROL time-to-live (TTL)] lorsque le [!DNL TTL] de caractéristique est satisfait, l’appareil sera automatiquement non segmenté dans les 24 heures via le fichier de commandes&#x200B; En savoir plus sur comment [Définir un intervalle d’expiration de caractéristique](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Si vous utilisez l’[!UICONTROL DCS API] pour intégrer en temps réel des caractéristiques basées sur des règles, vous pouvez déclencher l’annulation de segment à l’aide de la logique [!UICONTROL AND NOT]. En savoir plus sur [l’envoi de données à l’API DCS](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). &#x200B;
 
 ## Aspects importants à noter - Calendrier {#timing-notes}
 
 Gardez à l’esprit les aspects suivants liés au minutage :
 
-* Un segment sera stocké sur [](../../reference/system-components/components-edge.md) pendant la même période que le profil d’appareil stocké sur le [!UICONTROL Edge], soit 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la conservation des données, consultez notre [ FAQ sur la conservation des données ](../../faq/faq-privacy.md#data-retention-faq).
+* Un segment sera stocké sur [&#128279;](../../reference/system-components/components-edge.md) pendant la même période que le profil d’appareil stocké sur le [!UICONTROL Edge], soit 14 jours depuis la dernière interaction en temps réel. Pour en savoir plus sur la conservation des données, consultez notre [&#x200B; FAQ sur la conservation des données &#x200B;](../../faq/faq-privacy.md#data-retention-faq).
 * Il faut environ 24 heures pour que l’opération d’annulation de segment se propage dans les régions [!DNL DCS]. Pour en savoir plus sur nos [!DNL DCS] régions [ici](../../reference/system-components/components-data-collection.md) et [ici](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

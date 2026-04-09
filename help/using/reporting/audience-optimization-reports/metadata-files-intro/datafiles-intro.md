@@ -8,9 +8,16 @@ uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 TQID: https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 994
@@ -24,7 +31,7 @@ Un fichier de données contient des données d’impression, de clic ou de conve
 
 ## Présentation {#overview}
 
-Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les [Rapports ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
+Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les [Rapports &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
 
 Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées fait correspondre les informations du fichier de données aux libellés lisibles par l’utilisateur dans les menus de rapport. Pour plus d’informations, consultez [Présentation et mappages des fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -205,4 +212,4 @@ Pour mettre à jour vos données, envoyez un fichier contenant toutes les impres
 
 ## Étapes suivantes {#next-steps}
 
-Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [ Présentation et mappages des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

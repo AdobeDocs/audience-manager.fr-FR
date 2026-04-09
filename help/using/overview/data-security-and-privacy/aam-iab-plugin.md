@@ -7,10 +7,22 @@ title: Module d’Audience Manager pour le TCF de l’IAB
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 TQID: https://experienceleague.adobe.com/1JX2HeN8eco8-A4OGoFZeW6og5naFhSEu5OZsiLQ6uk
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 2173
@@ -68,7 +80,7 @@ Les clients qui effectuent une mise à niveau de leur implémentation [!DNL Audi
 Vous devez remplir les conditions préalables suivantes pour utiliser le module externe Audience Manager pour IAB TCF avec Audience Manager :
 
 1. Vous devez utiliser la version 5 ou ultérieure d’Adobe Experience Platform Identity Service (ECID). [Téléchargez](https://github.com/Adobe-Marketing-Cloud/id-service/releases) notre dernière mise à jour d’ECID.
-2. Vous devez utiliser Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 ou ultérieure, téléchargeable à partir d’[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Consultez la documentation d’Audience Manager pour en savoir plus sur [DIL](../../dil/dil-overview.md). Nous vous recommandons d’utiliser l’extension de balise [](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) pour une implémentation DIL d’Audience Manager plus facile.
+2. Vous devez utiliser Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 ou ultérieure, téléchargeable à partir d’[ici](https://github.com/Adobe-Marketing-Cloud/dil/releases). Consultez la documentation d’Audience Manager pour en savoir plus sur [DIL](../../dil/dil-overview.md). Nous vous recommandons d’utiliser l’extension de balise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) pour une implémentation DIL d’Audience Manager plus facile.
 3. Si vous utilisez [!DNL Server-Side Forwarding] (SSF) pour importer des données dans Audience Manager, vous devez également effectuer une mise à niveau vers la dernière version d’AppMeasurement. Téléchargez AppMeasurement à l’aide du [gestionnaire de code d’Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 4. Vous devez utiliser une plateforme de gestion du consentement (CMP), commerciale ou personnelle, intégrée à IAB TCF v2.2 et enregistrée auprès de IAB TCF. Consultez la liste des [CMP enregistrées dans le framework de l’IAB](https://iabeurope.eu/cmp-list/).
 

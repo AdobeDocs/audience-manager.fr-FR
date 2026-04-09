@@ -8,10 +8,16 @@ title: Destinations de serveur à serveur Adobe Audience Manager
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 TQID: https://experienceleague.adobe.com/Ls7fYjqEk0Y3jJapjRYNVGpClGcwK4VcAs48f6SB6w0
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1268
@@ -21,7 +27,7 @@ ht-degree: 46%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Cette page inclut uniquement les [!DNL Audience Manager] actuelles [destinations basées sur des appareils](/help/using/features/destinations/add-device-based-destinations.md). En [!DNL Audience Manager], les [!UICONTROL device-based destinations] sont également appelés [!UICONTROL server-to-server destinations]. Pour plus d’informations sur une intégration, reportez-vous à sa liste [](https://exchange.adobe.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant [!DNL Adobe] ou l’assistance clientèle.
+Cette page inclut uniquement les [!DNL Audience Manager] actuelles [destinations basées sur des appareils](/help/using/features/destinations/add-device-based-destinations.md). En [!DNL Audience Manager], les [!UICONTROL device-based destinations] sont également appelés [!UICONTROL server-to-server destinations]. Pour plus d’informations sur une intégration, reportez-vous à sa liste [&#128279;](https://exchange.adobe.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant [!DNL Adobe] ou l’assistance clientèle.
 
 
 * **Dernière mise à jour** = affiche la dernière date à laquelle une mise à jour a été effectuée pour ce [!UICONTROL device-based destination].

@@ -8,8 +8,10 @@ uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 TQID: https://experienceleague.adobe.com/1Qy0rVUYVwTXoLQjFbSDgkay6IpsHwHl0TTM-FHQtUY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 400
@@ -128,4 +130,4 @@ Un rapport de facturation contient les informations suivantes.
 >
 >* [Facturation et affectation des impressions pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Facturation et affectation d’impressions pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Comment signaler l’utilisation de CPM ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Comment signaler l’utilisation de CPM &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

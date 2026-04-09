@@ -8,8 +8,11 @@ uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 264
@@ -23,7 +26,7 @@ ht-degree: 1%
 >
 >Google a mis à jour les fonctionnalités de [!DNL Google Chrome] et de tous les navigateurs basés sur des [!DNL Chromium] afin de minimiser les informations collectées via l’en-tête `User-Agent`.
 >Depuis mars 2023, Audience Manager prend en charge ces mises à jour en exploitant [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Pour continuer à utiliser les informations sur les caractéristiques fournies via l’en-tête `User-Agent`, vous devez utiliser [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) et activer [User-Agent Client Hints à entropie élevée](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
->Ces mises à jour ne sont pas prises en charge par [](../../../using/dil/dil-overview.md), de sorte que les clients Audience Manager qui utilisent [!DNL DIL] ne pourront pas collecter d’informations sur les caractéristiques via l’en-tête `User-Agent`.
+>Ces mises à jour ne sont pas prises en charge par [&#128279;](../../../using/dil/dil-overview.md), de sorte que les clients Audience Manager qui utilisent [!DNL DIL] ne pourront pas collecter d’informations sur les caractéristiques via l’en-tête `User-Agent`.
 
 Décrit les paires clé-valeur courantes au niveau de la plateforme que vous pouvez utiliser pour cibler les utilisateurs avec des variables liées à l’appareil dans toutes les propriétés de votre compte Audience Manager.
 

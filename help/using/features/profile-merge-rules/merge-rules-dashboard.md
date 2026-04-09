@@ -8,9 +8,12 @@ uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge
 exl-id: c6fcbe47-3010-4b7c-a70e-205bf69b4c54
 TQID: https://experienceleague.adobe.com/eP9efUkVIv-PfBvsoTLD2DZyjHhLfhcF8Waji9nWzXo
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 200
@@ -32,7 +35,7 @@ Lorsque vous utilisez des [!UICONTROL Profile Merge Rules], vous pouvez :
 
 * Créez un maximum de 4 [!UICONTROL Profile Merge Rules] à partir de vos sources de données inter-appareils. Voir [Création d’une Source de données entre appareils](merge-rules-start.md#create-data-source).
 * Désignez une règle de fusion par défaut. Le [créateur de segments](../segments/segment-builder.md) applique automatiquement la règle par défaut à tous les nouveaux segments que vous créez.
-* Appliquez [ Contrôles d’exportation de données ](../data-export-controls.md) à une règle de fusion. [!UICONTROL Data Export Controls] vous empêchent d’envoyer des données vers des destinations lorsque cela enfreint la confidentialité des données ou les accords d’utilisation.
+* Appliquez [&#x200B; Contrôles d’exportation de données &#x200B;](../data-export-controls.md) à une règle de fusion. [!UICONTROL Data Export Controls] vous empêchent d’envoyer des données vers des destinations lorsque cela enfreint la confidentialité des données ou les accords d’utilisation.
 * Effectuez le suivi du nombre moyen d’appareils pour chaque utilisateur.
 * Utiliser des commandes de base pour créer, modifier et supprimer des règles. Seuls les administrateurs peuvent gérer les règles, mais d’autres utilisateurs peuvent les afficher et les appliquer aux segments. Voir [Options de règle de fusion de profil définies](merge-rule-definitions.md) et [Cas d’utilisation des règles de fusion](merge-rule-targeting-options.md).
 

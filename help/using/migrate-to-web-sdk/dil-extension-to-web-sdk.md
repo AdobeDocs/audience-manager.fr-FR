@@ -3,9 +3,14 @@ title: Migration de l’extension de balise Audience Manager vers l’extension 
 description: Découvrez les étapes à suivre pour mettre à jour votre bibliothèque de collecte de données pour Audience Manager de l’extension de balise Audience Manager à l’extension de balise Web SDK
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
 TQID: https://experienceleague.adobe.com/onqgwnCIZMdiZz6nGRWy7bpbXpMF1zizqyQOQjSkGTc
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1309
@@ -140,7 +145,7 @@ La publication des règles mises à jour suit le même workflow que toute autre 
 1. Testez les modifications apportées à votre environnement de développement pour vous assurer que toutes les règles se déclenchent correctement et que l’objet de données est renseigné avec les valeurs attendues.
 1. Une fois prête, envoyez la bibliothèque pour approbation, créez-la vers l’évaluation, puis approuvez-la et publiez-la en production.
 
-   ![ Flux de publication ](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; Flux de publication &#x200B;](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

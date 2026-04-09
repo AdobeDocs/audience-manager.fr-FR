@@ -8,10 +8,19 @@ uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
 TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 981
@@ -75,7 +84,7 @@ Pour créer un [!UICONTROL Segment Test Group] :
    * Faites glisser et déposez des segments vers les destinations.
    * Après avoir déposé un segment dans une destination , remplissez le **[!UICONTROL Destination Mapping Value]** à l’aveugle.
    * Vous pouvez envoyer le même segment de test à plusieurs destinations et vous pouvez ajouter plusieurs segments de test à une seule destination.
-   * Les destinations sont grisées si elles ne sont pas disponibles pour un certain segment de test en fonction des [ Contrôles d’exportation de données ](../../features/data-export-controls.md).
+   * Les destinations sont grisées si elles ne sont pas disponibles pour un certain segment de test en fonction des [&#x200B; Contrôles d’exportation de données &#x200B;](../../features/data-export-controls.md).
    * Les utilisateurs verront uniquement les destinations auxquelles ils ont accès en fonction du [Groupe d’utilisateurs RBAC](../../features/administration/administration-overview.md) auquel ils appartiennent.
    * Enfin, vous devez sélectionner une date de début pour votre groupe de test. Cette date marque le début de la période au cours de laquelle votre groupe de test sera publié vers les destinations. Sélectionnez **Aucune date de fin** pour une comparaison indéfinie des segments de test.
 

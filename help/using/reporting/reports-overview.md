@@ -6,10 +6,19 @@ title: Présentation des rapports
 feature: Reporting Reference
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 TQID: https://experienceleague.adobe.com/tnU9bKkBepv2gtzU-Am1NatIO0-lec0QnceHsTn-Ahg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: ec0be1ae-7ea9-4f62-869a-963a97d2edc1id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 386
@@ -21,7 +30,7 @@ ht-degree: 0%
 
 Les sections individuelles décrivent les rapports disponibles, leurs objectifs et leurs utilisations standard. Tous les rapports sont disponibles à partir du tableau de bord [!UICONTROL Analytics].
 
-Pour plus d’informations sur les délais de réception des informations par Audience Manager afin de renseigner les rapports, voir [Comment les délais de diffusion des données et de traitement des fichiers affectent-ils les rapports ](/help/using/reference/reporting-file-transfer-timeframe.md).
+Pour plus d’informations sur les délais de réception des informations par Audience Manager afin de renseigner les rapports, voir [Comment les délais de diffusion des données et de traitement des fichiers affectent-ils les rapports &#x200B;](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Rapports Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
