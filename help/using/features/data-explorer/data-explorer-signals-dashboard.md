@@ -46,4 +46,4 @@ Les recherches enregistrées affichent les 50 premiers résultats pour les crit�
 
 Regardez la vidéo ci-dessous pour savoir comment utiliser le [!UICONTROL Signals Dashboard].
 
->[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/327521?captions=fre_fr)

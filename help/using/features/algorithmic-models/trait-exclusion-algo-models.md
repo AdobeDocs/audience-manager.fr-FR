@@ -59,11 +59,11 @@ Utilisez le workflow [Créer un modèle](../../features/algorithmic-models/creat
 
 Si vous préférez des tutoriels vidéo, regardez notre démonstration vidéo pour l’exclusion des caractéristiques :
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38132/?captions=fre_fr&quality=12)
 
 De plus, regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures sur l’ensemble des appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36727/?captions=fre_fr&quality=12)
 
 ## Aspects importants et limites {#important-aspects-and-limitations}
 
@@ -106,7 +106,7 @@ Veuillez prendre note des aspects et limites suivants liés à [!UICONTROL Trait
 
 Regardez la vidéo ci-dessous pour savoir comment et pourquoi exclure des caractéristiques spécifiques d’un [!UICONTROL Look-Alike Model].
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/)
+>[!VIDEO](https://video.tv.adobe.com/v/38132?captions=fre_fr)
 
 ## Liens connexes
 
