@@ -8,21 +8,14 @@ uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
 TQID: https://experienceleague.adobe.com/7rX24xDAh7PEcN29jLv-b1z0EhSp2Ku5-KlVoBVi4CA
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 724
-ht-degree: 1%
+source-wordcount: 729
+ht-degree: 2%
 
 ---
 
@@ -44,44 +37,44 @@ Dans le [!UICONTROL Marketplace], les outils de création de rapports vous perme
 
 >[!TIP]
 >
->Utilisez l’outil de recherche d’audiences **[&#128279;](https://www.adobe-audience-finder.com/)** pour trouver des flux de données de haute qualité auxquels vous pouvez vous abonner. Ensuite, revenez à l’interface utilisateur [!DNL Audience Manager] ou utilisez [l’API Audience Marketplace Buyer](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) pour vous abonner aux flux trouvés.
+>Utilisez l’outil de recherche d’audiences **[Adobe](https://www.adobe-audience-finder.com/)** pour trouver des flux de données de haute qualité auxquels vous pouvez vous abonner. Ensuite, revenez à l’interface utilisateur [!DNL Audience Manager] ou utilisez [l’API Audience Marketplace Buyer](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) pour vous abonner aux flux trouvés.
 
 ![présentation-marketplace-acheteur](assets/buyer-marketplace-overview.png)
 
 La liste [!UICONTROL Marketplace] contient des informations que vous pouvez trier et rechercher pour trouver le flux de données qui vous convient. Les objets figurant sur la liste d&#39;achat [!UICONTROL Marketplace] sont les suivants :
 
-* **[!UICONTROL Search]** : rechercher des flux de données par nom ou description textuelle.
-* **[!UICONTROL Similar Traits]** : affiche le nombre de [!UICONTROL traits] similaires d’un flux de données. Cette colonne s’affiche après avoir saisi un [!UICONTROL trait] ou un [!UICONTROL segment] à utiliser comme filtre dans la section **[!UICONTROL Similarity To]**.
+* **[!UICONTROL Search]**: Find data feeds by name or text description.
+* **[!UICONTROL Similar Traits]** : affiche le nombre de [!UICONTROL traits] similaires d’un flux de données. This column is shown after you enter a [!UICONTROL trait] or [!UICONTROL segment] to filter by in the **[!UICONTROL Similarity To]** section.
 * **[!UICONTROL Name]** : nom du flux de données.
 * **[!UICONTROL Description]** : informations sur le contenu d’un flux de données.
-* **[!UICONTROL Provider]** : nom du fournisseur de données.
-* **[!UICONTROL Traits]** : nombre de [!UICONTROL traits] dans un flux de données.
-* **[!UICONTROL 30 Day Provider Unique Users]** : nombre d’utilisateurs uniques vus au cours des 30 derniers jours.
-* **[!UICONTROL 30 Day Overlapped Uniques]** : nombre d’utilisateurs de votre compte qui se chevauchent avec les utilisateurs du compte du fournisseur.
-* **[!UICONTROL Feed Overlap]** : valeur uniques de 30 jours avec chevauchement, affichée en pourcentages, calculée comme suit : acheteur de données 30 jours avec chevauchement uniques / acheteur de données 30 jours uniques) x 100.
-* **[!UICONTROL Private Feeds]** : Voir [Flux de données privés](../../../features/audience-marketplace/marketplace-private-feeds.md).
-* **[!UICONTROL Currently Subscribed Plan Count]** : nombre d’abonnements dont vous disposez auprès d’un fournisseur de données.
+* **[!UICONTROL Provider]**: Name of the data provider.
+* **[!UICONTROL Traits]**: The number of [!UICONTROL traits] in a data feed.
+* **[!UICONTROL 30 Day Provider Unique Users]**: The number of unique users seen in the last 30 days.
+* **[!UICONTROL 30 Day Overlapped Uniques]**: The number of users in your account that overlap with the users in the provider’s account.
+* **[!UICONTROL Feed Overlap]**: The 30 day overlapped uniques value, displayed in percentages, calculated as: Data buyer 30 day overlapped uniques / Data buyer 30 day uniques) x 100.
+* **[!UICONTROL Private Feeds]**: See [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
+* **[!UICONTROL Currently Subscribed Plan Count]**: The number of subscriptions you have with a data provider.
 
  
 
-Pour trouver facilement les flux de données qui répondent le mieux à vos besoins, utilisez les filtres suivants disponibles sur le côté gauche de la page [!UICONTROL Marketplace] :
+To easily find the best data feeds for your needs, use the following filters available on the left side of the [!UICONTROL Marketplace] page:
 
-* **[!UICONTROL Similarity To]** : filtrez les flux de données en fonction de leur similarité avec un [!UICONTROL trait] ou un [!UICONTROL segment] de votre choix. Lors de la saisie du [!UICONTROL trait] ou du segment auquel effectuer la comparaison, vous pouvez utiliser l’ID de [!UICONTROL trait] ou de [!UICONTROL segment], ou leurs noms respectifs.
-* **[!UICONTROL Similarity Cutoff]** : faites glisser le curseur pour filtrer les flux de données en fonction de la similitude de leurs [!UICONTROL traits] avec les [!UICONTROL trait] ou [!UICONTROL segment] sélectionnés. Pour en savoir plus sur [!UICONTROL trait] scores de similarité, voir [&#x200B; Score de similarité de caractéristique &#x200B;](../../segments/trait-recommendations.md#trait-similarity-score)
-* **[!UICONTROL Subscription Status]** : filtrez les flux de données en fonction du statut de votre abonnement.
-* **[!UICONTROL Plan Use Case]** : filtrez les flux de données en fonction de leurs cas d’utilisation pris en charge : **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** et **[!UICONTROL Modelling]**.
-* **[!UICONTROL Plan Unit]** : filtrez les flux de données en fonction de leur type de tarification.
+* **[!UICONTROL Similarity To]**: Filter data feeds based on their similarity to either a [!UICONTROL trait] or [!UICONTROL segment] of your choosing. When entering the [!UICONTROL trait] or segment to compare to, you can use the [!UICONTROL trait] or [!UICONTROL segment] ID, or their respective names.
+* **[!UICONTROL Similarity Cutoff]**: Drag the slider to filter the data feeds based on how similar their [!UICONTROL traits] are to your selected [!UICONTROL trait] or [!UICONTROL segment].
+* **[!UICONTROL Subscription Status]**: Filter the data feeds based on your subscription status.
+* **[!UICONTROL Plan Use Case]**: Filter data feeds based on their supported use cases: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]**, and **[!UICONTROL Modelling]**.
+* **[!UICONTROL Plan Unit]**: Filter data feeds based on their pricing type.
 
-## Recherche de [!UICONTROL Traits] similaires {#finding-similar-traits}
+## Finding Similar [!UICONTROL Traits] {#finding-similar-traits}
 
-[!UICONTROL Audience Marketplace] vous donne la possibilité de rechercher des [!UICONTROL traits] à partir de divers flux de données, en fonction de leur similitude avec vos [!UICONTROL traits] ou segments existants. Procédez comme suit :
+[!UICONTROL Audience Marketplace] gives you the option to find [!UICONTROL traits] from various data feeds, based on their similarity to your existing [!UICONTROL traits] or segments. Procédez comme suit :
 
-1. Accédez à **[!UICONTROL Audience Marketplace]** > **[!UICONTROL Marketplace]**.
-2. Utilisez le sélecteur de **[!UICONTROL Similarity To]** pour choisir entre le filtrage basé sur un [!UICONTROL trait] ou un [!UICONTROL segment]. Vous pouvez filtrer par identifiant ou nom de [!UICONTROL trait]/[!UICONTROL segment]. La zone de recherche affiche automatiquement les suggestions pertinentes en fonction de vos entrées.
-3. Une fois que vous avez identifié la caractéristique ou le segment selon lequel vous souhaitez filtrer, cliquez dessus dans la liste de suggestions.
-4. Pour réduire les résultats, utilisez le curseur **[!UICONTROL Similarity Cutoff]** pour passer de [!UICONTROL traits] moins similaires à des plus similaires.
+1. Go to **[!UICONTROL Audience Marketplace]** > **[!UICONTROL Marketplace]**.
+2. Use the **[!UICONTROL Similarity To]** selector to choose between filtering based on a [!UICONTROL trait] or [!UICONTROL segment]. You can filter based on [!UICONTROL trait]/[!UICONTROL segment] ID or name. The search box automatically shows you relevant suggestions based on your input.
+3. Once you&#39;ve identified the trait or segment that you want to filter by, click it in the suggestions list.
+4. To narrow down the results, use the **[!UICONTROL Similarity Cutoff]** slider to move from less similar [!UICONTROL traits], to more similar ones.
 
-Une fois le filtrage terminé, une nouvelle colonne s&#39;affiche dans la page de résultats : **[!UICONTROL Similar Traits]**. Cette colonne indique le nombre de [!UICONTROL traits] similaires à celui que vous avez filtré, pour chaque flux de données qui répond aux critères de filtrage.
+Once the filtering is complete, you&#39;ll see a new column in the results page: **[!UICONTROL Similar Traits]**. This column shows you the number of similar [!UICONTROL traits] to the one you filtered by, from each data feed that meets the filtering criteria.
 
 Pour afficher la liste complète des caractéristiques similaires, cliquez sur le nombre dans la colonne **[!UICONTROL Similar Traits]** .
 

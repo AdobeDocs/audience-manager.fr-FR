@@ -8,17 +8,13 @@ uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
 TQID: https://experienceleague.adobe.com/qljY6sjowD33EDtW0sVdwDm6iFSev1ElC8ZoJQrya9c
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 1048
-ht-degree: 2%
+source-wordcount: 1028
+ht-degree: 1%
 
 ---
 
@@ -53,7 +49,6 @@ Commencez par regarder la [vidéo Créer des segments dans Audience Manager](htt
    * Recherchez le [!UICONTROL trait] à ajouter à un segment et cliquez sur **[!UICONTROL Add Trait]**. Ajoutez un autre [!UICONTROL trait] pour créer un groupe de [!UICONTROL trait].
    * Pour afficher la boîte de dialogue modale [!UICONTROL Advanced Search], cliquez sur **[!UICONTROL Browse All Traits]**. Recherchez des [!UICONTROL traits] par nom, ID, description ou [!UICONTROL data source]. Cliquez sur un dossier lors de la recherche pour limiter les résultats à ce dossier et à ses sous-dossiers. Vous pouvez également filtrer les [!UICONTROL traits] par [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] et [!UICONTROL Algorithmic]) ou type de population ([ID d’appareil](../../reference/ids-in-aam.md) et [ID sur l’ensemble des appareils](../../reference/ids-in-aam.md)).
      ![caractéristiques du navigateur du créateur de segments](assets/segment-builder-browse-traits.png)
-   * Obtenez des [recommandations de caractéristiques](trait-recommendations.md) en direct lors de la création de votre [!UICONTROL segment].
    * Cliquez et faites glisser [!UICONTROL traits] pour créer des groupes distincts.
    * Passez la souris entre les groupes pour définir les relations avec les valeurs booléennes [!UICONTROL AND], [!UICONTROL OR] et [!UICONTROL AND NOT].
    * Pointez sur l’icône d’horloge pour ajouter des règles [récence et fréquence](../../features/segments/recency-and-frequency.md) à la [!UICONTROL trait].
@@ -66,7 +61,7 @@ Commencez par regarder la [vidéo Créer des segments dans Audience Manager](htt
 
 Regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures inter-appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/36727?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## Contrôles [!UICONTROL Segment Builder] : section [!UICONTROL Basic Information] {#segment-builder-controls-basics}
 
@@ -140,8 +135,6 @@ Dans [!UICONTROL Segment Builder], la section [!UICONTROL Traits] vous permet de
 | **[!UICONTROL Basic View]** | Cette section propose des commandes visuelles qui vous permettent d’effectuer les opérations suivantes : <ul><li>Créez de nouveaux [!UICONTROL segments] et gérez les existants.</li><li>Supprimez le [!UICONTROL traits] d’un [!UICONTROL segment].</li><li>Ajoutez jusqu’à 50 [!UICONTROL traits] (maximum) à un [!UICONTROL segment].</li><li>Effectuez un glisser-déposer des [!UICONTROL traits] pour créer des groupes.</li><li>Affichez les groupes de [!UICONTROL traits] et de [!UICONTROL trait] dans un [!UICONTROL segment].</li><li>Définissez des critères de qualification avec des expressions booléennes, des opérateurs de comparaison et des paramètres de récence/fréquence.</li></ul> |
 | **[!UICONTROL Code View]** | Ouvre un environnement de développement qui vous permet de créer et de gérer des [!UICONTROL traits], des groupes et des exigences de qualification avec du code au lieu de l’interface visuelle. L’affichage du code est utile si votre [!UICONTROL segments] : <ul><li>Contiennent plus de 50 [!UICONTROL traits] par [!UICONTROL segment]. Remarque : les [!UICONTROL Segments] sont limitées à 5 000 [!UICONTROL traits] (maximum).</li><li>Contiennent de nombreux groupes de [!UICONTROL trait].</li><li>avoir des exigences de qualification complexes ;</li></ul> |
 | Outils | Permet de trouver des [!UICONTROL traits] à ajouter à une [!UICONTROL segment]. |
-| Recommandations | Obtenez des recommandations en direct pour des [!UICONTROL traits] similaires, à partir de vos flux de données [!UICONTROL traits] et [!UICONTROL Audience Marketplace] auxquels vous êtes abonné. Ajoutez ces recommandations à la règle de [!UICONTROL segment] pour étendre votre audience. En savoir plus dans [Trait Recommendations](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Obtenez des recommandations en direct pour des [!UICONTROL traits] similaires, à partir de flux de données [!UICONTROL Audience Marketplace] auxquels vous n’êtes pas abonné. En savoir plus dans [Trait Recommendations](trait-recommendations.md). |
 | Données de taille de [!UICONTROL Segment] réelle et estimée | Voir [Données sur la population de segments et de caractéristiques dans le créateur de segments](segment-builder-data.md). |
 
 ## Supprimer le [!UICONTROL Traits] d’un [!UICONTROL Segment] {#remove-traits}

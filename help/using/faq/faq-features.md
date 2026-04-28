@@ -1,6 +1,6 @@
 ---
 description: Questions et problèmes courants associés aux produits et aux fonctions.
-keywords: cookies audience manager
+keywords: audience manager cookies
 seo-description: Common product and function-related questions and issues.
 seo-title: Product Features and Functions FAQ
 solution: Audience Manager
@@ -9,23 +9,14 @@ uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 TQID: https://experienceleague.adobe.com/gsJ4qXlNDpfWmTq0jjmtjfUWI60yRr7uBTxZjsF-pQE
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 87%
+source-wordcount: 428
+ht-degree: 75%
 
 ---
 
@@ -47,7 +38,7 @@ L’*`Organization ID`* est un identifiant unique qui identifie votre organisati
 
 Par exemple, un *`Organization ID`* ressemble à ceci : `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-L’*`Organization ID`* est utilisé par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), et d’autres solutions [!DNL Experience Cloud]. Les utilisateurs possédant des autorisations d’administrateur peuvent trouver l’*`Organization ID`* dans [!DNL Adobe Admin Console]. Voir la [FAQ Administration - Gestion des utilisateurs](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+L’*`Organization ID`* est utilisé par l’API [DIL](../dil/dil-overview.md) d’Audience Manager, [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), et d’autres solutions [!DNL Experience Cloud]. Les utilisateurs possédant des autorisations d’administrateur peuvent trouver l’*`Organization ID`* dans [!DNL Adobe Admin Console]. Voir la [FAQ Administration - Gestion des utilisateurs](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -61,9 +52,9 @@ Oui. Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Lors de l’exportation d’un ID en bloc vers une destination , certains ID de client sont manquants. Pourquoi cela arrive-t-il ?**
+**When performing a bulk ID export to a destination, some of the customer IDs are missing. Why does that happen?**
 
-Lorsqu’un ID d’appareil ([UUID &#x200B;](../reference/ids-in-aam.md)) est lié à plusieurs ID de CRM ([DPUUID](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi vous pourriez voir un nombre d’identifiants d’appareil exportés inférieur à celui prévu.
+When a device ID ([AAM UUID](../reference/ids-in-aam.md)) is linked to multiple CRM IDs ([DPUUIDs](../reference/ids-in-aam.md)), only the latest mapping gets exported. This is why you may see a lower than expected number of device IDs being exported.
 
  
 
@@ -81,32 +72,10 @@ Votre flux de données et toutes les caractéristiques contenues dans les flux a
 
 **Qu’est-ce que [!UICONTROL Tag Insertion Manager (TIM)] ?**
 
-Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. Cette fonction est obsolète et a été remplacée par [!UICONTROL Dynamic Tag Manager (DTM)], puis par [!DNL Adobe Experience Platform Tags]. Pour plus d&#39;informations, voir [Balises &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
-
- 
-
-**Quelles sont les différences entre les modèles algorithmiques et les recommandations de caractéristiques ? Quand dois-je utiliser chacun d’eux ?**
-
-**Modèles algorithmiques**
-
-Les modèles algorithmiques trouvent non seulement les caractéristiques les plus influentes, mais ils notent aussi les utilisateurs en fonction de ces caractéristiques et attribuent une note individuelle à chaque utilisateur. Vous créez ensuite des caractéristiques algorithmiques pour cibler vos utilisateurs. Grâce aux contrôles de précision et de portée dans le générateur de caractéristiques, vous pouvez préciser les utilisateurs parmi ceux qui ont les caractéristiques les plus influentes que vous souhaitez cibler.
-
-Les modèles algorithmiques vous permettent de sélectionner les utilisateurs à différents niveaux de précision et de tester dans Audience Lab les groupes d’utilisateurs qui se convertissent le mieux. Consultez les cas d’utilisation détaillés dans [Comparaison des modèles dans Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
-
-Dans les modèles algorithmiques, le modèle s’exécute tous les 8 jours et actualise les utilisateurs éligibles aux caractéristiques algorithmiques.
-
-**Recommandations de caractéristiques**
-
-Les recommandations de caractéristiques sont un moyen rapide d’obtenir des insights sur d’autres caractéristiques qui sont similaires à celles que vous utilisez dans un segment.
-
-Vous devez utiliser les recommandations de caractéristiques lorsque :
-
-* vous avez besoin d’insights rapides en créant un segment ;
-* vous utilisez les segments pour des campagnes courtes ou vous souhaitez supprimer rapidement des audiences qui se convertissent ;
-* vous essayez de maximiser votre portée.
+Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. Cette fonction est obsolète et a été remplacée par [!UICONTROL Dynamic Tag Manager (DTM)], puis par [!DNL Adobe Experience Platform Tags]. For more information, see [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 
 **Y a-t-il une différence entre les segments Adobe Analytics et Audience Manager ?**
 
-Oui, veuillez lire [Présentation des segments dans Analytics et Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=fr) pour une description approfondie des différences.
+Oui, veuillez lire [Présentation des segments dans Analytics et Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) pour une description approfondie des différences.
