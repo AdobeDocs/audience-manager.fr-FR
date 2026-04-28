@@ -1,6 +1,6 @@
 ---
 description: Questions et problèmes courants associés aux produits et aux fonctions.
-keywords: cookies audience manager
+keywords: audience manager cookies
 seo-description: Common product and function-related questions and issues.
 seo-title: Product Features and Functions FAQ
 solution: Audience Manager
@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 87%
+source-wordcount: 428
+ht-degree: 75%
 
 ---
 
@@ -61,9 +61,9 @@ Oui. Voir [Outils de gestion en bloc](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Lors de l’exportation d’un ID en bloc vers une destination , certains ID de client sont manquants. Pourquoi cela arrive-t-il ?**
+**When performing a bulk ID export to a destination, some of the customer IDs are missing. Why does that happen?**
 
-Lorsqu’un ID d’appareil ([UUID &#x200B;](../reference/ids-in-aam.md)) est lié à plusieurs ID de CRM ([DPUUID](../reference/ids-in-aam.md)), seul le dernier mappage est exporté. C’est pourquoi vous pourriez voir un nombre d’identifiants d’appareil exportés inférieur à celui prévu.
+When a device ID ([AAM UUID](../reference/ids-in-aam.md)) is linked to multiple CRM IDs ([DPUUIDs](../reference/ids-in-aam.md)), only the latest mapping gets exported. This is why you may see a lower than expected number of device IDs being exported.
 
  
 
@@ -81,29 +81,7 @@ Votre flux de données et toutes les caractéristiques contenues dans les flux a
 
 **Qu’est-ce que [!UICONTROL Tag Insertion Manager (TIM)] ?**
 
-Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. Cette fonction est obsolète et a été remplacée par [!UICONTROL Dynamic Tag Manager (DTM)], puis par [!DNL Adobe Experience Platform Tags]. Pour plus d&#39;informations, voir [Balises &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
-
- 
-
-**Quelles sont les différences entre les modèles algorithmiques et les recommandations de caractéristiques ? Quand dois-je utiliser chacun d’eux ?**
-
-**Modèles algorithmiques**
-
-Les modèles algorithmiques trouvent non seulement les caractéristiques les plus influentes, mais ils notent aussi les utilisateurs en fonction de ces caractéristiques et attribuent une note individuelle à chaque utilisateur. Vous créez ensuite des caractéristiques algorithmiques pour cibler vos utilisateurs. Grâce aux contrôles de précision et de portée dans le générateur de caractéristiques, vous pouvez préciser les utilisateurs parmi ceux qui ont les caractéristiques les plus influentes que vous souhaitez cibler.
-
-Les modèles algorithmiques vous permettent de sélectionner les utilisateurs à différents niveaux de précision et de tester dans Audience Lab les groupes d’utilisateurs qui se convertissent le mieux. Consultez les cas d’utilisation détaillés dans [Comparaison des modèles dans Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
-
-Dans les modèles algorithmiques, le modèle s’exécute tous les 8 jours et actualise les utilisateurs éligibles aux caractéristiques algorithmiques.
-
-**Recommandations de caractéristiques**
-
-Les recommandations de caractéristiques sont un moyen rapide d’obtenir des insights sur d’autres caractéristiques qui sont similaires à celles que vous utilisez dans un segment.
-
-Vous devez utiliser les recommandations de caractéristiques lorsque :
-
-* vous avez besoin d’insights rapides en créant un segment ;
-* vous utilisez les segments pour des campagnes courtes ou vous souhaitez supprimer rapidement des audiences qui se convertissent ;
-* vous essayez de maximiser votre portée.
+Audience Manager a utilisé [!UICONTROL Tag Insertion Manager] (TIM) pour créer et gérer [!UICONTROL data collection code (DIL)]. Cette fonction est obsolète et a été remplacée par [!UICONTROL Dynamic Tag Manager (DTM)], puis par [!DNL Adobe Experience Platform Tags]. For more information, see [Adobe Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
 
  
 

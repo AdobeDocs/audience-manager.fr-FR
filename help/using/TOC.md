@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guide d’utilisation d’Audience Manager
 user-guide-description: Découvrez comment utiliser Adobe Audience Manager pour collecter des informations commerciales pertinentes sur les visiteurs du site et créer des segments commercialisables. Vous trouverez également des détails sur la manière de diffuser de la publicité et du contenu ciblés à la bonne audience.
 feature-set: Audience Manager
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 16%
+source-wordcount: '1982'
+ht-degree: 15%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 16%
 # Guide d’utilisation d’Audience Manager {#user-guide}
 
 + [Guide d’Audience Manager](aam-home.md)
-+ [Guide d’évolution de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=fr)
-+ Migrer vers Web SDK{#migrate-to-web-sdk}
-   + [Migration de l’extension de balise Adobe Audience Manager vers l’extension de balise Web SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [Migration de votre bibliothèque de collecte de données d’AppMeasurement vers Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
++ [Evolution guide to Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=fr)
++ Migrate to Web SDK{#migrate-to-web-sdk}
+   + [Migrate from the Adobe Audience Manager tag extension to the Web SDK tag extension](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [Migrate your data collection library from AppMeasurement to Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Présentation{#overview}
    + [Présentation d’Audience Manager](overview/aam-overview.md)
    + [Types de données collectées](overview/data-types-collected.md)
-   + [Sécurité des données](overview/data-security-and-privacy/data-security.md)
-   + Confidentialité Des Données {#data-privacy}
+   + [Data Security](overview/data-security-and-privacy/data-security.md)
+   + Data Privacy {#data-privacy}
       + [Présentation de la confidentialité des données](overview/data-security-and-privacy/data-privacy.md)
       + [Requêtes de confidentialité des données](overview/data-security-and-privacy/data-privacy-requests.md)
-      + Référence sur la confidentialité des données {#data-privacy-reference}
-         + [Identifiants Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
+      + Data Privacy Reference {#data-privacy-reference}
+         + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
          + [Glossaire de la CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
          + [Glossaire du RGPD](overview/data-security-and-privacy/aam-gdpr-glossary.md)
          + [Considérations relatives au RGPD pour les destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
@@ -37,36 +37,36 @@ ht-degree: 16%
          + [Gestion du consentement](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Module d’Audience Manager pour le TCF de l’IAB](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Gouvernance des données](overview/data-security-and-privacy/data-governance.md)
-   + [Accessibilité dans Audience Manager](/help/using/overview/accessibility-in-aam.md)
+   + [Accessibility in Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Fonctionnalités{#features}
    + [Audiences adressables](features/addressable-audiences.md)
    + Administration{#administration}
-      + [Migration des utilisateurs d’Audience Manager vers Admin Console](features/administration/admin-console-migration.md)
+      + [Audience Manager User Migration to Admin Console](features/administration/admin-console-migration.md)
       + [Administration](features/administration/administration-overview.md)
-      + [Modifier les paramètres de votre compte](features/administration/edit-account-settings.md)
-      + [Obscurcissement de l’adresse IP](features/administration/ip-obfuscation.md)
-      + [Limites d’utilisation](features/administration/usage-limits.md)
+      + [Edit Your Account Settings](features/administration/edit-account-settings.md)
+      + [IP Address Obfuscation](features/administration/ip-obfuscation.md)
+      + [Usage Limits](features/administration/usage-limits.md)
       + [Rapports d’utilisation des activités](features/administration/activity-usage-reporting.md)
-   + Modèles algorithmiques{#algorithmic-models}
-      + [Présentation des modèles algorithmiques](features/algorithmic-models/algo-models-overview.md)
+   + Algorithmic Models{#algorithmic-models}
+      + [Algorithmic Models Overview](features/algorithmic-models/algo-models-overview.md)
       + Modélisation analogue {#look-alike-modeling}
-         + [Comprendre la modélisation analogue](features/algorithmic-models/understanding-models.md)
-         + [Création d’un modèle analogue](features/algorithmic-models/create-model.md)
-         + [Modélisation analogue : exclusion des caractéristiques](features/algorithmic-models/trait-exclusion-algo-models.md)
+         + [Understanding Look-Alike Modeling](features/algorithmic-models/understanding-models.md)
+         + [Create a Look-Alike Model](features/algorithmic-models/create-model.md)
+         + [Look-Alike Modeling: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
       + Audiences prédictives {#predictive-audiences}
-         + [Présentation des audiences prédictives](features/algorithmic-models/predictive-audiences.md)
-         + [Prise en main des audiences prédictives](features/algorithmic-models/predictive-audiences-start.md)
-         + [Rapports Prédictifs Sur Les Audiences](features/algorithmic-models/predictive-audiences-reporting.md)
+         + [Predictive Audiences Overview](features/algorithmic-models/predictive-audiences.md)
+         + [Getting Started with Predictive Audiences](features/algorithmic-models/predictive-audiences-start.md)
+         + [Predictive Audiences Reporting](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab{#audience-lab}
-      + [Présentation d’Audience Lab](features/audience-lab/audience-lab.md)
-      + [Gérer les groupes de tests](features/audience-lab/audience-lab-manage-test-groups.md)
+      + [Audience Lab Overview](features/audience-lab/audience-lab.md)
+      + [Manage Test Groups](features/audience-lab/audience-lab-manage-test-groups.md)
       + [Informations sur le groupe de test](features/audience-lab/audience-lab-information-view.md)
       + [Rapports de groupe de test](features/audience-lab/audience-lab-reporting-view.md)
       + [Cas D’Utilisation Audience Lab](features/audience-lab/audience-lab-use-cases.md)
       + [Fonctionnalités avancées d’Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [hide-from-tocOptimisation d’Audience Marketplace &#x200B;](features/audience-marketplace/audience-marketplace-optimization.md)
+      + {hide-from-toc}[Optimisation d’Audience Marketplace &#x200B;](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace pour les fournisseurs de données{#audience-marketplace-for-data-providers}
          + [Audience Marketplace pour les fournisseurs de données](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Création, tarification et gestion des flux de données](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
@@ -151,7 +151,6 @@ ht-degree: 16%
       + [Créateur de segments](features/segments/segment-builder.md)
       + [Syntaxe du code utilisé dans l’éditeur d’expression de segment](features/segments/segment-code-syntax.md)
       + [Données de population de caractéristiques et de segments dans le créateur de segments](features/segments/segment-builder-data.md)
-      + [Recommandations de caractéristiques](features/segments/trait-recommendations.md)
       + [Référence de qualification des caractéristiques et des segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=fr)
    + Caractéristiques{#traits}
       + [Présentation des caractéristiques](/help/using/features/traits/traits-overview.md)
@@ -179,7 +178,7 @@ ht-degree: 16%
       + [Exemples d’expressions avec des opérateurs booléens et de comparaison](features/traits/trait-expression-samples.md)
       + [Référence de qualification des caractéristiques et des segments](features/traits/trait-and-segment-qualification-reference.md)
    + [Visionneuse du profil du visiteur](features/visitor-profile-viewer.md)
-+ Création de rapports  {#reporting}
++ Création de rapports{#reporting}
    + [Présentation des rapports](reporting/reports-overview.md)
    + [Tableau de bord des rapports](reporting/reports-dashboard.md)
    + [Rapports généraux](reporting/general-reports.md)
@@ -350,38 +349,38 @@ ht-degree: 16%
       + [Intégration d’Audience Manager à Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Comment transférer des données d’Adobe Analytics vers Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publication d’un segment Adobe Analytics dans Experience Cloud (ouvre la documentation Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=fr)
-      + [Intégration d’Audience Manager à Adobe Campaign (ouverture de la documentation Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=fr)
+      + [Intégrer Audience Manager à Adobe Campaign (ouvre la documentation Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=fr)
 + Référence{#reference}
-   + [Présentation de la référence](reference/reference.md)
-   + [Amazon S3 : À propos](reference/amazon-s3.md)
+   + [Reference Overview](reference/reference.md)
+   + [Amazon S3: About](reference/amazon-s3.md)
    + [Cas d’utilisation des annonceurs](reference/advertiser-use-cases.md)
    + [Cas d’utilisation des éditeurs](reference/publisher-use-cases.md)
-   + [Environnement Beta](reference/beta-environment.md)
-   + [Expressions booléennes dans le créateur de caractéristiques et de segments](reference/boolean-expressions-tsb.md)
-   + Outils de gestion en bloc{#bulk-management-tools}
-      + [Prise En Main De La Gestion En Bloc](reference/bulk-management-tools/bulk-management-intro.md)
-      + [Demandes en bloc](reference/bulk-management-tools/bulk-requests.md)
-      + [Mises à jour en bloc](reference/bulk-management-tools/bulk-updates.md)
-      + [Création en bloc](reference/bulk-management-tools/bulk-create.md)
-      + [Estimations groupées](reference/bulk-management-tools/bulk-estimates.md)
-      + [Suppression en bloc](reference/bulk-management-tools/bulk-delete.md)
-      + [Créer ou mettre à jour des règles de caractéristiques et des règles de segments](reference/bulk-management-tools/bulk-rules.md)
-      + [Conseils de dépannage pour les outils de gestion en bloc](reference/bulk-management-tools/bulk-troubleshooting.md)
-      + [Glossaire des outils de gestion en bloc](reference/bulk-management-tools/bulk-management-glossary.md)
-   + [CID remplace DPID et DPUUID](reference/cid.md)
-   + [Impact des délais de diffusion des données et de traitement des fichiers sur les rapports](reference/reporting-file-transfer-timeframe.md)
-   + [Index des identifiants dans Audience Manager](reference/ids-in-aam.md)
-   + [Présentation Des Paires Clé-Valeur](reference/key-value-pairs-explained.md)
+   + [Beta Environment](reference/beta-environment.md)
+   + [Boolean Expressions in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
+   + Bulk Management Tools{#bulk-management-tools}
+      + [Getting Started With Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
+      + [Bulk Requests](reference/bulk-management-tools/bulk-requests.md)
+      + [Bulk Updates](reference/bulk-management-tools/bulk-updates.md)
+      + [Bulk Create](reference/bulk-management-tools/bulk-create.md)
+      + [Bulk Estimates](reference/bulk-management-tools/bulk-estimates.md)
+      + [Bulk Delete](reference/bulk-management-tools/bulk-delete.md)
+      + [Create or Update Trait Rules and Segment Rules](reference/bulk-management-tools/bulk-rules.md)
+      + [Troubleshooting Tips for Bulk Management Tools](reference/bulk-management-tools/bulk-troubleshooting.md)
+      + [Bulk Management Tools Glossary](reference/bulk-management-tools/bulk-management-glossary.md)
+   + [CID Replaces DPID and DPUUID](reference/cid.md)
+   + [How Data Delivery and File Processing Times Affect Reports](reference/reporting-file-transfer-timeframe.md)
+   + [Index of IDs in Audience Manager](reference/ids-in-aam.md)
+   + [Key-Value Pairs Explained](reference/key-value-pairs-explained.md)
    + [Exigences en matière de mot de passe, comptes verrouillés et mots de passe oubliés](reference/password-requirements.md)
    + [Signaux, caractéristiques et segments](reference/signal-trait-segment.md)
    + [Navigateurs pris en charge](reference/supported-browsers.md)
-   + Composants système{#system-components}
-      + [Présentation des composants système](reference/system-components/components-overview.md)
-      + [Composants clés du système Audience Manager](reference/system-components/components-stack.md)
-      + [Composants de l’action de données](reference/system-components/components-data-action.md)
-      + [Composants de la collecte de données](reference/system-components/components-data-collection.md)
-      + [Composants de traitement de données](reference/system-components/components-data-processing.md)
-      + [Composants Tag Management](reference/system-components/components-tag-management.md)
+   + System Components{#system-components}
+      + [System Components Overview](reference/system-components/components-overview.md)
+      + [Key Components in the Audience Manager System](reference/system-components/components-stack.md)
+      + [Data Action Components](reference/system-components/components-data-action.md)
+      + [Data Collection Components](reference/system-components/components-data-collection.md)
+      + [Data Processing Components](reference/system-components/components-data-processing.md)
+      + [Tag Management Components](reference/system-components/components-tag-management.md)
       + [Architecture de Platform : mappage des flux de données](reference/system-components/components-platform-architecture.md)
       + [Présentation du centre de données Edge](reference/system-components/components-edge.md)
    + [Conventions de style pour les éléments de code et de texte](reference/code-style-elements.md)
