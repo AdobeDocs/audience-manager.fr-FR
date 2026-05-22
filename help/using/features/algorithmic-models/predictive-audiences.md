@@ -7,23 +7,13 @@ title: Audiences prédictives d’Audience Manager
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
 TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1543
 ht-degree: 3%
 
 ---
@@ -123,25 +113,25 @@ Lors de l’évaluation des audiences propriétaires et de l’attribution de sc
 
 Lors de la configuration de vos modèles [!UICONTROL Predictive Audiences], gardez à l’esprit les points et limites suivants :
 
-* Vous pouvez créer jusqu’à 10 modèles de [!UICONTROL Predictive Audiences].
+* Vous pouvez créer jusqu’à 10 modèles [!UICONTROL Predictive Audiences].
 * Pour chaque modèle, vous pouvez choisir jusqu’à 50 caractéristiques/segments de base.
 * Les données secondaires et tierces ne sont actuellement pas prises en charge dans [!UICONTROL Predictive Audiences].
 * [!UICONTROL Predictive Audiences] effectue une classification d’audience en fonction de vos caractéristiques propriétaires, à partir de toutes vos sources de données propriétaires.
 * L’évaluation des segments pour [!UICONTROL Predictive Audiences] utilise les **[!UICONTROL Profile Merge Rule]** que vous choisissez lors de la création du modèle. Pour en savoir plus sur les [!UICONTROL Profile Merge Rules], consultez la [documentation](../profile-merge-rules/merge-rules-overview.md) dédiée.
 * Certaines caractéristiques et certains segments ne sont pas pris en charge en tant que lignes de base ou audiences cibles. L’enregistrement des modèles [!UICONTROL Predictive Audiences] échoue lors du choix de l’un des éléments suivants comme niveaux de référence ou audiences cibles :
    * caractéristiques prédictives et segments créés avec des caractéristiques prédictives ;
-   * [&#128279;](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) caractéristiques ou segments ;
+   * [](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) caractéristiques ou segments ;
    * caractéristiques algorithmiques ;
    * Caractéristiques secondaires et tierces.
 * [!UICONTROL Predictive Audience] [!UICONTROL segments] ne peut pas être utilisé dans [!UICONTROL Audience Lab].
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Les segments prédictifs créés par [!UICONTROL Predictive Audiences] modèles héritent des [&#x200B; Contrôles d’exportation de données &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) des sources de données propriétaires suivantes :
+Les segments prédictifs créés par [!UICONTROL Predictive Audiences] modèles héritent des [ Contrôles d’exportation de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) des sources de données propriétaires suivantes :
 
 1. Source de données propriétaire que vous choisissez lors de la création du modèle.
 1. Les sources de données propriétaires de votre audience cible. Plus précisément, les contrôles d’exportation des données des [!UICONTROL traits] ou [!UICONTROL segments] qui constituent votre audience cible.
-1. Les [&#x200B; Contrôles d’exportation de données &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=fr) du [!UICONTROL Profile Merge Rule] que vous avez sélectionné pour le modèle.
+1. Les [ Contrôles d’exportation de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) du [!UICONTROL Profile Merge Rule] que vous avez sélectionné pour le modèle.
 
 Les nouveaux [!UICONTROL traits] prédictifs et [!UICONTROL segments] auront les mêmes restrictions de confidentialité que l’union des sources de données propriétaires décrites ci-dessus.
 
@@ -161,6 +151,6 @@ La sélection d’une [!UICONTROL Profile Merge Rule] qui utilise à la fois les
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Les caractéristiques et les segments que vous choisissez pour les rôles et la classification d’audience sont soumis aux [contrôles d’accès en fonction du rôle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=fr) d’Audience Manager.
+Les caractéristiques et les segments que vous choisissez pour les rôles et la classification d’audience sont soumis aux [contrôles d’accès en fonction du rôle](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) d’Audience Manager.
 
-Les utilisateurs d’Audience Manager peuvent uniquement sélectionner des caractéristiques ou des segments pour les personnes et les audiences cibles, qu’ils sont [autorisés à afficher](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=fr#wild-card-permissions).
+Les utilisateurs d’Audience Manager peuvent uniquement sélectionner des caractéristiques ou des segments pour les personnes et les audiences cibles, qu’ils sont [autorisés à afficher](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
