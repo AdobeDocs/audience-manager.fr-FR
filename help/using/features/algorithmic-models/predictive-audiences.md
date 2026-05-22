@@ -23,7 +23,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: 1543
 ht-degree: 3%
 
 ---
@@ -123,7 +123,7 @@ Lors de l’évaluation des audiences propriétaires et de l’attribution de sc
 
 Lors de la configuration de vos modèles [!UICONTROL Predictive Audiences], gardez à l’esprit les points et limites suivants :
 
-* Vous pouvez créer jusqu’à 10 modèles de [!UICONTROL Predictive Audiences].
+* Vous pouvez créer jusqu’à 10 modèles [!UICONTROL Predictive Audiences].
 * Pour chaque modèle, vous pouvez choisir jusqu’à 50 caractéristiques/segments de base.
 * Les données secondaires et tierces ne sont actuellement pas prises en charge dans [!UICONTROL Predictive Audiences].
 * [!UICONTROL Predictive Audiences] effectue une classification d’audience en fonction de vos caractéristiques propriétaires, à partir de toutes vos sources de données propriétaires.

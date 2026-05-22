@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 3385
+source-wordcount: 3669
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Votre flux de données est maintenant prêt à envoyer des données à Audience 
 
 +++**4. Ajoutez les ID de client au mappage d’identités**
 
-La plupart des implémentations d’Audience Manager utilisent des [règles de fusion de profil](../features/profile-merge-rules/merge-rules-overview.md) dans des scénarios de personnalisation entre appareils, et pour contrôler les segments pour lesquels les visiteurs peuvent être qualifiés en fonction de leur état d’authentification (connecté ou déconnecté). Les règles de fusion de profil nécessitent qu’un identifiant détenu par le client (identifiant CRM, numéro de compte, etc.) soit envoyé à Audience Manager à chaque appel de collecte de données après l’authentification. Auparavant, la fonction `setCustomerIDs` du service d’identification des visiteurs ([!DNL visitor.js]) était utilisée pour ajouter des identifiants de client à chaque appel de collecte de données Analytics, qui était ensuite transféré à Audience Manager.
+La plupart des implémentations d’Audience Manager utilisent des [règles de fusion de profil](../features/profile-merge-rules/merge-rules-overview.md) dans des scénarios de personnalisation entre appareils, et pour contrôler les segments pour lesquels les visiteurs peuvent être qualifiés en fonction de leur état d’authentification (connecté ou déconnecté). Les règles de fusion de profil nécessitent un identifiant détenu par le client (identifiant CRM, numéro de compte, etc.) à envoyer à Audience Manager à chaque appel de collecte de données après authentification. Auparavant, la fonction `setCustomerIDs` du service d’identification des visiteurs ([!DNL visitor.js]) était utilisée pour ajouter des identifiants de client à chaque appel de collecte de données Analytics, qui était ensuite transféré à Audience Manager.
 
 Avec le Web SDK, ces identités doivent désormais être envoyées à Edge Network à l’aide d’un concept XDM spécial appelé [IdentityMap](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/identitymap).
 
