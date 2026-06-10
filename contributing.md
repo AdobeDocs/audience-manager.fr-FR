@@ -13,7 +13,7 @@ Voici un ensemble de directives à suivre lorsque vous contribuez à ce projet.
 
 ## Code De Conduite
 
-Ce projet respecte le code de conduite dAdobe](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). [En participant, vous êtes tenu de respecter ce code. Veuillez signaler tout comportement inacceptable à SOMEEMAIL.
+Ce projet respecte le code de conduite dAdobe[&#128279;](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). En participant, vous êtes tenu de respecter ce code. Veuillez signaler tout comportement inacceptable à SOMEEMAIL.
 
 ## Contrat de licence du contributeur
 
@@ -21,4 +21,4 @@ Toutes les contributions tierces à ce projet doivent être accompagnées d’un
 
 ## Révisions du code
 
-Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les responsables du projet. Pour plus d’informations sur l’envoi de demandes d’extraction](https://help.github.com/articles/about-pull-requests/) consultez la documentation sur les demandes d’extraction de [ GitHub .
+Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les responsables du projet. Pour plus d’informations sur l’envoi de demandes d’extraction[&#128279;](https://help.github.com/articles/about-pull-requests/) consultez la documentation sur les demandes d’extraction de  GitHub .
