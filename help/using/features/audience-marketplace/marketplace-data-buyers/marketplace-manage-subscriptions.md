@@ -8,23 +8,13 @@ uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 TQID: https://experienceleague.adobe.com/RcmKx7ygS9XyIBBKxDrnN46EcV3OsGFpsTOilLiO7HY
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: c2c33729-f309-4bc2-92ba-87c475259df3
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: c2c33729-f309-4bc2-92ba-87c475259df3
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2160
 ht-degree: 0%
 
 ---
@@ -105,7 +95,7 @@ Les acheteurs s&#39;abonnent aux flux et plans de données privés en **[!UICONT
 Pour vous abonner à un flux de données privé :
 
 1. Cliquez sur le nom du flux de données dans le [!UICONTROL Marketplace].
-1. Cliquez sur **[!UICONTROL Request Access]**. La boîte de dialogue de requête s’ouvre.
+1. Cliquez sur **[!UICONTROL Request Access]**. La boîte de dialogue de requête s’ouvre.
 1. Dans la boîte de dialogue de requête, écrivez au fournisseur une note exprimant votre intérêt pour son flux de données et cliquez sur **[!UICONTROL Send]**. Le vendeur examinera votre message et approuvera ou rejettera votre demande. En attente d’approbation, le statut « Demandé » apparaît dans la liste [!UICONTROL Marketplace] de ce flux de données.
 
    * **[!UICONTROL Request approved]** : le statut dans la liste [!UICONTROL Marketplace] passe à « Accès accordé » et vous recevrez une notification automatique. À ce stade, vous pouvez vous abonner au flux. Consultez [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) pour obtenir des instructions.
@@ -236,11 +226,11 @@ La liste qui accompagne un e-mail de désactivation contient les champs comme il
    <td colname="col2"> <p>Nom du flux de données désactivé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SID du caractère <b><span class="uicontrol"></span></b> </p> </td> 
+   <td colname="col1"> <p>SID du caractère </span></b> <b><span class="uicontrol"></p> </td> 
    <td colname="col2"> <p>ID de caractéristique désactivés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nom de la caractéristique <b><span class="uicontrol"></span></b> </p> </td> 
+   <td colname="col1"> <p>Nom de la caractéristique </span></b> <b><span class="uicontrol"></p> </td> 
    <td colname="col2"> <p>Noms de caractéristiques désactivés. </p> </td> 
   </tr> 
   <tr> 
@@ -318,7 +308,7 @@ En tant qu’acheteur de données [!UICONTROL Audience Marketplace], vous pouvez
 
 ### Segments et chevauchement
 
-Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un rapport de chevauchement [&#x200B; caractéristique à caractéristique.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
+Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un [ rapport de chevauchement des caractéristiques vers les caractéristiques ](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
 
 * **Étendre la portée de l’audience :** un faible chevauchement suggère que vos caractéristiques contiennent des utilisateurs que vous n’avez jamais vus auparavant. Vous souhaiterez peut-être que ces caractéristiques essaient d’atteindre de nouveaux utilisateurs.
 * **Améliorer les audiences existantes :** un chevauchement élevé suggère que vos caractéristiques sont similaires à celles du fournisseur de données. Vous pouvez avoir besoin de ces caractéristiques pour apporter des améliorations ciblées et incrémentielles à une audience déjà développée.
@@ -329,13 +319,13 @@ Ce cas pratique vous permet d’évaluer les caractéristiques du fournisseur pa
 
 ### Activation
 
-Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination correspond à tout système tiers (serveur de publicités, [!DNL DSP], [!DNL DMP], échange, etc.) avec lequel vous souhaitez partager des données. Cependant, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
+Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination est tout système tiers (serveur de publicités, [!DNL DSP], [!DNL DMP], exchange, etc.) avec lesquelles vous souhaitez partager des données. Cependant, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
 
 >[!MORELIKETHIS]
 >
 >* [Facturation et affectation des impressions pour les flux de données CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Facturation et affectation d’impressions pour les flux de données à frais fixes](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Comment signaler l’utilisation de CPM &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Comment signaler l’utilisation de CPM ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 >* [Abonnement à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 >* [Remises pour les acheteurs de données](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
->* [Le Marché : À Propos &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+>* [Le Marché : À Propos ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
