@@ -24,7 +24,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2160
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Les acheteurs s&#39;abonnent aux flux et plans de données privés en **[!UICONT
 Pour vous abonner à un flux de données privé :
 
 1. Cliquez sur le nom du flux de données dans le [!UICONTROL Marketplace].
-1. Cliquez sur **[!UICONTROL Request Access]**. La boîte de dialogue de requête s’ouvre.
+1. Cliquez sur **[!UICONTROL Request Access]**. La boîte de dialogue de requête s’ouvre.
 1. Dans la boîte de dialogue de requête, écrivez au fournisseur une note exprimant votre intérêt pour son flux de données et cliquez sur **[!UICONTROL Send]**. Le vendeur examinera votre message et approuvera ou rejettera votre demande. En attente d’approbation, le statut « Demandé » apparaît dans la liste [!UICONTROL Marketplace] de ce flux de données.
 
    * **[!UICONTROL Request approved]** : le statut dans la liste [!UICONTROL Marketplace] passe à « Accès accordé » et vous recevrez une notification automatique. À ce stade, vous pouvez vous abonner au flux. Consultez [S’abonner à un flux de données public](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) pour obtenir des instructions.
@@ -236,11 +236,11 @@ La liste qui accompagne un e-mail de désactivation contient les champs comme il
    <td colname="col2"> <p>Nom du flux de données désactivé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SID du caractère <b><span class="uicontrol"></span></b> </p> </td> 
+   <td colname="col1"> <p>SID du caractère </span></b> <b><span class="uicontrol"></p> </td> 
    <td colname="col2"> <p>ID de caractéristique désactivés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nom de la caractéristique <b><span class="uicontrol"></span></b> </p> </td> 
+   <td colname="col1"> <p>Nom de la caractéristique </span></b> <b><span class="uicontrol"></p> </td> 
    <td colname="col2"> <p>Noms de caractéristiques désactivés. </p> </td> 
   </tr> 
   <tr> 
@@ -318,7 +318,7 @@ En tant qu’acheteur de données [!UICONTROL Audience Marketplace], vous pouvez
 
 ### Segments et chevauchement
 
-Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un rapport de chevauchement [&#x200B; caractéristique à caractéristique.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
+Ce cas d’utilisation vous permet de comparer vos caractéristiques avec les caractéristiques du fournisseur dans un [&#x200B; rapport de chevauchement des caractéristiques vers les caractéristiques &#x200B;](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Vous pouvez également créer ou ajouter des caractéristiques de fournisseur à un segment et effectuer des comparaisons supplémentaires avec les rapports [segment à caractéristique](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) et [segment à segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). Les comparaisons de chevauchements peuvent vous aider à :
 
 * **Étendre la portée de l’audience :** un faible chevauchement suggère que vos caractéristiques contiennent des utilisateurs que vous n’avez jamais vus auparavant. Vous souhaiterez peut-être que ces caractéristiques essaient d’atteindre de nouveaux utilisateurs.
 * **Améliorer les audiences existantes :** un chevauchement élevé suggère que vos caractéristiques sont similaires à celles du fournisseur de données. Vous pouvez avoir besoin de ces caractéristiques pour apporter des améliorations ciblées et incrémentielles à une audience déjà développée.
@@ -329,7 +329,7 @@ Ce cas pratique vous permet d’évaluer les caractéristiques du fournisseur pa
 
 ### Activation
 
-Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination correspond à tout système tiers (serveur de publicités, [!DNL DSP], [!DNL DMP], échange, etc.) avec lequel vous souhaitez partager des données. Cependant, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
+Ce cas d’utilisation vous permet d’envoyer des données vers une [destination](../../../features/destinations/destinations.md). Dans [!DNL Audience Manager], une destination est tout système tiers (serveur de publicités, [!DNL DSP], [!DNL DMP], exchange, etc.) avec lesquelles vous souhaitez partager des données. Cependant, avec un cas d’utilisation [!UICONTROL Activation], vous ne pouvez pas exécuter de rapports de chevauchement ni tester les données dans un modèle algorithmique.
 
 >[!MORELIKETHIS]
 >

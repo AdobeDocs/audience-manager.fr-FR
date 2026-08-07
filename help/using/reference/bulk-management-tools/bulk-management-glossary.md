@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 372
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ Libellés d’en-tête de colonne définis.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>L’identifiant d’une source de données <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> que vous souhaitez renvoyer ou affecter en bloc.</a> </p> </td> 
+   <td colname="col2"> <p>L’identifiant d’une source de données </a> que vous souhaitez renvoyer ou affecter en bloc. <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivedSignalId</span> </p> </td> 
-   <td colname="col2"> <p>Signal dérivé d'un <a href="../../features/derived-signals.md"> ID.</a> </p> </td> 
+   <td colname="col2"> <p>Signal dérivé d'un </a> ID. <a href="../../features/derived-signals.md"></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> description </span> </p> </td> 

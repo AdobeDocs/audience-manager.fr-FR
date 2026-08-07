@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: 271
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Pour effectuer des mises à jour en bloc, ouvrez la feuille de calcul [!UICONTRO
    * Lors de la mise à jour des segments ou des caractéristiques, vous n’avez besoin que de l’identifiant du segment (SID) et de l’élément d’en-tête qui doit être modifié. Supprimez les en-têtes inutilisés.
 
 4. Collez ou saisissez les données à modifier dans une colonne correspondante en fonction du libellé de l’en-tête.
-5. Dans la barre d&#39;outils de la feuille de calcul, cliquez sur un bouton de mise à jour correspondant au        élément que vous mettez à jour.
+5. Dans la barre d&#39;outils de la feuille de calcul, cliquez sur un bouton de mise à jour correspondant à l&#39;élément mis à jour.
 Cette action ouvre la boîte de dialogue [!UICONTROL Account Information].
 
 6. Fournissez les [informations de connexion](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) requises, puis cliquez sur **[!UICONTROL Submit]**.

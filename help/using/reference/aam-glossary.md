@@ -26,8 +26,8 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1157
-ht-degree: 96%
+source-wordcount: 1232
+ht-degree: 94%
 
 ---
 
@@ -112,7 +112,7 @@ Voir [Index des identifiants dans Audience Manager](../reference/ids-in-aam.md).
 
 **Destination**
 
-Dans [!DNL Audience Manager], une destination correspond à tout autre système (serveur de publicités, DSP, réseau de publicités, etc.) avec lequel vous souhaitez partager des données. Le [!UICONTROL Destination Builder] de notre interface utilisateur vous fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion des données. Les fonctionnalités de destination d’[!DNL Audience Manager] se trouvent dans **[!UICONTROL Audience Data > Destinations]**.
+Dans [!DNL Audience Manager], une destination correspond à tout autre système (serveur de publicités, DSP, réseau de publicités, etc.) avec lesquelles vous souhaitez partager des données. Le [!UICONTROL Destination Builder] de notre interface utilisateur vous fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion des données. Les fonctionnalités de destination d’[!DNL Audience Manager] se trouvent dans **[!UICONTROL Audience Data > Destinations]**.
 
 
 

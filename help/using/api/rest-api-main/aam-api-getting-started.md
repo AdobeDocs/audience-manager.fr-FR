@@ -26,8 +26,8 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2563
-ht-degree: 1%
+source-wordcount: 2778
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Notez ce qui suit lorsque vous utilisez le code de l’API [Audience Manager &#x
 
 ## Authentification {#authentication}
 
-Les [!DNL Audience Manager] [!DNL REST APIs] prennent en charge trois méthodes d’authentification.
+Les [!DNL REST APIs] [!DNL Audience Manager] prennent en charge trois méthodes d’authentification.
 
 * [!BADGE Recommandé]{type=positive} [Authentification de serveur à serveur OAuth](#oauth-adobe-developer) à l’aide de la console de développement [Adobe](https://www.adobe.io/). [!DNL Adobe Developer] est l’écosystème et la communauté de développeurs d’Adobe. Elle comprend des [API pour tous les produits Adobe](https://developer.adobe.com/apis/). Il s’agit de la méthode recommandée pour configurer et utiliser [!DNL Adobe] [!DNL APIs]. Pour en savoir plus sur l’[authentification de serveur à serveur OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/), consultez la documentation destinée aux développeurs et développeuses d’Adobe.
 * [!BADGE Obsolète]{type=negative} [Authentification JWT (compte de service)](#jwt) à l’aide de la [console de développement Adobe](https://www.adobe.io/). [!DNL Adobe Developer] est l’écosystème et la communauté de développeurs d’Adobe. Elle comprend des [API pour tous les produits Adobe](https://developer.adobe.com/apis/).
@@ -85,7 +85,7 @@ Pour configurer l’authentification [!DNL OAuth Server-to-Server] à l’aide d
 
 >[!NOTE]
 >
->Pour configurer et utiliser le [!DNL Audience Manager] [!DNL REST APIs] de manière automatisée, vous pouvez faire pivoter les secrets clients par programmation. Consultez [la documentation destinée aux développeurs](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) pour obtenir des instructions détaillées.
+>Pour configurer et utiliser le [!DNL REST APIs] [!DNL Audience Manager] de manière automatisée, vous pouvez faire pivoter les secrets clients par programmation. Consultez [la documentation destinée aux développeurs](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) pour obtenir des instructions détaillées.
 
 ### Ajouter l’API Audience Manager à un projet {#add-aam-api-to-project}
 
@@ -99,7 +99,7 @@ Une fois que vous avez créé un projet, sélectionnez **[!UICONTROL Add API]** 
 
 Écran Developer Console ![avec l’option Ajouter une API mise en surbrillance.](/help/using/api/rest-api-main/assets/add-api.png)
 
-L’écran **[!UICONTROL Add an API]** s’affiche. Sélectionnez l’icône de produit de Adobe Experience Cloud, puis choisissez **[!UICONTROL Audience Manager API]** avant de sélectionner **[!UICONTROL Next]**.
+L’écran **[!UICONTROL Add an API]** s’affiche. Sélectionnez l’icône de produit pour Adobe Experience Cloud, puis choisissez **[!UICONTROL Audience Manager API]** avant de sélectionner **[!UICONTROL Next]**.
 
 ![Sélectionner l’API Audience Manager.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
@@ -253,7 +253,7 @@ Pour configurer l’authentification [!DNL JWT (Service Account)] à l’aide de
 
 >[!NOTE]
 >
->Pour configurer et utiliser le [!DNL Audience Manager] [!DNL REST APIs] de manière automatisée, vous pouvez générer le [!DNL JWT] par programmation. Consultez la section [Authentification JWT (compte de service)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) pour obtenir des instructions détaillées.
+>Pour configurer et utiliser le [!DNL REST APIs] [!DNL Audience Manager] de manière automatisée, vous pouvez générer le [!DNL JWT] par programmation. Consultez la section [Authentification JWT (compte de service)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) pour obtenir des instructions détaillées.
 
 ### Autorisations RBAC de compte technique
 
@@ -261,7 +261,7 @@ Si votre compte Audience Manager utilise le [contrôle d’accès en fonction du
 
 Pour créer un compte d’utilisateur technique et l’ajouter à un groupe RBAC, procédez comme suit :
 
-1. Appelez-`GET` `https://aam.adobe.io/v1/users/self`. L’appel crée un compte d’utilisateur technique que vous pouvez voir dans le [!UICONTROL Admin Console], dans la page [!UICONTROL Users] .
+1. Appelez-`https://aam.adobe.io/v1/users/self` `GET`. L’appel crée un compte d’utilisateur technique que vous pouvez voir dans le [!UICONTROL Admin Console], dans la page [!UICONTROL Users] .
 
    ![compte technique &#x200B;](assets/technical-account.png)
 
@@ -278,16 +278,16 @@ Pour créer un compte d’utilisateur technique et l’ajouter à un groupe RBAC
 >
 > Utilisez plutôt l’authentification [JWT (compte de service)](#jwt-service-account-authentication-jwt).
 
-La [!DNL Audience Manager] [!UICONTROL REST API] suit les normes [!DNL OAuth 2.0] pour l’authentification et le renouvellement des jetons. Les sections ci-dessous décrivent comment vous authentifier et commencer à utiliser les [!DNL API].
+La [!UICONTROL REST API] [!DNL Audience Manager] suit les normes [!DNL OAuth 2.0] pour l’authentification et le renouvellement des jetons. Les sections ci-dessous décrivent comment vous authentifier et commencer à utiliser les [!DNL API].
 
 ### Créer un utilisateur [!DNL API] générique {#requirements}
 
-Nous vous recommandons de créer un compte utilisateur technique distinct pour travailler avec les [!DNL Audience Manager] [!DNL API]. Il s’agit d’un compte générique qui n’est pas lié à un utilisateur spécifique de votre organisation ni associé à celui-ci. Ce type de compte utilisateur [!DNL API] permet d’accomplir deux choses :
+Nous vous recommandons de créer un compte utilisateur technique distinct pour travailler avec les [!DNL API] [!DNL Audience Manager]. Il s’agit d’un compte générique qui n’est pas lié à un utilisateur spécifique de votre organisation ni associé à celui-ci. Ce type de compte utilisateur [!DNL API] permet d’accomplir deux choses :
 
 * Identifiez le service qui appelle le [!DNL API] (par exemple, les appels de vos applications qui utilisent nos [!DNL API] ou d’autres outils qui font des demandes [!DNL API]).
 * Assurer un accès ininterrompu aux [!DNL API]. Un compte lié à une personne spécifique peut être supprimé lorsqu’elle quitte votre entreprise. Cela vous empêchera d’utiliser le code [!DNL API] disponible. Un compte générique qui n&#39;est pas lié à un employé particulier vous aide à éviter ce problème.
 
-À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vous souhaitiez modifier de nombreux segments à la fois avec les [outils de gestion en bloc](../../reference/bulk-management-tools/bulk-management-intro.md). Pour ce faire, votre compte utilisateur doit disposer d’un accès [!DNL API]. Au lieu d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur [!DNL API] non spécifique disposant des informations d’identification, de la clé et du secret appropriés pour effectuer des appels [!DNL API]. Cela s’avère également utile si vous développez vos propres applications qui utilisent les [!DNL Audience Manager] [!DNL API].
+À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vous souhaitiez modifier de nombreux segments à la fois avec les [outils de gestion en bloc](../../reference/bulk-management-tools/bulk-management-intro.md). Pour ce faire, votre compte utilisateur doit disposer d’un accès [!DNL API]. Au lieu d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur [!DNL API] non spécifique disposant des informations d’identification, de la clé et du secret appropriés pour effectuer des appels [!DNL API]. Cela s’avère également utile si vous développez vos propres applications qui utilisent les [!DNL API] [!DNL Audience Manager].
 
 Contactez votre consultant [!DNL Audience Manager] pour configurer un compte utilisateur générique en [!DNL API] seule.
 
@@ -368,7 +368,7 @@ La réponse [!DNL JSON] contient votre nouveau jeton d’accès. La réponse doi
 
 ### Code d’autorisation et authentification implicite {#authentication-code-implicit}
 
-Le [!DNL Audience Manager] [!UICONTROL REST API] prend en charge le code d’autorisation et l’authentification implicite. Pour utiliser ces méthodes d’accès, vos utilisateurs doivent se connecter à `https://api.demdex.com/oauth/authorize` pour obtenir des jetons d’accès et d’actualisation.
+Le [!UICONTROL REST API] [!DNL Audience Manager] prend en charge le code d’autorisation et l’authentification implicite. Pour utiliser ces méthodes d’accès, vos utilisateurs doivent se connecter à `https://api.demdex.com/oauth/authorize` pour obtenir des jetons d’accès et d’actualisation.
 
 +++
 
@@ -394,7 +394,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes [!DNL API] q
 | `pageSize` | Définit le nombre de résultats de réponse renvoyés par la requête (10 est le nombre par défaut). |
 | `sortBy` | Trie et renvoie les résultats en fonction de la propriété [!DNL JSON] spécifiée. |
 | `descending` | Trie et renvoie les résultats dans l’ordre décroissant. `ascending` est la valeur par défaut. |
-| `search` | Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez trouver des résultats pour tous les modèles qui contiennent le mot « Test » dans l’un des champs de valeur de cet élément. Votre exemple de requête pourrait ressembler à ceci :   `GET https://aam.adobe.io/v1/models/?search=Test`.  Vous pouvez effectuer une recherche sur n’importe quelle valeur renvoyée par une méthode « [!DNL get all] ». |
+| `search` | Renvoie les résultats en fonction de la chaîne spécifiée que vous souhaitez utiliser comme paramètre de recherche. Supposons, par exemple, que vous souhaitiez trouver des résultats pour tous les modèles qui contiennent le mot « Test » dans l’un des champs de valeur de cet élément. Votre exemple de requête pourrait ressembler à ceci : `GET https://aam.adobe.io/v1/models/?search=Test`.  Vous pouvez effectuer une recherche sur n’importe quelle valeur renvoyée par une méthode « [!DNL get all] ». |
 | `folderId` | Renvoie tous les identifiants des [!UICONTROL traits] dans le dossier spécifié. Non disponible pour toutes les méthodes. |
 | `permissions` | Renvoie une liste de segments en fonction de l’autorisation spécifiée. `READ` est la valeur par défaut. Les autorisations incluent :<ul><li>`READ` : renvoie et affiche des informations sur un segment.</li><li>`WRITE` : utilisez `PUT` pour mettre à jour un segment.</li><li>`CREATE` : utilisez `POST` pour créer un segment.</li><li>`DELETE` : permet de supprimer un segment. Nécessite l’accès aux caractéristiques sous-jacentes, le cas échéant. Par exemple, vous aurez besoin de droits pour supprimer les caractéristiques appartenant à un segment si vous souhaitez le supprimer.</li></ul><br>Spécifiez plusieurs autorisations avec des paires clé-valeur distinctes. Par exemple, pour renvoyer une liste de segments avec des autorisations `READ` et `WRITE` uniquement, transmettez `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Définissez sur `true` pour renvoyer vos autorisations pour le segment. La valeur par défaut est `false`. |
@@ -419,7 +419,7 @@ Le tableau suivant répertorie les [!DNL URLs] de requête utilisés pour transm
 
 Selon la méthode d’authentification que vous utilisez, vous devez ajuster le [!DNL URLs] de votre requête en fonction des tableaux ci-dessous.
 
-### [!DNL URLs] de requête pour l’authentification [!BADGE &#x200B; OAuth &#x200B;]{type=positive}recommandée[!BADGE &#x200B; serveur à serveur et &#x200B;]{type=negative}obsolète[!DNL JWT] via Adobe Developer {#request-urls-jwt}
+### [!DNL URLs] de requête pour l’authentification [!DNL JWT] OAuth [!BADGE recommandée]{type=positive} serveur à serveur et [!BADGE obsolète]{type=negative} via Adobe Developer {#request-urls-jwt}
 
 | Méthodes [!DNL API] | [!DNL URL] de la demande |
 |--- |--- |
@@ -457,7 +457,7 @@ Selon la méthode d’authentification que vous utilisez, vous devez ajuster le 
 
 ## Environnements {#environments}
 
-Les [!DNL Audience Manager] [!DNL API] permettent d’accéder à différents environnements de travail. Ces environnements vous permettent de tester le code sur des bases de données distinctes sans affecter les données de production actives. Le tableau suivant répertorie les environnements [!DNL API] disponibles et les noms d’hôtes de ressources correspondants.
+Les [!DNL API] [!DNL Audience Manager] permettent d’accéder à différents environnements de travail. Ces environnements vous permettent de tester le code sur des bases de données distinctes sans affecter les données de production actives. Le tableau suivant répertorie les environnements [!DNL API] disponibles et les noms d’hôtes de ressources correspondants.
 
 Selon la méthode d’authentification que vous utilisez, vous devez ajuster les [!DNL URLs] de votre environnement conformément au tableau ci-dessous.
 
@@ -478,7 +478,7 @@ De nouvelles versions de ces [!DNL API] sont publiées régulièrement. Une nouv
 
 ## Codes de réponse définis {#response-codes-defined}
 
-`HTTP` les codes d’état et le texte de réponse renvoyés par le [!DNL Audience Manager] de [!UICONTROL REST API].
+`HTTP` les codes d’état et le texte de réponse renvoyés par le [!UICONTROL REST API] de [!DNL Audience Manager].
 
 | ID du code de réponse | Texte de réponse | Définition |
 |---|---|---|

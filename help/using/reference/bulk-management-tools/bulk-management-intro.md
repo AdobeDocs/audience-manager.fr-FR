@@ -24,7 +24,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: 718
 ht-degree: 1%
 
 ---
@@ -109,11 +109,11 @@ Le tableau ci-dessous répertorie les opérations que vous pouvez effectuer et l
      <ul id="ul_49F46B9E00C045D29E40258EB7BDCFBB"> 
       <li id="li_193C41EA19EF4D738FBA037D2BF9B05C">Demandes </li> 
       <li id="li_5BE2E13D839F4958AAA5C01B7EFC5096">Mise à jour </li> 
-      <li id="li_4CCCC739795945DF8C89787F9A67EB88">Créez     </li> 
+      <li id="li_4CCCC739795945DF8C89787F9A67EB88">Créez </li> 
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimation </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Supprimer </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Les objets que vous pouvez modifier en bloc se trouvent sous l’onglet En-têtes <b><span class="uicontrol"> </span></b> et comprennent : </p> <p> 
+   <td colname="col2"> <p>Les objets que vous pouvez modifier en bloc se trouvent sous l’onglet En-têtes </span></b> <b><span class="uicontrol"> et comprennent : </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> des sources de données</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> signaux dérivés</a> </li> 

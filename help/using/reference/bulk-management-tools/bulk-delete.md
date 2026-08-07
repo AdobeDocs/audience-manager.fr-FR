@@ -57,7 +57,7 @@ Pour supprimer plusieurs éléments, ouvrez la feuille de calcul [!UICONTROL Bul
 5. Fournissez les [informations de connexion](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) requises, puis cliquez sur **[!UICONTROL Submit]**.
 
    La feuille de calcul crée une colonne [!UICONTROL Results]. La colonne [!UICONTROL Results] renvoie un message indiquant si l’élément a été supprimé ou un message d’erreur.
-Avant de saisir des données, votre feuille de calcul de mise à jour en bloc doit ressembler à ce qui suit :
+   Avant de saisir des données, votre feuille de calcul de mise à jour en bloc doit ressembler à ce qui suit :
 
 ![](assets/delete.png)
 

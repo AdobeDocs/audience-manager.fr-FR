@@ -14,7 +14,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 633
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Exécutez et vérifiez le rapport [!UICONTROL Unused Signals] :
 >Lors de la recherche de valeurs inutilisées dans le rapport, veuillez tenir compte de la particularité suivante. Il existe une différence d’expression entre les deux exemples ci-dessous :
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T(v=1 [!UICONTROL AND] (a !=23))
+* T(v=1 [!UICONTROL AND] (a!=23))
 * Les deux exemples montrent une caractéristique qui contient deux paires clé-valeur v et a. La première expression se traduit par : la caractéristique contient la clé v avec la valeur 1 [!UICONTROL AND NOT] la clé a avec la valeur 23. La deuxième expression contient la clé v de valeur 1 [!UICONTROL AND] la clé a de valeur [!UICONTROL NOT EQUAL] 23.
 * Compte tenu des deux expressions différentes ci-dessus, supposons que vous recherchiez dans le [!UICONTROL Unused Signals Report] les valeurs qui sont transmises sur la clé a avec n’importe quelle valeur différente de 23, vous n’obtiendrez de résultats que dans le premier cas, car les valeurs de la clé n’ont pas été envoyées du TOUT. Dans le deuxième cas, des valeurs différentes de 23 ont été envoyées, de sorte que la clé a n’est pas inutilisée.
 
