@@ -28,9 +28,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -63,8 +63,8 @@ Oui : voir ci-dessous.
 
 | Serveur | Adresses IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119 ; 3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252 ; 18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -230,8 +230,8 @@ La synchronisation d’un profil utilisateur dans les régions prend en généra
 
 **Qu’advient-il des clés d’accès utilisateur inactives d’Amazon S3 ?**
 
-Adobe fournit aux clients Audience Manager des clés d’accès pour les compartiments [!DNL Amazon S3]. Pour des raisons de sécurité, ces clés d’accès sont automatiquement désactivées si elles restent inutilisées pendant 100 jours.
+Adobe fournit aux clients Audience Manager des clés d’accès pour les compartiments [!DNL Amazon S3]. Pour des raisons de sécurité, ces clés d’accès sont automatiquement désactivées si elles ne sont pas utilisées pendant 40 jours.
 
 Si vos clés d’accès sont désactivées, vous pouvez contacter le service clientèle pour les réactiver ou en demander de nouvelles.
 
-Pour une sécurité renforcée, les clés d’accès qui restent inactives pendant 1 000 jours seront définitivement supprimées avec le compte utilisateur Amazon S3 IAM. Si vous êtes un client récurrent et que vous avez besoin d’un accès après cette période, contactez le service clientèle pour recréer votre compte et recevoir de nouvelles clés d’accès.
+Pour une sécurité renforcée, les clés d’accès qui restent inactives pendant 180 jours seront définitivement supprimées avec le compte utilisateur Amazon S3 IAM. Si vous êtes un client récurrent et que vous avez besoin d’un accès après cette période, contactez le service clientèle pour recréer votre compte et recevoir de nouvelles clés d’accès.
