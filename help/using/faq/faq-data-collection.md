@@ -9,28 +9,13 @@ keywords: SFTP ; adresse SFTP ; adresse IP SFTP ; adresse FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 TQID: https://experienceleague.adobe.com/C35e-eIULWyFZPASMC-vwOIU1Yk-SH-HZzGRTO89yFg
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: b1ecf375-97f8-4f5a-a937-6129552209be
-  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: b89b323a-1e91-40b1-8d20-96b5b726d55aid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: b1ecf375-97f8-4f5a-a937-6129552209beid: b52f95d5-ca6b-4fda-a49e-994dc0a63402id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -63,8 +48,8 @@ Oui : voir ci-dessous.
 
 | Serveur | Adresses IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119 ; 3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252 ; 18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -210,7 +195,7 @@ Non, vous ne pouvez pas vous en remettre aux [!UICONTROL General Reports] et aux
 
 Les rapports calculent les populations en fonction des enregistrements de profil non authentifiés (UUID) détectés dans le serveur principal au moment de la génération des rapports.
 
-Lors d’un premier appel à [!DNL DCS], les identifiants déclarés ne sont liés à *aucun* UUID (c.-à-d. qu’aucun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=fr) n’est présent côté client). Le [!DNL DCS] génère de manière aléatoire un UUID, définit un cookie [!DNL demdex] et le transmet dans l’appel de réponse, mais il ne transmet pas l’UUID au serveur principal.
+Lors d’un premier appel à [!DNL DCS], les identifiants déclarés ne sont liés à *aucun* UUID (c.-à-d. qu’aucun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) n’est présent côté client). Le [!DNL DCS] génère de manière aléatoire un UUID, définit un cookie [!DNL demdex] et le transmet dans l’appel de réponse, mais il ne transmet pas l’UUID au serveur principal.
 
 >[!NOTE]
 >
@@ -230,8 +215,8 @@ La synchronisation d’un profil utilisateur dans les régions prend en généra
 
 **Qu’advient-il des clés d’accès utilisateur inactives d’Amazon S3 ?**
 
-Adobe fournit aux clients Audience Manager des clés d’accès pour les compartiments [!DNL Amazon S3]. Pour des raisons de sécurité, ces clés d’accès sont automatiquement désactivées si elles restent inutilisées pendant 100 jours.
+Adobe fournit aux clients Audience Manager des clés d’accès pour les compartiments [!DNL Amazon S3]. Pour des raisons de sécurité, ces clés d’accès sont automatiquement désactivées si elles ne sont pas utilisées pendant 40 jours.
 
 Si vos clés d’accès sont désactivées, vous pouvez contacter le service clientèle pour les réactiver ou en demander de nouvelles.
 
-Pour une sécurité renforcée, les clés d’accès qui restent inactives pendant 1 000 jours seront définitivement supprimées avec le compte utilisateur Amazon S3 IAM. Si vous êtes un client récurrent et que vous avez besoin d’un accès après cette période, contactez le service clientèle pour recréer votre compte et recevoir de nouvelles clés d’accès.
+Pour une sécurité renforcée, les clés d’accès qui restent inactives pendant 180 jours seront définitivement supprimées avec le compte utilisateur Amazon S3 IAM. Si vous êtes un client récurrent et que vous avez besoin d’un accès après cette période, contactez le service clientèle pour recréer votre compte et recevoir de nouvelles clés d’accès.
