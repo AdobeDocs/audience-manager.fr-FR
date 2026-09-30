@@ -10,17 +10,18 @@ exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 TQID: https://experienceleague.adobe.com/Zu-vprPHjdrKnCmni186mwvNUjwvgFw26nHERL7gBHE
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: c7475dcbcdca8baf647260ea4083c2c3122a8302
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 1%
-
 ---
-
 # Flux de données privés {#private-data-feeds}
 
 Un flux de données privé est une option qui permet aux fournisseurs de limiter l’accès des acheteurs à leurs données. Les fournisseurs de données et les acheteurs doivent consulter ces informations avant de créer des flux de données privés et de s’y abonner.
@@ -71,7 +72,7 @@ Le tableau suivant définit le rôle ou les fonctions fournis par chaque onglet 
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Accès refusé</span></b> </p> </td> 
-   <td colname="col2"> <p>Répertorie les demandes d’abonnement rejetées pour un flux de données privé. </p> <p>Pour réapprouver les acheteurs refusés, modifiez le statut Rejet de la <span class="wintitle"> en </span> Autoriser<b><span class="uicontrol">. </span></b> Cela déplace l'acheteur vers <b><span class="uicontrol"> abonnés potentiels</span></b>. </p> </td> 
+   <td colname="col2"> <p>Répertorie les demandes d’abonnement rejetées pour un flux de données privé. </p> <p>Pour réapprouver les acheteurs refusés, modifiez le statut Rejet de la </span> en <b><span class="uicontrol"> Autoriser</span></b>. <span class="wintitle">Cela déplace l'acheteur vers <b><span class="uicontrol"> abonnés potentiels</span></b>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +98,7 @@ Le tableau décrit comment ces différents types de flux affichent ou masquent d
 <table id="table_41D4A798ACF548A3A03ACB427CA4652D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Type de flux  </th> 
+   <th colname="col1" class="entry"> Type de flux </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
