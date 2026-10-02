@@ -68,7 +68,7 @@ Audience Manager contient les composants de collecte de données suivants :
 
 Le serveur de collecte de données et le service de collecte de données travaillent ensemble et fournissent séparément des services liés à la réalisation des caractéristiques, à la segmentation des audiences et au stockage des données.
 
-Fonction ****[!UICONTROL Data Collection Servers (DCS)]
+Fonction **&#x200B;**&#x200B;[!UICONTROL Data Collection Servers (DCS)]
 
 En [!DNL Audience Manager], le serveur de collecte de données :
 
@@ -90,7 +90,7 @@ Dans un appel d’événement, l’emplacement géographique est capturé dans u
 
 ![](assets/dcs-map.png)
 
-En tant que client, vous interagissez avec le [!DNL DCS] indirectement par le biais de notre code de collecte de données. Vous pouvez également travailler directement avec le [!DNL DCS] par le biais d’un ensemble d’API. Voir [ Méthodes et code de l’API Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+En tant que client, vous interagissez avec le [!DNL DCS] indirectement par le biais de notre code de collecte de données. Vous pouvez également travailler directement avec le [!DNL DCS] par le biais d’un ensemble d’API. Voir [&#x200B; Méthodes et code de l’API Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
@@ -115,11 +115,11 @@ Le [!UICONTROL PCS] vide les caractéristiques si elles sont inactives pendant 1
 
 **Autres processus de [!UICONTROL DCS/PCS] : désinscription de la confidentialité**
 
-Ces systèmes de serveur gèrent les demandes de confidentialité et de désinscription des utilisateurs. Les informations de cookie utilisateur ne sont pas collectées dans le fichier journal si un utilisateur s’est opposé à la collecte de données. Pour plus d’informations sur nos politiques de confidentialité, consultez le [Centre de traitement des données personnelles ](https://www.adobe.com/fr/privacy/experience-cloud.html).
+Ces systèmes de serveur gèrent les demandes de confidentialité et de désinscription des utilisateurs. Les informations de cookie utilisateur ne sont pas collectées dans le fichier journal si un utilisateur s’est opposé à la collecte de données. Pour plus d’informations sur nos politiques de confidentialité, consultez le [Centre de traitement des données personnelles &#x200B;](https://www.adobe.com/fr/privacy/experience-cloud.html).
 
 ## Bibliothèque d’intégration de données (DIL) {#dil}
 
-[!UICONTROL DIL] code que vous placez sur la page pour la collecte de données. Consultez la section [API ](../../dil/dil-overview.md) pour plus d’informations sur les services et méthodes disponibles.
+[!UICONTROL DIL] code que vous placez sur la page pour la collecte de données. Consultez la section [API &#x200B;](../../dil/dil-overview.md) pour plus d’informations sur les services et méthodes disponibles.
 
 ## Réception serveur à serveur {#inbound-outbound-server}
 

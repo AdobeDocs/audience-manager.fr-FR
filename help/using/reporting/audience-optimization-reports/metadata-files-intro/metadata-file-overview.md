@@ -57,7 +57,7 @@ Cependant, un fichier de métadonnées correctement formaté peut lier ce conten
 
 ### Quand avez-vous besoin d’un fichier de métadonnées ?
 
-Tout d’abord, un fichier de métadonnées et tous les paramètres répertoriés ci-dessous sont requis dans un appel d’événement lorsque vous souhaitez utiliser les [rapports ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Tout d’abord, un fichier de métadonnées et tous les paramètres répertoriés ci-dessous sont requis dans un appel d’événement lorsque vous souhaitez utiliser les [rapports &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 Deuxièmement, vous avez besoin d’un fichier de métadonnées si vous envoyez vos propres données à [!DNL Audience Manager] ou si vous souhaitez voir des données dans les rapports d’autres fournisseurs avec lesquels nous ne sommes pas intégrés. Par exemple, [!DNL Audience Manager] dispose d’une intégration avec le [Double-cliquez sur Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) de Google. Grâce à cette relation, [!DNL Audience Manager] pouvez associer des identifiants aux noms et descriptions utilisés par les options de rapport. Sans intégration, nous pouvons toujours ingérer des données, mais les options de rapport afficheront des identifiants numériques au lieu de noms descriptifs.
 
@@ -142,9 +142,9 @@ Dans un nom de fichier :
 
 * Les identifiants de contenu créatif et de campagne représentent une catégorie plutôt qu’un identifiant réel.
 
-![comment un nom de fichier est-il créé ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
+![comment un nom de fichier est-il créé &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-Voir [ Conventions de dénomination pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+Voir [&#x200B; Conventions de dénomination pour les fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Contenu du fichier
 
@@ -156,7 +156,7 @@ Voir [Format de contenu pour les fichiers de métadonnées](../../../reporting/a
 
 ### Diffusion de fichier
 
-Après avoir nommé et ajouté des données à un fichier, vous l’envoyez à un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir [ Méthodes de diffusion des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Après avoir nommé et ajouté des données à un fichier, vous l’envoyez à un répertoire de stockage Amazon S3 fourni par [!DNL Audience Manager]. Voir [&#x200B; Méthodes de diffusion des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >

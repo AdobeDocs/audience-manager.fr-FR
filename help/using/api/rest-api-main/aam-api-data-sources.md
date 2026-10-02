@@ -35,6 +35,6 @@ ht-degree: 24%
 >
 >Les méthodes de [!DNL API] de la source de données ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
->* [Documents d’API ](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documents d’API &#x200B;](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)
 >

@@ -72,7 +72,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers le [!DNL 
 
 ## Macros prises en charge
 
-Les événements Click prennent en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité de code autonome qui s’active lors du chargement de la balise publicitaire pour le suivi de la campagne et des utilisateurs. Les macros sont transmises avec les [!DNL URL] de destination, à condition qu’elles soient marquées avec le format suivant : `%macro%`. Certaines clés ne comportent pas de macros et acceptent plutôt une valeur d’identifiant codée en dur. Les clés qui acceptent des valeurs codées en dur sont requises si vous souhaitez analyser les données dans les [rapports ](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Les événements Click prennent en charge les macros répertoriées dans le tableau suivant. Une macro est une petite unité de code autonome qui s’active lors du chargement de la balise publicitaire pour le suivi de la campagne et des utilisateurs. Les macros sont transmises avec les [!DNL URL] de destination, à condition qu’elles soient marquées avec le format suivant : `%macro%`. Certaines clés ne comportent pas de macros et acceptent plutôt une valeur d’identifiant codée en dur. Les clés qui acceptent des valeurs codées en dur sont requises si vous souhaitez analyser les données dans les [rapports &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -193,7 +193,7 @@ En fonction de l’exemple ci-dessus, le navigateur est redirigé vers le [!DNL 
 
 ## Fonctionnalités supplémentaires - [!UICONTROL Audience Optimization Reports]
 
-Vous pouvez utiliser des appels de pixels pour alimenter les [rapports ](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [ Présentation et mappages des fichiers de métadonnées ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
+Vous pouvez utiliser des appels de pixels pour alimenter les [rapports &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
 
 >[!MORELIKETHIS]

@@ -67,7 +67,7 @@ Dans la paire clé-valeur, la variable valeur est un identifiant ou une macro in
 
 ## Paires Clé-Valeur Prises En Charge {#supported-key-value-pairs}
 
-Les appels d’événements d’impression acceptent les données formées en paires clé-valeur. Le tableau suivant répertorie et décrit les clés utilisées pour contenir ces variables. La plupart de ces éléments sont nécessaires si vous souhaitez capturer et analyser des données dans les [rapports ](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Les appels d’événements d’impression acceptent les données formées en paires clé-valeur. Le tableau suivant répertorie et décrit les clés utilisées pour contenir ces variables. La plupart de ces éléments sont nécessaires si vous souhaitez capturer et analyser des données dans les [rapports &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -142,7 +142,7 @@ Les appels d’événements d’impression acceptent les données formées en pa
 
 ## Fonctionnalités supplémentaires - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-Vous pouvez utiliser des appels de pixels pour alimenter les [rapports ](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [ Présentation et mappages des fichiers de métadonnées ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
+Vous pouvez utiliser des appels de pixels pour alimenter les [rapports &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultez [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) si vous souhaitez utiliser des pixels pour alimenter les rapports.
 
 >[!MORELIKETHIS]
 >

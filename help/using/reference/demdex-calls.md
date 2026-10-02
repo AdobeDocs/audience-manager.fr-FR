@@ -34,4 +34,4 @@ ht-degree: 4%
 >[!MORELIKETHIS]
 >
 >* [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)
->* [Cookies ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)
+>* [Cookies &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)

@@ -41,7 +41,7 @@ Un fichier de données contient des données d’impression, de clic ou de conve
 
 ## Présentation {#overview}
 
-Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les [Rapports ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
+Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les [Rapports &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
 
 Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées fait correspondre les informations du fichier de données aux libellés lisibles par l’utilisateur dans les menus de rapport. Pour plus d’informations, consultez [Présentation et mappages des fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -222,4 +222,4 @@ Pour mettre à jour vos données, envoyez un fichier contenant toutes les impres
 
 ## Étapes suivantes {#next-steps}
 
-Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [ Présentation et mappages des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

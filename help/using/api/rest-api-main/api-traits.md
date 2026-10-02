@@ -33,5 +33,5 @@ Méthodes qui vous permettent de travailler par programmation avec les caractér
 >
 >Les méthodes de [!DNL API] des caractéristiques ont été réécrites avec [!DNL Swagger] et migrées. Voir :
 >
->* [Documents d’API ](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documents d’API &#x200B;](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)

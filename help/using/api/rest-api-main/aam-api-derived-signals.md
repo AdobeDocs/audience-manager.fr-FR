@@ -36,5 +36,5 @@ Pour plus d&#39;informations sur les signaux dérivés, voir [Signaux dérivés]
 >
 >Les signaux dérivés [!DNL API] les méthodes ont été réécrits avec [!DNL Swagger] et migrés. Voir :
 >
->* [Documents d’API ](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documents d’API &#x200B;](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)

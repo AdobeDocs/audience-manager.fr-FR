@@ -32,5 +32,5 @@ Méthodes vous permettant de travailler par programmation avec des dossiers de c
 >
 >Le dossier [!DNL API] les méthodes ont été réécrits avec [!DNL Swagger] et migrés. Voir : >
 >
->* [Documents d’API ](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documents d’API &#x200B;](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migration du code de l’API Audience Manager](../../api/api-swagger-migration.md)

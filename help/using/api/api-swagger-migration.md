@@ -37,7 +37,7 @@ Chez Audience Manager, nous sommes des ingénieurs, des développeurs et des nin
 
 <!-- api-swagger-migration.xml -->
 
-Le site [Documents de l’API ](https://bank.demdex.com/portal/swagger/index.html) est la nouvelle page d’accueil de notre contenu [!DNL API] révisé. Nous essaierons de réécrire et de déplacer quelques ensembles de méthodes [!DNL API] avec chaque version. Cela signifie que vous devrez archiver à la fois le nouvel emplacement et la documentation [API REST](../api/rest-api-main/rest-api-main.md) pour trouver toutes les méthodes disponibles. En fin de compte, tous les [!DNL API] publics seront disponibles sur le site de documents [!DNL API] [!DNL Audience Manager]. Le tableau suivant répertorie les [!DNL API] révisées et migrées.
+Le site [Documents de l’API &#x200B;](https://bank.demdex.com/portal/swagger/index.html) est la nouvelle page d’accueil de notre contenu [!DNL API] révisé. Nous essaierons de réécrire et de déplacer quelques ensembles de méthodes [!DNL API] avec chaque version. Cela signifie que vous devrez archiver à la fois le nouvel emplacement et la documentation [API REST](../api/rest-api-main/rest-api-main.md) pour trouver toutes les méthodes disponibles. En fin de compte, tous les [!DNL API] publics seront disponibles sur le site de documents [!DNL API] [!DNL Audience Manager]. Le tableau suivant répertorie les [!DNL API] révisées et migrées.
 
 <!--
 

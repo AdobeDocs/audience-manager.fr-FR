@@ -93,7 +93,7 @@ Exemple de pixel déclenché depuis la page. Cet exemple montre un utilisateur q
 | Paramètre | Description |
 |---------|----------|
 | `id` | Identifiant en pixels [!DNL Facebook], que vous pouvez trouver dans l’interface utilisateur [!DNL Facebook Ad Manager] lors de la création de pixels d’audience. |
-| `ev` | Événement. Il s’agit d’une valeur arbitraire qui apparaîtra dans l’interface utilisateur [!DNL Facebook Ad Manager] une fois que le pixel commencera à se déclencher sur le site. Pour plus d’informations](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) reportez-vous à l’élément [!UICONTROL Include] à l’étape [ 3. |
+| `ev` | Événement. Il s’agit d’une valeur arbitraire qui apparaîtra dans l’interface utilisateur [!DNL Facebook Ad Manager] une fois que le pixel commencera à se déclencher sur le site. Pour plus d’informations[&#128279;](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) reportez-vous à l’élément [!UICONTROL Include] à l’étape  3. |
 | `cd[segID]` | Un paramètre supplémentaire, qui commencera à être renseigné dans l’interface utilisateur [!DNL Facebook Ad Manager] une fois que le pixel commencera à se déclencher sur le site. `segID` est également arbitraire. |
 | `%ALIAS%` | Une macro [!DNL Audience Manager], qui sera remplacée dynamiquement par les identifiants de [!UICONTROL segment] [!DNL Audience Manager] pour lesquels le visiteur du site est éligible, délimités par une virgule , |
 
@@ -105,7 +105,7 @@ Enregistrez le [!UICONTROL destination]. Vous pouvez ensuite passer à l’étap
 
 ## Étape 2 - Mappages de segments - Mapper un segment à la destination {#step-2-segment-mappings}
 
-Dans le workflow [ Configurer la destination de l’URL ](/help/using/features/destinations/create-url-destination.md), mappez le segment applicable à votre [!UICONTROL destination] nouvellement créé. Notez que la valeur de mappage est automatiquement renseignée avec le [!UICONTROL segment ID] [!DNL Audience Manager].
+Dans le workflow [&#x200B; Configurer la destination de l’URL &#x200B;](/help/using/features/destinations/create-url-destination.md), mappez le segment applicable à votre [!UICONTROL destination] nouvellement créé. Notez que la valeur de mappage est automatiquement renseignée avec le [!UICONTROL segment ID] [!DNL Audience Manager].
 
 Saisissez une date de fin, le cas échéant, ou laissez le champ vide sans date de fin.
 

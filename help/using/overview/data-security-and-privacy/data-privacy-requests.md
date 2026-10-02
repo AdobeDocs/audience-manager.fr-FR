@@ -63,21 +63,21 @@ Lors de l’envoi de demandes individuelles de confidentialité des données, vo
 
 ## Demandes d’accès aux données {#access-data}
 
-Vous pouvez envoyer des demandes d’accès aux données individuelles par le biais de l’interface utilisateur de [](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Vous pouvez envoyer des demandes d’accès aux données individuelles par le biais de l’interface utilisateur de [&#128279;](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 L’[interface utilisateur de Privacy Service](https://privacyui.cloud.adobe.io/) vous permet de créer de nouvelles requêtes de tâche, soit en utilisant le [!UICONTROL Request Builder] soit en chargeant un fichier [!DNL JSON].
 
-Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
+Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [&#x200B; télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
 
 Nous comprenons votre implication dans le respect des demandes de confidentialité des données pendant la période définie par la loi.
 
 ## Demandes de suppression de données {#delete-data}
 
-Vous pouvez envoyer des demandes de suppression de données par le biais de l’interface utilisateur de [](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Vous pouvez envoyer des demandes de suppression de données par le biais de l’interface utilisateur de [&#128279;](https://privacyui.cloud.adobe.io) (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) ou en appelant l’API Privacy Service (documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) et [!DNL API] référence [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 L’[interface utilisateur de Privacy Service](https://privacyui.cloud.adobe.io/) vous permet de créer de nouvelles requêtes de tâche, soit en utilisant le [!UICONTROL Request Builder] soit en chargeant un fichier [!DNL JSON].
 
-Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [ télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
+Pour voir à quoi un fichier [!DNL JSON] valide ressemble, vous pouvez [&#x200B; télécharger un exemple JSON](../data-security-and-privacy/assets/access_request.json).
 
 Adobe comprend votre implication dans le respect des demandes de confidentialité des données des clients dans les 30 jours. Pour cette raison, [!DNL Adobe] s’engage à traiter votre demande de suppression de données dès que possible.
 
@@ -98,7 +98,7 @@ Reportez-vous à notre [documentation sur la liste des destinations basées sur 
 
 [!DNL Audience Manager] prend en charge les normes du secteur en ce qui concerne la gestion des désinscriptions. Lisez la suite pour obtenir des informations complètes sur les types de désinscription pris en charge par [!DNL Audience Manager].
 
-Bien que les demandes d’accès et de suppression de données soient gérées via [](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), les demandes d’exclusion sont actuellement prises en charge via [!DNL DCS API]. Lisez la suite pour savoir à quoi doivent ressembler les appels de [!DNL API] d’opt-out.
+Bien que les demandes d’accès et de suppression de données soient gérées via [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), les demandes d’exclusion sont actuellement prises en charge via [!DNL DCS API]. Lisez la suite pour savoir à quoi doivent ressembler les appels de [!DNL API] d’opt-out.
 
 ### Demandes d’exclusion globales
 
@@ -154,7 +154,7 @@ Suite à une exclusion au niveau du partenaire avec un appel d’identifiant dé
 * [!UICONTROL Destination] partenaires reçoivent la requête d’annulation de segment pour l’identifiant de [!DNL CRM] et le dernier identifiant d’appareil. La suppression de la segmentation fonctionne pour les destinations en [temps réel](data-privacy-requests.md#aam-partners-with-unsegmentation) et par lots.
 * Aucune donnée historique n’est supprimée.
 
-Lorsqu’[!DNL Audience Manager] reçoit une demande d’exclusion au niveau du partenaire, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d’erreur [ 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), avec le message [!UICONTROL "Encountered opt out tag"], au lieu de l’ID d’utilisateur [!DNL Audience Manager].
+Lorsqu’[!DNL Audience Manager] reçoit une demande d’exclusion au niveau du partenaire, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d’erreur [&#x200B; 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), avec le message [!UICONTROL "Encountered opt out tag"], au lieu de l’ID d’utilisateur [!DNL Audience Manager].
 
 Vous pouvez faire une demande d’exclusion d’identifiant déclaré avec les paires clé-valeur `d_cid` et `d_cid_ic`. Les paramètres hérités comme `d_dpid` et `d_dpuuid` fonctionnent toujours, mais sont considérés comme obsolètes. Voir [CID remplace DPID et DPUUID](../../reference/cid.md). Dans les exemples, le texte en *italique* indique un espace réservé de variable.
 

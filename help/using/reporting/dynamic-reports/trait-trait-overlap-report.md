@@ -65,7 +65,7 @@ L’illustration suivante présente de manière générale les éléments du rap
 
 >[!NOTE]
 >
->Les caractéristiques de dossier ne peuvent pas être comparées dans les rapports de chevauchement des caractéristiques. En créant un segment à l’aide d’une caractéristique de dossier particulière, vous pouvez effectuer une analyse via le [ rapport de chevauchement segment-à-caractéristique ](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+>Les caractéristiques de dossier ne peuvent pas être comparées dans les rapports de chevauchement des caractéristiques. En créant un segment à l’aide d’une caractéristique de dossier particulière, vous pouvez effectuer une analyse via le [&#x200B; rapport de chevauchement segment-à-caractéristique &#x200B;](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -140,7 +140,7 @@ La fenêtre contextuelle du rapport [!UICONTROL Trait-to-Trait Overlap] contient
 >
 >* [Filtrage des résultats du rapport avec les curseurs de données](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formes, couleurs et tailles utilisées dans les rapports dynamiques](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* Présentation des icônes et des outils de rapport ](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)[
+>* Présentation des icônes et des outils de rapport [&#128279;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapports de chevauchement : mise à jour des plannings et des tailles de segment minimum](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Échantillonnage des données et taux d’erreur dans certains rapports Audience Manager...](../../reporting/report-sampling.md)
 >* [Fichiers CSV pour les rapports de chevauchement](../../reporting/dynamic-reports/overlap-csv-files.md)

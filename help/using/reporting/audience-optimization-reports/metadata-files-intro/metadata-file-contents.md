@@ -76,7 +76,7 @@ Dans cet exemple, le titre du fichier est 20180921_0_1 et les trois colonnes du 
 333 Campaign C -1
 ```
 
-****
+**&#x200B;**
 
 Dans cet exemple, le titre du fichier est 20180827_0_2 et les trois colonnes du fichier sont les suivantes : Creative ID, Name et Parent ID.
 

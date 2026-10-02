@@ -43,10 +43,10 @@ Adobe prend en charge la dernière version majeure de ces navigateurs :
 
 * **Mozilla Firefox**
 
-  Obtenez la dernière version de Firefox sur [](https://www.mozilla.com/en-US/firefox).
+  Obtenez la dernière version de Firefox sur [&#128279;](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-  Obtenez la dernière version de Safari sur [](https://www.apple.com/safari/download).
+  Obtenez la dernière version de Safari sur [&#128279;](https://www.apple.com/safari/download).
 
 D’autres navigateurs peuvent fonctionner, mais ne sont pas pris en charge par nos équipes techniques et produit. Si vous rencontrez des problèmes lors de l’utilisation d’[!DNL Audience Manager], assurez-vous d’utiliser un navigateur à jour et pris en charge.

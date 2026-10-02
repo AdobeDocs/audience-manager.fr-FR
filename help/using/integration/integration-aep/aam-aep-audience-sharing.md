@@ -72,7 +72,7 @@ En outre, vos segments Experience Platform sont partagés avec d’autres soluti
 
 Consultez le tableau ci-dessous pour obtenir un aperçu des cas d’utilisation du partage d’audience :
 
-| **Cas d’utilisation** | **** | **Audience Manager** | **Principaux services** |
+| **Cas d’utilisation** | **&#x200B;**&#x200B;| **Audience Manager** | **Principaux services** |
 |---------|----------|---------|---------|
 | **Partage d’audiences** | <ul><li>Enrichissement des profils clients avec des données Audience Manager</li><li>Utilisation des données Audience Manager dans la segmentation Experience Platform</li></ul> | <ul><li>Ajout de données tierces aux segments</li><li>Modélisation algorithmique</li><li>Activation vers des destinations supplémentaires</li></ul> | Utiliser les segments Experience Platform dans d’autres solutions Experience Cloud, telles qu’Adobe Target, Advertising Cloud ou Marketo. |
 
@@ -178,13 +178,13 @@ Pour obtenir un exemple de segment créé automatiquement à partir d’un segme
 
 ## Prise en charge du contrôle de l’exportation des données Audience Manager dans Experience Platform {#aam-data-export-control-in-aep}
 
-Afin d’appliquer la conformité d’utilisation des données dans Experience Platform, tous les jeux de données et champs applicables doivent recevoir les [ libellés d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr) appropriés. En outre, les [politiques d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr) doivent être activées pour des actions marketing spécifiques par rapport à ces libellés, comme indiqué par le cadre [DULE (Data Usage Labeling and Enforcement)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework).
+Afin d’appliquer la conformité d’utilisation des données dans Experience Platform, tous les jeux de données et champs applicables doivent recevoir les [&#x200B; libellés d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=fr) appropriés. En outre, les [politiques d’utilisation des données](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=fr) doivent être activées pour des actions marketing spécifiques par rapport à ces libellés, comme indiqué par le cadre [DULE (Data Usage Labeling and Enforcement)](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework).
 
 Dans le processus de partage d’audiences entre Audience Manager et Experience Platform, tous les contrôles d’exportation de données appliqués aux segments Audience Manager sont traduits en libellés équivalents et en actions marketing reconnues par la gouvernance des données d’Experience Platform, et vice versa.
 
 >[!NOTE]
 >
->Pour des informations plus générales sur les contrôles d’exportation de données, reportez-vous à la documentation [ Contrôles d’exportation de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html).
+>Pour des informations plus générales sur les contrôles d’exportation de données, reportez-vous à la documentation [&#x200B; Contrôles d’exportation de données &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html).
 >
 >Ce document fournit une référence sur la manière dont des contrôles d’exportation de données Audience Manager spécifiques se mappent aux libellés d’utilisation des données et aux actions marketing dans Platform.
 
@@ -255,4 +255,4 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >
 >* [Présentation de Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 >* [Guide de l’utilisateur du créateur de segments d’](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
->* [Connecteur ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [Connecteur &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
