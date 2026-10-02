@@ -7,20 +7,28 @@ title: Chevauchement de segments et d’unités publicitaires
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: Audience Optimization Reports
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
-TQID: https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE
+TQID: 'https://experienceleague.adobe.com/J0eNLdT334hNl2VrLpNAVQwnF80e--iAkU39mQvEDkE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 390
+source-wordcount: '395'
 ht-degree: 1%
-
 ---
-
 # Chevauchement de segments et d’unités publicitaires{#segment-to-ad-unit-overlap}
 
 Le rapport Chevauchement des segments et des unités publicitaires s’affiche sous la forme d’un graphique thermique qui met en évidence les chevauchements importants et faibles entre vos unités publicitaires et les segments Audience Manager.
@@ -56,7 +64,7 @@ Votre rapport [!UICONTROL Segment to Ad Unit Overlap] pourrait ressembler à cel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> de l’unité publicitaire </span> </p> </td> 
+   <td colname="col1"> <p></span> de l’unité publicitaire <span class="wintitle"> </p> </td> 
    <td colname="col2"> <p>Nom de l'article en stock. Il peut s’agir, par exemple, de l’un de vos sites web ou d’un article sur votre site web. </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +81,7 @@ Votre rapport [!UICONTROL Segment to Ad Unit Overlap] pourrait ressembler à cel
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> pourcentage de chevauchement</span> </p> </td> 
-   <td colname="col2"> <p>Chevauchement entre les populations d’unités publicitaires et de segments. Il s’agit du nombre d’uniques de chevauchement <span class="wintitle"> exprimé en pourcentage des uniques en temps réel du segment </span><span class="wintitle">.</span> </p> </td> 
+   <td colname="col2"> <p>Chevauchement entre les populations d’unités publicitaires et de segments. Il s’agit du nombre d’uniques de chevauchement </span> exprimé en pourcentage des uniques en temps réel du segment <span class="wintitle"></span>. <span class="wintitle"></p> </td> 
   </tr> 
  </tbody> 
 </table>

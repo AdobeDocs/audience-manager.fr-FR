@@ -7,18 +7,21 @@ title: CID remplace DPID et DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
-TQID: https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q
+TQID: 'https://experienceleague.adobe.com/GvsmsrGtq3Y8XRzioO4wcd6VrIPDKiMybP4vEYUGx9Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # CID remplace DPID et DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Mettez à jour votre code pour utiliser `d_cid` ou `d_cid_ic` au lieu de `d_dpid` et `d_dpuuid`. Les variables DPID et DPUUID continueront à fonctionner, mais vous devez les considérer comme obsolètes. Cela inclut les variantes DPID et DPUUID sans le `d_ prefix` .
@@ -79,12 +82,12 @@ Les paires clé-valeur CID et CID_IC remplacent DPID et DPUUID. Ils fournissent 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code d’intégration de l’ID client (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Un code d’intégration <span class="term"> est un autre identifiant que vous pouvez utiliser à la place de l’identifiant de Source de données, attribué par </span> Audience Manager<span class="keyword">. </span> Voir <a href="../features/manage-datasources.md#create-data-source"> Création d’une Source de données</a> si vous devez configurer un code d’intégration. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Un code d’intégration </span> est un autre identifiant que vous pouvez utiliser à la place de l’identifiant de Source de données, attribué par <span class="keyword"> Audience Manager</span>. <span class="term">Voir <a href="../features/manage-datasources.md#create-data-source"> Création d’une Source de données</a> si vous devez configurer un code d’intégration. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voir aussi [&#x200B; Variables d’URL et syntaxe pour les identifiants déclarés](../features/declared-ids.md#variables-and-syntax).
+Voir aussi [ Variables d’URL et syntaxe pour les identifiants déclarés](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >

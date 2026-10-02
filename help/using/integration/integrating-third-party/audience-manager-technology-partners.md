@@ -6,17 +6,24 @@ keywords: activation ; partenaires d’activation, destination, destinations
 solution: Audience Manager
 title: Partenaires technologiques de Adobe Audience Manager
 feature: Third-party Integration
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 43%
-
+source-wordcount: '1440'
+ht-degree: 68%
 ---
-
 
 # Partenaires d’activation d’Audience Manager
 
-Cette page comprend uniquement les [&#x200B; Audience Manager actuelles](/help/using/features/destinations/add-edit-segments.md) intégrations serveur à serveur.  Pour plus d’informations sur une intégration, consultez sa liste [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant Adobe ou l’assistance clientèle.
+Cette page comprend uniquement les [ Audience Manager actuelles](/help/using/features/destinations/add-edit-segments.md) intégrations serveur à serveur.  Pour plus d’informations sur une intégration, consultez sa liste [](https://www.adobeexchange.com/experiencecloud.html) (le cas échéant) ou contactez votre consultant Adobe ou l’assistance clientèle.
 
 <br> 
 

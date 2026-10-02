@@ -6,18 +6,24 @@ solution: Audience Manager
 title: Prise en main des audiences prédictives
 feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-TQID: https://experienceleague.adobe.com/GxGaEIsjpvAqbm5AbaxmmLrgC09x4fslbZcJuShf1sE
+TQID: 'https://experienceleague.adobe.com/GxGaEIsjpvAqbm5AbaxmmLrgC09x4fslbZcJuShf1sE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '579'
 ht-degree: 2%
-
 ---
-
 # Prise en main des audiences prédictives {#predictive-audiences-getting-started}
 
 >[!IMPORTANT]
@@ -25,7 +31,7 @@ ht-degree: 2%
 
 ## Création d’un modèle d’audiences prédictives {#create-predictive-audiences}
 
-Avant de créer un modèle de [!UICONTROL Predictive Audiences], vous devez décider à quelle source de données propriétaire vous souhaitez affecter vos caractéristiques et segments de [!UICONTROL Predictive Audiences]. Vous pouvez utiliser une source de données propriétaire existante ou en créer une nouvelle. Consultez [Gérer les sources de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=fr) pour plus d’informations sur la création d’une source de données propriétaire.
+Avant de créer un modèle de [!UICONTROL Predictive Audiences], vous devez décider à quelle source de données propriétaire vous souhaitez affecter vos caractéristiques et segments de [!UICONTROL Predictive Audiences]. Vous pouvez utiliser une source de données propriétaire existante ou en créer une nouvelle. Consultez [Gérer les sources de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) pour plus d’informations sur la création d’une source de données propriétaire.
 
 Une fois que vous savez quelle source de données vous allez utiliser, procédez comme suit.
 

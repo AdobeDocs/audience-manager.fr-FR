@@ -6,23 +6,30 @@ title: Exclusion des caractéristiques des modèles algorithmiques
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 feature: Algorithmic Models
 exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
-TQID: https://experienceleague.adobe.com/E629v49xWYBTIP5wPBYeJY6ts1f2P0WDAhtNOPUuEKQ
+TQID: 'https://experienceleague.adobe.com/E629v49xWYBTIP5wPBYeJY6ts1f2P0WDAhtNOPUuEKQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: '653'
 ht-degree: 0%
-
 ---
-
 # Modélisation analogue : exclusion des caractéristiques {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] fournit des commandes supplémentaires dans votre workflow de modélisation, ce qui vous permet d’ajouter les barrières de sécurité nécessaires au modèle, en fonction de l’expertise de votre domaine et des exigences réglementaires. Utilisez l’option [!UICONTROL Exclusions] pour sélectionner les caractéristiques à ignorer lors de la création de modèles à partir d’une ou de plusieurs sources de données.
@@ -59,11 +66,11 @@ Utilisez le workflow [Créer un modèle](../../features/algorithmic-models/creat
 
 Si vous préférez des tutoriels vidéo, regardez notre démonstration vidéo pour l’exclusion des caractéristiques :
 
->[!VIDEO](https://video.tv.adobe.com/v/38132/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 De plus, regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures sur l’ensemble des appareils.
 
->[!VIDEO](https://video.tv.adobe.com/v/36727/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## Aspects importants et limites {#important-aspects-and-limitations}
 
@@ -99,16 +106,16 @@ Veuillez prendre note des aspects et limites suivants liés à [!UICONTROL Trait
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exclure la caractéristique de base </p> </td>
-   <td colname="col2"> <p>La caractéristique de ligne de base est exclue par défaut ; elle n’apparaît donc pas dans la liste des exclusions de la <b><span class="uicontrol"> lors de la création du modèle.</span></b> </p> </td>
+   <td colname="col2"> <p>La caractéristique de ligne de base est exclue par défaut ; elle n’apparaît donc pas dans la liste des exclusions de la </span></b> lors de la création du modèle. <b><span class="uicontrol"></p> </td>
   </tr>
  </tbody>
 </table>
 
 Regardez la vidéo ci-dessous pour savoir comment et pourquoi exclure des caractéristiques spécifiques d’un [!UICONTROL Look-Alike Model].
 
->[!VIDEO](https://video.tv.adobe.com/v/38132?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## Liens connexes
 
 * [À propos des caractéristiques algorithmiques](/help/using/features/algorithmic-models/understanding-models.md)
-* [Exclusion des caractéristiques - Tutoriel](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [Exclusion Des Caractéristiques - Tutoriel](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)

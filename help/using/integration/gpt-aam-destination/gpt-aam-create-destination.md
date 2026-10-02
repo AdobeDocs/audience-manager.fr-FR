@@ -7,30 +7,37 @@ title: Créer une destination GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
-TQID: https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE
+TQID: 'https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '295'
 ht-degree: 1%
-
 ---
-
 # Créer une destination GPT {#create-a-gpt-destination}
 
 Vous pouvez envoyer des segments qualifiés à [!DNL Google Ad Manager] par le biais d’une intégration côté client (côté navigateur) ou côté serveur. Si vous choisissez l’intégration côté client, vous devez créer une destination basée sur des cookies pour les [!DNL Google Publisher Tags] dans Audience Manager.
 
 ## Destinations
 
-Dans Audience Manager, un *`destination`* correspond à tout autre système (serveur de publicités, [!DNL DSP], réseau de publicités, etc.) avec lequel vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctionnalités de destination d’Audience Manager se trouvent dans *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
+Dans Audience Manager, un *`destination`* correspond à tout autre système (serveur de publicités, [!DNL DSP], réseau de publicités, etc.) avec lesquelles vous souhaitez partager des données. [!UICONTROL Destination Builder] fournit les outils qui vous permettent de créer et de gérer ces processus de diffusion de données. Les fonctionnalités de destination d’Audience Manager se trouvent dans *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Pour commencer, cliquez sur **[!UICONTROL Add New Destination]** et suivez les étapes ci-dessous.
 
 ## Informations fondamentales
 

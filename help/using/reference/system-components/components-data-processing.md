@@ -7,20 +7,28 @@ title: Composants de traitement de données
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: System Components
 exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
-TQID: https://experienceleague.adobe.com/pDRgRUAn6HDsZdibVzPS8mDRdyO3Hd7RdQItI-hOw7U
+TQID: 'https://experienceleague.adobe.com/pDRgRUAn6HDsZdibVzPS8mDRdyO3Hd7RdQItI-hOw7U'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '398'
 ht-degree: 1%
-
 ---
-
 # Composants de traitement de données{#data-processing-components}
 
 Les composants de traitement de données incluent Hadoop, Snowflake, SOLR et Tableau.
@@ -45,7 +53,7 @@ Les clients n’ont pas d’accès direct à ces systèmes. Cependant, les clien
 
 ## Snowflake {#snowflake}
 
-[&#128279;](https://www.snowflake.net/) est une base de données cloud volumineuse. Il fournit des données à de nombreux graphiques de tableaux de bord et aux zones de texte associées qui affichent le pourcentage de modification pour chaque élément du graphique. Si vous utilisez [!DNL Audience Manager] et consultez les rapports de tableau de bord, vous interagissez avec les données fournies par [!UICONTROL Snowflake].
+[](https://www.snowflake.net/) est une base de données cloud volumineuse. Il fournit des données à de nombreux graphiques de tableaux de bord et aux zones de texte associées qui affichent le pourcentage de modification pour chaque élément du graphique. Si vous utilisez [!DNL Audience Manager] et consultez les rapports de tableau de bord, vous interagissez avec les données fournies par [!UICONTROL Snowflake].
 
 
 
@@ -54,7 +62,7 @@ Les clients n’ont pas d’accès direct à ces systèmes. Cependant, les clien
 Il ne s’agit en aucun cas d’une liste complète, mais certains rapports de tableau de bord courants dont [!UICONTROL Snowflake] est responsable incluent :
 
 * [Rapport de variation des caractéristiques quotidiennes](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* Tous les rapports de chevauchement (voir la section [&#x200B; Rapports interactifs &#x200B;](/help/using/reporting/dynamic-reports/dynamic-reports.md) pour plus d’informations sur chaque rapport de chevauchement).
+* Tous les rapports de chevauchement (voir la section [ Rapports interactifs ](/help/using/reporting/dynamic-reports/dynamic-reports.md) pour plus d’informations sur chaque rapport de chevauchement).
 * [Rapport Signaux inutilisés](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}

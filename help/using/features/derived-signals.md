@@ -7,18 +7,23 @@ title: Signaux Dérivés
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
 feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
-TQID: https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU
+TQID: 'https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 # Signaux Dérivés {#derived-signals}
 
 Une [!UICONTROL derived signal] qualifie les visiteurs et visiteuses du site pour des caractéristiques supplémentaires en fonction d’une caractéristique qu’ils ou elles ont déjà vue. En d’autres termes, une caractéristique supplémentaire peut être dérivée d’une caractéristique actuellement exposée même si un utilisateur n’a jamais vu la nouvelle caractéristique auparavant.

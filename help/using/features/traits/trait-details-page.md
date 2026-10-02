@@ -8,23 +8,30 @@ uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: répartition des types d’identité, répartition des identités, rapports d’identité d’audience, entre appareils, ID entre appareils, ID d’appareil
 feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
-TQID: https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc
+TQID: 'https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '627'
 ht-degree: 0%
-
 ---
-
 # Page [!UICONTROL Trait] détails de l’application {#trait-details-page}
 
 La page de détails d’un [!UICONTROL trait] individuel fournit un aperçu des détails du [!UICONTROL trait], tels que le nom du [!UICONTROL trait], l’identifiant, les mesures de performances, les expressions qui définissent le [!UICONTROL trait], les segments auxquels il appartient et le journal d’audit [!UICONTROL trait]. Pour afficher ces détails, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** et cliquez sur le nom du [!UICONTROL trait] avec lequel vous souhaitez travailler.
@@ -57,10 +64,10 @@ Par [!UICONTROL onboarded traits], [!UICONTROL trait] qualification se produit u
 La [!UICONTROL Trait Graph] affiche les informations suivantes :
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]** : sélectionnez cette option pour afficher les résultats des [!UICONTROL traits] qui collectent des données pour les profils authentifiés. Lorsque vous sélectionnez cette option, seules les données du rapport [!UICONTROL Cross-Device ID] s’affichent et aucune donnée n’est présente sous le rapport [!UICONTROL Device ID].
-   * **[!UICONTROL Device ID]** : sélectionnez cette option pour afficher les résultats des [!UICONTROL traits] qui collectent des données pour les profils d’appareils. Lorsque vous sélectionnez cette option, seules les données du rapport [!UICONTROL Device ID] s’affichent et aucune donnée n’est présente sous le rapport [!UICONTROL Cross-Device ID].
+  * **[!UICONTROL Cross-Device ID]** : sélectionnez cette option pour afficher les résultats des [!UICONTROL traits] qui collectent des données pour les profils authentifiés. Lorsque vous sélectionnez cette option, seules les données du rapport [!UICONTROL Cross-Device ID] s’affichent et aucune donnée n’est présente sous le rapport [!UICONTROL Device ID].
+  * **[!UICONTROL Device ID]** : sélectionnez cette option pour afficher les résultats des [!UICONTROL traits] qui collectent des données pour les profils d’appareils. Lorsque vous sélectionnez cette option, seules les données du rapport [!UICONTROL Device ID] s’affichent et aucune donnée n’est présente sous le rapport [!UICONTROL Cross-Device ID].
 
-     ![trait-graph](assets/trait-summary.gif)
+    ![trait-graph](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]** : nombre d’utilisateurs uniques ayant ajouté ce [!UICONTROL trait] à leur profil au cours de la période donnée.
 * **[!UICONTROL Total Trait Population]** : nombre d’utilisateurs uniques actuellement qualifiés pour ce [!UICONTROL trait].
@@ -73,7 +80,7 @@ La [!UICONTROL Trait Graph] affiche les informations suivantes :
   >
   >Audience Manager n’affiche le rapport [!UICONTROL Identity Type Breakdown] que si vous disposez de [!UICONTROL cross-device] ID qualifiés pour le [!UICONTROL trait].
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32077?captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## Expression [!UICONTROL Trait] {#trait-expression}
 

@@ -7,21 +7,28 @@ title: Syntaxe et exemples du nom de fichier de données sortant
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-TQID: https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM
+TQID: 'https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '692'
 ht-degree: 5%
-
 ---
-
 # Nom du fichier de données sortant : syntaxe et exemples{#outbound-data-file-name-syntax-and-examples}
 
 Décrit les champs obligatoires, la syntaxe et les conventions utilisées pour nommer un fichier de données sortant.
@@ -30,7 +37,7 @@ Décrit les champs obligatoires, la syntaxe et les conventions utilisées pour n
 
 >[!NOTE]
 >
->Les éléments de style (`monospaced text`, *italique*, crochets `[ ]` `( )`, etc.) de ce document indiquent les éléments de code et les options. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
+>Les éléments de style (`monospaced text`, *italique*, crochets `[ ]` `( )`, etc.) dans ce document, indiquez les éléments de code et les options. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
 
 ## Éléments de syntaxe et de nom de fichier {#syntax-file-name}
 
@@ -68,10 +75,10 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>ID du fournisseur de données ou de la source de données. Cet identifiant identifie le type d’identifiant utilisateur présent dans le contenu du fichier. Les clés d’ID utilisateur les plus courantes sont les suivantes : </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> d’ID publicitaire </span> Google (brut, non haché) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - </span> d’ID publicitaire <span class="keyword"> Google (brut, non haché) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID pour les annonceurs </span> (brut, non haché) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID de fournisseur - ID d’utilisateur tiers (web/cookie) </li> 
-     </ul> </p> <p>Consultez les <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html?lang=fr">sources de données globales</a> pour en savoir plus.</p></td> 
+     </ul> </p> <p>Consultez les <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">sources de données globales</a> pour en savoir plus.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -106,7 +113,7 @@ Le tableau définit les éléments d’un nom de fichier de données sortant.
 
 Fichiers envoyés à un emplacement [!DNL Amazon S3], avec *`PID_ALIAS="XYZCustomer"`* et avec [!DNL Google Advertiser IDs] dans le contenu du fichier.
 
-Par exemple, fichiers incrémentiels :
+E.g. fichiers incrémentiels :
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
@@ -114,7 +121,7 @@ Par exemple, fichiers incrémentiels :
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
-Par exemple, fichiers complets :
+E.g. fichiers complets :
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
@@ -125,14 +132,14 @@ Par exemple, fichiers complets :
 
 Fichiers envoyés à [!DNL FTP] emplacement, sans *`PID_ALIAS`* et avec [!DNL Apple Advertiser IDs] dans le contenu du fichier :
 
-Par exemple, fichiers incrémentiels :
+E.g. fichiers incrémentiels :
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
  <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-Par exemple, fichiers complets :
+E.g. fichiers complets :
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
@@ -141,7 +148,7 @@ Par exemple, fichiers complets :
 
 **Scénario 3** : fichiers envoyés à [!DNL FTP] emplacement, avec *`PID_ALIAS="XYZCustomer"`* et avec un ID d’utilisateur tiers dans le contenu du fichier ( *`Vendor ID=45454`*) :
 
-Par exemple, fichiers incrémentiels :
+E.g. fichiers incrémentiels :
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
@@ -149,7 +156,7 @@ Par exemple, fichiers incrémentiels :
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-Par exemple, fichiers complets :
+E.g. fichiers complets :
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
@@ -164,7 +171,7 @@ Décrit les champs obligatoires, la syntaxe et les conventions utilisées pour o
 
 >[!NOTE]
 >
->Les éléments de style (`monospaced text`, *italique*, crochets `[ ]` `( )`, etc.) de ce document indiquent les éléments de code et les options. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
+>Les éléments de style (`monospaced text`, *italique*, crochets `[ ]` `( )`, etc.) dans ce document, indiquez les éléments de code et les options. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
 
 ### Syntaxe
 

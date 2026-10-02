@@ -8,20 +8,26 @@ title: À Propos De La Modélisation Similaire
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 feature: Algorithmic Models
 exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
-TQID: https://experienceleague.adobe.com/AZLt5bvhZWC7MSjlXsEuv86iEScaEDLaPfjHd7Xr5g0
+TQID: 'https://experienceleague.adobe.com/AZLt5bvhZWC7MSjlXsEuv86iEScaEDLaPfjHd7Xr5g0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1602
+source-wordcount: '1614'
 ht-degree: 0%
-
 ---
-
 # Comprendre les [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
 ## Rechercher de nouveaux utilisateurs avec [!UICONTROL Look-Alike Modeling] {#find-new-users}
@@ -65,7 +71,7 @@ Pour créer une ligne de base, [!UICONTROL TraitWeight] mesure toutes les [!UICO
 
 ### Étape 2 : Rechercher le même [!UICONTROL Traits] dans le [!UICONTROL Data Source]
 
-Après avoir créé une ligne de base à comparer, l’algorithme recherche des [!UICONTROL traits] identiques dans le [!UICONTROL data sources] sélectionné. Au cours de cette étape, [!UICONTROL TraitWeight] effectue un comptage de fréquence de toutes les [!UICONTROL traits] découvertes et les compare à la ligne de base. Cependant, contrairement à la ligne de base, les [!UICONTROL traits] peu fréquents sont classés plus haut que ceux qui apparaissent plus souvent. Les [!UICONTROL traits] rares présentent un haut degré de spécificité. [!UICONTROL TraitWeight] évalue les combinaisons de [!UICONTROL traits] de base communs et de [!UICONTROL data source] de [!UICONTROL traits] peu fréquents (hautement spécifiques) comme étant plus influentes ou souhaitables que [!UICONTROL traits] communes aux deux ensembles de données. En fait, notre modèle reconnaît ces grandes [!UICONTROL traits] communes et n’attribue pas de priorité excessive aux ensembles de données présentant des corrélations élevées. Les [!UICONTROL traits] rares bénéficient d’une priorité plus élevée, car ils sont plus susceptibles de représenter de nouveaux utilisateurs uniques que les [!UICONTROL traits] ayant des points communs importants à tous les niveaux.
+Après avoir créé une ligne de base à comparer, l’algorithme recherche des [!UICONTROL traits] identiques dans le [!UICONTROL data sources] sélectionné. Au cours de cette étape, [!UICONTROL TraitWeight] effectue un comptage de fréquence de toutes les [!UICONTROL traits] découvertes et les compare à la ligne de base. Cependant, contrairement à la ligne de base, les [!UICONTROL traits] peu fréquents sont classés plus haut que ceux qui apparaissent plus souvent. Les [!UICONTROL traits] rares présentent un haut degré de spécificité. [!UICONTROL TraitWeight] évalue les combinaisons de [!UICONTROL traits] de base communs et de [!UICONTROL traits] de [!UICONTROL data source] peu fréquents (hautement spécifiques) comme étant plus influentes ou souhaitables que [!UICONTROL traits] communes aux deux ensembles de données. En fait, notre modèle reconnaît ces grandes [!UICONTROL traits] communes et n’attribue pas de priorité excessive aux ensembles de données présentant des corrélations élevées. Les [!UICONTROL traits] rares bénéficient d’une priorité plus élevée, car ils sont plus susceptibles de représenter de nouveaux utilisateurs uniques que les [!UICONTROL traits] ayant des points communs importants à tous les niveaux.
 
 ### Étape 3 : Attribuer un poids
 

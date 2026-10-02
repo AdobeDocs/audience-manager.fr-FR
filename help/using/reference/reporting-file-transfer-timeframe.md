@@ -7,24 +7,30 @@ title: Impact des délais de diffusion des données et de traitement des fichier
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-TQID: https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts
+TQID: 'https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # Impact des délais de diffusion des données et de traitement des fichiers sur les rapports{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager reçoit une quantité énorme de données chaque jour. Cela affecte le temps nécessaire au traitement des données et à la génération des résultats du rapport. Le contenu de cette section décrit l’impact de ces intervalles de temps sur votre compte Audience Manager. De plus, les échéanciers et les calendriers décrits ici ne sont que des lignes directrices générales. Ces calendriers ne constituent pas des accords de niveau de service (SLA) ou des engagements liés à la diffusion des données. Adobe se réserve le droit de modifier les délais et horaires à tout moment et sans préavis.
@@ -42,8 +48,8 @@ Le tableau suivant répertorie et décrit les intervalles de temps dans nos rapp
 
 | Type de données | Description |
 |---|---|
-| Données En Temps Réel | Les nombres en temps réel pour aujourd’hui correspondent aux heures comprises entre 00 :00 et 23:59:59 UTC par rapport à hier. |
-| Données générales du rapport | Les données contenues dans les [Rapports généraux](../reporting/general-reports.md#general-reports-overview) dépendent de la réussite d’autres processus de traitement et de la quantité de données reçues pour un jour donné. La plupart du temps, [!UICONTROL General Report] données doivent être mises à jour à 18 :00 UTC par jour. |
+| Données En Temps Réel | Les numéros en temps réel pour aujourd’hui correspondent aux heures comprises entre 00:00 et 23:59:59 UTC d’hier. |
+| Données générales du rapport | Les données contenues dans les [Rapports généraux](../reporting/general-reports.md#general-reports-overview) dépendent de la réussite d’autres processus de traitement et de la quantité de données reçues pour un jour donné. La plupart du temps, les données [!UICONTROL General Report] doivent être mises à jour à 18 h 00 UTC chaque jour. |
 
 ## Transferts de fichiers entrants et sortants {#inbound-outbound-file-transfers}
 
@@ -52,7 +58,7 @@ Le tableau suivant répertorie et décrit les intervalles de temps dans nos rapp
 | Type de fichier | Description |
 |---|---|
 | Ingestion de fichiers entrants (données hors ligne) | Le traitement des fichiers est exécuté deux fois par jour. Ces procédures ingèrent des données et les préparent pour la diffusion. Les délais de livraison des fichiers varient car ils sont affectés par la quantité totale de données client qui doit être traitée. Vous devez vous attendre à une latence maximale de 48 heures entre le moment où le fichier est chargé dans Audience Manager et le moment où les données sont disponibles pour le compte rendu des performances et l’activation. |
-| Fichiers sortants (d’exportation) | Le traitement et la livraison des fichiers ont lieu une fois par jour, à environ 14 :00 UTC. Gardez à l’esprit que le traitement et la diffusion sont affectés par le nombre et la taille totaux de ces fichiers. Dans certains cas, le traitement des fichiers peut être retardé jusqu’à 24 heures. Dans ce cas, Audience Manager envoie 2 fichiers pour un jour donné au lieu de 1. Nous avertirons nos clients dans les rares cas où Audience Manager doit arrêter complètement le traitement d’un fichier. Dans ces conditions, il est difficile d&#39;estimer les délais de livraison des données sortantes. Pour déterminer si vous avez reçu un ensemble complet de fichiers, vérifiez l’horodatage et recherchez les jours manquants. Il s’agit d’un horodatage UTC UNIX à 13 chiffres qui enregistre l’heure de création du fichier. Voir [Transferts De Données Sortantes En Temps Réel](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
+| Fichiers sortants (d’exportation) | Le traitement et la livraison des fichiers ont lieu une fois par jour, vers 14h00 UTC. Gardez à l’esprit que le traitement et la diffusion sont affectés par le nombre et la taille totaux de ces fichiers. Dans certains cas, le traitement des fichiers peut être retardé jusqu’à 24 heures. Dans ce cas, Audience Manager envoie 2 fichiers pour un jour donné au lieu de 1. Nous avertirons nos clients dans les rares cas où Audience Manager doit arrêter complètement le traitement d’un fichier. Dans ces conditions, il est difficile d&#39;estimer les délais de livraison des données sortantes. Pour déterminer si vous avez reçu un ensemble complet de fichiers, vérifiez l’horodatage et recherchez les jours manquants. Il s’agit d’un horodatage UTC UNIX à 13 chiffres qui enregistre l’heure de création du fichier. Voir [Transferts De Données Sortantes En Temps Réel](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Fichiers journaux du serveur de publicités | Le traitement des fichiers est exécuté en temps quasi réel pour ingérer les enregistrements de fichiers journaux lorsque les fichiers horaires sont prêts. Le processus de préparation des fichiers pour le compte rendu des performances est exécuté une fois par jour. Les délais de livraison des fichiers varient car ils sont affectés par la quantité totale de données client qui doit être traitée. Vous devez vous attendre à une latence maximale de 48 heures entre le moment où vous chargez le fichier vers Audience Manager et le moment où les données sont disponibles pour la création de rapports et l’activation. |
 
 >[!MORELIKETHIS]

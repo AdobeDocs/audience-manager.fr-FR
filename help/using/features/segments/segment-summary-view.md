@@ -8,21 +8,28 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: répartition des types d’identité, répartition des identités, rapports d’identité d’audience, entre appareils, ID entre appareils, ID d’appareil
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-TQID: https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk
+TQID: 'https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # Page Détails du segment {#segment-summary-view}
 
 La page de détails d’un segment individuel fournit un aperçu des détails du segment, tels que le nom du segment, l’identifiant, les mesures de performances, les règles qui définissent le segment et les mappages de destination. Pour afficher ces détails, accédez à **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** et cliquez sur le nom du segment que vous souhaitez utiliser.
@@ -58,7 +65,7 @@ Sous les outils de gestion des segments, vous trouverez les informations sur les
 
    Regardez la vidéo ci-dessous pour un aperçu de [!UICONTROL Identity Type Breakdown].
 
-   >[!VIDEO](https://video.tv.adobe.com/v/32077?captions=fre_fr)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 1. **[!UICONTROL Segment Rules]:** répertorie les caractéristiques du segment avec les règles de qualification.
 1. **[!UICONTROL Destination Mappings]:** répertorie les mappages de destination pour le segment.

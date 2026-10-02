@@ -7,31 +7,41 @@ title: Fichiers de données pour les rapports Audience Optimization et les fichi
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-TQID: https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4
+TQID: 'https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Content structure
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '1009'
 ht-degree: 1%
-
 ---
-
 # Fichiers de données pour les rapports Audience Optimization et les fichiers journaux exploitables {#data-files-for-audience-optimization-reports}
 
 Un fichier de données contient des données d’impression, de clic ou de conversion. Lorsque le format est correct, vous pouvez importer ces données dans Audience Manager pour les afficher dans les [Rapports Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) et créer des caractéristiques à l’aide des données via [Fichiers journaux exploitables](/help/using/integration/media-data-integration/actionable-log-files.md). Formatez vos fichiers de données selon ces spécifications dans cette section.
 
 ## Présentation {#overview}
 
-Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les [Rapports &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
+Un fichier de données correctement nommé et formaté vous permet d’importer des données d’impression, de clic ou de conversion dans les [Rapports ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Cela s’avère utile lorsque vous travaillez avec un partenaire qui n’est pas intégré à [!DNL Audience Manager] et que vous souhaitez utiliser ses données dans cette suite de rapports. Ce processus nécessite des fichiers distincts pour les données d’impression, de clic et de conversion. Ne mélangez pas ces événements dans un seul fichier.
 
 Un fichier de données doit être accompagné d’un fichier de métadonnées. Le contenu du fichier de métadonnées fait correspondre les informations du fichier de données aux libellés lisibles par l’utilisateur dans les menus de rapport. Pour plus d’informations, consultez [Présentation et mappages des fichiers de métadonnées](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -85,7 +95,7 @@ Le tableau ci-dessous répertorie et décrit les en-têtes de colonne de votre f
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
-   <td colname="col2"> <p>Votre identifiant pour un visiteur du site, également appelé identifiant utilisateur unique du fournisseur de données <span class="term"> ou DPUUID.</span> </p> </td> 
+   <td colname="col2"> <p>Votre identifiant pour un visiteur du site, également appelé identifiant utilisateur unique du fournisseur de données </span> ou DPUUID. <span class="term"></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID publicitaire </p> </td> 
@@ -212,4 +222,4 @@ Pour mettre à jour vos données, envoyez un fichier contenant toutes les impres
 
 ## Étapes suivantes {#next-steps}
 
-Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [&#x200B; Présentation et mappages des fichiers de métadonnées &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Examinez les exigences relatives à la dénomination et à la création des fichiers de métadonnées. Pour commencer, reportez-vous à la section [ Présentation et mappages des fichiers de métadonnées ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

@@ -7,22 +7,30 @@ title: Transferts De Données Sortantes En Temps Réel
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
+TQID: 'https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '695'
 ht-degree: 2%
-
 ---
-
 # Transferts De Données Sortantes En Temps Réel {#real-time-outbound-data-transfers}
 
 Le processus de transfert de données en temps réel sortant fournit des données utilisateur sous la forme d’une série de messages au format [!DNL JSON] à une plateforme de destination.
@@ -139,7 +147,7 @@ Le tableau suivant définit les éléments du fichier de données [!DNL JSON] qu
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Supprimé d’un segment en fonction de l’intervalle de durée de vie <a href="../../../features/traits/segment-ttl-explained.md"> du segment</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Déplacement vers un état inactif s’ils n’ont pas été vus au cours des 120 derniers jours. </li>
      <li>Supprimé en raison d’une demande de modification de la confidentialité (par exemple, <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Tous les identifiants de partenaire synchronisés avec un identifiant <span class="keyword"> </span> recevront l’indicateur <code> "Status":"0"</code> lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
+    </ul> <p>Tous les identifiants de partenaire synchronisés avec un identifiant </span> <span class="keyword"> recevront l’indicateur <code> "Status":"0"</code> lorsqu’un utilisateur n’est pas segmenté. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 

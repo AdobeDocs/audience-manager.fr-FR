@@ -7,19 +7,23 @@ title: Renvoyer une destination par ID de destination
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
-TQID: https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc
+TQID: 'https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 2%
-
 ---
-
 # Renvoyer une destination par ID de destination {#return-a-destination-by-destination-id}
 
 Une méthode `GET` qui renvoie la destination pour la `destinationId` spécifiée.
@@ -80,7 +84,7 @@ Une méthode `GET` qui renvoie toutes les destinations pour le partenaire spéci
 
 ### Paramètres de requête facultatifs
 
-Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient des propriétés *all* pour un objet . Définissez ces options dans la chaîne de requête lors de la transmission de cette requête au [!DNL API]. Voir [&#x200B; Paramètres facultatifs &#x200B;](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui renvoient des propriétés *all* pour un objet . Définissez ces options dans la chaîne de requête lors de la transmission de cette requête au [!DNL API]. Voir [ Paramètres facultatifs ](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -100,7 +104,7 @@ Vous pouvez utiliser ces paramètres facultatifs avec des méthodes d’API qui 
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Trie et renvoie les résultats en fonction de la propriété JSON<span class="keyword"> </span> spécifiée. </td>
+   <td colname="col2">Trie et renvoie les résultats en fonction de la propriété JSON</span> <span class="keyword"> spécifiée. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>

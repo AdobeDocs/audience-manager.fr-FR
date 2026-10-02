@@ -7,27 +7,38 @@ title: Sécurité des données dans Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-TQID: https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA
+TQID: 'https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 92%
-
+source-wordcount: '1022'
+ht-degree: 89%
 ---
-
 # Sécurité des données dans Audience Manager {#data-security}
 
 Audience Manager prend très au sérieux la sécurité et la confidentialité des données. Nous nous efforçons d’assurer la sécurité de nos systèmes et de protéger vos données importantes.
@@ -75,7 +86,7 @@ Processus qui assurent la protection des informations personnelles. Pour plus d�
 
 Processus qui assurent la protection des données détenues par des clients individuels.
 
-**Partitionnement des données des caractéristiques :** vos données ([!UICONTROL traits], identifiants, etc.) sont partitionnées par le client. Cela permet d’éviter l’exposition accidentelle de différents clients aux informations. Par exemple, les données de caractéristiques des cookies sont partitionnées par client et stockées dans un sous-domaine spécifique au client. Elles ne peuvent pas être lues ni utilisées accidentellement par un autre client d’Audience Manager. En outre, les données de caractéristiques stockées dans les [!UICONTROL Profile Cache Servers (PCS)] sont également partitionnées par client. Cela empêche d’autres clients d’utiliser accidentellement vos données dans un appel d’événement ou une autre requête.
+**Partitionnement des données Trait :** vos données ([!UICONTROL traits], identifiants, etc.) est partitionné par le client. Cela permet d’éviter l’exposition accidentelle de différents clients aux informations. Par exemple, les données de caractéristiques des cookies sont partitionnées par client et stockées dans un sous-domaine spécifique au client. Elles ne peuvent pas être lues ni utilisées accidentellement par un autre client d’Audience Manager. En outre, les données de caractéristiques stockées dans les [!UICONTROL Profile Cache Servers (PCS)] sont également partitionnées par client. Cela empêche d’autres clients d’utiliser accidentellement vos données dans un appel d’événement ou une autre requête.
 
 **Partitionnement des données dans les rapports :** les identifiants client font partie de la clé d’identification dans tous les tableaux de rapports, et les requêtes de rapport sont filtrées par identifiant. Cela permet d’empêcher l’affichage de vos données dans les rapports d’un autre client d’Audience Manager.
 
@@ -93,7 +104,7 @@ Pour ajouter un chiffrement PGP à vos fichiers de données, voir [Chiffrement P
 
 ## Protection des données par échappement {#escaping-data}
 
-Il faut souligner que [!DNL Audience Manager] n’échappe pas les données sortantes pour les protéger contre un éventuel script intersite (XSS), etc. L’échappement des données entrantes relève de la responsabilité du client.
+Notez que [!DNL Audience Manager] n’échappe pas les données sortantes afin de les sécuriser contre d’éventuels scripts entre sites (XSS), etc. Il incombe au client d’échapper les données entrantes.
 
 ## HTTP - Strict-Transport-Security {#hsts}
 

@@ -7,25 +7,34 @@ title: Rapport Quotidien Sur Les Variations De Caractéristiques
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
-TQID: https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY
+TQID: 'https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '723'
 ht-degree: 0%
-
 ---
-
 # Rapport Quotidien Sur Les Variations De Caractéristiques {#daily-trait-variation-report}
 
 Ce rapport renvoie une liste des caractéristiques qui ont été réalisées au moins 10 000 fois au cours des 30 jours précédant la ou les dates sélectionnées et qui présentent un écart type supérieur ou égal à 1,7 dans les deux sens sur le même intervalle de temps. Le rapport vous permet d’évaluer la façon dont le nombre d’impressions d’utilisateurs uniques d’une caractéristique fluctue au fil du temps.
@@ -48,7 +57,7 @@ La colonne du milieu contient une liste de caractéristiques, identifiées par [
 
 La colonne [!UICONTROL Standard Deviation] affiche des graphiques à barres avec code-couleur qui indiquent l’écart type de chaque caractéristique sur l’intervalle sélectionné. Les barres rouges indiquent les caractéristiques avec un écart type négatif (les points de données ont tendance à être inférieurs à la moyenne). Les barres vertes indiquent les caractéristiques avec un écart type positif (les points de données ont tendance à être supérieurs à la moyenne). Placez le pointeur de la souris sur une barre pour afficher une boîte de dialogue pop-up contenant plus d’informations et d’options permettant de conserver ou d’exclure cette caractéristique et d’afficher plus d’informations.
 
-Des icônes s’affichent au bas du rapport pour vous permettre d’exporter des données dans divers formats, d’annuler les modifications que vous avez apportées au rapport (telles que l’exclusion de caractéristiques), d’activer ou de désactiver les mises à jour automatiques et d’actualiser les données du rapport. Voir [&#x200B; Présentation des icônes de rapport et des outils](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+Des icônes s’affichent au bas du rapport pour vous permettre d’exporter des données dans divers formats, d’annuler les modifications que vous avez apportées au rapport (telles que l’exclusion de caractéristiques), d’activer ou de désactiver les mises à jour automatiques et d’actualiser les données du rapport. Voir [ Présentation des icônes de rapport et des outils](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
 ## Cas d’utilisation {#use-cases}
 

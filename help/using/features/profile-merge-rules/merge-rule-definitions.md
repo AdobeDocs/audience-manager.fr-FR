@@ -7,26 +7,36 @@ title: Options De Règle De Fusion De Profil Définies
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-TQID: https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc
+TQID: 'https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # Options de [!UICONTROL Profile Merge Rules] définies {#profile-merge-rule-options-defined}
 
 Les options [!UICONTROL profile merge rule] vous permettent de contrôler le type de données que [!DNL Audience Manager] utilisez pour la segmentation. Un [!UICONTROL profile merge rule] peut inclure des profils d’appareil mappés par le graphique d’appareil [!UICONTROL Profile Link] et/ou d’autres fournisseurs tiers de graphique d’appareil intégrés à [!DNL Audience Manager]. Vous pouvez créer 4 [!UICONTROL Profile Merge Rules] maximum. Le quatrième [!UICONTROL Profile Merge Rule] est disponible exclusivement pour les clients qui ont acheté le module complémentaire [!UICONTROL People-Based Destinations].
@@ -44,7 +54,7 @@ Vous créez un [!UICONTROL Profile Merge Rule] en effectuant une sélection parm
 | [!UICONTROL No Cross-Device Profile] | [!UICONTROL Device Profile] | Tous les clients | Temps réel et par lots | Oui | [Ciblage des appareils](merge-rule-targeting-options.md#device-personalization) |
 | [!UICONTROL No Cross-Device Profile] | [!UICONTROL External Device Graph] | Tous les clients | Temps réel et par lots | Non | [Ciblage d’appareil étendu](external-graph-use-cases.md#audience-expansion) |
 | [!UICONTROL Current Authenticated Profiles] | [!UICONTROL No Device Profile] | Tous les clients | Temps réel uniquement | Non | [Ciblage des appareils partagés](merge-rule-targeting-options.md#target-shared-devices) |
-| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Device Profile] | Tous les clients | Temps réel et par lots | Oui | [&#x200B; Ciblage en ligne/hors ligne &#x200B;](merge-rule-targeting-options.md#device-household-targeting) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Device Profile] | Tous les clients | Temps réel et par lots | Oui | [ Ciblage en ligne/hors ligne ](merge-rule-targeting-options.md#device-household-targeting) |
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Profile Link Device Graph] | Tous les clients | Temps réel et par lots | Oui | [Ciblage inter-appareils](profile-link-use-case.md#cross-device-personalization) |
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] | Tous les clients | Temps réel et par lots | Non | [Ciblage avancé sur l’ensemble des appareils](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | S.O. | Exclusif aux clients [Destinations basées sur les personnes](../destinations/people-based-destinations-overview.md) | Lot uniquement | Non | [Ciblage des destinations basées sur les personnes](merge-rule-targeting-options.md#all-cross-device) |
@@ -96,7 +106,7 @@ Les [!UICONTROL Cross-Device Options] vous permettent de sélectionner des utili
 
 ## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-La [!UICONTROL Cross-Device Profile Options] répertorie vos [!UICONTROL cross-device data sources]. Ces options utilisent les noms que vous avez fournis lors de la création d’une [!UICONTROL cross-device] de [!UICONTROL data source] (voir [Création d’une Source de données entre appareils](merge-rules-start.md#create-data-source)). Vous pouvez sélectionner jusqu’à 3 [!UICONTROL cross-device data sources] à utiliser avec chaque règle de profil. Les [!UICONTROL Authenticated Profile Options] sont disponibles lorsque vous choisissez **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]**.
+La [!UICONTROL Cross-Device Profile Options] répertorie vos [!UICONTROL cross-device data sources]. Ces options utilisent les noms que vous avez fournis lors de la création d’une [!UICONTROL data source] de [!UICONTROL cross-device] (voir [Création d’une Source de données entre appareils](merge-rules-start.md#create-data-source)). Vous pouvez sélectionner jusqu’à 3 [!UICONTROL cross-device data sources] à utiliser avec chaque règle de profil. Les [!UICONTROL Authenticated Profile Options] sont disponibles lorsque vous choisissez **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]**.
 
 ## [!UICONTROL Device Options] {#device-options}
 

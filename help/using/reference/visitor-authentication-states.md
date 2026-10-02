@@ -8,21 +8,23 @@ title: États de l’authentification des visiteurs dans Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-TQID: https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk
+TQID: 'https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '331'
 ht-degree: 2%
-
 ---
-
 # États de l’authentification des visiteurs dans Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 Le statut d’authentification du visiteur dans Audience Manager détermine si les nouvelles informations de caractéristiques sont écrites dans le profil authentifié du visiteur ou sur le profil de l’appareil à partir duquel les données ont été collectées. Audience Manager gère de la même manière les statuts d’authentification des identifiants visiteur UNKNOWN et LOGGED_OUT dans les appels d’événement.
 
-À partir [!DNL Experience Cloud] service d’ID version 1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur [statut d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr). [!DNL Audience Manager] traite les caractéristiques réalisées différemment, selon le statut d’authentification transmis dans l’appel et la [règle de fusion de profil](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
+À partir [!DNL Experience Cloud] service d’ID version 1.5+, la méthode `setCustomerID` inclut l’objet `AuthState` facultatif. `AuthState` identifie les visiteurs en fonction de leur [statut d&#39;authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] traite les caractéristiques réalisées différemment, selon le statut d’authentification transmis dans l’appel et la [règle de fusion de profil](../features/profile-merge-rules/merge-rules-dashboard.md) que vous utilisez pour la segmentation.
 
 ## Statut d’authentification : INCONNU {#auth-status-unknown}
 
@@ -60,4 +62,4 @@ Exemple d’appel (la valeur de requête correspondant au statut d’authentific
 
 >[!MORELIKETHIS]
 >
->* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr)
+>* [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)

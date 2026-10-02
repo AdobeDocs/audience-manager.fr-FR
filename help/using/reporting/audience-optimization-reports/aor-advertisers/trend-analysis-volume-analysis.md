@@ -7,19 +7,26 @@ title: Rapports d'analyse des tendances et d'analyse des volumes
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: Audience Optimization Reports
 exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
-TQID: https://experienceleague.adobe.com/Zf9sEDyjdYOQbb3fterC5AIJcWXsrfhG0fHlvFM3XAk
+TQID: 'https://experienceleague.adobe.com/Zf9sEDyjdYOQbb3fterC5AIJcWXsrfhG0fHlvFM3XAk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '177'
 ht-degree: 0%
-
 ---
-
 # Rapports [!UICONTROL Trend Analysis] et [!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
 
 Ces rapports renvoient des données sur les impressions, les taux de clic publicitaire et les conversions pour un large éventail de dimensions publicitaires. Comparez les tendances et le volume des mesures sélectionnées afin d’obtenir une meilleure vue d’ensemble des performances de votre campagne au fil du temps.

@@ -8,26 +8,36 @@ title: Caractéristiques du dossier Généralités
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+TQID: 'https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # Caractéristiques du dossier : À propos de {#folder-traits-about}
 
 [!UICONTROL Folder traits] vous permettent d’agréger automatiquement les caractéristiques qui se trouvent dans le même dossier et tous les dossiers enfants dans un segment ciblable.
@@ -42,7 +52,7 @@ Une [!UICONTROL folder trait] contient toutes les caractéristiques d’un dossi
 
         `*` Brands (petit-enfant)
 
-[!UICONTROL Folder traits] qualifier tous les utilisateurs de ces dossiers dans un [!DNL Electronics] de [!UICONTROL Folder Trait] créé automatiquement (en fonction du nom du dossier parent). Ce processus se répète à mesure que vous descendez dans la structure des fichiers. Dans ce cas, les caractéristiques du dossier capturent tous les utilisateurs dans les dossiers Ordinateurs portables et Marques dans un [!UICONTROL Folder Trait] Ordinateurs portables créé automatiquement.
+[!UICONTROL Folder traits] qualifier tous les utilisateurs de ces dossiers dans un [!UICONTROL Folder Trait] de [!DNL Electronics] créé automatiquement (en fonction du nom du dossier parent). Ce processus se répète à mesure que vous descendez dans la structure des fichiers. Dans ce cas, les caractéristiques du dossier capturent tous les utilisateurs dans les dossiers Ordinateurs portables et Marques dans un [!UICONTROL Folder Trait] Ordinateurs portables créé automatiquement.
 
 Les [!UICONTROL Folder traits] peuvent être sélectionnés dans les expressions de segment. La sélection d’une [!UICONTROL folder trait] équivaut à sélectionner toutes les caractéristiques de ce dossier et de ses sous-dossiers avec un regroupement [!UICONTROL OR].
 
@@ -62,7 +72,7 @@ Dans ce cas, le [!DNL Automobile Folder Trait] a 7 réalisations.
 
 ## Rapports sur les caractéristiques du dossier {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] capturer tous les utilisateurs à partir des caractéristiques de la structure de dossiers située sous eux. Si vous déplacez une caractéristique d’un dossier vers un autre dossier, la modification se propage à nos [&#x200B; serveurs de collecte de données &#x200B;](../../reference/system-components/components-data-collection.md) comme un changement de règle de caractéristique. Les mises à jour des rapports de la prochaine exécution de création de rapports reflètent cette modification sur les périodes de création de rapports (1, 7, 14, 30, 60, 90). Les anciens nombres de rapports des jours précédents ne changeront pas.
+[!UICONTROL Folder traits] capturer tous les utilisateurs à partir des caractéristiques de la structure de dossiers située sous eux. Si vous déplacez une caractéristique d’un dossier vers un autre dossier, la modification se propage à nos [ serveurs de collecte de données ](../../reference/system-components/components-data-collection.md) comme un changement de règle de caractéristique. Les mises à jour des rapports de la prochaine exécution de création de rapports reflètent cette modification sur les périodes de création de rapports (1, 7, 14, 30, 60, 90). Les anciens nombres de rapports des jours précédents ne changeront pas.
 
 ## Autorisations des contrôles d’accès basés sur les rôles {#role-based-access-controls}
 
@@ -80,4 +90,4 @@ Découvrez comment attribuer des autorisations [!UICONTROL RBAC] dans notre [doc
 | Type de caractéristique | [!UICONTROL Onboarded traits] et [!UICONTROL algorithmic traits] contribuent au plus 1 réalisation à la fréquence d&#39;un [!UICONTROL folder trait]. |
 | Déplacement de caractéristiques entre des dossiers | Le déplacement d’une caractéristique d’un dossier à un autre disqualifie cette caractéristique du premier dossier et la qualifie pour le deuxième [!UICONTROL folder trait]. Cela signifie que si vous supprimez ou déplacez une caractéristique du dossier, les utilisateurs de la population de la caractéristique ne seront pas segmentés des segments en utilisant la caractéristique du dossier comme expression de segment. <br> Lors du mappage de segments ou de suites de rapports Adobe Analytics à votre organisation Experience Cloud, Audience Manager crée automatiquement de nouveaux segments et caractéristiques en lecture seule correspondants. Vous ne pouvez pas modifier ni changer l’emplacement de stockage de ces caractéristiques à partir d’Audience Manager. Cependant, toute modification que vous apportez à vos segments ou suites de rapports Adobe Analytics mappés est répercutée dans Audience Manager. |
 | Variables système | [!UICONTROL Folder traits] ne peut pas être réalisée dans les appels d’événement à l’aide du paramètre `d_sid` . |
-| Création de rapports   | [!UICONTROL Folder traits] caractéristiques sont calculées automatiquement et n’apparaissent pas dans les **[!UICONTROL Overlap Reports]**. |
+| Création de rapports | [!UICONTROL Folder traits] caractéristiques sont calculées automatiquement et n’apparaissent pas dans les **[!UICONTROL Overlap Reports]**. |

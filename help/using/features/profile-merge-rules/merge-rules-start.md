@@ -7,26 +7,36 @@ title: Prise en main des règles de fusion de profils
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-TQID: https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc
+TQID: 'https://experienceleague.adobe.com/tK8hkKLaE-jkzO780-SIHxrwm7VhqnvoL-4G1nH43Cc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: e8a4c7eb-7254-4984-ac46-e651a57c7e39
+    internal-label: SDKs
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1325'
 ht-degree: 1%
-
 ---
-
 # Prise en main des règles de fusion de profils {#getting-started-with-profile-merge-rules}
 
 Pour créer des [!UICONTROL Profile Merge Rules], passez en revue et suivez les étapes de chacune des procédures décrites dans cette section.
@@ -57,7 +67,7 @@ Pour remplir la section [!UICONTROL Data Source Details] :
 
 ## Contrôles des exportations de données {#export-controls}
 
-Les [&#x200B; Contrôles d’exportation de données &#x200B;](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
+Les [ Contrôles d’exportation de données ](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à une source de données et à une destination. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 ## Paramètres du Source de données {#settings}
 
@@ -97,7 +107,7 @@ Pour remplir la section [!UICONTROL Basic Information] :
 
 ## Contrôles des exportations de données {#data-export-controls}
 
-Les [&#x200B; Contrôles d’exportation de données &#x200B;](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à vos [!UICONTROL Profile Merge Rule]. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
+Les [ Contrôles d’exportation de données ](../data-export-controls.md) sont des règles de classification facultatives que vous pouvez appliquer à vos [!UICONTROL Profile Merge Rule]. Ils vous empêchent d’envoyer des données à une destination lorsque cette action enfreint un accord d’utilisation ou de confidentialité des données. Ignorez cette section si vous n’utilisez pas [!UICONTROL Data Export Controls].
 
 ## Configuration de la règle de fusion de profils {#profile-merge-rule-setup}
 
@@ -107,7 +117,7 @@ Pour remplir la section [!UICONTROL Proflie Merge Rule Setup] :
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
-2. Sélectionnez une **[!UICONTROL Authenticated Profile Option]** (jusqu’à 3, maximum). Il s’agit des [&#x200B; sources de données inter-appareils](merge-rules-start.md) que vous avez créées précédemment.
+2. Sélectionnez une **[!UICONTROL Authenticated Profile Option]** (jusqu’à 3, maximum). Il s’agit des [ sources de données inter-appareils](merge-rules-start.md) que vous avez créées précédemment.
 3. Sélectionnez un **[!UICONTROL Device Option]**. Les options incluent :
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
@@ -163,7 +173,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Pour plus d’informations, consultez [Création d’une Source de données entre appareils](#create-data-source) et [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr).
+Pour plus d’informations, consultez [Création d’une Source de données entre appareils](#create-data-source) et [ID de client et états d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Configuration de la fonction `DIL.create`
 
@@ -178,7 +188,7 @@ var vDil = DIL.create({
 });
 ```
 
-Dans la paire clé-valeur d’espace de noms, la variable `*`MCORG`*` est votre identifiant d’organisation [!DNL Experience Cloud]. Si vous ne disposez pas de cet identifiant, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin d’autorisations d’administrateur pour afficher ce tableau de bord. Voir [Administration : services principaux](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+Dans la paire clé-valeur d’espace de noms, la variable `*`MCORG`*` est votre identifiant d’organisation [!DNL Experience Cloud]. Si vous ne disposez pas de cet identifiant, vous pouvez le trouver dans la section [!UICONTROL Administration] du tableau de bord [!DNL Experience Cloud]. Vous avez besoin d’autorisations d’administrateur pour afficher ce tableau de bord. Voir [Administration : services principaux](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configuration des SDK
 
@@ -228,15 +238,15 @@ Vérifiez les méthodes dans votre code [!DNL SDK] qui vous permettent de transm
     </code></p>
     <p> <b>Exemple :</b> </p><p>
     <code class="javascript">
-      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
  </tbody>
 </table>
 
-Voir aussi [Méthodes Audience Manager pour Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=fr) et [Méthodes Audience Manager pour iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=fr).
+Voir aussi [Méthodes Audience Manager pour Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) et [Méthodes Audience Manager pour iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >

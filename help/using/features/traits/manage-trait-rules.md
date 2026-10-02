@@ -1,5 +1,5 @@
 ---
-description: Dans le créateur de caractéristiques, le créateur d’expressions vous permet de créer et de tester des règles qui établissent les exigences de qualification des audiences. Les règles se composent de paires clé-valeur telles que « color == blue » ou « price &gt; 100 ». Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
+description: Dans le créateur de caractéristiques, le créateur d’expressions vous permet de créer et de tester des règles qui établissent les exigences de qualification des audiences. Les règles se composent de paires clé-valeur telles que « color == blue » ou « price > 100 ». Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions booléennes déterminent la relation entre les groupes de règles.
 seo-description: In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price &gt; 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
 seo-title: Managing Trait Rules
 solution: Audience Manager
@@ -7,16 +7,21 @@ title: Gestion des règles de caractéristiques
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
-TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
+TQID: 'https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '686'
 ht-degree: 0%
-
 ---
-
 # Gestion des règles de caractéristiques {#managing-trait-rules}
 
 En [!UICONTROL Trait Builder], le [!UICONTROL Expression Builder] vous permet de créer et de tester des règles qui établissent les exigences de qualification d’audience. Les règles se composent de paires clé-valeur telles que `color == blue` ou `price > 100`. Les opérateurs de comparaison établissent la relation entre les clés et les valeurs. Les expressions [!DNL Boolean] déterminent la relation entre les groupes de règles.
