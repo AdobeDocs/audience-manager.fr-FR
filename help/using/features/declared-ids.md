@@ -8,25 +8,34 @@ title: ID déclarés
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-TQID: https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc
+TQID: 'https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+    internal-label: ID syncs
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1151
+source-wordcount: '1222'
 ht-degree: 8%
-
 ---
-
 # [!UICONTROL Declared IDs] {#declared-ids}
 
 Fonctionnement, configuration [!UICONTROL declared IDs] procédures, exemples de code et variables.
@@ -49,7 +58,7 @@ Certains navigateurs et la plupart des appareils mobiles n’acceptent pas les [
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Appel d’événement</b> </td> 
-   <td colname="col2"> <p>Pour fonctionner, vous avez besoin <span class="wintitle"> code de </span> DIL et du <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr" format="https" scope="external"> Adobe Experience Platform Identity Service </a> sur la page. <span class="wintitle"> </span> DIL obtient <span class="wintitle"> identifiants déclarés </span> à partir de la fonction <code> setVisitorID </code> fournie par le <span class="keyword"> du service d’identités de Adobe Experience Platform </span> et le transmet à <span class="keyword">’</span> Audience Manager. </p> </td> 
+   <td colname="col2"> <p>Pour fonctionner, vous avez besoin <span class="wintitle"> code de </span> DIL et du </a> Adobe Experience Platform Identity Service <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr" format="https" scope="external"> sur la page. <span class="wintitle"> Le </span> DIL récupère <span class="wintitle"> identifiants déclarés </span> de la fonction <code> setVisitorID </code> fournie par le </span> Adobe Experience Platform Identity Service <span class="keyword"> et les transmet à <span class="keyword">’</span> Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de correspondance</b> </td> 
@@ -72,7 +81,7 @@ Pour commencer, vous devez configurer le service d’ID de [!DNL Experience Clou
 
 Le processus [!UICONTROL declared ID] respecte les préférences des visiteurs du site pour leur permettre de se désabonner du ciblage [!DNL Audience Manager] par votre site web. Lorsqu&#39;[!DNL Audience Manager] reçoit une demande d&#39;opt-out, le [!DNL JSON] renvoyé par le [!DNL DCS] contient le code d&#39;erreur 171, avec le message `Encountered opt out tag`, au lieu de l&#39;identifiant utilisateur [!DNL Audience Manager].
 
-* [!DNL Audience Manager] pouvez transmettre un opt-out [!UICONTROL declared ID] avec un [!DNL Audience Manager] [!UICONTROL UUID] dans le [!DNL URL].
+* [!DNL Audience Manager] pouvez transmettre un opt-out [!UICONTROL declared ID] avec un [!UICONTROL UUID] [!DNL Audience Manager] dans le [!DNL URL].
 * Le processus d’opt-out [!UICONTROL declared ID] est stocké dans le [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) sur une base par partenaire. Il n’existe aucune désinscription au niveau de la plateforme à l’aide de [!UICONTROL declared IDs]. En outre, [!DNL Audience Manager] exclut l’utilisateur de cette région particulière sur le serveur Edge (l’exclusion ne traverse pas les régions [!DNL DCS]).
 
 Consultez [&#x200B; Confidentialité des données &#x200B;](../overview/data-security-and-privacy/data-privacy.md) pour plus d’informations sur le droit d’opposition à la collecte de données.
@@ -260,7 +269,7 @@ DIL.create({
 
 >[!NOTE]
 >
->Si vous effectuez un appel [!DNL API] avec une autre combinaison de `declaredID`, la nouvelle combinaison sera utilisée uniquement pour cet appel. D’autres appels d’événement réguliers utiliseront la combinaison de `DIL.create` `declaredID` d’origine.
+>Si vous effectuez un appel [!DNL API] avec une autre combinaison de `declaredID`, la nouvelle combinaison sera utilisée uniquement pour cet appel. D’autres appels d’événement réguliers utiliseront la combinaison de `declaredID` `DIL.create` d’origine.
 
 ```js
 DIL.getDil('partner name').api.signals({...}).declaredId({

@@ -7,35 +7,41 @@ title: Exigences relatives au nom et à la taille de fichier Amazon S3 pour les 
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-TQID: https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU
+TQID: 'https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: '1131'
 ht-degree: 2%
-
 ---
-
 # Exigences en matière de nom et de taille de fichier [!DNL Amazon S3] pour les fichiers de données entrants {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Décrit les champs obligatoires, la syntaxe, les conventions de nommage et les tailles de fichier que vous devez suivre lors de l’envoi de données à [!DNL Audience Manager]. Définissez les noms et tailles de vos fichiers en fonction de ces spécifications lorsque vous envoyez des données à un répertoire [!DNL Audience Manager] / [!DNL Amazon S3].
 
 >[!NOTE]
 >
->Les styles de texte (`monospaced text`, *italique*, crochets `[ ]` `( )`, etc.) de ce document indiquent les éléments de code et les options. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
+>Les styles de texte (`monospaced text`, *italique*, crochets `[ ]` `( )`, etc.) dans ce document, indiquez les éléments de code et les options. Pour plus d’informations, voir les [conventions de style relatives aux éléments de code et de texte](../../../reference/code-style-elements.md).
 
 ## Syntaxe du nom de fichier {#file-name-syntax}
 
 [!DNL S3] noms de fichier contiennent les éléments obligatoires et facultatifs suivants :
 
-* Préfixe **[!DNL S3]:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* Préfixe **[!DNL S3]:** `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
-* **Éléments de nom de fichier :**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+* **Éléments de nom de fichier :** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 Pour les autres formats de nom de fichier acceptés, voir [Intégrations de partenaires personnalisées](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
@@ -71,7 +77,7 @@ Le tableau définit les éléments dans un nom de fichier [!DNL S3].
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
    <td colname="col2"> <p>Un identifiant qui indique <span class="keyword"> Audience Manager</span> si un fichier de données contient vos propres identifiants d’utilisateur, Android ID, iOS ID ou d’autres identifiants appartenant à <a href="/help/using/features/global-data-sources.md"> sources de données globales</a>. Accepte les options suivantes :</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Identifiant du Source de données (également appelé identifiant du fournisseur de données) : </b> il s’agit d’un identifiant unique qu’Audience Manager attribue à une source de données (consultez la <a href="/help/using/reference/ids-in-aam.md"> Index des identifiants Audience Manager </a> ). Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique <span class="keyword"> Audience Manager</span> d’intégrer des données aux identifiants appartenant à la source de données 21. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Identifiant du Source de données (également appelé identifiant du fournisseur de données) : </b> il s’agit d’un identifiant unique qu’Audience Manager attribue à une source de données (consultez la </a> Index des identifiants Audience Manager <a href="/help/using/reference/ids-in-aam.md"> ). Utilisez cet ID affecté dans un nom de fichier lors de l’envoi de données contenant vos propres ID utilisateur. Par exemple, <code>...ftp_dpm_21_123456789.sync</code> indique <span class="keyword"> Audience Manager</span> d’intégrer des données aux identifiants appartenant à la source de données 21. </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID) :</b> utilisez l’ID 20914 dans un nom de fichier de données s’il contient des Android ID. Vous devez utiliser le <code><i>_DPID_TARGET_DATA_OWNER</i></code> de champs lorsque vous utilisez les Android ID. Par exemple, <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> indique <span class="keyword"> Audience Manager</span> que le fichier de données contient uniquement les Android ID et que les ID doivent être qualifiés pour les caractéristiques appartenant à la source de données <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li> 
      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA) :</b> utilisez ID 20915 dans un nom de fichier de données s’il contient des iOS IDs. Vous devez utiliser le <code><i>_DPID_TARGET_DATA_OWNER</i></code> de champs lorsque vous utilisez les iOS ID. Par exemple, <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> indique <span class="keyword"> Audience Manager</span> que le fichier de données contient uniquement les iOS ID et que les ID doivent être qualifiés pour les caractéristiques appartenant à la source de données <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li>
      <li> <b>ID appartenant à d’autres sources de données globales</b> : vous pouvez intégrer des ID Roku pour Advertising (RIDA), des ID Microsoft Advertising (MAID) et d’autres ID. Utilisez l’identifiant correspondant à chaque source de données, comme décrit dans l’article <a href="/help/using/features/global-data-sources.md"> les sources de données globales </a>.</li> 
@@ -113,7 +119,7 @@ Le tableau définit les éléments dans un nom de fichier [!DNL S3].
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compressé : 1 Go </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Comprimé : 200 à 300 Mo </li> 
-    </ul> <p>Consultez les 2 premiers exemples de noms de fichier <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> ci-dessous.</a> </p> </td> 
+    </ul> <p>Consultez les 2 premiers exemples de noms de fichier </a> ci-dessous. <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 

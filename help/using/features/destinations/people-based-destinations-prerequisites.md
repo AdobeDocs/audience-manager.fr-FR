@@ -6,23 +6,30 @@ solution: Audience Manager
 title: Conditions préalables et considérations
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
+TQID: 'https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1069'
 ht-degree: 2%
-
 ---
-
 # Conditions préalables et considérations {#prerequisites-considerations}
 
 >[!IMPORTANT]
@@ -46,7 +53,7 @@ Contactez votre représentant ou représentante Adobe pour tirer parti de cette 
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos [!UICONTROL segments] d’audience propriétaires à [!DNL Facebook], assurez-vous de respecter les exigences suivantes :
 
 1. Votre compte utilisateur [!DNL Facebook] doit disposer de l’autorisation **Gérer les campagnes** activée pour le compte publicitaire que vous prévoyez d’utiliser.
-2. Ajoutez le compte professionnel **&#x200B;**&#x200B;en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. Voir [Ajouter des partenaires à votre Business Manager](https://www.facebook.com/business/help/1717412048538897) pour plus d’informations.
+2. Ajoutez le compte professionnel **Adobe Experience Cloud** en tant que partenaire publicitaire dans votre [!DNL Facebook Ad Account]. Utilisez `business ID=206617933627973`. Voir [Ajouter des partenaires à votre Business Manager](https://www.facebook.com/business/help/1717412048538897) pour plus d’informations.
 
    >[!IMPORTANT]
    >Lors de la configuration des autorisations pour Adobe Experience Cloud, vous devez activer l’autorisation **Gérer les campagnes**. Ceci est obligatoire pour l’intégration de [!UICONTROL People-Based Destinations].
@@ -65,7 +72,7 @@ Consultez [Présentation et configuration de la destination LinkedIn basée sur 
 
 Avant de pouvoir utiliser [!UICONTROL People-Based Destinations] pour envoyer vos segments d’audience propriétaires vers une destination [!DNL Google Customer Match], veillez à lire et à respecter la politique de Google relative à l’utilisation de [!DNL Customer Match], décrite dans la [documentation de prise en charge de Google](https://support.google.com/google-ads/answer/6299717).
 
-Ensuite, assurez-vous que votre compte [!DNL Google] est configuré pour un niveau d’autorisation [!DNL Standard] ou supérieur. Pour plus d’informations[&#x200B; consultez la documentation sur les Google Ads &#x200B;](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1).
+Ensuite, assurez-vous que votre compte [!DNL Google] est configuré pour un niveau d’autorisation [!DNL Standard] ou supérieur. Pour plus d’informations[&#128279;](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1) consultez la documentation sur les Google Ads .
 
 Les clients disposant de comptes conformes sont automatiquement placés sur la liste autorisée par Google.
 
@@ -99,16 +106,16 @@ Lors du hachage des adresses e-mail, veillez à respecter les exigences suivante
 
 * Supprimez tous les espaces de début et de fin de la chaîne d’e-mail ; par exemple : `johndoe@example.com`, pas `<space>johndoe@example.com<space>` ;
 * Lors du hachage des chaînes de l’e-mail, veillez à hacher la chaîne en minuscules ;
-   * Exemple : `example@email.com`, pas `EXAMPLE@EMAIL.COM` ;
+  * Exemple : `example@email.com`, pas `EXAMPLE@EMAIL.COM` ;
 * Vérifiez que la chaîne hachée est en minuscules
-   * Exemple : `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, pas `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` ;
+  * Exemple : `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, pas `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` ;
 * Ne salez pas la chaîne.
 
 Regardez la vidéo ci-dessous pour comprendre les exigences de hachage de [!UICONTROL People-Based Destinations].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud vous offre la possibilité de hacher les ID de client par le biais du [!DNL Adobe Experience Platform Identity Service (ECID)]. Consultez [SHA256 Prise en charge du hachage pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=fr) pour plus d’informations sur l’utilisation d’ECID pour hacher les ID client.
+Adobe Experience Cloud vous offre la possibilité de hacher les ID client par le biais du [!DNL Adobe Experience Platform Identity Service (ECID)]. Consultez [SHA256 Prise en charge du hachage pour setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=fr) pour plus d’informations sur l’utilisation d’ECID pour hacher les ID client.
 
 ## Obtention des autorisations utilisateur {#obtaining-user-permission}
 

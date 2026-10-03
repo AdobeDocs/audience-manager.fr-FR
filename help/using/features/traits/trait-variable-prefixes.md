@@ -7,18 +7,24 @@ title: Exigences de préfixe pour les variables clés
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
-TQID: https://experienceleague.adobe.com/ZFh2JkTwcvUpYePMLiQa2BsMV9D27BtilfEIHYBXaIU
+TQID: 'https://experienceleague.adobe.com/ZFh2JkTwcvUpYePMLiQa2BsMV9D27BtilfEIHYBXaIU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '329'
 ht-degree: 0%
-
 ---
-
 # Exigences de préfixe pour les variables clés {#prefix-requirements-for-key-variables}
 
 Cet article décrit les préfixes que vous devez attacher aux variables clés lors de la création de règles de caractéristique.
@@ -55,7 +61,7 @@ Le tableau suivant définit les préfixes courants utilisés par [!UICONTROL Tra
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Nos serveurs de collecte de données <span class="wintitle"> permettent la transmission de paramètres privés. </span> Fondamentalement, tout paramètre commençant par <code> p_</code> sera utilisé pour l’évaluation des caractéristiques, mais il ne sera pas consigné en aval ni stocké. </p> <p>Exemple : étant donné la <code> /event?p_age=23</code> et une caractéristique comme <code> YoungPeople = p_age &lt; 25</code>, la caractéristique sera réalisée, mais la paire clé-valeur <code> p_age=23</code> sera abandonnée après la demande et ne sera pas consignée. </p> </td> 
+   <td colname="col2"> <p>Nos serveurs de collecte de données </span> permettent la transmission de paramètres privés. <span class="wintitle">Fondamentalement, tout paramètre commençant par <code> p_</code> sera utilisé pour l’évaluation des caractéristiques, mais il ne sera pas consigné en aval ni stocké. </p> <p>Exemple : étant donné la <code> /event?p_age=23</code> et une caractéristique comme <code> YoungPeople = p_age &lt; 25</code>, la caractéristique sera réalisée, mais la paire clé-valeur <code> p_age=23</code> sera abandonnée après la demande et ne sera pas consignée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

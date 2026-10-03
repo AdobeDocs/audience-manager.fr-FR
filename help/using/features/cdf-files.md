@@ -8,22 +8,30 @@ title: Flux de données client
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-TQID: https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk
+TQID: 'https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bee1a349-dc16-4b46-91d7-185f2df2b947
+    internal-label: Customer Data Feeds
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1988
+source-wordcount: '2023'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Informations de base sur les fichiers [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) et instructions pour démarrer. Commencez ici si vous souhaitez recevoir des fichiers [!UICONTROL CDF] ou simplement obtenir plus d&#39;informations.
@@ -105,7 +113,7 @@ Un fichier [!UICONTROL CDF] comprend certains ou tous les champs définis ci-des
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>Chaîne </p> </td> 
-   <td colname="col3"> <p>Chaîne qui capture tous les paramètres (variables, identifiants, paires clé-valeur, identifiants publicitaires d’appareil, etc.) transmis lors de l’appel d’événement. </p> <p>Exemple raccourci : </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Chaîne qui capture tous les paramètres (variables, identifiants, paires clé-valeur, identifiants publicitaires d’appareils, etc.) transmis lors de l’appel d’événement. </p> <p>Exemple raccourci : </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -165,14 +173,14 @@ Les fichiers [!UICONTROL CDF] ne contiennent pas de colonnes ou d’en-têtes de
    <td colname="col2"> <p> <p>Important : <span class="keyword"> Audience Manager</span> se réserve le droit d’ajouter de nouveaux champs à la fin du fichier CDF dans les prochaines versions. Cela signifie que la conception technique de votre système d'analyse de fichiers ne doit pas supposer un nombre fixe de colonnes (bien qu'elle puisse supposer un ordre fixe pour les colonnes existantes).</p> </p> <p>Les données de votre fichier CDF s’affichent dans l’ordre indiqué ci-dessous. /N peut apparaître à la place de l’un de ces champs, indiquant une valeur nulle.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Heure de l’événement </li> 
-      <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device  </li> 
+      <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Device </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID de conteneur </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9">Caractéristiques réalisées </li> 
       <li id="li_1591180564374204852785C6FFCA4F74">Segments Réalisés </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Paramètres de requête </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Référent </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Adresse IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Identifiant de l’appareil Experience Cloud (ou MID). Voir aussi Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et service d’identités Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (ou MID). Voir aussi Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et service d’identités Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tous les segments </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Toutes les caractéristiques </li> 
      </ol> </p> <p>Pour obtenir la description des champs, voir <a href="#cdf-defined"> du contenu du flux de données client défini</a>. </p> </td> 
@@ -296,7 +304,7 @@ Chaque fichier `.info` contient une section `Files` et `Totals`. La section `Fil
 
 ## Champs de fichier d’informations définis {#info-file-fields-defined}
 
-Les tableaux suivants répertorient et définissent les éléments d’un fichier [!UICONTROL CDF] `.info`.
+Les tableaux suivants répertorient et définissent les éléments d’un fichier `.info` [!UICONTROL CDF].
 
 ### File, objet
 

@@ -1,27 +1,35 @@
 ---
-description: La fonction de suppression instantanée inter-périphérique permet de supprimer des utilisateurs sur plusieurs périphériques qui leur sont associés lorsqu’une action particulière survient sur l’un de ces périphériques. Utilisez la fonctionnalité de suppression instantanée sur plusieurs appareils pour offrir à vos utilisateurs une expérience cohérente sur l’ensemble des appareils. Ceci est rendu possible grâce aux options de désegmentation en temps réel dans Audience Manager.
+description: La fonction de suppression instantanée inter-périphérique permet de supprimer des utilisateurs sur plusieurs périphériques qui leur sont associés lorsqu’une action particulière survient sur l’un de ces périphériques. Utilisez cette fonction pour offrir aux utilisateurs des conditions d’utilisation homogènes sur tous les périphériques. Ceci est rendu possible grâce aux options de désegmentation en temps réel dans Audience Manager.
 seo-description: Instant Cross-Device Suppression is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 seo-title: Instant Cross-Device Suppression
 title: Suppression Instantanée Sur Plusieurs Appareils
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
+TQID: 'https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 778
-ht-degree: 6%
-
+source-wordcount: '812'
+ht-degree: 8%
 ---
-
 # Suppression Instantanée Sur Plusieurs Appareils {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] est la possibilité de supprimer des utilisateurs sur plusieurs appareils qui leur sont connectés lorsqu’une expérience particulière se produit sur l’un de ces appareils. Utilisez la fonctionnalité [!UICONTROL Instant Cross-Device Suppression] pour offrir une expérience cohérente entre les appareils à vos utilisateurs. Ceci est rendu possible grâce aux options de désegmentation en temps réel dans Audience Manager.
@@ -37,7 +45,7 @@ Les détails techniques de l’annulation de segmentation en temps réel sont d�
 
 ## Ne Pas Cibler Une Fois Converti {#do-not-target-once}
 
-Assurez-vous que les utilisateurs et utilisatrices qui ont déjà effectué une conversion (achat d’un produit, souscription à un abonnement, etc.) ne verront pas le même message qu’avant la conversion. Vous pouvez l’obtenir à l’aide de la logique [!UICONTROL AND NOT], comme suit.
+Assurez-vous que vos utilisateurs qui ont déjà converti (acheté un produit, acquis un abonnement, etc.) ne verra pas le même message qu’avant la conversion. Vous pouvez l’obtenir à l’aide de la logique [!UICONTROL AND NOT], comme suit.
 
 1. Créez un segment à l’aide de deux caractéristiques et utilisez la logique [!UICONTROL AND NOT], comme illustré dans l’image ci-dessous. Vous devez utiliser une caractéristique basée sur des règles pour définir l’événement de conversion pour que l’annulation de segment soit déclenchée en temps réel. En savoir plus sur la façon de [créer des caractéristiques basées sur des règles](../traits/create-onboarded-rule-based-traits.md).
 2. Mappez le segment à un nombre illimité de destinations serveur à serveur en temps réel. Découvrez comment ajouter des segments aux [destinations serveur à serveur](../destinations/add-edit-segments.md).
@@ -70,7 +78,7 @@ Gardez à l’esprit les aspects suivants liés au traitement :
 * Pour que la fonctionnalité d’annulation de segment en temps réel fonctionne, vous devez mapper les segments souhaités aux destinations serveur à serveur en temps réel.
 * Pour les appareils connectés à un appareil par un [graphique d’appareil](profile-link-use-case.md#recommendations), nous appliquons une limite de quatre appareils concernant l’évaluation et la non-segmentation. Cette limitation est décrite dans [Options du graphique de l’appareil et Dissegmentation de l’appareil](merge-rule-unsegment.md#device-graph-options-unsegmentation). &#x200B;
 * La commande unsegment est incluse dans un fichier par lot, qui est envoyé aux destinations toutes les 24 heures, pour plusieurs appareils connectés par le graphique d’appareil.
-* L’appareil doit être affiché en temps réel (dans l’[&#128279;](../../reference/system-components/components-edge.md) pour inviter à l’évaluation des segments en temps réel. Pour les caractéristiques qui ont un [!UICONTROL time-to-live (TTL)] lorsque le [!DNL TTL] de caractéristique est satisfait, l’appareil sera automatiquement non segmenté dans les 24 heures via le fichier de commandes&#x200B; En savoir plus sur comment [Définir un intervalle d’expiration de caractéristique](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* L’appareil doit être affiché en temps réel (dans l’[&#128279;](../../reference/system-components/components-edge.md) pour inviter à l’évaluation des segments en temps réel. Pour les caractéristiques qui ont un [!UICONTROL time-to-live (TTL)] lorsque le [!DNL TTL] de caractéristique est satisfait, l’appareil sera automatiquement non segmenté dans les 24 heures via le fichier par lot.. &#x200B; En savoir plus sur la façon de [Définir un intervalle d’expiration des caractéristiques](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Si vous utilisez l’[!UICONTROL DCS API] pour intégrer en temps réel des caractéristiques basées sur des règles, vous pouvez déclencher l’annulation de segment à l’aide de la logique [!UICONTROL AND NOT]. En savoir plus sur [l’envoi de données à l’API DCS](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). &#x200B;
 
 ## Aspects importants à noter - Calendrier {#timing-notes}

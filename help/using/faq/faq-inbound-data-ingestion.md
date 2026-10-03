@@ -8,25 +8,34 @@ title: FAQ sur l’ingestion de données client entrantes
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-TQID: https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE
+TQID: 'https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: 81ea4607-deb9-5aa9-822c-9d779f9a7c7e
+    internal-label: Onboarding Offline Data
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 86%
-
+source-wordcount: '1392'
+ht-degree: 83%
 ---
-
 # FAQ sur l’ingestion de données client entrantes{#inbound-customer-data-ingestion-faq}
 
 Questions fréquentes sur l’introduction de données hors ligne dans Audience Manager.
@@ -47,9 +56,9 @@ Le processus d’intégration comprend deux étapes décrites dans la [présenta
 Nous recommandons de procéder comme suit :
 
 * Contactez votre fournisseur de données pour formater le fichier de données entrant quotidien en fonction des spécifications d’Adobe. Consultez la documentation suivante pour connaître les exigences en matière de dénomination et de syntaxe des fichiers :
-   * [Nom et contenu requis pour les fichiers de synchronisation des identifiants](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et exemples](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-   * [Exigences relatives au nom et à la taille de fichier Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+  * [Nom et contenu requis pour les fichiers de synchronisation des identifiants](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+  * [Contenu du fichier de données entrant : syntaxe, caractères non valides, variables et exemples](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+  * [Exigences relatives au nom et à la taille de fichier Amazon S3 pour les fichiers de données entrants](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * Contactez votre conseiller [!DNL Adobe] afin de transférer un fichier de données de test vers [!DNL Adobe] pour la vérification du format.
 * Contactez votre conseiller [!DNL Adobe] pour produire une taxonomie adaptée à l’interprétation du contenu du fichier de données.
 * Dans l’environnement d’évaluation/de développement, vérifiez que la synchronisation des identifiants est configurée de manière à récupérer correctement l’identifiant visiteur du fournisseur de données et à le transférer aux serveurs [!DNL Audience Manager] en temps réel.
@@ -72,7 +81,7 @@ Voir [Compression de fichiers pour les fichiers de transfert de données entrant
 
 Oui. Tant que vous utilisez un [!UICONTROL cross-device data source] pour stocker les données CRM que vous chargez, Audience Manager stocke toujours les données. En fait, suite aux améliorations [!UICONTROL Profile Merge Rules] apportées par Audience Manager en octobre 2019 qui permettent des cas d’utilisation hors ligne uniquement, vous pouvez charger et agir sur les données sans déployer le code Audience Manager en production. Voir :
 
-* [Présentation des améliorations apportées aux stratégies de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=fr)
+* [Présentation des améliorations apportées aux règles de fusion de profils](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=fr)
 * [!UICONTROL People-based Destinations] - [Personalization Basé sur des données hors ligne uniquement](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=fr)
 
 <br> 

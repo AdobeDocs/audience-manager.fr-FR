@@ -7,19 +7,26 @@ title: Rapports interactifs et de chevauchement
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 feature: Overlap Reports
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
-TQID: https://experienceleague.adobe.com/nOOZNe4ZKxSYPXsAY2dH17PxqvwsZ8-Dw5XecsoiieI
+TQID: 'https://experienceleague.adobe.com/nOOZNe4ZKxSYPXsAY2dH17PxqvwsZ8-Dw5XecsoiieI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '188'
 ht-degree: 0%
-
 ---
-
 # Rapports interactifs et de chevauchement{#interactive-and-overlap-reports}
 
 Les rapports interactifs affichent les performances et chevauchent les données des caractéristiques et des segments. Au lieu d’utiliser des nombres organisés en colonnes et en lignes, ces rapports renvoient des données en utilisant différentes formes, couleurs et tailles. De plus, vous pouvez choisir des points de données individuels ou par groupes et analyser en profondeur les résultats du rapport pour obtenir plus de détails. Ces techniques de visualisation et l’interactivité des rapports permettent de comprendre plus facilement de grandes quantités de données numériques.

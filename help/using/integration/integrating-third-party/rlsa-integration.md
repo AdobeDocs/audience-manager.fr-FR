@@ -7,29 +7,36 @@ title: Envoyer des segments à une liste de remarketing AdWords Google
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-TQID: https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY
+TQID: 'https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 # Envoyer des segments à une liste de remarketing Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
-Cette procédure nécessite une liste de remarketing [!DNL Google Ads], un code pixel et un [!DNL URL] de [!DNL destination] Audience Manager. Il s’agit également d’une liste de remarketing pour l’intégration des annonces de recherche ([!DNL RLSA]). S’applique uniquement au référencement payant.
+Cette procédure nécessite une liste de remarketing [!DNL Google Ads], un code pixel et un [!DNL destination] de [!DNL URL] Audience Manager. Il s’agit également d’une liste de remarketing pour l’intégration des annonces de recherche ([!DNL RLSA]). S’applique uniquement au référencement payant.
 
 >[!IMPORTANT]
 >Notez qu’il ne s’agit pas d’une intégration personnalisée des deux systèmes.
 
-Pour configurer une liste de remarketing [!DNL Google Ads] en tant que [!DNL Audience Manager] [!DNL URL destination] :
+Pour configurer une liste de remarketing [!DNL Google Ads] en tant que [!DNL URL destination] [!DNL Audience Manager] :
 
 1. Dans votre compte [!DNL Google Ads], [créez une liste de remarketing de site web](https://support.google.com/tagmanager/answer/6106960?hl=en) et notez votre ID de conversion.
 1. Utilisez l’URL suivante comme modèle pour l’URL de base et l’URL sécurisée. Remplacez la section xxxxxxxx par votre ID de conversion.
@@ -43,7 +50,7 @@ Pour configurer une liste de remarketing [!DNL Google Ads] en tant que [!DNL Aud
    * Sérialiser : activé
    * Délimiteur : point-virgule ( &semi; )
 
-1. Dans la section [!UICONTROL Segment Mappings] de votre [!DNL URL] de [!DNL destination], ajoutez le code de l’étape 2 aux champs [!DNL URL] et [!DNL Secure URL]. Ajoutez le préfixe `http:` et `https:` au code dans les champs [!DNL URL] et [!DNL Secure URL], respectivement.
+1. Dans la section [!UICONTROL Segment Mappings] de votre [!DNL destination] de [!DNL URL], ajoutez le code de l’étape 2 aux champs [!DNL URL] et [!DNL Secure URL]. Ajoutez le préfixe `http:` et `https:` au code dans les champs [!DNL URL] et [!DNL Secure URL], respectivement.
 
    >[!IMPORTANT]
    >
@@ -67,7 +74,7 @@ Pour configurer une liste de remarketing [!DNL Google Ads] en tant que [!DNL Aud
 
    >[!NOTE]
    >
-   >Si vous utilisez plusieurs segments, obtenez un nouveau pixel pour chaque segment que vous souhaitez mapper à un [!DNL Google Ads] [!DNL destination]. Cela permet de s’assurer que les données sont appliquées à la liste de remarketing appropriée.
+   >Si vous utilisez plusieurs segments, obtenez un nouveau pixel pour chaque segment que vous souhaitez mapper à un [!DNL destination] [!DNL Google Ads]. Cela permet de s’assurer que les données sont appliquées à la liste de remarketing appropriée.
 
 1. Lors du mappage d’un nouveau segment à ce [!DNL destination] dans Audience Manager, définissez le mappage comme `aam=segmentID` et remplacez `segmentID` par l’identifiant de votre segment.
 1. Lors de la définition d’un intervalle dans [!DNL Google Ads], créez une règle qui correspond au mappage défini à l’étape 6.

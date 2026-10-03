@@ -8,16 +8,21 @@ title: Création d’un modèle algorithmique
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-TQID: https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk
+TQID: 'https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 639
+source-wordcount: '675'
 ht-degree: 0%
-
 ---
-
 # Création d’un modèle analogue {#create-an-algorithmic-model}
 
 Décrit les étapes obligatoires et facultatives permettant de créer un [!UICONTROL Look-Alike Model].
@@ -55,7 +60,7 @@ Pour créer un [!UICONTROL Look-Alike Model], procédez comme suit :
 
 Regardez la vidéo ci-dessous pour un aperçu détaillé du fonctionnement des mesures inter-appareils.
 
-[Compréhension des mesures inter-appareils dans Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Comprendre les mesures inter-appareils dans Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Informations de base pour les modèles algorithmiques {#basic-information}
 
@@ -99,7 +104,7 @@ Renseignez d’abord les champs obligatoires de la section [!UICONTROL Basic Inf
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Sélectionner l’algorithme (3)</b> </p> </td> 
-   <td colname="col2"> <p>Actuellement, Model Builder fonctionne uniquement avec notre algorithme propriétaire <span class="keyword"> Trait Weight</span>. <span class="keyword"> Audience Manager</span> peut ajouter d’autres fonctions algorithmiques dans les versions ultérieures. </p> </td>
+   <td colname="col2"> <p>Actuellement, Model Builder fonctionne uniquement avec notre algorithme propriétaire <span class="keyword"> Trait Weight</span>. <span class="keyword"> </span> peut ajouter d’autres fonctions algorithmiques dans les versions ultérieures. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Sélection des données de modèle à partir de la Source de données (4)</b> </p> </td> 

@@ -8,28 +8,40 @@ title: Requêtes de confidentialité des données
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
+TQID: 'https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 42%
-
+source-wordcount: '1506'
+ht-degree: 40%
 ---
-
 # Requêtes de confidentialité des données {#data-privacy-requests}
 
 ## Présentation {#overview}
@@ -164,7 +176,7 @@ L’option d’opt-out au niveau du partenaire vous permet d’exclure vos utili
 
 | Exclusion à l’aide | Exemple de code |
 |--- |--- |
-| Une [!DNL Audience Manager] [!DNL Unique User ID] (`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| Une [!DNL Unique User ID] [!DNL Audience Manager] (`uuid`). | `https://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
 | Un ID [!DNL Experience Cloud] (`mid`) | `https://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
 Découvrez-en plus sur `uuid`, `mid` et `imsOrgId` dans l’[index des identifiants dans Audience Manager](/help/using/reference/ids-in-aam.md).
@@ -194,4 +206,4 @@ Consultez la [liste des destinations basées sur des appareils](/help/using/feat
 
 Étant donné que [!DNL Audience Manager] n’est pas la source des données, la correction des données a un rôle limité dans la [!DNL Audience Manager]. La correction peut signifier que le consommateur a demandé à être exclu d&#39;un [!UICONTROL trait]/[!UICONTROL segment] incorrect ou qualifié selon le [!UICONTROL trait]/[!UICONTROL segment] souhaité.
 
-[!DNL Audience Manager] clients peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils utilisateur et d’envoyer ces informations à [&#x200B; par le biais de &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)ingestion de données hors ligne[!DNL Audience Manager]. Veuillez noter que l’utilisateur continuera à être qualifié pour l’[!UICONTROL trait] d’origine et [!UICONTROL segments] s’il répète son comportement.
+[!DNL Audience Manager] clients peuvent choisir de capturer les signaux/caractéristiques/segments pertinents par rapport aux profils utilisateur et d’envoyer ces informations à [!DNL Audience Manager] par le biais de [ingestion de données hors ligne](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md). Veuillez noter que l’utilisateur continuera à être qualifié pour l’[!UICONTROL trait] d’origine et [!UICONTROL segments] s’il répète son comportement.

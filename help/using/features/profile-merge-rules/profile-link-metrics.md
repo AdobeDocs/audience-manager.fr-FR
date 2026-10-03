@@ -7,16 +7,21 @@ title: Mesures de rapport pour les règles de fusion de profils
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+TQID: 'https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: '727'
 ht-degree: 0%
-
 ---
-
 # Mesures de rapport pour les règles de fusion de profils {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] mesures fournissent des données sur les personnes et les appareils qui s’authentifient sur votre site. Les données et les graphiques dans [!UICONTROL Profile Merge Rule Reports] se mettent à jour de manière dynamique lorsque vous créez une règle de fusion ou lorsque vous cliquez sur une règle existante dans le tableau de bord [!UICONTROL Profile Merge Rules]. Ces mesures peuvent inclure des graphiques d’appareils provenant d’autres sources de graphiques d’appareils tierces.

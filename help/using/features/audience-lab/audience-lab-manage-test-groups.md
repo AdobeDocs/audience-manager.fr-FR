@@ -7,27 +7,38 @@ title: Gérer les groupes de tests
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # Gérer les groupes de tests {#manage-test-groups}
 
 Cette procédure décrit les étapes nécessaires à la création, la modification ou la suppression d’un groupe de test dans [!UICONTROL Audience Lab].
@@ -45,9 +56,9 @@ Cette procédure décrit les étapes nécessaires à la création, la modificati
   >[Les caractéristiques de dossier](../../features/traits/about-folder-traits.md) ne sont **pas prises en charge** par [!UICONTROL Audience Lab]. La définition du [Type d’événement](../../features/traits/create-onboarded-rule-based-traits.md) d’une caractéristique de dossier sur **conversion** ne génère aucune donnée en [!UICONTROL Audience Lab] pour cette caractéristique de dossier spécifique.
 
 * Pour les sociétés qui utilisent [contrôle d’accès en fonction du rôle](../../features/administration/administration-overview.md) : attribuez l’autorisation [!UICONTROL Audience Lab] [caractère générique](../../features/administration/administration-overview.md#wild-card-permissions) à **[!UICONTROL User Groups]** pour fournir l’accès. Cette autorisation permet à l’utilisateur de créer et d’afficher les résultats d’un test. Un utilisateur ne pourra utiliser les segments d’une source de données que pour lesquels il dispose de privilèges **lecture** et **mappage à la destination**. L’utilisateur ne pourra utiliser les caractéristiques de conversion que d’une source de données pour laquelle il dispose **’autorisations de lecture** Un utilisateur ne pourra également voir que les destinations auxquelles il a accès. Ainsi, avant d’ajouter l’autorisation de caractère générique [!DNL Audience Lab] à un groupe, assurez-vous que le groupe dispose des éléments suivants :
-   * l’accès aux caractéristiques de conversion pertinentes ;
-   * accès à la lecture et au mappage des segments pertinents pour les tests ;
-   * l&#39;accès aux destinations pertinentes.
+  * l’accès aux caractéristiques de conversion pertinentes ;
+  * accès à la lecture et au mappage des segments pertinents pour les tests ;
+  * l&#39;accès aux destinations pertinentes.
 
 Pour créer un [!UICONTROL Segment Test Group] :
 

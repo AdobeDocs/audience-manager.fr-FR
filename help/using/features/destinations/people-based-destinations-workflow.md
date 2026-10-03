@@ -6,22 +6,28 @@ solution: Audience Manager
 title: Guide de mise en œuvre
 feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
-TQID: https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg
+TQID: 'https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1350
-ht-degree: 2%
-
+source-wordcount: '1362'
+ht-degree: 3%
 ---
-
 # Guide de mise en œuvre {#implementation-guidance}
 
 >[!IMPORTANT]
@@ -40,7 +46,7 @@ Vous devez clarifier six aspects de mise en œuvre avant d’utiliser [!DNL Peop
 
 ![pbd-implementation](assets/pbd-implementation.png)
 
-## &#x200B;1. Définition De Votre Cas D’Utilisation {#defining-your-use-case}
+## &#x200B;1. Définition de votre cas d’utilisation {#defining-your-use-case}
 
 Avant de commencer l’implémentation de [!DNL People-Based Destinations], vous devez définir clairement le cas d’utilisation pour lequel vous utiliserez cette fonctionnalité. Vous pouvez utiliser [!DNL People-Based Destinations] pour cibler des audiences de deux manières, en fonction de l’activité de l’audience :
 
@@ -62,7 +68,7 @@ A **Ciblage de l’audience en fonction de vos adresses e-mail authentifiées**.
 
 **B) Le ciblage de l’audience en fonction de toutes les adresses e-mail associées**. Dans ce scénario, vos utilisateurs disposent de plusieurs comptes associés à plusieurs adresses e-mail et vous souhaitez les cibler sur toutes leurs adresses e-mail associées, quelle que soit l’activité authentifiée.
 
-## &#x200B;3. Identifier le type d’ID de client (ID CRM) dont vous disposez {#identify-customer-id}
+## &#x200B;3. Identifier le type d’ID de client (ID de gestion de la relation client) dont vous disposez {#identify-customer-id}
 
 Pour cibler des audiences dans [!DNL People-Based Destinations], vous devez envoyer des versions hachées [SHA256 de vos adresses e-mail &#x200B;](people-based-destinations-prerequisites.md) client. Selon la configuration d’Audience Manager que vous possédez déjà, il se peut que vous vous trouviez dans l’un des deux scénarios suivants :
 
@@ -70,7 +76,7 @@ Pour cibler des audiences dans [!DNL People-Based Destinations], vous devez envo
 
 **B) Vos ID de client Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) ne sont pas des adresses e-mail hachées en minuscules**. Dans ce scénario, vos ID de client existants ne peuvent pas être envoyés à [!DNL People-Based Destinations]. Pour utiliser [!DNL People-Based Destinations], vous devez effectuer une synchronisation des identifiants entre vos ID client existants et les versions en minuscules et hachées des adresses e-mail de vos clients. Pour ce faire, vous devez utiliser la [synchronisation des identifiants basée sur des fichiers](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) ou les [identifiants déclarés](../declared-ids.md).
 
-## &#x200B;4. Qualification de la caractéristique {#trait-qualification}
+## &#x200B;4. Qualification des caractéristiques {#trait-qualification}
 
 Pour cibler précisément votre audience dans [!DNL People-Based Destinations], vos utilisateurs doivent se qualifier pour les caractéristiques basées sur des règles ou intégrées, selon le type de ciblage d’audience que vous souhaitez effectuer.
 
@@ -78,7 +84,7 @@ A **Qualifiez vos identifiants de client et d’appareil en temps réel pour les
 
 **B) Intégrer des caractéristiques à vos ID client via des fichiers de données entrants**. Cette option s’applique au cas d’utilisation B de la version [1. Définition De Votre Cas D’Utilisation](people-based-destinations-workflow.md#defining-your-use-case). Lors du ciblage de votre audience en fonction d’une activité purement hors ligne, vous devez qualifier les ID de client pour les caractéristiques intégrées via [fichiers de données entrants](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
-## &#x200B;5. Créer ou étiqueter des sources de données et des adresses e-mail hachées intégrées {#create-label-data-sources}
+## &#x200B;5. Créer ou libeller des sources de données et des adresses e-mail hachées intégrées {#create-label-data-sources}
 
 Selon le type d’ID de client que vous avez dans Audience Manager (voir [3. Identifiez le type d’ID de client (ID CRM) dont vous disposez](people-based-destinations-workflow.md#identify-customer-id) vous vous retrouverez dans l’un des scénarios suivants :
 
@@ -89,7 +95,7 @@ A **Étiqueter une source de données existante**. Cette option s’applique au 
 * Utilisez la synchronisation des identifiants basée sur des fichiers. Consultez [les exigences en matière de contenu pour les fichiers de synchronisation d’identifiants](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) pour obtenir des informations sur ce à quoi les fichiers de synchronisation d’identifiants doivent ressembler. Lorsque vous utilisez cette méthode, vous pouvez cibler toutes vos adresses e-mail hachées à partir de votre base de données [!DNL CRM].
 * Utilisez des [identifiants déclarés](../declared-ids.md) pour déclarer vos adresses e-mail hachées lors de la transmission des ID de client authentifiés. Lorsque vous utilisez cette méthode, Audience Manager, pour votre compte, cible uniquement les adresses e-mail hachées des utilisateurs qui se sont authentifiés en ligne. Les adresses e-mail ciblées dans les canaux basés sur les personnes ne sont que celles des appels d’événement d’ID déclarés. Les autres adresses électroniques associées à l’identifiant du client ne sont pas activées en temps réel.
 
-## &#x200B;6. Utiliser une règle de fusion de profils pour la segmentation {#use-profile-merge-rules}
+## &#x200B;6. Utiliser une règle de fusion de profil pour la segmentation {#use-profile-merge-rules}
 
 Selon votre cas d’utilisation (voir [1. Lors de la définition de votre cas d’utilisation](people-based-destinations-workflow.md#defining-your-use-case)), il existe deux manières d’utiliser [!DNL Profile Merge Rules] pour la segmentation.
 

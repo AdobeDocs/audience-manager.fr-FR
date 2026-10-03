@@ -8,19 +8,26 @@ title: Classification des caractéristiques avec une taxonomie commune
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
+TQID: 'https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '374'
 ht-degree: 0%
-
 ---
-
 # Classification des caractéristiques avec une taxonomie commune {#classifying-traits-with-a-common-taxonomy}
 
 Cet article fournit une présentation générale sur la classification des caractéristiques avec une taxonomie commune.
@@ -37,7 +44,7 @@ Permettre à nos clients de créer des segments et des modèles de données pers
 
 ## La Taxonomie Utilise Les Catégories De Classification Standard Du Secteur
 
-La taxonomie commune est basée sur les classifications créées par le [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d&#39;informations sur les lignes directrices relatives à l&#39;assurance de la qualité pour les réseaux et les échanges[!DNL IAB] consultez le [site Web du &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+La taxonomie commune est basée sur les classifications créées par le [!DNL Interactive Advertising Bureau (IAB)]. Pour plus d&#39;informations sur les lignes directrices relatives à l&#39;assurance de la qualité pour les réseaux et les échanges[&#128279;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) consultez le site Web du [!DNL IAB].
 
 ## Organisation taxonomique
 

@@ -7,21 +7,28 @@ title: Exigences et méthodes relatives à l’envoi de segments à Google Ad Ma
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
-TQID: https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE
+TQID: 'https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '497'
 ht-degree: 0%
-
 ---
-
 # Exigences et méthodes relatives à l’envoi de segments à Google Ad Manager à l’aide de Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 Vous pouvez envoyer des segments qualifiés à [!DNL Google Ad Manager] (anciennement DFP) par le biais d’une intégration côté client ou côté serveur. Les conditions requises et les informations associées concernant les deux méthodes sont répertoriées ci-dessous.
@@ -34,7 +41,7 @@ Pour une intégration côté client, vous devez configurer une destination [!DNL
 
 * **Création d’une [!UICONTROL Cookie Destination] :** [!DNL GPT] doit être configuré en tant que destination basée sur des cookies dans Audience Manager.
 
-* **Implémenter le code de vérification des cookies** Encapsulez la méthode d’API [!DNL GPT] `.setTargeting` dans notre [code de vérification des cookies](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) recommandé. Ce code permet d’éviter les erreurs en recherchant les cookies AAM valides avant d’appeler la méthode `.setTargeting`.
+* **Implémenter le code de vérification des cookies** Encapsulez la méthode d’API `.setTargeting` [!DNL GPT] dans notre [code de vérification des cookies](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) recommandé. Ce code permet d’éviter les erreurs en recherchant les cookies AAM valides avant d’appeler la méthode `.setTargeting`.
 
 * **Ajouter la fonction `AamGpt` :** le code `AamGpt` capture les données des cookies Audience Manager et les envoie à [!DNL GPT]. Placez le [code Audience Manager pour les balises de l’éditeur Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) en haut de la page ou à l’intérieur du bloc de code `<head>`.
 
@@ -50,7 +57,7 @@ La quantité de données transmises à [!DNL GPT] dépend du nombre de segments 
 
 >[!NOTE]
 >
->Le nombre de valeurs de clé que vous pouvez envoyer n’est pas limité, mais l’[!DNL Google] de requête [!DNL URL] n’a pas de limite quant au nombre de caractères qu’elle peut accepter. Voir [Définition du ciblage et des tailles avec le GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
+>Le nombre de valeurs de clé que vous pouvez envoyer n’est pas limité, mais l’[!DNL URL] de requête [!DNL Google] n’a pas de limite quant au nombre de caractères qu’elle peut accepter. Voir [Définition du ciblage et des tailles avec le GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Intégration Côté Serveur {#server-side-integration}
 

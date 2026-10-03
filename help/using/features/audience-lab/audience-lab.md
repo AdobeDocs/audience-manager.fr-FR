@@ -7,23 +7,30 @@ title: Audience Lab
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
-TQID: https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg
+TQID: 'https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '550'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Audience Lab] {#audience-lab}
 
 Créez des segments de test qui s’excluent mutuellement dans [!UICONTROL Segment Test Groups] pour comparer et mesurer l’efficacité de différentes destinations. Vous pouvez mettre de côté une population témoin et diviser votre segment en pourcentages d’un tout, afin de tester l’efficacité.
@@ -67,7 +74,7 @@ Le statut d’un groupe de test peut être actif, planifié, en pause, en versio
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Active </span></b> </p> </td> 
-   <td colname="col2"> <p>Un groupe de test <i>actif</i> signifie que des données sont actuellement envoyées vers les destinations. Appuyez sur <b><span class="uicontrol">’</span></b> Suspendre le test dans la carte de <b><span class="uicontrol"> Groupe de tests </span></b> pour suspendre l’envoi de données aux destinations. </p> </td> 
+   <td colname="col2"> <p>Un groupe de test <i>actif</i> signifie que des données sont actuellement envoyées vers les destinations. Appuyez sur <b><span class="uicontrol">’</span></b> Suspendre le test dans la carte de </span></b> Groupe de tests <b><span class="uicontrol"> pour suspendre l’envoi de données aux destinations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> des </span></b> planifiées </p> </td> 
@@ -75,7 +82,7 @@ Le statut d’un groupe de test peut être actif, planifié, en pause, en versio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> en pause </span></b> </p> </td> 
-   <td colname="col2"> <p>Un groupe de test <i>en pause</i> n’envoie actuellement pas de données aux destinations. Appuyez sur <b><span class="uicontrol"> Activer les </span></b> dans la carte de <b><span class="uicontrol"> du groupe de test </span></b> pour reprendre l’envoi des caractéristiques. </p> </td> 
+   <td colname="col2"> <p>Un groupe de test <i>en pause</i> n’envoie actuellement pas de données aux destinations. Appuyez sur <b><span class="uicontrol"> Activer les </span></b> dans la carte de </span></b> du groupe de test <b><span class="uicontrol"> pour reprendre l’envoi des caractéristiques. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> le brouillon de </span></b> </p> </td> 
@@ -83,7 +90,7 @@ Le statut d’un groupe de test peut être actif, planifié, en pause, en versio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completed </span></b> </p> </td> 
-   <td colname="col2"> <p>Un groupe de test <i>terminé</i> a atteint la date de fin que vous avez sélectionnée dans l’assistant <b><span class="uicontrol"> Créer des groupes de test </span></b> et a cessé d’envoyer des données de rapport. </p> </td>
+   <td colname="col2"> <p>Un groupe de test <i>terminé</i> a atteint la date de fin que vous avez sélectionnée dans l’assistant </span></b> Créer des groupes de test <b><span class="uicontrol"> et a cessé d’envoyer des données de rapport. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -100,7 +107,7 @@ Le statut d’un groupe de test peut être actif, planifié, en pause, en versio
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Edit </span></b> </p> </td>
-   <td colname="col2"> <p>Disponible <b>uniquement</b> pour les brouillons de groupes de test. Permet de reprendre l'assistant de création de <b><span class="uicontrol"> de groupe de tests </span></b>. </p> </td>
+   <td colname="col2"> <p>Disponible <b>uniquement</b> pour les brouillons de groupes de test. Permet de reprendre l'assistant de création de </span></b> de groupe de tests <b><span class="uicontrol">. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pause </span></b> </p> </td>
@@ -111,7 +118,7 @@ Le statut d’un groupe de test peut être actif, planifié, en pause, en versio
    <td colname="col2"> <p>Disponible pour les groupes de test en pause. Vous permet de reprendre l’envoi des segments de test vers les destinations. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> de la vue </span></b> </p> </td>
+   <td colname="col1"> <p> </span></b> de la vue <b><span class="uicontrol"> </p> </td>
    <td colname="col2"> <p>Disponible pour les groupes de test terminés. Permet d’afficher les informations de rapport générées par le test. </p> </td>
   </tr>
   <tr> 

@@ -7,22 +7,30 @@ title: Glossaire du RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+TQID: 'https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 96%
-
+source-wordcount: '697'
+ht-degree: 85%
 ---
-
 # Glossaire du RGPD {#gdpr-glossary}
 
 ## Présentation {#overview}
@@ -31,7 +39,7 @@ Cet article explique les concepts et la terminologie employés par le règlement
 
 Le RGPD est entré en vigueur le 25 mai 2018 et a pour principaux objectifs d’accorder aux citoyens de l’UE (sujets des données) un meilleur contrôle de leurs données personnelles et de simplifier l’environnement réglementaire pour les entreprises internationales en unifiant davantage la réglementation au sein de l’UE. Dans le cadre de la préparation d’Adobe au RGPD, l’équipe d’Adobe Audience Manager a amélioré les services et les processus en fonction des besoins afin de prendre en charge les requêtes d’accès et de suppression provenant des sujets de données (vos clients).
 
-Pour mieux comprendre le fonctionnement du RGPD dans [&#x200B; consultez également la section &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr) Présentation des réglementations relatives à la confidentialité .
+Veillez également à consulter la section RGPD dans la [présentation des réglementations relatives à la confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=fr) pour une meilleure compréhension du fonctionnement du RGPD dans Experience Cloud.
 
 ## Glossaire du RGPD {#gdpr-glossay}
 
@@ -39,7 +47,7 @@ Familiarisez-vous avec les termes clés employés en rapport avec le RGPD. Voici
 
  
 
-**Contrôleur des données :** le RGPD définit le « contrôleur » comme « l’entité qui, seule ou conjointement avec d’autres entités, détermine les finalités et les moyens du traitement de données personnelles ». Les clients d’Audience Manager sont des contrôleurs des données. Les clients contrôlent la manière dont les données sont gérées dans Audience Manager.
+**Contrôleur de données :** RGPD définit le « contrôleur » comme « la ... personne morale ... qui, seule ou conjointement avec d’autres, détermine les finalités et les moyens du traitement des données personnelles ». Les clients Audience Manager sont des contrôleurs de données. Les clients contrôlent la manière dont les données sont gérées dans Audience Manager.
 
  
 
@@ -59,7 +67,7 @@ Familiarisez-vous avec les termes clés employés en rapport avec le RGPD. Voici
 
  
 
-**Suppression :** le RGPD définit le « droit à l’oubli » ou le « droit à l’effacement ». Les sujets des données ont le droit d’exiger des contrôleurs des données qu’ils effacent leurs données personnelles. Les contrôleurs des données travaillent avec leurs responsables du traitement des données, y compris Adobe, pour prendre en charge les requêtes de suppression émanant des sujets des données.
+**Supprimer :** le RGPD décrit le « Droit à l’oubli » ou le « Droit à l’effacement ». Les titulaires de données ont le droit d’exiger des contrôleurs de données qu’ils effacent leurs données personnelles. Les contrôleurs des données travaillent avec leurs responsables du traitement des données, y compris Adobe, pour prendre en charge les requêtes de suppression émanant des sujets des données.
 
  
 

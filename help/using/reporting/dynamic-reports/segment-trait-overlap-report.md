@@ -7,24 +7,32 @@ title: Rapport de chevauchement de segments à caractéristiques
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 feature: Overlap Reports
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
-TQID: https://experienceleague.adobe.com/Mc-7B6ZwPMsKttPBLu02SlqwuuwvwMyC80BgbOK42CQ
+TQID: 'https://experienceleague.adobe.com/Mc-7B6ZwPMsKttPBLu02SlqwuuwvwMyC80BgbOK42CQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '844'
 ht-degree: 3%
-
 ---
-
 # Rapport de chevauchement de segments à caractéristiques{#segment-to-trait-overlap-report}
 
 Renvoie des données sur le nombre d’utilisateurs uniques partagés entre une caractéristique particulière et un segment entier.
@@ -148,7 +156,7 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contie
    <td colname="col2"> Identifiant numérique unique du segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> </span></b> Trait Data Source </td> 
+   <td colname="col1"></span></b> <b><span class="wintitle"> Trait Data Source </td> 
    <td colname="col2"> Nom du propriétaire de la caractéristique. </td> 
   </tr> 
   <tr> 
@@ -164,7 +172,7 @@ La fenêtre contextuelle du rapport [!UICONTROL Segment-to-Trait Overlap] contie
    <td colname="col2"> ID numérique unique de la caractéristique. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Nom de la caractéristique <b><span class="wintitle"></span></b> </td> 
+   <td colname="col1">Nom de la caractéristique </span></b> <b><span class="wintitle"></td> 
    <td colname="col2"> Nom de la caractéristique. </td> 
   </tr> 
   <tr> 

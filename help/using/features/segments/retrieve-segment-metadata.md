@@ -7,31 +7,39 @@ title: Récupération des métadonnées de segment
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
-TQID: https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg
+TQID: 'https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: c2c33729-f309-4bc2-92ba-87c475259df3
+    internal-label: REST APIs
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer experience
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # Récupération des métadonnées de segment {#retrieving-segment-metadata}
 
 Lorsqu’Audience Manager envoie des informations sur les segments à un partenaire de données, il identifie ces objets par des identifiants numériques. En tant que partenaire de données, lorsque vous partagez ces informations avec vos clients (ou que vous les utilisez vous-même), un nom et une description réels offrent une meilleure expérience aux clients dans les rapports, les tableaux de bord ou d’autres interfaces utilisateur ([!DNL UI]). Les partenaires de données peuvent mettre ces noms conviviaux à la disposition de leurs clients à l’aide des méthodes manuelles ou automatisées décrites dans cette section.
 
 ## Méthode manuelle {#manual-method}
 
-En tant que partenaire de données, vous êtes probablement habitué à obtenir des métadonnées d’audience de vos clients par le biais de processus manuels. Il peut s’agir de fichiers joints à des e-mails ou provenant de clients qui ajoutent ces données par le biais d’un [!DNL UI] que vous avez créé et géré à cet effet. Ces processus fonctionnent, mais ils sont souvent lourds, longs et peuvent nécessiter un travail de saisie manuelle des données. Ces méthodes sont souvent utilisées pour aider à mettre rapidement en route une intégration, mais elles ne fournissent pas la meilleure expérience client à long terme. Vous pouvez également utiliser l’[!DNL Audience Manager] [!DNL API] pour obtenir automatiquement des métadonnées de segment.
+En tant que partenaire de données, vous êtes probablement habitué à obtenir des métadonnées d’audience de vos clients par le biais de processus manuels. Il peut s’agir de fichiers joints à des e-mails ou provenant de clients qui ajoutent ces données par le biais d’un [!DNL UI] que vous avez créé et géré à cet effet. Ces processus fonctionnent, mais ils sont souvent lourds, longs et peuvent nécessiter un travail de saisie manuelle des données. Ces méthodes sont souvent utilisées pour aider à mettre rapidement en route une intégration, mais elles ne fournissent pas la meilleure expérience client à long terme. Vous pouvez également utiliser l’[!DNL API] [!DNL Audience Manager] pour obtenir automatiquement des métadonnées de segment.
 
 ## Méthode automatisée {#automated-method}
 
@@ -39,7 +47,7 @@ En tant que partenaire de données, vous êtes probablement habitué à obtenir 
 
 ### Étape 1 : vérifier les API Audience Manager
 
-La section [Prise en main des API REST](../../api/rest-api-main/aam-api-getting-started.md) contient des informations sur les exigences générales, l’authentification, les méthodes disponibles, etc. C’est un bon point de départ si vous n’avez pas déjà travaillé avec le [!DNL Audience Manager] [!DNL API].
+La section [Prise en main des API REST](../../api/rest-api-main/aam-api-getting-started.md) contient des informations sur les exigences générales, l’authentification, les méthodes disponibles, etc. C’est un bon point de départ si vous n’avez pas déjà travaillé avec le [!DNL API] [!DNL Audience Manager].
 
 ### Étape 2 : demander des informations d’identification d’accès OAuth2
 

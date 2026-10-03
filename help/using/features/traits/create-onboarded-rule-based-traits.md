@@ -8,20 +8,26 @@ title: Création de caractéristiques basées sur des règles ou intégrées
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-TQID: https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ
+TQID: 'https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 356
+source-wordcount: '379'
 ht-degree: 2%
-
 ---
-
 # Créer des [!UICONTROL Rules-Based] ou des [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 Décrit les étapes et les fonctionnalités de configuration spécifiques au processus de création de caractéristiques [!UICONTROL rules-based] et [!UICONTROL onboarded].
@@ -48,7 +54,7 @@ En [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] vo
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Name </span></b> </td> 
-   <td colname="col2"> <p>Nom de la caractéristique. Obligatoire. </p> <p>Longueur maximale : 255 caractères. </p> <p> <p>Remarque : lorsque vous nommez des caractéristiques, évitez les caractères spéciaux suivants : 
+   <td colname="col2"> <p>Nom de la caractéristique. Requis. </p> <p>Longueur maximale : 255 caractères. </p> <p> <p>Remarque : lorsque vous nommez des caractéristiques, évitez les caractères spéciaux suivants : 
       <ul id="ul_AB38A333F21A4AA9B5656CBA69BA65E3"> 
        <li id="li_0E5033B540BC41E799075845388E85A7">Virgules </li> 
        <li id="li_B1A6C3E3FB98473A91E4675EE09460F0">Tirets </li> 
@@ -63,14 +69,14 @@ En [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] vo
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> Associe la caractéristique à un fournisseur de données spécifique. Obligatoire. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Utilisez ensuite le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous n’utilisez pas de suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et correspond par défaut aux sources de données Audience Manager uniquement.</p>  </td> 
+   <td colname="col2"> Associe la caractéristique à un fournisseur de données spécifique. Requis. <p>Utilisez le premier menu déroulant pour filtrer entre les sources de données Audience Manager, les suites de rapports Adobe Analytics ou les deux. Utilisez ensuite le deuxième menu déroulant pour choisir votre source de données.</p><p> Si vous n’utilisez pas de suites de rapports Adobe Analytics, le sélecteur de type de source de données est désactivé et correspond par défaut aux sources de données Audience Manager uniquement.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> type d’événement</span></b> </td> 
    <td colname="col2"> Attribue la caractéristique à un type ou à une catégorie, généralement en fonction de la fonction (par exemple, conversion, visiteur du site, partenaire, page vue, etc.). Facultatif. <p> Pour savoir comment créer des caractéristiques de conversion, consultez la <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=fr">vidéo Création de caractéristiques de conversion dans Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Code d’intégration <b><span class="uicontrol"></span></b> </td> 
+   <td colname="col1"> Code d’intégration </span></b> <b><span class="uicontrol"></td> 
    <td colname="col2"> Champ pour un ID, un SKU ou une autre valeur utilisée par vos processus d’entreprise internes. Facultatif. </td> 
   </tr> 
   <tr> 
@@ -79,7 +85,7 @@ En [!UICONTROL Trait Builder], les paramètres [!UICONTROL Basic Information] vo
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Stocker Dans </span></b> </td> 
-   <td colname="col2"> Détermine à quel dossier de stockage appartient la caractéristique. Obligatoire. </td> 
+   <td colname="col2"> Détermine à quel dossier de stockage appartient la caractéristique. Requis. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> catégorie de données</span></b> </td> 

@@ -7,26 +7,38 @@ title: Capture des données de clics Campaign via des appels de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-TQID: https://experienceleague.adobe.com/LzQsKoBZYRyfg8F87yWhT2CB2ojlydELPKRfy4xjXHo
+TQID: 'https://experienceleague.adobe.com/LzQsKoBZYRyfg8F87yWhT2CB2ojlydELPKRfy4xjXHo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: b59a5343-ccde-4868-a926-97a27448e694
+    internal-label: Campaign integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 639
+source-wordcount: '687'
 ht-degree: 6%
-
 ---
-
 # Capture des données de clics Campaign via des appels de pixels {#capturing-campaign-click-data-via-pixel-calls}
 
 Le suivi des clics permet de mesurer l’engagement des visiteurs tout au long de votre campagne, car il enregistre l’activité basée sur les clics pour les contenus publicitaires tiers. Tout comme pour la [collecte d’impressions](/help/using/integration/media-data-integration/impression-data-pixels.md), un appel d’événement est envoyé aux serveurs de collecte de données [!DNL Audience Manager] ([!DNL DCS]) pour traitement. Le visiteur est ensuite redirigé vers l’adresse web prévue.
@@ -94,7 +106,7 @@ Les événements Click prennent en charge les macros répertoriées dans le tabl
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_creative%</code> </p> </td> 
-   <td colname="col2"> <p>Identifiant créatif numérique du serveur de publicités. </p> <p>Obligatoire. </p> </td> 
+   <td colname="col2"> <p>Identifiant créatif numérique du serveur de publicités. </p> <p>Requis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
@@ -109,7 +121,7 @@ Les événements Click prennent en charge les macros répertoriées dans le tabl
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). Pour plus d’informations sur l’ECID, voir Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et Experience Cloud ID </a>. </p> <p>Facultatif. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). Pour plus d’informations sur l’ECID, voir Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr" format="https" scope="external"> et service d’identités Experience Cloud</a>. </p> <p>Facultatif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -134,7 +146,7 @@ Les événements Click prennent en charge les macros répertoriées dans le tabl
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID de la source à partir de laquelle Audience Manager extrait les métadonnées. </p> <p>Obligatoire. </p> </td> 
+   <td colname="col2"> <p>DPID de la source à partir de laquelle Audience Manager extrait les métadonnées. </p> <p>Requis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 

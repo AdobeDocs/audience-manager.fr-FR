@@ -7,20 +7,26 @@ title: Macros de modèles sortants
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-TQID: https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ
+TQID: 'https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '712'
 ht-degree: 1%
-
 ---
-
 # Macros de modèles sortants {#outbound-template-macros}
 
 Répertorie les macros que vous pouvez utiliser pour créer des modèles sortants. Il s’agit notamment des macros de nom de fichier, d’en-tête et de contenu.
@@ -64,7 +70,7 @@ Le tableau répertorie et décrit les macros que vous pouvez utiliser dans le no
   <tr> 
    <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
    <td colname="col2"> <p>Indique le fractionnement des fichiers sortants en plusieurs parties. Remplacez la section SPLITNUM dans le nom du fichier par le numéro de pièce précédé de zéros, en veillant à ce que la section SPLITNUM comporte au moins trois caractères.</p>
-   <p>Il n'est pas nécessaire que la macro SPLITNUM soit entourée de &lt;&gt; caractères.</p><p>Exemple : <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
+   <p>Il n'est pas nécessaire que la macro SPLITNUM soit entourée de &lt;&gt; caractères.</p><p>Exemple : <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
 <p>s3_123456_9999_full_1566906141001.csv</p> 
 <p>s3_123456_9999_full_1566906141002.csv</p> 
 <p>s3_123456_9999_full_1566906141003.csv</p> 
@@ -117,7 +123,7 @@ Macros utilisées pour formater le contenu d&#39;un fichier de données. Pour ob
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> d'identifiant d'utilisateur unique du fournisseur de données </span>. </p> <p>Il s’agit de l’identifiant du partenaire de données auquel vous envoyez des données dans un fichier sortant. </p> </td> 
+   <td colname="col2"> <p> </span> d'identifiant d'utilisateur unique du fournisseur de données <span class="term">. </p> <p>Il s’agit de l’identifiant du partenaire de données auquel vous envoyez des données dans un fichier sortant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 

@@ -7,20 +7,28 @@ title: Principales caractéristiques inutilisées
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
-TQID: https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho
+TQID: 'https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: '625'
 ht-degree: 0%
-
 ---
-
 # Principales caractéristiques inutilisées{#top-unused-traits}
 
 Les principales caractéristiques inutilisées sont représentées sous la forme d’un diagramme de dispersion des caractéristiques qui ne sont pas encore membres d’un segment, en fonction du type de caractéristique, de la source de données et des performances.
@@ -74,7 +82,7 @@ Voir les descriptions pour les informations supplémentaires dans le tableau sou
    <td colname="col2"> <p>ID unique de cette caractéristique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nom de la caractéristique <span class="wintitle"></span> </p> </td> 
+   <td colname="col1"> <p>Nom de la caractéristique </span> <span class="wintitle"></p> </td> 
    <td colname="col2"> <p>Nom alphanumérique attribué à cette caractéristique par vous ou le fournisseur de données. </p> </td> 
   </tr> 
   <tr> 
