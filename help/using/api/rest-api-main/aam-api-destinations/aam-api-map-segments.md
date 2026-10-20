@@ -52,7 +52,7 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
 {
    "sid":87723,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/fr",
    "startDate":"2012-07-04"
 }
 ```
@@ -76,7 +76,7 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
    "startDate":"2012-07-03",
    "endDate":null,
    "priority":null,
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/fr",
    "secureUrl":null,
    "tagCode":null,
    "secureTagCode":null,
@@ -342,7 +342,7 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/fr",
    "startDate":"2012-11-20"
 },
 {
@@ -376,7 +376,7 @@ Une réponse réussie renvoie le tableau des mappages créés.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/fr",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -426,7 +426,7 @@ Créez plusieurs mappages de destination dans un tableau . Toutes les valeurs de
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/fr",
    "startDate":"2012-11-20"
 },
 {
@@ -460,7 +460,7 @@ Renvoie un tableau des mappages créés.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/fr",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -559,7 +559,7 @@ Toutes les valeurs de requête sont requises, sauf indication contraire.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/fr",
    "startDate":"2012-11-20"
 }
 ```

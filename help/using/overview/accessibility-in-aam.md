@@ -34,7 +34,7 @@ ht-degree: 0%
 
 L’accessibilité fait référence à une série de fonctionnalités qui rendent un produit logiciel utilisable, avec le moins d’effort possible de la part des utilisateurs présentant divers handicaps, tels que visuels, auditifs, cognitifs, moteurs ou autres.
 
-Leader du secteur en matière d’accessibilité, Adobe soutient la création d’expériences web exceptionnelles en encourageant les développeurs à produire du contenu riche et attrayant accessible à tous les utilisateurs. Pour plus d’informations sur l’engagement d’Adobe en matière d’accessibilité, consultez [Accessibilité d’Adobe](https://www.adobe.com/accessibility.html).
+Leader du secteur en matière d’accessibilité, Adobe soutient la création d’expériences web exceptionnelles en encourageant les développeurs à produire du contenu riche et attrayant accessible à tous les utilisateurs. Pour plus d’informations sur l’engagement d’Adobe en matière d’accessibilité, consultez [Accessibilité d’Adobe](https://www.adobe.com/fr/accessibility.html).
 
 Les fonctionnalités d’accessibilité les plus courantes des produits logiciels sont les suivantes : navigation au clavier, structure sémantique, contraste suffisant entre les éléments de premier plan et les éléments d’arrière-plan, prise en charge de la technologie d’assistance, libellés d’élément clairs, etc.
 
