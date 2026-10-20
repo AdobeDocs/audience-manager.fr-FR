@@ -37,7 +37,7 @@ Audience Manager fournit des kits de développement logiciel ([!DNL SDK]) pour [
 
 >[!IMPORTANT]
 >
->En septembre 2018, nous avons publié une nouvelle version majeure du SDK. Ces nouveaux SDK Adobe Experience Platform Mobile peuvent être configurés via [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+>En septembre 2018, nous avons publié une nouvelle version majeure du SDK. Ces nouveaux SDK Adobe Experience Platform Mobile peuvent être configurés via [Experience Platform Launch](https://www.adobe.com/fr/experience-platform/launch.html).
 
 * Pour commencer, cliquez sur [Launch](https://launch.adobe.com/).
 * Pour consulter le contenu des référentiels SDK d’Experience Platform, accédez à [Github : Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
